@@ -1,0 +1,92 @@
+name: Sync upstream → translation PR
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # every Monday at 6am UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync-upstream:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout local
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "sync-bot"
+          git config user.email "sync-bot@users.noreply.github.com"
+
+      - name: Add upstream
+        run: |
+          git remote add upstream https://github.com/5etools-mirror-3/5etools-src.git
+          git fetch upstream main
+
+      - name: Check for new commits
+        id: check
+        run: |
+          NEW_COMMITS=$(git log HEAD..upstream/main --oneline | wc -l)
+          echo "count=$NEW_COMMITS" >> "$GITHUB_OUTPUT"
+
+      - name: Stop if nothing new
+        if: steps.check.outputs.count == '0'
+        run: echo "No new upstream commits. Ending job."
+
+      - name: Create sync branch
+        if: steps.check.outputs.count != '0'
+        run: |
+          BRANCH="sync-upstream-$(date +'%Y-%m-%d')"
+          echo "BRANCH=$BRANCH" >> "$GITHUB_ENV"
+          git checkout -b "$BRANCH"
+
+      - name: Attempt merge
+        if: steps.check.outputs.count != '0'
+        id: merge
+        continue-on-error: true
+        run: |
+          git merge upstream/main -m "Sync upstream ($(date +'%Y-%m-%d'))"
+
+      - name: Commit even with unresolved conflicts
+        if: steps.check.outputs.count != '0' && steps.merge.outcome == 'failure'
+        run: |
+          git add .
+          git commit -m "Sync upstream with conflicts to resolve/translate ($(date +'%Y-%m-%d'))"
+
+      - name: Push branch
+        if: steps.check.outputs.count != '0'
+        run: git push origin "$BRANCH"
+
+      - name: List conflicting files
+        if: steps.check.outputs.count != '0' && steps.merge.outcome == 'failure'
+        id: conflicts
+        run: |
+          FILES=$(git diff --name-only --diff-filter=U || true)
+          {
+            echo "list<<EOF"
+            echo "$FILES"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create Pull Request
+        if: steps.check.outputs.count != '0'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ env.BRANCH }}
+          base: main
+          title: "🔄 Sync upstream (en) — ${{ steps.check.outputs.count }} new commits"
+          body: |
+            This PR contains the new commits from `5etools-mirror-3/5etools-src`.
+
+            **Pending commits:** ${{ steps.check.outputs.count }}
+            **Merge status:** ${{ steps.merge.outcome == 'success' && '✅ automatic, no conflicts' || '⚠️ conflicts to resolve/translate' }}
+
+            ${{ steps.merge.outcome == 'failure' && format('Files with conflicts to translate:\n```\n{0}\n```', steps.conflicts.outputs.list) || 'Nothing to translate manually, just double-check everything looks consistent.' }}
+          labels: sync-upstream

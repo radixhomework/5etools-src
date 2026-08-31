@@ -35050,7 +35050,8 @@
           "{@creature Ras Nsi|ToA|Ras Nsi} est lentement dévoré par une maladie magique sans remède connu.",
           "{@creature Ras Nsi|ToA|Ras Nsi} a conclu un pacte avec un puissant liche nommé {@creature Acererak|ToA|Acererak}, qui conquit Omu jadis et bâtit un tombeau sous la ville. L'entrée du tombeau est marquée d'un obélisque. (Yahru peut fournir des indications.)",
           "{@creature Acererak|ToA|Acererak} tua les neuf dieux d'Omu avant d'asservir les habitants humains et minotaures de la ville, qu'il employa à bâtir son tombeau."
-         ]
+         ],
+         "columns": 3
         }
        ]
       },
@@ -47161,11 +47162,23 @@
     "Lors de la création de personnages, les joueurs peuvent choisir, avec votre accord, les historiques suivants pour leurs personnages. Ces historiques conviennent à tout personnage ou à toute campagne associée à la découverte et à l'exploration de cultures exotiques et de civilisations disparues.",
     {
      "type": "list",
-     "columns": 2,
+     "columns": 3,
      "items": [
-      "{@background Anthropologue|ToA|Anthropologue}",
-      "{@background Archéologue|ToA|Archéologue}"
+      "{@background Anthropologist|ToA}",
+      "{@background Archaeologist|ToA}"
      ]
+    },
+    {
+     "type": "statblock",
+     "name": "Anthropologue",
+     "tag": "background",
+     "source": "ToA"
+    },
+    {
+     "type": "statblock",
+     "name": "Archéologue",
+     "tag": "background",
+     "source": "ToA"
     }
    ]
   },
@@ -50062,14 +50075,57 @@
       {
        "type": "list",
        "items": [
-        "{@item Amulette du crâne noir|ToA|Amulette du crâne noir}",
-        "{@item Marque-page|ToA|Marque-page}",
-        "{@item Lanterne fantôme|ToA|Lanterne fantôme}",
-        "{@item Masque de la bête|ToA|Masque de la bête}",
-        "{@item Anneau d'hiver|ToA|Anneau de l'hiver}",
-        "{@item Armure du scorpion|ToA|Armure de scorpion}",
-        "{@item Bâton de l'Oublié|ToA|Bâton de l'Oublié}"
-       ]
+        "{@item Amulet of the Black Skull|ToA}",
+        "{@item Bookmark|ToA}",
+        "{@item Ghost Lantern|ToA}",
+        "{@item Mask of the Beast|ToA}",
+        "{@item Ring of Winter|ToA}",
+        "{@item Scorpion Armor|ToA}",
+        "{@item Staff of the Forgotten One|ToA}"
+       ],
+       "columns": 3
+      },
+      {
+       "type": "statblock",
+       "name": "Amulette du crâne noir",
+       "tag": "item",
+       "source": "ToA"
+      },
+      {
+       "type": "statblock",
+       "name": "Marque-page",
+       "tag": "item",
+       "source": "ToA"
+      },
+      {
+       "type": "statblock",
+       "name": "Lanterne fantôme",
+       "tag": "item",
+       "source": "ToA"
+      },
+      {
+       "type": "statblock",
+       "name": "Masque de la bête",
+       "tag": "item",
+       "source": "ToA"
+      },
+      {
+       "type": "statblock",
+       "name": "Anneau d'hiver",
+       "tag": "item",
+       "source": "ToA"
+      },
+      {
+       "type": "statblock",
+       "name": "Armure du scorpion",
+       "tag": "item",
+       "source": "ToA"
+      },
+      {
+       "type": "statblock",
+       "name": "Bâton de l'Oublié",
+       "tag": "item",
+       "source": "ToA"
       }
      ]
     }
@@ -50145,6 +50201,1279 @@
       "{@creature Zombie girallon|ToA|Zombie girallon}",
       "{@creature Zombie tyrannosaure|ToA|Zombie tyrannosaure}",
       "{@creature Zorbo|ToA|Zorbo}"
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Acererak",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Acererak",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Acererak",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Albino Dwarf Warrior",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Guerrier nain albinos",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Guerrier nain albinos",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Aldani (Lobsterfolk)",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Aldani (peuple-écrevisse)",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Aldani (peuple-écrevisse)",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Almiraj",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Almiraj",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Almiraj",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Assassin Vine",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Liane assassine",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Liane assassine",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Atropal",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Atropal",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Atropal",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Bodak",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Bodak",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Bodak",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Brontosaurus",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Brontosaurus",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Brontosaurus",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Champion",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Champion",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Champion",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Chwinga",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Chwinga",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Chwinga",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Deinonychus",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Deinonychus",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Deinonychus",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Dimetrodon",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Dimetrodon",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Dimetrodon",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Dragonbait",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Dragonbait",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Dragonbait",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Eblis",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Eblis",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Eblis",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Firenewt",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Firenewt Warrior",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Firenewt Warrior",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      },
+      {
+       "type": "statblock",
+       "name": "Firenewt Warlock of Imix",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Flail Snail",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Flail Snail",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Flail Snail",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Flying Monkey",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Singe volant",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Singe volant",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Froghemoth",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Froghemoth",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Froghemoth",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Giant Four-Armed Gargoyle",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Gargouille géante à quatre bras",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Gargouille géante à quatre bras",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Giant Snapping Turtle",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Tortue serpentine géante",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Tortue serpentine géante",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Giant Strider",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Giant Strider",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Giant Strider",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Girallon",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Girallon",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Girallon",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Grung",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Grung",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Grung",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      },
+      {
+       "type": "statblock",
+       "name": "Grung Wildling",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      },
+      {
+       "type": "statblock",
+       "name": "Grung Elite Warrior",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Hadrosaurus",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Hadrosaurus",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Hadrosaurus",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Jaculi",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Jaculus",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Jaculus",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Kamadan",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Kamadan",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Kamadan",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Kobold",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Kobolds",
+       "source": "VGM",
+       "prop": "monsterFluff",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Kobold Inventor",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      },
+      {
+       "type": "statblock",
+       "name": "Kobold Scale Sorcerer",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Liara Portyr",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Liara Portyr",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Liara Portyr",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Mantrap",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Attrape-hommes",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Attrape-hommes",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Mwaxanaré",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Mwaxanaré",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Mwaxanaré",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Pterafolk",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Ptérofolk",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Ptérofolk",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Quetzalcoatlus",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Quetzalcoatlus",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Quetzalcoatlus",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Ras Nsi",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Ras Nsi",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Ras Nsi",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Stegosaurus",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Stegosaurus",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Stegosaurus",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Stone Juggernaut",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Juggernaut de pierre",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Juggernaut de pierre",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Su-monster",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Su-monstre",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Su-monstre",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Tabaxi",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Tabaxi",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Chasseur tabaxi",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      },
+      {
+       "type": "statblock",
+       "name": "Ménestrel tabaxi",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Thorny",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Thorny",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Thorny",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Tri-flower Frond",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Fronde triflore",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Fronde triflore",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Vegepygmy",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Vegepygmy",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Vegepygmy",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Vegepygmy Chief",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Vegepygmy Chief",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Vegepygmy Chief",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Velociraptor",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Velociraptor",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Velociraptor",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Volothamp \"Volo\" Geddarm",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Volothamp « Volo » Geddarm",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Volothamp « Volo » Geddarm",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Xandala",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Xandala",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Xandala",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Yellow Musk Vine",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Yellow Musk Vine",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Liane de musc jaune",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      },
+      {
+       "type": "statblock",
+       "name": "Zombie de musc jaune",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Yuan-ti",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Yuan-ti",
+       "source": "VGM",
+       "prop": "monsterFluff",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Yuan-ti Broodguard",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      },
+      {
+       "type": "statblock",
+       "name": "Yuan-ti Nightmare Speaker",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Zindar",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Zindar",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Zindar",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Ankylosaurus Zombie",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Zombie ankylosaure",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Zombie ankylosaure",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Girallon Zombie",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Zombie girallon",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Zombie girallon",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Tyrannosaurus Zombie",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Zombie tyrannosaure",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Zombie tyrannosaure",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Zorbo",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Zorbo",
+       "prop": "monsterFluff",
+       "source": "ToA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Zorbo",
+       "tag": "creature",
+       "source": "ToA",
+       "style": "narrow"
+      }
      ]
     }
    ]

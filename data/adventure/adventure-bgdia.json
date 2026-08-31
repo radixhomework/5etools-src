@@ -11004,7 +11004,8 @@
            "items": [
             "{@creature Chukka|BGDIA} manie une {@item silvered pike|PHB} ({@hit 2} pour toucher) d'allonge de 10 pieds qui infllige 5 ({@dice 1d10}) dégâts perforants à l'impact.",
             "{@creature Clonk|BGDIA} manie un {@i hellfire warhammer} ({@hit 2} pour toucher) qui inflige 4 ({@dice 1d8}) dégâts contondants à l'impact, ou 5 ({@dice 1d10}) dégâts contondants quand il est maniée à deux mains. Pour plus d'informations sur les {@i hellfire weapons}, voir « {@item Hellfire Weapon|BGDIA} »."
-           ]
+           ],
+           "columns": 3
           },
           {
            "type": "entries",
@@ -15864,7 +15865,8 @@
            "items": [
             "Les bras de {@creature Elliach|BGDIA|Elliach} sont devenus des tentacules avec des doigts au bout, augmentant sa portée de 1,50 mètre.",
             "Les oreilles de {@creature Elliach|BGDIA|Elliach} ont poussé des ailes et se sont envolées. Par conséquent, il est sourd. Il s'appuie sur la lecture labiale et les gestes des mains."
-           ]
+           ],
+           "columns": 3
           },
           "{@creature Elliach|BGDIA|Elliach} a rencontré Mahadi alors qu'il fuyait des recouvreurs de dettes. Mahadi a vu l'intérêt de rembourser les dettes de {@creature Elliach|BGDIA|Elliach} et de l'amener en Avernus pour travailler au Marchand ambulant. Considéré comme fou par beaucoup d'autres vendeurs, {@creature Elliach|BGDIA|Elliach} utilise l'ichor démoniaque dans une multitude d'expériences magiques, dont aucune ne semble donner les résultats escomptés.",
           {
@@ -21842,6 +21844,90 @@
         "{@background Orphelin de Baldur's Gate|BGDIA|Orphelin}"
        ],
        "columns": 4
+      },
+      {
+       "type": "statblock",
+       "name": "Acolyte de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Charlatan de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Criminel de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Artiste de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Sans-visage",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Héros du peuple de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Artisan de guilde de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Ermite de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Noble de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Originaire des terres sauvages de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Savant de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Marin de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Soldat de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Orphelin de Baldur's Gate",
+       "tag": "background",
+       "source": "BGDIA"
       }
      ]
     },
@@ -22967,6 +23053,48 @@
         "{@reward Charme des mille langues|BGDIA}",
         "{@reward Charme de l'adamantin|BGDIA}"
        ]
+      },
+      {
+       "type": "statblock",
+       "name": "Charm of Agelessness",
+       "tag": "reward",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Charm of Diabolical Inspiration",
+       "tag": "reward",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Charm of Greater Conscription",
+       "tag": "reward",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Charm of Hellish Rebuke",
+       "tag": "reward",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Charm of Lesser Conscription",
+       "tag": "reward",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Charm of Many Tongues",
+       "tag": "reward",
+       "source": "BGDIA"
+      },
+      {
+       "type": "statblock",
+       "name": "Charm of the Adamant",
+       "tag": "reward",
+       "source": "BGDIA"
       }
      ]
     }
@@ -23160,12 +23288,40 @@
       {
        "type": "list",
        "items": [
-        "{@vehicle Chevauchée du Diable|BGDIA}",
-        "{@vehicle Tourmenteur|BGDIA}",
-        "{@vehicle Broyeur de démons|BGDIA}",
-        "{@vehicle Charognard|BGDIA}"
+        "{@vehicle Devil's Ride|BGDIA}",
+        "{@vehicle Tormentor|BGDIA}",
+        "{@vehicle Demon Grinder|BGDIA}",
+        "{@vehicle Scavenger|BGDIA}"
        ],
-       "columns": 2
+       "columns": 3
+      },
+      {
+       "type": "statblock",
+       "name": "Devil's Ride",
+       "tag": "vehicle",
+       "source": "BGDIA",
+       "style": "narrow"
+      },
+      {
+       "type": "statblock",
+       "name": "Tormentor",
+       "tag": "vehicle",
+       "source": "BGDIA",
+       "style": "narrow"
+      },
+      {
+       "type": "statblock",
+       "name": "Demon Grinder",
+       "tag": "vehicle",
+       "source": "BGDIA",
+       "style": "narrow"
+      },
+      {
+       "type": "statblock",
+       "name": "Scavenger",
+       "tag": "vehicle",
+       "source": "BGDIA",
+       "style": "narrow"
       },
       {
        "type": "entries",
@@ -23355,6 +23511,30 @@
           "{@vehupgrade Styx Sprayer|BGDIA}"
          ],
          "columns": 4
+        },
+        {
+         "type": "statblock",
+         "name": "Acidic Bile Sprayer",
+         "tag": "vehupgrade",
+         "source": "BGDIA"
+        },
+        {
+         "type": "statblock",
+         "name": "Flamethrower",
+         "tag": "vehupgrade",
+         "source": "BGDIA"
+        },
+        {
+         "type": "statblock",
+         "name": "Infernal Screamer",
+         "tag": "vehupgrade",
+         "source": "BGDIA"
+        },
+        {
+         "type": "statblock",
+         "name": "Styx Sprayer",
+         "tag": "vehupgrade",
+         "source": "BGDIA"
         }
        ]
       },
@@ -23373,6 +23553,24 @@
           "{@vehupgrade Soul Spike Armor|BGDIA}"
          ],
          "columns": 3
+        },
+        {
+         "type": "statblock",
+         "name": "Canian Armor",
+         "tag": "vehupgrade",
+         "source": "BGDIA"
+        },
+        {
+         "type": "statblock",
+         "name": "Gilded Death Armor",
+         "tag": "vehupgrade",
+         "source": "BGDIA"
+        },
+        {
+         "type": "statblock",
+         "name": "Soul Spike Armor",
+         "tag": "vehupgrade",
+         "source": "BGDIA"
         }
        ]
       },
@@ -23389,7 +23587,19 @@
           "{@vehupgrade Necrotic Smoke Screen|BGDIA}",
           "{@vehupgrade Teleporter|BGDIA}"
          ],
-         "columns": 2
+         "columns": 3
+        },
+        {
+         "type": "statblock",
+         "name": "Necrotic Smoke Screen",
+         "tag": "vehupgrade",
+         "source": "BGDIA"
+        },
+        {
+         "type": "statblock",
+         "name": "Teleporter",
+         "tag": "vehupgrade",
+         "source": "BGDIA"
         }
        ]
       }
@@ -23498,6 +23708,78 @@
       "{@item Épée de Zariel|BGDIA}"
      ],
      "columns": 4
+    },
+    {
+     "type": "statblock",
+     "name": "Enseigne de bataille du pouvoir infernal",
+     "tag": "item",
+     "source": "BGDIA"
+    },
+    {
+     "type": "statblock",
+     "name": "Gantelets de fureur flamboyante",
+     "tag": "item",
+     "source": "BGDIA"
+    },
+    {
+     "type": "statblock",
+     "name": "Dévoreur de temples",
+     "tag": "item",
+     "source": "BGDIA"
+    },
+    {
+     "type": "statblock",
+     "name": "Hellfire Weapon",
+     "tag": "item",
+     "source": "BGDIA"
+    },
+    {
+     "type": "statblock",
+     "name": "Heaume de commandement des diables",
+     "tag": "item",
+     "source": "BGDIA"
+    },
+    {
+     "type": "statblock",
+     "name": "Boîte-casse-tête infernale",
+     "tag": "item",
+     "source": "BGDIA"
+    },
+    {
+     "type": "statblock",
+     "name": "Infernal Tack",
+     "tag": "item",
+     "source": "MTF"
+    },
+    {
+     "type": "statblock",
+     "name": "Matalotok",
+     "tag": "item",
+     "source": "BGDIA"
+    },
+    {
+     "type": "statblock",
+     "name": "Plaque de silex obsidienne de dragon",
+     "tag": "item",
+     "source": "BGDIA"
+    },
+    {
+     "type": "statblock",
+     "name": "Bouclier du Seigneur Caché",
+     "tag": "item",
+     "source": "BGDIA"
+    },
+    {
+     "type": "statblock",
+     "name": "Pièce d'âme",
+     "tag": "item",
+     "source": "BGDIA"
+    },
+    {
+     "type": "statblock",
+     "name": "Épée de Zariel",
+     "tag": "item",
+     "source": "BGDIA"
     }
    ]
   },
@@ -23537,6 +23819,571 @@
       "{@creature Archiduchesse Zariel d'Avernus|BGDIA|Zariel}"
      ],
      "columns": 4
+    },
+    {
+     "type": "section",
+     "name": "Amnizu",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Amnizu",
+       "prop": "monsterFluff",
+       "source": "MTF",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Amnizu",
+       "tag": "creature",
+       "source": "MTF",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Baphomet",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Baphomet",
+       "prop": "monsterFluff",
+       "source": "MTF",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Baphomet",
+       "tag": "creature",
+       "source": "MTF",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Bulezau",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Bulezau",
+       "prop": "monsterFluff",
+       "source": "MTF",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Bulezau",
+       "tag": "creature",
+       "source": "MTF",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Crokek'toeck",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Crokek'toeck",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Crokek'toeck",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Fist of Bane",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Poing de Bane",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Poing de Bane",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Iron Consul",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Consul de fer",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Consul de fer",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Black Gauntlet of Bane",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Gantelet noir de Bane",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Gantelet noir de Bane",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Night Blade",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Lame nocturne",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Lame nocturne",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Reaper of Bhaal",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Faucheur de Bhaal",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Faucheur de Bhaal",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Death's Head of Bhaal",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Tête de mort de Bhaal",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Tête de mort de Bhaal",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Necromite of Myrkul",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Nécromite de Myrkul",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Nécromite de Myrkul",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Skull Lasher of Myrkul",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Fouetteur de crânes de Myrkul",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Fouetteur de crânes de Myrkul",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Master of Souls",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Maître des âmes",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Maître des âmes",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Fiendish Flesh Golem",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Golem de chair infernal",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Golem de chair infernal",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Hellwasp",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Guêpe infernale",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Guêpe infernale",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Hollyphant",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Hollyphant",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Hollyphant",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Merregon",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Merregon",
+       "prop": "monsterFluff",
+       "source": "MTF",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Merregon",
+       "tag": "creature",
+       "source": "MTF",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Narzugon",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Narzugon",
+       "prop": "monsterFluff",
+       "source": "MTF",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Narzugon",
+       "tag": "creature",
+       "source": "MTF",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Nupperibo",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Nupperibo",
+       "prop": "monsterFluff",
+       "source": "MTF",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Nupperibo",
+       "tag": "creature",
+       "source": "MTF",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Redcap",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Redcap",
+       "prop": "monsterFluff",
+       "source": "VGM",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Redcap",
+       "tag": "creature",
+       "source": "VGM",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Tressym",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Tressym",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "White Abishai",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "White Abishai",
+       "prop": "monsterFluff",
+       "source": "MTF",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "White Abishai",
+       "tag": "creature",
+       "source": "MTF",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Yeenoghu",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Yeenoghu",
+       "prop": "monsterFluff",
+       "source": "MTF",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Yeenoghu",
+       "tag": "creature",
+       "source": "MTF",
+       "style": "narrow"
+      }
+     ]
+    },
+    {
+     "type": "section",
+     "name": "Archduke Zariel of Avernus",
+     "entries": [
+      {
+       "type": "statblock",
+       "name": "Archiduchesse Zariel d'Avernus",
+       "prop": "monsterFluff",
+       "source": "BGDIA",
+       "data": {
+        "renderCompact": {
+         "isSkipRootName": true
+        }
+       }
+      },
+      {
+       "type": "statblock",
+       "name": "Archiduchesse Zariel d'Avernus",
+       "tag": "creature",
+       "source": "BGDIA",
+       "style": "narrow"
+      }
+     ]
     }
    ]
   },
@@ -23897,7 +24744,8 @@
       "path": "adventure/BGDIA/182-ef7bt-g-01.webp"
      },
      "width": 1419,
-     "height": 1806
+     "height": 1806,
+     "expectsLightBackground": true
     }
    ]
   },

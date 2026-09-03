@@ -224,7 +224,7 @@
 										{
 											"type": "item",
 											"name": "Lighting",
-											"entry": "The caverns are unlit. Denizens carry their own light or rely on {@sense darkvision} to see. Area descriptions assume the characters have a light source or other means of seeing in the dark."
+											"entry": "The caverns are unlit. Denizens carry their own light or rely on {@sense Vision dans le noir} to see. Area descriptions assume the characters have a light source or other means of seeing in the dark."
 										},
 										{
 											"type": "item",
@@ -6087,7 +6087,7 @@
 											"id": "015",
 											"entries": [
 												"Each of the faces contains a different gem worth 200 gp: amber, amethyst, blue aquamarine, garnet, peridot, and pink tourmaline.",
-												"A creature that tries to retrieve a gem from one of the faces without first asking the face to open its mouth must make a {@dc 17} Dexterity ({@skill Sleight of Hand}) check. On a failed check, the creature takes 11 ({@dice 2d10}) bludgeoning damage as the mouth clamps shut. The mouth similarly damages tools or weapons inserted into it without its permission."
+												"A creature that tries to retrieve a gem from one of the faces without first asking the face to open its mouth must make a {@dc 17} Dexterity ({@skill Escamotage}) check. On a failed check, the creature takes 11 ({@dice 2d10}) bludgeoning damage as the mouth clamps shut. The mouth similarly damages tools or weapons inserted into it without its permission."
 											]
 										}
 									]
@@ -6158,7 +6158,7 @@
 											"id": "01e",
 											"entries": [
 												"A 20-foot-wide section of the ceiling over the skeleton contains a crushing deadfall. A character who examines the ceiling and succeeds on a {@dc 17} Wisdom ({@skill Perception}) check notices bits of decayed flesh stuck to the ceiling, which is flat and made of stone.",
-												"Whenever a creature enters the area marked on the map, the trap magically triggers. That section of the ceiling rapidly drops, crushing anything in its path. Creatures in that area must make a {@dc 17} Dexterity saving throw. On a failed save, a creature takes 55 ({@dice 10d10}) bludgeoning damage and has the {@condition prone} condition. On a successful save, it takes half as much damage only and is pushed to the nearest unoccupied space outside the trap's area. Objects wedged under the trap are destroyed. The stone then retracts into the ceiling, and the trap resets.",
+												"Whenever a creature enters the area marked on the map, the trap magically triggers. That section of the ceiling rapidly drops, crushing anything in its path. Creatures in that area must make a {@dc 17} Dexterity saving throw. On a failed save, a creature takes 55 ({@dice 10d10}) bludgeoning damage and has the {@condition À terre} condition. On a successful save, it takes half as much damage only and is pushed to the nearest unoccupied space outside the trap's area. Objects wedged under the trap are destroyed. The stone then retracts into the ceiling, and the trap resets.",
 												"A successful {@spell Dispel Magic} spell ({@dc 17}) suppresses the trap and its illusions for 24 hours."
 											]
 										},
@@ -6198,13 +6198,13 @@
 										},
 										"Eight {@creature Pech|DitLCoT|pechs} (see {@area appendix B|062|x}) are diligently carving a tunnel from this grotto up into the mountain toward an enclosed cavern they can sense. For now, the tunnel leads only to a dead end. If the characters draw attention with light or noise, the pechs investigate.",
 										"The pechs are initially indifferent toward the characters, admonishing them to douse any bright lights they carry, as the lights hurt the pechs' eyes. If the characters comply, the pechs become curious and willing to chat. Otherwise, they resume their work, defending themselves if necessary.",
-										"In conversation, the pechs warn the characters about the clay golem in the slate chamber ({@area area L2|016|x}). Characters can improve the pechs' attitude toward them by offering the pechs at least 500 gp of gems or a unique carving or sculpture, especially one made of stone. Friendly pechs might be willing to help fight the clay golem or use their Communal Spellcasting action to restore {@condition petrified} characters.",
+										"In conversation, the pechs warn the characters about the clay golem in the slate chamber ({@area area L2|016|x}). Characters can improve the pechs' attitude toward them by offering the pechs at least 500 gp of gems or a unique carving or sculpture, especially one made of stone. Friendly pechs might be willing to help fight the clay golem or use their Communal Spellcasting action to restore {@condition Pétrifié} characters.",
 										{
 											"type": "entries",
 											"name": "Carvings",
 											"id": "022",
 											"entries": [
-												"The carvings on the walls depict cave-dwelling creatures, such as bats and crickets, as well as creatures from the Elemental Plane of Earth such as {@creature dao}, {@creature Pech|DitLCoT|pechs}, {@creature xorn}, and {@creature Earth Elemental||earth elementals}. Characters who inspect the carvings and succeed on a {@dc 16} Intelligence ({@skill Arcana}) check identify the planar creatures."
+												"The carvings on the walls depict cave-dwelling creatures, such as bats and crickets, as well as creatures from the Elemental Plane of Earth such as {@creature dao}, {@creature Pech|DitLCoT|pechs}, {@creature xorn}, and {@creature Earth Elemental||earth elementals}. Characters who inspect the carvings and succeed on a {@dc 16} Intelligence ({@skill Arcanes}) check identify the planar creatures."
 											]
 										}
 									]
@@ -6252,7 +6252,7 @@
 											"name": "Green Slime",
 											"id": "028",
 											"entries": [
-												"Six patches of {@hazard green slime} (see the {@book Dungeon Master's Guide|DMG}) cling to the ceiling near the fallen adventurer. A character who inspects the slime and succeeds on a {@dc 15} Intelligence ({@skill Nature}) check recognizes the danger it poses. The slime falls on creatures that approach the corpse."
+												"Six patches of {@hazard Gluant vert} (see the {@book Dungeon Master's Guide|DMG}) cling to the ceiling near the fallen adventurer. A character who inspects the slime and succeeds on a {@dc 15} Intelligence ({@skill Nature}) check recognizes the danger it poses. The slime falls on creatures that approach the corpse."
 											]
 										},
 										{
@@ -6260,7 +6260,7 @@
 											"name": "Mushrooms",
 											"id": "029",
 											"entries": [
-												"The fungi here are mostly edible. Foraging in this cavern requires a successful {@dc 15} Wisdom ({@skill Survival}) check to avoid the harmful molds and slime. On a failed check, the mushrooms the character gathers are contaminated by the slime. A creature that eats a contaminated mushroom must succeed on a {@dc 12} Constitution saving throw or have the {@condition poisoned} condition for 8 hours."
+												"The fungi here are mostly edible. Foraging in this cavern requires a successful {@dc 15} Wisdom ({@skill Survie}) check to avoid the harmful molds and slime. On a failed check, the mushrooms the character gathers are contaminated by the slime. A creature that eats a contaminated mushroom must succeed on a {@dc 12} Constitution saving throw or have the {@condition Empoisonné} condition for 8 hours."
 											]
 										},
 										{
@@ -6268,7 +6268,7 @@
 											"name": "Treasure",
 											"id": "02a",
 											"entries": [
-												"The elf corpse carries a {@item silvered rapier|PHB} and wears {@item Bracers of Defense}."
+												"The elf corpse carries a {@item silvered rapier|PHB} and wears {@item Brassards de défense}."
 											]
 										}
 									]
@@ -6303,7 +6303,7 @@
 											"name": "Treasure",
 											"id": "02d",
 											"entries": [
-												"Gathered under the trolls' beds is their accumulated loot: 120 gp, 900 sp, four gems worth 50 gp each, gnome-sized wooden dentures set with mother-of-pearl teeth (worth 50 gp), a {@item quiver|PHB} with twenty {@item silvered arrow|PHB|silvered arrows}, and a {@item Potion of Greater Healing||Potion of Healing (greater)}."
+												"Gathered under the trolls' beds is their accumulated loot: 120 gp, 900 sp, four gems worth 50 gp each, gnome-sized wooden dentures set with mother-of-pearl teeth (worth 50 gp), a {@item Carquois|PHB} with twenty {@item silvered arrow|PHB|silvered arrows}, and a {@item Potion de soins supérieurs||Potion of Healing (greater)}."
 											]
 										}
 									]
@@ -6385,7 +6385,7 @@
 											"name": "Treasure",
 											"id": "037",
 											"entries": [
-												"The vessel is a {@item Folding Boat} created to traverse the lake and the rivers that branch from it. In addition to its usual properties, the boat has an extra command word that functions only while the boat is within the Lost Caverns. A character who knows this additional command word (\"Shrimpkin\")\u2014discovered by casting the {@spell Identify} spell on the boat or by examining clues in the boat's intricate designs and succeeding on a {@dc 16} Intelligence ({@skill Arcana}) check\u2014can command the boat to row itself in a particular direction at a speed of 30 feet or to hold its position in defiance of the water's swiftest currents."
+												"The vessel is a {@item Barque pliante} created to traverse the lake and the rivers that branch from it. In addition to its usual properties, the boat has an extra command word that functions only while the boat is within the Lost Caverns. A character who knows this additional command word (\"Shrimpkin\")\u2014discovered by casting the {@spell Identify} spell on the boat or by examining clues in the boat's intricate designs and succeeding on a {@dc 16} Intelligence ({@skill Arcanes}) check\u2014can command the boat to row itself in a particular direction at a speed of 30 feet or to hold its position in defiance of the water's swiftest currents."
 											]
 										}
 									]
@@ -6441,7 +6441,7 @@
 											"name": "Treasure",
 											"id": "03e",
 											"entries": [
-												"The head and shoulder of a {@condition petrified} gnome lie near the basilisk nest at the back of the cave. The broken statue wears a pair of unpetrified goggles, which are {@item Eyes of Minute Seeing}."
+												"The head and shoulder of a {@condition Pétrifié} gnome lie near the basilisk nest at the back of the cave. The broken statue wears a pair of unpetrified goggles, which are {@item Yeux de la vue perçante}."
 											]
 										}
 									]
@@ -6485,7 +6485,7 @@
 											"name": "Treasure",
 											"id": "042",
 											"entries": [
-												"Inside Lludd's stomach is a {@item Periapt of Proof against Poison} left over from an unlucky explorer the behir digested."
+												"Inside Lludd's stomach is a {@item Talisman de prévention du poison} left over from an unlucky explorer the behir digested."
 											]
 										}
 									]
@@ -6560,7 +6560,7 @@
 											"name": "Poisoned Feast",
 											"id": "04b",
 											"entries": [
-												"The food and drink on the table are real\u2014and poisoned. A creature that consumes any of the food or drink must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes 21 ({@dice 6d6}) poison damage and has the {@condition poisoned} condition for 1 hour. On a successful save, the creature takes half as much damage only. The illusory nobles nonchalantly partake of the sumptuous feast, politely encouraging the characters to sample the dishes."
+												"The food and drink on the table are real\u2014and poisoned. A creature that consumes any of the food or drink must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes 21 ({@dice 6d6}) poison damage and has the {@condition Empoisonné} condition for 1 hour. On a successful save, the creature takes half as much damage only. The illusory nobles nonchalantly partake of the sumptuous feast, politely encouraging the characters to sample the dishes."
 											]
 										},
 										{
@@ -6679,7 +6679,7 @@
 											"id": "059",
 											"entries": [
 												"Kasdu'ul was trapped here by the dao Kashem (see {@area area L17|048|x}) centuries ago, shortly before Kashem was fooled and bound by Iggwilv in turn. A permanent {@spell Antipathy/Sympathy} spell (save {@dc 18}) protects the cage and repels creatures that aren't native to the Elemental Plane of Earth with its Antipathy effect. The runes on the cage invoke the hatred of Ogrémoch, the Prince of Evil Earth.",
-												"While the cage is intact, Kasdu'ul has the {@condition incapacitated} condition and speaks in a lethargic tone. If the characters overcome the Antipathy effect and approach the cage, the genie drowsily asks them to destroy it."
+												"While the cage is intact, Kasdu'ul has the {@condition Incapable} condition and speaks in a lethargic tone. If the characters overcome the Antipathy effect and approach the cage, the genie drowsily asks them to destroy it."
 											]
 										},
 										{
@@ -6705,7 +6705,7 @@
 											"id": "05b",
 											"entries": [
 												"If the cage is destroyed, Kasdu'ul returns to her lively self. The grateful genie urges the characters to find and slay the dao that imprisoned her if they haven't already.",
-												"As thanks for freeing her, she's willing to cast {@spell Tongues}, {@spell Water Breathing}, and {@spell Water Walk} on the characters to facilitate their exploration. If the characters also present proof of Kashem's demise\u2014such as a pinch of the dust left behind after her death\u2014or they offer a convincing story and succeed on a {@dc 17} Charisma ({@skill Deception}) check, Kasdu'ul summons a {@creature water weird} and orders it to serve the characters for 1 hour, after which it vanishes. In either case, Kasdu'ul then bids the characters farewell and returns to the Elemental Plane of Water."
+												"As thanks for freeing her, she's willing to cast {@spell Tongues}, {@spell Water Breathing}, and {@spell Water Walk} on the characters to facilitate their exploration. If the characters also present proof of Kashem's demise\u2014such as a pinch of the dust left behind after her death\u2014or they offer a convincing story and succeed on a {@dc 17} Charisma ({@skill Tromperie}) check, Kasdu'ul summons a {@creature water weird} and orders it to serve the characters for 1 hour, after which it vanishes. In either case, Kasdu'ul then bids the characters farewell and returns to the Elemental Plane of Water."
 											]
 										}
 									]
@@ -6734,9 +6734,9 @@
 							"columns": 3,
 							"items": [
 								"{@item Demon Skin|DitLCoT}",
-								"{@item Iggwilv's Horn|DitLCoT}",
-								"{@item Potion of Polychromy|DitLCoT}",
-								"{@item Tasha's Creeping Keelboat|DitLCoT}"
+								"{@item Cor d'Iggwilv|DitLCoT}",
+								"{@item Potion de polychromie|DitLCoT}",
+								"{@item Barge à quille rampante de Tasha|DitLCoT}"
 							]
 						},
 						{
@@ -6965,7 +6965,7 @@
 								],
 								[
 									"",
-									"One or more characters gained the {@condition petrified} condition",
+									"One or more characters gained the {@condition Pétrifié} condition",
 									"\u22121"
 								],
 								[

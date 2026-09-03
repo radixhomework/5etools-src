@@ -152,7 +152,7 @@
 							"page": 3,
 							"entries": [
 								"Difficulty Class (DC) is the number that a character must equal or exceed to succeed at an action that is not an attack. This includes rolls to use skills.",
-								"For example, if Shalefire wants to move a heavy boulder blocking the mouth of a cave, that requires a skill called {@skill Athletics}. Under \"Skills\" on Shalefire's character sheet, it says \"{@skill Athletics} +6,\" so Shalefire's player rolls a 20-sided die and adds 6 to the number on the die. If the Difficulty Class to move the boulder is 12, the player would need to roll a 6 or higher for Shalefire to move the boulder.",
+								"For example, if Shalefire wants to move a heavy boulder blocking the mouth of a cave, that requires a skill called {@skill Athlétisme}. Under \"Skills\" on Shalefire's character sheet, it says \"{@skill Athlétisme} +6,\" so Shalefire's player rolls a 20-sided die and adds 6 to the number on the die. If the Difficulty Class to move the boulder is 12, the player would need to roll a 6 or higher for Shalefire to move the boulder.",
 								"The Difficulty Class for actions a character can attempt is given in the adventure text. In general, a Difficulty Class of 10 ({@dc 10}) is easy, while a DC of 15 is challenging. Most of the actions in this adventure are {@dc 10}. The Dungeon Master can change DCs if circumstances make an action easier or harder. They can also make up their own DCs when the characters attempt actions not covered in the adventure."
 							],
 							"id": "00c"
@@ -188,7 +188,7 @@
 									"page": 3,
 									"entries": [
 										"Disadvantage works like advantage in reverse. If something in the game makes it harder to take an action, the roll for that action is made with disadvantage. For example, as Shalefire climbs a cliff using a rope, a monster at the top of the cliff shakes the rope. Because it's now harder to climb, Shalefire makes the {@dice d20} roll to climb the rope with disadvantage.",
-										"Disadvantage means that instead of rolling the {@dice d20} once to make the {@skill Athletics} check to climb, Shalefire's player rolls the {@dice d20} twice and uses the lower roll. They then add the normal modifier (+6 for Shalefire's {@skill Athletics} skill) to get a final result."
+										"Disadvantage means that instead of rolling the {@dice d20} once to make the {@skill Athlétisme} check to climb, Shalefire's player rolls the {@dice d20} twice and uses the lower roll. They then add the normal modifier (+6 for Shalefire's {@skill Athlétisme} skill) to get a final result."
 									],
 									"id": "010"
 								}
@@ -200,9 +200,9 @@
 							"name": "Hit Points",
 							"page": 3,
 							"entries": [
-								"Every creature in D&D has a number of \"hit points.\" This number reflects the damage a creature can take before it falls {@condition unconscious} or is defeated. When a character or creature is damaged by an attack roll or a hazard in the game, the amount of damage dealt is subtracted from the character's or creature's hit points.",
-								"If a creature reaches 0 hit points, they are defeated. The players can decide if this means a creature is dead or {@condition unconscious} or if they run away.",
-								"When a character reaches 0 hit points, they are {@condition unconscious}. In this adventure, a character at 0 hit points remains {@condition unconscious} until they regain hit points through healing or until the end of the encounter, when they regain 1 hit point automatically. The adventure details ways to regain hit points."
+								"Every creature in D&D has a number of \"hit points.\" This number reflects the damage a creature can take before it falls {@condition Inconscient} or is defeated. When a character or creature is damaged by an attack roll or a hazard in the game, the amount of damage dealt is subtracted from the character's or creature's hit points.",
+								"If a creature reaches 0 hit points, they are defeated. The players can decide if this means a creature is dead or {@condition Inconscient} or if they run away.",
+								"When a character reaches 0 hit points, they are {@condition Inconscient}. In this adventure, a character at 0 hit points remains {@condition Inconscient} until they regain hit points through healing or until the end of the encounter, when they regain 1 hit point automatically. The adventure details ways to regain hit points."
 							],
 							"id": "011"
 						}
@@ -377,7 +377,7 @@
 											"type": "item",
 											"name": "Armor Class and Hit Points",
 											"entries": [
-												"Each character has an Armor Class (also called AC) and hit points. Armor Class tells how hard it is to hit a character with an attack roll. The higher the AC, the harder it is to hit a character. Hit points determine how much damage a character can take. When a character takes damage, subtract that damage from the character's hit points. If a character's hit points reach 0, they are {@condition unconscious}. You'll learn how to regain hit points later in the game."
+												"Each character has an Armor Class (also called AC) and hit points. Armor Class tells how hard it is to hit a character with an attack roll. The higher the AC, the harder it is to hit a character. Hit points determine how much damage a character can take. When a character takes damage, subtract that damage from the character's hit points. If a character's hit points reach 0, they are {@condition Inconscient}. You'll learn how to regain hit points later in the game."
 											]
 										},
 										{
@@ -555,7 +555,7 @@
 											"type": "item",
 											"name": "Information the Characters Might Know",
 											"entries": [
-												"Players might learn information based on their characters' skills. For instance, Shalefire or Gallantine could ask if this is a baby silver dragon. As the DM, you can have their players make a {@dc 10} check with an appropriate skill to see if they know the answer to that question. Shalefire could use the {@skill Animal Handling} skill, while Gallantine could use the {@skill Nature} skill. If they succeed on the check ({@dice d20} + skill modifier is 10 or higher), you can tell them \"Yes! This is a newborn silver dragon.\" You might add that they often eat meat and other food as well."
+												"Players might learn information based on their characters' skills. For instance, Shalefire or Gallantine could ask if this is a baby silver dragon. As the DM, you can have their players make a {@dc 10} check with an appropriate skill to see if they know the answer to that question. Shalefire could use the {@skill Dressage} skill, while Gallantine could use the {@skill Nature} skill. If they succeed on the check ({@dice d20} + skill modifier is 10 or higher), you can tell them \"Yes! This is a newborn silver dragon.\" You might add that they often eat meat and other food as well."
 											]
 										},
 										{
@@ -588,7 +588,7 @@
 							"name": "Feeding and Care",
 							"page": 7,
 							"entries": [
-								"After Captain Kole leaves, the characters should attempt to find food for the dragon. You may want to point out that all the characters have rations listed on their character sheets under \"Other Equipment.\" Alternatively, Shalefire can make a {@dc 10} {@skill Survival} check or Gallantine can make a {@dc 10} {@skill Nature} check to find berries and nuts the dragon can eat. Remind players how to make {@dice d20} rolls if needed.",
+								"After Captain Kole leaves, the characters should attempt to find food for the dragon. You may want to point out that all the characters have rations listed on their character sheets under \"Other Equipment.\" Alternatively, Shalefire can make a {@dc 10} {@skill Survie} check or Gallantine can make a {@dc 10} {@skill Nature} check to find berries and nuts the dragon can eat. Remind players how to make {@dice d20} rolls if needed.",
 								"After the dragon is fed, it says one word: \"Nytha.\" The characters won't learn this until later, but the baby just called the characters \"Mama\" in Draconic.",
 								"Once the dragon eats, it perks up and follows the characters. They can carry the dragon, who enjoys the attention. The dragon also loves belly rubs!"
 							],
@@ -701,7 +701,7 @@
 									"entries": [
 										"Running an exciting combat in D&D is like a thrilling amusement park ride: the players often want to be scared and excited, but they don't want the excitement to lead to certain character death. This is where you can perform storytelling and mathematical magic.",
 										"You can intervene if the characters seem to be losing the battle. For instance, you can give the characters advantage on attack rolls or give the monsters disadvantage on attack rolls. See the \"Using the Rules\" section earlier in this document for details about advantage and disadvantage. Changing probabilities like this can improve the characters' odds in defeating the monsters.",
-										"Rather than having a monster attack one character until they fall {@condition unconscious}, have the monster attack a different character each turn. This tactic keeps more characters in the fight longer.",
+										"Rather than having a monster attack one character until they fall {@condition Inconscient}, have the monster attack a different character each turn. This tactic keeps more characters in the fight longer.",
 										"You can even say the baby dragon rushed in and took down a monster, but try not to use outside help very often."
 									],
 									"id": "031"
@@ -748,7 +748,7 @@
 									"name": "What Did We Just Fight?",
 									"page": 9,
 									"entries": [
-										"Living icicles are magical creatures that ice trolls sometimes use to guard places. A character who succeeds on a {@dc 10} check using skills such as {@skill Arcana} or {@skill History} knows this and can tell the other characters what they know."
+										"Living icicles are magical creatures that ice trolls sometimes use to guard places. A character who succeeds on a {@dc 10} check using skills such as {@skill Arcanes} or {@skill Histoire} knows this and can tell the other characters what they know."
 									],
 									"id": "036"
 								}
@@ -790,7 +790,7 @@
 							],
 							"id": "039"
 						},
-						"Ask the players to make either a {@dc 10} {@skill History} or {@skill Religion} check for their characters. Although Evandon is the only character who has a bonus to their {@skill Religion} skill and Gallantine is the only character with a bonus to their {@skill History} skill, the other characters can still attempt a {@skill History} or {@skill Religion} check. The players just don't add anything to the {@dice d20} roll when they do.",
+						"Ask the players to make either a {@dc 10} {@skill Histoire} or {@skill Religion} check for their characters. Although Evandon is the only character who has a bonus to their {@skill Religion} skill and Gallantine is the only character with a bonus to their {@skill Histoire} skill, the other characters can still attempt a {@skill Histoire} or {@skill Religion} check. The players just don't add anything to the {@dice d20} roll when they do.",
 						"If any of the characters succeeds on the skill check, tell the players that ice trolls once lived and worked in the cave.",
 						"Even if no one succeeds on the skill check, continue by reading the following:",
 						{
@@ -823,7 +823,7 @@
 											],
 											"id": "03d"
 										},
-										"Characters must succeed on a {@dc 10} {@skill Athletics} or {@skill Acrobatics} check to climb the wall. If a character fails the check, roll {@dice 1d6}. Tell the player to subtract that number from the character's hit points to represent the damage the character takes from falling before they eventually reach the top.",
+										"Characters must succeed on a {@dc 10} {@skill Athlétisme} or {@skill Acrobaties} check to climb the wall. If a character fails the check, roll {@dice 1d6}. Tell the player to subtract that number from the character's hit points to represent the damage the character takes from falling before they eventually reach the top.",
 										"Noorah has a Climber's Kit on her character sheet (under \"Other Equipment\") that gives her advantage on the check. If a character who reaches the top has a rope, they can lower the rope to help the other characters. Characters who use the rope can reach the top without making a check.",
 										"The passage then continues upward.",
 										{
@@ -862,7 +862,7 @@
 											],
 											"id": "041"
 										},
-										"Ask the players to make a {@dc 10} {@skill Arcana}, {@skill History}, or {@skill Religion} check. If a character succeeds on the check, tell them that the figure in the ice represents Bahamut, the god of the metallic-colored dragons (brass, bronze, copper, gold, and silver).",
+										"Ask the players to make a {@dc 10} {@skill Arcanes}, {@skill Histoire}, or {@skill Religion} check. If a character succeeds on the check, tell them that the figure in the ice represents Bahamut, the god of the metallic-colored dragons (brass, bronze, copper, gold, and silver).",
 										"The correct answer to the question is \"silver dragon.\" However, the characters must say this in the Draconic language. They can use the page from Captain Kole's book to find the correct words: \"orn darastrix.\"",
 										"If the players need help answering the question, or if they get the answer partly right, Bahamut's reflection can provide hints such as, \"You have one word correct, but you need the other.\"",
 										"If any character speaks the correct words, read the following:",
@@ -919,7 +919,7 @@
 											"name": "Changing Slides",
 											"page": 11,
 											"entries": [
-												"A character who fails the check jumps onto a slide and quickly reaches dangerous sections of razor-sharp ice shards, long drops, ice walls, and other hazards. The character must succeed on a {@dc 15} {@skill Acrobatics} or {@skill Athletics} check to jump to a safer slide to avoid taking damage. A character who doesn't have {@skill Acrobatics} or {@skill Athletics} on their character sheet can still make checks with those skills, but they don't add any modifier to the {@dice d20} roll.",
+												"A character who fails the check jumps onto a slide and quickly reaches dangerous sections of razor-sharp ice shards, long drops, ice walls, and other hazards. The character must succeed on a {@dc 15} {@skill Acrobaties} or {@skill Athlétisme} check to jump to a safer slide to avoid taking damage. A character who doesn't have {@skill Acrobaties} or {@skill Athlétisme} on their character sheet can still make checks with those skills, but they don't add any modifier to the {@dice d20} roll.",
 												"If a character fails the check, roll {@dice 1d6}. Tell the player to subtract that number from their character's hit points to represent the damage they take while reaching the bottom of the slide."
 											],
 											"id": "047"
@@ -1043,7 +1043,7 @@
 									"name": "DM Tip",
 									"page": 12,
 									"entries": [
-										"A character that reaches 0 hit points falls {@condition unconscious} and remains {@condition unconscious} until they regain hit points through healing. At the end of the encounter, any {@condition unconscious} player characters regain 1 hit point automatically."
+										"A character that reaches 0 hit points falls {@condition Inconscient} and remains {@condition Inconscient} until they regain hit points through healing. At the end of the encounter, any {@condition Inconscient} player characters regain 1 hit point automatically."
 									],
 									"id": "051"
 								}

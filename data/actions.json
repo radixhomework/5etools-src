@@ -1,7 +1,7 @@
 {
 	"action": [
 		{
-			"name": "Activate an Item",
+			"name": "Activer un objet",
 			"source": "DMG",
 			"page": 141,
 			"srd": true,
@@ -13,42 +13,42 @@
 				}
 			],
 			"entries": [
-				"Activating some magic items requires a user to do something in particular, such as holding the item and uttering a command word, reading the item if it is a scroll, or drinking it if it is a potion. The description of each item category or individual item details how an item is activated. Certain items use one or more of the following rules related to their activation.",
-				"If an item requires an action to activate, that action isn't a function of the {@action Use an Object} action, so a feature such as the rogue's {@subclassFeature Fast Hands|Rogue||Thief||3} can't be used to activate the item.",
+				"Activer certains objets magiques exige que l'utilisateur fasse quelque chose de particulier, comme tenir l'objet et prononcer un mot de commande, lire l'objet s'il s'agit d'un parchemin, ou le boire s'il s'agit d'une potion. La description de chaque catégorie d'objet ou de chaque objet individuel précise comment cet objet est activé. Certains objets font appel à une ou plusieurs des règles suivantes relatives à leur activation.",
+				"Si un objet requiert une action pour être activé, cette action ne fait pas partie de l'action {@action Utiliser un objet}, si bien qu'une aptitude telle que {@subclassFeature Fast Hands|Rogue||Thief||3} de la roublarde ne peut pas être utilisée pour activer l'objet.",
 				{
 					"type": "entries",
-					"name": "Command Word",
+					"name": "Mot de commande",
 					"entries": [
-						"A command word is a word or phrase that must be spoken audibly for the item to operate. A magic item that requires the user to speak a command word can't be activated in the area of any effect that prevents sound, such as the area created by the silence spell."
+						"Un mot de commande est un mot ou une phrase qui doit être prononcé à voix haute pour que l'objet fonctionne. Un objet magique qui exige que l'utilisateur prononce un mot de commande ne peut pas être activé dans la zone d'un effet qui empêche les sons, comme la zone créée par le sort silence."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Consumables",
+					"name": "Consommables",
 					"entries": [
-						"Some items are used up when they are activated. A potion or elixir must be swallowed, or an oil applied to the body. The writing vanishes from a scroll when it is read. Once used, a consumable item loses its magic and no longer functions."
+						"Certain objets sont consommés quand on les active. Une potion ou un élixir doit être avalé, ou une huile appliquée sur le corps. L'écriture disparaît d'un parchemin quand on le lit. Une fois utilisé, un objet consommable perd sa magie et ne fonctionne plus."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spells",
+					"name": "Sorts",
 					"entries": [
-						"Some magic items allow the user to cast a spell from the item, often by expending charges from it. The spell is cast at the lowest possible spell and caster level, doesn't expend any of the user's spell slots, and requires no components unless the item's description says otherwise. The spell uses its normal casting time, range, and duration, and the user of the item must concentrate if the spell requires {@status concentration}. Certain items make exceptions to these rules, changing the casting time, duration, or other parts of a spell.",
-						"Many items, such as potions, bypass the casting of the spell and confer the spell's effects. Such an item still uses the spell's duration unless the item's description says otherwise.",
-						"A magic item, such as certain staffs, may require you to use your own spellcasting ability when you cast a spell from the item. If you have more than one spellcasting ability, you choose which one to use with the item. If you don't have a spellcasting ability\u2014perhaps you're a rogue with the Use Magic Device feature\u2014your spellcasting ability modifier is +0 for the item, and your proficiency bonus does apply."
+						"Certains objets magiques permettent à l'utilisateur de lancer un sort depuis l'objet, souvent en dépensant ses charges. Le sort est lancé au niveau de sort et de lanceur de sorts le plus bas possible, ne dépense aucun emplacement de sort de l'utilisateur et ne nécessite aucune composante, sauf si la description de l'objet indique le contraire. Le sort utilise son temps d'incantation, sa portée et sa durée normaux, et l'utilisateur de l'objet doit se concentrer si le sort exige {@status concentration}. Certains objets font exception à ces règles, en modifiant le temps d'incantation, la durée ou d'autres éléments d'un sort.",
+						"De nombreux objets, tels que les potions, font l'économie de l'incantation du sort et en confèrent les effets. Un tel objet utilise quand même la durée du sort, sauf si sa description indique le contraire.",
+						"Un objet magique, comme certains bâtons, peut vous obliger à utiliser votre propre caractéristique d'incarnation quand vous lancez un sort depuis l'objet. Si vous possédez plus d'une caractéristique d'incarnation, vous choisissez laquelle employer avec l'objet. Si vous n'avez pas de caractéristique d'incarnation — peut-être êtes-vous un roublard doté de l'aptitude Utilisation d'objets magiques — votre modificateur de caractéristique d'incarnation est de +0 pour cet objet, et votre bonus de maîtrise s'applique."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Charges",
 					"entries": [
-						"Some magic items have charges that you expend to activate its properties. The number of charges an item has remaining is revealed when an identify spell is cast on the item, or when a creature attunes to the item. Additionally, when an item regains charges, the creature attuned to that item learns how many charges it regained."
+						"Certains objets magiques possèdent des charges que vous dépensez pour activer leurs propriétés. Le nombre de charges restantes d'un objet est révélé quand on lance sur lui un sort d'identification, ou quand une créature s'harmonise avec lui. De plus, quand un objet regagne des charges, la créature harmonisée avec cet objet apprend combien de charges il a regagnées."
 					]
 				}
 			]
 		},
 		{
-			"name": "Attack",
+			"name": "Attaque",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -63,9 +63,9 @@
 				}
 			],
 			"entries": [
-				"The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow, or brawling with your fists.",
-				"With this action, you make one melee or ranged attack. See the \"{@book Making an Attack|phb|9|making an attack}\" section for the rules that govern attacks.",
-				"Certain features, such as the Extra Attack feature of the fighter, allow you to make more than one attack with this action."
+				"L'action la plus courante en combat est l'action Attaque, que vous maniez une épée, décochiez une flèche avec un arc ou vous battiez à coups de poing.",
+				"Avec cette action, vous effectuez une attaque au corps à corps ou à distance. Consultez la section « {@book Making an Attack|phb|9|effectuer une attaque} » pour connaître les règles qui régissent les attaques.",
+				"Certaines aptitudes, telles que l'aptitude Attaque supplémentaire du guerrier, vous permettent d'effectuer plus d'une attaque avec cette action."
 			],
 			"seeAlsoAction": [
 				"Disarm|DMG",
@@ -77,7 +77,7 @@
 			]
 		},
 		{
-			"name": "Attack",
+			"name": "Attaque",
 			"source": "XPHB",
 			"page": 361,
 			"srd52": true,
@@ -88,22 +88,22 @@
 				}
 			],
 			"entries": [
-				"When you take the Attack action, you can make one attack roll with a weapon or an {@variantrule Unarmed Strike|XPHB}.",
+				"Quand vous réalisez l'action Attaque, vous pouvez effectuer un jet d'attaque avec une arme ou une {@variantrule Unarmed Strike|XPHB}.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Equipping and Unequipping Weapons",
+							"name": "Équiper et ranger des armes",
 							"entries": [
-								"You can either equip or unequip one weapon when you make an attack as part of this action. You do so either before or after the attack. If you equip a weapon before an attack, you don't need to use it for that attack. Equipping a weapon includes drawing it from a sheath or picking it up. Unequipping a weapon includes sheathing, stowing, or dropping it."
+								"Vous pouvez équiper ou ranger une arme quand vous effectuez une attaque dans le cadre de cette action. Vous le faites avant ou après l'attaque. Si vous équipez une arme avant une attaque, vous n'êtes pas obligé de l'utiliser pour cette attaque. Équiper une arme consiste à la dégainer de son fourreau ou à la ramasser. Ranger une arme consiste à la rengainer, à la remiser ou à la laisser tomber."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Moving Between Attacks",
+							"name": "Se déplacer entre les attaques",
 							"entries": [
-								"If you move on your turn and have a feature, such as Extra Attack, that gives you more than one attack as part of the Attack action, you can use some or all of that movement to move between those attacks."
+								"Si vous vous déplacez pendant votre tour et si vous possédez une aptitude, telle qu'Attaque supplémentaire, qui vous donne plus d'une attaque dans le cadre de l'action Attaque, vous pouvez utiliser tout ou partie de ce déplacement pour bouger entre ces attaques."
 							]
 						}
 					]
@@ -114,7 +114,7 @@
 			]
 		},
 		{
-			"name": "Cast a Spell",
+			"name": "Lancer un sort",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -123,14 +123,14 @@
 				"Magic|XPHB"
 			],
 			"time": [
-				"Varies"
+				"Variable"
 			],
 			"entries": [
-				"Spellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. Each spell has a casting time, which specifies whether the caster must use an action, a reaction, minutes, or even hours to cast the spell. Casting a spell is, therefore, not necessarily an action. Most spells do have a casting time of 1 action, so a spellcaster often uses his or her action in combat to cast such a spell. See {@book chapter 10|phb|10|casting a spell} for the rules on spellcasting."
+				"Les lanceurs de sorts tels que les magiciens et les clercs, ainsi que de nombreux monstres, ont accès aux sorts et peuvent s'en servir avec une grande efficacité en combat. Chaque sort possède un temps d'incantation qui précise si le lanceur doit utiliser une action, une réaction, des minutes, voire des heures pour lancer le sort. Lancer un sort ne constitue donc pas nécessairement une action. La plupart des sorts ont cependant un temps d'incantation de 1 action, de sorte qu'un lanceur de sorts utilise souvent son action en combat pour incanter un tel sort. Consultez {@book chapter 10|phb|10|lancer un sort} pour connaître les règles d'incantation."
 			]
 		},
 		{
-			"name": "Climb onto a Bigger Creature",
+			"name": "Grimper sur une créature plus grande",
 			"source": "DMG",
 			"page": 271,
 			"fromVariant": "Action Options",
@@ -141,13 +141,13 @@
 				}
 			],
 			"entries": [
-				"If one creature wants to jump onto another creature, it can do so by {@action grapple||grappling}. A small or Medium creature has little chance of making a successful grapple against a Huge or Gargantuan creature, however, unless magic has granted the grappler supernatural might.",
-				"As an alternative, a suitably large opponent can be treated as terrain for the purpose of jumping onto its back or clinging to a limb. After making any ability checks necessary to get into position and onto the larger creature, the smaller creature uses its action to make a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check contested by the target's Dexterity ({@skill Acrobatics}) check. If it wins the contest, the smaller creature successfully moves into the target creature's space, the smaller creature moves with the target and has advantage on attack rolls against it.",
-				"The smaller creature can move around within the larger creature's space, treating the space as {@quickref difficult terrain||3}. The larger creature's ability to attack the smaller creature depends on the smaller creature's location, and is left to your discretion. The larger creature can dislodge the smaller creature as an action\u2014knocking it off, scraping it against a wall, or grabbing and throwing it\u2014by making a Strength ({@skill Athletics}) check contested by the smaller creature's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. The smaller creature chooses which ability to use."
+				"Si une créature veut sauter sur une autre créature, elle peut le faire en recourant à {@action Agripper||l'agrippement}. Une créature de taille P ou M a toutefois peu de chances de réussir son agrippement contre une créature de taille G ou TG, à moins que la magie n'ait conféré à l'agrippeur une force surnaturelle.",
+				"Une autre solution consiste à considérer un adversaire suffisamment grand comme un terrain, afin de sauter sur son dos ou de s'accrocher à l'un de ses membres. Après avoir réussi les tests de caractéristique nécessaires pour prendre la position voulue et se retrouver sur la créature plus grande, la petite créature utilise son action pour effectuer un test de Force ({@skill Athlétisme}) ou de Dextérité ({@skill Acrobaties}) opposé au test de Dextérité ({@skill Acrobaties}) de la cible. Si elle remporte l'opposition, la petite créature se déplace avec succès dans l'espace de la créature cible, la petite créature se déplace avec la cible et obtient un avantage aux jets d'attaque contre elle.",
+				"La petite créature peut se déplacer dans l'espace de la créature plus grande, en considérant cet espace comme un {@quickref difficult terrain||3}. La capacité de la grande créature à attaquer la petite dépend de l'emplacement de cette dernière, et vous en jugez. La grande créature peut déloger la petite en dépensant une action — la faisant tomber, la raclant contre un mur, ou la saisissant pour la projeter — en réussissant un test de Force ({@skill Athlétisme}) opposé au test de Force ({@skill Athlétisme}) ou de Dextérité ({@skill Acrobaties}) de la petite créature. C'est la petite créature qui choisit la caractéristique à utiliser."
 			]
 		},
 		{
-			"name": "Dash",
+			"name": "Course",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -162,12 +162,12 @@
 				}
 			],
 			"entries": [
-				"When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move up to 60 feet on your turn if you dash.",
-				"Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of 30 feet is reduced to 15 feet, for instance, you can move up to 30 feet this turn if you dash."
+				"Quand vous réalisez l'action Course, vous gagnez un déplacement supplémentaire pour le tour en cours. Ce supplément est égal à votre vitesse, une fois les modificateurs éventuels appliqués. Avec une vitesse de 30 pieds, par exemple, vous pouvez vous déplacer d'un maximum de 60 pieds pendant votre tour si vous courez.",
+				"Toute augmentation ou diminution de votre vitesse modifie ce déplacement supplémentaire dans la même proportion. Si votre vitesse de 30 pieds est réduite à 15 pieds, par exemple, vous pouvez vous déplacer d'un maximum de 30 pieds ce tour-ci si vous courez."
 			]
 		},
 		{
-			"name": "Dash",
+			"name": "Course",
 			"source": "XPHB",
 			"page": 365,
 			"srd52": true,
@@ -178,12 +178,12 @@
 				}
 			],
 			"entries": [
-				"When you take the Dash action, you gain extra movement for the current turn. The increase equals your {@variantrule Speed|XPHB} after applying any modifiers. With a {@variantrule Speed|XPHB} of 30 feet, for example, you can move up to 60 feet on your turn if you Dash. If your {@variantrule Speed|XPHB} of 30 feet is reduced to 15 feet, you can move up to 30 feet this turn if you Dash.",
-				"If you have a special speed, such as a {@variantrule Fly Speed|XPHB} or {@variantrule Swim Speed|XPHB}, you can use that speed instead of your {@variantrule Speed|XPHB} when you take this action. You choose which speed to use each time you take it."
+				"Quand vous réalisez l'action Course, vous gagnez un déplacement supplémentaire pour le tour en cours. Ce supplément est égal à votre {@variantrule Speed|XPHB}, une fois les modificateurs éventuels appliqués. Avec une {@variantrule Speed|XPHB} de 30 pieds, par exemple, vous pouvez vous déplacer d'un maximum de 60 pieds pendant votre tour si vous courez. Si votre {@variantrule Speed|XPHB} de 30 pieds est réduite à 15 pieds, vous pouvez vous déplacer d'un maximum de 30 pieds ce tour-ci si vous courez.",
+				"Si vous possédez une vitesse spéciale, telle qu'une {@variantrule Fly Speed|XPHB} ou une {@variantrule Swim Speed|XPHB}, vous pouvez utiliser cette vitesse au lieu de votre {@variantrule Speed|XPHB} quand vous réalisez cette action. Vous choisissez la vitesse à employer chaque fois que vous la réalisez."
 			]
 		},
 		{
-			"name": "Disarm",
+			"name": "Désarmer",
 			"source": "DMG",
 			"page": 271,
 			"fromVariant": "Action Options",
@@ -194,15 +194,15 @@
 				}
 			],
 			"entries": [
-				"A creature can use a weapon attack to knock a weapon or another item from a target's grasp. The attacker makes an attack roll contested by the target's Strength ({@skill Athletics}) check or Dexterity ({@skill Acrobatics}) check. If the attacker wins the contest, the attack causes no damage or other ill effect, but the defender drops the item.",
-				"The attacker has disadvantage on its attack roll if the target is holding the item with two or more hands. The target has advantage on its ability check if it is larger than the attacking creature, or disadvantage if it is smaller."
+				"Une créature peut utiliser une attaque d'arme pour faire lâcher une arme ou un autre objet à une cible. L'attaquant effectue un jet d'attaque opposé au test de Force ({@skill Athlétisme}) ou de Dextérité ({@skill Acrobaties}) de la cible. Si l'attaquant remporte l'opposition, l'attaque ne cause aucun dégât ni autre effet néfaste, mais le défenseur laisse tomber l'objet.",
+				"L'attaquant subit un désavantage à son jet d'attaque si la cible tient l'objet avec deux mains ou plus. La cible obtient un avantage à son test de caractéristique si elle est plus grande que la créature attaquante, ou un désavantage si elle est plus petite."
 			],
 			"seeAlsoAction": [
 				"Attack"
 			]
 		},
 		{
-			"name": "Disengage",
+			"name": "Désengagement",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -217,11 +217,11 @@
 				}
 			],
 			"entries": [
-				"If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn."
+				"Si vous réalisez l'action Désengagement, vos déplacements ne provoquent pas d'attaques d'opportunité pour le reste du tour."
 			]
 		},
 		{
-			"name": "Disengage",
+			"name": "Désengagement",
 			"source": "XPHB",
 			"page": 366,
 			"srd52": true,
@@ -232,11 +232,11 @@
 				}
 			],
 			"entries": [
-				"If you take the Disengage action, your movement doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks} for the rest of the current turn."
+				"Si vous réalisez l'action Désengagement, vos déplacements ne provoquent pas d'{@action Attaque d'opportunité|XPHB|Attaques d'opportunité} pour le reste du tour en cours."
 			]
 		},
 		{
-			"name": "Dodge",
+			"name": "Esquive",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -251,11 +251,11 @@
 				}
 			],
 			"entries": [
-				"When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0."
+				"Quand vous réalisez l'action Esquive, vous vous concentrez entièrement sur l'évitement des attaques. Jusqu'au début de votre prochain tour, tout jet d'attaque effectué contre vous subit un désavantage si vous pouvez voir l'attaquant, et vous effectuez vos jets de sauvegarde de Dextérité avec un avantage. Vous perdez ce bénéfice si vous êtes incapable (comme expliqué dans l'appendice) ou si votre vitesse tombe à 0."
 			]
 		},
 		{
-			"name": "Dodge",
+			"name": "Esquive",
 			"source": "XPHB",
 			"page": 366,
 			"srd52": true,
@@ -266,12 +266,12 @@
 				}
 			],
 			"entries": [
-				"If you take the Dodge action, you gain the following benefits: until the start of your next turn, any attack roll made against you has {@variantrule Disadvantage|XPHB} if you can see the attacker, and you make Dexterity {@variantrule Saving Throw|XPHB|saving throws} with {@variantrule Advantage|XPHB}.",
-				"You lose these benefits if you have the {@condition Incapacitated|XPHB} condition or if your {@variantrule Speed|XPHB} is 0."
+				"Si vous réalisez l'action Esquive, vous obtenez les bénéfices suivants : jusqu'au début de votre prochain tour, tout jet d'attaque effectué contre vous subit un {@variantrule Disadvantage|XPHB} si vous pouvez voir l'attaquant, et vous effectuez les {@variantrule Saving Throw|XPHB|jets de sauvegarde} de Dextérité avec un {@variantrule Advantage|XPHB}.",
+				"Vous perdez ces bénéfices si vous avez l'état {@condition Incapable|XPHB} ou si votre {@variantrule Speed|XPHB} est de 0."
 			]
 		},
 		{
-			"name": "Don or Doff a Shield",
+			"name": "Enfiler ou ôter un bouclier",
 			"source": "PHB",
 			"page": 146,
 			"srd": true,
@@ -286,11 +286,11 @@
 				}
 			],
 			"entries": [
-				"The time it takes to don or doff armor {@table Getting Into and Out of Armor; Donning and Doffing Armor|phb|depends on the armor's category}. A {@item shield|phb} can be donned or doffed as an action."
+				"Le temps nécessaire pour enfiler ou ôter une armure {@table Getting Into and Out of Armor; Donning and Doffing Armor|phb|dépend de la catégorie de l'armure}. Un {@item Bouclier|phb} peut être enfilé ou ôté en dépensant une action."
 			]
 		},
 		{
-			"name": "Don or Doff a Shield",
+			"name": "Enfiler ou ôter un bouclier",
 			"source": "XPHB",
 			"page": 219,
 			"srd52": true,
@@ -302,11 +302,11 @@
 				}
 			],
 			"entries": [
-				"A {@item Shield|XPHB} can be donned or doffed as an action."
+				"Un {@item Bouclier|XPHB} peut être enfilé ou ôté en dépensant une action."
 			]
 		},
 		{
-			"name": "End Concentration",
+			"name": "Mettre fin à la concentration",
 			"source": "PHB",
 			"page": 203,
 			"srd": true,
@@ -315,27 +315,27 @@
 				"End Concentration|XPHB"
 			],
 			"time": [
-				"Free"
+				"Gratuit"
 			],
 			"entries": [
-				"If a spell must be maintained with {@status concentration}, that fact appears in its Duration entry, and the spell specifies how long you can concentrate on it. You can end {@status concentration} at any time (no action required)."
+				"Si un sort doit être maintenu avec {@status concentration}, cette mention apparaît dans son entrée Durée, et le sort précise combien de temps vous pouvez vous y concentrer. Vous pouvez mettre fin à la {@status concentration} à tout moment (aucune action requise)."
 			]
 		},
 		{
-			"name": "End Concentration",
+			"name": "Mettre fin à la concentration",
 			"source": "XPHB",
 			"page": 363,
 			"srd52": true,
 			"basicRules2024": true,
 			"time": [
-				"Free"
+				"Gratuit"
 			],
 			"entries": [
-				"Some spells and other effects require Concentration to remain active, as specified in their descriptions. You can end Concentration at any time (no action required)."
+				"Certains sorts et autres effets exigent une concentration pour rester actifs, comme indiqué dans leurs descriptions. Vous pouvez mettre fin à une concentration à tout moment (aucune action requise)."
 			]
 		},
 		{
-			"name": "Escape a Grapple",
+			"name": "Échapper à un agrippement",
 			"source": "PHB",
 			"page": 195,
 			"srd": true,
@@ -350,14 +350,14 @@
 				}
 			],
 			"entries": [
-				"A {@condition grappled} creature can use its action to escape. To do so, it must succeed on a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check contested by your Strength ({@skill Athletics}) check."
+				"Une créature {@condition Agrippé} peut utiliser son action pour s'échapper. Pour ce faire, elle doit réussir un test de Force ({@skill Athlétisme}) ou de Dextérité ({@skill Acrobaties}) opposé à votre test de Force ({@skill Athlétisme})."
 			],
 			"seeAlsoAction": [
 				"Grapple"
 			]
 		},
 		{
-			"name": "Escape a Grapple",
+			"name": "Échapper à un agrippement",
 			"source": "XPHB",
 			"page": 367,
 			"srd52": true,
@@ -369,11 +369,11 @@
 				}
 			],
 			"entries": [
-				"A Grappled creature can use its action to make a Strength ({@skill Athletics|XPHB}) or Dexterity ({@skill Acrobatics|XPHB}) check against the grapple's escape DC, ending the {@variantrule Condition|XPHB|condition} on itself on a success. The {@variantrule Condition|XPHB|condition} also ends if the grappler has the {@condition Incapacitated|XPHB} condition or if the distance between the Grappled target and the grappler exceeds the grapple's range."
+				"Une créature Agrippée peut utiliser son action pour effectuer un test de Force ({@skill Athlétisme|XPHB}) ou de Dextérité ({@skill Acrobaties|XPHB}) contre le DD d'évasion de l'agrippement, mettant fin à l'{@variantrule Condition|XPHB|état} qui l'affecte en cas de réussite. L'{@variantrule Condition|XPHB|état} prend également fin si l'agrippeur a l'état {@condition Incapable|XPHB} ou si la distance entre la cible Agrippée et l'agrippeur excède la portée de l'agrippement."
 			]
 		},
 		{
-			"name": "Grapple",
+			"name": "Agripper",
 			"source": "PHB",
 			"page": 195,
 			"srd": true,
@@ -391,13 +391,13 @@
 				}
 			],
 			"entries": [
-				"When you want to grab a creature or wrestle with it, you can use the {@action Attack} action to make a special melee attack, a grapple. If you're able to make multiple attacks with the {@action Attack} action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-				"Using at least one free hand, you try to seize the target by making a grapple check, a Strength ({@skill Athletics}) check contested by the target's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitated}. If you succeed, you subject the target to the {@condition grappled} condition (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no action required).",
+				"Quand vous voulez saisir une créature ou vous battre avec elle, vous pouvez utiliser l'action {@action Attaque} pour effectuer une attaque au corps à corps spéciale, un agrippement. Si vous pouvez effectuer plusieurs attaques avec l'action {@action Attaque}, cette attaque remplace l'une d'entre elles. La cible de votre agrippement doit être au maximum d'une taille de plus que vous, et se trouver à votre portée.",
+				"En utilisant au moins une main libre, vous tentez de saisir la cible en effectuant un jet d'agrippement, un test de Force ({@skill Athlétisme}) opposé au test de Force ({@skill Athlétisme}) ou de Dextérité ({@skill Acrobaties}) de la cible (c'est elle qui choisit la caractéristique à utiliser). Vous réussissez automatiquement si la cible est {@condition Incapable}. En cas de réussite, vous soumettez la cible à l'état {@condition Agrippé} (voir l'appendice). Cet état précise ce qui y met fin, et vous pouvez relâcher la cible quand vous le souhaitez (aucune action requise).",
 				{
 					"type": "entries",
-					"name": "Moving a Grappled Target",
+					"name": "Déplacer une cible agrippée",
 					"entries": [
-						"When you move, you can drag or carry the {@condition grappled} creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you."
+						"Quand vous vous déplacez, vous pouvez traîner ou porter avec vous la créature {@condition Agrippé}, mais votre vitesse est réduite de moitié, sauf si la créature est plus petite que vous d'au moins deux tailles."
 					]
 				}
 			],
@@ -406,7 +406,7 @@
 			]
 		},
 		{
-			"name": "Healing Surge",
+			"name": "Poussée de soins",
 			"source": "DMG",
 			"page": 266,
 			"fromVariant": "Healing",
@@ -417,12 +417,12 @@
 				}
 			],
 			"entries": [
-				"As an action, a character can use a healing surge and spend up to half his or her Hit Dice. For each Hit Die spent in this way, the player rolls the die and adds the character's Constitution modifier. The character regains hit points equal to the total. The player can decide to spend an additional Hit Die after each roll.",
-				"A character who uses a healing surge can't do so again until he or she finishes a short or long rest. Under this optional rule, a character regains all spent Hit Dice at the end of a long rest. With a short rest, a character regains Hit Dice equal to his or her level divided by four (minimum of one die)."
+				"En dépensant une action, un personnage peut utiliser une poussée de soins et dépenser jusqu'à la moitié de ses dés de vie. Pour chaque dé de vie dépensé de cette manière, le joueur lance le dé et ajoute le modificateur de Constitution du personnage. Le personnage regagne des points de vie égaux au total. Le joueur peut décider de dépenser un dé de vie supplémentaire après chaque lancer.",
+				"Un personnage qui a utilisé une poussée de soins ne peut pas le refaire avant d'avoir terminé un repos court ou long. Selon cette règle optionnelle, un personnage regagne tous ses dés de vie dépensés à la fin d'un repos long. Avec un repos court, un personnage regagne des dés de vie égaux à son niveau divisé par quatre (minimum un dé)."
 			]
 		},
 		{
-			"name": "Help",
+			"name": "Aider",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -437,12 +437,12 @@
 				}
 			],
 			"entries": [
-				"You can lend your aid to another creature in the completion of a task. When you take the Help action, the creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.",
-				"Alternatively, you can aid a friendly creature in attacking a creature within 5 feet of you. You feint, distract the target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before your next turn, the first attack roll is made with advantage."
+				"Vous pouvez apporter votre aide à une autre créature dans l'accomplissement d'une tâche. Quand vous réalisez l'action Aider, la créature que vous aidez obtient un avantage au prochain test de caractéristique qu'elle effectue pour accomplir la tâche à laquelle vous l'aidez, à condition qu'elle fasse ce test avant le début de votre prochain tour.",
+				"Alternativement, vous pouvez aider une créature alliée à en attaquer une autre située à 5 pieds de vous ou moins. Vous feintez, distrait la cible, ou faites équipe d'une autre manière pour rendre l'attaque de votre allié plus efficace. Si votre allié attaque la cible avant votre prochain tour, le premier jet d'attaque est effectué avec un avantage."
 			]
 		},
 		{
-			"name": "Help",
+			"name": "Aider",
 			"source": "XPHB",
 			"page": 368,
 			"srd52": true,
@@ -453,31 +453,31 @@
 				}
 			],
 			"entries": [
-				"When you take the Help action, you do one of the following.",
+				"Quand vous réalisez l'action Aider, vous faites une des choses suivantes.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Assist an Ability Check",
+							"name": "Aider un test de caractéristique",
 							"entries": [
-								"Choose one of your skill or tool proficiencies and one ally who is near enough for you to assist verbally or physically when they make an ability check. That ally has {@variantrule Advantage|XPHB} on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. The DM has final say on whether your assistance is possible."
+								"Choisissez l'une de vos maîtrises de compétence ou d'outil, et un allié assez proche pour que vous puissiez l'aider verbalement ou physiquement quand il effectue un test de caractéristique. Cet allié obtient un {@variantrule Advantage|XPHB} au prochain test de caractéristique qu'il effectue avec la compétence ou l'outil choisi. Ce bénéfice expire si l'allié ne l'utilise pas avant le début de votre prochain tour. C'est le MD qui décide en dernier ressort si votre assistance est possible."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Assist an Attack Roll",
+							"name": "Aider un jet d'attaque",
 							"entries": [
-								"You momentarily distract an enemy within 5 feet of you, giving {@variantrule Advantage|XPHB} to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn."
+								"Vous distraient momentanément un ennemi situé à 5 pieds de vous ou moins, accordant un {@variantrule Advantage|XPHB} au prochain jet d'attaque de l'un de vos alliés contre cet ennemi. Ce bénéfice expire au début de votre prochain tour."
 							]
 						}
 					]
 				},
-				"{@note Additionally, the Help action may be used to {@book stabilize a creature|XPHB|1|Stabilizing a Character}.}"
+				"{@note De plus, l'action Aider peut être utilisée pour {@book stabilize a creature|XPHB|1|Stabiliser un personnage}.}"
 			]
 		},
 		{
-			"name": "Hide",
+			"name": "Se cacher",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -492,11 +492,11 @@
 				}
 			],
 			"entries": [
-				"When you take the Hide action, you make a Dexterity ({@skill Stealth}) check in an attempt to hide, following the rules in {@book chapter 7|phb|7|hiding} for hiding. If you succeed, you gain certain benefits, as described in the \"{@book Unseen Attackers and Targets|PHB|9|unseen attackers and targets}\" section in the Player's Handbook."
+				"Quand vous réalisez l'action Se cacher, vous effectuez un test de Dextérité ({@skill Discrétion}) pour tenter de vous dissimuler, en suivant les règles de {@book chapter 7|phb|7|se cacher}. Si vous réussissez, vous obtenez certains bénéfices, tels que décrits dans la section « {@book Unseen Attackers and Targets|PHB|9|attaquants et cibles non visibles} » du Manuel des Joueurs."
 			]
 		},
 		{
-			"name": "Hide",
+			"name": "Se cacher",
 			"source": "XPHB",
 			"page": 368,
 			"srd52": true,
@@ -507,13 +507,13 @@
 				}
 			],
 			"entries": [
-				"With the Hide action, you try to conceal yourself. To do so, you must succeed on a {@dc 15} Dexterity ({@skill Stealth|XPHB}) check while you're {@variantrule Heavily Obscured|XPHB} or behind {@variantrule Cover|XPHB|Three-Quarters Cover or Total Cover}, and you must be out of any enemy's line of sight; if you can see a creature, you can discern whether it can see you.",
-				"On a successful check, you have the {@condition Invisible|XPHB} condition while hidden. Make note of your check's total, which is the DC for a creature to find you with a Wisdom ({@skill Perception|XPHB}) check.",
-				"You stop being hidden immediately after any of the following occurs: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a Verbal component."
+				"Avec l'action Se cacher, vous tentez de vous dissimuler. Pour ce faire, vous devez réussir un test de Dextérité ({@skill Discrétion|XPHB}) {@dc 15} tout en étant {@variantrule Heavily Obscured|XPHB} ou abrité par une {@variantrule Cover|XPHB|couverture aux trois quarts ou une couverture totale}, et vous devez être hors du champ de vision de tout ennemi ; si vous pouvez voir une créature, vous pouvez discerner si elle peut vous voir.",
+				"En cas de test réussi, vous avez l'état {@condition Invisible|XPHB} tant que vous êtes caché. Notez le total de votre test : c'est le DD pour qu'une créature vous trouve avec un test de Sagesse ({@skill Perception|XPHB}).",
+				"Vous cessez d'être caché immédiatement après que l'un des événements suivants se produit : vous émettez un son plus fort qu'un murmure, un ennemi vous trouve, vous effectuez un jet d'attaque, ou vous lancez un sort avec une composante verbale."
 			]
 		},
 		{
-			"name": "Identify a Spell",
+			"name": "Identifier un sort",
 			"source": "XGE",
 			"page": 85,
 			"fromVariant": "Spellcasting|XGE",
@@ -528,13 +528,13 @@
 				}
 			],
 			"entries": [
-				"Sometimes a character wants to identify a spell that someone else is casting or that was already cast. To do so, a character can use their reaction to identify a spell as it's being cast, or they can use an action on their turn to identify a spell by its effect after it is cast.",
-				"If the character perceived the casting, the spell's effect, or both, the character can make an Intelligence ({@skill Arcana}) check with the reaction or action. The DC equals 15 + the spell's level. If the spell is cast as a class spell and the character is a member of that class, the check is made with advantage. For example, if the spellcaster casts a spell as a cleric, another cleric has advantage on the check to identify the spell. Some spells aren't associated with any class when they're cast, such as when a monster uses its Innate Spellcasting trait.",
-				"This Intelligence ({@skill Arcana}) check represents the fact that identifying a spell requires a quick mind and familiarity with the theory and practice of casting. This is true even for a character whose spellcasting ability is Wisdom or Charisma. Being able to cast spells doesn't by itself make you adept at deducing exactly what others are doing when they cast their spells."
+				"Il arrive qu'un personnage veuille identifier un sort qu'une autre personne est en train de lancer ou qui a déjà été lancé. Pour ce faire, le personnage peut utiliser sa réaction pour identifier un sort au moment où il est lancé, ou dépenser une action pendant son tour pour identifier un sort d'après son effet, une fois qu'il a été lancé.",
+				"Si le personnage a perçu l'incantation, l'effet du sort, ou les deux, il peut effectuer un test d'Intelligence ({@skill Arcanes}) avec la réaction ou l'action. Le DD est égal à 15 + le niveau du sort. Si le sort est lancé comme sort de classe et que le personnage est membre de cette classe, le test est effectué avec un avantage. Par exemple, si le lanceur de sorts lance un sort en tant que clerc, un autre clerc obtient un avantage au test pour identifier ce sort. Certains sorts ne sont associés à aucune classe quand ils sont lancés, comme lorsqu'un monstre utilise son trait Incantation innée.",
+				"Ce test d'Intelligence ({@skill Arcanes}) représente le fait qu'identifier un sort demande un esprit vif et une bonne connaissance de la théorie et de la pratique de l'incantation. C'est vrai même pour un personnage dont la caractéristique d'incarnation est la Sagesse ou le Charisme. Savoir lancer des sorts ne suffit pas, en soi, pour être habile à déduire exactement ce que les autres font quand ils lancent leurs sorts."
 			]
 		},
 		{
-			"name": "Improvising an Action",
+			"name": "Improviser une action",
 			"source": "PHB",
 			"page": 193,
 			"basicRules": true,
@@ -542,23 +542,23 @@
 				"Improvising an Action|XPHB"
 			],
 			"time": [
-				"Varies"
+				"Variable"
 			],
 			"entries": [
-				"Your character can do things not covered by the actions in this chapter, such as breaking down doors, intimidating enemies, sensing weaknesses in magical defenses, or calling for a parley with a foe. The only limits to the actions you can attempt are your imagination and your character's ability scores. See the descriptions of the ability scores in {@book chapter 7|phb|7|Ability Scores and Modifiers} for inspiration as you improvise.",
-				"When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
+				"Votre personnage peut faire des choses que les actions de ce chapitre ne couvrent pas, comme enfoncer des portes, intimider des ennemis, sentir les faiblesses des défenses magiques ou demander une entrevue avec un ennemi. Les seules limites aux actions que vous pouvez tenter sont votre imagination et les valeurs de caractéristique de votre personnage. Consultez les descriptions des caractéristiques dans {@book chapter 7|phb|7|Caractéristiques et modificateurs} pour vous inspirer au fil de vos improvisations.",
+				"Quand vous décrivez une action qui n'est pas détaillée ailleurs dans les règles, le MD vous indique si cette action est possible et quel type de jet, s'il y en a un, vous devez effectuer pour déterminer la réussite ou l'échec."
 			]
 		},
 		{
-			"name": "Improvising an Action",
+			"name": "Improviser une action",
 			"source": "XPHB",
 			"page": 15,
 			"basicRules2024": true,
 			"time": [
-				"Varies"
+				"Variable"
 			],
 			"entries": [
-				"Player characters and monsters can also do things not covered by other actions. Many class features and other abilities provide additional action options, and you can improvise other actions. When you describe an action not detailed elsewhere in the rules, the Dungeon Master tells you whether that action is possible and what kind of {@variantrule D20 Test|XPHB} you need to make, if any."
+				"Les personnages-joueurs et les monstres peuvent aussi faire des choses que les autres actions ne couvrent pas. De nombreuses aptitudes de classe et autres capacités offrent des options d'action supplémentaires, et vous pouvez improviser d'autres actions. Quand vous décrivez une action qui n'est pas détaillée ailleurs dans les règles, le Maître du Jeu vous indique si cette action est possible et quel type de {@variantrule D20 Test|XPHB} vous devez effectuer, s'il y en a un."
 			]
 		},
 		{
@@ -572,36 +572,36 @@
 				}
 			],
 			"entries": [
-				"With the Influence action, you urge a monster to do something. Describe or roleplay how you're communicating with the monster. Are you trying to deceive, intimidate, amuse, or gently persuade? The DM then determines whether the monster feels willing, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary, as explained below.",
+				"Avec l'action Influence, vous exhorte un monstre à faire quelque chose. Décrivez ou jouez la manière dont vous communiquez avec le monstre. Essayez-vous de tromper, d'intimider, d'amuser ou de persuader en douceur ? Le MD détermine alors si le monstre se sent disposé, réticent ou hésitant à cause de votre interaction ; cette détermination établit si un test de caractéristique est nécessaire, comme expliqué ci-dessous.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Willing",
+							"name": "Disposé",
 							"entries": [
-								"If your urging aligns with the monster's desires, no ability check is necessary; the monster fulfills your request in a way it prefers."
+								"Si votre exhortation s'accorde avec les désirs du monstre, aucun test de caractéristique n'est nécessaire ; le monstre accomplit votre requête de la manière qu'il préfère."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Unwilling",
+							"name": "Réticent",
 							"entries": [
-								"If your urging is repugnant to the monster or counter to its alignment, no ability check is necessary; it doesn't comply."
+								"Si votre exhortation est répugnante pour le monstre ou contraire à son alignement, aucun test de caractéristique n'est nécessaire ; il ne se plie pas à votre requête."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Hesitant",
+							"name": "Hésitant",
 							"entries": [
-								"If you urge the monster to do something that it is hesitant to do, you must make an ability check, which is affected by the monster's attitude: Indifferent, Friendly, or Hostile, each of which is defined in this glossary. The Influence Checks table suggests which ability check to make based on how you're interacting with the monster. The DM chooses the check, which has a default DC equal to 15 or the monster's Intelligence score, whichever is higher. On a successful check, the monster does as urged. On a failed check, you must wait 24 hours (or a duration set by the DM) before urging it in the same way again."
+								"Si vous exhorte le monstre à faire quelque chose qu'il hésite à faire, vous devez effectuer un test de caractéristique, qui est influencé par l'attitude du monstre : Indifférent, Amical ou Hostile, chacun étant défini dans ce glossaire. La table Tests d'influence suggère quel test de caractéristique effectuer selon la manière dont vous interagissez avec le monstre. Le MD choisit le test, dont le DD par défaut est égal à 15 ou au score d'Intelligence du monstre, le plus élevé des deux. En cas de test réussi, le monstre fait ce qu'on lui exhorte de faire. En cas de test raté, vous devez attendre 24 heures (ou une durée fixée par le MD) avant de l'exhorter de la même manière à nouveau."
 							]
 						},
 						{
 							"type": "table",
-							"caption": "Influence Checks",
+							"caption": "Tests d'influence",
 							"colLabels": [
-								"Ability Check",
+								"Test de caractéristique",
 								"Interaction"
 							],
 							"colStyles": [
@@ -610,24 +610,24 @@
 							],
 							"rows": [
 								[
-									"Charisma ({@skill Deception|XPHB})",
-									"Deceiving a monster that understands you"
+									"Charisme ({@skill Tromperie|XPHB})",
+									"Tromper un monstre qui vous comprend"
 								],
 								[
-									"Charisma ({@skill Intimidation|XPHB})",
-									"Intimidating a monster"
+									"Charisme ({@skill Intimidation|XPHB})",
+									"Intimider un monstre"
 								],
 								[
-									"Charisma ({@skill Performance|XPHB})",
-									"Amusing a monster"
+									"Charisme ({@skill Représentation|XPHB})",
+									"Amuser un monstre"
 								],
 								[
-									"Charisma ({@skill Persuasion|XPHB})",
-									"Persuading a monster that understands you"
+									"Charisme ({@skill Persuasion|XPHB})",
+									"Persuader un monstre qui vous comprend"
 								],
 								[
-									"Wisdom ({@skill Animal Handling|XPHB})",
-									"Gently coaxing a Beast or Monstrosity"
+									"Sagesse ({@skill Dressage|XPHB})",
+									"Amadouer en douceur une Bête ou une Monstruosité"
 								]
 							]
 						}
@@ -636,7 +636,7 @@
 			]
 		},
 		{
-			"name": "Magic",
+			"name": "Magie",
 			"source": "XPHB",
 			"page": 371,
 			"srd52": true,
@@ -647,25 +647,25 @@
 				}
 			],
 			"entries": [
-				"When you take the {@action Magic|XPHB} action, you cast a spell that has a casting time of an action or use a feature or magic item that requires a {@action Magic|XPHB} action to be activated.",
-				"If you cast a spell that has a casting time of 1 minute or longer, you must take the {@action Magic|XPHB} action on each turn of that casting, and you must maintain {@status Concentration|XPHB} while you do so. If your {@status Concentration|XPHB} is broken, the spell fails, but you don't expend a spell slot."
+				"Quand vous réalisez l'action {@action Magie|XPHB}, vous lancez un sort dont le temps d'incantation est une action, ou vous utilisez une aptitude ou un objet magique qui exige une action {@action Magie|XPHB} pour être activé.",
+				"Si vous lancez un sort dont le temps d'incantation est d'1 minute ou plus, vous devez réaliser l'action {@action Magie|XPHB} à chaque tour de cette incantation, et vous devez maintenir la {@status Concentration|XPHB} ce faisant. Si votre {@status Concentration|XPHB} est interrompue, le sort échoue, mais vous ne dépensez pas d'emplacement de sort."
 			]
 		},
 		{
-			"name": "Mark",
+			"name": "Marquer",
 			"source": "DMG",
 			"page": 271,
 			"fromVariant": "Action Options",
 			"entries": [
-				"This option makes it easier for melee combatants to harry each other with opportunity attacks.",
-				"When a creature makes a melee attack, it can also mark its target. Until the end of the attacker's next turn, any opportunity attack it makes against the marked target has advantage. The opportunity attack doesn't expend the attacker's reaction, but the attacker can't make the attack if anything, such as the {@condition incapacitated} condition or the {@spell shocking grasp} spell, is preventing it from taking reactions. The attacker is limited to one opportunity attack per turn."
+				"Cette option permet aux combattants au corps à corps de se harceler plus facilement avec des attaques d'opportunité.",
+				"Quand une créature effectue une attaque au corps à corps, elle peut aussi marquer sa cible. Jusqu'à la fin du prochain tour de l'attaquant, toute attaque d'opportunité qu'il effectue contre la cible marquée obtient un avantage. L'attaque d'opportunité ne dépense pas la réaction de l'attaquant, mais l'attaquant ne peut pas effectuer l'attaque si quoi que ce soit, comme l'état {@condition Incapable} ou le sort {@spell shocking grasp}, l'empêche de prendre des réactions. L'attaquant est limité à une attaque d'opportunité par tour."
 			],
 			"seeAlsoAction": [
 				"Attack"
 			]
 		},
 		{
-			"name": "Opportunity Attack",
+			"name": "Attaque d'opportunité",
 			"source": "PHB",
 			"page": 195,
 			"srd": true,
@@ -680,13 +680,13 @@
 				}
 			],
 			"entries": [
-				"In a fight, everyone is constantly watching for enemies to drop their guard. You can rarely move heedlessly past your foes without putting yourself in danger; doing so provokes an opportunity attack.",
-				"You can make an opportunity attack when a hostile creature that you can see moves out of your reach. To make the opportunity attack, you use your reaction to make one melee attack against the provoking creature. The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-				"You can avoid provoking an opportunity attack by taking the {@action Disengage} action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy."
+				"Dans un combat, chacun observe constamment les ennemis, guettant le moindre relâchement de leur vigilance. Vous pouvez rarement passer imprudemment devant vos ennemis sans vous mettre en danger ; ce faisant, vous provoquez une attaque d'opportunité.",
+				"Vous pouvez effectuer une attaque d'opportunité quand une créature hostile que vous pouvez voir sort de votre portée. Pour effectuer l'attaque d'opportunité, vous utilisez votre réaction pour porter une attaque au corps à corps contre la créature qui a provoqué l'attaque. Celle-ci interrompt le déplacement de la créature qui l'a provoquée, survenant juste avant que la créature ne quitte votre portée.",
+				"Vous pouvez éviter de provoquer une attaque d'opportunité en réalisant l'action {@action Désengagement}. Vous ne provoquez pas non plus d'attaque d'opportunité quand vous vous téléportez ou quand quelqu'un ou quelque chose vous déplace sans utiliser votre déplacement, votre action ou votre réaction. Par exemple, vous ne provoquez pas d'attaque d'opportunité si une explosion vous projette hors de la portée d'un ennemi ou si la gravité vous fait tomber devant un ennemi."
 			]
 		},
 		{
-			"name": "Opportunity Attack",
+			"name": "Attaque d'opportunité",
 			"source": "XPHB",
 			"page": 371,
 			"srd52": true,
@@ -697,53 +697,53 @@
 				}
 			],
 			"entries": [
-				"You can make an Opportunity Attack when a creature that you can see leaves your reach using its action, its {@variantrule Bonus Action|XPHB}, its {@variantrule Reaction|XPHB}, or one of its speeds. To make the Opportunity Attack, take a {@variantrule Reaction|XPHB} to make one melee attack with a weapon or an {@variantrule Unarmed Strike|XPHB} against the provoking creature. The attack occurs right before the creature leaves your reach."
+				"Vous pouvez effectuer une attaque d'opportunité quand une créature que vous pouvez voir quitte votre portée en utilisant son action, son {@variantrule Bonus Action|XPHB}, sa {@variantrule Reaction|XPHB} ou l'une de ses vitesses. Pour effectuer l'attaque d'opportunité, prenez une {@variantrule Reaction|XPHB} pour porter une attaque au corps à corps avec une arme ou une {@variantrule Unarmed Strike|XPHB} contre la créature qui l'a provoquée. L'attaque survient juste avant que la créature ne quitte votre portée."
 			]
 		},
 		{
-			"name": "Other Activity",
+			"name": "Autre activité",
 			"source": "PHB",
 			"page": 190,
 			"srd": true,
 			"basicRules": true,
 			"time": [
-				"Varies"
+				"Variable"
 			],
 			"entries": [
-				"Your turn can include a variety of flourishes that require neither your action nor your move.",
-				"You can communicate however you are able, through brief utterances and gestures, as you take your turn.",
-				"You can also interact with one object or feature of the environment for free, during either your move or your action. For example, you could open a door during your move as you stride toward a foe, or you could draw your weapon as part of the same action you use to attack.",
-				"If you want to interact with a second object, you need to use your action. Some magic items and other special objects always require an action to use, as stated in their descriptions.",
-				"The DM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the DM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge.",
+				"Votre tour peut inclure diverses pirouettes qui ne nécessitent ni votre action ni votre déplacement.",
+				"Vous pouvez communiquer comme vous le pouvez, par de brèves paroles et des gestes, pendant votre tour.",
+				"Vous pouvez aussi interagir gratuitement avec un objet ou un élément de l'environnement, pendant votre déplacement ou votre action. Par exemple, vous pourriez ouvrir une porte pendant votre déplacement tandis que vous marchez vers un ennemi, ou dégainer votre arme dans le cadre de la même action que celle dont vous vous servez pour attaquer.",
+				"Si vous voulez interagir avec un second objet, vous devez utiliser votre action. Certains objets magiques et autres objets spéciaux exigent toujours une action pour être utilisés, comme indiqué dans leurs descriptions.",
+				"Le MD peut vous demander d'utiliser une action pour n'importe laquelle de ces activités quand elle demande une attention particulière ou quand elle présente un obstacle inhabituel. Par exemple, le MD peut raisonnablement s'attendre à ce que vous utilisiez une action pour ouvrir une porte bloquée ou tourner une manivelle pour abaisser un pont-levis.",
 				{
 					"type": "inset",
-					"name": "Interacting with Objects Around You",
+					"name": "Interagir avec les objets autour de vous",
 					"entries": [
-						"Here are a few examples of the sorts of thing you can do in tandem with your movement and action:",
+						"Voici quelques exemples des choses que vous pouvez faire en même temps que votre déplacement et votre action :",
 						{
 							"type": "list",
 							"items": [
-								"draw or sheathe a sword",
-								"open or close a door",
-								"withdraw a potion from your backpack",
-								"pick up a dropped axe",
-								"take a bauble from a table",
-								"remove a ring from your finger",
-								"stuff some food into your mouth",
-								"plant a banner in the ground",
-								"fish a few coins from your belt pouch",
-								"drink all the ale in a flagon",
-								"throw a lever or a switch",
-								"pull a torch from a sconce",
-								"take a book from a shelf you can reach",
-								"extinguish a small flame",
-								"don a mask",
-								"pull the hood of your cloak up and over your head",
-								"put your ear to a door",
-								"kick a small stone",
-								"turn a key in a lock",
-								"tap the floor with a 10-foot pole",
-								"hand an item to another character"
+								"dégainer ou rengainer une épée",
+								"ouvrir ou fermer une porte",
+								"sortir une potion de votre sac à dos",
+								"ramasser une hache tombée au sol",
+								"prendre une babiole sur une table",
+								"retirer un anneau de votre doigt",
+								"enfourner de la nourriture dans votre bouche",
+								"planter une bannière dans le sol",
+								"pêcher quelques pièces dans votre bourse",
+								"boire toute la bière d'une cruche",
+								"actionner un levier ou un interrupteur",
+								"sortir une torche de son support",
+								"prendre un livre sur une étagère à portée de main",
+								"éteindre une petite flamme",
+								"mettre un masque",
+								"relever le capuchon de votre cape sur votre tête",
+								"coller votre oreille à une porte",
+								"donner un coup de pied dans une petite pierre",
+								"tourner une clé dans une serrure",
+								"taper le sol avec un bâton de 10 pieds",
+								"tend un objet à un autre personnage"
 							]
 						}
 					]
@@ -751,7 +751,7 @@
 			]
 		},
 		{
-			"name": "Overrun",
+			"name": "Passer en force",
 			"source": "DMG",
 			"page": 272,
 			"fromVariant": "Action Options",
@@ -766,14 +766,14 @@
 				}
 			],
 			"entries": [
-				"When a creature tries to move through a hostile creature's space, the mover can try to force its way through by overrunning the hostile creature. As an action or a bonus action, the mover makes a Strength ({@skill Athletics}) check contested by the hostile creature's Strength ({@skill Athletics}) check. The creature attempting the overrun has advantage on this check if it is larger than the hostile creature, or disadvantage if it is smaller. If the mover wins the contest, it can move through the hostile creature's space once this turn."
+				"Quand une créature tente de traverser l'espace d'une créature hostile, elle peut essayer de se frayer un passage en la bousculant. En dépensant une action ou une action bonus, elle effectue un test de Force ({@skill Athlétisme}) opposé au test de Force ({@skill Athlétisme}) de la créature hostile. La créature qui tente de passer en force obtient un avantage à ce test si elle est plus grande que la créature hostile, ou un désavantage si elle est plus petite. Si elle remporte l'opposition, elle peut traverser l'espace de la créature hostile une fois ce tour-ci."
 			],
 			"seeAlsoAction": [
 				"Tumble|DMG"
 			]
 		},
 		{
-			"name": "Ready",
+			"name": "Se tenir prêt",
 			"source": "PHB",
 			"page": 193,
 			"srd": true,
@@ -788,15 +788,15 @@
 				}
 			],
 			"entries": [
-				"Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction before the start of your next turn.",
-				"First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. Examples include \"If the cultist steps on the trapdoor, I'll pull the lever that opens it,\" and \"If the goblin steps next to me, I move away.\"",
-				"When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Remember that you can take only one reaction per round.",
-				"When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires {@status concentration} (explained in {@book chapter 10|phb|10|concentration}). If your {@status concentration} is broken, the spell dissipates without taking effect. For example, if you are {@status concentration||concentrating} on the web spell and ready magic missile, your web spell ends, and if you take damage before you release magic missile with your reaction, your {@status concentration} might be broken.",
-				"You have until the start of your next turn to use a readied action."
+				"Il arrive que vous vouliez prendre de vitesse un ennemi ou attendre une circonstance particulière avant d'agir. Pour ce faire, vous pouvez réaliser l'action Se tenir prêt pendant votre tour, ce qui vous permet d'agir en utilisant votre réaction avant le début de votre prochain tour.",
+				"D'abord, vous décidez de la circonstance perceptible qui déclenchera votre réaction. Ensuite, vous choisissez l'action que vous entreprendrez en réponse à ce déclencheur, ou vous choisissez de vous déplacer jusqu'à votre vitesse en réponse à celui-ci. Exemples : « Si le cultiste marche sur la trappe, je tire le levier qui l'ouvre », et « Si le gobelin s'approche de moi, je m'éloigne ».",
+				"Quand le déclencheur survient, vous pouvez utiliser votre réaction juste après la fin du déclencheur ou l'ignorer. N'oubliez pas que vous ne pouvez prendre qu'une seule réaction par round.",
+				"Quand vous vous tenez prêt pour un sort, vous l'incantez normalement mais vous retenez son énergie, que vous libérez avec votre réaction quand le déclencheur survient. Pour être ainsi préparé, un sort doit avoir un temps d'incantation de 1 action, et retenir la magie du sort exige {@status concentration} (expliqué dans {@book chapter 10|phb|10|concentration}). Si votre {@status concentration} est interrompue, le sort se dissipe sans produire d'effet. Par exemple, si vous êtes {@status concentration||concentré} sur le sort toile et que vous vous tenez prêt à lancer projectile magique, votre sort toile prend fin, et si vous subissez des dégâts avant de libérer projectile magique avec votre réaction, votre {@status concentration} risque d'être interrompue.",
+				"Vous avez jusqu'au début de votre prochain tour pour utiliser une action préparée."
 			]
 		},
 		{
-			"name": "Ready",
+			"name": "Se tenir prêt",
 			"source": "XPHB",
 			"page": 372,
 			"srd52": true,
@@ -807,14 +807,14 @@
 				}
 			],
 			"entries": [
-				"You take the Ready action to wait for a particular circumstance before you act. To do so, you take this action on your turn, which lets you act by taking a {@variantrule Reaction|XPHB} before the start of your next turn.",
-				"First, you decide what perceivable circumstance will trigger your {@variantrule Reaction|XPHB}. Then, you choose the action you will take in response to that trigger, or you choose to move up to your {@variantrule Speed|XPHB} in response to it. Examples include \"If the cultist steps on the trapdoor, I'll pull the lever that opens it,\" and \"If the zombie steps next to me, I move away.\"",
-				"When the trigger occurs, you can either take your {@variantrule Reaction|XPHB} right after the trigger finishes or ignore the trigger.",
-				"When you Ready a spell, you cast it as normal (expending any resources used to cast it) but hold its energy, which you release with your {@variantrule Reaction|XPHB} when the trigger occurs. To be readied, a spell must have a casting time of an action, and holding on to the spell's magic requires {@status Concentration|XPHB}, which you can maintain up to the start of your next turn. If your {@status Concentration|XPHB} is broken, the spell dissipates without taking effect."
+				"Vous réalisez l'action Se tenir prêt pour attendre une circonstance particulière avant d'agir. Pour ce faire, vous réalisez cette action pendant votre tour, ce qui vous permet d'agir en prenant une {@variantrule Reaction|XPHB} avant le début de votre prochain tour.",
+				"D'abord, vous décidez de la circonstance perceptible qui déclenchera votre {@variantrule Reaction|XPHB}. Ensuite, vous choisissez l'action que vous entreprendrez en réponse à ce déclencheur, ou vous choisissez de vous déplacer jusqu'à votre {@variantrule Speed|XPHB} en réponse à celui-ci. Exemples : « Si le cultiste marche sur la trappe, je tire le levier qui l'ouvre », et « Si le zombie s'approche de moi, je m'éloigne ».",
+				"Quand le déclencheur survient, vous pouvez utiliser votre {@variantrule Reaction|XPHB} juste après la fin du déclencheur ou l'ignorer.",
+				"Quand vous vous tenez prêt pour un sort, vous l'incantez normalement (en dépensant les ressources nécessaires à son lancement) mais vous retenez son énergie, que vous libérez avec votre {@variantrule Reaction|XPHB} quand le déclencheur survient. Pour être ainsi préparé, un sort doit avoir un temps d'incantation d'une action, et retenir la magie du sort exige {@status Concentration|XPHB}, que vous pouvez maintenir jusqu'au début de votre prochain tour. Si votre {@status Concentration|XPHB} est interrompue, le sort se dissipe sans produire d'effet."
 			]
 		},
 		{
-			"name": "Search",
+			"name": "Chercher",
 			"source": "PHB",
 			"page": 193,
 			"srd": true,
@@ -829,11 +829,11 @@
 				}
 			],
 			"entries": [
-				"When you take the Search action, you devote your attention to finding something. Depending on the nature of your search, the DM might have you make a Wisdom ({@skill Perception}) check or an Intelligence ({@skill Investigation}) check."
+				"Quand vous réalisez l'action Chercher, vous consacrez votre attention à trouver quelque chose. Selon la nature de votre recherche, le MD peut vous faire effectuer un test de Sagesse ({@skill Perception}) ou d'Intelligence ({@skill Investigation})."
 			]
 		},
 		{
-			"name": "Search",
+			"name": "Chercher",
 			"source": "XPHB",
 			"page": 373,
 			"srd52": true,
@@ -844,13 +844,13 @@
 				}
 			],
 			"entries": [
-				"When you take the Search action, you make a Wisdom check to discern something that isn't obvious. The Search table suggests which skills are applicable when you take this action, depending on what you're trying to detect.",
+				"Quand vous réalisez l'action Chercher, vous effectuez un test de Sagesse pour discerner quelque chose qui n'est pas évident. La table Chercher suggère quelles compétences sont applicables quand vous réalisez cette action, selon ce que vous tentez de détecter.",
 				{
 					"type": "table",
-					"caption": "Search",
+					"caption": "Chercher",
 					"colLabels": [
-						"Skill",
-						"Thing to Detect"
+						"Compétence",
+						"Chose à détecter"
 					],
 					"colStyles": [
 						"col-4",
@@ -858,27 +858,27 @@
 					],
 					"rows": [
 						[
-							"{@skill Insight|XPHB}",
-							"Creature's state of mind"
+							"{@skill Perspicacité|XPHB}",
+							"État d'esprit d'une créature"
 						],
 						[
-							"{@skill Medicine|XPHB}",
-							"Creature's ailment or cause of death"
+							"{@skill Médecine|XPHB}",
+							"Maladie d'une créature ou cause de sa mort"
 						],
 						[
 							"{@skill Perception|XPHB}",
-							"Concealed creature or object"
+							"Créature ou objet dissimulé"
 						],
 						[
-							"{@skill Survival|XPHB}",
-							"Tracks or food"
+							"{@skill Survie|XPHB}",
+							"Pistes ou nourriture"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Shove",
+			"name": "Bousculer",
 			"source": "PHB",
 			"page": 195,
 			"srd": true,
@@ -896,8 +896,8 @@
 				}
 			],
 			"entries": [
-				"Using the {@action Attack} action, you can make a special melee attack to shove a creature, either to knock it {@condition prone} or push it away from you. If you're able to make multiple attacks with the {@action Attack} action, this attack replaces one of them.",
-				"The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength ({@skill Athletics}) check contested by the target's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitated}. If you succeed, you either knock the target {@condition prone} or push it 5 feet away from you."
+				"En utilisant l'action {@action Attaque}, vous pouvez effectuer une attaque au corps à corps spéciale pour bousculer une créature, soit pour la faire tomber {@condition À terre}, soit pour la pousser loin de vous. Si vous pouvez effectuer plusieurs attaques avec l'action {@action Attaque}, cette attaque remplace l'une d'entre elles.",
+				"La cible de votre bousculade doit être au maximum d'une taille de plus que vous, et se trouver à votre portée. Vous effectuez un test de Force ({@skill Athlétisme}) opposé au test de Force ({@skill Athlétisme}) ou de Dextérité ({@skill Acrobaties}) de la cible (c'est elle qui choisit la caractéristique à utiliser). Vous réussissez automatiquement si la cible est {@condition Incapable}. En cas de réussite, vous faites tomber la cible {@condition À terre} ou la poussez à 5 pieds de vous."
 			],
 			"seeAlsoAction": [
 				"Attack",
@@ -905,7 +905,7 @@
 			]
 		},
 		{
-			"name": "Shove Aside",
+			"name": "Bousculer de côté",
 			"source": "DMG",
 			"page": 272,
 			"fromVariant": "Action Options",
@@ -916,11 +916,11 @@
 				}
 			],
 			"entries": [
-				"With this option, a creature uses the special {@action shove} attack from the {@book Player's Handbook|PHB|9|Shoving a Creature} to force a target to the side, rather than away. The attacker has disadvantage on its Strength ({@skill Athletics}) check when it does so. If that check is successful, the attacker moves the target 5 feet to a different space within its reach."
+				"Avec cette option, une créature utilise l'attaque spéciale {@action Bousculer} décrite dans le {@book Player's Handbook|PHB|9|Bousculer une créature} pour déplacer une cible sur le côté, plutôt que loin d'elle. L'attaquant subit un désavantage à son test de Force ({@skill Athlétisme}) ce faisant. Si ce test est réussi, l'attaquant déplace la cible de 5 pieds vers un espace différent situé dans sa portée."
 			]
 		},
 		{
-			"name": "Stabilize a Creature",
+			"name": "Stabiliser une créature",
 			"source": "PHB",
 			"page": 197,
 			"srd": true,
@@ -935,12 +935,12 @@
 				}
 			],
 			"entries": [
-				"You can use your action to administer first aid to an {@condition unconscious} creature and attempt to stabilize it, which requires a successful {@dc 10} Wisdom ({@skill Medicine}) check.",
-				"A stable creature doesn't make death saving throws, even though it has 0 hit points, but it does remain {@condition unconscious}. The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after {@dice 1d4} hours."
+				"Vous pouvez utiliser votre action pour administrer les premiers soins à une créature {@condition Inconscient} et tenter de la stabiliser, ce qui exige un test de Sagesse ({@skill Médecine}) {@dc 10} réussi.",
+				"Une créature stabilisée n'effectue pas de jets de sauvegarde contre la mort, même si elle a 0 point de vie, mais elle reste {@condition Inconscient}. La créature cesse d'être stable, et doit recommencer à effectuer des jets de sauvegarde contre la mort, si elle subit le moindre dégât. Une créature stable qui n'est pas soignée regagne 1 point de vie après {@dice 1d4} heures."
 			]
 		},
 		{
-			"name": "Study",
+			"name": "Étudier",
 			"source": "XPHB",
 			"page": 375,
 			"time": [
@@ -950,14 +950,14 @@
 				}
 			],
 			"entries": [
-				"When you take the Study action, you make an Intelligence check to study your memory, a book, a clue, or another source of knowledge and call to mind an important piece of information about it.",
-				"The Areas of Knowledge table suggests which skills are applicable to various areas of knowledge.",
+				"Quand vous réalisez l'action Étudier, vous effectuez un test d'Intelligence pour étudier votre mémoire, un livre, un indice ou une autre source de connaissances et vous remémorer une information importante à son sujet.",
+				"La table Domaines de connaissance suggère quelles compétences sont applicables aux divers domaines de connaissance.",
 				{
 					"type": "table",
-					"caption": "Areas of Knowledge",
+					"caption": "Domaines de connaissance",
 					"colLabels": [
-						"Skill",
-						"Areas"
+						"Compétence",
+						"Domaines"
 					],
 					"colStyles": [
 						"col-3",
@@ -965,31 +965,31 @@
 					],
 					"rows": [
 						[
-							"{@skill Arcana|XPHB}",
-							"Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)"
+							"{@skill Arcanes|XPHB}",
+							"Sorts, objets magiques, symboles mystiques, traditions magiques, plans d'existence et certaines créatures (Aberrations, Constructions, Élémentaires, Fées et Monstruosités)"
 						],
 						[
-							"{@skill History|XPHB}",
-							"Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)"
+							"{@skill Histoire|XPHB}",
+							"Événements et personnages historiques, civilisations anciennes, guerres et certaines créatures (Géants et Humanoïdes)"
 						],
 						[
 							"{@skill Investigation|XPHB}",
-							"Traps, ciphers, riddles, and gadgetry"
+							"Pièges, codes, énigmes et dispositifs"
 						],
 						[
 							"{@skill Nature|XPHB}",
-							"Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)"
+							"Terrain, flore, météo et certaines créatures (Bêtes, Dragons, Limons et Plantes)"
 						],
 						[
 							"{@skill Religion|XPHB}",
-							"Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)"
+							"Divinités, hiérarchies et rites religieux, symboles sacrés, cultes et certaines créatures (Célestes, Fiélons et Morts-vivants)"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Tumble",
+			"name": "Tumbler",
 			"source": "DMG",
 			"page": 272,
 			"fromVariant": "Action Options",
@@ -1004,14 +1004,14 @@
 				}
 			],
 			"entries": [
-				"A creature can try to tumble through a hostile creature's space, ducking and weaving past the opponent. As an action or a bonus action, the tumbler makes a Dexterity ({@skill Acrobatics}) check contested by the hostile creature's Dexterity ({@skill Acrobatics}) check. If the tumbler wins the contest, it can move through the hostile creature's space once this turn."
+				"Une créature peut tenter de passer en tumbler à travers l'espace d'une créature hostile, en esquivant et en zigzaguant devant l'adversaire. En dépensant une action ou une action bonus, elle effectue un test de Dextérité ({@skill Acrobaties}) opposé au test de Dextérité ({@skill Acrobaties}) de la créature hostile. Si elle remporte l'opposition, elle peut traverser l'espace de la créature hostile une fois ce tour-ci."
 			],
 			"seeAlsoAction": [
 				"Overrun|DMG"
 			]
 		},
 		{
-			"name": "Two-Weapon Fighting",
+			"name": "Combat à deux armes",
 			"source": "PHB",
 			"page": 195,
 			"srd": true,
@@ -1026,15 +1026,15 @@
 				}
 			],
 			"entries": [
-				"When you take the {@action Attack} action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-				"If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+				"Quand vous réalisez l'action {@action Attaque} et attaquez avec une arme au corps à corps légère que vous tenez dans une main, vous pouvez utiliser une action bonus pour attaquer avec une autre arme au corps à corps légère tenue dans votre autre main. Vous n'ajoutez pas votre modificateur de caractéristique aux dégâts de l'attaque bonus, sauf si ce modificateur est négatif.",
+				"Si l'une ou l'autre des armes possède la propriété lancée, vous pouvez lancer l'arme au lieu de l'utiliser pour une attaque au corps à corps."
 			],
 			"seeAlsoAction": [
 				"Attack"
 			]
 		},
 		{
-			"name": "Two-Weapon Fighting",
+			"name": "Combat à deux armes",
 			"source": "XPHB",
 			"page": 213,
 			"srd52": true,
@@ -1046,14 +1046,14 @@
 				}
 			],
 			"entries": [
-				"When you take the {@action Attack|XPHB} action on your turn and attack with a Light weapon, you can make one extra attack as a {@variantrule Bonus Action|XPHB} later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative. For example, you can attack with a {@item Shortsword|XPHB} in one hand and a {@item Dagger|XPHB} in the other using the {@action Attack|XPHB} action and a {@variantrule Bonus Action|XPHB}, but you don't add your Strength or Dexterity modifier to the damage roll of the {@variantrule Bonus Action|XPHB} unless that modifier is negative."
+				"Quand vous réalisez l'action {@action Attaque|XPHB} pendant votre tour et attaquez avec une arme Légère, vous pouvez effectuer une attaque supplémentaire sous forme d'{@variantrule Bonus Action|XPHB} plus tard pendant le même tour. Cette attaque supplémentaire doit être effectuée avec une autre arme Légère, et vous n'ajoutez pas votre modificateur de caractéristique aux dégâts de l'attaque supplémentaire, sauf si ce modificateur est négatif. Par exemple, vous pouvez attaquer avec un {@item Épée courte|XPHB} dans une main et une {@item Dague|XPHB} dans l'autre en utilisant l'action {@action Attaque|XPHB} et une {@variantrule Bonus Action|XPHB}, mais vous n'ajoutez pas votre modificateur de Force ou de Dextérité au jet de dégâts de l'{@variantrule Bonus Action|XPHB}, sauf si ce modificateur est négatif."
 			],
 			"seeAlsoAction": [
 				"Attack|XPHB"
 			]
 		},
 		{
-			"name": "Use an Object",
+			"name": "Utiliser un objet",
 			"source": "PHB",
 			"page": 193,
 			"srd": true,
@@ -1068,11 +1068,11 @@
 				}
 			],
 			"entries": [
-				"You normally interact with an object while doing something else, such as when you draw a sword as part of an attack. When an object requires your action for its use, you take the Use an Object action. This action is also useful when you want to interact with more than one object on your turn."
+				"Vous interagissez normalement avec un objet tout en faisant autre chose, comme quand vous dégainez une épée dans le cadre d'une attaque. Quand un objet exige votre action pour être utilisé, vous réalisez l'action Utiliser un objet. Cette action est également utile quand vous voulez interagir avec plus d'un objet pendant votre tour."
 			]
 		},
 		{
-			"name": "Utilize",
+			"name": "Utiliser",
 			"source": "XPHB",
 			"page": 377,
 			"srd52": true,
@@ -1083,11 +1083,11 @@
 				}
 			],
 			"entries": [
-				"You normally interact with an object while doing something else, such as when you draw a sword as part of the {@action Attack|XPHB} action. When an object requires an action for its use, you take the Utilize action."
+				"Vous interagissez normalement avec un objet tout en faisant autre chose, comme quand vous dégainez une épée dans le cadre de l'action {@action Attaque|XPHB}. Quand un objet exige une action pour être utilisé, vous réalisez l'action Utiliser."
 			]
 		},
 		{
-			"name": "Waking Someone",
+			"name": "Réveiller quelqu'un",
 			"source": "XGE",
 			"page": 77,
 			"time": [
@@ -1097,8 +1097,8 @@
 				}
 			],
 			"entries": [
-				"A creature that is naturally sleeping, as opposed to being in a magically or chemically induced sleep, wakes up if it takes any damage or if someone else uses an action to shake or slap the creature awake. A sudden loud noise\u2014such as yelling, thunder, or a ringing bell\u2014also awakens someone that is sleeping naturally.",
-				"Whispers don't disturb sleep, unless a sleeper's passive Wisdom ({@skill Perception}) score is 20 or higher and the whispers are within 10 feet of the sleeper. Speech at a normal volume awakens a sleeper if the environment is otherwise silent (no wind, birdsong, crickets, street sounds, or the like) and the sleeper has a passive Wisdom ({@skill Perception}) score of 15 or higher."
+				"Une créature endormie naturellement, par opposition à un sommeil induit par la magie ou par voie chimique, se réveille si elle subit le moindre dégât ou si quelqu'un d'autre utilise une action pour la secouer ou la gifler pour la réveiller. Un bruit fort soudain — comme des cris, le tonnerre ou une cloche qui sonne — réveille également une personne endormie naturellement.",
+				"Les chuchotements ne dérangent pas le sommeil, sauf si le score de Sagesse ({@skill Perception}) passif de celui qui dort est de 20 ou plus et que les chuchotements se produisent à 10 pieds de lui ou moins. Une conversation à volume normal réveille une personne endormie si l'environnement est par ailleurs silencieux (pas de vent, de chants d'oiseaux, de grillons, de bruits de rue ou assimilés) et si son score de Sagesse ({@skill Perception}) passif est de 15 ou plus."
 			]
 		}
 	]

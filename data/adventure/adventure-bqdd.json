@@ -409,7 +409,7 @@
 										}
 									]
 								},
-								"If a creature reaches 0 Hit Points, they are defeated. The players can decide if this means a creature is dead or just {@condition Unconscious|XPHB}.",
+								"If a creature reaches 0 Hit Points, they are defeated. The players can decide if this means a creature is dead or just {@condition Inconscient|XPHB}.",
 								"When a character reaches 0 Hit Points, they are unconscious. In this adventure, a character at 0 Hit Points remains unconscious until they regain Hit Points through healing or until the end of the encounter, at which point they regain 1 Hit Point automatically. The adventure details other ways to regain Hit Points.",
 								{
 									"type": "list",
@@ -867,7 +867,7 @@
 							"items": [
 								"{@b Ceilings}. The cave's ceilings are 10 feet high.",
 								"{@b Environment}. The cave has rough stone walls and a dirt floor. The floor is littered with gnawed animal bones and junk left by the kobolds.",
-								"{@b Lighting}. The cave is unlit, and its denizens rely on {@sense Darkvision|XPHB} or other means to see. Area descriptions assume the characters have a light source or other means of seeing in {@variantrule Darkness|XPHB}."
+								"{@b Lighting}. The cave is unlit, and its denizens rely on {@sense Vision dans le noir|XPHB} or other means to see. Area descriptions assume the characters have a light source or other means of seeing in {@variantrule Darkness|XPHB}."
 							],
 							"style": "list-hang-notitle"
 						},
@@ -902,8 +902,8 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Searching the Area}. No D20 Test is needed to learn that this entrance has not been traveled much recently. If a character takes the {@action Search|XPHB} action and succeeds on a {@dc 15} Wisdom ({@skill Perception|XPHB} or {@skill Survival|XPHB}) check, they notice several human-sized boot tracks leading away from the cave, along with clawed tracks. A successful {@dc 10} Intelligence ({@skill Nature|XPHB}) check can identify these tracks as those of a small dragon. One pair of human-sized tracks and one pair of slightly larger unbooted tracks lead into the cave, although steps were taken to hide them. These fainter tracks indicate that two creatures walked into the cave: the human-sized creature about four days ago, and the bugbear just hours ago.",
-										"{@b Studying the Cave Entrance}. By shining a light or peering into the cave entrance, the characters can get a better look at the damp area. A character taking the {@action Study|XPHB} action and succeeding on a {@dc 15} Intelligence ({@skill Investigation|XPHB}) check realizes the moisture isn't water: it's a greasy substance that might cause a person jumping into that area to slip when they land."
+										"{@b Searching the Area}. No D20 Test is needed to learn that this entrance has not been traveled much recently. If a character takes the {@action Chercher|XPHB} action and succeeds on a {@dc 15} Wisdom ({@skill Perception|XPHB} or {@skill Survie|XPHB}) check, they notice several human-sized boot tracks leading away from the cave, along with clawed tracks. A successful {@dc 10} Intelligence ({@skill Nature|XPHB}) check can identify these tracks as those of a small dragon. One pair of human-sized tracks and one pair of slightly larger unbooted tracks lead into the cave, although steps were taken to hide them. These fainter tracks indicate that two creatures walked into the cave: the human-sized creature about four days ago, and the bugbear just hours ago.",
+										"{@b Studying the Cave Entrance}. By shining a light or peering into the cave entrance, the characters can get a better look at the damp area. A character taking the {@action Étudier|XPHB} action and succeeding on a {@dc 15} Intelligence ({@skill Investigation|XPHB}) check realizes the moisture isn't water: it's a greasy substance that might cause a person jumping into that area to slip when they land."
 									],
 									"style": "list-hang-notitle"
 								},
@@ -920,7 +920,7 @@
 									"name": "Search vs. Study",
 									"id": "033",
 									"entries": [
-										"Two similar but different actions are {@action Search|XPHB} and {@action Study|XPHB}. Search is a Wisdom ability check that generally uses {@skill Perception|XPHB} to notice something or {@skill Survival|XPHB} to notice tracks. Study is an Intelligence ability check that uses skills like {@skill Investigation|XPHB} to interpret clues that have already been seen.",
+										"Two similar but different actions are {@action Chercher|XPHB} and {@action Étudier|XPHB}. Search is a Wisdom ability check that generally uses {@skill Perception|XPHB} to notice something or {@skill Survie|XPHB} to notice tracks. Study is an Intelligence ability check that uses skills like {@skill Investigation|XPHB} to interpret clues that have already been seen.",
 										"In this case, the characters can use a Search action to look around the area and notice things they might have missed on a first look. Those are handled with the D20 Test in \"Searching the Area.\" The characters would use a Study action, as shown in \"Studying the Cave Entrance,\" to realize that the moisture inside the cave is actually grease, which could cause a character to slip if they jump over the pit."
 									]
 								},
@@ -929,7 +929,7 @@
 									"name": "Crossing the Pit",
 									"id": "034",
 									"entries": [
-										"A character with a Strength score of 10 or higher can jump over the pit if they get a running start of at least 10 feet. If they do this, however, they land on the greasy area (a trap laid down by the new master of these caves) and must succeed on a {@dc 10} Dexterity saving throw or slip on the grease and slide into the wall to the north of the pit, taking 3 ({@dice 1d6}) Bludgeoning damage and having the {@condition Prone|XPHB} condition until they stand up.",
+										"A character with a Strength score of 10 or higher can jump over the pit if they get a running start of at least 10 feet. If they do this, however, they land on the greasy area (a trap laid down by the new master of these caves) and must succeed on a {@dc 10} Dexterity saving throw or slip on the grease and slide into the wall to the north of the pit, taking 3 ({@dice 1d6}) Bludgeoning damage and having the {@condition À terre|XPHB} condition until they stand up.",
 										"If a character attempts to cross the pit by climbing down into the pit or along the tunnel walls, they can do so without needing to make a {@variantrule D20 Test|XPHB} if they move at half speed, and they do not slip in the grease.",
 										{
 											"type": "inset",
@@ -976,7 +976,7 @@
 											"name": "Hidden Bugbear",
 											"id": "039",
 											"entries": [
-												"Lugga, a {@creature Bugbear Warrior|XMM}, hides in the shadows of the nook. She moves into the hallway and attacks when the first character enters the greasy area. If the character(s) who crossed the pit first have a {@variantrule Passive Perception|XPHB} of 16 or higher, they are not {@status Surprised|XPHB}. Otherwise, they are Surprised. Roll initiative!",
+												"Lugga, a {@creature Bugbear Warrior|XMM}, hides in the shadows of the nook. She moves into the hallway and attacks when the first character enters the greasy area. If the character(s) who crossed the pit first have a {@variantrule Passive Perception|XPHB} of 16 or higher, they are not {@status Surpris|XPHB}. Otherwise, they are Surprised. Roll initiative!",
 												{
 													"type": "inset",
 													"name": "Surprise",
@@ -1008,7 +1008,7 @@
 																{
 																	"type": "item",
 																	"name": "Take Turns",
-																	"entry": "On each of their turns, the characters and Lugga can move up to a distance equal to their {@variantrule Speed|XPHB}. Before, after, or during their movement, the characters or Lugga can use their action to take the {@action Attack|XPHB} action, take another action, or move up to their Speed again (the {@action Dash|XPHB} action.)"
+																	"entry": "On each of their turns, the characters and Lugga can move up to a distance equal to their {@variantrule Speed|XPHB}. Before, after, or during their movement, the characters or Lugga can use their action to take the {@action Attaque|XPHB} action, take another action, or move up to their Speed again (the {@action Course|XPHB} action.)"
 																}
 															]
 														}
@@ -1027,7 +1027,7 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Fighting with Lugga}. Lugga is {@variantrule Hostile [Attitude]|XPHB|Hostile} and attacks. She continues attacking until she is defeated, she is {@status Bloodied|XPHB}, or a character takes the {@action Influence|XPHB} action and succeeds on a {@dc 10} Charisma ({@skill Persuasion|XPHB} or {@skill Intimidation|XPHB}) check. At that point, carry on using \"Talking with Lugga.\"",
+												"{@b Fighting with Lugga}. Lugga is {@variantrule Hostile [Attitude]|XPHB|Hostile} and attacks. She continues attacking until she is defeated, she is {@status Meurtri|XPHB}, or a character takes the {@action Influence|XPHB} action and succeeds on a {@dc 10} Charisma ({@skill Persuasion|XPHB} or {@skill Intimidation|XPHB}) check. At that point, carry on using \"Talking with Lugga.\"",
 												"{@b Talking with Lugga}. Lugga surrenders if she is Bloodied. Alternatively, she stops attacking if a character succeeds on the Persuasion or Intimidation check to make her {@variantrule Indifferent [Attitude]|XPHB|Indifferent}."
 											],
 											"style": "list-hang-notitle"
@@ -1079,7 +1079,7 @@
 											"name": "Treasure",
 											"id": "041",
 											"entries": [
-												"Two {@item Potion of Healing|XDMG|Potions of Healing} were hidden by Groth the Wicked in the trash in this room.",
+												"Two {@item Potion de soins|XDMG|Potions of Healing} were hidden by Groth the Wicked in the trash in this room.",
 												{
 													"type": "inset",
 													"name": "Adjusting Encounter Difficulty",
@@ -1213,7 +1213,7 @@
 											"name": "Alchemical Experiment",
 											"id": "04f",
 											"entries": [
-												"Groth is attempting to make a potion that makes the drinker resistant to Necrotic damage. His work was interrupted by the characters, and now the experiment is dangerous. The experiment explodes in three rounds unless the characters add the final ingredient to the mix: a sprig of wolfsbane. A character must take the {@action Study|XPHB} action and succeed on a {@dc 15} Intelligence ({@skill Arcana|XPHB} or {@skill Nature|XPHB}) check to know how to proceed. If the experiment explodes, each creature in room takes 7 ({@dice 2d6}) Acid damage. If the characters add wolfsbane, they complete the potion successfully (see \"Treasure\" below)."
+												"Groth is attempting to make a potion that makes the drinker resistant to Necrotic damage. His work was interrupted by the characters, and now the experiment is dangerous. The experiment explodes in three rounds unless the characters add the final ingredient to the mix: a sprig of wolfsbane. A character must take the {@action Étudier|XPHB} action and succeed on a {@dc 15} Intelligence ({@skill Arcanes|XPHB} or {@skill Nature|XPHB}) check to know how to proceed. If the experiment explodes, each creature in room takes 7 ({@dice 2d6}) Acid damage. If the characters add wolfsbane, they complete the potion successfully (see \"Treasure\" below)."
 											]
 										},
 										{
@@ -1221,7 +1221,7 @@
 											"name": "Gnome Prisoner",
 											"id": "050",
 											"entries": [
-												"Groth kept this gnome named Gooster ({@creature Commoner|XMM}) as a prisoner, planning to use him as a test subject for the experiments. To free him, the character must take the {@action Utilize|XPHB} action and succeed on a {@dc 15} Dexterity ({@skill Sleight of Hand|XPHB}) check using {@item Thieves' Tools|XPHB} to unlock the restraints. A character can also use an action and succeed on a {@dc 15} Strength ({@skill Athletics|XPHB}) check to break the chains. The chains have a 10 AC, 15 Hit Points, and a {@variantrule damage threshold|XPHB} of 5."
+												"Groth kept this gnome named Gooster ({@creature Commoner|XMM}) as a prisoner, planning to use him as a test subject for the experiments. To free him, the character must take the {@action Utiliser|XPHB} action and succeed on a {@dc 15} Dexterity ({@skill Escamotage|XPHB}) check using {@item Outils de crocheteur|XPHB} to unlock the restraints. A character can also use an action and succeed on a {@dc 15} Strength ({@skill Athlétisme|XPHB}) check to break the chains. The chains have a 10 AC, 15 Hit Points, and a {@variantrule damage threshold|XPHB} of 5."
 											]
 										},
 										{
@@ -1229,7 +1229,7 @@
 											"name": "Treasure",
 											"id": "051",
 											"entries": [
-												"Groth's workshop contains 100 GP. If the characters successfully finish the alchemical project Groth started, they have a {@item Potion of Necrotic Resistance|XDMG}. Gooster additionally gives the group 20 GP for rescuing him.",
+												"Groth's workshop contains 100 GP. If the characters successfully finish the alchemical project Groth started, they have a {@item Potion de résistance nécrotique|XDMG}. Gooster additionally gives the group 20 GP for rescuing him.",
 												{
 													"type": "inset",
 													"name": "Taking On a Noncombat Challenge",
@@ -1244,7 +1244,7 @@
 																{
 																	"type": "item",
 																	"name": "Using the Help Action",
-																	"entry": "Characters who are not actively making the ability checks can use the {@action Help|XPHB} action on their turns to assist those who are trying to finish the experiment or free the gnome. By assisting in this way, the helping character chooses the character they're going to assist. That character has {@variantrule Advantage|XPHB} on their ability check or attack roll."
+																	"entry": "Characters who are not actively making the ability checks can use the {@action Aider|XPHB} action on their turns to assist those who are trying to finish the experiment or free the gnome. By assisting in this way, the helping character chooses the character they're going to assist. That character has {@variantrule Advantage|XPHB} on their ability check or attack roll."
 																}
 															]
 														}

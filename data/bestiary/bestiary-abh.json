@@ -216,13 +216,13 @@
 				{
 					"name": "Confounding Ray",
 					"entries": [
-						"{@atkr r} {@hit 5}, range 120 ft. {@h}13 ({@damage 2d12}) Psychic damage. If the target is a creature, it can't make {@action Opportunity Attack|XPHB|Opportunity Attacks} until the start of the devil's next turn."
+						"{@atkr r} {@hit 5}, range 120 ft. {@h}13 ({@damage 2d12}) Psychic damage. If the target is a creature, it can't make {@action Attaque d'opportunité|XPHB|Opportunity Attacks} until the start of the devil's next turn."
 					]
 				},
 				{
 					"name": "Compelling Contract (1/Day)",
 					"entries": [
-						"{@actSave cha} {@dc 14}, one creature within 30 feet of the devil. {@actSaveFail} The target has the {@condition Charmed|XPHB} condition. While it is {@condition Charmed|XPHB}, it has the {@condition Stunned|XPHB} condition, except the target can speak. If the target agrees to the devil's contract, the effect ends. Otherwise, the target repeats the save whenever it takes damage and at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+						"{@actSave cha} {@dc 14}, one creature within 30 feet of the devil. {@actSaveFail} The target has the {@condition Charmé|XPHB} condition. While it is {@condition Charmé|XPHB}, it has the {@condition Étourdi|XPHB} condition, except the target can speak. If the target agrees to the devil's contract, the effect ends. Otherwise, the target repeats the save whenever it takes damage and at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
 					]
 				}
 			],
@@ -380,7 +380,7 @@
 				{
 					"name": "Utterance of Pain",
 					"entries": [
-						"{@actSave wis} {@dc 18}, each creature in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the devil. {@actSaveFail} The target has the {@condition Stunned|XPHB} condition until the end of the devil's next turn."
+						"{@actSave wis} {@dc 18}, each creature in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the devil. {@actSaveFail} The target has the {@condition Étourdi|XPHB} condition until the end of the devil's next turn."
 					]
 				},
 				{
@@ -549,7 +549,7 @@
 					"name": "Misty Escape",
 					"entries": [
 						"If the vampire drops to 0 {@variantrule Hit Points|XPHB} outside its resting place, the vampire uses Shape-Shift to become mist (no action required). If it can't use Shape-Shift, it is destroyed.",
-						"While it has 0 {@variantrule Hit Points|XPHB} in mist form, it can't return to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it returns to its vampire form and has the {@condition Paralyzed|XPHB} condition until it regains any {@variantrule Hit Points|XPHB}, and it regains 1 {@variantrule Hit Points|XPHB|Hit Point} after spending 1 hour there."
+						"While it has 0 {@variantrule Hit Points|XPHB} in mist form, it can't return to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it returns to its vampire form and has the {@condition Paralysé|XPHB} condition until it regains any {@variantrule Hit Points|XPHB}, and it regains 1 {@variantrule Hit Points|XPHB|Hit Point} after spending 1 hour there."
 					]
 				},
 				{
@@ -578,7 +578,7 @@
 									"type": "itemSub",
 									"name": "Stake to the Heart",
 									"entries": [
-										"If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the {@condition Incapacitated|XPHB} condition in its resting place, the vampire has the {@condition Paralyzed|XPHB} condition until the weapon is removed."
+										"If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the {@condition Incapable|XPHB} condition in its resting place, the vampire has the {@condition Paralysé|XPHB} condition until the weapon is removed."
 									]
 								},
 								{
@@ -603,13 +603,13 @@
 				{
 					"name": "Hellfire Claw (Vampire Form Only)",
 					"entries": [
-						"{@atkr m} {@hit 9}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Slashing damage plus 10 ({@damage 3d6}) Fire damage. If the target is a Medium or smaller creature, it has the {@condition Grappled|XPHB} condition (escape {@dc 17}) from one of two claws."
+						"{@atkr m} {@hit 9}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Slashing damage plus 10 ({@damage 3d6}) Fire damage. If the target is a Medium or smaller creature, it has the {@condition Agrippé|XPHB} condition (escape {@dc 17}) from one of two claws."
 					]
 				},
 				{
 					"name": "Bite (Imp or Vampire Form Only)",
 					"entries": [
-						"{@actSave con} {@dc 18}, one creature within 5 feet that is willing or that has the {@condition Grappled|XPHB}, {@condition Incapacitated|XPHB}, or {@condition Restrained|XPHB} condition. {@actSaveFail} 6 ({@damage 1d4 + 4}) Piercing damage plus 16 ({@damage 3d10}) Necrotic damage and the creature loses its highest-level available spell slot (if any). The target's {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains {@variantrule Hit Points|XPHB} equal to that amount. A Humanoid reduced to 0 {@variantrule Hit Points|XPHB} by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire's control."
+						"{@actSave con} {@dc 18}, one creature within 5 feet that is willing or that has the {@condition Agrippé|XPHB}, {@condition Incapable|XPHB}, or {@condition Entravé|XPHB} condition. {@actSaveFail} 6 ({@damage 1d4 + 4}) Piercing damage plus 16 ({@damage 3d10}) Necrotic damage and the creature loses its highest-level available spell slot (if any). The target's {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains {@variantrule Hit Points|XPHB} equal to that amount. A Humanoid reduced to 0 {@variantrule Hit Points|XPHB} by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire's control."
 					]
 				}
 			],
@@ -634,7 +634,7 @@
 				{
 					"name": "Infernal Majesty",
 					"entries": [
-						"{@actSave cha} {@dc 17}, each creature in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the vampire. {@actSaveFail} 9 ({@damage 2d8}) Psychic damage, and the target has the {@condition Frightened|XPHB} condition until the start of its next turn. {@actSaveSuccess} Half damage only. {@actSaveSuccessOrFail} The vampire can't take this action again until the start of its next turn."
+						"{@actSave cha} {@dc 17}, each creature in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the vampire. {@actSaveFail} 9 ({@damage 2d8}) Psychic damage, and the target has the {@condition Effrayé|XPHB} condition until the start of its next turn. {@actSaveSuccess} Half damage only. {@actSaveSuccessOrFail} The vampire can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -805,7 +805,7 @@
 									"type": "itemSub",
 									"name": "Stake to the Heart",
 									"entries": [
-										"If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the {@condition Incapacitated|XPHB} condition, the vampire has the {@condition Paralyzed|XPHB} condition until the weapon is removed."
+										"If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the {@condition Incapable|XPHB} condition, the vampire has the {@condition Paralysé|XPHB} condition until the weapon is removed."
 									]
 								},
 								{
@@ -819,7 +819,7 @@
 									"type": "itemSub",
 									"name": "Immobile Restoration",
 									"entries": [
-										"If the vampire drops to 0 {@variantrule Hit Points|XPHB} while it doesn't have the {@condition Petrified|XPHB} condition, it turns to stone, regains 50 {@variantrule Hit Points|XPHB}, and has the {@condition Petrified|XPHB} condition for 1 hour."
+										"If the vampire drops to 0 {@variantrule Hit Points|XPHB} while it doesn't have the {@condition Pétrifié|XPHB} condition, it turns to stone, regains 50 {@variantrule Hit Points|XPHB}, and has the {@condition Pétrifié|XPHB} condition for 1 hour."
 									]
 								}
 							]
@@ -837,13 +837,13 @@
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atkr m} {@hit 9}, reach 5 ft. {@h}14 ({@damage 2d8 + 5}) Slashing damage plus 7 ({@damage 2d6}) Necrotic damage. If the target is a Large or smaller creature, it has the {@condition Grappled|XPHB} condition (escape {@dc 16}) from one of two claws."
+						"{@atkr m} {@hit 9}, reach 5 ft. {@h}14 ({@damage 2d8 + 5}) Slashing damage plus 7 ({@damage 2d6}) Necrotic damage. If the target is a Large or smaller creature, it has the {@condition Agrippé|XPHB} condition (escape {@dc 16}) from one of two claws."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@actSave con} {@dc 16}, one creature within 5 feet that is willing or that has the {@condition Grappled|XPHB}, {@condition Incapacitated|XPHB}, or {@condition Restrained|XPHB} condition. {@actSaveFail} 7 ({@damage 1d4 + 5}) Piercing damage plus 7 ({@damage 2d6}) Necrotic damage. The target's {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains {@variantrule Hit Points|XPHB} equal to that amount."
+						"{@actSave con} {@dc 16}, one creature within 5 feet that is willing or that has the {@condition Agrippé|XPHB}, {@condition Incapable|XPHB}, or {@condition Entravé|XPHB} condition. {@actSaveFail} 7 ({@damage 1d4 + 5}) Piercing damage plus 7 ({@damage 2d6}) Necrotic damage. The target's {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains {@variantrule Hit Points|XPHB} equal to that amount."
 					]
 				}
 			],

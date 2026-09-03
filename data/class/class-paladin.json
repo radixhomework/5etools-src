@@ -75,10 +75,10 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
-					"(a) five {@item javelin|phb|javelins} or (b) any {@filter simple melee weapon|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
-					"(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"{@item Chain mail|phb} and a {@item holy symbol|phb}"
+					"(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item Bouclier|phb} or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
+					"(a) five {@item Javelot|phb|javelins} or (b) any {@filter simple melee weapon|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+					"(a) a {@item Paquetage du prêtre|phb} or (b) an {@item Pack d'explorateur|phb}",
+					"{@item Cotte de mailles|phb} and a {@item holy symbol|phb}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -496,7 +496,7 @@
 					}
 				],
 				"entries": [
-					"{@i Choose A or B:} (A) {@item Chain Mail|XPHB}, {@item Shield|XPHB}, {@item Longsword|XPHB}, 6 {@item Javelin|XPHB|Javelins}, {@item Holy Symbol|XPHB}, {@item Priest's Pack|XPHB}, and 9 GP; or (B) 150 GP"
+					"{@i Choose A or B:} (A) {@item Cotte de mailles|XPHB}, {@item Bouclier|XPHB}, {@item Épée longue|XPHB}, 6 {@item Javelot|XPHB|Javelins}, {@item Holy Symbol|XPHB}, {@item Paquetage du prêtre|XPHB}, and 9 GP; or (B) 150 GP"
 				]
 			},
 			"multiclassing": {
@@ -1897,7 +1897,7 @@
 			"classSource": "PHB",
 			"level": 5,
 			"entries": [
-				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attaque} action on your turn."
 			]
 		},
 		{
@@ -1947,7 +1947,7 @@
 			"classSource": "PHB",
 			"level": 10,
 			"entries": [
-				"Starting at 10th level, you and friendly creatures within 10 feet of you can't be {@condition frightened} while you are conscious.",
+				"Starting at 10th level, you and friendly creatures within 10 feet of you can't be {@condition Effrayé} while you are conscious.",
 				"At 18th level, the range of this aura increases to 30 feet."
 			]
 		},
@@ -2063,7 +2063,7 @@
 			"entries": [
 				"Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a {@variantrule Long Rest|XPHB}. With that pool, you can restore a total number of {@variantrule Hit Points|XPHB} equal to five times your Paladin level.",
 				"As a {@variantrule Bonus Action|XPHB}, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of {@variantrule Hit Points|XPHB} to that creature, up to the maximum amount remaining in the pool.",
-				"You can also expend 5 {@variantrule Hit Points|XPHB} from the pool of healing power to remove the {@condition Poisoned|XPHB} condition from the creature; those points don't also restore {@variantrule Hit Points|XPHB} to the creature."
+				"You can also expend 5 {@variantrule Hit Points|XPHB} from the pool of healing power to remove the {@condition Empoisonné|XPHB} condition from the creature; those points don't also restore {@variantrule Hit Points|XPHB} to the creature."
 			]
 		},
 		{
@@ -2131,8 +2131,8 @@
 			"classSource": "XPHB",
 			"level": 1,
 			"entries": [
-				"Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Longsword|XPHB|Longswords} and {@item Javelin|XPHB|Javelins}.",
-				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|XPHB|mastery properties} of {@item Halberd|XPHB|Halberds} and {@item Flail|XPHB|Flails}."
+				"Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Épée longue|XPHB|Longswords} and {@item Javelot|XPHB|Javelins}.",
+				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|XPHB|mastery properties} of {@item Hallebarde|XPHB|Halberds} and {@item Fléau d'armes|XPHB|Flails}."
 			]
 		},
 		{
@@ -2207,7 +2207,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the {@condition Incapacitated|XPHB} condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the {@spell Hallow|XPHB} spell."
+				"As a {@variantrule Bonus Action|XPHB}, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the {@condition Incapable|XPHB} condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the {@spell Hallow|XPHB} spell."
 			]
 		},
 		{
@@ -2242,7 +2242,7 @@
 			"classSource": "XPHB",
 			"level": 4,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16."
 			]
 		},
 		{
@@ -2255,7 +2255,7 @@
 			"classSource": "XPHB",
 			"level": 5,
 			"entries": [
-				"You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+				"You can attack twice instead of once whenever you take the {@action Attaque|XPHB} action on your turn."
 			]
 		},
 		{
@@ -2282,7 +2282,7 @@
 			"classSource": "XPHB",
 			"level": 6,
 			"entries": [
-				"You radiate a protective, unseeable aura in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that originates from you. The aura is inactive while you have the {@condition Incapacitated|XPHB} condition.",
+				"You radiate a protective, unseeable aura in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that originates from you. The aura is inactive while you have the {@condition Incapable|XPHB} condition.",
 				"You and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).",
 				"If another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them."
 			]
@@ -2310,7 +2310,7 @@
 			"classSource": "XPHB",
 			"level": 8,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2326,7 +2326,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your {@item Holy Symbol|XPHB} or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the {@condition Frightened|XPHB} condition for 1 minute or until it takes any damage. While {@condition Frightened|XPHB} in this way, a target can do only one of the following on its turns: move, take an action, or take a {@variantrule Bonus Action|XPHB}."
+				"As a {@action Magie|XPHB} action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your {@item Holy Symbol|XPHB} or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the {@condition Effrayé|XPHB} condition for 1 minute or until it takes any damage. While {@condition Effrayé|XPHB} in this way, a target can do only one of the following on its turns: move, take an action, or take a {@variantrule Bonus Action|XPHB}."
 			]
 		},
 		{
@@ -2339,7 +2339,7 @@
 			"classSource": "XPHB",
 			"level": 10,
 			"entries": [
-				"You and your allies have {@variantrule Immunity|XPHB} to the {@condition Frightened|XPHB} condition while in your Aura of Protection. If a {@condition Frightened|XPHB} ally enters the aura, that condition has no effect on that ally while there."
+				"You and your allies have {@variantrule Immunity|XPHB} to the {@condition Effrayé|XPHB} condition while in your Aura of Protection. If a {@condition Effrayé|XPHB} ally enters the aura, that condition has no effect on that ally while there."
 			]
 		},
 		{
@@ -2365,7 +2365,7 @@
 			"classSource": "XPHB",
 			"level": 12,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2378,7 +2378,7 @@
 			"classSource": "XPHB",
 			"level": 14,
 			"entries": [
-				"When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: {@condition Blinded|XPHB}, {@condition Charmed|XPHB}, {@condition Deafened|XPHB}, {@condition Frightened|XPHB}, {@condition Paralyzed|XPHB}, or {@condition Stunned|XPHB}. You must expend 5 {@variantrule Hit Points|XPHB} from the healing pool of Lay On Hands for each of these conditions you remove; those points don't also restore {@variantrule Hit Points|XPHB} to the creature."
+				"When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: {@condition Aveuglé|XPHB}, {@condition Charmé|XPHB}, {@condition Assourdi|XPHB}, {@condition Effrayé|XPHB}, {@condition Paralysé|XPHB}, or {@condition Étourdi|XPHB}. You must expend 5 {@variantrule Hit Points|XPHB} from the healing pool of Lay On Hands for each of these conditions you remove; those points don't also restore {@variantrule Hit Points|XPHB} to the creature."
 			]
 		},
 		{
@@ -2404,7 +2404,7 @@
 			"classSource": "XPHB",
 			"level": 16,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2430,7 +2430,7 @@
 			"classSource": "XPHB",
 			"level": 19,
 			"entries": [
-				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Truesight|XPHB} is recommended."
+				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Don de la vision véritable|XPHB} is recommended."
 			]
 		},
 		{
@@ -2517,7 +2517,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is {@condition frightened} of the paladin for 1 minute. If a creature {@condition frightened} by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it."
+				"As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is {@condition Effrayé} of the paladin for 1 minute. If a creature {@condition Effrayé} by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it."
 			]
 		},
 		{
@@ -2608,7 +2608,7 @@
 			"level": 20,
 			"header": 2,
 			"entries": [
-				"At 20th level, the paladin can, as an action, surround himself or herself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around the paladin to dim light. Whenever an enemy that is {@condition frightened} by the paladin starts its turn in the aura, it takes {@damage 4d10} psychic damage. Additionally, the paladin and creatures he or she chooses in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.",
+				"At 20th level, the paladin can, as an action, surround himself or herself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around the paladin to dim light. Whenever an enemy that is {@condition Effrayé} by the paladin starts its turn in the aura, it takes {@damage 4d10} psychic damage. Additionally, the paladin and creatures he or she chooses in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.",
 				"While the aura lasts, the paladin can use a bonus action on his or her turn to cause the shadows in the aura to attack one creature. The paladin makes a melee spell attack against the target. If the attack hits, the target takes necrotic damage equal to {@damage 3d10} + the paladin's Charisma modifier.",
 				"After activating the aura, the paladin can't do so again until he or she finishes a long rest."
 			]
@@ -2674,7 +2674,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be {@condition restrained}. While {@condition restrained} by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish."
+				"You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be {@condition Entravé}. While {@condition Entravé} by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish."
 			]
 		},
 		{
@@ -2802,7 +2802,7 @@
 			},
 			"entries": [
 				"You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.",
-				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action.",
+				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Course} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Esquive} action.",
 				"If the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned."
 			]
 		},
@@ -2974,7 +2974,7 @@
 			},
 			"entries": [
 				"As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.",
-				"You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall {@condition unconscious}, this effect ends."
+				"You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall {@condition Inconscient}, this effect ends."
 			]
 		},
 		{
@@ -3068,7 +3068,7 @@
 			},
 			"entries": [
 				"As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.",
-				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action."
+				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Course} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Esquive} action."
 			]
 		},
 		{
@@ -3083,7 +3083,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, you and friendly creatures within 10 feet of you can't be {@condition charmed} while you are conscious.",
+				"Starting at 7th level, you and friendly creatures within 10 feet of you can't be {@condition Charmé} while you are conscious.",
 				"At 18th level, the range of this aura increases to 30 feet."
 			]
 		},
@@ -3159,8 +3159,8 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being {@condition frightened}. Fiends and undead have disadvantage on this saving throw.",
-				"On a failed save, the creature is {@condition frightened} for 1 minute or until it takes any damage. While {@condition frightened}, the creature's speed is 0, and it can't benefit from any bonus to its speed.",
+				"As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being {@condition Effrayé}. Fiends and undead have disadvantage on this saving throw.",
+				"On a failed save, the creature is {@condition Effrayé} for 1 minute or until it takes any damage. While {@condition Effrayé}, the creature's speed is 0, and it can't benefit from any bonus to its speed.",
 				"On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage."
 			]
 		},
@@ -3310,7 +3310,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls {@condition unconscious}."
+				"As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls {@condition Inconscient}."
 			]
 		},
 		{
@@ -3357,7 +3357,7 @@
 					"type": "list",
 					"items": [
 						"Wings sprout from your back and grant you a flying speed of 60 feet.",
-						"You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become {@condition frightened} of you for 1 minute or until it takes any damage. {@action Attack} rolls against the {@condition frightened} creature have advantage."
+						"You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become {@condition Effrayé} of you for 1 minute or until it takes any damage. {@action Attaque} rolls against the {@condition Effrayé} creature have advantage."
 					]
 				},
 				"Once you use this feature, you can't use it again until you finish a long rest."
@@ -3402,7 +3402,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are {@condition incapacitated} or die or if the creature is more than 30 feet away from you."
+				"As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are {@condition Incapable} or die or if the creature is more than 30 feet away from you."
 			]
 		},
 		{
@@ -3579,7 +3579,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, you have advantage on saving throws to avoid becoming {@condition paralyzed} or {@condition stunned}."
+				"Starting at 15th level, you have advantage on saving throws to avoid becoming {@condition Paralysé} or {@condition Étourdi}."
 			]
 		},
 		{
@@ -3602,7 +3602,7 @@
 						"You have advantage on Wisdom saving throws, as do your allies within 30 feet of you."
 					]
 				},
-				"This effect ends early if you are {@condition incapacitated} or die. Once you use this feature, you can't use it again until you finish a long rest."
+				"This effect ends early if you are {@condition Incapable} or die. Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
 		{
@@ -3811,7 +3811,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As a bonus action, you can use your Channel Divinity to augment your athleticism. For the next 10 minutes, you have advantage on Strength ({@skill Athletics}) and Dexterity ({@skill Acrobatics}) checks; you can carry, push, drag, and lift twice as much weight as normal; and the distance of your long and high jumps increases by 10 feet (this extra distance costs movement as normal)."
+				"As a bonus action, you can use your Channel Divinity to augment your athleticism. For the next 10 minutes, you have advantage on Strength ({@skill Athlétisme}) and Dexterity ({@skill Acrobaties}) checks; you can carry, push, drag, and lift twice as much weight as normal; and the distance of your long and high jumps increases by 10 feet (this extra distance costs movement as normal)."
 			]
 		},
 		{
@@ -3832,7 +3832,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 7th-level Oath of Glory feature}",
-				"You emanate an aura that fills you and your companions with supernatural speed, allowing you to race across a battlefield in formation. Your walking speed increases by 10 feet. In addition, if you aren't {@condition incapacitated}, the walking speed of any ally who starts their turn within 5 feet of you increases by 10 feet until the end of that turn.",
+				"You emanate an aura that fills you and your companions with supernatural speed, allowing you to race across a battlefield in formation. Your walking speed increases by 10 feet. In addition, if you aren't {@condition Incapable}, the walking speed of any ally who starts their turn within 5 feet of you increases by 10 feet until the end of that turn.",
 				"When you reach 18th level in this class, the range of the aura increases to 10 feet."
 			]
 		},
@@ -4036,7 +4036,7 @@
 			},
 			"entries": [
 				"You can use your Channel Divinity to castigate unworldly beings. As an action, you present your holy symbol and each aberration, celestial, elemental, fey, or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.",
-				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can take the {@action Dodge} action."
+				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. For its action, it can use only the {@action Course} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can take the {@action Esquive} action."
 			]
 		},
 		{
@@ -4068,7 +4068,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 7th-level Oath of the Watchers feature}",
-				"You emit an aura of alertness while you aren't {@condition incapacitated}. When you and any creatures of your choice within 10 feet of you roll initiative, you all gain a bonus to initiative equal to your proficiency bonus.",
+				"You emit an aura of alertness while you aren't {@condition Incapable}. When you and any creatures of your choice within 10 feet of you roll initiative, you all gain a bonus to initiative equal to your proficiency bonus.",
 				"At 18th level, the range of this aura increases to 30 feet."
 			]
 		},
@@ -4103,7 +4103,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain {@sense truesight} with a range of 120 feet.",
+						"You gain {@sense Vision véritable} with a range of 120 feet.",
 						"You have advantage on attack rolls against aberrations, celestials, elementals, fey, and fiends.",
 						"When you hit a creature with an attack roll and deal damage to it, you can also force it to make a Charisma saving throw against your spell save DC. On a failed save, the creature is magically banished to its native plane of existence if it's currently not there. On a successful save, the creature can't be banished by this feature for 24 hours."
 					]
@@ -4173,7 +4173,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes {@condition frightened} of you for 1 minute. The {@condition frightened} creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
+				"You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes {@condition Effrayé} of you for 1 minute. The {@condition Effrayé} creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
 			]
 		},
 		{
@@ -4292,8 +4292,8 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, you constantly emanate a menacing aura while you're not {@condition incapacitated}. The aura extends 10 feet from you in every direction, but not through {@quickref Cover||3||total cover}.",
-				"If a creature is {@condition frightened} of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.",
+				"Starting at 7th level, you constantly emanate a menacing aura while you're not {@condition Incapable}. The aura extends 10 feet from you in every direction, but not through {@quickref Cover||3||total cover}.",
+				"If a creature is {@condition Effrayé} of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.",
 				"At 18th level, the range of this aura increases to 30 feet."
 			]
 		},
@@ -4308,7 +4308,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, those who dare to strike you are psychically punished for their audacity. Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you're not {@condition incapacitated}."
+				"Starting at 15th level, those who dare to strike you are psychically punished for their audacity. Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you're not {@condition Incapable}."
 			]
 		},
 		{
@@ -4327,7 +4327,7 @@
 					"type": "list",
 					"items": [
 						"You have resistance to all damage.",
-						"When you take the {@action Attack} action on your turn, you can make one additional attack as part of that action.",
+						"When you take the {@action Attaque} action on your turn, you can make one additional attack as part of that action.",
 						"Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the {@dice d20}."
 					]
 				},
@@ -4552,7 +4552,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, a holy presence mends your wounds in battle. You regain hit points equal to {@dice 1d6} + half your paladin level if you end your turn in combat with fewer than half of your hit points remaining and you aren't {@condition incapacitated}."
+				"Starting at 15th level, a holy presence mends your wounds in battle. You regain hit points equal to {@dice 1d6} + half your paladin level if you end your turn in combat with fewer than half of your hit points remaining and you aren't {@condition Incapable}."
 			]
 		},
 		{
@@ -4591,7 +4591,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"Earth rises up around the target of your Divine Smite. The target has the {@condition Grappled|XPHB} condition (escape DC equal to your spell save DC). While {@condition Grappled|XPHB}, the target has the {@condition Restrained|XPHB} condition."
+				"Earth rises up around the target of your Divine Smite. The target has the {@condition Agrippé|XPHB} condition (escape DC equal to your spell save DC). While {@condition Agrippé|XPHB}, the target has the {@condition Entravé|XPHB} condition."
 			]
 		},
 		{
@@ -4608,7 +4608,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"You {@variantrule Teleportation|XPHB|teleport} to an unoccupied space you can see within 30 feet of yourself and take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage, and you have {@variantrule Immunity|XPHB} to the {@condition Grappled|XPHB}, {@condition Prone|XPHB}, and {@condition Restrained|XPHB} conditions."
+				"You {@variantrule Teleportation|XPHB|teleport} to an unoccupied space you can see within 30 feet of yourself and take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage, and you have {@variantrule Immunity|XPHB} to the {@condition Agrippé|XPHB}, {@condition À terre|XPHB}, and {@condition Entravé|XPHB} conditions."
 			]
 		},
 		{
@@ -4714,7 +4714,7 @@
 			"level": 3,
 			"entries": [
 				"When you aren't wearing any armor, your base {@variantrule Armor Class|XPHB} equals 10 plus your Dexterity and Charisma modifiers. You can use a Shield and still gain this benefit.",
-				"You also gain proficiency in one of the following skills of your choice: {@skill Acrobatics|XPHB}, {@skill Intimidation|XPHB}, {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}."
+				"You also gain proficiency in one of the following skills of your choice: {@skill Acrobaties|XPHB}, {@skill Intimidation|XPHB}, {@skill Représentation|XPHB}, or {@skill Persuasion|XPHB}."
 			]
 		},
 		{
@@ -4731,7 +4731,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"The target of your Divine Smite and each creature of your choice in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you make a Strength saving throw against your spell save DC. On a failed save, a creature is pushed 15 feet straight away from you and has the {@condition Prone|XPHB} condition."
+				"The target of your Divine Smite and each creature of your choice in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you make a Strength saving throw against your spell save DC. On a failed save, a creature is pushed 15 feet straight away from you and has the {@condition À terre|XPHB} condition."
 			]
 		},
 		{
@@ -4843,7 +4843,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can expend one use of your Channel Divinity to conjure spectral vines around nearby creatures. Each creature of your choice that you can see within 15 feet of yourself must succeed on a Strength saving throw or have the {@condition Restrained|XPHB} condition for 1 minute. A {@condition Restrained|XPHB} creature repeats the save at the end of each of its turns, ending the effect on itself on a success."
+				"As a {@action Magie|XPHB} action, you can expend one use of your Channel Divinity to conjure spectral vines around nearby creatures. Each creature of your choice that you can see within 15 feet of yourself must succeed on a Strength saving throw or have the {@condition Entravé|XPHB} condition for 1 minute. A {@condition Entravé|XPHB} creature repeats the save at the end of each of its turns, ending the effect on itself on a success."
 			]
 		},
 		{
@@ -5086,7 +5086,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"When you take the {@action Attack|XPHB} action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.",
+				"When you take the {@action Attaque|XPHB} action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.",
 				"The weapon also emits {@variantrule Bright Light|XPHB} in a 20-foot radius and {@variantrule Dim Light|XPHB} 20 feet beyond that.",
 				"You can end this effect early (no action required). This effect also ends if you aren't carrying the weapon."
 			]
@@ -5104,7 +5104,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"You and your allies have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} condition while in your Aura of Protection. If a {@condition Charmed|XPHB} ally enters the aura, that condition has no effect on that ally while there."
+				"You and your allies have {@variantrule Immunity|XPHB} to the {@condition Charmé|XPHB} condition while in your Aura of Protection. If a {@condition Charmé|XPHB} ally enters the aura, that condition has no effect on that ally while there."
 			]
 		},
 		{
@@ -5271,7 +5271,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you can expend one use of your Channel Divinity to augment your athleticism. For 1 hour, you have {@variantrule Advantage|XPHB} on Strength ({@skill Athletics|XPHB}) and Dexterity ({@skill Acrobatics|XPHB}) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal)."
+				"As a {@variantrule Bonus Action|XPHB}, you can expend one use of your Channel Divinity to augment your athleticism. For 1 hour, you have {@variantrule Advantage|XPHB} on Strength ({@skill Athlétisme|XPHB}) and Dexterity ({@skill Acrobaties|XPHB}) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal)."
 			]
 		},
 		{
@@ -5430,7 +5430,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"When you take the {@action Attack|XPHB} action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You have {@variantrule Advantage|XPHB} on attack rolls against the creature for 1 minute or until you use this feature again.",
+				"When you take the {@action Attaque|XPHB} action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You have {@variantrule Advantage|XPHB} on attack rolls against the creature for 1 minute or until you use this feature again.",
 				"If the creature drops to 0 {@variantrule Hit Points|XPHB} before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required)."
 			]
 		},
@@ -5445,7 +5445,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Your supernatural focus helps you close off a foe's retreat. When you hit a creature with an {@action Opportunity Attack|XPHB}, you can reduce the creature's {@variantrule Speed|XPHB} to 0 until the end of the current turn. You can then move up to half your {@variantrule Speed|XPHB} as part of the same {@variantrule Reaction|XPHB}. This movement doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+				"Your supernatural focus helps you close off a foe's retreat. When you hit a creature with an {@action Attaque d'opportunité|XPHB}, you can reduce the creature's {@variantrule Speed|XPHB} to 0 until the end of the current turn. You can then move up to half your {@variantrule Speed|XPHB} as part of the same {@variantrule Reaction|XPHB}. This movement doesn't provoke {@action Attaque d'opportunité|XPHB|Opportunity Attacks}."
 			]
 		},
 		{
@@ -5485,7 +5485,7 @@
 					"type": "entries",
 					"name": "Frightful Aura",
 					"entries": [
-						"Whenever an enemy starts its turn in your Aura of Protection, that creature must succeed on a Wisdom saving throw or have the {@condition Frightened|XPHB} condition for 1 minute or until it takes any damage. {@action Attack|XPHB} rolls against the {@condition Frightened|XPHB} creature have {@variantrule Advantage|XPHB}."
+						"Whenever an enemy starts its turn in your Aura of Protection, that creature must succeed on a Wisdom saving throw or have the {@condition Effrayé|XPHB} condition for 1 minute or until it takes any damage. {@action Attaque|XPHB} rolls against the {@condition Effrayé|XPHB} creature have {@variantrule Advantage|XPHB}."
 					]
 				}
 			]

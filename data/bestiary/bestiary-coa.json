@@ -212,7 +212,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item bracers of defense}"
+						"{@item Brassards de défense}"
 					]
 				}
 			],
@@ -271,7 +271,7 @@
 				{
 					"name": "Cunning",
 					"entries": [
-						"Aeshma takes the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+						"Aeshma takes the {@action Course}, {@action Désengagement}, or {@action Se cacher} action."
 					]
 				}
 			],
@@ -389,7 +389,7 @@
 				{
 					"name": "Infernal Rot",
 					"entries": [
-						"A creature afflicted with this disease has the {@condition poisoned} condition until the disease ends. While diseased, creatures gain no benefits from a long rest, gaining {@condition exhaustion} when necessary. If a creature dies while afflicted with Infernal Rot, its corpse transforms into a newborn kocrachon after 4 ({@dice 1d8}) days."
+						"A creature afflicted with this disease has the {@condition Empoisonné} condition until the disease ends. While diseased, creatures gain no benefits from a long rest, gaining {@condition Épuisement} when necessary. If a creature dies while afflicted with Infernal Rot, its corpse transforms into a newborn kocrachon after 4 ({@dice 1d8}) days."
 					]
 				},
 				{
@@ -541,7 +541,7 @@
 				{
 					"name": "Crushing Hug",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}51 ({@damage 8d10 + 7}) bludgeoning damage, and if the target is a Large or smaller creature, Anacreda grabs it with both arms. The target has the {@condition grappled} condition (escape {@dc 18}). Until the grapple ends, the target takes 73 ({@damage 12d10 + 7}) necrotic damage at the start of each of Anacreda's turns. Anacreda can't make attacks while grappling a creature in this way."
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}51 ({@damage 8d10 + 7}) bludgeoning damage, and if the target is a Large or smaller creature, Anacreda grabs it with both arms. The target has the {@condition Agrippé} condition (escape {@dc 18}). Until the grapple ends, the target takes 73 ({@damage 12d10 + 7}) necrotic damage at the start of each of Anacreda's turns. Anacreda can't make attacks while grappling a creature in this way."
 					]
 				},
 				{
@@ -909,7 +909,7 @@
 				{
 					"name": "Submission Aura",
 					"entries": [
-						"When a creature moves to be within 120 feet of Asmodeus, they must succeed on a {@dc 24} Wisdom saving throw or have the {@condition frightened} condition until they leave the aura. While {@condition frightened}, creatures kneel before Asmodeus, taking no actions unless he commands otherwise. If Asmodeus deals damage to a kneeling creature, the creature's {@condition frightened} condition ends. A creature that succeeds the saving throw is immune to this effect for 1 hour."
+						"When a creature moves to be within 120 feet of Asmodeus, they must succeed on a {@dc 24} Wisdom saving throw or have the {@condition Effrayé} condition until they leave the aura. While {@condition Effrayé}, creatures kneel before Asmodeus, taking no actions unless he commands otherwise. If Asmodeus deals damage to a kneeling creature, the creature's {@condition Effrayé} condition ends. A creature that succeeds the saving throw is immune to this effect for 1 hour."
 					]
 				}
 			],
@@ -941,13 +941,13 @@
 				{
 					"name": "Infernal Word: Stun {@recharge 4}",
 					"entries": [
-						"Asmodeus targets a creature he can see within 120 feet of him. The target must make a {@dc 24} Intelligence saving throw, taking 45 ({@damage 10d8}) force damage on a failed save, or half as much damage on a successful one. A creature that failed the save is {@condition stunned} for up to 1 minute. The {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success, but taking the damage again on a failed save."
+						"Asmodeus targets a creature he can see within 120 feet of him. The target must make a {@dc 24} Intelligence saving throw, taking 45 ({@damage 10d8}) force damage on a failed save, or half as much damage on a successful one. A creature that failed the save is {@condition Étourdi} for up to 1 minute. The {@condition Étourdi} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success, but taking the damage again on a failed save."
 					]
 				},
 				{
 					"name": "Hell-Lord's Suggestion {@recharge 5}",
 					"entries": [
-						"Asmodeus targets a creature he can see within 120 feet of him. The target must make a {@dc 24} Charisma saving throw, taking 44 ({@damage 8d10}) psychic damage on a failed save, or half as much damage on a successful one. A creature that failed the save has the {@condition charmed} condition for up to 1 minute. While {@condition charmed}, a creature is controlled by Asmodeus, performing only actions that he suggests. A {@condition charmed} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success, but taking the damage again on a failed save."
+						"Asmodeus targets a creature he can see within 120 feet of him. The target must make a {@dc 24} Charisma saving throw, taking 44 ({@damage 8d10}) psychic damage on a failed save, or half as much damage on a successful one. A creature that failed the save has the {@condition Charmé} condition for up to 1 minute. While {@condition Charmé}, a creature is controlled by Asmodeus, performing only actions that he suggests. A {@condition Charmé} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success, but taking the damage again on a failed save."
 					]
 				},
 				{
@@ -1134,7 +1134,7 @@
 				{
 					"name": "Stench of the Slug",
 					"entries": [
-						"Any creature that starts its turn within 10 feet of the avatar must succeed on a {@dc 19} Constitution saving throw or have the {@condition poisoned} condition until the start of their next turn. On a successful saving throw, the creature is immune to this stench for 1 hour."
+						"Any creature that starts its turn within 10 feet of the avatar must succeed on a {@dc 19} Constitution saving throw or have the {@condition Empoisonné} condition until the start of their next turn. On a successful saving throw, the creature is immune to this stench for 1 hour."
 					]
 				}
 			],
@@ -1160,7 +1160,7 @@
 				{
 					"name": "Caustic Slimepool (1/Day)",
 					"entries": [
-						"The avatar causes caustic slime to emanate from itself, covering a 15-foot-radius circle. Each creature within the slime must succeed on a {@dc 19} Dexterity saving throw or have the {@condition grappled} condition (escape {@dc 17}). A {@condition grappled} creature takes 21 ({@damage 6d6}) acid damage at the start of its turn."
+						"The avatar causes caustic slime to emanate from itself, covering a 15-foot-radius circle. Each creature within the slime must succeed on a {@dc 19} Dexterity saving throw or have the {@condition Agrippé} condition (escape {@dc 17}). A {@condition Agrippé} creature takes 21 ({@damage 6d6}) acid damage at the start of its turn."
 					]
 				}
 			],
@@ -1276,7 +1276,7 @@
 				{
 					"name": "Retract Filament",
 					"entries": [
-						"One Huge or smaller creature {@condition grappled} by the fisher's Adhesive Filament must make a {@dc 20} Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the fisher, and the fisher makes one Claw attack against it with advantage. Anyone else who was attached to the filament is released. Until the grapple ends on the target, the fisher can't use Adhesive Filament."
+						"One Huge or smaller creature {@condition Agrippé} by the fisher's Adhesive Filament must make a {@dc 20} Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the fisher, and the fisher makes one Claw attack against it with advantage. Anyone else who was attached to the filament is released. Until the grapple ends on the target, the fisher can't use Adhesive Filament."
 					]
 				}
 			],
@@ -1284,7 +1284,7 @@
 				{
 					"name": "Adhesive Filament",
 					"entries": [
-						"The fisher extends a sticky filament up to 90 feet in a straight line, which adheres to anything that touches it. A Huge or smaller creature the filament adheres to has the {@condition grappled} condition (escape {@dc 20}), and ability checks made to escape this grapple have disadvantage. The filament can be attacked (AC 16; 25 hit points; immunity to poison and psychic damage). A weapon that fails to sever it becomes stuck to it, requiring an action and a successful {@dc 20} Strength check to pull free. Destroying the filament deals no damage to the fisher. The filament crumbles away if the fisher takes this bonus action again."
+						"The fisher extends a sticky filament up to 90 feet in a straight line, which adheres to anything that touches it. A Huge or smaller creature the filament adheres to has the {@condition Agrippé} condition (escape {@dc 20}), and ability checks made to escape this grapple have disadvantage. The filament can be attacked (AC 16; 25 hit points; immunity to poison and psychic damage). A weapon that fails to sever it becomes stuck to it, requiring an action and a successful {@dc 20} Strength check to pull free. Destroying the filament deals no damage to the fisher. The filament crumbles away if the fisher takes this bonus action again."
 					]
 				}
 			],
@@ -1648,7 +1648,7 @@
 				{
 					"name": "Stench of the Slug (Slug Form Only)",
 					"entries": [
-						"A creature that starts its turn within 10 feet of Baalzebul must succeed on a {@dc 21} Constitution saving throw or have the {@condition poisoned} condition until the start of its next turn. On a successful save, a creature is immune to this stench for 1 hour."
+						"A creature that starts its turn within 10 feet of Baalzebul must succeed on a {@dc 21} Constitution saving throw or have the {@condition Empoisonné} condition until the start of its next turn. On a successful save, a creature is immune to this stench for 1 hour."
 					]
 				}
 			],
@@ -1668,13 +1668,13 @@
 				{
 					"name": "Pungent Eruption (Slug Form Only, Recharge 4-6)",
 					"entries": [
-						"Baalzebul causes refuse and caustic liquid to spill from the ground at a point he can see within 300 feet. Each creature in a 15-foot-radius sphere centered on that point must make a {@dc 21} Constitution saving throw. Targets take 36 ({@damage 8d8}) acid damage on a failed save, or half as much on a successful one. Creatures that fail the save have the {@condition poisoned} condition for 1 minute."
+						"Baalzebul causes refuse and caustic liquid to spill from the ground at a point he can see within 300 feet. Each creature in a 15-foot-radius sphere centered on that point must make a {@dc 21} Constitution saving throw. Targets take 36 ({@damage 8d8}) acid damage on a failed save, or half as much on a successful one. Creatures that fail the save have the {@condition Empoisonné} condition for 1 minute."
 					]
 				},
 				{
 					"name": "Heart of Pestilence {@recharge 5}",
 					"entries": [
-						"Baalzebul channels pestilence into his body, sickening creatures within 50 feet that can see him. Sickened creatures must make a {@dc 21} Charisma saving throw, followed by a {@dc 21} Constitution saving throw. Failing the Charisma save makes a creature have the {@condition frightened} condition, while failing the Constitution save makes a creature weak. While weakened, a creature deals half damage on melee attacks. Both effects last for 1 minute or until a {@spell Greater Restoration} spell or similar is cast."
+						"Baalzebul channels pestilence into his body, sickening creatures within 50 feet that can see him. Sickened creatures must make a {@dc 21} Charisma saving throw, followed by a {@dc 21} Constitution saving throw. Failing the Charisma save makes a creature have the {@condition Effrayé} condition, while failing the Constitution save makes a creature weak. While weakened, a creature deals half damage on melee attacks. Both effects last for 1 minute or until a {@spell Greater Restoration} spell or similar is cast."
 					]
 				}
 			],
@@ -1789,7 +1789,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|PHB|plate}"
+						"{@item Harnois de plaques|PHB|plate}"
 					]
 				}
 			],
@@ -1843,7 +1843,7 @@
 				{
 					"name": "Purifying Flames {@recharge 4}",
 					"entries": [
-						"Barachiel wreathes his sword in white flame, then makes a Greatsword attack. On a hit, the target takes an additional 45 ({@damage 7d12}) fire damage plus 45 ({@damage 7d12}) radiant damage. The target must succeed on a {@dc 18} Charisma saving throw or have the {@condition stunned} condition until the end of their next turn."
+						"Barachiel wreathes his sword in white flame, then makes a Greatsword attack. On a hit, the target takes an additional 45 ({@damage 7d12}) fire damage plus 45 ({@damage 7d12}) radiant damage. The target must succeed on a {@dc 18} Charisma saving throw or have the {@condition Étourdi} condition until the end of their next turn."
 					]
 				}
 			],
@@ -2000,7 +2000,7 @@
 				{
 					"name": "Fear Aura",
 					"entries": [
-						"Any creature hostile to Bel that starts its turn within 20 feet of him must make a {@dc 23} Wisdom saving throw unless Bel is {@condition incapacitated}. If the save fails, the creature has the {@condition frightened} condition until the start of its next turn. If a creature's saving throw is successful, the creature is immune to Bel's Fear Aura for the next 24 hours."
+						"Any creature hostile to Bel that starts its turn within 20 feet of him must make a {@dc 23} Wisdom saving throw unless Bel is {@condition Incapable}. If the save fails, the creature has the {@condition Effrayé} condition until the start of its next turn. If a creature's saving throw is successful, the creature is immune to Bel's Fear Aura for the next 24 hours."
 					]
 				},
 				{
@@ -2032,7 +2032,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d10 + 9}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 23} Constitution saving throw or have the {@condition stunned} condition until the end of its next turn."
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d10 + 9}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 23} Constitution saving throw or have the {@condition Étourdi} condition until the end of its next turn."
 					]
 				}
 			],
@@ -2219,7 +2219,7 @@
 				{
 					"name": "Fear Aura",
 					"entries": [
-						"When a creature starts their turn within 120 feet of Belial, they must succeed on a {@dc 22} Wisdom saving throw or have the {@condition frightened} condition until they leave the aura. A creature that succeeds on the saving throw is immune to this effect for 1 hour."
+						"When a creature starts their turn within 120 feet of Belial, they must succeed on a {@dc 22} Wisdom saving throw or have the {@condition Effrayé} condition until they leave the aura. A creature that succeeds on the saving throw is immune to this effect for 1 hour."
 					]
 				},
 				{
@@ -2472,7 +2472,7 @@
 				{
 					"name": "Brain Freeze",
 					"entries": [
-						"Adramalech attempts to overload the brain of a creature he can see within 60 feet of him. The target must make a {@dc 22} Intelligence saving throw, taking 22 ({@damage 4d10}) psychic damage on a failed save, or half as much on a successful one. Creatures that fail the saving throw have the {@condition stunned} condition for up to 1 minute. A {@condition stunned} creature may repeat the saving throw at the end of each of their turns, ending the effect on a success."
+						"Adramalech attempts to overload the brain of a creature he can see within 60 feet of him. The target must make a {@dc 22} Intelligence saving throw, taking 22 ({@damage 4d10}) psychic damage on a failed save, or half as much on a successful one. Creatures that fail the saving throw have the {@condition Étourdi} condition for up to 1 minute. A {@condition Étourdi} creature may repeat the saving throw at the end of each of their turns, ending the effect on a success."
 					]
 				},
 				{
@@ -2486,7 +2486,7 @@
 				{
 					"name": "Conjure Effigy {@recharge}",
 					"entries": [
-						"Adramalech targets a creature, reading its thoughts and creating an effigy of a loved one in an unoccupied space that he can see within 60 feet of Adramalech. The effigy has 55 ({@dice 10d10}) hit points, an AC of 10, and ability scores of 10. It occasionally shouts for help, but otherwise takes no actions. While the effigy is alive, the target creature has disadvantage on attacks targeting Adramalech and any time the effigy takes damage, the target creature also takes an equal amount as psychic damage. If the effigy is killed, the target creature gains a level of {@condition exhaustion}. If Adramalech is killed while effigies exist, they harmlessly melt into a warm sludge."
+						"Adramalech targets a creature, reading its thoughts and creating an effigy of a loved one in an unoccupied space that he can see within 60 feet of Adramalech. The effigy has 55 ({@dice 10d10}) hit points, an AC of 10, and ability scores of 10. It occasionally shouts for help, but otherwise takes no actions. While the effigy is alive, the target creature has disadvantage on attacks targeting Adramalech and any time the effigy takes damage, the target creature also takes an equal amount as psychic damage. If the effigy is killed, the target creature gains a level of {@condition Épuisement}. If Adramalech is killed while effigies exist, they harmlessly melt into a warm sludge."
 					]
 				}
 			],
@@ -3090,7 +3090,7 @@
 				{
 					"name": "Draining Grasp {@recharge 4}",
 					"entries": [
-						"The paeliryon makes a Claw attack. On a hit, the target's Charisma score is reduced by 2 ({@dice 1d4}). This reduction lasts until the target finishes a short or long rest. A creature whose Charisma is reduced to 3 or less because of this ability, has the {@condition stunned} condition for 1 minute."
+						"The paeliryon makes a Claw attack. On a hit, the target's Charisma score is reduced by 2 ({@dice 1d4}). This reduction lasts until the target finishes a short or long rest. A creature whose Charisma is reduced to 3 or less because of this ability, has the {@condition Étourdi} condition for 1 minute."
 					]
 				}
 			],
@@ -3283,13 +3283,13 @@
 				{
 					"name": "Spit",
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, range 100/200 ft., one target. {@h}28 ({@damage 8d6}) acid damage. A target hit by this attack must make a {@dc 21} Constitution saving throw. On a failed save, the target has the {@condition prone} condition."
+						"{@atk rw} {@hit 8} to hit, range 100/200 ft., one target. {@h}28 ({@damage 8d6}) acid damage. A target hit by this attack must make a {@dc 21} Constitution saving throw. On a failed save, the target has the {@condition À terre} condition."
 					]
 				},
 				{
 					"name": "Engulf",
 					"entries": [
-						"Devorastus moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever Devorastus enters a creature's space, the creature must make a {@dc 21} Dexterity saving throw. On a successful save, the creature can choose to be pushed 5 feet back or to the side of Devorastus. A creature that chooses not to be pushed suffers the consequences of a failed saving throw. On a failed save, Devorastus enters the creature's space, the creature takes 35 ({@damage 10d6}) acid damage, and is engulfed. The engulfed creature can't breathe, has the {@condition restrained} condition, and takes 42 ({@damage 12d6}) acid damage at the start of each of Devorastus' turns. When Devorastus moves, the engulfed creature moves with it. An engulfed creature can try to escape by making a {@dc 21} Strength check as an action. On a success, the creature escapes and enters a space of its choice within 5 feet of Devorastus."
+						"Devorastus moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever Devorastus enters a creature's space, the creature must make a {@dc 21} Dexterity saving throw. On a successful save, the creature can choose to be pushed 5 feet back or to the side of Devorastus. A creature that chooses not to be pushed suffers the consequences of a failed saving throw. On a failed save, Devorastus enters the creature's space, the creature takes 35 ({@damage 10d6}) acid damage, and is engulfed. The engulfed creature can't breathe, has the {@condition Entravé} condition, and takes 42 ({@damage 12d6}) acid damage at the start of each of Devorastus' turns. When Devorastus moves, the engulfed creature moves with it. An engulfed creature can try to escape by making a {@dc 21} Strength check as an action. On a success, the creature escapes and enters a space of its choice within 5 feet of Devorastus."
 					]
 				}
 			],
@@ -3348,7 +3348,7 @@
 					"ac": 21,
 					"from": [
 						"natural armor",
-						"{@item wrought-iron tower|CoA}"
+						"{@item Tour de fer forgé|CoA}"
 					]
 				}
 			],
@@ -3422,7 +3422,7 @@
 				{
 					"name": "Fear Aura",
 					"entries": [
-						"When a creature starts their turn within 120 feet of Dispater, they must succeed on a {@dc 22} Wisdom saving throw or have the {@condition frightened} condition until they leave the aura. A creature that succeeds on the saving throw is immune to this effect for 1 hour."
+						"When a creature starts their turn within 120 feet of Dispater, they must succeed on a {@dc 22} Wisdom saving throw or have the {@condition Effrayé} condition until they leave the aura. A creature that succeeds on the saving throw is immune to this effect for 1 hour."
 					]
 				},
 				{
@@ -3616,7 +3616,7 @@
 				{
 					"name": "Displacement",
 					"entries": [
-						"The displacer fiend projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displacer fiend is {@condition incapacitated} or has a speed of 0."
+						"The displacer fiend projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displacer fiend is {@condition Incapable} or has a speed of 0."
 					]
 				}
 			],
@@ -4231,7 +4231,7 @@
 				{
 					"name": "Fear Aura",
 					"entries": [
-						"When a creature starts their turn within 120 feet of Fierna, they must succeed on a {@dc 22} Wisdom saving throw or have the {@condition frightened} condition until they leave the aura. A creature that succeeds on the saving throw is immune to this effect for 1 hour."
+						"When a creature starts their turn within 120 feet of Fierna, they must succeed on a {@dc 22} Wisdom saving throw or have the {@condition Effrayé} condition until they leave the aura. A creature that succeeds on the saving throw is immune to this effect for 1 hour."
 					]
 				},
 				{
@@ -4421,7 +4421,7 @@
 				{
 					"name": "Freedom of Movement",
 					"entries": [
-						"The kraken ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or grapples."
+						"The kraken ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition Entravé}. It can spend 5 feet of movement to escape from nonmagical restraints or grapples."
 					]
 				},
 				{
@@ -4447,19 +4447,19 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d6 + 8}) piercing damage and 7 ({@damage 2d6}) fire damage. If the target is a Large or smaller creature {@condition grappled} by the kraken, the creature is swallowed and the grapple ends. While swallowed, a creature has the {@condition blinded} and {@condition restrained} conditions, has {@quickref Cover||3||total cover} against attacks and other effects outside the kraken, and takes 42 ({@damage 12d6}) fire damage at the start of the kraken's turns. If the kraken takes 50 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 23} Constitution saving throw or regurgitate all swallowed creatures, which fall into a space within 10 feet of the kraken and now have the {@condition prone} condition. If the kraken dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 15 feet of movement, exiting with the {@condition prone} condition."
+						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d6 + 8}) piercing damage and 7 ({@damage 2d6}) fire damage. If the target is a Large or smaller creature {@condition Agrippé} by the kraken, the creature is swallowed and the grapple ends. While swallowed, a creature has the {@condition Aveuglé} and {@condition Entravé} conditions, has {@quickref Cover||3||total cover} against attacks and other effects outside the kraken, and takes 42 ({@damage 12d6}) fire damage at the start of the kraken's turns. If the kraken takes 50 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 23} Constitution saving throw or regurgitate all swallowed creatures, which fall into a space within 10 feet of the kraken and now have the {@condition À terre} condition. If the kraken dies, a swallowed creature is no longer {@condition Entravé} by it and can escape from the corpse using 15 feet of movement, exiting with the {@condition À terre} condition."
 					]
 				},
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 20 ft., one target. {@h}13 ({@damage 2d4 + 8}) fire damage. If the target is a Huge or smaller creature, it has the {@condition grappled} condition (escape {@dc 16}). While {@condition grappled}, the target also has the {@condition restrained} condition. Any target that starts its turn {@condition grappled} by the kraken takes 5 ({@damage 2d4}) fire damage. The kraken has five tentacles, each of which can grapple one target."
+						"{@atk mw} {@hit 15} to hit, reach 20 ft., one target. {@h}13 ({@damage 2d4 + 8}) fire damage. If the target is a Huge or smaller creature, it has the {@condition Agrippé} condition (escape {@dc 16}). While {@condition Agrippé}, the target also has the {@condition Entravé} condition. Any target that starts its turn {@condition Agrippé} by the kraken takes 5 ({@damage 2d4}) fire damage. The kraken has five tentacles, each of which can grapple one target."
 					]
 				},
 				{
 					"name": "Fling",
 					"entries": [
-						"One Large or smaller object or creature {@condition grappled} by the kraken is thrown up to 60 feet in a random direction, and now has the {@condition prone} condition. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at a creature, that creature must succeed on a {@dc 16} Dexterity saving throw or take the same damage and be knocked down with the {@condition prone} condition."
+						"One Large or smaller object or creature {@condition Agrippé} by the kraken is thrown up to 60 feet in a random direction, and now has the {@condition À terre} condition. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at a creature, that creature must succeed on a {@dc 16} Dexterity saving throw or take the same damage and be knocked down with the {@condition À terre} condition."
 					]
 				}
 			],
@@ -4637,13 +4637,13 @@
 				{
 					"name": "Charm Aura",
 					"entries": [
-						"When a creature moves to be within 120 feet of Glasya, they must succeed on a {@dc 23} Wisdom saving throw or have the {@condition charmed} condition, treating Glasya as an ally, until they leave the aura. A creature that succeeds the saving throw is immune to this effect for 1 hour. Whenever a {@condition charmed} creature takes damage, they may repeat the saving throw, ending the effect on a success."
+						"When a creature moves to be within 120 feet of Glasya, they must succeed on a {@dc 23} Wisdom saving throw or have the {@condition Charmé} condition, treating Glasya as an ally, until they leave the aura. A creature that succeeds the saving throw is immune to this effect for 1 hour. Whenever a {@condition Charmé} creature takes damage, they may repeat the saving throw, ending the effect on a success."
 					]
 				},
 				{
 					"name": "Dominating Presence",
 					"entries": [
-						"Glasya deals an additional 13 ({@damage 2d12}) psychic damage when attacking a {@condition charmed} creature, and her attacks don't break charms."
+						"Glasya deals an additional 13 ({@damage 2d12}) psychic damage when attacking a {@condition Charmé} creature, and her attacks don't break charms."
 					]
 				},
 				{
@@ -4687,7 +4687,7 @@
 				{
 					"name": "Mesmerizing Gaze",
 					"entries": [
-						"Glasya focuses her gaze in a 60-foot cone in front of her. Each creature of her choice within the cone must make a {@dc 23} Charisma saving throw or have the {@condition charmed} condition until the end of their next turn. While {@condition charmed}, creatures automatically fail saving throws from abilities used by Glasya and move to be as close to her as possible."
+						"Glasya focuses her gaze in a 60-foot cone in front of her. Each creature of her choice within the cone must make a {@dc 23} Charisma saving throw or have the {@condition Charmé} condition until the end of their next turn. While {@condition Charmé}, creatures automatically fail saving throws from abilities used by Glasya and move to be as close to her as possible."
 					]
 				},
 				{
@@ -4880,7 +4880,7 @@
 				{
 					"name": "Shadows of Death {@recharge 5}",
 					"entries": [
-						"The shadow discharges inky-black shadows in a 90-foot-radius sphere around itself. Creatures in the shadows must succeed on a {@dc 22} Wisdom saving throw or take 36 ({@damage 8d8}) necrotic damage and have the {@condition frightened} condition for 1 minute. A {@condition frightened} creature may repeat the saving throw at the end of each of its turns, ending the effect on a successful save, but taking the damage again on a failed save."
+						"The shadow discharges inky-black shadows in a 90-foot-radius sphere around itself. Creatures in the shadows must succeed on a {@dc 22} Wisdom saving throw or take 36 ({@damage 8d8}) necrotic damage and have the {@condition Effrayé} condition for 1 minute. A {@condition Effrayé} creature may repeat the saving throw at the end of each of its turns, ending the effect on a successful save, but taking the damage again on a failed save."
 					]
 				}
 			],
@@ -5180,7 +5180,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) bludgeoning damage, grasping the target with its mouth. If the target is a Medium or smaller creature, it has the {@condition grappled} condition (escape {@dc 17}). The bezekira can't make a Bite attack while a creature is {@condition grappled} in this way."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) bludgeoning damage, grasping the target with its mouth. If the target is a Medium or smaller creature, it has the {@condition Agrippé} condition (escape {@dc 17}). The bezekira can't make a Bite attack while a creature is {@condition Agrippé} in this way."
 					]
 				}
 			],
@@ -5407,8 +5407,8 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item breastplate|PHB}",
-						"{@item shield|PHB}"
+						"{@item Cuirasse|PHB}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -5493,7 +5493,7 @@
 				{
 					"name": "Arbiter's Light {@recharge 4}",
 					"entries": [
-						"{@atk rs} {@hit 9} to hit, range 120 ft., one target. {@h}70 ({@damage 10d12 + 5}) radiant damage, and the target has the {@condition blinded} condition until the start of Koh Tam's next turn."
+						"{@atk rs} {@hit 9} to hit, range 120 ft., one target. {@h}70 ({@damage 10d12 + 5}) radiant damage, and the target has the {@condition Aveuglé} condition until the start of Koh Tam's next turn."
 					]
 				}
 			],
@@ -5854,7 +5854,7 @@
 				{
 					"name": "Touch of Stygia",
 					"entries": [
-						"{@atk ms} {@hit 15} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) psychic damage, and the target must succeed on a {@dc 23} Intelligence saving throw or have the {@condition stunned} condition for 1 minute. The target may repeat the saving throw at the end of its turns, ending the effect on a success. A creature that succeeds on the saving throw is immune to this effect for 1 hour."
+						"{@atk ms} {@hit 15} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) psychic damage, and the target must succeed on a {@dc 23} Intelligence saving throw or have the {@condition Étourdi} condition for 1 minute. The target may repeat the saving throw at the end of its turns, ending the effect on a success. A creature that succeeds on the saving throw is immune to this effect for 1 hour."
 					]
 				},
 				{
@@ -5882,13 +5882,13 @@
 				{
 					"name": "Amnesia",
 					"entries": [
-						"Levistus selects a {@condition stunned} creature that he can see. The creature must succeed on a {@dc 23} Charisma saving throw or Levistus erases a specific memory from the target. The memory must be one that the target experienced in the last 24 hours and that lasted no more than 10 minutes. The memory can only be restored with a {@spell Remove Curse} or a {@spell Greater Restoration} spell."
+						"Levistus selects a {@condition Étourdi} creature that he can see. The creature must succeed on a {@dc 23} Charisma saving throw or Levistus erases a specific memory from the target. The memory must be one that the target experienced in the last 24 hours and that lasted no more than 10 minutes. The memory can only be restored with a {@spell Remove Curse} or a {@spell Greater Restoration} spell."
 					]
 				},
 				{
 					"name": "Froststrike",
 					"entries": [
-						"Levistus makes an Ice Bolt attack. On a hit, the target falls and has the {@condition prone} condition."
+						"Levistus makes an Ice Bolt attack. On a hit, the target falls and has the {@condition À terre} condition."
 					]
 				},
 				{
@@ -5971,7 +5971,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item chain mail|PHB}"
+						"{@item Cotte de mailles|PHB}"
 					]
 				}
 			],
@@ -6057,7 +6057,7 @@
 				{
 					"name": "Trunk",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}16 ({@damage 3d6 + 6}) piercing damage. If the target is a Medium or smaller creature, it has the {@condition grappled} condition (escape {@dc 18}). Until this grapple ends, the target has the {@condition restrained} condition. While it is grappling a creature, the maelephant can't use its Trunk attack against other creatures."
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}16 ({@damage 3d6 + 6}) piercing damage. If the target is a Medium or smaller creature, it has the {@condition Agrippé} condition (escape {@dc 18}). Until this grapple ends, the target has the {@condition Entravé} condition. While it is grappling a creature, the maelephant can't use its Trunk attack against other creatures."
 					]
 				},
 				{
@@ -6071,7 +6071,7 @@
 				{
 					"name": "Reckless Charge",
 					"entries": [
-						"The maelephant moves up to 40 feet towards a creature it can see and if it moves at least 20 feet in a straight line, it may make a Claw attack. On a hit, the target takes an additional 14 ({@damage 4d6}) force damage and has the {@condition prone} condition."
+						"The maelephant moves up to 40 feet towards a creature it can see and if it moves at least 20 feet in a straight line, it may make a Claw attack. On a hit, the target takes an additional 14 ({@damage 4d6}) force damage and has the {@condition À terre} condition."
 					]
 				}
 			],
@@ -6242,25 +6242,25 @@
 				{
 					"name": "Tail Swipe",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}31 ({@damage 4d10 + 9}) bludgeoning damage. If the target is a Large or smaller creature, it has the {@condition grappled} condition (escape {@dc 21}). While {@condition grappled}, the creature also has the {@condition restrained} condition, and Mammon can't make Tail Swipe attacks."
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}31 ({@damage 4d10 + 9}) bludgeoning damage. If the target is a Large or smaller creature, it has the {@condition Agrippé} condition (escape {@dc 21}). While {@condition Agrippé}, the creature also has the {@condition Entravé} condition, and Mammon can't make Tail Swipe attacks."
 					]
 				},
 				{
 					"name": "Fearful Gaze",
 					"entries": [
-						"Mammon focuses his gaze in a 90-foot cone in front of him. Each creature of his choice within the cone must make a {@dc 23} Wisdom saving throw, taking 19 ({@damage 3d12}) psychic damage on a failed save, or half as much damage on a successful one. Creatures that fail the save have the {@condition frightened} condition until the end of their next turn."
+						"Mammon focuses his gaze in a 90-foot cone in front of him. Each creature of his choice within the cone must make a {@dc 23} Wisdom saving throw, taking 19 ({@damage 3d12}) psychic damage on a failed save, or half as much damage on a successful one. Creatures that fail the save have the {@condition Effrayé} condition until the end of their next turn."
 					]
 				},
 				{
 					"name": "Constrict",
 					"entries": [
-						"Mammon tightens his grip around a creature he has {@condition grappled}. The target takes 35 ({@damage 4d12 + 9}) bludgeoning damage."
+						"Mammon tightens his grip around a creature he has {@condition Agrippé}. The target takes 35 ({@damage 4d12 + 9}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Golden Gaze {@recharge}",
 					"entries": [
-						"Mammon attempts to turn one creature he can see within 60 feet of him into solid gold. The target must make a {@dc 23} Constitution saving throw. On a failed save, the target's flesh begins to harden, and it has the {@condition restrained} condition. A {@condition restrained} creature must repeat the saving throw at the end of each turn. If it successfully saves three times, the effect ends. If it fails three times, it turns to gold and now has the {@condition petrified} condition. Successes and failures don't need to be consecutive."
+						"Mammon attempts to turn one creature he can see within 60 feet of him into solid gold. The target must make a {@dc 23} Constitution saving throw. On a failed save, the target's flesh begins to harden, and it has the {@condition Entravé} condition. A {@condition Entravé} creature must repeat the saving throw at the end of each turn. If it successfully saves three times, the effect ends. If it fails three times, it turns to gold and now has the {@condition Pétrifié} condition. Successes and failures don't need to be consecutive."
 					]
 				}
 			],
@@ -6530,7 +6530,7 @@
 				{
 					"name": "Hellfire Wings",
 					"entries": [
-						"Mephistopheles uses his wings to generate a burst of heat. Each creature within 10 feet of him must succeed on a {@dc 22} Dexterity saving throw or take 9 ({@damage 2d8}) bludgeoning damage plus 9 ({@damage 2d8}) fire damage. Creatures that failed the save also have the {@condition prone} condition."
+						"Mephistopheles uses his wings to generate a burst of heat. Each creature within 10 feet of him must succeed on a {@dc 22} Dexterity saving throw or take 9 ({@damage 2d8}) bludgeoning damage plus 9 ({@damage 2d8}) fire damage. Creatures that failed the save also have the {@condition À terre} condition."
 					]
 				},
 				{
@@ -6699,7 +6699,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage plus 7 ({@damage 2d6}) acid damage. If the target is a Large or smaller creature, it has the {@condition grappled} condition (escape {@dc 18}). The miasmorne can't make Bite attacks while a creature is {@condition grappled} in this way."
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage plus 7 ({@damage 2d6}) acid damage. If the target is a Large or smaller creature, it has the {@condition Agrippé} condition (escape {@dc 18}). The miasmorne can't make Bite attacks while a creature is {@condition Agrippé} in this way."
 					]
 				},
 				{
@@ -6824,7 +6824,7 @@
 				{
 					"name": "Realize Nightmares {@recharge 4}",
 					"entries": [
-						"The oneirovore manipulates the perception of nearby creatures, sending them into a panic. Creatures of the oneirovore's choice that it can see within 60 feet must make a {@dc 19} Charisma saving throw. On a failed save, the creature has the {@condition charmed} condition, their vision distorted such that they view their allies as creatures of pure fear and hatred. While {@condition charmed}, a creature will use their actions to attack their allies with intent to kill. A {@condition charmed} creature may repeat the saving throw at the end of each turn, ending the effect on a success."
+						"The oneirovore manipulates the perception of nearby creatures, sending them into a panic. Creatures of the oneirovore's choice that it can see within 60 feet must make a {@dc 19} Charisma saving throw. On a failed save, the creature has the {@condition Charmé} condition, their vision distorted such that they view their allies as creatures of pure fear and hatred. While {@condition Charmé}, a creature will use their actions to attack their allies with intent to kill. A {@condition Charmé} creature may repeat the saving throw at the end of each turn, ending the effect on a success."
 					]
 				},
 				{
@@ -6938,7 +6938,7 @@
 				{
 					"name": "Aura of Torment",
 					"entries": [
-						"Any creature hostile to the excruciarch that starts its turn within 20 feet of the excruciarch takes 10 ({@damage 4d4}) slashing damage, unless the excruciarch is {@condition incapacitated}."
+						"Any creature hostile to the excruciarch that starts its turn within 20 feet of the excruciarch takes 10 ({@damage 4d4}) slashing damage, unless the excruciarch is {@condition Incapable}."
 					]
 				},
 				{
@@ -7040,7 +7040,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"{@item plate armor|PHB|plate}",
+						"{@item Harnois de plaques|PHB|plate}",
 						"{@item +2 shield}"
 					]
 				}
@@ -7139,7 +7139,7 @@
 				{
 					"name": "Divine Wave {@recharge}",
 					"entries": [
-						"Ramius strikes the ground and causes holy energy to radiate outwards. Each creature of his choice within 30 feet of him must make a {@dc 17} Constitution saving throw. Targets take 21 ({@damage 6d6}) thunder damage plus 21 ({@damage 6d6}) radiant damage on a failed save, or half as much damage on a successful one. Creatures that fail the save are knocked down (have the {@condition prone} condition)."
+						"Ramius strikes the ground and causes holy energy to radiate outwards. Each creature of his choice within 30 feet of him must make a {@dc 17} Constitution saving throw. Targets take 21 ({@damage 6d6}) thunder damage plus 21 ({@damage 6d6}) radiant damage on a failed save, or half as much damage on a successful one. Creatures that fail the save are knocked down (have the {@condition À terre} condition)."
 					]
 				}
 			],
@@ -7741,7 +7741,7 @@
 				{
 					"name": "Burrow {@recharge 5}",
 					"entries": [
-						"On a hit, the creature takes an additional 32 ({@damage 5d12}) slashing damage as the wings merge with it. While merged, the creature moves with the shredwing, takes 19 ({@damage 3d12}) necrotic damage at the start of each of its turn, and has the {@condition grappled} condition. The shredwing can unmerge at any time, leaving the creature and dropping it if airborne. The only other way to end the merge is to kill the shredwing.",
+						"On a hit, the creature takes an additional 32 ({@damage 5d12}) slashing damage as the wings merge with it. While merged, the creature moves with the shredwing, takes 19 ({@damage 3d12}) necrotic damage at the start of each of its turn, and has the {@condition Agrippé} condition. The shredwing can unmerge at any time, leaving the creature and dropping it if airborne. The only other way to end the merge is to kill the shredwing.",
 						"If the merged creature dies while merged, the shredwing permanently takes over its body. It gains the merged creature's hit dice, natural armor, possessions, and languages. If any of the merged creature's statistics are higher than the shredwing, it inherits those statistics as well. A creature permanently merged by the shredwing can only be resurrected through a {@spell Wish} spell or similar."
 					]
 				}
@@ -7995,19 +7995,19 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 8}) bludgeoning damage. If the target is a Large or smaller creature, it has the {@condition grappled} condition (escape {@dc 22}). The dragon can't make a Tail attack while a creature is {@condition grappled} in this way."
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 8}) bludgeoning damage. If the target is a Large or smaller creature, it has the {@condition Agrippé} condition (escape {@dc 22}). The dragon can't make a Tail attack while a creature is {@condition Agrippé} in this way."
 					]
 				},
 				{
 					"name": "Constrict",
 					"entries": [
-						"The dragon tightens its grip on a creature {@condition grappled} by its tail. The creature takes 27 ({@damage 3d12 + 8}) bludgeoning damage, has the {@condition restrained} condition until the start of the dragon's next turn, and must make a {@dc 19} Constitution saving throw. On a failed save, the target contracts Stygian Wasting."
+						"The dragon tightens its grip on a creature {@condition Agrippé} by its tail. The creature takes 27 ({@damage 3d12 + 8}) bludgeoning damage, has the {@condition Entravé} condition until the start of the dragon's next turn, and must make a {@dc 19} Constitution saving throw. On a failed save, the target contracts Stygian Wasting."
 					]
 				},
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the dragon's choice that is within 120 feet of the dragon must succeed on a {@dc 18} Wisdom saving throw or have the {@condition frightened} condition for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+						"Each creature of the dragon's choice that is within 120 feet of the dragon must succeed on a {@dc 18} Wisdom saving throw or have the {@condition Effrayé} condition for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
@@ -8027,13 +8027,13 @@
 				{
 					"name": "Tail Attack",
 					"entries": [
-						"The dragon makes a Tail attack. If a creature is already {@condition grappled}, the dragon may use Constrict instead."
+						"The dragon makes a Tail attack. If a creature is already {@condition Agrippé}, the dragon may use Constrict instead."
 					]
 				},
 				{
 					"name": "Death Throw (Costs 3 Actions)",
 					"entries": [
-						"If the dragon has successfully {@condition restrained} a creature with the Constrict ability, it may throw them up to 100 feet away. When it lands, the creature takes 21 ({@damage 6d6}) bludgeoning damage and must make a {@dc 18} Constitution saving throw. On a failed save, the creature has the {@condition unconscious} condition for 10 minutes."
+						"If the dragon has successfully {@condition Entravé} a creature with the Constrict ability, it may throw them up to 100 feet away. When it lands, the creature takes 21 ({@damage 6d6}) bludgeoning damage and must make a {@dc 18} Constitution saving throw. On a failed save, the creature has the {@condition Inconscient} condition for 10 minutes."
 					]
 				}
 			],
@@ -8354,7 +8354,7 @@
 				{
 					"name": "Shadows of Death {@recharge}",
 					"entries": [
-						"The shadow discharges inky-black shadows in a 90-foot-radius sphere around itself. Creatures in the shadows must succeed on a {@dc 19} Wisdom saving throw or take 27 ({@damage 6d8}) necrotic damage and have the {@condition frightened} condition for 1 minute. A {@condition frightened} creature may repeat the saving throw at the end of each of its turns, ending the effect on a successful save, but taking the damage again on a failed save."
+						"The shadow discharges inky-black shadows in a 90-foot-radius sphere around itself. Creatures in the shadows must succeed on a {@dc 19} Wisdom saving throw or take 27 ({@damage 6d8}) necrotic damage and have the {@condition Effrayé} condition for 1 minute. A {@condition Effrayé} creature may repeat the saving throw at the end of each of its turns, ending the effect on a successful save, but taking the damage again on a failed save."
 					]
 				}
 			],
@@ -8484,7 +8484,7 @@
 				{
 					"name": "Fear Aura",
 					"entries": [
-						"Any hostile creature that starts its turn within 20 feet of the vorvolaka must succeed on a {@dc 18} Wisdom saving throw or have {@condition frightened} condition until the start of the creature's next turn. If a creature's saving throw is successful, they're immune to the vorvolaka's Fear Aura for the next 24 hours. This ability does not function if the vorvolaka is {@condition unconscious}."
+						"Any hostile creature that starts its turn within 20 feet of the vorvolaka must succeed on a {@dc 18} Wisdom saving throw or have {@condition Effrayé} condition until the start of the creature's next turn. If a creature's saving throw is successful, they're immune to the vorvolaka's Fear Aura for the next 24 hours. This ability does not function if the vorvolaka is {@condition Inconscient}."
 					]
 				},
 				{
@@ -8661,7 +8661,7 @@
 				{
 					"name": "Whelm {@recharge 4}",
 					"entries": [
-						"Each creature in Waeloquay's space must make a {@dc 22} Strength saving throw. On a failed save, a target takes 21 ({@damage 3d8 + 8}) bludgeoning damage. If it is Large or smaller, it also has the {@condition grappled} condition (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained} and unable to breathe, unless it can breathe water. If the save is successful, the target is pushed out of Waeloquay's space. Waeloquay can grapple one Large creature or up to four Medium or smaller creatures at one time. At the start of each of Waeloquay's turns, each target {@condition grappled} by it takes 21 ({@damage 3d8 + 8}) bludgeoning damage. A creature within 5 feet of Waeloquay can pull a creature or object out of it by taking an action to make a {@dc 22} Strength check and succeeding."
+						"Each creature in Waeloquay's space must make a {@dc 22} Strength saving throw. On a failed save, a target takes 21 ({@damage 3d8 + 8}) bludgeoning damage. If it is Large or smaller, it also has the {@condition Agrippé} condition (escape {@dc 20}). Until this grapple ends, the target is {@condition Entravé} and unable to breathe, unless it can breathe water. If the save is successful, the target is pushed out of Waeloquay's space. Waeloquay can grapple one Large creature or up to four Medium or smaller creatures at one time. At the start of each of Waeloquay's turns, each target {@condition Agrippé} by it takes 21 ({@damage 3d8 + 8}) bludgeoning damage. A creature within 5 feet of Waeloquay can pull a creature or object out of it by taking an action to make a {@dc 22} Strength check and succeeding."
 					]
 				}
 			],
@@ -8804,7 +8804,7 @@
 				{
 					"name": "Fear Aura",
 					"entries": [
-						"Any hostile creature that starts its turn within 20 feet of the war devil must succeed on a {@dc 18} Wisdom saving throw or have the {@condition frightened} condition until the start of the creature's next turn. If a creature's saving throw is successful, the creature is immune to the war devil's Fear Aura for the next 24 hours. This ability doesn't function if the war devil is {@condition unconscious}."
+						"Any hostile creature that starts its turn within 20 feet of the war devil must succeed on a {@dc 18} Wisdom saving throw or have the {@condition Effrayé} condition until the start of the creature's next turn. If a creature's saving throw is successful, the creature is immune to the war devil's Fear Aura for the next 24 hours. This ability doesn't function if the war devil is {@condition Inconscient}."
 					]
 				},
 				{
@@ -8830,7 +8830,7 @@
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) slashing damage. If the target is a Large or smaller creature, it has the {@condition grappled} condition (escape {@dc 20}). While a creature is {@condition grappled}, the war devil can't make Claws attacks."
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) slashing damage. If the target is a Large or smaller creature, it has the {@condition Agrippé} condition (escape {@dc 20}). While a creature is {@condition Agrippé}, the war devil can't make Claws attacks."
 					]
 				}
 			],
@@ -9189,7 +9189,7 @@
 				{
 					"name": "Horrid Touch {@recharge 5}",
 					"entries": [
-						"Zariel touches one creature within 10 feet of her. The target must succeed on a {@dc 26} Constitution saving throw or take 44 ({@damage 8d10}) necrotic damage and have the {@condition poisoned} condition for 1 minute. While {@condition poisoned} in this way, the target has the {@condition blinded} and {@condition deafened} conditions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Zariel touches one creature within 10 feet of her. The target must succeed on a {@dc 26} Constitution saving throw or take 44 ({@damage 8d10}) necrotic damage and have the {@condition Empoisonné} condition for 1 minute. While {@condition Empoisonné} in this way, the target has the {@condition Aveuglé} and {@condition Assourdi} conditions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{

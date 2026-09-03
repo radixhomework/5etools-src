@@ -40,7 +40,7 @@
 				],
 				"weapons": [
 					"simple",
-					"{@item shortsword|phb|shortswords}"
+					"{@item Épée courte|phb|shortswords}"
 				],
 				"tools": [
 					"any one type of {@item artisan's tools|PHB} or any one {@item musical instrument|PHB} of your choice"
@@ -57,9 +57,9 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item shortsword|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"10 {@item dart|phb|darts}"
+					"(a) a {@item Épée courte|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item Pack d'explorateur des donjons|phb} or (b) an {@item Pack d'explorateur|phb}",
+					"10 {@item Fléchette|phb|darts}"
 				],
 				"goldAlternative": "{@dice 5d4|5d4|Starting Gold}",
 				"defaultData": [
@@ -99,7 +99,7 @@
 				"proficienciesGained": {
 					"weapons": [
 						"simple",
-						"{@item shortsword|phb|shortswords}"
+						"{@item Épée courte|phb|shortswords}"
 					]
 				}
 			},
@@ -608,7 +608,7 @@
 					}
 				],
 				"entries": [
-					"{@i Choose A or B:} (A) {@item Spear|XPHB}, 5 {@item Dagger|XPHB|Daggers}, {@item Artisan's Tools|XPHB} or {@item Musical Instrument|XPHB} chosen for the tool proficiency above, {@item Explorer's Pack|XPHB}, and 11 GP; or (B) 50 GP"
+					"{@i Choose A or B:} (A) {@item Lance|XPHB}, 5 {@item Dague|XPHB|Daggers}, {@item Artisan's Tools|XPHB} or {@item Musical Instrument|XPHB} chosen for the tool proficiency above, {@item Pack d'explorateur|XPHB}, and 11 GP; or (B) 50 GP"
 				]
 			},
 			"multiclassing": {},
@@ -1614,14 +1614,14 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are {@item shortsword|phb|shortswords} and any {@filter simple melee weapons that don't have the two-handed or heavy property|items|source=phb|category=basic|type=simple weapon;melee weapon=sand|property=!heavy;!two-handed}.",
-				"You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a {@item shield|phb}.",
+				"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are {@item Épée courte|phb|shortswords} and any {@filter simple melee weapons that don't have the two-handed or heavy property|items|source=phb|category=basic|type=simple weapon;melee weapon=sand|property=!heavy;!two-handed}.",
+				"You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a {@item Bouclier|phb}.",
 				{
 					"type": "list",
 					"items": [
 						"You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.",
 						"You can roll a {@dice d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
-						"When you use the {@action Attack} action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the {@action Attack} action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
+						"When you use the {@action Attaque} action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the {@action Attaque} action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
 					]
 				},
 				"Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama)."
@@ -1674,7 +1674,7 @@
 				"name": "Ki"
 			},
 			"entries": [
-				"Immediately after you take the {@action Attack} action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action."
+				"Immediately after you take the {@action Attaque} action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action."
 			]
 		},
 		{
@@ -1729,7 +1729,7 @@
 				"name": "Ki"
 			},
 			"entries": [
-				"You can spend 1 ki point to take the {@action Dodge} action as a bonus action on your turn."
+				"You can spend 1 ki point to take the {@action Esquive} action as a bonus action on your turn."
 			]
 		},
 		{
@@ -1745,7 +1745,7 @@
 				"name": "Ki"
 			},
 			"entries": [
-				"You can spend 1 ki point to take the {@action Disengage} or {@action Dash} action as a bonus action on your turn, and your jump distance is doubled for the turn."
+				"You can spend 1 ki point to take the {@action Désengagement} or {@action Course} action as a bonus action on your turn, and your jump distance is doubled for the turn."
 			]
 		},
 		{
@@ -1850,7 +1850,7 @@
 			"classSource": "PHB",
 			"level": 5,
 			"entries": [
-				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attaque} action on your turn."
 			]
 		},
 		{
@@ -1879,7 +1879,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be {@condition stunned} until the end of your next turn."
+				"Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be {@condition Étourdi} until the end of your next turn."
 			]
 		},
 		{
@@ -1927,7 +1927,7 @@
 			"classSource": "PHB",
 			"level": 7,
 			"entries": [
-				"Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be {@condition charmed} or {@condition frightened}."
+				"Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be {@condition Charmé} or {@condition Effrayé}."
 			]
 		},
 		{
@@ -2146,7 +2146,7 @@
 						"{@filter Martial Melee Weapons that have the Light property|items|type=martial weapon;melee weapon=sand|property=light}"
 					]
 				},
-				"You gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a {@item Shield|XPHB}.",
+				"You gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a {@item Bouclier|XPHB}.",
 				{
 					"type": "entries",
 					"entries": [
@@ -2190,7 +2190,7 @@
 			"classSource": "XPHB",
 			"level": 1,
 			"entries": [
-				"While you aren't wearing armor or wielding a {@item Shield|XPHB}, your base {@variantrule Armor Class|XPHB} equals 10 plus your Dexterity and Wisdom modifiers."
+				"While you aren't wearing armor or wielding a {@item Bouclier|XPHB}, your base {@variantrule Armor Class|XPHB} equals 10 plus your Dexterity and Wisdom modifiers."
 			]
 		},
 		{
@@ -2257,7 +2257,7 @@
 				"name": "Focus Point"
 			},
 			"entries": [
-				"You can take the {@action Disengage|XPHB} action as a {@variantrule Bonus Action|XPHB}. Alternatively, you can expend 1 Focus Point to take both the {@action Disengage|XPHB} and the {@action Dodge|XPHB} actions as a {@variantrule Bonus Action|XPHB}."
+				"You can take the {@action Désengagement|XPHB} action as a {@variantrule Bonus Action|XPHB}. Alternatively, you can expend 1 Focus Point to take both the {@action Désengagement|XPHB} and the {@action Esquive|XPHB} actions as a {@variantrule Bonus Action|XPHB}."
 			]
 		},
 		{
@@ -2274,7 +2274,7 @@
 				"name": "Focus Point"
 			},
 			"entries": [
-				"You can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}. Alternatively, you can expend 1 Focus Point to take both the {@action Disengage|XPHB} and {@action Dash|XPHB} actions as a {@variantrule Bonus Action|XPHB}, and your jump distance is doubled for the turn."
+				"You can take the {@action Course|XPHB} action as a {@variantrule Bonus Action|XPHB}. Alternatively, you can expend 1 Focus Point to take both the {@action Désengagement|XPHB} and {@action Course|XPHB} actions as a {@variantrule Bonus Action|XPHB}, and your jump distance is doubled for the turn."
 			]
 		},
 		{
@@ -2287,7 +2287,7 @@
 			"classSource": "XPHB",
 			"level": 2,
 			"entries": [
-				"Your speed increases by 10 feet while you aren't wearing armor or wielding a {@item Shield|XPHB}. This bonus increases when you reach certain Monk levels, as shown on the Monk Features table."
+				"Your speed increases by 10 feet while you aren't wearing armor or wielding a {@item Bouclier|XPHB}. This bonus increases when you reach certain Monk levels, as shown on the Monk Features table."
 			]
 		},
 		{
@@ -2344,7 +2344,7 @@
 			"classSource": "XPHB",
 			"level": 4,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16."
 			]
 		},
 		{
@@ -2370,7 +2370,7 @@
 			"classSource": "XPHB",
 			"level": 5,
 			"entries": [
-				"You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+				"You can attack twice instead of once whenever you take the {@action Attaque|XPHB} action on your turn."
 			]
 		},
 		{
@@ -2386,7 +2386,7 @@
 				"name": "Focus Point"
 			},
 			"entries": [
-				"Once per turn when you hit a creature with a Monk weapon or an {@variantrule Unarmed Strike|XPHB}, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the {@condition Stunned|XPHB} condition until the start of your next turn. On a successful save, the target's {@variantrule Speed|XPHB} is halved until the start of your next turn, and the next attack roll made against the target before then has {@variantrule Advantage|XPHB}."
+				"Once per turn when you hit a creature with a Monk weapon or an {@variantrule Unarmed Strike|XPHB}, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the {@condition Étourdi|XPHB} condition until the start of your next turn. On a successful save, the target's {@variantrule Speed|XPHB} is halved until the start of your next turn, and the next attack roll made against the target before then has {@variantrule Advantage|XPHB}."
 			]
 		},
 		{
@@ -2426,7 +2426,7 @@
 			"level": 7,
 			"entries": [
 				"When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.",
-				"You don't benefit from this feature if you have the {@condition Incapacitated|XPHB} condition."
+				"You don't benefit from this feature if you have the {@condition Incapable|XPHB} condition."
 			]
 		},
 		{
@@ -2439,7 +2439,7 @@
 			"classSource": "XPHB",
 			"level": 8,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2452,7 +2452,7 @@
 			"classSource": "XPHB",
 			"level": 9,
 			"entries": [
-				"While you aren't wearing armor or wielding a {@item Shield|XPHB}, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the movement."
+				"While you aren't wearing armor or wielding a {@item Bouclier|XPHB}, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the movement."
 			]
 		},
 		{
@@ -2488,7 +2488,7 @@
 							"type": "entries",
 							"name": "Step of the Wind",
 							"entries": [
-								"When you expend a Focus Point to use Step of the Wind, you can choose a willing creature within 5 feet of yourself that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+								"When you expend a Focus Point to use Step of the Wind, you can choose a willing creature within 5 feet of yourself that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke {@action Attaque d'opportunité|XPHB|Opportunity Attacks}."
 							]
 						}
 					]
@@ -2505,8 +2505,8 @@
 			"classSource": "XPHB",
 			"level": 10,
 			"entries": [
-				"Through sheer force of will, you can remove one of the following conditions from yourself at the end of each of your turns: {@condition Charmed|XPHB}, {@condition Frightened|XPHB}, or {@condition Poisoned|XPHB}.",
-				"In addition, forgoing food and drink doesn't give you levels of {@condition Exhaustion|XPHB}."
+				"Through sheer force of will, you can remove one of the following conditions from yourself at the end of each of your turns: {@condition Charmé|XPHB}, {@condition Effrayé|XPHB}, or {@condition Empoisonné|XPHB}.",
+				"In addition, forgoing food and drink doesn't give you levels of {@condition Épuisement|XPHB}."
 			]
 		},
 		{
@@ -2532,7 +2532,7 @@
 			"classSource": "XPHB",
 			"level": 12,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2588,7 +2588,7 @@
 			"classSource": "XPHB",
 			"level": 16,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2618,7 +2618,7 @@
 				"amount": 3
 			},
 			"entries": [
-				"At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 minute or until you have the {@condition Incapacitated|XPHB} condition. During that time, you have {@variantrule Resistance|XPHB} to all damage except Force damage."
+				"At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 minute or until you have the {@condition Incapable|XPHB} condition. During that time, you have {@variantrule Resistance|XPHB} to all damage except Force damage."
 			]
 		},
 		{
@@ -2631,7 +2631,7 @@
 			"classSource": "XPHB",
 			"level": 19,
 			"entries": [
-				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Irresistible Offense|XPHB} is recommended."
+				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Don de l'offensive irrésistible|XPHB} is recommended."
 			]
 		},
 		{
@@ -2721,7 +2721,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Way of the Ascendant Dragon feature}",
-				"You can channel destructive waves of energy, like those created by the dragons you emulate. When you take the {@action Attack} action on your turn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (your choice). Choose a damage type: acid, cold, fire, lightning, or poison. Each creature in that area must make a Dexterity saving throw against your ki save DC, taking damage of the chosen type equal to two rolls of your Martial Arts die on a failed save, or half as much damage on a successful one.",
+				"You can channel destructive waves of energy, like those created by the dragons you emulate. When you take the {@action Attaque} action on your turn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (your choice). Choose a damage type: acid, cold, fire, lightning, or poison. Each creature in that area must make a Dexterity saving throw against your ki save DC, taking damage of the chosen type equal to two rolls of your Martial Arts die on a failed save, or half as much damage on a successful one.",
 				"At 11th level, the damage of this feature increases to three rolls of your Martial Arts die.",
 				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend 2 ki points to use this feature again."
 			]
@@ -2756,7 +2756,7 @@
 						{
 							"type": "item",
 							"name": "Tongue of Dragons",
-							"entry": "You learn to speak, read, and write {@language Draconic} or one other language of your choice."
+							"entry": "You learn to speak, read, and write {@language Draconique} or one other language of your choice."
 						}
 					]
 				}
@@ -2798,7 +2798,7 @@
 						{
 							"type": "item",
 							"name": "Frightful Presence",
-							"entry": "When you create this aura, and as a bonus action on subsequent turns, you can choose a creature within the aura. The target must succeed on a Wisdom saving throw against your ki save DC or become {@condition frightened} of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save."
+							"entry": "When you create this aura, and as a bonus action on subsequent turns, you can choose a creature within the aura. The target must succeed on a Wisdom saving throw against your ki save DC or become {@condition Effrayé} of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save."
 						},
 						{
 							"type": "item",
@@ -2835,7 +2835,7 @@
 						{
 							"type": "item",
 							"name": "Blindsight",
-							"entry": "You gain {@sense blindsight} out to 10 feet. Within that range, you can effectively see anything that isn't behind {@quickref Cover||3||total cover}, even if you're {@condition blinded} or in darkness. Moreover, you can see an {@condition invisible} creature within that range, unless the creature successfully hides from you."
+							"entry": "You gain {@sense Perception aveugle} out to 10 feet. Within that range, you can effectively see anything that isn't behind {@quickref Cover||3||total cover}, even if you're {@condition Aveuglé} or in darkness. Moreover, you can see an {@condition invisible} creature within that range, unless the creature successfully hides from you."
 						},
 						{
 							"type": "item",
@@ -3102,7 +3102,7 @@
 				{
 					"type": "list",
 					"items": [
-						"It must succeed on a Dexterity saving throw or be knocked {@condition prone}.",
+						"It must succeed on a Dexterity saving throw or be knocked {@condition À terre}.",
 						"It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.",
 						"It can't take reactions until the end of your next turn."
 					]
@@ -3278,7 +3278,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you gain the ability to unsettle or terrify those around you as an action, for your soul has been touched by the shadow of death. When you take this action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be {@condition frightened} of you until the end of your next turn."
+				"At 6th level, you gain the ability to unsettle or terrify those around you as an action, for your soul has been touched by the shadow of death. When you take this action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be {@condition Effrayé} of you until the end of your next turn."
 			]
 		},
 		{
@@ -3352,7 +3352,7 @@
 			"entries": [
 				"{@i 3rd-level Way of the Astral Self feature}",
 				"Your mastery of your ki allows you to summon a portion of your astral self. As a bonus action, you can spend 1 ki point to summon the arms of your astral self. When you do so, each creature of your choice that you can see within 10 feet of you must succeed on a Dexterity saving throw or take force damage equal to two rolls of your Martial Arts die.",
-				"For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You determine the arms' appearance, and they vanish early if you are {@condition incapacitated} or die.",
+				"For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You determine the arms' appearance, and they vanish early if you are {@condition Incapable} or die.",
 				"While the spectral arms are present, you gain the following benefits:",
 				{
 					"type": "list",
@@ -3396,7 +3396,7 @@
 			},
 			"entries": [
 				"{@i 6th-level Way of the Astral Self feature}",
-				"You can summon the visage of your astral self. As a bonus action, or as part of the bonus action you take to activate Arms of the Astral Self, you can spend 1 ki point to summon this visage for 10 minutes. It vanishes early if you are {@condition incapacitated} or die.",
+				"You can summon the visage of your astral self. As a bonus action, or as part of the bonus action you take to activate Arms of the Astral Self, you can spend 1 ki point to summon this visage for 10 minutes. It vanishes early if you are {@condition Incapable} or die.",
 				"The spectral visage covers your face like a helmet or mask. You determine its appearance.",
 				"While the spectral visage is present, you gain the following benefits.",
 				{
@@ -3410,7 +3410,7 @@
 					"type": "entries",
 					"name": "Wisdom of the Spirit",
 					"entries": [
-						"You have advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Intimidation}) checks."
+						"You have advantage on Wisdom ({@skill Perspicacité}) and Charisma ({@skill Intimidation}) checks."
 					]
 				},
 				{
@@ -3468,7 +3468,7 @@
 			},
 			"entries": [
 				"{@i 17th-level Way of the Astral Self feature}",
-				"Your connection to your astral self is complete, allowing you to unleash its full potential. As a bonus action, you can spend 5 ki points to summon the arms, visage, and body of your astral self and awaken it for 10 minutes. This awakening ends early if you are {@condition incapacitated} or die.",
+				"Your connection to your astral self is complete, allowing you to unleash its full potential. As a bonus action, you can spend 5 ki points to summon the arms, visage, and body of your astral self and awaken it for 10 minutes. This awakening ends early if you are {@condition Incapable} or die.",
 				"While your astral self is awakened, you gain the following benefits.",
 				{
 					"type": "entries",
@@ -3562,7 +3562,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Way of Mercy feature}",
-				"You gain proficiency in the {@skill Insight} and {@skill Medicine} skills, and you gain proficiency with the {@item herbalism kit|PHB}.",
+				"You gain proficiency in the {@skill Perspicacité} and {@skill Médecine} skills, and you gain proficiency with the {@item Trousse d'herboriste|PHB}.",
 				"You also gain a special mask, which you often wear when using the features of this subclass. You determine its appearance, or generate it randomly by rolling on the Merciful Mask table.",
 				{
 					"type": "table",
@@ -3617,8 +3617,8 @@
 			"entries": [
 				"{@i 6th-level Way of Mercy feature}",
 				"You can administer even greater cures with a touch, and if you feel it's necessary, you can use your knowledge to cause harm.",
-				"When you use Hand of Healing on a creature, you can also end one disease or one of the following conditions affecting the creature: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition poisoned}, or {@condition stunned}.",
-				"When you use Hand of Harm on a creature, you can subject that creature to the {@condition poisoned} condition until the end of your next turn."
+				"When you use Hand of Healing on a creature, you can also end one disease or one of the following conditions affecting the creature: {@condition Aveuglé}, {@condition Assourdi}, {@condition Paralysé}, {@condition Empoisonné}, or {@condition Étourdi}.",
+				"When you use Hand of Harm on a creature, you can subject that creature to the {@condition Empoisonné} condition until the end of your next turn."
 			]
 		},
 		{
@@ -3653,7 +3653,7 @@
 			},
 			"entries": [
 				"{@i 17th-level Way of Mercy feature}",
-				"Your mastery of life energy opens the door to the ultimate mercy. As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 ki points. The creature then returns to life, regaining a number of hit points equal to {@dice 4d10} + your Wisdom modifier. If the creature died while subject to any of the following conditions, it revives with them removed: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition poisoned}, and {@condition stunned}.",
+				"Your mastery of life energy opens the door to the ultimate mercy. As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 ki points. The creature then returns to life, regaining a number of hit points equal to {@dice 4d10} + your Wisdom modifier. If the creature died while subject to any of the following conditions, it revives with them removed: {@condition Aveuglé}, {@condition Assourdi}, {@condition Paralysé}, {@condition Empoisonné}, and {@condition Étourdi}.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
@@ -3690,7 +3690,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this tradition at 3rd level, you gain proficiency in the {@skill Performance} skill if you don't already have it. Your martial arts technique mixes combat training with the precision of a dancer and the antics of a jester. You also gain proficiency with {@item brewer's supplies|phb} if you don't already have it."
+				"When you choose this tradition at 3rd level, you gain proficiency in the {@skill Représentation} skill if you don't already have it. Your martial arts technique mixes combat training with the precision of a dancer and the antics of a jester. You also gain proficiency with {@item Fournitures de brasseur|phb} if you don't already have it."
 			]
 		},
 		{
@@ -3704,7 +3704,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you learn how to twist and turn quickly as part of your Flurry of Blows. Whenever you use Flurry of Blows, you gain the benefit of the {@action Disengage} action, and your walking speed increases by 10 feet until the end of the current turn."
+				"At 3rd level, you learn how to twist and turn quickly as part of your Flurry of Blows. Whenever you use Flurry of Blows, you gain the benefit of the {@action Désengagement} action, and your walking speed increases by 10 feet until the end of the current turn."
 			]
 		},
 		{
@@ -3717,7 +3717,7 @@
 			"subclassSource": "XGE",
 			"level": 6,
 			"entries": [
-				"When you're {@condition prone}, you can stand up by spending 5 feet of movement, rather than half your speed."
+				"When you're {@condition À terre}, you can stand up by spending 5 feet of movement, rather than half your speed."
 			]
 		},
 		{
@@ -3805,7 +3805,7 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"If you make an unarmed strike as part of the {@action Attack} action on your turn and are holding a kensei weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't {@condition incapacitated}."
+				"If you make an unarmed strike as part of the {@action Attaque} action on your turn and are holding a kensei weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't {@condition Incapable}."
 			]
 		},
 		{
@@ -3875,7 +3875,7 @@
 					"type": "entries",
 					"name": "Way of the Brush",
 					"entries": [
-						"You gain proficiency with your choice of {@item calligrapher's supplies|phb} or {@item painter's supplies|phb}."
+						"You gain proficiency with your choice of {@item Fournitures de calligraphe|phb} or {@item Fournitures de peintre|phb}."
 					]
 				}
 			]
@@ -3969,8 +3969,8 @@
 			"header": 1,
 			"entries": [
 				"Starting when you choose this tradition at 3rd level, you can hurl searing bolts of magical radiance.",
-				"You gain a new attack option that you can use with the {@action Attack} action. The special attack is a ranged spell attack with a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a {@damage d4}. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
-				"When you take the {@action Attack} action on your turn and use this special attack as part of it, you can spend 1 ki point to make the special attack twice as a bonus action. When you gain the Extra Attack feature, this special attack can be used for any of the attacks you make as part of the {@action Attack} action."
+				"You gain a new attack option that you can use with the {@action Attaque} action. The special attack is a ranged spell attack with a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a {@damage d4}. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
+				"When you take the {@action Attaque} action on your turn and use this special attack as part of it, you can spend 1 ki point to make the special attack twice as a bonus action. When you gain the Extra Attack feature, this special attack can be used for any of the attacks you make as part of the {@action Attaque} action."
 			]
 		},
 		{
@@ -3988,7 +3988,7 @@
 				"amount": 2
 			},
 			"entries": [
-				"At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the {@action Attack} action on your turn, you can spend 2 ki points to cast the {@spell burning hands} spell as a bonus action.",
+				"At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the {@action Attaque} action on your turn, you can spend 2 ki points to cast the {@spell burning hands} spell as a bonus action.",
 				"You can spend additional ki points to cast {@spell burning hands} as a higher-level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level."
 			]
 		},
@@ -4036,7 +4036,7 @@
 				"name": "Focus Point"
 			},
 			"entries": [
-				"At the start of your turn, you can expend 1 Focus Point to imbue yourself with elemental energy. The energy lasts for 10 minutes or until you have the {@condition Incapacitated|XPHB} condition. You gain the following benefits while this feature is active.",
+				"At the start of your turn, you can expend 1 Focus Point to imbue yourself with elemental energy. The energy lasts for 10 minutes or until you have the {@condition Incapable|XPHB} condition. You gain the following benefits while this feature is active.",
 				{
 					"type": "entries",
 					"entries": [
@@ -4108,7 +4108,7 @@
 				"amount": 2
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can expend 2 Focus Points to cause elemental energy to burst in a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point within 120 feet of yourself. Choose a damage type: Acid, Cold, Fire, Lightning, or Thunder.",
+				"As a {@action Magie|XPHB} action, you can expend 2 Focus Points to cause elemental energy to burst in a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point within 120 feet of yourself. Choose a damage type: Acid, Cold, Fire, Lightning, or Thunder.",
 				"Each creature in the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} must make a Dexterity saving throw. On a failed save, a creature takes damage of the chosen type equal to three rolls of your Martial Arts die. On a successful save, a creature takes half as much damage."
 			]
 		},
@@ -4218,7 +4218,7 @@
 				"name": "Focus Point"
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can expend 1 Focus Point to touch a creature and restore a number of {@variantrule Hit Points|XPHB} equal to a roll of your Martial Arts die plus your Wisdom modifier. When you use your Flurry of Blows, you can replace one of the Unarmed Strikes with a use of this feature without expending a Focus Point for the healing."
+				"As a {@action Magie|XPHB} action, you can expend 1 Focus Point to touch a creature and restore a number of {@variantrule Hit Points|XPHB} equal to a roll of your Martial Arts die plus your Wisdom modifier. When you use your Flurry of Blows, you can replace one of the Unarmed Strikes with a use of this feature without expending a Focus Point for the healing."
 			]
 		},
 		{
@@ -4232,7 +4232,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain proficiency in the {@skill Insight|XPHB} and {@skill Medicine|XPHB} skills and proficiency with the {@item Herbalism Kit|XPHB}."
+				"You gain proficiency in the {@skill Perspicacité|XPHB} and {@skill Médecine|XPHB} skills and proficiency with the {@item Trousse d'herboriste|XPHB}."
 			]
 		},
 		{
@@ -4254,14 +4254,14 @@
 							"type": "entries",
 							"name": "Hand of Harm",
 							"entries": [
-								"When you use Hand of Harm on a creature, you can also give that creature the {@condition Poisoned|XPHB} condition until the end of your next turn."
+								"When you use Hand of Harm on a creature, you can also give that creature the {@condition Empoisonné|XPHB} condition until the end of your next turn."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Hand of Healing",
 							"entries": [
-								"When you use Hand of Healing, you can also end one of the following conditions on the creature you heal: {@condition Blinded|XPHB}, {@condition Deafened|XPHB}, {@condition Paralyzed|XPHB}, {@condition Poisoned|XPHB}, or {@condition Stunned|XPHB}."
+								"When you use Hand of Healing, you can also end one of the following conditions on the creature you heal: {@condition Aveuglé|XPHB}, {@condition Assourdi|XPHB}, {@condition Paralysé|XPHB}, {@condition Empoisonné|XPHB}, or {@condition Étourdi|XPHB}."
 							]
 						}
 					]
@@ -4299,7 +4299,7 @@
 				"amount": 5
 			},
 			"entries": [
-				"Your mastery of life energy opens the door to the ultimate mercy. As a {@action Magic|XPHB} action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 Focus Points. The creature then returns to life with a number of {@variantrule Hit Points|XPHB} equal to {@dice 4d10} plus your Wisdom modifier. If the creature died with any of the following conditions, the creature revives with the conditions removed: {@condition Blinded|XPHB}, {@condition Deafened|XPHB}, {@condition Paralyzed|XPHB}, {@condition Poisoned|XPHB}, and {@condition Stunned|XPHB}.",
+				"Your mastery of life energy opens the door to the ultimate mercy. As a {@action Magie|XPHB} action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 Focus Points. The creature then returns to life with a number of {@variantrule Hit Points|XPHB} equal to {@dice 4d10} plus your Wisdom modifier. If the creature died with any of the following conditions, the creature revives with the conditions removed: {@condition Aveuglé|XPHB}, {@condition Assourdi|XPHB}, {@condition Paralysé|XPHB}, {@condition Empoisonné|XPHB}, and {@condition Étourdi|XPHB}.",
 				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
@@ -4320,7 +4320,7 @@
 					"type": "entries",
 					"name": "Addle",
 					"entries": [
-						"The target can't make {@action Opportunity Attack|XPHB|Opportunity Attacks} until the start of its next turn."
+						"The target can't make {@action Attaque d'opportunité|XPHB|Opportunity Attacks} until the start of its next turn."
 					]
 				},
 				{
@@ -4334,7 +4334,7 @@
 					"type": "entries",
 					"name": "Topple",
 					"entries": [
-						"The target must succeed on a Dexterity saving throw or have the {@condition Prone|XPHB} condition."
+						"The target must succeed on a Dexterity saving throw or have the {@condition À terre|XPHB} condition."
 					]
 				}
 			]
@@ -4409,7 +4409,7 @@
 				"amount": 4
 			},
 			"entries": [
-				"You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an {@variantrule Unarmed Strike|XPHB}, you can expend 4 Focus Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you take an action to end them. Alternatively, when you take the {@action Attack|XPHB} action on your turn, you can forgo one of the attacks to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitution saving throw, taking {@damage 10d12} Force damage on a failed save or half as much damage on a successful one.",
+				"You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an {@variantrule Unarmed Strike|XPHB}, you can expend 4 Focus Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you take an action to end them. Alternatively, when you take the {@action Attaque|XPHB} action on your turn, you can forgo one of the attacks to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitution saving throw, taking {@damage 10d12} Force damage on a failed save or half as much damage on a successful one.",
 				"You can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly (no action required)."
 			]
 		},
@@ -4484,7 +4484,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You gain {@sense Darkvision|XPHB} with a range of 60 feet. If you already have {@sense Darkvision|XPHB}, its range increases by 60 feet."
+				"You gain {@sense Vision dans le noir|XPHB} with a range of 60 feet. If you already have {@sense Vision dans le noir|XPHB}, its range increases by 60 feet."
 			]
 		},
 		{
@@ -4547,7 +4547,7 @@
 				"amount": 3
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action while entirely within {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}, you can expend 3 Focus Points to shroud yourself with shadows for 1 minute, until you have the {@condition Incapacitated|XPHB} condition, or until you end your turn in {@variantrule Bright Light|XPHB}. While shrouded by these shadows, you gain the following benefits.",
+				"As a {@action Magie|XPHB} action while entirely within {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}, you can expend 3 Focus Points to shroud yourself with shadows for 1 minute, until you have the {@condition Incapable|XPHB} condition, or until you end your turn in {@variantrule Bright Light|XPHB}. While shrouded by these shadows, you gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Invisibility",

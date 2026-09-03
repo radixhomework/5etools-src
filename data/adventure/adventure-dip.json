@@ -128,13 +128,13 @@
 									"id": "00b",
 									"entries": [
 										"The box contains the following cards:",
-										"{@deck Combat Step by Step Cards|ESK}. These identical cards outline the order of combat, as described in the rulebook.",
-										"{@deck Condition Cards|ESK}. These cards describe various conditions that can affect creatures in the game. A player whose character is suffering from a condition can keep the card as a reminder, giving it back to you when the condition ends for that character.",
-										"{@deck Initiative Cards|ESK}. After the characters and each group of monsters involved in a combat roll initiative, distribute these cards among the combat participants, from the highest to lowest initiative count. For example, whoever rolls the highest initiative gets the \"1\" card and acts first, whoever rolls the second highest initiative gets the \"2\" card, and so on. Keep the numbered cards for the creatures you're running.",
-										"{@deck Magic Charm Cards|DIP|Magic Charm Card}. This card describes a special charm (see \"{@area Charm of the Storm|194|x}.\" You become charged with the power of the storm, to the extent that tiny sparks crackle in your eyes. You can cast the {@spell lightning bolt} spell (3rd-level version) as an action. Once used three times, the charm vanishes from you.). Give the card to the player whose character receives the charm. Collect the card when the charm ends for that character.",
-										"{@deck Magic Item Cards|DIP}. When the characters acquire a magic item and identify it, give the players the card for that item. Let the player whose character has the item keep the card for reference until the item is expended or no longer in that character's possession.",
-										"{@deck Quest Cards|DIP}. When a new quest becomes available to the characters, give that quest's card to the players. Collect the card if the characters complete the quest or decide they don't want to complete it.",
-										"{@deck Sidekick Cards|DIP}. If you're running the game for a single player, give the player these cards and let them choose a sidekick. The sidekick's corresponding stat block can be found in the rulebook. If the sidekick dies, collect the card; the player can't choose that sidekick again.",
+										"{@deck Cartes du combat étape par étape|ESK}. These identical cards outline the order of combat, as described in the rulebook.",
+										"{@deck Cartes des états|ESK}. These cards describe various conditions that can affect creatures in the game. A player whose character is suffering from a condition can keep the card as a reminder, giving it back to you when the condition ends for that character.",
+										"{@deck Cartes d'initiative|ESK}. After the characters and each group of monsters involved in a combat roll initiative, distribute these cards among the combat participants, from the highest to lowest initiative count. For example, whoever rolls the highest initiative gets the \"1\" card and acts first, whoever rolls the second highest initiative gets the \"2\" card, and so on. Keep the numbered cards for the creatures you're running.",
+										"{@deck Cartes des charmes magiques|DIP|Magic Charm Card}. This card describes a special charm (see \"{@area Charm of the Storm|194|x}.\" You become charged with the power of the storm, to the extent that tiny sparks crackle in your eyes. You can cast the {@spell lightning bolt} spell (3rd-level version) as an action. Once used three times, the charm vanishes from you.). Give the card to the player whose character receives the charm. Collect the card when the charm ends for that character.",
+										"{@deck Cartes des objets magiques|DIP}. When the characters acquire a magic item and identify it, give the players the card for that item. Let the player whose character has the item keep the card for reference until the item is expended or no longer in that character's possession.",
+										"{@deck Cartes de quêtes|DIP}. When a new quest becomes available to the characters, give that quest's card to the players. Collect the card if the characters complete the quest or decide they don't want to complete it.",
+										"{@deck Cartes de compagnons|DIP}. If you're running the game for a single player, give the player these cards and let them choose a sidekick. The sidekick's corresponding stat block can be found in the rulebook. If the sidekick dies, collect the card; the player can't choose that sidekick again.",
 										{
 											"type": "inset",
 											"name": "Adventure Maps",
@@ -360,22 +360,22 @@
 										[
 											"{@filter Elf|races|Base Species=Elf}",
 											"{@class Cleric}",
-											"{@background Variant Criminal (Spy)||Criminal}"
+											"{@background Criminel (variante : Espion)||Criminal}"
 										],
 										[
 											"{@filter Halfling|races|Base Species=Halfling}",
 											"{@class Fighter}",
-											"{@background Entertainer}"
+											"{@background Artiste}"
 										],
 										[
-											"{@race Human}",
+											"{@race Humain}",
 											"{@class Rogue}",
-											"{@background Sage}"
+											"{@background Savant}"
 										],
 										[
 											"",
 											"{@class Wizard}",
-											"{@background Soldier}"
+											"{@background Soldat}"
 										]
 									]
 								},
@@ -414,7 +414,7 @@
 							"page": 6,
 							"id": "01f",
 							"entries": [
-								"If you're running this adventure for a single player, you can give that player a sidekick as a secondary character. Let the player choose one of the pregenerated sidekicks from the selection of {@deck Sidekick Cards|DIP}. Rules and stat blocks for sidekicks appear in the rulebook. You might need to help the player run the sidekick for the first few sessions. If a sidekick is lost or no longer needed, the character can return to Phandalin and acquire a new one.",
+								"If you're running this adventure for a single player, you can give that player a sidekick as a secondary character. Let the player choose one of the pregenerated sidekicks from the selection of {@deck Cartes de compagnons|DIP}. Rules and stat blocks for sidekicks appear in the rulebook. You might need to help the player run the sidekick for the first few sessions. If a sidekick is lost or no longer needed, the character can return to Phandalin and acquire a new one.",
 								{
 									"type": "entries",
 									"name": "Using Sidekicks",
@@ -828,7 +828,7 @@
 									"page": 8,
 									"id": "02e",
 									"entries": [
-										"The shelves of this general store stock most ordinary goods and supplies, including backpacks, bedrolls, rope, and rations. Barthen's doesn't stock weapons or armor, but characters can purchase other adventuring gear here, with the exception of items that cost more than 25 gp. (For prices, see {@book the rulebook|PHB}.) Characters in need of weapons or armor are directed to the Lionshield Coster. Those looking to buy {@item Potion of Healing||potions of healing} are urged to visit Adabra Gwynn at {@adventure Umbrage Hill|DIP|13} (see the \"{@area Potions of Healing|035|x}\" sidebar).",
+										"The shelves of this general store stock most ordinary goods and supplies, including backpacks, bedrolls, rope, and rations. Barthen's doesn't stock weapons or armor, but characters can purchase other adventuring gear here, with the exception of items that cost more than 25 gp. (For prices, see {@book the rulebook|PHB}.) Characters in need of weapons or armor are directed to the Lionshield Coster. Those looking to buy {@item Potion de soins||potions of healing} are urged to visit Adabra Gwynn at {@adventure Umbrage Hill|DIP|13} (see the \"{@area Potions of Healing|035|x}\" sidebar).",
 										"The proprietor, Elmar Barthen, is a lean and balding human man of fifty years. He employs a couple of young clerks (Ander and Thistle) who help load and unload wagons, and who wait on customers when Barthen isn't around. Characters who engage Barthen, Ander, or Thistle in friendly conversation are told a tale. Roll a {@dice d6} and consult the Phandalin Tales table, or pick a tale the characters haven't heard yet."
 									]
 								},
@@ -927,7 +927,7 @@
 											"page": 9,
 											"id": "035",
 											"entries": [
-												"No place in Phandalin sells {@item Potion of Healing||potions of healing}. However, characters who wish to purchase one or more such potions can do so at the Umbrage Hill windmill, located a few miles south of Phandalin. The windmill is home to a midwife and acolyte of Chauntea (goddess of agriculture) named Adabra Gwynn. For more information on this location, see \"{@adventure Umbrage Hill|DIP|13}\"."
+												"No place in Phandalin sells {@item Potion de soins||potions of healing}. However, characters who wish to purchase one or more such potions can do so at the Umbrage Hill windmill, located a few miles south of Phandalin. The windmill is home to a midwife and acolyte of Chauntea (goddess of agriculture) named Adabra Gwynn. For more information on this location, see \"{@adventure Umbrage Hill|DIP|13}\"."
 											]
 										}
 									]
@@ -940,7 +940,7 @@
 							"page": 10,
 							"id": "036",
 							"entries": [
-								"The job board outside the townmaster's hall is where adventurers can learn about quests. Each quest is {@deck quest cards|DIP|printed on a card}, which you can give to the players when that quest becomes available (see \"{@area Starting Quests|03a|x}\" and \"{@area Follow-Up Quests|03b|x}\" below). Let the players choose which quest to complete first, second, third, and so on. If the players don't like a particular quest, they are under no obligation to complete it. However, completing quests helps the characters become more powerful (see \"{@area Leveling Up|03c|x}\").",
+								"The job board outside the townmaster's hall is where adventurers can learn about quests. Each quest is {@deck Cartes de quêtes|DIP|printed on a card}, which you can give to the players when that quest becomes available (see \"{@area Starting Quests|03a|x}\" and \"{@area Follow-Up Quests|03b|x}\" below). Let the players choose which quest to complete first, second, third, and so on. If the players don't like a particular quest, they are under no obligation to complete it. However, completing quests helps the characters become more powerful (see \"{@area Leveling Up|03c|x}\").",
 								{
 									"type": "entries",
 									"name": "Harbin Wester, Quest Giver",
@@ -977,7 +977,7 @@
 									"page": 10,
 									"id": "03a",
 									"entries": [
-										"When the characters first visit the job board, there are three quests posted. Give the players the {@deck quest cards|DIP|cards for these quests} so that they can choose which to pursue.",
+										"When the characters first visit the job board, there are three quests posted. Give the players the {@deck Cartes de quêtes|DIP|cards for these quests} so that they can choose which to pursue.",
 										{
 											"type": "image",
 											"href": {
@@ -1171,7 +1171,7 @@
 											"page": 12,
 											"id": "042",
 											"entries": [
-												"When using an arrow slit for protection, a creature gains {@quickref cover||3||three-quarters cover} (see {@book the rulebook|PHB}) against outside threats. A Medium character can't squeeze through an arrow slit, but a Small character can with a successful {@dc 10} Dexterity ({@skill Acrobatics}) check."
+												"When using an arrow slit for protection, a creature gains {@quickref cover||3||three-quarters cover} (see {@book the rulebook|PHB}) against outside threats. A Medium character can't squeeze through an arrow slit, but a Small character can with a successful {@dc 10} Dexterity ({@skill Acrobaties}) check."
 											]
 										},
 										{
@@ -1216,7 +1216,7 @@
 											"page": 12,
 											"id": "047",
 											"entries": [
-												"The walls are lined with torch sconces, but the torches burned down long ago. Adventurers require {@sense darkvision} or their own light sources to see inside."
+												"The walls are lined with torch sconces, but the torches burned down long ago. Adventurers require {@sense Vision dans le noir} or their own light sources to see inside."
 											]
 										},
 										{
@@ -1257,9 +1257,9 @@
 								"Thrust out from the base of a dark gray mountain is the entrance to the dwarven fortress\u2014a dark, fifteen-foot-wide passageway flanked by forty-foot-high bulwarks of smooth, seamless stone. An iron portcullis covered with rust blocks the entrance. Arrow slits carved into the bulwarks are dark, revealing no hint of occupation."
 							]
 						},
-						"Entering the fortress is the characters' first challenge. The portcullis in area A1 is too heavy to lift, and its bars are too narrowly spaced for even Small characters to squeeze through. However, a Small character can squeeze through an arrow slit into {@area area A2|04e|x} or {@area A3|04f}, then attempt to raise the portcullis using the winches there. The winches are rusty and require a successful {@dc 15} Strength ({@skill Athletics}) check to turn. Each successful check allows the portcullis to be raised 5 feet.",
-						"Characters who search for another entrance can attempt {@dc 15} Wisdom ({@skill Perception}) checks. A successful check spots numerous stone chimneys protruding from the mountainside, but an earthquake after Axeholm was abandoned closed off most of those to anything but Tiny creatures. Only the chimneys leading down to {@area area A21|065|x} and {@area area A23|067|x} can be accessed by the adventurers. Scaling the mountain requires a successful {@dc 10} Strength ({@skill Athletics}) check, as there are plenty of handholds and footholds.",
-						"Crawling down a chimney to {@area area A21|065|x} or {@area area A23|067|x} requires another successful {@dc 10} Strength ({@skill Athletics}) check. If this check fails, the character falls 20 feet to the bottom of the chimney, landing in the sooty hearth and taking {@dice 2d6} bludgeoning damage. Characters who use climbing gear to scale the mountain and lower themselves down a chimney have advantage on their checks. See {@book the rulebook|PHB} for more information on {@book advantage|PHB|7|Advantage and Disadvantage}.",
+						"Entering the fortress is the characters' first challenge. The portcullis in area A1 is too heavy to lift, and its bars are too narrowly spaced for even Small characters to squeeze through. However, a Small character can squeeze through an arrow slit into {@area area A2|04e|x} or {@area A3|04f}, then attempt to raise the portcullis using the winches there. The winches are rusty and require a successful {@dc 15} Strength ({@skill Athlétisme}) check to turn. Each successful check allows the portcullis to be raised 5 feet.",
+						"Characters who search for another entrance can attempt {@dc 15} Wisdom ({@skill Perception}) checks. A successful check spots numerous stone chimneys protruding from the mountainside, but an earthquake after Axeholm was abandoned closed off most of those to anything but Tiny creatures. Only the chimneys leading down to {@area area A21|065|x} and {@area area A23|067|x} can be accessed by the adventurers. Scaling the mountain requires a successful {@dc 10} Strength ({@skill Athlétisme}) check, as there are plenty of handholds and footholds.",
+						"Crawling down a chimney to {@area area A21|065|x} or {@area area A23|067|x} requires another successful {@dc 10} Strength ({@skill Athlétisme}) check. If this check fails, the character falls 20 feet to the bottom of the chimney, landing in the sooty hearth and taking {@dice 2d6} bludgeoning damage. Characters who use climbing gear to scale the mountain and lower themselves down a chimney have advantage on their checks. See {@book the rulebook|PHB} for more information on {@book advantage|PHB|7|Advantage and Disadvantage}.",
 						{
 							"type": "entries",
 							"name": "Keyed Locations",
@@ -4996,7 +4996,7 @@
 									"id": "05d",
 									"entries": [
 										"In the middle of this room, a carved stone dining table (15 feet long by 5 feet wide) is flanked by a pair of equally long wooden benches. Above the table hang two iron chandeliers, their candles long since melted away. North of the seating area is a sooty fireplace and an alcove containing a rough-hewn pit that descends 60 feet.",
-										"Abundant handholds and footholds allow a character to climb up or down the pit with a successful {@dc 10} Strength ({@skill Athletics}) check. The bottom of the pit contains moldy animal bones and other refuse discarded by the dwarves after their meals."
+										"Abundant handholds and footholds allow a character to climb up or down the pit with a successful {@dc 10} Strength ({@skill Athlétisme}) check. The bottom of the pit contains moldy animal bones and other refuse discarded by the dwarves after their meals."
 									]
 								},
 								{
@@ -5053,7 +5053,7 @@
 													"type": "list",
 													"items": [
 														"A platinum amulet on a thin but sturdy gold chain. This amulet is a holy symbol of Moradin (the dwarven god of creation) and bears his symbol: a hammer and anvil. Any dwarf character recognizes the symbol immediately, while a non-dwarf recognizes it with a successful {@dc 10} Intelligence ({@skill Religion}) check.",
-														"An unlocked steel coffer weighing 5 pounds. This small box is packed with silt, nestled in which is a {@item potion of superior healing}. Give the players the {@item Potion of Superior Healing} {@card potion of superior healing|Magic Item Cards|DIP|card} when they find this magic item or they can reference it in the {@5etools Magic Items Listing|items.html}."
+														"An unlocked steel coffer weighing 5 pounds. This small box is packed with silt, nestled in which is a {@item Potion de soins excellents}. Give the players the {@item Potion de soins excellents} {@card Potion de soins majeurs|Magic Item Cards|DIP|card} when they find this magic item or they can reference it in the {@5etools Magic Items Listing|items.html}."
 													]
 												}
 											]
@@ -5169,14 +5169,14 @@
 									"page": 15,
 									"id": "06f",
 									"entries": [
-										"Against the south wall of this otherwise empty room rests a 80-pound iron chest with clawed feet. Its built-in lock bears a tiny circular indentation instead of a traditional keyhole. Close inspection of the indentation reveals a tiny symbol of a handaxe clutched in a gauntlet. This symbol matches the one on the castellan's signet ring (found in {@area area A14|05a|x}), albeit reversed. If the castellan's signet ring is placed in the indentation, the chest unlocks and remains unlocked until its lid is closed tight. The chest can also be unlocked with a successful {@dc 20} Dexterity check using {@item thieves' tools|PHB}, or by a {@spell knock} spell or similar magic.",
+										"Against the south wall of this otherwise empty room rests a 80-pound iron chest with clawed feet. Its built-in lock bears a tiny circular indentation instead of a traditional keyhole. Close inspection of the indentation reveals a tiny symbol of a handaxe clutched in a gauntlet. This symbol matches the one on the castellan's signet ring (found in {@area area A14|05a|x}), albeit reversed. If the castellan's signet ring is placed in the indentation, the chest unlocks and remains unlocked until its lid is closed tight. The chest can also be unlocked with a successful {@dc 20} Dexterity check using {@item Outils de crocheteur|PHB}, or by a {@spell knock} spell or similar magic.",
 										{
 											"type": "entries",
 											"name": "Treasure",
 											"page": 15,
 											"id": "070",
 											"entries": [
-												"The chest contains a {@item dread helm|XGE} and a pair of {@item gauntlets of ogre power}. Give the players the {@item Dread Helm|XGE} and {@item Gauntlets of Ogre Power} {@deck magic item cards|DIP|cards} when they find and identify these two magic items or they can reference them in the {@5etools Magic Items Listing|items.html}."
+												"The chest contains a {@item Heaume terrifiant|XGE} and a pair of {@item Gantelets de puissance d'ogre}. Give the players the {@item Heaume terrifiant|XGE} and {@item Gantelets de puissance d'ogre} {@deck Cartes des objets magiques|DIP|cards} when they find and identify these two magic items or they can reference them in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -5242,7 +5242,7 @@
 									"page": 16,
 									"id": "077",
 									"entries": [
-										"The abandoned town of {@area Conyberry|00f|x} is eerily silent except for the whistling of the wind as it blows through the settlement's burned and crumbled-down structures. As the characters make their way through or around the ruins, they spot three unsaddled {@creature Riding Horse||riding horses} grazing near an old well. Anyone who succeeds on a {@dc 10} Wisdom ({@skill Perception}) check sees that the horses are branded with the letters BAK (for Big Al Kalazorn). A character who succeeds on a {@dc 15} Wisdom ({@skill Animal Handling}) check can approach a horse without startling it, and can even ride it."
+										"The abandoned town of {@area Conyberry|00f|x} is eerily silent except for the whistling of the wind as it blows through the settlement's burned and crumbled-down structures. As the characters make their way through or around the ruins, they spot three unsaddled {@creature Riding Horse||riding horses} grazing near an old well. Anyone who succeeds on a {@dc 10} Wisdom ({@skill Perception}) check sees that the horses are branded with the letters BAK (for Big Al Kalazorn). A character who succeeds on a {@dc 15} Wisdom ({@skill Dressage}) check can approach a horse without startling it, and can even ride it."
 									]
 								},
 								{
@@ -5748,7 +5748,7 @@
 									"page": 17,
 									"id": "080",
 									"entries": [
-										"Padded chairs and game tables are arranged about this room. Scattered on the floor are {@item Three-Dragon Ante Set|PHB|Three-Dragon Ante} playing cards and wooden {@item Dragonchess Set|PHB|Dragonchess} pieces."
+										"Padded chairs and game tables are arranged about this room. Scattered on the floor are {@item Jeu du Dragon à trois têtes|PHB|Three-Dragon Ante} playing cards and wooden {@item Jeu d'échecs du dragon|PHB|Dragonchess} pieces."
 									]
 								},
 								{
@@ -5764,7 +5764,7 @@
 											"page": 17,
 											"id": "082",
 											"entries": [
-												"Any character who searches the wardrobe and succeeds on a {@dc 15} Wisdom ({@skill Perception}) check finds a secret compartment at the bottom, stuffed inside which is a suit of {@item mithral chain mail}. (If the characters acquire and identify this magic item, give them the {@item Mithral Chain Mail} {@card Mithral Chain Mail|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}.)"
+												"Any character who searches the wardrobe and succeeds on a {@dc 15} Wisdom ({@skill Perception}) check finds a secret compartment at the bottom, stuffed inside which is a suit of {@item mithral chain mail}. (If the characters acquire and identify this magic item, give them the {@item Mithral Chain Mail} {@card Cote de mailles de mithral|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}.)"
 											]
 										}
 									]
@@ -5925,7 +5925,7 @@
 								},
 								"Ten twig dolls are bound to the charred tree, all within easy reach. A {@spell detect magic} spell reveals an aura of transmutation magic emanating from the tree and the ground in a 60-foot radius around it.",
 								"Close examination of a twig doll reveals something wrapped inside it. By breaking a doll apart, characters can see that it contains a still-beating pig's heart. Any damage to a heart kills it and causes the dead tree's roots to magically animate and erupt from the ground.",
-								"When the constricting roots erupt, each creature standing in the clearing must succeed on a {@dc 12} Dexterity saving throw or take 5 ({@dice 2d4}) bludgeoning damage and be {@condition restrained}. The creature takes this damage again at the start of each of its turns until it escapes. A creature can use an action to free itself or another creature within its reach with a successful {@dc 15} Strength ({@skill Athletics}) check, or by dealing 5 or more slashing damage against a root with a single melee weapon attack. The roots have AC 13 and immunity to all damage except slashing."
+								"When the constricting roots erupt, each creature standing in the clearing must succeed on a {@dc 12} Dexterity saving throw or take 5 ({@dice 2d4}) bludgeoning damage and be {@condition Entravé}. The creature takes this damage again at the start of each of its turns until it escapes. A creature can use an action to free itself or another creature within its reach with a successful {@dc 15} Strength ({@skill Athlétisme}) check, or by dealing 5 or more slashing damage against a root with a single melee weapon attack. The roots have AC 13 and immunity to all damage except slashing."
 							]
 						},
 						{
@@ -5961,7 +5961,7 @@
 											"page": 18,
 											"id": "098",
 											"entries": [
-												"Yargath carries a {@item potion of greater healing}. If the characters acquire this potion, give the players the {@item Potion of Greater Healing} {@card potion of greater healing|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"Yargath carries a {@item Potion de soins supérieurs}. If the characters acquire this potion, give the players the {@item Potion de soins supérieurs} {@card Potion de soins supérieurs|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -6899,7 +6899,7 @@
 											"page": 19,
 											"id": "09f",
 											"entries": [
-												"Flenz hides a {@item potion of invulnerability} in his quarters, buried in a random square beneath the floor. If the characters obtain the potion, give the players the {@item Potion of Invulnerability} {@card potion of invulnerability|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"Flenz hides a {@item Potion d'invulnérabilité} in his quarters, buried in a random square beneath the floor. If the characters obtain the potion, give the players the {@item Potion d'invulnérabilité} {@card Potion d'invulnérabilité|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -6917,7 +6917,7 @@
 											"page": 19,
 											"id": "0a1",
 											"entries": [
-												"Narux hides a {@item +1 shield} in his quarters, buried beneath the floor. If the characters obtain and identify it, give the players the {@item +1 Shield} {@card +1 Shield|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"Narux hides a {@item +1 shield} in his quarters, buried beneath the floor. If the characters obtain and identify it, give the players the {@item +1 Shield} {@card Bouclier +1|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -7015,7 +7015,7 @@
 											"page": 20,
 											"id": "0ab",
 											"entries": [
-												"There is no light within the barrow. Adventurers require {@sense darkvision} or their own light sources to see inside."
+												"There is no light within the barrow. Adventurers require {@sense Vision dans le noir} or their own light sources to see inside."
 											]
 										},
 										{
@@ -7024,7 +7024,7 @@
 											"page": 20,
 											"id": "0ac",
 											"entries": [
-												"The sarcophagi found throughout the catacombs are carved from solid blocks of granite and sealed with heavy granite lids. The seals are airtight. Lifting a lid requires a successful {@dc 20} Strength ({@skill Athletics}) check. Each lid is a Medium object with AC 17, 12 hit points, and immunity to poison and psychic damage."
+												"The sarcophagi found throughout the catacombs are carved from solid blocks of granite and sealed with heavy granite lids. The seals are airtight. Lifting a lid requires a successful {@dc 20} Strength ({@skill Athlétisme}) check. Each lid is a Medium object with AC 17, 12 hit points, and immunity to poison and psychic damage."
 											]
 										}
 									]
@@ -7047,7 +7047,7 @@
 								"A thirty-foot-high hill rises ahead of you, its top too flat to be a natural occurrence. Jutting from the grassy hilltop is a row of ten-foot-tall, bone-white rocks that arc toward the stormy sky like outstretched talons."
 							]
 						},
-						"Characters who climb to the top of the barrow and survey it notice its distinctive dragon-like shape with a successful {@dc 10} Wisdom ({@skill Insight}) check. The pale rocks resemble spikes protruding from the dragon's back.",
+						"Characters who climb to the top of the barrow and survey it notice its distinctive dragon-like shape with a successful {@dc 10} Wisdom ({@skill Perspicacité}) check. The pale rocks resemble spikes protruding from the dragon's back.",
 						"At night, the {@creature Will-o'-Wisp||will-o'-wisps} in {@adventure area D2|DIP|4|D2. Will-o'-Wisps} emerge from the hill using their Incorporeal Movement and float above the barrow, hoping to attract prey with their lights. If they detect characters nearby, the will-o'-wisps turn {@condition invisible} and withdraw into the barrow.",
 						{
 							"type": "entries",
@@ -8188,7 +8188,7 @@
 									"page": 20,
 									"id": "0b0",
 									"entries": [
-										"One of the white rocks atop the hill acts as a stone plug embedded in the earth. Characters searching the hilltop can spot a opening beneath the base of the rock with a successful {@dc 10} Wisdom ({@skill Perception}) check. By lashing ropes around the top of the rock, the characters can topple it with a successful {@dc 19} Strength ({@skill Athletics}) check. A {@spell knock} spell also causes it to topple over. The opening beneath the rock reveals a 2-foot-wide spiral staircase with flagstone steps, descending 30 feet to area D2."
+										"One of the white rocks atop the hill acts as a stone plug embedded in the earth. Characters searching the hilltop can spot a opening beneath the base of the rock with a successful {@dc 10} Wisdom ({@skill Perception}) check. By lashing ropes around the top of the rock, the characters can topple it with a successful {@dc 19} Strength ({@skill Athlétisme}) check. A {@spell knock} spell also causes it to topple over. The opening beneath the rock reveals a 2-foot-wide spiral staircase with flagstone steps, descending 30 feet to area D2."
 									]
 								},
 								{
@@ -8225,7 +8225,7 @@
 									"page": 21,
 									"id": "0b4",
 									"entries": [
-										"This tunnel is only 2 feet wide. At the halfway point, a 5-foot-long pressure plate is hidden under a 2-inch-thick layer of earth. A character prodding ahead with a pole or similar tool can detect the plate with a successful {@dc 10} Wisdom ({@skill Perception}) check. The first character to step on the plate causes the walls of the tunnel to collapse inward, burying all creatures in the tunnel. A buried creature is {@condition blinded} and {@condition restrained}, has {@quickref Cover||3||total cover} against attacks, and begins to suffocate when it runs out of breath (see \"{@book Suffocation|PHB|8|Suffocating}\" in {@book the rulebook|PHB}). Only a creature that is not trapped in the tunnel can clear away the collapse, using an action to open up the 5-foot-deep section of tunnel closest to it. A creature in that space is no longer buried."
+										"This tunnel is only 2 feet wide. At the halfway point, a 5-foot-long pressure plate is hidden under a 2-inch-thick layer of earth. A character prodding ahead with a pole or similar tool can detect the plate with a successful {@dc 10} Wisdom ({@skill Perception}) check. The first character to step on the plate causes the walls of the tunnel to collapse inward, burying all creatures in the tunnel. A buried creature is {@condition Aveuglé} and {@condition Entravé}, has {@quickref Cover||3||total cover} against attacks, and begins to suffocate when it runs out of breath (see \"{@book Suffocation|PHB|8|Suffocating}\" in {@book the rulebook|PHB}). Only a creature that is not trapped in the tunnel can clear away the collapse, using an action to open up the 5-foot-deep section of tunnel closest to it. A creature in that space is no longer buried."
 									]
 								},
 								{
@@ -8250,7 +8250,7 @@
 											"page": 21,
 											"id": "0b7",
 											"entries": [
-												"The northwest sarcophagus contains the dead bard, who was buried with a {@item Instrument of Illusions|XGE|lute of illusions}. Sealed with the dead wizard in the southeast sarcophagus is a {@item necklace of fireballs}. If the characters acquire and identify these magic items, give them the {@item Instrument of Illusions|XGE|Lute of Illusions} and {@item Necklace of Fireballs} {@deck magic item cards|DIP|cards} or they can reference them in the {@5etools Magic Items Listing|items.html}."
+												"The northwest sarcophagus contains the dead bard, who was buried with a {@item Instrument d'illusions|XGE|lute of illusions}. Sealed with the dead wizard in the southeast sarcophagus is a {@item Collier de boules de feu}. If the characters acquire and identify these magic items, give them the {@item Instrument d'illusions|XGE|Lute of Illusions} and {@item Collier de boules de feu} {@deck Cartes des objets magiques|DIP|cards} or they can reference them in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -8268,7 +8268,7 @@
 											"page": 21,
 											"id": "0b9",
 											"entries": [
-												"The sword is Lady Alagondar's {@item Dragon Slayer Longsword||dragon slayer}. Give the {@item Dragon Slayer Longsword||Dragon Slayer} {@card dragon slayer|Magic Item Cards|DIP|card} to whoever takes it or they can reference it in the {@5etools Magic Items Listing|items.html}. If the sword is taken, an {@creature invisible stalker} appears and attacks anyone in this area until the sword is put back, or until that guardian is destroyed."
+												"The sword is Lady Alagondar's {@item Dragon Slayer Longsword||dragon slayer}. Give the {@item Dragon Slayer Longsword||Dragon Slayer} {@card Pourfendeur de dragons|Magic Item Cards|DIP|card} to whoever takes it or they can reference it in the {@5etools Magic Items Listing|items.html}. If the sword is taken, an {@creature invisible stalker} appears and attacks anyone in this area until the sword is put back, or until that guardian is destroyed."
 											]
 										}
 									]
@@ -8300,7 +8300,7 @@
 							"page": 22,
 							"id": "0bc",
 							"entries": [
-								"To complete the {@area Dwarven Excavation Quest|03a|x}, the adventurers need only to warn Dazlyn and Norbus of the white dragon. The grateful dwarves then tempt the adventurers with a quest of their own, offering their pair of {@item sending stones} as a reward if the characters rid the temple of the monsters within. If they stay long enough to help Dazlyn and Norbus, the characters encounter orcs before they leave (see \"{@area When Orcs Attack|0d3|x}\")."
+								"To complete the {@area Dwarven Excavation Quest|03a|x}, the adventurers need only to warn Dazlyn and Norbus of the white dragon. The grateful dwarves then tempt the adventurers with a quest of their own, offering their pair of {@item Pierres d'envoi} as a reward if the characters rid the temple of the monsters within. If they stay long enough to help Dazlyn and Norbus, the characters encounter orcs before they leave (see \"{@area When Orcs Attack|0d3|x}\")."
 							]
 						}
 					]
@@ -9580,8 +9580,8 @@
 												"A partially collapsed, ten-foot-high wall separates this courtyard from the settlement west of it. Three heaps of rubble are piled high in this area. Hewn from the canyon's back wall, a thirty-foot-high temple facade features steps rising to a stone platform. Cut into this facade is a ten-foot-high open doorway flanked by crumbling, life-sized granite statues of cloaked dwarves. Evil grins can be seen on their weatherworn faces."
 											]
 										},
-										"If they haven't been encountered yet, Dazlyn and Norbus are eating rations behind the easternmost rubble pile while keeping an eye on the temple entrance ({@area area E4|0c9|x}). Each is a shield dwarf {@creature commoner} who speaks Common and Dwarvish, and who has {@sense darkvision} out to a range of 60 feet. Dazlyn is forthright and honest to a fault. Norbus is gruff and excessively cautious. They banter like an old married couple.",
-										"Each dwarf has ten days of {@item Rations (1 day)|PHB|rations}, a {@item waterskin|PHB}, mining tools, and one of two matching {@item sending stones}. The dwarves offer these magic items to anyone willing to kill the {@creature Ochre Jelly||ochre jellies} in {@area area E5|0ca|x}, search the temple for other obvious threats, and make it safe. If the characters obtain these stones, give the players both {@item Sending Stones||Sending Stone} {@card sending stone|Magic Item Cards|DIP|cards} or they can reference them in the {@5etools Magic Items Listing|items.html}. Eager to resume their excavation, the dwarves offer to split what they find with characters who help them.",
+										"If they haven't been encountered yet, Dazlyn and Norbus are eating rations behind the easternmost rubble pile while keeping an eye on the temple entrance ({@area area E4|0c9|x}). Each is a shield dwarf {@creature commoner} who speaks Common and Dwarvish, and who has {@sense Vision dans le noir} out to a range of 60 feet. Dazlyn is forthright and honest to a fault. Norbus is gruff and excessively cautious. They banter like an old married couple.",
+										"Each dwarf has ten days of {@item Rations (1 jour)|PHB|rations}, a {@item Outre|PHB}, mining tools, and one of two matching {@item Pierres d'envoi}. The dwarves offer these magic items to anyone willing to kill the {@creature Ochre Jelly||ochre jellies} in {@area area E5|0ca|x}, search the temple for other obvious threats, and make it safe. If the characters obtain these stones, give the players both {@item Pierres d'envoi||Sending Stone} {@card Pierre d'envoi de message|Magic Item Cards|DIP|cards} or they can reference them in the {@5etools Magic Items Listing|items.html}. Eager to resume their excavation, the dwarves offer to split what they find with characters who help them.",
 										{
 											"type": "inset",
 											"name": "Temple Features",
@@ -9622,7 +9622,7 @@
 													"page": 22,
 													"id": "0c8",
 													"entries": [
-														"There are no light sources in the temple, since the dwarf priests of Abbathor relied on {@sense darkvision} to see."
+														"There are no light sources in the temple, since the dwarf priests of Abbathor relied on {@sense Vision dans le noir} to see."
 													]
 												}
 											]
@@ -9791,7 +9791,7 @@
 									"page": 24,
 									"id": "0d9",
 									"entries": [
-										"If the characters are eligible to undertake the {@area Woodland Manse Quest|03b|x}, Falcon offers a pair of {@item boots of elvenkind} as a reward for completing it. Give the players the {@item Boots of Elvenkind} {@card Boots of Elvenkind|Magic Item Cards|DIP|card} once the boots are acquired or they can reference them in the {@5etools Magic Items Listing|items.html}.",
+										"If the characters are eligible to undertake the {@area Woodland Manse Quest|03b|x}, Falcon offers a pair of {@item Bottes elviques} as a reward for completing it. Give the players the {@item Bottes elviques} {@card Bottes elvenkind|Magic Item Cards|DIP|card} once the boots are acquired or they can reference them in the {@5etools Magic Items Listing|items.html}.",
 										"Falcon politely declines any offer to join the characters on a quest, stating that he must remain at the lodge in case nobles from Neverwinter come looking for his services.",
 										{
 											"type": "inset",
@@ -9824,7 +9824,7 @@
 													"page": 24,
 													"id": "0dd",
 													"entries": [
-														"Doors are made of sturdy oak fitted with iron handles and hinges. Exterior doors are barred from the inside. A creature can use an action to force open a barred door with a successful {@dc 25} Strength ({@skill Athletics}) check. Each door is a Medium object with AC 15, 30 hit points, and immunity to poison and psychic damage."
+														"Doors are made of sturdy oak fitted with iron handles and hinges. Exterior doors are barred from the inside. A creature can use an action to force open a barred door with a successful {@dc 25} Strength ({@skill Athlétisme}) check. Each door is a Medium object with AC 15, 30 hit points, and immunity to poison and psychic damage."
 													]
 												},
 												{
@@ -9842,7 +9842,7 @@
 													"page": 24,
 													"id": "0df",
 													"entries": [
-														"The log palisade is 10 feet high and designed to keep wild forest animals at bay, not hold off armies. A character can scale a palisade wall with a successful {@dc 15} Strength ({@skill Athletics}) check."
+														"The log palisade is 10 feet high and designed to keep wild forest animals at bay, not hold off armies. A character can scale a palisade wall with a successful {@dc 15} Strength ({@skill Athlétisme}) check."
 													]
 												}
 											]
@@ -10601,7 +10601,7 @@
 									"page": 26,
 									"id": "0f5",
 									"entries": [
-										"Normal doors are made of wood fitted with rusty iron handles and hinges. A locked door can be opened with a successful {@dc 10} Dexterity check using {@item thieves' tools|PHB}. A locked door can be forced open as an action with a successful {@dc 15} Strength ({@skill Athletics}) check. Secret doors are made of stone and blend in with the surrounding stonework. Finding a secret door requires a search of the wall and a successful {@dc 10} Wisdom ({@skill Perception}) check."
+										"Normal doors are made of wood fitted with rusty iron handles and hinges. A locked door can be opened with a successful {@dc 10} Dexterity check using {@item Outils de crocheteur|PHB}. A locked door can be forced open as an action with a successful {@dc 15} Strength ({@skill Athlétisme}) check. Secret doors are made of stone and blend in with the surrounding stonework. Finding a secret door requires a search of the wall and a successful {@dc 10} Wisdom ({@skill Perception}) check."
 									]
 								},
 								{
@@ -10630,14 +10630,14 @@
 							"page": 26,
 							"id": "0f8",
 							"entries": [
-								"To complete the {@area Gnomengarde Quest|03a|x}, the characters must obtain at least one magic item from the gnomes. Of the items they can secure, only the {@item hat of wizardry|XGE} interests Townmaster Harbin Wester, who offers to buy it for 50 gp even though he knows no one who can attune to it. However, the gnomes won't hand over any magic items until the characters speak to Fibblestib and Dabbledob in {@area area G11|10c|x}.",
+								"To complete the {@area Gnomengarde Quest|03a|x}, the characters must obtain at least one magic item from the gnomes. Of the items they can secure, only the {@item Chapeau de sorcellerie|XGE} interests Townmaster Harbin Wester, who offers to buy it for 50 gp even though he knows no one who can attune to it. However, the gnomes won't hand over any magic items until the characters speak to Fibblestib and Dabbledob in {@area area G11|10c|x}.",
 								{
 									"type": "entries",
 									"name": "Gnome-Made Magic Items",
 									"page": 26,
 									"id": "0f9",
 									"entries": [
-										"If the characters rescue Gnerkli and end Korboz's madness, the grateful gnomes give them a {@item clockwork amulet|XGE} and {@item pole of collapsing|XGE} (from {@area area G13|10f|x}). The characters also receive a gift from each king: a {@item wand of pyrotechnics|XGE} from Gnerkli and a {@item hat of wizardry|XGE} from Korboz. Give the players the {@item Clockwork Amulet|XGE}, {@item Hat of Wizardry|XGE}, {@item Pole of Collapsing|XGE}, and {@item Wand of Pyrotechnics|XGE} {@deck magic item cards|DIP|cards} as their characters obtain and identify each item or they can reference them in the {@5etools Magic Items Listing|items.html}."
+										"If the characters rescue Gnerkli and end Korboz's madness, the grateful gnomes give them a {@item Amulette mécanique|XGE} and {@item Perche télescopique|XGE} (from {@area area G13|10f|x}). The characters also receive a gift from each king: a {@item Baguette de pyrotechnie|XGE} from Gnerkli and a {@item Chapeau de sorcellerie|XGE} from Korboz. Give the players the {@item Amulette mécanique|XGE}, {@item Chapeau de sorcellerie|XGE}, {@item Perche télescopique|XGE}, and {@item Baguette de pyrotechnie|XGE} {@deck Cartes des objets magiques|DIP|cards} as their characters obtain and identify each item or they can reference them in the {@5etools Magic Items Listing|items.html}."
 									]
 								}
 							]
@@ -10658,7 +10658,7 @@
 								"You follow a stream uphill to the base of the mountain, where waterfall erosion has carved out a natural concavity. The roaring waterfall creates a cloud of mist as it plunges into a shallow pool of water, within which rise two small islands covered with two-foot-tall red, green, and purple mushrooms. Several cave openings overlook the pool from rocky ledges twenty to thirty feet above. The mountain blocks any sunlight from reaching this place."
 							]
 						},
-						"Gnomengarde has five cave entrances perched atop ledges with sheer, rocky slopes. Climbing to a cave requires a successful {@dc 13} Strength ({@skill Athletics}) check. A narrow footpath ascends the northeast slope, making it an easy climb to that cave entrance without a check.",
+						"Gnomengarde has five cave entrances perched atop ledges with sheer, rocky slopes. Climbing to a cave requires a successful {@dc 13} Strength ({@skill Athlétisme}) check. A narrow footpath ascends the northeast slope, making it an easy climb to that cave entrance without a check.",
 						{
 							"type": "entries",
 							"name": "Gnomengarde Roster",
@@ -13390,7 +13390,7 @@
 											"page": 28,
 											"id": "106",
 											"entries": [
-												"{@i Melee Weapon Attack}: {@hit 2} to hit, reach 5 ft., one target. {@i Hit}: 5 ({@dice 2d4}) piercing damage, and the target is {@condition grappled} (escape {@dc 10})."
+												"{@i Melee Weapon Attack}: {@hit 2} to hit, reach 5 ft., one target. {@i Hit}: 5 ({@dice 2d4}) piercing damage, and the target is {@condition Agrippé} (escape {@dc 10})."
 											]
 										}
 									]
@@ -13431,12 +13431,12 @@
 									"page": 28,
 									"id": "10a",
 									"entries": [
-										"Mist from the waterfall dampens this empty cave, which has a 10-foot-high ledge overlooking it to the south. The ledge can be reached by following the curved tunnel to the east, or by scaling the slick rock wall with a successful {@dc 12} Strength ({@skill Athletics}) check.",
+										"Mist from the waterfall dampens this empty cave, which has a 10-foot-high ledge overlooking it to the south. The ledge can be reached by following the curved tunnel to the east, or by scaling the slick rock wall with a successful {@dc 12} Strength ({@skill Athlétisme}) check.",
 										"Two {@creature Rock Gnome Recluse|DIP|rock gnome recluses} stand on the ledge\u2014a female named Ulla and a male named Pog. When anyone enters the cave, Ulla calls out, \"Who goes there?\" in Gnomish, then Pog repeats the question in Common. Their orders are to \"attack shapechangers on sight.\" Since anyone might be a shapechanger, they attack anyone who can't prove they are who they claim to be. Characters who don't want to be attacked must succeed on one of the following checks:",
 										{
 											"type": "list",
 											"items": [
-												"A {@dc 10} Charisma ({@skill Deception}) check to trick the gnomes into thinking the characters have an audience with the kings of Gnomengarde.",
+												"A {@dc 10} Charisma ({@skill Tromperie}) check to trick the gnomes into thinking the characters have an audience with the kings of Gnomengarde.",
 												"A {@dc 10} Charisma ({@skill Intimidation}) check to scare the gnomes into thinking that any harm visited upon the characters will result in Gnomengarde's destruction.",
 												"A {@dc 10} Charisma ({@skill Persuasion}) check to convince the gnomes that the characters can't be shapechangers, as shapechangers would surely take less conspicuous forms."
 											]
@@ -13495,7 +13495,7 @@
 											"page": 29,
 											"id": "110",
 											"entries": [
-												"Amid the clutter, the characters can find a {@item clockwork amulet|XGE} and a {@item pole of collapsing|XGE}, most easily by scanning the room with a {@spell detect magic} spell. It otherwise takes 1 hour to find each item. Give the players the {@item Clockwork Amulet|XGE} and {@item Pole of Collapsing|XGE} {@deck magic item cards|DIP|cards} if their characters acquire and identify these magic items or they can reference them in the {@5etools Magic Items Listing|items.html}."
+												"Amid the clutter, the characters can find a {@item Amulette mécanique|XGE} and a {@item Perche télescopique|XGE}, most easily by scanning the room with a {@spell detect magic} spell. It otherwise takes 1 hour to find each item. Give the players the {@item Amulette mécanique|XGE} and {@item Perche télescopique|XGE} {@deck Cartes des objets magiques|DIP|cards} if their characters acquire and identify these magic items or they can reference them in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -13516,14 +13516,14 @@
 									"id": "112",
 									"entries": [
 										"King Korboz has locked himself and King Gnerkli in their bedroom, forgetting that there's a secret door that others could find and use to gain entry. Only Korboz and Gnerkli have keys to the locked main door. If the characters knock on the door or otherwise announce their arrival, Korboz speaks to them from inside the room and warns of a \"shapechanger\" in their midst. Korboz doesn't regain his senses until the characters assure him that the monster has been found and killed. Whether the mimic is truly killed or not, convincing Korboz that it's dead requires a successful {@dc 12} Charisma ({@skill Persuasion}) check.",
-										"Korboz and Gnerkli are {@creature Rock Gnome Recluse|DIP|rock gnome recluses}, each wearing a jagged metal crown and a patchwork cloak. Gnerkli is glued to a chair and {@condition restrained}. Korboz carries a flask of solvent that dissolves the glue on contact. Their room contains all the trappings of a nicely appointed gnome bedroom.",
+										"Korboz and Gnerkli are {@creature Rock Gnome Recluse|DIP|rock gnome recluses}, each wearing a jagged metal crown and a patchwork cloak. Gnerkli is glued to a chair and {@condition Entravé}. Korboz carries a flask of solvent that dissolves the glue on contact. Their room contains all the trappings of a nicely appointed gnome bedroom.",
 										{
 											"type": "entries",
 											"name": "Treasure",
 											"page": 29,
 											"id": "113",
 											"entries": [
-												"A small unlocked chest under the gnomes' bed contains a {@item hat of wizardry|XGE} and a fully charged {@item wand of pyrotechnics|XGE}. Give the players the {@item Hat of Wizardry|XGE} and {@item Wand of Pyrotechnics|XGE} {@deck Magic Item Cards|DIP|cards} if their characters acquire and identify these magic items or they can reference them in the {@5etools Magic Items Listing|items.html}."
+												"A small unlocked chest under the gnomes' bed contains a {@item Chapeau de sorcellerie|XGE} and a fully charged {@item Baguette de pyrotechnie|XGE}. Give the players the {@item Chapeau de sorcellerie|XGE} and {@item Baguette de pyrotechnie|XGE} {@deck Cartes des objets magiques|DIP|cards} if their characters acquire and identify these magic items or they can reference them in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -13563,7 +13563,7 @@
 									"page": 30,
 									"id": "117",
 									"entries": [
-										"When using an arrow slit for protection, a creature gains {@quickref cover||3||three-quarters cover} (see {@book the rulebook|PHB}) against outside threats. A Medium character can't squeeze through an arrow slit, but a Small character can with a successful {@dc 10} Dexterity ({@skill Acrobatics}) check."
+										"When using an arrow slit for protection, a creature gains {@quickref cover||3||three-quarters cover} (see {@book the rulebook|PHB}) against outside threats. A Medium character can't squeeze through an arrow slit, but a Small character can with a successful {@dc 10} Dexterity ({@skill Acrobaties}) check."
 									]
 								},
 								{
@@ -13639,7 +13639,7 @@
 										"As you make your way across the cold, windblown foothills of the Sword Mountains, you happen upon a large, prone creature frozen in ice."
 									]
 								},
-								"The frozen creature is an {@creature ogre} that the white dragon killed with its cold breath. The ogre's corpse was too big to carry off, so the dragon left it. A character who examines the scene closely and succeeds on a {@dc 15} Wisdom ({@skill Survival}) check can ascertain that the ogre was killed within the past 24 hours. The cold of the foothills has kept the ice from thawing.",
+								"The frozen creature is an {@creature ogre} that the white dragon killed with its cold breath. The ogre's corpse was too big to carry off, so the dragon left it. A character who examines the scene closely and succeeds on a {@dc 15} Wisdom ({@skill Survie}) check can ascertain that the ogre was killed within the past 24 hours. The cold of the foothills has kept the ice from thawing.",
 								"Frozen in the ice with the ogre is a hefty sack, but it can't be reached or searched until the characters chip or melt away the ice that covers it. The sack contains a rusty dwarven helm, two halves of a splintered wooden shield, a tumbleweed, a crumpled-up cowboy hat, and a sackcloth doll in desperate need of restitching.",
 								{
 									"type": "entries",
@@ -13651,7 +13651,7 @@
 											"page": 31,
 											"id": "121",
 											"entries": [
-												"If the characters are low on healing magic, they find three {@item Potion of Healing||potions of healing} in the ogre's sack along with the worthless items above. (Give the players three {@item Potion of Healing||Potions of Healing} {@card potion of healing|Magic Item Cards|DIP|cards} or they can reference them in the {@5etools Equipment Items Listing|items.html}.)"
+												"If the characters are low on healing magic, they find three {@item Potion de soins||potions of healing} in the ogre's sack along with the worthless items above. (Give the players three {@item Potion de soins||Potions of Healing} {@card Potion de soins|Magic Item Cards|DIP|cards} or they can reference them in the {@5etools Equipment Items Listing|items.html}.)"
 											]
 										}
 									]
@@ -16554,7 +16554,7 @@
 											"id": "129",
 											"entries": [
 												"The Stone-Cold Reavers are neutral evil human {@creature Veteran||veterans} who speak Common. When they can't find work as sellswords, they resort to brigandry and thievery. After spotting the white dragon, they decided to follow it back to its lair. They're now waiting for it to go hunting so they can plunder Icespire Hold during its absence. Until the dragon leaves, the reavers do everything they can to avoid attracting its attention. If the characters killed the dragon elsewhere, assume that the mercenaries searched the fortress, found nothing, and are now angrily waiting for a companion named Dobin Noreth to return with supplies (see \"{@area Tymora's Luck|11c|x}\").",
-												"The Reavers threaten the characters with bodily harm to scare them away, turning to violence if their threats fall on deaf ears. If the characters try to bribe them, the mercenaries realize that it would be easier to rob the characters than accept the bribe. If two or more Reavers are killed or {@condition incapacitated}, the others stand down and try to negotiate a truce to ensure their own survival.",
+												"The Reavers threaten the characters with bodily harm to scare them away, turning to violence if their threats fall on deaf ears. If the characters try to bribe them, the mercenaries realize that it would be easier to rob the characters than accept the bribe. If two or more Reavers are killed or {@condition Incapable}, the others stand down and try to negotiate a truce to ensure their own survival.",
 												"Characters encounter the following four Stone-Cold Reavers in Icespire Hold:",
 												"{@b Syleen Wintermoon}. The leader of the Stone-Cold Reavers is a lean, brash woman who hails from Neverwinter and keeps her red hair pulled back in a ponytail. Syleen enjoys taking risks, living as though each day will be her last. She lies compulsively and always assumes she's being lied to.",
 												"{@b Runa Vokdottir}. A muscular woman with black hair and cold blue eyes, Runa hails from Icewind Dale far to the north. A lifetime of sunless days and frigid nights falsely taught her that cruelty is natural, not evil. Runa speaks few words but is armed with a biting sense of humor.",
@@ -16769,7 +16769,7 @@
 											"page": 33,
 											"id": "13f",
 											"entries": [
-												"Slippery ice covers the rooftop. The ice is {@book difficult terrain|PHB|8|Difficult Terrain} (see {@book the rulebook|PHB}). When a creature other than Cryovain moves on the ice for the first time on a turn, it must succeed on a {@dc 10} Dexterity ({@skill Acrobatics}) check or fall {@condition prone}."
+												"Slippery ice covers the rooftop. The ice is {@book difficult terrain|PHB|8|Difficult Terrain} (see {@book the rulebook|PHB}). When a creature other than Cryovain moves on the ice for the first time on a turn, it must succeed on a {@dc 10} Dexterity ({@skill Acrobaties}) check or fall {@condition À terre}."
 											]
 										}
 									]
@@ -16868,7 +16868,7 @@
 					"id": "149",
 					"entries": [
 						"The characters can travel 24 miles in a day, and the loggers' camp is roughly 50 miles north of Phandalin. The characters will need to take a long rest near the halfway point in their journey. They can choose to camp in the woods or veer eastward and spend their long rest at Falcon's Hunting Lodge.",
-						"The party member with the highest Wisdom ({@skill Survival}) modifier is the most qualified to navigate Neverwinter Wood. Use the {@area map of the Sword Coast|00e|x} to chart the characters' progress through the forest. Whenever the characters enter a new hex on the map, have the navigator make a {@dc 10} Wisdom ({@skill Survival}) check. If the check succeeds, the party stays on course. If the check fails, the party gets back on course after wasting {@dice 1d4} miles of movement going in the wrong direction.",
+						"The party member with the highest Wisdom ({@skill Survie}) modifier is the most qualified to navigate Neverwinter Wood. Use the {@area map of the Sword Coast|00e|x} to chart the characters' progress through the forest. Whenever the characters enter a new hex on the map, have the navigator make a {@dc 10} Wisdom ({@skill Survie}) check. If the check succeeds, the party stays on course. If the check fails, the party gets back on course after wasting {@dice 1d4} miles of movement going in the wrong direction.",
 						{
 							"type": "entries",
 							"name": "A Boar-ing Encounter",
@@ -16902,7 +16902,7 @@
 								"The logging camp spreads along the south shore of the river, where a dozen tents are arranged on a sandy beach. Near a dock stands a cabin with logs stacked under an awning. Older cabins close by have been torn down to leave only stone chimneys and foundations. A grim silence hangs over the camp, and you see no one around."
 							]
 						},
-						"The {@creature Ankheg||ankhegs} hide underground and rely on their {@sense tremorsense|MM} to detect prey. They burst out of the ground in the squares marked \"ankheg eruption\" on the map when certain conditions are met, as described in {@area areas L3|152|x} and {@area L6|155}. If you're running this scenario for one character, only one ankheg can be encountered at a time.",
+						"The {@creature Ankheg||ankhegs} hide underground and rely on their {@sense Perception des vibrations|MM} to detect prey. They burst out of the ground in the squares marked \"ankheg eruption\" on the map when certain conditions are met, as described in {@area areas L3|152|x} and {@area L6|155}. If you're running this scenario for one character, only one ankheg can be encountered at a time.",
 						{
 							"type": "entries",
 							"name": "Camp Locations",
@@ -17517,7 +17517,7 @@
 										"\"Well, ain't that something,\" says Don-Jon, pointing at what appear to be six dead orcs."
 									]
 								},
-								"The orcs were killed by Cryovain the white dragon. They are clad in hide armor, and their greataxes and javelins litter the ground around them. Any character who examines the corpses and succeeds on a {@dc 12} Wisdom ({@skill Medicine}) check can determine that extreme cold killed the orcs about three days ago. If the players can't piece together what happened, Don-Jon says, \"Looks like a white dragon saved us from some trouble.\""
+								"The orcs were killed by Cryovain the white dragon. They are clad in hide armor, and their greataxes and javelins litter the ground around them. Any character who examines the corpses and succeeds on a {@dc 12} Wisdom ({@skill Médecine}) check can determine that extreme cold killed the orcs about three days ago. If the players can't piece together what happened, Don-Jon says, \"Looks like a white dragon saved us from some trouble.\""
 							]
 						}
 					]
@@ -19630,7 +19630,7 @@
 											"page": 37,
 											"id": "168",
 											"entries": [
-												"Characters who search the cave find two sacks hidden under debris. One sack contains ten fist-sized chunks of gold ore worth 10 gp each. The other holds 82 sp, 450 cp, and a pair of {@item goggles of night}. If the characters obtain and identify the goggles, give the {@item Goggles of Night} {@card Goggles of Night|Magic Item Cards|DIP|card} to the players or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"Characters who search the cave find two sacks hidden under debris. One sack contains ten fist-sized chunks of gold ore worth 10 gp each. The other holds 82 sp, 450 cp, and a pair of {@item Lunettes de nuit}. If the characters obtain and identify the goggles, give the {@item Lunettes de nuit} {@card Lunettes de nuit|Magic Item Cards|DIP|card} to the players or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -19695,7 +19695,7 @@
 									"page": 37,
 									"id": "16f",
 									"entries": [
-										"A {@creature carrion crawler} lairs in this tunnel, the north end of which is 20 feet up the mountain's rocky slope. Characters can scale the slope with a successful {@dc 10} Strength ({@skill Athletics}) check. The crawler can't open the door at the south end of the tunnel, so it clings to the ceiling in the middle of the tunnel and attacks anyone who approaches from either direction."
+										"A {@creature carrion crawler} lairs in this tunnel, the north end of which is 20 feet up the mountain's rocky slope. Characters can scale the slope with a successful {@dc 10} Strength ({@skill Athlétisme}) check. The crawler can't open the door at the south end of the tunnel, so it clings to the ceiling in the middle of the tunnel and attacks anyone who approaches from either direction."
 									]
 								},
 								{
@@ -19722,7 +19722,7 @@
 									"page": 37,
 									"id": "172",
 									"entries": [
-										"These caves are home to five hungry dwarf miners. They are {@creature Commoner||commoners} who speak Common and Dwarvish, and who have {@sense darkvision} out to a range of 60 feet. The miners refuse to surrender the mine to a bunch of \"filthy rats.\" The wererats assume these miners will flee or die of starvation eventually."
+										"These caves are home to five hungry dwarf miners. They are {@creature Commoner||commoners} who speak Common and Dwarvish, and who have {@sense Vision dans le noir} out to a range of 60 feet. The miners refuse to surrender the mine to a bunch of \"filthy rats.\" The wererats assume these miners will flee or die of starvation eventually."
 									]
 								},
 								{
@@ -19772,7 +19772,7 @@
 								"A ruin stands in the middle of a vast field north of the rocky foothills of the Sword Mountains. An old stone temple with a belfry jutting from its peaked roof is enclosed by stone walls, many sections of which have collapsed. The trail ends at a crumbling gatehouse, the doors to which were sundered long ago. Three of the four towers that once stood at the corners of the outer walls have collapsed. Only the northeast tower remains, and a guard stands atop it."
 							]
 						},
-						"The guard spotted atop the northeast tower ({@area area S6|17e|x}) is an {@creature orc}. During the day, the characters can't approach the shrine without being seen by this sentry, as there are no places to hide in the level field surrounding the shrine. If the characters wait until nightfall, clouds obscure the moon and enable them to approach unseen, as long as they stay outside the 60-foot range of the orc's {@sense darkvision}. If the orc spots the characters, it cries out, rousing the shrine's other occupants. Once roused, all those occupants attack.",
+						"The guard spotted atop the northeast tower ({@area area S6|17e|x}) is an {@creature orc}. During the day, the characters can't approach the shrine without being seen by this sentry, as there are no places to hide in the level field surrounding the shrine. If the characters wait until nightfall, clouds obscure the moon and enable them to approach unseen, as long as they stay outside the 60-foot range of the orc's {@sense Vision dans le noir}. If the orc spots the characters, it cries out, rousing the shrine's other occupants. Once roused, all those occupants attack.",
 						"The Enemy Roster table adjusts the number of {@creature Orc||orcs} and {@creature Ogre||ogres} in the shrine based on the level of the characters and the number of characters in the party, not counting sidekicks.",
 						{
 							"type": "table",
@@ -20481,7 +20481,7 @@
 									"page": 38,
 									"id": "179",
 									"entries": [
-										"The gatehouse is 20 feet high, and its outer doors have been smashed to flinders. A rusty iron portcullis blocks the south exit, but is bypassed by a rubble-filled hole in the southwest corner of the gatehouse. The winch to raise the portcullis has been destroyed, but the portcullis can be lifted manually with a successful {@dc 25} Strength ({@skill Athletics}) check if desired."
+										"The gatehouse is 20 feet high, and its outer doors have been smashed to flinders. A rusty iron portcullis blocks the south exit, but is bypassed by a rubble-filled hole in the southwest corner of the gatehouse. The winch to raise the portcullis has been destroyed, but the portcullis can be lifted manually with a successful {@dc 25} Strength ({@skill Athlétisme}) check if desired."
 									]
 								},
 								{
@@ -20536,7 +20536,7 @@
 									"page": 39,
 									"id": "17f",
 									"entries": [
-										"Rows of crumbling pillars support the 40-foot-high vaulted ceiling of this hall. Humanoid bones litter the dusty floor, and a 10-foot-square hole in the ceiling leads to the belfry. No rope hangs from the bell, which appears to be made of untarnished copper. The belfry can be reached from outside by climbing the outer walls and rooftop, which requires a successful {@dc 15} Strength ({@skill Athletics}) check. Characters can reach the belfry from inside using magic such as a {@spell spider climb} or {@spell fly} spell.",
+										"Rows of crumbling pillars support the 40-foot-high vaulted ceiling of this hall. Humanoid bones litter the dusty floor, and a 10-foot-square hole in the ceiling leads to the belfry. No rope hangs from the bell, which appears to be made of untarnished copper. The belfry can be reached from outside by climbing the outer walls and rooftop, which requires a successful {@dc 15} Strength ({@skill Athlétisme}) check. Characters can reach the belfry from inside using magic such as a {@spell spider climb} or {@spell fly} spell.",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -20579,14 +20579,14 @@
 												"Six stone pillars brace the vaulted ceiling of this temple, the floor of which is buried under a thick layer of dust. Also covered in dust are four humanoid skeletons in tattered priestly vestments, lying near a stone altar situated in an alcove under four narrow windows. Carved into the front of the altar is a humanoid eye."
 											]
 										},
-										"A {@spell detect magic} spell reveals an aura of divination magic around the altar. If Cryovain has been slain, nothing happens when a character touches the altar. Otherwise, any character touching the altar experiences a vision lasting 1 minute, during which time the character is {@condition incapacitated}. In the vision, the character floats through the roof of the shrine, soars toward {@adventure Icespire Hold|DIP|8}, and sees the {@creature Young White Dragon||white dragon} asleep on the fortress's rooftop. (The divination power of the altar is effectively telling the characters where they must go to defeat the dragon.) A character receives this vision only once. Nothing happens to a character who touches the altar a second time.",
+										"A {@spell detect magic} spell reveals an aura of divination magic around the altar. If Cryovain has been slain, nothing happens when a character touches the altar. Otherwise, any character touching the altar experiences a vision lasting 1 minute, during which time the character is {@condition Incapable}. In the vision, the character floats through the roof of the shrine, soars toward {@adventure Icespire Hold|DIP|8}, and sees the {@creature Young White Dragon||white dragon} asleep on the fortress's rooftop. (The divination power of the altar is effectively telling the characters where they must go to defeat the dragon.) A character receives this vision only once. Nothing happens to a character who touches the altar a second time.",
 										{
 											"type": "entries",
 											"name": "Treasure",
 											"page": 39,
 											"id": "185",
 											"entries": [
-												"Any character who searches the altar and succeeds on a {@dc 10} Wisdom ({@skill Perception}) check realizes that the altar's base doesn't quite touch the floor. The altar has stone rollers built into it and can be pushed 3 feet to the south, revealing an unlocked wooden coffer tucked inside a 1-foot-square cavity in the floor. This coffer contains 57 gp and a {@item mystery key|XGE}. If the characters acquire and identify the {@item mystery key|XGE}, give the players the {@item Mystery Key|XGE} {@card Mystery Key|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"Any character who searches the altar and succeeds on a {@dc 10} Wisdom ({@skill Perception}) check realizes that the altar's base doesn't quite touch the floor. The altar has stone rollers built into it and can be pushed 3 feet to the south, revealing an unlocked wooden coffer tucked inside a 1-foot-square cavity in the floor. This coffer contains 57 gp and a {@item Clé mystérieuse|XGE}. If the characters acquire and identify the {@item Clé mystérieuse|XGE}, give the players the {@item Clé mystérieuse|XGE} {@card Clé mystérieuse|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -20639,7 +20639,7 @@
 							]
 						},
 						"Characters searching for a safe way down the cliffs discover a staircase carved into a narrow fissure. They can follow these steps all the way down to the shore just east of {@area area T1|18e|x}. Crawling along the beach as they arrive there is a {@creature giant crab}.",
-						"The giant crab waves its claws at the characters, who can interpret this behavior as a friendly gesture with a successful {@dc 13} Wisdom ({@skill Animal Handling}) check. A sea elf named Miraal used magic to imbue this creature with an Intelligence of 10 and the ability to speak Common. If the characters approach it peacefully, the crab says, \"Well met!\" and tries to strike up a conversation, during which it imparts the following information:",
+						"The giant crab waves its claws at the characters, who can interpret this behavior as a friendly gesture with a successful {@dc 13} Wisdom ({@skill Dressage}) check. A sea elf named Miraal used magic to imbue this creature with an Intelligence of 10 and the ability to speak Common. If the characters approach it peacefully, the crab says, \"Well met!\" and tries to strike up a conversation, during which it imparts the following information:",
 						{
 							"type": "list",
 							"items": [
@@ -21881,7 +21881,7 @@
 											"page": 41,
 											"id": "193",
 											"entries": [
-												"The lightning rod on the roof ({@area area T8|19a|x}) channels electricity into the altar, which converts that raw elemental power into magical energy. The first character to touch the altar gains the {@reward Charm of the Storm|DIP}, described below. Give that character's player the {@card Charm of the Storm|Magic Charm Cards|DIP|Charm of the Storm card}."
+												"The lightning rod on the roof ({@area area T8|19a|x}) channels electricity into the altar, which converts that raw elemental power into magical energy. The first character to touch the altar gains the {@reward Charme de la tempête|DIP}, described below. Give that character's player the {@card Charme de la tempête|Magic Charm Cards|DIP|Charm of the Storm card}."
 											]
 										},
 										{
@@ -21909,7 +21909,7 @@
 											"page": 41,
 											"id": "196",
 											"entries": [
-												"Characters who search through the harpies' nest find a {@item potion of water breathing}. If the characters acquire this potion, give them the {@item Potion of Water Breathing} {@card potion of Water Breathing|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"Characters who search through the harpies' nest find a {@item Potion de respiration aquatique}. If the characters acquire this potion, give them the {@item Potion de respiration aquatique} {@card Potion de respiration aquatique|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -21967,16 +21967,16 @@
 									"page": 42,
 									"id": "19c",
 									"entries": [
-										"The pinnacle of the lighthouse beacon is partly open to the elements and surrounded by a narrow walkway topped by an iron railing. Three open archways allow the beacon's pulsating green light to spill westward over the sea. This light is so bright that any character who dares look directly at it is {@condition blinded} for 1 minute.",
-										"The light originates from Moesko's still-beating heart, which floats in the air 5 feet off the floor. The heart has been magically enlarged to ten times its normal size, and is considered a Small object with AC 10, 10 hit points, and immunity to psychic damage. The heart can't be moved. If reduced to 0 hit points, the heart's light goes out as the organ implodes and is destroyed, leaving no trace behind. Attacks made against the heart have disadvantage unless the attacker is immune to the {@condition blinded} condition or the heart's light is blotted out (by throwing a blanket over it, for example).",
+										"The pinnacle of the lighthouse beacon is partly open to the elements and surrounded by a narrow walkway topped by an iron railing. Three open archways allow the beacon's pulsating green light to spill westward over the sea. This light is so bright that any character who dares look directly at it is {@condition Aveuglé} for 1 minute.",
+										"The light originates from Moesko's still-beating heart, which floats in the air 5 feet off the floor. The heart has been magically enlarged to ten times its normal size, and is considered a Small object with AC 10, 10 hit points, and immunity to psychic damage. The heart can't be moved. If reduced to 0 hit points, the heart's light goes out as the organ implodes and is destroyed, leaving no trace behind. Attacks made against the heart have disadvantage unless the attacker is immune to the {@condition Aveuglé} condition or the heart's light is blotted out (by throwing a blanket over it, for example).",
 										{
 											"type": "inset",
 											"name": "Exploring the Wrecks",
 											"page": 42,
 											"id": "19d",
 											"entries": [
-												"West of the Tower of Storms are five sunken shipwrecks (areas T10 through T14), with only their masts visible. Characters intent on searching the ships for treasure will need {@sense darkvision} or magical light sources to see, as the wrecks are submerged in murky, 20-foot-deep water.",
-												"Characters atop the 80-foot-high lighthouse outcropping might try to climb down its slope to reach the water. The slope has abundant handholds but is wet, so that ascending or descending it requires a successful {@dc 10} Strength ({@skill Athletics}) check. A character who fails the check slips and falls, landing in the water below and taking {@dice 1d6} bludgeoning damage per 10 feet fallen.",
+												"West of the Tower of Storms are five sunken shipwrecks (areas T10 through T14), with only their masts visible. Characters intent on searching the ships for treasure will need {@sense Vision dans le noir} or magical light sources to see, as the wrecks are submerged in murky, 20-foot-deep water.",
+												"Characters atop the 80-foot-high lighthouse outcropping might try to climb down its slope to reach the water. The slope has abundant handholds but is wet, so that ascending or descending it requires a successful {@dc 10} Strength ({@skill Athlétisme}) check. A character who fails the check slips and falls, landing in the water below and taking {@dice 1d6} bludgeoning damage per 10 feet fallen.",
 												"Three 15-foot-long {@creature Hunter Shark||hunter sharks} glide among the wrecks. Daggermaw is the meanest and hungriest of the three, and it attacks characters without provocation after they finish searching two of the wrecks. If Daggermaw wounds a character, that character's blood in the water attracts the other two sharks, which join the fray on Daggermaw's next turn."
 											]
 										}
@@ -21991,7 +21991,7 @@
 										"The crews aboard these five vessels perished when the beacon's evil light compelled them to crash into the rocky outcropping. Fish have picked clean their skeletal remains, which lie scattered throughout the doomed vessels. Three sharks patrol the wreckage (see the \"Exploring the Wrecks\" sidebar).",
 										"The Shipwrecks table below gives the name of each ship and the treasure that can be found within it. A character can spend an action searching the inside of a shipwreck. As part of that action, the character makes a {@dc 15} Wisdom ({@skill Perception}) check, finding the ship's treasure on a success. Once a ship's treasure is found, nothing else of value can be retrieved from that wreck.",
 										"If the item found is a locked chest, a character can use an action to search the wreck for the key to the chest, finding it with a successful {@dc 20} Wisdom ({@skill Perception}) check. Conversely, a character can pick the chest's sturdy lock with a successful {@dc 15} Dexterity check using thieves' tools.",
-										"When a magic item is found and identified, give the players the corresponding {@deck magic item cards|DIP|magic item card} or they can reference it in the {@5etools Magic Items Listing|items.html}. In the case of the {@item +1 weapon} in area T10, choose from among the weapons available ({@item +1 battleaxe}, {@item +1 longbow}, {@item +1 mace}, or {@item +1 shortsword}). Only one {@item +1 weapon} can be found, so choose a weapon with which at least one party member has proficiency.",
+										"When a magic item is found and identified, give the players the corresponding {@deck Cartes des objets magiques|DIP|magic item card} or they can reference it in the {@5etools Magic Items Listing|items.html}. In the case of the {@item +1 weapon} in area T10, choose from among the weapons available ({@item +1 battleaxe}, {@item +1 longbow}, {@item +1 mace}, or {@item +1 shortsword}). Only one {@item +1 weapon} can be found, so choose a weapon with which at least one party member has proficiency.",
 										{
 											"type": "table",
 											"caption": "Shipwrecks",
@@ -22019,17 +22019,17 @@
 												[
 													"T12",
 													"{@i Vainglory}",
-													"{@item Cloak of many fashions|XGE} worn by the skeleton of the ship's captain"
+													"{@item Cape à la mode|XGE} worn by the skeleton of the ship's captain"
 												],
 												[
 													"T13",
 													"{@i Golden Gull}",
-													"Locked chest containing 120 ep and six {@item Pearl||pearls} (100 gp each) in a black silk pouch"
+													"Locked chest containing 120 ep and six {@item Perle||pearls} (100 gp each) in a black silk pouch"
 												],
 												[
 													"T14",
 													"{@i Orca}",
-													"Locked chest that holds a fully charged {@item wand of secrets} and a leather-bound spellbook that contains the wizard spells {@spell blur}, {@spell charm person}, {@spell comprehend languages}, {@spell hold person}, {@spell mage armor}, {@spell sleep}, and {@spell spider climb}"
+													"Locked chest that holds a fully charged {@item Baguette des secrets} and a leather-bound spellbook that contains the wizard spells {@spell blur}, {@spell charm person}, {@spell comprehend languages}, {@spell hold person}, {@spell mage armor}, {@spell sleep}, and {@spell spider climb}"
 												]
 											]
 										}
@@ -22047,7 +22047,7 @@
 			"page": 43,
 			"id": "19f",
 			"entries": [
-				"\"Umbrage Hill\" is balanced for characters of 3rd level or lower. Higher-level characters won't face great peril here, but they might need to visit this location to buy {@item Potion of Healing||potions of healing} from Adabra Gwynn.",
+				"\"Umbrage Hill\" is balanced for characters of 3rd level or lower. Higher-level characters won't face great peril here, but they might need to visit this location to buy {@item Potion de soins||potions of healing} from Adabra Gwynn.",
 				{
 					"type": "section",
 					"name": "Location Overview",
@@ -22071,7 +22071,7 @@
 							"page": 43,
 							"id": "1a2",
 							"entries": [
-								"Adabra declines to return to Phandalin, but the characters can complete the {@area Umbrage Hill Quest|03a|x} by asking her for a note for Harbin Wester confirming her safety. Adabra also gives her saviors one {@item potion of healing} for dealing with the manticore (see below)."
+								"Adabra declines to return to Phandalin, but the characters can complete the {@area Umbrage Hill Quest|03a|x} by asking her for a note for Harbin Wester confirming her safety. Adabra also gives her saviors one {@item Potion de soins} for dealing with the manticore (see below)."
 							]
 						},
 						{
@@ -22370,7 +22370,7 @@
 											"page": 43,
 											"id": "1a7",
 											"entries": [
-												"Adabra sells {@item Potion of Healing||potions of healing} for 50 gp. Give a {@item Potion of Healing} {@card potion of healing|Magic Item Cards|DIP|card} to any player whose character acquires one of these potions or they can reference it in the {@5etools Magic Items Listing|items.html}. If you run out of cards, Adabra has no potions left to sell. ({@note There are six cards included with the physical product})."
+												"Adabra sells {@item Potion de soins||potions of healing} for 50 gp. Give a {@item Potion de soins} {@card Potion de soins|Magic Item Cards|DIP|card} to any player whose character acquires one of these potions or they can reference it in the {@5etools Magic Items Listing|items.html}. If you run out of cards, Adabra has no potions left to sell. ({@note There are six cards included with the physical product})."
 											]
 										}
 									]
@@ -22445,7 +22445,7 @@
 									"page": 44,
 									"id": "1af",
 									"entries": [
-										"The ivy enveloping the manse is poisonous and makes the walls difficult to climb. Scaling a wall requires a successful {@dc 15} Strength ({@skill Athletics}) check. A creature that comes into contact with ivy must succeed on a {@dc 12} Constitution saving throw or take 2 ({@dice 1d4}) poison damage."
+										"The ivy enveloping the manse is poisonous and makes the walls difficult to climb. Scaling a wall requires a successful {@dc 15} Strength ({@skill Athlétisme}) check. A creature that comes into contact with ivy must succeed on a {@dc 12} Constitution saving throw or take 2 ({@dice 1d4}) poison damage."
 									]
 								},
 								{
@@ -24327,7 +24327,7 @@
 											"page": 44,
 											"id": "1b5",
 											"entries": [
-												"A {@spell detect magic} spell reveals a dim aura of transmutation magic around each pumpkin. As an action, a character can carve open a pumpkin to reveal six servings of seeds within. Any creature that eats a serving of pumpkin seeds as an action regains 1 hit point. If a creature eats more than five servings of pumpkin seeds in 1 hour, it must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for {@dice 1d4} hours."
+												"A {@spell detect magic} spell reveals a dim aura of transmutation magic around each pumpkin. As an action, a character can carve open a pumpkin to reveal six servings of seeds within. Any creature that eats a serving of pumpkin seeds as an action regains 1 hit point. If a creature eats more than five servings of pumpkin seeds in 1 hour, it must succeed on a {@dc 12} Constitution saving throw or be {@condition Empoisonné} for {@dice 1d4} hours."
 											]
 										}
 									]
@@ -24346,7 +24346,7 @@
 												"Stone steps climb to a portico with a stone balcony overhanging it at a height of ten feet. Vines wrap around the balcony's support pillars and its crumbling stone railing. The ground-floor entrance features a double door with a giant boar's head crudely carved into it. An unmarred double door stands closed on the balcony."
 											]
 										},
-										"A character can climb up to the balcony with a successful {@dc 15} Strength ({@skill Athletics}) check. If another character assists, the check is made with advantage. Both sets of double doors are free of ivy and safe to open."
+										"A character can climb up to the balcony with a successful {@dc 15} Strength ({@skill Athlétisme}) check. If another character assists, the check is made with advantage. Both sets of double doors are free of ivy and safe to open."
 									]
 								},
 								{
@@ -24443,7 +24443,7 @@
 											"id": "1c2",
 											"entries": [
 												"The well, which is 30 feet deep, contains a Gulthias tree, the roots of which extend deep underground. With little room to spread out, the tree has grown into a malformed column of twisted wood with narrow gaps between its curling branches.",
-												"Hidden in the shaft are a number of {@creature Vine Blight||vine blights}\u2014one blight plus one additional blight for each member of the party, not including sidekicks (maximum five blights). The blights form a descending column, with the closest one 5 feet below the well's mouth. With their {@sense blindsight}, they can sense intruders in the courtyard. However, they emerge to attack only when they or the Gulthias tree take damage, or when Grannoc (see {@area area W10|1c6|x}) commands them to do so. Once the blights are out of the shaft, a Medium or smaller character can climb down it, slipping between the branches of the tree with ease (no ability check needed).",
+												"Hidden in the shaft are a number of {@creature Vine Blight||vine blights}\u2014one blight plus one additional blight for each member of the party, not including sidekicks (maximum five blights). The blights form a descending column, with the closest one 5 feet below the well's mouth. With their {@sense Perception aveugle}, they can sense intruders in the courtyard. However, they emerge to attack only when they or the Gulthias tree take damage, or when Grannoc (see {@area area W10|1c6|x}) commands them to do so. Once the blights are out of the shaft, a Medium or smaller character can climb down it, slipping between the branches of the tree with ease (no ability check needed).",
 												"The Gulthias tree is a Huge plant with blood for sap. It has AC 15, 250 hit points, vulnerability to fire damage, and no actions, reactions, or defenses. Like an ordinary tree, it's immobile. Unless it's completely uprooted, however, it regrows from its roots even if it's reduced to 0 hit points, regaining 1 hit point every 24 hours.",
 												"On any night when the moon is blood red, the Gulthias tree can spawn {@dice 2d6} {@creature Twig Blight||twig blights}, {@dice 1d6} {@creature Needle Blight||needle blights}, or {@dice 1d4} {@creature Vine Blight||vine blights}. These blights split from the tree and crawl out of the well, ready to do Grannoc's bidding."
 											]
@@ -24492,7 +24492,7 @@
 									"page": 46,
 									"id": "1c6",
 									"entries": [
-										"The door on the east side of this room has been smashed down, but any light from the courtyard isn't enough to illuminate the room. Characters with {@sense darkvision} or a light source see the following:",
+										"The door on the east side of this room has been smashed down, but any light from the courtyard isn't enough to illuminate the room. Characters with {@sense Vision dans le noir} or a light source see the following:",
 										{
 											"type": "insetReadaloud",
 											"id": "1c7",
@@ -24550,7 +24550,7 @@
 											"page": 47,
 											"id": "1cd",
 											"entries": [
-												"The books found here are old texts written in Elvish that describe long-lost elven kingdoms and civilizations. They are too damaged to be worth anything. Additionally, one desk has a small book tucked under one of its back legs to level it off. The book is titled {@i Elvish Idioms}, and its pages have been cut out to conceal a tiny leather packet containing {@item dust of disappearance}. If the characters find the packet and identify the dust, give the players the {@item Dust of Disappearance} {@card Dust of Disappearance|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"The books found here are old texts written in Elvish that describe long-lost elven kingdoms and civilizations. They are too damaged to be worth anything. Additionally, one desk has a small book tucked under one of its back legs to level it off. The book is titled {@i Elvish Idioms}, and its pages have been cut out to conceal a tiny leather packet containing {@item Poussière de disparition}. If the characters find the packet and identify the dust, give the players the {@item Poussière de disparition} {@card Poudre de disparition|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -24568,7 +24568,7 @@
 											"page": 47,
 											"id": "1cf",
 											"entries": [
-												"A {@spell detect magic} spell reveals an aura of conjuration magic emanating from the fireplace mantel. Any character who searches it and succeeds on a {@dc 10} Wisdom ({@skill Perception}) check discovers that the mantelpiece is actually a lid concealing a long, hidden compartment. The wizard who built the manse hid her {@item staff of birdcalls|XGE} here. If the characters obtain and identify the staff, give the players the {@item Staff of Birdcalls|XGE} {@card Staff of Birdcalls|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"A {@spell detect magic} spell reveals an aura of conjuration magic emanating from the fireplace mantel. Any character who searches it and succeeds on a {@dc 10} Wisdom ({@skill Perception}) check discovers that the mantelpiece is actually a lid concealing a long, hidden compartment. The wizard who built the manse hid her {@item Bâton aux chants d'oiseaux|XGE} here. If the characters obtain and identify the staff, give the players the {@item Bâton aux chants d'oiseaux|XGE} {@card Bâton de cris d'oiseaux|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -24594,7 +24594,7 @@
 											"page": 47,
 											"id": "1d2",
 											"entries": [
-												"The garment hanging on the hook is a {@item cloak of billowing|XGE}, and the chest contains an {@item immovable rod} wrapped in a black cloth. If the characters acquire and identify these magic items, give the players the {@item Cloak of Billowing|XGE} and {@item Immovable Rod} {@deck Magic Item Cards|DIP|cards} or they can reference them in the {@5etools Magic Items Listing|items.html}."
+												"The garment hanging on the hook is a {@item Cape virevoltante|XGE}, and the chest contains an {@item Baguette immuable} wrapped in a black cloth. If the characters acquire and identify these magic items, give the players the {@item Cape virevoltante|XGE} and {@item Baguette immuable} {@deck Cartes des objets magiques|DIP|cards} or they can reference them in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -24915,7 +24915,7 @@
 											"page": 49,
 											"id": "1ee",
 											"entries": [
-												"A creature that has a flying speed can use all or part of its movement to fly. If the creature is {@condition incapacitated} or knocked {@condition prone} while flying, it falls unless it can hover."
+												"A creature that has a flying speed can use all or part of its movement to fly. If the creature is {@condition Incapable} or knocked {@condition À terre} while flying, it falls unless it can hover."
 											]
 										},
 										{
@@ -24955,8 +24955,8 @@
 							"page": 50,
 							"id": "1f2",
 							"entries": [
-								"The Skills entry is reserved for creatures that are proficient in one or more skills. For example, a perceptive and stealthy creature might have higher-than-normal bonuses to Wisdom ({@skill Perception}) and Dexterity ({@skill Stealth}) checks.",
-								"Skills in a creature's stat block are shown with the total modifier\u2014the creature's ability modifier plus its proficiency bonus. If a creature's stat block says \"{@skill Stealth} +6,\" roll a {@dice d20} and add 6 when the creature makes an ability check using {@skill Stealth}.",
+								"The Skills entry is reserved for creatures that are proficient in one or more skills. For example, a perceptive and stealthy creature might have higher-than-normal bonuses to Wisdom ({@skill Perception}) and Dexterity ({@skill Discrétion}) checks.",
+								"Skills in a creature's stat block are shown with the total modifier\u2014the creature's ability modifier plus its proficiency bonus. If a creature's stat block says \"{@skill Discrétion} +6,\" roll a {@dice d20} and add 6 when the creature makes an ability check using {@skill Discrétion}.",
 								{
 									"type": "entries",
 									"name": "Armor, Weapon, and Tool Proficiencies",
@@ -24994,7 +24994,7 @@
 											"page": 50,
 											"id": "1f7",
 											"entries": [
-												"A creature with {@sense blindsight} can perceive its surroundings without having to rely on sight, within a specific radius."
+												"A creature with {@sense Perception aveugle} can perceive its surroundings without having to rely on sight, within a specific radius."
 											]
 										},
 										{
@@ -25003,7 +25003,7 @@
 											"page": 50,
 											"id": "1f8",
 											"entries": [
-												"A creature with {@sense darkvision} can see in the dark within a specific radius. The creature can see in {@quickref Vision and Light||2||dim light} within the radius as if it were {@quickref Vision and Light||2||bright light}, and in darkness as if it were {@quickref Vision and Light||2||dim light}. The creature can't discern color in darkness, only shades of gray."
+												"A creature with {@sense Vision dans le noir} can see in the dark within a specific radius. The creature can see in {@quickref Vision and Light||2||dim light} within the radius as if it were {@quickref Vision and Light||2||bright light}, and in darkness as if it were {@quickref Vision and Light||2||dim light}. The creature can't discern color in darkness, only shades of gray."
 											]
 										},
 										{
@@ -25012,7 +25012,7 @@
 											"page": 50,
 											"id": "1f9",
 											"entries": [
-												"A creature with {@sense tremorsense|MM} can detect and pinpoint the origin of vibrations within a specific radius, provided that the creature and the source of the vibrations are in contact with the same ground or substance. {@sense Tremorsense|MM} can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs, have this special sense."
+												"A creature with {@sense Perception des vibrations|MM} can detect and pinpoint the origin of vibrations within a specific radius, provided that the creature and the source of the vibrations are in contact with the same ground or substance. {@sense Perception des vibrations|MM} can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs, have this special sense."
 											]
 										}
 									]
@@ -25159,7 +25159,7 @@
 							"page": 51,
 							"id": "208",
 							"entries": [
-								"An {@creature ankheg} resembles an enormous, many-legged insect that burrows underground while using its {@sense tremorsense|MM} to detect prey. When it detects movement above, it bursts from the ground and uses its mandibles to seize prey. From its maw, it secretes acidic enzymes that help dissolve a victim for easy swallowing. It can squirt these enzymes to take down foes beyond its reach.",
+								"An {@creature ankheg} resembles an enormous, many-legged insect that burrows underground while using its {@sense Perception des vibrations|MM} to detect prey. When it detects movement above, it bursts from the ground and uses its mandibles to seize prey. From its maw, it secretes acidic enzymes that help dissolve a victim for easy swallowing. It can squirt these enzymes to take down foes beyond its reach.",
 								{
 									"type": "image",
 									"href": {
@@ -25811,13 +25811,13 @@
 					"type": "list",
 					"columns": 3,
 					"items": [
-						"{@deck Initiative Cards|ESK}",
-						"{@deck Condition Cards|ESK}",
-						"{@deck Combat Step by Step Cards|ESK}",
-						"{@deck Sidekick Cards|DIP}",
-						"{@deck Quest Cards|DIP}",
-						"{@deck Magic Item Cards|DIP}",
-						"{@deck Magic Charm Cards|DIP}"
+						"{@deck Cartes d'initiative|ESK}",
+						"{@deck Cartes des états|ESK}",
+						"{@deck Cartes du combat étape par étape|ESK}",
+						"{@deck Cartes de compagnons|DIP}",
+						"{@deck Cartes de quêtes|DIP}",
+						"{@deck Cartes des objets magiques|DIP}",
+						"{@deck Cartes des charmes magiques|DIP}"
 					]
 				},
 				{

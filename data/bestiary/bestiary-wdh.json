@@ -40,7 +40,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|PHB|plate}"
+						"{@item Harnois de plaques|PHB|plate}"
 					]
 				}
 			],
@@ -83,7 +83,7 @@
 				{
 					"name": "Dwarven Resilience",
 					"entries": [
-						"Ahmaergo has advantage on saving throws against being {@condition poisoned}."
+						"Ahmaergo has advantage on saving throws against being {@condition Empoisonné}."
 					]
 				},
 				{
@@ -577,7 +577,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Barnibus carries a {@item wand of magic detection}. (spell included in spell list below but does not use a slot when cast from the wand)"
+						"Barnibus carries a {@item Baguette de détection de la magie}. (spell included in spell list below but does not use a slot when cast from the wand)"
 					]
 				}
 			],
@@ -686,7 +686,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item studded leather armor|phb|studded leather}"
+						"{@item Armure de cuir clouté|phb|studded leather}"
 					]
 				}
 			],
@@ -724,19 +724,19 @@
 				{
 					"name": "Cunning Action",
 					"entries": [
-						"On each of her turns, the Black Viper can use a bonus action to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+						"On each of her turns, the Black Viper can use a bonus action to take the {@action Course}, {@action Désengagement}, or {@action Se cacher} action."
 					]
 				},
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the Black Viper is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails. She can't use this trait if she's {@condition incapacitated}."
+						"If the Black Viper is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails. She can't use this trait if she's {@condition Incapable}."
 					]
 				},
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"The Black Viper deals an extra 14 ({@damage 4d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Black Viper that isn't {@condition incapacitated} and the Black Viper doesn't have disadvantage on the attack roll."
+						"The Black Viper deals an extra 14 ({@damage 4d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Black Viper that isn't {@condition Incapable} and the Black Viper doesn't have disadvantage on the attack roll."
 					]
 				}
 			],
@@ -809,7 +809,7 @@
 						"items": {
 							"name": "Blinded",
 							"entries": [
-								"The troll is wearing an eyeless helm, and is {@condition blinded}."
+								"The troll is wearing an eyeless helm, and is {@condition Aveuglé}."
 							]
 						}
 					}
@@ -869,7 +869,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item chain shirt|phb}"
+						"{@item Chemise de mailles|phb}"
 					]
 				}
 			],
@@ -977,7 +977,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Davil has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Davil has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				}
 			],
@@ -1118,7 +1118,7 @@
 				{
 					"name": "Adhesive (Object Form Only)",
 					"entries": [
-						"The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also {@condition grappled} by it (escape {@dc 13}). Ability checks made to escape this grapple have disadvantage."
+						"The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also {@condition Agrippé} by it (escape {@dc 13}). Ability checks made to escape this grapple have disadvantage."
 					]
 				},
 				{
@@ -1130,7 +1130,7 @@
 				{
 					"name": "Grappler",
 					"entries": [
-						"The mimic has advantage on attack rolls against any creature {@condition grappled} by it."
+						"The mimic has advantage on attack rolls against any creature {@condition Agrippé} by it."
 					]
 				}
 			],
@@ -1201,8 +1201,8 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item studded leather armor|phb|studded leather}",
-						"{@item shield|phb}"
+						"{@item Armure de cuir clouté|phb|studded leather}",
+						"{@item Bouclier|phb}"
 					]
 				}
 			],
@@ -1261,7 +1261,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"The drow has advantage on saving throws against being {@condition Charmé}, and magic can't put the drow to sleep."
 					]
 				},
 				{
@@ -1356,7 +1356,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item elven chain}"
+						"{@item Cotte d'elfe}"
 					]
 				}
 			],
@@ -1391,7 +1391,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Durnan wields a {@item Greatsword of Sharpness||sword of sharpness (greatsword)} called Grimvault. He wears {@item boots of striding and springing}, {@item elven chain}, and a {@item ring of spell turning}."
+						"Durnan wields a {@item Greatsword of Sharpness||sword of sharpness (greatsword)} called Grimvault. He wears {@item Bottes de sept lieues}, {@item Cotte d'elfe}, and a {@item Anneau de renvoi de sort}."
 					]
 				},
 				{
@@ -1779,7 +1779,7 @@
 				{
 					"name": "Antimagic Susceptibility",
 					"entries": [
-						"The staff is {@condition incapacitated} while in the area of an {@spell antimagic field}. If targeted by {@spell dispel magic}, the staff must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition unconscious} for 1 minute."
+						"The staff is {@condition Incapable} while in the area of an {@spell antimagic field}. If targeted by {@spell dispel magic}, the staff must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition Inconscient} for 1 minute."
 					]
 				},
 				{
@@ -1832,7 +1832,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item half plate armor|phb}"
+						"{@item Demi-plate|phb}"
 					]
 				}
 			],
@@ -2209,7 +2209,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If Hlam is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition incapacitated}."
+						"If Hlam is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition Incapable}."
 					]
 				},
 				{
@@ -2237,8 +2237,8 @@
 					"entries": [
 						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 7}) bludgeoning, magic damage. If the target is a creature, Hlam can choose one of the following additional effects:",
 						"The target must succeed on a {@dc 18} Strength saving throw or drop one item it is holding (Hlam's choice).",
-						"The target must succeed on a {@dc 18} Dexterity saving throw or be knocked {@condition prone}.",
-						"The target must succeed on a {@dc 18} Constitution saving throw or be {@condition stunned} until the end of Hlam's next turn."
+						"The target must succeed on a {@dc 18} Dexterity saving throw or be knocked {@condition À terre}.",
+						"The target must succeed on a {@dc 18} Constitution saving throw or be {@condition Étourdi} until the end of Hlam's next turn."
 					]
 				},
 				{
@@ -2467,7 +2467,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|phb}"
+						"{@item Harnois de plaques|phb}"
 					]
 				}
 			],
@@ -2575,7 +2575,7 @@
 				{
 					"name": "Dwarven Resilience",
 					"entries": [
-						"Istrid has advantage on saving throws against being {@condition poisoned}."
+						"Istrid has advantage on saving throws against being {@condition Empoisonné}."
 					]
 				}
 			],
@@ -2665,8 +2665,8 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item chain mail|phb}",
-						"{@item Badge of the Watch|wdh}"
+						"{@item Cotte de mailles|phb}",
+						"{@item Insigne de la Garde|wdh}"
 					]
 				}
 			],
@@ -2701,7 +2701,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Jalester carries a {@item badge of the Watch|wdh}."
+						"Jalester carries a {@item Insigne de la Garde|wdh}."
 					]
 				},
 				{
@@ -2785,7 +2785,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -2868,7 +2868,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"Jandar has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"Jandar has advantage on saving throws against being {@condition Charmé} or {@condition Effrayé}."
 					]
 				}
 			],
@@ -3016,19 +3016,19 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Jarlaxle wears {@item +3 leather armor}, a {@item hat of disguise}, a {@item bracer of flying daggers|wdh}, a {@item cloak of invisibility}, a {@item knave's eye patch|wdh}, and a {@item ring of truth telling|wdh}. He wields a {@item +3 rapier} and carries a {@item portable hole} and a {@item wand of web}. His hat is adorned with a {@item feather of diatryma summoning|wdh}."
+						"Jarlaxle wears {@item +3 leather armor}, a {@item Chapeau de déguisement}, a {@item Brassard à dagues volantes|wdh}, a {@item Cape d'invisibilité}, a {@item Cache-œil du fripon|wdh}, and a {@item Anneau du verbe vrai|wdh}. He wields a {@item +3 rapier} and carries a {@item Trou de portable} and a {@item Baguette de toile}. His hat is adorned with a {@item Plume d'invocation de diatryma|wdh}."
 					]
 				},
 				{
 					"name": "Evasion",
 					"entries": [
-						"If he is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Jarlaxle instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition incapacitated}."
+						"If he is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Jarlaxle instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition Incapable}."
 					]
 				},
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Jarlaxle has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Jarlaxle has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				},
 				{
@@ -3046,7 +3046,7 @@
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"Jarlaxle deals an extra 24 ({@damage 7d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Jarlaxle's that isn't {@condition incapacitated} and Jarlaxle doesn't have disadvantage on the attack roll."
+						"Jarlaxle deals an extra 24 ({@damage 7d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Jarlaxle's that isn't {@condition Incapable} and Jarlaxle doesn't have disadvantage on the attack roll."
 					]
 				},
 				{
@@ -3241,7 +3241,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item chain shirt|phb}"
+						"{@item Chemise de mailles|phb}"
 					]
 				}
 			],
@@ -3316,13 +3316,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Kalain has advantage on saving throws against being {@condition charmed} and magic can't put her to sleep."
+						"Kalain has advantage on saving throws against being {@condition Charmé} and magic can't put her to sleep."
 					]
 				},
 				{
 					"name": "Art Imitates Life (3/Day)",
 					"entries": [
-						"Kalain touches one of her paintings and causes its subject to spring forth, becoming a creature of that kind provided its CR is 3 or lower. The creature appears in an unoccupied space within 5 feet of the painting, which becomes blank. The creature is friendly toward Kalain and hostile toward all others. It rolls initiative to determine when it acts. It disappears after 1 minute, when it is reduced to 0 hit points, or when Kalain dies or falls {@condition unconscious}."
+						"Kalain touches one of her paintings and causes its subject to spring forth, becoming a creature of that kind provided its CR is 3 or lower. The creature appears in an unoccupied space within 5 feet of the painting, which becomes blank. The creature is friendly toward Kalain and hostile toward all others. It rolls initiative to determine when it acts. It disappears after 1 minute, when it is reduced to 0 hit points, or when Kalain dies or falls {@condition Inconscient}."
 					]
 				},
 				{
@@ -3551,7 +3551,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item robe of the archmagi}"
+						"{@item Robe des archimages}"
 					]
 				}
 			],
@@ -3693,7 +3693,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Laeral wears a white {@item robe of the archmagi} (accounted for in her statistics). She wields a {@item flame tongue longsword}."
+						"Laeral wears a white {@item Robe des archimages} (accounted for in her statistics). She wields a {@item flame tongue longsword}."
 					]
 				},
 				{
@@ -3713,7 +3713,7 @@
 				{
 					"name": "Silver Hair",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) force damage, and the target must succeed on a {@dc 19} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) force damage, and the target must succeed on a {@dc 19} Constitution saving throw or be {@condition Paralysé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -3725,7 +3725,7 @@
 				{
 					"name": "Spellfire (Recharges after a Long Rest)",
 					"entries": [
-						"Magical, heatless, silver fire harmlessly erupts from Laeral and surrounds her until she is {@condition incapacitated} or until she uses an action to quench it. She gains one of the following benefits of her choice, which lasts until the silver fire ends:",
+						"Magical, heatless, silver fire harmlessly erupts from Laeral and surrounds her until she is {@condition Incapable} or until she uses an action to quench it. She gains one of the following benefits of her choice, which lasts until the silver fire ends:",
 						{
 							"type": "list",
 							"items": [
@@ -3835,7 +3835,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -3918,7 +3918,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"Laiba has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"Laiba has advantage on saving throws against being {@condition Charmé} or {@condition Effrayé}."
 					]
 				}
 			],
@@ -4085,7 +4085,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Umbero has advantage on saving throws against being {@condition charmed} and magic can't put him to sleep."
+						"Umbero has advantage on saving throws against being {@condition Charmé} and magic can't put him to sleep."
 					]
 				}
 			],
@@ -4158,7 +4158,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Manafret wears a {@item teleporter ring|WDH}."
+								"Manafret wears a {@item Anneau téléporteur|WDH}."
 							]
 						}
 					}
@@ -4209,8 +4209,8 @@
 				{
 					"ac": 19,
 					"from": [
-						"{@item robe of the archmagi}",
-						"{@item staff of power}"
+						"{@item Robe des archimages}",
+						"{@item Bâton de pouvoir}"
 					]
 				}
 			],
@@ -4346,7 +4346,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Manshoon wears a black {@item robe of the archmagi} and wields a {@item staff of power} (both accounted for in his statistics). Roll {@dice 2d10} to determine how many charges the staff has remaining."
+						"Manshoon wears a black {@item Robe des archimages} and wields a {@item Bâton de pouvoir} (both accounted for in his statistics). Roll {@dice 2d10} to determine how many charges the staff has remaining."
 					]
 				},
 				{
@@ -4802,7 +4802,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Melannor has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Melannor has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				}
 			],
@@ -4874,7 +4874,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|phb}"
+						"{@item Harnois de plaques|phb}"
 					]
 				}
 			],
@@ -4987,7 +4987,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item bracers of defense}"
+						"{@item Brassards de défense}"
 					]
 				}
 			],
@@ -5025,7 +5025,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Mirt wears {@item bracers of defense} and a {@item ring of regeneration}. He wields a {@item +1 longsword} and a {@item +1 dagger}."
+						"Mirt wears {@item Brassards de défense} and a {@item Anneau de régénération}. He wields a {@item +1 longsword} and a {@item +1 dagger}."
 					]
 				},
 				{
@@ -5037,13 +5037,13 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If he is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Mirt instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition incapacitated}."
+						"If he is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Mirt instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition Incapable}."
 					]
 				},
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"Mirt deals an extra 14 ({@damage 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Mirt's that isn't {@condition incapacitated} and Mirt doesn't have disadvantage on the attack roll."
+						"Mirt deals an extra 14 ({@damage 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Mirt's that isn't {@condition Incapable} and Mirt doesn't have disadvantage on the attack roll."
 					]
 				}
 			],
@@ -5124,7 +5124,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Nar'l carries a vial containing three doses of {@item eyescratch|WDH}, a contact poison. A creature that comes into contact with the poison must succeed on a {@dc 14} Constitution saving throw or be {@condition poisoned} for 1 hour and {@condition blinded} while {@condition poisoned} in this way. A {@spell lesser restoration} spell or similar magic ends the effect."
+								"Nar'l carries a vial containing three doses of {@item Gratt'œil|WDH}, a contact poison. A creature that comes into contact with the poison must succeed on a {@dc 14} Constitution saving throw or be {@condition Empoisonné} for 1 hour and {@condition Aveuglé} while {@condition Empoisonné} in this way. A {@spell lesser restoration} spell or similar magic ends the effect."
 							]
 						}
 					}
@@ -5260,7 +5260,7 @@
 				{
 					"name": "Sure-Footed",
 					"entries": [
-						"The nimblewright has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+						"The nimblewright has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition À terre}."
 					]
 				}
 			],
@@ -5345,7 +5345,7 @@
 				{
 					"ac": 11,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -5381,7 +5381,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"Noska has advantage on an attack roll against a creature if at least one of Noska's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Noska has advantage on an attack roll against a creature if at least one of Noska's allies is within 5 feet of the creature and the ally isn't {@condition Incapable}."
 					]
 				},
 				{
@@ -5654,7 +5654,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -5697,7 +5697,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"The cultist has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"The cultist has advantage on saving throws against being {@condition Charmé} or {@condition Effrayé}."
 					]
 				}
 			],
@@ -5983,13 +5983,13 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Remallia has a {@item Figurine of Wondrous Power, Silver Raven||figurine of wondrous power (silver raven)}."
+						"Remallia has a {@item Figurine merveilleuse, corbeau d'argent||figurine of wondrous power (silver raven)}."
 					]
 				},
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Remallia has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+						"Remallia has advantage on saving throws against being {@condition Charmé}, and magic can't put her to sleep."
 					]
 				},
 				{
@@ -6442,7 +6442,7 @@
 				{
 					"name": "Brave",
 					"entries": [
-						"The Shard Shunner has advantage on saving throws against being {@condition frightened}."
+						"The Shard Shunner has advantage on saving throws against being {@condition Effrayé}."
 					]
 				}
 			],
@@ -6701,8 +6701,8 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item studded leather armor|phb|studded leather}",
-						"{@item shield|phb}"
+						"{@item Armure de cuir clouté|phb|studded leather}",
+						"{@item Bouclier|phb}"
 					]
 				}
 			],
@@ -6761,7 +6761,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Soluun has advantage on saving throws against being {@condition charmed}, and magic can't put Soluun to sleep."
+						"Soluun has advantage on saving throws against being {@condition Charmé}, and magic can't put Soluun to sleep."
 					]
 				},
 				{
@@ -6785,7 +6785,7 @@
 				{
 					"name": "Boots of Elvenkind",
 					"entries": [
-						"Whilst wearing these boots Soluun's steps make no sound and he has advantage on any Dexterity ({@skill Stealth}) checks that rely on moving silently."
+						"Whilst wearing these boots Soluun's steps make no sound and he has advantage on any Dexterity ({@skill Discrétion}) checks that rely on moving silently."
 					]
 				}
 			],
@@ -7179,7 +7179,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Tally has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Tally has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				}
 			],
@@ -7236,7 +7236,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|phb}"
+						"{@item Harnois de plaques|phb}"
 					]
 				}
 			],
@@ -7458,7 +7458,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item hide armor|phb}"
+						"{@item Armure de peau|phb}"
 					]
 				}
 			],
@@ -7557,7 +7557,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -7640,7 +7640,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"Tissina has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"Tissina has advantage on saving throws against being {@condition Charmé} or {@condition Effrayé}."
 					]
 				}
 			],
@@ -7899,7 +7899,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Vajra wields the {@item Blackstaff|WDH}, accounted for in her statistics. Roll {@dice 2d10} to determine how many charges the staff has remaining."
+						"Vajra wields the {@item Bâton noir|WDH}, accounted for in her statistics. Roll {@dice 2d10} to determine how many charges the staff has remaining."
 					]
 				},
 				{
@@ -7911,7 +7911,7 @@
 				{
 					"name": "Staff Spells",
 					"entries": [
-						"While holding the {@item Blackstaff|WDH}, Vajra can use an action to expend 1 or more of its charges to cast one of the following spells from it, using her spell save DC and spell attack bonus: {@spell cone of cold} (5 charges), {@spell fireball} (5th-level version, 5 charges), {@spell globe of invulnerability} (6 charges), {@spell hold monster} (5 charges), {@spell levitate} (2 charges), {@spell lightning bolt} (5th-level version, 5 charges), {@spell magic missile} (1 charge), {@spell ray of enfeeblement} (1 charge), or {@spell wall of force} (5 charges)."
+						"While holding the {@item Bâton noir|WDH}, Vajra can use an action to expend 1 or more of its charges to cast one of the following spells from it, using her spell save DC and spell attack bonus: {@spell cone of cold} (5 charges), {@spell fireball} (5th-level version, 5 charges), {@spell globe of invulnerability} (6 charges), {@spell hold monster} (5 charges), {@spell levitate} (2 charges), {@spell lightning bolt} (5th-level version, 5 charges), {@spell magic missile} (1 charge), {@spell ray of enfeeblement} (1 charge), or {@spell wall of force} (5 charges)."
 					]
 				}
 			],
@@ -7986,7 +7986,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item chain shirt|phb}"
+						"{@item Chemise de mailles|phb}"
 					]
 				}
 			],
@@ -8137,8 +8137,8 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item glamoured studded leather}",
-						"{@item ring of protection}"
+						"{@item Cuir clouté illusoire}",
+						"{@item Anneau de protection}"
 					]
 				}
 			],
@@ -8275,19 +8275,19 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Victoro wears a {@item ring of protection} and {@item glamoured studded leather} disguised to look like fine clothing. He carries a {@item rod of rulership} shaped like a ruby-tipped cane."
+						"Victoro wears a {@item Anneau de protection} and {@item Cuir clouté illusoire} disguised to look like fine clothing. He carries a {@item Sceptre de commandement} shaped like a ruby-tipped cane."
 					]
 				},
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Victoro has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Victoro has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				},
 				{
 					"name": "Rod of Rulership",
 					"entries": [
-						"Victoro can use an action to present the rod and command obedience from each creature of his choice that he can see within 120 feet of him. Each target must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} for 8 hours by Victoro. While {@condition charmed} in this way, the creature regards Victoro as its trusted leader. If harmed by Victoro or his companions, or commanded to do something contrary to its nature, a target ceases to be {@condition charmed} in this way. The rod can't be used again until the next dawn."
+						"Victoro can use an action to present the rod and command obedience from each creature of his choice that he can see within 120 feet of him. Each target must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} for 8 hours by Victoro. While {@condition Charmé} in this way, the creature regards Victoro as its trusted leader. If harmed by Victoro or his companions, or commanded to do something contrary to its nature, a target ceases to be {@condition Charmé} in this way. The rod can't be used again until the next dawn."
 					]
 				}
 			],
@@ -8582,7 +8582,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Xanathar wears a {@item ring of invisibility}, a {@item ring of mind shielding}, and a {@item ring of force resistance||ring of resistance (force)}."
+								"Xanathar wears a {@item Anneau d'invisibilité}, a {@item Anneau de protection mentale}, and a {@item Anneau de résistance à la force||ring of resistance (force)}."
 							]
 						}
 					}
@@ -8617,7 +8617,7 @@
 				{
 					"ac": 11,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -8656,7 +8656,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"Yagra has advantage on an attack roll against a creature if at least one of her allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Yagra has advantage on an attack roll against a creature if at least one of her allies is within 5 feet of the creature and the ally isn't {@condition Incapable}."
 					]
 				},
 				{
@@ -8785,7 +8785,7 @@
 				{
 					"ac": 11,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -8818,7 +8818,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 feet of the creature and the ally isn't {@condition Incapable}."
 					]
 				},
 				{
@@ -8902,7 +8902,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"The adept wears a {@item teleporter ring|WDH}."
+								"The adept wears a {@item Anneau téléporteur|WDH}."
 							]
 						}
 					}
@@ -9042,7 +9042,7 @@
 				{
 					"name": "Dreadful Aspect (Recharges after a Short or Long Rest)",
 					"entries": [
-						"Ziraj exudes magical menace. Each enemy within 30 feet of him must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} for 1 minute of Ziraj. If a {@condition frightened} enemy ends its turn more than 30 feet away from Ziraj, the enemy can repeat the saving throw, ending the effect on itself on a success."
+						"Ziraj exudes magical menace. Each enemy within 30 feet of him must succeed on a {@dc 13} Wisdom saving throw or be {@condition Effrayé} for 1 minute of Ziraj. If a {@condition Effrayé} enemy ends its turn more than 30 feet away from Ziraj, the enemy can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],

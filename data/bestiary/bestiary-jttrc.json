@@ -314,7 +314,7 @@
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the aurumvorax can't use its Claw attack on another target, and when it moves, it can drag the {@condition grappled} creature with it, without the aurumvorax's speed being halved."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage. If the target is a Medium or smaller creature, it is {@condition Agrippé} (escape {@dc 12}). Until this grapple ends, the aurumvorax can't use its Claw attack on another target, and when it moves, it can drag the {@condition Agrippé} creature with it, without the aurumvorax's speed being halved."
 					]
 				}
 			],
@@ -396,7 +396,7 @@
 				{
 					"name": "Pack Leader",
 					"entries": [
-						"The aurumvorax's allies have advantage on attack rolls while within 10 feet of the aurumvorax, provided it isn't {@condition incapacitated}."
+						"The aurumvorax's allies have advantage on attack rolls while within 10 feet of the aurumvorax, provided it isn't {@condition Incapable}."
 					]
 				},
 				{
@@ -434,7 +434,7 @@
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 14}). Until this grapple ends, the aurumvorax can't use its Claw attack on another target, and when it moves, it can drag the {@condition grappled} creature with it, without the aurumvorax's speed being halved."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage. If the target is a Large or smaller creature, it is {@condition Agrippé} (escape {@dc 14}). Until this grapple ends, the aurumvorax can't use its Claw attack on another target, and when it moves, it can drag the {@condition Agrippé} creature with it, without the aurumvorax's speed being halved."
 					]
 				}
 			],
@@ -582,8 +582,8 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage plus 7 ({@damage 2d6}) lightning damage. If the target is a Large or smaller creature, it must succeed on a {@dc 17} Strength saving throw or be swallowed by the bakunawa. A swallowed creature is {@condition blinded} and {@condition restrained}, and it has {@quickref Cover||3||total cover} against attacks and other effects outside the bakunawa. At the start of each of the bakunawa's turns, each swallowed creature takes 10 ({@damage 3d6}) lightning damage.",
-						"The bakunawa's gullet can hold up to two creatures at a time. If the bakunawa takes 30 damage or more on a single turn from a swallowed creature, the bakunawa must succeed on a {@dc 16} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 15 feet of the bakunawa. If the bakunawa dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage plus 7 ({@damage 2d6}) lightning damage. If the target is a Large or smaller creature, it must succeed on a {@dc 17} Strength saving throw or be swallowed by the bakunawa. A swallowed creature is {@condition Aveuglé} and {@condition Entravé}, and it has {@quickref Cover||3||total cover} against attacks and other effects outside the bakunawa. At the start of each of the bakunawa's turns, each swallowed creature takes 10 ({@damage 3d6}) lightning damage.",
+						"The bakunawa's gullet can hold up to two creatures at a time. If the bakunawa takes 30 damage or more on a single turn from a swallowed creature, the bakunawa must succeed on a {@dc 16} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition À terre} in a space within 15 feet of the bakunawa. If the bakunawa dies, a swallowed creature is no longer {@condition Entravé} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition À terre}."
 					]
 				},
 				{
@@ -838,7 +838,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item studded leather armor|PHB|studded leather}"
+						"{@item Armure de cuir clouté|PHB|studded leather}"
 					]
 				}
 			],
@@ -1038,7 +1038,7 @@
 				{
 					"name": "Shared Sorrow",
 					"entries": [
-						"The haint targets one creature it can see within 60 feet of itself that is missing any hit points, sharing its own torment with this pained soul. The target must succeed on a {@dc 14} Wisdom saving throw or be {@condition incapacitated}.",
+						"The haint targets one creature it can see within 60 feet of itself that is missing any hit points, sharing its own torment with this pained soul. The target must succeed on a {@dc 14} Wisdom saving throw or be {@condition Incapable}.",
 						"A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the haint's Shared Sorrow for the next 24 hours."
 					]
 				}
@@ -1782,7 +1782,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item breastplate|PHB}"
+						"{@item Cuirasse|PHB}"
 					]
 				}
 			],
@@ -1954,7 +1954,7 @@
 						"items": {
 							"name": "Royal Blood",
 							"entries": [
-								"If Kirina is reduced to half of his hit points or fewer, he uses the {@action Dodge} action to avoid taking further damage."
+								"If Kirina is reduced to half of his hit points or fewer, he uses the {@action Esquive} action to avoid taking further damage."
 							]
 						}
 					},
@@ -1994,7 +1994,7 @@
 						"items": {
 							"name": "Royal Blood",
 							"entries": [
-								"If Simbon is reduced to half of his hit points or fewer, he uses the {@action Dodge} action to avoid taking further damage."
+								"If Simbon is reduced to half of his hit points or fewer, he uses the {@action Esquive} action to avoid taking further damage."
 							]
 						}
 					},
@@ -2131,7 +2131,7 @@
 				{
 					"name": "Raging Deluge (Costs 2 Actions)",
 					"entries": [
-						"The riverine unleashes a torrent of river water in a 30-foot line that is 5 feet wide. Each creature in that area must make a {@dc 17} Dexterity saving throw. On a failed save, a creature takes 11 ({@damage 2d10}) bludgeoning damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}."
+						"The riverine unleashes a torrent of river water in a 30-foot line that is 5 feet wide. Each creature in that area must make a {@dc 17} Dexterity saving throw. On a failed save, a creature takes 11 ({@damage 2d10}) bludgeoning damage and is knocked {@condition À terre}. On a successful save, a creature takes half as much damage and isn't knocked {@condition À terre}."
 					]
 				}
 			],
@@ -2366,7 +2366,7 @@
 				{
 					"name": "Crushing Grasp",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 15}). The soul shaker can have only one creature {@condition grappled} in this way at a time."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the target is a Medium or smaller creature, it is {@condition Agrippé} (escape {@dc 15}). The soul shaker can have only one creature {@condition Agrippé} in this way at a time."
 					]
 				}
 			],
@@ -2494,8 +2494,8 @@
 				{
 					"name": "Plague Winds (Fiend Form Only; Recharge 5-6)",
 					"entries": [
-						"The tlacatecolo emits a chilling, disease-ridden wind in a 60-foot line that is 10 feet wide. Each creature in that area must succeed on a {@dc 13} Constitution saving throw or take 26 ({@damage 4d12}) cold damage and become {@condition poisoned}.",
-						"While {@condition poisoned} in this way, the creature can't regain hit points. At the end of every hour, the creature must succeed on a {@dc 13} Constitution saving throw or gain 1 level of {@condition exhaustion}. If the creature is in direct sunlight when it makes this saving throw, it automatically succeeds on the save.",
+						"The tlacatecolo emits a chilling, disease-ridden wind in a 60-foot line that is 10 feet wide. Each creature in that area must succeed on a {@dc 13} Constitution saving throw or take 26 ({@damage 4d12}) cold damage and become {@condition Empoisonné}.",
+						"While {@condition Empoisonné} in this way, the creature can't regain hit points. At the end of every hour, the creature must succeed on a {@dc 13} Constitution saving throw or gain 1 level of {@condition Épuisement}. If the creature is in direct sunlight when it makes this saving throw, it automatically succeeds on the save.",
 						"If the creature is targeted by magic that ends a poison or disease, such as lesser restoration, while the creature isn't in direct sunlight, the effect does not end."
 					]
 				}
@@ -2622,7 +2622,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d8 + 7}) bludgeoning damage plus 14 ({@damage 4d6}) fire damage. If the target is a Large or smaller creature, it must succeed on a {@dc 19} Strength saving throw or be pushed up to 10 feet away from the tlexolotl and knocked {@condition prone}."
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d8 + 7}) bludgeoning damage plus 14 ({@damage 4d6}) fire damage. If the target is a Large or smaller creature, it must succeed on a {@dc 19} Strength saving throw or be pushed up to 10 feet away from the tlexolotl and knocked {@condition À terre}."
 					]
 				},
 				{
@@ -2884,7 +2884,7 @@
 				{
 					"name": "Blurred Form",
 					"entries": [
-						"Attack rolls against the whistler are made with disadvantage unless the whistler is {@condition incapacitated}."
+						"Attack rolls against the whistler are made with disadvantage unless the whistler is {@condition Incapable}."
 					]
 				},
 				{
@@ -2910,7 +2910,7 @@
 				{
 					"name": "Otherworldly Melody {@recharge 5}",
 					"entries": [
-						"The whistler telepathically whistles an otherworldly melody into the minds of up to two creatures it can see within range of its telepathy. Each target must succeed on a {@dc 16} Wisdom saving throw or take 33 ({@damage 6d10}) psychic damage and become {@condition frightened} of the whistler for 1 minute. A {@condition frightened} creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The whistler telepathically whistles an otherworldly melody into the minds of up to two creatures it can see within range of its telepathy. Each target must succeed on a {@dc 16} Wisdom saving throw or take 33 ({@damage 6d10}) psychic damage and become {@condition Effrayé} of the whistler for 1 minute. A {@condition Effrayé} creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],

@@ -15,7 +15,7 @@
 					"type": "list",
 					"items": [
 						"The aboleth casts {@spell phantasmal force} (no components required) on any number of creatures it can see within 60 feet of it. While maintaining {@status concentration} on this effect, the aboleth can't take other lair actions. If a target succeeds on the saving throw or if the effect ends for it, the target is immune to the aboleth's phantasmal force lair action for the next 24 hours, although such a creature can choose to be affected.",
-						"Pools of water within 90 feet of the aboleth surge outward in a grasping tide. Any creature on the ground within 20 feet of such a pool must succeed on a {@dc 14} Strength saving throw or be pulled up to 20 feet into the water and knocked {@condition prone}. The aboleth can't use this lair action again until it has used a different one.",
+						"Pools of water within 90 feet of the aboleth surge outward in a grasping tide. Any creature on the ground within 20 feet of such a pool must succeed on a {@dc 14} Strength saving throw or be pulled up to 20 feet into the water and knocked {@condition À terre}. The aboleth can't use this lair action again until it has used a different one.",
 						"Water in the aboleth's lair magically becomes a conduit for the creature's rage. The aboleth can target any number of creatures it can see in such water within 90 feet of it. A target must succeed on a {@dc 14} Wisdom saving throw or take 7 ({@damage 2d6}) psychic damage. The aboleth can't use this lair action again until it has used a different one."
 					]
 				}
@@ -27,7 +27,7 @@
 					"items": [
 						"Underground surfaces within 1 mile of the aboleth's lair are slimy and wet and are {@quickref difficult terrain||3}.",
 						"Water sources within 1 mile of the lair are supernaturally fouled. Enemies of the aboleth that drink such water vomit it within minutes.",
-						"As an action, the aboleth can create an illusory image of itself within 1 mile of the lair. The copy can appear at any location the aboleth has seen before or in any location a creature {@condition charmed} by the aboleth can currently see. Once created, the image lasts for as long as the aboleth maintains {@status concentration}, as if {@status concentration||concentrating} on a spell. Although the image is intangible, it looks, sounds, and can move like the aboleth. The aboleth can sense, speak, and use telepathy from the image's position as if present at that position. If the image takes any damage, it disappears."
+						"As an action, the aboleth can create an illusory image of itself within 1 mile of the lair. The copy can appear at any location the aboleth has seen before or in any location a creature {@condition Charmé} by the aboleth can currently see. Once created, the image lasts for as long as the aboleth maintains {@status concentration}, as if {@status concentration||concentrating} on a spell. Although the image is intangible, it looks, sounds, and can move like the aboleth. The aboleth can sense, speak, and use telepathy from the image's position as if present at that position. If the image takes any damage, it disappears."
 					]
 				},
 				"If the aboleth dies, the first two effects fade over the course of {@dice 3d10} days."
@@ -47,7 +47,7 @@
 							"type": "item",
 							"name": "Foul Water",
 							"entries": [
-								"Water sources within 1 mile of the lair are supernaturally fouled. Creatures other than the aboleth and its allies that drink such water must succeed on a {@dc 15} Constitution saving throw or have the {@condition Poisoned|XPHB} condition for 1 hour."
+								"Water sources within 1 mile of the lair are supernaturally fouled. Creatures other than the aboleth and its allies that drink such water must succeed on a {@dc 15} Constitution saving throw or have the {@condition Empoisonné|XPHB} condition for 1 hour."
 							]
 						},
 						{
@@ -84,14 +84,14 @@
 							"type": "item",
 							"name": "Avandra's Grasp",
 							"entries": [
-								"Alyxian uses the power of Avandra's ruined temple (area H2) to create a watery tendril that rises out of the lake. One creature Alyxian can see that's not submerged in the lake must succeed on a {@dc 15} Dexterity saving throw or be {@condition restrained} by the tendril. The tendril is a Large object that has AC 10, 15 hit points, and immunity to poison and psychic damage. The tendril disappears when it is reduced to 0 hit points or the next time Alyxian takes a lair action."
+								"Alyxian uses the power of Avandra's ruined temple (area H2) to create a watery tendril that rises out of the lake. One creature Alyxian can see that's not submerged in the lake must succeed on a {@dc 15} Dexterity saving throw or be {@condition Entravé} by the tendril. The tendril is a Large object that has AC 10, 15 hit points, and immunity to poison and psychic damage. The tendril disappears when it is reduced to 0 hit points or the next time Alyxian takes a lair action."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Corellon's Charm",
 							"entries": [
-								"Alyxian causes a magical wisp of light to emerge from Corellon's ruined temple (area H3). The wisp enters the body of one creature Alyxian can see that isn't inside Corellon's ruined temple or atop the rocky island that supports it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by Alyxian until initiative count 20 of the next round."
+								"Alyxian causes a magical wisp of light to emerge from Corellon's ruined temple (area H3). The wisp enters the body of one creature Alyxian can see that isn't inside Corellon's ruined temple or atop the rocky island that supports it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by Alyxian until initiative count 20 of the next round."
 							]
 						},
 						{
@@ -125,14 +125,14 @@
 							"type": "item",
 							"name": "Avandra's Grasp",
 							"entries": [
-								"Alyxian uses the power of Avandra's ruined temple (area H2) to create a watery tendril that rises out of the lake. One creature Alyxian can see that's not submerged in the lake must succeed on a {@dc 15} Dexterity saving throw or be {@condition restrained} by the tendril. The tendril is a Large object that has AC 10, 15 hit points, and immunity to poison and psychic damage. The tendril disappears when it is reduced to 0 hit points or the next time Alyxian takes a lair action."
+								"Alyxian uses the power of Avandra's ruined temple (area H2) to create a watery tendril that rises out of the lake. One creature Alyxian can see that's not submerged in the lake must succeed on a {@dc 15} Dexterity saving throw or be {@condition Entravé} by the tendril. The tendril is a Large object that has AC 10, 15 hit points, and immunity to poison and psychic damage. The tendril disappears when it is reduced to 0 hit points or the next time Alyxian takes a lair action."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Corellon's Charm",
 							"entries": [
-								"Alyxian causes a magical wisp of light to emerge from Corellon's ruined temple (area H3). The wisp enters the body of one creature Alyxian can see that isn't inside Corellon's ruined temple or atop the rocky island that supports it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by Alyxian until initiative count 20 of the next round."
+								"Alyxian causes a magical wisp of light to emerge from Corellon's ruined temple (area H3). The wisp enters the body of one creature Alyxian can see that isn't inside Corellon's ruined temple or atop the rocky island that supports it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by Alyxian until initiative count 20 of the next round."
 							]
 						},
 						{
@@ -166,14 +166,14 @@
 							"type": "item",
 							"name": "Avandra's Grasp",
 							"entries": [
-								"Alyxian uses the power of Avandra's ruined temple (area H2) to create a watery tendril that rises out of the lake. One creature Alyxian can see that's not submerged in the lake must succeed on a {@dc 15} Dexterity saving throw or be {@condition restrained} by the tendril. The tendril is a Large object that has AC 10, 15 hit points, and immunity to poison and psychic damage. The tendril disappears when it is reduced to 0 hit points or the next time Alyxian takes a lair action."
+								"Alyxian uses the power of Avandra's ruined temple (area H2) to create a watery tendril that rises out of the lake. One creature Alyxian can see that's not submerged in the lake must succeed on a {@dc 15} Dexterity saving throw or be {@condition Entravé} by the tendril. The tendril is a Large object that has AC 10, 15 hit points, and immunity to poison and psychic damage. The tendril disappears when it is reduced to 0 hit points or the next time Alyxian takes a lair action."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Corellon's Charm",
 							"entries": [
-								"Alyxian causes a magical wisp of light to emerge from Corellon's ruined temple (area H3). The wisp enters the body of one creature Alyxian can see that isn't inside Corellon's ruined temple or atop the rocky island that supports it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by Alyxian until initiative count 20 of the next round."
+								"Alyxian causes a magical wisp of light to emerge from Corellon's ruined temple (area H3). The wisp enters the body of one creature Alyxian can see that isn't inside Corellon's ruined temple or atop the rocky island that supports it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by Alyxian until initiative count 20 of the next round."
 							]
 						},
 						{
@@ -207,14 +207,14 @@
 							"type": "item",
 							"name": "Avandra's Grasp",
 							"entries": [
-								"Alyxian uses the power of Avandra's ruined temple (area H2) to create a watery tendril that rises out of the lake. One creature Alyxian can see that's not submerged in the lake must succeed on a {@dc 15} Dexterity saving throw or be {@condition restrained} by the tendril. The tendril is a Large object that has AC 10, 15 hit points, and immunity to poison and psychic damage. The tendril disappears when it is reduced to 0 hit points or the next time Alyxian takes a lair action."
+								"Alyxian uses the power of Avandra's ruined temple (area H2) to create a watery tendril that rises out of the lake. One creature Alyxian can see that's not submerged in the lake must succeed on a {@dc 15} Dexterity saving throw or be {@condition Entravé} by the tendril. The tendril is a Large object that has AC 10, 15 hit points, and immunity to poison and psychic damage. The tendril disappears when it is reduced to 0 hit points or the next time Alyxian takes a lair action."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Corellon's Charm",
 							"entries": [
-								"Alyxian causes a magical wisp of light to emerge from Corellon's ruined temple (area H3). The wisp enters the body of one creature Alyxian can see that isn't inside Corellon's ruined temple or atop the rocky island that supports it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by Alyxian until initiative count 20 of the next round."
+								"Alyxian causes a magical wisp of light to emerge from Corellon's ruined temple (area H3). The wisp enters the body of one creature Alyxian can see that isn't inside Corellon's ruined temple or atop the rocky island that supports it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by Alyxian until initiative count 20 of the next round."
 							]
 						},
 						{
@@ -248,7 +248,7 @@
 						{
 							"type": "item",
 							"name": "Beguiling Whisper",
-							"entry": "The dragon telepathically whispers to one creature within range of the dragon's telepathy. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by the dragon until initiative count 20 on the next round. A creature {@condition charmed} in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to the creature."
+							"entry": "The dragon telepathically whispers to one creature within range of the dragon's telepathy. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by the dragon until initiative count 20 on the next round. A creature {@condition Charmé} in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to the creature."
 						},
 						{
 							"type": "item",
@@ -341,7 +341,7 @@
 						{
 							"type": "item",
 							"name": "Entangling Kelp",
-							"entry": "Strands of spectral kelp reach out to ensnare creatures in a 20-foot-radius sphere centered on a point in the lair that the dragon turtle can see. Each creature in that area must succeed on a {@dc 15} Strength saving throw or be {@condition restrained} until the end of its next turn."
+							"entry": "Strands of spectral kelp reach out to ensnare creatures in a 20-foot-radius sphere centered on a point in the lair that the dragon turtle can see. Each creature in that area must succeed on a {@dc 15} Strength saving throw or be {@condition Entravé} until the end of its next turn."
 						},
 						{
 							"type": "item",
@@ -389,7 +389,7 @@
 						{
 							"type": "item",
 							"name": "Blistering Sun",
-							"entry": "Any outdoor area of {@variantrule Bright Light|XPHB} in Har'Akir is an area of {@hazard extreme heat|XDMG} (see the {@book Dungeon Master's Guide|XDMG})."
+							"entry": "Any outdoor area of {@variantrule Bright Light|XPHB} in Har'Akir is an area of {@hazard Chaleur rigoureuse|XDMG} (see the {@book Dungeon Master's Guide|XDMG})."
 						},
 						{
 							"type": "item",
@@ -399,7 +399,7 @@
 						{
 							"type": "item",
 							"name": "Control Undead",
-							"entry": "Undead of CR 5 or lower in Har'Akir have the {@condition Charmed|XPHB} condition and obey Ankhtepot's orders."
+							"entry": "Undead of CR 5 or lower in Har'Akir have the {@condition Charmé|XPHB} condition and obey Ankhtepot's orders."
 						}
 					]
 				},
@@ -434,7 +434,7 @@
 								"type": "list",
 								"items": [
 									"The gravel stones on a safe-looking path, road, or trails occasionally become sharp for 100-foot intervals. Walking on these areas is like walking on caltrops.",
-									"Small avalanches of rock intermittently fall, blocking a path or burying intruders. A buried creature is {@condition restrained} and has to hold its breath until it is dug out.",
+									"Small avalanches of rock intermittently fall, blocking a path or burying intruders. A buried creature is {@condition Entravé} and has to hold its breath until it is dug out.",
 									"Strange laughter, sounding like that of children or the hag herself, occasionally pierces the silence.",
 									"Small cairns appear along the route of travelers, containing anything from mysterious bones to nothing at all. These cairns might be haunted by skeletons, specters, or hostile fey."
 								]
@@ -453,7 +453,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Arasta learns about any creature touching her webs. Each creature {@condition restrained} by a web or Arasta's Web of Hair must make a {@dc 21} Intelligence saving throw. On a failed save, Arasta gains knowledge of a creature's name, race, where they consider home, and what brought them to her web.",
+						"Arasta learns about any creature touching her webs. Each creature {@condition Entravé} by a web or Arasta's Web of Hair must make a {@dc 21} Intelligence saving throw. On a failed save, Arasta gains knowledge of a creature's name, race, where they consider home, and what brought them to her web.",
 						"Arasta casts the {@spell giant insect} spell (spiders only). It lasts until she uses this lair action again or until she dies."
 					]
 				}
@@ -755,7 +755,7 @@
 					"type": "list",
 					"items": [
 						"Baalzebul casts his innate hold monster.",
-						"Baalzebul emits slime in a 5-foot radius centered on him. Any creature that starts their turn standing in this slime is considered {@condition grappled} and must use their action to succeed on {@dc 17} Strength ({@skill Athletics}) check to break free.",
+						"Baalzebul emits slime in a 5-foot radius centered on him. Any creature that starts their turn standing in this slime is considered {@condition Agrippé} and must use their action to succeed on {@dc 17} Strength ({@skill Athlétisme}) check to break free.",
 						"Baalzebul uses half his burrow speed to dig into the ground. He gains half-cover when buried 10 feet and {@quickref Cover||3||three-quarters cover} when at 20 feet."
 					]
 				}
@@ -950,7 +950,7 @@
 							"type": "item",
 							"name": "Beguiling Realm",
 							"entries": [
-								"Within 6 miles of the lair, all Charisma ({@skill Persuasion}) and Charisma ({@skill Performance}) checks have disadvantage, and all Charisma ({@skill Deception}) and Charisma ({@skill Intimidation}) checks have advantage."
+								"Within 6 miles of the lair, all Charisma ({@skill Persuasion}) and Charisma ({@skill Représentation}) checks have disadvantage, and all Charisma ({@skill Tromperie}) and Charisma ({@skill Intimidation}) checks have advantage."
 							]
 						},
 						{
@@ -964,7 +964,7 @@
 							"type": "item",
 							"name": "Panicked Beasts",
 							"entries": [
-								"Beasts within 1 mile of the lair become {@condition frightened} and disoriented, as though constantly under threat of being hunted, and might lash out or panic even when no visible threat is nearby."
+								"Beasts within 1 mile of the lair become {@condition Effrayé} and disoriented, as though constantly under threat of being hunted, and might lash out or panic even when no visible threat is nearby."
 							]
 						}
 					]
@@ -993,7 +993,7 @@
 					"type": "list",
 					"items": [
 						"Plant life within 1 mile of the lair grows thick and forms walls of trees, hedges, and other flora in the form of small mazes.",
-						"Beasts within 1 mile of the lair become {@condition frightened} and disoriented, as though constantly under threat of being hunted, and might lash out or panic even when no visible threat is nearby.",
+						"Beasts within 1 mile of the lair become {@condition Effrayé} and disoriented, as though constantly under threat of being hunted, and might lash out or panic even when no visible threat is nearby.",
 						"If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a {@dc 18} Wisdom saving throw or descend into a madness determined by the Madness of Baphomet table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
 					]
 				},
@@ -1051,7 +1051,7 @@
 					"type": "list",
 					"items": [
 						"A 50-foot-square area of ground within 120 feet of the beholder becomes slimy; that area is {@quickref difficult terrain||3} until initiative count 20 on the next round.",
-						"Walls within 120 feet of the beholder sprout grasping appendages until initiative count 20 on the round after next. Each creature of the beholder's choice that starts its turn within 10 feet of such a wall must succeed on a {@dc 15} Dexterity saving throw or be {@condition grappled}. Escaping requires a successful {@dc 15} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check.",
+						"Walls within 120 feet of the beholder sprout grasping appendages until initiative count 20 on the round after next. Each creature of the beholder's choice that starts its turn within 10 feet of such a wall must succeed on a {@dc 15} Dexterity saving throw or be {@condition Agrippé}. Escaping requires a successful {@dc 15} Strength ({@skill Athlétisme}) or Dexterity ({@skill Acrobaties}) check.",
 						"An eye opens on a solid surface within 60 feet of the beholder. One random eye ray of the beholder shoots from that eye at a target of the beholder's choice that it can see. The eye then closes and disappears."
 					]
 				},
@@ -1090,7 +1090,7 @@
 							"type": "item",
 							"name": "Warping Terrain",
 							"entries": [
-								"Minor warps in reality occur near the lair; any creature (excluding the beholder) within 1 mile of the lair that makes a {@variantrule D20 Test|XPHB} and rolls a 1 has the {@condition Prone|XPHB} condition."
+								"Minor warps in reality occur near the lair; any creature (excluding the beholder) within 1 mile of the lair that makes a {@variantrule D20 Test|XPHB} and rolls a 1 has the {@condition À terre|XPHB} condition."
 							]
 						}
 					]
@@ -1155,7 +1155,7 @@
 					"type": "list",
 					"items": [
 						"An eye opens on a solid surface within 60 feet of Belashyrra. One random eye ray of Belashyrra's shoots from that eye at a target of Belashyrra's choice that it can see. The eye then closes and disappears.",
-						"Belashyrra creates a {@item wave} of madness. Each creature it can see within its lair must succeed on a {@dc 22} Wisdom saving throw or be {@condition charmed} for 1 minute. While {@condition charmed} in this way, a creature must use its action at the start of its turn before moving to make a melee attack against another creature of Belashyrra's choice within reach. If there are no creatures within reach, the {@condition charmed} creature can act normally for that turn. A {@condition charmed} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"Belashyrra creates a {@item Vague} of madness. Each creature it can see within its lair must succeed on a {@dc 22} Wisdom saving throw or be {@condition Charmé} for 1 minute. While {@condition Charmé} in this way, a creature must use its action at the start of its turn before moving to make a melee attack against another creature of Belashyrra's choice within reach. If there are no creatures within reach, the {@condition Charmé} creature can act normally for that turn. A {@condition Charmé} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 						"Belashyrra taps into the eyesight of creatures in its lair and alters their perception. Each creature of Belashyrra's choice in the lair must make a {@dc 22} Wisdom saving throw. On a failure, the affected creature perceives objects and creatures a short distance from their actual locations, imposing disadvantage on the creature's attack rolls against those targets. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this lair action for the next 24 hours."
 					]
 				}
@@ -1235,7 +1235,7 @@
 							{
 								"type": "list",
 								"items": [
-									"The hag creates a blizzard in a 40-foot-high, 20-foot radius cylinder centered on a point she can see within 120 feet of her. The effect lasts until initiative count 20 on the next round. The blizzard lightly obscures every creature and object in the area for the duration. A creature that enters the blizzard for the first time on a turn or starts its turn there is {@condition blinded} until initiative count 20 on the next round."
+									"The hag creates a blizzard in a 40-foot-high, 20-foot radius cylinder centered on a point she can see within 120 feet of her. The effect lasts until initiative count 20 on the next round. The blizzard lightly obscures every creature and object in the area for the duration. A creature that enters the blizzard for the first time on a turn or starts its turn there is {@condition Aveuglé} until initiative count 20 on the next round."
 								]
 							}
 						]
@@ -1247,7 +1247,7 @@
 							{
 								"type": "list",
 								"items": [
-									"Small avalanches of snow intermittently fall, blocking a path or burying intruders. A buried creature is {@condition restrained} and has to hold its breath until it is dug out.",
+									"Small avalanches of snow intermittently fall, blocking a path or burying intruders. A buried creature is {@condition Entravé} and has to hold its breath until it is dug out.",
 									"Human-sized blocks of ice appear, containing frozen corpses. These corpses might break free and attack as zombies, or their spirits might attack as specters.",
 									"Blizzards come without warning. A blizzard occurs once every {@dice 2d12} hours and lasts {@dice 1d3} hours. During a storm, creatures moving overland travel at half normal speed, and normal visibility is reduced to 30 feet.",
 									"Roads, paths, and trails twist and turn back on themselves, making navigation in the area exceedingly difficult."
@@ -1272,9 +1272,9 @@
 				{
 					"type": "list",
 					"items": [
-						"Pools of water that the dragon can see within 120 feet of it surge outward in a grasping tide. Any creature on the ground within 20 feet of such a pool must succeed on a {@dc 15} Strength saving throw or be pulled up to 20 feet into the water and knocked {@condition prone}.",
+						"Pools of water that the dragon can see within 120 feet of it surge outward in a grasping tide. Any creature on the ground within 20 feet of such a pool must succeed on a {@dc 15} Strength saving throw or be pulled up to 20 feet into the water and knocked {@condition À terre}.",
 						"A cloud of swarming insects fills a 20-foot-radius sphere centered on a point the dragon chooses within 120 feet of it. The cloud spreads around corners and remains until the dragon dismisses it as an action, uses this lair action again, or dies. The cloud is lightly obscured. Any creature in the cloud when it appears must make on a {@dc 15} Constitution saving throw, taking 10 ({@damage 3d6}) piercing damage on a failed save, or half as much damage on a successful one. A creature that ends its turn in the cloud takes 10 ({@damage 3d6}) piercing damage.",
-						"Magical darkness spreads from a point the dragon chooses within 60 feet of it, filling a 15-foot-radius sphere until the dragon dismisses it as an action, uses this lair action again, or dies. The darkness spreads around corners. A creature with {@sense darkvision} can't see through this darkness, and nonmagical light can't illuminate it. If any of the effect's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled."
+						"Magical darkness spreads from a point the dragon chooses within 60 feet of it, filling a 15-foot-radius sphere until the dragon dismisses it as an action, uses this lair action again, or dies. The darkness spreads around corners. A creature with {@sense Vision dans le noir} can't see through this darkness, and nonmagical light can't illuminate it. If any of the effect's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled."
 					]
 				},
 				{
@@ -1294,12 +1294,12 @@
 								{
 									"type": "item",
 									"name": "Grasping Muck",
-									"entry": "Tendrils of roiling muck extend from the dragon's lair to grasp up to three creatures of the dragon's choice that it can see within the lair. A targeted creature must succeed on a {@dc 15} Strength saving throw or be {@condition restrained} until initiative count 20 on the next round."
+									"entry": "Tendrils of roiling muck extend from the dragon's lair to grasp up to three creatures of the dragon's choice that it can see within the lair. A targeted creature must succeed on a {@dc 15} Strength saving throw or be {@condition Entravé} until initiative count 20 on the next round."
 								},
 								{
 									"type": "item",
 									"name": "Noxious Gas",
-									"entry": "A bubble of swamp gas erupts in a 20-foot-radius sphere centered on a point the dragon can see within its lair. Each creature in the area must succeed on a {@dc 15} Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"entry": "A bubble of swamp gas erupts in a 20-foot-radius sphere centered on a point the dragon can see within its lair. Each creature in the area must succeed on a {@dc 15} Constitution saving throw or be {@condition Empoisonné} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 								}
 							]
 						}
@@ -1335,7 +1335,7 @@
 								{
 									"type": "item",
 									"name": "Grating Spies",
-									"entry": "Trilling, obnoxious birds, bugs, and reptiles follow any Humanoid creatures unknown to the dragon within 6 miles of the lair, imposing disadvantage on Dexterity ({@skill Stealth}) checks. The dragon can suppress this effect at will."
+									"entry": "Trilling, obnoxious birds, bugs, and reptiles follow any Humanoid creatures unknown to the dragon within 6 miles of the lair, imposing disadvantage on Dexterity ({@skill Discrétion}) checks. The dragon can suppress this effect at will."
 								},
 								{
 									"type": "item",
@@ -1382,7 +1382,7 @@
 							"type": "item",
 							"name": "Foul Water",
 							"entries": [
-								"Water sources within 1 mile of the lair are supernaturally fouled. A creature that drinks such water must succeed on a {@dc 15} Constitution saving throw or have the {@condition Poisoned|XPHB} condition for 1 hour."
+								"Water sources within 1 mile of the lair are supernaturally fouled. A creature that drinks such water must succeed on a {@dc 15} Constitution saving throw or have the {@condition Empoisonné|XPHB} condition for 1 hour."
 							]
 						}
 					]
@@ -1404,8 +1404,8 @@
 				{
 					"type": "list",
 					"items": [
-						"Part of the ceiling collapses above one creature that the dragon can see within 120 feet of it. The creature must succeed on a {@dc 15} Dexterity saving throw or take 10 ({@damage 3d6}) bludgeoning damage and be knocked {@condition prone} and buried. The buried target is {@condition restrained} and unable to breathe or stand up. A creature can take an action to make a {@dc 10} Strength check, ending the buried state on a success.",
-						"A cloud of sand swirls about in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in the cloud must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"Part of the ceiling collapses above one creature that the dragon can see within 120 feet of it. The creature must succeed on a {@dc 15} Dexterity saving throw or take 10 ({@damage 3d6}) bludgeoning damage and be knocked {@condition À terre} and buried. The buried target is {@condition Entravé} and unable to breathe or stand up. A creature can take an action to make a {@dc 10} Strength check, ending the buried state on a success.",
+						"A cloud of sand swirls about in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in the cloud must succeed on a {@dc 15} Constitution saving throw or be {@condition Aveuglé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 						"Lightning arcs, forming a 5-foot-wide line between two of the lair's solid surfaces that the dragon can see. They must be within 120 feet of the dragon and 120 feet of each other. Each creature in that line must succeed on a {@dc 15} Dexterity saving throw or take 10 ({@damage 3d6}) lightning damage."
 					]
 				},
@@ -1426,7 +1426,7 @@
 								{
 									"type": "item",
 									"name": "Sudden Sinkhole",
-									"entry": "The dragon chooses a point on the ground that it can see within 120 feet of it. A 5-foot-radius, 20-foot-deep pit forms centered on that point. A creature on the ground above where the pit formed must make a {@dc 15} Dexterity saving throw. On a failed save, a creature falls to the bottom of the pit, taking 7 ({@damage 2d6}) bludgeoning damage and landing {@condition prone}. On a successful save, a creature moves to the nearest unoccupied space instead of falling in the pit."
+									"entry": "The dragon chooses a point on the ground that it can see within 120 feet of it. A 5-foot-radius, 20-foot-deep pit forms centered on that point. A creature on the ground above where the pit formed must make a {@dc 15} Dexterity saving throw. On a failed save, a creature falls to the bottom of the pit, taking 7 ({@damage 2d6}) bludgeoning damage and landing {@condition À terre}. On a successful save, a creature moves to the nearest unoccupied space instead of falling in the pit."
 								}
 							]
 						}
@@ -1531,8 +1531,8 @@
 				{
 					"type": "list",
 					"items": [
-						"A strong wind blows around the dragon. Each creature within 60 feet of the dragon must succeed on a {@dc 15} Strength saving throw or be pushed 15 feet away from the dragon and knocked {@condition prone}. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames; such as lanterns, have a {@chance 50} chance of being extinguished.",
-						"A cloud of sand swirls about in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in it must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"A strong wind blows around the dragon. Each creature within 60 feet of the dragon must succeed on a {@dc 15} Strength saving throw or be pushed 15 feet away from the dragon and knocked {@condition À terre}. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames; such as lanterns, have a {@chance 50} chance of being extinguished.",
+						"A cloud of sand swirls about in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in it must succeed on a {@dc 15} Constitution saving throw or be {@condition Aveuglé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -1552,7 +1552,7 @@
 								{
 									"type": "item",
 									"name": "Blast of Wind",
-									"entry": "A mighty wind sweeps through the lair in a direction of the dragon's choice, blowing along a line 40 feet wide and 100 feet long. Each creature in that area except the dragon must succeed on a {@dc 15} Strength saving throw or be pushed 15 feet in the wind's direction and be knocked {@condition prone}. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a {@chance 50} chance of being extinguished. If the dragon is within the area of the wind, it can choose to be pushed 15 feet in the wind's direction, and the wind can't knock the dragon {@condition prone}."
+									"entry": "A mighty wind sweeps through the lair in a direction of the dragon's choice, blowing along a line 40 feet wide and 100 feet long. Each creature in that area except the dragon must succeed on a {@dc 15} Strength saving throw or be pushed 15 feet in the wind's direction and be knocked {@condition À terre}. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a {@chance 50} chance of being extinguished. If the dragon is within the area of the wind, it can choose to be pushed 15 feet in the wind's direction, and the wind can't knock the dragon {@condition À terre}."
 								},
 								{
 									"type": "item",
@@ -1658,7 +1658,7 @@
 					"type": "list",
 					"items": [
 						"The dragon creates fog as though it had cast the {@spell fog cloud} spell. The fog lasts until initiative count 20 on the next round.",
-						"A thunderclap originates at a point the dragon can see within 120 feet of it. Each creature within a 20-foot radius centered on that point must make a {@dc 15} Constitution saving throw or take 5 ({@damage 1d10}) thunder damage and be {@condition deafened} until the end of its next turn."
+						"A thunderclap originates at a point the dragon can see within 120 feet of it. Each creature within a 20-foot radius centered on that point must make a {@dc 15} Constitution saving throw or take 5 ({@damage 1d10}) thunder damage and be {@condition Assourdi} until the end of its next turn."
 					]
 				},
 				{
@@ -1683,7 +1683,7 @@
 								{
 									"type": "item",
 									"name": "Whelming Water",
-									"entry": "The dragon causes a strong current to course through the water in its lair. The dragon chooses any number of creatures it can see that are standing or swimming in water within 120 feet of it. Each chosen creature must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+									"entry": "The dragon causes a strong current to course through the water in its lair. The dragon chooses any number of creatures it can see that are standing or swimming in water within 120 feet of it. Each chosen creature must succeed on a {@dc 15} Strength saving throw or be knocked {@condition À terre}."
 								}
 							]
 						}
@@ -1811,7 +1811,7 @@
 						{
 							"type": "item",
 							"name": "Whispering Shadows",
-							"entry": "Humanoids subtract {@dice 1d8} from any ability checks they make when they take the {@action Hide|XPHB} action."
+							"entry": "Humanoids subtract {@dice 1d8} from any ability checks they make when they take the {@action Se cacher|XPHB} action."
 						}
 					]
 				},
@@ -1833,7 +1833,7 @@
 					"type": "list",
 					"items": [
 						"The dragon chooses a point on the ground that it can see within 120 feet of it. Stone spikes sprout from the ground in a 20-foot radius centered on that point. The effect is otherwise identical to the {@spell spike growth} spell and lasts until the dragon uses this lair action again or until the dragon dies.",
-						"The dragon chooses a 10-foot-square area on the ground that it can see within 120 feet of it. The ground in that area turns into 3-foot-deep mud. Each creature on the ground in that area when the mud appears must succeed on a {@dc 15} Dexterity saving throw or sink into the mud and become {@condition restrained}. A creature can take an action to attempt a {@dc 15} Strength check, freeing itself or another creature within its reach and ending the {@condition restrained} condition on a success. Moving 1 foot in the mud costs 2 feet of movement. On initiative count 20 on the next round, the mud hardens, and the Strength DC to work free increases to 20."
+						"The dragon chooses a 10-foot-square area on the ground that it can see within 120 feet of it. The ground in that area turns into 3-foot-deep mud. Each creature on the ground in that area when the mud appears must succeed on a {@dc 15} Dexterity saving throw or sink into the mud and become {@condition Entravé}. A creature can take an action to attempt a {@dc 15} Strength check, freeing itself or another creature within its reach and ending the {@condition Entravé} condition on a success. Moving 1 foot in the mud costs 2 feet of movement. On initiative count 20 on the next round, the mud hardens, and the Strength DC to work free increases to 20."
 					]
 				},
 				{
@@ -1848,7 +1848,7 @@
 								{
 									"type": "item",
 									"name": "Laughing Gas",
-									"entry": "The dragon chooses a point on the ground that it can see within 120 feet of it. A cloud of pink gas fills a 20-foot-radius sphere centered on that point. Each creature in that area that fails a {@dc 15} Wisdom saving throw is {@condition incapacitated} with laughter until the end of its next turn."
+									"entry": "The dragon chooses a point on the ground that it can see within 120 feet of it. A cloud of pink gas fills a 20-foot-radius sphere centered on that point. Each creature in that area that fails a {@dc 15} Wisdom saving throw is {@condition Incapable} with laughter until the end of its next turn."
 								},
 								{
 									"type": "item",
@@ -1931,7 +1931,7 @@
 							"type": "item",
 							"name": "Giggle Fits",
 							"entries": [
-								"Whenever a creature other than the dragon and its allies is within 1 mile of the lair and rolls a 1 on a {@variantrule D20 Test|XPHB}, it must succeed on a {@dc 15} Wisdom saving throw or have the {@condition Incapacitated|XPHB} condition until the end of its next turn, as it is wracked with laughter."
+								"Whenever a creature other than the dragon and its allies is within 1 mile of the lair and rolls a 1 on a {@variantrule D20 Test|XPHB}, it must succeed on a {@dc 15} Wisdom saving throw or have the {@condition Incapable|XPHB} condition until the end of its next turn, as it is wracked with laughter."
 							]
 						}
 					]
@@ -1948,9 +1948,9 @@
 				{
 					"type": "list",
 					"items": [
-						"Ice and snow explode in radius of 60 feet around Cryonax. This creates a freezing mist full of hail and larger chunks of ice that will heavily obscure the area and last until initiative count 20 of the next round. All creatures within the area of effect take 13 ({@damage 3d8}) cold damage and must make a {@dc 20} Wisdom saving throw or be {@condition blinded} until initiative count 20 of the next round.",
-						"The air freezes in a 120 feet wide (and tall) hemisphere centered around Cryonax. This effect forms hundreds of sharp icicles. These immediately crash to the ground causing 14 ({@damage 4d6}) slashing damage to everyone in the area of effect (the damage is halved if a {@dc 22} Dexterity saving throw is successful). Afterwards the terrain becomes difficult and anyone falling {@condition prone} within it takes the damage again (no saving throw).",
-						"The frozen ground buckles, driving massive chunks of rock and ice into the air. {@dice 1d8} thirty-foot-tall stalagmites will rise into the air and all creatures in a 30-foot radius around Cryonax must make a {@dc 24} Dexterity saving throw or take 9 ({@damage 2d8}) bludgeoning damage and be knocked {@condition prone}."
+						"Ice and snow explode in radius of 60 feet around Cryonax. This creates a freezing mist full of hail and larger chunks of ice that will heavily obscure the area and last until initiative count 20 of the next round. All creatures within the area of effect take 13 ({@damage 3d8}) cold damage and must make a {@dc 20} Wisdom saving throw or be {@condition Aveuglé} until initiative count 20 of the next round.",
+						"The air freezes in a 120 feet wide (and tall) hemisphere centered around Cryonax. This effect forms hundreds of sharp icicles. These immediately crash to the ground causing 14 ({@damage 4d6}) slashing damage to everyone in the area of effect (the damage is halved if a {@dc 22} Dexterity saving throw is successful). Afterwards the terrain becomes difficult and anyone falling {@condition À terre} within it takes the damage again (no saving throw).",
+						"The frozen ground buckles, driving massive chunks of rock and ice into the air. {@dice 1d8} thirty-foot-tall stalagmites will rise into the air and all creatures in a 30-foot radius around Cryonax must make a {@dc 24} Dexterity saving throw or take 9 ({@damage 2d8}) bludgeoning damage and be knocked {@condition À terre}."
 					]
 				}
 			],
@@ -1960,8 +1960,8 @@
 					"type": "list",
 					"items": [
 						"Within ten miles of the lair all water has frozen and any precipitation becomes thick snow and hail instead.",
-						"The ground beneath the lair is freezing, causing the earth to buckle and rise. Tremors become common within 5 miles of the lair. After five days any wooden structure or weaker has collapsed; within 10 days stone buildings are destroyed. For every hour in the area there is a 1 in 10 chance that a tremor strikes forcing everyone other than Cryonax to make a {@dc 22} Dexterity saving throw or be knocked {@condition prone} and suffer 9 ({@damage 2d8}) bludgeoning damage.",
-						"Within 1 mile of Cryonax's location inside the lair the air becomes bitterly cold and difficult to breath. Each hour while within this area every living creature must make a {@dc 15} Constitution saving throw or suffer a level of {@condition exhaustion}."
+						"The ground beneath the lair is freezing, causing the earth to buckle and rise. Tremors become common within 5 miles of the lair. After five days any wooden structure or weaker has collapsed; within 10 days stone buildings are destroyed. For every hour in the area there is a 1 in 10 chance that a tremor strikes forcing everyone other than Cryonax to make a {@dc 22} Dexterity saving throw or be knocked {@condition À terre} and suffer 9 ({@damage 2d8}) bludgeoning damage.",
+						"Within 1 mile of Cryonax's location inside the lair the air becomes bitterly cold and difficult to breath. Each hour while within this area every living creature must make a {@dc 15} Constitution saving throw or suffer a level of {@condition Épuisement}."
 					]
 				},
 				"If Cryonax is destroyed or banished back to his home plane, the regional effects fade over the next {@dice 1d10} weeks."
@@ -1980,7 +1980,7 @@
 						{
 							"type": "item",
 							"name": "Beguiling Whisper",
-							"entry": "The dragon telepathically whispers to one creature within range of the dragon's telepathy. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by the dragon until initiative count 20 on the next round. A creature {@condition charmed} in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to the creature."
+							"entry": "The dragon telepathically whispers to one creature within range of the dragon's telepathy. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by the dragon until initiative count 20 on the next round. A creature {@condition Charmé} in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to the creature."
 						},
 						{
 							"type": "item",
@@ -1990,7 +1990,7 @@
 						{
 							"type": "item",
 							"name": "Starlight's Gleam",
-							"entry": "The dragon chooses a point it can see in the lair. Gleaming starlight radiates from that point to fill a 10-foot-radius sphere with dim light. Each creature other than the dragon in that area when the light appears must succeed on a {@dc 15} Dexterity saving throw or take 13 ({@damage 2d12}) radiant damage and be outlined in the glow. {@action Attack} rolls made against an outlined creature have advantage, and the creature can't hide or benefit from being {@condition invisible}. The starlight and the glow around any creature fades on initiative count 20 on the next round."
+							"entry": "The dragon chooses a point it can see in the lair. Gleaming starlight radiates from that point to fill a 10-foot-radius sphere with dim light. Each creature other than the dragon in that area when the light appears must succeed on a {@dc 15} Dexterity saving throw or take 13 ({@damage 2d12}) radiant damage and be outlined in the glow. {@action Attaque} rolls made against an outlined creature have advantage, and the creature can't hide or benefit from being {@condition invisible}. The starlight and the glow around any creature fades on initiative count 20 on the next round."
 						}
 					]
 				}
@@ -2055,7 +2055,7 @@
 						{
 							"type": "item",
 							"name": "Choking Depths",
-							"entry": "A creature can {@hazard Suffocation|XPHB|hold its breath} for only 30 seconds while in the domain."
+							"entry": "A creature can {@hazard Asphyxie|XPHB|hold its breath} for only 30 seconds while in the domain."
 						},
 						{
 							"type": "item",
@@ -2065,7 +2065,7 @@
 						{
 							"type": "item",
 							"name": "Something in the Air",
-							"entry": "Creatures other than Cthulhu and its allies have {@variantrule Disadvantage|XPHB} on saving throws to avoid or end the {@condition Frightened|XPHB} condition."
+							"entry": "Creatures other than Cthulhu and its allies have {@variantrule Disadvantage|XPHB} on saving throws to avoid or end the {@condition Effrayé|XPHB} condition."
 						}
 					]
 				},
@@ -2110,7 +2110,7 @@
 					"type": "list",
 					"items": [
 						"An area that is a 50-foot cube within 120 feet of the tyrant is filled with spectral eyes and tentacles. To creatures other than the death tyrant, that area is lightly obscured and {@quickref difficult terrain||3} until initiative count 20 on the next round.",
-						"Walls sprout spectral appendages until initiative count 20 on the round after next. Any creature, including one on the Ethereal Plane, that is hostile to the tyrant and starts its turn within 10 feet of a wall must succeed on a {@dc 17} Dexterity saving throw or be {@condition grappled}. Escaping requires a successful {@dc 17} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check.",
+						"Walls sprout spectral appendages until initiative count 20 on the round after next. Any creature, including one on the Ethereal Plane, that is hostile to the tyrant and starts its turn within 10 feet of a wall must succeed on a {@dc 17} Dexterity saving throw or be {@condition Agrippé}. Escaping requires a successful {@dc 17} Strength ({@skill Athlétisme}) or Dexterity ({@skill Acrobaties}) check.",
 						"A spectral eye opens in the air at a point within 50 feet of the tyrant. One random eye ray of the tyrant shoots from that eye, which is considered to be an ethereal source, at a target of the tyrant's choice. The eye then closes and disappears."
 					]
 				},
@@ -2215,7 +2215,7 @@
 						{
 							"type": "item",
 							"name": "Toxic Spores",
-							"entry": "The dragon fills a 20-foot cube it can see within 120 feet of itself with toxic spores. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or take 14 ({@damage 4d6}) poison damage and be {@condition poisoned} until the end of its next turn."
+							"entry": "The dragon fills a 20-foot cube it can see within 120 feet of itself with toxic spores. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or take 14 ({@damage 4d6}) poison damage and be {@condition Empoisonné} until the end of its next turn."
 						}
 					]
 				}
@@ -2234,7 +2234,7 @@
 						{
 							"type": "item",
 							"name": "Restless Sleep",
-							"entry": "When a creature finishes a long rest within 6 miles of the lair, the creature must first succeed on a {@dc 10} Constitution saving throw or be unable to reduce its level of {@condition exhaustion}. Creatures immune to the {@condition poisoned} condition are immune to this effect."
+							"entry": "When a creature finishes a long rest within 6 miles of the lair, the creature must first succeed on a {@dc 10} Constitution saving throw or be unable to reduce its level of {@condition Épuisement}. Creatures immune to the {@condition Empoisonné} condition are immune to this effect."
 						},
 						{
 							"type": "item",
@@ -2267,7 +2267,7 @@
 				{
 					"type": "list",
 					"items": [
-						"The tomb trembles violently for a moment. Each creature on the floor of the tomb must succeed on a {@dc 19} Dexterity saving throw or be knocked {@condition prone}.",
+						"The tomb trembles violently for a moment. Each creature on the floor of the tomb must succeed on a {@dc 19} Dexterity saving throw or be knocked {@condition À terre}.",
 						"The demilich targets one creature it can see within 60 feet of it. An {@spell antimagic field} fills the space of the target, moving with it until initiative count 20 on the next round.",
 						"The demilich targets any number of creatures it can see within 30 feet of it. No target can regain hit points until initiative count 20 on the next round."
 					]
@@ -2279,7 +2279,7 @@
 					"type": "list",
 					"items": [
 						"The first time a non-evil creature enters the tomb's area, the creature takes 16 ({@damage 3d10}) necrotic damage.",
-						"Monsters in the tomb have advantage on saving throws against being {@condition charmed} or {@condition frightened}, and against features that turn undead.",
+						"Monsters in the tomb have advantage on saving throws against being {@condition Charmé} or {@condition Effrayé}, and against features that turn undead.",
 						"The tomb is warded against the magical travel of creatures the demilich hasn't authorized. Such creatures can't teleport into or out of the tomb's area or use planar travel to enter or leave it. Effects that allow teleportation or planar travel work within the tomb as long as they aren't used to leave or enter the tomb's area."
 					]
 				},
@@ -2352,7 +2352,7 @@
 							"type": "item",
 							"name": "Beguiling Realm",
 							"entries": [
-								"Within 6 miles of the lair, all Charisma ({@skill Persuasion}) and Charisma ({@skill Performance}) checks have disadvantage, and all Charisma ({@skill Deception}) and Charisma ({@skill Intimidation}) checks have advantage."
+								"Within 6 miles of the lair, all Charisma ({@skill Persuasion}) and Charisma ({@skill Représentation}) checks have disadvantage, and all Charisma ({@skill Tromperie}) and Charisma ({@skill Intimidation}) checks have advantage."
 							]
 						},
 						{
@@ -2503,7 +2503,7 @@
 							"type": "item",
 							"name": "Sapping Mist",
 							"entries": [
-								"The area within 1 mile of the lair is {@variantrule Lightly Obscured|XPHB} by pale fog. Whenever a creature other than the dracolich or one of its allies finishes a {@variantrule Long Rest|XPHB} in that area, it must succeed on a {@dc 15} Constitution saving throw or gain 1 {@condition Exhaustion|XPHB} level."
+								"The area within 1 mile of the lair is {@variantrule Lightly Obscured|XPHB} by pale fog. Whenever a creature other than the dracolich or one of its allies finishes a {@variantrule Long Rest|XPHB} in that area, it must succeed on a {@dc 15} Constitution saving throw or gain 1 {@condition Épuisement|XPHB} level."
 							]
 						},
 						{
@@ -2539,7 +2539,7 @@
 							"type": "item",
 							"name": "Spectral Web",
 							"entries": [
-								"A glistening spectral spider web erupts from a point the drow can see within 120 feet of her. Each creature within 60 feet of that point must succeed a {@dc 19} Dexterity saving throw or be {@condition restrained} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								"A glistening spectral spider web erupts from a point the drow can see within 120 feet of her. Each creature within 60 feet of that point must succeed a {@dc 19} Dexterity saving throw or be {@condition Entravé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 							]
 						},
 						{
@@ -2563,7 +2563,7 @@
 					"type": "list",
 					"items": [
 						"Dyrrn uses its Corruption action.",
-						"A 30-foot-square area of ground within 120 feet of Dyrrn sprouts tentacles until initiative count 20 on the next round. Any creature that starts or ends its turn in the area must succeed on a {@dc 23} Strength saving throw or be {@condition restrained}. A creature can escape the tentacles with a successful {@dc 23} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check as an action.",
+						"A 30-foot-square area of ground within 120 feet of Dyrrn sprouts tentacles until initiative count 20 on the next round. Any creature that starts or ends its turn in the area must succeed on a {@dc 23} Strength saving throw or be {@condition Entravé}. A creature can escape the tentacles with a successful {@dc 23} Strength ({@skill Athlétisme}) or Dexterity ({@skill Acrobaties}) check as an action.",
 						"Each creature of Dyrrn's choice that it can see within 120 feet of it must succeed on a {@dc 23} Wisdom saving throw or take 26 ({@damage 4d12}) psychic damage. Unless the target has immunity to psychic damage, its Intelligence score is reduced by {@dice 1d4} each time it fails the saving throw for this lair action. The target dies if its Intelligence score is reduced to 0. The reduction lasts until the target finishes a short or long rest."
 					]
 				}
@@ -2648,7 +2648,7 @@
 						{
 							"type": "item",
 							"name": "Turning Weapons",
-							"entry": "While in its lair, Ebonbane can transform nonmagical {@item Greatsword|XPHB|Greatswords} and {@item Longsword|XPHB|Longswords} within 1 mile of the lair into {@creature Animated Flying Sword|XMM|Animated Flying Swords} by completing a 24-hour ritual."
+							"entry": "While in its lair, Ebonbane can transform nonmagical {@item Épée à deux mains|XPHB|Greatswords} and {@item Épée longue|XPHB|Longswords} within 1 mile of the lair into {@creature Animated Flying Sword|XMM|Animated Flying Swords} by completing a 24-hour ritual."
 						}
 					]
 				},
@@ -2742,7 +2742,7 @@
 					"type": "list",
 					"items": [
 						"Creatures within 5 miles of an elder brain feel as if they are being followed, even when they are not.",
-						"The elder brain can overhear any telepathic conversation happening within 5 miles of it. The creature that initiated the telepathic conversation makes a {@dc 18} Wisdom ({@skill Insight}) check when telepathic contact is first established. If the check succeeds, the creature is aware that something is eavesdropping on the conversation. The nature of the eavesdropper isn't revealed, and the elder brain can't participate in the telepathic conversation unless it has formed a psychic link with the creature that initiated it.",
+						"The elder brain can overhear any telepathic conversation happening within 5 miles of it. The creature that initiated the telepathic conversation makes a {@dc 18} Wisdom ({@skill Perspicacité}) check when telepathic contact is first established. If the check succeeds, the creature is aware that something is eavesdropping on the conversation. The nature of the eavesdropper isn't revealed, and the elder brain can't participate in the telepathic conversation unless it has formed a psychic link with the creature that initiated it.",
 						"Any creature with which the elder brain has formed a psychic link hears faint, incomprehensible whispers in the deepest recesses of its mind. This psychic detritus consists of the elder brain's stray thoughts commingled with those of other creatures to which it is linked."
 					]
 				},
@@ -2762,7 +2762,7 @@
 						{
 							"type": "item",
 							"name": "Beguiling Whisper",
-							"entry": "The dragon telepathically whispers to one creature within range of the dragon's telepathy. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by the dragon until initiative count 20 on the next round. A creature {@condition charmed} in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to the creature."
+							"entry": "The dragon telepathically whispers to one creature within range of the dragon's telepathy. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by the dragon until initiative count 20 on the next round. A creature {@condition Charmé} in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to the creature."
 						},
 						{
 							"type": "item",
@@ -2874,13 +2874,13 @@
 			"source": "WDMM",
 			"page": 275,
 			"lairActions": [
-				"Unless he is {@condition incapacitated}, Fazrian can take one of the following lair actions on initiative count 20 (losing initiative ties) while on the Terminus Level:",
+				"Unless he is {@condition Incapable}, Fazrian can take one of the following lair actions on initiative count 20 (losing initiative ties) while on the Terminus Level:",
 				{
 					"type": "list",
 					"items": [
 						"Blood flows from Fazrian's eyes until initiative count 20 on the next round. No creature within 120 feet of the planetar can regain hit points until the effect ends.",
 						"Fazrian's eyes become smoldering black voids until initiative count 20 on the next round. All other creatures within 120 feet of the planetar have disadvantage on saving throws until the effect ends.",
-						"Blinding magical light springs from Fazrian's eyes until initiative count 20 on the next round. If a creature starts its turn within 120 feet of the planetar and the two of them can see each other, Fazrian can force the creature to make a {@dc 20} Constitution saving throw. On a failed save, the creature is {@condition blinded}. The blindness lasts until the creature receives a {@spell lesser restoration} spell or similar magic."
+						"Blinding magical light springs from Fazrian's eyes until initiative count 20 on the next round. If a creature starts its turn within 120 feet of the planetar and the two of them can see each other, Fazrian can force the creature to make a {@dc 20} Constitution saving throw. On a failed save, the creature is {@condition Aveuglé}. The blindness lasts until the creature receives a {@spell lesser restoration} spell or similar magic."
 					]
 				}
 			],
@@ -2986,7 +2986,7 @@
 							"name": "Beguiling Realm",
 							"type": "item",
 							"entries": [
-								"Within 6 miles of the lair, all Charisma ({@skill Persuasion}) and Wisdom ({@skill Insight}) checks have disadvantage, and all Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks have advantage."
+								"Within 6 miles of the lair, all Charisma ({@skill Persuasion}) and Wisdom ({@skill Perspicacité}) checks have disadvantage, and all Charisma ({@skill Tromperie}) and Charisma ({@skill Représentation}) checks have advantage."
 							]
 						},
 						{
@@ -3019,7 +3019,7 @@
 					"items": [
 						"Fraz-Urb'luu causes up to 5 doors within the lair to become walls, and an equal number of doors to appear on walls where there previously were none.",
 						"Fraz-Urb'luu chooses one humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the {@spell simulacrum} spell). This simulacrum obeys Fraz-Urb'luu's commands and is destroyed on the next initiative count 20.",
-						"Fraz-Urb'luu creates a {@item wave} of anguish. Each creature he can see within the lair must succeed on a {@dc 23} Wisdom saving throw or take 33 ({@damage 6d10}) psychic damage."
+						"Fraz-Urb'luu creates a {@item Vague} of anguish. Each creature he can see within the lair must succeed on a {@dc 23} Wisdom saving throw or take 33 ({@damage 6d10}) psychic damage."
 					]
 				}
 			],
@@ -3131,7 +3131,7 @@
 					"type": "list",
 					"items": [
 						"Gar may teleport anywhere within the coral mountain, bringing up to five willing creatures with him.",
-						"The coral in a 60-foot radius grows rapidly around creatures inside the coral mountain. Each creature must succeed on a {@dc 18} Strength saving throw or become {@condition restrained}. Restrained creatures can take an action on their turn to make a {@dc 18} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check to free themselves. This effect lasts for 1 minute unless dispelled (it counts as a 6th level spell), and doesn't require Gar to maintain {@status concentration}. Gar Shatterkeel and any creatures he designates are immune to this effect.",
+						"The coral in a 60-foot radius grows rapidly around creatures inside the coral mountain. Each creature must succeed on a {@dc 18} Strength saving throw or become {@condition Entravé}. Restrained creatures can take an action on their turn to make a {@dc 18} Strength ({@skill Athlétisme}) or Dexterity ({@skill Acrobaties}) check to free themselves. This effect lasts for 1 minute unless dispelled (it counts as a 6th level spell), and doesn't require Gar to maintain {@status concentration}. Gar Shatterkeel and any creatures he designates are immune to this effect.",
 						"Up to five corpses that Gar can see within 60 feet rise up as {@creature drowned blade|GoS|drowned blades} and attack anyone Gar directs them to on his turn."
 					]
 				}
@@ -3174,7 +3174,7 @@
 							"name": "Hateful Restraints",
 							"type": "item",
 							"entries": [
-								"Geryon targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 21} Wisdom saving throw or become {@condition restrained} for 1 minute. The target can end the effect on itself if it deals any damage to one or more of its allies."
+								"Geryon targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 21} Wisdom saving throw or become {@condition Entravé} for 1 minute. The target can end the effect on itself if it deals any damage to one or more of its allies."
 							]
 						}
 					]
@@ -3222,7 +3222,7 @@
 					"type": "list",
 					"items": [
 						"Geryon causes a blast of cold to burst from the ground at a point he can see within 120 feet of him. The cold fills a cube, 10 feet on each side, centered on that point. Each creature in that area must succeed on a {@dc 21} Constitution saving throw or take 28 ({@damage 8d6}) cold damage.",
-						"Geryon targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 21} Wisdom saving throw or become {@condition restrained} for 1 minute. The target can end the effect on itself if it deals any damage to one or more of its allies.",
+						"Geryon targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 21} Wisdom saving throw or become {@condition Entravé} for 1 minute. The target can end the effect on itself if it deals any damage to one or more of its allies.",
 						"Geryon casts the {@spell banishment} spell."
 					]
 				}
@@ -3403,7 +3403,7 @@
 								{
 									"type": "item",
 									"name": "Beguiling Glow",
-									"entry": "Warm light fills a 30-foot-radius sphere centered on the dragon; each creature in that area must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by the dragon until initiative count 20 on the next round."
+									"entry": "Warm light fills a 30-foot-radius sphere centered on the dragon; each creature in that area must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by the dragon until initiative count 20 on the next round."
 								}
 							]
 						}
@@ -3486,7 +3486,7 @@
 							"type": "item",
 							"name": "Foretelling Fog",
 							"entries": [
-								"The area within 1 mile of the lair is {@variantrule Lightly Obscured|XPHB} by opalescent fog. While in that area, creatures can't be {@status surprised|XPHB}, as the fog swirls into shapes that warn of danger."
+								"The area within 1 mile of the lair is {@variantrule Lightly Obscured|XPHB} by opalescent fog. While in that area, creatures can't be {@status Surpris|XPHB}, as the fog swirls into shapes that warn of danger."
 							]
 						}
 					]
@@ -3515,7 +3515,7 @@
 							"name": "Conjure Mirrors",
 							"type": "item",
 							"entries": [
-								"Smooth surfaces within the lair become as reflective as a polished mirror. Until a different lair action is used, creatures within the lair have disadvantage on Dexterity ({@skill Stealth}) checks made to hide."
+								"Smooth surfaces within the lair become as reflective as a polished mirror. Until a different lair action is used, creatures within the lair have disadvantage on Dexterity ({@skill Discrétion}) checks made to hide."
 							]
 						}
 					]
@@ -3538,7 +3538,7 @@
 							"name": "Beguiling Realm",
 							"type": "item",
 							"entries": [
-								"Within 6 miles of the lair, all Wisdom ({@skill Insight}) checks have disadvantage, and all Charisma ({@skill Deception}) and Charisma ({@skill Persuasion}) checks have advantage."
+								"Within 6 miles of the lair, all Wisdom ({@skill Perspicacité}) checks have disadvantage, and all Charisma ({@skill Tromperie}) and Charisma ({@skill Persuasion}) checks have advantage."
 							]
 						},
 						{
@@ -3563,7 +3563,7 @@
 					"type": "list",
 					"items": [
 						"Graz'zt casts the {@spell command} spell on every creature of his choice in the lair. He needn't see each one, but he must be aware that an individual is in the lair to target that creature. He issues the same command to all the targets.",
-						"Smooth surfaces within the lair become as reflective as a polished mirror. Until a different lair action is used, creatures within the lair have disadvantage on Dexterity ({@skill Stealth}) checks made to hide."
+						"Smooth surfaces within the lair become as reflective as a polished mirror. Until a different lair action is used, creatures within the lair have disadvantage on Dexterity ({@skill Discrétion}) checks made to hide."
 					]
 				}
 			],
@@ -3667,9 +3667,9 @@
 				{
 					"type": "list",
 					"items": [
-						"Grasping roots and vines erupt in a 20-foot radius centered on a point on the ground that the dragon can see within 120 feet of it. That area becomes {@quickref difficult terrain||3}, and each creature there must succeed on a {@dc 15} Strength saving throw or be {@condition restrained} by the roots and vines. A creature can be freed if it or another creature takes an action to make a {@dc 15} Strength check and succeeds. The roots and vines wilt away when the dragon uses this lair action again or when the dragon dies.",
+						"Grasping roots and vines erupt in a 20-foot radius centered on a point on the ground that the dragon can see within 120 feet of it. That area becomes {@quickref difficult terrain||3}, and each creature there must succeed on a {@dc 15} Strength saving throw or be {@condition Entravé} by the roots and vines. A creature can be freed if it or another creature takes an action to make a {@dc 15} Strength check and succeeds. The roots and vines wilt away when the dragon uses this lair action again or when the dragon dies.",
 						"A wall of tangled brush bristling with thorns springs into existence on a solid surface within 120 feet of the dragon. The wall is up to 60 feet long, 10 feet high, and 5 feet thick, and it blocks line of sight. When the wall appears, each creature in its area must make a {@dc 15} Dexterity saving throw. A creature that fails the save takes 18 ({@damage 4d8}) piercing damage and is pushed 5 feet out of the wall's space, appearing on whichever side of the wall it wants. A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, a creature in the wall's space must make a {@dc 15} Dexterity saving throw once each round it's in contact with the wall, taking 18 ({@damage 4d8}) piercing damage on a failed save, or half as much damage on a successful one. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to fire damage, resistance to bludgeoning and piercing damage, and immunity to psychic damage. The wall sinks back into the ground when the dragon uses this lair action again or when the dragon dies.",
-						"Magical fog billows around one creature the dragon can see within 120 feet of it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by the dragon until initiative count 20 on the next round."
+						"Magical fog billows around one creature the dragon can see within 120 feet of it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by the dragon until initiative count 20 on the next round."
 					]
 				},
 				{
@@ -3689,7 +3689,7 @@
 								{
 									"type": "item",
 									"name": "Lashing Root",
-									"entry": "One large root or branch that is part of the lair makes a melee attack roll against a creature within 10 feet of it. It has a {@hit 7} bonus to hit and deals 10 ({@damage 3d6}) bludgeoning damage on a hit. If the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+									"entry": "One large root or branch that is part of the lair makes a melee attack roll against a creature within 10 feet of it. It has a {@hit 7} bonus to hit and deals 10 ({@damage 3d6}) bludgeoning damage on a hit. If the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition À terre}."
 								}
 							]
 						}
@@ -3773,7 +3773,7 @@
 							"type": "item",
 							"name": "Poisonous Thicket",
 							"entries": [
-								"Ordinary plants growing within 1 mile of the lair poison the air around them. Whenever a creature other than the dragon or its allies finishes a {@variantrule Long Rest|XPHB} in that area, it must succeed on a {@dc 15} Constitution saving throw or have the {@condition Poisoned|XPHB} condition for 1 hour."
+								"Ordinary plants growing within 1 mile of the lair poison the air around them. Whenever a creature other than the dragon or its allies finishes a {@variantrule Long Rest|XPHB} in that area, it must succeed on a {@dc 15} Constitution saving throw or have the {@condition Empoisonné|XPHB} condition for 1 hour."
 							]
 						}
 					]
@@ -3840,7 +3840,7 @@
 					"type": "list",
 					"items": [
 						"Birds, rodents, snakes, spiders, or toads (or some other creatures appropriate to the hag) are found in great profusion.",
-						"Beasts that have an Intelligence score of 2 or lower are {@condition charmed} by the hag and directed to be aggressive toward intruders in the area.",
+						"Beasts that have an Intelligence score of 2 or lower are {@condition Charmé} by the hag and directed to be aggressive toward intruders in the area.",
 						"Strange carved figurines, twig fetishes, or rag dolls magically appear in trees."
 					]
 				}
@@ -3890,12 +3890,12 @@
 						{
 							"type": "item",
 							"name": "Children of the Night",
-							"entry": "Harkon exerts influence over the animals of his domain. From dusk until dawn, Medium or smaller Beasts within 1 miles of Harkon have the {@condition Charmed|XPHB} condition. If Harkon pleases, these animals become {@variantrule Hostile [Attitude]|XPHB|Hostile} to creatures other than Harkon and his allies."
+							"entry": "Harkon exerts influence over the animals of his domain. From dusk until dawn, Medium or smaller Beasts within 1 miles of Harkon have the {@condition Charmé|XPHB} condition. If Harkon pleases, these animals become {@variantrule Hostile [Attitude]|XPHB|Hostile} to creatures other than Harkon and his allies."
 						},
 						{
 							"type": "item",
 							"name": "Closing the Borders",
-							"entry": "While in his domain, Harkon can close or open the borders to Kartakass at will. While the borders are closed, a strange melody fills the Mists surrounding Kartakass. A creature that enters the Mists for the first time on a turn or starts its turn in them must succeed on a {@dc 15} Wisdom saving throw, or it has the {@condition Unconscious|XPHB} condition for {@dice 1d6} hours, then awakes within sight of the town of Harmonia in Kartakass. A creature makes this save only once per turn."
+							"entry": "While in his domain, Harkon can close or open the borders to Kartakass at will. While the borders are closed, a strange melody fills the Mists surrounding Kartakass. A creature that enters the Mists for the first time on a turn or starts its turn in them must succeed on a {@dc 15} Wisdom saving throw, or it has the {@condition Inconscient|XPHB} condition for {@dice 1d6} hours, then awakes within sight of the town of Harmonia in Kartakass. A creature makes this save only once per turn."
 						}
 					]
 				},
@@ -3914,7 +3914,7 @@
 						{
 							"type": "item",
 							"name": "Closing the Borders",
-							"entry": "While in his domain, Hazlik can close or open the borders to Hazlan at will. While the borders are closed, the Mists surrounding Hazlan are filled with monstrous magical experiments. A creature that enters the Mists for the first time on a turn or starts its turn there must succeed on a {@dc 15} Dexterity saving throw or take 5 ({@dice 1d10}) Force damage and have the {@condition Restrained|XPHB} condition until the start of its next turn. A creature makes this save only once per turn."
+							"entry": "While in his domain, Hazlik can close or open the borders to Hazlan at will. While the borders are closed, the Mists surrounding Hazlan are filled with monstrous magical experiments. A creature that enters the Mists for the first time on a turn or starts its turn there must succeed on a {@dc 15} Dexterity saving throw or take 5 ({@dice 1d10}) Force damage and have the {@condition Entravé|XPHB} condition until the start of its next turn. A creature makes this save only once per turn."
 						},
 						{
 							"type": "item",
@@ -3988,8 +3988,8 @@
 				{
 					"type": "list",
 					"items": [
-						"Hythonia briefly animates creatures that have been {@condition petrified} by her gaze. Each statue attacks one creature within 5 feet of it, with a {@hit 11} bonus to hit and dealing 10 ({@damage 3d6}) bludgeoning damage on a hit. If a Medium or smaller creature takes this damage, it is also {@condition grappled} (escape {@dc 15}).",
-						"Hythonia causes spectral snakes to erupt from a point she can see within 150 feet of her. Each creature within 20 feet of that point must succeed on a {@dc 19} Constitution saving throw or take 5 ({@damage 2d4}) piercing damage and become {@condition poisoned} until the end of its next turn. While {@condition poisoned} in this way, the creature has disadvantage on Intelligence checks and Intelligence saving throws, and it behaves as if under the effect of the {@spell confusion} spell."
+						"Hythonia briefly animates creatures that have been {@condition Pétrifié} by her gaze. Each statue attacks one creature within 5 feet of it, with a {@hit 11} bonus to hit and dealing 10 ({@damage 3d6}) bludgeoning damage on a hit. If a Medium or smaller creature takes this damage, it is also {@condition Agrippé} (escape {@dc 15}).",
+						"Hythonia causes spectral snakes to erupt from a point she can see within 150 feet of her. Each creature within 20 feet of that point must succeed on a {@dc 19} Constitution saving throw or take 5 ({@damage 2d4}) piercing damage and become {@condition Empoisonné} until the end of its next turn. While {@condition Empoisonné} in this way, the creature has disadvantage on Intelligence checks and Intelligence saving throws, and it behaves as if under the effect of the {@spell confusion} spell."
 					]
 				}
 			],
@@ -4000,7 +4000,7 @@
 					"items": [
 						"A large population of snakes dwells in the region.",
 						"Trees within 1 mile of the lair are petrified wood. Plants that stay within 500 feet of the lair for 1 day turn to stone.",
-						"Small bodies of water within 1 mile of the lair become poisonous. A creature that drinks the water must succeed on a {@dc 19} Constitution saving throw or become {@condition poisoned} for 8 hours. An affected creature can repeat the saving throw at the end of each hour."
+						"Small bodies of water within 1 mile of the lair become poisonous. A creature that drinks the water must succeed on a {@dc 19} Constitution saving throw or become {@condition Empoisonné} for 8 hours. An affected creature can repeat the saving throw at the end of each hour."
 					]
 				}
 			],
@@ -4041,9 +4041,9 @@
 				{
 					"type": "list",
 					"items": [
-						"Any fires in the lair flare up drastically, quadrupling in size (for example, a fire blazing in a 5-foot by 5-foot area expands to a 10-foot by 10-foot area). Pools or streams of lava or other molten material are also affected. Creatures caught in the area of an expanded fire are subject to the normal damage for entering or being in the fire. Creatures caught by a sudden flood of lava must succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}, in addition to the normal damage for contact with molten rock.",
+						"Any fires in the lair flare up drastically, quadrupling in size (for example, a fire blazing in a 5-foot by 5-foot area expands to a 10-foot by 10-foot area). Pools or streams of lava or other molten material are also affected. Creatures caught in the area of an expanded fire are subject to the normal damage for entering or being in the fire. Creatures caught by a sudden flood of lava must succeed on a {@dc 20} Strength saving throw or be knocked {@condition À terre}, in addition to the normal damage for contact with molten rock.",
 						"A thick cloud of black smoke and burning embers fills a 40-foot-radius sphere within 120 feet of Imix, lasting until initiative count 20 of the next round. Creatures and objects within or beyond the smoke are heavily obscured. A creature that enters the cloud of embers for the first time on a turn or starts its turn there takes 10 ({@damage 3d6}) fire damage.",
-						"A {@item wave} of searing heat fills the lair in a 300-foot radius around Imix for an instant. Each creature other than Imix in the area must succeed on a {@dc 15} Constitution saving throw or take {@damage 1d8} fire damage. Creatures that take fire damage from this effect gain one level of {@condition exhaustion}. In addition, there is a fifty percent chance that any container of fluid held or carried by an affected creature (for example, a magic potion) is destroyed."
+						"A {@item Vague} of searing heat fills the lair in a 300-foot radius around Imix for an instant. Each creature other than Imix in the area must succeed on a {@dc 15} Constitution saving throw or take {@damage 1d8} fire damage. Creatures that take fire damage from this effect gain one level of {@condition Épuisement}. In addition, there is a fifty percent chance that any container of fluid held or carried by an affected creature (for example, a magic potion) is destroyed."
 					]
 				}
 			],
@@ -4052,7 +4052,7 @@
 				{
 					"type": "list",
 					"items": [
-						"A dry, baking heat {@item wave} strikes the region within 10 miles of Imix's location. At first, effects are minor - grass turns brown, animals become listless, work and travel become very tiring. The longer Imix remains, the worse the heat becomes; after 5 days, crops die and ponds dry up; after 10 days, unprotected livestock dies, and wells and small rivers dry up; after 20 days, large lakes and rivers are reduced in depth by 20 feet and shrink accordingly.",
+						"A dry, baking heat {@item Vague} strikes the region within 10 miles of Imix's location. At first, effects are minor - grass turns brown, animals become listless, work and travel become very tiring. The longer Imix remains, the worse the heat becomes; after 5 days, crops die and ponds dry up; after 10 days, unprotected livestock dies, and wells and small rivers dry up; after 20 days, large lakes and rivers are reduced in depth by 20 feet and shrink accordingly.",
 						"Wildfires erupt within a 5-mile radius of Imix's lair. Every hour, there is a ten percent chance that characters in this area are caught in the path of a wildfire moving 50 feet per round. Each character must succeed on a {@dc 21} Constitution saving throw or take 10 ({@damage 3d6}) fire damage. A wildfire continues to threaten the characters for {@dice 1d10} rounds or until they get out of its path. Wooden structures caught in the wildfire are destroyed.",
 						"Lava fountains erupt from the ground within 1 mile of Imix's lair. Every hour, there is a ten percent chance that characters in this area are close enough to an erupting lava fountain to be in danger. A lava fountain creates a vent 20 feet in diameter, and hurls globs of lava up to 200 feet away. Each character within this area must succeed on a {@dc 21} Dexterity saving throw or take 11 ({@damage 2d10}) bludgeoning damage plus 17 ({@damage 5d6}) fire damage. A fountain lasts for {@dice 2d10} rounds before subsiding.",
 						"Wildfires or volcanic fissures within 1 mile of Imix's lair form intermittent portals to the Elemental Plane of Fire, allowing elemental creatures into the mortal world to dwell near those points."
@@ -4109,14 +4109,14 @@
 							"type": "item",
 							"name": "Green Slime",
 							"entries": [
-								"A {@hazard green slime} (see the {@book Dungeon Master's Guide|DMG}) appears on a spot on the ceiling that Juiblex chooses within the lair. The slime disintegrates after 1 hour."
+								"A {@hazard Gluant vert} (see the {@book Dungeon Master's Guide|DMG}) appears on a spot on the ceiling that Juiblex chooses within the lair. The slime disintegrates after 1 hour."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Slippery Slime",
 							"entries": [
-								"Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 feet on a side. When the slime appears, each creature on it must succeed on a {@dc 21} Dexterity saving throw or fall {@condition prone} and slide 10 feet in a random direction determined by a {@dice d8} roll. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save.",
+								"Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 feet on a side. When the slime appears, each creature on it must succeed on a {@dc 21} Dexterity saving throw or fall {@condition À terre} and slide 10 feet in a random direction determined by a {@dice d8} roll. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save.",
 								"The slime lasts for 1 hour or until it is burned away with fire. If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 ({@damage 4d10}) fire damage."
 							]
 						},
@@ -4124,8 +4124,8 @@
 							"type": "item",
 							"name": "Sticky Slime",
 							"entries": [
-								"Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 feet on a side. When the slime appears, each creature in that area must succeed on a {@dc 21} Strength saving throw or become {@condition restrained}. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save.",
-								"A {@condition restrained} creature is stuck as long as it remains in the slimy area or until it breaks free. The {@condition restrained} creature, or another creature that can reach it, can use its action to try to break free and must succeed on a {@dc 21} Strength check. The slime lasts for 1 hour or until it is burned away with fire. If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 ({@damage 4d10}) fire damage."
+								"Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 feet on a side. When the slime appears, each creature in that area must succeed on a {@dc 21} Strength saving throw or become {@condition Entravé}. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save.",
+								"A {@condition Entravé} creature is stuck as long as it remains in the slimy area or until it breaks free. The {@condition Entravé} creature, or another creature that can reach it, can use its action to try to break free and must succeed on a {@dc 21} Strength check. The slime lasts for 1 hour or until it is burned away with fire. If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 ({@damage 4d10}) fire damage."
 							]
 						}
 					]
@@ -4148,7 +4148,7 @@
 							"type": "item",
 							"name": "Corrupted Nature",
 							"entries": [
-								"Within 6 miles of the lair, all Wisdom ({@skill Medicine}) and Wisdom ({@skill Survival}) checks have disadvantage."
+								"Within 6 miles of the lair, all Wisdom ({@skill Médecine}) and Wisdom ({@skill Survie}) checks have disadvantage."
 							]
 						},
 						{
@@ -4172,9 +4172,9 @@
 				{
 					"type": "list",
 					"items": [
-						"Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 feet on a side. The slime lasts for 1 hour or until it is burned away with fire. When the slime appears, each creature in that area must succeed on a {@dc 21} Strength saving throw or become {@condition restrained}. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save. A {@condition restrained} creature is stuck as long as it remains in the slimy area or until it breaks free. The {@condition restrained} creature, or another creature who can reach it, can use its action to try to break free and must succeed on a {@dc 21} Strength check. If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 ({@damage 4d10}) fire damage.",
-						"Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 feet on a side. The slime lasts for 1 hour or until it is burned away with fire. When the slime appears, each creature on it must succeed on a {@dc 21} Dexterity saving throw or fall {@condition prone} and slide 10 feet in a random direction determined by a {@dice d8} roll. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save. If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 ({@damage 4d10}) fire damage.",
-						"A {@hazard green slime} (see the {@book Dungeon Master's Guide|DMG}) appears on a spot on the ceiling that Juiblex chooses within the lair. The slime disintegrates after 1 hour."
+						"Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 feet on a side. The slime lasts for 1 hour or until it is burned away with fire. When the slime appears, each creature in that area must succeed on a {@dc 21} Strength saving throw or become {@condition Entravé}. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save. A {@condition Entravé} creature is stuck as long as it remains in the slimy area or until it breaks free. The {@condition Entravé} creature, or another creature who can reach it, can use its action to try to break free and must succeed on a {@dc 21} Strength check. If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 ({@damage 4d10}) fire damage.",
+						"Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 feet on a side. The slime lasts for 1 hour or until it is burned away with fire. When the slime appears, each creature on it must succeed on a {@dc 21} Dexterity saving throw or fall {@condition À terre} and slide 10 feet in a random direction determined by a {@dice d8} roll. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save. If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 ({@damage 4d10}) fire damage.",
+						"A {@hazard Gluant vert} (see the {@book Dungeon Master's Guide|DMG}) appears on a spot on the ceiling that Juiblex chooses within the lair. The slime disintegrates after 1 hour."
 					]
 				}
 			],
@@ -4399,7 +4399,7 @@
 					"items": [
 						"The kraken can alter the weather at will in a 6-mile radius centered on its lair. The effect is identical to the {@spell control weather} spell.",
 						"Water elementals coalesce within 6 miles of the lair. These elementals can't leave the water and have Intelligence and Charisma scores of 1 (-5).",
-						"Aquatic creatures within 6 miles of the lair that have an Intelligence score of 2 or lower are {@condition charmed} by the kraken and aggressive toward intruders in the area."
+						"Aquatic creatures within 6 miles of the lair that have an Intelligence score of 2 or lower are {@condition Charmé} by the kraken and aggressive toward intruders in the area."
 					]
 				},
 				"When the kraken dies, all of these regional effects fade immediately."
@@ -4419,7 +4419,7 @@
 							"type": "item",
 							"name": "Ocean Tyrant",
 							"entries": [
-								"The kraken exerts its dominance over animals in its domain. All Beasts within 1 mile of the lair have the {@condition Charmed|XPHB} condition while in that area."
+								"The kraken exerts its dominance over animals in its domain. All Beasts within 1 mile of the lair have the {@condition Charmé|XPHB} condition while in that area."
 							]
 						},
 						{
@@ -4454,7 +4454,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Water sources within the lair are supernaturally fouled and poisonous. Creatures that drink these waters must make a {@dc 14} Constitution saving throw or be {@condition poisoned} for 1 minute. Afflicted creatures can make a new saving throw at the end of each of their turns, ending the condition on a success.",
+						"Water sources within the lair are supernaturally fouled and poisonous. Creatures that drink these waters must make a {@dc 14} Constitution saving throw or be {@condition Empoisonné} for 1 minute. Afflicted creatures can make a new saving throw at the end of each of their turns, ending the condition on a success.",
 						"Plants within 1 mile of the lair suffer from a calcifying mold that dries and hardens leaves, killing many otherwise hearty thistles and heather.",
 						"Fog lightly obscures the land within 3 miles of the lair."
 					]
@@ -4562,9 +4562,9 @@
 				{
 					"type": "list",
 					"items": [
-						"Poisonous spores fill a 10-foot cube that the lich can see within 120 feet of it. Any creature that enters the cloud for the first time on a turn or starts its turn there must succeed on a {@dc 19} Constitution saving throw or be {@condition poisoned} until the end of its next turn. The cloud lasts for 1 minute or until it is dispersed by a strong wind.",
+						"Poisonous spores fill a 10-foot cube that the lich can see within 120 feet of it. Any creature that enters the cloud for the first time on a turn or starts its turn there must succeed on a {@dc 19} Constitution saving throw or be {@condition Empoisonné} until the end of its next turn. The cloud lasts for 1 minute or until it is dispersed by a strong wind.",
 						"The lich commands the might of its diseased grove, creating a shambling mound. The shambling mound appears in an unoccupied space within 30 feet of the lich, acts on its own initiative count, and obeys the lich's commands. The shambling mound dies after 1 hour or when the lich uses this lair action again.",
-						"Rotten roots and vines magically erupt in a 20-foot radius centered on a point on the ground that the lich can see within 120 feet of it. The lich is unaffected by the roots and vines. For all other creatures, the area becomes {@quickref difficult terrain||3}, and each creature in the area must succeed on a {@dc 19} Strength saving throw or be {@condition restrained} by the roots. As an action, a creature can try to free itself or another creature within its reach, doing so with a successful {@dc 19} Strength ({@skill Athletics}) check. The roots and vines wilt away when the lich uses this lair action again or when the lich dies."
+						"Rotten roots and vines magically erupt in a 20-foot radius centered on a point on the ground that the lich can see within 120 feet of it. The lich is unaffected by the roots and vines. For all other creatures, the area becomes {@quickref difficult terrain||3}, and each creature in the area must succeed on a {@dc 19} Strength saving throw or be {@condition Entravé} by the roots. As an action, a creature can try to free itself or another creature within its reach, doing so with a successful {@dc 19} Strength ({@skill Athlétisme}) check. The roots and vines wilt away when the lich uses this lair action again or when the lich dies."
 					]
 				}
 			]
@@ -4586,12 +4586,12 @@
 						{
 							"type": "item",
 							"name": "Fearless Soldiers",
-							"entry": "Undead allies of Lord Soth have Immunity to the {@condition Frightened|XPHB} condition."
+							"entry": "Undead allies of Lord Soth have Immunity to the {@condition Effrayé|XPHB} condition."
 						},
 						{
 							"type": "item",
 							"name": "Guilt of Sithicus",
-							"entry": "Few sleep soundly in Sithicus. Whenever a creature other than Lord Soth and his allies finishes a Long Rest in the domain, the creature must succeed on a {@dc 10} Constitution saving throw or gain 1 {@condition Exhaustion|XPHB} level."
+							"entry": "Few sleep soundly in Sithicus. Whenever a creature other than Lord Soth and his allies finishes a Long Rest in the domain, the creature must succeed on a {@dc 10} Constitution saving throw or gain 1 {@condition Épuisement|XPHB} level."
 						}
 					]
 				},
@@ -4820,7 +4820,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Flaming winds scour the area within 2 miles of Mephistopheles's lair. Any creature with vulnerability to fire damage suffers 1 level of {@condition exhaustion} for every hour spent this close to the lair.",
+						"Flaming winds scour the area within 2 miles of Mephistopheles's lair. Any creature with vulnerability to fire damage suffers 1 level of {@condition Épuisement} for every hour spent this close to the lair.",
 						"Within 2 miles of Mephistopheles's lair, every 60 feet of movement results in a flame geyser erupting. When a geyser appears, the creature that triggered its appearance and fails a Dexterity 22 saving throw suffers 10 ({@damage 3d6}) fire damage. Damage is halved if the saving throw is successful. The geyser remains for a day."
 					]
 				},
@@ -4841,7 +4841,7 @@
 							"name": "Gale",
 							"type": "item",
 							"entries": [
-								"The air within 60 feet of the vessel is filled with wind. Until initiative count 20 on the next round, that area is {@quickref difficult terrain||3}, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+								"The air within 60 feet of the vessel is filled with wind. Until initiative count 20 on the next round, that area is {@quickref difficult terrain||3}, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition À terre}."
 							]
 						},
 						{
@@ -4897,7 +4897,7 @@
 					"items": [
 						"The ship regains 22 ({@dice 4d10}) hit points.",
 						"A strong wind propels the ship, increasing its speed by 30 feet until initiative count 20 on the next round.",
-						"The air within 60 feet of the ship is filled with howling wind. Until initiative count 20 on the next round, that area is {@quickref difficult terrain||3}, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+						"The air within 60 feet of the ship is filled with howling wind. Until initiative count 20 on the next round, that area is {@quickref difficult terrain||3}, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition À terre}."
 					]
 				}
 			],
@@ -4927,12 +4927,12 @@
 						{
 							"type": "item",
 							"name": "Banish into Dream",
-							"entry": "The dragon targets a creature it can see within 120 feet of it and attempts to send that creature to a dream plane. The target must succeed on a {@dc 15} Charisma saving throw or be banished to a harmless demiplane until initiative count 20 on the next round. While there, the target is {@condition stunned}. When the effect ends, the target reappears in the space it left or in the nearest unoccupied space."
+							"entry": "The dragon targets a creature it can see within 120 feet of it and attempts to send that creature to a dream plane. The target must succeed on a {@dc 15} Charisma saving throw or be banished to a harmless demiplane until initiative count 20 on the next round. While there, the target is {@condition Étourdi}. When the effect ends, the target reappears in the space it left or in the nearest unoccupied space."
 						},
 						{
 							"type": "item",
 							"name": "Compulsive Dance",
-							"entry": "The dragon targets a creature it can see in its lair, and a merry waltz begins to play that only the target can hear. The target must succeed on a {@dc 15} Intelligence saving throw or dance until initiative count 20 on the following round. The dancing creature is {@condition incapacitated} and must use all its movement to dance."
+							"entry": "The dragon targets a creature it can see in its lair, and a merry waltz begins to play that only the target can hear. The target must succeed on a {@dc 15} Intelligence saving throw or dance until initiative count 20 on the following round. The dancing creature is {@condition Incapable} and must use all its movement to dance."
 						},
 						{
 							"type": "item",
@@ -5033,7 +5033,7 @@
 							"name": "Supernatural Lure",
 							"type": "item",
 							"entries": [
-								"Entrances to the morkoth's lair have an enchantment that the morkoth can activate or suppress at any time while it's in its lair and not {@condition incapacitated}. Any creature within 30 feet of such an entrance and able to see it must make a {@dc 15} Wisdom saving throw. On a failed save, the creature feels an intense urge to use its movement on each of its turns to enter the lair and to move toward the morkoth's location (the target doesn't realize it's heading toward a creature). The target moves toward the morkoth by the most direct route. As soon as it can see the morkoth, the target can repeat the saving throw, ending the effect on itself on a success. It can also repeat the saving throw at the end of each of its turns and every time it takes damage."
+								"Entrances to the morkoth's lair have an enchantment that the morkoth can activate or suppress at any time while it's in its lair and not {@condition Incapable}. Any creature within 30 feet of such an entrance and able to see it must make a {@dc 15} Wisdom saving throw. On a failed save, the creature feels an intense urge to use its movement on each of its turns to enter the lair and to move toward the morkoth's location (the target doesn't realize it's heading toward a creature). The target moves toward the morkoth by the most direct route. As soon as it can see the morkoth, the target can repeat the saving throw, ending the effect on itself on a success. It can also repeat the saving throw at the end of each of its turns and every time it takes damage."
 							]
 						}
 					]
@@ -5062,7 +5062,7 @@
 					"items": [
 						"The morkoth is aware of any new arrival, whether an object or a creature, on its island or in its sanctum. As an action, the morkoth can locate any one creature or object on the island. Visitors to the island feel as though they are being watched, even when they aren't.",
 						"Each time a creature that has been on the island for less than a year finishes a short or long rest, it must make a {@dc 10} Intelligence ({@skill Investigation}) check. On a failure, the creature has misplaced one possession (chosen by the player, if the creature is that player's character). The possession remains nearby but concealed for a short time, so it can be recovered with a successful {@dc 15} Wisdom ({@skill Perception}) check. An object that is misplaced but not recovered ends up in the morkoth's lair 1 hour later. If the creature later goes to the morkoth's lair, its lost possessions stand out in its perception and are easily recovered.",
-						"Entrances to the morkoth's lair have an enchantment that the morkoth can activate or suppress at any time while it's in its lair and not {@condition incapacitated}. Any creature within 30 feet of such an entrance and able to see it must make a {@dc 15} Wisdom saving throw. On a failed save, the creature feels an intense urge to use its movement on each of its turns to enter the lair and to move toward the morkoth's location (the target doesn't realize it's heading toward a creature). The target moves toward the morkoth by the most direct route. As soon as it can see the morkoth, the target can repeat the saving throw, ending the effect on itself on a success. It can also repeat the saving throw at the end of each of its turns and every time it takes damage.",
+						"Entrances to the morkoth's lair have an enchantment that the morkoth can activate or suppress at any time while it's in its lair and not {@condition Incapable}. Any creature within 30 feet of such an entrance and able to see it must make a {@dc 15} Wisdom saving throw. On a failed save, the creature feels an intense urge to use its movement on each of its turns to enter the lair and to move toward the morkoth's location (the target doesn't realize it's heading toward a creature). The target moves toward the morkoth by the most direct route. As soon as it can see the morkoth, the target can repeat the saving throw, ending the effect on itself on a success. It can also repeat the saving throw at the end of each of its turns and every time it takes damage.",
 						"With a thought (no action required), the morkoth can initiate a change in the water within its lair that takes effect 1 minute later. The water can be as breathable and clear as air, or it can be normal water (ranging in clarity from murky to clear)."
 					]
 				},
@@ -5086,7 +5086,7 @@
 						{
 							"type": "item",
 							"name": "Mother's Watchers",
-							"entry": "Creatures that have sacrificed an eye to Mother can take a {@action Magic|XPHB} action and pray to her. When they do so, Lorinda can perceive through the creature's senses as well as her own until the end of the creature's next turn. When perceiving through a creature's senses, Lorinda benefits from any special senses it has."
+							"entry": "Creatures that have sacrificed an eye to Mother can take a {@action Magie|XPHB} action and pray to her. When they do so, Lorinda can perceive through the creature's senses as well as her own until the end of the creature's next turn. When perceiving through a creature's senses, Lorinda benefits from any special senses it has."
 						},
 						{
 							"type": "item",
@@ -5304,9 +5304,9 @@
 				{
 					"type": "list",
 					"items": [
-						"A 10-foot-radius area of rocky or earthy ground within 60 feet of Ogrémoch turns to sticky mud. Any creature on the ground in the area must succeed on a {@dc 15} Dexterity saving throw or sink 5 feet into the mud and be {@condition restrained}. A creature can take an action to make a {@dc 15} Strength check, ending the effect on itself or another creature within its reach on a success.",
-						"Crystalline spikes grow from the ground in a 20-foot-radius area within 60 feet of Ogrémoch. The area becomes {@quickref difficult terrain||3}. A creature that moves through the affected area takes {@damage 1d8} piercing damage for every 5 feet it moves there. Creatures that are knocked {@condition prone} in the area also take this damage.",
-						"A violent tremor shakes the lair in a 120-foot-radius around Ogrémoch. Each creature other than Ogrémoch on the ground in the area must succeed on a {@dc 15} Strength or Dexterity saving throw (target's choice) or be knocked {@condition prone}."
+						"A 10-foot-radius area of rocky or earthy ground within 60 feet of Ogrémoch turns to sticky mud. Any creature on the ground in the area must succeed on a {@dc 15} Dexterity saving throw or sink 5 feet into the mud and be {@condition Entravé}. A creature can take an action to make a {@dc 15} Strength check, ending the effect on itself or another creature within its reach on a success.",
+						"Crystalline spikes grow from the ground in a 20-foot-radius area within 60 feet of Ogrémoch. The area becomes {@quickref difficult terrain||3}. A creature that moves through the affected area takes {@damage 1d8} piercing damage for every 5 feet it moves there. Creatures that are knocked {@condition À terre} in the area also take this damage.",
+						"A violent tremor shakes the lair in a 120-foot-radius around Ogrémoch. Each creature other than Ogrémoch on the ground in the area must succeed on a {@dc 15} Strength or Dexterity saving throw (target's choice) or be knocked {@condition À terre}."
 					]
 				}
 			],
@@ -5317,7 +5317,7 @@
 					"items": [
 						"Earth tremors strike the region within 10 miles of Ogrémoch's location every {@dice 2d12} hours, each lasting {@dice 1d10} rounds. At first, damage is minor\u2014broken windows, cracked plaster, items toppled off shelves. The longer Ogrémoch remains, the stronger the tremors become. After 5 days, the tremors are strong enough to destroy flimsy structures. After 10 days, they are strong enough to destroy ordinary wooden buildings. After 20 days, they can seriously damage or destroy reinforced or fortified structures.",
 						"Magnetic disturbances within 10 miles of Ogrémoch prevent compasses from functioning there.",
-						"Hidden sinkholes and fissures form within 1 mile of Ogrémoch's location. A hidden sinkhole can be spotted from a safe distance by any creature with a passive Wisdom ({@skill Perception}) score of 15 or higher or spotted with a successful {@dc 15} Wisdom ({@skill Survival}) check. Otherwise, the first creature to step on the thin crust covering the sinkhole must succeed on a {@dc 15} Dexterity saving throw or fall {@dice 1d6 × 10} feet into the sinkhole or fissure.",
+						"Hidden sinkholes and fissures form within 1 mile of Ogrémoch's location. A hidden sinkhole can be spotted from a safe distance by any creature with a passive Wisdom ({@skill Perception}) score of 15 or higher or spotted with a successful {@dc 15} Wisdom ({@skill Survie}) check. Otherwise, the first creature to step on the thin crust covering the sinkhole must succeed on a {@dc 15} Dexterity saving throw or fall {@dice 1d6 × 10} feet into the sinkhole or fissure.",
 						"Natural caves and tunnels within 1 mile of Ogrémoch's lair form intermittent portals to the Elemental Plane of Earth, allowing elemental creatures into the mortal world to dwell near those points."
 					]
 				},
@@ -5333,8 +5333,8 @@
 				{
 					"type": "list",
 					"items": [
-						"Pools of water in the lair surge outward in a grasping tide. Any creature within 20 feet of such a pool must succeed on a {@dc 20} Strength saving throw or be pulled up to 20 feet into the water and knocked {@condition prone}.",
-						"Water within 120 feet of Olhydra becomes murky and opaque until initiative count 20 of the next round. A creature with {@sense darkvision} can't see through the water, and light can't illuminate it.",
+						"Pools of water in the lair surge outward in a grasping tide. Any creature within 20 feet of such a pool must succeed on a {@dc 20} Strength saving throw or be pulled up to 20 feet into the water and knocked {@condition À terre}.",
+						"Water within 120 feet of Olhydra becomes murky and opaque until initiative count 20 of the next round. A creature with {@sense Vision dans le noir} can't see through the water, and light can't illuminate it.",
 						"A freezing fog fills a 40-foot-radius sphere within 120 feet of Olhydra, lasting until initiative count 20 of the next round. Creatures and objects within or beyond the fog are heavily obscured. A creature that enters the freezing cloud for the first time on a turn or starts its turn there takes 10 ({@damage 3d6}) cold damage."
 					]
 				}
@@ -5346,7 +5346,7 @@
 					"items": [
 						"Violent downpours become frequent within 10 miles of the lair. A downpour occurs once every {@dice 2d12} hours, and lasts {@dice 1d3} hours. Downpours are so heavy that creatures moving overland travel at half normal speed",
 						"Within 5 miles of the lair, currents and tides are exceptionally strong and treacherous. Any ability checks made to safely navigate or control a vessel moving through these waters has disadvantage.",
-						"Aquatic creatures that have an Intelligence score of 2 or lower within 1 mile of the lair must succeed on a {@dc 15} Wisdom saving throw when they enter the area. If the saving throw succeeds, the creature is {@condition frightened} and attempts to leave the area, remaining {@condition frightened} while within it. On a failure, the creature becomes highly aggressive and remains in the area for 24 hours. While in this state, the creature gains advantage on saving throws against charm and fear effects.",
+						"Aquatic creatures that have an Intelligence score of 2 or lower within 1 mile of the lair must succeed on a {@dc 15} Wisdom saving throw when they enter the area. If the saving throw succeeds, the creature is {@condition Effrayé} and attempts to leave the area, remaining {@condition Effrayé} while within it. On a failure, the creature becomes highly aggressive and remains in the area for 24 hours. While in this state, the creature gains advantage on saving throws against charm and fear effects.",
 						"Natural springs and pools within 1 mile of the lair form intermittent portals to the Elemental Plane of Water, allowing elemental creatures into the mortal world to dwell near those points."
 					]
 				},
@@ -5374,7 +5374,7 @@
 							"type": "item",
 							"name": "Grasp of the Dead",
 							"entries": [
-								"Orcus causes skeletal arms to rise from an area on the ground in a 20-foot square that he can see. They last until the next initiative count 20. Each creature in that area when the arms appear must succeed on a {@dc 23} Strength saving throw or be {@condition restrained} until the arms disappear or until Orcus releases them (no action required)."
+								"Orcus causes skeletal arms to rise from an area on the ground in a 20-foot square that he can see. They last until the next initiative count 20. Each creature in that area when the arms appear must succeed on a {@dc 23} Strength saving throw or be {@condition Entravé} until the arms disappear or until Orcus releases them (no action required)."
 							]
 						},
 						{
@@ -5423,7 +5423,7 @@
 					"items": [
 						"Orcus's voice booms throughout the lair. His utterance causes one creature of his choice to be subjected to {@spell power word kill}. Orcus needn't see the creature, but he must be aware that the individual is in the lair.",
 						"Orcus causes up to six corpses within the lair to rise as {@creature skeleton||skeletons}, {@creature zombie||zombies}, or {@creature ghoul||ghouls}. These undead obey his telepathic commands, which can reach anywhere in the lair.",
-						"Orcus causes skeletal arms to rise from an area on the ground in a 20-foot square that he can see. They last until the next initiative count 20. Each creature in that area when the arms appear must succeed on a {@dc 23} Strength saving throw or be {@condition restrained} until the arms disappear or until Orcus releases their grasp (no action required)."
+						"Orcus causes skeletal arms to rise from an area on the ground in a 20-foot square that he can see. They last until the next initiative count 20. Each creature in that area when the arms appear must succeed on a {@dc 23} Strength saving throw or be {@condition Entravé} until the arms disappear or until Orcus releases their grasp (no action required)."
 					]
 				}
 			],
@@ -5530,7 +5530,7 @@
 				{
 					"type": "list",
 					"items": [
-						"A warm, sickly sweet wind blows briskly within one mile of Pazuzu. Each day, upon first encountering this wind, every creature must make a {@dc 21} Constitution saving throw or immediately vomit, suffering 14 ({@damage 4d6}) necrotic damage. Those that failed the saving throw are also {@condition poisoned} for one hour.",
+						"A warm, sickly sweet wind blows briskly within one mile of Pazuzu. Each day, upon first encountering this wind, every creature must make a {@dc 21} Constitution saving throw or immediately vomit, suffering 14 ({@damage 4d6}) necrotic damage. Those that failed the saving throw are also {@condition Empoisonné} for one hour.",
 						"Any flying creature of CR 2 or less becomes twisted after a day spent within 6 miles of Pazuzu. If not already evil-aligned, they become so. Flying insects, birds, and other flying creatures will harass any other creatures moving through the region, slowing movement by one half."
 					]
 				},
@@ -5552,8 +5552,8 @@
 					"type": "list",
 					"items": [
 						"Magma erupts from a point on the ground the dragon can see within 120 feet of it, creating a 20-foot-high, 5-foot-radius geyser. Each creature in the geyser's area must make a {@dc 15} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one.",
-						"A tremor shakes the lair in a 60-foot radius around the dragon. Each creature other than the dragon on the ground in that area must succeed on a {@dc 15} Dexterity saving throw or be knocked {@condition prone}.",
-						"Volcanic gases form a cloud in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The sphere spreads around corners, and its area is lightly obscured. It lasts until initiative count 20 on the next round. Each creature that starts its turn in the cloud must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} until the end of its turn. While {@condition poisoned} in this way, a creature is {@condition incapacitated}."
+						"A tremor shakes the lair in a 60-foot radius around the dragon. Each creature other than the dragon on the ground in that area must succeed on a {@dc 15} Dexterity saving throw or be knocked {@condition À terre}.",
+						"Volcanic gases form a cloud in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The sphere spreads around corners, and its area is lightly obscured. It lasts until initiative count 20 on the next round. Each creature that starts its turn in the cloud must succeed on a {@dc 13} Constitution saving throw or be {@condition Empoisonné} until the end of its turn. While {@condition Empoisonné} in this way, a creature is {@condition Incapable}."
 					]
 				},
 				{
@@ -5568,7 +5568,7 @@
 								{
 									"type": "item",
 									"name": "Noxious Smoke",
-									"entry": "A cloud of thick, dark smoke fills a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The sphere spreads around corners, and its area is {@quickref Vision and Light|PHB|2||heavily obscured}. A creature other than the dragon that starts its turn in the cloud or enters it for the first time on its turn must succeed on a {@dc 15} Constitution saving throw or be {@condition poisoned} until the end of its turn. The cloud lasts until initiative count 20 on the next round."
+									"entry": "A cloud of thick, dark smoke fills a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The sphere spreads around corners, and its area is {@quickref Vision and Light|PHB|2||heavily obscured}. A creature other than the dragon that starts its turn in the cloud or enters it for the first time on its turn must succeed on a {@dc 15} Constitution saving throw or be {@condition Empoisonné} until the end of its turn. The cloud lasts until initiative count 20 on the next round."
 								},
 								{
 									"type": "item",
@@ -5656,7 +5656,7 @@
 							"type": "item",
 							"name": "Smoldering Haze",
 							"entries": [
-								"The area within 1 mile of the lair is {@variantrule Lightly Obscured|XPHB} with clouds of ash. Whenever a creature other than the dragon or one of its allies finishes a {@variantrule Long Rest|XPHB} in that area, that creature must succeed on a {@dc 15} Constitution saving throw or have the {@condition Poisoned|XPHB} condition for 1 hour."
+								"The area within 1 mile of the lair is {@variantrule Lightly Obscured|XPHB} with clouds of ash. Whenever a creature other than the dragon or one of its allies finishes a {@variantrule Long Rest|XPHB} in that area, that creature must succeed on a {@dc 15} Constitution saving throw or have the {@condition Empoisonné|XPHB} condition for 1 hour."
 							]
 						}
 					]
@@ -5677,7 +5677,7 @@
 							"type": "entries",
 							"name": "Phantasmal Mist",
 							"entries": [
-								"The riverine creates fog around a creature it can see within 120 feet of it. The target must succeed on a {@dc 17} Wisdom saving throw or take 5 ({@damage 1d10}) psychic damage and be {@condition frightened} of the riverine until the end of the target's next turn."
+								"The riverine creates fog around a creature it can see within 120 feet of it. The target must succeed on a {@dc 17} Wisdom saving throw or take 5 ({@damage 1d10}) psychic damage and be {@condition Effrayé} of the riverine until the end of the target's next turn."
 							]
 						},
 						{
@@ -5739,7 +5739,7 @@
 						{
 							"type": "item",
 							"name": "Empowered Actors",
-							"entry": "Humanoids add {@dice 1d8} to Charisma ({@skill Deception|XPHB} or {@skill Performance|XPHB}) checks made while wearing a mask."
+							"entry": "Humanoids add {@dice 1d8} to Charisma ({@skill Tromperie|XPHB} or {@skill Représentation|XPHB}) checks made while wearing a mask."
 						},
 						{
 							"type": "item",
@@ -5764,12 +5764,12 @@
 						{
 							"type": "item",
 							"name": "Awesome Thunder",
-							"entry": "A thunderous detonation of sound that can be heard up to 300 feet away surrounds one creature in the lair that the dragon can see. That creature must succeed on a {@dc 15} Constitution saving throw or take 13 ({@damage 3d8}) thunder damage and be {@condition stunned} until the end of its next turn."
+							"entry": "A thunderous detonation of sound that can be heard up to 300 feet away surrounds one creature in the lair that the dragon can see. That creature must succeed on a {@dc 15} Constitution saving throw or take 13 ({@damage 3d8}) thunder damage and be {@condition Étourdi} until the end of its next turn."
 						},
 						{
 							"type": "item",
 							"name": "Beguiling Whisper",
-							"entry": "The dragon telepathically whispers to one creature within range of the dragon's telepathy. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by the dragon until initiative count 20 on the next round. A creature {@condition charmed} in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to the creature."
+							"entry": "The dragon telepathically whispers to one creature within range of the dragon's telepathy. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by the dragon until initiative count 20 on the next round. A creature {@condition Charmé} in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to the creature."
 						},
 						{
 							"type": "item",
@@ -5831,7 +5831,7 @@
 				{
 					"type": "list",
 					"items": [
-						"The dragon targets a creature within 120 feet of it that can hear and understand it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by the dragon until initiative count 20 on the following round. A creature {@condition charmed} in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to itself.",
+						"The dragon targets a creature within 120 feet of it that can hear and understand it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by the dragon until initiative count 20 on the following round. A creature {@condition Charmé} in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to itself.",
 						"The dragon touches a section of stone up to 10 feet in any dimension. The dragon can form the stone into any shape that suits its purpose.",
 						"A wall of stone springs into existence on a solid surface within 120 feet of the dragon. The wall is up to 60 feet long, 10 feet high, and 1 foot thick. When the wall appears, each creature in its space is pushed to either side of the wall the creature wants. Each 5-foot section of wall has AC 17, 20 hit points, vulnerability to thunder damage, and immunity to poison and psychic damage. The wall vanishes when the dragon uses this lair action again or when the dragon dies."
 					]
@@ -6024,7 +6024,7 @@
 						{
 							"type": "item",
 							"name": "Biting Chill",
-							"entry": "Extreme cold envelops the land within 6 miles of the scion (see the {@book Dungeon Master's Guide|DMG} for rules on {@hazard extreme cold}). If the climate in the area already features extreme cold, the cold is numbing\u2014creatures in the area without immunity or resistance to cold damage have disadvantage on Strength and Dexterity checks."
+							"entry": "Extreme cold envelops the land within 6 miles of the scion (see the {@book Dungeon Master's Guide|DMG} for rules on {@hazard Froid rigoureux}). If the climate in the area already features extreme cold, the cold is numbing\u2014creatures in the area without immunity or resistance to cold damage have disadvantage on Strength and Dexterity checks."
 						},
 						{
 							"type": "item",
@@ -6052,7 +6052,7 @@
 					"type": "list",
 					"items": [
 						"Caverns, tunnels, and pools of water within 120 feet of the sea fury become foggy or murky, to the extent that the area becomes heavily obscured.",
-						"The sea fury conjures a 15-foot cube of water that fills an unoccupied space it can see within 30 feet of it, then moves the water in a straight line up to 60 feet, after which the water disperses. Any creature that comes into contact with the rushing {@item wave} must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone} by it and pushed 15 feet along its course.",
+						"The sea fury conjures a 15-foot cube of water that fills an unoccupied space it can see within 30 feet of it, then moves the water in a straight line up to 60 feet, after which the water disperses. Any creature that comes into contact with the rushing {@item Vague} must succeed on a {@dc 16} Strength saving throw or be knocked {@condition À terre} by it and pushed 15 feet along its course.",
 						"The sea fury calls forth the spirit of a dead sailor or sea hag that met its end in the lair. This spirit has the statistics of a {@creature specter} and lasts until the sea fury uses another lair action. The specter appears in an unoccupied space within 30 feet of the sea fury and obeys the sea fury's commands."
 					]
 				}
@@ -6177,7 +6177,7 @@
 							"type": "item",
 							"name": "Stifling Shadows",
 							"entries": [
-								"Within 1 mile of the lair, effects that normally create {@variantrule Bright Light|XPHB} instead create {@variantrule Dim Light|XPHB}, and creatures there have {@variantrule Advantage|XPHB} on Dexterity ({@skill Stealth|XPHB}) checks."
+								"Within 1 mile of the lair, effects that normally create {@variantrule Bright Light|XPHB} instead create {@variantrule Dim Light|XPHB}, and creatures there have {@variantrule Advantage|XPHB} on Dexterity ({@skill Discrétion|XPHB}) checks."
 							]
 						}
 					]
@@ -6215,7 +6215,7 @@
 								{
 									"type": "item",
 									"name": "Icy Grip",
-									"entry": "A sudden, supernatural chill fills the lair near the dragon. Each creature of the dragon's choice that it can see within 120 feet of it must succeed on a {@dc 15} Constitution saving throw or be {@condition restrained} until initiative count 20 on the next round. Creatures that have resistance to cold damage have advantage on the saving throw; creatures that have immunity to cold damage succeed automatically."
+									"entry": "A sudden, supernatural chill fills the lair near the dragon. Each creature of the dragon's choice that it can see within 120 feet of it must succeed on a {@dc 15} Constitution saving throw or be {@condition Entravé} until initiative count 20 on the next round. Creatures that have resistance to cold damage have advantage on the saving throw; creatures that have immunity to cold damage succeed automatically."
 								}
 							]
 						}
@@ -6351,7 +6351,7 @@
 							"type": "item",
 							"name": "Infusion of Knowledge",
 							"entries": [
-								"Whenever the sphinx or one of its allies takes a {@action Study|XPHB} action while within 1 mile of the lair, it adds {@dice 1d6} to any ability check it makes for that action."
+								"Whenever the sphinx or one of its allies takes a {@action Étudier|XPHB} action while within 1 mile of the lair, it adds {@dice 1d6} to any ability check it makes for that action."
 							]
 						}
 					]
@@ -6372,7 +6372,7 @@
 							"type": "item",
 							"name": "Enchanted Acoustics",
 							"entries": [
-								"Creatures within 1 mile of the lair have Advantage on Charisma ({@skill Performance|XPHB}) checks that involve singing or playing music. Creatures other than the dragon and its allies in that area have Disadvantage on saving throws to avoid or end the Charmed condition."
+								"Creatures within 1 mile of the lair have Advantage on Charisma ({@skill Représentation|XPHB}) checks that involve singing or playing music. Creatures other than the dragon and its allies in that area have Disadvantage on saving throws to avoid or end the Charmed condition."
 							]
 						},
 						{
@@ -6455,7 +6455,7 @@
 							"type": "item",
 							"name": "Deafening Boom",
 							"entries": [
-								"The giant creates a thunderclap centered on a point anywhere in their lair. Each creature within 20 feet of that point must succeed on a {@dc 18} Constitution saving throw or be {@condition deafened} until the end of its next turn."
+								"The giant creates a thunderclap centered on a point anywhere in their lair. Each creature within 20 feet of that point must succeed on a {@dc 18} Constitution saving throw or be {@condition Assourdi} until the end of its next turn."
 							]
 						},
 						{
@@ -6516,7 +6516,7 @@
 				{
 					"type": "list",
 					"items": [
-						"The giant creates a thunderclap centered on a point anywhere in its lair. Each creature within 20 feet of that point must succeed on a {@dc 18} Constitution saving throw or be {@condition deafened} until the end of its next turn.",
+						"The giant creates a thunderclap centered on a point anywhere in its lair. Each creature within 20 feet of that point must succeed on a {@dc 18} Constitution saving throw or be {@condition Assourdi} until the end of its next turn.",
 						"The giant creates a 20-foot-radius sphere of fog (or murky water within water) centered on a point anywhere in its lair. The sphere spreads around corners, and its area is heavily obscured. The fog lasts until the giant disperses it (no action required), and it can't be dispersed by wind.",
 						"The giant creates a 60-foot-long, 10-foot-wide line of strong wind ( or strong current within water) originating from a point anywhere in its lair. Each creature in that line must succeed on a {@dc 18} Strength saving throw or be pushed 15 feet in the direction the wind is blowing. The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in its area. Protected flames, such as those of lanterns, have a {@chance 50} chance of being extinguished."
 					]
@@ -6540,7 +6540,7 @@
 			"source": "CoS",
 			"page": 240,
 			"lairActions": [
-				"While Strahd is in Castle Ravenloft, he can take lair actions as long as he isn't {@condition incapacitated}.",
+				"While Strahd is in Castle Ravenloft, he can take lair actions as long as he isn't {@condition Incapable}.",
 				"On initiative count 20 (losing initiative ties), Strahd can take one of the following lair action options, or forgo using any of them in that round:",
 				{
 					"type": "list",
@@ -6565,12 +6565,12 @@
 						{
 							"type": "item",
 							"name": "Closing the Borders",
-							"entry": "While in his domain, Strahd can close or open the borders to Barovia at will. While the borders are closed, noxious fog suffuses the Mists surrounding Barovia. A creature that enters the Mists for the first time on a turn or starts its turn there must succeed on a {@dc 20} Constitution saving throw or gain 1 {@condition Exhaustion|XPHB} level. A creature makes this save only once per turn."
+							"entry": "While in his domain, Strahd can close or open the borders to Barovia at will. While the borders are closed, noxious fog suffuses the Mists surrounding Barovia. A creature that enters the Mists for the first time on a turn or starts its turn there must succeed on a {@dc 20} Constitution saving throw or gain 1 {@condition Épuisement|XPHB} level. A creature makes this save only once per turn."
 						},
 						{
 							"type": "item",
 							"name": "Dreadful Darkness",
-							"entry": "While in an area of {@variantrule Darkness|XPHB}, creatures other than Strahd and creatures of his choice have {@variantrule Disadvantage|XPHB} on saving throws to end or avoid the {@condition Frightened|XPHB} condition."
+							"entry": "While in an area of {@variantrule Darkness|XPHB}, creatures other than Strahd and creatures of his choice have {@variantrule Disadvantage|XPHB} on saving throws to end or avoid the {@condition Effrayé|XPHB} condition."
 						},
 						{
 							"type": "item",
@@ -6733,7 +6733,7 @@
 						{
 							"type": "item",
 							"name": "Beguiling Whisper",
-							"entry": "The dragon telepathically whispers to one creature within range of the dragon's telepathy. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by the dragon until initiative count 20 on the next round. A creature {@condition charmed} in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to the creature."
+							"entry": "The dragon telepathically whispers to one creature within range of the dragon's telepathy. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by the dragon until initiative count 20 on the next round. A creature {@condition Charmé} in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to the creature."
 						},
 						{
 							"type": "item",
@@ -6762,7 +6762,7 @@
 						{
 							"type": "item",
 							"name": "Negative Energy",
-							"entry": "When a creature finishes a long rest within 6 miles of the lair, the creature must first succeed on a {@dc 15} Constitution saving throw or be unable to reduce its levels of {@condition exhaustion} or regain spent Hit Dice. Creatures resistant or immune to necrotic damage are immune to this regional effect."
+							"entry": "When a creature finishes a long rest within 6 miles of the lair, the creature must first succeed on a {@dc 15} Constitution saving throw or be unable to reduce its levels of {@condition Épuisement} or regain spent Hit Dice. Creatures resistant or immune to necrotic damage are immune to this regional effect."
 						},
 						{
 							"type": "item",
@@ -6817,7 +6817,7 @@
 					"type": "list",
 					"items": [
 						"Open flames of a non magical nature are extinguished within the unicorn's domain. Torches and campfires refuse to burn, but closed lanterns are unaffected.",
-						"Creatures native to the unicorn's domain have an easier time hiding; they have advantage on all Dexterity ({@skill Stealth}) checks made to hide.",
+						"Creatures native to the unicorn's domain have an easier time hiding; they have advantage on all Dexterity ({@skill Discrétion}) checks made to hide.",
 						"When a good-aligned creature casts a spell or uses a magical effect that causes another good-aligned creature to regain hit points, the target regains the maximum number of hit points possible for the spell or effect.",
 						"Curses affecting any good-aligned creature are suppressed."
 					]
@@ -6839,7 +6839,7 @@
 							"type": "item",
 							"name": "Obscuring Foliage",
 							"entries": [
-								"The unicorn and its allies have {@variantrule Advantage|XPHB} on Dexterity ({@skill Stealth|XPHB}) checks while within 1 mile of the lair."
+								"The unicorn and its allies have {@variantrule Advantage|XPHB} on Dexterity ({@skill Discrétion|XPHB}) checks while within 1 mile of the lair."
 							]
 						},
 						{
@@ -6914,7 +6914,7 @@
 							"type": "item",
 							"name": "Children of the Night",
 							"entries": [
-								"The vampire exerts influence over the animals in its domain. From dusk until dawn, Medium or smaller Beasts have the {@condition Charmed|XPHB} condition while within 1 mile of the lair."
+								"The vampire exerts influence over the animals in its domain. From dusk until dawn, Medium or smaller Beasts have the {@condition Charmé|XPHB} condition while within 1 mile of the lair."
 							]
 						},
 						{
@@ -7074,7 +7074,7 @@
 						{
 							"type": "item",
 							"name": "Endless War",
-							"entry": "Whenever a creature other than Drakov or her allies finishes a Long Rest in the domain, roll {@dice 1d20}. On a 1, the creature doesn't remove any {@condition Exhaustion|XPHB} levels as a result of finishing that rest, and the creature gains 1 Exhaustion level."
+							"entry": "Whenever a creature other than Drakov or her allies finishes a Long Rest in the domain, roll {@dice 1d20}. On a 1, the creature doesn't remove any {@condition Épuisement|XPHB} levels as a result of finishing that rest, and the creature gains 1 Exhaustion level."
 						}
 					]
 				},
@@ -7112,7 +7112,7 @@
 								{
 									"type": "item",
 									"name": "Blinding Sleet",
-									"entry": "Driving sleet falls in a 40-foot-high, 20-foot-radius cylinder centered on a point the dragon can see within 120 feet of it. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} until initiative count 20 on the next round."
+									"entry": "Driving sleet falls in a 40-foot-high, 20-foot-radius cylinder centered on a point the dragon can see within 120 feet of it. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or be {@condition Aveuglé} until initiative count 20 on the next round."
 								},
 								{
 									"type": "item",
@@ -7154,7 +7154,7 @@
 								{
 									"type": "item",
 									"name": "Mirror Ice",
-									"entry": "The icy surfaces in the dragon's lair reflect light like mirrors, giving creatures in the lair other than the dragon disadvantage on Dexterity ({@skill Stealth}) checks made to hide. In addition, at each intersection or branching passage, any creature other than the dragon has a {@chance 50} chance of going in a different direction from the direction it intends."
+									"entry": "The icy surfaces in the dragon's lair reflect light like mirrors, giving creatures in the lair other than the dragon disadvantage on Dexterity ({@skill Discrétion}) checks made to hide. In addition, at each intersection or branching passage, any creature other than the dragon has a {@chance 50} chance of going in a different direction from the direction it intends."
 								}
 							]
 						}
@@ -7189,7 +7189,7 @@
 							"type": "item",
 							"name": "Frigid Cold",
 							"entries": [
-								"The area within 1 mile of the lair is an area of {@hazard extreme cold|XDMG}. Any water in that area is {@hazard frigid water|XDMG}. See the {@book Dungeon Master's Guide|DMG} for rules on extreme cold and frigid water."
+								"The area within 1 mile of the lair is an area of {@hazard Froid rigoureux|XDMG}. Any water in that area is {@hazard Eau glacée|XDMG}. See the {@book Dungeon Master's Guide|DMG} for rules on extreme cold and frigid water."
 							]
 						},
 						{
@@ -7216,7 +7216,7 @@
 						{
 							"type": "item",
 							"name": "Closing the Borders",
-							"entry": "While in his domain, Lord Godefroy can close or open the borders to Mordent. While the borders are closed, the groans and whispers of the dead fill the Mists surrounding Mordent. Creatures in the Mists have the {@condition Deafened|XPHB} condition."
+							"entry": "While in his domain, Lord Godefroy can close or open the borders to Mordent. While the borders are closed, the groans and whispers of the dead fill the Mists surrounding Mordent. Creatures in the Mists have the {@condition Assourdi|XPHB} condition."
 						},
 						{
 							"type": "item",
@@ -7244,7 +7244,7 @@
 					"items": [
 						"Yan-C-Bin drops the temperature of the air, covering all surfaces with ice. This effect is identical to the {@spell sleet storm} spell.",
 						"Yan-C-Bin controls the surrounding air as an extension of himself. Each creature Yan-C-Bin designates must succeed at a {@dc 24} Constitution saving throw or be hoisted or flung {@dice 3d6 × 10} feet through the air. A creature smashed into a solid object or released in mid-air takes {@damage 1d6} bludgeoning damage for every 10 feet moved or fallen.",
-						"Yan-C-Bin creates a torrent of debris within 120 feet of him that lasts until initiative count 20 on the next round. The debris lightly obscures every creature and object in the area for the duration. All creatures in the area must succeed at a {@dc 24} Wisdom saving throw or be {@condition blinded} until initiative count 20 on the next round."
+						"Yan-C-Bin creates a torrent of debris within 120 feet of him that lasts until initiative count 20 on the next round. The debris lightly obscures every creature and object in the area for the duration. All creatures in the area must succeed at a {@dc 24} Wisdom saving throw or be {@condition Aveuglé} until initiative count 20 on the next round."
 					]
 				}
 			],
@@ -7253,7 +7253,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Gale force winds tear across the landscape in a 5-mile radius, whisking away small or light objects, dismantling roofs and fences, tearing branches from trees, and making flight impossible. Small and Medium creatures move at half speed through the wind; Tiny creatures exposed to the wind are carried away with it at a rate of 40 feet per round unless they succeed at a {@dc 15} Strength ({@skill Athletics}) check.",
+						"Gale force winds tear across the landscape in a 5-mile radius, whisking away small or light objects, dismantling roofs and fences, tearing branches from trees, and making flight impossible. Small and Medium creatures move at half speed through the wind; Tiny creatures exposed to the wind are carried away with it at a rate of 40 feet per round unless they succeed at a {@dc 15} Strength ({@skill Athlétisme}) check.",
 						"Thunderstorms erupt in a 5-mile radius centered on Yan-C-Bin's lair, creating deafening cracks of thunder and constant lightning. Every ten minutes the storm rages, creatures standing beneath the open sky have a five percent chance of being struck by lightning. A creature struck by lightning must make a {@dc 21} Constitution saving throw, taking 21 ({@damage 6d6}) lightning damage on a failed save, or half as much damage on a successful one.",
 						"Cyclones touch down within a 5-mile radius of Yan-C-Bin's lair. Every hour, there is a five percent chance that characters in this area are caught in the path of a cyclone moving 250 feet per round. Each character must succeed on a {@dc 21} Constitution saving throw or take 33 ({@damage 6d10}) bludgeoning damage. Wooden or flimsy structures in the path of the cyclone are destroyed.",
 						"Natural caverns and windblown canyons within 1 mile of the lair form intermittent portals to the Elemental Plane of Air, allowing elemental creatures into the mortal world to dwell near those locations."
@@ -7283,7 +7283,7 @@
 							"type": "item",
 							"name": "Iron Spike",
 							"entries": [
-								"Yeenoghu causes an iron spike\u20145 feet tall and 1 inch in diameter\u2014to burst from the ground at a point he can see within 100 feet of him. Any creature in the space where the spike emerges must make a {@dc 24} Dexterity saving throw. On a failed save, the creature takes 27 ({@damage 6d8}) piercing damage and is {@condition restrained} by being impaled on the spike. A creature can use an action to remove itself (or a creature it can reach) from the spike, ending the restrained condition."
+								"Yeenoghu causes an iron spike\u20145 feet tall and 1 inch in diameter\u2014to burst from the ground at a point he can see within 100 feet of him. Any creature in the space where the spike emerges must make a {@dc 24} Dexterity saving throw. On a failed save, the creature takes 27 ({@damage 6d8}) piercing damage and is {@condition Entravé} by being impaled on the spike. A creature can use an action to remove itself (or a creature it can reach) from the spike, ending the restrained condition."
 							]
 						},
 						{
@@ -7330,7 +7330,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Yeenoghu causes an iron spike - 5 feet tall and 1 inch in diameter - to burst from the ground at a point he can see within 100 feet of him. Any creature in the space where the spike emerges must make a {@dc 24} Dexterity saving throw. On a failed save, the creature takes 27 ({@damage 6d8}) piercing damage and is {@condition restrained} by being impaled on the spike. A creature can use an action to remove itself (or a creature it can reach) from the spike, ending the {@condition restrained} condition.",
+						"Yeenoghu causes an iron spike - 5 feet tall and 1 inch in diameter - to burst from the ground at a point he can see within 100 feet of him. Any creature in the space where the spike emerges must make a {@dc 24} Dexterity saving throw. On a failed save, the creature takes 27 ({@damage 6d8}) piercing damage and is {@condition Entravé} by being impaled on the spike. A creature can use an action to remove itself (or a creature it can reach) from the spike, ending the {@condition Entravé} condition.",
 						"Each gnoll or hyena that Yeenoghu can see can use its reaction to move up to its speed.",
 						"Until the next initiative count 20, all gnolls and hyenas within the lair are enraged, causing them to have advantage on melee weapon attack rolls and causing attack rolls to have advantage against them."
 					]
@@ -7511,7 +7511,7 @@
 							"type": "item",
 							"name": "Infernal Illusions",
 							"entries": [
-								"Zariel casts the {@spell major image} spell four times, targeting different areas with it. Zariel prefers to create images of intruders' loved ones being burned alive. Zariel doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. Each creature that can see these illusions must succeed on a {@dc 26} Wisdom saving throw or become {@condition frightened} of the illusion for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								"Zariel casts the {@spell major image} spell four times, targeting different areas with it. Zariel prefers to create images of intruders' loved ones being burned alive. Zariel doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. Each creature that can see these illusions must succeed on a {@dc 26} Wisdom saving throw or become {@condition Effrayé} of the illusion for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 							]
 						}
 					]
@@ -7558,7 +7558,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Zariel casts {@spell major image} four times at its lowest level, targeting different areas with the spell. Zariel prefers to create images of intruders' loved ones being burned alive. Zariel doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. Each creature that can see these illusions must succeed on a {@dc 26} Wisdom saving throw or become {@condition frightened} of the illusion for 1 minute. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"Zariel casts {@spell major image} four times at its lowest level, targeting different areas with the spell. Zariel prefers to create images of intruders' loved ones being burned alive. Zariel doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. Each creature that can see these illusions must succeed on a {@dc 26} Wisdom saving throw or become {@condition Effrayé} of the illusion for 1 minute. A {@condition Effrayé} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 						"Zariel casts her innate {@spell fireball} spell."
 					]
 				}
@@ -7585,8 +7585,8 @@
 				{
 					"type": "list",
 					"items": [
-						"Part of the ceiling collapses above one creature that Zikzokrishka can see. The creature must succeed on a {@dc 15} Dexterity saving throw or take 21 ({@damage 6d6}) bludgeoning damage and be knocked {@condition prone} and buried under rubble. A buried creature is {@condition restrained} and unable to stand up. A creature can use an action to try to pull itself or another creature out of the rubble, doing so with a successful {@dc 10} Strength ({@skill Athletics}) check.",
-						"A cloud of sand swirls in a 20-foot-radius sphere centered on a point Zikzokrishka can see within 60 feet of it. The cloud spreads around corners. Each creature in the cloud must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"Part of the ceiling collapses above one creature that Zikzokrishka can see. The creature must succeed on a {@dc 15} Dexterity saving throw or take 21 ({@damage 6d6}) bludgeoning damage and be knocked {@condition À terre} and buried under rubble. A buried creature is {@condition Entravé} and unable to stand up. A creature can use an action to try to pull itself or another creature out of the rubble, doing so with a successful {@dc 10} Strength ({@skill Athlétisme}) check.",
+						"A cloud of sand swirls in a 20-foot-radius sphere centered on a point Zikzokrishka can see within 60 feet of it. The cloud spreads around corners. Each creature in the cloud must succeed on a {@dc 15} Constitution saving throw or be {@condition Aveuglé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 						"Zikzokrishka chooses two points that it can see, each of which must be on a solid surface, and creates a 5-foot-wide line of lightning between them. The two points must be within 60 feet of Zikzokrishka and 60 feet of each other. Each creature in the line must succeed on a {@dc 15} Dexterity saving throw or take 10 ({@damage 3d6}) lightning damage."
 					]
 				}
@@ -7636,7 +7636,7 @@
 							"type": "item",
 							"name": "Corrupted Nature",
 							"entries": [
-								"Within 6 miles of the lair, all Wisdom ({@skill Medicine}) and Wisdom ({@skill Survival}) checks have disadvantage."
+								"Within 6 miles of the lair, all Wisdom ({@skill Médecine}) and Wisdom ({@skill Survie}) checks have disadvantage."
 							]
 						},
 						{

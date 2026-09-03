@@ -1336,11 +1336,11 @@
 													"rows": [
 														[
 															"1",
-															"Grasping Tendrils. The horror has four tendrils. Each tendril can be attacked (AC 12, 10 hit points). Destroying one deals no damage to the horror. As a bonus action, the horror can target one creature it can see within 10 feet of it. The target must succeed on a Dexterity saving throw or be {@condition grappled} by the horror. The DC of the saving throw and the DC to escape the grapple are the same: 9 for the flying horror, 13 for the shadow horror, and 19 for the skittering horror. Until the grapple ends, the horror can't use the same tendril to grapple another target."
+															"Grasping Tendrils. The horror has four tendrils. Each tendril can be attacked (AC 12, 10 hit points). Destroying one deals no damage to the horror. As a bonus action, the horror can target one creature it can see within 10 feet of it. The target must succeed on a Dexterity saving throw or be {@condition Agrippé} by the horror. The DC of the saving throw and the DC to escape the grapple are the same: 9 for the flying horror, 13 for the shadow horror, and 19 for the skittering horror. Until the grapple ends, the horror can't use the same tendril to grapple another target."
 														],
 														[
 															"2",
-															"Indomitable Mind. The horror is immune to the {@condition charmed} condition."
+															"Indomitable Mind. The horror is immune to the {@condition Charmé} condition."
 														],
 														[
 															"3",
@@ -1348,7 +1348,7 @@
 														],
 														[
 															"4",
-															"Mind Sight. Magical darkness doesn't impede the horror's {@sense darkvision}."
+															"Mind Sight. Magical darkness doesn't impede the horror's {@sense Vision dans le noir}."
 														]
 													]
 												}
@@ -1605,15 +1605,15 @@
 														],
 														[
 															"5",
-															"Grabber. When the krasis hits a creature with its claws, the target is {@condition grappled} (escape {@dc 13} for category 1, {@dc 15} for category 2, and {@dc 19} for category 3) by a specialized grasping appendage on the krasis. It can have only one creature {@condition grappled} in this way at a time."
+															"Grabber. When the krasis hits a creature with its claws, the target is {@condition Agrippé} (escape {@dc 13} for category 1, {@dc 15} for category 2, and {@dc 19} for category 3) by a specialized grasping appendage on the krasis. It can have only one creature {@condition Agrippé} in this way at a time."
 														],
 														[
 															"6",
-															"Hypnotic Display {@recharge 5}. As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw ({@dc 12} for category 1, {@dc 14} for category 2, and {@dc 18} for category 3) or be {@condition stunned} for 1 minute. The {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours."
+															"Hypnotic Display {@recharge 5}. As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw ({@dc 12} for category 1, {@dc 14} for category 2, and {@dc 18} for category 3) or be {@condition Étourdi} for 1 minute. The {@condition Étourdi} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours."
 														],
 														[
 															"7",
-															"Venomous Sting. When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw ({@dc 12} for category 1, {@dc 14} for category 2, and {@dc 18} for category 3) or be {@condition poisoned} for 1 minute. If the krasis is a category 2 or 3, the creature is {@condition paralyzed} while {@condition poisoned} in this way. The {@condition poisoned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+															"Venomous Sting. When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw ({@dc 12} for category 1, {@dc 14} for category 2, and {@dc 18} for category 3) or be {@condition Empoisonné} for 1 minute. If the krasis is a category 2 or 3, the creature is {@condition Paralysé} while {@condition Empoisonné} in this way. The {@condition Empoisonné} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 														],
 														[
 															"8",
@@ -1647,11 +1647,11 @@
 														],
 														[
 															"4",
-															"Cryptic Skin. The krasis can change color to match its surroundings. It has advantage on Dexterity ({@skill Stealth}) checks made to hide."
+															"Cryptic Skin. The krasis can change color to match its surroundings. It has advantage on Dexterity ({@skill Discrétion}) checks made to hide."
 														],
 														[
 															"5",
-															"Heightened Awareness. The krasis can't be {@status surprised}, as a result of having sensitive barbels like a catfish, stereoscopic vision like a chameleon, a tongue like a snake, eye stalks like a lobster, or an array of several eyes."
+															"Heightened Awareness. The krasis can't be {@status Surpris}, as a result of having sensitive barbels like a catfish, stereoscopic vision like a chameleon, a tongue like a snake, eye stalks like a lobster, or an array of several eyes."
 														],
 														[
 															"6",
@@ -1663,7 +1663,7 @@
 														],
 														[
 															"8",
-															"Stabilizing Legs. The krasis has several crablike legs. As a result, it has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+															"Stabilizing Legs. The krasis has several crablike legs. As a result, it has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition À terre}."
 														]
 													]
 												}
@@ -1952,7 +1952,7 @@
 											"name": "Gloamwing Mount",
 											"type": "entries",
 											"entries": [
-												"If a gloamwing is killed, its specter becomes fixated on destroying those responsible. If the specter survives, it can create a new gloamwing over the course of a month, during which time the specter is {@condition incapacitated}.",
+												"If a gloamwing is killed, its specter becomes fixated on destroying those responsible. If the specter survives, it can create a new gloamwing over the course of a month, during which time the specter is {@condition Incapable}.",
 												"A gloamwing's head is almost ratlike, with prominent teeth, and its leathery skin is stretched tight over its skull, where its eyes are empty sockets. Its body is mottled with bony plates, and great wings stretch from its shoulders."
 											]
 										},

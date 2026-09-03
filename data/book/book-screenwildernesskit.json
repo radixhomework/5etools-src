@@ -60,13 +60,13 @@
 							"type": "list",
 							"items": [
 								"Weather that obscures the area, such as heavy rain, snow, or fog.",
-								"Traveling at night, even with light sources or {@sense darkvision}.",
+								"Traveling at night, even with light sources or {@sense Vision dans le noir}.",
 								"Dense forest",
 								"Traveling underground",
 								"Traveling at sea while unable to see the sky or any familiar land."
 							]
 						},
-						"The DM lets the group know when they are in one or more of those circumstances, and then the characters choose one of their number who must make a Wisdom ({@skill Survival}) check against a DC appropriate to the terrain (see \"Wilderness navigation\" on the DM's screen). Other members of the group can take the {@action Help} action on this check as normal, and traveling at a fast pace imposes disadvantage on the check.",
+						"The DM lets the group know when they are in one or more of those circumstances, and then the characters choose one of their number who must make a Wisdom ({@skill Survie}) check against a DC appropriate to the terrain (see \"Wilderness navigation\" on the DM's screen). Other members of the group can take the {@action Aider} action on this check as normal, and traveling at a fast pace imposes disadvantage on the check.",
 						"If the check fails, the group spends {@dice 1d6} hours (short cycle) or {@dice 1d6} days (long cycle) traveling in a random direction. The DM may roll a die to determine which hex the group ends up in on a map, such as the ones provided in this kit."
 					],
 					"id": "002"
@@ -249,11 +249,11 @@
 						],
 						[
 							"17",
-							"Field of {@condition petrified} soldiers or other creatures"
+							"Field of {@condition Pétrifié} soldiers or other creatures"
 						],
 						[
 							"18",
-							"Forest of {@condition petrified} or {@creature awakened tree||awakened trees}"
+							"Forest of {@condition Pétrifié} or {@creature awakened tree||awakened trees}"
 						],
 						[
 							"19",
@@ -352,7 +352,7 @@
 							"name": "Tracking Supplies",
 							"entries": [
 								"Use the accompanying Supply Tracker to note whether you are tracking a short or long cycle journey and how many units of food and water you are carrying. At the Supply step of each cycle, mark off a box for each unit of food or water consumed.",
-								"A character unable to eat or drink gains 1 level of {@condition exhaustion} for each requirement they fail to meet. Exhaustion gained in this way can't be removed until the character is able to consume sufficient food and water."
+								"A character unable to eat or drink gains 1 level of {@condition Épuisement} for each requirement they fail to meet. Exhaustion gained in this way can't be removed until the character is able to consume sufficient food and water."
 							],
 							"id": "006"
 						},
@@ -360,7 +360,7 @@
 							"type": "entries",
 							"name": "Foraging",
 							"entries": [
-								"Characters can hunt or gather food and water while the party travels at a normal or slow pace. A foraging character makes a Wisdom ({@skill Survival}) check against a DC determined by the terrain (see the Foraging table on the DM's screen). On a successful check, the character gathers units of food equal to {@dice 1d6} + their Wisdom modifier. Repeat the roll for drinkable water."
+								"Characters can hunt or gather food and water while the party travels at a normal or slow pace. A foraging character makes a Wisdom ({@skill Survie}) check against a DC determined by the terrain (see the Foraging table on the DM's screen). On a successful check, the character gathers units of food equal to {@dice 1d6} + their Wisdom modifier. Repeat the roll for drinkable water."
 							],
 							"id": "007"
 						}
@@ -403,7 +403,7 @@
 								{
 									"type": "item",
 									"name": "4. Move And take an action",
-									"entry": "You can take one action on your turn, and before or after that action, you can move up to a distance equal to your speed. See the \"Actions in Combat\" sheet for the actions you can take during a chase (see the \"Dashing\" section on the other side of this sheet if you take the {@action Dash} Action). If you have a bonus action available, you also take it during your turn, but no more than once one each of your turns."
+									"entry": "You can take one action on your turn, and before or after that action, you can move up to a distance equal to your speed. See the \"Actions in Combat\" sheet for the actions you can take during a chase (see the \"Dashing\" section on the other side of this sheet if you take the {@action Course} Action). If you have a bonus action available, you also take it during your turn, but no more than once one each of your turns."
 								},
 								{
 									"type": "item",
@@ -426,11 +426,11 @@
 							"rows": [
 								[
 									1,
-									"Your path takes you through a rough patch of brush. Make a {@dc 10} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (your choice) to get past the brush. On failed check, the brush counts as 5feet of {@quickref difficult terrain||3}."
+									"Your path takes you through a rough patch of brush. Make a {@dc 10} Strength ({@skill Athlétisme}) or Dexterity ({@skill Acrobaties}) check (your choice) to get past the brush. On failed check, the brush counts as 5feet of {@quickref difficult terrain||3}."
 								],
 								[
 									2,
-									"Uneven ground threatens to slow your progress. Make a {@dc 10} Dexterity ({@skill Acrobatics}) check to navigate the area. On failed check, the ground counts as 10 feet of {@quickref difficult terrain||3}."
+									"Uneven ground threatens to slow your progress. Make a {@dc 10} Dexterity ({@skill Acrobaties}) check to navigate the area. On failed check, the ground counts as 10 feet of {@quickref difficult terrain||3}."
 								],
 								[
 									3,
@@ -438,19 +438,19 @@
 								],
 								[
 									4,
-									"A stream, ravine, or rock bed blocks your path. Make a {@dc 10} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (your choice) to cross the impediment. On a failed check, the impediment counts as 10 feet of {@quickref difficult terrain||3}."
+									"A stream, ravine, or rock bed blocks your path. Make a {@dc 10} Strength ({@skill Athlétisme}) or Dexterity ({@skill Acrobaties}) check (your choice) to cross the impediment. On a failed check, the impediment counts as 10 feet of {@quickref difficult terrain||3}."
 								],
 								[
 									5,
-									"Make a {@dc 10} Constitution saving throw. Ona failed save, you are {@condition blinded} by blowing sand,dirt, ash, snow,or pollen until the end of your turn. While {@condition blinded} in this way, your speed is halved."
+									"Make a {@dc 10} Constitution saving throw. Ona failed save, you are {@condition Aveuglé} by blowing sand,dirt, ash, snow,or pollen until the end of your turn. While {@condition Aveuglé} in this way, your speed is halved."
 								],
 								[
 									6,
-									"A sudden drop catches you by surprise. Make a {@dc 10} Dexterity saving throw to navigate the impediment. On failed save, you fall {@dice 1d4 x 5} feet, taking {@damage 1d6} bludgeoning damage per 10 feet fallen as normal, and land {@condition prone}."
+									"A sudden drop catches you by surprise. Make a {@dc 10} Dexterity saving throw to navigate the impediment. On failed save, you fall {@dice 1d4 x 5} feet, taking {@damage 1d6} bludgeoning damage per 10 feet fallen as normal, and land {@condition À terre}."
 								],
 								[
 									7,
-									"You blunder into a snare. Make a {@dc 15} Dexterity saving throw. On failed save, you are caught in the snare and {@condition restrained}. As an action, you or someone within 5 feet of you can make a {@dc 10} Strength check, freeing you on a success. The snare can also be destroyed; it has an AC of 10 and 5 hit points, and it is immune to poison and psychic damage. Complication"
+									"You blunder into a snare. Make a {@dc 15} Dexterity saving throw. On failed save, you are caught in the snare and {@condition Entravé}. As an action, you or someone within 5 feet of you can make a {@dc 10} Strength check, freeing you on a success. The snare can also be destroyed; it has an AC of 10 and 5 hit points, and it is immune to poison and psychic damage. Complication"
 								],
 								[
 									8,
@@ -474,8 +474,8 @@
 							"type": "entries",
 							"name": "Dashing",
 							"entries": [
-								"Over the course of a chase, you can take the {@action Dash} action a limited number of times before you risk {@condition exhaustion}. That number equals 3 + your Constitution modifier. Each additional {@action Dash} action you take after that number during the chase requires you to succeed on a {@dc 10} Constitution check at the end of your turn or gain 1 level of {@condition exhaustion}.",
-								"You drop out of the chase if your {@condition exhaustion} reaches level 5, since your speed becomes0. By finishing a short or long rest, you can remove all the levels of {@condition exhaustion} you gained by taking the {@action Dash} action additional times during the chase."
+								"Over the course of a chase, you can take the {@action Course} action a limited number of times before you risk {@condition Épuisement}. That number equals 3 + your Constitution modifier. Each additional {@action Course} action you take after that number during the chase requires you to succeed on a {@dc 10} Constitution check at the end of your turn or gain 1 level of {@condition Épuisement}.",
+								"You drop out of the chase if your {@condition Épuisement} reaches level 5, since your speed becomes0. By finishing a short or long rest, you can remove all the levels of {@condition Épuisement} you gained by taking the {@action Course} action additional times during the chase."
 							],
 							"id": "00a"
 						},
@@ -495,7 +495,7 @@
 					"name": "Ending a Chase",
 					"entries": [
 						"A chase ends when one side or the other stops, when the quarry escapes, or when at least one pursuer is within 5 feet of a quarry.",
-						"If neither side gives up the chase, the quarry can make a Dexterity ({@skill Stealth}) check at the end of each round, after every participant in the chase has taken a turn. An {@condition incapacitated} quarry can't make this check, nor can a quarry without anything to hide behind. The check's total is compared to the passive Wisdom ({@skill Perception}) scores of the pursuers. If the quarry consists of multiple creatures, they all make the check. If the total of a quarry's check is greater than the highest passive score, that quarry escapes and is no longer in the chase.",
+						"If neither side gives up the chase, the quarry can make a Dexterity ({@skill Discrétion}) check at the end of each round, after every participant in the chase has taken a turn. An {@condition Incapable} quarry can't make this check, nor can a quarry without anything to hide behind. The check's total is compared to the passive Wisdom ({@skill Perception}) scores of the pursuers. If the quarry consists of multiple creatures, they all make the check. If the total of a quarry's check is greater than the highest passive score, that quarry escapes and is no longer in the chase.",
 						"The quarry gains advantage or disadvantage on the check based on prevailing circumstances, as shown in the Escape Factors table. If one or more factors give the quarry both advantage and disadvantage on its check, the quarry has neither, as usual.",
 						{
 							"type": "table",
@@ -526,7 +526,7 @@
 									"Disadvantage"
 								],
 								[
-									"The lead pursuer is a ranger or has proficiency in {@skill Survival}",
+									"The lead pursuer is a ranger or has proficiency in {@skill Survie}",
 									"Disadvantage"
 								]
 							]

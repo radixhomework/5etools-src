@@ -179,7 +179,7 @@
 							"id": "00c",
 							"entries": [
 								"While the {@book Dungeon Master's Guide|XDMG} explains how to adjust adventures for different party sizes, three of the adventures (indicated in the table of contents) are particularly well-suited for play with a single adventurer. Each of these adventures includes instructions for ensuring the character faces an appropriate challenge.",
-								"Central to those instructions is the {@reward Blessing of the Lone Champion|DrDe}, a supernatural gift that bolsters the solo character's abilities.",
+								"Central to those instructions is the {@reward Bénédiction du champion solitaire|DrDe}, a supernatural gift that bolsters the solo character's abilities.",
 								{
 									"type": "statblock",
 									"name": "Blessing of the Lone Champion",
@@ -618,12 +618,12 @@
 								{
 									"type": "item",
 									"name": "Pilfer",
-									"entry": "A character can try to grab the basket, as a {@action Utilize|XPHB} action, doing so with a successful {@dc 15} Dexterity ({@skill Sleight of Hand|XPHB}) check. If the character grabs the basket, the thief lets go and keeps running."
+									"entry": "A character can try to grab the basket, as a {@action Utiliser|XPHB} action, doing so with a successful {@dc 15} Dexterity ({@skill Escamotage|XPHB}) check. If the character grabs the basket, the thief lets go and keeps running."
 								},
 								{
 									"type": "item",
 									"name": "Violence",
-									"entry": "A character can take an {@action Attack|XPHB} or {@action Magic|XPHB} action, targeting the thief with a weapon or spell. If the thief takes damage, they wail dramatically, drop the stolen basket, and try to flee."
+									"entry": "A character can take an {@action Attaque|XPHB} or {@action Magie|XPHB} action, targeting the thief with a weapon or spell. If the thief takes damage, they wail dramatically, drop the stolen basket, and try to flee."
 								}
 							]
 						},
@@ -758,12 +758,12 @@
 										{
 											"type": "item",
 											"name": "Search",
-											"entry": "A character can take the {@action Search|XPHB} action and make a {@dc 16} Wisdom ({@skill Insight|XPHB} or {@skill Perception|XPHB}) check. On a success, the character notices that Oliekintara's scarves are covered in repeating, patterned processions of suns and moons, representing the passage of time; the character also notices that Oliekintara's eyes occasionally drift toward the sundial in the center of the temple."
+											"entry": "A character can take the {@action Chercher|XPHB} action and make a {@dc 16} Wisdom ({@skill Perspicacité|XPHB} or {@skill Perception|XPHB}) check. On a success, the character notices that Oliekintara's scarves are covered in repeating, patterned processions of suns and moons, representing the passage of time; the character also notices that Oliekintara's eyes occasionally drift toward the sundial in the center of the temple."
 										},
 										{
 											"type": "item",
 											"name": "Study",
-											"entry": "A character can take the {@action Study|XPHB} action and make a {@dc 15} Intelligence ({@skill Arcana|XPHB} or {@skill Investigation|XPHB}) check. On a success, the character identifies twelve runes engraved around the sphinx statue. Each is an ancient symbol for a different hour."
+											"entry": "A character can take the {@action Étudier|XPHB} action and make a {@dc 15} Intelligence ({@skill Arcanes|XPHB} or {@skill Investigation|XPHB}) check. On a success, the character identifies twelve runes engraved around the sphinx statue. Each is an ancient symbol for a different hour."
 										}
 									]
 								},
@@ -4404,7 +4404,7 @@
 												"The entry to Haskasori is a wide, cavernous archway carved into the base of a mountain. Inside the cave, shattered fragments of lavender crystal lie scattered about the feet of cracked and broken statues made of the same crystal. The statues depict panicked human, dwarf, and elf adventurers. From the western wall emerge formations of the same glassy crystal. A ramp and a pair of stairways descend to the northeast, while a broad passage opens to the east."
 											]
 										},
-										"The six mostly broken statues are the remains of a band of adventurers who sought shade in this cave and ran afoul of the basilisks in the promenade (area {@area H3|3cc|x}). All six were transformed into lightning crystal (see \"{@area Haskasori features|3c0|x}\") and then killed as the basilisks ate parts of their {@condition Petrified|XPHB} prey.",
+										"The six mostly broken statues are the remains of a band of adventurers who sought shade in this cave and ran afoul of the basilisks in the promenade (area {@area H3|3cc|x}). All six were transformed into lightning crystal (see \"{@area Haskasori features|3c0|x}\") and then killed as the basilisks ate parts of their {@condition Pétrifié|XPHB} prey.",
 										"Loud noise here alerts the {@creature Basilisk|XMM|Basilisks} in area {@area H3|3cc|x}, which come to investigate."
 									]
 								},
@@ -4448,7 +4448,7 @@
 												"Wide openings in this promenade's north wall overlook Haskasori's stone bridge, the main gate, and a rocky outcropping that slopes into the chasm beneath the bridge."
 											]
 										},
-										"Five {@creature Basilisk|XMM|Basilisks} lounge in the tunnels between this promenade and the sinkhole to the east (area {@area H5|3d0|x}). If they notice anything in the promenade or the entry (area {@area H1|3c7|x}), the monsters scuttle out to ambush the characters. A creature that is given the {@condition Petrified|XPHB} condition by one of these basilisks turns into lightning crystal (see \"{@area Haskasori Features|3c0|x}\") instead of stone but can be restored as normal."
+										"Five {@creature Basilisk|XMM|Basilisks} lounge in the tunnels between this promenade and the sinkhole to the east (area {@area H5|3d0|x}). If they notice anything in the promenade or the entry (area {@area H1|3c7|x}), the monsters scuttle out to ambush the characters. A creature that is given the {@condition Pétrifié|XPHB} condition by one of these basilisks turns into lightning crystal (see \"{@area Haskasori Features|3c0|x}\") instead of stone but can be restored as normal."
 									]
 								},
 								{
@@ -4465,7 +4465,7 @@
 												"In the center of this chamber floats a dimly glowing stone platform accessible by a short ramp. Gaps around the floating platform reveal a fifty-foot-deep shaft below. A stone staircase encircling the platform winds around the chamber and down the shaft."
 											]
 										},
-										"As a {@action Magic|XPHB} action, a creature on the floating platform or the adjacent ramp can prompt the platform to slowly descend or ascend 10 feet. The platform stops moving when it reaches the ramp at the top or bottom of the shaft.",
+										"As a {@action Magie|XPHB} action, a creature on the floating platform or the adjacent ramp can prompt the platform to slowly descend or ascend 10 feet. The platform stops moving when it reaches the ramp at the top or bottom of the shaft.",
 										"At the bottom of the shaft, three wide tunnels offer paths to the ruins of Haskasori's homes and businesses (west; areas {@area H7|3d4|x}\u2013{@area H9|3df|x}), to the Pillars of Haskasori (north; area {@area H6|3d2|x}), and to the city's catacombs (east; areas {@area H11|3ea|x}\u2013{@area 13|3f4|x}), respectively."
 									]
 								},
@@ -4545,7 +4545,7 @@
 											"page": 187,
 											"id": "3d7",
 											"entries": [
-												"In the center of this chamber stands an immovable 10-foot cube of pink sandstone. The cube's top face has been carved into a miniature sculpture of the butte-like mountain housing Haskasori. Characters who examine the sculpture notice animated sandstone birds and goats roaming around; occasionally a majestic brass dragon soars over the scene. This sculpture is a magically animated model depicting Haskasori during its heyday. As a {@action Search|XPHB} action, a character can study the sculpture and make a {@dc 12} Intelligence ({@skill Investigation|XPHB}) check. On a success, the character realizes the model depicts this area in the past, not the current day."
+												"In the center of this chamber stands an immovable 10-foot cube of pink sandstone. The cube's top face has been carved into a miniature sculpture of the butte-like mountain housing Haskasori. Characters who examine the sculpture notice animated sandstone birds and goats roaming around; occasionally a majestic brass dragon soars over the scene. This sculpture is a magically animated model depicting Haskasori during its heyday. As a {@action Chercher|XPHB} action, a character can study the sculpture and make a {@dc 12} Intelligence ({@skill Investigation|XPHB}) check. On a success, the character realizes the model depicts this area in the past, not the current day."
 											]
 										},
 										{
@@ -4554,7 +4554,7 @@
 											"page": 188,
 											"id": "3d8",
 											"entries": [
-												"As a {@action Search|XPHB} action, a character can peer down this dried-up, 30-foot-deep well and make a {@dc 16} Wisdom ({@skill Perception|XPHB}) check. On a success, the character spots a green stone amulet of Yaarnak (see \"{@area Haskasori Features|3c0|x}\") at the bottom of the well."
+												"As a {@action Chercher|XPHB} action, a character can peer down this dried-up, 30-foot-deep well and make a {@dc 16} Wisdom ({@skill Perception|XPHB}) check. On a success, the character spots a green stone amulet of Yaarnak (see \"{@area Haskasori Features|3c0|x}\") at the bottom of the well."
 											]
 										}
 									]
@@ -4644,7 +4644,7 @@
 											"page": 189,
 											"id": "3e2",
 											"entries": [
-												"If the gargoyles in area {@area H6|3d2|x} alert Rummox to the party's presence, the genie and all four {@creature Gargoyle|XMM|Gargoyles} keep watch from the rooftop (area {@area H9c|3e5|x}). If they notice the party's approach, they descend to intercept the characters before the characters enter the tower. Rummox makes a half-hearted attempt to drive the characters off, but she surrenders if she becomes {@status Bloodied|XPHB}. A character can also take an Influence action and make a {@dc 15} Charisma ({@skill Intimidation|XPHB} or {@skill Persuasion|XPHB}) check to urge Rummox to surrender and cooperate with them. See \"Traitorous Adviser\" if she surrenders."
+												"If the gargoyles in area {@area H6|3d2|x} alert Rummox to the party's presence, the genie and all four {@creature Gargoyle|XMM|Gargoyles} keep watch from the rooftop (area {@area H9c|3e5|x}). If they notice the party's approach, they descend to intercept the characters before the characters enter the tower. Rummox makes a half-hearted attempt to drive the characters off, but she surrenders if she becomes {@status Meurtri|XPHB}. A character can also take an Influence action and make a {@dc 15} Charisma ({@skill Intimidation|XPHB} or {@skill Persuasion|XPHB}) check to urge Rummox to surrender and cooperate with them. See \"Traitorous Adviser\" if she surrenders."
 											]
 										},
 										{
@@ -4662,7 +4662,7 @@
 											"page": 189,
 											"id": "3e4",
 											"entries": [
-												"Ornate rugs, fine sculptures, and supple silks fill this opulent private chamber. As a {@action Search|XPHB} action, a character can search the room and make a {@dc 16} Wisdom ({@skill Perception|XPHB}) check. On a success, the character finds an {@item Efreeti Bottle|XDMG} inside a secret cubbyhole in one of the walls."
+												"Ornate rugs, fine sculptures, and supple silks fill this opulent private chamber. As a {@action Chercher|XPHB} action, a character can search the room and make a {@dc 16} Wisdom ({@skill Perception|XPHB}) check. On a success, the character finds an {@item Bouteille d'efreet|XDMG} inside a secret cubbyhole in one of the walls."
 											]
 										},
 										{
@@ -4671,7 +4671,7 @@
 											"page": 189,
 											"id": "3e5",
 											"entries": [
-												"Protruding from the ramp connecting to the northern section of this roof, a stone bridge leads to a caved-in tunnel. It once connected to what is now the dragon's den (area {@area H10|3e7|x}). Rubble obstructs the tunnel. As a {@action Study|XPHB} action, a character can examine the rubble and make a {@dc 13} Intelligence ({@skill Investigation|XPHB}) check. Characters with {@sense Tremorsense|XPHB} have {@variantrule Advantage|XPHB} on the check. On a success, the character determines the rubble is about 10 feet thick, and that excavating the rocks by hand would take about 1 hour."
+												"Protruding from the ramp connecting to the northern section of this roof, a stone bridge leads to a caved-in tunnel. It once connected to what is now the dragon's den (area {@area H10|3e7|x}). Rubble obstructs the tunnel. As a {@action Étudier|XPHB} action, a character can examine the rubble and make a {@dc 13} Intelligence ({@skill Investigation|XPHB}) check. Characters with {@sense Perception des vibrations|XPHB} have {@variantrule Advantage|XPHB} on the check. On a success, the character determines the rubble is about 10 feet thick, and that excavating the rocks by hand would take about 1 hour."
 											]
 										},
 										{
@@ -4729,7 +4729,7 @@
 											"page": 189,
 											"id": "3e9",
 											"entries": [
-												"A character who studies the massive crystal formation notices a rod-shaped item encased within. Breaking the crystal formation frees a bone scepter wrapped in the scaly hide of a blue dragon. This is a {@item Rod of Rulership|XDMG}, the scepter Yaarnak covets (see area {@area H8|3d9|x})."
+												"A character who studies the massive crystal formation notices a rod-shaped item encased within. Breaking the crystal formation frees a bone scepter wrapped in the scaly hide of a blue dragon. This is a {@item Sceptre de commandement|XDMG}, the scepter Yaarnak covets (see area {@area H8|3d9|x})."
 											]
 										}
 									]
@@ -4765,7 +4765,7 @@
 											"page": 190,
 											"id": "3ec",
 											"entries": [
-												"Near the north end of the tunnel, stairs curve west through a rough-hewn passage and then end in a wall of worked stone. As a {@action Search|XPHB} action, a character can search the wall and make a {@dc 12} Wisdom ({@skill Perception|XPHB}) check. On a success, the character notices a button worked into the stone. Pressing the button causes the wall to slide away, revealing a passage through the base of a statue into the temple (area {@area H14|3f7|x})."
+												"Near the north end of the tunnel, stairs curve west through a rough-hewn passage and then end in a wall of worked stone. As a {@action Chercher|XPHB} action, a character can search the wall and make a {@dc 12} Wisdom ({@skill Perception|XPHB}) check. On a success, the character notices a button worked into the stone. Pressing the button causes the wall to slide away, revealing a passage through the base of a statue into the temple (area {@area H14|3f7|x})."
 											]
 										},
 										{
@@ -4818,7 +4818,7 @@
 											"page": 190,
 											"id": "3f2",
 											"entries": [
-												"Anthradusk's presence has tainted the once-restorative magic of this font. Any creature that touches the water must succeed on a {@dc 20} Constitution saving throw or have the {@condition Petrified|XPHB} condition and be turned into lightning crystal (see \"{@area Haskasori Features|3c0|x}\")."
+												"Anthradusk's presence has tainted the once-restorative magic of this font. Any creature that touches the water must succeed on a {@dc 20} Constitution saving throw or have the {@condition Pétrifié|XPHB} condition and be turned into lightning crystal (see \"{@area Haskasori Features|3c0|x}\")."
 											]
 										},
 										{
@@ -4827,7 +4827,7 @@
 											"page": 190,
 											"id": "3f3",
 											"entries": [
-												"As a {@action Search|XPHB} action, a character can examine the statue's quarterstaff and make a {@dc 12} Wisdom ({@skill Perception|XPHB}) check. On a success, the character finds a {@item Potion of Longevity|XDMG} hidden inside the hollow staff's false bottom."
+												"As a {@action Chercher|XPHB} action, a character can examine the statue's quarterstaff and make a {@dc 12} Wisdom ({@skill Perception|XPHB}) check. On a success, the character finds a {@item Potion de longévité|XDMG} hidden inside the hollow staff's false bottom."
 											]
 										}
 									]
@@ -4872,7 +4872,7 @@
 												"Six twenty-foot-tall statues of dragon-headed humanoids fill the alcoves along this temple's northern wall. The statues flank a pair of massive stone doors. Floor-to-ceiling pillars connected by low stone railings separate the raised temple floor from the rest of the underground city."
 											]
 										},
-										"As a {@action Search|XPHB} action, a character can investigate the easternmost statue and make a {@dc 14} Wisdom ({@skill Perception|XPHB}) check. On a success, the character notices a button hidden along the base. Pressing the button causes the statue's lower half to shift aside, revealing a secret passage leading to the north end of the catacombs (area {@area H11|3ea|x}).",
+										"As a {@action Chercher|XPHB} action, a character can investigate the easternmost statue and make a {@dc 14} Wisdom ({@skill Perception|XPHB}) check. On a success, the character notices a button hidden along the base. Pressing the button causes the statue's lower half to shift aside, revealing a secret passage leading to the north end of the catacombs (area {@area H11|3ea|x}).",
 										{
 											"type": "entries",
 											"name": "Sanctum Doors",
@@ -4905,7 +4905,7 @@
 											"page": 191,
 											"id": "3fc",
 											"entries": [
-												"When a creature not wearing an amulet of Yaarnak (see \"{@area Haskasori Features|3c0|x}\") enters the statue's area of {@variantrule Bright Light|XPHB} for the first time on a turn or starts its turn there, the creature makes a {@dc 15} Constitution saving throw. On a failed save, the creature begins to turn to crystal, has the {@condition Restrained|XPHB} condition, and repeats the save at the end of its next turn. On a second failed save, the creature has the {@condition Petrified|XPHB} condition until freed by the {@spell Greater Restoration|XPHB} spell or other magic. On a successful save, the effect ends. A creature Petrified by the statue turns into lightning crystal (detailed in \"Haskasori Features\")."
+												"When a creature not wearing an amulet of Yaarnak (see \"{@area Haskasori Features|3c0|x}\") enters the statue's area of {@variantrule Bright Light|XPHB} for the first time on a turn or starts its turn there, the creature makes a {@dc 15} Constitution saving throw. On a failed save, the creature begins to turn to crystal, has the {@condition Entravé|XPHB} condition, and repeats the save at the end of its next turn. On a second failed save, the creature has the {@condition Pétrifié|XPHB} condition until freed by the {@spell Greater Restoration|XPHB} spell or other magic. On a successful save, the effect ends. A creature Petrified by the statue turns into lightning crystal (detailed in \"Haskasori Features\")."
 											]
 										},
 										{
@@ -4954,11 +4954,11 @@
 													"type": "list",
 													"items": [
 														"49,000 GP",
-															"Eight gems\u2014two aquamarines, four black pearls, and two {@item Topaz|XDMG|topazes} (worth 500 GP each)",
+															"Eight gems\u2014two aquamarines, four black pearls, and two {@item Topaze|XDMG|topazes} (worth 500 GP each)",
 														"Three flawless vases (worth 750 GP each)",
-														"{@item Animated Shield|XDMG}",
-														"{@item Potion of Invisibility|XDMG}",
-														"{@item Potion of Speed|XDMG}"
+														"{@item Bouclier animé|XDMG}",
+														"{@item Potion d'invisibilité|XDMG}",
+														"{@item Potion de célérité|XDMG}"
 													]
 												}
 											]
@@ -4992,7 +4992,7 @@
 							"page": 192,
 							"id": "404",
 							"entries": [
-								"A character holding the cracked-open Brazen Egg while within 60 feet of Anthradusk can take a {@action Magic|XPHB} action to unleash Cozmioko's lingering power. If they do so, read the following:",
+								"A character holding the cracked-open Brazen Egg while within 60 feet of Anthradusk can take a {@action Magie|XPHB} action to unleash Cozmioko's lingering power. If they do so, read the following:",
 								{
 									"type": "insetReadaloud",
 									"page": 192,
@@ -5009,7 +5009,7 @@
 										{
 											"type": "item",
 											"name": "Supernatural Charm",
-											"entry": "Each character who helped bring the Brazen Egg to Haskasori gains the {@reward Charm of Cozmioko's Glory|DrDe}, described below. See \"{@book Supernatural Gifts|XDMG|2|Supernatural Gifts}\" in the {@book Dungeon Master's Guide|XDMG} for more information."
+											"entry": "Each character who helped bring the Brazen Egg to Haskasori gains the {@reward Charme de la gloire de Cozmioko|DrDe}, described below. See \"{@book Supernatural Gifts|XDMG|2|Supernatural Gifts}\" in the {@book Dungeon Master's Guide|XDMG} for more information."
 										},
 										{
 											"type": "item",

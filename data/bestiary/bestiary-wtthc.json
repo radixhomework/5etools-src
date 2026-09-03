@@ -281,7 +281,7 @@
 				{
 					"name": "Silver Tongue",
 					"entries": [
-						"{@actSave cha} {@dc 14}, one creature Dardew can see within 60 feet. {@actSaveFail} The creature has the {@condition Charmed|XPHB} condition until the start of Dardew's next turn."
+						"{@actSave cha} {@dc 14}, one creature Dardew can see within 60 feet. {@actSaveFail} The creature has the {@condition Charmé|XPHB} condition until the start of Dardew's next turn."
 					]
 				}
 			],
@@ -367,13 +367,13 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atkr m} {@hit 5} (with {@variantrule Advantage|XPHB} if the target is {@condition Grappled|XPHB} by a Demobat), reach 5 ft. {@h}10 ({@damage 2d6 + 3}) Piercing damage."
+						"{@atkr m} {@hit 5} (with {@variantrule Advantage|XPHB} if the target is {@condition Agrippé|XPHB} by a Demobat), reach 5 ft. {@h}10 ({@damage 2d6 + 3}) Piercing damage."
 					]
 				},
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atkr m} {@hit 5}, reach 5 ft. {@h}7 ({@damage 1d8 + 3}) Slashing damage. If the target is a Medium or smaller creature, the target has the {@condition Grappled|XPHB} condition (escape {@dc 13}) from all four tentacles."
+						"{@atkr m} {@hit 5}, reach 5 ft. {@h}7 ({@damage 1d8 + 3}) Slashing damage. If the target is a Medium or smaller creature, the target has the {@condition Agrippé|XPHB} condition (escape {@dc 13}) from all four tentacles."
 					]
 				}
 			],
@@ -451,7 +451,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The demodog has {@variantrule Advantage|XPHB} on an attack roll against a creature if at least one of the demodog's allies is within 5 feet of the creature and the ally doesn't have the {@condition Incapacitated|XPHB} condition."
+						"The demodog has {@variantrule Advantage|XPHB} on an attack roll against a creature if at least one of the demodog's allies is within 5 feet of the creature and the ally doesn't have the {@condition Incapable|XPHB} condition."
 					]
 				}
 			],
@@ -459,7 +459,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atkr m} {@hit 5}, reach 5 ft. {@h}8 ({@damage 1d10 + 3}) Piercing damage. If the target is a Medium or smaller creature, it has the {@condition Prone|XPHB} condition."
+						"{@atkr m} {@hit 5}, reach 5 ft. {@h}8 ({@damage 1d10 + 3}) Piercing damage. If the target is a Medium or smaller creature, it has the {@condition À terre|XPHB} condition."
 					]
 				}
 			],
@@ -684,7 +684,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atkr m} {@hit 5}, reach 5 ft. {@h}5 ({@damage 1d4 + 3}) Piercing damage. If the target is a Medium or smaller creature, it has the {@condition Grappled|XPHB} condition (escape {@dc 13}). While {@condition Grappled|XPHB}, the target has the {@condition Blinded|XPHB} condition."
+						"{@atkr m} {@hit 5}, reach 5 ft. {@h}5 ({@damage 1d4 + 3}) Piercing damage. If the target is a Medium or smaller creature, it has the {@condition Agrippé|XPHB} condition (escape {@dc 13}). While {@condition Agrippé|XPHB}, the target has the {@condition Aveuglé|XPHB} condition."
 					]
 				}
 			],
@@ -796,7 +796,7 @@
 				{
 					"name": "Vanishing Trick (3/Day)",
 					"entries": [
-						"Flizzlebin has the {@condition Invisible|XPHB} condition for 10 minutes. This effect ends early immediately after Flizzlebin makes an attack roll, deals damage, or has the {@condition Incapacitated|XPHB} condition, or if his hat is removed."
+						"Flizzlebin has the {@condition Invisible|XPHB} condition for 10 minutes. This effect ends early immediately after Flizzlebin makes an attack roll, deals damage, or has the {@condition Incapable|XPHB} condition, or if his hat is removed."
 					]
 				}
 			],
@@ -1038,7 +1038,7 @@
 				{
 					"name": "Invisibility",
 					"entries": [
-						"The imp has the {@condition Invisible|XPHB} condition for 1 minute. This effect ends early immediately after the imp makes an attack roll or deals damage, or if the imp has the {@condition Incapacitated|XPHB} condition."
+						"The imp has the {@condition Invisible|XPHB} condition for 1 minute. This effect ends early immediately after the imp makes an attack roll or deals damage, or if the imp has the {@condition Incapable|XPHB} condition."
 					]
 				},
 				{
@@ -1137,13 +1137,13 @@
 				{
 					"name": "Rancid Knife",
 					"entries": [
-						"{@atkr m} {@hit 5}, reach 5 ft. {@h}8 ({@damage 2d4 + 3}) Piercing damage plus 7 ({@damage 2d6}) Poison damage, and the target has the {@condition Poisoned|XPHB} condition until the start of Korex's next turn."
+						"{@atkr m} {@hit 5}, reach 5 ft. {@h}8 ({@damage 2d4 + 3}) Piercing damage plus 7 ({@damage 2d6}) Poison damage, and the target has the {@condition Empoisonné|XPHB} condition until the start of Korex's next turn."
 					]
 				},
 				{
 					"name": "Entrancing Pipes",
 					"entries": [
-						"{@actSave wis} {@dc 12}, one creature Korex can see within 120 feet. {@actSaveFail} 14 ({@damage 4d6}) Psychic damage, and the target has the {@condition Charmed|XPHB} condition until the start of Korex's next turn. {@actSaveSuccess} Half damage only."
+						"{@actSave wis} {@dc 12}, one creature Korex can see within 120 feet. {@actSaveFail} 14 ({@damage 4d6}) Psychic damage, and the target has the {@condition Charmé|XPHB} condition until the start of Korex's next turn. {@actSaveSuccess} Half damage only."
 					]
 				}
 			],
@@ -1151,7 +1151,7 @@
 				{
 					"name": "Skitter",
 					"entries": [
-						"Korex takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action."
+						"Korex takes the {@action Course|XPHB} or {@action Désengagement|XPHB} action."
 					]
 				}
 			],
@@ -1277,7 +1277,7 @@
 				{
 					"name": "G'wan, Git! (1/Day)",
 					"entries": [
-						"{@actSave wis} {@dc 11}, one creature Rilly June can see within 60 feet. {@actSaveFail} 10 ({@damage 3d6}) Psychic damage, and the target has the {@condition Frightened|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+						"{@actSave wis} {@dc 11}, one creature Rilly June can see within 60 feet. {@actSaveFail} 10 ({@damage 3d6}) Psychic damage, and the target has the {@condition Effrayé|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
 					]
 				}
 			],
@@ -1478,13 +1478,13 @@
 				{
 					"name": "Constricting Vine",
 					"entries": [
-						"{@atkr m} {@hit 4}, reach 10 ft. {@h}{@damage 1d10 + 2} Bludgeoning damage. If the target is a Large or smaller creature, it has the {@condition Grappled|XPHB} condition (escape {@dc 12}) from one of three vines."
+						"{@atkr m} {@hit 4}, reach 10 ft. {@h}{@damage 1d10 + 2} Bludgeoning damage. If the target is a Large or smaller creature, it has the {@condition Agrippé|XPHB} condition (escape {@dc 12}) from one of three vines."
 					]
 				},
 				{
 					"name": "Entangling Vines {@recharge 5}",
 					"entries": [
-						"Grasping vines momentarily appear on each enemy in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point of the blight's choice within 60 feet of it. Each target must succeed on a {@dc 12} Strength saving throw or have the {@condition Restrained|XPHB} condition until the start of the blight's next turn."
+						"Grasping vines momentarily appear on each enemy in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point of the blight's choice within 60 feet of it. Each target must succeed on a {@dc 12} Strength saving throw or have the {@condition Entravé|XPHB} condition until the start of the blight's next turn."
 					]
 				}
 			],

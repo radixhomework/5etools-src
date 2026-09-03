@@ -45,10 +45,10 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item spear|phb} or (b) a {@item mace|phb}",
-					"(a) {@item leather armor|phb} or (b) {@item studded leather armor|phb}",
-					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}"
+					"(a) a {@item Lance|phb} or (b) a {@item Masse d'armes|phb}",
+					"(a) {@item Armure de cuir|phb} or (b) {@item Armure de cuir clouté|phb}",
+					"(a) a {@item Arbalète légère|phb} and {@item Carreaux d'arbalète (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item Paquetage de l'érudit|phb} or (b) an {@item Pack d'explorateur|phb}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -423,7 +423,7 @@
 					"type": "entries",
 					"name": "Psychic Focus",
 					"entries": [
-						"You can focus psionic energy on one of your psionic disciplines to draw ongoing benefits from it. As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit, which is detailed in that discipline's description. The benefit lasts until you are {@condition incapacitated} or until you use another bonus action to choose a different focus benefit.",
+						"You can focus psionic energy on one of your psionic disciplines to draw ongoing benefits from it. As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit, which is detailed in that discipline's description. The benefit lasts until you are {@condition Incapable} or until you use another bonus action to choose a different focus benefit.",
 						"You can have only one psychic focus benefit at a time, and using the psychic focus of one discipline doesn't limit your ability to use other disciplines."
 					]
 				},
@@ -749,8 +749,8 @@
 					"items": [
 						"You gain resistance to bludgeoning, piercing, and slashing damage.",
 						"You no longer age.",
-						"You are immune to disease, poison damage, and the {@condition poisoned} condition.",
-						"If you die, roll a {@dice d20}. On a 10 or higher, you discorporate with 0 hit points, instead of dying, and you fall {@condition unconscious}. You and your gear disappear. You appear at a spot of your choice {@dice 1d3} days later on the plane of existence where you died, having gained the benefits of one long rest."
+						"You are immune to disease, poison damage, and the {@condition Empoisonné} condition.",
+						"If you die, roll a {@dice d20}. On a 10 or higher, you discorporate with 0 hit points, instead of dying, and you fall {@condition Inconscient}. You and your gear disappear. You appear at a spot of your choice {@dice 1d3} days later on the plane of existence where you died, having gained the benefits of one long rest."
 					]
 				}
 			]
@@ -818,7 +818,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, you project an inspiring aura. While you aren't {@condition incapacitated}, each ally within 30 feet of you who can see you gains a +2 bonus to initiative rolls."
+				"Starting at 3rd level, you project an inspiring aura. While you aren't {@condition Incapable}, each ally within 30 feet of you who can see you gains a +2 bonus to initiative rolls."
 			]
 		},
 		{
@@ -832,7 +832,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Beginning at 6th level, you project an aura of resilience. While you aren't {@condition incapacitated}, each ally within 30 feet of you who can see you regains additional hit points equal to your Intelligence modifier (minimum of 0) whenever they regain hit points from a psionic discipline."
+				"Beginning at 6th level, you project an aura of resilience. While you aren't {@condition Incapable}, each ally within 30 feet of you who can see you regains additional hit points equal to your Intelligence modifier (minimum of 0) whenever they regain hit points from a psionic discipline."
 			]
 		},
 		{
@@ -846,7 +846,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you project an aura of speed. While you aren't {@condition incapacitated}, any ally within 30 feet of you who can see you can take the {@action Dash} action as a bonus action."
+				"Starting at 14th level, you project an aura of speed. While you aren't {@condition Incapable}, any ally within 30 feet of you who can see you can take the {@action Course} action as a bonus action."
 			]
 		},
 		{
@@ -882,7 +882,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain proficiency with two of the following skills of your choice: {@skill Animal Handling}, {@skill Deception}, {@skill Insight}, {@skill Intimidation}, {@skill Investigation}, {@skill Perception}, and {@skill Persuasion}."
+				"At 1st level, you gain proficiency with two of the following skills of your choice: {@skill Dressage}, {@skill Tromperie}, {@skill Perspicacité}, {@skill Intimidation}, {@skill Investigation}, {@skill Perception}, and {@skill Persuasion}."
 			]
 		},
 		{
@@ -1181,7 +1181,7 @@
 			"entries": [
 				"Starting at 1st level, you gain the ability to manifest a blade of psychic energy. As a bonus action, you create scintillating knives of energy that project from both of your fists. You can't hold anything in your hands while manifesting these blades. You can dismiss them as a bonus action.",
 				"For you, a soul knife is a martial melee weapon with the light and finesse properties. It deals {@damage 1d8} psychic damage on a hit.",
-				"As a bonus action, you can prepare to use the blades to parry; you gain a +2 bonus to AC until the start of your next turn or until you are {@condition incapacitated}."
+				"As a bonus action, you can prepare to use the blades to parry; you gain a +2 bonus to AC until the start of your next turn or until you are {@condition Incapable}."
 			]
 		},
 		{
@@ -1298,7 +1298,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain proficiency with two of the following skills of your choice: {@skill Animal Handling}, {@skill Arcana}, {@skill History}, {@skill Insight}, {@skill Medicine}, {@skill Nature}, {@skill Perception}, {@skill Religion}, or {@skill Survival}."
+				"At 1st level, you gain proficiency with two of the following skills of your choice: {@skill Dressage}, {@skill Arcanes}, {@skill Histoire}, {@skill Perspicacité}, {@skill Médecine}, {@skill Nature}, {@skill Perception}, {@skill Religion}, or {@skill Survie}."
 			]
 		},
 		{

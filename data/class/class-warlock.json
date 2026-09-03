@@ -154,10 +154,10 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
-					"(a) a {@item scholar's pack|phb} or (b) a {@item dungeoneer's pack|phb}",
-					"{@item Leather armor|phb}, any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}, and two {@item dagger|phb|daggers}"
+					"(a) a {@item Arbalète légère|phb} and {@item Carreaux d'arbalète (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item Sacoche à composantes|phb} or (b) an {@item arcane focus|phb}",
+					"(a) a {@item Paquetage de l'érudit|phb} or (b) a {@item Pack d'explorateur des donjons|phb}",
+					"{@item Armure de cuir|phb}, any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}, and two {@item Dague|phb|daggers}"
 				],
 				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -607,7 +607,7 @@
 					}
 				],
 				"entries": [
-					"{@i Choose A or B:} (A) {@item Leather Armor|XPHB}, {@item Sickle|XPHB}, 2 {@item Dagger|XPHB|Daggers}, {@item Arcane Focus|XPHB} ({@item orb|XPHB}), {@item Book|XPHB} (occult lore), {@item Scholar's Pack|XPHB}, and 15 GP; or (B) 100 GP"
+					"{@i Choose A or B:} (A) {@item Armure de cuir|XPHB}, {@item Faucille|XPHB}, 2 {@item Dague|XPHB|Daggers}, {@item Arcane Focus|XPHB} ({@item Orbe|XPHB}), {@item Livre|XPHB} (occult lore), {@item Paquetage de l'érudit|XPHB}, and 15 GP; or (B) 100 GP"
 				]
 			},
 			"multiclassing": {
@@ -2507,7 +2507,7 @@
 			"classSource": "XPHB",
 			"level": 4,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
 			]
 		},
 		{
@@ -2533,7 +2533,7 @@
 			"classSource": "XPHB",
 			"level": 8,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2589,7 +2589,7 @@
 			"classSource": "XPHB",
 			"level": 12,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2641,7 +2641,7 @@
 			"classSource": "XPHB",
 			"level": 16,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2667,7 +2667,7 @@
 			"classSource": "XPHB",
 			"level": 19,
 			"entries": [
-				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Fate|XPHB} is recommended."
+				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Don du destin|XPHB} is recommended."
 			]
 		},
 		{
@@ -2754,7 +2754,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all {@condition charmed} or {@condition frightened} by you (your choice) until the end of your next turn.",
+				"Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all {@condition Charmé} or {@condition Effrayé} by you (your choice) until the end of your next turn.",
 				"Once you use this feature, you can't use it again until you finish a short or long rest."
 			]
 		},
@@ -2784,7 +2784,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being {@condition charmed}, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be {@condition charmed} by you for 1 minute or until the creature takes any damage."
+				"Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being {@condition Charmé}, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be {@condition Charmé} by you for 1 minute or until the creature takes any damage."
 			]
 		},
 		{
@@ -2798,7 +2798,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is {@condition charmed} or {@condition frightened} by you (your choice) for 1 minute or until your {@status concentration} is broken (as if you are {@status concentration||concentrating} on a spell). This effect ends early if the creature takes any damage.",
+				"Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is {@condition Charmé} or {@condition Effrayé} by you (your choice) for 1 minute or until your {@status concentration} is broken (as if you are {@status concentration||concentrating} on a spell). This effect ends early if the creature takes any damage.",
 				"Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.",
 				"You must finish a short or long rest before you can use this feature again."
 			]
@@ -3037,8 +3037,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an {@condition incapacitated} humanoid. That creature is then {@condition charmed} by you until a {@spell remove curse} spell is cast on it, the {@condition charmed} condition is removed from it, or you use this feature again.",
-				"You can communicate telepathically with the {@condition charmed} creature as long as the two of you are on the same plane of existence."
+				"At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an {@condition Incapable} humanoid. That creature is then {@condition Charmé} by you until a {@spell remove curse} spell is cast on it, the {@condition Charmé} condition is removed from it, or you use this feature again.",
+				"You can communicate telepathically with the {@condition Charmé} creature as long as the two of you are on the same plane of existence."
 			]
 		},
 		{
@@ -3141,7 +3141,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Beginning at 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce {@condition exhaustion} and still benefit from finishing short and long rests.",
+				"Beginning at 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce {@condition Épuisement} and still benefit from finishing short and long rests.",
 				"In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged."
 			]
 		},
@@ -3674,8 +3674,8 @@
 					"type": "list",
 					"items": [
 						"You gain temporary hit points equal to {@dice 1d10} + your warlock level.",
-						"Once during each of your turns, when you hit a creature with an attack roll, you can force it to make a Wisdom saving throw, and if the saving throw fails, the target is {@condition frightened} of you until the end of your next turn.",
-						"You are immune to the {@condition frightened} condition."
+						"Once during each of your turns, when you hit a creature with an attack roll, you can force it to make a Wisdom saving throw, and if the saving throw fails, the target is {@condition Effrayé} of you until the end of your next turn.",
+						"You are immune to the {@condition Effrayé} condition."
 					]
 				},
 				"You can transform a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
@@ -3711,7 +3711,7 @@
 			"entries": [
 				"{@i 10th-level Undead feature}",
 				"Your connection to undeath and necrotic energy now saturates your body. You have resistance to necrotic damage. If you are transformed using your Form of Dread, you instead become immune to necrotic damage.",
-				"In addition, when you would be reduced to 0 hit points, you can use your reaction to drop to 1 hit point instead and cause your body to erupt with deathly energy. Each creature of your choice that is within 30 feet of you takes necrotic damage equal to {@damage 2d10} + your warlock level. You then gain 1 level of {@condition exhaustion}. Once you use this reaction, you can't do so again until you finish {@dice 1d4} long rests."
+				"In addition, when you would be reduced to 0 hit points, you can use your reaction to drop to 1 hit point instead and cause your body to erupt with deathly energy. Each creature of your choice that is within 30 feet of you takes necrotic damage equal to {@damage 2d10} + your warlock level. You then gain 1 level of {@condition Épuisement}. Once you use this reaction, you can't do so again until you finish {@dice 1d4} long rests."
 			]
 		},
 		{
@@ -3726,7 +3726,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 14th-level Undead feature}",
-				"Your spirit can become untethered from your physical form. As an action, you can project your spirit from your body. The body you leave behind is {@condition unconscious} and in a state of suspended animation.",
+				"Your spirit can become untethered from your physical form. As an action, you can project your spirit from your body. The body you leave behind is {@condition Inconscient} and in a state of suspended animation.",
 				"Your spirit resembles your mortal form in almost every way, replicating your game statistics but not your possessions. Any damage or other effects that apply to your spirit or physical body affects the other. Your spirit can remain outside your body for up to 1 hour or until your {@status concentration} is broken (as if {@status concentration||concentrating} on a spell). When your projection ends, your spirit returns to your body or your body magically teleports to your spirit's space (your choice).",
 				"While projecting your spirit, you gain the following benefits:",
 				{
@@ -3873,7 +3873,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to {@dice 2d8} + your Charisma modifier, and it is {@condition blinded} until the end of the current turn.",
+				"Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to {@dice 2d8} + your Charisma modifier, and it is {@condition Aveuglé} until the end of the current turn.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
@@ -3966,7 +3966,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are {@condition incapacitated}. Until the curse ends, you gain the following benefits:",
+				"Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are {@condition Incapable}. Until the curse ends, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -4019,7 +4019,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't {@condition incapacitated}. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature."
+				"Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't {@condition Incapable}. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature."
 			]
 		},
 		{
@@ -4117,7 +4117,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you transform into an avatar of your patron's dreadful power, gaining the benefits below for 1 minute, until you have the {@condition Incapacitated|XPHB} condition, or until you end the form (no action required). You can transform a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+				"As a {@variantrule Bonus Action|XPHB}, you transform into an avatar of your patron's dreadful power, gaining the benefits below for 1 minute, until you have the {@condition Incapable|XPHB} condition, or until you end the form (no action required). You can transform a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
 				{
 					"type": "entries",
 					"name": "Facsimile of Life",
@@ -4129,14 +4129,14 @@
 					"type": "entries",
 					"name": "Fearless Form",
 					"entries": [
-						"You have Immunity to the {@condition Frightened|XPHB} condition. If you are Frightened when you transform, the condition immediately ends for you."
+						"You have Immunity to the {@condition Effrayé|XPHB} condition. If you are Frightened when you transform, the condition immediately ends for you."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Frightful Avatar",
 					"entries": [
-						"Once per turn, when you hit a creature with an attack roll, you can force it to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the {@condition Frightened|XPHB} condition until the end of your next turn."
+						"Once per turn, when you hit a creature with an attack roll, you can force it to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the {@condition Effrayé|XPHB} condition until the end of your next turn."
 					]
 				}
 			]
@@ -4213,7 +4213,7 @@
 					"type": "entries",
 					"name": "Undead Endurance",
 					"entries": [
-						"You don't gain {@condition Exhaustion|XPHB} levels from {@hazard dehydration|XPHB}, {@hazard malnutrition|XPHB}, or {@hazard suffocation|XPHB}. In addition, you don't need to sleep, and magic can't put you to sleep."
+						"You don't gain {@condition Épuisement|XPHB} levels from {@hazard Déshydratation|XPHB}, {@hazard malnutrition|XPHB}, or {@hazard Asphyxie|XPHB}. In addition, you don't need to sleep, and magic can't put you to sleep."
 					]
 				}
 			]
@@ -4240,7 +4240,7 @@
 					"type": "entries",
 					"name": "Unholy Resuscitation",
 					"entries": [
-						"If you drop to 0 Hit Points and don't die outright, you can cause your body to erupt with deathly energy. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you makes a Constitution saving throw against your spell save DC, taking Necrotic damage equal to {@dice 2d10} plus your Charisma modifier on a failed save or half as much damage on a successful one. Your Hit Points then change to twice your Warlock level, and you gain 1 {@condition Exhaustion|XPHB} level.",
+						"If you drop to 0 Hit Points and don't die outright, you can cause your body to erupt with deathly energy. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you makes a Constitution saving throw against your spell save DC, taking Necrotic damage equal to {@dice 2d10} plus your Charisma modifier on a failed save or half as much damage on a successful one. Your Hit Points then change to twice your Warlock level, and you gain 1 {@condition Épuisement|XPHB} level.",
 						"Once you use this benefit, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
 					]
 				}
@@ -4551,7 +4551,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Your patron teaches you how to guard your mind and body. You are immune to the {@condition Charmed|XPHB} condition.",
+				"Your patron teaches you how to guard your mind and body. You are immune to the {@condition Charmé|XPHB} condition.",
 				"In addition, immediately after a creature you can see hits you with an attack roll, you can take a {@variantrule Reaction|XPHB} to reduce the damage you take by half (round down), and you can force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attacker takes Psychic damage equal to the damage you take. Once you use this {@variantrule Reaction|XPHB}, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a Pact Magic spell slot (no action required) to restore your use of it."
 			]
 		},
@@ -4689,7 +4689,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"When you or an ally within 60 feet of you is about to make a {@variantrule Death Saving Throw|XPHB}, you can unleash radiant energy to save the creature. The creature regains {@variantrule Hit Points|XPHB} equal to half its {@variantrule Hit Points|XPHB|Hit Point} maximum and can end the {@condition Prone|XPHB} condition on itself. Each creature of your choice that is within 30 feet of the creature takes Radiant damage equal to {@dice 2d8} plus your Charisma modifier, and each has the {@condition Blinded|XPHB} condition until the end of the current turn.",
+				"When you or an ally within 60 feet of you is about to make a {@variantrule Death Saving Throw|XPHB}, you can unleash radiant energy to save the creature. The creature regains {@variantrule Hit Points|XPHB} equal to half its {@variantrule Hit Points|XPHB|Hit Point} maximum and can end the {@condition À terre|XPHB} condition on itself. Each creature of your choice that is within 30 feet of the creature takes Radiant damage equal to {@dice 2d8} plus your Charisma modifier, and each has the {@condition Aveuglé|XPHB} condition until the end of the current turn.",
 				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
@@ -4825,7 +4825,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Once per turn when you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Charisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes {@damage 8d10} Psychic damage if it isn't a Fiend, and it has the {@condition Incapacitated|XPHB} condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.",
+				"Once per turn when you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Charisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes {@damage 8d10} Psychic damage if it isn't a Fiend, and it has the {@condition Incapable|XPHB} condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.",
 				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a Pact Magic spell slot (no action required) to restore your use of it."
 			]
 		},

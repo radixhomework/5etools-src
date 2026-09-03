@@ -193,7 +193,7 @@
 				{
 					"name": "Équipement spécial",
 					"entries": [
-						"Acererak porte le {@item Bâton de l'Oublié|ToA|Bâton de l'Oublié}. Il porte un {@item Talisman of the Sphere|DMG|Talisman de la Sphère} et garde une {@item Sphere of Annihilation|DMG|Sphère d'annihilation} sous son contrôle."
+						"Acererak porte le {@item Bâton de l'Oublié|ToA|Bâton de l'Oublié}. Il porte un {@item Talisman de la sphère|DMG|Talisman de la Sphère} et garde une {@item Sphère d'annihilation|DMG|Sphère d'annihilation} sous son contrôle."
 					]
 				},
 				{
@@ -219,7 +219,7 @@
 				{
 					"name": "Toucher paralysant",
 					"entries": [
-						"{@atk ms} {@hit 15} pour toucher, allonge 1,5 m, une créature. {@h}10 ({@damage 3d6}) dégâts de froid, et la cible doit réussir un jet de sauvegarde de Constitution de {@dc 20} ou être {@condition paralyzed||paralysée} pendant 1 minute. La cible peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet dans le cas d'une réussite."
+						"{@atk ms} {@hit 15} pour toucher, allonge 1,5 m, une créature. {@h}10 ({@damage 3d6}) dégâts de froid, et la cible doit réussir un jet de sauvegarde de Constitution de {@dc 20} ou être {@condition Paralysé||paralysée} pendant 1 minute. La cible peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet dans le cas d'une réussite."
 					]
 				},
 				{
@@ -251,13 +251,13 @@
 				{
 					"name": "Regard terrifiant (coûte 2 actions)",
 					"entries": [
-						"Acererak fixe du regard une créature qu'il peut voir à 3 mètres ou moins de lui. La cible doit réussir un jet de sauvegarde de Sagesse de {@dc 20} contre cette magie ou devenir {@condition frightened||terrifiée} pendant 1 minute. La cible {@condition frightened||terrifiée} peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet dans le cas d'une réussite. Si une cible réussit son jet de sauvegarde ou si l'effet prend fin pour elle, elle est immunisée contre le regard d'Acererak pendant les 24 heures suivantes."
+						"Acererak fixe du regard une créature qu'il peut voir à 3 mètres ou moins de lui. La cible doit réussir un jet de sauvegarde de Sagesse de {@dc 20} contre cette magie ou devenir {@condition Effrayé||terrifiée} pendant 1 minute. La cible {@condition Effrayé||terrifiée} peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet dans le cas d'une réussite. Si une cible réussit son jet de sauvegarde ou si l'effet prend fin pour elle, elle est immunisée contre le regard d'Acererak pendant les 24 heures suivantes."
 					]
 				},
 				{
 					"name": "Talisman de la Sphère (coûte 2 actions)",
 					"entries": [
-						"Acererak utilise son {@item Talisman of the Sphere|DMG|Talisman de la Sphère} pour déplacer la {@item Sphere of Annihilation|DMG|Sphère d'annihilation} qu'il contrôle jusqu'à 27 mètres."
+						"Acererak utilise son {@item Talisman de la sphère|DMG|Talisman de la Sphère} pour déplacer la {@item Sphère d'annihilation|DMG|Sphère d'annihilation} qu'il contrôle jusqu'à 27 mètres."
 					]
 				},
 				{
@@ -352,7 +352,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item hide armor|phb|armure de peaux}"
+						"{@item Armure de peau|phb|armure de peaux}"
 					]
 				}
 			],
@@ -467,7 +467,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item hide armor|phb|armure de peaux}"
+						"{@item Armure de peau|phb|armure de peaux}"
 					]
 				}
 			],
@@ -604,7 +604,7 @@
 				{
 					"name": "Griffe",
 					"entries": [
-						"{@atk mw} {@hit 3} pour toucher, allonge 1,5 m, une cible. {@h}5 ({@damage 1d8 + 1}) dégâts tranchants, et la cible est {@condition grappled||agrippée} (évasion {@dc 11}). L'aldani possède deux pinces, dont chacune ne peut agripper qu'une seule cible."
+						"{@atk mw} {@hit 3} pour toucher, allonge 1,5 m, une cible. {@h}5 ({@damage 1d8 + 1}) dégâts tranchants, et la cible est {@condition Agrippé||agrippée} (évasion {@dc 11}). L'aldani possède deux pinces, dont chacune ne peut agripper qu'une seule cible."
 					]
 				}
 			],
@@ -766,7 +766,7 @@
 				{
 					"name": "Queue",
 					"entries": [
-						"{@atk mw} {@hit 6} pour toucher, allonge 3 m, une cible {@h}18 ({@damage 4d6 + 4}) dégâts contondants. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Force de {@dc 14} ou être projetée {@condition prone||à terre}."
+						"{@atk mw} {@hit 6} pour toucher, allonge 3 m, une cible {@h}18 ({@damage 4d6 + 4}) dégâts contondants. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Force de {@dc 14} ou être projetée {@condition À terre||à terre}."
 					]
 				}
 			],
@@ -815,7 +815,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item studded leather armor|phb|cuir clouté}"
+						"{@item Armure de cuir clouté|phb|cuir clouté}"
 					]
 				}
 			],
@@ -904,7 +904,7 @@
 							"items": [
 								"Artus peut dépenser 1 charge et utiliser l'anneau pour abaisser la température dans une sphère de 36 mètres de rayon centrée sur un point qu'il peut voir à 90 mètres ou moins de lui. La température de la zone chute de 20 degrés par minute, jusqu'à un minimum de −30 degrés Fahrenheit. Du givre et de la glace commencent à se former sur les surfaces dès que la température descend en dessous de 32 degrés. Cet effet est permanent, à moins qu'Artus n'utilise l'anneau pour y mettre fin par une action, auquel cas la température de la zone redevient normale à raison de 10 degrés par minute.",
 								"Artus peut lancer l'un des sorts suivants depuis l'anneau (DD des sorts {@dc 17}) en dépensant le nombre de charges nécessaire : {@spell Bigby's hand} (2 charges), la main étant faite de glace, immunisée contre les dégâts de froid et infligeant des dégâts contondants au lieu de dégâts de force sous forme de poing serré ; {@spell cone of cold} (2 charges) ; {@spell flesh to stone||chair en glace} (3 charges) ; comme chair de pierre, si ce n'est que la cible se transforme en glace solide ayant la densité et la solidité de la pierre ; {@spell ice storm} (2 charges) ; {@spell Otiluke's freezing sphere} (3 charges) ; {@spell sleet storm} (1 charge) ; {@spell spike growth} (1 charge), les pointes étant faites de glace ; ou {@spell wall of ice} (2 charges).",
-								"Artus peut dépenser le nombre de charges nécessaire et utiliser l'anneau pour créer soit un objet de glace inanimé (2 charges), soit une créature de glace animée (4 charges). L'objet de glace ne peut comporter aucune pièce mobile, doit pouvoir tenir dans un cube de 3 mètres d'arête et possède la densité et la solidité du métal ou de la pierre (au choix d'Artus). La créature de glace doit être modelée sur une bête de degré de difficulté 2 ou moins. La créature de glace possède les mêmes caractéristiques que la bête sur laquelle elle est modelée, avec les changements suivants : la créature est une créature artificielle avec une vulnérabilité aux dégâts de feu, une immunité aux dégâts de froid et de poison, et une immunité aux états suivants : {@condition charmed||charmé}, {@condition exhaustion||épuisement}, {@condition frightened||terrifié}, {@condition paralyzed||paralysé}, {@condition petrified||pétrifié} et {@condition poisoned||empoisonné}. La créature de glace n'obéit qu'aux ordres de son créateur. L'objet ou la créature apparaît dans un espace inoccupé à 18 mètres ou moins d'Artus. Il fond en une flaque d'eau normale au bout de 24 heures ou quand il tombe à 0 point de vie. En cas de chaleur extrême, il perd 5 ({@dice 1d10}) points de vie par minute à mesure qu'il fond. Utilisez les indications du chapitre 8 du Guide du Maître pour déterminer, le cas échéant, les points de vie d'un objet inanimé."
+								"Artus peut dépenser le nombre de charges nécessaire et utiliser l'anneau pour créer soit un objet de glace inanimé (2 charges), soit une créature de glace animée (4 charges). L'objet de glace ne peut comporter aucune pièce mobile, doit pouvoir tenir dans un cube de 3 mètres d'arête et possède la densité et la solidité du métal ou de la pierre (au choix d'Artus). La créature de glace doit être modelée sur une bête de degré de difficulté 2 ou moins. La créature de glace possède les mêmes caractéristiques que la bête sur laquelle elle est modelée, avec les changements suivants : la créature est une créature artificielle avec une vulnérabilité aux dégâts de feu, une immunité aux dégâts de froid et de poison, et une immunité aux états suivants : {@condition Charmé||charmé}, {@condition Épuisement||épuisement}, {@condition Effrayé||terrifié}, {@condition Paralysé||paralysé}, {@condition Pétrifié||pétrifié} et {@condition Empoisonné||empoisonné}. La créature de glace n'obéit qu'aux ordres de son créateur. L'objet ou la créature apparaît dans un espace inoccupé à 18 mètres ou moins d'Artus. Il fond en une flaque d'eau normale au bout de 24 heures ou quand il tombe à 0 point de vie. En cas de chaleur extrême, il perd 5 ({@dice 1d10}) points de vie par minute à mesure qu'il fond. Utilisez les indications du chapitre 8 du Guide du Maître pour déterminer, le cas échéant, les points de vie d'un objet inanimé."
 							]
 						}
 					]
@@ -1162,13 +1162,13 @@
 				{
 					"name": "Étreinte",
 					"entries": [
-						"{@atk mw} {@hit 6} pour toucher, allonge 6 m, une créature. {@h}La cible subit 11 ({@damage 2d6 + 4}) dégâts contondants, et elle est {@condition grappled||agrippée} (évasion {@dc 14}). Tant que cette étreinte est maintenue, la cible est {@condition restrained||entravée} et subit 21 ({@damage 6d6}) dégâts de poison au début de chacun de ses tours. La liane ne peut étreindre qu'une seule cible à la fois."
+						"{@atk mw} {@hit 6} pour toucher, allonge 6 m, une créature. {@h}La cible subit 11 ({@damage 2d6 + 4}) dégâts contondants, et elle est {@condition Agrippé||agrippée} (évasion {@dc 14}). Tant que cette étreinte est maintenue, la cible est {@condition Entravé||entravée} et subit 21 ({@damage 6d6}) dégâts de poison au début de chacun de ses tours. La liane ne peut étreindre qu'une seule cible à la fois."
 					]
 				},
 				{
 					"name": "Lianes enchevêtrantes",
 					"entries": [
-						"La liane assassine peut animer des lianes et des racines normales se trouvant au sol dans un carré de 4,5 mètres de côté à 9 mètres ou moins d'elle. Ces plantes transforment le sol de la zone en {@quickref difficult terrain||3|terrain difficile}. Une créature se trouvant dans la zone quand l'effet débute doit réussir un jet de sauvegarde de Force de {@dc 13} ou être {@condition restrained||entravée} par des lianes et des racines enchevêtrées. Une créature {@condition restrained||entravée} par les plantes peut utiliser son action pour effectuer un test de Force ({@skill Athletics||Athlétisme}) de {@dc 13}, se libérant en cas de réussite. L'effet prend fin après 1 minute, ou quand la liane assassine meurt ou utilise de nouveau Lianes enchevêtrantes."
+						"La liane assassine peut animer des lianes et des racines normales se trouvant au sol dans un carré de 4,5 mètres de côté à 9 mètres ou moins d'elle. Ces plantes transforment le sol de la zone en {@quickref difficult terrain||3|terrain difficile}. Une créature se trouvant dans la zone quand l'effet débute doit réussir un jet de sauvegarde de Force de {@dc 13} ou être {@condition Entravé||entravée} par des lianes et des racines enchevêtrées. Une créature {@condition Entravé||entravée} par les plantes peut utiliser son action pour effectuer un test de Force ({@skill Athlétisme||Athlétisme}) de {@dc 13}, se libérant en cas de réussite. L'effet prend fin après 1 minute, ou quand la liane assassine meurt ou utilise de nouveau Lianes enchevêtrantes."
 					]
 				}
 			],
@@ -1332,7 +1332,7 @@
 				{
 					"name": "Hurlement (coûte 3 actions)",
 					"entries": [
-						"L'atropal laisse échapper un hurlement flétrissant. Toute créature à 36 mètres ou moins de l'atropal qui peut entendre le hurlement doit réussir un jet de sauvegarde de Constitution de {@dc 19} ou gagner 1 niveau d'{@condition exhaustion||épuisement}."
+						"L'atropal laisse échapper un hurlement flétrissant. Toute créature à 36 mètres ou moins de l'atropal qui peut entendre le hurlement doit réussir un jet de sauvegarde de Constitution de {@dc 19} ou gagner 1 niveau d'{@condition Épuisement||épuisement}."
 					]
 				}
 			],
@@ -1452,7 +1452,7 @@
 				{
 					"name": "Bond (forme tigre ou hybride uniquement)",
 					"entries": [
-						"Si l'Azaka se déplace d'au moins 4,50 mètres en ligne droite vers une créature puis la touche avec une attaque de griffe au cours du même tour, la cible doit réussir un jet de sauvegarde de Force {@dc 14} sinon elle tombe {@condition prone}. Si la cible est {@condition prone}, l'Azaka peut effectuer une attaque de morsure contre elle en tant qu'action bonus."
+						"Si l'Azaka se déplace d'au moins 4,50 mètres en ligne droite vers une créature puis la touche avec une attaque de griffe au cours du même tour, la cible doit réussir un jet de sauvegarde de Force {@dc 14} sinon elle tombe {@condition À terre}. Si la cible est {@condition À terre}, l'Azaka peut effectuer une attaque de morsure contre elle en tant qu'action bonus."
 					]
 				}
 			],
@@ -1575,7 +1575,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|phb|cuir clouté}"
+						"{@item Armure de cuir clouté|phb|cuir clouté}"
 					]
 				}
 			],
@@ -1626,7 +1626,7 @@
 				{
 					"name": "Assassinat",
 					"entries": [
-						"Pendant son premier tour, Bag of Nails a un avantage aux jets d'attaque contre toute créature qui n'a pas encore joué. Tout coup que Bag of Nails porte contre une créature {@status surprised||surprise} est un coup critique."
+						"Pendant son premier tour, Bag of Nails a un avantage aux jets d'attaque contre toute créature qui n'a pas encore joué. Tout coup que Bag of Nails porte contre une créature {@status Surpris||surprise} est un coup critique."
 					]
 				},
 				{
@@ -1638,7 +1638,7 @@
 				{
 					"name": "Attaque sournoise (1/tour)",
 					"entries": [
-						"Bag of Nails inflige 14 ({@damage 4d6}) dégâts supplémentaires quand il touche une cible avec une attaque d'arme et a un avantage au jet d'attaque, ou quand la cible se trouve à 1,5 mètre ou moins d'un allié qui n'est pas {@condition incapacitated||incapable d'agir} et que Bag of Nails n'a pas de désavantage au jet d'attaque."
+						"Bag of Nails inflige 14 ({@damage 4d6}) dégâts supplémentaires quand il touche une cible avec une attaque d'arme et a un avantage au jet d'attaque, ou quand la cible se trouve à 1,5 mètre ou moins d'un allié qui n'est pas {@condition Incapable||incapable d'agir} et que Bag of Nails n'a pas de désavantage au jet d'attaque."
 					]
 				}
 			],
@@ -1890,7 +1890,7 @@
 				{
 					"ac": 11,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -1919,13 +1919,13 @@
 				{
 					"name": "Équipement spécial",
 					"entries": [
-						"Bosco porte un {@item ring of animal influence}."
+						"Bosco porte un {@item Anneau d'influence animale}."
 					]
 				},
 				{
 					"name": "Tactique de meute",
 					"entries": [
-						"Bosco a l'avantage sur un jet d'attaque contre une créature si au moins un des alliés de Bosco se trouve à 1,50 mètre ou moins de la créature et que cet allié n'est pas {@condition incapacitated}."
+						"Bosco a l'avantage sur un jet d'attaque contre une créature si au moins un des alliés de Bosco se trouve à 1,50 mètre ou moins de la créature et que cet allié n'est pas {@condition Incapable}."
 					]
 				}
 			],
@@ -2105,7 +2105,7 @@
 					"ac": 17,
 					"from": [
 						"armure naturelle",
-						"{@item shield|phb|bouclier}"
+						"{@item Bouclier|phb|bouclier}"
 					]
 				}
 			],
@@ -2178,7 +2178,7 @@
 				{
 					"name": "Coup de bouclier",
 					"entries": [
-						"{@atk mw} {@hit 7} pour toucher, allonge 1,5 m, une créature. {@h}9 ({@damage 2d4 + 4}) dégâts contondants. Si la cible est une créature de taille M ou plus petite, elle doit réussir un jet de sauvegarde de Force de {@dc 15} ou être projetée {@condition prone||à terre}."
+						"{@atk mw} {@hit 7} pour toucher, allonge 1,5 m, une créature. {@h}9 ({@damage 2d4 + 4}) dégâts contondants. Si la cible est une créature de taille M ou plus petite, elle doit réussir un jet de sauvegarde de Force de {@dc 15} ou être projetée {@condition À terre||à terre}."
 					]
 				}
 			],
@@ -2240,8 +2240,8 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item breastplate|phb|plastron}",
-						"{@item shield|phb|bouclier}"
+						"{@item Cuirasse|phb|plastron}",
+						"{@item Bouclier|phb|bouclier}"
 					]
 				}
 			],
@@ -2423,7 +2423,7 @@
 							"name": "Filet lesté",
 							"type": "entries",
 							"entries": [
-								"{@atk rw} {@hit 5} pour toucher, portée 6/18 m, une créature de taille P, M ou G. {@h}La cible est {@condition restrained} jusqu'à ce qu'elle s'échappe du filet. N'importe quelle créature peut utiliser son action pour effectuer un test de Force {@dc 17} afin de se libérer ou de libérer une autre créature prise dans le filet, mettant fin à l'effet en cas de succès. Infliger 15 dégâts tranchants au filet (CA 12) le détruit et libère la cible."
+								"{@atk rw} {@hit 5} pour toucher, portée 6/18 m, une créature de taille P, M ou G. {@h}La cible est {@condition Entravé} jusqu'à ce qu'elle s'échappe du filet. N'importe quelle créature peut utiliser son action pour effectuer un test de Force {@dc 17} afin de se libérer ou de libérer une autre créature prise dans le filet, mettant fin à l'effet en cas de succès. Infliger 15 dégâts tranchants au filet (CA 12) le détruit et libère la cible."
 							]
 						}
 					],
@@ -2614,8 +2614,8 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item studded leather armor|phb|cuir clouté}",
-						"{@item shield|phb}"
+						"{@item Armure de cuir clouté|phb|cuir clouté}",
+						"{@item Bouclier|phb}"
 					]
 				}
 			],
@@ -2650,7 +2650,7 @@
 				{
 					"name": "Bravoure",
 					"entries": [
-						"Ekene-Afa a l'avantage sur les jets de sauvegarde contre l'état {@condition frightened}."
+						"Ekene-Afa a l'avantage sur les jets de sauvegarde contre l'état {@condition Effrayé}."
 					]
 				},
 				{
@@ -2676,7 +2676,7 @@
 				{
 					"name": "Coup de bouclier",
 					"entries": [
-						"{@atk mw} {@hit 7} pour toucher, allonge 1,50 m, une créature. {@h}9 ({@damage 2d4 + 4}) dégâts contondants. Si la cible est une créature de taille M ou plus petite, elle doit réussir un jet de sauvegarde de Force {@dc 15} sinon elle tombe {@condition prone}."
+						"{@atk mw} {@hit 7} pour toucher, allonge 1,50 m, une créature. {@h}9 ({@damage 2d4 + 4}) dégâts contondants. Si la cible est une créature de taille M ou plus petite, elle doit réussir un jet de sauvegarde de Force {@dc 15} sinon elle tombe {@condition À terre}."
 					]
 				}
 			],
@@ -2860,13 +2860,13 @@
 				{
 					"name": "Morsure",
 					"entries": [
-						"{@atk mw} {@hit 8} pour toucher, allonge 1,50 m, une créature. {@h}8 ({@damage 1d6 + 5}) dégâts perforants, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 13} sinon elle est {@condition poisoned} pendant 24 heures. Tant que ce poison persiste, la cible est {@condition unconscious}. Une autre créature peut utiliser une action pour secouer la cible afin de la réveiller."
+						"{@atk mw} {@hit 8} pour toucher, allonge 1,50 m, une créature. {@h}8 ({@damage 1d6 + 5}) dégâts perforants, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 13} sinon elle est {@condition Empoisonné} pendant 24 heures. Tant que ce poison persiste, la cible est {@condition Inconscient}. Une autre créature peut utiliser une action pour secouer la cible afin de la réveiller."
 					]
 				},
 				{
 					"name": "Constriction",
 					"entries": [
-						"{@atk mw} {@hit 6} pour toucher, allonge 3 m, une créature de taille M ou plus petite. {@h}10 ({@damage 2d6 + 3}) dégâts contondants, et la cible est {@condition grappled} (évasion {@dc 15}). Tant que cette saisie est maintenue, la cible est {@condition restrained}, et Eku ne peut pas constricter une autre cible."
+						"{@atk mw} {@hit 6} pour toucher, allonge 3 m, une créature de taille M ou plus petite. {@h}10 ({@damage 2d6 + 3}) dégâts contondants, et la cible est {@condition Agrippé} (évasion {@dc 15}). Tant que cette saisie est maintenue, la cible est {@condition Entravé}, et Eku ne peut pas constricter une autre cible."
 					]
 				},
 				{
@@ -3027,7 +3027,7 @@
 				{
 					"name": "Charge (forme sanglier ou hybride uniquement)",
 					"entries": [
-						"Si Elok se déplace d'au moins 4,50 mètres en ligne droite vers une cible puis la touche avec ses défenses au cours du même tour, la cible subit 7 ({@damage 2d6}) dégâts tranchants supplémentaires. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Force {@dc 13} sinon elle tombe {@condition prone}."
+						"Si Elok se déplace d'au moins 4,50 mètres en ligne droite vers une cible puis la touche avec ses défenses au cours du même tour, la cible subit 7 ({@damage 2d6}) dégâts tranchants supplémentaires. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Force {@dc 13} sinon elle tombe {@condition À terre}."
 					]
 				},
 				{
@@ -3173,7 +3173,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -3423,7 +3423,7 @@
 				{
 					"name": "Constriction",
 					"entries": [
-						"{@atk mw} {@hit 5} pour toucher, allonge 3 m, une cible. {@h}10 ({@damage 2d6 + 3}) dégâts contondants, et la cible est {@condition grappled} (évasion {@dc 14}) si c'est une créature de taille G ou plus petite. Tant que cette saisie est maintenue, la cible est {@condition restrained}, et Fenthaza ne peut pas constricter une autre cible."
+						"{@atk mw} {@hit 5} pour toucher, allonge 3 m, une cible. {@h}10 ({@damage 2d6 + 3}) dégâts contondants, et la cible est {@condition Agrippé} (évasion {@dc 14}) si c'est une créature de taille G ou plus petite. Tant que cette saisie est maintenue, la cible est {@condition Entravé}, et Fenthaza ne peut pas constricter une autre cible."
 					]
 				},
 				{
@@ -3435,7 +3435,7 @@
 				{
 					"name": "Invoquer le cauchemar (se recharge après un repos court ou long)",
 					"entries": [
-						"Fenthaza puise dans les cauchemars d'une créature qu'elle peut voir à 18 mètres ou moins d'elle et crée une manifestation illusoire et immobile des peurs les plus profondes de la créature, visible uniquement par celle-ci. La cible doit effectuer un jet de sauvegarde d'Intelligence {@dc 13}. En cas d'échec, la cible subit 11 ({@damage 2d10}) dégâts psychiques et est {@condition frightened} par la manifestation, qu'elle croit réelle. Fenthaza doit se concentrer pour maintenir l'illusion (comme si elle se {@status concentration||concentration} sur un sort), qui dure jusqu'à 1 minute et ne peut pas être blessée. La cible peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'illusion en cas de succès, ou subissant 11 ({@damage 2d10}) dégâts psychiques en cas d'échec."
+						"Fenthaza puise dans les cauchemars d'une créature qu'elle peut voir à 18 mètres ou moins d'elle et crée une manifestation illusoire et immobile des peurs les plus profondes de la créature, visible uniquement par celle-ci. La cible doit effectuer un jet de sauvegarde d'Intelligence {@dc 13}. En cas d'échec, la cible subit 11 ({@damage 2d10}) dégâts psychiques et est {@condition Effrayé} par la manifestation, qu'elle croit réelle. Fenthaza doit se concentrer pour maintenir l'illusion (comme si elle se {@status concentration||concentration} sur un sort), qui dure jusqu'à 1 minute et ne peut pas être blessée. La cible peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'illusion en cas de succès, ou subissant 11 ({@damage 2d10}) dégâts psychiques en cas d'échec."
 					]
 				}
 			],
@@ -3444,7 +3444,7 @@
 					"type": "variant",
 					"name": "Peau de caméléon",
 					"entries": [
-						"Fenthaza a l'avantage sur les jets de Dextérité ({@skill Stealth}) effectués pour se cacher."
+						"Fenthaza a l'avantage sur les jets de Dextérité ({@skill Discrétion}) effectués pour se cacher."
 					],
 					"_version": {
 						"name": "Prophète du cauchemar yuan-ti (peau de caméléon)",
@@ -3561,7 +3561,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -3695,7 +3695,7 @@
 				{
 					"name": "Tactique de meute",
 					"entries": [
-						"Le singe volant a un avantage à son jet d'attaque contre une créature si au moins un allié du singe se trouve à 1,5 mètre ou moins de la créature et que cet allié n'est pas {@condition incapacitated||incapable d'agir}."
+						"Le singe volant a un avantage à son jet d'attaque contre une créature si au moins un allié du singe se trouve à 1,5 mètre ou moins de la créature et que cet allié n'est pas {@condition Incapable||incapable d'agir}."
 					]
 				},
 				{
@@ -3900,7 +3900,7 @@
 				{
 					"name": "Stabilité",
 					"entries": [
-						"Chaque fois qu'un effet projette la tortue {@condition prone||à terre}, elle peut effectuer un jet de sauvegarde de Constitution de {@dc 10} pour éviter d'être projetée {@condition prone||à terre}. Une tortue {@condition prone||à terre} est sur le dos. Pour se relever, elle doit réussir un test de Dextérité de {@dc 10} à son tour, puis utiliser tout son mouvement pour ce tour."
+						"Chaque fois qu'un effet projette la tortue {@condition À terre||à terre}, elle peut effectuer un jet de sauvegarde de Constitution de {@dc 10} pour éviter d'être projetée {@condition À terre||à terre}. Une tortue {@condition À terre||à terre} est sur le dos. Pour se relever, elle doit réussir un test de Dextérité de {@dc 10} à son tour, puis utiliser tout son mouvement pour ce tour."
 					]
 				}
 			],
@@ -4089,7 +4089,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -4228,8 +4228,8 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item chain shirt|phb}",
-						"{@item shield|phb}"
+						"{@item Chemise de mailles|phb}",
+						"{@item Bouclier|phb}"
 					]
 				}
 			],
@@ -4262,7 +4262,7 @@
 				{
 					"name": "Fuite agile",
 					"entries": [
-						"Grabstab peut effectuer les actions {@action Disengage} ou {@action Hide} en tant qu'action bonus à chacun de ses tours."
+						"Grabstab peut effectuer les actions {@action Désengagement} ou {@action Se cacher} en tant qu'action bonus à chacun de ses tours."
 					]
 				}
 			],
@@ -4399,7 +4399,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item chain shirt|phb}"
+						"{@item Chemise de mailles|phb}"
 					]
 				}
 			],
@@ -4548,7 +4548,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item hide armor|phb|armure de peaux}"
+						"{@item Armure de peau|phb|armure de peaux}"
 					]
 				}
 			],
@@ -4583,7 +4583,7 @@
 				{
 					"name": "Résistance naine",
 					"entries": [
-						"Hew résiste aux dégâts de poison et a un avantage aux jets de sauvegarde contre le fait d'être {@condition poisoned||empoisonné}."
+						"Hew résiste aux dégâts de poison et a un avantage aux jets de sauvegarde contre le fait d'être {@condition Empoisonné||empoisonné}."
 					]
 				},
 				{
@@ -4687,7 +4687,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item breastplate|phb}"
+						"{@item Cuirasse|phb}"
 					]
 				}
 			],
@@ -4812,7 +4812,7 @@
 				{
 					"name": "Camouflage",
 					"entries": [
-						"Le jaculus a un avantage aux tests de Dextérité ({@skill Stealth||Discrétion}) effectués pour se cacher."
+						"Le jaculus a un avantage aux tests de Dextérité ({@skill Discrétion||Discrétion}) effectués pour se cacher."
 					]
 				},
 				{
@@ -4901,7 +4901,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|phb|cuir clouté}"
+						"{@item Armure de cuir clouté|phb|cuir clouté}"
 					]
 				}
 			],
@@ -4940,7 +4940,7 @@
 				{
 					"name": "Assassinat",
 					"entries": [
-						"Lors de son premier tour, l'assassin a l'avantage sur les jets d'attaque contre toute créature qui n'a pas encore joué. Tout coup que l'assassin porte contre une créature {@status surprised} est un coup critique."
+						"Lors de son premier tour, l'assassin a l'avantage sur les jets d'attaque contre toute créature qui n'a pas encore joué. Tout coup que l'assassin porte contre une créature {@status Surpris} est un coup critique."
 					]
 				},
 				{
@@ -4952,7 +4952,7 @@
 				{
 					"name": "Attaque sournoise (1/tour)",
 					"entries": [
-						"L'assassin inflige 14 ({@damage 4d6}) dégâts supplémentaires quand il touche une cible avec une attaque d'arme et qu'il a l'avantage sur le jet d'attaque, ou quand la cible se trouve à 1,50 mètre ou moins d'un allié de l'assassin qui n'est pas {@condition incapacitated} et que l'assassin n'a pas de désavantage sur le jet d'attaque."
+						"L'assassin inflige 14 ({@damage 4d6}) dégâts supplémentaires quand il touche une cible avec une attaque d'arme et qu'il a l'avantage sur le jet d'attaque, ou quand la cible se trouve à 1,50 mètre ou moins d'un allié de l'assassin qui n'est pas {@condition Incapable} et que l'assassin n'a pas de désavantage sur le jet d'attaque."
 					]
 				}
 			],
@@ -5078,7 +5078,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -5232,7 +5232,7 @@
 				{
 					"name": "Bond",
 					"entries": [
-						"Si le kamadan se déplace d'au moins 6 mètres en ligne droite vers une créature puis la touche avec une attaque de griffe au cours du même tour, la cible doit réussir un jet de sauvegarde de Force de {@dc 13} ou être projetée {@condition prone||à terre}. Si la cible est projetée {@condition prone||à terre}, le kamadan peut effectuer deux attaques contre elle — une avec sa morsure et une avec ses serpents — par une action bonus."
+						"Si le kamadan se déplace d'au moins 6 mètres en ligne droite vers une créature puis la touche avec une attaque de griffe au cours du même tour, la cible doit réussir un jet de sauvegarde de Force de {@dc 13} ou être projetée {@condition À terre||à terre}. Si la cible est projetée {@condition À terre||à terre}, le kamadan peut effectuer deux attaques contre elle — une avec sa morsure et une avec ses serpents — par une action bonus."
 					]
 				}
 			],
@@ -5264,7 +5264,7 @@
 				{
 					"name": "Souffle de sommeil (se recharge après un repos court ou long)",
 					"entries": [
-						"Le kamadan exhale un gaz soporifique dans un cône de 9 mètres. Chaque créature dans cette zone doit réussir un jet de sauvegarde de Constitution de {@dc 12} ou tomber {@condition unconscious||inconsciente} pendant 10 minutes. Cet effet prend fin pour une créature si elle subit des dégâts ou si quelqu'un utilise une action pour la réveiller."
+						"Le kamadan exhale un gaz soporifique dans un cône de 9 mètres. Chaque créature dans cette zone doit réussir un jet de sauvegarde de Constitution de {@dc 12} ou tomber {@condition Inconscient||inconsciente} pendant 10 minutes. Cet effet prend fin pour une créature si elle subit des dégâts ou si quelqu'un utilise une action pour la réveiller."
 					]
 				}
 			],
@@ -5373,7 +5373,7 @@
 				{
 					"name": "Morsure",
 					"entries": [
-						"{@atk mw} {@hit 10} pour toucher, allonge 3 m, une cible. {@h}33 ({@damage 4d12 + 7}) dégâts perforants. Si la cible est une créature de taille M ou plus petite, elle est {@condition grappled||agrippée} (évasion {@dc 17}). Tant que cette étreinte est maintenue, la cible est {@condition restrained||entravée} et le tyrannosaure ne peut pas mordre une autre cible."
+						"{@atk mw} {@hit 10} pour toucher, allonge 3 m, une cible. {@h}33 ({@damage 4d12 + 7}) dégâts perforants. Si la cible est une créature de taille M ou plus petite, elle est {@condition Agrippé||agrippée} (évasion {@dc 17}). Tant que cette étreinte est maintenue, la cible est {@condition Entravé||entravée} et le tyrannosaure ne peut pas mordre une autre cible."
 					]
 				},
 				{
@@ -5469,7 +5469,7 @@
 				{
 					"name": "Camouflage végétal",
 					"entries": [
-						"Kupalué a l'avantage sur les jets de Dextérité ({@skill Stealth}) qu'il effectue dans tout terrain disposant d'une végétation abondante pouvant le dissimuler."
+						"Kupalué a l'avantage sur les jets de Dextérité ({@skill Discrétion}) qu'il effectue dans tout terrain disposant d'une végétation abondante pouvant le dissimuler."
 					]
 				},
 				{
@@ -5594,7 +5594,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item chain shirt|phb}"
+						"{@item Chemise de mailles|phb}"
 					]
 				}
 			],
@@ -5774,7 +5774,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|phb|cuir clouté}"
+						"{@item Armure de cuir clouté|phb|cuir clouté}"
 					]
 				}
 			],
@@ -5880,7 +5880,7 @@
 				{
 					"name": "Équipement spécial",
 					"entries": [
-						"Laskilar porte un {@item cape of the mountebank}."
+						"Laskilar porte un {@item Cape du prestidigitateur}."
 					]
 				}
 			],
@@ -5917,8 +5917,8 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|phb|cuir clouté}",
-						"{@item shield|phb|bouclier}"
+						"{@item Armure de cuir clouté|phb|cuir clouté}",
+						"{@item Bouclier|phb|bouclier}"
 					]
 				}
 			],
@@ -5956,7 +5956,7 @@
 				{
 					"name": "Bravoure",
 					"entries": [
-						"Liara a un avantage aux jets de sauvegarde contre le fait d'être {@condition frightened||terrifiée}."
+						"Liara a un avantage aux jets de sauvegarde contre le fait d'être {@condition Effrayé||terrifiée}."
 					]
 				},
 				{
@@ -6069,7 +6069,7 @@
 				{
 					"name": "Engloutissement",
 					"entries": [
-						"{@atk mw} {@hit 4} pour toucher, allonge 1,5 m, une créature de taille M ou plus petite. {@h}La cible est piégée dans les mâchoires foliacées de l'attrape-hommes. Tant qu'elle est ainsi piégée, la cible est {@condition blinded||aveuglée} et {@condition restrained||entravée}, bénéficie d'une {@quickref Cover||3|couverture totale} contre les attaques et les autres effets extérieurs à l'attrape-hommes, et subit 14 ({@damage 4d6}) dégâts d'acide au début de chacun des tours de la cible. Si l'attrape-hommes meurt, la créature qu'il contient n'est plus {@condition restrained||entravée} par lui. Un attrape-hommes ne peut engloutir qu'une seule créature à la fois."
+						"{@atk mw} {@hit 4} pour toucher, allonge 1,5 m, une créature de taille M ou plus petite. {@h}La cible est piégée dans les mâchoires foliacées de l'attrape-hommes. Tant qu'elle est ainsi piégée, la cible est {@condition Aveuglé||aveuglée} et {@condition Entravé||entravée}, bénéficie d'une {@quickref Cover||3|couverture totale} contre les attaques et les autres effets extérieurs à l'attrape-hommes, et subit 14 ({@damage 4d6}) dégâts d'acide au début de chacun des tours de la cible. Si l'attrape-hommes meurt, la créature qu'il contient n'est plus {@condition Entravé||entravée} par lui. Un attrape-hommes ne peut engloutir qu'une seule créature à la fois."
 					]
 				}
 			],
@@ -6183,13 +6183,13 @@
 				{
 					"name": "Griffe",
 					"entries": [
-						"{@atk mw} {@hit 3} pour toucher, allonge 1,50 m, une cible. {@h}6 ({@damage 2d4 + 1}) dégâts tranchants. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Sagesse {@dc 11} sinon elle est {@condition frightened} jusqu'à la fin du tour suivant de Mister Threadneedle."
+						"{@atk mw} {@hit 3} pour toucher, allonge 1,50 m, une cible. {@h}6 ({@damage 2d4 + 1}) dégâts tranchants. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Sagesse {@dc 11} sinon elle est {@condition Effrayé} jusqu'à la fin du tour suivant de Mister Threadneedle."
 					]
 				},
 				{
 					"name": "Terrifying Glare",
 					"entries": [
-						"Mister Threadneedle choisit pour cible une créature qu'il peut voir à 9 mètres ou moins de lui. Si la cible peut voir Mister Threadneedle, elle doit réussir un jet de sauvegarde de Sagesse {@dc 11} sinon elle est magiquement {@condition frightened} jusqu'à la fin du tour suivant de Mister Threadneedle. La cible {@condition frightened} est {@condition paralyzed}."
+						"Mister Threadneedle choisit pour cible une créature qu'il peut voir à 9 mètres ou moins de lui. Si la cible peut voir Mister Threadneedle, elle doit réussir un jet de sauvegarde de Sagesse {@dc 11} sinon elle est magiquement {@condition Effrayé} jusqu'à la fin du tour suivant de Mister Threadneedle. La cible {@condition Effrayé} est {@condition Paralysé}."
 					]
 				}
 			],
@@ -6252,7 +6252,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item hide armor|phb}"
+						"{@item Armure de peau|phb}"
 					]
 				}
 			],
@@ -6604,7 +6604,7 @@
 				{
 					"name": "Imitation",
 					"entries": [
-						"Pu'pu peut imiter des sons d'animaux et des voix d'humanoïdes. Une créature qui entend ces sons peut deviner qu'il s'agit d'imitations en réussissant un jet de Sagesse ({@skill Insight}) {@dc 14}."
+						"Pu'pu peut imiter des sons d'animaux et des voix d'humanoïdes. Une créature qui entend ces sons peut deviner qu'il s'agit d'imitations en réussissant un jet de Sagesse ({@skill Perspicacité}) {@dc 14}."
 					]
 				}
 			],
@@ -6698,8 +6698,8 @@
 							"type": "entries",
 							"name": "Œil de sorcière",
 							"entries": [
-								"Un cercle de sorcières peut fabriquer un objet magique appelé œil de sorcière, réalisé à partir d'un véritable œil enduit de vernis et souvent fixé à un pendentif ou à un autre objet portable. L'œil de Pu'pu est généralement confié à un sbire pour le garder et le transporter. Une sorcière du cercle peut utiliser une action pour voir ce que voit l'œil de Pu'pu si l'œil de Pu'pu se trouve sur le même plan d'existence. Un œil de sorcière a une CA de 10, 1 point de vie et une vision dans le noir d'un rayon de 18 mètres. S'il est détruit, chaque membre du cercle subit {@damage 3d10} dégâts psychiques et est {@condition blinded} pendant 24 heures.",
-								"Un cercle de sorcières ne peut posséder qu'un seul œil de sorcière à la fois, et en créer un nouveau exige que les trois membres du cercle accomplissent un rituel. Le rituel dure 1 heure, et Pu'pu ne peut pas l'accomplir tant qu'elle est {@condition blinded}. Pendant le rituel, si les Pu'pu entreprennent une action autre que l'accomplissement du rituel, elles doivent recommencer."
+								"Un cercle de sorcières peut fabriquer un objet magique appelé œil de sorcière, réalisé à partir d'un véritable œil enduit de vernis et souvent fixé à un pendentif ou à un autre objet portable. L'œil de Pu'pu est généralement confié à un sbire pour le garder et le transporter. Une sorcière du cercle peut utiliser une action pour voir ce que voit l'œil de Pu'pu si l'œil de Pu'pu se trouve sur le même plan d'existence. Un œil de sorcière a une CA de 10, 1 point de vie et une vision dans le noir d'un rayon de 18 mètres. S'il est détruit, chaque membre du cercle subit {@damage 3d10} dégâts psychiques et est {@condition Aveuglé} pendant 24 heures.",
+								"Un cercle de sorcières ne peut posséder qu'un seul œil de sorcière à la fois, et en créer un nouveau exige que les trois membres du cercle accomplissent un rituel. Le rituel dure 1 heure, et Pu'pu ne peut pas l'accomplir tant qu'elle est {@condition Aveuglé}. Pendant le rituel, si les Pu'pu entreprennent une action autre que l'accomplissement du rituel, elles doivent recommencer."
 							]
 						}
 					]
@@ -6972,7 +6972,7 @@
 				{
 					"name": "Réjuvénation",
 					"entries": [
-						"Si Nepartak est détruit, il récupère la totalité de ses points de vie en 1 heure, à moins que de l'{@item Holy Water (Flask)|PHB|eau bénite} ne soit aspergée sur ses restes ou qu'un sort {@spell dispel magic} ou {@spell remove curse} ne soit lancé sur eux."
+						"Si Nepartak est détruit, il récupère la totalité de ses points de vie en 1 heure, à moins que de l'{@item Eau bénite (fiole)|PHB|eau bénite} ne soit aspergée sur ses restes ou qu'un sort {@spell dispel magic} ou {@spell remove curse} ne soit lancé sur eux."
 					]
 				}
 			],
@@ -7105,7 +7105,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item breastplate|phb}"
+						"{@item Cuirasse|phb}"
 					]
 				}
 			],
@@ -7235,7 +7235,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|phb|cuir clouté}"
+						"{@item Armure de cuir clouté|phb|cuir clouté}"
 					]
 				}
 			],
@@ -7433,13 +7433,13 @@
 				{
 					"name": "Action rusée",
 					"entries": [
-						"À chacun de ses tours, Orvex peut utiliser une action bonus pour effectuer l'action {@action Dash}, {@action Disengage} ou {@action Hide}."
+						"À chacun de ses tours, Orvex peut utiliser une action bonus pour effectuer l'action {@action Course}, {@action Désengagement} ou {@action Se cacher}."
 					]
 				},
 				{
 					"name": "Attaque sournoise (1/tour)",
 					"entries": [
-						"Orvex inflige 7 ({@damage 2d6}) dégâts supplémentaires quand il touche une cible avec une attaque d'arme et qu'il a l'avantage sur le jet d'attaque, ou quand la cible se trouve à 1,50 mètre ou moins d'un allié d'Orvex qui n'est pas {@condition incapacitated} et qu'Orvex n'a pas de désavantage sur le jet d'attaque."
+						"Orvex inflige 7 ({@damage 2d6}) dégâts supplémentaires quand il touche une cible avec une attaque d'arme et qu'il a l'avantage sur le jet d'attaque, ou quand la cible se trouve à 1,50 mètre ou moins d'un allié d'Orvex qui n'est pas {@condition Incapable} et qu'Orvex n'a pas de désavantage sur le jet d'attaque."
 					]
 				}
 			],
@@ -7549,7 +7549,7 @@
 				{
 					"name": "Piqué terrifiant",
 					"entries": [
-						"Si le ptérofolk vole et pique pendant au moins 9 mètres en ligne droite vers une cible avant de la toucher avec une attaque d'arme de mêlée, la cible est {@condition frightened||terrifiée} jusqu'à la fin de son prochain tour."
+						"Si le ptérofolk vole et pique pendant au moins 9 mètres en ligne droite vers une cible avant de la toucher avec une attaque d'arme de mêlée, la cible est {@condition Effrayé||terrifiée} jusqu'à la fin de son prochain tour."
 					]
 				}
 			],
@@ -7812,7 +7812,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item bracers of defense|dmg|brassards de défense}"
+						"{@item Brassards de défense|dmg|brassards de défense}"
 					]
 				}
 			],
@@ -7941,7 +7941,7 @@
 				{
 					"name": "Équipement spécial",
 					"entries": [
-						"Ras Nsi porte des {@item bracers of defense|dmg|brassards de défense}, manie une {@item flame tongue longsword|dmg|épée longue à langue de feu} et transporte une {@item sending stones||pierre d'envoi} jumelée à celle que porte le guide Salida (voir chapitre 1)."
+						"Ras Nsi porte des {@item Brassards de défense|dmg|brassards de défense}, manie une {@item flame tongue longsword|dmg|épée longue à langue de feu} et transporte une {@item Pierres d'envoi||pierre d'envoi} jumelée à celle que porte le guide Salida (voir chapitre 1)."
 					]
 				},
 				{
@@ -7973,7 +7973,7 @@
 				{
 					"name": "Étreinte",
 					"entries": [
-						"{@atk mw} {@hit 6} pour toucher, allonge 1,5 m, une créature. {@h}10 ({@damage 2d6 + 3}) dégâts contondants, et la cible est {@condition grappled||agrippée} (évasion {@dc 14}). Tant que cette étreinte est maintenue, la cible est {@condition restrained||entravée} et Ras Nsi ne peut pas en étreindre une autre."
+						"{@atk mw} {@hit 6} pour toucher, allonge 1,5 m, une créature. {@h}10 ({@damage 2d6 + 3}) dégâts contondants, et la cible est {@condition Agrippé||agrippée} (évasion {@dc 14}). Tant que cette étreinte est maintenue, la cible est {@condition Entravé||entravée} et Ras Nsi ne peut pas en étreindre une autre."
 					]
 				},
 				{
@@ -8061,7 +8061,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -8531,8 +8531,8 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item studded leather armor|phb|cuir clouté}",
-						"{@item shield|phb}"
+						"{@item Armure de cuir clouté|phb|cuir clouté}",
+						"{@item Bouclier|phb}"
 					]
 				}
 			],
@@ -8568,7 +8568,7 @@
 				{
 					"name": "Bravoure",
 					"entries": [
-						"Shago a l'avantage sur les jets de sauvegarde contre l'état {@condition frightened}."
+						"Shago a l'avantage sur les jets de sauvegarde contre l'état {@condition Effrayé}."
 					]
 				},
 				{
@@ -8594,7 +8594,7 @@
 				{
 					"name": "Coup de bouclier",
 					"entries": [
-						"{@atk mw} {@hit 7} pour toucher, allonge 1,50 m, une créature. {@h}9 ({@damage 2d4 + 4}) dégâts contondants. Si la cible est une créature de taille M ou plus petite, elle doit réussir un jet de sauvegarde de Force {@dc 15} sinon elle tombe {@condition prone}."
+						"{@atk mw} {@hit 7} pour toucher, allonge 1,50 m, une créature. {@h}9 ({@damage 2d4 + 4}) dégâts contondants. Si la cible est une créature de taille M ou plus petite, elle doit réussir un jet de sauvegarde de Force {@dc 15} sinon elle tombe {@condition À terre}."
 					]
 				}
 			],
@@ -9013,7 +9013,7 @@
 				{
 					"name": "Rouleau dévastateur",
 					"entries": [
-						"Le juggernaut peut traverser l'espace d'une créature {@condition prone||à terre}. Une créature dont le juggernaut entre dans l'espace pour la première fois à un tour donné doit effectuer un jet de sauvegarde de Dextérité de {@dc 17}, subissant 55 ({@damage 10d10}) dégâts contondants en cas d'échec, ou la moitié de ces dégâts seulement en cas de réussite."
+						"Le juggernaut peut traverser l'espace d'une créature {@condition À terre||à terre}. Une créature dont le juggernaut entre dans l'espace pour la première fois à un tour donné doit effectuer un jet de sauvegarde de Dextérité de {@dc 17}, subissant 55 ({@damage 10d10}) dégâts contondants en cas d'échec, ou la moitié de ces dégâts seulement en cas de réussite."
 					]
 				},
 				{
@@ -9039,7 +9039,7 @@
 				{
 					"name": "Coup",
 					"entries": [
-						"{@atk mw} {@hit 10} pour toucher, allonge 1,5 m, une cible. {@h}25 ({@damage 3d12 + 6}) dégâts contondants. Si la cible est une créature de taille G ou plus petite, elle doit réussir un jet de sauvegarde de Force de {@dc 17} ou être projetée {@condition prone||à terre}."
+						"{@atk mw} {@hit 10} pour toucher, allonge 1,5 m, une cible. {@h}25 ({@damage 3d12 + 6}) dégâts contondants. Si la cible est une créature de taille G ou plus petite, elle doit réussir un jet de sauvegarde de Force de {@dc 17} ou être projetée {@condition À terre||à terre}."
 					]
 				}
 			],
@@ -9125,7 +9125,7 @@
 				{
 					"name": "Écrasement psychique {@recharge 5}",
 					"entries": [
-						"Le su-monstre cible une créature qu'il peut voir à 9 mètres ou moins de lui. La cible doit réussir un jet de sauvegarde de Sagesse de {@dc 11} ou subir 17 ({@damage 5d6}) dégâts psychiques et être {@condition stunned||étourdie} pendant 1 minute. La cible {@condition stunned||étourdie} peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet dans le cas d'une réussite."
+						"Le su-monstre cible une créature qu'il peut voir à 9 mètres ou moins de lui. La cible doit réussir un jet de sauvegarde de Sagesse de {@dc 11} ou subir 17 ({@damage 5d6}) dégâts psychiques et être {@condition Étourdi||étourdie} pendant 1 minute. La cible {@condition Étourdi||étourdie} peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet dans le cas d'une réussite."
 					]
 				}
 			],
@@ -9462,7 +9462,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item leather armor|phb|armure de cuir}"
+						"{@item Armure de cuir|phb|armure de cuir}"
 					]
 				}
 			],
@@ -9755,7 +9755,7 @@
 				{
 					"name": "Vulnérabilité à l'antimagie",
 					"entries": [
-						"Le guerrier de terre cuite est {@condition incapacitated} tant qu'il se trouve dans la zone d'un {@spell antimagic field}. S'il est ciblé par {@spell dispel magic}, le guerrier de terre cuite doit réussir un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts du lanceur, sinon il tombe {@condition unconscious} pendant 1 minute."
+						"Le guerrier de terre cuite est {@condition Incapable} tant qu'il se trouve dans la zone d'un {@spell antimagic field}. S'il est ciblé par {@spell dispel magic}, le guerrier de terre cuite doit réussir un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts du lanceur, sinon il tombe {@condition Inconscient} pendant 1 minute."
 					]
 				},
 				{
@@ -9823,7 +9823,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item studded leather armor|phb|cuir clouté}"
+						"{@item Armure de cuir clouté|phb|cuir clouté}"
 					]
 				}
 			],
@@ -10121,7 +10121,7 @@
 				{
 					"name": "Fleur orange",
 					"entries": [
-						"La fronde triflore choisit une créature qu'elle peut voir à 1,5 mètre ou moins d'elle. La cible doit réussir un jet de sauvegarde de Constitution de {@dc 11} ou être {@condition poisoned||empoisonnée} pendant 1 heure. Tant qu'elle est ainsi {@condition poisoned||empoisonnée}, la cible est {@condition unconscious||inconsciente}. À la fin de chaque minute, la cible {@condition poisoned||empoisonnée} peut relancer le jet de sauvegarde, mettant fin à l'effet dans le cas d'une réussite."
+						"La fronde triflore choisit une créature qu'elle peut voir à 1,5 mètre ou moins d'elle. La cible doit réussir un jet de sauvegarde de Constitution de {@dc 11} ou être {@condition Empoisonné||empoisonnée} pendant 1 heure. Tant qu'elle est ainsi {@condition Empoisonné||empoisonnée}, la cible est {@condition Inconscient||inconsciente}. À la fin de chaque minute, la cible {@condition Empoisonné||empoisonnée} peut relancer le jet de sauvegarde, mettant fin à l'effet dans le cas d'une réussite."
 					]
 				},
 				{
@@ -10133,7 +10133,7 @@
 				{
 					"name": "Fleur rouge",
 					"entries": [
-						"{@atk mw} {@hit 2} pour toucher, allonge 1,5 m, une créature. {@h}2 ({@damage 1d4}) dégâts perforants, et la cible est {@condition grappled||agrippée} (évasion {@dc 11}). Tant que cette étreinte est maintenue, la cible subit 5 ({@damage 2d4}) dégâts de poison au début de chacun de ses tours. La fleur rouge ne peut agripper qu'une seule cible à la fois. Une autre créature à portée de la fronde triflore peut utiliser son action pour mettre fin à l'étreinte de la cible."
+						"{@atk mw} {@hit 2} pour toucher, allonge 1,5 m, une créature. {@h}2 ({@damage 1d4}) dégâts perforants, et la cible est {@condition Agrippé||agrippée} (évasion {@dc 11}). Tant que cette étreinte est maintenue, la cible subit 5 ({@damage 2d4}) dégâts de poison au début de chacun de ses tours. La fleur rouge ne peut agripper qu'une seule cible à la fois. Une autre créature à portée de la fronde triflore peut utiliser son action pour mettre fin à l'étreinte de la cible."
 					]
 				}
 			],
@@ -10231,7 +10231,7 @@
 				{
 					"name": "Morsure",
 					"entries": [
-						"{@atk mw} {@hit 10} pour toucher, allonge 3 m, une cible. {@h}33 ({@damage 4d12 + 7}) dégâts perforants. Si la cible est une créature de taille M ou plus petite, elle est {@condition grappled||agrippée} (évasion {@dc 17}). Tant que cette étreinte est maintenue, la cible est {@condition restrained||entravée} et le zombie tyrannosaure ne peut pas mordre une autre cible ni rejeter de zombies."
+						"{@atk mw} {@hit 10} pour toucher, allonge 3 m, une cible. {@h}33 ({@damage 4d12 + 7}) dégâts perforants. Si la cible est une créature de taille M ou plus petite, elle est {@condition Agrippé||agrippée} (évasion {@dc 17}). Tant que cette étreinte est maintenue, la cible est {@condition Entravé||entravée} et le zombie tyrannosaure ne peut pas mordre une autre cible ni rejeter de zombies."
 					]
 				},
 				{
@@ -10475,7 +10475,7 @@
 				{
 					"name": "Toucher paralysant",
 					"entries": [
-						"{@atk ms} {@hit 12} pour toucher, allonge 1,5 m, une créature. {@h}10 ({@damage 3d6}) dégâts de froid. La cible doit réussir un jet de sauvegarde de Constitution de {@dc 18} ou être {@condition paralyzed||paralysée} pendant 1 minute. La cible peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet dans le cas d'une réussite."
+						"{@atk ms} {@hit 12} pour toucher, allonge 1,5 m, une créature. {@h}10 ({@damage 3d6}) dégâts de froid. La cible doit réussir un jet de sauvegarde de Constitution de {@dc 18} ou être {@condition Paralysé||paralysée} pendant 1 minute. La cible peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet dans le cas d'une réussite."
 					]
 				}
 			],
@@ -10495,7 +10495,7 @@
 				{
 					"name": "Regard terrifiant (coûte 2 actions)",
 					"entries": [
-						"Valindra fixe du regard une créature qu'elle peut voir à 3 mètres ou moins d'elle. La cible doit réussir un jet de sauvegarde de Sagesse de {@dc 18} contre cette magie ou devenir {@condition frightened||terrifiée} pendant 1 minute. La cible {@condition frightened||terrifiée} peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet dans le cas d'une réussite. Si une cible réussit son jet de sauvegarde ou si l'effet prend fin pour elle, elle est immunisée contre le regard de Valindra pendant les 24 heures suivantes."
+						"Valindra fixe du regard une créature qu'elle peut voir à 3 mètres ou moins d'elle. La cible doit réussir un jet de sauvegarde de Sagesse de {@dc 18} contre cette magie ou devenir {@condition Effrayé||terrifiée} pendant 1 minute. La cible {@condition Effrayé||terrifiée} peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet dans le cas d'une réussite. Si une cible réussit son jet de sauvegarde ou si l'effet prend fin pour elle, elle est immunisée contre le regard de Valindra pendant les 24 heures suivantes."
 					]
 				},
 				{
@@ -10964,7 +10964,7 @@
 				{
 					"name": "Tactique de meute",
 					"entries": [
-						"Le chien a l'avantage sur un jet d'attaque contre une créature si au moins un des alliés du chien se trouve à 1,50 mètre ou moins de la créature et que cet allié n'est pas {@condition incapacitated}."
+						"Le chien a l'avantage sur un jet d'attaque contre une créature si au moins un des alliés du chien se trouve à 1,50 mètre ou moins de la créature et que cet allié n'est pas {@condition Incapable}."
 					]
 				}
 			],
@@ -11104,7 +11104,7 @@
 				{
 					"name": "Constriction",
 					"entries": [
-						"{@atk mw} {@hit 5} pour toucher, allonge 3 m, une créature. {@h}13 ({@damage 3d6 + 3}) dégâts contondants. Si la cible est de taille M ou plus petite, elle est {@condition grappled} (évasion {@dc 13}) et attirée de 1,50 mètre vers le strange de vin. Tant que cette saisie est maintenue, la cible est {@condition restrained}, le strange de vin tente de la noyer et ne peut pas constricter une autre cible."
+						"{@atk mw} {@hit 5} pour toucher, allonge 3 m, une créature. {@h}13 ({@damage 3d6 + 3}) dégâts contondants. Si la cible est de taille M ou plus petite, elle est {@condition Agrippé} (évasion {@dc 13}) et attirée de 1,50 mètre vers le strange de vin. Tant que cette saisie est maintenue, la cible est {@condition Entravé}, le strange de vin tente de la noyer et ne peut pas constricter une autre cible."
 					]
 				}
 			],
@@ -11159,7 +11159,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item studded leather armor|phb|cuir clouté}"
+						"{@item Armure de cuir clouté|phb|cuir clouté}"
 					]
 				}
 			],
@@ -11577,7 +11577,7 @@
 				{
 					"name": "Musc jaune (3/jour)",
 					"entries": [
-						"Les fleurs de la liane libèrent un musc puissant qui cible tous les humanoïdes à 9 mètres ou moins d'elle. Chaque cible doit réussir un jet de sauvegarde de Sagesse de {@dc 11} ou être {@condition charmed||charmée} par la liane pendant 1 minute. Une créature ainsi {@condition charmed||charmée} ne fait rien à son tour si ce n'est se rapprocher autant que possible de la liane. Une créature {@condition charmed||charmée} par la liane peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet dans le cas d'une réussite."
+						"Les fleurs de la liane libèrent un musc puissant qui cible tous les humanoïdes à 9 mètres ou moins d'elle. Chaque cible doit réussir un jet de sauvegarde de Sagesse de {@dc 11} ou être {@condition Charmé||charmée} par la liane pendant 1 minute. Une créature ainsi {@condition Charmé||charmée} ne fait rien à son tour si ce n'est se rapprocher autant que possible de la liane. Une créature {@condition Charmé||charmée} par la liane peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet dans le cas d'une réussite."
 					]
 				}
 			],
@@ -11739,7 +11739,7 @@
 				{
 					"name": "Peau toxique",
 					"entries": [
-						"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition poisoned} pendant 1 minute. Une créature {@condition poisoned} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès."
+						"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition Empoisonné} pendant 1 minute. Une créature {@condition Empoisonné} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès."
 					]
 				},
 				{
@@ -11765,7 +11765,7 @@
 				{
 					"name": "Stridulation hypnotique {@recharge}",
 					"entries": [
-						"Yorb émet un bruit strident auquel les grungs sont immunisés. Chaque humanoïde ou bête se trouvant à 4,50 mètres ou moins de Yorb et capable de l'entendre doit réussir un jet de sauvegarde de Sagesse {@dc 12} sinon il est {@condition stunned} jusqu'à la fin du tour suivant de Yorb."
+						"Yorb émet un bruit strident auquel les grungs sont immunisés. Chaque humanoïde ou bête se trouvant à 4,50 mètres ou moins de Yorb et capable de l'entendre doit réussir un jet de sauvegarde de Sagesse {@dc 12} sinon il est {@condition Étourdi} jusqu'à la fin du tour suivant de Yorb."
 					]
 				}
 			],
@@ -11774,47 +11774,47 @@
 					"type": "variant",
 					"name": "Poison de grung",
 					"entries": [
-						"Le poison de grung perd son efficacité 1 minute après avoir été prélevé sur un grung. Une dégradation similaire se produit si Yorb meurt. Une créature {@condition poisoned} par un grung peut subir un effet supplémentaire qui varie selon la couleur de peau de Yorb. Cet effet dure jusqu'à ce que la créature ne soit plus {@condition poisoned} par Yorb.",
+						"Le poison de grung perd son efficacité 1 minute après avoir été prélevé sur un grung. Une dégradation similaire se produit si Yorb meurt. Une créature {@condition Empoisonné} par un grung peut subir un effet supplémentaire qui varie selon la couleur de peau de Yorb. Cet effet dure jusqu'à ce que la créature ne soit plus {@condition Empoisonné} par Yorb.",
 						{
 							"type": "entries",
 							"name": "Vert",
 							"entries": [
-								"La créature {@condition poisoned} ne peut pas se déplacer, sauf pour grimper ou effectuer des sauts sur place. Si la créature vole, elle ne peut ni agir ni réagir tant qu'elle n'atterrit pas."
+								"La créature {@condition Empoisonné} ne peut pas se déplacer, sauf pour grimper ou effectuer des sauts sur place. Si la créature vole, elle ne peut ni agir ni réagir tant qu'elle n'atterrit pas."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Bleu",
 							"entries": [
-								"La créature {@condition poisoned} doit crier fort ou faire du bruit au début et à la fin de son tour."
+								"La créature {@condition Empoisonné} doit crier fort ou faire du bruit au début et à la fin de son tour."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Violet",
 							"entries": [
-								"The {@condition poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
+								"The {@condition Empoisonné} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Rouge",
 							"entries": [
-								"The {@condition poisoned} creature must use its action to eat if food is within reach."
+								"The {@condition Empoisonné} creature must use its action to eat if food is within reach."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Orange",
 							"entries": [
-								"The {@condition poisoned} creature is {@condition frightened} of its allies."
+								"The {@condition Empoisonné} creature is {@condition Effrayé} of its allies."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Doré",
 							"entries": [
-								"The {@condition poisoned} creature is {@condition charmed} and can speak Grung."
+								"The {@condition Empoisonné} creature is {@condition Charmé} and can speak Grung."
 							]
 						}
 					]
@@ -11872,7 +11872,7 @@
 							"items": {
 								"name": "Peau toxique",
 								"entries": [
-									"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition poisoned} pendant 1 minute. Une créature {@condition poisoned} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. La créature {@condition poisoned} doit crier fort ou faire du bruit au début et à la fin de son tour."
+									"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition Empoisonné} pendant 1 minute. Une créature {@condition Empoisonné} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. La créature {@condition Empoisonné} doit crier fort ou faire du bruit au début et à la fin de son tour."
 								]
 							}
 						}
@@ -11889,7 +11889,7 @@
 							"items": {
 								"name": "Peau toxique",
 								"entries": [
-									"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition poisoned} pendant 1 minute. Une créature {@condition poisoned} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. La créature {@condition poisoned} est {@condition charmed} et peut parler le grung."
+									"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition Empoisonné} pendant 1 minute. Une créature {@condition Empoisonné} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. La créature {@condition Empoisonné} est {@condition Charmé} et peut parler le grung."
 								]
 							}
 						}
@@ -11906,7 +11906,7 @@
 							"items": {
 								"name": "Peau toxique",
 								"entries": [
-									"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition poisoned} pendant 1 minute. Une créature {@condition poisoned} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. La créature {@condition poisoned} ne peut pas se déplacer, sauf pour grimper ou effectuer des sauts sur place. Si la créature vole, elle ne peut ni agir ni réagir tant qu'elle n'atterrit pas."
+									"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition Empoisonné} pendant 1 minute. Une créature {@condition Empoisonné} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. La créature {@condition Empoisonné} ne peut pas se déplacer, sauf pour grimper ou effectuer des sauts sur place. Si la créature vole, elle ne peut ni agir ni réagir tant qu'elle n'atterrit pas."
 								]
 							}
 						}
@@ -11923,7 +11923,7 @@
 							"items": {
 								"name": "Peau toxique",
 								"entries": [
-									"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition poisoned} pendant 1 minute. Une créature {@condition poisoned} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. La créature {@condition poisoned} est {@condition frightened} de ses alliés."
+									"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition Empoisonné} pendant 1 minute. Une créature {@condition Empoisonné} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. La créature {@condition Empoisonné} est {@condition Effrayé} de ses alliés."
 								]
 							}
 						}
@@ -11940,7 +11940,7 @@
 							"items": {
 								"name": "Peau toxique",
 								"entries": [
-									"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition poisoned} pendant 1 minute. Une créature {@condition poisoned} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. La créature {@condition poisoned} ressent un besoin désespéré de se tremper dans un liquide ou dans la boue. Elle ne peut ni agir ni se déplacer, sauf pour ce faire ou pour atteindre une étendue de liquide ou de boue."
+									"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition Empoisonné} pendant 1 minute. Une créature {@condition Empoisonné} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. La créature {@condition Empoisonné} ressent un besoin désespéré de se tremper dans un liquide ou dans la boue. Elle ne peut ni agir ni se déplacer, sauf pour ce faire ou pour atteindre une étendue de liquide ou de boue."
 								]
 							}
 						}
@@ -11957,7 +11957,7 @@
 							"items": {
 								"name": "Peau toxique",
 								"entries": [
-									"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition poisoned} pendant 1 minute. Une créature {@condition poisoned} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. La créature {@condition poisoned} doit utiliser son action pour manger si de la nourriture est à portée."
+									"Toute créature qui agrippe Yorb ou entre d'une autre manière en contact direct avec sa peau doit réussir un jet de sauvegarde de Constitution {@dc 12} sinon elle est {@condition Empoisonné} pendant 1 minute. Une créature {@condition Empoisonné} qui n'est plus en contact direct avec Yorb peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. La créature {@condition Empoisonné} doit utiliser son action pour manger si de la nourriture est à portée."
 								]
 							}
 						}
@@ -12110,7 +12110,7 @@
 				{
 					"name": "Constriction",
 					"entries": [
-						"{@atk mw} {@hit 5} pour toucher, allonge 1,50 m, une cible. {@h}10 ({@damage 2d6 + 3}) dégâts contondants, et la cible est {@condition grappled} (évasion {@dc 13}). Tant que cette saisie est maintenue, la cible est {@condition restrained}, et le yuan-ti ne peut pas constricter une autre cible."
+						"{@atk mw} {@hit 5} pour toucher, allonge 1,50 m, une cible. {@h}10 ({@damage 2d6 + 3}) dégâts contondants, et la cible est {@condition Agrippé} (évasion {@dc 13}). Tant que cette saisie est maintenue, la cible est {@condition Entravé}, et le yuan-ti ne peut pas constricter une autre cible."
 					]
 				},
 				{
@@ -12256,8 +12256,8 @@
 				{
 					"name": "Regard pétrifiant",
 					"entries": [
-						"Quand une créature qui peut voir les yeux de Zalkoré commence son tour à 9 mètres ou moins de Zalkoré, celle-ci peut la contraindre à effectuer un jet de sauvegarde de Constitution {@dc 14} si Zalkoré n'est pas {@condition incapacitated} et peut voir la créature. Si le jet de sauvegarde échoue de 5 points ou plus, la créature est instantanément {@condition petrified}. Sinon, une créature qui échoue au jet commence à se transformer en pierre et est {@condition restrained}. La créature {@condition restrained} doit relancer le jet de sauvegarde à la fin de son tour suivant, devenant {@condition petrified} en cas d'échec ou mettant fin à l'effet en cas de succès. La pétrification dure jusqu'à ce que la créature soit libérée par le sort {@spell greater restoration} ou une autre magie.",
-						"Sauf si elle est {@status surprised}, une créature peut détourner le regard pour éviter le jet de sauvegarde au début de son tour. Si elle fait ainsi, elle ne peut pas voir Zalkoré jusqu'au début de son tour suivant, moment où elle peut de nouveau détourner le regard. Si la créature regarde Zalkoré entre-temps, elle doit immédiatement effectuer le jet de sauvegarde.",
+						"Quand une créature qui peut voir les yeux de Zalkoré commence son tour à 9 mètres ou moins de Zalkoré, celle-ci peut la contraindre à effectuer un jet de sauvegarde de Constitution {@dc 14} si Zalkoré n'est pas {@condition Incapable} et peut voir la créature. Si le jet de sauvegarde échoue de 5 points ou plus, la créature est instantanément {@condition Pétrifié}. Sinon, une créature qui échoue au jet commence à se transformer en pierre et est {@condition Entravé}. La créature {@condition Entravé} doit relancer le jet de sauvegarde à la fin de son tour suivant, devenant {@condition Pétrifié} en cas d'échec ou mettant fin à l'effet en cas de succès. La pétrification dure jusqu'à ce que la créature soit libérée par le sort {@spell greater restoration} ou une autre magie.",
+						"Sauf si elle est {@status Surpris}, une créature peut détourner le regard pour éviter le jet de sauvegarde au début de son tour. Si elle fait ainsi, elle ne peut pas voir Zalkoré jusqu'au début de son tour suivant, moment où elle peut de nouveau détourner le regard. Si la créature regarde Zalkoré entre-temps, elle doit immédiatement effectuer le jet de sauvegarde.",
 						"Si Zalkoré se voit reflétée sur une surface polie se trouvant à 9 mètres ou moins d'elle et dans une zone de lumière vive, Zalkoré est, en raison de sa malédiction, affectée par son propre regard."
 					]
 				}
@@ -12389,7 +12389,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|phb|cuir clouté}"
+						"{@item Armure de cuir clouté|phb|cuir clouté}"
 					]
 				}
 			],
@@ -12632,7 +12632,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item breastplate|phb}"
+						"{@item Cuirasse|phb}"
 					]
 				}
 			],

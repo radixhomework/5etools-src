@@ -168,14 +168,14 @@
 					"page": 7,
 					"id": "009",
 					"entries": [
-						"This section presents two backgrounds for 1st-level characters with strong ties to Sigil, the Outlands, or both: the {@background Gate Warden|SatO} and the {@background Planar Philosopher|SatO}.",
+						"This section presents two backgrounds for 1st-level characters with strong ties to Sigil, the Outlands, or both: the {@background Gardien des portes|SatO} and the {@background Philosophe des plans|SatO}.",
 						"If you select either of these backgrounds, you gain the feat specified in its description. If the background you choose doesn't provide a feat, you gain a bonus feat of your choice from the options below (both described in the {@book Player's Handbook|PHB}):",
 						{
 							"type": "list",
 							"columns": 3,
 							"items": [
-								"{@feat Skilled}",
-								"{@feat Tough}"
+								"{@feat Habile}",
+								"{@feat Robuste}"
 							]
 						},
 						{
@@ -202,13 +202,13 @@
 							"type": "list",
 							"columns": 3,
 							"items": [
-								"{@feat Agent of Order|SatO}",
-								"{@feat Baleful Scion|SatO}",
-								"{@feat Cohort of Chaos|SatO}",
-								"{@feat Outlands Envoy|SatO}",
-								"{@feat Planar Wanderer|SatO}",
-								"{@feat Righteous Heritor|SatO}",
-								"{@feat Scion of the Outer Planes|SatO}"
+								"{@feat Agent de l'Ordre|SatO}",
+								"{@feat Rejeton funeste|SatO}",
+								"{@feat Complice du chaos|SatO}",
+								"{@feat Émissaire des Confines|SatO}",
+								"{@feat Errant des plans|SatO}",
+								"{@feat Héritier juste|SatO}",
+								"{@feat Héritier des Plans extérieurs|SatO}"
 							]
 						},
 						{
@@ -324,8 +324,8 @@
 									"columns": 3,
 									"items": [
 										"{@item Mimir|SatO}",
-										"{@item Portal Compass|SatO}",
-										"{@item Sensory Stone|SatO}"
+										"{@item Boussole des portails|SatO}",
+										"{@item Pierre sensorielle|SatO}"
 									]
 								},
 								{
@@ -445,7 +445,7 @@
 										{
 											"type": "item",
 											"name": "Extradimensional Space",
-											"entry": "Extradimensional spaces, demiplanes, and pocket dimensions\u2014such as those created by a {@item bag of holding} or the {@spell rope trick} spell\u2014function within Sigil, but those spaces follow all these restrictions as if they were part of the city."
+											"entry": "Extradimensional spaces, demiplanes, and pocket dimensions\u2014such as those created by a {@item Sac contenant} or the {@spell rope trick} spell\u2014function within Sigil, but those spaces follow all these restrictions as if they were part of the city."
 										},
 										{
 											"type": "item",
@@ -455,7 +455,7 @@
 										{
 											"type": "item",
 											"name": "Summoning",
-											"entry": "Spells, magic items, and effects that summon creatures or objects from other planes, such as a {@item ring of djinni summoning}, instead summon targets from within Sigil if possible or otherwise fail. Effects that summon a specific target from outside Sigil, as with a {@spell Leomund's secret chest} spell, fail automatically."
+											"entry": "Spells, magic items, and effects that summon creatures or objects from other planes, such as a {@item Anneau d'invocation de djinn}, instead summon targets from within Sigil if possible or otherwise fail. Effects that summon a specific target from outside Sigil, as with a {@spell Leomund's secret chest} spell, fail automatically."
 										},
 										{
 											"type": "item",
@@ -662,7 +662,7 @@
 										],
 										[
 											"4",
-											"Taxing. The portal's energy is unstable. A creature that passes through the portal must succeed on a {@dc 10} Constitution saving throw or gain 1 level of {@condition exhaustion}."
+											"Taxing. The portal's energy is unstable. A creature that passes through the portal must succeed on a {@dc 10} Constitution saving throw or gain 1 level of {@condition Épuisement}."
 										],
 										[
 											"5",
@@ -2221,8 +2221,8 @@
 											"page": 31,
 											"id": "077",
 											"entries": [
-												"The most popular offerings in the Civic Festhall are the Sensoriums, semiprivate rooms where creatures can record and relive one another's sensory experiences through {@item Sensory Stone|SatO|sensory stones}. For a price of 10 gp, a client can feel the thrill of a researcher's epiphany, the weight of a widow's grief, or the warm bite of a flaky pastry. Memories and longer, more complex sensations tend to cost more, but the lure of nostalgia draws repeat customers.",
-												"The Society of Sensation pays well for sensations not contained in its extensive collection. Sensates reward adventurers for delivering {@item Sensory Stone|SatO|sensory stones} that contain coveted yet dangerous experiences, such as the thrill of stealing a coin from a sleeping dragon's hoard. Rumors say the sensates also keep a collection of {@item Sensory Stone|SatO|sensory stones} containing unspeakable insights and experiences disruptive to multiversal peace. Sensates sequester these and other restricted sensations in a demiplanar sanctum accessible only to trusted members.",
+												"The most popular offerings in the Civic Festhall are the Sensoriums, semiprivate rooms where creatures can record and relive one another's sensory experiences through {@item Pierre sensorielle|SatO|sensory stones}. For a price of 10 gp, a client can feel the thrill of a researcher's epiphany, the weight of a widow's grief, or the warm bite of a flaky pastry. Memories and longer, more complex sensations tend to cost more, but the lure of nostalgia draws repeat customers.",
+												"The Society of Sensation pays well for sensations not contained in its extensive collection. Sensates reward adventurers for delivering {@item Pierre sensorielle|SatO|sensory stones} that contain coveted yet dangerous experiences, such as the thrill of stealing a coin from a sleeping dragon's hoard. Rumors say the sensates also keep a collection of {@item Pierre sensorielle|SatO|sensory stones} containing unspeakable insights and experiences disruptive to multiversal peace. Sensates sequester these and other restricted sensations in a demiplanar sanctum accessible only to trusted members.",
 												{
 													"type": "image",
 													"href": {
@@ -2708,7 +2708,7 @@
 											"page": 38,
 											"id": "094",
 											"entries": [
-												"The Smoldering Corpse Bar is named for the perpetually burning mage named Ignus who hovers within. Once a pyromaniacal Wreaker who tried to reduce the Hive to ash, Ignus was imprisoned in flame as a sardonic punishment for his crimes, transforming him into a living portal to the Elemental Plane of Fire. Since then, he's become a fiery mascot for the bar he attempted to destroy, suspended above its torrid taproom. If doused with a {@item decanter of endless water}, Ignus rouses from his stupor as a chaotic neutral, human {@creature mage}."
+												"The Smoldering Corpse Bar is named for the perpetually burning mage named Ignus who hovers within. Once a pyromaniacal Wreaker who tried to reduce the Hive to ash, Ignus was imprisoned in flame as a sardonic punishment for his crimes, transforming him into a living portal to the Elemental Plane of Fire. Since then, he's become a fiery mascot for the bar he attempted to destroy, suspended above its torrid taproom. If doused with a {@item Carafe intarissable}, Ignus rouses from his stupor as a chaotic neutral, human {@creature mage}."
 											]
 										},
 										{
@@ -4377,7 +4377,7 @@
 												{
 													"type": "item",
 													"name": "Howling Winds",
-													"entry": "Rank winds screech from Bedlam's gate at all hours. Creatures within 1,000 feet of the gate have the {@condition deafened} condition."
+													"entry": "Rank winds screech from Bedlam's gate at all hours. Creatures within 1,000 feet of the gate have the {@condition Assourdi} condition."
 												},
 												{
 													"type": "item",
@@ -4705,7 +4705,7 @@
 												{
 													"type": "item",
 													"name": "Pervasive Tranquility",
-													"entry": "Creatures in Ecstasy have advantage on saving throws to avoid or end the {@condition frightened} condition on themselves."
+													"entry": "Creatures in Ecstasy have advantage on saving throws to avoid or end the {@condition Effrayé} condition on themselves."
 												}
 											]
 										},
@@ -5064,7 +5064,7 @@
 												{
 													"type": "item",
 													"name": "Tropical Paradise",
-													"entry": "Frequent rainfall yields fruit and water in abundance. Wisdom ({@skill Survival}) checks to forage in Faunel are made with advantage."
+													"entry": "Frequent rainfall yields fruit and water in abundance. Wisdom ({@skill Survie}) checks to forage in Faunel are made with advantage."
 												}
 											]
 										}
@@ -5237,7 +5237,7 @@
 												{
 													"type": "item",
 													"name": "Perfect Vitality",
-													"entry": "Creatures in Fortitude are immune to the {@condition poisoned} condition and have resistance to poison damage. The effects of diseases are suppressed."
+													"entry": "Creatures in Fortitude are immune to the {@condition Empoisonné} condition and have resistance to poison damage. The effects of diseases are suppressed."
 												}
 											]
 										}
@@ -5348,7 +5348,7 @@
 								},
 								"Blaring horns rally Glorium's residents to battle. Warriors are forged in the gate-town, a village of lodges, training fields, and farms arranged along the fertile slopes of an icy fjord. A colossal, serpentine statue towers over the gate-town, its coils arching along the peaks of a high mountain range. Glorium's rich, rugged shores are speckled with the blood of a thousand battles, shed by folk who revel in skirmishing and welcome death when it comes for them.",
 								"In Glorium, every resident owns a weapon and knows how to use it. A tight-knit fellowship of hardened warriors, locals revere gods of war and are distant toward visitors who have yet to prove themselves in combat or through feats of strength.",
-								"Glorium's leader is Tyrza Bonebreaker (chaotic good, human {@creature gladiator} wearing a {@item Belt of Frost Giant Strength||belt of giant strength [frost giant]}), the daughter of the gate-town's previous ruler, Flatnose Grim. Loyal and tempestuous, she leaps into the fray with a thunderous cry. The one-armed warrior's face and body bear the scars of countless duels, and the gnarled haft of her trusty battleaxe is said to be a splinter from the World Tree. Off the field, she loves a strong drink and a good laugh with her comrades.",
+								"Glorium's leader is Tyrza Bonebreaker (chaotic good, human {@creature gladiator} wearing a {@item Ceinturon de force de géant du givre||belt of giant strength [frost giant]}), the daughter of the gate-town's previous ruler, Flatnose Grim. Loyal and tempestuous, she leaps into the fray with a thunderous cry. The one-armed warrior's face and body bear the scars of countless duels, and the gnarled haft of her trusty battleaxe is said to be a splinter from the World Tree. Off the field, she loves a strong drink and a good laugh with her comrades.",
 								"Invaders from far and wide seek to conquer Glorium. Surtur and Thrym\u2014the mighty patron deities of fire and frost giants, respectively\u2014regularly send hulking subjects to pillage the wintry camp, darkening its skies with ash and snow. Meanwhile, nomadic groups of mountain bariaurs hold back the alien armies of Gzemnid, a gaseous beholder god.",
 								{
 									"type": "quote",
@@ -5552,7 +5552,7 @@
 												{
 													"type": "item",
 													"name": "Lingering Apathy",
-													"entry": "The residents of Hopeless are cheerless and indifferent. Charisma ({@skill Performance} and {@skill Persuasion}) checks to influence them are made with disadvantage."
+													"entry": "The residents of Hopeless are cheerless and indifferent. Charisma ({@skill Représentation} and {@skill Persuasion}) checks to influence them are made with disadvantage."
 												},
 												{
 													"type": "item",
@@ -6214,7 +6214,7 @@
 												{
 													"type": "item",
 													"name": "Natural Remedy",
-													"entry": "Sylvania wards its guests from the negative effects of overindulgence. Creatures have advantage on saving throws against the {@condition poisoned} condition."
+													"entry": "Sylvania wards its guests from the negative effects of overindulgence. Creatures have advantage on saving throws against the {@condition Empoisonné} condition."
 												}
 											]
 										}

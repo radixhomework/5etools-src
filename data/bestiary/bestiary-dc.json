@@ -118,13 +118,13 @@
 				{
 					"name": "Horrifying Visage",
 					"entries": [
-						"Each non-undead creature within 60 feet of Ebondeath that can see it must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} for 1 minute. If the save fails by 5 or more, the target also ages {@dice 1d4 × 10} years. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the {@condition frightened} condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this Ebondeath's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a {@spell greater restoration} spell, but only within 24 hours of it occurring."
+						"Each non-undead creature within 60 feet of Ebondeath that can see it must succeed on a {@dc 13} Wisdom saving throw or be {@condition Effrayé} for 1 minute. If the save fails by 5 or more, the target also ages {@dice 1d4 × 10} years. A {@condition Effrayé} target can repeat the saving throw at the end of each of its turns, ending the {@condition Effrayé} condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this Ebondeath's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a {@spell greater restoration} spell, but only within 24 hours of it occurring."
 					]
 				},
 				{
 					"name": "Possession {@recharge}",
 					"entries": [
-						"One humanoid that Ebondeath can see within 5 feet of it must succeed on a {@dc 20} Charisma saving throw or be possessed by Ebondeath; Ebondeath then disappears, and the target is {@condition incapacitated} and loses control of its body. Ebondeath now controls the body but doesn't deprive the target of awareness. Ebondeath can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed target's statistics, including gaining access to the target's knowledge, class features, and proficiencies.",
+						"One humanoid that Ebondeath can see within 5 feet of it must succeed on a {@dc 20} Charisma saving throw or be possessed by Ebondeath; Ebondeath then disappears, and the target is {@condition Incapable} and loses control of its body. Ebondeath now controls the body but doesn't deprive the target of awareness. Ebondeath can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition Charmé} and {@condition Effrayé}. It otherwise uses the possessed target's statistics, including gaining access to the target's knowledge, class features, and proficiencies.",
 						"The possession lasts until the body drops to 0 hit points, Ebondeath ends it as a bonus action, or Ebondeath is turned or forced out by an effect like the {@spell dispel evil and good} spell. When the possession ends, Ebondeath reappears in an unoccupied space within 5 feet of the body. The target is immune to Ebondeath Possession for 24 hours after succeeding on the saving throw or after the possession ends."
 					]
 				}
@@ -174,7 +174,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item studded leather armor|phb|studded leather}"
+						"{@item Armure de cuir clouté|phb|studded leather}"
 					]
 				}
 			],
@@ -216,7 +216,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"When the expert is not {@condition incapacitated} and subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed."
+						"When the expert is not {@condition Incapable} and subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed."
 					]
 				},
 				{
@@ -228,7 +228,7 @@
 				{
 					"name": "Tools",
 					"entries": [
-						"The expert has {@item thieves' tools|phb} and a musical instrument."
+						"The expert has {@item Outils de crocheteur|phb} and a musical instrument."
 					]
 				}
 			],
@@ -297,7 +297,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item studded leather armor|PHB|studded leather}"
+						"{@item Armure de cuir clouté|PHB|studded leather}"
 					]
 				}
 			],
@@ -459,7 +459,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item studded leather armor|PHB|studded leather}"
+						"{@item Armure de cuir clouté|PHB|studded leather}"
 					]
 				}
 			],
@@ -623,8 +623,8 @@
 				{
 					"ac": 21,
 					"from": [
-						"{@item plate armor|PHB|plate}",
-						"{@item shield|PHB}"
+						"{@item Harnois de plaques|PHB|plate}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],

@@ -51,7 +51,7 @@
 					"name": "The Core Rules",
 					"page": 5,
 					"entries": [
-						"This book relies on the rules in the three core rulebooks. The game especially makes frequent use of the rules in chapters 7-10 of the player's handbook: \"Using Ability Scores,\" \"Adventuring,\" \"Combat,\" and \"Spellcasting.\" That book's appendix A is also crucial; it contains definitions of conditions, like {@condition invisible} and {@condition prone}. You don't need to know the rules by heart, but it's helpful to know where to find them when you need them.",
+						"This book relies on the rules in the three core rulebooks. The game especially makes frequent use of the rules in chapters 7-10 of the player's handbook: \"Using Ability Scores,\" \"Adventuring,\" \"Combat,\" and \"Spellcasting.\" That book's appendix A is also crucial; it contains definitions of conditions, like {@condition invisible} and {@condition À terre}. You don't need to know the rules by heart, but it's helpful to know where to find them when you need them.",
 						"If you're a DM, you should also know where to look things up in the dungeon master's guide, especially the rules on how magic items work (see chapter 7 of that book). The introduction of the monster manual is your guide on how to use a monster's stat block.",
 						{
 							"type": "entries",
@@ -2319,7 +2319,7 @@
 											"rows": [
 												[
 													"1",
-													"You were {@condition charmed} or {@condition frightened} by a spell."
+													"You were {@condition Charmé} or {@condition Effrayé} by a spell."
 												],
 												[
 													"2",
@@ -2681,7 +2681,7 @@
 												],
 												[
 													"2",
-													"You were {@condition petrified} and remained a stone statue for a time until someone freed you."
+													"You were {@condition Pétrifié} and remained a stone statue for a time until someone freed you."
 												],
 												[
 													"3",
@@ -3148,83 +3148,83 @@
 							"rows": [
 								[
 									"Dragonborn",
-									"{@feat Dragon Fear|xge}"
+									"{@feat Peur du dragon|xge}"
 								],
 								[
 									"Dragonborn",
-									"{@feat Dragon Hide|xge}"
+									"{@feat Peau de dragon|xge}"
 								],
 								[
 									"Dwarf",
-									"{@feat Dwarven Fortitude|xge}"
+									"{@feat Constitution naine|xge}"
 								],
 								[
 									"Dwarf",
-									"{@feat Squat Nimbleness|xge}"
+									"{@feat Petite taille, grande agilité|xge}"
 								],
 								[
 									"Elf",
-									"{@feat Elven Accuracy|xge}"
+									"{@feat Précision elfique|xge}"
 								],
 								[
 									"Elf (drow)",
-									"{@feat Drow High Magic|xge}"
+									"{@feat Haute magie drow|xge}"
 								],
 								[
 									"Elf (high)",
-									"{@feat Fey Teleportation|xge}"
+									"{@feat Téléportation féerique|xge}"
 								],
 								[
 									"Elf (wood)",
-									"{@feat Wood Elf Magic|xge}"
+									"{@feat Magie des elfes des bois|xge}"
 								],
 								[
 									"Gnome",
-									"{@feat Fade Away|xge}"
+									"{@feat Disparition|xge}"
 								],
 								[
 									"Gnome",
-									"{@feat Squat Nimbleness|xge}"
+									"{@feat Petite taille, grande agilité|xge}"
 								],
 								[
 									"Half-elf",
-									"{@feat Elven Accuracy|xge}"
+									"{@feat Précision elfique|xge}"
 								],
 								[
 									"Half-elf",
-									"{@feat Prodigy|xge}"
+									"{@feat Prodige|xge}"
 								],
 								[
 									"Half-orc",
-									"{@feat Orcish Fury|xge}"
+									"{@feat Fureur orque|xge}"
 								],
 								[
 									"Half-orc",
-									"{@feat Prodigy|xge}"
+									"{@feat Prodige|xge}"
 								],
 								[
 									"Halfling",
-									"{@feat Bountiful Luck|xge}"
+									"{@feat Chance abondante|xge}"
 								],
 								[
 									"Halfling",
-									"{@feat Second Chance|xge}"
+									"{@feat Seconde chance|xge}"
 								],
 								[
 									"Halfling",
-									"{@feat Squat Nimbleness|xge}"
+									"{@feat Petite taille, grande agilité|xge}"
 								],
 								[
 									"Human",
-									"{@feat Prodigy|xge}"
+									"{@feat Prodige|xge}"
 								],
 								[
 									"Tiefling",
-									"{@feat Flames of Phlegethos|xge}"
+									"{@feat Flammes de Phlégéthos|xge}"
 								],
 								[
 									"Tiefling",
-									"{@feat Infernal Constitution|xge}"
+									"{@feat Constitution infernale|xge}"
 								]
 							]
 						}
@@ -3268,13 +3268,13 @@
 					"name": "Falling",
 					"page": 77,
 					"entries": [
-						"Falling from a great height is a significant risk for adventurers and their foes. The rule given in the player's handbook is simple: at the end of a fall, you take {@dice 1d6} bludgeoning damage for every 10 feet you fell, to a maximum of {@dice 20d6}. You also land {@condition prone}, unless you somehow avoid taking damage from the fall. Here are two optional rules that expand on that simple rule.",
+						"Falling from a great height is a significant risk for adventurers and their foes. The rule given in the player's handbook is simple: at the end of a fall, you take {@dice 1d6} bludgeoning damage for every 10 feet you fell, to a maximum of {@dice 20d6}. You also land {@condition À terre}, unless you somehow avoid taking damage from the fall. Here are two optional rules that expand on that simple rule.",
 						{
 							"type": "entries",
 							"name": "Rate of Falling",
 							"page": 77,
 							"entries": [
-								"The rule for falling assumes that a creature immediately drops the entire distance when it falls. But what if a creature is at a high altitude when it falls, perhaps on the back of a {@creature griffon} or on board an {@item airship}? Realistically, a fall from such a height can take more than a few seconds, extending past the end of the turn when the fall occurred. If you'd like high-altitude falls to be properly time-consuming, use the following optional rule.",
+								"The rule for falling assumes that a creature immediately drops the entire distance when it falls. But what if a creature is at a high altitude when it falls, perhaps on the back of a {@creature griffon} or on board an {@item Dirigeable}? Realistically, a fall from such a height can take more than a few seconds, extending past the end of the turn when the fall occurred. If you'd like high-altitude falls to be properly time-consuming, use the following optional rule.",
 								"When you fall from a great height, you instantly descend up to 500 feet. If you're still falling on your next turn, you descend up to 500 feet at the end of that turn. This process continues until the fall ends, either because you hit the ground or the fall is otherwise halted."
 							],
 							"id": "030"
@@ -3284,9 +3284,9 @@
 							"name": "Flying Creatures and Falling",
 							"page": 77,
 							"entries": [
-								"A flying creature in flight falls if it is knocked {@condition prone}, if its speed is reduced to 0 feet, or if it otherwise loses the ability to move, unless it can hover or it is being held aloft by magic, such as the {@spell fly} spell.",
-								"If you'd like a flying creature to have a better chance of surviving a fall than a non-flying creature does, use this rule: subtract the creature's current flying speed from the distance it fell before calculating falling damage. This rule is helpful to a flier that is knocked {@condition prone} but is still conscious and has a current flying speed that is greater than 0 feet. The rule is designed to simulate the creature flapping its wings furiously or taking similar measures to slow the velocity of its fall.",
-								"If you use the rule for rate of falling in the previous section, a flying creature descends 500 feet on the turn when it falls, just as other creatures do. But if that creature starts any of its later turns still falling and is {@condition prone}, it can halt the fall on its turn by spending half its flying speed to counter the {@condition prone} condition (as if it were standing up in midair)."
+								"A flying creature in flight falls if it is knocked {@condition À terre}, if its speed is reduced to 0 feet, or if it otherwise loses the ability to move, unless it can hover or it is being held aloft by magic, such as the {@spell fly} spell.",
+								"If you'd like a flying creature to have a better chance of surviving a fall than a non-flying creature does, use this rule: subtract the creature's current flying speed from the distance it fell before calculating falling damage. This rule is helpful to a flier that is knocked {@condition À terre} but is still conscious and has a current flying speed that is greater than 0 feet. The rule is designed to simulate the creature flapping its wings furiously or taking similar measures to slow the velocity of its fall.",
+								"If you use the rule for rate of falling in the previous section, a flying creature descends 500 feet on the turn when it falls, just as other creatures do. But if that creature starts any of its later turns still falling and is {@condition À terre}, it can halt the fall on its turn by spending half its flying speed to counter the {@condition À terre} condition (as if it were standing up in midair)."
 							],
 							"id": "031"
 						}
@@ -3301,7 +3301,7 @@
 					"name": "Sleep",
 					"page": 77,
 					"entries": [
-						"Just as in the real world, D&D characters spend many hours sleeping, most often as part of a long rest. Most monsters also need to sleep. While a creature sleeps, it is subjected to the {@condition unconscious} condition. Here are a few rules that expand on that basic fact.",
+						"Just as in the real world, D&D characters spend many hours sleeping, most often as part of a long rest. Most monsters also need to sleep. While a creature sleeps, it is subjected to the {@condition Inconscient} condition. Here are a few rules that expand on that basic fact.",
 						{
 							"type": "entries",
 							"name": "Waking Someone",
@@ -3318,7 +3318,7 @@
 							"page": 77,
 							"entries": [
 								"Sleeping in light armor has no adverse effect on the wearer, but sleeping in medium or heavy armor makes it difficult to recover fully during a long rest.",
-								"When you finish a long rest during which you slept in medium or heavy armor, you regain only one quarter of your spent Hit Dice (minimum of one die). If you have any levels of {@condition exhaustion}, the rest doesn't reduce your {@condition exhaustion} level."
+								"When you finish a long rest during which you slept in medium or heavy armor, you regain only one quarter of your spent Hit Dice (minimum of one die). If you have any levels of {@condition Épuisement}, the rest doesn't reduce your {@condition Épuisement} level."
 							],
 							"id": "034"
 						},
@@ -3328,8 +3328,8 @@
 							"page": 78,
 							"entries": [
 								"A long rest is never mandatory, but going without sleep does have its consequences. If you want to account for the effects of sleep deprivation on characters and creatures, use these rules.",
-								"Whenever you end a 24-hour period without finishing a long rest, you must succeed on a {@dc 10} Constitution saving throw or suffer one level of {@condition exhaustion}.",
-								"It becomes harder to fight off {@condition exhaustion} if you stay awake for multiple days. After the first 24 hours, the DC increases by 5 for each consecutive 24-hour period without a long rest. The DC resets to 10 when you finish a long rest."
+								"Whenever you end a 24-hour period without finishing a long rest, you must succeed on a {@dc 10} Constitution saving throw or suffer one level of {@condition Épuisement}.",
+								"It becomes harder to fight off {@condition Épuisement} if you stay awake for multiple days. After the first 24 hours, the DC increases by 5 for each consecutive 24-hour period without a long rest. The DC resets to 10 when you finish a long rest."
 							],
 							"id": "035"
 						}
@@ -3356,8 +3356,8 @@
 					"page": 78,
 					"entries": [
 						"The rules are purposely open-ended concerning mundane tasks like tying knots, but sometimes knowing how well a knot was fashioned is important in a dramatic scene when someone is trying to untie a knot or slip out of one. Here's an optional rule for determining the effectiveness of a knot.",
-						"The creature who ties the knot makes an Intelligence ({@skill Sleight of Hand}) check when doing so. The total of the check becomes the DC for an attempt to untie the knot with an Intelligence ({@skill Sleight of Hand}) check or to slip out of it with a Dexterity ({@skill Acrobatics}) check.",
-						"This rule intentionally links {@skill Sleight of Hand} with Intelligence, rather than Dexterity. This is an example of how to apply the rule in the {@variantrule Skills with Different Abilities|phb|\"Variant: Skills with Different Abilities\"} section in chapter 7 of the player's handbook."
+						"The creature who ties the knot makes an Intelligence ({@skill Escamotage}) check when doing so. The total of the check becomes the DC for an attempt to untie the knot with an Intelligence ({@skill Escamotage}) check or to slip out of it with a Dexterity ({@skill Acrobaties}) check.",
+						"This rule intentionally links {@skill Escamotage} with Intelligence, rather than Dexterity. This is an example of how to apply the rule in the {@variantrule Skills with Different Abilities|phb|\"Variant: Skills with Different Abilities\"} section in chapter 7 of the player's handbook."
 					],
 					"data": {
 						"quickref": 3
@@ -3375,7 +3375,7 @@
 							"name": "Tools and Skills Together",
 							"page": 78,
 							"entries": [
-								"Tools have more specific applications than skills. The {@skill History} skill applies to any event in the past. A tool such as a {@item forgery kit|phb} is used to make fake objects and little else. Thus, why would a character who has the opportunity to acquire one or the other want to gain a tool proficiency instead of proficiency in a skill?",
+								"Tools have more specific applications than skills. The {@skill Histoire} skill applies to any event in the past. A tool such as a {@item Trousse de faussaire|phb} is used to make fake objects and little else. Thus, why would a character who has the opportunity to acquire one or the other want to gain a tool proficiency instead of proficiency in a skill?",
 								"To make tool proficiencies more attractive choices for the characters, you can use the methods outlined below.",
 								{
 									"type": "entries",
@@ -3391,7 +3391,7 @@
 									"name": "Added Benefit",
 									"page": 78,
 									"entries": [
-										"In addition, consider giving characters who have both a relevant skill and a relevant tool proficiency an added benefit on a successful check. This benefit might be in the form of more detailed information or could simulate the effect of a different sort of successful check. For example, a character proficient with {@item mason's tools|phb} makes a successful Wisdom ({@skill Perception}) check to find a secret door in a stone wall. Not only does the character notice the door's presence, but you decide that the tool proficiency entitles the character to an automatic success on an Intelligence ({@skill Investigation}) check to determine how to open the door."
+										"In addition, consider giving characters who have both a relevant skill and a relevant tool proficiency an added benefit on a successful check. This benefit might be in the form of more detailed information or could simulate the effect of a different sort of successful check. For example, a character proficient with {@item Outils de maçon|phb} makes a successful Wisdom ({@skill Perception}) check to find a secret door in a stone wall. Not only does the character notice the door's presence, but you decide that the tool proficiency entitles the character to an automatic success on an Intelligence ({@skill Investigation}) check to determine how to open the door."
 									],
 									"id": "03b"
 								}
@@ -3487,7 +3487,7 @@
 							"name": "Identifying a Spell",
 							"page": 85,
 							"entries": [
-								"See the {@action Identify a Spell|XGE} entry."
+								"See the {@action Identifier un sort|XGE} entry."
 							],
 							"id": "044"
 						},
@@ -4755,15 +4755,15 @@
 								{
 									"type": "list",
 									"items": [
-										"{@trap Bear Trap|XGE}",
-										"{@trap Crossbow Trap|XGE}",
-										"{@trap Falling Portcullis|XGE}",
-										"{@trap Fiery Blast Trap|XGE}",
-										"{@trap Net Trap|XGE}",
-										"{@trap Pit Trap|XGE}",
-										"{@trap Poison Needle Trap|XGE}",
-										"{@trap Scything Blade Trap|XGE}",
-										"{@trap Sleep of Ages Trap|XGE}"
+										"{@trap Piège à ours|XGE}",
+										"{@trap Piège à arbalètes|XGE}",
+										"{@trap Chute de herse|XGE}",
+										"{@trap Explosion de flammes|XGE}",
+										"{@trap Piège à filet|XGE}",
+										"{@trap Fosse|XGE}",
+										"{@trap Piège à aiguille empoisonnée|XGE}",
+										"{@trap Piège à lame faucheuse|XGE}",
+										"{@trap Piège du sommeil des âges|XGE}"
 									],
 									"columns": 3
 								},
@@ -5066,10 +5066,10 @@
 									"page": 117,
 									"entries": [
 										"Only one successful ability check is required to disarm a simple trap. Imagine how your trap operates, and then think about how the characters could overcome it. More than one kind of ability check might be possible. Some traps are so poorly concealed that they can be discovered or circumvented without active effort. For instance, a hidden pit trap is effectively disarmed as soon as the characters notice it. After that, they can simply walk around it, or they can climb down one side, walk across the bottom of the pit, and climb up the other side.",
-										"Once you determine how a trap can be disarmed or avoided, decide the appropriate ability and skill combinations that characters can use. A Dexterity check using {@item thieves' tools|phb}, a Strength ({@skill Athletics}) check, and an Intelligence ({@skill Arcana}) check are all commonly used for this purpose.",
-										"A Dexterity check using {@item thieves' tools|phb} can apply to any trap that has a mechanical element. {@item Thieves' tools|phb} can be used to disable a trip wire or a pressure plate, disassemble a poison needle mechanism, or clog a valve that leaks poisonous gas into a room.",
+										"Once you determine how a trap can be disarmed or avoided, decide the appropriate ability and skill combinations that characters can use. A Dexterity check using {@item Outils de crocheteur|phb}, a Strength ({@skill Athlétisme}) check, and an Intelligence ({@skill Arcanes}) check are all commonly used for this purpose.",
+										"A Dexterity check using {@item Outils de crocheteur|phb} can apply to any trap that has a mechanical element. {@item Outils de crocheteur|phb} can be used to disable a trip wire or a pressure plate, disassemble a poison needle mechanism, or clog a valve that leaks poisonous gas into a room.",
 										"A Strength check is often the method for thwarting traps that can be destroyed or prevented from operating through the use of brute force. A scything blade can be broken, a sliding block can be held in place, or a net can be torn apart.",
-										"A magic trap can be disabled by someone who can undermine the magic used to power it. Typically, a successful Intelligence ({@skill Arcana}) check enables a character to figure out how a magic trap functions and how to negate its effect. For instance, the character could discover that a statue that belches a jet of magical flame can be disabled by shattering one of its glass eyes.",
+										"A magic trap can be disabled by someone who can undermine the magic used to power it. Typically, a successful Intelligence ({@skill Arcanes}) check enables a character to figure out how a magic trap functions and how to negate its effect. For instance, the character could discover that a statue that belches a jet of magical flame can be disabled by shattering one of its glass eyes.",
 										"Once you know what kind of check is called for, you then determine what happens on a failed attempt to disable the trap. Depending on the kind of check involved and the nature of the trap, you might determine that any failed check has negative consequences-usually involving the triggering of the trap. At other times, you could assign a number that the check must exceed to prevent the trap from going off. If the total of the check is equal to or lower than that number, the trap activates."
 									],
 									"id": "070"
@@ -5241,9 +5241,9 @@
 								{
 									"type": "list",
 									"items": [
-										"{@trap Path of Blades|XGE}",
-										"{@trap Poisoned Tempest|XGE}",
-										"{@trap Sphere of Crushing Doom|XGE}"
+										"{@trap Sentier de lames|XGE}",
+										"{@trap Tempête empoisonnée|XGE}",
+										"{@trap Sphère de destruction écrasante|XGE}"
 									],
 									"columns": 3
 								},
@@ -5833,7 +5833,7 @@
 											"page": 126,
 											"entries": [
 												"Carousing covers a workweek of fine food, strong drink, and socializing. A character can attempt to carouse among lower-, middle-, or upper-class folk. A character can carouse with the lower class for 10 gp to cover expenses, or 50 gp for the middle class. Carousing with the upper class requires 250 gp for the workweek and access to the local nobility.",
-												"A character with the noble background can mingle with the upper class, but other characters can do so only if you judge that the character has made sufficient contacts. Alternatively, a character might use a {@item disguise kit|phb} and the {@skill Deception} skill to pass as a noble visiting from a distant city."
+												"A character with the noble background can mingle with the upper class, but other characters can do so only if you judge that the character has made sufficient contacts. Alternatively, a character might use a {@item Kit de déguisement|phb} and the {@skill Tromperie} skill to pass as a noble visiting from a distant city."
 											],
 											"id": "09b"
 										},
@@ -6075,19 +6075,19 @@
 													],
 													"rows": [
 														[
-															"{@item Herbalism kit|phb}",
+															"{@item Trousse d'herboriste|phb}",
 															"Antitoxin, potion of healing"
 														],
 														[
-															"{@item Leatherworker's tools|phb}",
+															"{@item Outils de travailleur du cuir|phb}",
 															"Leather armor, boots"
 														],
 														[
-															"{@item Smith's tools|phb}",
+															"{@item Outils de forgeron|phb}",
 															"Armor, weapons"
 														],
 														[
-															"{@item Weaver's tools|phb}",
+															"{@item Outils de tisserand|phb}",
 															"Cloaks, robes"
 														]
 													],
@@ -6200,7 +6200,7 @@
 														"*Halved for a consumable item like a potion or scroll"
 													]
 												},
-												"To complete a magic item, a character also needs whatever tool proficiency is appropriate, as for crafting a nonmagical object, or proficiency in the {@skill Arcana} skill.",
+												"To complete a magic item, a character also needs whatever tool proficiency is appropriate, as for crafting a nonmagical object, or proficiency in the {@skill Arcanes} skill.",
 												"If all the above requirements are met, the result of the process is a magic item of the desired sort."
 											],
 											"id": "0a0"
@@ -6325,7 +6325,7 @@
 											"entries": [
 												"The character must make a series of checks, with the DC for all the checks chosen by the character according to the amount of profit sought from the crime.",
 												"The chosen DC can be 10, 15, 20, or 25. Successful completion of the crime yields a number of gold pieces, as shown on the Loot Value table.",
-												"To attempt a crime, the character makes three checks: Dexterity ({@skill Stealth}), Dexterity using {@item thieves' tools|phb}, and the player's choice of Intelligence ({@skill Investigation}), Wisdom ({@skill Perception}), or Charisma ({@skill Deception}).",
+												"To attempt a crime, the character makes three checks: Dexterity ({@skill Discrétion}), Dexterity using {@item Outils de crocheteur|phb}, and the player's choice of Intelligence ({@skill Investigation}), Wisdom ({@skill Perception}), or Charisma ({@skill Tromperie}).",
 												"If none of the checks are successful, the character is caught and jailed. The character must pay a fine equal to the profit the crime would have earned and must spend one week in jail for each 25 gp of the fine.",
 												"If only one check is successful, the heist fails but the character escapes.",
 												"If two checks are successful, the heist is a partial success, netting the character half the payout.",
@@ -6450,7 +6450,7 @@
 											"page": 130,
 											"entries": [
 												"The character must make a series of checks, with a DC determined at random based on the quality of the competition that the character runs into. Part of the risk of gambling is that one never knows who might end up sitting across the table.",
-												"The character makes three checks: Wisdom ({@skill Insight}), Charisma ({@skill Deception}), and Charisma ({@skill Intimidation}). If the character has proficiency with an appropriate gaming set, that tool proficiency can replace the relevant skill in any of the checks. The DC for each of the checks is {@dice 5 + 2d10}; generate a separate DC for each one. Consult the Gambling Results table to see how the character did.",
+												"The character makes three checks: Wisdom ({@skill Perspicacité}), Charisma ({@skill Tromperie}), and Charisma ({@skill Intimidation}). If the character has proficiency with an appropriate gaming set, that tool proficiency can replace the relevant skill in any of the checks. The DC for each of the checks is {@dice 5 + 2d10}; generate a separate DC for each one. Consult the Gambling Results table to see how the character did.",
 												{
 													"type": "table",
 													"caption": "Gambling Results",
@@ -6558,7 +6558,7 @@
 											"page": 131,
 											"entries": [
 												"The character must make a series of checks, with a DC determined at random based on the quality of the opposition that the character runs into. A big part of the challenge in pit fighting lies in the unknown nature of a character's opponents.",
-												"The character makes three checks: Strength ({@skill Athletics}), Dexterity ({@skill Acrobatics}), and a special Constitution check that has a bonus equal to a roll of the character's largest Hit Die (this roll doesn't spend that die). If desired, the character can replace one of these skill checks with an attack roll using one of the character's weapons. The DC for each of the checks is {@dice 5 + 2d10}; generate a separate DC for each one. Consult the Pit Fighting Results table to see how the character did.",
+												"The character makes three checks: Strength ({@skill Athlétisme}), Dexterity ({@skill Acrobaties}), and a special Constitution check that has a bonus equal to a roll of the character's largest Hit Die (this roll doesn't spend that die). If desired, the character can replace one of these skill checks with an attack roll using one of the character's weapons. The DC for each of the checks is {@dice 5 + 2d10}; generate a separate DC for each one. Consult the Pit Fighting Results table to see how the character did.",
 												{
 													"type": "table",
 													"caption": "Pit Fighting Results",
@@ -6916,7 +6916,7 @@
 											"name": "Resources",
 											"page": 133,
 											"entries": [
-												"Scribing a spell scroll takes an amount of time and money related to the level of the spell the character wants to scribe, as shown in the Spell Scroll Costs table. In addition, the character must have proficiency in the {@skill Arcana} skill and must provide any material components required for the casting of the spell. Moreover, the character must have the spell prepared, or it must be among the character's known spells, in order to scribe a scroll of that spell.",
+												"Scribing a spell scroll takes an amount of time and money related to the level of the spell the character wants to scribe, as shown in the Spell Scroll Costs table. In addition, the character must have proficiency in the {@skill Arcanes} skill and must provide any material components required for the casting of the spell. Moreover, the character must have the spell prepared, or it must be among the character's known spells, in order to scribe a scroll of that spell.",
 												"If the scribed spell is a cantrip, the version on the scroll works as if the caster were 1st level.",
 												{
 													"type": "table",
@@ -7287,7 +7287,7 @@
 											"name": "Resolution",
 											"page": 134,
 											"entries": [
-												"To determine how much money a character earns, the character makes an ability check: Strength ({@skill Athletics}), Dexterity ({@skill Acrobatics}), Intelligence using a set of tools, Charisma ({@skill Performance}), or Charisma using a musical instrument. Consult the Wages table to see how much money is generated according to the total of the check.",
+												"To determine how much money a character earns, the character makes an ability check: Strength ({@skill Athlétisme}), Dexterity ({@skill Acrobaties}), Intelligence using a set of tools, Charisma ({@skill Représentation}), or Charisma using a musical instrument. Consult the Wages table to see how much money is generated according to the total of the check.",
 												{
 													"type": "table",
 													"caption": "Wages",

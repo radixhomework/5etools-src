@@ -184,7 +184,7 @@
 								{
 									"type": "list",
 									"items": [
-										"Auril instantly knows the locations and health of all other creatures on the island. She knows how much damage each of these creatures has taken, how many levels of {@condition exhaustion} they have, and what conditions are affecting them currently.",
+										"Auril instantly knows the locations and health of all other creatures on the island. She knows how much damage each of these creatures has taken, how many levels of {@condition Épuisement} they have, and what conditions are affecting them currently.",
 										"Auril instantly teleports to any location on the island. If the space she chooses as her destination is already occupied, Auril appears in the closest unoccupied space to it instead.",
 										"Auril telepathically communicates with any number of creatures at once, provided they're all on the island. This effect lasts until Auril stops concentrating on it (as if concentrating on a spell) or until she leaves the island or uses a different lair action."
 									]
@@ -470,13 +470,13 @@
 											"type": "list",
 											"columns": 3,
 											"items": [
-												"{@reward Charm of Biting Cold|IDRotF}",
-												"{@reward Charm of Bounty|IDRotF}",
-												"{@reward Charm of Cold Resistance|IDRotF}",
-												"{@reward Charm of Snowball Strike|IDRotF}",
-												"{@reward Charm of the Ice Troll|IDRotF}",
-												"{@reward Charm of the Snow Walker|IDRotF}",
-												"{@reward Charm of the Traveler's Haven|IDRotF}"
+												"{@reward Charme du froid mordant|IDRotF}",
+												"{@reward Charme d'abondance|IDRotF}",
+												"{@reward Charme de résistance au froid|IDRotF}",
+												"{@reward Charme de boule de neige|IDRotF}",
+												"{@reward Charme du troll des glaces|IDRotF}",
+												"{@reward Charme du marcheur des neiges|IDRotF}",
+												"{@reward Charme du havre du voyageur|IDRotF}"
 											]
 										}
 									]
@@ -839,7 +839,7 @@
 									"type": "entries",
 									"name": "Laser Pistol",
 									"entries": [
-										"A gnome ceremorph often carries a home-built device that functions as a {@item laser pistol} (see \"{@book Firearms|DMG|9|Firearms}\" in the {@book Dungeon Master's Guide|DMG}). This weapon is powered by an {@item energy cell}, which enables the weapon to fire 50 shots. After its last shot is expended, the device becomes inoperable. The {@item energy cell} can't be removed without destroying the weapon."
+										"A gnome ceremorph often carries a home-built device that functions as a {@item Pistolet laser} (see \"{@book Firearms|DMG|9|Firearms}\" in the {@book Dungeon Master's Guide|DMG}). This weapon is powered by an {@item Cellule d'énergie}, which enables the weapon to fire 50 shots. After its last shot is expended, the device becomes inoperable. The {@item Cellule d'énergie} can't be removed without destroying the weapon."
 									]
 								}
 							]
@@ -1081,8 +1081,8 @@
 													"items": [
 														"A creature that eats the heart gains the ability to regenerate for the next 24 hours, regaining 5 hit points at the start of each of its turns. If the creature takes acid or fire damage, this trait doesn't function at the start of its next turn. The creature dies only if it starts its turn with 0 hit points and doesn't regenerate.",
 														"If buried in the ground under a foot or more of earth, the heart melts away and summons a blizzard like that created by the {@spell control weather} spell. It takes 10 minutes for the heart to melt and the blizzard to form. The blizzard lasts for 8 hours.",
-														"A hag or similar creature can perform a ritual that turns the heart into a magical talisman that acts like a patch of brown mold (see \"{@hazard Brown Mold}\" in the {@book Dungeon Master's Guide|DMG}). This effect lasts until the heart is destroyed.",
-														"A creature proficient with alchemist's supplies can squeeze enough residual fluid out of the heart to mix with other alchemical ingredients, creating one {@item Potion of Cold Resistance||potion of resistance (cold)}. It takes 1 hour to create this potion. "
+														"A hag or similar creature can perform a ritual that turns the heart into a magical talisman that acts like a patch of brown mold (see \"{@hazard Moisi brun}\" in the {@book Dungeon Master's Guide|DMG}). This effect lasts until the heart is destroyed.",
+														"A creature proficient with alchemist's supplies can squeeze enough residual fluid out of the heart to mix with other alchemical ingredients, creating one {@item Potion de résistance au froid||potion of resistance (cold)}. It takes 1 hour to create this potion. "
 													]
 												}
 											]
@@ -1419,8 +1419,8 @@
 							"entries": [
 								"Nass Lantomir was an apprentice of Zelenn the White, one of five archmages who oversee the Arcane Brotherhood. Nass and Zelenn's relationship started off well, but in recent years it has become painfully obvious to Zelenn that Nass has been slow to master the arcane tradition of divination. Zelenn's suggestion that Nass leave the Hosttower of the Arcane and gain experience abroad left Nass feeling unwanted. After much thought, however, Nass came around to the idea. She could put her magic to the test and carve out a name for herself.",
 								"As she was preparing to leave the Hosttower, Nass overheard her master talking to another wizard about a covert expedition to Icewind Dale being undertaken to seek out long-lost magic from a bygone empire. Rather than carry out her original plan, Nass followed her fellow wizards to Icewind Dale. She caught up to them in Bryn Shander and made her presence known, claiming she was sent by her master to aid the expedition with her divinations. Egos and frayed nerves caused the group to split up shortly thereafter, with each wizard determined to succeed alone.",
-								"One night while the others slept, Nass stole a {@item Professor Skant|IDRotF|professor orb} (see {@adventure appendix D|IDRotF|22}) from one of her fellow wizards, Vellynne Harpell. Two of Vellynne's kobold companions witnessed the theft, and Nass killed them with {@spell Melf's acid arrow} spells before fleeing with the orb.",
-								"Nass fled Ten-Towns and headed toward the Sea of Moving Ice, hoping to find a tome called {@item The Codicil of White|IDRotF}, a book of magic and lore composed by servants of Auril the Frostmaiden. The Arcane Brotherhood believes that this book tells how to reach a lost city of magic entombed in the ice. Before she could obtain the book, Nass perished. She now exists as a ghost, unable to rest until she finds the book. Characters who come upon Nass's frozen remains also find her spellbook and the orb she stole from Vellynne.",
+								"One night while the others slept, Nass stole a {@item Professeur Skant|IDRotF|professor orb} (see {@adventure appendix D|IDRotF|22}) from one of her fellow wizards, Vellynne Harpell. Two of Vellynne's kobold companions witnessed the theft, and Nass killed them with {@spell Melf's acid arrow} spells before fleeing with the orb.",
+								"Nass fled Ten-Towns and headed toward the Sea of Moving Ice, hoping to find a tome called {@item Le Codicille blanc|IDRotF}, a book of magic and lore composed by servants of Auril the Frostmaiden. The Arcane Brotherhood believes that this book tells how to reach a lost city of magic entombed in the ice. Before she could obtain the book, Nass perished. She now exists as a ghost, unable to rest until she finds the book. Characters who come upon Nass's frozen remains also find her spellbook and the orb she stole from Vellynne.",
 								{
 									"type": "entries",
 									"name": "Familiar",
@@ -1792,7 +1792,7 @@
 							"entries": [
 								"Vellynne Harpell is a member of the prestigious Harpell family, based in the town of Longsaddle. Cold and dispassionate, she took to magic only a decade ago in her late forties and is skilled in the arcane tradition of necromancy. She has a lifelong struggle\u2014a nervous disorder that manifests as trembling. It can affect her balance and her stride, but she has learned to cast her spells unimpeded by it.",
 								"Despite her firm grasp of the dark arts, she would not have been admitted into the Arcane Brotherhood without her family connections\u2014a fact that sticks in her craw.",
-								"Vellynne brought a family heirloom with her to Icewind Dale: a {@item professor orb|WDMM} (see {@adventure appendix D|IDRotF|22}) that she refers to by its proper name, {@item Professor Skant|IDRotF}. This orb has knowledge about Netheril that could be important if Vellynne locates the lost Netherese city buried under the Reghed Glacier. The orb was recently stolen by Nass Lantomir, one of Vellynne's rivals in the Arcane Brotherhood. Vellynne intends to get it back before resuming her quest to find Ythryn.",
+								"Vellynne brought a family heirloom with her to Icewind Dale: a {@item Orbe professeur|WDMM} (see {@adventure appendix D|IDRotF|22}) that she refers to by its proper name, {@item Professeur Skant|IDRotF}. This orb has knowledge about Netheril that could be important if Vellynne locates the lost Netherese city buried under the Reghed Glacier. The orb was recently stolen by Nass Lantomir, one of Vellynne's rivals in the Arcane Brotherhood. Vellynne intends to get it back before resuming her quest to find Ythryn.",
 								{
 									"type": "entries",
 									"name": "Companions",

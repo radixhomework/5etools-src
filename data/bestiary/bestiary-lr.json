@@ -40,7 +40,7 @@
 					"ac": 18,
 					"from": [
 						"natural armor",
-						"{@item ring of protection}"
+						"{@item Anneau de protection}"
 					]
 				}
 			],
@@ -150,7 +150,7 @@
 					"name": "Hearth of Moonlight and Shadow",
 					"entries": [
 						"At the start of a short or long rest, Amble can touch a point in space, and an {@condition invisible}, 30-foot-radius sphere of magic appears, centered on that point. {@quickref Cover||3||Total cover} blocks the sphere.",
-						"While within the sphere, Amble and their allies gain a +5 bonus to Dexterity ({@skill Stealth}) and Wisdom ({@skill Perception}) checks, and any light from open flames in the sphere isn't visible outside it.",
+						"While within the sphere, Amble and their allies gain a +5 bonus to Dexterity ({@skill Discrétion}) and Wisdom ({@skill Perception}) checks, and any light from open flames in the sphere isn't visible outside it.",
 						"The sphere vanishes at the end of the rest or when Amble leaves the sphere."
 					]
 				},
@@ -177,7 +177,7 @@
 				{
 					"name": "Change Shape (2/Day)",
 					"entries": [
-						"Amble magically polymorphs into a beast with a challenge rating of 1 or less, and can remain in this form for up to 6 hours. Amble's equipment melds with their new form. Amble reverts to their true form if they die or fall {@condition unconscious}. Amble can revert to their true form using a bonus action on their turn.",
+						"Amble magically polymorphs into a beast with a challenge rating of 1 or less, and can remain in this form for up to 6 hours. Amble's equipment melds with their new form. Amble reverts to their true form if they die or fall {@condition Inconscient}. Amble can revert to their true form using a bonus action on their turn.",
 						"Amble's game statistics are replaced by the statistics of the beast, but they retain their alignment, personality, and Intelligence, Wisdom, and Charisma scores. Amble also retains all their skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as Amble and the bonus in its stat block is higher, use the creature's bonus instead of Amble's.",
 						"When Amble transforms, they assume the beast's hit points and Hit Dice. When Amble reverts to their normal form, they return to the number of hit points they had before they transformed. However, if Amble reverts as a result of dropping to 0 hit points, any excess damage carries over their normal form.",
 						"Amble can't cast spells, and their ability to speak or take any action that requires hands is limited to the capabilities of their beast form. Transforming doesn't break Amble's {@status concentration} on a spell they've already cast however, or prevent them from taking actions that are part of a spell."
@@ -491,7 +491,7 @@
 				{
 					"name": "Watery Fall",
 					"entries": [
-						"When Gar drops to 0 hit points, his body collapses into a pool of inky water that rapidly disperses. Except for {@item Wave} and his claw, anything he was wearing or carrying is left behind."
+						"When Gar drops to 0 hit points, his body collapses into a pool of inky water that rapidly disperses. Except for {@item Vague} and his claw, anything he was wearing or carrying is left behind."
 					]
 				}
 			],
@@ -499,13 +499,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Gar makes two melee attacks, one with his claw and one with {@item Wave}."
+						"Gar makes two melee attacks, one with his claw and one with {@item Vague}."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 16}). Until the grapple ends, Gar can't attack other creatures with his claw."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, and the target is {@condition Agrippé} (escape {@dc 16}). Until the grapple ends, Gar can't attack other creatures with his claw."
 					]
 				},
 				{
@@ -537,7 +537,7 @@
 				{
 					"name": "Wave (Costs 2 Actions)",
 					"entries": [
-						"Gar makes one attack with {@item Wave} with advantage."
+						"Gar makes one attack with {@item Vague} with advantage."
 					]
 				}
 			],
@@ -824,7 +824,7 @@
 							{
 								"name": "Shell Defense",
 								"entries": [
-									"Whymsee withdraws into her shell. Until she emerges, she gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in her shell, Whymsee is {@condition prone}, her speed is 0 and can't increase, she has disadvantage on Dexterity saving throws, it can't take reactions, and the only action she can take is a bonus action to emerge."
+									"Whymsee withdraws into her shell. Until she emerges, she gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in her shell, Whymsee is {@condition À terre}, her speed is 0 and can't increase, she has disadvantage on Dexterity saving throws, it can't take reactions, and the only action she can take is a bonus action to emerge."
 								]
 							}
 						]
@@ -960,20 +960,20 @@
 					"name": "Bite",
 					"entries": [
 						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) piercing damage.",
-						"If the target is a Medium or smaller creature {@condition grappled} by the kraken, that creature is swallowed and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has {@quickref Cover||3||total cover} against attacks and other effects outside the kraken, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the kraken's turns. One Medium or two smaller creatures can be swallowed at the same time.",
-						"If the kraken takes 35 damage or more on a single turn from a creature inside it, the kraken must succeed on a {@dc 23} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in spaces within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 10 feet of movement, exiting {@condition prone}."
+						"If the target is a Medium or smaller creature {@condition Agrippé} by the kraken, that creature is swallowed and the grapple ends. While swallowed, the creature is {@condition Aveuglé} and {@condition Entravé}, it has {@quickref Cover||3||total cover} against attacks and other effects outside the kraken, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the kraken's turns. One Medium or two smaller creatures can be swallowed at the same time.",
+						"If the kraken takes 35 damage or more on a single turn from a creature inside it, the kraken must succeed on a {@dc 23} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition À terre} in spaces within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer {@condition Entravé} by it and can escape from the corpse using 10 feet of movement, exiting {@condition À terre}."
 					]
 				},
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 20 ft., one target. {@h}17 ({@damage 3d6 + 7}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 20}). Until the grapple ends, the target is {@condition restrained}. The kraken has ten tentacles, each of which can grapple one target."
+						"{@atk mw} {@hit 12} to hit, reach 20 ft., one target. {@h}17 ({@damage 3d6 + 7}) bludgeoning damage, and the target is {@condition Agrippé} (escape {@dc 20}). Until the grapple ends, the target is {@condition Entravé}. The kraken has ten tentacles, each of which can grapple one target."
 					]
 				},
 				{
 					"name": "Fling",
 					"entries": [
-						"One Medium or smaller object held or creature {@condition grappled} by the kraken is thrown up to 40 feet in a random direction and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 13} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+						"One Medium or smaller object held or creature {@condition Agrippé} by the kraken is thrown up to 40 feet in a random direction and knocked {@condition À terre}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 13} Dexterity saving throw or take the same damage and be knocked {@condition À terre}."
 					]
 				},
 				{

@@ -107,7 +107,7 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one creature. {@h}The target is {@condition grappled} (escape {@dc 14}) and takes 9 ({@damage 2d8}) psychic damage at the start of each of its turns until the grapple ends. The spawn has four tentacles, each of which can grapple one creature."
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one creature. {@h}The target is {@condition Agrippé} (escape {@dc 14}) and takes 9 ({@damage 2d8}) psychic damage at the start of each of its turns until the grapple ends. The spawn has four tentacles, each of which can grapple one creature."
 					]
 				},
 				{
@@ -275,7 +275,7 @@
 				{
 					"name": "Mucous Cloud",
 					"entries": [
-						"While underwater, the aboleth is surrounded by a cloud of sticky mucus. A creature that touches the aboleth or hits it with a melee attack while within 5 feet of it must succeed on a {@dc 14} Strength saving throw or be {@condition restrained} until the end of the aboleth's next turn."
+						"While underwater, the aboleth is surrounded by a cloud of sticky mucus. A creature that touches the aboleth or hits it with a melee attack while within 5 feet of it must succeed on a {@dc 14} Strength saving throw or be {@condition Entravé} until the end of the aboleth's next turn."
 					]
 				},
 				{
@@ -309,8 +309,8 @@
 				{
 					"name": "Enslave {@recharge 4}",
 					"entries": [
-						"The aboleth targets one creature it can see within 30 feet of itself. The target must succeed on a {@dc 14} Wisdom saving throw or be magically {@condition charmed} by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The {@condition charmed} target is under the aboleth's control and can't take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.",
-						"The {@condition charmed} target can repeat the saving throw whenever it takes damage, ending the effect on itself on a success. No more than once every 24 hours, the target can repeat the saving throw when it is at least 1 mile away from the aboleth."
+						"The aboleth targets one creature it can see within 30 feet of itself. The target must succeed on a {@dc 14} Wisdom saving throw or be magically {@condition Charmé} by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The {@condition Charmé} target is under the aboleth's control and can't take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.",
+						"The {@condition Charmé} target can repeat the saving throw whenever it takes damage, ending the effect on itself on a success. No more than once every 24 hours, the target can repeat the saving throw when it is at least 1 mile away from the aboleth."
 					]
 				}
 			],
@@ -324,7 +324,7 @@
 				{
 					"name": "Psychic Drain (Costs 2 Actions)",
 					"entries": [
-						"One creature {@condition charmed} by the aboleth takes 10 ({@damage 3d6}) psychic damage, and the aboleth regains hit points equal to the damage dealt."
+						"One creature {@condition Charmé} by the aboleth takes 10 ({@damage 3d6}) psychic damage, and the aboleth regains hit points equal to the damage dealt."
 					]
 				}
 			],
@@ -385,8 +385,8 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item leather armor|PHB}",
-						"{@item shield|PHB}"
+						"{@item Armure de cuir|PHB}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -449,7 +449,7 @@
 				{
 					"name": "Divinely Blessed",
 					"entries": [
-						"Alyxian can't be {@status surprised} and can't be changed into another form against his will."
+						"Alyxian can't be {@status Surpris} and can't be changed into another form against his will."
 					]
 				},
 				{
@@ -475,7 +475,7 @@
 				{
 					"name": "Force Wave (1/Day)",
 					"entries": [
-						"Alyxian strikes the ground, creating a burst of energy that ripples outward. Each creature he chooses within a 30-foot-radius sphere centered on himself must succeed on a {@dc 17} Constitution saving throw or take 35 ({@damage 10d6}) force damage and be knocked {@condition prone}. A creature that succeeds on the saving throw takes half as much damage and isn't knocked {@condition prone}."
+						"Alyxian strikes the ground, creating a burst of energy that ripples outward. Each creature he chooses within a 30-foot-radius sphere centered on himself must succeed on a {@dc 17} Constitution saving throw or take 35 ({@damage 10d6}) force damage and be knocked {@condition À terre}. A creature that succeeds on the saving throw takes half as much damage and isn't knocked {@condition À terre}."
 					]
 				}
 			],
@@ -577,7 +577,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item half plate armor|PHB|half plate}"
+						"{@item Demi-plate|PHB|half plate}"
 					]
 				}
 			],
@@ -639,7 +639,7 @@
 				{
 					"name": "Divinely Blessed",
 					"entries": [
-						"Alyxian can't be {@status surprised} and can't be changed into another form against his will."
+						"Alyxian can't be {@status Surpris} and can't be changed into another form against his will."
 					]
 				},
 				{
@@ -665,13 +665,13 @@
 				{
 					"name": "Blinding Teleport",
 					"entries": [
-						"Alyxian teleports, along with any equipment he is wearing or carrying, to an unoccupied space he can see within 120 feet of himself. Each creature within 5 feet of his new location must succeed on a {@dc 17} Constitution saving throw or be {@condition blinded} until the end of its next turn."
+						"Alyxian teleports, along with any equipment he is wearing or carrying, to an unoccupied space he can see within 120 feet of himself. Each creature within 5 feet of his new location must succeed on a {@dc 17} Constitution saving throw or be {@condition Aveuglé} until the end of its next turn."
 					]
 				},
 				{
 					"name": "Heavenly Destruction (1/Day)",
 					"entries": [
-						"Alyxian releases divine energy in a 60-foot cone. Each creature of his choice in that area must make a {@dc 17} Constitution saving throw. On a failed saving throw, the creature takes 31 ({@damage 7d8}) radiant damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}."
+						"Alyxian releases divine energy in a 60-foot cone. Each creature of his choice in that area must make a {@dc 17} Constitution saving throw. On a failed saving throw, the creature takes 31 ({@damage 7d8}) radiant damage and is knocked {@condition À terre}. On a successful save, a creature takes half as much damage and isn't knocked {@condition À terre}."
 					]
 				}
 			],
@@ -685,7 +685,7 @@
 				{
 					"name": "Celestial Chains",
 					"entries": [
-						"Alyxian targets one creature he can see within 120 feet of himself. The target must succeed on a {@dc 17} Strength saving throw or be {@condition restrained} by magical chains for 1 minute. While {@condition restrained} in this way, the target can't leave the space by any means. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Alyxian targets one creature he can see within 120 feet of himself. The target must succeed on a {@dc 17} Strength saving throw or be {@condition Entravé} by magical chains for 1 minute. While {@condition Entravé} in this way, the target can't leave the space by any means. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -763,8 +763,8 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item leather armor|PHB}",
-						"{@item shield|PHB}"
+						"{@item Armure de cuir|PHB}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -814,7 +814,7 @@
 				{
 					"name": "Divinely Blessed",
 					"entries": [
-						"Alyxian can't be {@status surprised} and can't be changed into another form against his will."
+						"Alyxian can't be {@status Surpris} and can't be changed into another form against his will."
 					]
 				},
 				{
@@ -846,7 +846,7 @@
 				{
 					"name": "Stoneheart Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}11 ({@damage 3d4 + 4}) force damage, and if the target is a creature, it must succeed on a {@dc 17} Constitution saving throw or become {@condition petrified} as the dagger lodges itself in the target's body. While the dagger is lodged in the target, magic can't end the {@condition petrified} condition on it and Alyxian can't make Stoneheart Dagger attacks. A creature within reach of the {@condition petrified} target can use an action to try to remove the dagger, doing so with a successful {@dc 17} Strength check."
+						"{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}11 ({@damage 3d4 + 4}) force damage, and if the target is a creature, it must succeed on a {@dc 17} Constitution saving throw or become {@condition Pétrifié} as the dagger lodges itself in the target's body. While the dagger is lodged in the target, magic can't end the {@condition Pétrifié} condition on it and Alyxian can't make Stoneheart Dagger attacks. A creature within reach of the {@condition Pétrifié} target can use an action to try to remove the dagger, doing so with a successful {@dc 17} Strength check."
 					]
 				}
 			],
@@ -882,7 +882,7 @@
 				{
 					"name": "Ruidium Shard (Costs 2 Actions)",
 					"entries": [
-						"A gem-sized shard of ruidium appears at a point Alyxian can see within 120 feet of himself and explodes. Each creature, other than Alyxian, in a 10-foot-radius sphere centered on that point must succeed on a {@dc 18} Charisma saving throw or gain 1 level of {@condition exhaustion}. If a creature isn't suffering from ruidium corruption, it becomes corrupted when it fails the saving throw."
+						"A gem-sized shard of ruidium appears at a point Alyxian can see within 120 feet of himself and explodes. Each creature, other than Alyxian, in a 10-foot-radius sphere centered on that point must succeed on a {@dc 18} Charisma saving throw or gain 1 level of {@condition Épuisement}. If a creature isn't suffering from ruidium corruption, it becomes corrupted when it fails the saving throw."
 					]
 				}
 			],
@@ -1028,7 +1028,7 @@
 				{
 					"name": "Ruidium Dart",
 					"entries": [
-						"The golem can conjure a magic dart made of ruidium and hurl it at another creature it can see within 120 feet of itself. The dart strikes the target unerringly and vanishes on contact. The target must make a {@dc 17} Charisma saving throw. On a failed saving throw, the target takes 24 ({@damage 7d6}) psychic damage and gains 1 level of {@condition exhaustion}. In addition, if the target is not already suffering from ruidium corruption, it becomes corrupted when it fails the saving throw. On a successful saving throw, the target takes half as much damage and suffers no other effects."
+						"The golem can conjure a magic dart made of ruidium and hurl it at another creature it can see within 120 feet of itself. The dart strikes the target unerringly and vanishes on contact. The target must make a {@dc 17} Charisma saving throw. On a failed saving throw, the target takes 24 ({@damage 7d6}) psychic damage and gains 1 level of {@condition Épuisement}. In addition, if the target is not already suffering from ruidium corruption, it becomes corrupted when it fails the saving throw. On a successful saving throw, the target takes half as much damage and suffers no other effects."
 					]
 				},
 				{
@@ -1154,7 +1154,7 @@
 				{
 					"name": "Divinely Blessed",
 					"entries": [
-						"Alyxian can't be {@status surprised} and can't be changed into another form against his will."
+						"Alyxian can't be {@status Surpris} and can't be changed into another form against his will."
 					]
 				},
 				{
@@ -1174,7 +1174,7 @@
 				{
 					"name": "Grasping Hand",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) force damage, and if the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 15}). Alyxian has six hands, each of which can grapple one target."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) force damage, and if the target is a Medium or smaller creature, it is {@condition Agrippé} (escape {@dc 15}). Alyxian has six hands, each of which can grapple one target."
 					]
 				},
 				{
@@ -1297,7 +1297,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The statue has advantage on an attack roll against a creature if at least one of the statue's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The statue has advantage on an attack roll against a creature if at least one of the statue's allies is within 5 feet of the creature and the ally isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -1445,7 +1445,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item studded leather armor|PHB|studded leather}"
+						"{@item Armure de cuir clouté|PHB|studded leather}"
 					]
 				}
 			],
@@ -1589,7 +1589,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|PHB|studded leather}"
+						"{@item Armure de cuir clouté|PHB|studded leather}"
 					]
 				}
 			],
@@ -1741,7 +1741,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item studded leather armor|PHB|studded leather}"
+						"{@item Armure de cuir clouté|PHB|studded leather}"
 					]
 				}
 			],
@@ -1811,7 +1811,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Ayo wields a ruidium harpoon (see appendix B). If Ayo rolls a 1 on an attack roll made with the harpoon, she must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition exhaustion}."
+						"Ayo wields a ruidium harpoon (see appendix B). If Ayo rolls a 1 on an attack roll made with the harpoon, she must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition Épuisement}."
 					]
 				}
 			],
@@ -1971,7 +1971,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit (with advantage if the target is a creature missing any hit points), reach 5 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage, and if the target is a creature, it must succeed on a {@dc 17} Charisma saving throw or gain 1 level of {@condition exhaustion}."
+						"{@atk mw} {@hit 10} to hit (with advantage if the target is a creature missing any hit points), reach 5 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage, and if the target is a creature, it must succeed on a {@dc 17} Charisma saving throw or gain 1 level of {@condition Épuisement}."
 					]
 				}
 			],
@@ -2071,7 +2071,7 @@
 				{
 					"name": "Telepathic Bond",
 					"entries": [
-						"The flame ignores the range restriction on its telepathy when communicating with a creature it has {@condition charmed}. The two don't even need to be on the same plane of existence."
+						"The flame ignores the range restriction on its telepathy when communicating with a creature it has {@condition Charmé}. The two don't even need to be on the same plane of existence."
 					]
 				},
 				{
@@ -2091,14 +2091,14 @@
 				{
 					"name": "Charm",
 					"entries": [
-						"One humanoid the flame can see within 30 feet of it must succeed on a {@dc 15} Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the flame's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this flame's Charm for the next 24 hours.",
-						"The flame can have only one target {@condition charmed} at a time. If it charms another, the effect on the previous target ends."
+						"One humanoid the flame can see within 30 feet of it must succeed on a {@dc 15} Wisdom saving throw or be magically {@condition Charmé} for 1 day. The {@condition Charmé} target obeys the flame's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this flame's Charm for the next 24 hours.",
+						"The flame can have only one target {@condition Charmé} at a time. If it charms another, the effect on the previous target ends."
 					]
 				},
 				{
 					"name": "Draining Kiss",
 					"entries": [
-						"The flame kisses a creature {@condition charmed} by it or a willing creature. The target must make a {@dc 15} Constitution saving throw against this magic, taking 32 ({@damage 5d10 + 5}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+						"The flame kisses a creature {@condition Charmé} by it or a willing creature. The target must make a {@dc 15} Constitution saving throw against this magic, taking 32 ({@damage 5d10 + 5}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
 					]
 				}
 			],
@@ -2184,7 +2184,7 @@
 				{
 					"name": "Petrifying Tendrils",
 					"entries": [
-						"Any creature that starts its turn in the death embrace's space must make a {@dc 16} Constitution saving throw. On a failed saving throw, the creature is {@condition restrained}. A creature {@condition restrained} in this way must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failed saving throw or ending the effect on a successful one. The {@condition petrified} condition lasts until the effect is ended by a greater restoration spell or similar magic."
+						"Any creature that starts its turn in the death embrace's space must make a {@dc 16} Constitution saving throw. On a failed saving throw, the creature is {@condition Entravé}. A creature {@condition Entravé} in this way must repeat the saving throw at the end of its next turn, becoming {@condition Pétrifié} on a failed saving throw or ending the effect on a successful one. The {@condition Pétrifié} condition lasts until the effect is ended by a greater restoration spell or similar magic."
 					]
 				},
 				{
@@ -2210,7 +2210,7 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 60 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage plus 11 ({@damage 2d10}) psychic damage. If the target is Large or smaller, it is also {@condition grappled} (escape {@dc 16}). The death embrace has six tentacles, each of which can grapple one target."
+						"{@atk mw} {@hit 10} to hit, reach 60 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage plus 11 ({@damage 2d10}) psychic damage. If the target is Large or smaller, it is also {@condition Agrippé} (escape {@dc 16}). The death embrace has six tentacles, each of which can grapple one target."
 					]
 				}
 			],
@@ -2277,8 +2277,8 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item breastplate|PHB}",
-						"{@item shield|PHB}"
+						"{@item Cuirasse|PHB}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -2352,7 +2352,7 @@
 				{
 					"name": "Searing Wrath",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 60 ft., one creature. {@h}9 ({@damage 2d8}) radiant damage, and the target is {@condition blinded} until the end of its next turn."
+						"{@atk rs} {@hit 5} to hit, range 60 ft., one creature. {@h}9 ({@damage 2d8}) radiant damage, and the target is {@condition Aveuglé} until the end of its next turn."
 					]
 				}
 			],
@@ -2417,7 +2417,7 @@
 					"ac": 19,
 					"from": [
 						"splint mail",
-						"{@item shield|PHB}"
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -2494,7 +2494,7 @@
 				{
 					"name": "Searing Wrath",
 					"entries": [
-						"{@atk rs} {@hit 7} to hit, range 60 ft., one creature. {@h}18 ({@damage 4d8}) radiant damage, and the target is {@condition blinded} until the end of its next turn."
+						"{@atk rs} {@hit 7} to hit, range 60 ft., one creature. {@h}18 ({@damage 4d8}) radiant damage, and the target is {@condition Aveuglé} until the end of its next turn."
 					]
 				}
 			],
@@ -2557,8 +2557,8 @@
 				{
 					"ac": 20,
 					"from": [
-						"{@item plate armor|PHB|plate}",
-						"{@item shield|PHB}"
+						"{@item Harnois de plaques|PHB|plate}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -2627,7 +2627,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Dermot wears {@item mariner's armor} and wields a ruidium warhammer (see appendix B). If Dermot rolls a 1 on an attack roll made with the warhammer, he must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition exhaustion}."
+						"Dermot wears {@item mariner's armor} and wields a ruidium warhammer (see appendix B). If Dermot rolls a 1 on an attack roll made with the warhammer, he must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition Épuisement}."
 					]
 				}
 			],
@@ -2647,7 +2647,7 @@
 				{
 					"name": "Searing Wrath",
 					"entries": [
-						"{@atk rs} {@hit 8} to hit, range 60 ft., one creature. {@h}22 ({@damage 5d8}) radiant damage, and the target is {@condition blinded} until the end of its next turn."
+						"{@atk rs} {@hit 8} to hit, range 60 ft., one creature. {@h}22 ({@damage 5d8}) radiant damage, and the target is {@condition Aveuglé} until the end of its next turn."
 					]
 				}
 			],
@@ -2838,7 +2838,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Galeokaerda has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+						"Galeokaerda has advantage on saving throws against being {@condition Charmé}, and magic can't put her to sleep."
 					]
 				}
 			],
@@ -2976,7 +2976,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Galsariad has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Galsariad has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				}
 			],
@@ -3116,7 +3116,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Galsariad has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Galsariad has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				}
 			],
@@ -3130,7 +3130,7 @@
 				{
 					"name": "Gravity Wave {@recharge 5}",
 					"entries": [
-						"Galsariad causes a rippling wave of magical gravity to fill a 20-foot-radius sphere centered on a point he can see within 100 feet of himself. Each creature in that area must make a {@dc 15} Strength saving throw. On a failed saving throw, the creature takes 35 ({@damage 10d6}) force damage and is pulled up to 20 feet toward the sphere's center, and is knocked {@condition prone}. On a successful save, the creature takes half as much damage and isn't pulled or knocked {@condition prone}."
+						"Galsariad causes a rippling wave of magical gravity to fill a 20-foot-radius sphere centered on a point he can see within 100 feet of himself. Each creature in that area must make a {@dc 15} Strength saving throw. On a failed saving throw, the creature takes 35 ({@damage 10d6}) force damage and is pulled up to 20 feet toward the sphere's center, and is knocked {@condition À terre}. On a successful save, the creature takes half as much damage and isn't pulled or knocked {@condition À terre}."
 					]
 				}
 			],
@@ -3271,19 +3271,19 @@
 				{
 					"name": "Deflection",
 					"entries": [
-						"Galsariad warps gravity around himself to magically deflect incoming attacks. While Galsariad is wearing no armor and not {@condition incapacitated}, his AC includes his Intelligence modifier."
+						"Galsariad warps gravity around himself to magically deflect incoming attacks. While Galsariad is wearing no armor and not {@condition Incapable}, his AC includes his Intelligence modifier."
 					]
 				},
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Galsariad has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Galsariad has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Galsariad wears a {@item ring of swimming} and carries a ruidium dagger (see appendix B). If he rolls a 1 on an attack roll made with the dagger, he must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition exhaustion}."
+						"Galsariad wears a {@item Anneau de nage} and carries a ruidium dagger (see appendix B). If he rolls a 1 on an attack roll made with the dagger, he must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition Épuisement}."
 					]
 				}
 			],
@@ -3309,7 +3309,7 @@
 				{
 					"name": "Gravity Wave {@recharge 5}",
 					"entries": [
-						"Galsariad causes a rippling wave of magical gravity to fill a 30-foot-radius sphere centered on a point he can see within 100 feet of himself. Each creature in that area must make a {@dc 16} Strength saving throw. On a failed saving throw, the creature takes 42 ({@damage 12d6}) force damage and is {@condition restrained} for 1 minute. On a successful save, the creature takes half as much damage and isn't {@condition restrained}. A {@condition restrained} creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+						"Galsariad causes a rippling wave of magical gravity to fill a 30-foot-radius sphere centered on a point he can see within 100 feet of himself. Each creature in that area must make a {@dc 16} Strength saving throw. On a failed saving throw, the creature takes 42 ({@damage 12d6}) force damage and is {@condition Entravé} for 1 minute. On a successful save, the creature takes half as much damage and isn't {@condition Entravé}. A {@condition Entravé} creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -3474,7 +3474,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"{@skill Insight} casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"{@skill Perspicacité} casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
 						"{@spell alter self}",
@@ -3496,7 +3496,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"{@skill Insight} makes two Arcane Shock or Dagger of the Poisoned Mind attacks."
+						"{@skill Perspicacité} makes two Arcane Shock or Dagger of the Poisoned Mind attacks."
 					]
 				},
 				{
@@ -3508,7 +3508,7 @@
 				{
 					"name": "Dagger of the Poisoned Mind",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage plus 10 ({@damage 3d6}) psychic damage. If the target is a creature, it must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} until the end of its next turn."
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage plus 10 ({@damage 3d6}) psychic damage. If the target is a creature, it must succeed on a {@dc 15} Wisdom saving throw or be {@condition Effrayé} until the end of its next turn."
 					]
 				}
 			],
@@ -3580,7 +3580,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -3682,7 +3682,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|PHB|studded leather}"
+						"{@item Armure de cuir clouté|PHB|studded leather}"
 					]
 				}
 			],
@@ -3783,7 +3783,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item studded leather armor|PHB|studded leather}"
+						"{@item Armure de cuir clouté|PHB|studded leather}"
 					]
 				}
 			],
@@ -3831,7 +3831,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Irvan wears {@item gloves of swimming and climbing} and wields a ruidium shortsword (see appendix B). If Irvan rolls a 1 on an attack roll made with the shortsword, he must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition exhaustion}.",
+						"Irvan wears {@item Gants de natation et d'escalade} and wields a ruidium shortsword (see appendix B). If Irvan rolls a 1 on an attack roll made with the shortsword, he must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition Épuisement}.",
 						"In addition, Irvan has a magical prosthetic arm. While the arm is attached to him, it functions the same as the body part it is replacing. Irvan can attach or detach the arm as an action, and it can't be removed by anyone else."
 					]
 				}
@@ -4020,7 +4020,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -4091,13 +4091,13 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"The fanatic has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"The fanatic has advantage on saving throws against being {@condition Charmé} or {@condition Effrayé}."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Laurin wields a {@item staff of the adder} and is attuned to it as though he were a cleric."
+						"Laurin wields a {@item Bâton de la vipère} and is attuned to it as though he were a cleric."
 					]
 				}
 			],
@@ -4277,7 +4277,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -4320,7 +4320,7 @@
 				{
 					"name": "Tactical Readiness",
 					"entries": [
-						"Maggie and allies within 30 feet of her have advantage on initiative rolls, as long as Maggie isn't {@condition incapacitated}."
+						"Maggie and allies within 30 feet of her have advantage on initiative rolls, as long as Maggie isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -4328,13 +4328,13 @@
 				{
 					"name": "Giant Maul",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and if the target is a creature, Maggie can force it to make a {@dc 14} Strength saving throw; on a failed save, the target is pushed 5 feet away from Maggie and knocked {@condition prone}."
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and if the target is a creature, Maggie can force it to make a {@dc 14} Strength saving throw; on a failed save, the target is pushed 5 feet away from Maggie and knocked {@condition À terre}."
 					]
 				},
 				{
 					"name": "Hammer Toss",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage, and if the target is a creature, Maggie can force it to make a {@dc 14} Strength saving throw; on a failed save, the target is pushed 5 feet away from Maggie and knocked {@condition prone}."
+						"{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage, and if the target is a creature, Maggie can force it to make a {@dc 14} Strength saving throw; on a failed save, the target is pushed 5 feet away from Maggie and knocked {@condition À terre}."
 					]
 				}
 			],
@@ -4387,7 +4387,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item chain shirt|phb}"
+						"{@item Chemise de mailles|phb}"
 					]
 				}
 			],
@@ -4434,13 +4434,13 @@
 				{
 					"name": "Push",
 					"entries": [
-						"Once during each of her turns, after hitting a creature with an attack, Maggie can force the target to make a {@dc 15} Strength saving throw; on a failed save, the target is pushed up to 10 feet horizontally away from Maggie and knocked {@condition prone}."
+						"Once during each of her turns, after hitting a creature with an attack, Maggie can force the target to make a {@dc 15} Strength saving throw; on a failed save, the target is pushed up to 10 feet horizontally away from Maggie and knocked {@condition À terre}."
 					]
 				},
 				{
 					"name": "Tactical Readiness",
 					"entries": [
-						"Maggie and allies within 30 feet of her have advantage on initiative rolls, as long as Maggie isn't {@condition incapacitated}."
+						"Maggie and allies within 30 feet of her have advantage on initiative rolls, as long as Maggie isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -4523,7 +4523,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|PHB|plate}"
+						"{@item Harnois de plaques|PHB|plate}"
 					]
 				}
 			],
@@ -4582,19 +4582,19 @@
 				{
 					"name": "Push",
 					"entries": [
-						"Once during each of her turns, after hitting a creature with an attack, Maggie can force the target to make a {@dc 16} Strength saving throw; on a failed save, the target is pushed up to 15 feet horizontally away from Maggie and knocked {@condition prone}."
+						"Once during each of her turns, after hitting a creature with an attack, Maggie can force the target to make a {@dc 16} Strength saving throw; on a failed save, the target is pushed up to 15 feet horizontally away from Maggie and knocked {@condition À terre}."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Maggie wears a suit of ruidium armor (plate; see appendix B). If Maggie rolls a 1 on a saving throw while wearing the armor, she must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition exhaustion}."
+						"Maggie wears a suit of ruidium armor (plate; see appendix B). If Maggie rolls a 1 on a saving throw while wearing the armor, she must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition Épuisement}."
 					]
 				},
 				{
 					"name": "Tactical Readiness",
 					"entries": [
-						"Maggie and allies within 30 feet of her have advantage on initiative rolls, as long as Maggie isn't {@condition incapacitated}."
+						"Maggie and allies within 30 feet of her have advantage on initiative rolls, as long as Maggie isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -4953,7 +4953,7 @@
 				{
 					"name": "Cunning Action",
 					"entries": [
-						"The infiltrator takes the {@action Dash} or {@action Disengage} action."
+						"The infiltrator takes the {@action Course} or {@action Désengagement} action."
 					]
 				}
 			],
@@ -5453,7 +5453,7 @@
 				{
 					"name": "Alien Mind",
 					"entries": [
-						"If a creature tries to read the silvertongue's thoughts or deals psychic damage to the silvertongue, that creature must succeed on a {@dc 16} Intelligence saving throw or be {@condition stunned} until the start of its next turn."
+						"If a creature tries to read the silvertongue's thoughts or deals psychic damage to the silvertongue, that creature must succeed on a {@dc 16} Intelligence saving throw or be {@condition Étourdi} until the start of its next turn."
 					]
 				},
 				{
@@ -5531,7 +5531,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -5576,7 +5576,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Olara has advantage on saving throws to end the {@condition charmed} condition on herself, and magic can't put her to sleep."
+						"Olara has advantage on saving throws to end the {@condition Charmé} condition on herself, and magic can't put her to sleep."
 					]
 				},
 				{
@@ -5747,7 +5747,7 @@
 				{
 					"name": "Trampling Charge",
 					"entries": [
-						"If the elephant moves at least 20 feet straight toward a creature and then hits it with a Gore attack on the same turn, that target must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the elephant can make one Stomp attack against it as a bonus action."
+						"If the elephant moves at least 20 feet straight toward a creature and then hits it with a Gore attack on the same turn, that target must succeed on a {@dc 16} Strength saving throw or be knocked {@condition À terre}. If the target is {@condition À terre}, the elephant can make one Stomp attack against it as a bonus action."
 					]
 				}
 			],
@@ -5761,7 +5761,7 @@
 				{
 					"name": "Stomp",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one {@condition prone} creature. {@h}29 ({@damage 4d10 + 7}) bludgeoning damage plus 7 ({@damage 2d6}) psychic damage."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one {@condition À terre} creature. {@h}29 ({@damage 4d10 + 7}) bludgeoning damage plus 7 ({@damage 2d6}) psychic damage."
 					]
 				}
 			],
@@ -5898,7 +5898,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item breastplate|PHB}"
+						"{@item Cuirasse|PHB}"
 					]
 				}
 			],
@@ -6067,7 +6067,7 @@
 				{
 					"name": "Dagger of the Poisoned Mind",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage plus 10 ({@damage 3d6}) psychic damage. If the target is a creature, it must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} until the end of its next turn."
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage plus 10 ({@damage 3d6}) psychic damage. If the target is a creature, it must succeed on a {@dc 15} Wisdom saving throw or be {@condition Effrayé} until the end of its next turn."
 					]
 				}
 			],
@@ -6197,7 +6197,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The serpentmaw has advantage on an attack roll against a creature if at least one of the serpentmaw's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The serpentmaw has advantage on an attack roll against a creature if at least one of the serpentmaw's allies is within 5 feet of the creature and the ally isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -6437,7 +6437,7 @@
 				{
 					"name": "Death Burst",
 					"entries": [
-						"When the bloodfin dies, it explodes in a cloud of toxic blood. Each creature in a 10-foot-radius sphere centered on the exploding bloodfin, including any creature swallowed by the bloodfin, must succeed on a {@dc 15} Constitution saving throw or take 10 ({@damage 3d6}) poison damage. A creature inside the bloodfin when it explodes falls {@condition prone} in the space formerly occupied by the bloodfin and is no longer {@condition blinded} or {@condition restrained} by it."
+						"When the bloodfin dies, it explodes in a cloud of toxic blood. Each creature in a 10-foot-radius sphere centered on the exploding bloodfin, including any creature swallowed by the bloodfin, must succeed on a {@dc 15} Constitution saving throw or take 10 ({@damage 3d6}) poison damage. A creature inside the bloodfin when it explodes falls {@condition À terre} in the space formerly occupied by the bloodfin and is no longer {@condition Aveuglé} or {@condition Entravé} by it."
 					]
 				},
 				{
@@ -6457,7 +6457,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit (with advantage if the target is a creature missing any hit points), reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the bloodfin can't bite another target."
+						"{@atk mw} {@hit 9} to hit (with advantage if the target is a creature missing any hit points), reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage, and if the target is a creature, it is {@condition Agrippé} (escape {@dc 15}). Until this grapple ends, the target is {@condition Entravé}, and the bloodfin can't bite another target."
 					]
 				},
 				{
@@ -6471,8 +6471,8 @@
 				{
 					"name": "Swallow",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one Medium or smaller creature the bloodfin is grappling. {@h}The bloodfin swallows the target. The swallowed creature is no longer {@condition grappled} but is {@condition blinded} and {@condition restrained}. It has {@quickref Cover||3||total cover} against attacks and other effects outside the bloodfin, it takes 14 ({@damage 4d6}) necrotic damage at the start of each of its turns, and the bloodfin regains hit points equal to the necrotic damage dealt. A bloodfin can have only one creature swallowed at a time.",
-						"If the bloodfin takes 30 damage or more on a single turn from the swallowed creature, the bloodfin must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition prone} in a space within 5 feet of the bloodfin and is no longer {@condition blinded} or {@condition restrained} by it."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one Medium or smaller creature the bloodfin is grappling. {@h}The bloodfin swallows the target. The swallowed creature is no longer {@condition Agrippé} but is {@condition Aveuglé} and {@condition Entravé}. It has {@quickref Cover||3||total cover} against attacks and other effects outside the bloodfin, it takes 14 ({@damage 4d6}) necrotic damage at the start of each of its turns, and the bloodfin regains hit points equal to the necrotic damage dealt. A bloodfin can have only one creature swallowed at a time.",
+						"If the bloodfin takes 30 damage or more on a single turn from the swallowed creature, the bloodfin must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition À terre} in a space within 5 feet of the bloodfin and is no longer {@condition Aveuglé} or {@condition Entravé} by it."
 					]
 				}
 			],
@@ -6665,7 +6665,7 @@
 				{
 					"name": "Desolate Drain {@recharge 5}",
 					"entries": [
-						"Each creature in the swarm's space must make a {@dc 13} Wisdom saving throw. On a failed saving throw, a creature takes 24 ({@damage 7d6}) psychic damage and is {@condition stunned} until the end of its next turn. The effect ends on a creature if the swarm moves out of the creature's space or if another creature within 5 feet of the swarm uses an action to make a {@dc 14} Strength check, pulling the affected creature out of the swarm on a successful check. On a successful saving throw, a creature takes half as much damage and suffers no other effects."
+						"Each creature in the swarm's space must make a {@dc 13} Wisdom saving throw. On a failed saving throw, a creature takes 24 ({@damage 7d6}) psychic damage and is {@condition Étourdi} until the end of its next turn. The effect ends on a creature if the swarm moves out of the creature's space or if another creature within 5 feet of the swarm uses an action to make a {@dc 14} Strength check, pulling the affected creature out of the swarm on a successful check. On a successful saving throw, a creature takes half as much damage and suffers no other effects."
 					]
 				}
 			],
@@ -6716,7 +6716,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item half plate armor|PHB|half plate}"
+						"{@item Demi-plate|PHB|half plate}"
 					]
 				}
 			],
@@ -6778,7 +6778,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Verin has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Verin has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				},
 				{
@@ -6812,7 +6812,7 @@
 				{
 					"name": "Manifest Echo",
 					"entries": [
-						"Verin magically creates an echo\u2014a translucent, gray object that looks like him. The echo appears in an unoccupied space Verin can see within 15 feet of himself. While the echo exists, Verin chooses whether each of his attacks originates from his space or the echo's space. On Verin's turn, the echo can move in accordance with Verin's wishes. The echo has AC 17 and 1 hit point. It otherwise uses Verin's statistics. The echo lasts for 1 minute or until it is destroyed, until Verin ends his turn more than 30 feet away from it, until Verin manifests another echo, or until Verin is {@condition incapacitated}."
+						"Verin magically creates an echo\u2014a translucent, gray object that looks like him. The echo appears in an unoccupied space Verin can see within 15 feet of himself. While the echo exists, Verin chooses whether each of his attacks originates from his space or the echo's space. On Verin's turn, the echo can move in accordance with Verin's wishes. The echo has AC 17 and 1 hit point. It otherwise uses Verin's statistics. The echo lasts for 1 minute or until it is destroyed, until Verin ends his turn more than 30 feet away from it, until Verin manifests another echo, or until Verin is {@condition Incapable}."
 					]
 				},
 				{
@@ -6952,7 +6952,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}18 ({@damage 4d6 + 4}) piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}18 ({@damage 4d6 + 4}) piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition À terre}."
 					]
 				}
 			],

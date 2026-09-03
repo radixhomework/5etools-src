@@ -340,11 +340,11 @@
 						{
 							"type": "list",
 							"items": [
-								"{@item Cap of Vanishing|WttHC}",
+								"{@item Bonnet de disparition|WttHC}",
 								"{@item +1 Flail|XDMG}",
 								"{@item Flame Tongue Greatsword|XDMG|Flame Tongue (Greatsword)}",
-								"2 {@item Potion of Healing|XDMG|Potions of Healing}",
-								"{@item Wand of Secrets|XDMG}"
+								"2 {@item Potion de soins|XDMG|Potions of Healing}",
+								"{@item Baguette des secrets|XDMG}"
 							],
 							"style": "list-no-bullets"
 						},
@@ -384,7 +384,7 @@
 							"page": 3,
 							"id": "017",
 							"entries": [
-								"Flizzlebin hides in the Shadow Dungeon, a mirror of the Dungeon of Shadows. Roll on the Flizzlebin's Hiding Spot table to determine where the characters can find the gnome in the dungeon (detailed later in this adventure). Flizzlebin avoids harm in his hiding place by using his {@item Cap of Vanishing|WttHC}.",
+								"Flizzlebin hides in the Shadow Dungeon, a mirror of the Dungeon of Shadows. Roll on the Flizzlebin's Hiding Spot table to determine where the characters can find the gnome in the dungeon (detailed later in this adventure). Flizzlebin avoids harm in his hiding place by using his {@item Bonnet de disparition|WttHC}.",
 								{
 									"type": "table",
 									"caption": "Flizzlebin's Hiding Spot",
@@ -498,8 +498,8 @@
 									]
 								},
 								"A character can inspect the entrance and make one of the following checks to recall lore about the dungeon and the gloomy realm it borders:",
-								"{@b {@dc 12} Intelligence ({@skill History|XPHB}).} Monsters infest this dungeon, which is suffused with shadowy magic. The dungeon was once a temple devoted to a long-forgotten god, and its reputation is as tenebrous as its entrance. Rumors speak of a second, more sinister dungeon connected to this one.",
-								"{@b {@dc 12} Intelligence ({@skill Arcana|XPHB}).} The dungeon is magically linked to the Vale of Shadows, a grim reflection of the natural world. Dreadful creatures and living shadows lurk in this dark and twisted reality; occasionally, some of these creatures escape the vale to plague the people of Greyhawkins.",
+								"{@b {@dc 12} Intelligence ({@skill Histoire|XPHB}).} Monsters infest this dungeon, which is suffused with shadowy magic. The dungeon was once a temple devoted to a long-forgotten god, and its reputation is as tenebrous as its entrance. Rumors speak of a second, more sinister dungeon connected to this one.",
+								"{@b {@dc 12} Intelligence ({@skill Arcanes|XPHB}).} The dungeon is magically linked to the Vale of Shadows, a grim reflection of the natural world. Dreadful creatures and living shadows lurk in this dark and twisted reality; occasionally, some of these creatures escape the vale to plague the people of Greyhawkins.",
 								{
 									"type": "image",
 									"href": {
@@ -551,7 +551,7 @@
 										{
 											"type": "item",
 											"name": "Doors and Secret Doors",
-											"entry": "Doors are unlocked and made of basalt. Secret doors manifest as spidery, elastic fissures that blend in with their surroundings. As a {@action Search|XPHB} action, a character can examine a wall that contains a secret door and make a {@dc 15} Wisdom ({@skill Perception|XPHB}) check, noticing it on a successful check. A secret door opens as easily as any normal door."
+											"entry": "Doors are unlocked and made of basalt. Secret doors manifest as spidery, elastic fissures that blend in with their surroundings. As a {@action Chercher|XPHB} action, a character can examine a wall that contains a secret door and make a {@dc 15} Wisdom ({@skill Perception|XPHB}) check, noticing it on a successful check. A secret door opens as easily as any normal door."
 										},
 										{
 											"type": "item",
@@ -1245,7 +1245,7 @@
 											"page": 5,
 											"id": "026",
 											"entries": [
-												"As a {@action Search|XPHB} action, a character can sift through the trash and make a {@dc 12} Wisdom ({@skill Perception|XPHB}) check. The first character to succeed on the check unearths five ivory urns. Each urn is worth 10 GP. Four of the urns are empty, but one contains a {@item Potion of Healing|XDMG} and a tiny pewter statue of a two-headed demon worth 90 GP. A character who inspects the statue and succeeds on a {@dc 13} Intelligence ({@skill Religion|XPHB}) check recognizes the statue as an idol of the demon lord Demogorgon."
+												"As a {@action Chercher|XPHB} action, a character can sift through the trash and make a {@dc 12} Wisdom ({@skill Perception|XPHB}) check. The first character to succeed on the check unearths five ivory urns. Each urn is worth 10 GP. Four of the urns are empty, but one contains a {@item Potion de soins|XDMG} and a tiny pewter statue of a two-headed demon worth 90 GP. A character who inspects the statue and succeeds on a {@dc 13} Intelligence ({@skill Religion|XPHB}) check recognizes the statue as an idol of the demon lord Demogorgon."
 											]
 										}
 									]
@@ -1289,7 +1289,7 @@
 														{
 															"type": "item",
 															"name": "Detect and Disarm",
-															"entry": "As a {@action Search|XPHB} action, a character can examine the walls and make a {@dc 15} Wisdom ({@skill Perception|XPHB}) check, detecting the holes on a successful check. Alternatively, a character can take the {@action Study|XPHB} action to inspect the floor and make a {@dc 15} Intelligence ({@skill Investigation|XPHB}) check, detecting the pressure plate on a successful check."
+															"entry": "As a {@action Chercher|XPHB} action, a character can examine the walls and make a {@dc 15} Wisdom ({@skill Perception|XPHB}) check, detecting the holes on a successful check. Alternatively, a character can take the {@action Étudier|XPHB} action to inspect the floor and make a {@dc 15} Intelligence ({@skill Investigation|XPHB}) check, detecting the pressure plate on a successful check."
 														},
 														{
 															"type": "item",
@@ -1322,7 +1322,7 @@
 														"{@comic This encounter is pretty tough. Go easy on them... unless they're being ********, in which case you should give 'em hell.}"
 													]
 												},
-												"To sneak past the spawn while it feeds, a character must succeed on a {@dc 13} Dexterity ({@skill Stealth|XPHB}) check. On a failed check, or if the characters otherwise disturb the spawn, it turns toward the adventurers. When that happens, read or paraphrase the following text:",
+												"To sneak past the spawn while it feeds, a character must succeed on a {@dc 13} Dexterity ({@skill Discrétion|XPHB}) check. On a failed check, or if the characters otherwise disturb the spawn, it turns toward the adventurers. When that happens, read or paraphrase the following text:",
 												{
 													"type": "insetReadaloud",
 													"id": "02d",
@@ -1361,7 +1361,7 @@
 											"page": 6,
 											"id": "02f",
 											"entries": [
-												"The chest in the middle of the labyrinth contains a {@item Wand of Secrets|XDMG} and 25 GP."
+												"The chest in the middle of the labyrinth contains a {@item Baguette des secrets|XDMG} and 25 GP."
 											]
 										}
 									]
@@ -1479,8 +1479,8 @@
 											"page": 7,
 											"id": "038",
 											"entries": [
-												"The statue depicts a knight in a gallant pose. As a {@action Study|XPHB} action, a character can examine the statue and make a {@dc 12} Intelligence ({@skill Investigation|XPHB}) check. On a successful check, the character realizes the statue's base is unstable; a significant push could topple the statue.",
-												"As an action, a character within 5 feet of the statue can make a {@dc 10} Strength ({@skill Athletics|XPHB}) check to topple the statue into a space within 5 feet of it, doing so on a successful check. When the statue topples, each creature beneath it takes {@damage 4d6} Bludgeoning damage and has the {@condition Prone|XPHB} condition. The statue crumbles on impact, revealing a treasure hidden inside it (see \"Treasure\" below)."
+												"The statue depicts a knight in a gallant pose. As a {@action Étudier|XPHB} action, a character can examine the statue and make a {@dc 12} Intelligence ({@skill Investigation|XPHB}) check. On a successful check, the character realizes the statue's base is unstable; a significant push could topple the statue.",
+												"As an action, a character within 5 feet of the statue can make a {@dc 10} Strength ({@skill Athlétisme|XPHB}) check to topple the statue into a space within 5 feet of it, doing so on a successful check. When the statue topples, each creature beneath it takes {@damage 4d6} Bludgeoning damage and has the {@condition À terre|XPHB} condition. The statue crumbles on impact, revealing a treasure hidden inside it (see \"Treasure\" below)."
 											]
 										},
 										{
@@ -1490,7 +1490,7 @@
 											"id": "039",
 											"entries": [
 												"The web-filled areas are {@variantrule Difficult Terrain|XPHB}.",
-												"A creature that enters a web-filled area for the first time on a turn or starts its turn there must succeed on a {@dc 12} Dexterity Saving Throw or have the {@condition Restrained|XPHB} condition. As an action, a creature Restrained by the webs can try to escape from them, doing so with a successful {@dc 12} Strength ({@skill Athletics|XPHB}) or Dexterity ({@skill Acrobatics|XPHB}) check.",
+												"A creature that enters a web-filled area for the first time on a turn or starts its turn there must succeed on a {@dc 12} Dexterity Saving Throw or have the {@condition Entravé|XPHB} condition. As an action, a creature Restrained by the webs can try to escape from them, doing so with a successful {@dc 12} Strength ({@skill Athlétisme|XPHB}) or Dexterity ({@skill Acrobaties|XPHB}) check.",
 												{
 													"type": "image",
 													"href": {
@@ -1615,7 +1615,7 @@
 										{
 											"type": "item",
 											"name": "Doors and Secret Doors",
-											"entry": "Doors are unlocked and made of basalt. Secret doors manifest as spidery, elastic fissures that blend in with their surroundings and exude faint rays of natural light when opened. As a {@action Search|XPHB} action, a character can examine a wall that contains a secret door and make a {@dc 15} Wisdom ({@skill Perception|XPHB}) check, noticing it on a successful check."
+											"entry": "Doors are unlocked and made of basalt. Secret doors manifest as spidery, elastic fissures that blend in with their surroundings and exude faint rays of natural light when opened. As a {@action Chercher|XPHB} action, a character can examine a wall that contains a secret door and make a {@dc 15} Wisdom ({@skill Perception|XPHB}) check, noticing it on a successful check."
 										}
 									]
 								}
@@ -1642,7 +1642,7 @@
 											]
 										},
 										"This room mirrors the Chamber of Choice ({@adventure area D1|WttHC|1|D1: Chamber of Choice}). The corpse is that of a dwarf explorer who perished four days ago while searching for Flizzlebin. The dwarf was killed by an Undead shadow.",
-										"The dwarf's body is unnaturally thin, and its clothes look too big. A character can inspect the corpse and make a {@dc 12} Wisdom ({@skill Medicine|XPHB}) check. On a successful check, the character discerns the dwarf's life was sapped by a supernatural force.",
+										"The dwarf's body is unnaturally thin, and its clothes look too big. A character can inspect the corpse and make a {@dc 12} Wisdom ({@skill Médecine|XPHB}) check. On a successful check, the character discerns the dwarf's life was sapped by a supernatural force.",
 										"The dwarf clutches a note. If the characters remove it from the corpse, show the players the Dungeon Warning Handout. After the characters read the note, a {@creature Shadow|WttHC} rises from the dwarf's corpse and begins combat.",
 										{
 											"type": "image",
@@ -1716,7 +1716,7 @@
 											"page": 9,
 											"id": "04a",
 											"entries": [
-												"The first character to sift through the trash and succeed on a {@dc 12} Wisdom ({@skill Perception|XPHB}) check unearths five cracked urns hewn from black granite. The urns are worthless. Four of the urns are empty, but one contains a {@item Potion of Healing|XDMG} and a glass eye with an emerald pupil worth 10 GP.",
+												"The first character to sift through the trash and succeed on a {@dc 12} Wisdom ({@skill Perception|XPHB}) check unearths five cracked urns hewn from black granite. The urns are worthless. Four of the urns are empty, but one contains a {@item Potion de soins|XDMG} and a glass eye with an emerald pupil worth 10 GP.",
 												{
 													"type": "image",
 													"href": {
@@ -1782,12 +1782,12 @@
 														{
 															"type": "item",
 															"name": "Detect and Disarm",
-															"entry": "As a {@action Study|XPHB} action, a character can examine the walls and make a {@dc 15} Intelligence ({@skill Nature|XPHB}) check, identifying the toxic bulbs on a successful check. Alternatively, a character can take the Study action to inspect the floor and make a {@dc 15} Intelligence ({@skill Investigation|XPHB}) check, identifying the fungal pressure plate on a successful check. Trimming the stems that connect the bulbs to the pressure plate prevents the trap from triggering."
+															"entry": "As a {@action Étudier|XPHB} action, a character can examine the walls and make a {@dc 15} Intelligence ({@skill Nature|XPHB}) check, identifying the toxic bulbs on a successful check. Alternatively, a character can take the Study action to inspect the floor and make a {@dc 15} Intelligence ({@skill Investigation|XPHB}) check, identifying the fungal pressure plate on a successful check. Trimming the stems that connect the bulbs to the pressure plate prevents the trap from triggering."
 														},
 														{
 															"type": "item",
 															"name": "Triggering the Trap",
-															"entry": "When a creature moves onto a pressure plate for the first time on a turn, the bulbs spray toxic spores that fill a 5-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} centered on the pressure plate. Each creature in the Cube must succeed on a {@dc 13} Constitution Saving Throw or have the {@condition Poisoned|XPHB} condition for 1 hour. The trap resets immediately."
+															"entry": "When a creature moves onto a pressure plate for the first time on a turn, the bulbs spray toxic spores that fill a 5-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} centered on the pressure plate. Each creature in the Cube must succeed on a {@dc 13} Constitution Saving Throw or have the {@condition Empoisonné|XPHB} condition for 1 hour. The trap resets immediately."
 														}
 													]
 												}
@@ -1833,7 +1833,7 @@
 											"page": 10,
 											"id": "053",
 											"entries": [
-												"Unlike the goblins' blessed forge in the dungeon above, this forge is a cursed apparatus capable only of destruction. The Forge of Annihilation causes living creatures to wither and die. As a {@action Study|XPHB} action, a character can inspect the forge and make a {@dc 13} Intelligence ({@skill Arcana|XPHB}) check. On a successful check, the character identifies the eldritch hazard and the threat it poses.",
+												"Unlike the goblins' blessed forge in the dungeon above, this forge is a cursed apparatus capable only of destruction. The Forge of Annihilation causes living creatures to wither and die. As a {@action Étudier|XPHB} action, a character can inspect the forge and make a {@dc 13} Intelligence ({@skill Arcanes|XPHB}) check. On a successful check, the character identifies the eldritch hazard and the threat it poses.",
 												"A creature that enters the forge for the first time or starts its turn there must make a {@dc 15} Constitution Saving Throw, taking {@damage 4d8} Necrotic damage on a failed save or half as much damage on a successful one.",
 												{
 													"type": "image",
@@ -1880,8 +1880,8 @@
 											"page": 10,
 											"id": "057",
 											"entries": [
-												"The statue depicts a knight with a menacing helm. As a {@action Study|XPHB} action, a character can examine the statue and make a {@dc 12} Intelligence ({@skill Investigation|XPHB}) check. On a successful check, the character realizes the statue's base is unstable; a significant push could topple the statue.",
-												"As an action, a character within 5 feet of the statue can make a {@dc 10} Strength ({@skill Athletics|XPHB}) check to topple the statue into a space within 5 feet of it, doing so on a successful check. When the statue topples, each creature beneath it takes {@damage 4d6} Bludgeoning damage and has the {@condition Prone|XPHB} condition. The statue crumbles on impact, revealing treasure within (see \"Treasure\" below), but its helm remains intact."
+												"The statue depicts a knight with a menacing helm. As a {@action Étudier|XPHB} action, a character can examine the statue and make a {@dc 12} Intelligence ({@skill Investigation|XPHB}) check. On a successful check, the character realizes the statue's base is unstable; a significant push could topple the statue.",
+												"As an action, a character within 5 feet of the statue can make a {@dc 10} Strength ({@skill Athlétisme|XPHB}) check to topple the statue into a space within 5 feet of it, doing so on a successful check. When the statue topples, each creature beneath it takes {@damage 4d6} Bludgeoning damage and has the {@condition À terre|XPHB} condition. The statue crumbles on impact, revealing treasure within (see \"Treasure\" below), but its helm remains intact."
 											]
 										},
 										{
@@ -1891,7 +1891,7 @@
 											"id": "058",
 											"entries": [
 												"The web-filled areas are {@variantrule Difficult Terrain|XPHB}.",
-												"A creature that enters a web-filled area for the first time on a turn or starts its turn there must succeed on a {@dc 12} Dexterity Saving Throw or have the {@condition Restrained|XPHB} condition. As an action, a creature Restrained by the webs can try to escape from them, doing so with a successful {@dc 12} Strength ({@skill Athletics|XPHB}) or Dexterity ({@skill Acrobatics|XPHB}) check.",
+												"A creature that enters a web-filled area for the first time on a turn or starts its turn there must succeed on a {@dc 12} Dexterity Saving Throw or have the {@condition Entravé|XPHB} condition. As an action, a creature Restrained by the webs can try to escape from them, doing so with a successful {@dc 12} Strength ({@skill Athlétisme|XPHB}) or Dexterity ({@skill Acrobaties|XPHB}) check.",
 												"Each 5-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} of webs has AC 10; HP 7; Vulnerability to Fire damage; and Immunity to Piercing, Poison, and Psychic damage."
 											]
 										},
@@ -1901,7 +1901,7 @@
 											"page": 10,
 											"id": "059",
 											"entries": [
-												"The statue's helmet is a crimson {@item Dread Helm|WttHC} that resembles the head of a horned devil. Inside the statue is a heart-shaped black tourmaline worth 30 GP."
+												"The statue's helmet is a crimson {@item Heaume terrifiant|WttHC} that resembles the head of a horned devil. Inside the statue is a heart-shaped black tourmaline worth 30 GP."
 											]
 										}
 									]
@@ -1944,7 +1944,7 @@
 								"\"Go forth! Many great adventures await you.\""
 							]
 						},
-						"For their efforts, Flizzlebin gives the characters his {@item Cap of Vanishing|WttHC}. If one of the characters didn't find a magic item during the adventure, the gnome presents the cap to that character.",
+						"For their efforts, Flizzlebin gives the characters his {@item Bonnet de disparition|WttHC}. If one of the characters didn't find a magic item during the adventure, the gnome presents the cap to that character.",
 						{
 							"type": "image",
 							"href": {
@@ -2101,9 +2101,9 @@
 							"type": "list",
 							"items": [
 								"{@item +1 Dart|XDMG}",
-								"{@item Periapt of Health|XDMG}",
-								"{@item Poison Soaked Kukri|WttHC|Poison-Soaked Kukri}",
-								"{@item Potion of Acid Resistance|XDMG|Potion of Resistance (Acid)}"
+								"{@item Talisman de santé|XDMG}",
+								"{@item Kukri trempé dans le poison|WttHC|Poison-Soaked Kukri}",
+								"{@item Potion de résistance à l'acide|XDMG|Potion of Resistance (Acid)}"
 							],
 							"style": "list-no-bullets"
 						}
@@ -2245,7 +2245,7 @@
 									"width": 1000,
 									"height": 967
 								},
-								"If the characters accept, Rillard provides them with a sketch of Rilly June that he was planning to give to the authorities. Show your players the Missing Person Poster. Rillard also loans the party his great granddaddy's {@item Poison Soaked Kukri|WttHC|Poison-Soaked Kukri}, hoping it will aid them in their exploration.",
+								"If the characters accept, Rillard provides them with a sketch of Rilly June that he was planning to give to the authorities. Show your players the Missing Person Poster. Rillard also loans the party his great granddaddy's {@item Kukri trempé dans le poison|WttHC|Poison-Soaked Kukri}, hoping it will aid them in their exploration.",
 								{
 									"type": "entries",
 									"name": "Story Time",
@@ -2329,12 +2329,12 @@
 										{
 											"type": "item",
 											"name": "Lighting",
-											"entry": "The tunnels are unlit. Creatures rely on {@sense Darkvision|XPHB}, {@sense Blindsight|XPHB}, or {@sense Tremorsense|XPHB} to see. Area descriptions assume the characters have a light source or other means of seeing in {@variantrule Darkness|XPHB}."
+											"entry": "The tunnels are unlit. Creatures rely on {@sense Vision dans le noir|XPHB}, {@sense Perception aveugle|XPHB}, or {@sense Perception des vibrations|XPHB} to see. Area descriptions assume the characters have a light source or other means of seeing in {@variantrule Darkness|XPHB}."
 										},
 										{
 											"type": "item",
 											"name": "Roots and Vines",
-											"entry": "Writhing, ink-black roots and vines pervade the tunnels. Areas covered in roots (as denoted on the map) are {@variantrule Difficult Terrain|XPHB}. As a {@action Study|XPHB} action, a character can inspect the plants and make a {@dc 13} Intelligence ({@skill Arcana|XPHB}) check; a successful check reveals the vegetation is corrupted by a malevolent supernatural force."
+											"entry": "Writhing, ink-black roots and vines pervade the tunnels. Areas covered in roots (as denoted on the map) are {@variantrule Difficult Terrain|XPHB}. As a {@action Étudier|XPHB} action, a character can inspect the plants and make a {@dc 13} Intelligence ({@skill Arcanes|XPHB}) check; a successful check reveals the vegetation is corrupted by a malevolent supernatural force."
 										}
 									]
 								},
@@ -3974,7 +3974,7 @@
 												}
 											]
 										},
-										"The purple plants are two {@creature Violet Fungus|WttHC|Violet Fungi}. Two Vine Blight Tanglers hide among the Gulthias roots. As a {@action Search|XPHB} action, a character can survey the area and make a {@dc 15} Wisdom ({@skill Perception|XPHB}) check, detecting the blights on a successful check. The fungi and blights are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all non-Plant creatures. If such a creature comes within 10 feet of the plants or otherwise disturbs them, they enter combat."
+										"The purple plants are two {@creature Violet Fungus|WttHC|Violet Fungi}. Two Vine Blight Tanglers hide among the Gulthias roots. As a {@action Chercher|XPHB} action, a character can survey the area and make a {@dc 15} Wisdom ({@skill Perception|XPHB}) check, detecting the blights on a successful check. The fungi and blights are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all non-Plant creatures. If such a creature comes within 10 feet of the plants or otherwise disturbs them, they enter combat."
 									]
 								},
 								{
@@ -4013,7 +4013,7 @@
 											"width": 1000,
 											"height": 757
 										},
-										"Though most of the scarecrows in this tunnel are inanimate, one of them is a {@variantrule Hostile [Attitude]|XPHB|Hostile} Scarecrow. It remains motionless, hoping to ambush the characters. As a {@action Study|XPHB} action, a character can inspect the scarecrows and make a {@dc 15} Intelligence ({@skill Investigation|XPHB}) check. On a successful check, the character recognizes the living scarecrow hiding among the inanimate ones.",
+										"Though most of the scarecrows in this tunnel are inanimate, one of them is a {@variantrule Hostile [Attitude]|XPHB|Hostile} Scarecrow. It remains motionless, hoping to ambush the characters. As a {@action Étudier|XPHB} action, a character can inspect the scarecrows and make a {@dc 15} Intelligence ({@skill Investigation|XPHB}) check. On a successful check, the character recognizes the living scarecrow hiding among the inanimate ones.",
 										"If the characters disturb the pendant or the scarecrow, the scarecrow begins combat, surprising any characters who didn't identify it as a threat.",
 										{
 											"type": "entries",
@@ -4042,7 +4042,7 @@
 											"page": 7,
 											"id": "078",
 											"entries": [
-												"A cloud of toxic spores fills this area. When a creature enters the area, it must succeed on a {@dc 13} Constitution saving throw or have the {@condition Poisoned|XPHB} condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these spores for 24 hours."
+												"A cloud of toxic spores fills this area. When a creature enters the area, it must succeed on a {@dc 13} Constitution saving throw or have the {@condition Empoisonné|XPHB} condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these spores for 24 hours."
 											]
 										},
 										{
@@ -4051,7 +4051,7 @@
 											"page": 7,
 											"id": "079",
 											"entries": [
-												"The pendant that hangs from the ceiling is a {@item Periapt of Health|XDMG}."
+												"The pendant that hangs from the ceiling is a {@item Talisman de santé|XDMG}."
 											]
 										}
 									]
@@ -4092,15 +4092,15 @@
 											"height": 896
 										},
 										"The ceilings in this chamber are 20 feet high. The tunnels that lead into this area end abruptly in a 10-foot drop. Along the sunken floor, wicked roots curl around the remains of the ankheg's meals.",
-										"Three Needle Blights hide among the roots and carcasses. As a {@action Search|XPHB} action, a character can examine the floor and make a {@dc 15} Wisdom ({@skill Perception|XPHB}) check, detecting the blights on a successful check. The blights are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward the characters. If the characters step on the roots or disturb the carcasses, the blights begin combat.",
+										"Three Needle Blights hide among the roots and carcasses. As a {@action Chercher|XPHB} action, a character can examine the floor and make a {@dc 15} Wisdom ({@skill Perception|XPHB}) check, detecting the blights on a successful check. The blights are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward the characters. If the characters step on the roots or disturb the carcasses, the blights begin combat.",
 										{
 											"type": "entries",
 											"name": "Carcasses",
 											"page": 7,
 											"id": "07c",
 											"entries": [
-												"As a {@action Study|XPHB} action, a character can inspect the dead livestock and make a {@dc 13} Wisdom ({@skill Medicine|XPHB}) check. On a successful check, the character discerns that the cows were violently slain and dragged here by a hulking creature with acidic mandibles.",
-												"A character who inspects the carcasses can make a {@dc 13} Intelligence ({@skill Arcana|XPHB}) check. If the check succeeds, the character realizes that this area is an ankheg's nest.",
+												"As a {@action Étudier|XPHB} action, a character can inspect the dead livestock and make a {@dc 13} Wisdom ({@skill Médecine|XPHB}) check. On a successful check, the character discerns that the cows were violently slain and dragged here by a hulking creature with acidic mandibles.",
+												"A character who inspects the carcasses can make a {@dc 13} Intelligence ({@skill Arcanes|XPHB}) check. If the check succeeds, the character realizes that this area is an ankheg's nest.",
 												{
 													"type": "image",
 													"href": {
@@ -4120,7 +4120,7 @@
 											"page": 7,
 											"id": "07d",
 											"entries": [
-												"Amid the carcasses is a burlap sack that contains a loaf of two-day-old bread, three apples, 5 GP, and a {@item Potion of Acid Resistance|XDMG|Potion of Resistance} (Acid). The sack has the initials \"R.J.\" stitched on it."
+												"Amid the carcasses is a burlap sack that contains a loaf of two-day-old bread, three apples, 5 GP, and a {@item Potion de résistance à l'acide|XDMG|Potion of Resistance} (Acid). The sack has the initials \"R.J.\" stitched on it."
 											]
 										}
 									]
@@ -4145,7 +4145,7 @@
 												{
 													"type": "item",
 													"name": "DM Secret!",
-													"entry": "The ankheg has {@sense Tremorsense|XPHB}, which means it has no trouble finding its way through the fog or noticing the characters when they approach."
+													"entry": "The ankheg has {@sense Perception des vibrations|XPHB}, which means it has no trouble finding its way through the fog or noticing the characters when they approach."
 												}
 											]
 										},
@@ -4317,7 +4317,7 @@
 											]
 										},
 										"Two {@creature Needle Blight|WttHC|Needle Blights} use a stolen rake to scratch each other's backs in this tunnel. Two {@creature Vine Blight Tangler|WttHC|Vine Blight Tanglers} hide among the vines along the walls, waiting to ambush any non-Plant creatures that pass through this area. The blights are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward the characters.",
-										"As a {@action Search|XPHB} action, a character can scan the vine-covered walls and make a {@dc 15} Wisdom ({@skill Perception|XPHB}) check. On a successful check, the character spots the Vine Blight Tanglers.",
+										"As a {@action Chercher|XPHB} action, a character can scan the vine-covered walls and make a {@dc 15} Wisdom ({@skill Perception|XPHB}) check. On a successful check, the character spots the Vine Blight Tanglers.",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -4354,8 +4354,8 @@
 											"width": 850,
 											"height": 1652
 										},
-										"The farmhand is {@creature Rilly June|WttHC}, Rillard's granddaughter, whom the characters can easily identify thanks to the sketch her grandfather provided. Rilly June has the {@condition Restrained|XPHB} and {@condition Unconscious|XPHB} conditions, but she is otherwise unharmed.",
-										"{@b Freeing Rilly June}. As an action, a character can make a {@dc 15} Strength ({@skill Athletics|XPHB}) check to free Rilly June from the vines, doing so on a successful check. Once freed, Rilly June wakes up and introduces herself. She is {@variantrule Friendly [Attitude]|XPHB|Friendly} toward the characters, and can share the following information:",
+										"The farmhand is {@creature Rilly June|WttHC}, Rillard's granddaughter, whom the characters can easily identify thanks to the sketch her grandfather provided. Rilly June has the {@condition Entravé|XPHB} and {@condition Inconscient|XPHB} conditions, but she is otherwise unharmed.",
+										"{@b Freeing Rilly June}. As an action, a character can make a {@dc 15} Strength ({@skill Athlétisme|XPHB}) check to free Rilly June from the vines, doing so on a successful check. Once freed, Rilly June wakes up and introduces herself. She is {@variantrule Friendly [Attitude]|XPHB|Friendly} toward the characters, and can share the following information:",
 										{
 											"type": "list",
 											"style": "list-hang-notitle",
@@ -4447,8 +4447,8 @@
 														"The tree screeches as it withers and dies. Silence falls over the crypt, but the tree remains defiantly in place, its roots anchored deep into the earth."
 													]
 												},
-												"Unless the Gulthias tree is uprooted, it regrows in {@dice 3d10} days. As a {@action Study|XPHB} action, a character can examine the tree and make a {@dc 13} Intelligence ({@skill Arcana|XPHB}) check. On a successful check, the character knows the Gulthias tree will regrow if left in the earth.",
-												"To uproot the tree, a character must succeed on a {@dc 15} Strength ({@skill Athletics|XPHB}) check. If Rilly June is with the characters, she takes the {@action Help|XPHB} action to assist them with this endeavor.",
+												"Unless the Gulthias tree is uprooted, it regrows in {@dice 3d10} days. As a {@action Étudier|XPHB} action, a character can examine the tree and make a {@dc 13} Intelligence ({@skill Arcanes|XPHB}) check. On a successful check, the character knows the Gulthias tree will regrow if left in the earth.",
+												"To uproot the tree, a character must succeed on a {@dc 15} Strength ({@skill Athlétisme|XPHB}) check. If Rilly June is with the characters, she takes the {@action Aider|XPHB} action to assist them with this endeavor.",
 												"If the tree is uprooted, its effects end immediately, and all remaining {@creature Needle Blight|WttHC|Needle Blights} and {@creature Vine Blight Tangler|WttHC|Vine Blight Tanglers} within the tunnels die."
 											]
 										},
@@ -4528,7 +4528,7 @@
 							"page": 11,
 							"id": "097",
 							"entries": [
-								"Rillard pays the characters 200 GP as promised. He also lets the characters keep his great grandaddy's {@item Poison Soaked Kukri|WttHC|Poison-Soaked Kukri}."
+								"Rillard pays the characters 200 GP as promised. He also lets the characters keep his great grandaddy's {@item Kukri trempé dans le poison|WttHC|Poison-Soaked Kukri}."
 							]
 						},
 						{
@@ -4629,12 +4629,12 @@
 								{
 									"type": "list",
 									"items": [
-										"{@item Cloak of Billowing|WttHC}",
-										"{@item Holly's Handy Haversack|WttHC}",
-										"{@item Pipes of Pestilence|WttHC}",
-										"{@item Potion of Healing|XDMG}",
-										"{@item Potion of Acid Resistance|XDMG|Potion of Resistance (Acid)}",
-										"{@item Speaking Stones|WttHC}"
+										"{@item Cape virevoltante|WttHC}",
+										"{@item Baveroche pratique de Holly|WttHC}",
+										"{@item Cornemuse de la peste|WttHC}",
+										"{@item Potion de soins|XDMG}",
+										"{@item Potion de résistance à l'acide|XDMG|Potion of Resistance (Acid)}",
+										"{@item Pierres parlantes|WttHC}"
 									],
 									"style": "list-no-bullets"
 								}
@@ -4752,7 +4752,7 @@
 							"id": "0a3",
 							"entries": [
 								"To aid the characters in their investigation, Fillius provides them with a document that authorizes them to question locals, enter any location along the dockside neighborhood, and, if necessary, use force to protect the townsfolk. Show the {@area Oakshore Writ of Authority|139|x} to the players when they are deputized.",
-								"Fillius also provides the characters one of his two {@item Speaking Stones|WttHC} and tells them to contact him with the stone when they're ready to present their findings.",
+								"Fillius also provides the characters one of his two {@item Pierres parlantes|WttHC} and tells them to contact him with the stone when they're ready to present their findings.",
 								{
 									"type": "image",
 									"href": {
@@ -4827,7 +4827,7 @@
 									]
 								},
 								"Have the players choose a location shown on the map. The characters can visit locations in any order, and they don't have to visit all of them to complete their investigation.",
-								"When the characters have enough information to present their findings to Fillius, proceed to \"{@area Ending the Investigation|0ca|x}.\" If you'd like to shorten this adventure, you can have Fillius contact the characters using his {@item Speaking Stones|WttHC|Speaking Stone} after they've explored three or four locations, which should provide them with enough information to make an educated guess about the killer's identity."
+								"When the characters have enough information to present their findings to Fillius, proceed to \"{@area Ending the Investigation|0ca|x}.\" If you'd like to shorten this adventure, you can have Fillius contact the characters using his {@item Pierres parlantes|WttHC|Speaking Stone} after they've explored three or four locations, which should provide them with enough information to make an educated guess about the killer's identity."
 							]
 						},
 						{
@@ -4841,7 +4841,7 @@
 									"type": "list",
 									"items": [
 										"{@b Ceilings}. Ceilings are 10 feet high inside businesses and residences.",
-										"{@b Doors}. Doors throughout the docks are made from palm wood planks banded with iron. Unless otherwise noted, doors are unlocked. As a {@action Utilize|XPHB} action, a character can try to pick a locked door using {@item Thieves' Tools|XPHB}; a successful {@dc 15} Dexterity ({@skill Sleight of Hand|XPHB}) check opens it. Alternatively, a character can take an action to try to force open a locked door, doing so with a successful {@dc 15} Strength ({@skill Athletics|XPHB}) check.",
+										"{@b Doors}. Doors throughout the docks are made from palm wood planks banded with iron. Unless otherwise noted, doors are unlocked. As a {@action Utiliser|XPHB} action, a character can try to pick a locked door using {@item Outils de crocheteur|XPHB}; a successful {@dc 15} Dexterity ({@skill Escamotage|XPHB}) check opens it. Alternatively, a character can take an action to try to force open a locked door, doing so with a successful {@dc 15} Strength ({@skill Athlétisme|XPHB}) check.",
 										"{@b Rattraps}. Oakshore's residents have scattered rattraps throughout the docks in response to a sudden rodent infestation."
 									],
 									"style": "list-hang-notitle"
@@ -5464,7 +5464,7 @@
 										{
 											"type": "item",
 											"name": "Questioning Bibble",
-											"entry": "If questioned, Bibble becomes nervous and lies. She claims she didn't see or hear anything. A character who doubts Bibble's claims can make a {@dc 12} Wisdom ({@skill Insight|XPHB}) check; a successful check reveals that she's lying."
+											"entry": "If questioned, Bibble becomes nervous and lies. She claims she didn't see or hear anything. A character who doubts Bibble's claims can make a {@dc 12} Wisdom ({@skill Perspicacité|XPHB}) check; a successful check reveals that she's lying."
 										}
 									]
 								},
@@ -5596,7 +5596,7 @@
 										{
 											"type": "item",
 											"name": "Secret Door",
-											"entry": "The bookcase is a secret door to {@area area 03b|0b8|x}. As a {@action Study|XPHB} action, a character can examine the bookshelf and make a {@dc 15} Intelligence ({@skill Investigation|XPHB}) check; a successful check reveals an occult tome, which, if pulled, opens the secret door."
+											"entry": "The bookcase is a secret door to {@area area 03b|0b8|x}. As a {@action Étudier|XPHB} action, a character can examine the bookshelf and make a {@dc 15} Intelligence ({@skill Investigation|XPHB}) check; a successful check reveals an occult tome, which, if pulled, opens the secret door."
 										},
 										{
 											"type": "item",
@@ -5605,7 +5605,7 @@
 										}
 									]
 								},
-								"Wexley worries the characters might find his secret room. A character who takes the {@action Search|XPHB} action to observe Wexley and succeeds on a {@dc 12} Wisdom ({@skill Insight|XPHB}) check sees him glance at the bookcase.",
+								"Wexley worries the characters might find his secret room. A character who takes the {@action Chercher|XPHB} action to observe Wexley and succeeds on a {@dc 12} Wisdom ({@skill Perspicacité|XPHB}) check sees him glance at the bookcase.",
 								"Wexley knows the following information:",
 								{
 									"type": "list",
@@ -5639,7 +5639,7 @@
 										"A wicked symbol is painted on the floor of this secret room. {@creature Cultist of Demogorgon|WttHC|Cultists}' robes and other garments hang on racks along one wall."
 									]
 								},
-								"As a {@action Study|XPHB} action, a character can inspect the symbol and make a {@dc 13} Intelligence ({@skill Religion|XPHB}) check; a successful check reveals it to be a ritual circle that cultists of Demogorgon use to summon demons.",
+								"As a {@action Étudier|XPHB} action, a character can inspect the symbol and make a {@dc 13} Intelligence ({@skill Religion|XPHB}) check; a successful check reveals it to be a ritual circle that cultists of Demogorgon use to summon demons.",
 								"If Wexley dies, three {@creature Demobat|WttHC|Demobats} burst from the symbol. The {@variantrule Hostile [Attitude]|XPHB|Hostile} demons appear in three unoccupied spaces nearest the symbol and begin combat when they detect the characters.",
 								{
 									"type": "list",
@@ -5648,7 +5648,7 @@
 										{
 											"type": "item",
 											"name": "Treasure",
-											"entry": "A {@item Cloak of Billowing|WttHC} hangs on the wall."
+											"entry": "A {@item Cape virevoltante|WttHC} hangs on the wall."
 										}
 									]
 								}
@@ -5707,7 +5707,7 @@
 										{
 											"type": "item",
 											"name": "Treasure",
-											"entry": "The tavern owners keep 55 GP in an iron lockbox behind the bar. As a {@action Utilize|XPHB} action, a character can try to pick the lock using {@item Thieves' Tools|XPHB}; a successful {@dc 15} Dexterity ({@skill Sleight of Hand|XPHB}) check opens it. Jay carries the key to the lockbox, but both siblings become {@variantrule Hostile [Attitude]|XPHB|Hostile} if they notice a character trying to pilfer their profits."
+											"entry": "The tavern owners keep 55 GP in an iron lockbox behind the bar. As a {@action Utiliser|XPHB} action, a character can try to pick the lock using {@item Outils de crocheteur|XPHB}; a successful {@dc 15} Dexterity ({@skill Escamotage|XPHB}) check opens it. Jay carries the key to the lockbox, but both siblings become {@variantrule Hostile [Attitude]|XPHB|Hostile} if they notice a character trying to pilfer their profits."
 										}
 									]
 								},
@@ -5754,7 +5754,7 @@
 										{
 											"type": "item",
 											"name": "Potions for Sale",
-											"entry": "In addition to common house plants and floral arrangements, Lampro sells {@item Potion of Healing|XDMG|Potions of Healing} for 50 GP each. The herbalist has {@dice 1d6} vials amid the foliage of a large plant. A character who carefully surveys the shop's interior and succeeds on a {@dc 18} Wisdom ({@skill Perception|XPHB}) check notices the potions. Characters who witnessed Lampro retrieve a potion automatically succeed on this check."
+											"entry": "In addition to common house plants and floral arrangements, Lampro sells {@item Potion de soins|XDMG|Potions of Healing} for 50 GP each. The herbalist has {@dice 1d6} vials amid the foliage of a large plant. A character who carefully surveys the shop's interior and succeeds on a {@dc 18} Wisdom ({@skill Perception|XPHB}) check notices the potions. Characters who witnessed Lampro retrieve a potion automatically succeed on this check."
 										}
 									]
 								},
@@ -5784,7 +5784,7 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Bad Business}. Even before the murders started, Oakshore's dockside businesses have struggled. Lampro says the cobbler (see {@area area 01a|0ab|x}) was stiffed by a customer who ordered a fancy pair of boots. However, the uptick of crime has resulted in more customers coming to Lampro seeking precautionary {@item Potion of Healing|XDMG|Potions of Healing}. Lampro feels guilty for the boost in sales.",
+										"{@b Bad Business}. Even before the murders started, Oakshore's dockside businesses have struggled. Lampro says the cobbler (see {@area area 01a|0ab|x}) was stiffed by a customer who ordered a fancy pair of boots. However, the uptick of crime has resulted in more customers coming to Lampro seeking precautionary {@item Potion de soins|XDMG|Potions of Healing}. Lampro feels guilty for the boost in sales.",
 										"{@b Missing Cat}. Lampro's pet cat, Mr. Whiskers, recently escaped the shop, but due to the curfew, Lampro hasn't been able to look for him. Lampro offers the characters a protective potion if they find Mr. Whiskers. The cat has a bright orange coat and likes to hunt rats in the alley ({@area area 06|0c0|x}).",
 										"{@b Musician}. Lampro's old next-door neighbor was a musician and former adventurer. He used to play the most beautiful songs on his pan flute in the evenings, but his house is now abandoned (see {@area areas 07a|0c2|x} and {@area 07b|0c6|x}). Some nights, Lampro swears they can still hear him playing."
 									],
@@ -5797,7 +5797,7 @@
 										{
 											"type": "item",
 											"name": "Treasure",
-											"entry": "After learning Mr. Whiskers's grisly fate (detailed in {@area area 06|0c0|x}), the characters can report the bad news to Lampro. Alternatively, a character who fabricates a more pleasant outcome for Mr. Whiskers and succeeds on a {@dc 15} Charisma ({@skill Deception|XPHB}) check convinces Lampro that the story is true. Either way, Lampro rewards the characters as promised with a {@item Potion of Acid Resistance|XDMG|Potion of Resistance (Acid)}."
+											"entry": "After learning Mr. Whiskers's grisly fate (detailed in {@area area 06|0c0|x}), the characters can report the bad news to Lampro. Alternatively, a character who fabricates a more pleasant outcome for Mr. Whiskers and succeeds on a {@dc 15} Charisma ({@skill Tromperie|XPHB}) check convinces Lampro that the story is true. Either way, Lampro rewards the characters as promised with a {@item Potion de résistance à l'acide|XDMG|Potion of Resistance (Acid)}."
 										}
 									]
 								},
@@ -5920,7 +5920,7 @@
 										{
 											"type": "item",
 											"name": "Treasure",
-											"entry": "Korex stores his spoils in the chest, which contains 75 GP, a gold bracelet worth 30 GP, a silk handkerchief embroidered with silver thread worth 10 GP, and {@item Holly's Handy Haversack|WttHC}."
+											"entry": "Korex stores his spoils in the chest, which contains 75 GP, a gold bracelet worth 30 GP, a silk handkerchief embroidered with silver thread worth 10 GP, and {@item Baveroche pratique de Holly|WttHC}."
 										}
 									]
 								},
@@ -5958,16 +5958,16 @@
 										{
 											"type": "item",
 											"name": "Boat",
-											"entry": "A single {@vehicle rowboat} is moored at the docks. Inside are a metal pail, a fishing rod, and a burlap satchel that contains moldy cheese and stale bread."
+											"entry": "A single {@vehicle Barque} is moored at the docks. Inside are a metal pail, a fishing rod, and a burlap satchel that contains moldy cheese and stale bread."
 										},
 										{
 											"type": "item",
 											"name": "Crane",
-											"entry": "Affixed to the dock is a sturdy crane fitted with a weighted net. As a {@action Utilize|XPHB} action, a creature within 5 feet of the crane can drop the net on a Medium or smaller creature it can see within 20 feet of the crane. The target must succeed on a {@dc 15} Dexterity saving throw or have the {@condition Restrained|XPHB} condition until it escapes."
+											"entry": "Affixed to the dock is a sturdy crane fitted with a weighted net. As a {@action Utiliser|XPHB} action, a creature within 5 feet of the crane can drop the net on a Medium or smaller creature it can see within 20 feet of the crane. The target must succeed on a {@dc 15} Dexterity saving throw or have the {@condition Entravé|XPHB} condition until it escapes."
 										}
 									]
 								},
-								"To escape the net, the target or a creature within 5 feet of it must take an action to make a {@dc 10} Strength ({@skill Athletics|XPHB}) check, freeing the {@condition Restrained|XPHB} creature on a successful check. Destroying the net (AC 10; 5 HP; {@variantrule Immunity|XPHB} to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect."
+								"To escape the net, the target or a creature within 5 feet of it must take an action to make a {@dc 10} Strength ({@skill Athlétisme|XPHB}) check, freeing the {@condition Entravé|XPHB} creature on a successful check. Destroying the net (AC 10; 5 HP; {@variantrule Immunity|XPHB} to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect."
 							]
 						},
 						{
@@ -5976,7 +5976,7 @@
 							"page": 11,
 							"id": "0ca",
 							"entries": [
-								"The investigation ends when the characters feel they've collected enough information to report to Fillius, who meets them after they contact him with the {@item Speaking Stones|WttHC|Speaking Stone} he gave them.",
+								"The investigation ends when the characters feel they've collected enough information to report to Fillius, who meets them after they contact him with the {@item Pierres parlantes|WttHC|Speaking Stone} he gave them.",
 								"If the characters correctly deduce that Korex is behind the murders, Fillius agrees that the evidence supports their conclusion. If the characters don't arrive at this discovery themselves, Fillius can help them make the connection. Regardless, Fillius also recounts that Korex is a former adventurer who was ousted for his thievery (as detailed in this adventure's background)."
 							]
 						},
@@ -6023,7 +6023,7 @@
 										{
 											"type": "item",
 											"name": "Treasure",
-											"entry": "Korex carries the {@item Pipes of Pestilence|WttHC}."
+											"entry": "Korex carries the {@item Cornemuse de la peste|WttHC}."
 										}
 									]
 								},
@@ -6048,7 +6048,7 @@
 					"page": 11,
 					"id": "0ce",
 					"entries": [
-						"After the characters defeat Korex and his swarms, they can return to Fillius, who commends them on their valiant efforts and keen detective work. Fillius collects the writ of authority and pays the characters 200 GP for the evidence against Korex, as well as an additional 100 GP if they apprehended or dispatched the murderer. As a further token of gratitude, Fillius lets the characters keep both {@item Speaking Stones|WttHC} to aid them in future endeavors."
+						"After the characters defeat Korex and his swarms, they can return to Fillius, who commends them on their valiant efforts and keen detective work. Fillius collects the writ of authority and pays the characters 200 GP for the evidence against Korex, as well as an additional 100 GP if they apprehended or dispatched the murderer. As a further token of gratitude, Fillius lets the characters keep both {@item Pierres parlantes|WttHC} to aid them in future endeavors."
 					]
 				}
 			]
@@ -6195,8 +6195,8 @@
 							"type": "list",
 							"items": [
 								"{@item Adamantine Breastplate|XDMG|Adamantine Armor (Breastplate)}",
-								"{@item Potion of Healing|XDMG}",
-								"{@item Spiked Shield|WttHC}"
+								"{@item Potion de soins|XDMG}",
+								"{@item Bouclier à pointes|WttHC}"
 							],
 							"style": "list-no-bullets"
 						},
@@ -6326,7 +6326,7 @@
 										{
 											"type": "item",
 											"name": "Voiding the Contract",
-											"entry": "As a {@action Magic|XPHB} action, Dardew or an archdevil can void this contract, returning any forfeited souls to their previous owners. Destroying the contract or its arbiter doesn't void the agreement."
+											"entry": "As a {@action Magie|XPHB} action, Dardew or an archdevil can void this contract, returning any forfeited souls to their previous owners. Destroying the contract or its arbiter doesn't void the agreement."
 										}
 									]
 								},
@@ -7322,7 +7322,7 @@
 												]
 											]
 										},
-										"At the DM's discretion, a character can take the {@action Study|XPHB} action to make a {@dc 15} Intelligence ({@skill Arcana|XPHB} or {@skill Religion|XPHB}) check to know the answer to a question, learning the correct answer on a successful check.",
+										"At the DM's discretion, a character can take the {@action Étudier|XPHB} action to make a {@dc 15} Intelligence ({@skill Arcanes|XPHB} or {@skill Religion|XPHB}) check to know the answer to a question, learning the correct answer on a successful check.",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -7464,7 +7464,7 @@
 											"page": 8,
 											"id": "0f2",
 											"entries": [
-												"The spinning flail is embedded in the ground between the gnolls. Each round on Initiative count 10 (losing Initiative ties), the flail's three heads crash to the ground. Each creature within 10 feet of the flail must succeed on a {@dc 15} Dexterity saving throw or take {@damage 3d6} Bludgeoning damage and have the {@condition Prone|XPHB} condition. The flail doesn't harm the gnolls.",
+												"The spinning flail is embedded in the ground between the gnolls. Each round on Initiative count 10 (losing Initiative ties), the flail's three heads crash to the ground. Each creature within 10 feet of the flail must succeed on a {@dc 15} Dexterity saving throw or take {@damage 3d6} Bludgeoning damage and have the {@condition À terre|XPHB} condition. The flail doesn't harm the gnolls.",
 												"The flail has AC 18, HP 40, and Immunity to Poison and Psychic damage. If the flail is destroyed, it stops spinning, and the audience roars in jubilation."
 											]
 										},
@@ -7522,7 +7522,7 @@
 											"height": 1000
 										},
 										"The trial proceeds through arraignment, statements, and sentencing, as detailed in the following sections. The characters can either represent themselves or allow the {@creature Imp Trickster|WttHC}, an unlicensed attorney, to provide them with bad-faith representation.",
-										"The jury is composed of adventurers petrified by Judge Deboix. If the characters try to fight the court instead, they might be similarly turned to stone, in which case {@area Dardew|0d5|x} can amend his contract (see \"{@area Infernal Contract|0d8|x}\" earlier in this adventure) to also remove the {@condition Petrified|XPHB} condition.",
+										"The jury is composed of adventurers petrified by Judge Deboix. If the characters try to fight the court instead, they might be similarly turned to stone, in which case {@area Dardew|0d5|x} can amend his contract (see \"{@area Infernal Contract|0d8|x}\" earlier in this adventure) to also remove the {@condition Pétrifié|XPHB} condition.",
 										{
 											"type": "list",
 											"style": "list-hang-notitle",
@@ -7666,8 +7666,8 @@
 											"page": 10,
 											"id": "0fb",
 											"entries": [
-												"Khaos wears the key to these six locked cages. As a {@action Utilize|XPHB} action, a character can try to pick a cage's lock using {@item Thieves' Tools|XPHB}, doing so with a successful {@dc 15} Dexterity ({@skill Sleight of Hand|XPHB}) check. The check is made with {@variantrule Disadvantage|XPHB} if the character is trying to pick the lock from inside the cage.",
-												"Alternatively, a character can try to goad Khaos into unlocking their cage. As an {@action Influence|XPHB} action, a character can taunt the barbed devil and make a {@dc 13} Charisma ({@skill Performance|XPHB}) check. On a successful check, Khaos unlocks the door, enters the cage, and strikes that character to teach them a lesson.",
+												"Khaos wears the key to these six locked cages. As a {@action Utiliser|XPHB} action, a character can try to pick a cage's lock using {@item Outils de crocheteur|XPHB}, doing so with a successful {@dc 15} Dexterity ({@skill Escamotage|XPHB}) check. The check is made with {@variantrule Disadvantage|XPHB} if the character is trying to pick the lock from inside the cage.",
+												"Alternatively, a character can try to goad Khaos into unlocking their cage. As an {@action Influence|XPHB} action, a character can taunt the barbed devil and make a {@dc 13} Charisma ({@skill Représentation|XPHB}) check. On a successful check, Khaos unlocks the door, enters the cage, and strikes that character to teach them a lesson.",
 												"The cage's contents are as follows:",
 												{
 													"type": "image",
@@ -7778,7 +7778,7 @@
 											"page": 10,
 											"id": "0ff",
 											"entries": [
-												"The Demodragon's hoard contains the following: an {@item Adamantine Breastplate|XDMG|Adamantine Armor (Breastplate)}, a {@item Spiked Shield|WttHC}, a {@item Potion of Healing|XDMG}, and 2,420 GP.",
+												"The Demodragon's hoard contains the following: an {@item Adamantine Breastplate|XDMG|Adamantine Armor (Breastplate)}, a {@item Bouclier à pointes|WttHC}, a {@item Potion de soins|XDMG}, and 2,420 GP.",
 												{
 													"type": "image",
 													"href": {
@@ -7870,21 +7870,21 @@
 					"columns": 3,
 					"items": [
 						"{@item Adamantine Breastplate|XDMG}",
-						"{@item Cap of Vanishing|WttHC}",
-						"{@item Cloak of Billowing|WttHC}",
+						"{@item Bonnet de disparition|WttHC}",
+						"{@item Cape virevoltante|WttHC}",
 						"{@item +1 Dart|XDMG}",
-						"{@item Dread Helm|WttHC}",
+						"{@item Heaume terrifiant|WttHC}",
 						"{@item +1 Flail|XDMG}",
 						"{@item Flame Tongue Greatsword|XDMG}",
-						"{@item Holly's Handy Haversack|WttHC}",
-						"{@item Periapt of Health|XDMG}",
-						"{@item Pipes of Pestilence|WttHC}",
-						"{@item Poison Soaked Kukri|WttHC}",
-						"{@item Potion of Healing|XDMG}",
-						"{@item Potion of Acid Resistance|XDMG}",
-						"{@item Speaking Stones|WttHC}",
-						"{@item Spiked Shield|WttHC}",
-						"{@item Wand of Secrets|XDMG}"
+						"{@item Baveroche pratique de Holly|WttHC}",
+						"{@item Talisman de santé|XDMG}",
+						"{@item Cornemuse de la peste|WttHC}",
+						"{@item Kukri trempé dans le poison|WttHC}",
+						"{@item Potion de soins|XDMG}",
+						"{@item Potion de résistance à l'acide|XDMG}",
+						"{@item Pierres parlantes|WttHC}",
+						"{@item Bouclier à pointes|WttHC}",
+						"{@item Baguette des secrets|XDMG}"
 					]
 				},
 				{

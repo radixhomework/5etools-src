@@ -157,7 +157,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item leather armor|phb}",
+						"{@item Armure de cuir|phb}",
 						"modificateur de Charisme"
 					]
 				}
@@ -399,7 +399,7 @@
 				{
 					"name": "Toucher horrifique {@recharge 5}",
 					"entries": [
-						"Zariel touche une créature située à 3 mètres ou moins d'elle. La cible doit réussir un jet de sauvegarde de Constitution {@dc 26}, sinon elle subit 44 ({@damage 8d10}) dégâts nécrotiques et est {@condition poisoned} pendant 1 minute. Tant qu'elle est ainsi {@condition poisoned}, la cible est également {@condition blinded} et {@condition deafened}. La cible peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet si elle réussit."
+						"Zariel touche une créature située à 3 mètres ou moins d'elle. La cible doit réussir un jet de sauvegarde de Constitution {@dc 26}, sinon elle subit 44 ({@damage 8d10}) dégâts nécrotiques et est {@condition Empoisonné} pendant 1 minute. Tant qu'elle est ainsi {@condition Empoisonné}, la cible est également {@condition Aveuglé} et {@condition Assourdi}. La cible peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet si elle réussit."
 					]
 				},
 				{
@@ -527,7 +527,7 @@
 					"ac": 23,
 					"from": [
 						"{@item Plaque de silex obsidienne de dragon|BGDIA}",
-						"{@item shield|phb}"
+						"{@item Bouclier|phb}"
 					]
 				}
 			],
@@ -603,19 +603,19 @@
 				{
 					"name": "Aura de haine",
 					"entries": [
-						"Tant qu'Arkhan n'est pas {@condition incapacitated}, lui et tous les fiélons et morts-vivants situés à 9 mètres ou moins de lui infligent 4 dégâts supplémentaires chaque fois qu'ils touchent avec une attaque d'arme au corps à corps (déjà inclus dans les attaques d'Arkhan). Ces dégâts supplémentaires sont du même type que celui de l'arme."
+						"Tant qu'Arkhan n'est pas {@condition Incapable}, lui et tous les fiélons et morts-vivants situés à 9 mètres ou moins de lui infligent 4 dégâts supplémentaires chaque fois qu'ils touchent avec une attaque d'arme au corps à corps (déjà inclus dans les attaques d'Arkhan). Ces dégâts supplémentaires sont du même type que celui de l'arme."
 					]
 				},
 				{
 					"name": "Main de Vecna",
 					"entries": [
-						"La {@item Hand of Vecna} possède 8 charges et récupère {@dice 1d4 + 4} charges dépensées chaque jour à l'aube. Arkhan peut lancer les sorts suivants depuis la main en dépensant le nombre de charges indiqué (jet de sauvegarde contre les sorts {@dc 18}) : {@spell finger of death} (5 charges), {@spell sleep} (1 charge), {@spell slow} (2 charges) et {@spell teleport} (3 charges)."
+						"La {@item Main de Vecna} possède 8 charges et récupère {@dice 1d4 + 4} charges dépensées chaque jour à l'aube. Arkhan peut lancer les sorts suivants depuis la main en dépensant le nombre de charges indiqué (jet de sauvegarde contre les sorts {@dc 18}) : {@spell finger of death} (5 charges), {@spell sleep} (1 charge), {@spell slow} (2 charges) et {@spell teleport} (3 charges)."
 					]
 				},
 				{
 					"name": "Équipement spécial",
 					"entries": [
-						"Arkhan manie {@item Dévoreur de temples|BGDIA} et porte une armure {@item Plaque de silex obsidienne de dragon|BGDIA}. Cette armure donne à Arkhan un avantage aux jets de caractéristique et de sauvegarde effectués pour éviter ou mettre fin à l'état {@condition grappled} qui l'affecte."
+						"Arkhan manie {@item Dévoreur de temples|BGDIA} et porte une armure {@item Plaque de silex obsidienne de dragon|BGDIA}. Cette armure donne à Arkhan un avantage aux jets de caractéristique et de sauvegarde effectués pour éviter ou mettre fin à l'état {@condition Agrippé} qui l'affecte."
 					]
 				}
 			],
@@ -796,7 +796,7 @@
 				{
 					"name": "Aura de peur",
 					"entries": [
-						"Toute créature hostile à Bel qui commence son tour à 6 mètres ou moins de lui doit effectuer un jet de sauvegarde de Sagesse {@dc 23}, sauf si Bel est {@condition incapacitated}. En cas d'échec, la créature est {@condition frightened} jusqu'au début de son prochain tour. Si le jet de sauvegarde d'une créature est réussi, elle est immunisée contre l'Aura de peur de Bel pendant les 24 heures suivantes."
+						"Toute créature hostile à Bel qui commence son tour à 6 mètres ou moins de lui doit effectuer un jet de sauvegarde de Sagesse {@dc 23}, sauf si Bel est {@condition Incapable}. En cas d'échec, la créature est {@condition Effrayé} jusqu'au début de son prochain tour. Si le jet de sauvegarde d'une créature est réussi, elle est immunisée contre l'Aura de peur de Bel pendant les 24 heures suivantes."
 					]
 				},
 				{
@@ -834,7 +834,7 @@
 				{
 					"name": "Queue",
 					"entries": [
-						"{@atk mw} {@hit 16} pour toucher, allonge 3 m, une cible. {@h}25 ({@damage 3d10 + 9}) dégâts contondants. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Constitution {@dc 23} ou être {@condition stunned} jusqu'à la fin de son prochain tour."
+						"{@atk mw} {@hit 16} pour toucher, allonge 3 m, une cible. {@h}25 ({@damage 3d10 + 9}) dégâts contondants. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Constitution {@dc 23} ou être {@condition Étourdi} jusqu'à la fin de son prochain tour."
 					]
 				}
 			],
@@ -1027,7 +1027,7 @@
 				{
 					"name": "Queue",
 					"entries": [
-						"{@atk mw} {@hit 10} pour toucher, allonge 3 m, une cible. {@h}10 ({@damage 1d8 + 6}) dégâts perforants. Si la cible est une créature autre qu'un mort-vivant ou une construction, elle doit réussir un jet de sauvegarde de Constitution {@dc 17}, sinon elle perd 10 ({@dice 3d6}) points de vie au début de chacun de ses tours en raison d'une blessure infernale. Chaque fois que Bitter Breath touche la cible blessée avec cette attaque, les dégâts infligés par la blessure augmentent de 10 ({@damage 3d6}). N'importe quelle créature peut utiliser une action pour arrêter la blessure en réussissant un jet de Sagesse ({@skill Medicine}) {@dc 12}. La blessure se referme également si la cible reçoit des soins magiques."
+						"{@atk mw} {@hit 10} pour toucher, allonge 3 m, une cible. {@h}10 ({@damage 1d8 + 6}) dégâts perforants. Si la cible est une créature autre qu'un mort-vivant ou une construction, elle doit réussir un jet de sauvegarde de Constitution {@dc 17}, sinon elle perd 10 ({@dice 3d6}) points de vie au début de chacun de ses tours en raison d'une blessure infernale. Chaque fois que Bitter Breath touche la cible blessée avec cette attaque, les dégâts infligés par la blessure augmentent de 10 ({@damage 3d6}). N'importe quelle créature peut utiliser une action pour arrêter la blessure en réussissant un jet de Sagesse ({@skill Médecine}) {@dc 12}. La blessure se referme également si la cible reçoit des soins magiques."
 					]
 				},
 				{
@@ -1111,7 +1111,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item chain mail|phb}"
+						"{@item Cotte de mailles|phb}"
 					]
 				}
 			],
@@ -1190,7 +1190,7 @@
 				{
 					"name": "Aura de terreur",
 					"entries": [
-						"Lorsqu'une créature hostile située à 1,50 mètre ou moins du gantelet noir effectue un jet d'attaque ou de sauvegarde, elle subit un désavantage au jet. Les créatures immunisées contre l'état {@condition frightened} sont immunisées contre cette capacité."
+						"Lorsqu'une créature hostile située à 1,50 mètre ou moins du gantelet noir effectue un jet d'attaque ou de sauvegarde, elle subit un désavantage au jet. Les créatures immunisées contre l'état {@condition Effrayé} sont immunisées contre cette capacité."
 					]
 				},
 				{
@@ -1302,7 +1302,7 @@
 				{
 					"name": "Adhésif",
 					"entries": [
-						"Le buccin osseux peut faire adhérer à lui des objets de taille M ou plus petite. Une créature de taille M ou plus petite qui touche le buccin osseux est {@condition grappled} par lui (évasion {@dc 10})."
+						"Le buccin osseux peut faire adhérer à lui des objets de taille M ou plus petite. Une créature de taille M ou plus petite qui touche le buccin osseux est {@condition Agrippé} par lui (évasion {@dc 10})."
 					]
 				},
 				{
@@ -1421,7 +1421,7 @@
 					{
 						"name": "Guérisseur",
 						"entries": [
-							"Burney bénéficie des avantages du don {@feat healer} ainsi que de la maîtrise de la {@item healer's kit|phb} et de la {@item herbalism kit|phb}."
+							"Burney bénéficie des avantages du don {@feat Guérisseur} ainsi que de la maîtrise de la {@item Trousse de soins|phb} et de la {@item Trousse d'herboriste|phb}."
 						]
 					},
 					{
@@ -1469,7 +1469,7 @@
 				{
 					"name": "Présence terrifiante",
 					"entries": [
-						"Chaque créature au choix de Burney se trouvant à 36 mètres ou moins d'elle et consciente de sa présence doit réussir un jet de sauvegarde de Sagesse {@dc 19}, sinon elle est {@condition frightened} pendant 1 minute. Une créature peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet si elle réussit. Si le jet de sauvegarde d'une créature est réussi ou si l'effet prend fin pour elle, la créature est immunisée contre la Présence terrifiante de Burney pendant les 24 heures suivantes."
+						"Chaque créature au choix de Burney se trouvant à 36 mètres ou moins d'elle et consciente de sa présence doit réussir un jet de sauvegarde de Sagesse {@dc 19}, sinon elle est {@condition Effrayé} pendant 1 minute. Une créature peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet si elle réussit. Si le jet de sauvegarde d'une créature est réussi ou si l'effet prend fin pour elle, la créature est immunisée contre la Présence terrifiante de Burney pendant les 24 heures suivantes."
 					]
 				},
 				{
@@ -1518,7 +1518,7 @@
 				{
 					"name": "Attaque d'ailes (coûte 2 actions)",
 					"entries": [
-						"Burney bat des ailes. Chaque créature située à 4,50 mètres ou moins d'elle doit réussir un jet de sauvegarde de Dextérité {@dc 23}, sinon elle subit 15 ({@damage 2d6 + 8}) dégâts contondants et est jetée {@condition prone}. Burney peut ensuite voler sur une distance égale à la moitié de sa vitesse de vol."
+						"Burney bat des ailes. Chaque créature située à 4,50 mètres ou moins d'elle doit réussir un jet de sauvegarde de Dextérité {@dc 23}, sinon elle subit 15 ({@damage 2d6 + 8}) dégâts contondants et est jetée {@condition À terre}. Burney peut ensuite voler sur une distance égale à la moitié de sa vitesse de vol."
 					]
 				}
 			],
@@ -1545,7 +1545,7 @@
 							"type": "entries",
 							"name": "Compétences",
 							"entries": [
-								"La plupart des dragons maîtrisent les compétences {@skill Perception} et {@skill Stealth}, et beaucoup de dragons possèdent des maîtrises supplémentaires. Comme pour les langues, vous pouvez personnaliser la liste de compétences d'un dragon (quitte à doubler son bonus de maîtrise pour certaines compétences) afin de refléter des centres d'intérêt et des activités particuliers. Vous pouvez également donner à un dragon des maîtrises d'outils, en particulier si Burney passe du temps sous forme humanoïde."
+								"La plupart des dragons maîtrisent les compétences {@skill Perception} et {@skill Discrétion}, et beaucoup de dragons possèdent des maîtrises supplémentaires. Comme pour les langues, vous pouvez personnaliser la liste de compétences d'un dragon (quitte à doubler son bonus de maîtrise pour certaines compétences) afin de refléter des centres d'intérêt et des activités particuliers. Vous pouvez également donner à un dragon des maîtrises d'outils, en particulier si Burney passe du temps sous forme humanoïde."
 							]
 						},
 						{
@@ -1586,7 +1586,7 @@
 											"name": "Imitation",
 											"entries": [
 												"Se faire passer pour des personnages ou leurs alliés peut être un tour amusant pour un dragon rusé.",
-												"Burney peut imiter tous les sons qu'elle a entendus, y compris des voix. Une créature qui entend ces sons peut déterminer qu'il s'agit d'imitations en réussissant un jet de Sagesse ({@skill Insight}) {@dc 19}."
+												"Burney peut imiter tous les sons qu'elle a entendus, y compris des voix. Une créature qui entend ces sons peut déterminer qu'il s'agit d'imitations en réussissant un jet de Sagesse ({@skill Perspicacité}) {@dc 19}."
 											]
 										},
 										{
@@ -1601,7 +1601,7 @@
 											"type": "item",
 											"name": "Sens spéciaux",
 											"entries": [
-												"La plupart des dragons possèdent la {@sense blindsight} et la {@sense darkvision}. Vous pouvez améliorer la {@sense blindsight} en {@sense truesight}, ou donner le {@sense tremorsense|MM} à un dragon disposant d'une vitesse de creusement."
+												"La plupart des dragons possèdent la {@sense Perception aveugle} et la {@sense Vision dans le noir}. Vous pouvez améliorer la {@sense Perception aveugle} en {@sense Vision véritable}, ou donner le {@sense Perception des vibrations|MM} à un dragon disposant d'une vitesse de creusement."
 											]
 										}
 									]
@@ -1734,13 +1734,13 @@
 				{
 					"name": "Embuscade",
 					"entries": [
-						"Lors du premier round d'un combat, Chukka est avantagé sur ses jets d'attaque contre toute créature qu'il {@status surprised}."
+						"Lors du premier round d'un combat, Chukka est avantagé sur ses jets d'attaque contre toute créature qu'il {@status Surpris}."
 					]
 				},
 				{
 					"name": "Imitation",
 					"entries": [
-						"Chukka peut imiter tous les sons qu'il a entendus, y compris des voix. Une créature qui entend ces sons peut déterminer qu'il s'agit d'imitations en réussissant un jet de Sagesse ({@skill Insight}) {@dc 14}."
+						"Chukka peut imiter tous les sons qu'il a entendus, y compris des voix. Une créature qui entend ces sons peut déterminer qu'il s'agit d'imitations en réussissant un jet de Sagesse ({@skill Perspicacité}) {@dc 14}."
 					]
 				}
 			],
@@ -1846,13 +1846,13 @@
 				{
 					"name": "Embuscade",
 					"entries": [
-						"Lors du premier round d'un combat, Clonk est avantagé sur ses jets d'attaque contre toute créature qu'il {@status surprised}."
+						"Lors du premier round d'un combat, Clonk est avantagé sur ses jets d'attaque contre toute créature qu'il {@status Surpris}."
 					]
 				},
 				{
 					"name": "Imitation",
 					"entries": [
-						"Clonk peut imiter tous les sons qu'il a entendus, y compris des voix. Une créature qui entend ces sons peut déterminer qu'il s'agit d'imitations en réussissant un jet de Sagesse ({@skill Insight}) {@dc 14}."
+						"Clonk peut imiter tous les sons qu'il a entendus, y compris des voix. Une créature qui entend ces sons peut déterminer qu'il s'agit d'imitations en réussissant un jet de Sagesse ({@skill Perspicacité}) {@dc 14}."
 					]
 				}
 			],
@@ -2094,7 +2094,7 @@
 				{
 					"name": "Aura de meurtre",
 					"entries": [
-						"Tant que la tête de mort n'est pas {@condition incapacitated}, les créatures hostiles situées à 1,50 mètre ou moins d'elle deviennent vulnérables aux dégâts perforants, à moins qu'elles ne soient résistantes ou immunisées contre de tels dégâts."
+						"Tant que la tête de mort n'est pas {@condition Incapable}, les créatures hostiles situées à 1,50 mètre ou moins d'elle deviennent vulnérables aux dégâts perforants, à moins qu'elles ne soient résistantes ou immunisées contre de tels dégâts."
 					]
 				},
 				{
@@ -2120,7 +2120,7 @@
 				{
 					"name": "Regard étourdissant",
 					"entries": [
-						"La tête de mort choisit une créature qu'elle peut voir à 9 mètres ou moins d'elle. La cible doit réussir un jet de sauvegarde de Sagesse {@dc 14} ou être {@condition stunned} jusqu'à la fin de son prochain tour."
+						"La tête de mort choisit une créature qu'elle peut voir à 9 mètres ou moins d'elle. La cible doit réussir un jet de sauvegarde de Sagesse {@dc 14} ou être {@condition Étourdi} jusqu'à la fin de son prochain tour."
 					]
 				}
 			],
@@ -2283,7 +2283,7 @@
 				{
 					"name": "Visage horrifique",
 					"entries": [
-						"Chaque créature non morte-vivante située à 18 mètres ou moins de la dryade et pouvant la voir doit réussir un jet de sauvegarde de Sagesse {@dc 13}, sinon elle est {@condition frightened} pendant 1 minute. Une cible {@condition frightened} peut relancer le jet de sauvegarde à la fin de chacun de ses tours, avec un désavantage si la dryade est en vue, mettant fin à l'effet si elle réussit. Si le jet de sauvegarde d'une cible est réussi ou si l'effet prend fin pour elle, la cible est immunisée contre le Visage horrifique de la dryade pendant les 24 heures suivantes."
+						"Chaque créature non morte-vivante située à 18 mètres ou moins de la dryade et pouvant la voir doit réussir un jet de sauvegarde de Sagesse {@dc 13}, sinon elle est {@condition Effrayé} pendant 1 minute. Une cible {@condition Effrayé} peut relancer le jet de sauvegarde à la fin de chacun de ses tours, avec un désavantage si la dryade est en vue, mettant fin à l'effet si elle réussit. Si le jet de sauvegarde d'une cible est réussi ou si l'effet prend fin pour elle, la cible est immunisée contre le Visage horrifique de la dryade pendant les 24 heures suivantes."
 					]
 				},
 				{
@@ -2384,7 +2384,7 @@
 				{
 					"name": "Dévotion des ténèbres",
 					"entries": [
-						"Thalamra bénéficie d'un avantage aux jets de sauvegarde contre l'état {@condition charmed} ou {@condition frightened}."
+						"Thalamra bénéficie d'un avantage aux jets de sauvegarde contre l'état {@condition Charmé} ou {@condition Effrayé}."
 					]
 				},
 				{
@@ -3129,8 +3129,8 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item chain mail|phb}",
-						"{@item shield|phb}"
+						"{@item Cotte de mailles|phb}",
+						"{@item Bouclier|phb}"
 					]
 				}
 			],
@@ -3286,7 +3286,7 @@
 				{
 					"name": "Vulnérabilité à l'antimagie",
 					"entries": [
-						"La dague est {@condition incapacitated} tant qu'elle se trouve dans la zone d'un {@spell antimagic field}. Si elle est ciblée par {@spell dispel magic}, la dague doit réussir un jet de sauvegarde de Constitution contre le DD de sauvegarde de sorts du lanceur, sinon elle tombe {@condition unconscious} pendant 1 minute."
+						"La dague est {@condition Incapable} tant qu'elle se trouve dans la zone d'un {@spell antimagic field}. Si elle est ciblée par {@spell dispel magic}, la dague doit réussir un jet de sauvegarde de Constitution contre le DD de sauvegarde de sorts du lanceur, sinon elle tombe {@condition Inconscient} pendant 1 minute."
 					]
 				},
 				{
@@ -3687,7 +3687,7 @@
 				{
 					"name": "Dard",
 					"entries": [
-						"{@atk mw} {@hit 7} pour toucher, allonge 1,50 m, une créature. {@h}8 ({@damage 1d8 + 4}) dégâts perforants plus 7 ({@damage 2d6}) dégâts de feu, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 12} ou être {@condition poisoned} pendant 1 minute. Tant qu'elle est ainsi {@condition poisoned}, la cible est également {@condition paralyzed}. La cible peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de réussite."
+						"{@atk mw} {@hit 7} pour toucher, allonge 1,50 m, une créature. {@h}8 ({@damage 1d8 + 4}) dégâts perforants plus 7 ({@damage 2d6}) dégâts de feu, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 12} ou être {@condition Empoisonné} pendant 1 minute. Tant qu'elle est ainsi {@condition Empoisonné}, la cible est également {@condition Paralysé}. La cible peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de réussite."
 					]
 				},
 				{
@@ -3785,7 +3785,7 @@
 				{
 					"name": "Morsure",
 					"entries": [
-						"{@atk mw} {@hit 4} pour toucher, allonge 1,50 m, une créature. {@h}4 ({@damage 1d4 + 2}) dégâts perforants, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 11}, sinon elle subit 10 ({@damage 3d6}) dégâts de poison. Si les dégâts de poison réduisent la cible à 0 point de vie, celle-ci est stable mais reste {@condition poisoned} pendant 1 heure, même après avoir récupéré des points de vie, et elle est {@condition paralyzed} tant qu'elle est ainsi {@condition poisoned}."
+						"{@atk mw} {@hit 4} pour toucher, allonge 1,50 m, une créature. {@h}4 ({@damage 1d4 + 2}) dégâts perforants, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 11}, sinon elle subit 10 ({@damage 3d6}) dégâts de poison. Si les dégâts de poison réduisent la cible à 0 point de vie, celle-ci est stable mais reste {@condition Empoisonné} pendant 1 heure, même après avoir récupéré des points de vie, et elle est {@condition Paralysé} tant qu'elle est ainsi {@condition Empoisonné}."
 					]
 				}
 			],
@@ -3938,7 +3938,7 @@
 				{
 					"name": "Trompette assourdissante",
 					"entries": [
-						"Chaque créature dans le cône doit effectuer un jet de sauvegarde de Constitution {@dc 14}. En cas d'échec, une créature subit 17 ({@damage 5d6}) dégâts de tonnerre et est {@condition deafened} pendant 1 minute. En cas de réussite, une créature subit la moitié de ces dégâts seulement et n'est pas {@condition deafened}. Les objets non magiques dans le cône qui ne sont ni tenus ni portés subissent 35 ({@damage 10d6}) dégâts de tonnerre."
+						"Chaque créature dans le cône doit effectuer un jet de sauvegarde de Constitution {@dc 14}. En cas d'échec, une créature subit 17 ({@damage 5d6}) dégâts de tonnerre et est {@condition Assourdi} pendant 1 minute. En cas de réussite, une créature subit la moitié de ces dégâts seulement et n'est pas {@condition Assourdi}. Les objets non magiques dans le cône qui ne sont ni tenus ni portés subissent 35 ({@damage 10d6}) dégâts de tonnerre."
 					]
 				},
 				{
@@ -4005,7 +4005,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item chain mail|phb}"
+						"{@item Cotte de mailles|phb}"
 					]
 				}
 			],
@@ -4462,7 +4462,7 @@
 				{
 					"name": "Défense de carapace",
 					"entries": [
-						"Krull se réfugie dans sa carapace. Jusqu'à ce qu'il en sorte par une action bonus, il bénéficie d'un bonus de +4 à la CA et d'un avantage aux jets de sauvegarde de Force et de Constitution. Tant qu'il est dans sa carapace, Krull est {@condition prone}, sa vitesse est de 0 et ne peut pas augmenter, il subit un désavantage aux jets de sauvegarde de Dextérité, il ne peut pas prendre de réactions, et la seule action qu'il peut entreprendre est de sortir de sa carapace."
+						"Krull se réfugie dans sa carapace. Jusqu'à ce qu'il en sorte par une action bonus, il bénéficie d'un bonus de +4 à la CA et d'un avantage aux jets de sauvegarde de Force et de Constitution. Tant qu'il est dans sa carapace, Krull est {@condition À terre}, sa vitesse est de 0 et ne peut pas augmenter, il subit un désavantage aux jets de sauvegarde de Dextérité, il ne peut pas prendre de réactions, et la seule action qu'il peut entreprendre est de sortir de sa carapace."
 					]
 				}
 			],
@@ -4628,7 +4628,7 @@
 				{
 					"name": "Trompette assourdissante",
 					"entries": [
-						"Chaque créature dans le cône doit effectuer un jet de sauvegarde de Constitution {@dc 14}. En cas d'échec, une créature subit 17 ({@damage 5d6}) dégâts de tonnerre et est {@condition deafened} pendant 1 minute. En cas de réussite, une créature subit la moitié de ces dégâts seulement et n'est pas {@condition deafened}. Les objets non magiques dans le cône qui ne sont ni tenus ni portés subissent 35 ({@damage 10d6}) dégâts de tonnerre."
+						"Chaque créature dans le cône doit effectuer un jet de sauvegarde de Constitution {@dc 14}. En cas d'échec, une créature subit 17 ({@damage 5d6}) dégâts de tonnerre et est {@condition Assourdi} pendant 1 minute. En cas de réussite, une créature subit la moitié de ces dégâts seulement et n'est pas {@condition Assourdi}. Les objets non magiques dans le cône qui ne sont ni tenus ni portés subissent 35 ({@damage 10d6}) dégâts de tonnerre."
 					]
 				},
 				{
@@ -4803,14 +4803,14 @@
 							"type": "entries",
 							"name": "Pierre de cœur",
 							"entries": [
-								"Cette gemme noire lustrée permet à une sorcière nocturne de devenir éthérée tant qu'elle la possède. Le toucher d'une {@item heartstone|MM} guérit également n'importe quelle maladie. Fabriquer une pierre de cœur prend 30 jours."
+								"Cette gemme noire lustrée permet à une sorcière nocturne de devenir éthérée tant qu'elle la possède. Le toucher d'une {@item Cœur de pierre|MM} guérit également n'importe quelle maladie. Fabriquer une pierre de cœur prend 30 jours."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Sac d'âmes",
 							"entries": [
-								"Quand un humanoïde mauvais meurt des suites de la Hantise cauchemardesque d'une sorcière nocturne, Maggie attrape son âme dans ce sac noir fait de chair cousue. Un {@item soul bag|MM} ne peut contenir qu'une seule âme mauvaise à la fois, et seule la sorcière nocturne qui a fabriqué le sac peut attraper une âme avec. Fabriquer un sac d'âmes prend 7 jours et un sacrifice humanoïde (dont la chair sert à fabriquer le sac)."
+								"Quand un humanoïde mauvais meurt des suites de la Hantise cauchemardesque d'une sorcière nocturne, Maggie attrape son âme dans ce sac noir fait de chair cousue. Un {@item Sac d'âmes|MM} ne peut contenir qu'une seule âme mauvaise à la fois, et seule la sorcière nocturne qui a fabriqué le sac peut attraper une âme avec. Fabriquer un sac d'âmes prend 7 jours et un sacrifice humanoïde (dont la chair sert à fabriquer le sac)."
 							]
 						}
 					]
@@ -4911,8 +4911,8 @@
 							"type": "entries",
 							"name": "Œil de sorcière",
 							"entries": [
-								"Un cercle de sorcières peut fabriquer un objet magique appelé œil de sorcière, réalisé à partir d'un véritable œil recouvert de vernis et souvent fixé à un pendentif ou à un autre objet portable. L'œil de Maggie est généralement confié à un serviteur pour qu'il le garde et le transporte. Une sorcière du cercle peut utiliser une action pour voir ce que voit l'œil de Maggie si celui-ci se trouve sur le même plan d'existence. Un œil de sorcière possède une CA de 10, 1 point de vie et une vision dans le noir d'un rayon de 18 mètres. S'il est détruit, chaque membre du cercle subit {@damage 3d10} dégâts psychiques et est {@condition blinded} pendant 24 heures.",
-								"Un cercle de sorcières ne peut posséder qu'un seul œil de sorcière à la fois, et en créer un nouveau exige que les trois membres du cercle accomplissent un rituel. Le rituel prend 1 heure, et Maggie ne peut pas l'accomplir tant qu'elle est {@condition blinded}. Pendant le rituel, si les Maggie entreprennent une autre action que l'accomplissement du rituel, elles doivent recommencer."
+								"Un cercle de sorcières peut fabriquer un objet magique appelé œil de sorcière, réalisé à partir d'un véritable œil recouvert de vernis et souvent fixé à un pendentif ou à un autre objet portable. L'œil de Maggie est généralement confié à un serviteur pour qu'il le garde et le transporte. Une sorcière du cercle peut utiliser une action pour voir ce que voit l'œil de Maggie si celui-ci se trouve sur le même plan d'existence. Un œil de sorcière possède une CA de 10, 1 point de vie et une vision dans le noir d'un rayon de 18 mètres. S'il est détruit, chaque membre du cercle subit {@damage 3d10} dégâts psychiques et est {@condition Aveuglé} pendant 24 heures.",
+								"Un cercle de sorcières ne peut posséder qu'un seul œil de sorcière à la fois, et en créer un nouveau exige que les trois membres du cercle accomplissent un rituel. Le rituel prend 1 heure, et Maggie ne peut pas l'accomplir tant qu'elle est {@condition Aveuglé}. Pendant le rituel, si les Maggie entreprennent une autre action que l'accomplissement du rituel, elles doivent recommencer."
 							]
 						}
 					]
@@ -5347,7 +5347,7 @@
 				{
 					"name": "Rayon affaiblissant (sort de niveau 1 ; nécessite un emplacement de sort)",
 					"entries": [
-						"{@atk rs} {@hit 6} pour toucher, portée 18 m, une créature. {@h}9 ({@damage 2d8}) dégâts de poison, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 14} ou être {@condition poisoned} jusqu'à la fin du prochain tour du maître des âmes. Si le maître des âmes lance ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, les dégâts augmentent de {@damage 1d8} par niveau d'emplacement au-delà du 1er."
+						"{@atk rs} {@hit 6} pour toucher, portée 18 m, une créature. {@h}9 ({@damage 2d8}) dégâts de poison, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 14} ou être {@condition Empoisonné} jusqu'à la fin du prochain tour du maître des âmes. Si le maître des âmes lance ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, les dégâts augmentent de {@damage 1d8} par niveau d'emplacement au-delà du 1er."
 					]
 				},
 				{
@@ -5641,14 +5641,14 @@
 				{
 					"name": "Morsure",
 					"entries": [
-						"{@atk mw} {@hit 11} pour toucher, allonge 3 m, une cible. {@h}40 ({@damage 6d10 + 7}) dégâts perforants plus 10 ({@damage 3d6}) dégâts nécrotiques. Si la cible est une créature, elle est {@condition grappled} (évasion {@dc 17}). Tant que cette prise perdure, la cible est {@condition restrained}, et le scolopendre ne peut pas mordre une autre cible."
+						"{@atk mw} {@hit 11} pour toucher, allonge 3 m, une cible. {@h}40 ({@damage 6d10 + 7}) dégâts perforants plus 10 ({@damage 3d6}) dégâts nécrotiques. Si la cible est une créature, elle est {@condition Agrippé} (évasion {@dc 17}). Tant que cette prise perdure, la cible est {@condition Entravé}, et le scolopendre ne peut pas mordre une autre cible."
 					]
 				},
 				{
 					"name": "Engloutir",
 					"entries": [
-						"Le scolopendre effectue une attaque de morsure contre une créature de taille M ou plus petite qu'il agrippe. Si l'attaque touche, la créature subit les dégâts de la morsure et est engloutie, et la prise prend fin. Tant qu'elle est engloutie, la créature est {@condition blinded} et {@condition restrained}, elle bénéficie d'un {@quickref Cover||3||total cover} contre les attaques et autres effets extérieurs au scolopendre, et elle subit 21 ({@damage 6d6}) dégâts d'acide au début de chacun des tours du scolopendre.",
-						"Si le scolopendre subit 30 dégâts ou plus en un seul tour de la part d'une créature se trouvant à l'intérieur de lui, il doit réussir un jet de sauvegarde de Constitution {@dc 15} à la fin de ce tour, sinon il régurgite toutes les créatures englouties, qui tombent {@condition prone} dans un espace situé à 3 mètres ou moins du scolopendre. Si le scolopendre meurt, une créature engloutie n'est plus {@condition restrained} par lui et peut s'échapper du cadavre en utilisant 4,50 mètres de déplacement, ressortant {@condition prone}."
+						"Le scolopendre effectue une attaque de morsure contre une créature de taille M ou plus petite qu'il agrippe. Si l'attaque touche, la créature subit les dégâts de la morsure et est engloutie, et la prise prend fin. Tant qu'elle est engloutie, la créature est {@condition Aveuglé} et {@condition Entravé}, elle bénéficie d'un {@quickref Cover||3||total cover} contre les attaques et autres effets extérieurs au scolopendre, et elle subit 21 ({@damage 6d6}) dégâts d'acide au début de chacun des tours du scolopendre.",
+						"Si le scolopendre subit 30 dégâts ou plus en un seul tour de la part d'une créature se trouvant à l'intérieur de lui, il doit réussir un jet de sauvegarde de Constitution {@dc 15} à la fin de ce tour, sinon il régurgite toutes les créatures englouties, qui tombent {@condition À terre} dans un espace situé à 3 mètres ou moins du scolopendre. Si le scolopendre meurt, une créature engloutie n'est plus {@condition Entravé} par lui et peut s'échapper du cadavre en utilisant 4,50 mètres de déplacement, ressortant {@condition À terre}."
 					]
 				}
 			],
@@ -5739,7 +5739,7 @@
 				{
 					"name": "Aura de meurtre",
 					"entries": [
-						"Tant que la lame nocturne n'est pas {@condition incapacitated}, les créatures hostiles situées à 1,50 mètre ou moins d'elle deviennent vulnérables aux dégâts perforants, à moins qu'elles ne soient résistantes ou immunisées contre de tels dégâts."
+						"Tant que la lame nocturne n'est pas {@condition Incapable}, les créatures hostiles situées à 1,50 mètre ou moins d'elle deviennent vulnérables aux dégâts perforants, à moins qu'elles ne soient résistantes ou immunisées contre de tels dégâts."
 					]
 				}
 			],
@@ -5794,7 +5794,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -5834,7 +5834,7 @@
 				{
 					"name": "Action rusée",
 					"entries": [
-						"À chacun de ses tours en combat, Keene peut utiliser une action bonus pour effectuer l'action {@action Dash}, {@action Disengage} ou {@action Hide}."
+						"À chacun de ses tours en combat, Keene peut utiliser une action bonus pour effectuer l'action {@action Course}, {@action Désengagement} ou {@action Se cacher}."
 					]
 				},
 				{
@@ -5942,7 +5942,7 @@
 				{
 					"name": "Tactique de meute",
 					"entries": [
-						"Le paon est avantagé sur son jet d'attaque contre une créature si au moins un des alliés du paon se trouve à 1,50 mètre ou moins de la créature et que cet allié n'est pas {@condition incapacitated}."
+						"Le paon est avantagé sur son jet d'attaque contre une créature si au moins un des alliés du paon se trouve à 1,50 mètre ou moins de la créature et que cet allié n'est pas {@condition Incapable}."
 					]
 				}
 			],
@@ -6083,14 +6083,14 @@
 				{
 					"name": "Chaîne",
 					"entries": [
-						"{@atk mw} {@hit 8} pour toucher, allonge 3 m, une cible. {@h}11 ({@damage 2d6 + 4}) dégâts tranchants. La cible est {@condition grappled} (évasion {@dc 14}) si Kovik n'agrippe pas déjà une créature. Tant que cette prise perdure, la cible est {@condition restrained} et subit 7 ({@damage 2d6}) dégâts perforants au début de chacun de ses tours."
+						"{@atk mw} {@hit 8} pour toucher, allonge 3 m, une cible. {@h}11 ({@damage 2d6 + 4}) dégâts tranchants. La cible est {@condition Agrippé} (évasion {@dc 14}) si Kovik n'agrippe pas déjà une créature. Tant que cette prise perdure, la cible est {@condition Entravé} et subit 7 ({@damage 2d6}) dégâts perforants au début de chacun de ses tours."
 					]
 				},
 				{
 					"name": "Chaînes animées (se recharge après un repos court ou long)",
 					"entries": [
 						"Jusqu'à quatre chaînes que Kovik peut voir à 18 mètres ou moins de lui se couvrent magiquement de barbes acérées et s'animent sous son contrôle, à condition que ces chaînes ne soient ni portées ni transportées.",
-						"Chaque chaîne animée est un objet avec une CA de 20, 20 points de vie, une résistance aux dégâts perforants et une immunité aux dégâts psychiques et de tonnerre. Quand Kovik utilise Attaques multiples pendant son tour, il peut utiliser chaque chaîne animée pour effectuer une attaque de chaîne supplémentaire. Une chaîne animée peut agripper une créature en propre, mais ne peut pas effectuer d'attaques tout en agrippant. Une chaîne animée redevient inerte si elle est réduite à 0 point de vie ou si Kovik est {@condition incapacitated} ou meurt."
+						"Chaque chaîne animée est un objet avec une CA de 20, 20 points de vie, une résistance aux dégâts perforants et une immunité aux dégâts psychiques et de tonnerre. Quand Kovik utilise Attaques multiples pendant son tour, il peut utiliser chaque chaîne animée pour effectuer une attaque de chaîne supplémentaire. Une chaîne animée peut agripper une créature en propre, mais ne peut pas effectuer d'attaques tout en agrippant. Une chaîne animée redevient inerte si elle est réduite à 0 point de vie ou si Kovik est {@condition Incapable} ou meurt."
 					]
 				}
 			],
@@ -6098,7 +6098,7 @@
 				{
 					"name": "Masque inquiétant",
 					"entries": [
-						"Quand une créature que Kovik peut voir commence son tour à 9 mètres ou moins de lui, Kovik peut créer l'illusion qu'il ressemble à l'un des proches disparus ou ennemis jurés de la créature. Si la créature peut voir Kovik, elle doit réussir un jet de sauvegarde de Sagesse {@dc 14}, sinon elle est {@condition frightened} jusqu'à la fin de son tour."
+						"Quand une créature que Kovik peut voir commence son tour à 9 mètres ou moins de lui, Kovik peut créer l'illusion qu'il ressemble à l'un des proches disparus ou ennemis jurés de la créature. Si la créature peut voir Kovik, elle doit réussir un jet de sauvegarde de Sagesse {@dc 14}, sinon elle est {@condition Effrayé} jusqu'à la fin de son tour."
 					]
 				}
 			],
@@ -6237,7 +6237,7 @@
 				{
 					"name": "Charge (sous forme de sanglier ou hybride uniquement)",
 					"entries": [
-						"Si Raggadragga se déplace en ligne droite sur au moins 4,50 mètres vers une cible et la touche ensuite avec ses défenses pendant le même tour, la cible subit 7 ({@damage 2d6}) dégâts tranchants supplémentaires. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Force {@dc 13}, sinon elle est jetée {@condition prone}."
+						"Si Raggadragga se déplace en ligne droite sur au moins 4,50 mètres vers une cible et la touche ensuite avec ses défenses pendant le même tour, la cible subit 7 ({@damage 2d6}) dégâts tranchants supplémentaires. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Force {@dc 13}, sinon elle est jetée {@condition À terre}."
 					]
 				},
 				{
@@ -6392,7 +6392,7 @@
 				{
 					"name": "Aura de meurtre",
 					"entries": [
-						"Tant que le faucheur n'est pas {@condition incapacitated}, les créatures hostiles situées à 1,50 mètre ou moins de lui deviennent vulnérables aux dégâts perforants, à moins qu'elles ne soient résistantes ou immunisées contre de tels dégâts."
+						"Tant que le faucheur n'est pas {@condition Incapable}, les créatures hostiles situées à 1,50 mètre ou moins de lui deviennent vulnérables aux dégâts perforants, à moins qu'elles ne soient résistantes ou immunisées contre de tels dégâts."
 					]
 				}
 			],
@@ -6475,7 +6475,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -6514,7 +6514,7 @@
 				{
 					"name": "Action rusée",
 					"entries": [
-						"À chacun de ses tours en combat, Rilsa peut utiliser une action bonus pour effectuer l'action {@action Dash}, {@action Disengage} ou {@action Hide}."
+						"À chacun de ses tours en combat, Rilsa peut utiliser une action bonus pour effectuer l'action {@action Course}, {@action Désengagement} ou {@action Se cacher}."
 					]
 				},
 				{
@@ -6786,7 +6786,7 @@
 				{
 					"name": "Rayon affaiblissant (sort de niveau 1 ; nécessite un emplacement de sort)",
 					"entries": [
-						"{@atk rs} {@hit 5} pour toucher, portée 18 m, une créature. {@h}9 ({@damage 2d8}) dégâts de poison, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 13} ou être {@condition poisoned} jusqu'à la fin du prochain tour du fouetteur de crânes. Si le fouetteur de crânes lance ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, les dégâts augmentent de {@damage 1d8} par niveau d'emplacement au-delà du 1er."
+						"{@atk rs} {@hit 5} pour toucher, portée 18 m, une créature. {@h}9 ({@damage 2d8}) dégâts de poison, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 13} ou être {@condition Empoisonné} jusqu'à la fin du prochain tour du fouetteur de crânes. Si le fouetteur de crânes lance ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, les dégâts augmentent de {@damage 1d8} par niveau d'emplacement au-delà du 1er."
 					]
 				}
 			],
@@ -7442,7 +7442,7 @@
 				{
 					"name": "Dévotion des ténèbres",
 					"entries": [
-						"Thurstwell bénéficie d'un avantage aux jets de sauvegarde contre l'état {@condition charmed} ou {@condition frightened}."
+						"Thurstwell bénéficie d'un avantage aux jets de sauvegarde contre l'état {@condition Charmé} ou {@condition Effrayé}."
 					]
 				}
 			],
@@ -7534,7 +7534,7 @@
 				{
 					"name": "Assaut cornu",
 					"entries": [
-						"Immédiatement après avoir utilisé l'action {@action Dash}, Torogar peut effectuer une attaque au corps à corps avec ses cornes."
+						"Immédiatement après avoir utilisé l'action {@action Course}, Torogar peut effectuer une attaque au corps à corps avec ses cornes."
 					]
 				},
 				{
@@ -7546,7 +7546,7 @@
 				{
 					"name": "Rage (se recharge après un repos court ou long)",
 					"entries": [
-						"Par une action bonus, Torogar peut entrer dans une rage qui dure 1 minute. La rage se termine plus tôt si Torogar tombe {@condition unconscious} ou si son tour se termine sans qu'il ait attaqué une créature hostile ou subi des dégâts depuis son dernier tour. Pendant sa rage, Torogar bénéficie des avantages suivants :",
+						"Par une action bonus, Torogar peut entrer dans une rage qui dure 1 minute. La rage se termine plus tôt si Torogar tombe {@condition Inconscient} ou si son tour se termine sans qu'il ait attaqué une créature hostile ou subi des dégâts depuis son dernier tour. Pendant sa rage, Torogar bénéficie des avantages suivants :",
 						"Il bénéficie d'un avantage aux tests et aux jets de sauvegarde de Force.",
 						"Il inflige 3 dégâts supplémentaires quand il touche une cible avec une attaque d'arme au corps à corps.",
 						"Il est résistant aux dégâts contondants, perforants et tranchants."
@@ -7555,7 +7555,7 @@
 				{
 					"name": "Équipement spécial",
 					"entries": [
-						"Torogar porte des {@item Gantelets de fureur flamboyante|BGDIA} et une {@item belt of fire giant strength}. Sans la ceinture, sa Force est de 21. Il transporte également une {@item Pièce d'âme|BGDIA}."
+						"Torogar porte des {@item Gantelets de fureur flamboyante|BGDIA} et une {@item Ceinturon de force de géant du feu}. Sans la ceinture, sa Force est de 21. Il transporte également une {@item Pièce d'âme|BGDIA}."
 					]
 				}
 			],
@@ -8021,8 +8021,8 @@
 				{
 					"ac": 20,
 					"from": [
-						"{@item plate armor|phb}",
-						"{@item shield|phb}"
+						"{@item Harnois de plaques|phb}",
+						"{@item Bouclier|phb}"
 					]
 				}
 			],

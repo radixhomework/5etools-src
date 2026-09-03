@@ -76,7 +76,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The ettin has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+						"The ettin has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition Aveuglé}, {@condition Charmé}, {@condition Assourdi}, {@condition Effrayé}, {@condition Étourdi}, and knocked {@condition Inconscient}."
 					]
 				},
 				{
@@ -120,20 +120,20 @@
 				{
 					"name": "Gaze",
 					"entries": [
-						"The ettin turns its magical gaze toward one creature that it can see within 120 feet of it. That target must make a {@dc 14} Wisdom saving throw. Unless the target is {@condition incapacitated}, it can avert its eyes to avoid the gaze and to automatically succeed on the save. If the target does so, it can't see the ettin until the start of the ettin's next turn. If the target looks at the ettin in the meantime, it must immediately make the save.",
+						"The ettin turns its magical gaze toward one creature that it can see within 120 feet of it. That target must make a {@dc 14} Wisdom saving throw. Unless the target is {@condition Incapable}, it can avert its eyes to avoid the gaze and to automatically succeed on the save. If the target does so, it can't see the ettin until the start of the ettin's next turn. If the target looks at the ettin in the meantime, it must immediately make the save.",
 						"If the target fails the save, it suffers one of the following effects of the ettin's choice or at random:"
 					]
 				},
 				{
 					"name": "Beguiling Gaze",
 					"entries": [
-						"The target is {@condition stunned} until the start of the ettin's next turn or until the ettin is no longer within line of sight."
+						"The target is {@condition Étourdi} until the start of the ettin's next turn or until the ettin is no longer within line of sight."
 					]
 				},
 				{
 					"name": "Hypnotic Gaze",
 					"entries": [
-						"The target is {@condition charmed} by the ettin until the start of the ettin's next turn. The ettin chooses how the {@condition charmed} target uses its actions, reactions, and movement."
+						"The target is {@condition Charmé} by the ettin until the start of the ettin's next turn. The ettin chooses how the {@condition Charmé} target uses its actions, reactions, and movement."
 					]
 				},
 				{
@@ -308,7 +308,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|phb|studded leather}"
+						"{@item Armure de cuir clouté|phb|studded leather}"
 					]
 				}
 			],
@@ -395,7 +395,7 @@
 				{
 					"name": "Light Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition unconscious}. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
+						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition Empoisonné} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition Inconscient}. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
 					]
 				},
 				{
@@ -563,8 +563,8 @@
 				{
 					"name": "Petrifying Gaze",
 					"entries": [
-						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 14} Constitution saving throw if the medusa isn't {@condition incapacitated} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition petrified}. Otherwise, a creature that fails the save begins to turn to metal, wood, or porcelain (the medusa's choice) and is {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic.",
-						"Unless {@status surprised}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.",
+						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 14} Constitution saving throw if the medusa isn't {@condition Incapable} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition Pétrifié}. Otherwise, a creature that fails the save begins to turn to metal, wood, or porcelain (the medusa's choice) and is {@condition Entravé}. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn, becoming {@condition Pétrifié} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic.",
+						"Unless {@status Surpris}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.",
 						"If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze."
 					]
 				}
@@ -606,7 +606,7 @@
 						"items": {
 							"name": "Pacifying Spores (3/Day)",
 							"entries": [
-								"Grandfather Oak ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								"Grandfather Oak ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 17} Constitution saving throw or be {@condition Étourdi} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 							]
 						}
 					}
@@ -638,7 +638,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item Armure de cuir|phb}"
 					]
 				}
 			],
@@ -689,7 +689,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Lynx's crystal eye is a magically shrunken {@item crystal ball} of true seeing. One of her teeth is a refashioned {@item ring of mind shielding}, while another has been magicked to place her under a permanent {@spell Nystul's magic aura} spell, concealing the magic of these items and hiding her true nature from magic or features that can detect undead."
+						"Lynx's crystal eye is a magically shrunken {@item Boule de cristal} of true seeing. One of her teeth is a refashioned {@item Anneau de protection mentale}, while another has been magicked to place her under a permanent {@spell Nystul's magic aura} spell, concealing the magic of these items and hiding her true nature from magic or features that can detect undead."
 					]
 				},
 				{
@@ -797,7 +797,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item breastplate|phb}"
+						"{@item Cuirasse|phb}"
 					]
 				}
 			],
@@ -896,7 +896,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Moghadam wields {@item Ruinblade|IMR} (see appendix C)."
+						"Moghadam wields {@item Lame de ruine|IMR} (see appendix C)."
 					]
 				},
 				{
@@ -922,13 +922,13 @@
 				{
 					"name": "Blight (1/Day)",
 					"entries": [
-						"While wielding {@item Ruinblade|IMR}, Moghadam can cast the {@spell blight} spell ({@dc 15})."
+						"While wielding {@item Lame de ruine|IMR}, Moghadam can cast the {@spell blight} spell ({@dc 15})."
 					]
 				},
 				{
 					"name": "Disintegrate (1/7 Days)",
 					"entries": [
-						"While wielding {@item Ruinblade|IMR}, Moghadam can cast the {@spell disintegrate} spell against any nonmagical object or creation of magical force."
+						"While wielding {@item Lame de ruine|IMR}, Moghadam can cast the {@spell disintegrate} spell against any nonmagical object or creation of magical force."
 					]
 				},
 				{
@@ -1056,19 +1056,19 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage. If the target is a creature, it must succeed on a {@dc 17} Constitution saving throw against disease or become {@condition poisoned} until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 ({@dice 1d10}) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured."
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage. If the target is a creature, it must succeed on a {@dc 17} Constitution saving throw against disease or become {@condition Empoisonné} until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 ({@dice 1d10}) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured."
 					]
 				},
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage. If the target is Large or smaller, it is {@condition grappled} (escape {@dc 16}) and {@condition restrained} until the grapple ends. The neo-otyugh has two tentacles, each of which can grapple one target."
+						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage. If the target is Large or smaller, it is {@condition Agrippé} (escape {@dc 16}) and {@condition Entravé} until the grapple ends. The neo-otyugh has two tentacles, each of which can grapple one target."
 					]
 				},
 				{
 					"name": "Tentacle Slam",
 					"entries": [
-						"The neo-otyugh slams creatures {@condition grappled} by it into each other or a solid surface. Each creature must succeed on a {@dc 16} Constitution saving throw or take 15 ({@damage 3d6 + 5}) bludgeoning damage and be {@condition stunned} until the end of the neo-otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't {@condition stunned}."
+						"The neo-otyugh slams creatures {@condition Agrippé} by it into each other or a solid surface. Each creature must succeed on a {@dc 16} Constitution saving throw or take 15 ({@damage 3d6 + 5}) bludgeoning damage and be {@condition Étourdi} until the end of the neo-otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't {@condition Étourdi}."
 					]
 				}
 			],
@@ -1192,8 +1192,8 @@
 				{
 					"ac": 20,
 					"from": [
-						"{@item plate armor|phb}",
-						"{@item shield|phb}"
+						"{@item Harnois de plaques|phb}",
+						"{@item Bouclier|phb}"
 					]
 				}
 			],
@@ -1232,13 +1232,13 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Sir Ursas wears a {@item ring of mind shielding} and {@item plate armor of fire resistance}."
+						"Sir Ursas wears a {@item Anneau de protection mentale} and {@item plate armor of fire resistance}."
 					]
 				},
 				{
 					"name": "Brave",
 					"entries": [
-						"Sir Ursas has advantage on saving throws against being {@condition frightened}."
+						"Sir Ursas has advantage on saving throws against being {@condition Effrayé}."
 					]
 				},
 				{
@@ -1270,7 +1270,7 @@
 				{
 					"name": "Shield Bash",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage, and if the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage, and if the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition À terre}."
 					]
 				}
 			],
@@ -1508,7 +1508,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item breastplate|phb}"
+						"{@item Cuirasse|phb}"
 					]
 				}
 			],
@@ -1614,7 +1614,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Thessalar wields a {@item +1 dagger} coated with {@item Thessaltoxin|IMR|thessaltoxin poison} (see appendix C)."
+						"Thessalar wields a {@item +1 dagger} coated with {@item Thessalotoxine|IMR|thessaltoxin poison} (see appendix C)."
 					]
 				},
 				{
@@ -1632,7 +1632,7 @@
 				{
 					"name": "Greater Restoration (1/Day)",
 					"entries": [
-						"Thessalar can cast {@spell greater restoration} if he has access to {@item Alchemist's Supplies|phb|alchemical supplies}."
+						"Thessalar can cast {@spell greater restoration} if he has access to {@item Fournitures d'alchimiste|phb|alchemical supplies}."
 					]
 				}
 			],
@@ -1776,7 +1776,7 @@
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 slashing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition poisoned} for 5 ({@dice 1d10}) minutes and {@condition unconscious} while {@condition poisoned} in this way."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 slashing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition Empoisonné} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition Empoisonné} for 5 ({@dice 1d10}) minutes and {@condition Inconscient} while {@condition Empoisonné} in this way."
 					]
 				}
 			],
@@ -1888,7 +1888,7 @@
 				{
 					"name": "Freedom of Movement",
 					"entries": [
-						"The thessalkraken ignores {@quickref difficult terrain||3}, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+						"The thessalkraken ignores {@quickref difficult terrain||3}, and magical effects can't reduce its speed or cause it to be {@condition Entravé}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition Agrippé}."
 					]
 				}
 			],
@@ -1902,20 +1902,20 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) piercing damage plus 5 ({@damage 1d10}) acid damage. If the target is a Medium or smaller creature {@condition grappled} by the thessalkraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has {@quickref Cover||3||total cover} against attacks and other effects outside the thessalkraken, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the thessalkraken's turns.",
-						"If the thessalkraken takes 35 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 23} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the thessalkraken. If the thessalkraken dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 10 feet of movement, exiting {@condition prone}."
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) piercing damage plus 5 ({@damage 1d10}) acid damage. If the target is a Medium or smaller creature {@condition Agrippé} by the thessalkraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is {@condition Aveuglé} and {@condition Entravé}, it has {@quickref Cover||3||total cover} against attacks and other effects outside the thessalkraken, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the thessalkraken's turns.",
+						"If the thessalkraken takes 35 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 23} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition À terre} in a space within 10 feet of the thessalkraken. If the thessalkraken dies, a swallowed creature is no longer {@condition Entravé} by it and can escape from the corpse using 10 feet of movement, exiting {@condition À terre}."
 					]
 				},
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 20 ft., one target. {@h}17 ({@damage 3d6 + 7}) slashing damage, and the target is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}. The thessalkraken has ten tentacles, each of which can grapple one target."
+						"{@atk mw} {@hit 12} to hit, reach 20 ft., one target. {@h}17 ({@damage 3d6 + 7}) slashing damage, and the target is {@condition Agrippé} (escape {@dc 16}). Until this grapple ends, the target is {@condition Entravé}. The thessalkraken has ten tentacles, each of which can grapple one target."
 					]
 				},
 				{
 					"name": "Fling",
 					"entries": [
-						"One Medium or smaller object held or creature {@condition grappled} by the thessalkraken is thrown up to 40 feet in a random direction and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 16} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+						"One Medium or smaller object held or creature {@condition Agrippé} by the thessalkraken is thrown up to 40 feet in a random direction and knocked {@condition À terre}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 16} Dexterity saving throw or take the same damage and be knocked {@condition À terre}."
 					]
 				},
 				{
@@ -2079,7 +2079,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The two-headed crocodile has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+						"The two-headed crocodile has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition Aveuglé}, {@condition Charmé}, {@condition Assourdi}, {@condition Effrayé}, {@condition Étourdi}, and knocked {@condition Inconscient}."
 					]
 				},
 				{
@@ -2099,7 +2099,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained}, and that head of the crocodile can't bite another target."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage, and the target is {@condition Agrippé} (escape {@dc 12}). Until this grapple ends, the target is {@condition Entravé}, and that head of the crocodile can't bite another target."
 					]
 				}
 			],
@@ -2166,7 +2166,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The two-headed owlbear has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+						"The two-headed owlbear has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition Aveuglé}, {@condition Charmé}, {@condition Assourdi}, {@condition Effrayé}, {@condition Étourdi}, and knocked {@condition Inconscient}."
 					]
 				},
 				{

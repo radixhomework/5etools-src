@@ -179,8 +179,8 @@
 				{
 					"name": "Charm",
 					"entries": [
-						"A creature can grab the staff out of the air with a successful grapple check against the staff, and grappling the staff does not reduce the creature's speed. Any creature that successfully grapples the staff must succeed on a {@dc 12} Charisma saving throw or be {@condition charmed} by the staff until the staff is no longer in its grasp. While the creature is {@condition charmed}, the staff can issue commands to it, which the creature does its best to obey. The creature can repeat the saving throw each time it takes damage, ending the effect on itself on a success. A creature that successfully resists the staff's control can't be {@condition charmed} by it for 24 hours.",
-						"A creature holding the staff that isn't {@condition charmed} by it can use an action to attempt to break the staff over a knee or against a solid surface, doing so with a successful {@dc 17} Strength ({@skill Athletics}) check. Breaking the staff in this manner destroys it."
+						"A creature can grab the staff out of the air with a successful grapple check against the staff, and grappling the staff does not reduce the creature's speed. Any creature that successfully grapples the staff must succeed on a {@dc 12} Charisma saving throw or be {@condition Charmé} by the staff until the staff is no longer in its grasp. While the creature is {@condition Charmé}, the staff can issue commands to it, which the creature does its best to obey. The creature can repeat the saving throw each time it takes damage, ending the effect on itself on a success. A creature that successfully resists the staff's control can't be {@condition Charmé} by it for 24 hours.",
+						"A creature holding the staff that isn't {@condition Charmé} by it can use an action to attempt to break the staff over a knee or against a solid surface, doing so with a successful {@dc 17} Strength ({@skill Athlétisme}) check. Breaking the staff in this manner destroys it."
 					]
 				}
 			],
@@ -390,7 +390,7 @@
 						"items": {
 							"name": "Wand of Wonder",
 							"entries": [
-								"The animated wand can expend 1 of its charges and target a random creature with one of its {@item wand of wonder||randomly determined effects}. Any such effect that would target the wand's user targets the wand instead. If reduced to 0 hit points, the wand crumbles into dust and is destroyed."
+								"The animated wand can expend 1 of its charges and target a random creature with one of its {@item Baguette des merveilles||randomly determined effects}. Any such effect that would target the wand's user targets the wand instead. If reduced to 0 hit points, the wand crumbles into dust and is destroyed."
 							]
 						}
 					}
@@ -576,7 +576,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item breastplate|phb}"
+						"{@item Cuirasse|phb}"
 					]
 				}
 			],
@@ -902,7 +902,7 @@
 							{
 								"name": "Spear",
 								"entries": [
-									"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack. A creature hit by a bullywug's Spear attack must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 minute. A creature {@condition poisoned} in this way is also {@condition paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack. A creature hit by a bullywug's Spear attack must succeed on a {@dc 13} Constitution saving throw or be {@condition Empoisonné} for 1 minute. A creature {@condition Empoisonné} in this way is also {@condition Paralysé}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 								]
 							}
 						]
@@ -1092,7 +1092,7 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}4 ({@damage 1d4 + 2}) poison damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 minute. Until this poison ends, the target is {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success."
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}4 ({@damage 1d4 + 2}) poison damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition Empoisonné} for 1 minute. Until this poison ends, the target is {@condition Paralysé}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success."
 					]
 				},
 				{
@@ -1147,7 +1147,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Cassiok carries a {@item staff of power} that grants him a +2 bonus to Armor Class, spell attack rolls, and saving throws. His insectoid physiology prevents him from making melee attacks with the staff. If reduced to 20 hit points or fewer, Cassiok uses his next action to break his staff in a retributive strike."
+								"Cassiok carries a {@item Bâton de pouvoir} that grants him a +2 bonus to Armor Class, spell attack rolls, and saving throws. His insectoid physiology prevents him from making melee attacks with the staff. If reduced to 20 hit points or fewer, Cassiok uses his next action to break his staff in a retributive strike."
 							]
 						}
 					},
@@ -1403,7 +1403,7 @@
 							{
 								"name": "Light Intensity",
 								"entries": [
-									"Any creature that starts its turn within 10 feet of the illuminated golem and can see the golem must succeed on a {@dc 17} Wisdom saving throw or be {@condition blinded} until the start of the creature's next turn.",
+									"Any creature that starts its turn within 10 feet of the illuminated golem and can see the golem must succeed on a {@dc 17} Wisdom saving throw or be {@condition Aveuglé} until the start of the creature's next turn.",
 									"A creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the golem until the start of its next turn, when it can avert its eyes again. If the creature looks at the golem in the meantime, it must immediately make the save."
 								]
 							}
@@ -1458,7 +1458,7 @@
 							{
 								"name": "Two Heads",
 								"entries": [
-									"The duergar has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition charmed}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+									"The duergar has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition Charmé}, {@condition Effrayé}, {@condition Étourdi}, and knocked {@condition Inconscient}."
 								]
 							}
 						]
@@ -1701,7 +1701,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Ezzat wears an {@item amulet of proof against detection and location}."
+								"Ezzat wears an {@item Amulette d'antidétection}."
 							]
 						}
 					}
@@ -2364,8 +2364,8 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Halaster wears a {@item robe of eyes} that lets him see in all directions, gives him darkvision out to a range of 120 feet, grants advantage on Wisdom ({@skill Perception}) checks that rely on sight, and allows him to see {@condition invisible} creatures and objects, as well as into the Ethereal Plane, out to a range of 120 feet.",
-						"Halaster wields a {@item blast scepter|WDMM} (a very rare magic item that requires attunement). It can be used as an arcane focus. Whoever is attuned to the blast scepter gains resistance to fire and lightning damage and can, as an action, use it to cast {@spell thunderwave} as a 4th-level spell (save {@dc 16}) without expending a spell slot.",
+						"Halaster wears a {@item Robe aux yeux} that lets him see in all directions, gives him darkvision out to a range of 120 feet, grants advantage on Wisdom ({@skill Perception}) checks that rely on sight, and allows him to see {@condition invisible} creatures and objects, as well as into the Ethereal Plane, out to a range of 120 feet.",
+						"Halaster wields a {@item Sceptre d'explosion|WDMM} (a very rare magic item that requires attunement). It can be used as an arcane focus. Whoever is attuned to the blast scepter gains resistance to fire and lightning damage and can, as an action, use it to cast {@spell thunderwave} as a 4th-level spell (save {@dc 16}) without expending a spell slot.",
 						"Halaster also wears a horned ring (a very rare magic item that requires attunement), which allows an attuned wearer to ignore Undermountain's magical restrictions (see \"Alterations to Magic\")."
 					]
 				},
@@ -2599,7 +2599,7 @@
 								{
 									"name": "Mallet",
 									"entries": [
-										"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage, and the target must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} until the end of its next turn."
+										"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage, and the target must succeed on a {@dc 17} Constitution saving throw or be {@condition Étourdi} until the end of its next turn."
 									]
 								}
 							]
@@ -2894,7 +2894,7 @@
 				{
 					"name": "Antimagic Susceptibility",
 					"entries": [
-						"The iron spider is {@condition incapacitated} while in the area of an {@spell antimagic field}. If targeted by {@spell dispel magic}, the iron spider must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition unconscious} for 1 minute."
+						"The iron spider is {@condition Incapable} while in the area of an {@spell antimagic field}. If targeted by {@spell dispel magic}, the iron spider must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition Inconscient} for 1 minute."
 					]
 				}
 			],
@@ -3506,7 +3506,7 @@
 						"items": {
 							"name": "Bite",
 							"entries": [
-								"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}{@damage 2d6 + 2} piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition poisoned} for 5 ({@dice 1d10}) minutes and {@condition unconscious} while {@condition poisoned} in this way."
+								"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}{@damage 2d6 + 2} piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition Empoisonné} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition Empoisonné} for 5 ({@dice 1d10}) minutes and {@condition Inconscient} while {@condition Empoisonné} in this way."
 							]
 						}
 					}
@@ -4071,12 +4071,12 @@
 										{
 											"type": "itemSub",
 											"name": "1. Paralyzing Ray",
-											"entry": "The targeted creature must succeed on a {@dc 14} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The targeted creature must succeed on a {@dc 14} Constitution saving throw or be {@condition Paralysé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										},
 										{
 											"type": "itemSub",
 											"name": "2. Fear Ray",
-											"entry": "The targeted creature must succeed on a {@dc 14} Wisdom saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The targeted creature must succeed on a {@dc 14} Wisdom saving throw or be {@condition Effrayé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										},
 										{
 											"type": "itemSub",
@@ -4347,7 +4347,7 @@
 				{
 					"name": "Poisonous Body",
 					"entries": [
-						"A creature takes 10 ({@damage 3d6}) poison damage at the start of each of its turns while {@condition grappled} by a poison weird."
+						"A creature takes 10 ({@damage 3d6}) poison damage at the start of each of its turns while {@condition Agrippé} by a poison weird."
 					]
 				}
 			],
@@ -4457,12 +4457,12 @@
 								{
 									"type": "item",
 									"name": "Fear Ray",
-									"entry": "The target must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"entry": "The target must succeed on a {@dc 15} Wisdom saving throw or be {@condition Effrayé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 								},
 								{
 									"type": "item",
 									"name": "Paralyzing Ray",
-									"entry": "The target must succeed on a {@dc 15} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"entry": "The target must succeed on a {@dc 15} Constitution saving throw or be {@condition Paralysé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 								}
 							]
 						}
@@ -4686,7 +4686,7 @@
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d12 + 4}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 15}). The scaladar has two claws, each of which can grapple one target."
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d12 + 4}) bludgeoning damage, and the target is {@condition Agrippé} (escape {@dc 15}). The scaladar has two claws, each of which can grapple one target."
 					]
 				},
 				{
@@ -4808,7 +4808,7 @@
 				{
 					"name": "Shadow Stealth",
 					"entries": [
-						"While in dim light or darkness, the assassin can take the {@action Hide} action as a bonus action."
+						"While in dim light or darkness, the assassin can take the {@action Se cacher} action as a bonus action."
 					]
 				},
 				{
@@ -4949,13 +4949,13 @@
 				{
 					"name": "Control Module",
 					"entries": [
-						"A creature atop or above Shockerstomper's platform can locate its control module with a successful {@dc 15} Intelligence ({@skill Investigation}) check or Wisdom ({@skill Perception}) check. As an action, a character can try to open the control module's access panel, either by tearing it off with a successful {@dc 25} Strength ({@skill Athletics}) check or by dislodging it with thieves' tools and a successful {@dc 25} Dexterity check. Behind the panel, embedded in the floor of the control module, is a 5-foot-diameter pulsating crystal hemisphere with AC 10, 25 hit points, and immunity to poison and psychic damage. Destroying the crystal hemisphere shuts down Shockerstomper."
+						"A creature atop or above Shockerstomper's platform can locate its control module with a successful {@dc 15} Intelligence ({@skill Investigation}) check or Wisdom ({@skill Perception}) check. As an action, a character can try to open the control module's access panel, either by tearing it off with a successful {@dc 25} Strength ({@skill Athlétisme}) check or by dislodging it with thieves' tools and a successful {@dc 25} Dexterity check. Behind the panel, embedded in the floor of the control module, is a 5-foot-diameter pulsating crystal hemisphere with AC 10, 25 hit points, and immunity to poison and psychic damage. Destroying the crystal hemisphere shuts down Shockerstomper."
 					]
 				},
 				{
 					"name": "Lightning Turret",
 					"entries": [
-						"A character can try to plug the nozzle of a lightning turret with a 10-pound rock or similar object, doing so with a successful {@dc 15} Strength ({@skill Athletics}) check. A plugged turret can't shoot lightning until a creature uses an action to try to clear the obstruction, which requires another successful {@dc 15} Strength ({@skill Athletics}) check. Shockerstomper has no ability to clear an obstruction itself."
+						"A character can try to plug the nozzle of a lightning turret with a 10-pound rock or similar object, doing so with a successful {@dc 15} Strength ({@skill Athlétisme}) check. A plugged turret can't shoot lightning until a creature uses an action to try to clear the obstruction, which requires another successful {@dc 15} Strength ({@skill Athlétisme}) check. Shockerstomper has no ability to clear an obstruction itself."
 					]
 				}
 			],
@@ -5133,7 +5133,7 @@
 										{
 											"type": "item",
 											"name": "Paralyzing Breath",
-											"entry": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a {@dc 20} Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a {@dc 20} Constitution saving throw or be {@condition Paralysé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										}
 									]
 								}
@@ -5934,7 +5934,7 @@
 				{
 					"name": "Echolocation (Bat or Hybrid Form Only)",
 					"entries": [
-						"The werebat has blindsight out to a range of 60 feet as long as it's not {@condition deafened}."
+						"The werebat has blindsight out to a range of 60 feet as long as it's not {@condition Assourdi}."
 					]
 				},
 				{
@@ -5946,7 +5946,7 @@
 				{
 					"name": "Nimble Escape (Humanoid Form Only)",
 					"entries": [
-						"The werebat can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+						"The werebat can take the {@action Désengagement} or {@action Se cacher} action as a bonus action on each of its turns."
 					]
 				},
 				{
@@ -6131,7 +6131,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Xarann wears a {@item Piwafwi (Cloak of Elvenkind)|OotA|piwafwi}, a drow-made {@item cloak of elvenkind}. It loses its magic if exposed to sunlight for 1 hour without interruption."
+								"Xarann wears a {@item Piwafwi (Cape de l'espionnage elfique)|OotA|piwafwi}, a drow-made {@item Cape elvique}. It loses its magic if exposed to sunlight for 1 hour without interruption."
 							]
 						}
 					}
@@ -6194,7 +6194,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Yrlakka carries a {@item Potion of Fire Resistance||potion of resistance (fire)} in a tiny crystal vial fastened to a cord around his right ankle, and he has a {@item wand of magic detection} hanging from his belt."
+								"Yrlakka carries a {@item Potion de résistance au feu||potion of resistance (fire)} in a tiny crystal vial fastened to a cord around his right ankle, and he has a {@item Baguette de détection de la magie} hanging from his belt."
 							]
 						}
 					}
@@ -6359,14 +6359,14 @@
 				{
 					"name": "Misty Escape",
 					"entries": [
-						"When he drops to 0 hit points outside his resting place, Zorak transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that he isn't in sunlight or running water. If he can't transform, he is destroyed.",
-						"While he has 0 hit points in mist form, he can't revert to his vampire form, and he must reach his resting place within 2 hours or be destroyed. Once in his resting place, he reverts to his vampire form. He is then {@condition paralyzed} until he regains at least 1 hit point. After spending 1 hour in his resting place with 0 hit points, he regains 1 hit point."
+						"When he drops to 0 hit points outside his resting place, Zorak transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition Inconscient}, provided that he isn't in sunlight or running water. If he can't transform, he is destroyed.",
+						"While he has 0 hit points in mist form, he can't revert to his vampire form, and he must reach his resting place within 2 hours or be destroyed. Once in his resting place, he reverts to his vampire form. He is then {@condition Paralysé} until he regains at least 1 hit point. After spending 1 hour in his resting place with 0 hit points, he regains 1 hit point."
 					]
 				},
 				{
 					"name": "Regeneration",
 					"entries": [
-						"Zorak regains 20 hit points at the start of his turn if he has at least 1 hit point and isn't in sunlight or running water. If Zorak takes radiant damage or damage from {@item Holy Water (Flask)|PHB|holy water}, this trait doesn't function at the start of Zorak's next turn."
+						"Zorak regains 20 hit points at the start of his turn if he has at least 1 hit point and isn't in sunlight or running water. If Zorak takes radiant damage or damage from {@item Eau bénite (fiole)|PHB|holy water}, this trait doesn't function at the start of Zorak's next turn."
 					]
 				},
 				{
@@ -6396,7 +6396,7 @@
 								{
 									"type": "itemSub",
 									"name": "Stake to the Heart",
-									"entry": "If a piercing weapon made of wood is driven into Zorak's heart while Zorak is {@condition incapacitated} in his resting place, Zorak is {@condition paralyzed} until the stake is removed."
+									"entry": "If a piercing weapon made of wood is driven into Zorak's heart while Zorak is {@condition Incapable} in his resting place, Zorak is {@condition Paralysé} until the stake is removed."
 								},
 								{
 									"type": "itemSub",
@@ -6412,7 +6412,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Zorak makes two attacks with his {@item dwarven thrower}, only one of which can be a ranged attack."
+						"Zorak makes two attacks with his {@item Lanceur nain}, only one of which can be a ranged attack."
 					]
 				},
 				{
@@ -6436,13 +6436,13 @@
 				{
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by Zorak, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Zorak regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces his hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under Zorak's control."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition Agrippé} by Zorak, {@condition Incapable}, or {@condition Entravé}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Zorak regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces his hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under Zorak's control."
 					]
 				},
 				{
 					"name": "Charm",
 					"entries": [
-						"Zorak targets one humanoid he can see within 30 feet of it. If the target can see Zorak, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by Zorak. The {@condition charmed} target regards Zorak as a trusted friend to be heeded and protected. Although the target isn't under Zorak's control, it takes Zorak's requests or actions in the most favorable way it can, and it is a willing target for Zorak's bite attack.",
+						"Zorak targets one humanoid he can see within 30 feet of it. If the target can see Zorak, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition Charmé} by Zorak. The {@condition Charmé} target regards Zorak as a trusted friend to be heeded and protected. Although the target isn't under Zorak's control, it takes Zorak's requests or actions in the most favorable way it can, and it is a willing target for Zorak's bite attack.",
 						"Each time Zorak or Zorak's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Zorak is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
 					]
 				},

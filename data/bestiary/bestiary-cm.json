@@ -189,7 +189,7 @@
 				{
 					"name": "Chained Book",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 12})."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, and if the target is a creature, it is {@condition Agrippé} (escape {@dc 12})."
 					]
 				}
 			],
@@ -436,7 +436,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Bak Mei carries a {@item staff of striking} with 10 charges."
+						"Bak Mei carries a {@item Bâton de frappe} with 10 charges."
 					]
 				},
 				{
@@ -456,7 +456,7 @@
 				{
 					"name": "Thunder Strike",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) thunder damage, and if the target is a creature, it must succeed on a {@dc 17} Constitution saving throw or be {@condition deafened} and {@condition stunned} until the start of Bak Mei's next turn."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) thunder damage, and if the target is a creature, it must succeed on a {@dc 17} Constitution saving throw or be {@condition Assourdi} and {@condition Étourdi} until the start of Bak Mei's next turn."
 					]
 				},
 				{
@@ -468,7 +468,7 @@
 				{
 					"name": "Heal Self (Recharges after a Long Rest)",
 					"entries": [
-						"Bak Mei regains {@dice 2d8 + 4} hit points, and all levels of {@condition exhaustion} end on him."
+						"Bak Mei regains {@dice 2d8 + 4} hit points, and all levels of {@condition Épuisement} end on him."
 					]
 				}
 			],
@@ -476,7 +476,7 @@
 				{
 					"name": "Nimble Escape",
 					"entries": [
-						"Bak Mei takes the {@action Disengage} or {@action Hide} action."
+						"Bak Mei takes the {@action Désengagement} or {@action Se cacher} action."
 					]
 				}
 			],
@@ -1073,7 +1073,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item breastplate|PHB}"
+						"{@item Cuirasse|PHB}"
 					]
 				}
 			],
@@ -1105,7 +1105,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Faerl has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Faerl has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				}
 			],
@@ -1314,7 +1314,7 @@
 				{
 					"name": "Dreadful Glare",
 					"entries": [
-						"The fungal servant targets one creature it can see within 60 feet of it. If the target can see the fungal servant, it must succeed on a {@dc 16} Wisdom saving throw against this magic or become {@condition frightened} until the end of the fungal servant's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all fungal servants for the next 24 hours."
+						"The fungal servant targets one creature it can see within 60 feet of it. If the target can see the fungal servant, it must succeed on a {@dc 16} Wisdom saving throw against this magic or become {@condition Effrayé} until the end of the fungal servant's next turn. If the target fails the saving throw by 5 or more, it is also {@condition Paralysé} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all fungal servants for the next 24 hours."
 					]
 				}
 			],
@@ -1328,13 +1328,13 @@
 				{
 					"name": "Blinding Spores",
 					"entries": [
-						"Blinding spores swirls magically around the fungal servant. Each creature within 5 feet of the fungal servant must succeed on a {@dc 16} Constitution saving throw or be {@condition blinded} until the end of the creature's next turn."
+						"Blinding spores swirls magically around the fungal servant. Each creature within 5 feet of the fungal servant must succeed on a {@dc 16} Constitution saving throw or be {@condition Aveuglé} until the end of the creature's next turn."
 					]
 				},
 				{
 					"name": "Blasphemous Word (Costs 2 Actions)",
 					"entries": [
-						"The fungal servant utters a blasphemous word. Each non-undead creature within 10 feet of the fungal servant that can hear the magical utterance must succeed on a {@dc 16} Constitution saving throw or be {@condition stunned} until the end of the fungal servant's next turn."
+						"The fungal servant utters a blasphemous word. Each non-undead creature within 10 feet of the fungal servant that can hear the magical utterance must succeed on a {@dc 16} Constitution saving throw or be {@condition Étourdi} until the end of the fungal servant's next turn."
 					]
 				},
 				{
@@ -1346,7 +1346,7 @@
 				{
 					"name": "Whirlwind of Spores (Costs 2 Actions)",
 					"entries": [
-						"The fungal servant magically transforms into a whirlwind of spores, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the fungal servant is immune to all damage, and it can't be {@condition grappled}, {@condition petrified}, knocked {@condition prone}, {@condition restrained}, or {@condition stunned}. Equipment worn or carried by the fungal servant remain in its possession."
+						"The fungal servant magically transforms into a whirlwind of spores, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the fungal servant is immune to all damage, and it can't be {@condition Agrippé}, {@condition Pétrifié}, knocked {@condition À terre}, {@condition Entravé}, or {@condition Étourdi}. Equipment worn or carried by the fungal servant remain in its possession."
 					]
 				}
 			],
@@ -1467,7 +1467,7 @@
 				{
 					"name": "Energy Drain (True Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}16 ({@damage 4d6 + 2}) necrotic damage, and the target must succeed on a {@dc 12} Constitution saving throw or gain 1 level of {@condition exhaustion}. When the target finishes a short or long rest, the target loses every level of {@condition exhaustion} gained from this attack."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}16 ({@damage 4d6 + 2}) necrotic damage, and the target must succeed on a {@dc 12} Constitution saving throw or gain 1 level of {@condition Épuisement}. When the target finishes a short or long rest, the target loses every level of {@condition Épuisement} gained from this attack."
 					]
 				},
 				{
@@ -1566,7 +1566,7 @@
 				{
 					"name": "Tongue",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one Medium or smaller creature. {@h}The target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained}, and the grippli can't grab another creature."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one Medium or smaller creature. {@h}The target is {@condition Agrippé} (escape {@dc 12}). Until this grapple ends, the target is {@condition Entravé}, and the grippli can't grab another creature."
 					]
 				},
 				{
@@ -1761,7 +1761,7 @@
 				{
 					"name": "Force Strike",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) force damage, and if the target is a creature, it must succeed on a {@dc 14} Dexterity saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) force damage, and if the target is a creature, it must succeed on a {@dc 14} Dexterity saving throw or be knocked {@condition À terre}."
 					]
 				},
 				{
@@ -1877,19 +1877,19 @@
 				{
 					"name": "Force Strike",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) force damage, and if the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition stunned} until the end of Jade Tigress's next turn."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) force damage, and if the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition Étourdi} until the end of Jade Tigress's next turn."
 					]
 				},
 				{
 					"name": "Poisoned Dart",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 7 ({@damage 3d4}) poison damage, and the target must succeed on a {@dc 15} Constitution saving throw or gain 1 level of {@condition exhaustion}."
+						"{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 7 ({@damage 3d4}) poison damage, and the target must succeed on a {@dc 15} Constitution saving throw or gain 1 level of {@condition Épuisement}."
 					]
 				},
 				{
 					"name": "Heal Self (Recharges after a Long Rest)",
 					"entries": [
-						"Jade Tigress regains {@dice 2d8 + 2} hit points, and all levels of {@condition exhaustion} end on her."
+						"Jade Tigress regains {@dice 2d8 + 2} hit points, and all levels of {@condition Épuisement} end on her."
 					]
 				}
 			],
@@ -1897,7 +1897,7 @@
 				{
 					"name": "Nimble Escape",
 					"entries": [
-						"Jade Tigress takes the {@action Disengage} or {@action Hide} action."
+						"Jade Tigress takes the {@action Désengagement} or {@action Se cacher} action."
 					]
 				}
 			],
@@ -2104,7 +2104,7 @@
 						"items": {
 							"name": "Exhaustion",
 							"entries": [
-								"Kharbek has 5 levels of {@condition exhaustion}."
+								"Kharbek has 5 levels of {@condition Épuisement}."
 							]
 						}
 					}
@@ -2191,7 +2191,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. If the target is a creature, it is {@condition grappled} by the kiddywidget (escape {@dc 8})."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. If the target is a creature, it is {@condition Agrippé} by the kiddywidget (escape {@dc 8})."
 					]
 				},
 				{
@@ -2345,7 +2345,7 @@
 				{
 					"name": "Poisonous Touch",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one creature. {@h}17 ({@damage 5d6}) poison damage, and the target must succeed on a {@dc 19} Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one creature. {@h}17 ({@damage 5d6}) poison damage, and the target must succeed on a {@dc 19} Constitution saving throw or be {@condition Empoisonné} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -2371,7 +2371,7 @@
 				{
 					"name": "Poison Prick (Cost 2 Actions)",
 					"entries": [
-						"The lich targets one {@condition poisoned} creature it can see within 30 feet of it. The target must succeed on a {@dc 19} Constitution saving throw or fall {@condition unconscious} until the {@condition poisoned} condition ends on it."
+						"The lich targets one {@condition Empoisonné} creature it can see within 30 feet of it. The target must succeed on a {@dc 19} Constitution saving throw or fall {@condition Inconscient} until the {@condition Empoisonné} condition ends on it."
 					]
 				},
 				{
@@ -2874,13 +2874,13 @@
 				{
 					"name": "Paralyzing Breath",
 					"entries": [
-						"Miirym exhales paralyzing gas in a 90-foot cone. Each creature in that area must succeed on a {@dc 21} Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Miirym exhales paralyzing gas in a 90-foot cone. Each creature in that area must succeed on a {@dc 21} Constitution saving throw or be {@condition Paralysé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of Miirym's choice that is within 120 feet of her and aware of her must succeed on a {@dc 21} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Miirym's Frightful Presence for the next 24 hours."
+						"Each creature of Miirym's choice that is within 120 feet of her and aware of her must succeed on a {@dc 21} Wisdom saving throw or become {@condition Effrayé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Miirym's Frightful Presence for the next 24 hours."
 					]
 				}
 			],
@@ -3005,7 +3005,7 @@
 				{
 					"name": "Adhesive (Object Form Only)",
 					"entries": [
-						"The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also {@condition grappled} by it (escape {@dc 10}). Ability checks made to escape this grapple have disadvantage."
+						"The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also {@condition Agrippé} by it (escape {@dc 10}). Ability checks made to escape this grapple have disadvantage."
 					]
 				},
 				{
@@ -3017,7 +3017,7 @@
 				{
 					"name": "Grappler",
 					"entries": [
-						"The mimic has advantage on attack rolls against any creature {@condition grappled} by it."
+						"The mimic has advantage on attack rolls against any creature {@condition Agrippé} by it."
 					]
 				}
 			],
@@ -3168,7 +3168,7 @@
 				{
 					"name": "Shard of Shadow",
 					"entries": [
-						"{@atk rs} {@hit 12} to hit, range 120 ft., one target. {@h}10 ({@damage 1d6 + 7}) necrotic damage, and if the target is a creature, it must succeed on a {@dc 20} Constitution saving throw or be {@condition poisoned} until the end of its next turn."
+						"{@atk rs} {@hit 12} to hit, range 120 ft., one target. {@h}10 ({@damage 1d6 + 7}) necrotic damage, and if the target is a creature, it must succeed on a {@dc 20} Constitution saving throw or be {@condition Empoisonné} until the end of its next turn."
 					]
 				},
 				{
@@ -3336,7 +3336,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one Large or smaller creature. {@h}17 ({@damage 2d10 + 6}) bludgeoning damage plus 17 ({@damage 2d10 + 6}) slashing damage. The target is {@condition grappled} (escape {@dc 16}) if the behir isn't already constricting a creature, and the target is {@condition restrained} until this grapple ends."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one Large or smaller creature. {@h}17 ({@damage 2d10 + 6}) bludgeoning damage plus 17 ({@damage 2d10 + 6}) slashing damage. The target is {@condition Agrippé} (escape {@dc 16}) if the behir isn't already constricting a creature, and the target is {@condition Entravé} until this grapple ends."
 					]
 				},
 				{
@@ -3348,9 +3348,9 @@
 				{
 					"name": "Swallow",
 					"entries": [
-						"The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is {@condition blinded} and {@condition restrained}, it has {@quickref Cover||3||total cover} against attacks and other effects outside the behir, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time.",
+						"The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is {@condition Aveuglé} and {@condition Entravé}, it has {@quickref Cover||3||total cover} against attacks and other effects outside the behir, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time.",
 						"Any creature swallowed by a parasite-infested behir must succeed on a {@dc 19} Constitution saving throw at the start of each of the behir's turns or be feasted upon by blood parasites, taking 36 ({@damage 8d8}) necrotic damage on a failed save, or half as much damage on a successful save. This damage is in addition to the damage caused by the behir's digestive acids.",
-						"If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a {@dc 14} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition prone} in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
+						"If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a {@dc 14} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition À terre} in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer {@condition Entravé} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition À terre}."
 					]
 				}
 			],
@@ -3413,7 +3413,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -3482,7 +3482,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"Ram Sugar has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"Ram Sugar has advantage on saving throws against being {@condition Charmé} or {@condition Effrayé}."
 					]
 				}
 			],
@@ -3906,7 +3906,7 @@
 				{
 					"name": "Howling Babble {@recharge}",
 					"entries": [
-						"Shemshime targets one creature it can see within 30 feet of it. The creature must make a {@dc 13} Wisdom saving throw. On a failed save, it takes 21 ({@damage 4d8 + 3}) psychic damage and is {@condition stunned} until the end of its next turn. On a successful save, it takes half as much damage and isn't {@condition stunned}."
+						"Shemshime targets one creature it can see within 30 feet of it. The creature must make a {@dc 13} Wisdom saving throw. On a failed save, it takes 21 ({@damage 4d8 + 3}) psychic damage and is {@condition Étourdi} until the end of its next turn. On a successful save, it takes half as much damage and isn't {@condition Étourdi}."
 					]
 				}
 			],
@@ -4003,13 +4003,13 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a creature, it is {@condition grappled} by the skitterwidget (escape {@dc 13})."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a creature, it is {@condition Agrippé} by the skitterwidget (escape {@dc 13})."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) lightning damage, and if the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition stunned} until the end of its next turn."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) lightning damage, and if the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition Étourdi} until the end of its next turn."
 					]
 				}
 			],
@@ -4126,19 +4126,19 @@
 				{
 					"name": "Force Strike",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) force damage, and if the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition stunned} until the start of Steel Crane's next turn."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) force damage, and if the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition Étourdi} until the start of Steel Crane's next turn."
 					]
 				},
 				{
 					"name": "Whip",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage or, if the target is a creature, Steel Crane can grapple the target instead (escape {@dc 15}). Steel Crane can't make attacks with the whip while using it to grapple a creature. Anytime on his turn, he can release a creature {@condition grappled} by the whip (no action required)."
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage or, if the target is a creature, Steel Crane can grapple the target instead (escape {@dc 15}). Steel Crane can't make attacks with the whip while using it to grapple a creature. Anytime on his turn, he can release a creature {@condition Agrippé} by the whip (no action required)."
 					]
 				},
 				{
 					"name": "Heal Self (Recharges after a Long Rest)",
 					"entries": [
-						"Steel Crane regains {@dice 2d8 + 4} hit points, and all levels of {@condition exhaustion} end on him."
+						"Steel Crane regains {@dice 2d8 + 4} hit points, and all levels of {@condition Épuisement} end on him."
 					]
 				}
 			],
@@ -4557,7 +4557,7 @@
 				{
 					"name": "Dreadful Glare",
 					"entries": [
-						"Valin targets one creature she can see within 60 feet of her. If the target can see Valin, it must succeed on a {@dc 16} Wisdom saving throw against this magic or become {@condition frightened} until the end of Valin's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours."
+						"Valin targets one creature she can see within 60 feet of her. If the target can see Valin, it must succeed on a {@dc 16} Wisdom saving throw against this magic or become {@condition Effrayé} until the end of Valin's next turn. If the target fails the saving throw by 5 or more, it is also {@condition Paralysé} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours."
 					]
 				}
 			],
@@ -4571,13 +4571,13 @@
 				{
 					"name": "Blinding Dust",
 					"entries": [
-						"Blinding dust and sand swirls magically around Valin. Each creature within 5 feet of Valin must succeed on a {@dc 16} Constitution saving throw or be {@condition blinded} until the end of her next turn."
+						"Blinding dust and sand swirls magically around Valin. Each creature within 5 feet of Valin must succeed on a {@dc 16} Constitution saving throw or be {@condition Aveuglé} until the end of her next turn."
 					]
 				},
 				{
 					"name": "Blasphemous Word (Costs 2 Actions)",
 					"entries": [
-						"Valin utters a blasphemous word. Each non-undead creature within 10 feet of Valin that can hear the magical utterance must succeed on a {@dc 16} Constitution saving throw or be {@condition stunned} until the end of Valin's next turn."
+						"Valin utters a blasphemous word. Each non-undead creature within 10 feet of Valin that can hear the magical utterance must succeed on a {@dc 16} Constitution saving throw or be {@condition Étourdi} until the end of Valin's next turn."
 					]
 				},
 				{
@@ -4589,7 +4589,7 @@
 				{
 					"name": "Whirlwind of Sand (Costs 2 Actions)",
 					"entries": [
-						"Valin magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to her normal form. While in whirlwind form, Valin is immune to all damage, and it can't be {@condition grappled}, {@condition petrified}, knocked {@condition prone}, {@condition restrained}, or {@condition stunned}. Equipment worn or carried by Valin remain in her possession."
+						"Valin magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to her normal form. While in whirlwind form, Valin is immune to all damage, and it can't be {@condition Agrippé}, {@condition Pétrifié}, knocked {@condition À terre}, {@condition Entravé}, or {@condition Étourdi}. Equipment worn or carried by Valin remain in her possession."
 					]
 				}
 			],
@@ -4681,7 +4681,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item breastplate|PHB}"
+						"{@item Cuirasse|PHB}"
 					]
 				}
 			],
@@ -4716,7 +4716,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Varnyr has advantage on saving throws against being {@condition charmed}, and magic can't put Varnyr to sleep."
+						"Varnyr has advantage on saving throws against being {@condition Charmé}, and magic can't put Varnyr to sleep."
 					]
 				}
 			],
@@ -4964,7 +4964,7 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of Zikzokrishka's choice that is within 120 feet of the Zikzokrishka and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Zikzokrishka's Frightful Presence for the next 24 hours."
+						"Each creature of Zikzokrishka's choice that is within 120 feet of the Zikzokrishka and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition Effrayé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Zikzokrishka's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
@@ -4990,7 +4990,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"Zikzokrishka beats its tattered wings. Each creature within 10 feet of Zikzokrishka must succeed on a {@dc 21} Dexterity saving throw or take 14 ({@damage 2d6 + 7}) bludgeoning damage and be knocked {@condition prone}. After beating its wings this way, Zikzokrishka can fly up to half its flying speed."
+						"Zikzokrishka beats its tattered wings. Each creature within 10 feet of Zikzokrishka must succeed on a {@dc 21} Dexterity saving throw or take 14 ({@damage 2d6 + 7}) bludgeoning damage and be knocked {@condition À terre}. After beating its wings this way, Zikzokrishka can fly up to half its flying speed."
 					]
 				}
 			],

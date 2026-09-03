@@ -256,7 +256,7 @@
 				{
 					"name": "Death Burst",
 					"entries": [
-						"When the elemental dies, it explodes in a burst of colored light. Each creature within 5 feet of the elemental must succeed on a {@dc 11} Constitution saving throw or be {@condition blinded} for 1 minute. A {@condition blinded} creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+						"When the elemental dies, it explodes in a burst of colored light. Each creature within 5 feet of the elemental must succeed on a {@dc 11} Constitution saving throw or be {@condition Aveuglé} for 1 minute. A {@condition Aveuglé} creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -276,7 +276,7 @@
 				{
 					"name": "Captivating Artistry (1/Day)",
 					"entries": [
-						"The elemental targets one creature it can see within 30 feet of itself. The target must succeed on a {@dc 12} Charisma saving throw or be {@condition charmed} for 1 minute. The {@condition charmed} target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+						"The elemental targets one creature it can see within 30 feet of itself. The target must succeed on a {@dc 12} Charisma saving throw or be {@condition Charmé} for 1 minute. The {@condition Charmé} target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -429,7 +429,7 @@
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d6 + 9}) slashing damage. If the target is a Huge or smaller creature, it is knocked {@condition prone}."
+						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d6 + 9}) slashing damage. If the target is a Huge or smaller creature, it is knocked {@condition À terre}."
 					]
 				},
 				{
@@ -441,7 +441,7 @@
 				{
 					"name": "Miasmal Flow",
 					"entries": [
-						"Beledros becomes a swirling cloud of green mist and can move up to half her flying speed without provoking opportunity attacks, then resumes her true form. During this movement, she can move through creatures and objects as if they were {@quickref difficult terrain||3}. If she moves through a creature, it must succeed on a {@dc 23} Constitution saving throw or become {@condition poisoned} until the end of its next turn. If Beledros ends this move inside an object, she takes 5 ({@damage 1d10}) force damage and is shunted to the nearest unoccupied space."
+						"Beledros becomes a swirling cloud of green mist and can move up to half her flying speed without provoking opportunity attacks, then resumes her true form. During this movement, she can move through creatures and objects as if they were {@quickref difficult terrain||3}. If she moves through a creature, it must succeed on a {@dc 23} Constitution saving throw or become {@condition Empoisonné} until the end of its next turn. If Beledros ends this move inside an object, she takes 5 ({@damage 1d10}) force damage and is shunted to the nearest unoccupied space."
 					]
 				}
 			],
@@ -567,7 +567,7 @@
 				{
 					"name": "Tusk",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage plus 3 ({@damage 1d6}) poison damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage plus 3 ({@damage 1d6}) poison damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition À terre}."
 					]
 				}
 			],
@@ -693,7 +693,7 @@
 				{
 					"name": "Grasping Limb",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 15 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 14}). The archivist can have no more than two targets {@condition grappled} at a time."
+						"{@atk mw} {@hit 6} to hit, reach 15 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and the target is {@condition Agrippé} (escape {@dc 14}). The archivist can have no more than two targets {@condition Agrippé} at a time."
 					]
 				}
 			],
@@ -819,7 +819,7 @@
 				{
 					"name": "Terrify {@recharge 4}",
 					"entries": [
-						"The daemogoth targets one creature it can see within 120 feet of itself. The target must make a {@dc 17} Wisdom saving throw. On a failed save, the target takes 33 ({@damage 6d10}) psychic damage and is {@condition frightened} of the daemogoth until the end of the daemogoth's next turn, and the daemogoth regains 5 hit points. On a successful save, the target takes half as much damage and isn't {@condition frightened}, and the daemogoth doesn't heal."
+						"The daemogoth targets one creature it can see within 120 feet of itself. The target must make a {@dc 17} Wisdom saving throw. On a failed save, the target takes 33 ({@damage 6d10}) psychic damage and is {@condition Effrayé} of the daemogoth until the end of the daemogoth's next turn, and the daemogoth regains 5 hit points. On a successful save, the target takes half as much damage and isn't {@condition Effrayé}, and the daemogoth doesn't heal."
 					]
 				}
 			],
@@ -965,7 +965,7 @@
 				{
 					"name": "Terrorize (Costs 3 Actions)",
 					"entries": [
-						"The titan targets one creature it can see within 120 feet of itself. The target must make a {@dc 20} Wisdom saving throw. On a failed save, the target takes 38 ({@damage 7d10}) psychic damage and is {@condition frightened} of the titan until the end of the target's next turn, and the titan regains 15 hit points. On a successful save, the target takes half as much damage and isn't {@condition frightened}, and the titan doesn't heal."
+						"The titan targets one creature it can see within 120 feet of itself. The target must make a {@dc 20} Wisdom saving throw. On a failed save, the target takes 38 ({@damage 7d10}) psychic damage and is {@condition Effrayé} of the titan until the end of the target's next turn, and the titan regains 15 hit points. On a successful save, the target takes half as much damage and isn't {@condition Effrayé}, and the titan doesn't heal."
 					]
 				}
 			],
@@ -1301,7 +1301,7 @@
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d6 + 8}) slashing damage. If the target is a Large or smaller creature, it is knocked {@condition prone}."
+						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d6 + 8}) slashing damage. If the target is a Large or smaller creature, it is knocked {@condition À terre}."
 					]
 				},
 				{
@@ -1449,7 +1449,7 @@
 				{
 					"name": "Swamp Claw",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength saving throw or become engulfed by the groff. While engulfed, the target can't breathe, is {@condition restrained}, and takes 10 ({@damage 3d6}) poison damage at the start of each of its turns. When the groff moves, the engulfed target moves with it. The groff can have only one target engulfed at a time.",
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength saving throw or become engulfed by the groff. While engulfed, the target can't breathe, is {@condition Entravé}, and takes 10 ({@damage 3d6}) poison damage at the start of each of its turns. When the groff moves, the engulfed target moves with it. The groff can have only one target engulfed at a time.",
 						"An engulfed target can repeat the saving throw at the end of its turns. On a success, the target escapes and enters the nearest unoccupied space."
 					]
 				}
@@ -1555,7 +1555,7 @@
 				{
 					"name": "Ink Spray (1/Day)",
 					"entries": [
-						"The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a {@dc 12} Constitution saving throw or be {@condition blinded} until the end of the inkling's next turn."
+						"The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a {@dc 12} Constitution saving throw or be {@condition Aveuglé} until the end of the inkling's next turn."
 					]
 				}
 			],
@@ -1563,7 +1563,7 @@
 				{
 					"name": "Shadow Stealth",
 					"entries": [
-						"While in dim light or darkness, the inkling takes the {@action Hide} action."
+						"While in dim light or darkness, the inkling takes the {@action Se cacher} action."
 					]
 				}
 			],
@@ -1814,7 +1814,7 @@
 				{
 					"name": "Chronal Break (1/Day)",
 					"entries": [
-						"The pledgemage chooses a point within 30 feet of itself, shunting the minds of nearby creatures out of this moment in time. Each creature in a 10-foot-radius sphere centered on that point must succeed on a {@dc 13} Wisdom saving throw or be {@condition incapacitated} until the end of the pledgemage's next turn."
+						"The pledgemage chooses a point within 30 feet of itself, shunting the minds of nearby creatures out of this moment in time. Each creature in a 10-foot-radius sphere centered on that point must succeed on a {@dc 13} Wisdom saving throw or be {@condition Incapable} until the end of the pledgemage's next turn."
 					]
 				}
 			],
@@ -1944,19 +1944,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The professor makes two Spectral Scroll attacks. It can also use Weight of {@skill History}, if available."
+						"The professor makes two Spectral Scroll attacks. It can also use Weight of {@skill Histoire}, if available."
 					]
 				},
 				{
 					"name": "Spectral Scroll",
 					"entries": [
-						"{@atk ms} {@hit 7} to hit, reach 30 ft., one target. {@h}15 ({@damage 2d10 + 4}) force damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+						"{@atk ms} {@hit 7} to hit, reach 30 ft., one target. {@h}15 ({@damage 2d10 + 4}) force damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition À terre}."
 					]
 				},
 				{
 					"name": "Weight of History {@recharge 5}",
 					"entries": [
-						"The professor magically compresses time around up to six creatures of its choice that it can see within 30 feet of itself. Each target must succeed on a {@dc 15} Wisdom saving throw or be {@condition restrained} for 1 minute, but the {@condition restrained} target's speed is halved instead of being reduced to 0. At the start of each of its turns, the {@condition restrained} target takes 4 ({@damage 1d8}) force damage. A {@condition restrained} target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+						"The professor magically compresses time around up to six creatures of its choice that it can see within 30 feet of itself. Each target must succeed on a {@dc 15} Wisdom saving throw or be {@condition Entravé} for 1 minute, but the {@condition Entravé} target's speed is halved instead of being reduced to 0. At the start of each of its turns, the {@condition Entravé} target takes 4 ({@damage 1d8}) force damage. A {@condition Entravé} target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -2084,7 +2084,7 @@
 				{
 					"name": "Repelling Burst",
 					"entries": [
-						"{@atk ms} {@hit 7} to hit, reach 30 ft., one target. {@h}13 ({@damage 2d8 + 4}) force damage. If the target is a Large or smaller creature, it must succeed on a {@dc 15} Strength saving throw or be pushed up to 10 feet directly away from the professor and become {@condition restrained} until the start of professor's next turn."
+						"{@atk ms} {@hit 7} to hit, reach 30 ft., one target. {@h}13 ({@damage 2d8 + 4}) force damage. If the target is a Large or smaller creature, it must succeed on a {@dc 15} Strength saving throw or be pushed up to 10 feet directly away from the professor and become {@condition Entravé} until the start of professor's next turn."
 					]
 				},
 				{
@@ -2234,7 +2234,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}22 ({@damage 4d8 + 4}) piercing damage, and the target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the hunter can't make a Tail attack against another target."
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}22 ({@damage 4d8 + 4}) piercing damage, and the target is {@condition Agrippé} (escape {@dc 15}). Until this grapple ends, the target is {@condition Entravé}, and the hunter can't make a Tail attack against another target."
 					]
 				},
 				{
@@ -2375,13 +2375,13 @@
 				{
 					"name": "Oriq Mask",
 					"entries": [
-						"Murgaxor wears an Oriq mask. While wearing the mask, Murgaxor can't be targeted by any divination magic or perceived through magical scrying sensors, and he adds double his proficiency bonus to Charisma ({@skill Deception}) checks (included above)."
+						"Murgaxor wears an Oriq mask. While wearing the mask, Murgaxor can't be targeted by any divination magic or perceived through magical scrying sensors, and he adds double his proficiency bonus to Charisma ({@skill Tromperie}) checks (included above)."
 					]
 				},
 				{
 					"name": "Sanguine Sense",
 					"entries": [
-						"While Murgaxor isn't {@condition blinded}, he can see any creature that isn't an Undead or a Construct within 60 feet of himself, even through {@quickref Cover||3||total cover}, {@quickref Vision and Light||2||heavily obscured} areas, invisibility, or any other phenomena that would prevent sight."
+						"While Murgaxor isn't {@condition Aveuglé}, he can see any creature that isn't an Undead or a Construct within 60 feet of himself, even through {@quickref Cover||3||total cover}, {@quickref Vision and Light||2||heavily obscured} areas, invisibility, or any other phenomena that would prevent sight."
 					]
 				}
 			],
@@ -2401,7 +2401,7 @@
 				{
 					"name": "Blood Boil {@recharge 4}",
 					"entries": [
-						"Murgaxor chooses a point within 150 feet of himself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Murgaxor's choice that he can see in that area must make a {@dc 17} Constitution saving throw. On a failed save, a creature takes 38 ({@damage 7d10}) necrotic damage and is {@condition incapacitated} until the end of its next turn. On a success, a creature takes half as much damage and isn't {@condition incapacitated}. A creature dies if reduced to 0 hit points by this necrotic damage."
+						"Murgaxor chooses a point within 150 feet of himself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Murgaxor's choice that he can see in that area must make a {@dc 17} Constitution saving throw. On a failed save, a creature takes 38 ({@damage 7d10}) necrotic damage and is {@condition Incapable} until the end of its next turn. On a success, a creature takes half as much damage and isn't {@condition Incapable}. A creature dies if reduced to 0 hit points by this necrotic damage."
 					]
 				}
 			],
@@ -2691,13 +2691,13 @@
 				{
 					"name": "Oriq Mask",
 					"entries": [
-						"The blood mage wears an Oriq mask. While wearing the mask, the blood mage can't be targeted by any divination magic or perceived through magical scrying sensors, and it adds double its proficiency bonus to Charisma ({@skill Deception}) checks (included above)."
+						"The blood mage wears an Oriq mask. While wearing the mask, the blood mage can't be targeted by any divination magic or perceived through magical scrying sensors, and it adds double its proficiency bonus to Charisma ({@skill Tromperie}) checks (included above)."
 					]
 				},
 				{
 					"name": "Sanguine Sense",
 					"entries": [
-						"While the blood mage isn't {@condition blinded}, it can see any creature that isn't an Undead or a Construct within 60 feet of itself, even through {@quickref Cover||3||total cover}, {@quickref Vision and Light||2||heavily obscured} areas, invisibility, or any other phenomena that would prevent sight."
+						"While the blood mage isn't {@condition Aveuglé}, it can see any creature that isn't an Undead or a Construct within 60 feet of itself, even through {@quickref Cover||3||total cover}, {@quickref Vision and Light||2||heavily obscured} areas, invisibility, or any other phenomena that would prevent sight."
 					]
 				}
 			],
@@ -2717,7 +2717,7 @@
 				{
 					"name": "Blood Boil {@recharge 4}",
 					"entries": [
-						"The blood mage chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of the blood mage's choice that it can see in that area must make a {@dc 17} Constitution saving throw. On a failed save, a creature takes 38 ({@damage 7d10}) necrotic damage and is {@condition incapacitated} until the end of its next turn. On a success, a creature takes half as much damage and isn't {@condition incapacitated}. A creature dies if reduced to 0 hit points by this necrotic damage."
+						"The blood mage chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of the blood mage's choice that it can see in that area must make a {@dc 17} Constitution saving throw. On a failed save, a creature takes 38 ({@damage 7d10}) necrotic damage and is {@condition Incapable} until the end of its next turn. On a success, a creature takes half as much damage and isn't {@condition Incapable}. A creature dies if reduced to 0 hit points by this necrotic damage."
 					]
 				}
 			],
@@ -2840,7 +2840,7 @@
 				{
 					"name": "Oriq Mask",
 					"entries": [
-						"The recruiter wears an Oriq mask. While wearing the mask, the recruiter can't be targeted by any divination magic or perceived through magical scrying sensors, and it adds double its proficiency bonus to Charisma ({@skill Deception}) checks (included above)."
+						"The recruiter wears an Oriq mask. While wearing the mask, the recruiter can't be targeted by any divination magic or perceived through magical scrying sensors, and it adds double its proficiency bonus to Charisma ({@skill Tromperie}) checks (included above)."
 					]
 				}
 			],
@@ -3045,7 +3045,7 @@
 				{
 					"name": "Surge of Artistry {@recharge 4}",
 					"entries": [
-						"The apprentice moves up to its speed, surrounding itself with elemental magic as it moves. Until the end of its turn, the apprentice can move through the space of other creatures. The first time the apprentice enters a creature's space on a turn, that creature must succeed on a {@dc 12} Dexterity saving throw or be knocked {@condition prone}. If the apprentice ends its turn in another creature's space, the apprentice takes 5 ({@damage 1d10}) force damage and is pushed into the nearest unoccupied space."
+						"The apprentice moves up to its speed, surrounding itself with elemental magic as it moves. Until the end of its turn, the apprentice can move through the space of other creatures. The first time the apprentice enters a creature's space on a turn, that creature must succeed on a {@dc 12} Dexterity saving throw or be knocked {@condition À terre}. If the apprentice ends its turn in another creature's space, the apprentice takes 5 ({@damage 1d10}) force damage and is pushed into the nearest unoccupied space."
 					]
 				}
 			],
@@ -3153,7 +3153,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the pledgemage is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the pledgemage instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided it isn't {@condition incapacitated}."
+						"If the pledgemage is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the pledgemage instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided it isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -3173,7 +3173,7 @@
 				{
 					"name": "Showstopper (1/Day)",
 					"entries": [
-						"The pledgemage shines with elemental magic, targeting one creature it can see within 60 feet of itself. The target must make a {@dc 13} Wisdom saving throw. On a failed save, the target takes 28 ({@damage 8d6}) fire or cold damage (the pledgemage's choice) and is {@condition stunned} until the start of the pledgemage's next turn. On a successful save, the target takes half as much damage and isn't {@condition stunned}."
+						"The pledgemage shines with elemental magic, targeting one creature it can see within 60 feet of itself. The target must make a {@dc 13} Wisdom saving throw. On a failed save, the target takes 28 ({@damage 8d6}) fire or cold damage (the pledgemage's choice) and is {@condition Étourdi} until the start of the pledgemage's next turn. On a successful save, the target takes half as much damage and isn't {@condition Étourdi}."
 					]
 				}
 			],
@@ -3181,7 +3181,7 @@
 				{
 					"name": "Surge of Artistry {@recharge 4}",
 					"entries": [
-						"The pledgemage moves up to its speed, surrounding itself with elemental magic as it moves. Until the end of its turn, the pledgemage can move through the space of other creatures. The first time the pledgemage enters a creature's space on a turn, that creature must succeed on a {@dc 13} Dexterity saving throw or be knocked {@condition prone}. If the pledgemage ends its turn in another creature's space, the pledgemage takes 5 ({@damage 1d10}) force damage and is pushed into the nearest unoccupied space."
+						"The pledgemage moves up to its speed, surrounding itself with elemental magic as it moves. Until the end of its turn, the pledgemage can move through the space of other creatures. The first time the pledgemage enters a creature's space on a turn, that creature must succeed on a {@dc 13} Dexterity saving throw or be knocked {@condition À terre}. If the pledgemage ends its turn in another creature's space, the pledgemage takes 5 ({@damage 1d10}) force damage and is pushed into the nearest unoccupied space."
 					]
 				}
 			],
@@ -3453,7 +3453,7 @@
 				{
 					"name": "Rushing Wave",
 					"entries": [
-						"The professor is momentarily surrounded by a swirling wave of water and moves up to 30 feet. When the professor moves within 5 feet of any other creature during this bonus action, that creature must succeed on a {@dc 15} Strength saving throw, or the creature is knocked {@condition prone} and it can't take reactions until the start of its next turn. A creature can suffer this effect only once during a turn."
+						"The professor is momentarily surrounded by a swirling wave of water and moves up to 30 feet. When the professor moves within 5 feet of any other creature during this bonus action, that creature must succeed on a {@dc 15} Strength saving throw, or the creature is knocked {@condition À terre} and it can't take reactions until the start of its next turn. A creature can suffer this effect only once during a turn."
 					]
 				}
 			],
@@ -3812,7 +3812,7 @@
 				{
 					"name": "Dilation {@recharge 5}",
 					"entries": [
-						"The professor magically alters its physical form until it uses this bonus action again, until it is {@condition incapacitated} or dies, or until it dismisses the effect (no action required). Choose one of the following options:"
+						"The professor magically alters its physical form until it uses this bonus action again, until it is {@condition Incapable} or dies, or until it dismisses the effect (no action required). Choose one of the following options:"
 					]
 				},
 				{
@@ -3949,13 +3949,13 @@
 				{
 					"name": "Heuristic Lance",
 					"entries": [
-						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 60 ft., one creature. {@h}13 ({@damage 2d8 + 4}) psychic damage, and the target is {@condition poisoned} until the end of its next turn."
+						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 60 ft., one creature. {@h}13 ({@damage 2d8 + 4}) psychic damage, and the target is {@condition Empoisonné} until the end of its next turn."
 					]
 				},
 				{
 					"name": "Overriding Theorem {@recharge 4}",
 					"entries": [
-						"The professor magically influences the mind of up to two creatures it can see within 60 feet of itself. Each target must succeed on a {@dc 15} Intelligence saving throw or become {@condition charmed} by the professor until the start of the professor's next turn. The {@condition charmed} creature must immediately use its reaction, if available, to move up its speed toward another creature of the professor's choice and make one melee attack against that other creature."
+						"The professor magically influences the mind of up to two creatures it can see within 60 feet of itself. Each target must succeed on a {@dc 15} Intelligence saving throw or become {@condition Charmé} by the professor until the start of the professor's next turn. The {@condition Charmé} creature must immediately use its reaction, if available, to move up its speed toward another creature of the professor's choice and make one melee attack against that other creature."
 					]
 				}
 			],
@@ -4032,7 +4032,7 @@
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage, and the target is {@condition grappled} (escape {@dc 15}). The relic sloth can grapple no more than two targets at a time."
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage, and the target is {@condition Agrippé} (escape {@dc 15}). The relic sloth can grapple no more than two targets at a time."
 					]
 				}
 			],
@@ -4040,7 +4040,7 @@
 				{
 					"name": "Slow but Sturdy",
 					"entries": [
-						"When the relic sloth is subjected to an effect that would move it out of its current space or knock it {@condition prone}, it is neither moved nor knocked {@condition prone}."
+						"When the relic sloth is subjected to an effect that would move it out of its current space or knock it {@condition À terre}, it is neither moved nor knocked {@condition À terre}."
 					]
 				}
 			],
@@ -4143,7 +4143,7 @@
 				{
 					"name": "Excavator",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) force damage. If the target is a Huge or smaller creature, it must succeed on a {@dc 17} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) force damage. If the target is a Huge or smaller creature, it must succeed on a {@dc 17} Strength saving throw or be pushed up to 10 feet away and knocked {@condition À terre}."
 					]
 				}
 			],
@@ -4354,7 +4354,7 @@
 				{
 					"name": "Illuminating Shadow Breath {@recharge 5}",
 					"entries": [
-						"Shadrix exhales an entwined burst of blinding radiance and unnerving shadow in a 90-foot cone. Each creature in that area must make a {@dc 21} Constitution saving throw. On a failed save, a creature takes 31 ({@damage 7d8}) radiant damage and 31 ({@damage 7d8}) psychic damage and is {@condition blinded} until the start of Shadrix's next turn. On a successful save, a creature takes half as much damage and isn't {@condition blinded}."
+						"Shadrix exhales an entwined burst of blinding radiance and unnerving shadow in a 90-foot cone. Each creature in that area must make a {@dc 21} Constitution saving throw. On a failed save, a creature takes 31 ({@damage 7d8}) radiant damage and 31 ({@damage 7d8}) psychic damage and is {@condition Aveuglé} until the start of Shadrix's next turn. On a successful save, a creature takes half as much damage and isn't {@condition Aveuglé}."
 					]
 				}
 			],
@@ -4368,7 +4368,7 @@
 				{
 					"name": "Shadow Slip (Costs 2 Actions)",
 					"entries": [
-						"Shadrix becomes an inky cloud of shadow and can move up to half his flying speed without provoking opportunity attacks, then resumes his true form. During this movement, he can move through creatures and objects as if they were {@quickref difficult terrain||3}. If he moves through a creature, it must succeed on a {@dc 21} Constitution saving throw or become {@condition blinded} until the end of its next turn. If Shadrix ends this move inside an object, he takes 5 ({@damage 1d10}) force damage and is shunted to the nearest unoccupied space."
+						"Shadrix becomes an inky cloud of shadow and can move up to half his flying speed without provoking opportunity attacks, then resumes his true form. During this movement, he can move through creatures and objects as if they were {@quickref difficult terrain||3}. If he moves through a creature, it must succeed on a {@dc 21} Constitution saving throw or become {@condition Aveuglé} until the end of its next turn. If Shadrix ends this move inside an object, he takes 5 ({@damage 1d10}) force damage and is shunted to the nearest unoccupied space."
 					]
 				},
 				{
@@ -4614,7 +4614,7 @@
 				{
 					"name": "Demotivate (2/Day)",
 					"entries": [
-						"The pledgemage hurls magical insults at one creature it can see within 30 feet of itself. The target must succeed on a {@dc 13} Wisdom saving throw or become {@condition frightened} of the pledgemage for 1 minute. While {@condition frightened} in this way, the target can't take reactions, its speed is halved, and any hit the pledgemage scores against the creature is a critical hit. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The pledgemage hurls magical insults at one creature it can see within 30 feet of itself. The target must succeed on a {@dc 13} Wisdom saving throw or become {@condition Effrayé} of the pledgemage for 1 minute. While {@condition Effrayé} in this way, the target can't take reactions, its speed is halved, and any hit the pledgemage scores against the creature is a critical hit. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -4748,7 +4748,7 @@
 				{
 					"name": "Radiant Strike",
 					"entries": [
-						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h}17 ({@damage 3d8 + 4}) radiant damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw be {@condition blinded} until the end of its next turn."
+						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h}17 ({@damage 3d8 + 4}) radiant damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw be {@condition Aveuglé} until the end of its next turn."
 					]
 				}
 			],
@@ -4886,7 +4886,7 @@
 				{
 					"name": "Ink Lance",
 					"entries": [
-						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h}17 ({@damage 3d8 + 4}) necrotic damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw be {@condition blinded} until the end of its next turn."
+						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h}17 ({@damage 3d8 + 4}) necrotic damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw be {@condition Aveuglé} until the end of its next turn."
 					]
 				}
 			],
@@ -5114,8 +5114,8 @@
 				{
 					"name": "Smile and Wave",
 					"entries": [
-						"Each creature of the guide's choice that is within 30 feet of the guide must succeed on a {@dc 11} Wisdom saving throw or be magically {@condition charmed} by the guide for 1 hour.",
-						"A {@condition charmed} target must move on its turn toward the guide, trying to get within 5 feet of the guide. The target doesn't move into obviously dangerous ground, such as a fire or a pit. Whenever the {@condition charmed} target takes damage, it can repeat the saving throw, ending the effect on itself on a success.",
+						"Each creature of the guide's choice that is within 30 feet of the guide must succeed on a {@dc 11} Wisdom saving throw or be magically {@condition Charmé} by the guide for 1 hour.",
+						"A {@condition Charmé} target must move on its turn toward the guide, trying to get within 5 feet of the guide. The target doesn't move into obviously dangerous ground, such as a fire or a pit. Whenever the {@condition Charmé} target takes damage, it can repeat the saving throw, ending the effect on itself on a success.",
 						"A target that successfully saves is immune to any guide's Smile and Wave ability for the next 24 hours."
 					]
 				}
@@ -5458,7 +5458,7 @@
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}13 ({@damage 1d6 + 10}) slashing damage. If the target is a Huge or smaller creature, it is knocked {@condition prone}."
+						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}13 ({@damage 1d6 + 10}) slashing damage. If the target is a Huge or smaller creature, it is knocked {@condition À terre}."
 					]
 				},
 				{
@@ -5484,7 +5484,7 @@
 				{
 					"name": "Repeating History (Costs 3 Actions)",
 					"entries": [
-						"Velomachus magically summons {@dice 1d4} {@creature spirit statue mascot|SCC|statue mascots} in unoccupied spaces she can see within 60 feet of herself. The spirit statues obey her commands and take their turns immediately after hers. Any creature, other than a spirit statue or Velomachus, is {@condition restrained} if it starts its turn within 5 feet of one or more of these spirit statues. This {@condition restrained} condition lasts until the end of the creature's turn. These spirit statues disappear after 10 minutes, when Velomachus dies, or when she uses this action again."
+						"Velomachus magically summons {@dice 1d4} {@creature spirit statue mascot|SCC|statue mascots} in unoccupied spaces she can see within 60 feet of herself. The spirit statues obey her commands and take their turns immediately after hers. Any creature, other than a spirit statue or Velomachus, is {@condition Entravé} if it starts its turn within 5 feet of one or more of these spirit statues. This {@condition Entravé} condition lasts until the end of the creature's turn. These spirit statues disappear after 10 minutes, when Velomachus dies, or when she uses this action again."
 					]
 				}
 			],
@@ -5556,7 +5556,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -5633,7 +5633,7 @@
 				{
 					"name": "Wither Burst",
 					"entries": [
-						"When the apprentice sees a creature within 30 feet of itself drop to 0 hit points, the apprentice channels the expended life essence and targets another creature it can see within 30 feet of itself. The target must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the target takes 3 ({@damage 1d6}) poison damage at the start of each of its turns. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+						"When the apprentice sees a creature within 30 feet of itself drop to 0 hit points, the apprentice channels the expended life essence and targets another creature it can see within 30 feet of itself. The target must succeed on a {@dc 12} Constitution saving throw or become {@condition Empoisonné} for 1 minute. While {@condition Empoisonné} in this way, the target takes 3 ({@damage 1d6}) poison damage at the start of each of its turns. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -5782,7 +5782,7 @@
 				{
 					"name": "Wither Burst",
 					"entries": [
-						"When the pledgemage sees a creature within 30 feet of itself drop to 0 hit points, the pledgemage channels the expended life essence and targets another creature it can see within 30 feet of itself. The target must succeed on a {@dc 13} Constitution saving throw or become {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the target takes 3 ({@damage 1d6}) poison damage at the start of each of its turns. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+						"When the pledgemage sees a creature within 30 feet of itself drop to 0 hit points, the pledgemage channels the expended life essence and targets another creature it can see within 30 feet of itself. The target must succeed on a {@dc 13} Constitution saving throw or become {@condition Empoisonné} for 1 minute. While {@condition Empoisonné} in this way, the target takes 3 ({@damage 1d6}) poison damage at the start of each of its turns. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -5834,7 +5834,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item hide armor|PHB}"
+						"{@item Armure de peau|PHB}"
 					]
 				}
 			],
@@ -5973,7 +5973,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item hide armor|PHB}"
+						"{@item Armure de peau|PHB}"
 					]
 				}
 			],
@@ -6157,13 +6157,13 @@
 				{
 					"name": "Oriq Mask",
 					"entries": [
-						"Y'demi wears an Oriq mask. While wearing the mask, Y'demi can't be targeted by any divination magic or perceived through magical scrying sensors, and she adds double her proficiency bonus to Charisma ({@skill Deception}) checks (included above)."
+						"Y'demi wears an Oriq mask. While wearing the mask, Y'demi can't be targeted by any divination magic or perceived through magical scrying sensors, and she adds double her proficiency bonus to Charisma ({@skill Tromperie}) checks (included above)."
 					]
 				},
 				{
 					"name": "Sanguine Sense",
 					"entries": [
-						"While Y'demi isn't {@condition blinded}, she can see any creature that isn't an Undead or a Construct within 60 feet of itself, even through {@quickref Cover||3||total cover}, {@quickref Vision and Light||2||heavily obscured} areas, invisibility, or any other phenomena that would prevent sight."
+						"While Y'demi isn't {@condition Aveuglé}, she can see any creature that isn't an Undead or a Construct within 60 feet of itself, even through {@quickref Cover||3||total cover}, {@quickref Vision and Light||2||heavily obscured} areas, invisibility, or any other phenomena that would prevent sight."
 					]
 				}
 			],
@@ -6183,7 +6183,7 @@
 				{
 					"name": "Blood Boil {@recharge 4}",
 					"entries": [
-						"Y'demi chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Y'demi's choice that she can see in that area must make a {@dc 17} Constitution saving throw. On a failed save, a creature takes 38 ({@damage 7d10}) necrotic damage and is {@condition incapacitated} until the end of its next turn. On a success, a creature takes half as much damage and isn't {@condition incapacitated}. A creature dies if reduced to 0 hit points by this necrotic damage."
+						"Y'demi chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Y'demi's choice that she can see in that area must make a {@dc 17} Constitution saving throw. On a failed save, a creature takes 38 ({@damage 7d10}) necrotic damage and is {@condition Incapable} until the end of its next turn. On a success, a creature takes half as much damage and isn't {@condition Incapable}. A creature dies if reduced to 0 hit points by this necrotic damage."
 					]
 				}
 			],
@@ -6191,7 +6191,7 @@
 				{
 					"name": "Sanguine Tentacles (1/Day)",
 					"entries": [
-						"The blood in the copper basin disappears as tentacles of congealed blood fill a 10-foot cube centered at a point on the ground that Y'demi can see within 15 feet of her. The effect lasts for 1 minute, during which time that area is {@quickref difficult terrain||3}. Any creature entering that area for the first time on a turn or starting its turn there must succeed on a {@dc 13} Dexterity saving throw or be {@condition restrained} by the tentacles. A creature that starts its turn {@condition restrained} by the tentacles takes 10 ({@damage 3d6}) bludgeoning damage. A creature {@condition restrained} by the tentacles can use its action to make either a {@dc 13} Strength ({@skill Athletics}) check or a {@dc 13} Dexterity ({@skill Acrobatics}) check, ending the {@condition restrained} condition on itself on a success."
+						"The blood in the copper basin disappears as tentacles of congealed blood fill a 10-foot cube centered at a point on the ground that Y'demi can see within 15 feet of her. The effect lasts for 1 minute, during which time that area is {@quickref difficult terrain||3}. Any creature entering that area for the first time on a turn or starting its turn there must succeed on a {@dc 13} Dexterity saving throw or be {@condition Entravé} by the tentacles. A creature that starts its turn {@condition Entravé} by the tentacles takes 10 ({@damage 3d6}) bludgeoning damage. A creature {@condition Entravé} by the tentacles can use its action to make either a {@dc 13} Strength ({@skill Athlétisme}) check or a {@dc 13} Dexterity ({@skill Acrobaties}) check, ending the {@condition Entravé} condition on itself on a success."
 					]
 				}
 			],

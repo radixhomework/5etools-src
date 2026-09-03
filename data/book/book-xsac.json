@@ -156,7 +156,7 @@
 											"type": "entries",
 											"name": "If I'm hidden and a creature with Blindsight or Truesight sees me, am I still hidden?",
 											"entries": [
-												"No. Being hidden is a game state that gives you the {@condition Invisible|XPHB} condition. If a creature finds you, you're no longer hidden and lose that condition, as explained in the {@action Hide|XPHB} action (see {@book appendix C of the Player's Handbook|XPHB|10})."
+												"No. Being hidden is a game state that gives you the {@condition Invisible|XPHB} condition. If a creature finds you, you're no longer hidden and lose that condition, as explained in the {@action Se cacher|XPHB} action (see {@book appendix C of the Player's Handbook|XPHB|10})."
 											],
 											"id": "014"
 										},
@@ -164,7 +164,7 @@
 											"type": "entries",
 											"name": "The Stunned condition no longer prevents you from moving. Is that change intentional?",
 											"entries": [
-												"Yes. We have intentionally increased the differences between the {@condition Stunned|XPHB} and {@condition Paralyzed|XPHB} conditions, with {@condition Stunned|XPHB} now allowing you to move."
+												"Yes. We have intentionally increased the differences between the {@condition Étourdi|XPHB} and {@condition Paralysé|XPHB} conditions, with {@condition Étourdi|XPHB} now allowing you to move."
 											],
 											"id": "015"
 										},
@@ -172,7 +172,7 @@
 											"type": "entries",
 											"name": "Does all magical Darkness block Darkvision?",
 											"entries": [
-												"Magical {@variantrule Darkness|XPHB} blocks {@sense Darkvision|XPHB} only if the rules text for a particular instance of Darkness says it does. For example, the {@spell Darkness|XPHB} spell specifies that {@sense Darkvision|XPHB} can't see through it. That obstruction is a feature of the spell, not a feature of magical {@variantrule Darkness|XPHB} in general."
+												"Magical {@variantrule Darkness|XPHB} blocks {@sense Vision dans le noir|XPHB} only if the rules text for a particular instance of Darkness says it does. For example, the {@spell Darkness|XPHB} spell specifies that {@sense Vision dans le noir|XPHB} can't see through it. That obstruction is a feature of the spell, not a feature of magical {@variantrule Darkness|XPHB} in general."
 											],
 											"id": "016"
 										},
@@ -204,7 +204,7 @@
 											"type": "entries",
 											"name": "What's an example of an effect that can reduce Exhaustion?",
 											"entries": [
-												"The {@spell Greater Restoration|XPHB} spell can reduce {@condition Exhaustion|XPHB}."
+												"The {@spell Greater Restoration|XPHB} spell can reduce {@condition Épuisement|XPHB}."
 											],
 											"id": "01a"
 										},
@@ -247,7 +247,7 @@
 											"type": "entries",
 											"name": "Can you delay your turn and take it later in the round?",
 											"entries": [
-												"No. When it's your turn, you either do something or you don't. If you want to wait to act in response to something, take the {@action Ready|XPHB} action. (See {@book appendix C of the Player's Handbook|XPHB|10}.)"
+												"No. When it's your turn, you either do something or you don't. If you want to wait to act in response to something, take the {@action Se tenir prêt|XPHB} action. (See {@book appendix C of the Player's Handbook|XPHB|10}.)"
 											],
 											"id": "020"
 										},
@@ -255,8 +255,8 @@
 											"type": "entries",
 											"name": "I have a readied action. Can I stop readying to take an Opportunity Attack? Or does the Ready action take a full-round commitment?",
 											"entries": [
-												"Think of the {@action Ready|XPHB} action as a preparatory action rather than a commitment. By taking the {@action Ready|XPHB} action, you're giving your character access to a tailor-made {@variantrule Reaction|XPHB} to use in a given circumstance. However, you're not bound to take that readied {@variantrule Reaction|XPHB}. As combat continues, you can decide to take this readied {@variantrule Reaction|XPHB}\u2014or, if plans change, you can take any other {@variantrule Reaction|XPHB} you might have access to, such as an {@action Opportunity Attack|XPHB}.",
-												"But remember that you have only one {@variantrule Reaction|XPHB}. Taking an {@action Opportunity Attack|XPHB} means you won't be able to take that readied {@variantrule Reaction|XPHB}, so choose which {@variantrule Reaction|XPHB} you take carefully."
+												"Think of the {@action Se tenir prêt|XPHB} action as a preparatory action rather than a commitment. By taking the {@action Se tenir prêt|XPHB} action, you're giving your character access to a tailor-made {@variantrule Reaction|XPHB} to use in a given circumstance. However, you're not bound to take that readied {@variantrule Reaction|XPHB}. As combat continues, you can decide to take this readied {@variantrule Reaction|XPHB}\u2014or, if plans change, you can take any other {@variantrule Reaction|XPHB} you might have access to, such as an {@action Attaque d'opportunité|XPHB}.",
+												"But remember that you have only one {@variantrule Reaction|XPHB}. Taking an {@action Attaque d'opportunité|XPHB} means you won't be able to take that readied {@variantrule Reaction|XPHB}, so choose which {@variantrule Reaction|XPHB} you take carefully."
 											],
 											"id": "021"
 										},
@@ -280,7 +280,7 @@
 											"type": "entries",
 											"name": "Can you move through the space of a Prone enemy?",
 											"entries": [
-												"You can move through the space of an enemy only if that enemy (A) has the {@condition Incapacitated|XPHB} condition, (B) is a Tiny creature, or (C) is at least two sizes larger or smaller than you. The {@condition Prone|XPHB} condition doesn't override this."
+												"You can move through the space of an enemy only if that enemy (A) has the {@condition Incapable|XPHB} condition, (B) is a Tiny creature, or (C) is at least two sizes larger or smaller than you. The {@condition À terre|XPHB} condition doesn't override this."
 											],
 											"id": "024"
 										},
@@ -296,7 +296,7 @@
 											"type": "entries",
 											"name": "If you have a feature like Cunning Action or Step of the Wind, can you take the Dash action more than once on your turn?",
 											"entries": [
-												"If you can take the {@action Dash|XPHB} action as a Bonus Action, nothing in the rules prevents you from taking the {@action Dash|XPHB} action with your regular action too. The same principle holds when you use a feature like {@classFeature Action Surge|Fighter|XPHB|2|XPHB}; you could use both of your actions to take the {@action Dash|XPHB} action."
+												"If you can take the {@action Course|XPHB} action as a Bonus Action, nothing in the rules prevents you from taking the {@action Course|XPHB} action with your regular action too. The same principle holds when you use a feature like {@classFeature Action Surge|Fighter|XPHB|2|XPHB}; you could use both of your actions to take the {@action Course|XPHB} action."
 											],
 											"id": "026"
 										},
@@ -320,7 +320,7 @@
 											"type": "entries",
 											"name": "If I'm hidden and become unhidden when I shoot an arrow at a target, does hiding again require an action?",
 											"entries": [
-												"Without a special ability, hiding in combat requires the {@action Hide|XPHB} action."
+												"Without a special ability, hiding in combat requires the {@action Se cacher|XPHB} action."
 											],
 											"id": "029"
 										},
@@ -328,7 +328,7 @@
 											"type": "entries",
 											"name": "If I use the Ready action to deal damage to someone who's moving, do I deny the target the rest of its movement?",
 											"entries": [
-												"Dealing damage to a moving target doesn't halt its movement unless the damage is accompanied by an ability that stops movement. Things like the {@feat Sentinel|XPHB} feat give you such an ability. Reducing a moving creature to 0 {@variantrule Hit Points|XPHB} is also usually an effective way to stop it!"
+												"Dealing damage to a moving target doesn't halt its movement unless the damage is accompanied by an ability that stops movement. Things like the {@feat Sentinelle|XPHB} feat give you such an ability. Reducing a moving creature to 0 {@variantrule Hit Points|XPHB} is also usually an effective way to stop it!"
 											],
 											"id": "02a"
 										},
@@ -336,7 +336,7 @@
 											"type": "entries",
 											"name": "Can you use the Ready action to take the Attack action on someone else's turn and then combine the Charger feat with it?",
 											"entries": [
-												"No. When you take the {@action Ready|XPHB} action, you can either move up to your {@variantrule Speed|XPHB} or take a defined action as your {@variantrule Reaction|XPHB}. The {@feat Charger|XPHB} feat's Charge Attack benefit relies on both moving and taking the {@action Attack|XPHB} action on the same turn."
+												"No. When you take the {@action Se tenir prêt|XPHB} action, you can either move up to your {@variantrule Speed|XPHB} or take a defined action as your {@variantrule Reaction|XPHB}. The {@feat Chargeur|XPHB} feat's Charge Attack benefit relies on both moving and taking the {@action Attaque|XPHB} action on the same turn."
 											],
 											"id": "02b"
 										},
@@ -344,7 +344,7 @@
 											"type": "entries",
 											"name": "For readying a spell or another action, does the target have to be in range?",
 											"entries": [
-												"Your target must be within range when you take a readied action, not when you first take the {@action Ready|XPHB} action to ready it."
+												"Your target must be within range when you take a readied action, not when you first take the {@action Se tenir prêt|XPHB} action to ready it."
 											],
 											"id": "02c"
 										},
@@ -352,7 +352,7 @@
 											"type": "entries",
 											"name": "How does readying a spell work? Do you lose your spell slot if the trigger never occurs?",
 											"entries": [
-												"When you take the {@action Ready|XPHB} action to ready a spell, you immediately expend any resources used to cast said spell, including any spell slot. You don't get any of these resources back if the trigger never occurs. See {@book appendix C of the Player's Handbook|XPHB|10}."
+												"When you take the {@action Se tenir prêt|XPHB} action to ready a spell, you immediately expend any resources used to cast said spell, including any spell slot. You don't get any of these resources back if the trigger never occurs. See {@book appendix C of the Player's Handbook|XPHB|10}."
 											],
 											"id": "02d"
 										},
@@ -368,7 +368,7 @@
 											"type": "entries",
 											"name": "How does a Reach weapon work with Opportunity Attack?",
 											"entries": [
-												"An {@action Opportunity Attack|XPHB} is triggered when a creature you can see moves beyond your reach. If you want to make an {@action Opportunity Attack|XPHB} with a {@itemProperty R|XPHB|Reach} weapon, such as a {@item Glaive|XPHB} or a {@item Halberd|XPHB}, you can do so when a creature leaves the reach you have with that weapon. For example, if you're wielding a {@item Halberd|XPHB}, a creature that is right next to you could move 5 feet away without triggering an {@action Opportunity Attack|XPHB}. If that creature tries to move an additional 5 feet\u2014leaving your 10-foot reach\u2014the creature then triggers an {@action Opportunity Attack|XPHB}."
+												"An {@action Attaque d'opportunité|XPHB} is triggered when a creature you can see moves beyond your reach. If you want to make an {@action Attaque d'opportunité|XPHB} with a {@itemProperty R|XPHB|Reach} weapon, such as a {@item Glaive|XPHB} or a {@item Hallebarde|XPHB}, you can do so when a creature leaves the reach you have with that weapon. For example, if you're wielding a {@item Hallebarde|XPHB}, a creature that is right next to you could move 5 feet away without triggering an {@action Attaque d'opportunité|XPHB}. If that creature tries to move an additional 5 feet\u2014leaving your 10-foot reach\u2014the creature then triggers an {@action Attaque d'opportunité|XPHB}."
 											],
 											"id": "02f"
 										},
@@ -376,7 +376,7 @@
 											"type": "entries",
 											"name": "Can a Blinded creature make an Opportunity Attack?",
 											"entries": [
-												"An {@action Opportunity Attack|XPHB} is triggered when a creature that you can see leaves your reach. If you can't see an enemy, you can't make an {@action Opportunity Attack|XPHB} against it. Creatures with {@sense Blindsight|XPHB} are an exception to this rule, because that ability lets those creatures \"see\" within a certain radius."
+												"An {@action Attaque d'opportunité|XPHB} is triggered when a creature that you can see leaves your reach. If you can't see an enemy, you can't make an {@action Attaque d'opportunité|XPHB} against it. Creatures with {@sense Perception aveugle|XPHB} are an exception to this rule, because that ability lets those creatures \"see\" within a certain radius."
 											],
 											"id": "030"
 										},
@@ -384,7 +384,7 @@
 											"type": "entries",
 											"name": "Can an Opportunity Attack be used to make a grapple or a shove?",
 											"entries": [
-												"Yes. When you make an {@action Opportunity Attack|XPHB}, one of your options is making an {@variantrule Unarmed Strike|XPHB}. You can still choose to use the Grapple and Shove options of this {@variantrule Unarmed Strike|XPHB}."
+												"Yes. When you make an {@action Attaque d'opportunité|XPHB}, one of your options is making an {@variantrule Unarmed Strike|XPHB}. You can still choose to use the Grapple and Shove options of this {@variantrule Unarmed Strike|XPHB}."
 											],
 											"id": "031"
 										},
@@ -392,7 +392,7 @@
 											"type": "entries",
 											"name": "If a creature is Grappled, can it still attack and use its special abilities?",
 											"entries": [
-												"The {@condition Grappled|XPHB} condition limits movement, not attacks, spellcasting, and the like. That said, many grappling abilities, such as a {@creature Giant Octopus|XMM|Giant Octopus's} Tentacles attack, also deliver effects like the {@condition Restrained|XPHB} condition."
+												"The {@condition Agrippé|XPHB} condition limits movement, not attacks, spellcasting, and the like. That said, many grappling abilities, such as a {@creature Giant Octopus|XMM|Giant Octopus's} Tentacles attack, also deliver effects like the {@condition Entravé|XPHB} condition."
 											],
 											"id": "032"
 										},
@@ -409,7 +409,7 @@
 											"type": "entries",
 											"name": "Say I grapple you, then I have the Prone condition. Are we now Prone together?",
 											"entries": [
-												"No. A creature you're grappling isn't Prone if you have the {@condition Prone|XPHB} condition. You're now holding on to the creature while you are Prone."
+												"No. A creature you're grappling isn't Prone if you have the {@condition À terre|XPHB} condition. You're now holding on to the creature while you are Prone."
 											],
 											"id": "034"
 										},
@@ -517,7 +517,7 @@
 											"type": "entries",
 											"name": "Can a Rogue/Monk use Sneak Attack with Unarmed Strikes?",
 											"entries": [
-												"The {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} feature works with a weapon that has the {@itemProperty F|XPHB|Finesse} or Ranged property. An {@variantrule Unarmed Strike|XPHB} isn't a weapon, so it doesn't qualify. In contrast, a {@class Rogue|XPHB}/{@class Monk|XPHB} can use {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} with a Monk weapon, such as a {@item Shortsword|XPHB} or a {@item Dagger|XPHB}, that has one of Sneak Attack's required properties."
+												"The {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} feature works with a weapon that has the {@itemProperty F|XPHB|Finesse} or Ranged property. An {@variantrule Unarmed Strike|XPHB} isn't a weapon, so it doesn't qualify. In contrast, a {@class Rogue|XPHB}/{@class Monk|XPHB} can use {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} with a Monk weapon, such as a {@item Épée courte|XPHB} or a {@item Dague|XPHB}, that has one of Sneak Attack's required properties."
 											],
 											"id": "042"
 										},
@@ -553,7 +553,7 @@
 											"type": "entries",
 											"name": "When you use Extra Attack, do you have to use the same weapon for all the attacks?",
 											"entries": [
-												"Extra Attack imposes no limitation on what you use for the attacks. You can use regular weapons, improvised weapons, {@variantrule Unarmed Strike|XPHB}, or a combination of these options for the attacks. However, you must still follow the rules for equipping and unequipping weapons as part of the {@action Attack|XPHB} action."
+												"Extra Attack imposes no limitation on what you use for the attacks. You can use regular weapons, improvised weapons, {@variantrule Unarmed Strike|XPHB}, or a combination of these options for the attacks. However, you must still follow the rules for equipping and unequipping weapons as part of the {@action Attaque|XPHB} action."
 											],
 											"id": "047"
 										}
@@ -642,8 +642,8 @@
 											"type": "entries",
 											"name": "Can a bound and gagged Druid simply use Wild Shape to get out? It's hard to capture someone who can turn into a mouse at will.",
 											"entries": [
-												"Shape-shifting into a different size can be an effective way of escaping, depending on the nature of the bonds or confinement; for example, {@item Manacles|XPHB} only work on a Small or Medium creature, so shape-shifting into a Tiny animal would allow a {@class Druid|XPHB} to slip out of the restraints with ease.",
-												"However, a creature changing sizes doesn't automatically end the {@condition Grappled|XPHB} or {@condition Restrained|XPHB} conditions unless it causes the creature to no longer meet the effect's size requirement (if any). For example, a {@creature Giant Crab|XMM|Giant Crab's} Claw attack can grapple only Medium or smaller targets; if a {@class Druid|XPHB} Grappled by a {@creature Giant Crab|XMM} transformed into a Large animal, the Druid would no longer be Grappled."
+												"Shape-shifting into a different size can be an effective way of escaping, depending on the nature of the bonds or confinement; for example, {@item Menottes|XPHB} only work on a Small or Medium creature, so shape-shifting into a Tiny animal would allow a {@class Druid|XPHB} to slip out of the restraints with ease.",
+												"However, a creature changing sizes doesn't automatically end the {@condition Agrippé|XPHB} or {@condition Entravé|XPHB} conditions unless it causes the creature to no longer meet the effect's size requirement (if any). For example, a {@creature Giant Crab|XMM|Giant Crab's} Claw attack can grapple only Medium or smaller targets; if a {@class Druid|XPHB} Grappled by a {@creature Giant Crab|XMM} transformed into a Large animal, the Druid would no longer be Grappled."
 											],
 											"id": "053"
 										}
@@ -664,7 +664,7 @@
 											"type": "entries",
 											"name": "If my Battle Master Fighter provokes an Opportunity Attack and it misses, can I use Riposte?",
 											"entries": [
-												"Yes, you can use the {@optfeature Riposte|XPHB} maneuver in response to an {@action Opportunity Attack|XPHB} that misses you, assuming your {@variantrule Reaction|XPHB} is available."
+												"Yes, you can use the {@optfeature Riposte|XPHB} maneuver in response to an {@action Attaque d'opportunité|XPHB} that misses you, assuming your {@variantrule Reaction|XPHB} is available."
 											],
 											"id": "056"
 										},
@@ -672,7 +672,7 @@
 											"type": "entries",
 											"name": "Can the Disarming Attack maneuver cause a creature to drop a Shield?",
 											"entries": [
-												"No. {@optfeature Disarming Attack|XPHB} forces a creature to drop an object it is holding. Donned {@item Shield|XPHB|Shields} aren't merely held."
+												"No. {@optfeature Disarming Attack|XPHB} forces a creature to drop an object it is holding. Donned {@item Bouclier|XPHB|Shields} aren't merely held."
 											],
 											"id": "057"
 										}
@@ -744,7 +744,7 @@
 											"name": "Can a Rogue use Sneak Attack more than once per round?",
 											"entries": [
 												"The {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} description specifies that you can use the feature once per turn, but it's not limited to your turn. The feature also doesn't limit the number of times you can use it in a round.",
-												"You sometimes get a chance to use {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} on someone else's turn. The most common way for this to happen is when an enemy provokes an {@action Opportunity Attack|XPHB} from you. If the requirements for {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} are met, your {@action Opportunity Attack|XPHB} can benefit from that feature."
+												"You sometimes get a chance to use {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} on someone else's turn. The most common way for this to happen is when an enemy provokes an {@action Attaque d'opportunité|XPHB} from you. If the requirements for {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} are met, your {@action Attaque d'opportunité|XPHB} can benefit from that feature."
 											],
 											"id": "061"
 										},
@@ -760,7 +760,7 @@
 											"type": "entries",
 											"name": "Can a Rogue use Evasion if they are surprised?",
 											"entries": [
-												"Yes. Being {@status surprised|XPHB} at the start of a combat causes a creature to have {@variantrule Disadvantage|XPHB} on the {@variantrule Initiative|XPHB} roll. A {@class Rogue|XPHB} can use {@classFeature Evasion|Rogue|XPHB|7|XPHB} as long as they don't have the {@condition Incapacitated|XPHB} condition."
+												"Yes. Being {@status Surpris|XPHB} at the start of a combat causes a creature to have {@variantrule Disadvantage|XPHB} on the {@variantrule Initiative|XPHB} roll. A {@class Rogue|XPHB} can use {@classFeature Evasion|Rogue|XPHB|7|XPHB} as long as they don't have the {@condition Incapable|XPHB} condition."
 											],
 											"id": "063"
 										},
@@ -768,7 +768,7 @@
 											"type": "entries",
 											"name": "Can the Rogue's Reliable Talent feature be used in conjunction with other features, like the Champion's Remarkable Athlete feature or the Bard's Jack of All Trades feature?",
 											"entries": [
-												"{@classFeature Reliable Talent|Rogue|XPHB|7|XPHB} can be used in conjunction with another feature as long as the ability check being made meets the requirements for both features. For example, {@classFeature Reliable Talent|Rogue|XPHB|7|XPHB} applies only to a check made using one of your skill or tool proficiencies, while {@classFeature Jack of All Trades|Bard|XPHB|2|XPHB} applies to a check using a skill proficiency you lack; therefore, a check that qualifies for {@classFeature Reliable Talent|Rogue|XPHB|7|XPHB} doesn't qualify for {@classFeature Jack of All Trades|Bard|XPHB|2|XPHB}, and vice versa. However, the Champion's {@subclassFeature Remarkable Athlete|Fighter|XPHB|Champion|XPHB|3|XPHB} feature gives {@variantrule Advantage|XPHB} on all Strength ({@skill Athletics|XPHB}) checks, which doesn't conflict with {@classFeature Reliable Talent|Rogue|XPHB|7|XPHB|Reliable Talent's} requirements. So if a character has proficiency with the {@skill Athletics|XPHB} skill and access to both {@classFeature Reliable Talent|Rogue|XPHB|7|XPHB} and {@subclassFeature Remarkable Athlete|Fighter|XPHB|Champion|XPHB|3|XPHB}, that character could use both features when making a Strength ({@skill Athletics|XPHB}) check."
+												"{@classFeature Reliable Talent|Rogue|XPHB|7|XPHB} can be used in conjunction with another feature as long as the ability check being made meets the requirements for both features. For example, {@classFeature Reliable Talent|Rogue|XPHB|7|XPHB} applies only to a check made using one of your skill or tool proficiencies, while {@classFeature Jack of All Trades|Bard|XPHB|2|XPHB} applies to a check using a skill proficiency you lack; therefore, a check that qualifies for {@classFeature Reliable Talent|Rogue|XPHB|7|XPHB} doesn't qualify for {@classFeature Jack of All Trades|Bard|XPHB|2|XPHB}, and vice versa. However, the Champion's {@subclassFeature Remarkable Athlete|Fighter|XPHB|Champion|XPHB|3|XPHB} feature gives {@variantrule Advantage|XPHB} on all Strength ({@skill Athlétisme|XPHB}) checks, which doesn't conflict with {@classFeature Reliable Talent|Rogue|XPHB|7|XPHB|Reliable Talent's} requirements. So if a character has proficiency with the {@skill Athlétisme|XPHB} skill and access to both {@classFeature Reliable Talent|Rogue|XPHB|7|XPHB} and {@subclassFeature Remarkable Athlete|Fighter|XPHB|Champion|XPHB|3|XPHB}, that character could use both features when making a Strength ({@skill Athlétisme|XPHB}) check."
 											],
 											"id": "064"
 										}
@@ -850,8 +850,8 @@
 											"type": "entries",
 											"name": "If a Warlock uses Pact of the Blade to bond with a magic weapon, does that weapon have to be a Melee weapon, and can the Warlock change the weapon's form?",
 											"entries": [
-												"The {@class Warlock|XPHB|Warlock's} {@optfeature Pact of the Blade|XPHB} feature lets you create a Melee weapon out of nothing. Whenever you do so, you determine the weapon's form, choosing from the Melee weapon options in the {@table Weapons|XPHB} table in the {@book Player's Handbook|XPHB}. For example, you can create a {@item Greataxe|XPHB}, and then use the feature again to create a {@item Javelin|XPHB}, which causes the {@item Greataxe|XPHB} to disappear.",
-												"You can also use {@optfeature Pact of the Blade|XPHB} to bond with a magic weapon, turning it into your pact weapon. This magic weapon doesn't have to be a Melee weapon, so you could use the feature on a {@item +1 Longbow|XDMG}, for instance. However, you can't change the form of a magic weapon using this feature. For example, if you bond with a {@item Dagger of Venom|XDMG}, you can't transform it into a {@item Maul|XPHB}; it's always a {@item Dagger|XPHB}.",
+												"The {@class Warlock|XPHB|Warlock's} {@optfeature Pact of the Blade|XPHB} feature lets you create a Melee weapon out of nothing. Whenever you do so, you determine the weapon's form, choosing from the Melee weapon options in the {@table Weapons|XPHB} table in the {@book Player's Handbook|XPHB}. For example, you can create a {@item Grande hache|XPHB}, and then use the feature again to create a {@item Javelot|XPHB}, which causes the {@item Grande hache|XPHB} to disappear.",
+												"You can also use {@optfeature Pact of the Blade|XPHB} to bond with a magic weapon, turning it into your pact weapon. This magic weapon doesn't have to be a Melee weapon, so you could use the feature on a {@item +1 Longbow|XDMG}, for instance. However, you can't change the form of a magic weapon using this feature. For example, if you bond with a {@item Dague venimeuse|XDMG}, you can't transform it into a {@item Masse à deux mains|XPHB}; it's always a {@item Dague|XPHB}.",
 												"The feature allows the conjuring forth of a Melee weapon, yet we allow more versatility when it comes to magic weapons. We didn't want a narrow focus in this feature to make a {@class Warlock|XPHB} unhappy when a variety of magic weapons appear in a campaign. Does this versatility extend outside the melee theme of the feature? It sure does, but we're willing to occasionally bend a design concept if doing so is likely to increase a player's happiness."
 											],
 											"id": "06f"
@@ -1024,7 +1024,7 @@
 											"type": "entries",
 											"name": "Does the Halfling's Naturally Stealthy trait allow them to hide while observed?",
 											"entries": [
-												"Normally, to take the {@action Hide|XPHB} action, you must meet the following criteria:",
+												"Normally, to take the {@action Se cacher|XPHB} action, you must meet the following criteria:",
 												{
 													"type": "list",
 													"items": [
@@ -1032,7 +1032,7 @@
 														"You must be out of any enemy's line of sight."
 													]
 												},
-												"The {@race Halfling|XPHB|Halfling's} Naturally Stealthy trait allows you to bypass these criteria if you're obscured by a creature at least one size larger than you. However, you still must make a Dexterity ({@skill Stealth|XPHB}) check as you normally would when taking the {@action Hide|XPHB} action, so there's no guarantee of success."
+												"The {@race Halfelin|XPHB|Halfling's} Naturally Stealthy trait allows you to bypass these criteria if you're obscured by a creature at least one size larger than you. However, you still must make a Dexterity ({@skill Discrétion|XPHB}) check as you normally would when taking the {@action Se cacher|XPHB} action, so there's no guarantee of success."
 											],
 											"id": "081"
 										}
@@ -1060,7 +1060,7 @@
 											"type": "entries",
 											"name": "Does the Archery feat work with a Melee weapon that you throw?",
 											"entries": [
-												"No, the {@feat Archery|XPHB} feat benefits only attack rolls you make with Ranged weapons. The {@feat Thrown Weapon Fighting|XPHB} feat benefits ranged attack rolls made with Melee weapons with the {@itemProperty T|XPHB|Thrown} property."
+												"No, the {@feat Archerie|XPHB} feat benefits only attack rolls you make with Ranged weapons. The {@feat Combat à l'arme de lancer|XPHB} feat benefits ranged attack rolls made with Melee weapons with the {@itemProperty T|XPHB|Thrown} property."
 											],
 											"id": "085"
 										}
@@ -1082,8 +1082,8 @@
 											"name": "If you have the Charger feat, can you use the Charge Attack benefit while mounted?",
 											"entries": [
 												"Yes, but only on a controlled mount.",
-												"When a mount moves, you move with it. Therefore, if the mount moves 10 feet in a straight line toward a target, you also move 10 feet in a straight line toward a target. However, you still must immediately take the {@action Attack|XPHB} action after this movement to gain the benefit of {@feat Charger|XPHB|Charge Attack}. This is feasible on a controlled mount, since a controlled mount moves on your turn.",
-												"Conversely, you can't use {@feat Charger|XPHB|Charge Attack} if you're riding an independent mount, since an independent mount moves on a separate turn, and you're not able to immediately take the {@action Attack|XPHB} action after that movement."
+												"When a mount moves, you move with it. Therefore, if the mount moves 10 feet in a straight line toward a target, you also move 10 feet in a straight line toward a target. However, you still must immediately take the {@action Attaque|XPHB} action after this movement to gain the benefit of {@feat Chargeur|XPHB|Charge Attack}. This is feasible on a controlled mount, since a controlled mount moves on your turn.",
+												"Conversely, you can't use {@feat Chargeur|XPHB|Charge Attack} if you're riding an independent mount, since an independent mount moves on a separate turn, and you're not able to immediately take the {@action Attaque|XPHB} action after that movement."
 											],
 											"id": "088"
 										}
@@ -1104,7 +1104,7 @@
 											"type": "entries",
 											"name": "Does Crossbow Expert let you fire a Hand Crossbow and then fire it again as a Bonus Action?",
 											"entries": [
-												"The {@feat Crossbow Expert|XPHB} feat allows you to fire a {@item Hand Crossbow|XPHB} multiple times on your turn. But you still must abide by the rules of the {@item Hand Crossbow|XPHB|Hand Crossbow's} {@itemProperty L|XPHB|Light} property, which state that the property's additional attack must be made with a different weapon."
+												"The {@feat Spécialiste de l'arbalète|XPHB} feat allows you to fire a {@item Arbalète de poing|XPHB} multiple times on your turn. But you still must abide by the rules of the {@item Arbalète de poing|XPHB|Hand Crossbow's} {@itemProperty L|XPHB|Light} property, which state that the property's additional attack must be made with a different weapon."
 											],
 											"id": "08b"
 										}
@@ -1125,7 +1125,7 @@
 											"type": "entries",
 											"name": "Can my character wield two Heavy weapons if they have the Dual Wielder feat?",
 											"entries": [
-												"The {@feat Dual Wielder|XPHB} feat allows you to simultaneously draw two weapons that lack the {@itemProperty 2H|XPHB|Two-Handed} property. All {@itemProperty H|XPHB|Heavy} weapons in the {@book Player's Handbook|XPHB} have the {@itemProperty 2H|XPHB|Two-Handed} property, so they don't benefit from this feat. (However, if we were to create a {@itemProperty H|XPHB|Heavy} weapon that lacks the {@itemProperty 2H|XPHB|Two-Handed} property in the future, that weapon could be used with this feat!)"
+												"The {@feat Combattant à deux armes|XPHB} feat allows you to simultaneously draw two weapons that lack the {@itemProperty 2H|XPHB|Two-Handed} property. All {@itemProperty H|XPHB|Heavy} weapons in the {@book Player's Handbook|XPHB} have the {@itemProperty 2H|XPHB|Two-Handed} property, so they don't benefit from this feat. (However, if we were to create a {@itemProperty H|XPHB|Heavy} weapon that lacks the {@itemProperty 2H|XPHB|Two-Handed} property in the future, that weapon could be used with this feat!)"
 											],
 											"id": "08e"
 										}
@@ -1146,7 +1146,7 @@
 											"type": "entries",
 											"name": "Is the Dueling feat intended to support using a Shield?",
 											"entries": [
-												"Yes. A character with the {@feat Dueling|XPHB} feat can equip a {@item Shield|XPHB} or hold a {@variantrule Spellcasting Focus|XPHB} or another object that isn't a weapon in their other hand."
+												"Yes. A character with the {@feat Duel|XPHB} feat can equip a {@item Bouclier|XPHB} or hold a {@variantrule Spellcasting Focus|XPHB} or another object that isn't a weapon in their other hand."
 											],
 											"id": "091"
 										}
@@ -1167,7 +1167,7 @@
 											"type": "entries",
 											"name": "If you use Great Weapon Fighting with a spell like Divine Smite or Hex, do you get to treat any 1 or 2 you roll for the additional damage as a 3?",
 											"entries": [
-												"The {@feat Great Weapon Fighting|XPHB} feat benefits only the damage roll of the weapon used for the attack. For example, if you have this feat and make an attack roll with a {@item Greatsword|XPHB}, you can treat any 1 or 2 you roll on the weapon's {@damage 2d6} as a 3. If you cast {@spell Divine Smite|XPHB} after hitting with this attack, you can't treat a 1 or 2 rolled for the spell's damage as a 3."
+												"The {@feat Combat avec une grande arme|XPHB} feat benefits only the damage roll of the weapon used for the attack. For example, if you have this feat and make an attack roll with a {@item Épée à deux mains|XPHB}, you can treat any 1 or 2 you roll on the weapon's {@damage 2d6} as a 3. If you cast {@spell Divine Smite|XPHB} after hitting with this attack, you can't treat a 1 or 2 rolled for the spell's damage as a 3."
 											],
 											"id": "094"
 										}
@@ -1188,7 +1188,7 @@
 											"type": "entries",
 											"name": "If you're a spellcaster, can you pick your own class when you gain the Magic Initiate feat?",
 											"entries": [
-												"Yes. For example, if you're a {@class Wizard|XPHB} and gain the {@feat Magic Initiate|XPHB} feat, you can choose {@class Wizard|XPHB} for the feat."
+												"Yes. For example, if you're a {@class Wizard|XPHB} and gain the {@feat Initié à la magie|XPHB} feat, you can choose {@class Wizard|XPHB} for the feat."
 											],
 											"id": "097"
 										}
@@ -1210,7 +1210,7 @@
 											"name": "Can I add my Strength modifier to the damage of the bonus attack that Polearm Master gives me?",
 											"entries": [
 												"Yes. For the feat's bonus attack, you add your ability modifier to the attack roll, as you do whenever you attack with that weapon, and if you hit, you add the same ability modifier to the damage roll, which is normal for weapon damage rolls.",
-												"A specific rule, such as the {@itemProperty L|XPHB|Light} property, might break the general rule by telling you not to add your ability modifier to the damage. {@feat Polearm Master|XPHB} doesn't have such a rule."
+												"A specific rule, such as the {@itemProperty L|XPHB|Light} property, might break the general rule by telling you not to add your ability modifier to the damage. {@feat Maître des armes d'hast|XPHB} doesn't have such a rule."
 											],
 											"id": "09a"
 										}
@@ -1231,7 +1231,7 @@
 											"type": "entries",
 											"name": "Does the benefit of the Savage Attacker feat apply to additional effects like the Rogue's Sneak Attack or the Paladin's Divine Smite?",
 											"entries": [
-												"No. The benefit of {@feat Savage Attacker|XPHB} applies only to rolls of the weapon's damage dice, not to any extra damage that a feature or other ability might grant."
+												"No. The benefit of {@feat Attaquant sauvage|XPHB} applies only to rolls of the weapon's damage dice, not to any extra damage that a feature or other ability might grant."
 											],
 											"id": "09d"
 										}
@@ -1258,7 +1258,7 @@
 											"type": "entries",
 											"name": "Does Heavy armor reduce Dexterity saving throws or ability checks other than Stealth?",
 											"entries": [
-												"If you have training with it, Heavy armor doesn't affect Dexterity saving throws or ability checks, other than {@skill Stealth|XPHB}."
+												"If you have training with it, Heavy armor doesn't affect Dexterity saving throws or ability checks, other than {@skill Discrétion|XPHB}."
 											],
 											"id": "0a1"
 										},
@@ -1266,7 +1266,7 @@
 											"type": "entries",
 											"name": "If you attack with a Shield\u2014most likely as an improvised weapon\u2014do you keep the +2 bonus to AC?",
 											"entries": [
-												"Attacking with a {@item Shield|XPHB} doesn't deprive you of the Shield's bonus to AC."
+												"Attacking with a {@item Bouclier|XPHB} doesn't deprive you of the Shield's bonus to AC."
 											],
 											"id": "0a2"
 										}
@@ -1372,9 +1372,9 @@
 											"type": "entries",
 											"name": "Can a spell with an attack roll be used as the attack in the Attack action or as part of the Extra Attack feature?",
 											"entries": [
-												"No. As explained in the {@book Player's Handbook|XPHB}, you can take one action on your turn in combat, in addition to moving. You choose your action from the options available to everyone\u2014options such as {@action Attack|XPHB}, {@action Dash|XPHB}, and {@action Magic|XPHB}\u2014or you choose from among the special actions you've gained from a class or another source.",
-												"To cast a spell on your turn, you take the {@action Magic|XPHB} action. Doing so means you're not taking the {@action Attack|XPHB} action or any other action. It is true that a number of spells, such as {@spell Fire Bolt|XPHB} and {@spell Ray of Frost|XPHB}, involve making an attack roll, but you can't make such an attack without first casting the spell that delivers it. In other words, just because something involves an attack roll doesn't mean the {@action Attack|XPHB} action is being used.",
-												"By extension, the {@classFeature Extra Attack|Fighter|XPHB|5|XPHB} feature (given by several classes, including the {@class Fighter|XPHB} and {@class Paladin|XPHB}) doesn't let you cast extra attack spells. That feature specifically relies on the {@action Attack|XPHB} action, not the {@action Magic|XPHB} action or any other action.",
+												"No. As explained in the {@book Player's Handbook|XPHB}, you can take one action on your turn in combat, in addition to moving. You choose your action from the options available to everyone\u2014options such as {@action Attaque|XPHB}, {@action Course|XPHB}, and {@action Magie|XPHB}\u2014or you choose from among the special actions you've gained from a class or another source.",
+												"To cast a spell on your turn, you take the {@action Magie|XPHB} action. Doing so means you're not taking the {@action Attaque|XPHB} action or any other action. It is true that a number of spells, such as {@spell Fire Bolt|XPHB} and {@spell Ray of Frost|XPHB}, involve making an attack roll, but you can't make such an attack without first casting the spell that delivers it. In other words, just because something involves an attack roll doesn't mean the {@action Attaque|XPHB} action is being used.",
+												"By extension, the {@classFeature Extra Attack|Fighter|XPHB|5|XPHB} feature (given by several classes, including the {@class Fighter|XPHB} and {@class Paladin|XPHB}) doesn't let you cast extra attack spells. That feature specifically relies on the {@action Attaque|XPHB} action, not the {@action Magie|XPHB} action or any other action.",
 												"In summary, to make a spell attack, you have to first cast a spell or use a feature that creates the spell's effect. A game feature, such as {@classFeature Extra Attack|Fighter|XPHB|5|XPHB}, that lets you make an attack doesn't let you cast a spell unless it says it does."
 											],
 											"id": "0b0"
@@ -1383,7 +1383,7 @@
 											"type": "entries",
 											"name": "Can you use a melee spell attack to make an Opportunity Attack?",
 											"entries": [
-												"No, you can't cast a spell when a creature provokes an {@action Opportunity Attack|XPHB} from you. This is because each spell has a casting time. For example, the {@spell Chill Touch|XPHB} spell has a casting time of an action. A game mechanic, such as {@action Opportunity Attack|XPHB}, doesn't let you alter that casting time unless a feature says otherwise (see the {@feat War Caster|XPHB} feat for an example of this)."
+												"No, you can't cast a spell when a creature provokes an {@action Attaque d'opportunité|XPHB} from you. This is because each spell has a casting time. For example, the {@spell Chill Touch|XPHB} spell has a casting time of an action. A game mechanic, such as {@action Attaque d'opportunité|XPHB}, doesn't let you alter that casting time unless a feature says otherwise (see the {@feat Mage de guerre|XPHB} feat for an example of this)."
 											],
 											"id": "0b1"
 										},
@@ -1435,7 +1435,7 @@
 											"name": "Is there a limit on the number of spells you can cast on your turn?",
 											"entries": [
 												"There's no rule that states you can cast only X number of spells on your turn, but there are some practical limitations. The main limiting factor is your action. Many spells require an action to cast, and unless a feature says otherwise, you only have one action on your turn. You also must abide by the rule of only expending one spell slot to cast a spell on your turn.",
-												"So, for example, if you take your {@variantrule Bonus Action|XPHB} to cast {@spell Healing Word|XPHB} using a spell slot, you can also take the {@action Magic|XPHB} action to cast {@spell Vicious Mockery|XPHB}\u2014a cantrip which doesn't require a spell slot."
+												"So, for example, if you take your {@variantrule Bonus Action|XPHB} to cast {@spell Healing Word|XPHB} using a spell slot, you can also take the {@action Magie|XPHB} action to cast {@spell Vicious Mockery|XPHB}\u2014a cantrip which doesn't require a spell slot."
 											],
 											"id": "0b8"
 										},
@@ -1443,7 +1443,7 @@
 											"type": "entries",
 											"name": "Can you cast a Reaction spell on your turn?",
 											"entries": [
-												"Yes, but you must abide by the rule of expending only one spell slot to cast a spell on your turn. For example, if you take a {@action Magic|XPHB} action to cast {@spell Fireball|XPHB} using a spell slot and an enemy casts {@spell Counterspell|XPHB}, you can't also then expend a spell slot to cast {@spell Counterspell|XPHB} targeting that enemy."
+												"Yes, but you must abide by the rule of expending only one spell slot to cast a spell on your turn. For example, if you take a {@action Magie|XPHB} action to cast {@spell Fireball|XPHB} using a spell slot and an enemy casts {@spell Counterspell|XPHB}, you can't also then expend a spell slot to cast {@spell Counterspell|XPHB} targeting that enemy."
 											],
 											"id": "0b9"
 										},
@@ -1489,7 +1489,7 @@
 											"name": "What's the amount of interaction needed to use a Spellcasting Focus? Does it have to be included in the Somatic component?",
 											"entries": [
 												"If a spell requires {@book Material|XPHB|7|Material (M)} components, the spellcaster must have a hand free to access or hold them, but it can be the same hand used to perform {@book Somatic|XPHB|7|Somatic (S)} components, if any. This latter rule holds true for using a {@variantrule Spellcasting Focus|XPHB}, which a spellcaster must hold unless its description says otherwise.",
-												"For example, a {@class Cleric|XPHB} uses an {@item Emblem|XPHB} on a {@item Shield|XPHB} as their {@item Holy Symbol|XPHB}. When in combat, this {@class Cleric|XPHB} likes to wield a {@item Mace|XPHB} in one hand and the emblazoned {@item Shield|XPHB} in the other. This {@class Cleric|XPHB} must have the {@item Shield|XPHB} in hand when casting a {@class Cleric|XPHB} spell that requires a {@book Material|XPHB|7|Material (M)} component. If the spell, such as {@spell Aid|XPHB}, also requires a {@book Somatic|XPHB|7|Somatic (S)} component, the {@class Cleric|XPHB} can perform the {@book Somatic|XPHB|7|Somatic (S)} component with the hand holding the {@item Shield|XPHB}, allowing the {@class Cleric|XPHB} to keep wielding the {@item Mace|XPHB}. However, if this same {@class Cleric|XPHB} were to later cast {@spell Cure Wounds|XPHB}\u2014which has {@book Somatic|XPHB|7|Somatic (S)} components but no {@book Material|XPHB|7|Material (M)} components\u2014they would need to unequip either their {@item Shield|XPHB} or {@item Mace|XPHB} to free a hand for the {@book Somatic|XPHB|7|Somatic (S)} components."
+												"For example, a {@class Cleric|XPHB} uses an {@item Emblème|XPHB} on a {@item Bouclier|XPHB} as their {@item Holy Symbol|XPHB}. When in combat, this {@class Cleric|XPHB} likes to wield a {@item Masse d'armes|XPHB} in one hand and the emblazoned {@item Bouclier|XPHB} in the other. This {@class Cleric|XPHB} must have the {@item Bouclier|XPHB} in hand when casting a {@class Cleric|XPHB} spell that requires a {@book Material|XPHB|7|Material (M)} component. If the spell, such as {@spell Aid|XPHB}, also requires a {@book Somatic|XPHB|7|Somatic (S)} component, the {@class Cleric|XPHB} can perform the {@book Somatic|XPHB|7|Somatic (S)} component with the hand holding the {@item Bouclier|XPHB}, allowing the {@class Cleric|XPHB} to keep wielding the {@item Masse d'armes|XPHB}. However, if this same {@class Cleric|XPHB} were to later cast {@spell Cure Wounds|XPHB}\u2014which has {@book Somatic|XPHB|7|Somatic (S)} components but no {@book Material|XPHB|7|Material (M)} components\u2014they would need to unequip either their {@item Bouclier|XPHB} or {@item Masse d'armes|XPHB} to free a hand for the {@book Somatic|XPHB|7|Somatic (S)} components."
 											],
 											"id": "0bf"
 										}
@@ -1564,7 +1564,7 @@
 											"type": "entries",
 											"name": "How does Barkskin work with Shields, cover, and other modifiers to AC?",
 											"entries": [
-												"The target of {@spell Barkskin|XPHB} has an {@variantrule Armor Class|XPHB} of 17 if its AC is lower than that. This means the target effectively ignores any modifiers to its AC\u2014including any armor, a {@item Shield|XPHB}, or cover\u2014unless its AC is higher than 17. For example, if you're the target of a {@spell Barkskin|XPHB} spell and your AC is normally 14, your AC is 17 while under the effects of the spell; however, if your AC is normally 16 and you have {@variantrule Cover|XPHB|Half Cover}, your AC is 18, and {@spell Barkskin|XPHB|Barkskin's} effect isn't relevant."
+												"The target of {@spell Barkskin|XPHB} has an {@variantrule Armor Class|XPHB} of 17 if its AC is lower than that. This means the target effectively ignores any modifiers to its AC\u2014including any armor, a {@item Bouclier|XPHB}, or cover\u2014unless its AC is higher than 17. For example, if you're the target of a {@spell Barkskin|XPHB} spell and your AC is normally 14, your AC is 17 while under the effects of the spell; however, if your AC is normally 16 and you have {@variantrule Cover|XPHB|Half Cover}, your AC is 18, and {@spell Barkskin|XPHB|Barkskin's} effect isn't relevant."
 											],
 											"id": "0c9"
 										},
@@ -1623,7 +1623,7 @@
 											"name": "Can you take a Ready action to ready Dispel Magic to stop another spell from taking effect?",
 											"entries": [
 												"The easiest way to stop a spell is to cast {@spell Counterspell|XPHB} on its caster while it's being cast. If successful, {@spell Counterspell|XPHB} interrupts the other spell's casting, and that spell fails to take effect. {@spell Counterspell|XPHB} works against any spell, regardless of a spell's casting time or duration.",
-												"With the {@action Ready|XPHB} action, {@spell Dispel Magic|XPHB} can be cast in response to another spell being cast, yet {@spell Dispel Magic|XPHB} can't substitute for {@spell Counterspell|XPHB}. The main reason is that {@spell Dispel Magic|XPHB} removes a spell that is already on a target, whether that target is a creature, an object, or some other phenomenon. {@spell Dispel Magic|XPHB} can't dispel something in advance. If a spell isn't already present on a target, {@spell Dispel Magic|XPHB} does nothing to that target. The best that a readied {@spell Dispel Magic|XPHB} can do is dispel a spell immediately after the spell has been cast to prevent it from having any effect after the action used to cast it. For example, on your turn you could say something like this: \"I ready {@spell Dispel Magic|XPHB}, and if the high priest casts a spell on anyone, I cast {@spell Dispel Magic|XPHB} on the target if the spell takes hold.\" If the high priest then cast {@spell Hold Person|XPHB} on your companion who fails the save against it, you could unleash your readied {@spell Dispel Magic|XPHB} and end {@spell Hold Person|XPHB}."
+												"With the {@action Se tenir prêt|XPHB} action, {@spell Dispel Magic|XPHB} can be cast in response to another spell being cast, yet {@spell Dispel Magic|XPHB} can't substitute for {@spell Counterspell|XPHB}. The main reason is that {@spell Dispel Magic|XPHB} removes a spell that is already on a target, whether that target is a creature, an object, or some other phenomenon. {@spell Dispel Magic|XPHB} can't dispel something in advance. If a spell isn't already present on a target, {@spell Dispel Magic|XPHB} does nothing to that target. The best that a readied {@spell Dispel Magic|XPHB} can do is dispel a spell immediately after the spell has been cast to prevent it from having any effect after the action used to cast it. For example, on your turn you could say something like this: \"I ready {@spell Dispel Magic|XPHB}, and if the high priest casts a spell on anyone, I cast {@spell Dispel Magic|XPHB} on the target if the spell takes hold.\" If the high priest then cast {@spell Hold Person|XPHB} on your companion who fails the save against it, you could unleash your readied {@spell Dispel Magic|XPHB} and end {@spell Hold Person|XPHB}."
 											],
 											"id": "0d0"
 										},
@@ -1647,7 +1647,7 @@
 											"type": "entries",
 											"name": "Can the familiar you conjure with the Find Familiar spell use the Help action to grant you Advantage on your attack roll?",
 											"entries": [
-												"A familiar can't attack, but it can take non-{@action Attack|XPHB} actions, including {@action Help|XPHB}."
+												"A familiar can't attack, but it can take non-{@action Attaque|XPHB} actions, including {@action Aider|XPHB}."
 											],
 											"id": "0d3"
 										},
@@ -1679,7 +1679,7 @@
 											"type": "entries",
 											"name": "If the Heroism spell is cast on a character that already has the Frightened condition, does it remove that condition?",
 											"entries": [
-												"The {@spell Heroism|XPHB} spell suppresses the {@condition Frightened|XPHB} condition if it was already on the spell's target. When the spell ends, the target's immunity goes away and the {@condition Frightened|XPHB} condition resumes if it has not expired or been removed."
+												"The {@spell Heroism|XPHB} spell suppresses the {@condition Effrayé|XPHB} condition if it was already on the spell's target. When the spell ends, the target's immunity goes away and the {@condition Effrayé|XPHB} condition resumes if it has not expired or been removed."
 											],
 											"id": "0d7"
 										},
@@ -1687,7 +1687,7 @@
 											"type": "entries",
 											"name": "Can you use a Shield with Mage Armor?",
 											"entries": [
-												"{@spell Mage Armor|XPHB} works with a {@item Shield|XPHB}. Shields are grouped with armor in the equipment rules in the {@book Player's Handbook|XPHB}, but various game features distinguish between the armor you don and a {@item Shield|XPHB} you wield. Take a look at the {@class Monk|XPHB|Monk's} {@classFeature Unarmored Defense|Monk|XPHB|1|XPHB} feature and compare it to the {@classFeature Unarmored Defense|Barbarian|XPHB|1|XPHB|Barbarian's version}. In the Monk's version, you must both forgo wearing armor and forgo wielding a {@item Shield|XPHB} if you want to benefit from the feature, whereas a {@class Barbarian|XPHB} must only forgo wearing armor."
+												"{@spell Mage Armor|XPHB} works with a {@item Bouclier|XPHB}. Shields are grouped with armor in the equipment rules in the {@book Player's Handbook|XPHB}, but various game features distinguish between the armor you don and a {@item Bouclier|XPHB} you wield. Take a look at the {@class Monk|XPHB|Monk's} {@classFeature Unarmored Defense|Monk|XPHB|1|XPHB} feature and compare it to the {@classFeature Unarmored Defense|Barbarian|XPHB|1|XPHB|Barbarian's version}. In the Monk's version, you must both forgo wearing armor and forgo wielding a {@item Bouclier|XPHB} if you want to benefit from the feature, whereas a {@class Barbarian|XPHB} must only forgo wearing armor."
 											],
 											"id": "0d8"
 										},
@@ -1767,7 +1767,7 @@
 											"type": "entries",
 											"name": "What kinds of things count as \"nonmagical trinkets\" for Prestidigitation?",
 											"entries": [
-												"{@spell Prestidigitation|XPHB} can create a little bauble, the nature of which is up to the spellcaster and the DM. See the {@item Trinket|XPHB|Trinkets} table in the {@book Player's Handbook|XPHB} for examples."
+												"{@spell Prestidigitation|XPHB} can create a little bauble, the nature of which is up to the spellcaster and the DM. See the {@item Babiole|XPHB|Trinkets} table in the {@book Player's Handbook|XPHB} for examples."
 											],
 											"id": "0e2"
 										},
@@ -1783,7 +1783,7 @@
 											"type": "entries",
 											"name": "If I cast Shillelagh on my Quarterstaff and have the Polearm Master feat, does the bonus attack use a d4 or a d8 for damage?",
 											"entries": [
-												"The benefit from {@feat Polearm Master|XPHB} applies to the opposite end of the weapon and always uses a {@damage d4} for damage rather than the weapon's normal damage die. This is true for a {@item Quarterstaff|XPHB} enhanced with {@spell Shillelagh|XPHB} just as it is for a normal one."
+												"The benefit from {@feat Maître des armes d'hast|XPHB} applies to the opposite end of the weapon and always uses a {@damage d4} for damage rather than the weapon's normal damage die. This is true for a {@item Bâton|XPHB} enhanced with {@spell Shillelagh|XPHB} just as it is for a normal one."
 											],
 											"id": "0e4"
 										},
@@ -1815,7 +1815,7 @@
 											"type": "entries",
 											"name": "Can you use True Strike with Extra Attack, Opportunity Attack, Sneak Attack, and other weapon attack options?",
 											"entries": [
-												"{@spell True Strike|XPHB} doesn't work with {@classFeature Extra Attack|Fighter|XPHB|5|XPHB} or any other feature that requires the {@action Attack|XPHB} action. Like other spells with a casting time of an action, casting {@spell True Strike|XPHB} requires you to take the {@action Magic|XPHB} action, not the {@action Attack|XPHB} action. Similarly, unless a special feature allows you to do so, you can't cast {@spell True Strike|XPHB} when making an {@action Opportunity Attack|XPHB}.",
+												"{@spell True Strike|XPHB} doesn't work with {@classFeature Extra Attack|Fighter|XPHB|5|XPHB} or any other feature that requires the {@action Attaque|XPHB} action. Like other spells with a casting time of an action, casting {@spell True Strike|XPHB} requires you to take the {@action Magie|XPHB} action, not the {@action Attaque|XPHB} action. Similarly, unless a special feature allows you to do so, you can't cast {@spell True Strike|XPHB} when making an {@action Attaque d'opportunité|XPHB}.",
 												"However, an attack made as part of {@spell True Strike|XPHB} works with {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} so long as it fills the normal requirements for that feature. For example, if you have the {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} feature and cast {@spell True Strike|XPHB} with a {@itemProperty F|XPHB|Finesse} weapon, you can deal {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} damage to the target of the attack if you have {@variantrule Advantage|XPHB} on the attack roll and hit."
 											],
 											"id": "0e8"
@@ -1859,8 +1859,8 @@
 											"type": "entries",
 											"name": "What actions can monsters use to make Opportunity Attack? Are Multiattack and breath weapon actions allowed?",
 											"entries": [
-												"When making an {@action Opportunity Attack|XPHB}, a monster can make any single melee attack listed in its stat block. A monster also has the option to make an {@variantrule Unarmed Strike|XPHB} as an {@action Opportunity Attack|XPHB}, following the normal rules of an {@variantrule Unarmed Strike|XPHB}.",
-												"An action, such as a breath weapon effect, that doesn't include a melee attack roll isn't eligible to be chosen for an {@action Opportunity Attack|XPHB}. Additionally, a monster can't use its Multiattack when making an {@action Opportunity Attack|XPHB}, because the use of Multiattack specifically predicates on taking the {@action Attack|XPHB} action, and an {@action Opportunity Attack|XPHB} takes a {@variantrule Reaction|XPHB}."
+												"When making an {@action Attaque d'opportunité|XPHB}, a monster can make any single melee attack listed in its stat block. A monster also has the option to make an {@variantrule Unarmed Strike|XPHB} as an {@action Attaque d'opportunité|XPHB}, following the normal rules of an {@variantrule Unarmed Strike|XPHB}.",
+												"An action, such as a breath weapon effect, that doesn't include a melee attack roll isn't eligible to be chosen for an {@action Attaque d'opportunité|XPHB}. Additionally, a monster can't use its Multiattack when making an {@action Attaque d'opportunité|XPHB}, because the use of Multiattack specifically predicates on taking the {@action Attaque|XPHB} action, and an {@action Attaque d'opportunité|XPHB} takes a {@variantrule Reaction|XPHB}."
 											],
 											"id": "0ee"
 										},
@@ -1908,7 +1908,7 @@
 											"type": "entries",
 											"name": "Can a creature that burrows grapple a target and drag them into the ground by burrowing?",
 											"entries": [
-												"No. A burrowing creature can drag another creature with them only if they have the ability to leave a tunnel. For example, a {@creature Purple Worm|XMM} has the Tunneler trait, so it can drag a {@condition Grappled|XPHB} creature into a tunnel it creates when burrowing. Conversely, an {@creature Earth Elemental|XMM} can't drag a creature into the ground with it."
+												"No. A burrowing creature can drag another creature with them only if they have the ability to leave a tunnel. For example, a {@creature Purple Worm|XMM} has the Tunneler trait, so it can drag a {@condition Agrippé|XPHB} creature into a tunnel it creates when burrowing. Conversely, an {@creature Earth Elemental|XMM} can't drag a creature into the ground with it."
 											],
 											"id": "0f4"
 										},
@@ -1916,7 +1916,7 @@
 											"type": "entries",
 											"name": "Can a Hydra use Reactive Heads to make multiple Opportunity Attacks against one creature at the same time when it provokes?",
 											"entries": [
-												"Yes. For that reason, we recommend taking the {@action Disengage|XPHB} action when you're going to move away from a {@creature Hydra|XMM}."
+												"Yes. For that reason, we recommend taking the {@action Désengagement|XPHB} action when you're going to move away from a {@creature Hydra|XMM}."
 											],
 											"id": "0f5"
 										}
@@ -1977,7 +1977,7 @@
 											"type": "entries",
 											"name": "Do the AC bonuses from a Ring of Protection and Bracers of Defense stack?",
 											"entries": [
-												"Yes. In general, bonuses stack unless the text explicitly says otherwise (such as effects from the same spell). For instance, you can't benefit from more than one {@item Ring of Protection|XDMG}, because the text says you can't attune to more than one copy of an item at a time."
+												"Yes. In general, bonuses stack unless the text explicitly says otherwise (such as effects from the same spell). For instance, you can't benefit from more than one {@item Anneau de protection|XDMG}, because the text says you can't attune to more than one copy of an item at a time."
 											],
 											"id": "0fd"
 										},
@@ -1993,7 +1993,7 @@
 											"type": "entries",
 											"name": "Are magic weapons with the Thrown property (Javelins and the like) assumed to return to their owner after being thrown?",
 											"entries": [
-												"If a magic weapon returns to you after you throw it, its description says so, as in the {@item Dwarven Thrower|XDMG}."
+												"If a magic weapon returns to you after you throw it, its description says so, as in the {@item Lanceur nain|XDMG}."
 											],
 											"id": "0ff"
 										},
@@ -2009,7 +2009,7 @@
 											"type": "entries",
 											"name": "Can you gain the magical bonus of a +2 Shield if you are holding the Shield without taking an action to don it?",
 											"entries": [
-												"No. You must don a {@item Shield|XPHB} to gain its benefits."
+												"No. You must don a {@item Bouclier|XPHB} to gain its benefits."
 											],
 											"id": "101"
 										}

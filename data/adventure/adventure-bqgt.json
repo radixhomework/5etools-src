@@ -182,14 +182,14 @@
 											"type": "item",
 											"name": "Attacks",
 											"entries": [
-												"Each character can make {@action attack|XPHB|attacks} with melee or ranged weapons, or with melee or ranged spells. \"Melee\" means an attack that is used when a character is right next to a foe. \"Ranged\" means an attack that is used at a distance. Ranged attacks include the distance you must be within to hit a foe.",
+												"Each character can make {@action Attaque|XPHB|attacks} with melee or ranged weapons, or with melee or ranged spells. \"Melee\" means an attack that is used when a character is right next to a foe. \"Ranged\" means an attack that is used at a distance. Ranged attacks include the distance you must be within to hit a foe.",
 												"The number after the attack's name on your character sheet is added to the {@dice d20} roll (a roll of a 20-sided die) you make when your character attacks. The higher the number, the more likely the attack is to succeed."
 											]
 										},
 										{
 											"type": "item",
 											"name": "Armor Class and Hit Points",
-											"entry": "Each character has an {@variantrule Armor Class|XPHB} (also called AC) and {@variantrule Hit Points|XPHB} (also called HP). A character's Armor Class is based on their speed, armor, and other factors and describes how difficult it is to hit them with an attack roll. The higher the AC, the harder they are to hit. Hit Points determine how much damage a character can take. When your character takes damage, you subtract that damage from their Hit Points. If a character's Hit Points reach 0, they are {@condition unconscious|XPHB}. You'll learn how to regain Hit Points later in the game."
+											"entry": "Each character has an {@variantrule Armor Class|XPHB} (also called AC) and {@variantrule Hit Points|XPHB} (also called HP). A character's Armor Class is based on their speed, armor, and other factors and describes how difficult it is to hit them with an attack roll. The higher the AC, the harder they are to hit. Hit Points determine how much damage a character can take. When your character takes damage, you subtract that damage from their Hit Points. If a character's Hit Points reach 0, they are {@condition Inconscient|XPHB}. You'll learn how to regain Hit Points later in the game."
 										},
 										{
 											"type": "item",
@@ -286,7 +286,7 @@
 									"id": "012",
 									"entries": [
 										"Like the Armor Class determining whether an attack roll succeeds or fails, the Difficulty Class (DC) determines if an ability check or saving throw succeeds or fails. The DC of an ability check or saving throw is the number that a player's roll must equal or exceed to succeed.",
-										"For example, if the Barbarian wants to move a heavy boulder blocking the mouth of a cave, that requires a skill called {@skill Athletics|XPHB}. Under \"Skills\" on their character sheet, it says \"Athletics +5,\" so the Barbarian's player rolls a 20-sided die and adds their +5 bonus to the number on the die.",
+										"For example, if the Barbarian wants to move a heavy boulder blocking the mouth of a cave, that requires a skill called {@skill Athlétisme|XPHB}. Under \"Skills\" on their character sheet, it says \"Athletics +5,\" so the Barbarian's player rolls a 20-sided die and adds their +5 bonus to the number on the die.",
 										"If the Difficulty Class to move the boulder is 12, the player would need to roll a 7 or higher for the Barbarian to move the boulder. An adventure's text gives the Difficulty Class of actions a character can attempt, but in general, a Difficulty Class of 10 ({@dc 10}) is easy, while a DC of 15 ({@dc 15}) is challenging. The DM can change DCs if circumstances make an action easier or harder."
 									]
 								}
@@ -518,7 +518,7 @@
 							"type": "list",
 							"items": [
 								"{@b Look into the Cave.} By shining a light or peering into the cave entrance, the characters see a tunnel that goes deeper into the hillside and curves down and out of sight. There's no one immediately inside the entrance.",
-								"{@b Studying the Area}. No {@variantrule D20 Test|XPHB} is needed to learn that this is a well-traveled entrance, with very recent goblin tracks leading in. If a character succeeds on a {@dc 15} Wisdom ({@skill Perception|XPHB} or {@skill Survival|XPHB}) check, they also notice a pair of human-sized boot tracks leading into the cave. The tracks indicate that two people walked into the cave within the last hour on their tiptoes."
+								"{@b Studying the Area}. No {@variantrule D20 Test|XPHB} is needed to learn that this is a well-traveled entrance, with very recent goblin tracks leading in. If a character succeeds on a {@dc 15} Wisdom ({@skill Perception|XPHB} or {@skill Survie|XPHB}) check, they also notice a pair of human-sized boot tracks leading into the cave. The tracks indicate that two people walked into the cave within the last hour on their tiptoes."
 							],
 							"style": "list-hang-notitle"
 						},
@@ -569,7 +569,7 @@
 											"name": "Treasure",
 											"id": "027",
 											"entries": [
-												"If the characters actively {@action search|XPHB} the caverns, they find the desiccated husk of a former adventurer who was eaten by the spiders. Next to the body is a torn {@item backpack|XPHB}. The backpack holds 30 GP, 50 feet of {@item rope|XPHB}, five {@item Torch|XPHB|torches}, and a Potion of Healing."
+												"If the characters actively {@action Chercher|XPHB} the caverns, they find the desiccated husk of a former adventurer who was eaten by the spiders. Next to the body is a torn {@item Sac à dos|XPHB}. The backpack holds 30 GP, 50 feet of {@item Corde|XPHB}, five {@item Torche|XPHB|torches}, and a Potion of Healing."
 											]
 										},
 										{
@@ -632,7 +632,7 @@
 												{
 													"type": "item",
 													"name": "Take Turns",
-													"entry": "On each of their turns, the characters and bandits can move up to a distance equal to their Speed. Before, after, or during any movement, the characters or the bandits can use their action to take the {@action Attack|XPHB} action, take another action, or move up to their {@variantrule Speed|XPHB} again."
+													"entry": "On each of their turns, the characters and bandits can move up to a distance equal to their Speed. Before, after, or during any movement, the characters or the bandits can use their action to take the {@action Attaque|XPHB} action, take another action, or move up to their {@variantrule Speed|XPHB} again."
 												}
 											]
 										}
@@ -662,8 +662,8 @@
 						{
 							"type": "list",
 							"items": [
-								"{@b Sneaking}. Because of the curving passage and steps, the characters can't see the bandits, and the bandits can't see them. If any characters want to move closer to hear, they must take the {@action Hide|XPHB} action and succeed on a {@dc 10} Dexterity ({@skill Stealth|XPHB}) check. Those who succeed get to the bottom of the stairs and can hear what the bandits are discussing without being heard. If a character fails the check, the bandits hear them approach.",
-								"{@b Listening}. Characters can attempt to understand the whispered conversation without moving forward by taking the {@action Search|XPHB} action and attempting a {@dc 15} Wisdom ({@skill Perception|XPHB}) check. On a success, a character learns the information in the \"{@area Bandit Plans|032|x}\" section below. On a failure, the sound is still indecipherable."
+								"{@b Sneaking}. Because of the curving passage and steps, the characters can't see the bandits, and the bandits can't see them. If any characters want to move closer to hear, they must take the {@action Se cacher|XPHB} action and succeed on a {@dc 10} Dexterity ({@skill Discrétion|XPHB}) check. Those who succeed get to the bottom of the stairs and can hear what the bandits are discussing without being heard. If a character fails the check, the bandits hear them approach.",
+								"{@b Listening}. Characters can attempt to understand the whispered conversation without moving forward by taking the {@action Chercher|XPHB} action and attempting a {@dc 15} Wisdom ({@skill Perception|XPHB}) check. On a success, a character learns the information in the \"{@area Bandit Plans|032|x}\" section below. On a failure, the sound is still indecipherable."
 							],
 							"style": "list-hang-notitle"
 						},
@@ -673,7 +673,7 @@
 							"id": "02e",
 							"entries": [
 								"Sometimes more than one person can attempt the same check. This is handled in a \"group check,\" which means that everyone can participate in the check, and if half or more of the characters succeed, the whole group succeeds.",
-								"However, that does not apply in either of these cases. If even one character fails the {@skill Stealth|XPHB} check, the bandits hear that person and are alerted. Conversely, if even one character succeeds on the {@skill Perception|XPHB} check to hear the voices clearly, then that person succeeds even if the other characters fail."
+								"However, that does not apply in either of these cases. If even one character fails the {@skill Discrétion|XPHB} check, the bandits hear that person and are alerted. Conversely, if even one character succeeds on the {@skill Perception|XPHB} check to hear the voices clearly, then that person succeeds even if the other characters fail."
 							]
 						},
 						{
@@ -694,7 +694,7 @@
 									"name": "Surprise",
 									"id": "031",
 									"entries": [
-										"If the bandits are caught unawares by the start of combat, they are {@status Surprised|XPHB}. This means they have Disadvantage on their {@variantrule Initiative|XPHB} roll: they roll the {@dice d20} twice and must use the lower roll."
+										"If the bandits are caught unawares by the start of combat, they are {@status Surpris|XPHB}. This means they have Disadvantage on their {@variantrule Initiative|XPHB} roll: they roll the {@dice d20} twice and must use the lower roll."
 									]
 								}
 							]
@@ -727,7 +727,7 @@
 									"id": "034",
 									"entries": [
 										"Vonnet and Dilly do not attack unless the characters attack them. As soon as either bandit takes damage, they flee the caves.",
-										"If the characters talk instead, Vonnet and Dilly offer to join forces to retrieve the bowl. They offer to split the reward money. A character who succeeds on a {@dc 15} Wisdom ({@skill Insight|XPHB}) check realizes that the pair may seem sincere now, but they are less than trustworthy.",
+										"If the characters talk instead, Vonnet and Dilly offer to join forces to retrieve the bowl. They offer to split the reward money. A character who succeeds on a {@dc 15} Wisdom ({@skill Perspicacité|XPHB}) check realizes that the pair may seem sincere now, but they are less than trustworthy.",
 										"Treasure. If the characters fight and defeat the two bandits, they find 60 GP on each bandit.",
 										{
 											"type": "inset",
@@ -768,7 +768,7 @@
 													"name": "Search and Study Actions",
 													"id": "039",
 													"entries": [
-														"Two actions characters can take are {@action Search|XPHB} and {@action Study|XPHB}. Searching is trying to notice something, like looking for anything important in a cluttered room. Studying generally involves using knowledge or logic to recall or interpret information. Noticing a tripwire would be a Search action, while figuring out that the wire would pull down the stones is a Study action. In this instance, you don't want to require both actions to get the full picture, so it's usually best to allow either type of action to reveal the presence of the tripwire and the trap."
+														"Two actions characters can take are {@action Chercher|XPHB} and {@action Étudier|XPHB}. Searching is trying to notice something, like looking for anything important in a cluttered room. Studying generally involves using knowledge or logic to recall or interpret information. Noticing a tripwire would be a Search action, while figuring out that the wire would pull down the stones is a Study action. In this instance, you don't want to require both actions to get the full picture, so it's usually best to allow either type of action to reveal the presence of the tripwire and the trap."
 													]
 												},
 												{
@@ -902,7 +902,7 @@
 									"name": "Cooling the Bowl",
 									"id": "044",
 									"entries": [
-										"If the characters ask about how to get the bowl out of the fire, tell them that they can check their equipment or search the room for options. Dumping water on it\u2014from their {@item Waterskin|XPHB|waterskins} or the stream outside\u2014would cool the bowl quickly. They might also ask to search the room; tell them that there is a long metal pole they can use to lift the silver bowl out of the forge. You can decide if any {@variantrule D20 Test|XPHB|D20 Tests} are needed to do this, but if there is no consequence for failure, then it's usually not necessary to force the players to make a check."
+										"If the characters ask about how to get the bowl out of the fire, tell them that they can check their equipment or search the room for options. Dumping water on it\u2014from their {@item Outre|XPHB|waterskins} or the stream outside\u2014would cool the bowl quickly. They might also ask to search the room; tell them that there is a long metal pole they can use to lift the silver bowl out of the forge. You can decide if any {@variantrule D20 Test|XPHB|D20 Tests} are needed to do this, but if there is no consequence for failure, then it's usually not necessary to force the players to make a check."
 									]
 								}
 							]
@@ -984,7 +984,7 @@
 											"type": "entries",
 											"name": "Using the Help Action",
 											"entries": [
-												"Characters who are not actively making the ability check to fix the bowl can use the {@action Help|XPHB} action on their turns to assist those who are actively fixing the bowl. By assisting in this way, the helping character chooses the character they are going to assist. That character has Advantage on their check to repair the bowl."
+												"Characters who are not actively making the ability check to fix the bowl can use the {@action Aider|XPHB} action on their turns to assist those who are actively fixing the bowl. By assisting in this way, the helping character chooses the character they are going to assist. That character has Advantage on their check to repair the bowl."
 											],
 											"id": "052"
 										}

@@ -107,10 +107,10 @@
 				],
 				"weapons": [
 					"simple",
-					"{@item hand crossbow|phb|hand crossbows}",
-					"{@item longsword|phb|longswords}",
-					"{@item rapier|phb|rapiers}",
-					"{@item shortsword|phb|shortswords}"
+					"{@item Arbalète de poing|phb|hand crossbows}",
+					"{@item Épée longue|phb|longswords}",
+					"{@item Rapière|phb|rapiers}",
+					"{@item Épée courte|phb|shortswords}"
 				],
 				"tools": [
 					"three {@item musical instrument|PHB|musical instruments} of your choice"
@@ -132,10 +132,10 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item rapier|phb}, (b) a {@item longsword|phb}, or (c) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item diplomat's pack|phb} or (b) an {@item entertainer's pack|phb}",
-					"(a) a {@item lute|phb} or (b) any other {@filter musical instrument|items|miscellaneous=mundane|type=instrument}",
-					"{@item Leather armor|phb}, and a {@item dagger|phb}"
+					"(a) a {@item Rapière|phb}, (b) a {@item Épée longue|phb}, or (c) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item Sac de diplomate|phb} or (b) an {@item Pack d'artiste|phb}",
+					"(a) a {@item Luth|phb} or (b) any other {@filter musical instrument|items|miscellaneous=mundane|type=instrument}",
+					"{@item Armure de cuir|phb}, and a {@item Dague|phb}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -768,7 +768,7 @@
 					}
 				],
 				"entries": [
-					"{@i Choose A or B:} (A) {@item Leather Armor|XPHB}, 2 {@item Dagger|XPHB}, {@item Musical Instrument|XPHB} of your choice, {@item Entertainer's Pack|XPHB}, 19 GP; or (B) 90 GP"
+					"{@i Choose A or B:} (A) {@item Armure de cuir|XPHB}, 2 {@item Dague|XPHB}, {@item Musical Instrument|XPHB} of your choice, {@item Pack d'artiste|XPHB}, 19 GP; or (B) 90 GP"
 				]
 			},
 			"multiclassing": {
@@ -2175,7 +2175,7 @@
 			"classSource": "PHB",
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being {@condition frightened} or {@condition charmed}. A creature must be able to hear you to gain this benefit. The performance ends early if you are {@condition incapacitated} or silenced or if you voluntarily end it (no action required)."
+				"At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being {@condition Effrayé} or {@condition Charmé}. A creature must be able to hear you to gain this benefit. The performance ends early if you are {@condition Incapable} or silenced or if you voluntarily end it (no action required)."
 			]
 		},
 		{
@@ -2480,7 +2480,7 @@
 			"classSource": "XPHB",
 			"level": 2,
 			"entries": [
-				"You gain {@variantrule Expertise|XPHB} in two of your skill proficiencies of your choice. {@skill Performance|XPHB} and {@skill Persuasion|XPHB} are recommended if you have proficiency in them.",
+				"You gain {@variantrule Expertise|XPHB} in two of your skill proficiencies of your choice. {@skill Représentation|XPHB} and {@skill Persuasion|XPHB} are recommended if you have proficiency in them.",
 				"At Bard level 9, you gain {@variantrule Expertise|XPHB} in two more of your skill proficiencies of your choice."
 			]
 		},
@@ -2495,12 +2495,12 @@
 			"level": 2,
 			"entries": [
 				"You can add half your {@variantrule Proficiency|XPHB|Proficiency Bonus} (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
-				"For example, if you make a Strength ({@skill Athletics|XPHB}) check and lack {@skill Athletics|XPHB} proficiency, you can add half your {@variantrule Proficiency|XPHB|Proficiency Bonus} to the check.",
+				"For example, if you make a Strength ({@skill Athlétisme|XPHB}) check and lack {@skill Athlétisme|XPHB} proficiency, you can add half your {@variantrule Proficiency|XPHB|Proficiency Bonus} to the check.",
 				{
 					"type": "inset",
 					"name": "A Bard's Repertoire",
 					"entries": [
-						"Does your Bard beat a {@item drum|XPHB} while chanting the deeds of ancient heroes? Strum a {@item lute|XPHB} while crooning romantic tunes? Perform arias of stirring power? Recite dramatic monologues from classic tragedies? Use the rhythm of a folk dance to coordinate the movement of allies in battle? Compose naughty limericks?",
+						"Does your Bard beat a {@item Tambour|XPHB} while chanting the deeds of ancient heroes? Strum a {@item Luth|XPHB} while crooning romantic tunes? Perform arias of stirring power? Recite dramatic monologues from classic tragedies? Use the rhythm of a folk dance to coordinate the movement of allies in battle? Compose naughty limericks?",
 						"When you play a Bard, consider the style of artistic performance you favor, the moods you might invoke, and the themes that inspire your own creations. Are your poems inspired by moments of natural beauty, or are they brooding reflections on loss? Do you prefer lofty hymns or rowdy tavern songs? Are you drawn to laments for the fallen or celebrations of joy? Do you dance merry jigs or perform elaborate interpretive choreography? Do you focus on one style of performance or strive to master them all?"
 					]
 				}
@@ -2529,7 +2529,7 @@
 			"classSource": "XPHB",
 			"level": 4,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16."
 			]
 		},
 		{
@@ -2569,7 +2569,7 @@
 			"classSource": "XPHB",
 			"level": 7,
 			"entries": [
-				"You can use musical notes or words of power to disrupt mind-influencing effects. If you or a creature within 30 feet of you fails a saving throw against an effect that applies the {@condition Charmed|XPHB} or {@condition Frightened|XPHB} condition, you can take a {@variantrule Reaction|XPHB} to cause the save to be rerolled, and the new roll has {@variantrule Advantage|XPHB}."
+				"You can use musical notes or words of power to disrupt mind-influencing effects. If you or a creature within 30 feet of you fails a saving throw against an effect that applies the {@condition Charmé|XPHB} or {@condition Effrayé|XPHB} condition, you can take a {@variantrule Reaction|XPHB} to cause the save to be rerolled, and the new roll has {@variantrule Advantage|XPHB}."
 			]
 		},
 		{
@@ -2582,7 +2582,7 @@
 			"classSource": "XPHB",
 			"level": 8,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2621,7 +2621,7 @@
 			"classSource": "XPHB",
 			"level": 12,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2647,7 +2647,7 @@
 			"classSource": "XPHB",
 			"level": 16,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2673,7 +2673,7 @@
 			"classSource": "XPHB",
 			"level": 19,
 			"entries": [
-				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Spell Recall|XPHB} is recommended."
+				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Don du rappel de sort|XPHB} is recommended."
 			]
 		},
 		{
@@ -2742,7 +2742,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Also at 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can't hear you or if it's immune to being {@condition charmed}."
+				"Also at 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can't hear you or if it's immune to being {@condition Charmé}."
 			]
 		},
 		{
@@ -2835,7 +2835,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+				"Starting at 6th level, you can attack twice, instead of once, whenever you take the {@action Attaque} action on your turn."
 			]
 		},
 		{
@@ -2942,7 +2942,7 @@
 			"entries": [
 				"{@i 6th-level College of Creation feature}",
 				"As an action, you can animate one Large or smaller nonmagical item within 30 feet of you that isn't being worn or carried. The animate item uses the {@creature Dancing Item|TCE} stat block, which uses your proficiency bonus (PB). The item is friendly to you and your companions and obeys your commands. It lives for 1 hour, until it is reduced to 0 hit points, or until you die.",
-				"In combat, the item shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the item can take any action of its choice, not just {@action Dodge}.",
+				"In combat, the item shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Esquive} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition Incapable}, the item can take any action of its choice, not just {@action Esquive}.",
 				"When you use your Bardic Inspiration feature, you can command the item as part of the same bonus action you use for Bardic Inspiration.",
 				"Once you animate an item with this feature, you can't do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use this feature again. You can have only one item animated by this feature at a time; if you use this action and already have a {@creature dancing item|TCE} from this feature, the first one immediately becomes inanimate."
 			]
@@ -2996,7 +2996,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level College of Eloquence feature}",
-				"You are a master at saying the right thing at the right time. When you make a Charisma ({@skill Persuasion}) or Charisma ({@skill Deception}) check, you can treat a {@dice d20} roll of 9 or lower as a 10."
+				"You are a master at saying the right thing at the right time. When you make a Charisma ({@skill Persuasion}) or Charisma ({@skill Tromperie}) check, you can treat a {@dice d20} roll of 9 or lower as a 10."
 			]
 		},
 		{
@@ -3113,7 +3113,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level College of Spirits feature}",
-				"You employ tools that aid you in channeling spirits, be they historical figures or fictional archetypes. You can use the following objects as a spellcasting focus for your bard spells: a candle, crystal ball, skull, spirit board, or {@deck tarokka deck|CoS}.",
+				"You employ tools that aid you in channeling spirits, be they historical figures or fictional archetypes. You can use the following objects as a spellcasting focus for your bard spells: a candle, crystal ball, skull, spirit board, or {@deck Jeu de tarokka|CoS}.",
 				"Starting at 6th level, when you cast a bard spell that deals damage or restores hit points through the Spiritual Focus, roll a {@dice d6}, and you gain a bonus to one damage or healing roll of the spell equal to the number rolled."
 			]
 		},
@@ -3171,15 +3171,15 @@
 						],
 						[
 							"7",
-							"Tale of the Beguiler. The target must succeed on a Wisdom saving throw or take psychic damage equal to two rolls of your Bardic Inspiration die, and the target is {@condition incapacitated} until the end of its next turn."
+							"Tale of the Beguiler. The target must succeed on a Wisdom saving throw or take psychic damage equal to two rolls of your Bardic Inspiration die, and the target is {@condition Incapable} until the end of its next turn."
 						],
 						[
 							"8",
-							"Tale of the Phantom. The target becomes {@condition invisible} until the end of its next turn or until it hits a creature with an attack. If the target hits a creature with an attack during this invisibility, the creature it hits takes necrotic damage equal to a roll of your Bardic Inspiration die and is {@condition frightened} of the target until the end of the {@condition frightened} creature's next turn."
+							"Tale of the Phantom. The target becomes {@condition invisible} until the end of its next turn or until it hits a creature with an attack. If the target hits a creature with an attack during this invisibility, the creature it hits takes necrotic damage equal to a roll of your Bardic Inspiration die and is {@condition Effrayé} of the target until the end of the {@condition Effrayé} creature's next turn."
 						],
 						[
 							"9",
-							"Tale of the Brute. Each creature of the target's choice it can see within 30 feet of it must make a Strength saving throw. On a failed save, a creature takes thunder damage equal to three rolls of your Bardic Inspiration die and is knocked {@condition prone}. A creature that succeeds on its saving throw takes half as much damage and isn't knocked {@condition prone}."
+							"Tale of the Brute. Each creature of the target's choice it can see within 30 feet of it must make a Strength saving throw. On a failed save, a creature takes thunder damage equal to three rolls of your Bardic Inspiration die and is knocked {@condition À terre}. A creature that succeeds on its saving throw takes half as much damage and isn't knocked {@condition À terre}."
 						],
 						[
 							"10",
@@ -3187,11 +3187,11 @@
 						],
 						[
 							"11",
-							"Tale of the Angel. The target regains hit points equal to two rolls of your Bardic Inspiration die + your Charisma modifier, and you end one condition from the following list affecting the target: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition petrified}, or {@condition poisoned}."
+							"Tale of the Angel. The target regains hit points equal to two rolls of your Bardic Inspiration die + your Charisma modifier, and you end one condition from the following list affecting the target: {@condition Aveuglé}, {@condition Assourdi}, {@condition Paralysé}, {@condition Pétrifié}, or {@condition Empoisonné}."
 						],
 						[
 							"12",
-							"Tale of the Mind-Bender. You evoke an incomprehensible fable from an otherworldly being. The target must succeed on an Intelligence saving throw or take psychic damage equal to three rolls of your Bardic Inspiration die and be {@condition stunned} until the end of its next turn."
+							"Tale of the Mind-Bender. You evoke an incomprehensible fable from an otherworldly being. The target must succeed on an Intelligence saving throw or take psychic damage equal to three rolls of your Bardic Inspiration die and be {@condition Étourdi} until the end of its next turn."
 						]
 					],
 					"data": {
@@ -3236,7 +3236,7 @@
 					"type": "inset",
 					"name": "Spirit Tales",
 					"entries": [
-						"Storytellers, like bards of the College of Spirits, often give voice to tales inspired by some greater theme or body of work. When determining what stories you tell, consider what unites them. Do they all feature characters from a specific group, like archetypes from the {@deck tarokka deck|CoS}, figures from constellations, childhood imaginary friends, or characters in a particular storybook? Or are your inspirations more general, incorporating historic champions, mythological heroes, or urban legends? Use the tales you tell to define your niche as a storytelling adventurer."
+						"Storytellers, like bards of the College of Spirits, often give voice to tales inspired by some greater theme or body of work. When determining what stories you tell, consider what unites them. Do they all feature characters from a specific group, like archetypes from the {@deck Jeu de tarokka|CoS}, figures from constellations, childhood imaginary friends, or characters in a particular storybook? Or are your inspirations more general, incorporating historic champions, mythological heroes, or urban legends? Use the tales you tell to define your niche as a storytelling adventurer."
 					]
 				}
 			]
@@ -3275,7 +3275,7 @@
 			"header": 1,
 			"entries": [
 				"Starting at 3rd level, you can charge your performance with seductive, fey magic.",
-				"If you perform for at least 1 minute, you can attempt to inspire wonder in your audience by singing, reciting a poem, or dancing. At the end of the performance, choose a number of humanoids within 60 feet of you who watched and listened to all of it, up to a number equal to your Charisma modifier (minimum of one). Each target must succeed on a Wisdom saving throw against your spell save DC or be {@condition charmed} by you. While {@condition charmed} in this way, the target idolizes you, it speaks glowingly of you to anyone who talks to it, and it hinders anyone who opposes you, although it avoids violence unless it was already inclined to fight on your behalf. This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies.",
+				"If you perform for at least 1 minute, you can attempt to inspire wonder in your audience by singing, reciting a poem, or dancing. At the end of the performance, choose a number of humanoids within 60 feet of you who watched and listened to all of it, up to a number equal to your Charisma modifier (minimum of one). Each target must succeed on a Wisdom saving throw against your spell save DC or be {@condition Charmé} by you. While {@condition Charmé} in this way, the target idolizes you, it speaks glowingly of you to anyone who talks to it, and it hinders anyone who opposes you, although it avoids violence unless it was already inclined to fight on your behalf. This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies.",
 				"If a target succeeds on its saving throw, the target has no hint that you tried to charm it.",
 				"Once you use this feature, you can't use it again until you finish a short or long rest."
 			]
@@ -3308,7 +3308,7 @@
 			"header": 2,
 			"entries": [
 				"At 6th level, you gain the ability to cloak yourself in a fey magic that makes others want to serve you. As a bonus action, you cast {@spell command}, without expending a spell slot, and you take on an appearance of unearthly beauty for 1 minute or until your {@status concentration} ends (as if you were {@status concentration||concentrating} on a spell). During this time, you can cast {@spell command} as a bonus action on each of your turns, without expending a spell slot.",
-				"Any creature {@condition charmed} by you automatically fails its saving throw against the {@spell command} you cast with this feature.",
+				"Any creature {@condition Charmé} by you automatically fails its saving throw against the {@spell command} you cast with this feature.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
@@ -3324,7 +3324,7 @@
 			"header": 2,
 			"entries": [
 				"At 14th level, your appearance permanently gains an otherworldly aspect that makes you look more lovely and fierce.",
-				"In addition, as a bonus action, you can assume a magically majestic presence for 1 minute or until you are {@condition incapacitated}. For the duration, whenever any creature tries to attack you for the first time on a turn, the attacker must make a Charisma saving throw against your spell save DC. On a failed save, it can't attack you on this turn, and it must choose a new target for its attack or the attack is wasted. On a successful save, it can attack you on this turn, but it has disadvantage on any saving throw it makes against your spells on your next turn.",
+				"In addition, as a bonus action, you can assume a magically majestic presence for 1 minute or until you are {@condition Incapable}. For the duration, whenever any creature tries to attack you for the first time on a turn, the attacker must make a Charisma saving throw against your spell save DC. On a failed save, it can't attack you on this turn, and it must choose a new target for its attack or the attack is wasted. On a successful save, it can attack you on this turn, but it has disadvantage on any saving throw it makes against your spells on your next turn.",
 				"Once you assume this majestic presence, you can't do so again until you finish a short or long rest."
 			]
 		},
@@ -3406,7 +3406,7 @@
 			"header": 1,
 			"entries": [
 				"At 3rd level, you learn to perform impressive displays of martial prowess and speed.",
-				"Whenever you take the {@action Attack} action on your turn, your walking speed increases by 10 feet until the end of the turn, and if a weapon attack that you make as part of this action hits a creature, you can use one of the following Blade Flourish options of your choice. You can use only one Blade Flourish option per turn.",
+				"Whenever you take the {@action Attaque} action on your turn, your walking speed increases by 10 feet until the end of the turn, and if a weapon attack that you make as part of this action hits a creature, you can use one of the following Blade Flourish options of your choice. You can use only one Blade Flourish option per turn.",
 				{
 					"type": "options",
 					"entries": [
@@ -3437,7 +3437,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you join the College of Swords at 3rd level, you gain proficiency with medium armor and the {@item scimitar|phb}.",
+				"When you join the College of Swords at 3rd level, you gain proficiency with medium armor and the {@item Cimeterre|phb}.",
 				"If you're proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your bard spells."
 			]
 		},
@@ -3480,7 +3480,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+				"Starting at 6th level, you can attack twice, instead of once, whenever you take the {@action Attaque} action on your turn."
 			]
 		},
 		{
@@ -3547,7 +3547,7 @@
 			"header": 1,
 			"entries": [
 				"At 3rd level, you learn to infuse innocent-seeming words with an insidious magic that can inspire terror.",
-				"If you speak to a humanoid alone for at least 1 minute, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be {@condition frightened} of you or another creature of your choice. The target is {@condition frightened} in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.",
+				"If you speak to a humanoid alone for at least 1 minute, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be {@condition Effrayé} of you or another creature of your choice. The target is {@condition Effrayé} in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.",
 				"If the target succeeds on its saving throw, the target has no hint that you tried to frighten it.",
 				"Once you use this feature, you can't use it again until you finish a short or long rest."
 			]
@@ -3566,7 +3566,7 @@
 				"At 6th level, you gain the ability to adopt a humanoid's persona. When a humanoid dies within 30 feet of you, you can magically capture its shadow using your reaction. You retain this shadow until you use it or you finish a long rest.",
 				"You can use the shadow as an action. When you do so, it vanishes, magically transforming into a disguise that appears on you. You now look like the dead person, but healthy and alive. This disguise lasts for 1 hour or until you end it as a bonus action.",
 				"While you're in the disguise, you gain access to all information that the humanoid would freely share with a casual acquaintance. Such information includes general details on its background and personal life, but doesn't include secrets. The information is enough that you can pass yourself off as the person by drawing on its memories.",
-				"Another creature can see through this disguise by succeeding on a Wisdom ({@skill Insight}) check contested by your Charisma ({@skill Deception}) check. You gain a +5 bonus to your check.",
+				"Another creature can see through this disguise by succeeding on a Wisdom ({@skill Perspicacité}) check contested by your Charisma ({@skill Tromperie}) check. You gain a +5 bonus to your check.",
 				"Once you capture a shadow with this feature, you can't capture another one with it until you finish a short or long rest."
 			]
 		},
@@ -3583,8 +3583,8 @@
 			"entries": [
 				"At 14th level, you gain the ability to weave dark magic into your words and tap into a creature's deepest fears.",
 				"As an action, you magically whisper a phrase that only one creature of your choice within 30 feet of you can hear. The target must make a Wisdom saving throw against your spell save DC. It automatically succeeds if it doesn't share a language with you or if it can't hear you. On a successful saving throw, your whisper sounds like unintelligible mumbling and has no effect.",
-				"On a failed saving throw, the target is {@condition charmed} by you for the next 8 hours or until you or your allies attack it, damage it, or force it to make a saving throw. It interprets the whispers as a description of its most mortifying secret. You gain no knowledge of this secret, but the target is convinced you know it.",
-				"The {@condition charmed} creature obeys your commands for fear that you will reveal its secret. It won't risk its life for you or fight for you, unless it was already inclined to do so. It grants you favors and gifts it would offer to a close friend.",
+				"On a failed saving throw, the target is {@condition Charmé} by you for the next 8 hours or until you or your allies attack it, damage it, or force it to make a saving throw. It interprets the whispers as a description of its most mortifying secret. You gain no knowledge of this secret, but the target is convinced you know it.",
+				"The {@condition Charmé} creature obeys your commands for fear that you will reveal its secret. It won't risk its life for you or fight for you, unless it was already inclined to do so. It grants you favors and gifts it would offer to a close friend.",
 				"When the effect ends, the creature has no understanding of why it held you in such fear.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
@@ -3649,7 +3649,7 @@
 			"level": 3,
 			"entries": [
 				"You learn Druidic and one cantrip from the Druid spell list. It counts as a Bard spell for you but doesn't count against the number of cantrips you know. Whenever you gain a Bard level, you can replace this cantrip with another cantrip of your choice from the Druid spell list.",
-				"Additionally, choose one of the following skills: {@skill Animal Handling|XPHB}, {@skill Insight|XPHB}, {@skill Medicine|XPHB}, {@skill Nature|XPHB}, {@skill Perception|XPHB}, or {@skill Survival|XPHB}. You have proficiency in that skill."
+				"Additionally, choose one of the following skills: {@skill Dressage|XPHB}, {@skill Perspicacité|XPHB}, {@skill Médecine|XPHB}, {@skill Nature|XPHB}, {@skill Perception|XPHB}, or {@skill Survie|XPHB}. You have proficiency in that skill."
 			]
 		},
 		{
@@ -3717,7 +3717,7 @@
 					"type": "entries",
 					"name": "Spiritual Focus",
 					"entries": [
-						"You employ tools that aid you in channeling spirits. You gain a Gaming Set ({@item playing cards|XPHB}). You have proficiency with this Gaming Set, and you can use it or one of the following items as a {@variantrule Spellcasting Focus|XPHB} for your Bard spells: {@item Arcane Focus|XPHB} ({@item crystal|XPHB} or {@item orb|XPHB}), {@item Candle|XPHB}, or {@item Ink Pen|XPHB}."
+						"You employ tools that aid you in channeling spirits. You gain a Gaming Set ({@item Cartes à jouer|XPHB}). You have proficiency with this Gaming Set, and you can use it or one of the following items as a {@variantrule Spellcasting Focus|XPHB} for your Bard spells: {@item Arcane Focus|XPHB} ({@item Cristal|XPHB} or {@item Orbe|XPHB}), {@item Bougie|XPHB}, or {@item Plume|XPHB}."
 					]
 				}
 			]
@@ -3764,7 +3764,7 @@
 					"type": "entries",
 					"name": "Unleashing a Spirit",
 					"entries": [
-						"As a {@action Magic|XPHB} action, you can unleash one of your channeled spirits. Choose one creature you can see within 30 feet of yourself as the spirit's target. The spirit then takes effect; if a spirit's effect requires a saving throw, the DC equals your Bard spell save DC.",
+						"As a {@action Magie|XPHB} action, you can unleash one of your channeled spirits. Choose one creature you can see within 30 feet of yourself as the spirit's target. The spirit then takes effect; if a spirit's effect requires a saving throw, the DC equals your Bard spell save DC.",
 						{
 							"type": "table",
 							"caption": "Spirits from Beyond",
@@ -3803,7 +3803,7 @@
 								],
 								[
 									"7",
-									"Trickster. The target makes a Wisdom saving throw. On a failed save, the target takes Psychic damage equal to two rolls of your Bardic Inspiration die and has the {@condition Charmed|XPHB} condition until the start of your next turn. On a successful save, the target takes half as much damage only."
+									"Trickster. The target makes a Wisdom saving throw. On a failed save, the target takes Psychic damage equal to two rolls of your Bardic Inspiration die and has the {@condition Charmé|XPHB} condition until the start of your next turn. On a successful save, the target takes half as much damage only."
 								],
 								[
 									"8",
@@ -3815,15 +3815,15 @@
 								],
 								[
 									"10",
-									"Coward. The target and each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target must succeed on a Wisdom saving throw or have the {@condition Frightened|XPHB} condition until the start of your next turn. While a creature is Frightened, its {@variantrule Speed|XPHB} is halved (round down), and it can take either an action or a {@variantrule Bonus Action|XPHB}, not both."
+									"Coward. The target and each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target must succeed on a Wisdom saving throw or have the {@condition Effrayé|XPHB} condition until the start of your next turn. While a creature is Frightened, its {@variantrule Speed|XPHB} is halved (round down), and it can take either an action or a {@variantrule Bonus Action|XPHB}, not both."
 								],
 								[
 									"11",
-									"Brute. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target makes a Strength saving throw. On a failed save, a creature takes Thunder damage equal to three rolls of your Bardic Inspiration die and has the {@condition Prone|XPHB} condition. On a successful save, a creature takes half as much damage only."
+									"Brute. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target makes a Strength saving throw. On a failed save, a creature takes Thunder damage equal to three rolls of your Bardic Inspiration die and has the {@condition À terre|XPHB} condition. On a successful save, a creature takes half as much damage only."
 								],
 								[
 									"12",
-									"Priest. The target regains {@variantrule Hit Points|XPHB} equal to two rolls of your Bardic Inspiration die, and one of the following conditions of your choice ends on the target: {@condition Blinded|XPHB}, {@condition Charmed|XPHB}, {@condition Deafened|XPHB}, {@condition Paralyzed|XPHB}, {@condition Poisoned|XPHB}, or {@condition Stunned|XPHB}."
+									"Priest. The target regains {@variantrule Hit Points|XPHB} equal to two rolls of your Bardic Inspiration die, and one of the following conditions of your choice ends on the target: {@condition Aveuglé|XPHB}, {@condition Charmé|XPHB}, {@condition Assourdi|XPHB}, {@condition Paralysé|XPHB}, {@condition Empoisonné|XPHB}, or {@condition Étourdi|XPHB}."
 								]
 							]
 						}
@@ -3929,7 +3929,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You have {@variantrule Advantage|XPHB} on any Charisma ({@skill Performance|XPHB}) check you make that involves you dancing."
+				"You have {@variantrule Advantage|XPHB} on any Charisma ({@skill Représentation|XPHB}) check you make that involves you dancing."
 			]
 		},
 		{
@@ -3943,7 +3943,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"While you aren't wearing armor or wielding a {@item Shield|XPHB}, you gain the following benefits.",
+				"While you aren't wearing armor or wielding a {@item Bouclier|XPHB}, you gain the following benefits.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Dance Virtuoso|Bard|XPHB|Dance|XPHB|3"
@@ -3988,7 +3988,7 @@
 			"header": 2,
 			"entries": [
 				"When an enemy you can see ends its turn within 5 feet of you, you can take a {@variantrule Reaction|XPHB} and expend one use of your Bardic Inspiration to move up to half your {@variantrule Speed|XPHB}. Then one ally of your choice within 30 feet of you can also move up to half their {@variantrule Speed|XPHB} using their {@variantrule Reaction|XPHB}.",
-				"None of this feature's movement provokes {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+				"None of this feature's movement provokes {@action Attaque d'opportunité|XPHB|Opportunity Attacks}."
 			]
 		},
 		{
@@ -4002,7 +4002,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"When you roll {@variantrule Initiative|XPHB}, you can expend one use of your Bardic Inspiration if you don't have the {@condition Incapacitated|XPHB} condition. When you do so, roll your Bardic Inspiration die; you and each ally within 30 feet of you who can see or hear you gains a bonus to {@variantrule Initiative|XPHB} equal to the number rolled."
+				"When you roll {@variantrule Initiative|XPHB}, you can expend one use of your Bardic Inspiration if you don't have the {@condition Incapable|XPHB} condition. When you do so, roll your Bardic Inspiration die; you and each ally within 30 feet of you who can see or hear you gains a bonus to {@variantrule Initiative|XPHB} equal to the number rolled."
 			]
 		},
 		{
@@ -4017,7 +4017,7 @@
 			"header": 2,
 			"entries": [
 				"When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. If any creatures within 5 feet of you are making the same Dexterity saving throw, you can share this benefit with them for that save.",
-				"You can't use this feature if you have the {@condition Incapacitated|XPHB} condition."
+				"You can't use this feature if you have the {@condition Incapable|XPHB} condition."
 			]
 		},
 		{
@@ -4054,7 +4054,7 @@
 			"header": 2,
 			"entries": [
 				"You always have the {@spell Charm Person|XPHB} and {@spell Mirror Image|XPHB} spells prepared.",
-				"In addition, immediately after you cast an Enchantment or Illusion spell using a spell slot, you can cause a creature you can see within 60 feet of yourself to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the {@condition Charmed|XPHB} or {@condition Frightened|XPHB} condition (your choice) for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.",
+				"In addition, immediately after you cast an Enchantment or Illusion spell using a spell slot, you can cause a creature you can see within 60 feet of yourself to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the {@condition Charmé|XPHB} or {@condition Effrayé|XPHB} condition (your choice) for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.",
 				"Once you use this benefit, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending one use of your Bardic Inspiration (no action required)."
 			]
 		},
@@ -4069,7 +4069,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You can weave fey magic into a song or dance to fill others with vigor. As a {@variantrule Bonus Action|XPHB}, you can expend a use of Bardic Inspiration, rolling a Bardic Inspiration die. When you do so, choose a number of other creatures within 60 feet of yourself, up to a number equal to your Charisma modifier (minimum of one creature). Each of those creatures gains a number of {@variantrule Temporary Hit Points|XPHB} equal to two times the number rolled on the Bardic Inspiration die, and then each can use its {@variantrule Reaction|XPHB} to move up to its {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+				"You can weave fey magic into a song or dance to fill others with vigor. As a {@variantrule Bonus Action|XPHB}, you can expend a use of Bardic Inspiration, rolling a Bardic Inspiration die. When you do so, choose a number of other creatures within 60 feet of yourself, up to a number equal to your Charisma modifier (minimum of one creature). Each of those creatures gains a number of {@variantrule Temporary Hit Points|XPHB} equal to two times the number rolled on the Bardic Inspiration die, and then each can use its {@variantrule Reaction|XPHB} to move up to its {@variantrule Speed|XPHB} without provoking {@action Attaque d'opportunité|XPHB|Opportunity Attacks}."
 			]
 		},
 		{
@@ -4085,7 +4085,7 @@
 			"entries": [
 				"You always have the {@spell Command|XPHB} spell prepared.",
 				"As a {@variantrule Bonus Action|XPHB}, you cast {@spell Command|XPHB} without expending a spell slot, and you take on an unearthly appearance for 1 minute or until your {@status Concentration|XPHB} ends. During this time, you can cast {@spell Command|XPHB} as a {@variantrule Bonus Action|XPHB} without expending a spell slot.",
-				"Any creature {@condition Charmed|XPHB} by you automatically fails its saving throw against the {@spell Command|XPHB} you cast with this feature.",
+				"Any creature {@condition Charmé|XPHB} by you automatically fails its saving throw against the {@spell Command|XPHB} you cast with this feature.",
 				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 3+ spell slot (no action required)."
 			]
 		},
@@ -4100,7 +4100,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you can assume a magically majestic presence for 1 minute or until you have the {@condition Incapacitated|XPHB} condition. For the duration, whenever any creature hits you with an attack roll for the first time on a turn, the attacker must succeed on a Charisma saving throw against your spell save DC, or the attack misses instead, as the creature recoils from your majesty.",
+				"As a {@variantrule Bonus Action|XPHB}, you can assume a magically majestic presence for 1 minute or until you have the {@condition Incapable|XPHB} condition. For the duration, whenever any creature hits you with an attack roll for the first time on a turn, the attacker must succeed on a Charisma saving throw against your spell save DC, or the attack misses instead, as the creature recoils from your majesty.",
 				"Once you assume this majestic presence, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
 			]
 		},
@@ -4254,7 +4254,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You gain proficiency with {@filter Martial weapons|items|type=martial weapon} and training with {@filter Medium armor|items|type=Medium Armor} and {@item Shield|XPHB|Shields}.",
+				"You gain proficiency with {@filter Martial weapons|items|type=martial weapon} and training with {@filter Medium armor|items|type=Medium Armor} and {@item Bouclier|XPHB|Shields}.",
 				"In addition, you can use a Simple or Martial weapon as a {@variantrule Spellcasting Focus|XPHB} to cast spells from your {@filter Bard spell list|spells|class=Bard}."
 			]
 		},
@@ -4269,7 +4269,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn.",
+				"You can attack twice instead of once whenever you take the {@action Attaque|XPHB} action on your turn.",
 				"In addition, you can cast one of your cantrips that has a casting time of an action in place of one of those attacks."
 			]
 		},

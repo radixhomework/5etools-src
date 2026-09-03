@@ -37,7 +37,7 @@
 					"id": "004",
 					"entries": [
 						"The spellcaster Kelek has long sought to harness the rare magic of unicorns to fuel his nefarious ambitions. Recently, he devised a one-time magical way to use his ornate walking stick to drain a unicorn's innate magic and remove the horn from its head. What's worse, Kelek found a tome with directions to a hidden demiplane, along with instructions to ritually cast a {@spell Wish|XPHB} spell there using a unicorn's horn as a component. Kelek plans to use this ritual to supplant his superior, the evil wizard Venger, as the overlord of the Realm.",
-						"Kelek, however, is only falling into Venger's trap. Venger planted the tome to tempt Kelek and test the spellcaster's loyalty. The demiplane is inside Venger's {@item Crystal Ball|XDMG}. No wish awaits Kelek at the end of his ritual, only his master's scorn.",
+						"Kelek, however, is only falling into Venger's trap. Venger planted the tome to tempt Kelek and test the spellcaster's loyalty. The demiplane is inside Venger's {@item Boule de cristal|XDMG}. No wish awaits Kelek at the end of his ritual, only his master's scorn.",
 						"No matter what happens to Kelek, Venger is certain to destroy Uni's horn and use it for his own nefarious ends. The characters must free Uni from Kelek's minions and stop Kelek and Venger from misusing Uni's magic and destroying her horn.",
 						{
 							"type": "entries",
@@ -120,7 +120,7 @@
 										{
 											"type": "item",
 											"name": "Inside the Crystal Ball",
-											"entry": "The characters follow Kelek into a demiplane inside Venger's {@item Crystal Ball|XDMG}. Regardless of whether the characters defeat Kelek, the demiplane begins to close, forcing the characters to escape. The characters can return Uni's horn to the unicorn to reverse Kelek's magic."
+											"entry": "The characters follow Kelek into a demiplane inside Venger's {@item Boule de cristal|XDMG}. Regardless of whether the characters defeat Kelek, the demiplane begins to close, forcing the characters to escape. The characters can return Uni's horn to the unicorn to reverse Kelek's magic."
 										}
 									]
 								}
@@ -276,11 +276,11 @@
 												{
 													"type": "item",
 													"name": "Puffball Mushrooms",
-													"entry": "Brightly colored puffball mushrooms grow in the locations shown on the map. Each puffball mushroom has AC 5, HP 1, and Immunity to Poison and Psychic damage. When a puffball is reduced to 0 Hit Points, it explodes and releases a cloud of sickening spores in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from it. Each creature in that area must succeed on a {@dc 10} Constitution saving throw or have the {@condition Poisoned|XPHB} condition until the end of that creature's next turn."
+													"entry": "Brightly colored puffball mushrooms grow in the locations shown on the map. Each puffball mushroom has AC 5, HP 1, and Immunity to Poison and Psychic damage. When a puffball is reduced to 0 Hit Points, it explodes and releases a cloud of sickening spores in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from it. Each creature in that area must succeed on a {@dc 10} Constitution saving throw or have the {@condition Empoisonné|XPHB} condition until the end of that creature's next turn."
 												}
 											]
 										},
-										"As a {@action Study|XPHB} action, any character who examines the mushrooms and succeeds on a {@dc 10} Intelligence ({@skill Nature|XPHB}) check knows what the mushrooms are and what they can do."
+										"As a {@action Étudier|XPHB} action, any character who examines the mushrooms and succeeds on a {@dc 10} Intelligence ({@skill Nature|XPHB}) check knows what the mushrooms are and what they can do."
 									]
 								},
 								{
@@ -301,7 +301,7 @@
 										{
 											"type": "list",
 											"items": [
-												"Uni the unicorn, who has the {@condition Restrained|XPHB} condition while tangled in the {@item Net|XPHB}",
+												"Uni the unicorn, who has the {@condition Entravé|XPHB} condition while tangled in the {@item Filet|XPHB}",
 												"Two {@creature Sprite|XMM|Sprites}, Willowbrush and Knock",
 												"A {@creature Bugbear Warrior|XMM} named Grump, the goblinoid who stands on a 60-foot-high bluff",
 												"Ten {@creature Bullywug Warrior|XMM|Bullywug Warriors}, who answer to Grump"
@@ -312,7 +312,7 @@
 											"name": "Uni",
 											"id": "00e",
 											"entries": [
-												"Kelek has drained Uni's magic and taken her horn. Uni currently uses the {@creature Warhorse|XMM} stat block, except she's a Lawful Good Celestial and can speak Common, Elvish, and Sylvan. Uni is frantically struggling to escape the {@item Net|XPHB}, but she's too tangled in it to do so alone. As an action, a character within 5 feet of Uni can free her with a successful {@dc 10} Strength ({@skill Athletics|XPHB}) check to remove the Net. Destroying the Net (AC 10; HP 5; Immunity to Bludgeoning, Poison, and Psychic damage) also frees Uni."
+												"Kelek has drained Uni's magic and taken her horn. Uni currently uses the {@creature Warhorse|XMM} stat block, except she's a Lawful Good Celestial and can speak Common, Elvish, and Sylvan. Uni is frantically struggling to escape the {@item Filet|XPHB}, but she's too tangled in it to do so alone. As an action, a character within 5 feet of Uni can free her with a successful {@dc 10} Strength ({@skill Athlétisme|XPHB}) check to remove the Net. Destroying the Net (AC 10; HP 5; Immunity to Bludgeoning, Poison, and Psychic damage) also frees Uni."
 											]
 										},
 										{
@@ -336,7 +336,7 @@
 											"name": "Development",
 											"id": "011",
 											"entries": [
-												"Once Uni is free of the Net, Grump realizes his plans are falling apart. From that point on, a character can try to convince Grump to depart the clearing and take all remaining bullywugs with him; Grump is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward the characters. As an {@action Influence|XPHB} action, a character can convince Grump by succeeding on a {@dc 12} Charisma ({@skill Intimidation|XPHB} or {@skill Persuasion|XPHB}) check. A character can instead make a {@dc 12} Charisma ({@skill Deception|XPHB}) check if trickery is used to fool the bugbear into leaving (for example, if the character claims to be working for Kelek).",
+												"Once Uni is free of the Net, Grump realizes his plans are falling apart. From that point on, a character can try to convince Grump to depart the clearing and take all remaining bullywugs with him; Grump is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward the characters. As an {@action Influence|XPHB} action, a character can convince Grump by succeeding on a {@dc 12} Charisma ({@skill Intimidation|XPHB} or {@skill Persuasion|XPHB}) check. A character can instead make a {@dc 12} Charisma ({@skill Tromperie|XPHB}) check if trickery is used to fool the bugbear into leaving (for example, if the character claims to be working for Kelek).",
 												"If the characters defeat eight or more bullywugs, Grump surrenders and begs for mercy. If the characters question Grump at that point, the bugbear reveals that Kelek used a book to find the nearby portal. The book includes instructions on using a unicorn's horn to ritually cast a {@spell Wish|XPHB} spell inside the demiplane to which the portal leads."
 											]
 										},
@@ -347,7 +347,7 @@
 											"entries": [
 												"Each bullywug wears paste jewelry worth 5 GP and carries a pouch containing 4 GP. These coins bear the embossed face of the bullywugs' monarch, King Gurgle, who wears a powdered wig.",
 												"Grump carries a pouch containing 50 GP.",
-												"If one or more characters are wounded at the end of the battle, Willowbrush and Knock each produce two {@item Potion of Healing|XDMG|Potions of Healing}. They offer the potions to the characters who appear to be most in need of healing."
+												"If one or more characters are wounded at the end of the battle, Willowbrush and Knock each produce two {@item Potion de soins|XDMG|Potions of Healing}. They offer the potions to the characters who appear to be most in need of healing."
 											]
 										}
 									]
@@ -446,7 +446,7 @@
 											"name": "Interior Walls",
 											"id": "01b",
 											"entries": [
-												"The demiplane's interior walls are made of dense thornbushes. These walls have Immunity to all damage. Any creature that is pushed against the thornbushes must succeed on a {@dc 10} Dexterity saving throw or have the {@condition Restrained|XPHB} condition, as it becomes snagged on thorny branches. The condition ends on the creature if it takes an action to free itself from the thornbushes or if another creature within reach of it does the same (no ability check required in either case)."
+												"The demiplane's interior walls are made of dense thornbushes. These walls have Immunity to all damage. Any creature that is pushed against the thornbushes must succeed on a {@dc 10} Dexterity saving throw or have the {@condition Entravé|XPHB} condition, as it becomes snagged on thorny branches. The condition ends on the creature if it takes an action to free itself from the thornbushes or if another creature within reach of it does the same (no ability check required in either case)."
 											]
 										},
 										{
@@ -1772,7 +1772,7 @@
 											"name": "Development",
 											"id": "02d",
 											"entries": [
-												"As an {@action Influence|XPHB} action, a character can convince King Gurgle to turn against Kelek with a lie or compelling argument and a successful {@dc 14} Charisma ({@skill Deception|XPHB} or {@skill Persuasion|XPHB}) check. A character who backs up their words with an offering of food has Advantage on the check. On a successful check, the king and his bullywugs join the characters as allies during the confrontation in area C5. Grouch is completely loyal to Kelek and fights to the death."
+												"As an {@action Influence|XPHB} action, a character can convince King Gurgle to turn against Kelek with a lie or compelling argument and a successful {@dc 14} Charisma ({@skill Tromperie|XPHB} or {@skill Persuasion|XPHB}) check. A character who backs up their words with an offering of food has Advantage on the check. On a successful check, the king and his bullywugs join the characters as allies during the confrontation in area C5. Grouch is completely loyal to Kelek and fights to the death."
 											]
 										},
 										{
@@ -1878,19 +1878,19 @@
 					"type": "list",
 					"columns": 3,
 					"items": [
-						"{@status Bloodied|XPHB}",
+						"{@status Meurtri|XPHB}",
 						"{@variantrule Emanation [Area of Effect]|XPHB}",
 						"{@variantrule Friendly [Attitude]|XPHB}",
 						"{@variantrule Hostile [Attitude]|XPHB}",
 						"{@variantrule Indifferent [Attitude]|XPHB}",
 						"{@action Influence|XPHB}",
 						"{@condition Invisible|XPHB}",
-						"{@action Magic|XPHB}",
-						"{@item Potion of Healing|XDMG}",
-						"{@action Study|XPHB}",
+						"{@action Magie|XPHB}",
+						"{@item Potion de soins|XDMG}",
+						"{@action Étudier|XPHB}",
 						"{@variantrule Teleportation|XPHB}",
 						"{@variantrule Unarmed Strike|XPHB}",
-						"{@action Utilize|XPHB}"
+						"{@action Utiliser|XPHB}"
 					]
 				},
 				{

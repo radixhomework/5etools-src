@@ -1,7 +1,7 @@
 {
 	"charoption": [
 		{
-			"name": "Alagondar Scion",
+			"name": "Descendant d'Alagondar",
 			"source": "IDRotF",
 			"page": 264,
 			"prerequisite": [
@@ -17,56 +17,56 @@
 							"name": "half-orc"
 						}
 					],
-					"note": "If you don't meet this prerequisite, draw a different card."
+					"note": "Si vous ne remplissez pas ce prérequis, tirez une autre carte."
 				}
 			],
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I'm a scion of the Alagondar bloodline and the only known heir to the crown of Neverwinter. If Dagult Neverember, the city's lord-regent, learns that I'm alive, he'll send assassins to kill me."
+				"Je suis un descendant de la lignée d'Alagondar et le seul héritier connu de la couronne de Neverwinter. Si Dagult Neverember, le régent de la cité, apprend que je suis en vie, il enverra des assassins pour me tuer."
 			]
 		},
 		{
-			"name": "Anvilwrought",
+			"name": "Forgé d'enclume",
 			"source": "MOT",
 			"page": 12,
 			"optionType": [
 				"SG"
 			],
 			"entries": [
-				"You were forged in the fires of Purphoros's forge. Your appearance bears a metallic sheen and visible joints. The Anvilwrought Characteristics table suggests details of your life or origins. Additionally, you gain the following traits.",
+				"Vous avez été forgé dans les feux de la forge de Purphoros. Votre apparence présente un éclat métallique et des articulations visibles. La table des Caractéristiques d'un Forgé d'enclume suggère des détails sur votre vie ou vos origines. De plus, vous gagnez les traits suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Constructed Resilience",
+							"name": "Résilience construite",
 							"entries": [
-								"You were created to have remarkable fortitude, represented by the following benefits:",
+								"Vous avez été créé pour faire preuve d'une fortitude remarquable, représentée par les avantages suivants :",
 								{
 									"type": "list",
 									"items": [
-										"You have advantage on saving throws against being {@condition poisoned}, and you have resistance to poison damage.",
-										"You don't need to eat, drink, or breathe.",
-										"You are immune to disease.",
-										"You don't need to sleep, and magic can't put you to sleep."
+										"Vous avez un avantage aux jets de sauvegarde contre l'état {@condition Empoisonné}, et vous êtes résistant aux dégâts de poison.",
+										"Vous n'avez pas besoin de manger, de boire ni de respirer.",
+										"Vous êtes immunisé contre les maladies.",
+										"Vous n'avez pas besoin de dormir, et la magie ne peut pas vous endormir."
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Sentry's Rest",
+							"name": "Repos de sentinelle",
 							"page": 12,
 							"entries": [
-								"When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious}, and you can see and hear as normal.",
+								"Quand vous effectuez un repos long, vous devez passer au moins six heures dans un état inactif et immobile, plutôt que de dormir. Dans cet état, vous semblez inerte, mais vous n'êtes pas {@condition Inconscient}, et vous pouvez voir et entendre normalement.",
 								{
 									"type": "table",
-									"caption": "Anvilwrought Characteristics",
+									"caption": "Caractéristiques d'un Forgé d'enclume",
 									"colLabels": [
 										"d6",
-										"Characteristic"
+										"Caractéristique"
 									],
 									"colStyles": [
 										"col-2 text-center",
@@ -75,27 +75,27 @@
 									"rows": [
 										[
 											"1",
-											"An oread who works in Purphoros's forge is the closest thing I have to a parent."
+											"Une oreade qui travaille dans la forge de Purphoros est ce qui se rapproche le plus d'un parent pour moi."
 										],
 										[
 											"2",
-											"Purphoros made me to serve him."
+											"Purphoros m'a créé pour le servir."
 										],
 										[
 											"3",
-											"I was created decades ago and, fearing that I'm growing obsolete, recently fled Mount Velus."
+											"J'ai été créé il y a des décennies et, de peur de devenir obsolète, j'ai récemment fui le mont Velus."
 										],
 										[
 											"4",
-											"Purphoros regrets my creation and wants to reforge me into something better."
+											"Purphoros regrette de m'avoir créé et veut me reforger en quelque chose de meilleur."
 										],
 										[
 											"5",
-											"Purphoros intended me to carry on his work by making even greater creations of my own."
+											"Purphoros voulait que je poursuive son œuvre en réalisant moi-même des créations encore plus grandes."
 										],
 										[
 											"6",
-											"Someone in Mount Velus implanted a terrible secret within me in order to smuggle it out into the world."
+											"Quelqu'un, au mont Velus, m'a implanté un terrible secret afin de le faire sortir clandestinement dans le monde."
 										]
 									]
 								}
@@ -106,7 +106,7 @@
 			]
 		},
 		{
-			"name": "Cult of the Dragon Infiltrator",
+			"name": "Infiltré du Culte du Dragon",
 			"source": "HotDQ",
 			"page": 87,
 			"otherSources": [
@@ -119,34 +119,34 @@
 				"RF:B"
 			],
 			"entries": [
-				"You have infiltrated the ranks of the Cult of the Dragon. Having spied on the organization for quite some time, you are familiar with its inner workings and customs. You have a second identity as an initiate of the cult, enough of a facade to blend in as a simple grunt or servant."
+				"Vous vous êtes infiltré dans les rangs du Culte du Dragon. Ayant espionné cette organisation pendant un certain temps, vous connaissez bien son fonctionnement interne et ses coutumes. Vous possédez une seconde identité d'initié du culte, une façade suffisante pour vous fondre dans la masse comme simple homme de main ou serviteur."
 			]
 		},
 		{
-			"name": "Deep Delver",
+			"name": "Explorateur des profondeurs",
 			"source": "OotA",
 			"page": 221,
 			"optionType": [
 				"RF:B"
 			],
 			"entries": [
-				"You have a knack for making your way in the deep places of the world. You can recall the twists and turns of passageways and tunnels such that you can always retrace your steps underground. You're also well acquainted with foraging and survival in the Underdark, and can determine when sources of food and water are safe to consume. You can always find sufficient food and water for yourself and up to five other people in the Underdark, as long as sustenance is available in the area."
+				"Vous avez un talent particulier pour vous frayer un chemin dans les profondeurs du monde. Vous pouvez vous souvenir des méandres des passages et des tunnels, si bien que vous pouvez toujours retrouver votre chemin sous terre. Vous connaissez également bien la cueillette et la survie dans l'Infraterre, et vous savez déterminer si les sources de nourriture et d'eau sont propres à la consommation. Vous pouvez toujours trouver suffisamment de nourriture et d'eau pour vous et jusqu'à cinq autres personnes dans l'Infraterre, tant qu'il en existe dans la région."
 			]
 		},
 		{
-			"name": "Doppelganger",
+			"name": "Doppleganger",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I'm a shapechanger. I have none of the traits of the race I'm imitating, but I retain my class features, background, and alignment. I have {@sense darkvision} out to a range of 60 feet. I can use an action to do either of the following at will:",
-				"I can innately cast {@spell detect thoughts}, requiring no components. My spellcasting ability is Intelligence. The spell's Wisdom save DC is 8 + my proficiency bonus + my Intelligence modifier. I can polymorph into any humanoid I have seen or back into my true form. My statistics, other than my size, don't change. Any equipment I'm wearing or carrying isn't transformed. I revert to my true form when I die."
+				"Je suis un métamorphe. Je ne possède aucun des traits de la race que j'imite, mais je conserve mes capacités de classe, mon historique et mon alignement. J'ai la {@sense Vision dans le noir} sur une portée de 18 mètres. Je peux utiliser une action pour faire, à volonté, l'une des choses suivantes :",
+				"Je peux lancer innément {@spell detect thoughts}, sans composantes. Ma caractéristique d'incantation est l'Intelligence. Le DD de sauvegarde de Sagesse du sort est 8 + mon bonus de maîtrise + mon modificateur d'Intelligence. Je peux me métamorphoser en n'importe quel humanoïde que j'ai déjà vu ou retrouver ma forme véritable. Mes statistiques, à part ma taille, ne changent pas. L'équipement que je porte ou transporte n'est pas transformé. Je reprends ma forme véritable quand je meurs."
 			]
 		},
 		{
-			"name": "Dragon Scholar",
+			"name": "Érudit des dragons",
 			"source": "HotDQ",
 			"page": 87,
 			"otherSources": [
@@ -159,36 +159,36 @@
 				"RF:B"
 			],
 			"entries": [
-				"You have studied dragons and their lore for many years. You can automatically identify locations built or used by dragons and can identify dragon eggs and scales by sight. If you fail an Intelligence check to recall lore relating to dragons, you know someone or some book you can consult for the answer unless the DM rules that the lore is unknown."
+				"Vous avez étudié les dragons et les légendes les concernant pendant de nombreuses années. Vous pouvez identifier automatiquement les lieux construits ou utilisés par les dragons et reconnaître de vue des œufs et des écailles de dragon. Si vous ratez un test d'Intelligence destiné à vous souvenir d'une légende relative aux dragons, vous connaissez une personne ou un ouvrage à consulter pour obtenir la réponse, sauf si le MD estime que cette légende est inconnue."
 			]
 		},
 		{
-			"name": "Drizzt Fan",
+			"name": "Admirateur de Drizzt",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I once met the famous drow ranger Drizzt Do'Urden! In fact, I have a tattered piece of his famous green cloak and would never think to part with it."
+				"J'ai déjà rencontré le célèbre rôdeur drow Drizzt Do'Urden ! J'ai d'ailleurs un lambeau déchiré de sa célèbre cape verte, et je n'envisagerais jamais de m'en séparer."
 			]
 		},
 		{
-			"name": "Echoing Soul",
+			"name": "Âme en écho",
 			"source": "VRGR",
 			"page": 22,
 			"optionType": [
 				"DG"
 			],
 			"entries": [
-				"Your soul isn't your own or, at least, it wasn't always yours. Whether you've lived past lives, your soul was swapped into a different body, or you have a link connecting you to another being, you experience echoes from another life. These echoes grant you knowledge, talents, or even languages you can't always explain, but they also intrude on your perceptions and beliefs unexpectedly.",
-				"Roll on or choose an option from the Soul Echoes table to determine the nature of this Dark Gift. Additionally, you gain the traits that follow.",
+				"Votre âme ne vous appartient pas ou, du moins, ne vous a pas toujours appartenu. Que vous ayez vécu des vies antérieures, que votre âme ait été transférée dans un corps différent ou qu'un lien vous relie à un autre être, vous vivez des échos d'une autre existence. Ces échos vous apportent des connaissances, des talents, voire des langues que vous ne pouvez pas toujours expliquer, mais ils envahissent aussi, de façon imprévisible, vos perceptions et vos convictions.",
+				"Lancez les dés sur la table des Échos d'âme (ou choisissez-y une option) pour déterminer la nature de ce Don funeste. De plus, vous gagnez les traits qui suivent.",
 				{
 					"type": "table",
-					"caption": "Soul Echoes",
+					"caption": "Échos d'âme",
 					"colLabels": [
 						"d6",
-						"Echo"
+						"Écho"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -197,27 +197,27 @@
 					"rows": [
 						[
 							"1",
-							"My soul is linked with that of a person elsewhere, perhaps another domain, world, or plane."
+							"Mon âme est liée à celle d'une personne qui se trouve ailleurs, peut-être dans un autre domaine, un autre monde ou un autre plan."
 						],
 						[
 							"2",
-							"I have lived many times before, my soul reincarnating each time I die rather than passing on."
+							"J'ai vécu de nombreuses fois auparavant, mon âme se réincarnant à chaque mort au lieu de passer outre."
 						],
 						[
 							"3",
-							"My consciousness was removed from my original body and implanted in this one."
+							"Ma conscience a été retirée de mon corps d'origine et implantée dans celui-ci."
 						],
 						[
 							"4",
-							"I was physically and spiritually merged with another being."
+							"J'ai été fondu avec un autre être, physiquement et spirituellement."
 						],
 						[
 							"5",
-							"I share my body with an intangible, otherworldly force."
+							"Je partage mon corps avec une force intangible venue d'ailleurs."
 						],
 						[
 							"6",
-							"Time fractures around me, and I sometimes collide with my own past or future."
+							"Le temps se fracture autour de moi et je me heurte parfois à mon propre passé ou à mon propre avenir."
 						]
 					]
 				},
@@ -226,29 +226,29 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Channeled Prowess",
+							"name": "Prouesse canalisée",
 							"entries": [
-								"You gain proficiency in two skills of your choice."
+								"Vous gagnez la maîtrise de deux compétences de votre choix."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Inherent Tongue",
+							"name": "Langue innée",
 							"entries": [
-								"You can speak, read, and write one additional language of your choice."
+								"Vous pouvez parler, lire et écrire une langue supplémentaire de votre choix."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Intrusive Echoes",
+							"name": "Échos intrusifs",
 							"entries": [
-								"Immediately after you make an attack roll, an ability check, or a saving throw and roll a 1 on the {@dice d20}, your soul's memories emerge and overtake your perceptions and experiences. You might see people around you as someone other than who they are, or you become disoriented by a double-experience of the world around you. Roll on the Intrusive Echoes table to determine the effect of these vivid memories and perceptions. Once one of the effects occurs, these intrusive echoes can't manifest again until you finish a short or long rest.",
+								"Immédiatement après que vous avez effectué un jet d'attaque, un test de caractéristique ou un jet de sauvegarde et obtenu un 1 au {@dice d20}, les souvenirs de votre âme refont surface et submergent vos perceptions et vos expériences. Il se peut que vous voyiez les gens autour de vous comme étant quelqu'un d'autre, ou que vous soyez désorienté par une expérience dédoublée du monde qui vous entoure. Lancez les dés sur la table des Échos intrusifs pour déterminer l'effet de ces souvenirs et perceptions saisissants. Une fois que l'un de ces effets s'est produit, ces échos intrusifs ne peuvent plus se manifester avant que vous ne terminiez un repos court ou long.",
 								{
 									"type": "table",
-									"caption": "Intrusive Echoes",
+									"caption": "Échos intrusifs",
 									"colLabels": [
 										"d6",
-										"Effect"
+										"Effet"
 									],
 									"colStyles": [
 										"col-2 text-center",
@@ -257,27 +257,27 @@
 									"rows": [
 										[
 											"1",
-											"You are {@condition charmed} by a creature you can see (of the DM's choice) for 1 minute or until the creature damages you."
+											"Vous êtes {@condition Charmé} par une créature que vous pouvez voir (au choix du MD) pendant 1 minute ou jusqu'à ce que la créature vous blesse."
 										],
 										[
 											"2",
-											"You are {@condition frightened} by a creature you can see (of the DM's choice) for 1 minute, or until the creature damages you."
+											"Vous êtes {@condition Effrayé} par une créature que vous pouvez voir (au choix du MD) pendant 1 minute, ou jusqu'à ce que la créature vous blesse."
 										],
 										[
 											"3",
-											"You perceive another time or place around you until the end of your next turn. During this time, you are {@condition blinded} to your actual surroundings."
+											"Vous percevez une autre époque ou un autre lieu autour de vous jusqu'à la fin de votre prochain tour. Pendant ce temps, vous êtes {@condition Aveuglé} quant à votre environnement réel."
 										],
 										[
 											"4",
-											"You perceive a different time or place overlapping your surroundings. Your speed is halved until the end of your next turn."
+											"Vous percevez une époque ou un lieu différent qui se superpose à votre environnement. Votre vitesse est réduite de moitié jusqu'à la fin de votre prochain tour."
 										],
 										[
 											"5",
-											"Memories and sensations overwhelm you. You are {@condition incapacitated} until the start of your next turn."
+											"Des souvenirs et des sensations vous submergent. Vous êtes {@condition Incapable} jusqu'au début de votre prochain tour."
 										],
 										[
 											"6",
-											"Your memory is one of triumph. You can reroll the ability check, attack roll, or saving throw that you just made. You must use the new roll."
+											"Votre souvenir est celui d'un triomphe. Vous pouvez relancer le test de caractéristique, le jet d'attaque ou le jet de sauvegarde que vous venez d'effectuer. Vous devez utiliser le nouveau résultat."
 										]
 									]
 								}
@@ -288,43 +288,43 @@
 			]
 		},
 		{
-			"name": "Elusive Paramour",
+			"name": "Amant insaisissable",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"A wealthy pasha in Calimshan has placed a bounty on my head for seducing his favorite concubine. Bounty hunters are scouring the Sword Coast in search of me, but I hope they'll never think to look in Icewind Dale."
+				"Un riche pacha de Calimshan a mis un prix sur ma tête pour avoir séduit sa concubine préférée. Des chasseurs de primes fouillent la Côte de l'Épée à ma recherche, mais j'espère qu'il ne leur viendra jamais à l'idée de chercher du côté d'Icewind Dale."
 			]
 		},
 		{
-			"name": "Escaped Prisoner",
+			"name": "Prisonnier évadé",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I was brought here from another world by spacefaring mind flayers. The ship in which I was imprisoned crashed in the mountains south of Ten-Towns. After surviving the crash, I nearly froze to death crossing the tundra to reach Ten-Towns. If some friendly trappers hadn't found me, I would have perished. I fear some of my captors also survived the crash and might come looking for me."
+				"J'ai été amené ici depuis un autre monde par des flagelleurs mentaux voyageant dans l'espace. Le vaisseau dans lequel j'étais retenu prisonnier s'est écrasé dans les montagnes au sud des Dix-Cités. Après avoir survécu au crash, j'ai failli mourir de froid en traversant la toundra pour atteindre les Dix-Cités. Si d'amicaux trappeurs ne m'avaient pas trouvé, je serais mort. Je crains que certains de mes ravisseurs aient également survécu au crash et puissent venir me chercher."
 			]
 		},
 		{
-			"name": "Gathered Whispers",
+			"name": "Murmures recueillis",
 			"source": "VRGR",
 			"page": 23,
 			"optionType": [
 				"DG"
 			],
 			"entries": [
-				"You are haunted by spiritual beings, whether the souls of the departed or entities from another plane. Their voices endlessly whisper, taunt, or cajole, sometimes rising to unearthly howls. Only you can perceive the spirits, unless you allow them to speak through you. The spirits are intangible and invisible; anyone who can see {@condition invisible} creatures sees only fleeting glimpses of these spirits as they haunt you.",
-				"Roll on or choose an option from the Whispering Spirits table to determine what haunts you. Additionally, you gain the traits that follow.",
+				"Vous êtes hanté par des êtres spirituels, qu'il s'agisse des âmes des défunts ou d'entités venues d'un autre plan. Leurs voix murmurent, raillent ou flattent sans fin, montant parfois jusqu'à des hurlements surnaturels. Vous seul pouvez percevoir ces esprits, à moins de les laisser parler à travers vous. Les esprits sont intangibles et invisibles ; quiconque peut voir les créatures {@condition invisible} n'aperçoit que des apparitions furtives de ces esprits lorsqu'ils vous hantent.",
+				"Lancez les dés sur la table des Esprits murmurant (ou choisissez-y une option) pour déterminer ce qui vous hante. De plus, vous gagnez les traits qui suivent.",
 				{
 					"type": "table",
-					"caption": "Whispering Spirits",
+					"caption": "Esprits murmurant",
 					"colLabels": [
 						"d6",
-						"Spirits"
+						"Esprits"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -333,27 +333,27 @@
 					"rows": [
 						[
 							"1",
-							"A council of my dead ancestors watches over me."
+							"Un conseil de mes ancêtres défunts veille sur moi."
 						],
 						[
 							"2",
-							"Fiendish presences vie for my soul."
+							"Des présences diaboliques se disputent mon âme."
 						],
 						[
 							"3",
-							"Unquiet souls are drawn to me and beg for peace."
+							"Des âmes inquiètes sont attirées vers moi et mendient la paix."
 						],
 						[
 							"4",
-							"The spirits of those I killed linger around me."
+							"Les esprits de ceux que j'ai tués rôdent autour de moi."
 						],
 						[
 							"5",
-							"An alien intelligence intrudes upon my thoughts."
+							"Une intelligence étrangère s'immisce dans mes pensées."
 						],
 						[
 							"6",
-							"A sibling I don't have shares my body."
+							"Un frère ou une sœur que je n'ai pas partage mon corps."
 						]
 					]
 				},
@@ -362,29 +362,29 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Spirit Whispers",
+							"name": "Murmures d'esprits",
 							"entries": [
-								"You learn the {@spell message} cantrip if you don't already know it, and require no components to cast it. When you cast the spell, the messages are delivered by one of your whispering spirits rather than you or the target's voice. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift)."
+								"Vous apprenez le tour de magie {@spell message} si vous ne le connaissez pas déjà, et vous n'avez besoin d'aucune composante pour le lancer. Quand vous lancez ce sort, les messages sont transmis par l'un de vos esprits murmurant plutôt que par votre voix ou celle de la cible. Votre caractéristique d'incantation pour ce sort est l'Intelligence, la Sagesse ou le Charisme (à votre choix lorsque vous gagnez ce Don funeste)."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Sudden Cacophony",
+							"name": "Cacophonie soudaine",
 							"entries": [
-								"When you are hit by an attack roll, you can use your reaction to channel your haunting spirits, letting their voices howl through you. If the attacker isn't {@condition deafened}, add your proficiency bonus to your AC against that attack, potentially causing it to miss. Once this trait causes an attack to miss, you can't use the trait again until you finish a long rest."
+								"Quand vous êtes touché par un jet d'attaque, vous pouvez utiliser votre réaction pour canaliser vos esprits hantants, laissant leurs voix hurler à travers vous. Si l'attaquant n'est pas {@condition Assourdi}, ajoutez votre bonus de maîtrise à votre CA contre cette attaque, l'empêchant potentiellement de vous toucher. Une fois que ce trait a fait rater une attaque, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos long."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Voices from Beyond",
+							"name": "Voix d'outre-tombe",
 							"entries": [
-								"Immediately after you make an attack roll, an ability check, or a saving throw and roll a 1 on the {@dice d20}, the haunting voices grow too loud to ignore. Roll on the Voices from Beyond table to determine the effect of these voices. Once one of these effects occurs, none of these haunting voices manifest again until you finish a short or long rest.",
+								"Immédiatement après que vous avez effectué un jet d'attaque, un test de caractéristique ou un jet de sauvegarde et obtenu un 1 au {@dice d20}, les voix hantantes deviennent trop fortes pour être ignorées. Lancez les dés sur la table des Voix d'outre-tombe pour déterminer l'effet de ces voix. Une fois que l'un de ces effets s'est produit, aucune de ces voix hantantes ne se manifeste à nouveau avant que vous ne terminiez un repos court ou long.",
 								{
 									"type": "table",
-									"caption": "Voices from Beyond",
+									"caption": "Voix d'outre-tombe",
 									"colLabels": [
 										"d4",
-										"Effect"
+										"Effet"
 									],
 									"colStyles": [
 										"col-2 text-center",
@@ -393,19 +393,19 @@
 									"rows": [
 										[
 											"1",
-											"You have disadvantage on the next attack roll, ability check, or saving throw you make."
+											"Vous avez un désavantage au prochain jet d'attaque, test de caractéristique ou jet de sauvegarde que vous effectuez."
 										],
 										[
 											"2",
-											"You are {@condition deafened} by the voices for 1 minute."
+											"Vous êtes {@condition Assourdi} par les voix pendant 1 minute."
 										],
 										[
 											"3",
-											"You are {@condition frightened} of the creature closest to you, other than yourself, until the end of your next turn. If multiple creatures are closest, the DM chooses which creature you are {@condition frightened} of."
+											"Vous êtes {@condition Effrayé} par la créature la plus proche de vous, autre que vous-même, jusqu'à la fin de votre prochain tour. Si plusieurs créatures sont aussi proches, le MD choisit celle dont vous êtes {@condition Effrayé}."
 										],
 										[
 											"4",
-											"Within the next 10 minutes, you can ask your spirits about the results of a specific course of action that you plan to take within the next 30 minutes. You can receive an omen as if you had cast the {@spell augury} spell. The omen manifests as whisperings from your spirits perceptible only to you."
+											"Au cours des 10 prochaines minutes, vous pouvez demander à vos esprits le résultat d'une ligne d'action précise que vous comptez suivre dans les 30 prochaines minutes. Vous pouvez recevoir un présage comme si vous aviez lancé le sort {@spell augury}. Le présage se manifeste sous la forme de murmures de vos esprits, perceptibles de vous seul."
 										]
 									]
 								}
@@ -416,39 +416,39 @@
 			]
 		},
 		{
-			"name": "Heroic Destiny",
+			"name": "Destin héroïque",
 			"source": "MOT",
 			"page": 12,
 			"optionType": [
 				"SG"
 			],
 			"entries": [
-				"Great deeds lie in your future, and it will take extraordinary effort to kill you before you accomplish those deeds. Choose or roll a random destiny using the Heroic Destiny table. Additionally, you gain the following traits.",
+				"De grands exploits vous attendent, et il faudra des efforts extraordinaires pour vous tuer avant que vous ne les accomplissiez. Choisissez un destin au hasard ou lancez les dés sur la table du Destin héroïque. De plus, vous gagnez les traits suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Defy Death",
+							"name": "Braver la mort",
 							"entries": [
-								"You have advantage on death saving throws."
+								"Vous avez un avantage aux jets de sauvegarde contre la mort."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Hard to Kill",
+							"name": "Difficile à tuer",
 							"entries": [
-								"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't use it again until you finish a long rest."
+								"Quand vous êtes réduit à 0 point de vie sans être tué sur le coup, vous pouvez plutôt tomber à 1 point de vie. Une fois que vous avez utilisé ce trait, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos long."
 							]
 						}
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Heroic Destiny",
+					"caption": "Destin héroïque",
 					"colLabels": [
 						"d6",
-						"Destiny"
+						"Destin"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -457,27 +457,27 @@
 					"rows": [
 						[
 							"1",
-							"I'm destined to be the most skilled practitioner of a craft or trade."
+							"Je suis destiné à devenir le pratiquant le plus habile d'un artisanat ou d'un métier."
 						],
 						[
 							"2",
-							"I'm destined to earn a place among the stars of Nyx."
+							"Je suis destiné à gagner ma place parmi les étoiles de Nyx."
 						],
 						[
 							"3",
-							"I'm destined to become a god."
+							"Je suis destiné à devenir un dieu."
 						],
 						[
 							"4",
-							"I'm destined to liberate my beloved from the clutches of the Underworld."
+							"Je suis destiné à libérer mon amour des griffes des Enfers."
 						],
 						[
 							"5",
-							"I was born while a kraken ravaged Meletis, and I'm destined to destroy that kraken."
+							"Je suis né tandis qu'un kraken ravageait Meletis, et je suis destiné à détruire ce kraken."
 						],
 						[
 							"6",
-							"I'm destined to uncover the secret of the gods' power."
+							"Je suis destiné à percer le secret du pouvoir des dieux."
 						]
 					]
 				}
@@ -485,43 +485,43 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Hollow One",
+			"name": "Être creux",
 			"source": "EGW",
 			"page": 182,
 			"optionType": [
 				"SG"
 			],
 			"entries": [
-				"As a Hollow One, the void left behind by your departed soul is filled with the strange magic of Blightshore. Becoming a Hollow One is a supernatural gift that bestows upon you the following traits.",
+				"En tant qu'Être creux, le vide laissé par le départ de votre âme est comblé par la magie étrange de Blightshore. Devenir un Être creux est un don surnaturel qui vous confère les traits suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Ageless",
+							"name": "Sans âge",
 							"entries": [
-								"You don't age, and effects that would cause you to age don't work on you."
+								"Vous ne vieillissez pas, et les effets qui vous feraient vieillir sont sans effet sur vous."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Cling to Life",
+							"name": "Accroché à la vie",
 							"entries": [
-								"When you make a death saving throw and roll 16 or higher, you regain 1 hit point."
+								"Quand vous effectuez un jet de sauvegarde contre la mort et obtenez 16 ou plus, vous regagnez 1 point de vie."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Revenance",
+							"name": "Apparence de revenant",
 							"entries": [
-								"You retain your creature type, yet you register as undead to spells and other effects that detect the presence of the undead creature type."
+								"Vous conservez votre type de créature, mais vous êtes détecté comme mort-vivant par les sorts et autres effets qui détectent la présence du type de créature mort-vivant."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Unsettling Presence",
+							"name": "Présence inquiétante",
 							"entries": [
-								"As an action, you can unsettle a creature you can see within 15 feet of you. The target has disadvantage on the next saving throw it makes within the next minute. Constructs, undead, and creatures that can't be {@condition frightened} are immune to this feature. Once you use this feature, you can't use it again until you finish a long rest."
+								"Par une action, vous pouvez troubler une créature que vous pouvez voir à 4,5 mètres de vous ou moins. La cible a un désavantage au prochain jet de sauvegarde qu'elle effectue dans la minute qui suit. Les constructions, les morts-vivants et les créatures qui ne peuvent pas être {@condition Effrayé} sont immunisés contre cette capacité. Une fois que vous avez utilisé cette capacité, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos long."
 							]
 						}
 					]
@@ -530,68 +530,68 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Iconoclast",
+			"name": "Iconoclaste",
 			"source": "MOT",
 			"page": 12,
 			"optionType": [
 				"SG"
 			],
 			"entries": [
-				"No one can deny the reality of the gods of Theros, whose presence and deeds are visible in the night sky and sometimes directly in the mortal realm. But some people refute the idea that the gods are worthy of reverence. Such iconoclasts are common among the leonin, but members of any culture can adopt this supernatural gift. The Iconoclast Characteristics table presents suggestions for why you've become an iconoclast.",
-				"Your denial of the gods gives you supernatural power to resist their influence in the world. You gain the following traits.",
+				"Nul ne peut nier la réalité des dieux de Théros, dont la présence et les exploits sont visibles dans le ciel nocturne et parfois directement dans le monde mortel. Mais certains remettent en cause l'idée que les dieux méritent d'être vénérés. De tels iconoclastes sont communs parmi les léonins, mais les membres de n'importe quelle culture peuvent adopter ce don surnaturel. La table des Caractéristiques d'un Iconoclaste présente des suggestions sur les raisons pour lesquelles vous êtes devenu un iconoclaste.",
+				"Votre rejet des dieux vous confère un pouvoir surnaturel qui vous permet de résister à leur influence sur le monde. Vous gagnez les traits suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Enlightened Protection",
+							"name": "Protection éclairée",
 							"page": 12,
 							"entries": [
-								"You can cast {@spell protection from evil and good} with this trait, targeting only yourself and requiring no material components. Once you do so, you can't cast it in this way again until you finish a long rest. Wisdom is your spellcasting ability for this trait."
+								"Vous pouvez lancer {@spell protection from evil and good} grâce à ce trait, en ne ciblant que vous-même et sans composantes matérielles. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long. La Sagesse est votre caractéristique d'incantation pour ce trait."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Reject the Gods",
+							"name": "Rejet des dieux",
 							"entries": [
-								"You can't gain or lose piety to any god. You instead gain the following traits at the character level listed in each one. Wisdom is your spellcasting ability for any spell that you cast through these traits."
+								"Vous ne pouvez gagner ni perdre de la piété envers un dieu, quel qu'il soit. Vous gagnez à la place les traits suivants au niveau de personnage indiqué pour chacun d'eux. La Sagesse est votre caractéristique d'incantation pour tout sort que vous lancez grâce à ces traits."
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Iconoclast Hero",
+					"name": "Héros iconoclaste",
 					"page": 12,
 					"entries": [
-						"{@i 5th-level Iconoclast trait}",
-						"You can cast {@spell dispel magic} with this trait. Once you do so, you can't cast it in this way again until you finish a long rest."
+						"{@i Trait d'Iconoclaste de niveau 5}",
+						"Vous pouvez lancer {@spell dispel magic} grâce à ce trait. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Iconoclast Paragon",
+					"name": "Parangon iconoclaste",
 					"page": 13,
 					"entries": [
-						"{@i 11th-level Iconoclast trait}",
-						"You can cast {@spell dispel evil and good} with this trait, requiring no material components. Once you do so, you can't cast it in this way again until you finish a long rest.",
-						"In addition, when you cast {@spell dispel magic} using your Iconoclast Hero trait, you cast it as a 4th-level spell."
+						"{@i Trait d'Iconoclaste de niveau 11}",
+						"Vous pouvez lancer {@spell dispel evil and good} grâce à ce trait, sans composantes matérielles. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long.",
+						"En outre, quand vous lancez {@spell dispel magic} grâce à votre trait de Héros iconoclaste, vous le lancez comme un sort de niveau 4."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Iconoclast Archetype",
+					"name": "Archétype iconoclaste",
 					"page": 13,
 					"entries": [
-						"{@i 17th-level Iconoclast trait}",
-						"You can cast {@spell antimagic field} with this trait, requiring no material components. Once you do so, you can't cast it in this way again until you finish a long rest.",
-						"In addition, when you cast {@spell dispel magic} using your Iconoclast Hero trait, you cast it as a 5th-level spell.",
+						"{@i Trait d'Iconoclaste de niveau 17}",
+						"Vous pouvez lancer {@spell antimagic field} grâce à ce trait, sans composantes matérielles. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long.",
+						"En outre, quand vous lancez {@spell dispel magic} grâce à votre trait de Héros iconoclaste, vous le lancez comme un sort de niveau 5.",
 						{
 							"type": "table",
-							"caption": "Iconoclast Characteristics",
+							"caption": "Caractéristiques d'un Iconoclaste",
 							"colLabels": [
 								"d6",
-								"Characteristic"
+								"Caractéristique"
 							],
 							"colStyles": [
 								"col-2 text-center",
@@ -600,27 +600,27 @@
 							"rows": [
 								[
 									"1",
-									"I blame the gods for the death of those I cared about."
+									"J'accuse les dieux de la mort de ceux qui m'étaient chers."
 								],
 								[
 									"2",
-									"Multiple gods seek to use me to their ends, so I try to avoid all divine entanglements."
+									"Plusieurs dieux cherchent à se servir de moi à leurs fins, alors j'essaie d'éviter tout imbroglio divin."
 								],
 								[
 									"3",
-									"It's obvious the gods are fickle and unworthy of worship."
+									"Il est évident que les dieux sont inconstants et indignes d'être vénérés."
 								],
 								[
 									"4",
-									"I know the world's future lies with mortals, not gods."
+									"Je sais que l'avenir du monde repose sur les mortels, et non sur les dieux."
 								],
 								[
 									"5",
-									"I'm convinced the gods want me dead."
+									"Je suis convaincu que les dieux veulent ma mort."
 								],
 								[
 									"6",
-									"I refuse to be a pawn in divine schemes."
+									"Je refuse d'être un pion dans les machinations divines."
 								]
 							]
 						}
@@ -629,48 +629,48 @@
 			]
 		},
 		{
-			"name": "Inheritor",
+			"name": "Héritier",
 			"source": "VRGR",
 			"page": 31,
 			"optionType": [
 				"RF:B"
 			],
 			"entries": [
-				"An ancestor or mentor's deeds earned them a place in legend. Now it's your turn. You are the clear inheritor of a famed legacy. You've inherited a token from your predecessor, something that marks you as their inheritor, such as a signet ring, signature piece of clothing, or notable weapon.",
-				"Additionally, any time you reveal your legacy, you swiftly learn the local opinion of your predecessor. If locals have never heard of your predecessor, nothing changes. If they have, rumors of your connection spread swiftly, and many locals consider you either a hero or a threat. Heroes are welcomed and might easily gain an audience with local leaders. Threats are encouraged to leave before they invite danger."
+				"Les exploits d'un ancêtre ou d'un mentor leur ont valu une place dans la légende. C'est maintenant votre tour. Vous êtes l'héritier évident d'un héritage renommé. Vous avez reçu de votre prédécesseur un gage qui vous désigne comme son héritier, tel qu'un anneau à sceau, un vêtement emblématique ou une arme remarquable.",
+				"De plus, chaque fois que vous révélez votre héritage, vous apprenez rapidement l'opinion locale sur votre prédécesseur. Si les gens du coin n'ont jamais entendu parler de votre prédécesseur, rien ne change. Dans le cas contraire, les rumeurs sur votre lien avec lui se répandent rapidement, et beaucoup de gens du coin vous considèrent soit comme un héros, soit comme une menace. Les héros sont accueillis à bras ouverts et peuvent facilement obtenir une audience auprès des dirigeants locaux. On encourage les menaces à s'en aller avant d'attirer le danger."
 			]
 		},
 		{
-			"name": "Inscrutable",
+			"name": "Impénétrable",
 			"source": "MOT",
 			"page": 14,
 			"optionType": [
 				"SG"
 			],
 			"entries": [
-				"Like a sphinx, you have a mind like a maze, impenetrable to mortal scrutiny. This might be a gift or training from an actual sphinx, the blessing (or curse) of a god, or an inexplicable talent. The Inscrutable Characteristics table suggests options for what makes you inscrutable. Additionally, you gain the following trait.",
+				"À l'image d'un sphinx, votre esprit est un labyrinthe, impénétrable au regard des mortels. Il peut s'agir d'un don ou d'un entraînement prodigué par un véritable sphinx, de la bénédiction (ou de la malédiction) d'un dieu, ou d'un talent inexplicable. La table des Caractéristiques d'un Impénétrable propose des options sur ce qui vous rend impénétrable. De plus, vous gagnez le trait suivant.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Psychic Shield",
+							"name": "Bouclier psychique",
 							"entries": [
-								"You have resistance to psychic damage."
+								"Vous êtes résistant aux dégâts psychiques."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Sphinx's Shroud",
+							"name": "Linceul du sphinx",
 							"page": 14,
 							"entries": [
-								"You are immune to any effect that allows other creatures to sense your emotions or read your thoughts. Wisdom ({@skill Insight}) checks made to ascertain your intentions or sincerity have disadvantage.",
+								"Vous êtes immunisé contre tout effet qui permettrait à d'autres créatures de percevoir vos émotions ou de lire vos pensées. Les tests de Sagesse ({@skill Perspicacité}) tentant de déterminer vos intentions ou votre sincérité se font avec un désavantage.",
 								{
 									"type": "table",
-									"caption": "Inscrutable Characteristics",
+									"caption": "Caractéristiques d'un Impénétrable",
 									"colLabels": [
 										"d6",
-										"Characteristic"
+										"Caractéristique"
 									],
 									"colStyles": [
 										"col-2 text-center",
@@ -679,27 +679,27 @@
 									"rows": [
 										[
 											"1",
-											"I was educated by a sphinx in the Dakra Isles."
+											"J'ai été éduqué par un sphinx dans les îles Dakra."
 										],
 										[
 											"2",
-											"I am a devout adherent to one of Meletis's schools of philosophy (detailed in {@book chapter 3|MOT|3|Meletis})."
+											"Je suis un adepte dévoué de l'une des écoles de philosophie de Meletis (présentée dans {@book chapter 3|MOT|3|Meletis})."
 										],
 										[
 											"3",
-											"I only speak in the past tense, as if all things I say have already transpired."
+											"Je ne parle qu'au passé, comme si tout ce que je dis s'était déjà produit."
 										],
 										[
 											"4",
-											"I have sworn a vow to allow no living person to see behind the mask that covers my face at all times."
+											"J'ai prêté serment de ne laisser aucune personne vivante voir derrière le masque qui couvre mon visage en permanence."
 										],
 										[
 											"5",
-											"Why wouldn't I phrase every statement as a question?"
+											"Pourquoi ne formulerais-je pas chaque affirmation sous forme de question ?"
 										],
 										[
 											"6",
-											"I was born a sphinx, but a god cursed me into humanoid form and saddled me with the limits of mortal knowledge. I won't rest until I break the curse."
+											"Je suis né sphinx, mais un dieu m'a maudit en me transformant en humanoïde et m'a condamné aux limites du savoir mortel. Je ne connaîtrai pas de repos avant d'avoir brisé cette malédiction."
 										]
 									]
 								}
@@ -710,40 +710,40 @@
 			]
 		},
 		{
-			"name": "Lifelong Companion",
+			"name": "Compagnon de toujours",
 			"source": "MOT",
 			"page": 14,
 			"optionType": [
 				"SG"
 			],
 			"entries": [
-				"Behind many heroes is another hero whose greatness comes from the support and love they offer. Haktos had his beloved Perynes, Renata was accompanied by her servant Karados, and Siona sailed with her devoted crew. Like these partners, you are great and make others great. Consider the Companion Relationships table when determining your legendary connection. Any relationship with another player's character requires that player's consent. Additionally, you gain the following traits.",
+				"Derrière de nombreux héros se trouve un autre héros dont la grandeur vient du soutien et de l'amour qu'il offre. Haktos avait sa bien-aimée Perynes, Renata était accompagnée de son serviteur Karados, et Siona naviguait avec son équipage dévoué. Comme ces partenaires, vous êtes grand et rendez les autres grands. Pensez à la table des Relations de compagnon pour déterminer votre lien légendaire. Toute relation avec le personnage d'un autre joueur requiert le consentement de ce joueur. De plus, vous gagnez les traits suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Boon Aura",
+							"name": "Aura de bénédiction",
 							"page": 14,
 							"entries": [
-								"Your allies within 5 feet of you have advantage on saving throws against being {@condition frightened} or {@condition charmed}, provided you aren't {@condition incapacitated}."
+								"Vos alliés situés à 1,5 mètre de vous ou moins ont un avantage aux jets de sauvegarde contre l'état {@condition Effrayé} ou {@condition Charmé}, tant que vous n'êtes pas {@condition Incapable}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Companion's Protection",
+							"name": "Protection du compagnon",
 							"entries": [
-								"When a creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to cause the attack to hit you instead. Once you use this trait, you can't do so again until you finish a long rest."
+								"Quand une créature que vous pouvez voir à 1,5 mètre de vous ou moins est touchée par un jet d'attaque, vous pouvez utiliser votre réaction pour que l'attaque vous touche à sa place. Une fois que vous avez utilisé ce trait, vous ne pouvez plus le faire avant d'avoir terminé un repos long."
 							]
 						}
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Companion Relationships",
+					"caption": "Relations de compagnon",
 					"colLabels": [
 						"d6",
-						"Relationship"
+						"Relation"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -752,27 +752,27 @@
 					"rows": [
 						[
 							"1",
-							"Another character is my lover or dearest friend."
+							"Un autre personnage est la personne que j'aime ou mon ami le plus cher."
 						],
 						[
 							"2",
-							"Another character is my sibling."
+							"Un autre personnage est mon frère ou ma sœur."
 						],
 						[
 							"3",
-							"Another character is my parent or child."
+							"Un autre personnage est mon parent ou mon enfant."
 						],
 						[
 							"4",
-							"Another character is a champion of my god."
+							"Un autre personnage est un champion de mon dieu."
 						],
 						[
 							"5",
-							"After admiring another character from afar, I've finally won a position by their side."
+							"Après avoir admiré de loin un autre personnage, j'ai enfin gagné une place à ses côtés."
 						],
 						[
 							"6",
-							"I want nothing more than for another character to recognize my devotion and love me in return."
+							"Je ne souhaite rien de plus que de voir un autre personnage reconnaître mon dévouement et m'aimer en retour."
 						]
 					]
 				}
@@ -780,32 +780,32 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Littlest Yeti",
+			"name": "Petit yéti",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I was raised by yeti. Although I relied on my ferocious guardians for food and warmth and never quite adapted to the cold, I speak Yeti and have advantage on Charisma checks made to influence yeti or improve their attitudes."
+				"J'ai été élevé par des yétis. Bien que j'aie dépendu de mes féroces gardiens pour manger et me réchauffer et que je ne me sois jamais vraiment adapté au froid, je parle le yéti et j'ai un avantage aux tests de Charisme effectués pour influencer des yétis ou améliorer leur attitude."
 			]
 		},
 		{
-			"name": "Living Shadow",
+			"name": "Ombre vivante",
 			"source": "VRGR",
 			"page": 24,
 			"optionType": [
 				"DG"
 			],
 			"entries": [
-				"The shadow you cast is animate and ever-present, even when lighting conditions would otherwise prevent it. Your shadow occasionally moves out of sync with you. Sometimes it appears to be undertaking random but mundane tasks, while at other times it acts out your darker impulses, threatening or even attacking other shadows. With effort, you can bend this shadow puppetry to your will.",
-				"Roll on or choose an option from the Shadow Quirk table to determine how your living shadow behaves. Additionally, you gain the traits that follow.",
+				"L'ombre que vous projetez est animée et toujours présente, même lorsque les conditions d'éclairage devraient l'empêcher d'exister. Votre ombre se déplace parfois de manière désynchronisée. Tantôt elle semble s'adonner à des tâches aléatoires mais banales, tantôt elle donne libre cours à vos pulsions les plus sombres, menaçant d'autres ombres, voire les attaquant. Avec des efforts, vous pouvez plier ce théâtre d'ombre à votre volonté.",
+				"Lancez les dés sur la table des Manies de l'ombre (ou choisissez-y une option) pour déterminer le comportement de votre ombre vivante. De plus, vous gagnez les traits qui suivent.",
 				{
 					"type": "table",
-					"caption": "Shadow Quirk",
+					"caption": "Manies de l'ombre",
 					"colLabels": [
 						"d6",
-						"Quirk"
+						"Manie"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -814,27 +814,27 @@
 					"rows": [
 						[
 							"1",
-							"My shadow often holds weapons or bears wounds that don't exist."
+							"Mon ombre tient souvent des armes ou porte des blessures qui n'existent pas."
 						],
 						[
 							"2",
-							"When I'm distracted, my shadow panics and tries to get other people's attention, as if it's desperate to escape me."
+							"Quand je suis distrait, mon ombre panique et tente d'attirer l'attention des autres, comme si elle désespérait de m'échapper."
 						],
 						[
 							"3",
-							"When it's not being watched, my shadow makes threatening gestures or creeps toward people."
+							"Quand on ne la regarde pas, mon ombre fait des gestes menaçants ou se glisse vers les gens."
 						],
 						[
 							"4",
-							"My shadow's movements mirror mine incorrectly\u2014when I raise my left hand, my shadow moves its right."
+							"Les mouvements de mon ombre reflètent les miens de manière erronée : quand je lève la main gauche, mon ombre bouge la droite."
 						],
 						[
 							"5",
-							"My shadow fiddles with or occasionally breaks Tiny, nonmagical objects."
+							"Mon ombre tripote les objets Minuscules non magiques et les casse parfois."
 						],
 						[
 							"6",
-							"There's a slight but noticeable delay between my movements and those of my shadow."
+							"Il existe un léger mais perceptible décalage entre mes mouvements et ceux de mon ombre."
 						]
 					]
 				},
@@ -843,23 +843,23 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Grasping Shadow",
+							"name": "Ombre saisissante",
 							"entries": [
-								"You learn the {@spell mage hand} cantrip if you don't already know it, and require no components to cast it. The hand created by the spell is shadowy but is not bound to your actual shadow. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift)."
+								"Vous apprenez le tour de magie {@spell mage hand} si vous ne le connaissez pas déjà, et vous n'avez besoin d'aucune composante pour le lancer. La main créée par le sort est ombreuse, mais elle n'est pas liée à votre véritable ombre. Votre caractéristique d'incantation pour ce sort est l'Intelligence, la Sagesse ou le Charisme (à votre choix lorsque vous gagnez ce Don funeste)."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Shadow Strike",
+							"name": "Frappe d'ombre",
 							"entries": [
-								"When you make a melee attack roll, you can increase your reach for that attack by 10 feet. Your shadow stretches and delivers the attack as if it were you. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+								"Quand vous effectuez un jet d'attaque au corps à corps, vous pouvez augmenter votre portée pour cette attaque de 3 mètres. Votre ombre s'étire et porte l'attaque comme si elle était vous. Vous pouvez utiliser cette capacité un nombre de fois égal à votre bonus de maîtrise, et vous récupérez toutes les utilisations dépensées lorsque vous terminez un repos long."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Ominous Will",
+							"name": "Volonté sinistre",
 							"entries": [
-								"Immediately after you make an attack roll, an ability check, or a saving throw and roll a 1 on the {@dice d20}, your shadow exerts a will of its own and might assist or hinder you or those around you. The next time you or a creature within 30 feet of you that you can see makes an attack roll, an ability check, or a saving throw, roll a {@dice d4}. If the number is odd, reduce the total by the number rolled. If the number is even, increase the total by the number rolled. Once this effect occurs, it can't happen again until you finish a short or long rest."
+								"Immédiatement après que vous avez effectué un jet d'attaque, un test de caractéristique ou un jet de sauvegarde et obtenu un 1 au {@dice d20}, votre ombre exerce une volonté qui lui est propre et peut vous aider ou vous gêner, de même que ceux qui vous entourent. La prochaine fois que vous ou une créature que vous pouvez voir à 9 mètres de vous ou moins effectuez un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, lancez un {@dice d4}. Si le nombre est impair, réduisez le total du nombre obtenu. S'il est pair, augmentez le total du nombre obtenu. Une fois que cet effet s'est produit, il ne peut plus se reproduire avant que vous ne terminiez un repos court ou long."
 							]
 						}
 					]
@@ -867,32 +867,32 @@
 			]
 		},
 		{
-			"name": "Midwinter Child",
+			"name": "Enfant du Midsolstice",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"Auril the Frostmaiden has blessed me, for I was born on the Midwinter holiday. I have resistance to cold damage."
+				"Auril la Demoiselle du Givre m'a béni, car je suis né le jour de la fête du Midsolstice. Je suis résistant aux dégâts de froid."
 			]
 		},
 		{
-			"name": "Mist Walker",
+			"name": "Marcheur des Brumes",
 			"source": "VRGR",
 			"page": 24,
 			"optionType": [
 				"DG"
 			],
 			"entries": [
-				"The Mists grip all who tread the Domains of Dread, but you know how to slip through their grasp. You can navigate the Mists successfully given enough time and a little luck, but this freedom comes with a price; if you remain in one area for too long, the Mists find you and drain your life force.",
-				"Roll on or choose an option from the Misty Travels table to determine how you developed this Dark Gift. Additionally, you gain the traits that follow.",
+				"Les Brumes tiennent en leur étreinte tous ceux qui foulent les Domaines de la Terreur, mais vous savez comment leur échapper. Vous pouvez traverser les Brumes avec succès si vous disposez d'assez de temps et d'un peu de chance, mais cette liberté a un prix : si vous restez trop longtemps au même endroit, les Brumes vous retrouvent et drainent votre force vitale.",
+				"Lancez les dés sur la table des Voyages brumeux (ou choisissez-y une option) pour déterminer comment vous avez développé ce Don funeste. De plus, vous gagnez les traits qui suivent.",
 				{
 					"type": "table",
-					"caption": "Misty Travels",
+					"caption": "Voyages brumeux",
 					"colLabels": [
 						"d4",
-						"Origin"
+						"Origine"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -901,19 +901,19 @@
 					"rows": [
 						[
 							"1",
-							"You learned a secret about the nature of the Mists. Ever since, you can manipulate them, but the lands you walk have turned against you."
+							"Vous avez appris un secret sur la nature des Brumes. Depuis, vous pouvez les manipuler, mais les terres que vous parcourez se sont retournées contre vous."
 						],
 						[
 							"2",
-							"You fled into the Mists to escape someone or something that's hunting you. You can never rest for long, knowing you're still being pursued."
+							"Vous vous êtes réfugié dans les Brumes pour échapper à quelqu'un ou à quelque chose qui vous traque. Vous ne pouvez jamais vous reposer longtemps, sachant qu'on vous poursuit toujours."
 						],
 						[
 							"3",
-							"You're part of an organization, a family, or an itinerant community with experience traveling the Mists. They taught you how to do the same."
+							"Vous faites partie d'une organisation, d'une famille ou d'une communauté itinérante rompue aux voyages dans les Brumes. Elle vous a appris à faire de même."
 						],
 						[
 							"4",
-							"The Mists stole you from your home and fractured your memories of where you're from. You've been on a quest to find your way back ever since."
+							"Les Brumes vous ont arraché à votre foyer et ont fracturé vos souvenirs de vos origines. Depuis, vous êtes en quête du chemin du retour."
 						]
 					]
 				},
@@ -922,23 +922,23 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Misty Step",
+							"name": "Pas brumeux",
 							"entries": [
-								"You can cast the {@spell misty step} spell, requiring no spell slot, and you must finish a long rest before you can cast it this way again. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift). If you have spell slots of 2nd level or higher, you can cast this spell with them."
+								"Vous pouvez lancer le sort {@spell misty step}, sans emplacement de sort, et vous devez terminer un repos long avant de pouvoir le lancer à nouveau de cette façon. Votre caractéristique d'incantation pour ce sort est l'Intelligence, la Sagesse ou le Charisme (à votre choix lorsque vous gagnez ce Don funeste). Si vous possédez des emplacements de sorts de niveau 2 ou supérieur, vous pouvez lancer ce sort avec eux."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Mist Traveler",
+							"name": "Voyageur des brumes",
 							"entries": [
-								"When you enter the Mists intent on reaching a specific domain, you are treated as if you possess a Mist talisman keyed to that domain. To use this trait, you must know the name of the domain you have chosen as your destination, but you don't need to have previously visited that land. This trait doesn't allow you to bypass domain borders closed by a Darklord's will."
+								"Quand vous entrez dans les Brumes avec l'intention de rejoindre un domaine précis, on vous considère comme si vous déteniez un talisman des Brumes relié à ce domaine. Pour utiliser ce trait, vous devez connaître le nom du domaine que vous avez choisi comme destination, mais vous n'avez pas besoin d'avoir déjà visité cette contrée. Ce trait ne vous permet pas de franchir les frontières de domaine fermées par la volonté d'un Seigneur Noir."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Poisoned Roots",
+							"name": "Racines empoisonnées",
 							"entries": [
-								"When you finish a long rest, the world around you in a 10-mile radius becomes a siphon that will eventually leech away your vitality. You can remain in the area safely for a number of weeks equal to your Constitution modifier (minimum of 1 week). Thereafter, each time you finish a long rest in the area, you must succeed on a {@dc 15} Constitution saving throw or gain 1 level of {@condition exhaustion} that can't be removed while you remain in the area."
+								"Quand vous terminez un repos long, le monde qui vous entoure dans un rayon de 16 kilomètres devient un siphon qui finira par drainer votre vitalité. Vous pouvez rester en sécurité dans la zone pendant un nombre de semaines égal à votre modificateur de Constitution (1 semaine au minimum). Ensuite, chaque fois que vous terminez un repos long dans la zone, vous devez réussir un jet de sauvegarde de Constitution {@dc 15} ou gagner 1 niveau d'{@condition Épuisement} qui ne peut pas être retiré tant que vous restez dans la zone."
 							]
 						}
 					]
@@ -946,7 +946,7 @@
 			]
 		},
 		{
-			"name": "Mist Wanderer",
+			"name": "Errant des Brumes",
 			"source": "VRGR",
 			"page": 31,
 			"reprintedAs": [
@@ -959,46 +959,46 @@
 				"RF:B"
 			],
 			"entries": [
-				"The Mists whisper to you and guide you through their mysterious eddies. You immediately know if an object you're touching is a Mist talisman (detailed in {@book chapter 3|VRGR|3|Mist Talismans}). You recognize where the talisman originates from if you have been to its domain of origin."
+				"Les Brumes vous chuchotent et vous guident à travers leurs tourbillons mystérieux. Vous savez immédiatement si un objet que vous touchez est un talisman des Brumes (présenté dans {@book chapter 3|VRGR|3|Mist Talismans}). Vous reconnaissez la provenance du talisman si vous avez déjà visité son domaine d'origine."
 			]
 		},
 		{
-			"name": "Nyxborn",
+			"name": "Né de Nyx",
 			"source": "MOT",
 			"page": 14,
 			"optionType": [
 				"SG"
 			],
 			"entries": [
-				"Born from the minds of the gods, the creatures that populate the gods' realm are called Nyxborn. Nyxborn creatures resemble mortal beings, but philosophers debate their true character. Are they idealized forms of mortal beings, free from the imperfections and transience that cause mortals to suffer and die? Or are they hollow and soulless shades, lacking the authenticity and pathos that make mortal existence worthwhile?",
-				"A Nyxborn is like a fragment of divinity, an idea or a dream that is incarnate. You embody an idea\u2014like the way leaves turn toward the sun or the feeling of ocean sand between the toes, the way the heart stirs when the tide of battle changes or the sadness that lingers when remembering a happy moment of childhood.",
-				"These ideas, dreams, memories, and feelings are the stuff Nyx is made of, and a Nyxborn is shaped from that raw material. You might have been specifically crafted by one of the gods to serve a certain purpose. Or your existence could be an accident caused by a confluence of supernatural forces. The Nyxborn Origin table offers a handful of suggestions that might explain how you came to be, and the Nyxborn Quirks table describes some special effects that might linger around your person.",
-				"Additionally, you gain the following traits.",
+				"Nées des esprits des dieux, les créatures qui peuplent le royaume des dieux sont appelées Nés de Nyx. Les créatures nées de Nyx ressemblent aux êtres mortels, mais les philosophes débattent de leur véritable nature. Sont-elles des formes idéalisées d'êtres mortels, affranchies des imperfections et de la fugacité qui font souffrir et mourir les mortels ? Ou bien sont-elles des ombres creuses et sans âme, dépourvues de l'authenticité et du pathos qui donnent leur prix à l'existence mortelle ?",
+				"Un Né de Nyx est comme un fragment de divinité, une idée ou un rêve incarné. Vous incarnez une idée : la façon dont les feuilles se tournent vers le soleil ou la sensation du sable océanique entre les orteils, l'émoi du cœur quand la marée de la bataille tourne, ou la tristesse qui subsiste au souvenir d'un heureux moment d'enfance.",
+				"Ces idées, rêves, souvenirs et sentiments sont la matière dont Nyx est faite, et un Né de Nyx est façonné dans cette matière première. Il se peut que l'un des dieux vous ait spécifiquement façonné pour servir un but précis. Ou bien votre existence pourrait être un accident causé par la confluence de forces surnaturelles. La table de l'Origine des Nés de Nyx propose quelques suggestions qui pourraient expliquer votre venue au monde, et la table des Manies des Nés de Nyx décrit certains effets spéciaux qui pourraient persister autour de vous.",
+				"De plus, vous gagnez les traits suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Cloak of Stars",
+							"name": "Cape d'étoiles",
 							"entries": [
-								"As an action, you wrap yourself in a starry cloak, appearing like a silhouette formed of the night sky. When you do, attack rolls have disadvantage against you. This cloak lasts for 1 minute, until you doff it (no action required), or until you die. Once you use this trait, you can't use it again until you finish a long rest."
+								"Par une action, vous vous enveloppez d'une cape étoilée, apparaissant comme une silhouette formée du ciel nocturne. Ce faisant, les jets d'attaque se font avec un désavantage contre vous. Cette cape persiste pendant 1 minute, jusqu'à ce que vous la retiriez (aucune action requise) ou jusqu'à votre mort. Une fois que vous avez utilisé ce trait, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos long."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Nyxborn Resistance",
+							"name": "Résistance des Nés de Nyx",
 							"entries": [
-								"You have resistance to necrotic and radiant damage."
+								"Vous êtes résistant aux dégâts nécrotiques et radiants."
 							]
 						}
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Nyxborn Origin",
+					"caption": "Origine des Nés de Nyx",
 					"colLabels": [
 						"d6",
-						"Origin"
+						"Origine"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -1007,36 +1007,36 @@
 					"rows": [
 						[
 							"1",
-							"One of my parents is a Nyxborn, a nymph, or some other supernatural creature."
+							"L'un de mes parents est un Né de Nyx, une nymphe ou une autre créature surnaturelle."
 						],
 						[
 							"2",
-							"I was formed from Nyx by one of the gods to serve as a divine emissary."
+							"J'ai été façonné dans la substance de Nyx par l'un des dieux pour servir d'émissaire divin."
 						],
 						[
 							"3",
-							"I'm a side effect of some other divine action."
+							"Je suis un effet secondaire d'une autre action divine."
 						],
 						[
 							"4",
-							"A god witnessed my birth, making me what I am."
+							"Un dieu a assisté à ma naissance, faisant de moi ce que je suis."
 						],
 						[
 							"5",
-							"I was rescued from the Underworld and took on supernatural characteristics when I returned to life."
+							"J'ai été sauvé des Enfers et j'ai acquis des caractéristiques surnaturelles en revenant à la vie."
 						],
 						[
 							"6",
-							"I'm a song or other work of art brought to life."
+							"Je suis un chant ou une autre œuvre d'art ayant pris vie."
 						]
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Nyxborn Quirks",
+					"caption": "Manies des Nés de Nyx",
 					"colLabels": [
 						"d6",
-						"Quirk"
+						"Manie"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -1045,41 +1045,41 @@
 					"rows": [
 						[
 							"1",
-							"Whenever my weapon strikes something, the weapon gives off a shower of starry sparks."
+							"Chaque fois que mon arme frappe quelque chose, elle projette une pluie d'étincelles étoilées."
 						],
 						[
 							"2",
-							"My hair moves as if in a perpetual breeze."
+							"Mes cheveux bougent comme sous l'effet d'une brise perpétuelle."
 						],
 						[
 							"3",
-							"My anger smells like burning autumn leaves."
+							"Ma colère sent les feuilles d'automne qui brûlent."
 						],
 						[
 							"4",
-							"When the sun shines on me just so, I glimmer with many colors."
+							"Quand le soleil m'éclaire d'une certaine manière, je scintille de multiples couleurs."
 						],
 						[
 							"5",
-							"My laughter causes nearby birds to erupt in song."
+							"Mon rire fait éclater en chant les oiseaux des alentours."
 						],
 						[
 							"6",
-							"People who sleep near me always dream of the sea."
+							"Les personnes qui dorment près de moi rêvent toujours de la mer."
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Old Flame",
+			"name": "Ancienne flamme",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I have a lover in Ten-Towns whom I haven't seen in years. At any time outside of combat, I can decide who the lover is by choosing an NPC in Ten-Towns that I can see. Once I make this choice, I can't change it. This old flame is friendly and helpful toward me, even if our past is checkered."
+				"J'ai un amour aux Dix-Cités que je n'ai pas vu depuis des années. À tout moment hors combat, je peux décider qui est cet amour en choisissant un PNJ des Dix-Cités que je peux voir. Une fois ce choix fait, je ne peux plus le changer. Cette ancienne flamme se montre amicale et serviable à mon égard, même si notre passé commun est mouvementé."
 			]
 		},
 		{
@@ -1090,78 +1090,78 @@
 				"SG"
 			],
 			"entries": [
-				"You possess a precious gift coveted not just by mortals but by the gods themselves: the gift of clear communication between the mortal and divine realms. As an oracle, you can perceive the whims of the gods and petition them for glimpses of their vast insight. This gift also comes with a curse, though, which typically takes the form of dire insights. Consult the Oracle Curse table to determine what unwanted revelations you receive.",
-				"The gods seek mortal oracles to act as their agents. As a result, most oracles devote themselves to the service of a single god and learn to ignore the voices of all others. Occasionally, two gods agree to share the services of an oracle. Oracles who try to remain independent often find themselves pursued by the agents of evil gods who would bind them to the god's service, if necessary.",
-				"You gain the following traits.",
+				"Vous possédez un don précieux, convoité non seulement par les mortels mais aussi par les dieux eux-mêmes : le don d'une communication claire entre le royaume mortel et le royaume divin. En tant qu'oracle, vous pouvez percevoir les caprices des dieux et les supplier d'entrevoir l'immensité de leur clairvoyance. Ce don s'accompagne toutefois d'une malédiction, qui prend généralement la forme de visions funestes. Consultez la table de la Malédiction de l'Oracle pour déterminer quelles révélations importunes vous recevez.",
+				"Les dieux recherchent des oracles mortels pour servir d'agents. C'est pourquoi la plupart des oracles se consacrent au service d'un dieu unique et apprennent à ignorer la voix de tous les autres. Il arrive que deux dieux conviennent de partager les services d'un oracle. Ceux qui tentent de rester indépendants se retrouvent souvent poursuivis par les agents de dieux maléfiques, prêts à les lier au service de leur dieu, si nécessaire.",
+				"Vous gagnez les traits suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Ears of the Oracle",
+							"name": "Oreilles de l'Oracle",
 							"entries": [
-								"You can speak, read, and write Celestial, the language of the gods. In addition, a god might deliver a message through you, and you can decide whether to use your own voice or to allow the god's voice to come through your mouth to deliver the message, translated into any language you speak."
+								"Vous pouvez parler, lire et écrire le Céleste, la langue des dieux. En outre, un dieu peut transmettre un message à travers vous, et vous pouvez décider d'utiliser votre propre voix ou de laisser la voix du dieu passer par votre bouche pour délivrer le message, traduit dans n'importe quelle langue que vous parlez."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Oracle's Insight",
+							"name": "Intuition de l'Oracle",
 							"entries": [
-								"The gods give you flashes of insight that help you bring your efforts to fruition. When you make an ability check, you can roll a {@dice d10} and add the number rolled to the check. You can wait until after you roll the {@dice d20} before deciding to add the {@dice d10}, but you must decide before the DM says whether the roll succeeds or fails. Once you use this trait, you can't use it again until you finish a short or long rest."
+								"Les dieux vous offrent des éclairs d'intuition qui vous aident à mener vos efforts à bien. Quand vous effectuez un test de caractéristique, vous pouvez lancer un {@dice d10} et ajouter le résultat au test. Vous pouvez attendre d'avoir lancé le {@dice d20} avant de décider d'ajouter le {@dice d10}, mais vous devez vous décider avant que le MD n'annonce la réussite ou l'échec du jet. Une fois que vous avez utilisé ce trait, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos court ou long."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Oracle's Piety",
+							"name": "Piété de l'Oracle",
 							"page": 16,
 							"entries": [
-								"Your oracular abilities improve as your piety score increases. Instead of gaining the piety benefits associated with any god (as described in {@book chapter 2|MOT|2|Piety}), you gain the following traits when you reach the specified piety score.",
-								"Wisdom is your spellcasting ability for any spell that you cast through these traits."
+								"Vos capacités oraculaires s'améliorent à mesure qu'augmente votre score de piété. Au lieu de gagner les avantages de piété associés à un dieu (comme décrit dans {@book chapter 2|MOT|2|Piety}), vous gagnez les traits suivants lorsque vous atteignez le score de piété indiqué.",
+								"La Sagesse est votre caractéristique d'incantation pour tout sort que vous lancez grâce à ces traits."
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Augur",
+					"name": "Augure",
 					"page": 16,
 					"entries": [
-						"{@i Piety 3+ Oracle trait}",
-						"You can cast {@spell augury} as a ritual with this trait. Once you do so, you can't cast it in this way again until you finish a long rest."
+						"{@i Trait d'Oracle de piété 3 ou plus}",
+						"Vous pouvez lancer {@spell augury} comme un rituel grâce à ce trait. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Seer",
+					"name": "Voyant",
 					"page": 16,
 					"entries": [
-						"{@i Piety 10+ Oracle trait}",
-						"You can cast {@spell divination} as a ritual with this trait. Once you do so, you can't cast it in this way again until you finish a long rest."
+						"{@i Trait d'Oracle de piété 10 ou plus}",
+						"Vous pouvez lancer {@spell divination} comme un rituel grâce à ce trait. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Sibyl",
+					"name": "Sibylle",
 					"page": 16,
 					"entries": [
-						"{@i Piety 25+ Oracle trait}",
-						"You can cast {@spell commune} as a ritual with this trait. Once you do so, you can't cast it in this way again until you finish a long rest.",
-						"You also can't be {@status surprised}, provided you aren't {@condition incapacitated}."
+						"{@i Trait d'Oracle de piété 25 ou plus}",
+						"Vous pouvez lancer {@spell commune} comme un rituel grâce à ce trait. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long.",
+						"Vous ne pouvez pas non plus être {@status Surpris}, tant que vous n'êtes pas {@condition Incapable}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Divine Oracle",
+					"name": "Oracle divin",
 					"page": 16,
 					"entries": [
-						"{@i Piety 50+ Oracle trait}",
-						"You can increase your Intelligence or Wisdom score by 2, as well as increasing your maximum for the chosen score by 2.",
+						"{@i Trait d'Oracle de piété 50 ou plus}",
+						"Vous pouvez augmenter votre score d'Intelligence ou de Sagesse de 2, ainsi que votre maximum pour la caractéristique choisie de 2.",
 						{
 							"type": "table",
-							"caption": "Oracle Curse",
+							"caption": "Malédiction de l'Oracle",
 							"colLabels": [
 								"d8",
-								"Flaw"
+								"Défaut"
 							],
 							"colStyles": [
 								"col-2 text-center",
@@ -1170,35 +1170,35 @@
 							"rows": [
 								[
 									"1",
-									"I know exactly how I'm going to die, and I can't do or say anything to prevent it."
+									"Je sais exactement comment je vais mourir, et je ne peux rien faire ni dire pour l'empêcher."
 								],
 								[
 									"2",
-									"People who consult me for information rarely believe the answers I give them."
+									"Ceux qui viennent me consulter croient rarement aux réponses que je leur donnent."
 								],
 								[
 									"3",
-									"I'm haunted by nightmares foretelling the deaths of people I've never met."
+									"Je suis hanté par des cauchemars qui annoncent la mort de personnes que je n'ai jamais rencontrées."
 								],
 								[
 									"4",
-									"I'm often distracted by the sights and sounds of things that other people can't perceive."
+									"Je suis souvent distrait par les images et les sons de choses que les autres ne peuvent pas percevoir."
 								],
 								[
 									"5",
-									"A horrible monster in Nyx watches me constantly, and I see it every time I venture outdoors."
+									"Un horrible monstre, dans Nyx, m'observe en permanence, et je le vois chaque fois que je m'aventure à l'extérieur."
 								],
 								[
 									"6",
-									"Any time I grow close to someone, I see them aged, dying, or dead."
+									"Chaque fois que je m'attache à quelqu'un, je le vois vieilli, mourant ou mort."
 								],
 								[
 									"7",
-									"Whenever I receive a divine vision, I get an intense pain in my head or chest."
+									"Chaque fois que je reçois une vision divine, je ressens une intense douleur à la tête ou à la poitrine."
 								],
 								[
 									"8",
-									"One of the gods intends to use me as an oracle whether I want to listen or not."
+									"L'un des dieux entend se servir de moi comme oracle, que je veuille écouter ou non."
 								]
 							]
 						}
@@ -1208,68 +1208,68 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Orc Stone",
+			"name": "Pierre orque",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I saved the life of an orc, who gave me a stone with the symbol of the Many-Arrows tribe (a humanoid skull pierced by three arrows) carved into it. The stone is an uncommon magic item that requires attunement, and only I can attune to it.",
-				"As an action, I can use the stone to summon the spirit of an orc warrior, which appears within 30 feet of me. The spirit uses the orc war chief stat block in the Monster Manual and disappears after 10 minutes or when reduced to 0 hit points. The spirit understands any language I speak and obeys my commands.",
-				"After the stone is used three times, it turns to dust."
+				"J'ai sauvé la vie d'un orque, qui m'a donné une pierre gravée du symbole de la tribu des Flèches Multiples (un crâne humanoïde transpercé de trois flèches). La pierre est un objet magique peu commun qui nécessite une harmonisation, et je suis le seul à pouvoir m'y harmoniser.",
+				"Par une action, je peux utiliser la pierre pour invoquer l'esprit d'un guerrier orc, qui apparaît à 9 mètres de moi ou moins. L'esprit utilise le profil du chef de guerre orc du Manuel des Monstres et disparaît après 10 minutes ou lorsqu'il est réduit à 0 point de vie. L'esprit comprend toute langue que je parle et obéit à mes ordres.",
+				"Après que la pierre a été utilisée trois fois, elle se change en poussière."
 			]
 		},
 		{
-			"name": "Owlbear Whisperer",
+			"name": "Charmeur d'ours-hiboux",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"Owlbears are predisposed to like me.",
-				"If I am within 10 feet of an owlbear, I can use an action to make a {@dc 10} Charisma ({@skill Animal Handling}) check. On a success, I change the owlbear's attitude toward me from hostile to indifferent or from indifferent to friendly."
+				"Les ours-hiboux sont naturellement enclins à m'apprécier.",
+				"Si je me trouve à 3 mètres d'un ours-hibou ou moins, je peux utiliser une action pour effectuer un test de Charisme ({@skill Dressage}) {@dc 10}. En cas de réussite, je fais passer l'attitude de l'ours-hibou à mon égard d'hostile à indifférente, ou d'indifférente à amicale."
 			]
 		},
 		{
-			"name": "Pious",
+			"name": "Pieux",
 			"source": "MOT",
 			"page": 17,
 			"optionType": [
 				"SG"
 			],
 			"entries": [
-				"Born with a particular connection to a deity, you have been winning favor with your god since birth. Consult the Pious Quirks table to determine how your faith might influence your personality. Additionally, you gain the following traits.",
+				"Né avec un lien particulier à une divinité, vous gagnez les faveurs de votre dieu depuis votre naissance. Consultez la table des Manies du Pieux pour déterminer comment votre foi peut influencer votre personnalité. De plus, vous gagnez les traits suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Pious Protection",
+							"name": "Protection pieuse",
 							"entries": [
-								"If you fail a saving throw, you can reroll it, and you must use the new roll. Once you use this trait, you can't do so again until you finish a long rest."
+								"Si vous ratez un jet de sauvegarde, vous pouvez le relancer, et vous devez utiliser le nouveau résultat. Une fois que vous avez utilisé ce trait, vous ne pouvez plus le faire avant d'avoir terminé un repos long."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Religious Study",
+							"name": "Études religieuses",
 							"page": 17,
 							"entries": [
-								"You have advantage on any Intelligence ({@skill Religion}) check pertaining to your chosen god."
+								"Vous avez un avantage à tout test d'Intelligence ({@skill Religion}) concernant le dieu que vous avez choisi."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Starting Piety",
+							"name": "Piété initiale",
 							"entries": [
-								"You begin with a piety score of 3 with your chosen god.",
+								"Vous commencez avec un score de piété de 3 envers le dieu que vous avez choisi.",
 								{
 									"type": "table",
-									"caption": "Pious Quirks",
+									"caption": "Manies du Pieux",
 									"colLabels": [
 										"d6",
-										"Quirk"
+										"Manie"
 									],
 									"colStyles": [
 										"col-2 text-center",
@@ -1278,27 +1278,27 @@
 									"rows": [
 										[
 											"1",
-											"I often call people by the name of my god (or another god) by accident."
+											"Il m'arrive souvent d'appeler les gens par le nom de mon dieu (ou d'un autre dieu) par accident."
 										],
 										[
 											"2",
-											"I stay up late at night watching the stars in hopes that my god will share a message with me."
+											"Je veille tard dans la nuit à contempler les étoiles, dans l'espoir que mon dieu me transmette un message."
 										],
 										[
 											"3",
-											"I'm deeply jealous of my god's oracles, who seem to have a more intimate relationship with my god than I can ever hope to attain."
+											"Je suis profondément jaloux des oracles de mon dieu, qui semblent entretenir avec lui une relation plus intime que celle dont je puisse jamais espérer."
 										],
 										[
 											"4",
-											"I dream of one day entering Nyx and being granted a permanent place at my god's side."
+											"Je rêve d'entrer un jour dans Nyx et d'obtenir une place permanente aux côtés de mon dieu."
 										],
 										[
 											"5",
-											"I have no home besides the temples of my god."
+											"Je n'ai d'autre foyer que les temples de mon dieu."
 										],
 										[
 											"6",
-											"I can't prove it, but I suspect that my god might actually be my parent."
+											"Je ne peux pas le prouver, mais je soupçonne que mon dieu soit en réalité mon parent."
 										]
 									]
 								}
@@ -1309,18 +1309,18 @@
 			]
 		},
 		{
-			"name": "Pirate Cannibal",
+			"name": "Pirate cannibale",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I served aboard Dark Duchess, a pirate ship from the city of Luskan. After the vessel got stuck in the ice, everyone but the captain abandoned the vessel and fled to Ten-Towns. We got lost in a blizzard along the way. I was the only one who made it, and only by eating my mates. The ship and its treasure are still out there."
+				"J'ai servi à bord du Dark Duchess, un navire pirate en provenance de la cité de Luskan. Après que le vaisseau s'est retrouvé pris dans les glaces, tout le monde à l'exception du capitaine l'a abandonné et a fui vers les Dix-Cités. Nous nous sommes perdus dans un blizzard en chemin. Je fus le seul à m'en sortir, et seulement en dévorant mes compagnons. Le navire et son trésor sont toujours là-bas."
 			]
 		},
 		{
-			"name": "Reghed Heir",
+			"name": "Héritier reghed",
 			"source": "IDRotF",
 			"page": 264,
 			"prerequisite": [
@@ -1336,65 +1336,65 @@
 							"name": "half-orc"
 						}
 					],
-					"note": "If you don't meet this prerequisite, draw a different card."
+					"note": "Si vous ne remplissez pas ce prérequis, tirez une autre carte."
 				}
 			],
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I am the offspring of Queen Bjornhild Solvigsdottir, leader of the Tiger Tribe. My mother cast me into the Sea of Moving Ice when I was a young child as a sacrifice to Auril the Frostmaiden. A polar bear pulled me from the water and spared me a freezing death. This bear then transformed into a goliath who bore me safely to Ten-Towns. I remember the goliath's name\u2014Oyaminartok\u2014but haven't seen her since. I owe her my life, just as I owe my mother a merciless death."
+				"Je suis l'enfant de la reine Bjornhild Solvigsdottir, meneuse de la Tribu du Tigre. Ma mère m'a jeté dans la Mer de Glace Mobile quand j'étais un jeune enfant, en sacrifice à Auril la Demoiselle du Givre. Un ours polaire m'a tiré de l'eau et m'a épargné une mort glaciale. Cet ours s'est ensuite transformé en goliath qui m'a porté sain et sauf jusqu'aux Dix-Cités. Je me souviens du nom du goliath, Oyaminartok, mais je ne l'ai plus revue depuis. Je lui dois la vie, tout comme je dois à ma mère une mort sans merci."
 			]
 		},
 		{
-			"name": "Reincarnation",
+			"name": "Réincarnation",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I died and was brought back to life by a friendly human druid using the {@spell reincarnate} spell. I have no idea what became of the druid, whose name I don't know. I retain the memories of my previous life, some or all of which was spent in Icewind Dale. (Roll on the table in the spell's description to determine your character's previous race, or choose a race from the table that you like, then flesh out the story of your previous life.)"
+				"Je suis mort et j'ai été ramené à la vie par un gentil druide humain grâce au sort {@spell reincarnate}. J'ignore totalement ce qu'est devenu ce druide, dont je ne connais pas le nom. J'ai conservé les souvenirs de ma vie précédente, dont une partie ou la totalité s'est déroulée dans Icewind Dale. (Lancez les dés sur la table de la description du sort pour déterminer la race précédente de votre personnage, ou choisissez dans la table la race qui vous plaît, puis étoffez l'histoire de votre vie précédente.)"
 			]
 		},
 		{
-			"name": "Ring Hunter",
+			"name": "Chasseur d'anneau",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I am looking for the knucklehead trout that bit off my father's finger, which had a signet ring on it. To preserve my inheritance, I must retrieve the lost ring."
+				"Je suis à la recherche de la truite à tête noueuse qui a arraché le doigt de mon père, sur lequel il portait un anneau à sceau. Pour préserver mon héritage, je dois retrouver cet anneau perdu."
 			]
 		},
 		{
-			"name": "Runaway Author",
+			"name": "Écrivain fugitif",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I penned a notorious exposé called \"The Hellbent Highborn,\" which accused several prominent patriars in Baldur's Gate and nobles in Waterdeep of being devil worshipers. Although my accusations were well founded, I made a lot of enemies and was forced to seek refuge in Icewind Dale."
+				"J'ai rédigé un retentissant pamphlet intitulé « Les Nobles Damnés », qui accusait plusieurs éminents patriars de Baldur's Gate et des nobles de Waterdeep d'adorer les diables. Bien que mes accusations fussent fondées, je me suis fait beaucoup d'ennemis et j'ai dû chercher refuge dans Icewind Dale."
 			]
 		},
 		{
-			"name": "Second Skin",
+			"name": "Seconde peau",
 			"source": "VRGR",
 			"page": 25,
 			"optionType": [
 				"DG"
 			],
 			"entries": [
-				"There is another side of you that most people never see. When you show this side of yourself, you might become another person entirely, a celestial-like avenger, or a walking nightmare. Whatever the specifics of this form, it exaggerates some drive or hidden nature within you.",
-				"Roll on or choose an option from the Second Form table to determine this other side of yourself. Additionally, you gain the traits that follow.",
+				"Il existe en vous un autre visage que la plupart des gens ne voient jamais. Lorsque vous montrez ce côté de vous-même, vous pouvez devenir une tout autre personne, un vengeur d'allure céleste ou un cauchemar ambulant. Quelles que soient les spécificités de cette forme, elle exagère certaine pulsion ou nature cachée qui est en vous.",
+				"Lancez les dés sur la table de la Seconde forme (ou choisissez-y une option) pour déterminer cet autre côté de vous-même. De plus, vous gagnez les traits qui suivent.",
 				{
 					"type": "table",
-					"caption": "Second Form",
+					"caption": "Seconde forme",
 					"colLabels": [
 						"d6",
-						"Form"
+						"Forme"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -1403,27 +1403,27 @@
 					"rows": [
 						[
 							"1",
-							"An exaggerated version of your own form"
+							"Une version exagérée de votre propre forme"
 						],
 						[
 							"2",
-							"Hybrid form of humanoid and beast"
+							"Une forme hybride d'humanoïde et de bête"
 						],
 						[
 							"3",
-							"An angelic, a demonic, or an aberrant form"
+							"Une forme angélique, démoniaque ou aberrante"
 						],
 						[
 							"4",
-							"A vaguely human-shaped creature made of slime"
+							"Une créature à l'allure vaguement humaine faite de glu"
 						],
 						[
 							"5",
-							"A fey-like shape, either brooding or passionate"
+							"Une silhouette d'allure féérique, sombre ou passionnée"
 						],
 						[
 							"6",
-							"A body constructed of metal, stone, or machinery"
+							"Un corps fait de métal, de pierre ou de machinerie"
 						]
 					]
 				},
@@ -1432,24 +1432,24 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Transformation",
+							"name": "Métamorphose",
 							"entries": [
-								"You can cast the {@spell alter self} spell to appear in your second form. When you do so, you gain the effects of that spell's Change Appearance option and cannot end it to gain the benefits of a different option. Casting {@spell alter self} in this way requires no spell slot, and you must finish a long rest before you can cast it this way again. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift). If you have spell slots of 2nd level or higher, you can cast this spell with them.",
-								"When you cast {@spell alter self} using this feature, some cosmetic aspect of your second form remains after the spell ends. This visibly marks you unless you actively hide or disguise it. The mark is a perceptible change such as scaly skin, stunted wings, eyes without pupils, or horns. The mark fades after you finish a long rest."
+								"Vous pouvez lancer le sort {@spell alter self} pour apparaître sous votre seconde forme. Ce faisant, vous gagnez les effets de l'option Changer d'apparence de ce sort et ne pouvez pas y mettre fin pour profiter des avantages d'une autre option. Lancer {@spell alter self} de cette façon ne nécessite aucun emplacement de sort, et vous devez terminer un repos long avant de pouvoir le lancer à nouveau ainsi. Votre caractéristique d'incantation pour ce sort est l'Intelligence, la Sagesse ou le Charisme (à votre choix lorsque vous gagnez ce Don funeste). Si vous possédez des emplacements de sorts de niveau 2 ou supérieur, vous pouvez lancer ce sort avec eux.",
+								"Quand vous lancez {@spell alter self} grâce à cette capacité, un aspect esthétique de votre seconde forme subsiste après la fin du sort. Cela vous marque visiblement, sauf si vous le cachez ou le déguisez activement. La marque est un changement perceptible, comme une peau écailleuse, des ailes atrophiées, des yeux sans pupilles ou des cornes. La marque s'estompe après que vous avez terminé un repos long."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Involuntary Change",
+							"name": "Métamorphose involontaire",
 							"entries": [
-								"Certain circumstances can activate your Dark Gift. After you experience this catalyst, at the start of your next turn you must succeed on a {@dc 15} Charisma saving throw or use your action to cast {@spell alter self} as described in the Transformation trait, even if you have already used it.",
-								"Roll on or choose an option from the Change Catalyst table to determine what triggers your involuntary change.",
+								"Certaines circonstances peuvent activer votre Don funeste. Après avoir vécu ce catalyseur, au début de votre prochain tour, vous devez réussir un jet de sauvegarde de Charisme {@dc 15} ou utiliser votre action pour lancer {@spell alter self} comme décrit dans le trait de Métamorphose, même si vous l'avez déjà utilisé.",
+								"Lancez les dés sur la table des Catalyseurs de la métamorphose (ou choisissez-y une option) pour déterminer ce qui déclenche votre métamorphose involontaire.",
 								{
 									"type": "table",
-									"caption": "Change Catalyst",
+									"caption": "Catalyseurs de la métamorphose",
 									"colLabels": [
 										"d6",
-										"Catalyst"
+										"Catalyseur"
 									],
 									"colStyles": [
 										"col-2 text-center",
@@ -1458,27 +1458,27 @@
 									"rows": [
 										[
 											"1",
-											"Seeing a particular phase of the moon"
+											"Voir une phase précise de la lune"
 										],
 										[
 											"2",
-											"The smell of a certain type of flower"
+											"L'odeur d'un certain type de fleur"
 										],
 										[
 											"3",
-											"The sound of ringing temple bells"
+											"Le son de cloches de temple qui tintent"
 										],
 										[
 											"4",
-											"Hearing a particular melody"
+											"Entendre une mélodie précise"
 										],
 										[
 											"5",
-											"Touching pure silver with your bare skin"
+											"Toucher de l'argent pur à peau nue"
 										],
 										[
 											"6",
-											"Seeing someone resembling a specific individual"
+											"Voir quelqu'un ressemblant à un individu précis"
 										]
 									]
 								}
@@ -1489,18 +1489,18 @@
 			]
 		},
 		{
-			"name": "Slaad Host",
+			"name": "Hôte slaad",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"A red slaad implanted a pellet-sized egg in me shortly before I started my adventuring career. If I can't get rid of it in the next two months, the egg will gestate inside me, and a slaad tadpole will burst from my chest, killing me. It will then quickly grow into an adult slaad and kill even more people."
+				"Un slaad rouge m'a implanté un œuf de la taille d'une bille peu avant que je ne commence ma carrière d'aventurier. Si je ne parviens pas à m'en débarrasser dans les deux prochains mois, l'œuf fera son incubation en moi et un têtard slaad jaillira de ma poitrine, me tuant. Il grandira ensuite rapidement pour devenir un slaad adulte et tuera encore plus de gens."
 			]
 		},
 		{
-			"name": "Spirit Medium",
+			"name": "Médium spirite",
 			"source": "VRGR",
 			"page": 31,
 			"reprintedAs": [
@@ -1513,34 +1513,34 @@
 				"RF:B"
 			],
 			"entries": [
-				"After a fateful experience, you believe you're aligned with spirits and can serve as a conduit for their insights and goals. You have advantage on any {@skill Arcana} or {@skill Religion} check you make to remember or research information about spirits and the afterlife. Additionally, you begin your adventuring career with a custom-made device for communing with otherworldly forces, perhaps a spirit board, a {@deck tarokka deck|CoS}, an automatic writing planchette, dowsing rods, a cup for tea leaves, or a device of your own design. Add your proficiency bonus to any ability check you make using this type of divining tool."
+				"À la suite d'une expérience marquante, vous pensez être en harmonie avec les esprits et pouvoir servir de canal pour leurs perceptions et leurs buts. Vous avez un avantage à tout test d'{@skill Arcanes} ou de {@skill Religion} que vous effectuez pour vous souvenir d'informations sur les esprits et l'au-delà ou pour les rechercher. De plus, vous commencez votre carrière d'aventurier avec un dispositif fabriqué sur mesure pour communiquer avec les forces d'outre-monde, par exemple une planchette spirite, un {@deck Jeu de tarokka|CoS}, une planchette à écriture automatique, des baguettes de sourcier, une tasse à feuilles de thé ou un dispositif de votre propre conception. Ajoutez votre bonus de maîtrise à tout test de caractéristique que vous effectuez à l'aide de ce type d'outil de divination."
 			]
 		},
 		{
-			"name": "Spy",
+			"name": "Espion",
 			"source": "IDRotF",
 			"page": 264,
 			"optionType": [
 				"CS"
 			],
 			"entries": [
-				"I'm a spy for the Harpers, a secretive organization that works behind the scenes to thwart tyrants and other evildoers. My mission in Icewind Dale is to safeguard the settlements of Ten-Towns while concealing my Harper affiliation. Credible threats to Ten-Towns include the Arcane Brotherhood, an organization of wizards based in Luskan, and the Zhentarim, an expansive shadow network that wants to control trade throughout the North. Both have threatened Ten-Towns in the past.",
-				"My only Harper contact in Ten-Towns is a human named {@creature Beldora|SKT}, who poses as a homeless woman and spends her days gathering information in Bryn Shander."
+				"Je suis un espion des Harpistes, une organisation secrète qui œuvre dans l'ombre pour contrer les tyrans et autres malfaiteurs. Ma mission dans Icewind Dale est de protéger les établissements des Dix-Cités tout en dissimulant mon appartenance aux Harpistes. Les menaces crédibles pesant sur les Dix-Cités incluent la Confrérie Arcane, une organisation de mages basée à Luskan, et les Zhentarim, un vaste réseau de l'ombre qui veut contrôler le commerce dans tout le Nord. Tous deux ont déjà menacé les Dix-Cités par le passé.",
+				"Mon seul contact harpiste aux Dix-Cités est une humaine nommée {@creature Beldora|SKT}, qui se fait passer pour une sans-abri et passe ses journées à recueillir des informations à Bryn Shander."
 			]
 		},
 		{
-			"name": "Symbiotic Being",
+			"name": "Être symbiotique",
 			"source": "VRGR",
 			"page": 26,
 			"optionType": [
 				"DG"
 			],
 			"entries": [
-				"A second being resides within your body along with you. It manifests physically somewhere on you and relies on you for its survival. At the same time, it offers you knowledge and other assistance, either of its own volition or because of your intertwined nature. The symbiote has its own personality and agenda, which might be at odds with yours. If you ignore the symbiote's desires, it might strive to interfere with you. There is no way to be rid of the symbiote while you have this Dark Gift. Even if you go to drastic lengths, such as severing the part of your body where the symbiote resides, it reappears on your body in another location at the next midnight.",
-				"Roll on or choose an option from the Symbiotic Nature table to determine what sort of symbiotic being shares your body. Additionally, you gain the traits that follow.",
+				"Un second être réside dans votre corps avec vous. Il se manifeste physiquement quelque part sur vous et compte sur vous pour survivre. En même temps, il vous offre des connaissances et une autre aide, de sa propre volonté ou en raison de votre nature entremêlée. Le symbiote possède sa propre personnalité et son propre programme, qui peuvent être en désaccord avec les vôtres. Si vous ignorez les désirs du symbiote, il peut s'efforcer de vous gêner. Il n'existe aucun moyen de se débarrasser du symbiote tant que vous possédez ce Don funeste. Même si vous en venez à des mesures radicales, comme sectionner la partie de votre corps où réside le symbiote, il réapparaît sur votre corps à un autre endroit à la minuit suivante.",
+				"Lancez les dés sur la table de la Nature symbiotique (ou choisissez-y une option) pour déterminer le type d'être symbiotique qui partage votre corps. De plus, vous gagnez les traits qui suivent.",
 				{
 					"type": "table",
-					"caption": "Symbiotic Nature",
+					"caption": "Nature symbiotique",
 					"colLabels": [
 						"d6",
 						"Symbiote"
@@ -1552,27 +1552,27 @@
 					"rows": [
 						[
 							"1",
-							"Tiny humanoid facial features protruding from your torso, palm, or the back of your head"
+							"Des traits de visage humanoïde Minuscules surgissant de votre torse, de votre paume ou de l'arrière de votre crâne"
 						],
 						[
 							"2",
-							"An alien appendage inside an unhealing wound"
+							"Un appendice alien dans une plaie qui ne se referme pas"
 						],
 						[
 							"3",
-							"A burrowing, worm-like being"
+							"Un être fouisseur semblable à un ver"
 						],
 						[
 							"4",
-							"An intrusive thought that inhabits your mind"
+							"Une pensée intrusive qui habite votre esprit"
 						],
 						[
 							"5",
-							"A living tattoo"
+							"Un tatouage vivant"
 						],
 						[
 							"6",
-							"Crystal growths that replace a portion of your body"
+							"Des excroissances cristallines qui remplacent une partie de votre corps"
 						]
 					]
 				},
@@ -1581,33 +1581,33 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Entwined Existence",
+							"name": "Existence entremêlée",
 							"entries": [
-								"Your symbiote is a separate entity with its own physical form bound to yours. It isn't a separate creature and relies on you to survive. It has Intelligence, Wisdom, and Charisma scores. The DM sets the symbiote's abilities or determines them randomly (roll {@dice 4d6} for each score, ignoring the lowest roll and totaling the rest). The symbiote can see and hear using your senses.",
-								"The symbiote speaks, reads, and understands two languages; one that you speak, as well as one appropriate to its nature. Choose one of the following skills: {@skill Arcana}, {@skill Deception}, {@skill History}, {@skill Intimidation}, {@skill Insight}, {@skill Investigation}, {@skill Nature}, {@skill Religion}, {@skill Perception}, or {@skill Persuasion}. You gain proficiency in that skill if you don't already have it, representing the symbiote's counsel and guidance.",
-								"If you die, so does your symbiote. If you are subsequently returned to life, your symbiote revives as well."
+								"Votre symbiote est une entité séparée, dotée de sa propre forme physique liée à la vôtre. Ce n'est pas une créature distincte et il compte sur vous pour survivre. Il possède des scores d'Intelligence, de Sagesse et de Charisme. Le MD définit les capacités du symbiote ou les détermine au hasard (lancez {@dice 4d6} pour chaque score, en ignorant le dé le plus bas et en additionnant le reste). Le symbiote peut voir et entendre en utilisant vos sens.",
+								"Le symbiote parle, lit et comprend deux langues : l'une que vous parlez, ainsi qu'une autre appropriée à sa nature. Choisissez l'une des compétences suivantes : {@skill Arcanes}, {@skill Tromperie}, {@skill Histoire}, {@skill Intimidation}, {@skill Perspicacité}, {@skill Investigation}, {@skill Nature}, {@skill Religion}, {@skill Perception} ou {@skill Persuasion}. Vous gagnez la maîtrise de cette compétence si vous ne l'avez pas déjà, ce qui représente les conseils et la guidance du symbiote.",
+								"Si vous mourez, votre symbiote meurt également. Si vous revenez ensuite à la vie, votre symbiote renaît lui aussi."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Sustained Symbiosis",
+							"name": "Symbiose entretenue",
 							"entries": [
-								"Your symbiote has a vested interest in your survival and takes steps to ensure it. When you fail a saving throw, you can choose to have your symbiote expend one of your Hit Dice to roll it and add the number rolled to the saving throw, potentially turning the failure into a success. If it uses this feature on a death saving throw, you succeed on the save and regain 1 hit point regardless of the number rolled on the {@dice d20}.",
-								"Once you succeed on a saving throw due to this trait, the symbiote can't use it again until you finish a long rest."
+								"Votre symbiote a un intérêt direct à votre survie et prend des mesures pour l'assurer. Quand vous ratez un jet de sauvegarde, vous pouvez choisir de faire dépenser au symbiote l'un de vos Dés de vie pour le lancer et ajouter le résultat au jet de sauvegarde, transformant potentiellement l'échec en réussite. S'il utilise cette capacité sur un jet de sauvegarde contre la mort, vous réussissez le jet et regagnez 1 point de vie, quel que soit le résultat obtenu au {@dice d20}.",
+								"Une fois que vous avez réussi un jet de sauvegarde grâce à ce trait, le symbiote ne peut plus l'utiliser avant que vous ne terminiez un repos long."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Symbiotic Agenda",
+							"name": "Programme symbiotique",
 							"entries": [
-								"Your symbiote has an agenda that drives it, and it expects you to assist it in achieving those goals. How permissive or patient it is in resolving its agenda depends on its personality (work with your DM to determine these details). If you have an opportunity to advance its agenda and don't act on it, the symbiote can try to force your hand. You must succeed on a Charisma saving throw ({@dc 12} + the symbiote's Charisma modifier) or be {@condition charmed} by the symbiote for {@dice 1d12} hours. While {@condition charmed}, you must try to follow the symbiote's commands. If you take damage that is not self-inflicted, you can repeat the saving throw, ending the effect on a success.",
-								"Roll or choose from the Symbiotic Agenda table to determine the symbiote's goal, working with your DM to detail the specifics or create another agenda.",
+								"Votre symbiote a un programme qui l'anime et il attend de vous que vous l'aidiez à atteindre ces objectifs. Sa tolérance ou sa patience dans la poursuite de son programme dépend de sa personnalité (déterminez ces détails avec votre MD). Si une occasion d'avancer son programme se présente et que vous n'agissez pas, le symbiote peut tenter de vous forcer la main. Vous devez réussir un jet de sauvegarde de Charisme ({@dc 12} + le modificateur de Charisme du symbiote), sans quoi vous êtes {@condition Charmé} par le symbiote pendant {@dice 1d12} heures. Tant que vous êtes {@condition Charmé}, vous devez vous efforcer de suivre les ordres du symbiote. Si vous subissez des dégâts qui ne sont pas auto-infligés, vous pouvez relancer le jet de sauvegarde, mettant fin à l'effet en cas de réussite.",
+								"Lancez les dés ou choisissez dans la table du Programme symbiotique pour déterminer le but du symbiote, en détaillant les spécificités avec votre MD ou en créant un autre programme.",
 								{
 									"type": "table",
-									"caption": "Symbiotic Agenda",
+									"caption": "Programme symbiotique",
 									"colLabels": [
 										"d6",
-										"Agenda"
+										"Programme"
 									],
 									"colStyles": [
 										"col-2 text-center",
@@ -1616,27 +1616,27 @@
 									"rows": [
 										[
 											"1",
-											"The symbiote seeks to destroy a specific type of being, such as fiends, trolls, or paladins."
+											"Le symbiote cherche à détruire un type de créature précis, comme les fiélons, les trolls ou les paladins."
 										],
 										[
 											"2",
-											"The symbiote craves knowledge and is determined to solve a mystery or learn a secret."
+											"Le symbiote a soif de connaissances et est déterminé à résoudre un mystère ou à apprendre un secret."
 										],
 										[
 											"3",
-											"The symbiote wants to bring a prophecy to fruition or to thwart one."
+											"Le symbiote veut faire aboutir une prophétie ou la contrer."
 										],
 										[
 											"4",
-											"The symbiote seeks to defend the servants and interests of a powerful being or organization."
+											"Le symbiote cherche à défendre les serviteurs et les intérêts d'un être ou d'une organisation puissante."
 										],
 										[
 											"5",
-											"The symbiote wants to keep you from harm at all costs and believes it knows what's best for you."
+											"Le symbiote veut vous préserver de tout mal, quel qu'en soit le prix, et pense savoir ce qui est bon pour vous."
 										],
 										[
 											"6",
-											"The symbiote seeks to experience new sensations, the more bizarre the better."
+											"Le symbiote cherche à éprouver de nouvelles sensations, et plus elles sont étranges, mieux c'est."
 										]
 									]
 								}
@@ -1647,18 +1647,18 @@
 			]
 		},
 		{
-			"name": "Touch of Death",
+			"name": "Toucher de la mort",
 			"source": "VRGR",
 			"page": 26,
 			"optionType": [
 				"DG"
 			],
 			"entries": [
-				"Your touch is pain, harming whoever you come in contact with. The deathly power within you is beyond your control, afflicting any who touch your bare skin. By the same token, you can deliver death to your enemies with your touch.",
-				"Roll on or choose an option from the Deadly Touch table to determine how this Dark Gift presents itself. Additionally, you gain the traits that follow.",
+				"Votre toucher est douleur, blessant quiconque entre en contact avec vous. Le pouvoir mortel qui est en vous échappe à votre contrôle et afflige tous ceux qui touchent votre peau nue. De la même façon, vous pouvez porter la mort à vos ennemis par votre toucher.",
+				"Lancez les dés sur la table du Toucher mortel (ou choisissez-y une option) pour déterminer comment ce Don funeste se manifeste. De plus, vous gagnez les traits qui suivent.",
 				{
 					"type": "table",
-					"caption": "Deadly Touch",
+					"caption": "Toucher mortel",
 					"colLabels": [
 						"d6",
 						"Manifestation"
@@ -1670,27 +1670,27 @@
 					"rows": [
 						[
 							"1",
-							"Your body is alchemically or biologically altered, infusing you with deadly chemicals."
+							"Votre corps a été altéré par l'alchimie ou la biologie, vous imbibant de produits chimiques mortels."
 						],
 						[
 							"2",
-							"The magic of a slighted druid or fey makes small plants wither and insects die in your presence."
+							"La magie d'un druide ou d'une créature féérique vexée fait se flétrir les petites plantes et mourir les insectes en votre présence."
 						],
 						[
 							"3",
-							"You're the harbinger of a grim prophecy. Any creature your touch damages is marked with a temporary scar of a group, fiend, deity, or other force that takes an interest in you."
+							"Vous êtes le héraut d'une sinistre prophétie. Toute créature blessée par votre toucher est marquée d'une cicatrice temporaire à l'effigie d'un groupe, d'un fiélon, d'une divinité ou d'une autre force qui s'intéresse à vous."
 						],
 						[
 							"4",
-							"You survived a near-death experience\u2014but shouldn't have. Ever since, death and ill omens follow you."
+							"Vous avez survécu à une expérience de mort imminente, alors que vous n'auriez pas dû. Depuis, la mort et les sombres présages vous suivent."
 						],
 						[
 							"5",
-							"You are out of sync with time or reality. Anything you touch is warped by the distortion."
+							"Vous êtes désynchronisé du temps ou de la réalité. Tout ce que vous touchez est déformé par cette distorsion."
 						],
 						[
 							"6",
-							"Every time you touch a creature, you hear the laughter of someone you once harmed."
+							"Chaque fois que vous touchez une créature, vous entendez le rire de quelqu'un que vous avez autrefois blessé."
 						]
 					]
 				},
@@ -1699,23 +1699,23 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Death Touch",
+							"name": "Toucher mortel",
 							"entries": [
-								"You can focus your deadly touch against your foes. As an action, make one unarmed strike. On a hit, the target takes an additional {@damage 1d10} necrotic damage. This damage increases by {@damage 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10})."
+								"Vous pouvez concentrer votre toucher mortel contre vos ennemis. Par une action, effectuez une attaque à mains nues. En cas de toucher, la cible subit {@damage 1d10} dégâts nécrotiques supplémentaires. Ces dégâts augmentent de {@damage 1d10} lorsque vous atteignez le niveau 5 ({@damage 2d10}), le niveau 11 ({@damage 3d10}) et le niveau 17 ({@damage 4d10})."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Inescapable Death",
+							"name": "Mort inévitable",
 							"entries": [
-								"When you hit a target with an attack roll and deal necrotic damage, you ignore the target's resistance to that damage."
+								"Quand vous touchez une cible avec un jet d'attaque et lui infligez des dégâts nécrotiques, vous ignorez la résistance de la cible à ces dégâts."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Withering Contact",
+							"name": "Contact flétrissant",
 							"entries": [
-								"When you start your turn grappling a creature or {@condition grappled} by it, the creature takes {@damage 1d10} necrotic damage."
+								"Quand vous commencez votre tour en train d'agripper une créature ou {@condition Agrippé} par elle, la créature subit {@damage 1d10} dégâts nécrotiques."
 							]
 						}
 					]
@@ -1723,65 +1723,65 @@
 			]
 		},
 		{
-			"name": "Trauma Survivor",
+			"name": "Survivant d'un traumatisme",
 			"source": "VRGR",
 			"page": 32,
 			"optionType": [
 				"RF:B"
 			],
 			"entries": [
-				"You survived. Whatever it was, you made it through, and you can help others do the same. People view you as an expert on the traumatic situation you faced\u2014be it a specific sort of violence, illness, or otherwise. You are aware of nonmagical recovery techniques, common resources, and misinformation. You know how to speak to sympathetic doctors, clergy, and local leaders and can convince them to shelter one person (other than yourself) at a modest lifestyle for up to one month."
+				"Vous avez survécu. Quoi qu'il se soit passé, vous vous en êtes sorti, et vous pouvez aider d'autres personnes à faire de même. Les gens vous considèrent comme un expert de la situation traumatisante que vous avez affrontée, qu'il s'agisse d'un type précis de violence, d'une maladie ou autre. Vous connaissez les techniques de rétablissement non magiques, les ressources courantes et la désinformation. Vous savez comment parler aux médecins, aux clergés et aux dirigeants locaux de bonne volonté et pouvez les convaincre d'héberger une personne (autre que vous-même) avec un mode de vie modeste pendant un mois au plus."
 			]
 		},
 		{
-			"name": "Traveler",
+			"name": "Voyageur",
 			"source": "VRGR",
 			"page": 32,
 			"optionType": [
 				"RF:B"
 			],
 			"entries": [
-				"You come from somewhere else, a place others couldn't begin to understand. Perhaps your home is a unique corner of the Land of the Mists or another world entirely. In any case, you and other travelers have shared experiences. You can find a place to hide, rest, or recuperate among sympathetic trading caravans, itinerant families, or displaced groups, so long as you don't present yourself as a danger. Such groups will hide you from the law or anyone searching for you, though they won't risk their lives for you. Additionally, you can tell whether an object you can see and touch is from your homeland with near perfect accuracy."
+				"Vous venez d'ailleurs, d'un lieu que les autres ne pourraient même pas commencer à comprendre. Peut-être que votre foyer est un recoin unique du Pays des Brumes ou un autre monde tout court. Dans tous les cas, vous et les autres voyageurs partagez des expériences communes. Vous pouvez trouver un endroit où vous cacher, vous reposer ou vous remettre parmi les caravanes marchandes sympathisantes, les familles itinérantes ou les groupes déplacés, tant que vous ne vous présentez pas comme un danger. De tels groupes vous cacheront de la loi ou de quiconque vous cherchera, même s'ils ne risqueront pas leur vie pour vous. De plus, vous pouvez déterminer avec une précision presque parfaite si un objet que vous pouvez voir et toucher provient de votre terre natale."
 			]
 		},
 		{
-			"name": "Underdark Experience",
+			"name": "Expérience de l'Infraterre",
 			"source": "OotA",
 			"page": 221,
 			"optionType": [
 				"RF:B"
 			],
 			"entries": [
-				"You are no casual visitor to the Underdark, but instead have spent considerable time there learning its ways. You are familiar with the various races, civilizations, and settlements of the Underdark, as well as its major routes for travel. If you fail an Intelligence check to recall some piece of Underdark lore, you know a source you can consult for the answer unless the DM rules that the lore is unknown."
+				"Vous n'êtes pas un simple visiteur de l'Infraterre : vous y avez passé un temps considérable à en apprendre les usages. Vous connaissez bien les diverses races, civilisations et implantations de l'Infraterre, ainsi que ses principales voies de passage. Si vous ratez un test d'Intelligence destiné à vous souvenir d'un élément du savoir de l'Infraterre, vous connaissez une source à consulter pour obtenir la réponse, sauf si le MD estime que ce savoir est inconnu."
 			]
 		},
 		{
-			"name": "Unscarred",
+			"name": "Sans cicatrice",
 			"source": "MOT",
 			"page": 17,
 			"optionType": [
 				"SG"
 			],
 			"entries": [
-				"Like the great hero Haktos, you are resistant to physical harm. Use the Unscarred Origin table to determine how you gained your legendary invulnerability. Additionally, you gain the following trait.",
+				"Comme le grand héros Haktos, vous résistez aux dommages physiques. Utilisez la table de l'Origine du Sans-cicatrice pour déterminer comment vous avez acquis votre invulnérabilité légendaire. De plus, vous gagnez le trait suivant.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Unscarred Resilience",
+							"name": "Résilience du Sans-cicatrice",
 							"entries": [
-								"When you take damage, you can use your reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest."
+								"Quand vous subissez des dégâts, vous pouvez utiliser votre réaction pour lancer un {@dice d12}. Ajoutez votre modificateur de Constitution au résultat obtenu et réduisez les dégâts de ce total. Après avoir utilisé ce trait, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos court ou long."
 							]
 						}
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Unscarred Origin",
+					"caption": "Origine du Sans-cicatrice",
 					"colLabels": [
 						"d6",
-						"Origin"
+						"Origine"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -1790,48 +1790,48 @@
 					"rows": [
 						[
 							"1",
-							"I was bathed in hydra's blood as an infant, and my wounds close too quickly to become mortal injuries."
+							"On m'a baigné dans le sang d'une hydre quand j'étais nourrisson, et mes blessures se referment trop vite pour devenir des blessures mortelles."
 						],
 						[
 							"2",
-							"I swallowed a magic stone that fell from Nyx, which made my skin hard as rock."
+							"J'ai avalé une pierre magique tombée de Nyx, qui a rendu ma peau dure comme la roche."
 						],
 						[
 							"3",
-							"When I was wounded as a child, a god healed me. Now wounds are reluctant to undo the god's work."
+							"Quand j'ai été blessé enfant, un dieu m'a soigné. Désormais, les blessures se font réticentes à défaire l'œuvre du dieu."
 						],
 						[
 							"4",
-							"I was rescued from the Underworld, and I'm not sure I fully returned to life\u2014it's always so cold."
+							"J'ai été sauvé des Enfers, et je ne suis pas certain d'être entièrement revenu à la vie : il fait toujours si froid."
 						],
 						[
 							"5",
-							"I was born on one of the Dakra Isles. All my people are naturally resilient, a fact I didn't realize until I lost my home and ventured into the world."
+							"Je suis né sur l'une des îles Dakra. Tout mon peuple est naturellement résistant, un fait que j'ai ignoré jusqu'à ce que je perde mon foyer et m'aventure dans le monde."
 						],
 						[
 							"6",
-							"I don't know who one or more of my parents is, but my resilience (and other hints) provide clues to their immortal identity."
+							"J'ignore l'identité d'un ou de plusieurs de mes parents, mais ma résilience (et d'autres indices) fournissent des pistes sur leur identité immortelle."
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Watchers",
+			"name": "Observateurs",
 			"source": "VRGR",
 			"page": 27,
 			"optionType": [
 				"DG"
 			],
 			"entries": [
-				"Something is always watching you and draws ethereal spirits that take the form of creatures made of shadowstuff, usually in the shape of Tiny beasts, that follow you and gather in your general vicinity. These creatures act like normal examples of their kind, but their behavior suggests a hint of malice. No matter what precautions you take, you can't permanently drive these spirits away. They always return, wait just beyond the reach of deterrents, or later crawl out of your clothes and equipment.",
-				"Roll on or choose an option from the Watchers table to determine what sorts of forms the spirits typically take when they follow you.",
+				"Quelque chose vous observe toujours et attire des esprits éthérés prenant la forme de créatures faites de matière d'ombre, généralement des bêtes Minuscules, qui vous suivent et se rassemblent dans vos parages. Ces créatures se comportent comme des exemples normaux de leur espèce, mais leur comportement laisse deviner une pointe de malice. Quelles que soient les précautions que vous prenez, vous ne pouvez pas chasser ces esprits de façon permanente. Ils reviennent toujours, attendent juste hors de portée des moyens de dissuasion ou finissent par sortir de vos vêtements et de votre équipement.",
+				"Lancez les dés sur la table des Observateurs (ou choisissez-y une option) pour déterminer les formes que les esprits prennent généralement lorsqu'ils vous suivent.",
 				{
 					"type": "table",
-					"caption": "Watchers",
+					"caption": "Observateurs",
 					"colLabels": [
 						"d8",
-						"Watchers"
+						"Observateurs"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -1840,35 +1840,35 @@
 					"rows": [
 						[
 							"1",
-							"Carrion Eaters. Jackals, ravens, vultures"
+							"Charognards. Chacals, corbeaux, vautours"
 						],
 						[
 							"2",
-							"Inescapable Judgments. Animate tools of punishment, drifting eyeballs, religious iconography"
+							"Jugements inéluctables. Outils de punition animés, globes oculaires flottants, iconographie religieuse"
 						],
 						[
 							"3",
-							"Night Wings. Bats, moths, owls"
+							"Ailes de la nuit. Chauves-souris, papillons de nuit, chouettes"
 						],
 						[
 							"4",
-							"Plague Carriers. Fleas, rats, squirrels"
+							"Porteurs de peste. Puces, rats, écureuils"
 						],
 						[
 							"5",
-							"Unnatural Observers. Animate objects, clockwork devices, otherworldly voyeurs"
+							"Observateurs contre nature. Objets animés, mécanismes à ressort, voyeurs d'outre-monde"
 						],
 						[
 							"6",
-							"Sea Skulkers. Crabs, eels, jellyfish"
+							"Rôdeurs des mers. Crabes, anguilles, méduses"
 						],
 						[
 							"7",
-							"Stray Souls. Ghost orbs, shadows, ectoplasmic wisps"
+							"Âmes égarées. Orbes spectrales, ombres, volutes ectoplasmiques"
 						],
 						[
 							"8",
-							"Venomous Vermin. Scorpions, serpents, spiders"
+							"Rampants venimeux. Scorpions, serpents, araignées"
 						]
 					]
 				},
@@ -1877,17 +1877,17 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Borrowed Eyes",
+							"name": "Yeux empruntés",
 							"entries": [
-								"As an action, you can influence the presence guiding the watchers for 1 hour. For the duration, you gain advantage on Intelligence ({@skill Investigation}) and Wisdom ({@skill Perception}) checks, and you can't be {@condition blinded}. Once you use this feature, you can't use it again until you finish a long rest."
+								"Par une action, vous pouvez influencer la présence qui guide les observateurs pendant 1 heure. Pendant cette durée, vous gagnez un avantage aux tests d'Intelligence ({@skill Investigation}) et de Sagesse ({@skill Perception}), et vous ne pouvez pas être {@condition Aveuglé}. Une fois que vous avez utilisé cette capacité, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos long."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Dread Presence",
+							"name": "Présence terrifiante",
 							"entries": [
-								"You have disadvantage on Charisma ({@skill Deception}), Charisma ({@skill Performance}), and Charisma ({@skill Persuasion}) checks made against creatures that can see the watchers, and you have disadvantage on saving throws made against the {@spell scrying} spell.",
-								"You can temporarily disperse or hide the watchers with some effort. With 1 minute of work and a successful {@dc 15} Charisma ({@skill Animal Handling}) check, you can suppress your Borrowed Eyes and Dread Presence for 1 hour. Once you successfully suppress these features, you can't do so again until you finish a long rest."
+								"Vous avez un désavantage aux tests de Charisme ({@skill Tromperie}), de Charisme ({@skill Représentation}) et de Charisme ({@skill Persuasion}) effectués contre des créatures capables de voir les observateurs, et vous avez un désavantage aux jets de sauvegarde effectués contre le sort {@spell scrying}.",
+								"Vous pouvez disperser ou dissimuler temporairement les observateurs avec quelques efforts. Avec 1 minute de travail et un test de Charisme ({@skill Dressage}) {@dc 15} réussi, vous pouvez supprimer vos Yeux empruntés et votre Présence terrifiante pendant 1 heure. Une fois que vous avez supprimé ces capacités avec succès, vous ne pouvez plus le faire avant d'avoir terminé un repos long."
 							]
 						}
 					]

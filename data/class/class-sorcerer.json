@@ -99,20 +99,20 @@
 					}
 				],
 				"weapons": [
-					"{@item dagger|phb|daggers}",
-					"{@item dart|phb|darts}",
-					"{@item sling|phb|slings}",
-					"{@item quarterstaff|phb|quarterstaffs}",
-					"{@item light crossbow|phb|light crossbows}"
+					"{@item Dague|phb|daggers}",
+					"{@item Fléchette|phb|darts}",
+					"{@item Fronde|phb|slings}",
+					"{@item Bâton|phb|quarterstaffs}",
+					"{@item Arbalète légère|phb|light crossbows}"
 				]
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
-					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"Two {@item dagger|phb|daggers}"
+					"(a) a {@item Arbalète légère|phb} and {@item Carreaux d'arbalète (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item Sacoche à composantes|phb} or (b) an {@item arcane focus|phb}",
+					"(a) a {@item Pack d'explorateur des donjons|phb} or (b) an {@item Pack d'explorateur|phb}",
+					"Two {@item Dague|phb|daggers}"
 				],
 				"goldAlternative": "{@dice 3d4 × 10|3d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -730,7 +730,7 @@
 					}
 				],
 				"entries": [
-					"{@i Choose A or B:} (A) {@item Spear|XPHB}, 2 {@item Dagger|XPHB|Daggers}, {@item Arcane Focus|XPHB} ({@item crystal|XPHB}), {@item Dungeoneer's Pack|XPHB}, and 28 GP; or (B) 50 GP"
+					"{@i Choose A or B:} (A) {@item Lance|XPHB}, 2 {@item Dague|XPHB|Daggers}, {@item Arcane Focus|XPHB} ({@item Cristal|XPHB}), {@item Pack d'explorateur des donjons|XPHB}, and 28 GP; or (B) 50 GP"
 				]
 			},
 			"multiclassing": {},
@@ -2988,7 +2988,7 @@
 			"classSource": "XPHB",
 			"level": 4,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16."
 			]
 		},
 		{
@@ -3045,7 +3045,7 @@
 			"classSource": "XPHB",
 			"level": 8,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -3073,7 +3073,7 @@
 			"classSource": "XPHB",
 			"level": 12,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -3099,7 +3099,7 @@
 			"classSource": "XPHB",
 			"level": 16,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -3140,7 +3140,7 @@
 			"classSource": "XPHB",
 			"level": 19,
 			"entries": [
-				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Dimensional Travel|XPHB} is recommended."
+				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Don du voyage dimensionnel|XPHB} is recommended."
 			]
 		},
 		{
@@ -3349,7 +3349,7 @@
 							"type": "item",
 							"name": "New Moon",
 							"entries": [
-								"You have advantage on Dexterity ({@skill Stealth}) checks. In addition, while you are entirely in darkness, attack rolls have disadvantage against you."
+								"You have advantage on Dexterity ({@skill Discrétion}) checks. In addition, while you are entirely in darkness, attack rolls have disadvantage against you."
 							]
 						},
 						{
@@ -3384,7 +3384,7 @@
 							"type": "item",
 							"name": "Full Moon",
 							"entries": [
-								"You radiate moonlight for a moment. Each creature of your choice within 30 feet of you must succeed on a Constitution saving throw against your spell save DC or be {@condition blinded} until the end of its next turn. In addition, one creature of your choice in that area regains {@dice 3d8} hit points."
+								"You radiate moonlight for a moment. Each creature of your choice within 30 feet of you must succeed on a Constitution saving throw against your spell save DC or be {@condition Aveuglé} until the end of its next turn. In addition, one creature of your choice in that area regains {@dice 3d8} hit points."
 							]
 						},
 						{
@@ -3511,7 +3511,7 @@
 						]
 					]
 				},
-				"You can speak, read, and write {@language Draconic}. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+				"You can speak, read, and write {@language Draconique}. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
 			]
 		},
 		{
@@ -3564,7 +3564,7 @@
 				"amount": 5
 			},
 			"entries": [
-				"Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or {@condition frightened}. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your {@status concentration} (as if you were casting a {@status concentration} spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be {@condition charmed} (if you chose awe) or {@condition frightened} (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours."
+				"Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or {@condition Effrayé}. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your {@status concentration} (as if you were casting a {@status concentration} spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be {@condition Charmé} (if you chose awe) or {@condition Effrayé} (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours."
 			]
 		},
 		{
@@ -3702,7 +3702,7 @@
 						],
 						[
 							"37-38",
-							"{@dice 1d6} {@creature flumph||flumphs} controlled by the DM appear in unoccupied spaces within 60 feet of you and are {@condition frightened} of you. They vanish after 1 minute."
+							"{@dice 1d6} {@creature flumph||flumphs} controlled by the DM appear in unoccupied spaces within 60 feet of you and are {@condition Effrayé} of you. They vanish after 1 minute."
 						],
 						[
 							"39-40",
@@ -3710,7 +3710,7 @@
 						],
 						[
 							"41-42",
-							"You turn into a potted plant until the start of your next turn. While a plant, you are {@condition incapacitated} and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts."
+							"You turn into a potted plant until the start of your next turn. While a plant, you are {@condition Incapable} and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts."
 						],
 						[
 							"43-44",
@@ -3762,7 +3762,7 @@
 						],
 						[
 							"67-68",
-							"You are {@condition frightened} by the nearest creature until the end of your next turn."
+							"You are {@condition Effrayé} by the nearest creature until the end of your next turn."
 						],
 						[
 							"69-70",
@@ -3774,11 +3774,11 @@
 						],
 						[
 							"73-74",
-							"A random creature within 60 feet of you becomes {@condition poisoned} for {@dice 1d4} hours."
+							"A random creature within 60 feet of you becomes {@condition Empoisonné} for {@dice 1d4} hours."
 						],
 						[
 							"75-76",
-							"You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is {@condition blinded} until the end of its next turn."
+							"You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is {@condition Aveuglé} until the end of its next turn."
 						],
 						[
 							"77-78",
@@ -4082,7 +4082,7 @@
 			"entries": [
 				"{@i 1st-level Aberrant Mind feature}",
 				"You can form a telepathic connection between your mind and the mind of another. As a bonus action, choose one creature you can see within 30 feet of you. You and the chosen creature can speak telepathically with each other while the two of you are within a number of miles of each other equal to your Charisma modifier (minimum of 1 mile). To understand each other, you each must speak mentally in a language the other knows.",
-				"The telepathic connection lasts for a number of minutes equal to your sorcerer level. It ends early if you are {@condition incapacitated} or die or if you use this ability to form a connection with a different creature."
+				"The telepathic connection lasts for a number of minutes equal to your sorcerer level. It ends early if you are {@condition Incapable} or die or if you use this ability to form a connection with a different creature."
 			]
 		},
 		{
@@ -4113,7 +4113,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 6th-level Aberrant Mind feature}",
-				"You gain resistance to psychic damage, and you have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+				"You gain resistance to psychic damage, and you have advantage on saving throws against being {@condition Charmé} or {@condition Effrayé}."
 			]
 		},
 		{
@@ -4135,7 +4135,7 @@
 						"You can see any {@condition invisible} creature within 60 feet of you, provided it isn't behind {@quickref Cover||3||total cover}. Your eyes also turn black or become writhing sensory tendrils.",
 						"You gain a flying speed equal to your walking speed, and you can hover. As you fly, your skin glistens with mucus or shines with an otherworldly light.",
 						"You gain a swimming speed equal to twice your walking speed, and you can breathe underwater. Moreover, gills grow from your neck or fan out from behind your ears, your fingers become webbed, or you grow writhing cilia that extend through your clothing.",
-						"Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+						"Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being {@condition Agrippé}."
 					]
 				}
 			]
@@ -4441,7 +4441,7 @@
 				"name": "Sorcery Point"
 			},
 			"entries": [
-				"Starting at 6th level, the divine energy coursing through you can empower healing spells. Whenever you or an ally within 5 feet of you rolls dice to determine the number of hit points a spell restores, you can spend 1 sorcery point to reroll any number of those dice once, provided you aren't {@condition incapacitated}. You can use this feature only once per turn."
+				"Starting at 6th level, the divine energy coursing through you can empower healing spells. Whenever you or an ally within 5 feet of you rolls dice to determine the number of hit points a spell restores, you can spend 1 sorcery point to reroll any number of those dice once, provided you aren't {@condition Incapable}. You can use this feature only once per turn."
 			]
 		},
 		{
@@ -4455,7 +4455,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you can use a bonus action to manifest a pair of spectral wings from your back. While the wings are present, you have a flying speed of 30 feet. The wings last until you're {@condition incapacitated}, you die, or you dismiss them as a bonus action.",
+				"Starting at 14th level, you can use a bonus action to manifest a pair of spectral wings from your back. While the wings are present, you have a flying speed of 30 feet. The wings last until you're {@condition Incapable}, you die, or you dismiss them as a bonus action.",
 				"The affinity you chose for your Divine Magic feature determines the appearance of the spectral wings: eagle wings for good or law, bat wings for evil or chaos, and dragonfly wings for neutrality."
 			]
 		},
@@ -4545,7 +4545,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you have {@sense darkvision} with a range of 120 feet.",
+				"Starting at 1st level, you have {@sense Vision dans le noir} with a range of 120 feet.",
 				"When you reach 3rd level in this class, you learn the {@spell darkness} spell, which doesn't count against your number of sorcerer spells known. In addition, you can cast it by spending 2 sorcery points or by expending a spell slot. If you cast it with sorcery points, you can see through the {@spell darkness} created by the spell."
 			]
 		},
@@ -4622,7 +4622,7 @@
 			},
 			"entries": [
 				"Starting at 18th level, you can spend 6 sorcery points as a bonus action to magically transform yourself into a shadowy form. In this form, you have resistance to all damage except force and radiant damage, and you can move through other creatures and objects as if they were {@quickref difficult terrain||3}. You take 5 force damage if you end your turn inside an object.",
-				"You remain in this form for 1 minute. It ends early if you are {@condition incapacitated}, if you die, or if you dismiss it as a bonus action."
+				"You remain in this form for 1 minute. It ends early if you are {@condition Incapable}, if you die, or if you dismiss it as a bonus action."
 			]
 		},
 		{
@@ -4791,7 +4791,7 @@
 			"subclassSource": "FRHoF",
 			"level": 3,
 			"entries": [
-				"When you spend at least 1 Sorcery Point as part of the {@action Magic|XPHB} action or a {@variantrule Bonus Action|XPHB} on your turn, you can unleash one of the following magical effects of your choice. You can do so only once per turn.",
+				"When you spend at least 1 Sorcery Point as part of the {@action Magie|XPHB} action or a {@variantrule Bonus Action|XPHB} on your turn, you can unleash one of the following magical effects of your choice. You can do so only once per turn.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Bolstering Flames|Sorcerer|XPHB|Spellfire|FRHoF|3|FRHoF"
@@ -4933,7 +4933,7 @@
 					"name": "Spell Avoidance",
 					"page": 8,
 					"entries": [
-						"When you're subjected to a spell or magical effect that allows you to make a saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this benefit if you have the {@condition Incapacitated|XPHB} condition."
+						"When you're subjected to a spell or magical effect that allows you to make a saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this benefit if you have the {@condition Incapable|XPHB} condition."
 					]
 				}
 			]
@@ -5016,7 +5016,7 @@
 					"type": "entries",
 					"name": "Eyes of the Dark",
 					"entries": [
-						"You have {@sense Darkvision|XPHB} with a range of 120 feet and {@sense Blindsight|XPHB} with a range of 10 feet. In addition, if a spell you cast creates an area of {@variantrule Darkness|XPHB}, you can see normally through that spell's Darkness."
+						"You have {@sense Vision dans le noir|XPHB} with a range of 120 feet and {@sense Perception aveugle|XPHB} with a range of 10 feet. In addition, if a spell you cast creates an area of {@variantrule Darkness|XPHB}, you can see normally through that spell's Darkness."
 					]
 				},
 				{
@@ -5361,7 +5361,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You have {@variantrule Resistance|XPHB} to Psychic damage, and you have {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Charmed|XPHB} or {@condition Frightened|XPHB} condition."
+				"You have {@variantrule Resistance|XPHB} to Psychic damage, and you have {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Charmé|XPHB} or {@condition Effrayé|XPHB} condition."
 			]
 		},
 		{
@@ -5404,7 +5404,7 @@
 							"type": "entries",
 							"name": "Wormlike Movement",
 							"entries": [
-								"Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch, and you can spend 5 feet of movement to escape from nonmagical restraints or the {@condition Grappled|XPHB} condition."
+								"Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch, and you can spend 5 feet of movement to escape from nonmagical restraints or the {@condition Agrippé|XPHB} condition."
 							]
 						}
 					]
@@ -5426,7 +5426,7 @@
 				"amount": 5
 			},
 			"entries": [
-				"You can unleash a space-warping anomaly. As a {@action Magic|XPHB} action, you teleport to an unoccupied space you can see within 120 feet of yourself. Immediately after you disappear, each creature within 30 feet of the space you left must make a Strength saving throw against your spell save DC. On a failed save, a creature takes {@damage 3d10} Force damage and is pulled straight toward the space you left, ending in an unoccupied space as close to your former space as possible. On a successful save, the creature takes half as much damage only.",
+				"You can unleash a space-warping anomaly. As a {@action Magie|XPHB} action, you teleport to an unoccupied space you can see within 120 feet of yourself. Immediately after you disappear, each creature within 30 feet of the space you left must make a Strength saving throw against your spell save DC. On a failed save, a creature takes {@damage 3d10} Force damage and is pulled straight toward the space you left, ending in an unoccupied space as close to your former space as possible. On a successful save, the creature takes half as much damage only.",
 				"Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB} unless you spend 5 Sorcery Points (no action required) to restore your use of it."
 			]
 		},
@@ -5566,7 +5566,7 @@
 				"amountMax": 5
 			},
 			"entries": [
-				"You can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. As a {@action Magic|XPHB} action, you can expend 1 to 5 Sorcery Points to create a magical ward around yourself or another creature you can see within 30 feet of yourself. The ward is represented by a number of d8s equal to the number of Sorcery Points spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice.",
+				"You can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. As a {@action Magie|XPHB} action, you can expend 1 to 5 Sorcery Points to create a magical ward around yourself or another creature you can see within 30 feet of yourself. The ward is represented by a number of d8s equal to the number of Sorcery Points spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice.",
 				"The ward lasts until you finish a {@variantrule Long Rest|XPHB} or until you use this feature again."
 			]
 		},
@@ -5604,7 +5604,7 @@
 				"amount": 7
 			},
 			"entries": [
-				"You momentarily summon spirits of order to expunge disorder around you. As a {@action Magic|XPHB} action, you summon the spirits in a 30-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} originating from you. The spirits look like modrons or other Constructs of your choice. The spirits are intangible and invulnerable, and they create the effects below within the {@variantrule Cube [Area of Effect]|XPHB|Cube} before vanishing. Once you use this action, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you spend 7 Sorcery Points (no action required) to restore your use of it.",
+				"You momentarily summon spirits of order to expunge disorder around you. As a {@action Magie|XPHB} action, you summon the spirits in a 30-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} originating from you. The spirits look like modrons or other Constructs of your choice. The spirits are intangible and invulnerable, and they create the effects below within the {@variantrule Cube [Area of Effect]|XPHB|Cube} before vanishing. Once you use this action, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you spend 7 Sorcery Points (no action required) to restore your use of it.",
 				{
 					"type": "entries",
 					"entries": [
@@ -5875,7 +5875,7 @@
 						],
 						[
 							"37\u201340",
-							"You turn into a potted plant until the start of your next turn. While you're a plant, you have the {@condition Incapacitated|XPHB} condition and have {@variantrule Vulnerability|XPHB} to all damage. If you drop to 0 {@variantrule Hit Points|XPHB}, your pot breaks, and your form reverts."
+							"You turn into a potted plant until the start of your next turn. While you're a plant, you have the {@condition Incapable|XPHB} condition and have {@variantrule Vulnerability|XPHB} to all damage. If you drop to 0 {@variantrule Hit Points|XPHB}, your pot breaks, and your form reverts."
 						],
 						[
 							"41\u201344",
@@ -5907,7 +5907,7 @@
 						],
 						[
 							"69\u201372",
-							"You have the {@condition Frightened|XPHB} condition until the end of your next turn. The DM determines the source of your fear."
+							"You have the {@condition Effrayé|XPHB} condition until the end of your next turn. The DM determines the source of your fear."
 						],
 						[
 							"73\u201376",
@@ -5915,11 +5915,11 @@
 						],
 						[
 							"77\u201380",
-							"A random creature within 60 feet of you has the {@condition Poisoned|XPHB} condition for {@dice 1d4} hours."
+							"A random creature within 60 feet of you has the {@condition Empoisonné|XPHB} condition for {@dice 1d4} hours."
 						],
 						[
 							"81\u201384",
-							"You radiate {@variantrule Bright Light|XPHB} in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you has the {@condition Blinded|XPHB} condition until the end of its next turn."
+							"You radiate {@variantrule Bright Light|XPHB} in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you has the {@condition Aveuglé|XPHB} condition until the end of its next turn."
 						],
 						[
 							"85\u201388",

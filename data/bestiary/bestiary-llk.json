@@ -113,7 +113,7 @@
 				{
 					"name": "Mind Blast {@recharge 5}",
 					"entries": [
-						"The brain in a jar magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 13 ({@damage 2d8 + 4}) psychic damage and be {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The brain in a jar magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 13 ({@damage 2d8 + 4}) psychic damage and be {@condition Étourdi} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -454,7 +454,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Garret wears a {@item Ring of Warmth} (included in his statistics) and wields a {@item Gambler's Blade longsword|LLK}."
+						"Garret wears a {@item Anneau de chaleur} (included in his statistics) and wields a {@item Gambler's Blade longsword|LLK}."
 					]
 				},
 				{
@@ -466,13 +466,13 @@
 				{
 					"name": "Cunning Action",
 					"entries": [
-						"On each of his turns, Garret can use a bonus action to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+						"On each of his turns, Garret can use a bonus action to take the {@action Course}, {@action Désengagement}, or {@action Se cacher} action."
 					]
 				},
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"Garret deals an extra 7 ({@damage 2d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Garret that isn't {@condition incapacitated} and Garret doesn't have disadvantage on the attack roll."
+						"Garret deals an extra 7 ({@damage 2d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Garret that isn't {@condition Incapable} and Garret doesn't have disadvantage on the attack roll."
 					]
 				}
 			],
@@ -544,7 +544,7 @@
 						"items": {
 							"name": "Unique Programming",
 							"entries": [
-								"Gearbox's unique programming allows the modron to function as an {@item Orb of Direction|XGE} and an {@item Orb of Time|XGE}, to cast the {@spell light} cantrip at will, and to grant other characters advantage on Dexterity checks made with thieves' tools and on ability checks made to identify or operate mechanical or laboratory equipment."
+								"Gearbox's unique programming allows the modron to function as an {@item Orbe de la direction|XGE} and an {@item Orbe du temps|XGE}, to cast the {@spell light} cantrip at will, and to grant other characters advantage on Dexterity checks made with thieves' tools and on ability checks made to identify or operate mechanical or laboratory equipment."
 							]
 						}
 					}
@@ -616,8 +616,8 @@
 				{
 					"name": "Petrifying Gaze",
 					"entries": [
-						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 14} Constitution saving throw if the medusa isn't {@condition incapacitated} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition petrified}. Otherwise, a creature that fails the save begins to turn to glass and is {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic.",
-						"Unless {@status surprised}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.",
+						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 14} Constitution saving throw if the medusa isn't {@condition Incapable} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition Pétrifié}. Otherwise, a creature that fails the save begins to turn to glass and is {@condition Entravé}. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn, becoming {@condition Pétrifié} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic.",
+						"Unless {@status Surpris}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.",
 						"If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze."
 					]
 				}
@@ -651,8 +651,8 @@
 				{
 					"ac": 12,
 					"from": [
-						"{@item Bracers of Defense}",
-						"{@item Ring of Protection}"
+						"{@item Brassards de défense}",
+						"{@item Anneau de protection}"
 					]
 				}
 			],
@@ -724,19 +724,19 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Mary wears {@item Bracers of Defense} and a {@item Ring of Protection}, and carries a {@item Deck of Several Things|LLK}"
+						"Mary wears {@item Brassards de défense} and a {@item Anneau de protection}, and carries a {@item Cartes de plusieurs choses|LLK}"
 					]
 				},
 				{
 					"name": "Fey Presence (Recharges after a Short Rest)",
 					"entries": [
-						"Mary can cause each creature within 10 feet of her to succeed on a {@dc 12} Wisdom saving throw or become {@condition charmed} or {@condition frightened} by her (Mary's choice) until the end of her next turn."
+						"Mary can cause each creature within 10 feet of her to succeed on a {@dc 12} Wisdom saving throw or become {@condition Charmé} or {@condition Effrayé} by her (Mary's choice) until the end of her next turn."
 					]
 				},
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Mary has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+						"Mary has advantage on saving throws against being {@condition Charmé}, and magic can't put her to sleep."
 					]
 				}
 			],
@@ -817,7 +817,7 @@
 							{
 								"name": "Vorpal Claws",
 								"entries": [
-									"Shards of a {@item vorpal sword} once broken against the devil replace its claws. A successful {@dc 12} Intelligence ({@skill Arcana}) or Wisdom ({@skill Perception}) check identifies them as such. When the devil rolls a 20 on an attack roll with a claw, the target is decapitated. (At your option, the attack can instead deal an extra {@damage 6d8} slashing damage.) A target is immune to this effect if it is immune to slashing damage, has legendary actions, doesn't have or need a head, or if you decide that the target is too large for its head to be cut off by the devil's claws. If removed, the shards lose their magical powers."
+									"Shards of a {@item vorpal sword} once broken against the devil replace its claws. A successful {@dc 12} Intelligence ({@skill Arcanes}) or Wisdom ({@skill Perception}) check identifies them as such. When the devil rolls a 20 on an attack roll with a claw, the target is decapitated. (At your option, the attack can instead deal an extra {@damage 6d8} slashing damage.) A target is immune to this effect if it is immune to slashing damage, has legendary actions, doesn't have or need a head, or if you decide that the target is too large for its head to be cut off by the devil's claws. If removed, the shards lose their magical powers."
 								]
 							},
 							{
@@ -852,7 +852,7 @@
 						"items": {
 							"name": "Hooked Polearm",
 							"entries": [
-								"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 10}). Until this grapple ends, the monk cannot use its polearm on another target."
+								"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a Medium or smaller creature, it is {@condition Agrippé} (escape {@dc 10}). Until this grapple ends, the monk cannot use its polearm on another target."
 							]
 						}
 					}
@@ -910,7 +910,7 @@
 				{
 					"name": "Transparent",
 					"entries": [
-						"Even when an ooze-folk is in plain sight, it takes a {@dc 12} Wisdom ({@skill Perception}) check to spot an ooze-folk that has neither moved nor attacked. A creature that tries to enter the ooze-folk's space while unaware of the ooze-folk is {@status surprised} by the ooze-folk."
+						"Even when an ooze-folk is in plain sight, it takes a {@dc 12} Wisdom ({@skill Perception}) check to spot an ooze-folk that has neither moved nor attacked. A creature that tries to enter the ooze-folk's space while unaware of the ooze-folk is {@status Surpris} by the ooze-folk."
 					]
 				},
 				{
@@ -978,7 +978,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"West Wind is armed with a longsword that is a {@item blade of the medusa|LLK}."
+								"West Wind is armed with a longsword that is a {@item Lame de la Méduse|LLK}."
 							]
 						}
 					},

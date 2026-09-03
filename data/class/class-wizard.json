@@ -89,20 +89,20 @@
 					}
 				],
 				"weapons": [
-					"{@item dagger|phb|daggers}",
-					"{@item dart|phb|darts}",
-					"{@item sling|phb|slings}",
-					"{@item quarterstaff|phb|quarterstaffs}",
-					"{@item light crossbow|phb|light crossbows}"
+					"{@item Dague|phb|daggers}",
+					"{@item Fléchette|phb|darts}",
+					"{@item Fronde|phb|slings}",
+					"{@item Bâton|phb|quarterstaffs}",
+					"{@item Arbalète légère|phb|light crossbows}"
 				]
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item quarterstaff|phb} or (b) a {@item dagger|phb}",
-					"(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
-					"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"A {@item spellbook|phb}"
+					"(a) a {@item Bâton|phb} or (b) a {@item Dague|phb}",
+					"(a) a {@item Sacoche à composantes|phb} or (b) an {@item arcane focus|phb}",
+					"(a) a {@item Paquetage de l'érudit|phb} or (b) an {@item Pack d'explorateur|phb}",
+					"A {@item Livre de sorts|phb}"
 				],
 				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -636,7 +636,7 @@
 					}
 				],
 				"entries": [
-					"{@i Choose A or B:} (A) 2 {@item Dagger|XPHB|Daggers}, {@item Arcane Focus|XPHB} ({@item Quarterstaff|XPHB}), {@item Robe|XPHB}, Spellbook, {@item Scholar's Pack|XPHB}, and 5 GP; or (B) 55 GP"
+					"{@i Choose A or B:} (A) 2 {@item Dague|XPHB|Daggers}, {@item Arcane Focus|XPHB} ({@item Bâton|XPHB}), {@item Robe|XPHB}, Spellbook, {@item Paquetage de l'érudit|XPHB}, and 5 GP; or (B) 55 GP"
 				]
 			},
 			"multiclassing": {},
@@ -2080,7 +2080,7 @@
 											"source": "DMG",
 											"page": 139,
 											"entries": [
-												"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When you copy a spell from a spell scroll, you must succeed on an Intelligence ({@skill Arcana}) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+												"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When you copy a spell from a spell scroll, you must succeed on an Intelligence ({@skill Arcanes}) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
 											]
 										}
 									]
@@ -2410,7 +2410,7 @@
 			"classSource": "XPHB",
 			"level": 2,
 			"entries": [
-				"While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency: {@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Medicine|XPHB}, {@skill Nature|XPHB}, or {@skill Religion|XPHB}. You have {@variantrule Expertise|XPHB} in the chosen skill."
+				"While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency: {@skill Arcanes|XPHB}, {@skill Histoire|XPHB}, {@skill Investigation|XPHB}, {@skill Médecine|XPHB}, {@skill Nature|XPHB}, or {@skill Religion|XPHB}. You have {@variantrule Expertise|XPHB} in the chosen skill."
 			]
 		},
 		{
@@ -2436,7 +2436,7 @@
 			"classSource": "XPHB",
 			"level": 4,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16."
 			]
 		},
 		{
@@ -2475,7 +2475,7 @@
 			"classSource": "XPHB",
 			"level": 8,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2501,7 +2501,7 @@
 			"classSource": "XPHB",
 			"level": 12,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2527,7 +2527,7 @@
 			"classSource": "XPHB",
 			"level": 16,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2554,7 +2554,7 @@
 			"classSource": "XPHB",
 			"level": 19,
 			"entries": [
-				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Spell Recall|XPHB} is recommended."
+				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Don du rappel de sort|XPHB} is recommended."
 			]
 		},
 		{
@@ -2637,7 +2637,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 6th-level Chronurgy Magic feature}",
-				"As an action, you can magically force a Large or smaller creature you can see within 60 feet of you to make a Constitution saving throw against your spell save DC. Unless the saving throw is a success, the creature is encased in a field of magical energy until the end of your next turn or until the creature takes any damage. While encased in this way, the creature is {@condition incapacitated} and has a speed of 0.",
+				"As an action, you can magically force a Large or smaller creature you can see within 60 feet of you to make a Constitution saving throw against your spell save DC. Unless the saving throw is a success, the creature is encased in a field of magical energy until the end of your next turn or until the creature takes any damage. While encased in this way, the creature is {@condition Incapable} and has a speed of 0.",
 				"You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a long rest."
 			]
 		},
@@ -2671,7 +2671,7 @@
 			"entries": [
 				"{@i 14th-level Chronurgy Magic feature}",
 				"You can peer through possible futures and magically pull one of them into events around you, ensuring a particular outcome. When you or a creature you can see within 60 feet of you makes an attack roll, an ability check, or a saving throw, you can use your reaction to ignore the die roll and decide whether the number rolled is the minimum needed to succeed or one less than that number (your choice).",
-				"When you use this feature, you gain one level of {@condition exhaustion}. Only by finishing a long rest can you remove a level of {@condition exhaustion} gained in this way."
+				"When you use this feature, you gain one level of {@condition Épuisement}. Only by finishing a long rest can you remove a level of {@condition Épuisement} gained in this way."
 			]
 		},
 		{
@@ -3020,7 +3020,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, you can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you are {@condition incapacitated} or you take a short or long rest. You can't use the feature again until you finish a rest.",
+				"Starting at 10th level, you can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you are {@condition Incapable} or you take a short or long rest. You can't use the feature again until you finish a rest.",
 				{
 					"type": "options",
 					"entries": [
@@ -3028,7 +3028,7 @@
 							"type": "entries",
 							"name": "Darkvision",
 							"entries": [
-								"You gain {@sense darkvision} out to a range of 60 feet."
+								"You gain {@sense Vision dans le noir} out to a range of 60 feet."
 							]
 						},
 						{
@@ -3116,7 +3116,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level when you choose this school, your soft words and enchanting gaze can magically enthrall another creature. As an action, choose one creature that you can see within 5 feet of you. If the target can see or hear you, it must succeed on a Wisdom saving throw against your wizard spell save DC or be {@condition charmed} by you until the end of your next turn. The {@condition charmed} creature's speed drops to 0, and the creature is {@condition incapacitated} and visibly dazed.",
+				"Starting at 2nd level when you choose this school, your soft words and enchanting gaze can magically enthrall another creature. As an action, choose one creature that you can see within 5 feet of you. If the target can see or hear you, it must succeed on a Wisdom saving throw against your wizard spell save DC or be {@condition Charmé} by you until the end of your next turn. The {@condition Charmé} creature's speed drops to 0, and the creature is {@condition Incapable} and visibly dazed.",
 				"On subsequent turns, you can use your action to maintain this effect, extending its duration until the end of your next turn. However, the effect ends if you move more than 5 feet away from the creature, if the creature can neither see nor hear you, or if the creature takes damage.",
 				"Once the effect ends, or if the creature succeeds on its initial saving throw against this effect, you can't use this feature on that creature again until you finish a long rest."
 			]
@@ -3133,7 +3133,7 @@
 			"header": 2,
 			"entries": [
 				"Beginning at 6th level, when a creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to divert the attack, provided that another creature is within the attack's range. The attacker must make a Wisdom saving throw against your wizard spell save DC. On a failed save, the attacker must target the creature that is closest to it, not including you or itself. If multiple creatures are closest, the attacker chooses which one to target. On a successful save, you can't use this feature on the attacker again until you finish a long rest.",
-				"You must choose to use this feature before knowing whether the attack hits or misses. Creatures that can't be {@condition charmed} are immune to this effect."
+				"You must choose to use this feature before knowing whether the attack hits or misses. Creatures that can't be {@condition Charmé} are immune to this effect."
 			]
 		},
 		{
@@ -3161,8 +3161,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you gain the ability to make a creature unaware of your magical influence on it. When you cast an enchantment spell to charm one or more creatures, you can alter one creature's understanding so that it remains unaware of being {@condition charmed}.",
-				"Additionally, once before the spell expires, you can use your action to try to make the chosen creature forget some of the time it spent {@condition charmed}. The creature must succeed on an Intelligence saving throw against your wizard spell save DC or lose a number of hours of its memories equal to 1 + your Charisma modifier (minimum of 1). You can make the creature forget less time, and the amount of time can't exceed the duration of your enchantment spell."
+				"At 14th level, you gain the ability to make a creature unaware of your magical influence on it. When you cast an enchantment spell to charm one or more creatures, you can alter one creature's understanding so that it remains unaware of being {@condition Charmé}.",
+				"Additionally, once before the spell expires, you can use your action to try to make the chosen creature forget some of the time it spent {@condition Charmé}. The creature must succeed on an Intelligence saving throw against your wizard spell save DC or lose a number of hours of its memories equal to 1 + your Charisma modifier (minimum of 1). You can make the creature forget less time, and the amount of time can't exceed the duration of your enchantment spell."
 			]
 		},
 		{
@@ -3694,14 +3694,14 @@
 			"header": 1,
 			"entries": [
 				"Starting at 2nd level, you can invoke a secret elven magic called the Bladesong, provided you aren't wearing medium or heavy armor or using a shield. It graces you with supernatural speed, agility, and focus.",
-				"You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are {@condition incapacitated}, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss Bladesong at any time you choose (no action required).",
+				"You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are {@condition Incapable}, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss Bladesong at any time you choose (no action required).",
 				"While your bladesong is active, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
 						"You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1).",
 						"Your walking speed increases by 10 feet.",
-						"You have advantage on Dexterity ({@skill Acrobatics}) checks.",
+						"You have advantage on Dexterity ({@skill Acrobaties}) checks.",
 						"You gain a bonus to any Constitution saving throws you make to maintain {@status concentration} on a spell. The bonus equals your Intelligence modifier (minimum of +1)."
 					]
 				},
@@ -3726,7 +3726,7 @@
 			"header": 1,
 			"entries": [
 				"When you adopt this tradition at 2nd level, you gain proficiency with light armor, and you gain proficiency with one type of one-handed melee weapon of your choice.",
-				"You also gain proficiency in the {@skill Performance} skill if you don't already have it."
+				"You also gain proficiency in the {@skill Représentation} skill if you don't already have it."
 			]
 		},
 		{
@@ -3746,7 +3746,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks."
+				"Starting at 6th level, you can attack twice, instead of once, whenever you take the {@action Attaque} action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks."
 			]
 		},
 		{
@@ -3873,7 +3873,7 @@
 			"entries": [
 				"{@i 6th-level Order of Scribes feature}",
 				"You can conjure forth the mind of your Awakened Spellbook. As a bonus action while the book is on your person, you can cause the mind to manifest as a Tiny spectral object, hovering in an unoccupied space of your choice within 60 feet of you. The spectral mind is intangible and doesn't occupy its space, and it sheds dim light in a 10-foot radius. It looks like a ghostly tome, a cascade of text, or a scholar from the past (your choice).",
-				"While manifested, the spectral mind can hear and see, and it has {@sense darkvision} with a range of 60 feet. The mind can telepathically share with you what it sees and hears (no action required).",
+				"While manifested, the spectral mind can hear and see, and it has {@sense Vision dans le noir} with a range of 60 feet. The mind can telepathically share with you what it sees and hears (no action required).",
 				"Whenever you cast a wizard spell on your turn, you can cast it as if you were in the spectral mind's space, instead of your own, using its senses. You can do so a number of times per day equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
 				"As a bonus action, you can cause the spectral mind to hover up to 30 feet to an unoccupied space that you or it can see. It can pass through creatures but not objects.",
 				"The spectral mind stops manifesting if it is ever more than 300 feet away from you, if someone casts {@spell dispel magic} on it, if the Awakened Spellbook is destroyed, if you die, or if you dismiss the spectral mind as a bonus action.",
@@ -3909,7 +3909,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 14th-level Order of Scribes feature}",
-				"Your connection to your Awakened Spellbook has become so profound that your soul has become entwined with it. While the book is on your person, you have advantage on all Intelligence ({@skill Arcana}) checks, as the spellbook helps you remember magical lore.",
+				"Your connection to your Awakened Spellbook has become so profound that your soul has become entwined with it. While the book is on your person, you have advantage on all Intelligence ({@skill Arcanes}) checks, as the spellbook helps you remember magical lore.",
 				"Moreover, if you take damage while your spellbook's mind is manifested, you can prevent all of that damage to you by using your reaction to dismiss the spectral mind, using its magic to save yourself. Then roll {@dice 3d6}. The spellbook temporarily loses spells of your choice that have a combined spell level equal to that roll or higher. For example, if the roll's total is 9, spells vanish from the book that have a combined level of at least 9, which could mean one 9th-level spell, three 3rd-level spells, or some other combination. If there aren't enough spells in the book to cover this cost, you drop to 0 hit points.",
 				"Until you finish {@dice 1d6} long rests, you are incapable of casting the lost spells, even if you find them on a scroll or in another spellbook. After you finish the required number of rests, the spells reappear in the spellbook.",
 				"Once you use this reaction, you can't do so again until you finish a long rest."
@@ -4087,13 +4087,13 @@
 			"level": 3,
 			"entries": [
 				"As a {@variantrule Bonus Action|XPHB}, you invoke an elven magic called the Bladesong, provided you aren't wearing armor or using a Shield.",
-				"The Bladesong lasts for 1 minute and ends early if you have the {@condition Incapacitated|XPHB} condition, if you don armor or a Shield, or if you use two hands to make an attack with a weapon. You can dismiss the Bladesong at any time (no action required).",
+				"The Bladesong lasts for 1 minute and ends early if you have the {@condition Incapable|XPHB} condition, if you don armor or a Shield, or if you use two hands to make an attack with a weapon. You can dismiss the Bladesong at any time (no action required).",
 				"While the Bladesong is active, you gain the following benefits. You can invoke the Bladesong a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. You regain one expended use when you use Arcane Recovery.",
 				{
 					"type": "entries",
 					"name": "Agility",
 					"entries": [
-						"You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1), and your {@variantrule Speed|XPHB} increases by 10 feet. In addition, you have {@variantrule Advantage|XPHB} on Dexterity ({@skill Acrobatics|XPHB}) checks."
+						"You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1), and your {@variantrule Speed|XPHB} increases by 10 feet. In addition, you have {@variantrule Advantage|XPHB} on Dexterity ({@skill Acrobaties|XPHB}) checks."
 					]
 				},
 				{
@@ -4123,7 +4123,7 @@
 			"level": 3,
 			"entries": [
 				"You gain proficiency with all Melee Martial weapons that don't have the {@itemProperty 2H|XPHB|Two-Handed} or {@itemProperty H|XPHB|Heavy} property. You can use a Melee weapon with which you have proficiency as a {@variantrule Spellcasting Focus|XPHB} for your Wizard spells.",
-				"You also gain proficiency in one of the following skills of your choice: {@skill Acrobatics|XPHB}, {@skill Athletics|XPHB}, {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}."
+				"You also gain proficiency in one of the following skills of your choice: {@skill Acrobaties|XPHB}, {@skill Athlétisme|XPHB}, {@skill Représentation|XPHB}, or {@skill Persuasion|XPHB}."
 			]
 		},
 		{
@@ -4137,7 +4137,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You can attack twice, instead of once, whenever you take the {@action Attack|XPHB} action on your turn. Moreover, you can cast {@filter one of your Wizard cantrips that has a casting time of an action|spells|level=0|class=wizard|cast time=action} in place of one of those attacks."
+				"You can attack twice, instead of once, whenever you take the {@action Attaque|XPHB} action on your turn. Moreover, you can cast {@filter one of your Wizard cantrips that has a casting time of an action|spells|level=0|class=wizard|cast time=action} in place of one of those attacks."
 			]
 		},
 		{
@@ -4582,7 +4582,7 @@
 							"type": "entries",
 							"name": "Darkvision",
 							"entries": [
-								"You gain {@sense Darkvision|XPHB} with a range of 120 feet."
+								"You gain {@sense Vision dans le noir|XPHB} with a range of 120 feet."
 							]
 						},
 						{

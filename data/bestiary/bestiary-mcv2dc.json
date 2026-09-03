@@ -70,7 +70,7 @@
 				{
 					"name": "Ghastly Visions",
 					"entries": [
-						"Each creature that starts its turn within 30 feet of the dream eater must make a {@dc 16} Wisdom saving throw. On a failed save, the creature is {@condition frightened} of the dream eater until the start of the creature's next turn. If a creature's saving throw is successful, the creature is immune to this dream eater's Ghastly Visions trait for the next 24 hours."
+						"Each creature that starts its turn within 30 feet of the dream eater must make a {@dc 16} Wisdom saving throw. On a failed save, the creature is {@condition Effrayé} of the dream eater until the start of the creature's next turn. If a creature's saving throw is successful, the creature is immune to this dream eater's Ghastly Visions trait for the next 24 hours."
 					]
 				},
 				{
@@ -105,7 +105,7 @@
 					"name": "Engulfing Nightmare",
 					"entries": [
 						"The dream eater targets one creature within 5 feet of itself. The target must succeed on a {@dc 16} Wisdom saving throw or be engulfed by the dream eater, as the dream eater envelops the creature in a miasma of its worst fears.",
-						"When the dream eater engulfs a target, the dream eater enters its space, and the target immediately takes 10 ({@damage 3d6}) psychic damage. An engulfed target is {@condition restrained} and {@condition blinded}, and it takes an additional 10 ({@damage 3d6}) psychic damage at the start of each of the dream eater's turns. When the dream eater moves, the engulfed target moves with it.",
+						"When the dream eater engulfs a target, the dream eater enters its space, and the target immediately takes 10 ({@damage 3d6}) psychic damage. An engulfed target is {@condition Entravé} and {@condition Aveuglé}, and it takes an additional 10 ({@damage 3d6}) psychic damage at the start of each of the dream eater's turns. When the dream eater moves, the engulfed target moves with it.",
 						"The dream eater can have only one target engulfed at a time. An engulfed target escapes at the start of its turn by making a {@dc 16} Wisdom saving throw. On a successful save, the target escapes; the target is no longer engulfed, and it enters a space of its choice within 5 feet of the dream eater. A creature within 15 feet of the dream eater also can use its action to attempt to free an engulfed target. Doing so requires the creature to use its action to make a {@dc 16} Charisma ({@skill Persuasion}) check to convince the engulfed target the nightmare isn't real, with the target escaping on a success. The creature making the check takes 10 ({@damage 3d6}) psychic damage, regardless of the check's success or failure, as its mind brushes against the nightmare."
 					]
 				}
@@ -215,7 +215,7 @@
 				{
 					"name": "Calescent Aura",
 					"entries": [
-						"At the start of Ember's turn, Ember can force any number of creatures of his choice within 10 feet of himself to make a {@dc 22} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) fire damage and is {@condition frightened} of Ember until the start of its next turn."
+						"At the start of Ember's turn, Ember can force any number of creatures of his choice within 10 feet of himself to make a {@dc 22} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) fire damage and is {@condition Effrayé} of Ember until the start of its next turn."
 					]
 				},
 				{
@@ -253,7 +253,7 @@
 				{
 					"name": "Firestorm Breath {@recharge 5}",
 					"entries": [
-						"Ember exhales roiling flames and ash in a 90-foot cone. Each creature in that area must make a {@dc 22} Dexterity saving throw. On a failed save, a creature takes 56 ({@damage 16d6}) fire damage and is pushed up to 30 feet away from Ember and knocked {@condition prone}. On a successful save, a creature takes half as much damage with no other effects. If a creature is reduced to 0 hit points by this effect, the creature immediately dies, and its body is reduced to ash."
+						"Ember exhales roiling flames and ash in a 90-foot cone. Each creature in that area must make a {@dc 22} Dexterity saving throw. On a failed save, a creature takes 56 ({@damage 16d6}) fire damage and is pushed up to 30 feet away from Ember and knocked {@condition À terre}. On a successful save, a creature takes half as much damage with no other effects. If a creature is reduced to 0 hit points by this effect, the creature immediately dies, and its body is reduced to ash."
 					]
 				}
 			],
@@ -518,7 +518,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|PHB}"
+						"{@item Harnois de plaques|PHB}"
 					]
 				}
 			],
@@ -866,13 +866,13 @@
 				{
 					"name": "Mirage Flare",
 					"entries": [
-						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 60 ft., one target. {@h}11 ({@damage 2d6 + 4}) radiant damage, and the target must succeed on a {@dc 14} Wisdom saving throw or be {@condition charmed} by the veil keeper until the start of the veil keeper's next turn. While {@condition charmed} in this way, a creature is {@condition incapacitated} as it is beset by hypnotic, illusory visions."
+						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 60 ft., one target. {@h}11 ({@damage 2d6 + 4}) radiant damage, and the target must succeed on a {@dc 14} Wisdom saving throw or be {@condition Charmé} by the veil keeper until the start of the veil keeper's next turn. While {@condition Charmé} in this way, a creature is {@condition Incapable} as it is beset by hypnotic, illusory visions."
 					]
 				},
 				{
 					"name": "Augment Physicality (1/Day)",
 					"entries": [
-						"For 1 minute, the veil keeper magically obscures it location, heightens its physical ability, and increases in size, along with anything it is wearing or carrying. While the veil keeper is augmented, attack rolls against it have disadvantage, it is Large, and it makes Strength and Dexterity saving throws with advantage. If the veil keeper lacks the room to become Large, it attains the maximum size possible in the space available. These augmentations end if the veil keeper is {@condition incapacitated}."
+						"For 1 minute, the veil keeper magically obscures it location, heightens its physical ability, and increases in size, along with anything it is wearing or carrying. While the veil keeper is augmented, attack rolls against it have disadvantage, it is Large, and it makes Strength and Dexterity saving throws with advantage. If the veil keeper lacks the room to become Large, it attains the maximum size possible in the space available. These augmentations end if the veil keeper is {@condition Incapable}."
 					]
 				},
 				{
@@ -945,7 +945,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -1015,7 +1015,7 @@
 				{
 					"name": "Flash Powder",
 					"entries": [
-						"If the inventor is damaged by a creature it can see within 15 feet of itself, the inventor retaliates by flinging brilliantly explosive powder at the creature. The creature must succeed on a {@dc 14} Dexterity saving throw or be {@condition blinded} until the end of its next turn."
+						"If the inventor is damaged by a creature it can see within 15 feet of itself, the inventor retaliates by flinging brilliantly explosive powder at the creature. The creature must succeed on a {@dc 14} Dexterity saving throw or be {@condition Aveuglé} until the end of its next turn."
 					]
 				}
 			],
@@ -1065,7 +1065,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -1129,7 +1129,7 @@
 				{
 					"name": "Clockwork Claw",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 20 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, and if the target is a Medium or smaller creature, the target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target takes 10 ({@damage 3d6}) piercing damage at the start of each of the mastermind's turns. The mastermind has two claws, each of which can grapple only one target."
+						"{@atk mw} {@hit 7} to hit, reach 20 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, and if the target is a Medium or smaller creature, the target is {@condition Agrippé} (escape {@dc 15}). Until this grapple ends, the target takes 10 ({@damage 3d6}) piercing damage at the start of each of the mastermind's turns. The mastermind has two claws, each of which can grapple only one target."
 					]
 				},
 				{
@@ -1141,13 +1141,13 @@
 				{
 					"name": "Chattergrab",
 					"entries": [
-						"Parts of this gadget look like gnashing metal teeth. This gadget hurtles toward a creature the mastermind can see within 60 feet of itself. The creature must succeed on a {@dc 16} Dexterity saving throw or take 31 ({@damage 7d8}) piercing damage and be {@condition incapacitated} until the start of the mastermind's next turn."
+						"Parts of this gadget look like gnashing metal teeth. This gadget hurtles toward a creature the mastermind can see within 60 feet of itself. The creature must succeed on a {@dc 16} Dexterity saving throw or take 31 ({@damage 7d8}) piercing damage and be {@condition Incapable} until the start of the mastermind's next turn."
 					]
 				},
 				{
 					"name": "Phasmoball",
 					"entries": [
-						"The mastermind launches this gadget to a point the mastermind can see within 30 feet of itself, where the gadget unleashes a cloud of mind-warping gases in a 10-foot-radius sphere. Each creature within the sphere must succeed on a {@dc 16} Wisdom saving throw or take 11 ({@damage 2d10}) psychic damage and be {@condition frightened} of the mastermind until the start of the mastermind's next turn."
+						"The mastermind launches this gadget to a point the mastermind can see within 30 feet of itself, where the gadget unleashes a cloud of mind-warping gases in a 10-foot-radius sphere. Each creature within the sphere must succeed on a {@dc 16} Wisdom saving throw or take 11 ({@damage 2d10}) psychic damage and be {@condition Effrayé} of the mastermind until the start of the mastermind's next turn."
 					]
 				},
 				{
@@ -1210,7 +1210,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item hide armor|PHB}"
+						"{@item Armure de peau|PHB}"
 					]
 				}
 			],
@@ -1256,7 +1256,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The hunter has advantage on an attack roll against a creature if at least one of the hunter's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The hunter has advantage on an attack roll against a creature if at least one of the hunter's allies is within 5 feet of the creature and the ally isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -1366,7 +1366,7 @@
 				{
 					"name": "Controlled Fall",
 					"entries": [
-						"If the draconian falls and isn't {@condition incapacitated}, it subtracts up to 50 feet from the fall when calculating the fall's damage."
+						"If the draconian falls and isn't {@condition Incapable}, it subtracts up to 50 feet from the fall when calculating the fall's damage."
 					]
 				},
 				{
@@ -1392,7 +1392,7 @@
 				{
 					"name": "Flaming Carnage {@recharge 5}",
 					"entries": [
-						"The draconian indulges its rage, wreathing itself in fire and moving up to its speed. The draconian can enter creatures' spaces during this move. During this movement, when the draconian enters a creature's space, the creature must make a {@dc 14} Dexterity saving throw. On a failed save, the creature takes 22 ({@damage 4d10}) fire damage and is knocked {@condition prone}. On a successful save, the creature takes half as much damage and is pushed to the nearest space out of the draconian's path. A creature can be affected by this draconian's Flaming Carnage only once during a turn."
+						"The draconian indulges its rage, wreathing itself in fire and moving up to its speed. The draconian can enter creatures' spaces during this move. During this movement, when the draconian enters a creature's space, the creature must make a {@dc 14} Dexterity saving throw. On a failed save, the creature takes 22 ({@damage 4d10}) fire damage and is knocked {@condition À terre}. On a successful save, the creature takes half as much damage and is pushed to the nearest space out of the draconian's path. A creature can be affected by this draconian's Flaming Carnage only once during a turn."
 					]
 				}
 			],
@@ -1543,7 +1543,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Verminaard wears {@item +2 plate armor} and wields the mace {@item Nightbringer|MCV2DC}, which grants him darkvision as well as immunity to fire damage and to the {@condition charmed} and {@condition frightened} conditions (included above)."
+						"Verminaard wears {@item +2 plate armor} and wields the mace {@item Porteur de nuit|MCV2DC}, which grants him darkvision as well as immunity to fire damage and to the {@condition Charmé} and {@condition Effrayé} conditions (included above)."
 					]
 				}
 			],
@@ -1557,7 +1557,7 @@
 				{
 					"name": "Nightbringer",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d6 + 9}) bludgeoning damage plus 10 ({@damage 4d4}) radiant damage. If the target is a creature, the target must succeed on a {@dc 20} Constitution saving throw or be {@condition blinded} until the start of Verminaard's next turn."
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d6 + 9}) bludgeoning damage plus 10 ({@damage 4d4}) radiant damage. If the target is a creature, the target must succeed on a {@dc 20} Constitution saving throw or be {@condition Aveuglé} until the start of Verminaard's next turn."
 					]
 				},
 				{

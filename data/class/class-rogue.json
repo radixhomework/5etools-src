@@ -46,13 +46,13 @@
 				],
 				"weapons": [
 					"simple",
-					"{@item hand crossbow|phb|hand crossbows}",
-					"{@item longsword|phb|longswords}",
-					"{@item rapier|phb|rapiers}",
-					"{@item shortsword|phb|shortswords}"
+					"{@item Arbalète de poing|phb|hand crossbows}",
+					"{@item Épée longue|phb|longswords}",
+					"{@item Rapière|phb|rapiers}",
+					"{@item Épée courte|phb|shortswords}"
 				],
 				"tools": [
-					"{@item thieves' tools|PHB}"
+					"{@item Outils de crocheteur|PHB}"
 				],
 				"toolProficiencies": [
 					{
@@ -71,10 +71,10 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item rapier|phb} or (b) a {@item shortsword|phb}",
-					"(a) a {@item shortbow|phb} and {@item quiver|phb} of {@item arrows (20)|phb|20 arrows} or (b) a {@item shortsword|phb}",
-					"(a) a {@item burglar's pack|phb}, (b) a {@item dungeoneer's pack|phb}, or (c) an {@item explorer's pack|phb}",
-					"{@item Leather armor|phb}, two {@item dagger|phb|daggers}, and {@item thieves' tools|phb}"
+					"(a) a {@item Rapière|phb} or (b) a {@item Épée courte|phb}",
+					"(a) a {@item Arc court|phb} and {@item Carquois|phb} of {@item Flèches (20)|phb|20 arrows} or (b) a {@item Épée courte|phb}",
+					"(a) a {@item Sac de cambrioleur|phb}, (b) a {@item Pack d'explorateur des donjons|phb}, or (c) an {@item Pack d'explorateur|phb}",
+					"{@item Armure de cuir|phb}, two {@item Dague|phb|daggers}, and {@item Outils de crocheteur|phb}"
 				],
 				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -144,7 +144,7 @@
 						}
 					],
 					"tools": [
-						"{@item thieves' tools|PHB}"
+						"{@item Outils de crocheteur|PHB}"
 					],
 					"toolProficiencies": [
 						{
@@ -515,7 +515,7 @@
 					}
 				],
 				"tools": [
-					"{@item Thieves' Tools|XPHB}"
+					"{@item Outils de crocheteur|XPHB}"
 				],
 				"toolProficiencies": [
 					{
@@ -573,7 +573,7 @@
 					}
 				],
 				"entries": [
-					"{@i Choose A or B:} (A) {@item Leather Armor|XPHB}, 2 {@item Dagger|XPHB|Daggers}, {@item Shortsword|XPHB}, {@item Shortbow|XPHB}, {@item Arrows (20)|XPHB|20 Arrows}, {@item Quiver|XPHB}, {@item Thieves' Tools|XPHB}, {@item Burglar's Pack|XPHB}, and 8 GP; or (B) 100 GP"
+					"{@i Choose A or B:} (A) {@item Armure de cuir|XPHB}, 2 {@item Dague|XPHB|Daggers}, {@item Épée courte|XPHB}, {@item Arc court|XPHB}, {@item Flèches (20)|XPHB|20 Arrows}, {@item Carquois|XPHB}, {@item Outils de crocheteur|XPHB}, {@item Sac de cambrioleur|XPHB}, and 8 GP; or (B) 100 GP"
 				]
 			},
 			"multiclassing": {
@@ -598,7 +598,7 @@
 						}
 					],
 					"tools": [
-						"{@item Thieves' Tools|XPHB}"
+						"{@item Outils de crocheteur|XPHB}"
 					],
 					"toolProficiencies": [
 						{
@@ -2146,8 +2146,8 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with {@item thieves' tools|phb}. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
-				"At 6th level, you can choose two more of your proficiencies (in skills or with {@item thieves' tools|phb}) to gain this benefit."
+				"At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with {@item Outils de crocheteur|phb}. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+				"At 6th level, you can choose two more of your proficiencies (in skills or with {@item Outils de crocheteur|phb}) to gain this benefit."
 			]
 		},
 		{
@@ -2161,7 +2161,7 @@
 			"level": 1,
 			"entries": [
 				"Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
-				"You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and you don't have disadvantage on the attack roll.",
+				"You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition Incapable}, and you don't have disadvantage on the attack roll.",
 				"The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table."
 			]
 		},
@@ -2189,7 +2189,7 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+				"Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the {@action Course}, {@action Désengagement}, or {@action Se cacher} action."
 			]
 		},
 		{
@@ -2255,7 +2255,7 @@
 			"classSource": "PHB",
 			"level": 6,
 			"entries": [
-				"At 6th level, you can choose two more of your proficiencies (in skills or with {@item thieves' tools|phb}) to gain the benefit of Expertise."
+				"At 6th level, you can choose two more of your proficiencies (in skills or with {@item Outils de crocheteur|phb}) to gain the benefit of Expertise."
 			]
 		},
 		{
@@ -2415,7 +2415,7 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't {@condition incapacitated}."
+				"Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't {@condition Incapable}."
 			]
 		},
 		{
@@ -2456,7 +2456,7 @@
 			"classSource": "XPHB",
 			"level": 1,
 			"entries": [
-				"You gain {@variantrule Expertise|XPHB} in two of your skill proficiencies of your choice. {@skill Sleight of Hand|XPHB} and {@skill Stealth|XPHB} are recommended if you have proficiency in them.",
+				"You gain {@variantrule Expertise|XPHB} in two of your skill proficiencies of your choice. {@skill Escamotage|XPHB} and {@skill Discrétion|XPHB} are recommended if you have proficiency in them.",
 				"At Rogue level 6, you gain {@variantrule Expertise|XPHB} in two more of your skill proficiencies of your choice."
 			]
 		},
@@ -2471,7 +2471,7 @@
 			"level": 1,
 			"entries": [
 				"You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack roll if you have {@variantrule Advantage|XPHB} on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.",
-				"You don't need {@variantrule Advantage|XPHB} on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the {@condition Incapacitated|XPHB} condition, and you don't have {@variantrule Disadvantage|XPHB} on the attack roll.",
+				"You don't need {@variantrule Advantage|XPHB} on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the {@condition Incapable|XPHB} condition, and you don't have {@variantrule Disadvantage|XPHB} on the attack roll.",
 				"The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table."
 			]
 		},
@@ -2498,8 +2498,8 @@
 			"classSource": "XPHB",
 			"level": 1,
 			"entries": [
-				"Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Dagger|XPHB|Daggers} and {@item Shortbow|XPHB|Shortbows}.",
-				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|XPHB|mastery properties} of {@item Scimitar|XPHB|Scimitars} and {@item Shortsword|XPHB|Shortswords}."
+				"Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Dague|XPHB|Daggers} and {@item Arc court|XPHB|Shortbows}.",
+				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|XPHB|mastery properties} of {@item Cimeterre|XPHB|Scimitars} and {@item Épée courte|XPHB|Shortswords}."
 			]
 		},
 		{
@@ -2512,7 +2512,7 @@
 			"classSource": "XPHB",
 			"level": 2,
 			"entries": [
-				"Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a {@variantrule Bonus Action|XPHB}: {@action Dash|XPHB}, {@action Disengage|XPHB}, or {@action Hide|XPHB}."
+				"Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a {@variantrule Bonus Action|XPHB}: {@action Course|XPHB}, {@action Désengagement|XPHB}, or {@action Se cacher|XPHB}."
 			]
 		},
 		{
@@ -2551,7 +2551,7 @@
 			"classSource": "XPHB",
 			"level": 4,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
 			]
 		},
 		{
@@ -2595,8 +2595,8 @@
 			"classSource": "XPHB",
 			"level": 5,
 			"entries": [
-				"You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the {@condition Poisoned|XPHB} condition for 1 minute. At the end of each of its turns, the {@condition Poisoned|XPHB} target repeats the save, ending the effect on itself on a success.",
-				"To use this effect, you must have a {@item Poisoner's Kit|XPHB} on your person."
+				"You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the {@condition Empoisonné|XPHB} condition for 1 minute. At the end of each of its turns, the {@condition Empoisonné|XPHB} target repeats the save, ending the effect on itself on a success.",
+				"To use this effect, you must have a {@item Kit d'empoisonneur|XPHB} on your person."
 			]
 		},
 		{
@@ -2609,7 +2609,7 @@
 			"classSource": "XPHB",
 			"level": 5,
 			"entries": [
-				"If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the {@condition Prone|XPHB} condition."
+				"If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the {@condition À terre|XPHB} condition."
 			]
 		},
 		{
@@ -2635,7 +2635,7 @@
 			"classSource": "XPHB",
 			"level": 5,
 			"entries": [
-				"Immediately after the attack, you move up to half your {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+				"Immediately after the attack, you move up to half your {@variantrule Speed|XPHB} without provoking {@action Attaque d'opportunité|XPHB|Opportunity Attacks}."
 			]
 		},
 		{
@@ -2661,7 +2661,7 @@
 			"classSource": "XPHB",
 			"level": 7,
 			"entries": [
-				"You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the {@condition Incapacitated|XPHB} condition."
+				"You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the {@condition Incapable|XPHB} condition."
 			]
 		},
 		{
@@ -2687,7 +2687,7 @@
 			"classSource": "XPHB",
 			"level": 8,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2713,7 +2713,7 @@
 			"classSource": "XPHB",
 			"level": 10,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2739,7 +2739,7 @@
 			"classSource": "XPHB",
 			"level": 12,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2808,7 +2808,7 @@
 			"classSource": "XPHB",
 			"level": 14,
 			"entries": [
-				"The target must succeed on a Constitution saving throw, or it has the {@condition Unconscious|XPHB} condition for 1 minute or until it takes any damage. The {@condition Unconscious|XPHB} target repeats the save at the end of each of its turns, ending the effect on itself on a success."
+				"The target must succeed on a Constitution saving throw, or it has the {@condition Inconscient|XPHB} condition for 1 minute or until it takes any damage. The {@condition Inconscient|XPHB} target repeats the save at the end of each of its turns, ending the effect on itself on a success."
 			]
 		},
 		{
@@ -2821,7 +2821,7 @@
 			"classSource": "XPHB",
 			"level": 14,
 			"entries": [
-				"The target must succeed on a Dexterity saving throw, or it has the {@condition Blinded|XPHB} condition until the end of its next turn."
+				"The target must succeed on a Dexterity saving throw, or it has the {@condition Aveuglé|XPHB} condition until the end of its next turn."
 			]
 		},
 		{
@@ -2847,7 +2847,7 @@
 			"classSource": "XPHB",
 			"level": 16,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -2873,7 +2873,7 @@
 			"classSource": "XPHB",
 			"level": 18,
 			"entries": [
-				"You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have {@variantrule Advantage|XPHB} against you unless you have the {@condition Incapacitated|XPHB} condition."
+				"You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have {@variantrule Advantage|XPHB} against you unless you have the {@condition Incapable|XPHB} condition."
 			]
 		},
 		{
@@ -2886,7 +2886,7 @@
 			"classSource": "XPHB",
 			"level": 19,
 			"entries": [
-				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of the Night Spirit|XPHB} is recommended."
+				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Don de l'esprit de la nuit|XPHB} is recommended."
 			]
 		},
 		{
@@ -2943,10 +2943,10 @@
 					"items": [
 						"You can stow one object the hand is holding in a container worn or carried by another creature.",
 						"You can retrieve an object in a container worn or carried by another creature.",
-						"You can use {@item thieves' tools|phb} to pick locks and disarm traps at range."
+						"You can use {@item Outils de crocheteur|phb} to pick locks and disarm traps at range."
 					]
 				},
-				"You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity ({@skill Sleight of Hand}) check contested by the creature's Wisdom ({@skill Perception}) check.",
+				"You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity ({@skill Escamotage}) check contested by the creature's Wisdom ({@skill Perception}) check.",
 				"In addition, you can use the bonus action granted by your Cunning Action to control the hand."
 			]
 		},
@@ -3107,7 +3107,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is {@status surprised} is a critical hit."
+				"Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is {@status Surpris} is a critical hit."
 			]
 		},
 		{
@@ -3121,7 +3121,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency with the {@item disguise kit|phb} and the {@item poisoner's kit|phb}."
+				"When you choose this archetype at 3rd level, you gain proficiency with the {@item Kit de déguisement|phb} and the {@item Kit d'empoisonneur|phb}."
 			]
 		},
 		{
@@ -3151,7 +3151,7 @@
 			"header": 2,
 			"entries": [
 				"At 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerism.",
-				"Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma ({@skill Deception}) check you make to avoid detection."
+				"Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma ({@skill Tromperie}) check you make to avoid detection."
 			]
 		},
 		{
@@ -3165,7 +3165,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is {@status surprised}, it must make a Constitution saving throw ({@dc 8} + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature."
+				"Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is {@status Surpris}, it must make a Constitution saving throw ({@dc 8} + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature."
 			]
 		},
 		{
@@ -3204,7 +3204,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity ({@skill Sleight of Hand}) check, use your {@item thieves' tools|phb} to disarm a trap or open a lock, or take the {@action Use an Object} action."
+				"Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity ({@skill Escamotage}) check, use your {@item Outils de crocheteur|phb} to disarm a trap or open a lock, or take the {@action Utiliser un objet} action."
 			]
 		},
 		{
@@ -3237,7 +3237,7 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"Starting at 9th level, you have advantage on a Dexterity ({@skill Stealth}) check if you move no more than half your speed on the same turn."
+				"Starting at 9th level, you have advantage on a Dexterity ({@skill Discrétion}) check if you move no more than half your speed on the same turn."
 			]
 		},
 		{
@@ -3269,7 +3269,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are {@status surprised}."
+				"When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are {@status Surpris}."
 			]
 		},
 		{
@@ -3338,7 +3338,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 9th-level Phantom feature}",
-				"When a life ends in your presence, you're able to snatch a token from the departing soul, a sliver of its life essence that takes physical form: as a reaction when a creature you can see dies within 30 feet of you, you can open your free hand and cause a Tiny trinket to appear there, a soul trinket. The DM determines the trinket's form or has you roll on the {@item Trinket|phb|Trinkets} table in the {@i Player's Handbook} to generate it. You can have a maximum number of soul trinkets equal to your proficiency bonus, and you can't create one while at your maximum.",
+				"When a life ends in your presence, you're able to snatch a token from the departing soul, a sliver of its life essence that takes physical form: as a reaction when a creature you can see dies within 30 feet of you, you can open your free hand and cause a Tiny trinket to appear there, a soul trinket. The DM determines the trinket's form or has you roll on the {@item Babiole|phb|Trinkets} table in the {@i Player's Handbook} to generate it. You can have a maximum number of soul trinkets equal to your proficiency bonus, and you can't create one while at your maximum.",
 				"You can use soul trinkets in the following ways:",
 				{
 					"type": "list",
@@ -3428,7 +3428,7 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"Most assassins strike with physical weapons, and many burglars and spies use {@item thieves' tools|PHB} to infiltrate secure locations. In contrast, a Soulknife strikes and infiltrates with the mind, cutting through barriers both physical and psychic. These rogues discover psionic power within themselves and channel it to do their roguish work. They find easy employment as members of thieves' guilds, though they are often mistrusted by rogues who are leery of anyone using strange mind powers to conduct their business. Most governments would also be happy to employ a Soulknife as a spy.",
+				"Most assassins strike with physical weapons, and many burglars and spies use {@item Outils de crocheteur|PHB} to infiltrate secure locations. In contrast, a Soulknife strikes and infiltrates with the mind, cutting through barriers both physical and psychic. These rogues discover psionic power within themselves and channel it to do their roguish work. They find easy employment as members of thieves' guilds, though they are often mistrusted by rogues who are leery of anyone using strange mind powers to conduct their business. Most governments would also be happy to employ a Soulknife as a spy.",
 				"Amid the trees of ancient forests on the Material Plane and in the Feywild, some wood elves walk the path of the Soulknife, serving as silent, lethal guardians of their woods. In the endless war among the gith, a githzerai is encouraged to become a Soulknife when stealth is required against the githyanki foe.",
 				"As a Soulknife, your psionic abilities might have haunted you since you were a child, only revealing their full potential as you experienced the stress of adventure. Or you might have sought out a reclusive order of psychic adepts and spent years learning how to manifest your power.",
 				{
@@ -3484,7 +3484,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Soulknife feature}",
-				"You can manifest your psionic power as shimmering blades of psychic energy. Whenever you take the {@action Attack} action, you can manifest a psychic blade from your free hand and make the attack with that blade. This magic blade is a simple melee weapon with the finesse and thrown properties. It has a normal range of 60 feet and no long range, and on a hit, it deals psychic damage equal to {@damage 1d6} plus the ability modifier you used for the attack roll. The blade vanishes immediately after it hits or misses its target, and it leaves no mark on its target if it deals damage.",
+				"You can manifest your psionic power as shimmering blades of psychic energy. Whenever you take the {@action Attaque} action, you can manifest a psychic blade from your free hand and make the attack with that blade. This magic blade is a simple melee weapon with the finesse and thrown properties. It has a normal range of 60 feet and no long range, and on a hit, it deals psychic damage equal to {@damage 1d6} plus the ability modifier you used for the attack roll. The blade vanishes immediately after it hits or misses its target, and it leaves no mark on its target if it deals damage.",
 				"After you attack with the blade, you can make a melee or ranged weapon attack with a second psychic blade as a bonus action on the same turn, provided your other hand is free to create it. The damage die of this bonus attack is {@damage 1d4}, instead of {@damage 1d6}."
 			]
 		},
@@ -3570,7 +3570,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 17th-level Soulknife feature}",
-				"You can sweep your Psychic Blades directly through a creature's mind. When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier). If the save fails, the target is {@condition stunned} for 1 minute. The {@condition stunned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				"You can sweep your Psychic Blades directly through a creature's mind. When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier). If the save fails, the target is {@condition Étourdi} for 1 minute. The {@condition Étourdi} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 				"Once you use this feature, you can't do so again until you finish a long rest, unless you expend three Psionic Energy dice to use it again."
 			]
 		},
@@ -3610,7 +3610,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you develop a talent for picking out lies. Whenever you make a Wisdom ({@skill Insight}) check to determine whether a creature is lying, treat a roll of 7 or lower on the {@dice d20} as an 8."
+				"When you choose this archetype at 3rd level, you develop a talent for picking out lies. Whenever you make a Wisdom ({@skill Perspicacité}) check to determine whether a creature is lying, treat a roll of 7 or lower on the {@dice d20} as an 8."
 			]
 		},
 		{
@@ -3638,7 +3638,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you gain the ability to decipher an opponent's tactics and develop a counter to them. As a bonus action, you can make a Wisdom ({@skill Insight}) check against a creature you can see that isn't {@condition incapacitated}, contested by the target's Charisma ({@skill Deception}) check. If you succeed, you can use your Sneak Attack against that target even if you don't have advantage on the attack roll, but not if you have disadvantage on it.",
+				"At 3rd level, you gain the ability to decipher an opponent's tactics and develop a counter to them. As a bonus action, you can make a Wisdom ({@skill Perspicacité}) check against a creature you can see that isn't {@condition Incapable}, contested by the target's Charisma ({@skill Tromperie}) check. If you succeed, you can use your Sneak Attack against that target even if you don't have advantage on the attack roll, but not if you have disadvantage on it.",
 				"This benefit lasts for 1 minute or until you successfully use this feature against a different target."
 			]
 		},
@@ -3667,7 +3667,7 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"Beginning at 13th level, your senses are almost impossible to foil. As an action, you sense the presence of illusions, shapechangers not in their original form, and other magic designed to deceive the senses within 30 feet of you, provided you aren't {@condition blinded} or {@condition deafened}. You sense that an effect is attempting to trick you, but you gain no insight into what is hidden or into its true nature.",
+				"Beginning at 13th level, your senses are almost impossible to foil. As an action, you sense the presence of illusions, shapechangers not in their original form, and other magic designed to deceive the senses within 30 feet of you, provided you aren't {@condition Aveuglé} or {@condition Assourdi}. You sense that an effect is attempting to trick you, but you gain no insight into what is hidden or into its true nature.",
 				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
 			]
 		},
@@ -3717,7 +3717,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency with the {@item disguise kit|phb}, the {@item forgery kit|phb}, and one {@item gaming set|PHB} of your choice. You also learn two languages of your choice.",
+				"When you choose this archetype at 3rd level, you gain proficiency with the {@item Kit de déguisement|phb}, the {@item Trousse de faussaire|phb}, and one {@item gaming set|PHB} of your choice. You also learn two languages of your choice.",
 				"Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, enabling you to pass yourself off as a native speaker of a particular land, provided that you know the language."
 			]
 		},
@@ -3732,7 +3732,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you can use the {@action Help} action as a bonus action. Additionally, when you use the {@action Help} action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you."
+				"Starting at 3rd level, you can use the {@action Aider} action as a bonus action. Additionally, when you use the {@action Aider} action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you."
 			]
 		},
 		{
@@ -3784,7 +3784,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"Starting at 17th level, your thoughts can't be read by telepathy or other means, unless you allow it. You can present false thoughts by succeeding on a Charisma ({@skill Deception}) check contested by the mind reader's Wisdom ({@skill Insight}) check.",
+				"Starting at 17th level, your thoughts can't be read by telepathy or other means, unless you allow it. You can present false thoughts by succeeding on a Charisma ({@skill Tromperie}) check contested by the mind reader's Wisdom ({@skill Perspicacité}) check.",
 				"Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful if you so choose, and you can't be compelled to tell the truth by magic."
 			]
 		},
@@ -3834,7 +3834,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency in the {@skill Nature} and {@skill Survival} skills if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies."
+				"When you choose this archetype at 3rd level, you gain proficiency in the {@skill Nature} and {@skill Survie} skills if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies."
 			]
 		},
 		{
@@ -3877,7 +3877,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"Starting at 17th level, you can strike with deadly speed. If you take the {@action Attack} action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target more than once in a turn."
+				"Starting at 17th level, you can strike with deadly speed. If you take the {@action Attaque} action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target more than once in a turn."
 			]
 		},
 		{
@@ -3942,9 +3942,9 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma ({@skill Persuasion}) check contested by a creature's Wisdom ({@skill Insight}) check. The creature must be able to hear you, and the two of you must share a language.",
+				"At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma ({@skill Persuasion}) check contested by a creature's Wisdom ({@skill Perspicacité}) check. The creature must be able to hear you, and the two of you must share a language.",
 				"If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.",
-				"If you succeed on the check and the creature isn't hostile to you, it is {@condition charmed} by you for 1 minute. While {@condition charmed}, it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it."
+				"If you succeed on the check and the creature isn't hostile to you, it is {@condition Charmé} by you for 1 minute. While {@condition Charmé}, it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it."
 			]
 		},
 		{
@@ -3958,7 +3958,7 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Dexterity ({@skill Acrobatics}) or Strength ({@skill Athletics}) check you make during the same turn."
+				"Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Dexterity ({@skill Acrobaties}) or Strength ({@skill Athlétisme}) check you make during the same turn."
 			]
 		},
 		{
@@ -3985,7 +3985,7 @@
 			"subclassSource": "FRHoF",
 			"level": 3,
 			"entries": [
-				"When an enemy you can see within 30 feet of yourself takes damage and is {@status Bloodied|XPHB} after taking that damage but not killed outright, you can take a {@variantrule Reaction|XPHB} and {@variantrule Teleportation|XPHB|teleport} to an unoccupied space you can see within 5 feet of that enemy. You can then make one melee attack. You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+				"When an enemy you can see within 30 feet of yourself takes damage and is {@status Meurtri|XPHB} after taking that damage but not killed outright, you can take a {@variantrule Reaction|XPHB} and {@variantrule Teleportation|XPHB|teleport} to an unoccupied space you can see within 5 feet of that enemy. You can then make one melee attack. You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
 		{
@@ -4072,8 +4072,8 @@
 					"name": "Terrify (Cost: {@dice 1d6})",
 					"page": 7,
 					"entries": [
-						"The target must succeed on a Wisdom saving throw, or it has the {@condition Frightened|XPHB} condition for 1 minute. While the target is Frightened in this way, you have {@variantrule Advantage|XPHB} on attack rolls against the target.",
-						"The {@condition Frightened|XPHB} target repeats the save at the end of each of its turns, ending the effect on itself on a success."
+						"The target must succeed on a Wisdom saving throw, or it has the {@condition Effrayé|XPHB} condition for 1 minute. While the target is Frightened in this way, you have {@variantrule Advantage|XPHB} on attack rolls against the target.",
+						"The {@condition Effrayé|XPHB} target repeats the save at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			]
@@ -4179,7 +4179,7 @@
 			"header": 2,
 			"entries": [
 				"The spirits of the dead are drawn to you, and echoes of their past lives magically manifest as strange curios with resonant power.",
-				"You gain two soul trinkets. A soul trinket is a Tiny object (the DM determines the trinket's form or has you roll on the {@item Trinket|XPHB|Trinkets table} in the {@book Player's Handbook|XPHB} to generate it). If you move more than 30 feet from a trinket, the trinket immediately teleports to you, appearing somewhere on your person.",
+				"You gain two soul trinkets. A soul trinket is a Tiny object (the DM determines the trinket's form or has you roll on the {@item Babiole|XPHB|Trinkets table} in the {@book Player's Handbook|XPHB} to generate it). If you move more than 30 feet from a trinket, the trinket immediately teleports to you, appearing somewhere on your person.",
 				{
 					"type": "entries",
 					"name": "Using Soul Trinkets",
@@ -4202,7 +4202,7 @@
 								{
 									"type": "item",
 									"name": "Spirit Query",
-									"entry": "You can take a {@action Magic|XPHB} action to destroy one soul trinket and immediately cast the {@spell Augury|XPHB} spell, requiring no spell components and using Constitution as the spellcasting modifier. If you know the creature with which the trinket is associated, you can ask the creature's spirit one question instead of casting the spell. In this case, the spirit appears to you and answers as concisely as possible in a language it knew in life."
+									"entry": "You can take a {@action Magie|XPHB} action to destroy one soul trinket and immediately cast the {@spell Augury|XPHB} spell, requiring no spell components and using Constitution as the spellcasting modifier. If you know the creature with which the trinket is associated, you can ask the creature's spirit one question instead of casting the spell. In this case, the spirit appears to you and answers as concisely as possible in a language it knew in life."
 								}
 							]
 						}
@@ -4326,7 +4326,7 @@
 			"subclassSource": "XPHB",
 			"level": 3,
 			"entries": [
-				"When you cast {@spell Mage Hand|XPHB}, you can cast it as a {@variantrule Bonus Action|XPHB}, and you can make the spectral hand {@condition Invisible|XPHB}. You can control the hand as a {@variantrule Bonus Action|XPHB}, and through it, you can make Dexterity ({@skill Sleight of Hand|XPHB}) checks."
+				"When you cast {@spell Mage Hand|XPHB}, you can cast it as a {@variantrule Bonus Action|XPHB}, and you can make the spectral hand {@condition Invisible|XPHB}. You can control the hand as a {@variantrule Bonus Action|XPHB}, and through it, you can make Dexterity ({@skill Escamotage|XPHB}) checks."
 			]
 		},
 		{
@@ -4463,7 +4463,7 @@
 			"subclassSource": "XPHB",
 			"level": 3,
 			"entries": [
-				"You gain a {@item Disguise Kit|XPHB} and a {@item Poisoner's Kit|XPHB}, and you have proficiency with them."
+				"You gain a {@item Kit de déguisement|XPHB} and a {@item Kit d'empoisonneur|XPHB}, and you have proficiency with them."
 			]
 		},
 		{
@@ -4663,7 +4663,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You can manifest shimmering blades of psychic energy. Whenever you take the {@action Attack|XPHB} action or make an {@action Opportunity Attack|XPHB}, you can manifest a {@item Psychic Blade|XPHB} in your free hand and make the attack with that blade. The magic blade has the following traits:",
+				"You can manifest shimmering blades of psychic energy. Whenever you take the {@action Attaque|XPHB} action or make an {@action Attaque d'opportunité|XPHB}, you can manifest a {@item Lame psychique|XPHB} in your free hand and make the attack with that blade. The magic blade has the following traits:",
 				{
 					"type": "statblock",
 					"tag": "item",
@@ -4705,7 +4705,7 @@
 				"name": "Psionic Energy Die"
 			},
 			"entries": [
-				"You can establish telepathic communication between yourself and others. As a {@action Magic|XPHB} action, choose one or more creatures you can see, up to a number of creatures equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and then roll one Psionic Energy Die. For a number of hours equal to the number rolled, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can end the telepathic connection at any time (no action required)."
+				"You can establish telepathic communication between yourself and others. As a {@action Magie|XPHB} action, choose one or more creatures you can see, up to a number of creatures equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and then roll one Psionic Energy Die. For a number of hours equal to the number rolled, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can end the telepathic connection at any time (no action required)."
 			]
 		},
 		{
@@ -4722,7 +4722,7 @@
 				"name": "Psionic Energy Die"
 			},
 			"entries": [
-				"If you make an attack roll with your {@item Psychic Blade|XPHB} and miss the target, you can roll one Psionic Energy Die and add the number rolled to the attack roll. If this causes the attack to hit, the die is expended."
+				"If you make an attack roll with your {@item Lame psychique|XPHB} and miss the target, you can roll one Psionic Energy Die and add the number rolled to the attack roll. If this causes the attack to hit, the die is expended."
 			]
 		},
 		{
@@ -4739,7 +4739,7 @@
 				"name": "Psionic Energy Die"
 			},
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you manifest a {@item Psychic Blade|XPHB}, expend one Psionic Energy Die and roll it, and throw the blade at an unoccupied space you can see up to a number of feet away equal to 10 times the number rolled. You then teleport to that space, and the blade vanishes."
+				"As a {@variantrule Bonus Action|XPHB}, you manifest a {@item Lame psychique|XPHB}, expend one Psionic Energy Die and roll it, and throw the blade at an unoccupied space you can see up to a number of feet away equal to 10 times the number rolled. You then teleport to that space, and the blade vanishes."
 			]
 		},
 		{
@@ -4778,7 +4778,7 @@
 				"name": "Psionic Energy Die"
 			},
 			"entries": [
-				"You can weave a veil of psychic static to mask yourself. As a {@action Magic|XPHB} action, you gain the {@condition Invisible|XPHB} condition for 1 hour or until you dismiss this effect (no action required). This invisibility ends early immediately after you deal damage to a creature or you force a creature to make a saving throw.",
+				"You can weave a veil of psychic static to mask yourself. As a {@action Magie|XPHB} action, you gain the {@condition Invisible|XPHB} condition for 1 hour or until you dismiss this effect (no action required). This invisibility ends early immediately after you deal damage to a creature or you force a creature to make a saving throw.",
 				"Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB} unless you expend a Psionic Energy Die (no action required) to restore your use of it."
 			]
 		},
@@ -4793,7 +4793,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"You can sweep your Psychic Blades through a creature's mind. When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom saving throw ({@dc 8} plus your Dexterity modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). If the save fails, the target has the {@condition Stunned|XPHB} condition for 1 minute. The {@condition Stunned|XPHB} target repeats the save at the end of each of its turns, ending the effect on itself on a success.",
+				"You can sweep your Psychic Blades through a creature's mind. When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom saving throw ({@dc 8} plus your Dexterity modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). If the save fails, the target has the {@condition Étourdi|XPHB} condition for 1 minute. The {@condition Étourdi|XPHB} target repeats the save at the end of each of its turns, ending the effect on itself on a success.",
 				"Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB} unless you expend three Psionic Energy Dice (no action required) to restore your use of it."
 			]
 		},
@@ -4817,14 +4817,14 @@
 							"type": "entries",
 							"name": "Sleight of Hand",
 							"entries": [
-								"Make a Dexterity ({@skill Sleight of Hand|XPHB}) check to pick a lock or disarm a trap with {@item Thieves' Tools|XPHB} or to pick a pocket."
+								"Make a Dexterity ({@skill Escamotage|XPHB}) check to pick a lock or disarm a trap with {@item Outils de crocheteur|XPHB} or to pick a pocket."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Use an Object",
 							"entries": [
-								"Take the {@action Utilize|XPHB} action, or take the {@action Magic|XPHB} action to use a magic item that requires that action."
+								"Take the {@action Utiliser|XPHB} action, or take the {@action Magie|XPHB} action to use a magic item that requires that action."
 							]
 						}
 					]
@@ -4910,7 +4910,7 @@
 							"type": "entries",
 							"name": "Stealth Attack (Cost: 1d6)",
 							"entries": [
-								"If you have the {@action Hide|XPHB} action's {@condition Invisible|XPHB} condition, this attack doesn't end that condition on you if you end the turn behind {@variantrule Cover|XPHB|Three-Quarters Cover} or {@variantrule Cover|XPHB|Total Cover}."
+								"If you have the {@action Se cacher|XPHB} action's {@condition Invisible|XPHB} condition, this attack doesn't end that condition on you if you end the turn behind {@variantrule Cover|XPHB|Three-Quarters Cover} or {@variantrule Cover|XPHB|Total Cover}."
 							]
 						}
 					]
@@ -4949,7 +4949,7 @@
 					"type": "entries",
 					"name": "Scrolls",
 					"entries": [
-						"You can use any {@item Spell Scroll|XDMG}, using Intelligence as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence ({@skill Arcana|XPHB}) check ({@dc 10} plus the spell's level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates."
+						"You can use any {@item Spell Scroll|XDMG}, using Intelligence as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence ({@skill Arcanes|XPHB}) check ({@dc 10} plus the spell's level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates."
 					]
 				}
 			]

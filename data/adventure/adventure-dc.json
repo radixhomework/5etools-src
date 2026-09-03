@@ -255,7 +255,7 @@
 							"entries": [
 								"The ruined town of Leilon was once a fortified settlement on the High Road midway between the cities of Neverwinter and Waterdeep. The Lord Protector of Neverwinter, Dagult Neverember, hired a group of his citizens to rebuild the town, a construction project that has recently completed. They hope to create a fortified waypoint for travelers and merchants that can ward off the threats of the surrounding wilderness.",
 								"Two forces of evil are on the rise nearby, eager to control the region around Leilon and eventually the Sword Coast for themselves. The first is a cult of Talos, god of storms, led by their champion Fheralai Stormsworn. The cult's headquarters are inside a death knight dreadnaught, an undead galleon, which prowls the coast looking for trade ships to plunder.",
-								"Ularan Mortus, a priest of Myrkul, god of death, and his followers are raising an army of undead to lay siege to the city of Neverwinter. The spirit of the dead black dragon Chardansearavitriol, known also as {@creature Ebondeath|DC}, has recently allied with Ularan Mortus to steal a mythical artifact called the {@item ruinstone|DC} from a tower inside Leilon.",
+								"Ularan Mortus, a priest of Myrkul, god of death, and his followers are raising an army of undead to lay siege to the city of Neverwinter. The spirit of the dead black dragon Chardansearavitriol, known also as {@creature Ebondeath|DC}, has recently allied with Ularan Mortus to steal a mythical artifact called the {@item Pierre de ruine|DC} from a tower inside Leilon.",
 								"The people of Leilon have just begun to uncover the threats both groups pose to the region. They need the help of adventurers if they want their rebuilt settlement to survive the danger."
 							]
 						},
@@ -770,7 +770,7 @@
 							"id": "024",
 							"entries": [
 								"Idol Island rises from the marshes a few yards from Leilon. It contains the remains of crumbled statues of forgotten human nobles. The settlers claim to hear whispered voices on the island at night, inviting them to view their destinies. If they characters walk by the island at night, they hear these whispers as well.",
-								"A character who spends the night on the island taking a long rest has vague, prophetic dreams of adventures to come. For instance, the character might view storm clouds swirling over Leilon, a galleon made from bones, or a glowing statue of a dwarf standing in a canyon. At the end of the rest, the character must make a {@dc 13} Wisdom saving throw. On a success, the character is bolstered by the strange dreams and gains inspiration. On a failure, the character gains a level of {@condition exhaustion}."
+								"A character who spends the night on the island taking a long rest has vague, prophetic dreams of adventures to come. For instance, the character might view storm clouds swirling over Leilon, a galleon made from bones, or a glowing statue of a dwarf standing in a canyon. At the end of the rest, the character must make a {@dc 13} Wisdom saving throw. On a success, the character is bolstered by the strange dreams and gains inspiration. On a failure, the character gains a level of {@condition Épuisement}."
 							]
 						},
 						{
@@ -796,7 +796,7 @@
 							"id": "027",
 							"entries": [
 								"Jack Torver is an optimistic young male Turami human who just finished building Leilon's new (and currently only) general store. He is a devout worshipper of Lathander and attends the shrine's services each morning then offers advice from the sermons to his customers.",
-								"Jack sells standard adventuring gear, with the exception of {@item Potion of Healing||potions of healing}. He directs adventurers looking for potions to the Tymora shrine and those looking for armor or weapons to the town square."
+								"Jack sells standard adventuring gear, with the exception of {@item Potion de soins||potions of healing}. He directs adventurers looking for potions to the Tymora shrine and those looking for armor or weapons to the town square."
 							]
 						},
 						{
@@ -820,7 +820,7 @@
 							"name": "Tymora Shrine",
 							"id": "02a",
 							"entries": [
-								"A shrine to Tymora, goddess of luck, was recently erected in Leilon. Puck Caribdas, a lithe, rambunctious male elf, runs the temple and sells potions for the prices listed on the Puck's Potions table. Other than {@item Potion of Healing||potions of healing}, Puck only has {@dice 1d4} vials of each potion. Each tenday, Puck's inventory refreshes, and you can reroll to determine the elf's new potion supply.",
+								"A shrine to Tymora, goddess of luck, was recently erected in Leilon. Puck Caribdas, a lithe, rambunctious male elf, runs the temple and sells potions for the prices listed on the Puck's Potions table. Other than {@item Potion de soins||potions of healing}, Puck only has {@dice 1d4} vials of each potion. Each tenday, Puck's inventory refreshes, and you can reroll to determine the elf's new potion supply.",
 								{
 									"type": "table",
 									"caption": "Puck's Potions",
@@ -835,23 +835,23 @@
 									"rows": [
 										[
 											"50 gp",
-											"{@item Potion of healing}"
+											"{@item Potion de soins}"
 										],
 										[
 											"50 gp",
-											"{@item Potion of climbing}"
+											"{@item Potion d'escalade}"
 										],
 										[
 											"150 gp",
-											"{@item Potion of growth}"
+											"{@item Potion de croissance}"
 										],
 										[
 											"150 gp",
-											"{@item Potion of water breathing}"
+											"{@item Potion de respiration aquatique}"
 										],
 										[
 											"5,000 gp",
-											"{@item Potion of heroism}"
+											"{@item Potion d'héroïsme}"
 										]
 									]
 								}
@@ -971,7 +971,7 @@
 									"name": "Leilon Besieged Quest",
 									"id": "034",
 									"entries": [
-										"There is no job board notice for this quest. Instead, it happens automatically after the players have completed two of the three starting quests. At this point, the rival cults launch their attack on the town to seize the House of Thalivar and steal the {@item ruinstone|DC}. When the characters undertake this quest, see \"{@adventure Leilon Besieged|DC|5}.\" When this quest becomes active, remove the third starting quest from the quest board."
+										"There is no job board notice for this quest. Instead, it happens automatically after the players have completed two of the three starting quests. At this point, the rival cults launch their attack on the town to seize the House of Thalivar and steal the {@item Pierre de ruine|DC}. When the characters undertake this quest, see \"{@adventure Leilon Besieged|DC|5}.\" When this quest becomes active, remove the third starting quest from the quest board."
 									]
 								},
 								{
@@ -1030,8 +1030,8 @@
 					"name": "Location Overview",
 					"id": "03a",
 					"entries": [
-						"Dumathoin's Gulch is a narrow canyon in the Sword Mountains, carved into the earth by a small but powerful stream that runs into the Mere of Dead Men. The gulch is named for the dwarven god of mining and protector of the dead, and the place has mysterious powers of its own that lead most to avoid it. This location is where the gnomes of Gnomengarde agree to meet the party and hand over their weapon: the {@item Gnomengarde grenade|DC}.",
-						"The product of gnomish ingenuity and a dash of wild magic, the {@item Gnomengarde grenade|DC} is the invention of two of Gnomengarde's most gifted inventors, Fibblestib Pinebark and Dabbledob Plasterpatch. Created when their town was threatened by the white dragon Cryovain, the grenade generates a number of unpredictable magical effects when detonated. The gnomes of Gnomengarde have promised the grenade to the residents of Leilon to drive off the green dragon Old Gnawbones. If delivered safely, the grenade should convince any other threats to leave the town in peace, not in pieces.",
+						"Dumathoin's Gulch is a narrow canyon in the Sword Mountains, carved into the earth by a small but powerful stream that runs into the Mere of Dead Men. The gulch is named for the dwarven god of mining and protector of the dead, and the place has mysterious powers of its own that lead most to avoid it. This location is where the gnomes of Gnomengarde agree to meet the party and hand over their weapon: the {@item Grenade de Gnomengarde|DC}.",
+						"The product of gnomish ingenuity and a dash of wild magic, the {@item Grenade de Gnomengarde|DC} is the invention of two of Gnomengarde's most gifted inventors, Fibblestib Pinebark and Dabbledob Plasterpatch. Created when their town was threatened by the white dragon Cryovain, the grenade generates a number of unpredictable magical effects when detonated. The gnomes of Gnomengarde have promised the grenade to the residents of Leilon to drive off the green dragon Old Gnawbones. If delivered safely, the grenade should convince any other threats to leave the town in peace, not in pieces.",
 						{
 							"type": "entries",
 							"name": "Quest Goals",
@@ -1047,7 +1047,7 @@
 					"name": "Travel to the Gulch",
 					"id": "03c",
 					"entries": [
-						"The Leilon authorities provide the party with directions to the gulch and explain that three gnomes named Fibblestib, Bindlemint, and Dabbledob will meet them there to turn over the {@item Gnomengarde grenade|DC}. The gulch is situated almost twenty miles away, and the journey takes characters traveling on foot just over seven hours.",
+						"The Leilon authorities provide the party with directions to the gulch and explain that three gnomes named Fibblestib, Bindlemint, and Dabbledob will meet them there to turn over the {@item Grenade de Gnomengarde|DC}. The gulch is situated almost twenty miles away, and the journey takes characters traveling on foot just over seven hours.",
 						{
 							"type": "entries",
 							"name": "Encounters on the Way",
@@ -1144,7 +1144,7 @@
 									"name": "Cliffs",
 									"id": "044",
 									"entries": [
-										"The gulch walls are uneven and climbable with a successful {@dc 15} Strength ({@skill Athletics}) check even without proper climbing equipment."
+										"The gulch walls are uneven and climbable with a successful {@dc 15} Strength ({@skill Athlétisme}) check even without proper climbing equipment."
 									]
 								},
 								{
@@ -1152,8 +1152,8 @@
 									"name": "Stone Arch",
 									"id": "045",
 									"entries": [
-										"The stone arch is slippery. A creature attempting to use the {@action Dash} action while crossing the arch must succeed on a {@dc 15} Dexterity saving throw. On a failed save, the creature slips and falls off the arch, taking damage from the fall appropriate to the section of the arch it fell from.",
-										"The gnome on the stone arch is Fibblestib Pinebark, and she holds the main part of the {@item Gnomengarde grenade|DC}. She is {@condition unconscious} when the characters arrive. The grenade has a piece of parchment tied to it that bears the following message in Common, {@i \"Do not teleport or place in extradimensional spaces. Keep out of reach of children and orcs.\"}"
+										"The stone arch is slippery. A creature attempting to use the {@action Course} action while crossing the arch must succeed on a {@dc 15} Dexterity saving throw. On a failed save, the creature slips and falls off the arch, taking damage from the fall appropriate to the section of the arch it fell from.",
+										"The gnome on the stone arch is Fibblestib Pinebark, and she holds the main part of the {@item Grenade de Gnomengarde|DC}. She is {@condition Inconscient} when the characters arrive. The grenade has a piece of parchment tied to it that bears the following message in Common, {@i \"Do not teleport or place in extradimensional spaces. Keep out of reach of children and orcs.\"}"
 									]
 								},
 								{
@@ -1161,7 +1161,7 @@
 									"name": "Stream",
 									"id": "046",
 									"entries": [
-										"The fast-moving stream at the bottom of the gulch is five feet deep and counts as {@quickref difficult terrain||3}. A creature that enters the stream or starts its turn in it must succeed on a {@dc 10} Strength saving throw or fall {@condition prone} due to the current."
+										"The fast-moving stream at the bottom of the gulch is five feet deep and counts as {@quickref difficult terrain||3}. A creature that enters the stream or starts its turn in it must succeed on a {@dc 10} Strength saving throw or fall {@condition À terre} due to the current."
 									]
 								},
 								{
@@ -1170,7 +1170,7 @@
 									"id": "047",
 									"entries": [
 										"The carved moonstone dwarf is a {@creature sacred statue|MTF} that can be possessed by the resident {@creature eidolon|MTF} (see appendix A) of Dumathoin to deal with intruders. Until the statue is possessed, it is just an object carved to represent Dumathoin. Refer to the \"{@area Guardian of the Gulch|04e|x}\" section for information about awakening the eidolon.",
-										"The gnome resting against the moonstone is Dabbledob Plasterpatch. He holds the magical key that must be used to wind the grenade before it can be activated (see the \"{@item Gnomengarde Grenade|DC}\" sidebar for more information). Dabbledob is frozen with fear and is unable to act until the undead threat has passed.",
+										"The gnome resting against the moonstone is Dabbledob Plasterpatch. He holds the magical key that must be used to wind the grenade before it can be activated (see the \"{@item Grenade de Gnomengarde|DC}\" sidebar for more information). Dabbledob is frozen with fear and is unable to act until the undead threat has passed.",
 										{
 											"type": "inset",
 											"name": "Moon Writing",
@@ -1180,8 +1180,8 @@
 												{
 													"type": "list",
 													"items": [
-														"Understand Dwarven and succeed on a {@dc 15} Intelligence ({@skill Religion} or {@skill Arcana}) check.",
-														"Succeed on a {@dc 25} Intelligence ({@skill Religion} or {@skill Arcana}) check.",
+														"Understand Dwarven and succeed on a {@dc 15} Intelligence ({@skill Religion} or {@skill Arcanes}) check.",
+														"Succeed on a {@dc 25} Intelligence ({@skill Religion} or {@skill Arcanes}) check.",
 														"Belong to the cleric or paladin class and worship Dumathoin as a deity."
 													]
 												},
@@ -1217,7 +1217,7 @@
 											"id": "04c",
 											"entries": [
 												"When an adventurer enters the circle of moon runes, the bits of bone, armor, and weapons fly together to form an undead platoon. The platoon is led by a {@creature sword wraith commander|MTF} plus one {@creature sword wraith warrior|MTF} per character, including sidekicks (see {@adventure appendix A|DC|9}).",
-												"The moonstone's magic temporarily {@condition incapacitated} the undead here, but the life force of the adventurers brings them back. They immediately return to their mission: kill everything in the area and recover the {@item Gnomengarde grenade|DC} for their master Ularan Mortus.",
+												"The moonstone's magic temporarily {@condition Incapable} the undead here, but the life force of the adventurers brings them back. They immediately return to their mission: kill everything in the area and recover the {@item Grenade de Gnomengarde|DC} for their master Ularan Mortus.",
 												{
 													"type": "inset",
 													"name": "Gnome Reinforcements",
@@ -1267,8 +1267,8 @@
 					"id": "052",
 					"entries": [
 						"Over a thousand years ago, the black dragon Chardansearavitriol, commonly known as {@creature Ebondeath|DC}, settled in the Mere of Dead Men, making his lair in the ruined citadel of Uthtower. {@creature Ebondeath|DC} became a dracolich and was worshiped by the Cult of the Dragon until the death god Myrkul's influence waned across Faerûn and the dragon's bones turned to dust.",
-						"With Myrkul's return to the pantheon, his worshipers have quested across the seas to rekindle {@creature Ebondeath|DC}'s spirit. Led by the death priest Ularan Mortus, they unearthed the dragon's mausoleum and awakened its slumbering soul, binding it to the unwilling body of the ancient green dragon Claugiyliamatar. Ularan Mortus hoped to use the dragon to capture the {@item ruinstone|DC}, an artifact of great power. While they remain on the Sword Coast, Ularan Mortus and his cultists have claimed {@creature Ebondeath|DC}'s mausoleum as their headquarters in the area.",
-						"Following the \"{@adventure Leilon Besieged|DC|5}\" quest, {@creature Ebondeath|DC} returns to the mausoleum: either in spirit form without the artifact, or in Claugiyliamatar's body if it succeeded in stealing the {@item ruinstone|DC}. In response, Lord Protector Neverember of Neverwinter offers the characters a purse of 8,000 gp to end the threat posed by the dragon.",
+						"With Myrkul's return to the pantheon, his worshipers have quested across the seas to rekindle {@creature Ebondeath|DC}'s spirit. Led by the death priest Ularan Mortus, they unearthed the dragon's mausoleum and awakened its slumbering soul, binding it to the unwilling body of the ancient green dragon Claugiyliamatar. Ularan Mortus hoped to use the dragon to capture the {@item Pierre de ruine|DC}, an artifact of great power. While they remain on the Sword Coast, Ularan Mortus and his cultists have claimed {@creature Ebondeath|DC}'s mausoleum as their headquarters in the area.",
+						"Following the \"{@adventure Leilon Besieged|DC|5}\" quest, {@creature Ebondeath|DC} returns to the mausoleum: either in spirit form without the artifact, or in Claugiyliamatar's body if it succeeded in stealing the {@item Pierre de ruine|DC}. In response, Lord Protector Neverember of Neverwinter offers the characters a purse of 8,000 gp to end the threat posed by the dragon.",
 						{
 							"type": "entries",
 							"name": "Quest Goals",
@@ -1294,7 +1294,7 @@
 					"id": "055",
 					"entries": [
 						"Uthtower is buried deep beneath the bog. Using undead as laborers, Ularan Mortus excavated a deep shaft into the mud, shored up with wooden beams. Crude iron rungs were hammered into the walls of this pit, providing access to the entry hall of the catacombs ({@area area E1|05c|x}). On the surface, the entrance looks like nothing more than a timber latrine sitting in the middle of nowhere. The shaft inside descends 120 feet to the catacombs below.",
-						"Characters who search the surface area and succeed on a {@dc 18} Intelligence ({@skill Nature} or {@skill Investigation}) check discern that a nearby saltwater lake has been recently disturbed: mud is splattered around the shore as though a {@item wave} of water was violently displaced here. The lake is very deep and connects via a murky underwater tunnel to the pool in {@area area E8|068|x} of the mausoleum below. The dragon uses this route to enter and exit its lair.",
+						"Characters who search the surface area and succeed on a {@dc 18} Intelligence ({@skill Nature} or {@skill Investigation}) check discern that a nearby saltwater lake has been recently disturbed: mud is splattered around the shore as though a {@item Vague} of water was violently displaced here. The lake is very deep and connects via a murky underwater tunnel to the pool in {@area area E8|068|x} of the mausoleum below. The dragon uses this route to enter and exit its lair.",
 						{
 							"type": "inset",
 							"name": "Mausoleum Features",
@@ -1306,7 +1306,7 @@
 									"name": "Lighting",
 									"id": "057",
 									"entries": [
-										"Unless noted otherwise, the mausoleum is completely unlit and pitch dark. Adventurers require {@sense darkvision} or their own light sources to see in here."
+										"Unless noted otherwise, the mausoleum is completely unlit and pitch dark. Adventurers require {@sense Vision dans le noir} or their own light sources to see in here."
 									]
 								},
 								{
@@ -2769,7 +2769,7 @@
 									"entries": [
 										"This chamber was once a storeroom but is now used as a camp for Ularan Mortus's cultists. Bedrolls are laid over the floor and a fire burns in a brazier in the center of the room. There is one {@creature necromancer|VGM} in here, plus one {@creature ghast} and one {@creature priest} for every character in the party, including sidekicks.",
 										"The characters surprise the cultists if they sneak up on them after silently opening the door from area E1. If combat ensues here, any monsters present in areas E3 and E4 are alerted to the battle and arrive after {@dice 1d4 + 1} rounds. The cultists in area E5 remain where they are but begin their summoning chant.",
-										"{@b Treasure}. The cultists carry 170 gp and 105 ep in loose coins, as well as five {@item Potion of Healing||potions of healing}.",
+										"{@b Treasure}. The cultists carry 170 gp and 105 ep in loose coins, as well as five {@item Potion de soins||potions of healing}.",
 										{
 											"type": "image",
 											"href": {
@@ -2803,19 +2803,19 @@
 									"name": "E4. High Priest's Chamber",
 									"id": "061",
 									"entries": [
-										"This chamber is used by Ularan Mortus and contains his backpack, bedroll, and a casket of treasures. Two giants' skulls are mounted to the wall. If Ularan Mortus survived the \"{@adventure Leilon Besieged|DC|5}\" quest, he is present here. Ularan Mortus has the statistics of a {@creature war priest|VGM}. If {@creature Ebondeath|DC} recovered the {@item ruinstone|DC} from Leilon, Ularan Mortus wields it in battle here (see the \"Using the Ruinstone\" sidebar).",
+										"This chamber is used by Ularan Mortus and contains his backpack, bedroll, and a casket of treasures. Two giants' skulls are mounted to the wall. If Ularan Mortus survived the \"{@adventure Leilon Besieged|DC|5}\" quest, he is present here. Ularan Mortus has the statistics of a {@creature war priest|VGM}. If {@creature Ebondeath|DC} recovered the {@item Pierre de ruine|DC} from Leilon, Ularan Mortus wields it in battle here (see the \"Using the Ruinstone\" sidebar).",
 										{
 											"type": "entries",
 											"name": "Treasure",
 											"id": "062",
 											"entries": [
-												"The death priest's backpack contains 700 gp, 35 pp, {@item eyes of minute seeing}, and the following spell scrolls: {@spell raise dead}, {@spell forbiddance}, and {@spell holy aura}.",
+												"The death priest's backpack contains 700 gp, 35 pp, {@item Yeux de la vue perçante}, and the following spell scrolls: {@spell raise dead}, {@spell forbiddance}, and {@spell holy aura}.",
 												{
 													"type": "inset",
 													"name": "Using the Ruinstone",
 													"id": "063",
 													"entries": [
-														"Once per day as a bonus action, a villain can activate the {@item ruinstone|DC} to undo one deed they have performed. The possibilities here are broad, but in combat it's simplest to allow them the opportunity to \"rewind\" one action and take it again, or to reroll a failed saving throw (if it can still take actions). Each use of the artifact has a terrible side effect: someone known to the wielder is also erased from reality. After the villain uses the {@item ruinstone|DC}, roll a {@dice d20}: on a 5\u201320, one of their allies disintegrates, on an 1\u20134, one of the player characters disintegrates. If a creature bound its soul to the {@item ruinstone|DC} in the \"{@adventure Thalivar's Beacon|DC|7}\" quest, the artifact explodes when used and the creature who is bound to it disintegrates."
+														"Once per day as a bonus action, a villain can activate the {@item Pierre de ruine|DC} to undo one deed they have performed. The possibilities here are broad, but in combat it's simplest to allow them the opportunity to \"rewind\" one action and take it again, or to reroll a failed saving throw (if it can still take actions). Each use of the artifact has a terrible side effect: someone known to the wielder is also erased from reality. After the villain uses the {@item Pierre de ruine|DC}, roll a {@dice d20}: on a 5\u201320, one of their allies disintegrates, on an 1\u20134, one of the player characters disintegrates. If a creature bound its soul to the {@item Pierre de ruine|DC} in the \"{@adventure Thalivar's Beacon|DC|7}\" quest, the artifact explodes when used and the creature who is bound to it disintegrates."
 													]
 												}
 											]
@@ -2844,7 +2844,7 @@
 									"id": "066",
 									"entries": [
 										"The hallways are haunted by the grotesque vestige of {@creature Ebondeath|DC}'s first high priest. This creature squirms along the passages and can be encountered anywhere in the area or in the nearby Vaults of the Uthlords (area E7). The vestige appears as a bloated, drowned {@creature death knight} with horribly long arms. Its Longsword attack is replaced with the following attack:",
-										"{@b Ghoulish Claws}. {@i Melee Weapon Attack}: {@hit 11} to hit, reach 5 ft., one target. {@i Hit}: 7 ({@dice 1d4 + 5}) slashing damage, plus 18 ({@dice 4d8}) necrotic damage. If the target is a creature other than an undead, it must succeed on a {@dc 10} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+										"{@b Ghoulish Claws}. {@i Melee Weapon Attack}: {@hit 11} to hit, reach 5 ft., one target. {@i Hit}: 7 ({@dice 1d4 + 5}) slashing damage, plus 18 ({@dice 4d8}) necrotic damage. If the target is a creature other than an undead, it must succeed on a {@dc 10} Constitution saving throw or be {@condition Paralysé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 									]
 								},
 								{
@@ -2894,7 +2894,7 @@
 											"name": "Treasure",
 											"id": "06b",
 											"entries": [
-												"The treasures gathered here comprise 14,000 gp, 1,750 pp, ten {@item Jet||jet gemstones} worth 100 gp each, two {@item Potion of Supreme Healing||potions of supreme healing}, a {@item potion of storm giant strength}, and a {@item circlet of blasting}."
+												"The treasures gathered here comprise 14,000 gp, 1,750 pp, ten {@item Jais||jet gemstones} worth 100 gp each, two {@item Potion de soins suprêmes||potions of supreme healing}, a {@item Potion de force de géant de la tempête}, and a {@item Diadème de destruction}."
 											]
 										}
 									]
@@ -2951,7 +2951,7 @@
 								"The larger ship is adorned with white and gold fabric, and its figurehead looks like a lavender-eyed drow leaping forward to attack with twin scimitars. An enormous roaring panther head is attached the aft of this ship. The name on its side reads Icingdeath."
 							]
 						},
-						"If the characters are traveling by barge, they can row to the side of the ship, where the ship's captain welcomes them aboard. If the characters travel overland to the ships, both captains send {@vehicle Rowboat||rowboats} to collect them from the shore. The characters are free to travel on whichever ship they choose, though characters who can cast spells are encouraged to travel aboard {@i Icingdeath} and meet the ship's mage captain!",
+						"If the characters are traveling by barge, they can row to the side of the ship, where the ship's captain welcomes them aboard. If the characters travel overland to the ships, both captains send {@vehicle Barque||rowboats} to collect them from the shore. The characters are free to travel on whichever ship they choose, though characters who can cast spells are encouraged to travel aboard {@i Icingdeath} and meet the ship's mage captain!",
 						{
 							"type": "entries",
 							"name": "Drow Crews",
@@ -2977,7 +2977,7 @@
 							"entries": [
 								"Captain Deloz of {@i Twinkle} is disguised as a male Rashemi human weapon merchant. He is quiet, calculating, and observant. The captain often does random inspections of his crew, and checks in on his passengers to make sure they're comfortable (and not getting into trouble).",
 								"Captain Xalti of {@i Icingdeath} is disguised as a male Calishite human iron merchant. He is impulsive, nosy, and confident. The captain enjoys showing off his magic and making a bet on the outcome of almost any event.",
-								"Each captain wears a {@item hat of disguise} so they can maintain their illusionary appearance while not on the ship. The drow keep their real identities secret from the characters, but do not deny it if they are accused or caught. They're not willing to die to keep their identities secret.",
+								"Each captain wears a {@item Chapeau de déguisement} so they can maintain their illusionary appearance while not on the ship. The drow keep their real identities secret from the characters, but do not deny it if they are accused or caught. They're not willing to die to keep their identities secret.",
 								{
 									"type": "inset",
 									"name": "Icingdeath and Twinkle Features",
@@ -3005,7 +3005,7 @@
 											"name": "Doors",
 											"id": "078",
 											"entries": [
-												"The ships' doors are made of wood and have AC 15, 18 hit points, and immunity to poison and psychic damage. A lock can be picked with a successful {@dc 15} Dexterity check made using thieves' tools, or the door can be forced open with a successful {@dc 20} Strength ({@skill Athletics}) check."
+												"The ships' doors are made of wood and have AC 15, 18 hit points, and immunity to poison and psychic damage. A lock can be picked with a successful {@dc 15} Dexterity check made using thieves' tools, or the door can be forced open with a successful {@dc 20} Strength ({@skill Athlétisme}) check."
 											]
 										},
 										{
@@ -4420,7 +4420,7 @@
 											"name": "Magic Statue",
 											"id": "081",
 											"entries": [
-												"An 8-foot-tall, 4,000-pound stone statue of Drizzt Do'Urden, a famous drow ranger, stands near the front of the main deck, posed with hands on the pommels of his famous, sheathed scimitars. The statue's mouth is open in a goofy grin. A {@spell detect magic} spell reveals that the statue radiates an aura of transmutation magic. Whenever a creature on the main deck speaks the statue's command word (\"Artemis\"), the statue animates and obeys the creature who animated it. As a bonus action, the creature can direct the statue to move up to 30 feet or shoot a stream of water out of its mouth at a target within 30 feet of the statue. The stream of water has the same effect as the geyser option of a {@item decanter of endless water}. If the command word is spoken by that creature again, the statue returns to its original position on the ship and is no longer animate. The statue has AC 17, 27 hit points, and immunity to poison and psychic damage. Captain Xalti Tezzan (see \"{@area Drow Crews|072|x}\") knows the statue's command word."
+												"An 8-foot-tall, 4,000-pound stone statue of Drizzt Do'Urden, a famous drow ranger, stands near the front of the main deck, posed with hands on the pommels of his famous, sheathed scimitars. The statue's mouth is open in a goofy grin. A {@spell detect magic} spell reveals that the statue radiates an aura of transmutation magic. Whenever a creature on the main deck speaks the statue's command word (\"Artemis\"), the statue animates and obeys the creature who animated it. As a bonus action, the creature can direct the statue to move up to 30 feet or shoot a stream of water out of its mouth at a target within 30 feet of the statue. The stream of water has the same effect as the geyser option of a {@item Carafe intarissable}. If the command word is spoken by that creature again, the statue returns to its original position on the ship and is no longer animate. The statue has AC 17, 27 hit points, and immunity to poison and psychic damage. Captain Xalti Tezzan (see \"{@area Drow Crews|072|x}\") knows the statue's command word."
 											]
 										}
 									]
@@ -4566,7 +4566,7 @@
 											"name": "Treasure",
 											"id": "093",
 											"entries": [
-												"A character who searches the bed finds a concealed drawer in the bed frame, beneath the sheets. Inside the drawer are Deloz's neatly folded clothing and a {@item potion of water breathing}"
+												"A character who searches the bed finds a concealed drawer in the bed frame, beneath the sheets. Inside the drawer are Deloz's neatly folded clothing and a {@item Potion de respiration aquatique}"
 											]
 										}
 									]
@@ -4651,7 +4651,7 @@
 										"\"Each of you make your case. Why should I send my troops to Leilon? By all accounts it should be able to defend itself now. I've already poured many resources into the town and it has yet to pay anything back.\""
 									]
 								},
-								"Encourage each character to make a case to Dagult. After making their statement, the character should make a {@dc 13} ability check. In cases of simple argument, this is a Charisma ({@skill Persuasion}) check, but allow the characters to get creative. For instance, characters who try to scare Dagult with stories of their enemies could make a Charisma ({@skill Intimidation} or {@skill Performance}) check, and characters who try to use a historical example or allegory could make an Intelligence ({@skill History}) check. Grant advantage on the check to characters who make a well-reasoned or passionate argument.",
+								"Encourage each character to make a case to Dagult. After making their statement, the character should make a {@dc 13} ability check. In cases of simple argument, this is a Charisma ({@skill Persuasion}) check, but allow the characters to get creative. For instance, characters who try to scare Dagult with stories of their enemies could make a Charisma ({@skill Intimidation} or {@skill Représentation}) check, and characters who try to use a historical example or allegory could make an Intelligence ({@skill Histoire}) check. Grant advantage on the check to characters who make a well-reasoned or passionate argument.",
 								{
 									"type": "list",
 									"items": [
@@ -4694,7 +4694,7 @@
 										{
 											"type": "list",
 											"items": [
-												"Characters who help the sailors push through the storm by securing ropes and tying down cargo and equipment must make a successful {@dc 15} Strength ({@skill Athletics}) check.",
+												"Characters who help the sailors push through the storm by securing ropes and tying down cargo and equipment must make a successful {@dc 15} Strength ({@skill Athlétisme}) check.",
 												"Character who attempt to steer the ship's wheel must make a successful {@dc 15} Dexterity check using water vehicles.",
 												"Characters who help the sailors navigate through the storm must make a successful {@dc 15} Intelligence check using navigator's tools.",
 												"Allow the characters to attempt other {@dc 15} ability checks that make sense. For instance, a character trying to inspire others to work harder without fear of the storm could make a {@dc 15} Charisma ({@skill Persuasion}) check."
@@ -4778,7 +4778,7 @@
 					"name": "Quest Overview",
 					"id": "0a7",
 					"entries": [
-						"Ularan Mortus, high priest of the death god Myrkul, has mustered an undead army to invade Leilon and seize the mystical {@item ruinstone|DC} from the House of Thalivar. As he makes his move, cultists of the storm god Talos, led by Fheralai Stormsworn, assault the town to steal the stone before it falls into their enemy's hands. Caught in the middle, the characters must marshal Leilon's forces and hold the line against both armies."
+						"Ularan Mortus, high priest of the death god Myrkul, has mustered an undead army to invade Leilon and seize the mystical {@item Pierre de ruine|DC} from the House of Thalivar. As he makes his move, cultists of the storm god Talos, led by Fheralai Stormsworn, assault the town to steal the stone before it falls into their enemy's hands. Caught in the middle, the characters must marshal Leilon's forces and hold the line against both armies."
 					]
 				},
 				{
@@ -4805,7 +4805,7 @@
 								{
 									"type": "list",
 									"items": [
-										"Their enemies are {@condition frightened} for one or more rounds.",
+										"Their enemies are {@condition Effrayé} for one or more rounds.",
 										"The players surprise their enemies in the next combat.",
 										"The players gain advantage on any ability checks related to their current task.",
 										"Each character gains inspiration.",
@@ -4985,7 +4985,7 @@
 									"name": "Crushing Defeat",
 									"id": "0b4",
 									"entries": [
-										"Ularan Mortus claims the {@item ruinstone|DC}. Leilon is sacked and its inhabitants put to the sword. Both enemy generals survive, along with the dragon."
+										"Ularan Mortus claims the {@item Pierre de ruine|DC}. Leilon is sacked and its inhabitants put to the sword. Both enemy generals survive, along with the dragon."
 									]
 								},
 								{
@@ -4993,7 +4993,7 @@
 									"name": "Defeat",
 									"id": "0b5",
 									"entries": [
-										"The {@item ruinstone|DC} is claimed by the enemy. Leilon fends off the attack, but the defenders are decimated. At least one enemy general survives."
+										"The {@item Pierre de ruine|DC} is claimed by the enemy. Leilon fends off the attack, but the defenders are decimated. At least one enemy general survives."
 									]
 								},
 								{
@@ -5001,7 +5001,7 @@
 									"name": "Pyrrhic Victory",
 									"id": "0b6",
 									"entries": [
-										"The {@item ruinstone|DC} remains hidden. Leilon holds, but the defenders are decimated. At least one enemy general survives."
+										"The {@item Pierre de ruine|DC} remains hidden. Leilon holds, but the defenders are decimated. At least one enemy general survives."
 									]
 								},
 								{
@@ -5009,7 +5009,7 @@
 									"name": "Victory",
 									"id": "0b7",
 									"entries": [
-										"The {@item ruinstone|DC} remains hidden. Leilon holds, and more than half the defenders survive. At least one enemy general is slain."
+										"The {@item Pierre de ruine|DC} remains hidden. Leilon holds, and more than half the defenders survive. At least one enemy general is slain."
 									]
 								},
 								{
@@ -5017,7 +5017,7 @@
 									"name": "Great Victory",
 									"id": "0b8",
 									"entries": [
-										"The {@item ruinstone|DC} remains hidden. Leilon holds, and most of the defenders survive. Both enemy generals and the dragon are slain.",
+										"The {@item Pierre de ruine|DC} remains hidden. Leilon holds, and most of the defenders survive. Both enemy generals and the dragon are slain.",
 										{
 											"type": "image",
 											"href": {
@@ -5041,7 +5041,7 @@
 					"entries": [
 						"The attack begins just before dawn, when Ularan Mortus assaults the south gate with a huge force of ghouls. Soon after, an even larger force of zombies emerges from the mere to invade the quayside. The defenders rally to protect the town but are outnumbered.",
 						"While the defenders struggle to hold the perimeter, Fheralai Stormsworn's forces breach the north gate and pour forward to seize the town square. Ularan Mortus responds by deploying his dragon, {@creature Ebondeath|DC}, which swoops in from the east and decimates Stormsworn's forces gathered in the square. The cultists of Talos are forced to fall back and regroup.",
-						"As Ularan Mortus's army forces its way into Leilon, {@creature Ebondeath|DC} reaches the House of Thalivar and searches for the {@item ruinstone|DC}. Unless stopped, it claims the stone and flies back to its hiding place in the mere. Ularan Mortus withdraws in victory to his headquarters. Stormsworn's troops intercept his entourage outside town, but her reduced forces are beaten back. The remaining members of both sides retreat to their respective headquarters."
+						"As Ularan Mortus's army forces its way into Leilon, {@creature Ebondeath|DC} reaches the House of Thalivar and searches for the {@item Pierre de ruine|DC}. Unless stopped, it claims the stone and flies back to its hiding place in the mere. Ularan Mortus withdraws in victory to his headquarters. Stormsworn's troops intercept his entourage outside town, but her reduced forces are beaten back. The remaining members of both sides retreat to their respective headquarters."
 					]
 				},
 				{
@@ -5103,7 +5103,7 @@
 												"\"Barbarians at the north gate!\" he gasps. \"The storm lord's berserkers! I was on my way to warn you when I saw the dead wading out of the marsh. They're attacking the quayside right now!\""
 											]
 										},
-										"The players must choose what to do next: repel the cultists of Talos at the north gate, or stop the zombies from assaulting the quayside. Once the players have made their choice, Jack gives each character a {@item potion of healing} to aid them in the battle, and then collapses exhausted in the mud.",
+										"The players must choose what to do next: repel the cultists of Talos at the north gate, or stop the zombies from assaulting the quayside. Once the players have made their choice, Jack gives each character a {@item Potion de soins} to aid them in the battle, and then collapses exhausted in the mud.",
 										{
 											"type": "list",
 											"items": [
@@ -5150,7 +5150,7 @@
 												"Screams echo across the quayside as zombies emerge from the mire! Defenders dash to repel the undead, but they seem unprepared for the surprise attack. As you get closer, you see a large undead figure with long fingers squatting over an upturned rowboat. A woman squirms in the mud underneath, trapped by the weight of the boat. You recognize her as Valdi Estapaar, the fisherwoman who sits on the town council!"
 											]
 										},
-										"A {@creature boneclaw|MTF} has cornered Councilor Estapaar and is preparing to slay her. Estapaar is a {@creature veteran}, but she is currently {@condition restrained} underneath the rowboat. To free the councilor, characters with a combined Strength score of 15 or higher must spend an action to heft the boat aside (if they attempt this while the boneclaw is perched on the boat, they need to muster a combined Strength score of 25 instead). At some point during the battle, the characters hear bells ringing to the north of town: the barbarians have broken through the gates!",
+										"A {@creature boneclaw|MTF} has cornered Councilor Estapaar and is preparing to slay her. Estapaar is a {@creature veteran}, but she is currently {@condition Entravé} underneath the rowboat. To free the councilor, characters with a combined Strength score of 15 or higher must spend an action to heft the boat aside (if they attempt this while the boneclaw is perched on the boat, they need to muster a combined Strength score of 25 instead). At some point during the battle, the characters hear bells ringing to the north of town: the barbarians have broken through the gates!",
 										{
 											"type": "list",
 											"items": [
@@ -5412,7 +5412,7 @@
 														"Before you can act, the dragon extends a ghostly claw from its body and snatches a glowing red stone from the air above its head. With a triumphant roar, it kicks back from the tower, causing the building to collapse in a shower of dust and rubble! As the smoke clears, you see the dragon gliding away over the distant hills."
 													]
 												},
-												"{@creature Ebondeath|DC} has escaped with the {@item ruinstone|DC} and the Swords of Leilon are lost. To resolve the quest, go to Event 15: \"Divine Contention.\""
+												"{@creature Ebondeath|DC} has escaped with the {@item Pierre de ruine|DC} and the Swords of Leilon are lost. To resolve the quest, go to Event 15: \"Divine Contention.\""
 											]
 										}
 									]
@@ -5438,7 +5438,7 @@
 									"name": "Event 15. Divine Contention",
 									"id": "0dd",
 									"entries": [
-										"As {@creature Ebondeath|DC}'s spirit departs with the {@item ruinstone|DC}, the characters gain an opportunity to strike at Ularan Mortus. Read the following aloud:",
+										"As {@creature Ebondeath|DC}'s spirit departs with the {@item Pierre de ruine|DC}, the characters gain an opportunity to strike at Ularan Mortus. Read the following aloud:",
 										{
 											"type": "insetReadaloud",
 											"id": "0de",
@@ -6779,7 +6779,7 @@
 											"type": "entries",
 											"name": "Treasure",
 											"entries": [
-												"A large roc's nest is nestled at the back of the main deck. Characters who search through the bones strewn throughout the nest discover a battered {@item helm of telepathy} and five {@item Black Pearl||black pearls} worth 500 gp each."
+												"A large roc's nest is nestled at the back of the main deck. Characters who search through the bones strewn throughout the nest discover a battered {@item Heaume de télépathie} and five {@item Perle noire||black pearls} worth 500 gp each."
 											],
 											"id": "043"
 										}
@@ -6790,7 +6790,7 @@
 									"name": "D3. Hellfire Orb",
 									"id": "0f0",
 									"entries": [
-										"The iron brazier mounted on the mainmast contains an ever-burning orb of flame. The spirit of the death knight can see and talk through this orb, perceiving its surroundings with {@sense darkvision} to a range of 120 feet (see \"{@area Death Knight's Soul|0e8|x}\"). Once per day, the death knight can hurl a magical ball of fire that explodes at a point it can see within 240 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 18} Dexterity saving throw. The sphere spreads around corners. A creature takes 35 ({@dice 10d6}) fire damage and 35 ({@dice 10d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+										"The iron brazier mounted on the mainmast contains an ever-burning orb of flame. The spirit of the death knight can see and talk through this orb, perceiving its surroundings with {@sense Vision dans le noir} to a range of 120 feet (see \"{@area Death Knight's Soul|0e8|x}\"). Once per day, the death knight can hurl a magical ball of fire that explodes at a point it can see within 240 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 18} Dexterity saving throw. The sphere spreads around corners. A creature takes 35 ({@dice 10d6}) fire damage and 35 ({@dice 10d6}) necrotic damage on a failed save, or half as much damage on a successful one."
 									]
 								},
 								{
@@ -6814,7 +6814,7 @@
 									"name": "D5. Storage Lockers",
 									"id": "0f3",
 									"entries": [
-										"These lockers contain supplies for manning the vessel: spare rope, buckets, tubs of grease, and other mundane tools. A character who hides inside a locker gains advantage on any Dexterity ({@skill Stealth}) checks made to evade the crew."
+										"These lockers contain supplies for manning the vessel: spare rope, buckets, tubs of grease, and other mundane tools. A character who hides inside a locker gains advantage on any Dexterity ({@skill Discrétion}) checks made to evade the crew."
 									]
 								},
 								{
@@ -6829,7 +6829,7 @@
 											"name": "Treasure",
 											"id": "0f5",
 											"entries": [
-												"The following treasures looted from Fheralai's raids are dumped carelessly around her cabin: 1,500 gp, a 2-foot-tall solid gold bull statue worth 3,500 gp, two crystal decanters worth 500 gp each, 5 {@item Potion of Greater Healing||potions of greater healing}, a {@item spell scroll} of {@spell chain lightning}, and four {@item Javelin of Lightning||javelins of lightning}."
+												"The following treasures looted from Fheralai's raids are dumped carelessly around her cabin: 1,500 gp, a 2-foot-tall solid gold bull statue worth 3,500 gp, two crystal decanters worth 500 gp each, 5 {@item Potion de soins supérieurs||potions of greater healing}, a {@item spell scroll} of {@spell chain lightning}, and four {@item Javelot d'éclair||javelins of lightning}."
 											]
 										}
 									]
@@ -6854,7 +6854,7 @@
 											"name": "Treasure",
 											"id": "0f8",
 											"entries": [
-												"Ironhide keeps a bandolier hung on the door containing 3 {@item Potion of Greater Healing||potions of greater healing} and a {@item potion of invulnerability}. Her nest contains a polished adamantine mirror decorated with gold filigree worth 850 gp."
+												"Ironhide keeps a bandolier hung on the door containing 3 {@item Potion de soins supérieurs||potions of greater healing} and a {@item Potion d'invulnérabilité}. Her nest contains a polished adamantine mirror decorated with gold filigree worth 850 gp."
 											]
 										}
 									]
@@ -6903,7 +6903,7 @@
 											"name": "Treasures",
 											"id": "0fe",
 											"entries": [
-												"Emberlost is surrounded by plundered treasures from the lost city of Anauria, which Fheralai recently stole from the auction houses of Neverwinter. The hoard includes four {@item Black Opal||black opals} worth 1,000 gp each, a golden harp worth 750 gp, an ornamental swan worth 500 gp, a jewel-encrusted dagger worth 750 gp, and a treasure chest containing 8,000 gp."
+												"Emberlost is surrounded by plundered treasures from the lost city of Anauria, which Fheralai recently stole from the auction houses of Neverwinter. The hoard includes four {@item Opale noire||black opals} worth 1,000 gp each, a golden harp worth 750 gp, an ornamental swan worth 500 gp, a jewel-encrusted dagger worth 750 gp, and a treasure chest containing 8,000 gp."
 											]
 										}
 									]
@@ -6983,7 +6983,7 @@
 					"name": "Location Overview",
 					"id": "107",
 					"entries": [
-						"The wizard Thalivar built a tower at the heart of Leilon as a laboratory to study the monsters of the cosmos. Using a device called a planar beacon, Thalivar lured his prey into the tower and trapped them for his experiments. Disaster struck when Thalivar tried using the beacon to acquire a planar artifact called the {@item ruinstone|DC} and accidentally unleashed the contents of his own menagerie. For years, the House of Thalivar stood abandoned, and those who dared to enter it were lost forever.",
+						"The wizard Thalivar built a tower at the heart of Leilon as a laboratory to study the monsters of the cosmos. Using a device called a planar beacon, Thalivar lured his prey into the tower and trapped them for his experiments. Disaster struck when Thalivar tried using the beacon to acquire a planar artifact called the {@item Pierre de ruine|DC} and accidentally unleashed the contents of his own menagerie. For years, the House of Thalivar stood abandoned, and those who dared to enter it were lost forever.",
 						"When the Spellplague wracked Toril, the cursed magic of the beacon was turned outwards on the town, and the monsters lurking within the tower were released. A local adventuring party, the Swords of Leilon, died trying to stop them from spilling out into the town below. Since then, the tower has been haunted by the ghosts of those who died within.",
 						"Led by the wizard Gallio Elibro, forces from Neverwinter have recently rebuilt the tower for use as a garrison building. Gallio has repaired the planar beacon and is continuing Thalivar's research into the planes. With the town threatened by invasion, the wizard offers to aid the party by summoning a cadre of bound monsters to defend the walls. Secretly, he has other motives in mind....",
 						{
@@ -7039,7 +7039,7 @@
 									"name": "Gallio's Hidden Agenda",
 									"id": "10d",
 									"entries": [
-										"Gallio has secret orders from his superiors in the Order of the Many-Starred Cloak to recover a magical artifact called the {@item ruinstone|DC} from the Ethereal Plane. He intends to use the party to lure the {@item Ruinstone|DC|ruinstone's} guardians away, allowing him to seize it for his studies. Gallio doesn't know that the artifact is protected by a field of wild magic. Touching it unleashes a magical backlash that overloads the planar beacon and frees any monsters held inside the tower: the same fate that befell Thalivar."
+										"Gallio has secret orders from his superiors in the Order of the Many-Starred Cloak to recover a magical artifact called the {@item Pierre de ruine|DC} from the Ethereal Plane. He intends to use the party to lure the {@item Pierre de ruine|DC|ruinstone's} guardians away, allowing him to seize it for his studies. Gallio doesn't know that the artifact is protected by a field of wild magic. Touching it unleashes a magical backlash that overloads the planar beacon and frees any monsters held inside the tower: the same fate that befell Thalivar."
 									]
 								},
 								{
@@ -7700,7 +7700,7 @@
 											"name": "Doors",
 											"id": "111",
 											"entries": [
-												"Doors are made of wood and kept locked. A locked door can be opened with a successful {@dc 10} Dexterity check using thieves' tools. A locked door can be opened as an action with a successful {@dc 15} Strength ({@skill Athletics}) check. All the guards carry keys for the doors, although only Gallio carries keys for the rooms on the third and fourth floors."
+												"Doors are made of wood and kept locked. A locked door can be opened with a successful {@dc 10} Dexterity check using thieves' tools. A locked door can be opened as an action with a successful {@dc 15} Strength ({@skill Athlétisme}) check. All the guards carry keys for the doors, although only Gallio carries keys for the rooms on the third and fourth floors."
 											]
 										}
 									]
@@ -7772,7 +7772,7 @@
 											"name": "Weapons Locker",
 											"id": "11a",
 											"entries": [
-												"This locker is reinforced with a superior lock. To open this door, a character must succeed on a {@dc 16} Dexterity check using thieves' tools or force it open as an action with a successful {@dc 20} Strength ({@skill Athletics}) check.Inside, a {@item longsword of warning} named Auspex is mounted to the wall."
+												"This locker is reinforced with a superior lock. To open this door, a character must succeed on a {@dc 16} Dexterity check using thieves' tools or force it open as an action with a successful {@dc 20} Strength ({@skill Athlétisme}) check.Inside, a {@item longsword of warning} named Auspex is mounted to the wall."
 											]
 										}
 									]
@@ -7821,7 +7821,7 @@
 												],
 												[
 													"6\u20139",
-													"Flashbang. All creatures within 10 feet of the character must make a {@dc 12} Constitution saving throw. On a failed save, they are {@condition blinded} and {@condition deafened} until the end of their next turn."
+													"Flashbang. All creatures within 10 feet of the character must make a {@dc 12} Constitution saving throw. On a failed save, they are {@condition Aveuglé} and {@condition Assourdi} until the end of their next turn."
 												],
 												[
 													"10\u201320",
@@ -7858,7 +7858,7 @@
 											"name": "Dimensional Cells",
 											"id": "121",
 											"entries": [
-												"Eight barred cells line the chamber's walls. While the beacon turns, creatures held inside these cells are prevented from taking any form of extradimensional movement, including teleportation or travel to another plane of existence.Bending the bars of a cell requires success on a {@dc 25} Strength check. The cell doors spring open automatically if the beacon is disabled. Two {@condition paralyzed} {@creature Star Spawn Mangler|MTF|star spawn manglers} (see {@adventure appendix A|DC|9}) occupy the cells when the characters first enter the tower."
+												"Eight barred cells line the chamber's walls. While the beacon turns, creatures held inside these cells are prevented from taking any form of extradimensional movement, including teleportation or travel to another plane of existence.Bending the bars of a cell requires success on a {@dc 25} Strength check. The cell doors spring open automatically if the beacon is disabled. Two {@condition Paralysé} {@creature Star Spawn Mangler|MTF|star spawn manglers} (see {@adventure appendix A|DC|9}) occupy the cells when the characters first enter the tower."
 											]
 										}
 									]
@@ -7869,13 +7869,13 @@
 									"id": "122",
 									"entries": [
 										"Thalivar built this spire long ago, but it collapsed when the town fell into ruin. Its lingering form remains on the Border Ethereal, where it appears as any other structure from the Material Plane: ghostly and immaterial. A group of four {@creature Star Spawn Mangler|MTF|star spawn manglers} (see {@adventure appendix A|DC|9}) lurk in the mists surrounding this chamber and attack anyone who enters.",
-										"The only object of interest here is the {@item ruinstone|DC} a fiery red crystal the size of a human palm, which is clasped in the maw of a snake-shaped pedestal. The pedestal is enchanted and only releases its prize if a long-forgotten command word is spoken. Any creature that touches the {@item ruinstone|DC} or strikes the pedestal with a melee weapon must make a {@dc 18} Constitution saving throw or fall {@condition unconscious} for 1 hour. This magical backlash also disables the planar beacon.The pedestal has AC 10, 50 hit points, a damage threshold of 10, and immunity to poison and psychic damage.",
+										"The only object of interest here is the {@item Pierre de ruine|DC} a fiery red crystal the size of a human palm, which is clasped in the maw of a snake-shaped pedestal. The pedestal is enchanted and only releases its prize if a long-forgotten command word is spoken. Any creature that touches the {@item Pierre de ruine|DC} or strikes the pedestal with a melee weapon must make a {@dc 18} Constitution saving throw or fall {@condition Inconscient} for 1 hour. This magical backlash also disables the planar beacon.The pedestal has AC 10, 50 hit points, a damage threshold of 10, and immunity to poison and psychic damage.",
 										{
 											"type": "inset",
 											"name": "The Ruinstone",
 											"id": "123",
 											"entries": [
-												"This evil artifact was created by Netherese wizards long ago. Once per day, a creature holding the {@item ruinstone|DC} can use it to undo one action they performed within the past 24 hours, altering reality so that any consequences of that action are erased. For example, a creature could undo the killing blow that they dealt to an enemy, causing that enemy to return to life in the position where it died. Each use of the artifact has a terrible side effect: one random person known to the user is also erased from reality. The villains in this adventure both want to acquire the {@item ruinstone|DC} for their own evil ends. If your players decide to claim it themselves, it's up to you to determine what calamities befall them!"
+												"This evil artifact was created by Netherese wizards long ago. Once per day, a creature holding the {@item Pierre de ruine|DC} can use it to undo one action they performed within the past 24 hours, altering reality so that any consequences of that action are erased. For example, a creature could undo the killing blow that they dealt to an enemy, causing that enemy to return to life in the position where it died. Each use of the artifact has a terrible side effect: one random person known to the user is also erased from reality. The villains in this adventure both want to acquire the {@item Pierre de ruine|DC} for their own evil ends. If your players decide to claim it themselves, it's up to you to determine what calamities befall them!"
 											]
 										}
 									]
@@ -7912,8 +7912,8 @@
 							"name": "Hunting for Star Spawn",
 							"id": "127",
 							"entries": [
-								"Gallio leads the characters upstairs to the mysterious chamber at the top of the ethereal spire (area B14). As they approach the chamber, Gallio casts a {@spell greater invisibility} spell on himself and instructs the characters to lure the monsters within into the planar beacon. When the characters enter the room, the monsters emerge from the mists to attack them. Any interplanar creature that starts its turn inside the planar beacon room (area B13) is {@condition paralyzed} for one minute. If a character grabs a {@condition paralyzed} monster and then rings the silver bell, they can drag the creature back to the Material Plane and imprison it inside one of the dimensional cells.",
-								"While the characters are dealing with the monsters, Gallio tries to unlock the {@item ruinstone|DC} from its pedestal. After 5 rounds, he grabs hold of the stone and tries to remove it by force. Read the following boxed text aloud when this occurs:",
+								"Gallio leads the characters upstairs to the mysterious chamber at the top of the ethereal spire (area B14). As they approach the chamber, Gallio casts a {@spell greater invisibility} spell on himself and instructs the characters to lure the monsters within into the planar beacon. When the characters enter the room, the monsters emerge from the mists to attack them. Any interplanar creature that starts its turn inside the planar beacon room (area B13) is {@condition Paralysé} for one minute. If a character grabs a {@condition Paralysé} monster and then rings the silver bell, they can drag the creature back to the Material Plane and imprison it inside one of the dimensional cells.",
+								"While the characters are dealing with the monsters, Gallio tries to unlock the {@item Pierre de ruine|DC} from its pedestal. After 5 rounds, he grabs hold of the stone and tries to remove it by force. Read the following boxed text aloud when this occurs:",
 								{
 									"type": "insetReadaloud",
 									"id": "128",
@@ -7921,7 +7921,7 @@
 										"Gallio screams from the top of the astral spire. A shockwave washes through the mists, and the spectral light of the planar beacon flickers and dies. Looking back into your own world, you see the trapped monsters awaken and break free from their cells!"
 									]
 								},
-								"Touching the {@item ruinstone|DC} triggers a magical backlash that disables the planar beacon and frees any creatures trapped in its spell. Back on the Material Plane, any captured monsters break free from their cells and rampage through the tower, including the two that Gallio captured previously. To complete their quest, the characters must hunt down and kill the monsters. If they succeed, proceed to \"Conclusion.\""
+								"Touching the {@item Pierre de ruine|DC} triggers a magical backlash that disables the planar beacon and frees any creatures trapped in its spell. Back on the Material Plane, any captured monsters break free from their cells and rampage through the tower, including the two that Gallio captured previously. To complete their quest, the characters must hunt down and kill the monsters. If they succeed, proceed to \"Conclusion.\""
 							]
 						},
 						{
@@ -7929,7 +7929,7 @@
 							"name": "Conclusion",
 							"id": "129",
 							"entries": [
-								"If the characters defeat the star spawn, they discover Gallio's {@condition unconscious} body sprawled before the {@item ruinstone|DC}. When they approach the body, the ghosts of the Swords of Leilon appear to issue a warning. Read the following boxed text aloud:",
+								"If the characters defeat the star spawn, they discover Gallio's {@condition Inconscient} body sprawled before the {@item Pierre de ruine|DC}. When they approach the body, the ghosts of the Swords of Leilon appear to issue a warning. Read the following boxed text aloud:",
 								{
 									"type": "insetReadaloud",
 									"id": "12a",
@@ -7948,8 +7948,8 @@
 										"The ghosts have sensed that evil powers have recently learned of the stone and are conspiring to claim it. It must not fall into evil hands!"
 									]
 								},
-								"The ghosts urge the characters to help them protect the stone. If a living humanoid willingly binds their soul to the {@item ruinstone|DC}, the artifact will be destroyed when it's next used\u2014but doing so erases the soul from existence. Any creature that binds its soul to the artifact suffers no ill effects until the artifact is used, at which point the creature disappears from reality and can only be brought back with a {@spell wish} spell, or similar magic. If no characters are willing to volunteer their souls, the ghosts ask them to stay clear of the tower and leave them to guard it.",
-								"When Gallio awakens, he admits to his deception and swears never to seek the {@item ruinstone|DC} again. The wizard resigns from his post at once and returns to Neverwinter to face his order."
+								"The ghosts urge the characters to help them protect the stone. If a living humanoid willingly binds their soul to the {@item Pierre de ruine|DC}, the artifact will be destroyed when it's next used\u2014but doing so erases the soul from existence. Any creature that binds its soul to the artifact suffers no ill effects until the artifact is used, at which point the creature disappears from reality and can only be brought back with a {@spell wish} spell, or similar magic. If no characters are willing to volunteer their souls, the ghosts ask them to stay clear of the tower and leave them to guard it.",
+								"When Gallio awakens, he admits to his deception and swears never to seek the {@item Pierre de ruine|DC} again. The wizard resigns from his post at once and returns to Neverwinter to face his order."
 							]
 						}
 					]
@@ -8782,7 +8782,7 @@
 												"type": "entries",
 												"name": "Ability Score Improvement",
 												"entries": [
-													"The expert's Cha. score increases by 2, raising the modifier by 1, so increase the following numbers by 1: the Cha. saving throw bonus; the {@skill Performance}, and {@skill Persuasion} bonuses."
+													"The expert's Cha. score increases by 2, raising the modifier by 1, so increase the following numbers by 1: the Cha. saving throw bonus; the {@skill Représentation}, and {@skill Persuasion} bonuses."
 												],
 												"id": "04f"
 											}
@@ -8850,7 +8850,7 @@
 												"type": "entries",
 												"name": "Ability Score Improvement",
 												"entries": [
-													"The warrior's Str. score increases by 2, raising the modifier by 1, so increase the following numbers by 1: the {@skill Athletics} bonus; and the bonuses to hit and damage of the warrior's weapon attacks."
+													"The warrior's Str. score increases by 2, raising the modifier by 1, so increase the following numbers by 1: the {@skill Athlétisme} bonus; and the bonuses to hit and damage of the warrior's weapon attacks."
 												],
 												"id": "12e"
 											}

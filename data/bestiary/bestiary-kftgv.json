@@ -561,7 +561,7 @@
 				{
 					"name": "Electrified Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 7 ({@damage 2d6}) lightning damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be {@condition grappled} (escape {@dc 13}). A creature {@condition grappled} by the defender takes the damage again at the start of each of the defender's turns. The defender can have only one creature {@condition grappled} in this way at a time, and the defender can't make Electrified Bite attacks while grappling."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 7 ({@damage 2d6}) lightning damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be {@condition Agrippé} (escape {@dc 13}). A creature {@condition Agrippé} by the defender takes the damage again at the start of each of the defender's turns. The defender can have only one creature {@condition Agrippé} in this way at a time, and the defender can't make Electrified Bite attacks while grappling."
 					]
 				}
 			],
@@ -798,7 +798,7 @@
 							"items": {
 								"name": "Bite",
 								"entries": [
-									"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage plus 3 ({@damage 1d6}) poison damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the eldritch horror hatchling can bite only the {@condition grappled} creature and has advantage on attack rolls to do so."
+									"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage plus 3 ({@damage 1d6}) poison damage. If the target is a Large or smaller creature, it is {@condition Agrippé} (escape {@dc 13}). Until this grapple ends, the eldritch horror hatchling can bite only the {@condition Agrippé} creature and has advantage on attack rolls to do so."
 								]
 							}
 						},
@@ -808,7 +808,7 @@
 							"items": {
 								"name": "Acid Spray {@recharge}",
 								"entries": [
-									"The eldritch horror hatchling spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature {@condition grappled}. Each creature in that line must make a {@dc 13} Dexterity saving throw, taking 10 ({@damage 3d6}) acid damage on a failed save, or half as much damage on a successful one."
+									"The eldritch horror hatchling spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature {@condition Agrippé}. Each creature in that line must make a {@dc 13} Dexterity saving throw, taking 10 ({@damage 3d6}) acid damage on a failed save, or half as much damage on a successful one."
 								]
 							}
 						}
@@ -1342,7 +1342,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Kavoda carries a {@item Spell Scroll (2nd Level)||spell scroll} of {@spell magic weapon} and a {@item Potion of Hill Giant Strength||potion of giant strength (hill)}."
+								"Kavoda carries a {@item Parchemin de sort (niveau 2)||spell scroll} of {@spell magic weapon} and a {@item Potion de force de géant des collines||potion of giant strength (hill)}."
 							]
 						}
 					}
@@ -1520,7 +1520,7 @@
 				{
 					"name": "Ceremonial Blade",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 3 ({@damage 1d6}) poison damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw or become {@condition poisoned} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 3 ({@damage 1d6}) poison damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw or become {@condition Empoisonné} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -1790,13 +1790,13 @@
 				{
 					"name": "Firestorm Tattoo {@recharge 5}",
 					"entries": [
-						"Prisoner 13 magically unleashes flame from the tattoo across her back, filling a 20-foot-radius sphere centered on her. Each other creature in that area must make a {@dc 15} Dexterity saving throw. On a failed save, the creature takes 13 ({@damage 3d8}) fire damage and is knocked {@condition prone}. On a successful save, it takes half as much damage and isn't knocked {@condition prone}."
+						"Prisoner 13 magically unleashes flame from the tattoo across her back, filling a 20-foot-radius sphere centered on her. Each other creature in that area must make a {@dc 15} Dexterity saving throw. On a failed save, the creature takes 13 ({@damage 3d8}) fire damage and is knocked {@condition À terre}. On a successful save, it takes half as much damage and isn't knocked {@condition À terre}."
 					]
 				},
 				{
 					"name": "River Tattoo",
 					"entries": [
-						"Prisoner 13 magically ends any effects causing the {@condition grappled} or {@condition restrained} conditions on herself. If she is bound with nonmagical restraints, she slips out of them."
+						"Prisoner 13 magically ends any effects causing the {@condition Agrippé} or {@condition Entravé} conditions on herself. If she is bound with nonmagical restraints, she slips out of them."
 					]
 				}
 			],
@@ -2046,7 +2046,7 @@
 				{
 					"name": "Fear of Frogs and Toads",
 					"entries": [
-						"Sythian is {@condition frightened} while he is within 20 feet of a frog or a toad (of any size) that he can see."
+						"Sythian is {@condition Effrayé} while he is within 20 feet of a frog or a toad (of any size) that he can see."
 					]
 				},
 				{
@@ -2078,7 +2078,7 @@
 				{
 					"name": "Whispers of Azzagrat",
 					"entries": [
-						"Each creature in a 15-foot cube originating from Sythian must make a {@dc 14} Wisdom saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) psychic damage and is {@condition incapacitated} until the end of its next turn. On a successful save, the creature takes half as much damage and isn't {@condition incapacitated}."
+						"Each creature in a 15-foot cube originating from Sythian must make a {@dc 14} Wisdom saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) psychic damage and is {@condition Incapable} until the end of its next turn. On a successful save, the creature takes half as much damage and isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -2156,7 +2156,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"The Stranger wears an invisible {@item ring of mind shielding} that thwarts magical attempts to read their thoughts. The Stranger also wears {@item dimensional shackles} but is eager to be rid of them. One touch from Omid's mace-key causes the shackles to fall off, freeing the Stranger."
+						"The Stranger wears an invisible {@item Anneau de protection mentale} that thwarts magical attempts to read their thoughts. The Stranger also wears {@item Menottes dimensionnelles} but is eager to be rid of them. One touch from Omid's mace-key causes the shackles to fall off, freeing the Stranger."
 					]
 				},
 				{
@@ -2208,7 +2208,7 @@
 					"ac": 17,
 					"from": [
 						"natural armor",
-						"{@item shield|PHB}"
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -2271,7 +2271,7 @@
 				{
 					"name": "Force Field",
 					"entries": [
-						"Tockworth generates a magical force field around herself. This force field has 15 hit points and regains all its hit points at the start of each of Tockworth's turns, but it ceases to function if Tockworth drops to 0 hit points. Any damage Tockworth takes is subtracted from the force field's hit points first. Each time the force field regains hit points, the following conditions end on Tockworth: {@condition grappled}, {@condition restrained}, and {@condition stunned}."
+						"Tockworth generates a magical force field around herself. This force field has 15 hit points and regains all its hit points at the start of each of Tockworth's turns, but it ceases to function if Tockworth drops to 0 hit points. Any damage Tockworth takes is subtracted from the force field's hit points first. Each time the force field regains hit points, the following conditions end on Tockworth: {@condition Agrippé}, {@condition Entravé}, and {@condition Étourdi}."
 					]
 				}
 			],

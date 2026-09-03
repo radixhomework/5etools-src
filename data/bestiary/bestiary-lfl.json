@@ -63,7 +63,7 @@
 				{
 					"name": "Ephemeral Movement",
 					"entries": [
-						"The incarnation can move through other creatures and objects as if they were {@variantrule Difficult Terrain|XPHB}, and its movement doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks}. It takes 5 ({@damage 1d10}) Force damage if it ends its turn inside an object."
+						"The incarnation can move through other creatures and objects as if they were {@variantrule Difficult Terrain|XPHB}, and its movement doesn't provoke {@action Attaque d'opportunité|XPHB|Opportunity Attacks}. It takes 5 ({@damage 1d10}) Force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -95,7 +95,7 @@
 				{
 					"name": "Spectral Stampede",
 					"entries": [
-						"The incarnation moves up to 80 feet in a straight line. Each creature whose space the incarnation enters is targeted once by the following effect. {@actSave dex} {@dc 16}. {@actSaveFail} 18 ({@damage 4d8}) Force damage. If the target is the incarnation's size or smaller, it has the {@condition Prone|XPHB} condition. {@actSaveSuccess} Half damage only."
+						"The incarnation moves up to 80 feet in a straight line. Each creature whose space the incarnation enters is targeted once by the following effect. {@actSave dex} {@dc 16}. {@actSaveFail} 18 ({@damage 4d8}) Force damage. If the target is the incarnation's size or smaller, it has the {@condition À terre|XPHB} condition. {@actSaveSuccess} Half damage only."
 					]
 				}
 			],
@@ -234,7 +234,7 @@
 				{
 					"name": "Vine",
 					"entries": [
-						"{@atkr m} {@hit 9}, reach 20 ft. {@h}18 ({@damage 3d8 + 5}) Bludgeoning damage. If the target is the incarnation's size or smaller, it has the {@condition Grappled|XPHB} condition (escape {@dc 15}) from one of two vines."
+						"{@atkr m} {@hit 9}, reach 20 ft. {@h}18 ({@damage 3d8 + 5}) Bludgeoning damage. If the target is the incarnation's size or smaller, it has the {@condition Agrippé|XPHB} condition (escape {@dc 15}) from one of two vines."
 					]
 				},
 				{
@@ -254,7 +254,7 @@
 				{
 					"name": "Teleport",
 					"entries": [
-						"The incarnation teleports up to 60 feet to an unoccupied space it can see. The incarnation can't teleport while it has a creature {@condition Grappled|XPHB}."
+						"The incarnation teleports up to 60 feet to an unoccupied space it can see. The incarnation can't teleport while it has a creature {@condition Agrippé|XPHB}."
 					]
 				}
 			],
@@ -356,7 +356,7 @@
 				{
 					"name": "Boulder",
 					"entries": [
-						"{@atkr r} {@hit 8}, range 60/240 ft. {@h}14 ({@damage 2d8 + 5}) Bludgeoning damage. If the target is a Large or smaller creature, it has the {@condition Prone|XPHB} condition."
+						"{@atkr r} {@hit 8}, range 60/240 ft. {@h}14 ({@damage 2d8 + 5}) Bludgeoning damage. If the target is a Large or smaller creature, it has the {@condition À terre|XPHB} condition."
 					]
 				}
 			],
@@ -364,7 +364,7 @@
 				{
 					"name": "Name Sleep {@recharge 5}",
 					"entries": [
-						"The giant falls into a deep, restorative slumber. The giant gains 20 {@variantrule Temporary Hit Points|XPHB} and has the {@condition Unconscious|XPHB} condition until it takes damage or the end of its next turn. The giant has {@variantrule Advantage|XPHB} on ability checks and saving throws for 1 minute."
+						"The giant falls into a deep, restorative slumber. The giant gains 20 {@variantrule Temporary Hit Points|XPHB} and has the {@condition Inconscient|XPHB} condition until it takes damage or the end of its next turn. The giant has {@variantrule Advantage|XPHB} on ability checks and saving throws for 1 minute."
 					]
 				}
 			],
@@ -469,7 +469,7 @@
 				{
 					"name": "Mimicry",
 					"entries": [
-						"The merrow can mimic voices and animal sounds. A creature that hears the mimicries can tell they are imitations with a successful {@dc 15} Wisdom ({@skill Insight|XPHB}) check."
+						"The merrow can mimic voices and animal sounds. A creature that hears the mimicries can tell they are imitations with a successful {@dc 15} Wisdom ({@skill Perspicacité|XPHB}) check."
 					]
 				}
 			],
@@ -698,7 +698,7 @@
 				{
 					"name": "Nimble Escape",
 					"entries": [
-						"The noggle takes the {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+						"The noggle takes the {@action Désengagement|XPHB} or {@action Se cacher|XPHB} action."
 					]
 				}
 			],
@@ -775,7 +775,7 @@
 				{
 					"name": "Bloodied Wild Magic",
 					"entries": [
-						"While {@status Bloodied|XPHB}, the noggle has a {@variantrule Fly Speed|XPHB} of 30 feet and it can choose for any damage it deals to be Force damage."
+						"While {@status Meurtri|XPHB}, the noggle has a {@variantrule Fly Speed|XPHB} of 30 feet and it can choose for any damage it deals to be Force damage."
 					]
 				}
 			],
@@ -882,7 +882,7 @@
 				{
 					"name": "Boulder",
 					"entries": [
-						"{@atkr r} {@hit 9}, range 60/240 ft. {@h}13 ({@damage 2d6 + 6}) Bludgeoning damage. If the target is a Large or smaller creature, it has the {@condition Prone|XPHB} condition."
+						"{@atkr r} {@hit 9}, range 60/240 ft. {@h}13 ({@damage 2d6 + 6}) Bludgeoning damage. If the target is a Large or smaller creature, it has the {@condition À terre|XPHB} condition."
 					]
 				},
 				{

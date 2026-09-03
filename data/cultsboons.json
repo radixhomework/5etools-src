@@ -1,24 +1,24 @@
 {
 	"cult": [
 		{
-			"name": "Cult of Asmodeus",
+			"name": "Culte d'Asmodéus",
 			"source": "MTF",
 			"page": 21,
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"entries": [
-				"{@deity Asmodeus|Faerûnian|scag} demands the loyalty of all cultists who gain power and leadership in the cults of the Nine. His cult subsumes all the others.",
-				"Any NPC who leads a diabolical cult must acknowledge the power of Asmodeus. In return, the most worthy of those leaders gain the Demands of Nessus trait.",
+				"{@deity Asmodeus|Faerûnian|scag} exige la loyauté de tous les cultistes qui accèdent au pouvoir et au commandement dans les cultes des Neuf. Son culte absorbe tous les autres.",
+				"Tout PNJ qui dirige un culte diabolique doit reconnaître la puissance d'Asmodéus. En retour, les plus dignes de ces dirigeants obtiennent le trait Exigences de Nessus.",
 				{
 					"type": "entries",
-					"name": "Demands of Nessus",
+					"name": "Exigences de Nessus",
 					"entries": [
-						"At the start of each of this creature's turns, this creature can choose one ally it can see within 30 feet of it. The chosen ally loses 10 hit points, and this creature regains the same number of hit points. If the creature is {@condition incapacitated}, it makes no choice; instead, the closest ally within 30 feet is the chosen ally."
+						"Au début de chacun des tours de cette créature, celle-ci peut choisir un allié qu'elle peut voir à 9 mètres d'elle. L'allié choisi perd 10 points de vie, et cette créature regagne le même nombre de points de vie. Si la créature est {@condition Incapable}, elle ne fait aucun choix ; l'allié le plus proche dans un rayon de 9 mètres devient l'allié choisi."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Atropus, the World Born Dead",
+			"name": "Culte d'Atropus, le Monde né mort",
 			"source": "MTF",
 			"page": 237,
 			"otherSources": [
@@ -27,72 +27,72 @@
 					"page": 226
 				}
 			],
-			"type": "Elder Evil",
+			"type": "Mal ancien",
 			"entries": [
 				{
-					"name": "Gaze of Corruption {@recharge}",
+					"name": "Regard de corruption {@recharge}",
 					"type": "entries",
 					"entries": [
-						"The cultist targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 15} Constitution saving throw or take 16 ({@damage 3d10}) necrotic damage and be {@condition poisoned} for 1 minute. The {@condition poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Le cultiste cible une créature qu'il peut voir à 9 mètres de lui. La cible doit réussir un jet de sauvegarde de Constitution {@dc 15} ou subir 16 ({@damage 3d10}) dégâts nécrotiques et être {@condition Empoisonné} pendant 1 minute. La cible {@condition Empoisonné} peut retenter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet qui l'affecte en cas de réussite."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Baalzebul",
+			"name": "Culte de Baalzébul",
 			"source": "MTF",
 			"page": 21,
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"goal": {
-				"entry": "Restoration of honor and respect, at the cost of those who stole it"
+				"entry": "Restauration de l'honneur et du respect, au prix de ceux qui les ont dérobés"
 			},
 			"cultists": {
-				"entry": "Any NPC or monster that has suffered a fall from grace"
+				"entry": "Tout PNJ ou monstre ayant connu une chute"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Minor illusion} (cantrip), {@spell disguise self} (1st level), {@spell phantasmal force} (2nd level), {@spell major image} (3rd level)"
+				"entry": "{@spell Minor illusion|Illusion mineure} (tour de magie), {@spell disguise self|Déguisement} (niveau 1), {@spell phantasmal force|Force phantasmale} (niveau 2), {@spell major image|Image majeure} (niveau 3)"
 			},
 			"entries": [
-				"Baalzebul typically recruits individuals rather than cults. He offers hope to those whose failures drive them to seek redemption.",
-				"He grants a boon, the Path of Baalzebul trait, that allows a favored cultist to look good in the aftermath of an ally's failure.",
+				"Baalzébul recrute généralement des individus plutôt que des cultes. Il offre l'espoir à ceux dont les échecs les poussent à rechercher la rédemption.",
+				"Il accorde un don, le trait Voie de Baalzébul, qui permet à un cultiste favori de bien paraître au lendemain de l'échec d'un allié.",
 				{
 					"type": "entries",
-					"name": "Path of Baalzebul",
+					"name": "Voie de Baalzébul",
 					"entries": [
-						"As a bonus action on its turn, this creature can choose one ally it can see within 30 feet of it. Until the start of this creature's next turn, it gains advantage on all ability checks and attack rolls, while the chosen ally suffers disadvantage on all ability checks, attack rolls, and saving throws."
+						"Par une action bonus lors de son tour, cette créature peut choisir un allié qu'elle peut voir à 9 mètres d'elle. Jusqu'au début du prochain tour de la créature, elle obtient l'avantage à tous les tests de caractéristique et à tous les jets d'attaque, tandis que l'allié choisi subit un désavantage à tous les tests de caractéristique, aux jets d'attaque et aux jets de sauvegarde."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Baphomet",
+			"name": "Culte de Baphomet",
 			"source": "MPMM",
 			"page": 58,
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"entries": [
-				"Baphomet grants his cultists special abilities. All his devotees gain the Labyrinthine Recall trait below. He grants his rank-and-file followers the Unerring Tracker trait, and cult leaders gain the Incite the Hunters trait.",
+				"Baphomet accorde des capacités spéciales à ses cultistes. Tous ses dévots obtiennent le trait Souvenir du labyrinthe ci-dessous. Il accorde à ses partisans de base le trait Pisteur infaillible, et les chefs de culte obtiennent le trait Exciter les chasseurs.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Labyrinthine Recall",
+							"name": "Souvenir du labyrinthe",
 							"entries": [
-								"This creature can perfectly recall any path it has traveled."
+								"Cette créature peut se rappeler parfaitement tout chemin qu'elle a parcouru."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Unerring Tracker",
+							"name": "Pisteur infaillible",
 							"entries": [
-								"As a bonus action, this creature magically creates a psychic link with one creature it can see. For the next hour, as a bonus action this creature learns the current distance and direction to the target if it is on the same plane of existence. The link ends if this creature is {@condition incapacitated} or if it uses this ability on a different target."
+								"Par une action bonus, cette créature crée par voie magique un lien psychique avec une créature qu'elle peut voir. Pendant l'heure qui suit, par une action bonus, la créature apprend la distance et la direction actuelles de la cible si celle-ci se trouve sur le même plan d'existence. Le lien prend fin si cette créature est {@condition Incapable} ou si elle utilise cette capacité sur une autre cible."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Incite the Hunters (Recharges after a Short or Long Rest)",
+							"name": "Exciter les chasseurs (Recharge après un repos court ou long)",
 							"entries": [
-								"As an action, this creature allows each ally within 30 feet of it that has the Unerring Tracker trait to make one weapon attack as a reaction against the target of that ally's Unerring Tracker."
+								"Par une action, cette créature permet à chaque allié dans un rayon de 9 mètres d'elle qui possède le trait Pisteur infaillible d'effectuer une attaque d'arme en réaction contre la cible du Pisteur infaillible de cet allié."
 							]
 						}
 					]
@@ -100,93 +100,93 @@
 			]
 		},
 		{
-			"name": "Cult of Belzenlok",
+			"name": "Culte de Belzenlok",
 			"source": "PSD",
 			"page": 17,
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"cultists": {
-				"entry": "{@creature acolyte||acolytes}, {@creature cultist||cultists}, {@creature cult fanatic||cult fanatics}, {@creature mage||mages}, or {@creature priest||priests} for Cultists, Initiates, and Priests; {@creature gladiator||gladiators}, {@creature guard||guards}, {@creature knight||knights}, {@creature veteran||veterans}, or infrequently {@creature wight||wights} riding undead horses with the statistics of Large-sized {@creature zombie||zombies} for Grimnants; and {@creature assassin||assassins}, {@creature bandit||bandits}, {@creature bandit captain||bandit captains}, {@creature spy||spies}, or {@creature thug||thugs} for Infiltrators and Assassins."
+				"entry": "des {@creature acolyte||acolytes}, des {@creature cultist||cultistes}, des {@creature cult fanatic||fanatiques de culte}, des {@creature mage||mages} ou des {@creature priest||prêtres} pour les Cultistes, les Initiés et les Prêtres ; des {@creature gladiator||gladiateurs}, des {@creature guard||gardes}, des {@creature knight||chevaliers}, des {@creature veteran||vétérans} ou, plus rarement, des {@creature wight||spectres} chevauchant des chevaux morts-vivants dotés des statistiques de {@creature zombie||zombies} de taille Grande pour les Grimnants ; et des {@creature assassin||assassins}, des {@creature bandit||bandits}, des {@creature bandit captain||chefs bandits}, des {@creature spy||espions} ou des {@creature thug||ruffians} pour les Infiltrateurs et les Assassins."
 			},
 			"signatureSpells": {
-				"entry": "{@spell Chill touch} (cantrip), {@spell hex} (1st level), {@spell phantasmal force} (2nd level), {@spell fear} (3rd level)"
+				"entry": "{@spell Chill touch|Contact glacial} (tour de magie), {@spell hex|Malédiction} (niveau 1), {@spell phantasmal force|Force phantasmale} (niveau 2), {@spell fear|Peur} (niveau 3)"
 			},
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Belzenlok's Cultists",
+					"name": "Les cultistes de Belzenlok",
 					"entries": [
-						"Cabalists are uniformly fanatical, tormented into zealotry by pain, greed, and the distinctive power of their dementia magic. From the Cabal's beginning, spellcasters known as dementists have manipulated the very stuff of nightmares, reshaping reality and creating items and creatures from the parallel realm of \"dementia space.\" Though it has been greatly changed by centuries of hardship, dementia magic remains a powerful asset of the Cabal, and cabalists value prowess with such magic above everything except the favor of Belzenlok."
+						"Les cabalistes sont uniformément fanatiques, tourmentés jusqu'au zélisme par la douleur, l'avidité et le pouvoir singulier de leur magie de démence. Depuis les débuts de la Cabale, des lanceurs de sorts connus sous le nom de démentistes manipulent la matière même des cauchemars, remodelant la réalité et créant des objets et des créatures à partir du royaume parallèle de « l'espace de démence ». Bien qu'elle ait été profondément transformée par des siècles d'épreuves, la magie de démence demeure un atout puissant de la Cabale, et les cabalistes estiment la maîtrise d'une telle magie au-dessus de tout, hormis la faveur de Belzenlok."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Cultists, Initiates, and Priests",
+					"name": "Cultistes, initiés et prêtres",
 					"entries": [
-						"Most members of the Cabal serve it in a religious capacity. Cells of Cabal cultists are found throughout the world, worshiping Belzenlok in secret. Once inducted into the Cabal more formally, cultists shave their heads and become initiates, assisting priests in their dark rites. As Cabal priests rise through the ranks, they dress more ornately, often wearing headgear or high collars that set them apart from initiates. Most Cabal clerics are dementists, and carry with them implements of sacrifice and veneration. But a few are more martial in nature, wielding heavy blades and viewing combat as the most active form of sacrifice to Belzenlok."
+						"La plupart des membres de la Cabale la servent en tant que religieux. On trouve des cellules de cultistes de la Cabale partout dans le monde, qui vénèrent Belzenlok en secret. Une fois admis plus formellement dans la Cabale, les cultistes se rasent le crâne et deviennent des initiés, assistant les prêtres dans leurs rites funestes. À mesure que les prêtres de la Cabale s'élèvent dans la hiérarchie, ils s'habillent avec plus d'ornements, portant souvent des coiffes ou des cols montants qui les distinguent des initiés. La plupart des clercs de la Cabale sont des démentistes et portent sur eux des instruments de sacrifice et de vénération. Mais quelques-uns sont de nature plus martiale, brandissant de lourdes lames et considérant le combat comme la forme la plus active de sacrifice à Belzenlok."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Grimnants",
 					"entries": [
-						"Cabal knights are all members of an order called the Grimnant. The armor they wear has been melted down from scavenged or stolen pieces and forged anew, painted in a black lacquer and with its edges honed. Often, the armor is molded to mirror aspects of the demon Belzenlok, a form of idol worship that Grimnant knights believe gains them power and favor.",
-						"Grimnants are brutal combatants who arrive after the Cabal's infiltration has weakened a target. Most have some minor knowledge of dementia magic or carry trinkets that give them the ability to wield dark magic in battle, but they're not generally known as spellcasters. Appearing stoic from afar, most Grimnant knights experience a bloodlust in battle and enjoy going in close for the kill."
+						"Les chevaliers de la Cabale sont tous membres d'un ordre appelé les Grimnants. L'armure qu'ils portent a été fondue à partir de pièces récupérées ou volées et reforgée, peinte d'un laquage noir et aux bords affûtés. L'armure est souvent façonnée pour refléter les traits du démon Belzenlok, une forme d'idolâtrie dont les chevaliers grimnants pensent qu'elle leur vaut puissance et faveur.",
+						"Les grimnants sont des combattants brutaux qui interviennent une fois que l'infiltration de la Cabale a affaibli une cible. La plupart possèdent quelques notions rudimentaires de magie de démence ou portent des babioles qui leur permettent de manier la magie noire au combat, mais on ne les connaît généralement pas comme lanceurs de sorts. Paraissant stoïciens de loin, la plupart des chevaliers grimnants éprouvent une soif de sang au combat et aiment s'approcher au contact pour achever leur proie."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Infiltrators and Assassins",
+					"name": "Infiltrateurs et assassins",
 					"entries": [
-						"In its cells throughout the world, the Cabal has need for more than prayer. Whether striking from the shadows or venturing out in full regalia to spread open terror, Belzenlok's infiltrators and assassins emphasize what many fear: that the Cabal is already everywhere."
+						"Dans ses cellules répandues à travers le monde, la Cabale a besoin de plus que de prières. Qu'ils frappent depuis l'ombre ou s'aventurent en plein jour en grand apparat pour répandre la terreur au grand soleil, les infiltrateurs et les assassins de Belzenlok soulignent ce que beaucoup craignent : la Cabale est déjà partout."
 					]
 				},
-				"Belzenlok's cultists can gain the Demonic Vigor trait. Favored cultists or cult leaders can also have the Unholy Tether trait.",
+				"Les cultistes de Belzenlok peuvent obtenir le trait Vigueur démoniaque. Les cultistes favoris ou les chefs de culte peuvent également posséder le trait Lien impie.",
 				{
 					"type": "entries",
-					"name": "Demonic Vigor (1/day)",
+					"name": "Vigueur démoniaque (1/jour)",
 					"entries": [
-						"As a bonus action, or as a reaction when this creature would drop to 0 hit points, it regains 1 hit point and gains temporary hit points equal to its Constitution modifier plus its maximum number of Hit Dice."
+						"Par une action bonus, ou par une réaction lorsque cette créature devait tomber à 0 point de vie, elle regagne 1 point de vie et obtient des points de vie temporaires égaux à son modificateur de Constitution plus son nombre maximal de dés de vie."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Unholy Tether",
+					"name": "Lien impie",
 					"entries": [
-						"As a reaction when an ally of this creature within 30 feet of it dies, this creature regains hit points equal to twice the dead creature's Constitution modifier."
+						"Par une réaction lorsqu'un allié de cette créature présent à 9 mètres d'elle meurt, cette créature regagne des points de vie égaux au double du modificateur de Constitution de la créature défunte."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Borem, of the Lake of Boiling Mud",
+			"name": "Culte de Borem, du Lac de boue bouillonnante",
 			"source": "MTF",
 			"page": 237,
-			"type": "Elder Evil",
+			"type": "Mal ancien",
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Borem's Embrace (1/Day)",
+					"name": "Étreinte de Borem (1/jour)",
 					"entries": [
-						"The cultist touches one creature within 5 feet of it. The target must succeed on a {@dc 15} Dexterity saving throw or be coated in sticky, steaming mud. While it is coated in this way, the target's speed is halved, it can't use reactions, and it takes 10 ({@damage 3d6}) fire damage at the start of each of its turns. The effect lasts for 1 minute, until the cultist is {@condition incapacitated} or dies, or until the target is immersed in water."
+						"Le cultiste touche une créature à 1,50 mètre de lui. La cible doit réussir un jet de sauvegarde de Dextérité {@dc 15} ou se retrouver enduite d'une boue poisseuse et fumante. Tant qu'elle est ainsi enduite, la vitesse de la cible est divisée par deux, elle ne peut pas utiliser de réactions et elle subit 10 ({@damage 3d6}) dégâts de feu au début de chacun de ses tours. L'effet dure 1 minute, jusqu'à ce que le cultiste soit {@condition Incapable} ou meure, ou jusqu'à ce que la cible soit immergée dans l'eau."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Demogorgon",
+			"name": "Culte de Démogorgon",
 			"source": "MPMM",
 			"page": 90,
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"entries": [
-				"Demogorgon's followers are typically lone killers driven by the whispering voice of their master. His most blessed followers gain the Two Minds of Chaos trait.",
+				"Les adeptes de Démogorgon sont typiquement des tueurs solitaires guidés par la voix murmurante de leur maître. Ses adeptes les plus bénis obtiennent le trait Deux esprits du chaos.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Two Minds of Chaos",
+							"name": "Deux esprits du chaos",
 							"entries": [
-								"This creature has advantage on all Intelligence, Wisdom, and Charisma saving throws."
+								"Cette créature a l'avantage à tous les jets de sauvegarde d'Intelligence, de Sagesse et de Charisme."
 							]
 						}
 					]
@@ -194,111 +194,111 @@
 			]
 		},
 		{
-			"name": "Cult of Dispater",
+			"name": "Culte de Dispater",
 			"source": "MTF",
 			"page": 21,
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"goal": {
-				"entry": "Power gained and used in secret, influence exerted via blackmail, control of people and organizations through knowledge of their weaknesses and shames"
+				"entry": "Pouvoir gagné et utilisé en secret, influence exercée par le chantage, contrôle des personnes et des organisations grâce à la connaissance de leurs faiblesses et de leurs hontes"
 			},
 			"cultists": {
-				"entry": "{@creature Acolyte}, {@creature bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}"
+				"entry": "{@creature Acolyte}, {@creature bandit}, {@creature bandit captain|chef bandit}, {@creature cult fanatic|fanatique de culte}, {@creature cultist|cultiste}, {@creature mage}, {@creature noble}, {@creature spy|espion}"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Guidance} (cantrip), {@spell identify} (1st level), {@spell see invisibility} (2nd level), {@spell clairvoyance} (3rd level)"
+				"entry": "{@spell Guidance|Guidage} (tour de magie), {@spell identify|Identification} (niveau 1), {@spell see invisibility|Vision de l'invisible} (niveau 2), {@spell clairvoyance|Clairvoyance} (niveau 3)"
 			},
 			"entries": [
-				"Dispater trades in secrets, offering them in return for a creature's soul. His cults typically trade secrets to devils in return for other information. They often hatch conspiracies aimed at toppling and replacing governments or religious orders.",
-				"Renegade {@creature mind flayer||mind flayers} sometimes strike pacts with Dispater in search of the secrets needed to forever escape an {@creature Elder Brain|vgm}'s domination.",
-				"Cultists can gain the Infernal Insight trait. Cult leaders might also have the Vexing Escape trait.",
+				"Dispater fait commerce de secrets, les offrant en échange de l'âme d'une créature. Ses cultes échangent généralement des secrets auprès des diables contre d'autres informations. Ils ourdent souvent des complots visant à renverser et à remplacer des gouvernements ou des ordres religieux.",
+				"Des {@creature mind flayer||flagelleurs mentaux} renégats concluent parfois des pactes avec Dispater afin de trouver les secrets qui leur permettraient d'échapper pour toujours à la domination d'un {@creature Elder Brain|vgm}.",
+				"Les cultistes peuvent obtenir le trait Perspicacité infernale. Les chefs de culte peuvent également posséder le trait Fuite agaçante.",
 				{
 					"type": "entries",
-					"name": "Infernal Insight (Recharges after a Short or Long Rest)",
+					"name": "Perspicacité infernale (Recharge après un repos court ou long)",
 					"entries": [
-						"As a bonus action, this creature gains advantage on all ability checks and attack rolls it makes until the end of the current turn."
+						"Par une action bonus, cette créature obtient l'avantage à tous les tests de caractéristique et à tous les jets d'attaque qu'elle effectue jusqu'à la fin du tour en cours."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Vexing Escape (1/Day)",
+					"name": "Fuite agaçante (1/jour)",
 					"entries": [
-						"As a reaction when this creature takes damage, it reduces that damage to 0 and teleports up to 60 feet to an unoccupied space it can see."
+						"Par une réaction lorsque cette créature subit des dégâts, elle réduit ces dégâts à 0 et se téléporte jusqu'à 18 mètres dans un espace inoccupé qu'elle peut voir."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Fierna",
+			"name": "Culte de Fierna",
 			"source": "MTF",
 			"page": 21,
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"goal": {
-				"entry": "Control over the emotions of others, turning them into puppets and playthings"
+				"entry": "Contrôle des émotions d'autrui, transformant les autres en pantins et en jouets"
 			},
 			"cultists": {
-				"entry": "{@creature Acolyte}, {@creature archmage}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature priest}, {@creature spy}"
+				"entry": "{@creature Acolyte}, {@creature archmage|archimage}, {@creature bandit captain|chef bandit}, {@creature cult fanatic|fanatique de culte}, {@creature cultist|cultiste}, {@creature knight|chevalier}, {@creature noble}, {@creature priest|prêtre}, {@creature spy|espion}"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Friends} (cantrip), {@spell charm person} (1st level), {@spell suggestion} (2nd level), {@spell hypnotic pattern} (3rd level)"
+				"entry": "{@spell Friends|Amitié} (tour de magie), {@spell charm person|Charmement} (niveau 1), {@spell suggestion|Suggestion} (niveau 2), {@spell hypnotic pattern|Profil hypnotique} (niveau 3)"
 			},
 			"entries": [
-				"Fierna is a master manipulator. Mortals who desire success in love or who seek to become beloved leaders at the head of a band of fanatics are drawn to striking bargains with her.",
-				"Her cultists can gain the Infernal Loyalty trait. Cult leaders can also gain the Loyalty beyond Death trait.",
+				"Fierna est une maîtresse manipulatrice. Les mortels qui désirent réussir en amour ou qui cherchent à devenir des dirigeants aimés à la tête d'une bande de fanatiques sont enclins à conclure des pactes avec elle.",
+				"Ses cultistes peuvent obtenir le trait Loyauté infernale. Les chefs de culte peuvent également obtenir le trait Loyauté au-delà de la mort.",
 				{
 					"type": "entries",
-					"name": "Infernal Loyalty",
+					"name": "Loyauté infernale",
 					"entries": [
-						"This creature has advantage on saving throws while it can see a creature within 30 feet of it that has the Loyalty beyond Death trait."
+						"Cette créature a l'avantage aux jets de sauvegarde tant qu'elle peut voir à 9 mètres d'elle une créature qui possède le trait Loyauté au-delà de la mort."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Loyalty beyond Death (Recharges after a Short or Long Rest)",
+					"name": "Loyauté au-delà de la mort (Recharge après un repos court ou long)",
 					"entries": [
-						"As a reaction when an ally this creature can see is reduced to 0 hit points, that ally is instead reduced to 1 hit point and gains temporary hit points equal to this creature's Charisma score + half its number of Hit Dice."
+						"Par une réaction lorsqu'un allié que cette créature peut voir est réduit à 0 point de vie, cet allié n'est en réalité réduit qu'à 1 point de vie et obtient des points de vie temporaires égaux au score de Charisme de cette créature + la moitié de son nombre de dés de vie."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Fraz-Urb'luu",
+			"name": "Culte de Fraz-Urb'luu",
 			"source": "MPMM",
 			"page": 129,
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"entries": [
-				"Fraz-Urb'luu grants his cultists the Liar's Eye trait.",
+				"Fraz-Urb'luu accorde à ses cultistes le trait Œil du menteur.",
 				{
 					"type": "entries",
-					"name": "Liar's Eye",
+					"name": "Œil du menteur",
 					"entries": [
-						"This creature has advantage on Wisdom ({@skill Insight} or {@skill Perception}) checks.",
-						"As a bonus action, the creature detects the location of all illusions and hidden creatures within 15 feet of it."
+						"Cette créature a l'avantage aux tests de Sagesse ({@skill Perspicacité} ou {@skill Perception}).",
+						"Par une action bonus, la créature détecte l'emplacement de toutes les illusions et de toutes les créatures cachées dans un rayon de 4,50 mètres d'elle."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Geryon",
+			"name": "Culte de Géryon",
 			"source": "MPMM",
 			"page": 136,
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"entries": [
-				"Geryon grants his cultists special abilities. Members of his cult can gain the Crushing Blow trait. Cult leaders can also gain the Indomitable Strength trait.",
+				"Géryon accorde des capacités spéciales à ses cultistes. Les membres de son culte peuvent obtenir le trait Coup écrasant. Les chefs de culte peuvent également obtenir le trait Force indomptable.",
 				{
 					"type": "entries",
 					"entries": [
 						{
-							"name": "Crushing Blow (Recharges after a Short or Long Rest)",
+							"name": "Coup écrasant (Recharge après un repos court ou long)",
 							"type": "entries",
 							"entries": [
-								"As a bonus action, the creature gains a bonus to the damage roll of its next melee weapon attack roll that hits within the next minute. The bonus equals its Strength modifier (minimum of +1)."
+								"Par une action bonus, la créature obtient un bonus aux dégâts de sa prochaine attaque d'arme au corps à corps qui touche dans la minute qui suit. Ce bonus est égal à son modificateur de Force (minimum +1)."
 							]
 						},
 						{
-							"name": "Indomitable Strength {@recharge 5}",
+							"name": "Force indomptable {@recharge 5}",
 							"type": "entries",
 							"entries": [
-								"As a reaction when this creature takes damage, it can roll a {@dice d10} and subtract the number rolled from the damage."
+								"Par une réaction lorsque cette créature subit des dégâts, elle peut lancer un {@dice d10} et soustraire le résultat obtenu des dégâts."
 							]
 						}
 					]
@@ -306,98 +306,98 @@
 			]
 		},
 		{
-			"name": "Cult of Geryon",
+			"name": "Culte de Géryon",
 			"source": "MTF",
 			"page": 21,
 			"reprintedAs": [
 				"Cult of Geryon|MPMM"
 			],
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"goal": {
-				"entry": "Physical prowess, domination of others through strength, destruction of all opposition"
+				"entry": "Prouesse physique, domination des autres par la force, destruction de toute opposition"
 			},
 			"cultists": {
-				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiator}, {@creature thug}, {@creature tribal warrior}, {@creature veteran||veterans}"
+				"entry": "{@creature Bandit}, {@creature bandit captain|chef bandit}, {@creature berserker}, {@creature cult fanatic|fanatique de culte}, {@creature cultist|cultiste}, {@creature gladiator|gladiateur}, {@creature thug|ruffian}, {@creature tribal warrior|guerrier tribal}, {@creature veteran||vétérans}"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Shillelagh} (cantrip), {@spell wrathful smite} (1st level), {@spell enhance ability} (2nd level), {@spell aura of vitality} (3rd level)"
+				"entry": "{@spell Shillelagh} (tour de magie), {@spell wrathful smite|Frappe courroucée} (niveau 1), {@spell enhance ability|Amplification} (niveau 2), {@spell aura of vitality|Aura de vitalité} (niveau 3)"
 			},
 			"entries": [
-				"Despite being deposed, Geryon still has the ability to strike bargains. He deals especially with those who seek brute strength. Any warlike monster-such as {@creature orc||orcs}, {@creature ogre||ogres}, and {@creature troll||trolls}-can be lured into Geryon's cult.",
-				"His cultists typically form fighting companies and bandit gangs, proving their strength by defeating others in battle and taking what they want as loot.",
-				"Members of the cult can gain the Crushing Blow trait. Cult leaders can also gain the Indomitable Strength trait.",
+				"Bien qu'il ait été destitué, Géryon conserve la capacité de conclure des pactes. Il traite tout particulièrement avec ceux qui recherchent la force brute. N'importe quel monstre belliqueux — tels que {@creature orc||orcs}, {@creature ogre||ogres} et {@creature troll||trolls} — peut être attiré dans le culte de Géryon.",
+				"Ses cultistes forment généralement des compagnies de combat et des bandes de bandits, prouvant leur force en vainquant les autres au combat et en prenant ce qu'ils veulent comme butin.",
+				"Les membres du culte peuvent obtenir le trait Coup écrasant. Les chefs de culte peuvent également obtenir le trait Force indomptable.",
 				{
 					"type": "entries",
-					"name": "Crushing Blow (Recharges after a Short or Long Rest)",
+					"name": "Coup écrasant (Recharge après un repos court ou long)",
 					"entries": [
-						"As a bonus action, the creature gains a bonus to the damage roll of its next melee weapon attack that hits within the next minute. The bonus equals its Strength modifier (minimum of +1)."
+						"Par une action bonus, la créature obtient un bonus aux dégâts de sa prochaine attaque d'arme au corps à corps qui touche dans la minute qui suit. Ce bonus est égal à son modificateur de Force (minimum +1)."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Indomitable Strength {@recharge 5}",
+					"name": "Force indomptable {@recharge 5}",
 					"entries": [
-						"As a reaction when this creature takes damage, it can roll a {@dice d10} and subtract the number rolled from the damage."
+						"Par une réaction lorsque cette créature subit des dégâts, elle peut lancer un {@dice d10} et soustraire le résultat obtenu des dégâts."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Glasya",
+			"name": "Culte de Glasya",
 			"source": "MTF",
 			"page": 21,
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"goal": {
-				"entry": "Power gained by turning a system against itself, yielding power that isn't only absolute but legitimate on a cultural and legal basis"
+				"entry": "Pouvoir gagné en retournant un système contre lui-même, procurant un pouvoir non seulement absolu mais aussi légitime sur les plans culturel et juridique"
 			},
 			"cultists": {
-				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature spy}, {@creature thug}"
+				"entry": "{@creature Bandit}, {@creature bandit captain|chef bandit}, {@creature cult fanatic|fanatique de culte}, {@creature cultist|cultiste}, {@creature knight|chevalier}, {@creature noble}, {@creature spy|espion}, {@creature thug|ruffian}"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Friends} (cantrip), {@spell charm person} (1st level), {@spell invisibility} (2nd level), {@spell haste} (3rd level)"
+				"entry": "{@spell Friends|Amitié} (tour de magie), {@spell charm person|Charmement} (niveau 1), {@spell invisibility|Invisibilité} (niveau 2), {@spell haste|Célérité} (niveau 3)"
 			},
 			"entries": [
-				"As an expert in finding loopholes and exploiting the law for her own good, Glasya is a patron of thieves and other criminals, especially corrupt nobles. Her influence is supposed to strengthen family bonds, but she has taken a liberal interpretation of that and offers gifts that can be turned against family members.",
-				"{@creature goblin||Goblins} who risk insurrection against their {@creature hobgoblin} masters make pacts with Glasya, as do {@creature kenku} who form criminal gangs.",
-				"Glasya grants the Step into Shadows trait. Cult leaders can also gain the Infernal Ring Leader trait.",
+				"Experte dans l'art de dénicher les failles juridiques et d'exploiter la loi à son propre avantage, Glasya est la protectrice des voleurs et des autres criminels, en particulier des nobles corrompus. Son influence est censée renforcer les liens familiaux, mais elle en a fait une interprétation très libre et offre des cadeaux qui peuvent être retournés contre les membres de la famille.",
+				"Les {@creature goblin||gobelins} qui risquent l'insurrection contre leurs maîtres {@creature hobgoblin} concluent des pactes avec Glasya, tout comme les {@creature kenku} qui forment des gangs criminels.",
+				"Glasya accorde le trait Pas dans les ombres. Les chefs de culte peuvent également obtenir le trait Chef de bande infernal.",
 				{
 					"type": "entries",
-					"name": "Step into Shadows (Recharges after a Short or Long Rest)",
+					"name": "Pas dans les ombres (Recharge après un repos court ou long)",
 					"entries": [
-						"As an action, this creature, along with anything it is wearing and carrying, magically becomes {@condition invisible} until the end of its next turn."
+						"Par une action, cette créature, ainsi que tout ce qu'elle porte et transporte, devient par voie magique {@condition invisible} jusqu'à la fin de son prochain tour."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Infernal Ring Leader",
+					"name": "Chef de bande infernal",
 					"entries": [
-						"As a reaction when this creature is hit by an attack, it can choose one ally it can see within 5 feet of it and cause that ally to be hit by that attack instead."
+						"Par une réaction lorsque cette créature est touchée par une attaque, elle peut choisir un allié qu'elle peut voir à 1,50 mètre d'elle et faire en sorte que cet allié soit touché par l'attaque à sa place."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Graz'zt",
+			"name": "Culte de Graz'zt",
 			"source": "MPMM",
 			"page": 148,
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"entries": [
-				"Graz'zt grants his cultists special abilities. His cultists can gain the Joy from Pain trait, while his cult leaders can gain the Master of Pleasures trait.",
+				"Graz'zt accorde des capacités spéciales à ses cultistes. Ses cultistes peuvent obtenir le trait Joie dans la douleur, tandis que ses chefs de culte peuvent obtenir le trait Maître des plaisirs.",
 				{
 					"type": "entries",
 					"entries": [
 						{
-							"name": "Joy from Pain",
+							"name": "Joie dans la douleur",
 							"type": "entries",
 							"entries": [
-								"Whenever this creature suffers a critical hit, it can make one melee weapon attack as a reaction."
+								"Chaque fois que cette créature subit un coup critique, elle peut effectuer une attaque d'arme au corps à corps en réaction."
 							]
 						},
 						{
-							"name": "Master of Pleasures",
+							"name": "Maître des plaisirs",
 							"type": "entries",
 							"entries": [
-								"As a reaction when this creature takes damage, it can magically grant 5 temporary hit points to itself and up to three allies within 30 feet of it."
+								"Par une réaction lorsque cette créature subit des dégâts, elle peut accorder par voie magique 5 points de vie temporaires à elle-même et à jusqu'à trois alliés dans un rayon de 9 mètres d'elle."
 							]
 						}
 					]
@@ -405,7 +405,7 @@
 			]
 		},
 		{
-			"name": "Cult of Haask, the Voice of Hargut",
+			"name": "Culte de Haask, la Voix de Hargut",
 			"source": "MTF",
 			"page": 237,
 			"otherSources": [
@@ -414,40 +414,40 @@
 					"page": 226
 				}
 			],
-			"type": "Elder Evil",
+			"type": "Mal ancien",
 			"entries": [
 				{
-					"name": "Haask's Presence (1/Day)",
+					"name": "Présence de Haask (1/jour)",
 					"type": "entries",
 					"entries": [
-						"The cultist transforms into a Tiny, slug-like being and teleports onto the shoulder of a Humanoid that it can see within 30 feet of it. The targeted Humanoid must succeed on a {@dc 15} Charisma saving throw or be {@condition charmed} by the cultist. While the target is {@condition charmed}, the cultist has control of it on the target's next turn. At the end of that turn, the cultist teleports to an unoccupied space it can see within 30 feet of it and returns to its normal form. The cultist can't be targeted directly by any attack or other effect while it's in the slug-like form, but it is subject to areas of effect as normal."
+						"Le cultiste se transforme en un être minuscule semblable à une limace et se téléporte sur l'épaule d'un Humanoïde qu'il peut voir à 9 mètres de lui. L'Humanoïde ciblé doit réussir un jet de sauvegarde de Charisme {@dc 15} ou être {@condition Charmé} par le cultiste. Tant que la cible est {@condition Charmé}, le cultiste la contrôle lors du prochain tour de la cible. À la fin de ce tour, le cultiste se téléporte dans un espace inoccupé qu'il peut voir à 9 mètres de lui et reprend sa forme normale. Le cultiste ne peut pas être ciblé directement par une attaque ou un autre effet tant qu'il est sous sa forme de limace, mais il reste soumis aux effets de zone normalement."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Juiblex",
+			"name": "Culte de Jubilex",
 			"source": "MPMM",
 			"page": 160,
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"entries": [
-				"The Faceless Lord grants its cultists special abilities. Lesser followers can gain the Liquid Movement trait. The most dedicated devotees of ooze can also gain the Slimy Organs trait.",
+				"Le Seigneur sans visage accorde des capacités spéciales à ses cultistes. Les partisans de moindre rang peuvent obtenir le trait Mouvement fluide. Les dévots les plus dévoués aux gluants peuvent également obtenir le trait Organes visqueux.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Liquid Movement",
+							"name": "Mouvement fluide",
 							"entries": [
-								"As an action, this creature can move up to 20 feet through spaces no more than an inch in diameter. It must end this movement in a space that can accommodate its full size. Otherwise, it takes 5 force damage and returns to the space where it began this movement."
+								"Par une action, cette créature peut se déplacer jusqu'à 6 mètres à travers des espaces de 2,5 centimètres de diamètre au maximum. Elle doit terminer ce déplacement dans un espace capable d'accueillir l'intégralité de sa taille. Sinon, elle subit 5 dégâts de force et retourne dans l'espace où elle a commencé ce déplacement."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Slimy Organs",
+							"name": "Organes visqueux",
 							"entries": [
-								"This creature has resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
-								"Whenever this creature suffers a critical hit or is reduced to 0 hit points, it sprays acid; each creature within 5 feet of it takes acid damage equal to its number of Hit Dice."
+								"Cette créature a la résistance aux dégâts contondants, perforants et tranchants d'attaques non magiques.",
+								"Chaque fois que cette créature subit un coup critique ou est réduite à 0 point de vie, elle projette de l'acide ; chaque créature dans un rayon de 1,50 mètre d'elle subit des dégâts d'acide égaux à son nombre de dés de vie."
 							]
 						}
 					]
@@ -455,121 +455,121 @@
 			]
 		},
 		{
-			"name": "Cult of Levistus",
+			"name": "Culte de Levistus",
 			"source": "MTF",
 			"page": 21,
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"goal": {
-				"entry": "Survival and eventual revenge against those who wrong them"
+				"entry": "Survie et, à terme, vengeance contre ceux qui leur ont fait tort"
 			},
 			"cultists": {
-				"entry": "{@creature Assassin}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}, {@creature thug}"
+				"entry": "{@creature Assassin}, {@creature bandit captain|chef bandit}, {@creature cult fanatic|fanatique de culte}, {@creature cultist|cultiste}, {@creature mage}, {@creature noble}, {@creature spy|espion}, {@creature thug|ruffian}"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Blade ward} (cantrip), {@spell expeditious retreat} (1st level), {@spell spider climb} (2nd level), {@spell gaseous form} (3rd level)"
+				"entry": "{@spell Blade ward|Résistance aux lames} (tour de magie), {@spell expeditious retreat|Retraite expéditive} (niveau 1), {@spell spider climb|Escalade d'araignée} (niveau 2), {@spell gaseous form|Forme gazeuse} (niveau 3)"
 			},
 			"entries": [
-				"Levistus has no cult in the traditional sense. Instead, he offers favors to those who are desperate to escape a seemingly inevitable fate.",
-				"{@creature Drow} are sometimes worshipers of Levistus, as their cruel society often pushes them into situations they feel they can't escape.",
-				"Levistus usually grants those who pledge their souls to him a single chance to escape from danger, but some cunning folk strike a deal with Levistus, pledging their souls to him in return for escape at a future date. This boon takes the form of the Path of Levistus trait.",
+				"Levistus n'a pas de culte au sens traditionnel. En lieu et place, il offre ses faveurs à ceux qui sont désespérément avides d'échapper à un destin apparemment inévitable.",
+				"Les {@creature Drow|drows} vénèrent parfois Levistus, car leur société cruelle les conduit souvent dans des situations dont ils ont l'impression de ne pouvoir s'échapper.",
+				"Levistus accorde généralement à ceux qui lui promettent leur âme une unique chance d'échapper au danger, mais certains esprits retords concluent un accord avec Levistus, lui promettant leur âme en échange d'une évasion à une date ultérieure. Ce don prend la forme du trait Voie de Levistus.",
 				{
 					"type": "entries",
-					"name": "Path of Levistus",
+					"name": "Voie de Levistus",
 					"entries": [
-						"This creature magically teleports to a location of Levistus's choice within 1 mile of its location. Using this ability also restores all of the creature's hit points. This ability can be invoked as an action by the creature or when the creature would die. Once the creature uses it, the creature can't use it again."
+						"Cette créature se téléporte par voie magique vers un emplacement au choix de Levistus, dans un rayon de 1,5 kilomètre de sa position. L'utilisation de cette capacité restaure également tous les points de vie de la créature. Cette capacité peut être invoquée par la créature au moyen d'une action, ou lorsque la créature devait mourir. Une fois qu'elle l'a utilisée, la créature ne peut plus s'en servir."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Mammon",
+			"name": "Culte de Mammon",
 			"source": "MTF",
 			"page": 21,
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"goal": {
-				"entry": "Wealth, secured not only to promise personal comfort and power but to deny wealth and its benefits to others."
+				"entry": "Richesse, amassée non seulement pour promettre confort et pouvoir personnels, mais aussi pour refuser la richesse et ses avantages aux autres."
 			},
 			"cultists": {
-				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature noble}, {@creature spy}, {@creature thug}"
+				"entry": "{@creature Bandit}, {@creature bandit captain|chef bandit}, {@creature cult fanatic|fanatique de culte}, {@creature cultist|cultiste}, {@creature noble}, {@creature spy|espion}, {@creature thug|ruffian}"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Mending} (cantrip), {@spell Tenser's floating disk} (1st level), {@spell arcane lock} (2nd level), {@spell glyph of warding} (3rd level)"
+				"entry": "{@spell Mending|Réparation} (tour de magie), {@spell Tenser's floating disk|Disque flottant de Tenser} (niveau 1), {@spell arcane lock|Sceau occulte} (niveau 2), {@spell glyph of warding|Glyphe de garde} (niveau 3)"
 			},
 			"entries": [
-				"Mammon's greed overwhelms everything else. He deals with mortals who desire material wealth and provides them with the ability to spread that greed like an infection.",
-				"The greedy {@creature duergar} and even some dragons are prone to falling prey to Mammon's temptations, and merchants and trade guilds are vulnerable to his bargains.",
-				"Mammon's cultists can gain the Grasping Hands trait. Cult leaders can also gain the Promise of Wealth trait.",
+				"L'avidité de Mammon passe avant tout. Il traite avec les mortels qui désirent la richesse matérielle et leur fournit la capacité de propager cette avidité comme une infection.",
+				"Les {@creature duergar} avides et même certains dragons sont enclins à céder aux tentations de Mammon, et les marchands et les guildes marchandes sont vulnérables à ses pactes.",
+				"Les cultistes de Mammon peuvent obtenir le trait Mains saisissantes. Les chefs de culte peuvent également obtenir le trait Promesse de richesse.",
 				{
 					"type": "entries",
-					"name": "Grasping Hands (Recharges after a Short or Long Rest)",
+					"name": "Mains saisissantes (Recharge après un repos court ou long)",
 					"entries": [
-						"As a bonus action, this creature makes a Dexterity (Sleight of Hand) check contested by the Wisdom (Insight) check of a creature it can see within 15 feet of it. If this creature succeeds, one hand-held item of its choice that it can see on the target magically teleports to its open hand. The item can't be one that the target is holding, and it must weigh no more than 10 pounds."
+						"Par une action bonus, cette créature effectue un test de Dextérité (Escamotage) opposé au test de Sagesse (Intuition) d'une créature qu'elle peut voir dans un rayon de 4,50 mètres d'elle. Si cette créature réussit, un objet tenu en main de son choix qu'elle peut voir sur la cible se téléporte par voie magique dans sa main ouverte. L'objet ne peut pas être un objet que la cible tient, et il ne doit pas peser plus de 4,5 kilogrammes."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Promise of Wealth (Recharges after a Short or Long Rest)",
+					"name": "Promesse de richesse (Recharge après un repos court ou long)",
 					"entries": [
-						"As a bonus action, this creature chooses one creature it can see. Up to five allies of its choice become convinced that the target carries great wealth. Until the end of this creature's next turn, those allies gain advantage on all attack rolls against the target."
+						"Par une action bonus, cette créature choisit une créature qu'elle peut voir. Jusqu'à cinq alliés de son choix deviennent convaincus que la cible porte une grande richesse. Jusqu'à la fin du prochain tour de cette créature, ces alliés obtiennent l'avantage à tous les jets d'attaque contre la cible."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Mephistopheles",
+			"name": "Culte de Méphistophélès",
 			"source": "MTF",
 			"page": 21,
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"goal": {
-				"entry": "Magical skill and power, backed with the will to use it to crush rivals"
+				"entry": "Talent et puissance magiques, doublés de la volonté de s'en servir pour écraser les rivaux"
 			},
 			"cultists": {
-				"entry": "{@creature Archmage}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature priest}"
+				"entry": "{@creature Archmage|archimage}, {@creature cult fanatic|fanatique de culte}, {@creature cultist|cultiste}, {@creature mage}, {@creature priest|prêtre}"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Fire bolt} (cantrip), {@spell burning hands} (1st level), {@spell flaming sphere} (2nd level), {@spell fireball} (3rd level)"
+				"entry": "{@spell Fire bolt|Trait de feu} (tour de magie), {@spell burning hands|Mains brûlantes} (niveau 1), {@spell flaming sphere|Sphère enflammée} (niveau 2), {@spell fireball|Boule de feu} (niveau 3)"
 			},
 			"entries": [
-				"As a master of the arcane arts, Mephistopheles finds eager recruits among those who study magic. Any monsters that use spells, such as {@creature storm giant||storm giants} and {@creature oni}, might follow him, and wizards' guilds and conclaves of sages are the most likely to come under his influence.",
-				"Mephistopheles's cultists can gain the Spell Shield trait. Cult leaders can also gain the Spell Leech trait.",
+				"En maître des arts arcaniques, Méphistophélès trouve des recrues enthousiastes parmi ceux qui étudient la magie. Les monstres qui utilisent des sorts, tels que les {@creature storm giant||géants des tempêtes} et les {@creature oni|onis}, peuvent le suivre, et les guildes de mages et les conciles de sages sont les plus susceptibles de passer sous son influence.",
+				"Les cultistes de Méphistophélès peuvent obtenir le trait Bouclier contre les sorts. Les chefs de culte peuvent également obtenir le trait Sangsue de sorts.",
 				{
 					"type": "entries",
-					"name": "Spell Shield",
+					"name": "Bouclier contre les sorts",
 					"entries": [
-						"This creature gains advantage on saving throws against spells. If it succeeds on such a saving throw, it gains temporary hit points equal to the spell's level."
+						"Cette créature obtient l'avantage aux jets de sauvegarde contre les sorts. Si elle réussit un tel jet de sauvegarde, elle obtient des points de vie temporaires égaux au niveau du sort."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spell Leech",
+					"name": "Sangsue de sorts",
 					"entries": [
-						"As a bonus action, this creature chooses one ally it can see within 30 feet of it. The target loses its lowest-level spell slot, and this creature gains it."
+						"Par une action bonus, cette créature choisit un allié qu'elle peut voir à 9 mètres d'elle. La cible perd son emplacement de sort de plus bas niveau, et cette créature le gagne."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Orcus",
+			"name": "Culte d'Orcus",
 			"source": "MPMM",
 			"page": 204,
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"entries": [
-				"Orcus grants his rank-and-file cultists the Undying Soul trait, and his cult leaders can gain the Aura of Death trait.",
+				"Orcus accorde le trait Âme immortelle à ses cultistes de base, et ses chefs de culte peuvent obtenir le trait Aura de mort.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Undying Soul (Recharges after a Short or Long Rest)",
+							"name": "Âme immortelle (Recharge après un repos court ou long)",
 							"entries": [
-								"If this creature is reduced to 0 hit points, it immediately makes a {@dc 10} Constitution saving throw. If it succeeds, it is instead reduced to 1 hit point."
+								"Si cette créature est réduite à 0 point de vie, elle effectue immédiatement un jet de sauvegarde de Constitution {@dc 10}. En cas de réussite, elle n'est en réalité réduite qu'à 1 point de vie."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Aura of Death",
+							"name": "Aura de mort",
 							"entries": [
-								"This creature emanates a deathly aura that extends 30 feet in every direction from its space while it isn't incapacitated. The aura is blocked by {@quickref Cover||3||total cover}. While in the aura, the creature and any friendly Undead are immune to the {@condition frightened} condition and have resistance to radiant damage. Enemies have disadvantage on death saving throws while in the aura."
+								"Tant qu'elle n'est pas incapable d'agir, cette créature émane une aura funeste qui s'étend sur 9 mètres dans toutes les directions à partir de son espace. L'aura est bloquée par un {@quickref Cover||3||couvert total}. Tant qu'ils se trouvent dans l'aura, la créature et tous les morts-vivants amis sont immunisés contre l'état {@condition Effrayé} et ont la résistance aux dégâts radiants. Les ennemis ont un désavantage aux jets de sauvegarde contre la mort tant qu'ils se trouvent dans l'aura."
 							]
 						}
 					]
@@ -577,7 +577,7 @@
 			]
 		},
 		{
-			"name": "Cult of Tharizdun, the Chained God",
+			"name": "Culte de Tharizdun, le Dieu enchaîné",
 			"source": "MTF",
 			"page": 237,
 			"otherSources": [
@@ -586,22 +586,22 @@
 					"page": 226
 				}
 			],
-			"type": "Elder Evil",
+			"type": "Mal ancien",
 			"entries": [
 				{
-					"name": "Tharizdun's Spark {@recharge 6}",
+					"name": "Étincelle de Tharizdun {@recharge 6}",
 					"type": "entries",
 					"entries": [
-						"As a bonus action, the cultist touches a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} or a natural weapon, if it has one. The next creature hit by the touched weapon must succeed on a {@dc 15} Wisdom saving throw or have disadvantage on all ability checks. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success."
+						"Par une action bonus, le cultiste touche une {@filter arme courante ou de guerre|items|source=phb|category=basic|type=martial weapon;simple weapon} ou une arme naturelle, s'il en possède une. La prochaine créature touchée par l'arme ainsi touchée doit réussir un jet de sauvegarde de Sagesse {@dc 15} ou avoir un désavantage à tous les tests de caractéristique. La créature affectée peut retenter le jet de sauvegarde à la fin de chaque minute, mettant fin à l'effet qui l'affecte en cas de réussite."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of the Black Earth",
+			"name": "Culte de la Terre Noire",
 			"source": "PotA",
 			"page": 8,
-			"type": "Elemental",
+			"type": "Élémentaire",
 			"entries": [
 				{
 					"type": "section",
@@ -609,51 +609,51 @@
 						{
 							"type": "entries",
 							"entries": [
-								"The earth cult worships the implacable strength and unyielding resistance of elemental earth. Cultists seek the power to destroy the works of civilization with landslides, sinkholes, or mighty earthquakes, thus demonstrating the true power of elemental earth and the futility of resistance. Earth cultists see mines, quarries, and tilled fields as insults imposed upon the living rock and soil. They believe the earth thirsts for the blood of those who don't venerate it before all other powers and beings.",
-								"The Cult of the Black Earth appeals to those who draw their fortunes from the earth-directly or indirectly. In areas where the influence of Elemental Evil takes hold, animals and monsters that live or burrow in the ground accept the cultists as allies. Creatures such as ankhegs or bulettes, normally too stupid and ravenous to be trained, submit to the will of the Black Earth. The monsters allow themselves to be herded or ridden into battle against the enemies of the cult.",
+								"Le culte de la terre vénère la force implacable et la résistance indéfectible de la terre élémentaire. Les cultistes recherchent le pouvoir de détruire les œuvres de la civilisation par des éboulements, des gouffres ou de puissants séismes, démontrant ainsi la véritable puissance de la terre élémentaire et la vanité de toute résistance. Les cultistes de la terre voient dans les mines, les carrières et les champs labourés des insultes infligées à la roche et au sol vivants. Ils croient que la terre a soif du sang de ceux qui ne la vénèrent pas avant toute autre puissance et tout autre être.",
+								"Le Culte de la Terre Noire séduit ceux qui tirent leur fortune de la terre, directement ou indirectement. Dans les régions où l'influence du Mal Élémentaire s'installe, les animaux et les monstres qui vivent ou creusent sous terre acceptent les cultistes comme alliés. Des créatures telles que les ankhegs ou les bulettes, normalement trop stupides et trop voraces pour être dressées, se soumettent à la volonté de la Terre Noire. Ces monstres se laissent conduire en troupeau ou monter pour être menés au combat contre les ennemis du culte.",
 								{
 									"type": "entries",
 									"entries": [
 										{
 											"type": "entries",
-											"name": "The Sign of the Black Earth",
+											"name": "Le signe de la Terre Noire",
 											"entries": [
-												"The symbol of the earth cult signifies purpose and stability. Cultists sometimes identify themselves with a hand gesture: they make a triangle by touching the thumbs and forefingers of both hands together."
+												"Le symbole du culte de la terre signifie dessein et stabilité. Les cultistes s'identifient parfois entre eux par un geste de la main : ils forment un triangle en joignant les pouces et les index de leurs deux mains."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Tactics and Philosophy",
+									"name": "Tactiques et philosophie",
 									"entries": [
-										"The Black Earth cult is the most defense-minded and patient of the four elemental cults. Earth cultists admire stoicism, endurance, and unyielding resolve. They are deliberate and slow to act, careful to consider their plans and gather their strength before beginning any new enterprise. Once earth cultists resolve to act, they are inflexible, grinding their way forward through any obstacle or unforeseen development. They are single-minded in the extreme, and most earth cultists have little use for social niceties. They see common courtesy as a way for the weak to put limits on the behavior of the strong, and they scorn empathy or friendship as weakness.",
-										"In battle, Black Earth cultists are brutal and straightforward. They overpower foes with direct assaults, although if they have the opportunity to undermine defenses or attack from below, they unhesitatingly put their skill at tunneling and mastery of burrowing monsters to good use. They are unflinching in the face of death. Surrender is never an option.",
-										"Earth cultists live and work underground. They craft weapons from stone or iron and \"bathe\" themselves in sand or dirt to feel close to their favored element. Black Earth initiates know the secret of creating armor from magically shaped stone, and even their robes include stone pauldrons or masks."
+										"Le culte de la Terre Noire est le plus défensif et le plus patient des quatre cultes élémentaires. Les cultistes de la terre admirent le stoïcisme, l'endurance et la résolution indéfectible. Ils sont posés et lents à agir, soucieux de mûrir leurs plans et de rassembler leurs forces avant d'entreprendre quoi que ce soit de nouveau. Une fois que les cultistes de la terre ont décidé d'agir, ils sont inflexibles et avancent en broyant tout obstacle ou imprévu. Ils sont d'un exclusivisme extrême, et la plupart des cultistes de la terre n'ont que faire des bienséances sociales. Ils voient dans la politesse ordinaire un moyen pour les faibles d'imposer des limites au comportement des forts, et ils méprisent l'empathie et l'amitié comme des faiblesses.",
+										"Au combat, les cultistes de la Terre Noire sont brutaux et directs. Ils submergent leurs adversaires par des assauts frontaux, mais s'ils ont l'occasion de saper les défenses ou d'attaquer par en dessous, ils mettent sans hésiter à profit leur talent pour creuser des tunnels et leur maîtrise des monstres fouisseurs. Ils restent inébranlables face à la mort. Se rendre n'est jamais une option.",
+										"Les cultistes de la terre vivent et travaillent sous terre. Ils forgent des armes en pierre ou en fer et se « baignent » dans le sable ou la poussière pour se sentir proches de leur élément de prédilection. Les initiés de la Terre Noire connaissent le secret de la fabrication d'armures en pierre façonnée par magie, et même leurs robes comportent des épaulières ou des masques de pierre."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Prophet of Earth",
+									"name": "Prophète de la Terre",
 									"entries": [
-										"A medusa named Marlos Urnrayle leads the Black Earth cult. He wields the elemental weapon {@item Ironfang|PotA}, a war pick infused with the power of Ogrémoch, the Prince of Evil Earth. Marlos is vain and cruel, an extreme narcissist who delights in surrounding himself with objects of beauty and luxurious comforts. Beneath this sneering self-assurance lies a bitter being who loathes himself and holds everyone around him in contempt.",
-										"Marlos began life as a human aristocrat, born into a wealthy Cormyrean family. He squandered his family's wealth on endless self-indulgence, seeking more questionable forms of entertainment through the years. The Urnrayle estate became known as a place of outrageous masquerades, bizarre banquets, and grotesque orgies. Marlos required his guests to don ugly or monstrous masks, thus ensuring that no ones beauty would outshine his own.",
-										"As he aged, Marlos turned to magic to preserve his fading beauty. After searching for years, he found a ring that contained the stolen vitality of a lovely fey creature. As long as he wore the ring, his imperfections vanished and no one could resist his physical charms-until the day the ring transformed Marlos into a medusa. The horror of his fate drove Marlos mad. He fled his ancestral home, taking his collection of masks with him.",
-										"After years of wandering and hiding in one ruined estate or another across the Western Heartlands, Marlos felt drawn to the desolate Sumber Hills by troubling dreams and visions. A long stairway beneath a ruined monastery brought him to an ancient cavern with a hideous altar, upon which lay a war pick of iron. When the medusa claimed {@item Ironfang|PotA}, his purpose finally became clear to him. He established his lair in the dungeon nearby and began building the Cult of the Black Earth.",
+										"Une méduse nommée Marlos Urnrayle dirige le culte de la Terre Noire. Il manie l'arme élémentaire {@item Ironfang|PotA}, une pioche de guerre imprégnée du pouvoir d'Ogrémoch, le Prince de la Terre Maléfique. Marlos est vaniteux et cruel, un narcissique extrême qui se plaît à s'entourer d'objets de beauté et de conforts luxueux. Sous cette assurance méprisante se cache un être aigri qui se hait lui-même et méprise tous ceux qui l'entourent.",
+										"Marlos commença sa vie comme aristocrate humain, né dans une riche famille cormyrienne. Il dilapida la fortune familiale en plaisirs sans fin, recherchant au fil des ans des divertissements de plus en plus douteux. Le domaine des Urnrayle devint célèbre comme un lieu de mascarades scandaleuses, de banquets étranges et d'orgies grotesques. Marlos exigeait que ses hôtes portent des masques hideux ou monstrueux, s'assurant ainsi qu'aucune beauté ne pût éclipser la sienne.",
+										"En vieillissant, Marlos se tourna vers la magie pour préserver sa beauté qui s'effaçait. Après des années de recherches, il trouva un anneau contenant la vitalité dérobée d'une splendide créature féerique. Tant qu'il portait l'anneau, ses imperfections disparaissaient et nul ne pouvait résister à ses charmes physiques — jusqu'au jour où l'anneau transforma Marlos en méduse. L'horreur de son sort rendit Marlos fou. Il fuit le domaine ancestral, emportant sa collection de masques.",
+										"Après des années d'errance et de cachotterie de domaine en domaine en ruine à travers les Terres du Cœur de l'Ouest, Marlos se sentit attiré vers les désolées collines de Sumber par des rêves et des visions troublants. Un long escalier sous un monastère en ruine le mena jusqu'à une caverne ancienne abritant un autel hideux sur lequel reposait une pioche de guerre de fer. Lorsque la méduse s'empara de {@item Ironfang|PotA}, son dessein lui devint enfin clair. Il établit son repaire dans le souterrain voisin et entreprit de bâtir le Culte de la Terre Noire.",
 										{
 											"type": "entries",
 											"name": "Traits",
 											"entries": [
-												"Unlike many of his followers, Marlos is genteel and well-spoken. He delights in witty banter and pointed repartee, although he is quick to make a cutting remark or jest at someone elses expense. Marlos takes pleasure in mocking others, especially if he can do so in a clever or elegant way. Marlos' previous life had been a constant search for pleasure, but the only thing that now stirs his loveless soul is refined cruelty. He can be driven to fits of blind, unreasoning jealousy if he is outshone by another urbane and attractive individual."
+												"Contrairement à nombre de ses partisans, Marlos est courtois et éloquent. Il se délecte des badinages spirituels et des répliques cinglantes, bien qu'il soit prompt à lancer une remarque assassine ou à plaisanter aux dépens d'autrui. Marlos prend plaisir à tourner les autres en dérision, surtout s'il peut le faire avec esprit ou élégance. La vie antérieure de Marlos n'a été qu'une quête inlassable du plaisir, mais la seule chose qui anime désormais son âme sans amour est la cruauté raffinée. Il peut être emporté par des accès de jalousie aveugle et déraisonnable si un autre individu urbain et séduisant lui fait de l'ombre."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Enemies and Allies",
+									"name": "Ennemis et alliés",
 									"entries": [
-										"The Black Earth cultists are highly suspicious of the Cult of Howling Hatred. They believe that the air cultists are mercurial, unreliable, and generally out of touch with reality. The earth cultists respect the strength and ferocity of the Eternal Flame followers, but also find them maddeningly inconstant. Black Earth cultists ally most often with the Crushing Wave, since they admire the patience and pragmatism of the water cultists."
+										"Les cultistes de la Terre Noire se méfient fortement du Culte de la Haine hurlante. Ils estiment que les cultistes de l'air sont inconstants, peu fiables et généralement déconnectés de la réalité. Les cultistes de la terre respectent la force et la férocité des adeptes de la Flamme éternelle, mais les trouvent aussi d'une inconstance à s'arracher les cheveux. Les cultistes de la Terre Noire s'allient le plus souvent à la Vague écrasante, car ils admirent la patience et le pragmatisme des cultistes de l'eau."
 									]
 								}
 							]
@@ -663,10 +663,10 @@
 			]
 		},
 		{
-			"name": "Cult of the Crushing Wave",
+			"name": "Culte de la Vague écrasante",
 			"source": "PotA",
 			"page": 9,
-			"type": "Elemental",
+			"type": "Élémentaire",
 			"entries": [
 				{
 					"type": "section",
@@ -674,51 +674,51 @@
 						{
 							"type": "entries",
 							"entries": [
-								"Cultists of the Crushing Wave worship the awesome power of water, from the surging tides and deadly maelstroms of the sea to the raging torrents of rivers in flood and the rock-crushing power of ice and glaciers. Crushing Wave cultists see all living creatures as nothing more than trapped water that could one day be free to return to the seas or skies in a new form. The seas and deep waters are eager to reclaim the parts of themselves currently held in the blood and bodies of living creatures, and it is the duty of Crushing Wave initiates to return nonbelievers to the primal waters by drowning them or shedding their blood.",
-								"The Crushing Wave cult appeals to those who live in or near bodies of water, as well as to those who appreciate subtlety and inevitability. Wicked sea creatures such as aquatic ghouls and merrows are friendly toward water cultists. Even non-sentient predators such as sharks or octopuses understand that water cultists are allies to be aided or masters to be obeyed.",
+								"Les cultistes de la Vague écrasante vénèrent la puissance terrifiante de l'eau, des marées déferlantes et des mortels tourbillons de la mer aux torrents déchaînés des fleuves en crue et à la puissance de broyage de la roche propre à la glace et aux glaciers. Les cultistes de la Vague écrasante voient dans toutes les créatures vivantes de l'eau emprisonnée qui pourrait un jour être libre de retourner aux mers ou aux cieux sous une nouvelle forme. Les mers et les eaux profondes brûlent de reprendre les parties d'elles-mêmes actuellement retenues dans le sang et les corps des créatures vivantes, et c'est le devoir des initiés de la Vague écrasante de rendre les infidèles aux eaux primordiales en les noyant ou en versant leur sang.",
+								"Le culte de la Vague écrasante séduit ceux qui vivent dans les plans d'eau ou à proximité, ainsi que ceux qui apprécient la subtilité et l'inévitabilité. Les malfaisantes créatures marines telles que les goules aquatiques et les merrows se montrent amicales envers les cultistes de l'eau. Même les prédateurs dépourvus de conscience tels que les requins ou les pieuvres comprennent que les cultistes de l'eau sont des alliés qu'il faut aider ou des maîtres auxquels il faut obéir.",
 								{
 									"type": "entries",
 									"entries": [
 										{
 											"type": "entries",
-											"name": "The Sign of the Crushing Wave",
+											"name": "Le signe de la Vague écrasante",
 											"entries": [
-												"Water cultists use a simple hand sign to identify one another when a token of recognition is required: crossing the forefingers and overlapping the thumbs to create an X-shape linked by a line across the bottom. It stands for waters eternal surge and retreat, a cycle of unending change."
+												"Les cultistes de l'eau utilisent un simple signe de la main pour se reconnaître lorsqu'un gage de reconnaissance est requis : ils croisent les index et superposent les pouces pour former un X relié par une ligne à la base. Il représente le flux et le reflux éternels des eaux, un cycle de changement sans fin."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Tactics and Philosophy",
+									"name": "Tactiques et philosophie",
 									"entries": [
-										"Crushing Wave cultists are almost as patient and stoic as the followers of the earth cult. They understand the value of outlasting formidable foes and slowly eroding their defenses. However, they are far more flexible and opportunistic in their overall philosophy than the earth cultists are. Like a flood that seeks the weak point in a levee and then bursts through with ever-growing strength, water cultists are quick to sense an opening and then act to exploit it. This philosophy of pragmatism and opportunism means that the Crushing Wave is the most mercenary of the four elemental cults. Water cultists eagerly seek out rich prizes and use their ill-gotten loot to develop their schemes.",
-										"In combat, Crushing Wave cultists excel as skirmishers. They value mobility and opportunism, rarely making a stand in one place for long. Instead, they feign retreats, regroup, and launch new attacks, wearing down their foes like storm-driven waves eating away at a sandy beach. Almost all water cultists are excellent swimmers skilled at fighting in water, so they look for opportunities to surprise their enemies by using bodies of water to slip around or through defenses.",
-										"Because the cultists see water as the wellspring of all life and purpose, they spend as much time in or around it as possible. Many cult hideouts are located near large bodies of water, and those that aren't feature hidden pools or wells in which cult members can immerse themselves. Water cultists prize water-breathing magic and seek it out for no other reason than to spend hours meditating underwater. Few cultists gain any profound insights from these exercises."
+										"Les cultistes de la Vague écrasante sont presque aussi patients et stoïques que les adeptes du culte de la terre. Ils comprennent la valeur du fait de lasser les ennemis redoutables par l'attente et d'éroder lentement leurs défenses. Cependant, leur philosophie d'ensemble est bien plus souple et opportuniste que celle des cultistes de la terre. À l'image d'une inondation qui cherche le point faible d'une digue avant de la percer avec une force toujours croissante, les cultistes de l'eau sont prompts à sentir une faille puis à agir pour l'exploiter. Cette philosophie de pragmatisme et d'opportunisme fait de la Vague écrasante le plus mercenaire des quatre cultes élémentaires. Les cultistes de l'eau recherchent avec empressement les riches prises et utilisent leur butin mal acquis pour développer leurs complots.",
+										"Au combat, les cultistes de la Vague écrasante excellent en éclaireurs d'assaut. Ils prisent la mobilité et l'opportunisme, tenant rarement une position longtemps au même endroit. À la place, ils simulent des retraites, se regroupent et lancent de nouvelles attaques, usant leurs adversaires comme des vagues poussées par la tempête rongent une plage de sable. Presque tous les cultistes de l'eau sont d'excellents nageurs habiles à combattre dans l'eau ; ils cherchent donc des occasions de surprendre leurs ennemis en utilisant les plans d'eau pour contourner ou traverser les défenses.",
+										"Parce que les cultistes voient dans l'eau la source de toute vie et de tout dessein, ils passent autant de temps que possible dans l'eau ou à proximité. Nombre de planques du culte se trouvent près de grands plans d'eau, et celles qui ne le sont pas comportent des bassins ou des puits cachés où les membres du culte peuvent s'immerger. Les cultistes de l'eau prisent la magie de respiration aquatique et la recherchent dans le seul but de passer des heures à méditer sous l'eau. Rares sont les cultistes à tirer de ces exercices quelque révélation profonde."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Prophet of Water",
+									"name": "Prophète de l'Eau",
 									"entries": [
-										"The former sailor Gar Shatterkeel leads the Crushing Wave cult. He wields the elemental weapon {@item Drown|PotA}, a trident imbued with the essence of Olhydra, Princess of Evil Water. Gar is a sullen man who says little, letting his actions speak for him. He believes he has been wronged by the world and hates all people except those as broken and unfortunate as himself. Gar also despises weakness in others.",
-										"Gar was born in a poor fishing village in the Nelanther Isles. At a young age, he lost his family to a sahuagin attack. The sea devils slaughtered almost everyone he knew. A Tethyrian merchant galley conscripted the young orphan into service, and Gar was forced into a brutal indentured servitude that was barely better than being enslaved. His unwilling service came to an end when pirates attacked the merchant ship. During the fighting, Gar was knocked overboard. For days he survived by clinging to the ships wreckage, until a shark ripped off his left arm. Death seemed imminent, but a powerful current arose and bore him away from the hungry predator. Within an hour he was cast upon the shores of the Sword Coast.",
-										"Gar believed that the current that had saved his life was an elemental sent by the sea. From that day forward, he devoted himself to the ocean, teaching himself its secrets and learning powerful water magic over years of lonely wandering. He despised all other people, remembering only his harsh treatment by the merchant crew and the brutality of the pirates. But in time he became aware of a call to a higher purpose, impelling him to find other examples of human flotsam and teach them about the power of the sea.",
-										"Gars visions led him to the secret waters beneath the Sumber Hills. He found a hidden cavern temple, on whose altar lay a powerful magical trident. Sensing its power, Gar took up the weapon and began to call his cult to join him in the Temple of the Crushing Wave.",
+										"L'ancien marin Gar Shatterkeel dirige le culte de la Vague écrasante. Il manie l'arme élémentaire {@item Noyade|PotA}, un trident imprégné de l'essence d'Olhydra, la Princesse de l'Eau Maléfique. Gar est un homme morose qui parle peu, laissant ses actions parler à sa place. Il estime que le monde lui a fait tort et hait tous les gens, hormis ceux qui sont aussi brisés et infortunés que lui. Gar méprise également la faiblesse chez les autres.",
+										"Gar est né dans un pauvre village de pêcheurs des îles Nelanther. Très jeune, il perdit sa famille lors d'une attaque de sahuagins. Les diables des mers massacrèrent presque tous ceux qu'il connaissait. Une galère marchande tethyrienne enrôla de force le jeune orphelin, et Gar fut contraint à une servitude brutale qui valait à peine mieux que l'esclavage. Ce service subi prit fin quand des pirates attaquèrent le navire marchand. Pendant le combat, Gar fut projeté par-dessus bord. Pendant des jours, il survécut en s'accrochant à l'épave du navire, jusqu'à ce qu'un requin lui arrache le bras gauche. La mort semblait imminente, mais un puissant courant se leva et l'emporta loin du prédateur affamé. Moins d'une heure plus tard, il était rejeté sur les rivages de la Côte de l'Épée.",
+										"Gar était convaincu que le courant qui avait sauvé sa vie était un élémentaire envoyé par la mer. À partir de ce jour, il se consacra à l'océan, s'enseignant lui-même ses secrets et apprenant une puissante magie de l'eau au fil d'années d'errance solitaire. Il méprisait tous les autres êtres humains, ne se souvenant que de la dureté de l'équipage marchand à son égard et de la brutalité des pirates. Mais avec le temps, il perçut un appel vers un dessein supérieur, qui le poussait à trouver d'autres épaves humaines et à leur enseigner la puissance de la mer.",
+										"Les visions de Gar le conduisirent aux eaux secrètes qui coulent sous les collines de Sumber. Il découvrit un temple caché dans une caverne, sur l'autel duquel reposait un puissant trident magique. Sentant sa puissance, Gar saisit l'arme et commença à appeler son culte à le rejoindre dans le Temple de la Vague écrasante.",
 										{
 											"type": "entries",
 											"name": "Traits",
 											"entries": [
-												"Gar is covered in barnacles, and he wears an artificial arm in the shape of a crabs claw over the stump of his left arm. He never uses two words when one will do, and he believes that anyone addressing him with courtesy is either insincere or subtly mocking him. The water prophets primary motivation is retribution; the world has been cruel to him, and he intends to make everyone else suffer as he has. He longs to be near the ocean again and is distressed by the fact that the driving force behind his visions keeps him so far from the sea."
+												"Gar est couvert de berniques et il porte au moignon de son bras gauche un bras artificiel en forme de pince de crabe. Il n'emploie jamais deux mots quand un seul suffit, et il est convaincu que quiconque s'adresse à lui avec courtoisie est soit insincère, soit en train de le railler subtilement. La motivation première du prophète de l'eau est la représailles ; le monde a été cruel avec lui, et il entend faire souffrir tous les autres comme il a souffert. Il aspire à être de nouveau près de l'océan et se trouve angoissé par le fait que la force motrice derrière ses visions le maintient si loin de la mer."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Enemies and Allies",
+									"name": "Ennemis et alliés",
 									"entries": [
-										"The followers of the Crushing Wave detest the Cult of the Eternal Flame. They find the fire cultists to be hostile, short-tempered, and unforgivably rash. The Howling Hatred cultists aren't as hostile, but they are likewise given to sudden impulses and are unreliable. The water cultists get along with the Cult of the Black Earth. The earth cultists are deliberate and dependable, if perhaps too inflexible for their own good."
+										"Les adeptes de la Vague écrasante exècrent le Culte de la Flamme éternelle. Ils trouvent les cultistes du feu hostiles, irascibles et impardonnablement téméraires. Les cultistes de la Haine hurlante ne sont pas aussi hostiles, mais ils sont tout aussi sujets à de soudains élans et peu fiables. Les cultistes de l'eau s'entendent bien avec le Culte de la Terre Noire. Les cultistes de la terre sont posés et fiables, même si peut-être trop inflexibles pour leur propre bien."
 									]
 								}
 							]
@@ -728,10 +728,10 @@
 			]
 		},
 		{
-			"name": "Cult of the Eternal Flame",
+			"name": "Culte de la Flamme éternelle",
 			"source": "PotA",
 			"page": 10,
-			"type": "Elemental",
+			"type": "Élémentaire",
 			"entries": [
 				{
 					"type": "section",
@@ -739,50 +739,50 @@
 						{
 							"type": "entries",
 							"entries": [
-								"The followers of the Eternal Flame cult worship the destructive power of fire in all its manifestations. They seek the power to burn away the \"corruption\" of both civilization and nature with volcanic eruptions, forest fires, heat waves, and droughts, creating a wasteland of ash and cinders ruled by fire alone. Eternal Flame cultists believe the world and all its peoples are wicked and malformed, and they consider it a sacred duty to \"purify\" everything around them by reducing their surroundings to smoking cinders.",
-								"The Eternal Flame appeals to those drawn to destruction for its own sake. Creatures of elemental fire are most likely to take up this reckless philosophy; even non-intelligent fire monsters sense the reckless lust for destruction lurking in the hearts of fire cultists and consider Eternal Flame believers to be their allies.",
+								"Les adeptes du culte de la Flamme éternelle vénèrent la puissance destructrice du feu sous toutes ses formes. Ils recherchent le pouvoir de brûler la « corruption » de la civilisation comme de la nature au moyen d'éruptions volcaniques, d'incendies de forêt, de canicules et de sécheresses, créant un désert de cendres et de braises gouverné par le feu seul. Les cultistes de la Flamme éternelle estiment que le monde et tous ses peuples sont pervers et difformes, et ils considèrent comme un devoir sacré de « purifier » tout ce qui les entoure en réduisant leurs alentours en cendres fumantes.",
+								"La Flamme éternelle séduit ceux que la destruction en elle-même attire. Les créatures de feu élémentaire sont les plus susceptibles d'épouser cette philosophie insouciante ; même les monstres de feu dépourvus d'intelligence sentent l'avidité destructrice et téméraire qui se cache dans le cœur des cultistes du feu et considèrent les croyants de la Flamme éternelle comme leurs alliés.",
 								{
 									"type": "entries",
 									"entries": [
 										{
 											"type": "entries",
-											"name": "The Sign of the Eternal Flame",
+											"name": "Le signe de la Flamme éternelle",
 											"entries": [
-												"The symbol of the fire cult is reminiscent of a bowl-like brazier with a burning flame. Fire cultists sometimes identify themselves with a symbolic hand sign: holding one hand in a fist, thumb up, and laying the other hand over the fist as if to cover the bowl but allow the flame to show. Members of the cult can also be identified by their burn scars."
+												"Le symbole du culte du feu évoque un brasero en forme de coupe surmonté d'une flamme ardente. Les cultistes du feu s'identifient parfois par un signe de main symbolique : une main fermée en poing, pouce vers le haut, l'autre main posée sur le poing comme pour couvrir la coupe tout en laissant passer la flamme. On peut aussi reconnaître les membres du culte à leurs cicatrices de brûlures."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Tactics and Philosophy",
+									"name": "Tactiques et philosophie",
 									"entries": [
-										"Fire cultists are impetuous, hot-tempered, and violent. They aren't mindless savages; their impetuousness also encompasses fiendish inventiveness and a drive to devise new tools for their mad cause. They are masters of fire and forge, taking captives to work in their infernal foundries. Fire cultists see conquest and enslavement of the weak as necessary steps in bringing about the chaos they intend to unleash on the world.",
-										"In battle, fire cultists launch sudden, overwhelming assaults. They throw themselves into reckless attacks with no regard for their own lives, seeking to cause as much damage as possible before falling. They are fearless and would rather die fighting among a mob of enemies than retreat a single step.",
-										"Followers of the Eternal Flame cult surround themselves with the largest fires they can create. Their favorite tactic involves using magic to open volcanic fissures or vents and channel flows of molten rock. Widespread arson and deliberately set forest fires are acceptable alternatives. Most fire cultists believe that something important and beautiful should be set on fire every day, or else they're just not doing their part."
+										"Les cultistes du feu sont impétueux, emportés et violents. Ce ne sont pas des sauvages obtus ; leur impétuosité englobe aussi une ingéniosité diabolique et une volonté d'imaginer de nouveaux outils pour leur cause insensée. Ce sont des maîtres du feu et de la forge, qui réduisent des captifs au travail dans leurs fonderies infernales. Les cultistes du feu voient dans la conquête et l'asservissement des faibles les étapes nécessaires à l'avènement du chaos qu'ils comptent déchaîner sur le monde.",
+										"Au combat, les cultistes du feu lancent des assauts soudains et écrasants. Ils se jettent dans des attaques téméraires sans égard pour leur propre vie, cherchant à infliger un maximum de dégâts avant de tomber. Ils sont intrépides et préfèrent mourir en combattant au milieu d'une meute d'ennemis plutôt que de reculer d'un seul pas.",
+										"Les adeptes du culte de la Flamme éternelle s'entourent des plus grands incendies qu'ils peuvent créer. Leur tactique favorite consiste à utiliser la magie pour ouvrir des fissures ou des évents volcaniques et canaliser des coulées de roche en fusion. Les incendiaires en série et les feux de forêt criminels constituent des alternatives acceptables. La plupart des cultistes du feu estiment qu'il faut embraser chaque jour quelque chose d'important et de beau, faute de quoi ils ne font tout simplement pas leur part."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Fire Prophet",
+									"name": "Prophète du Feu",
 									"entries": [
-										"Through all-consuming ambition and a desire to punish all who ever thwarted her dreams, the tiefling Vanifer has risen to leadership of the Eternal Flame cult. Beneath her refined exterior is a steel edge of scorned pride. And underneath her hard pride lies a desire for murder and mayhem. Vanifer harbors a fierce hatred for all who think themselves superior to her, and she stops at nothing to make them see her as a figure to be feared and respected.",
-										"Vanifer was born and raised in the crushing poverty of Calimport's poorest quarters, armed with only her cunning intelligence. In her youth, she learned to dance for coin and slowly worked her way up from the wine sinks of the laborers districts to the elegant chambers of the city's nobles. She mastered minor fire magic to distinguish herself from other dancers and incorporated flame into her routine. Her talents grew, and soon she caught the eye of a pasha and became his concubine. But even as she enjoyed the gifts he lavished on her, Vanifer hated the pasha for seeing her as a mere trophy. She left before long, robbing the pasha of a small fortune in jewelry and setting fire to his palace.",
-										"Vanifer fled to Zazesspur, but her former masters agents soon found her. She fled again to Baldur's Gate, taking up residence in the poor neighborhood known as Little Calimshan. There she opened a school of dance and discovered that her gift for fire attracted other sorts of students. She became the leader of a cult of fire worshipers. There she remained until a few months ago, when dreams and visions impelled her to seek out a lost dungeon in the North. On the altar of a forgotten temple she found the dagger {@item Tinderstrike|PotA}, imbued with the power of Imix, the Prince of Evil Fire. Armed with this powerful weapon, Vanifer resolved to establish a new chapter of her cult beneath the Sumber Hills.",
+										"Portée par une ambition dévorante et par le désir de punir tous ceux qui ont jamais contrarié ses rêves, la tiefling Vanifer est parvenue à la tête du culte de la Flamme éternelle. Sous son apparence raffinée affleure un tranchant d'acier fait d'orgueil blessé. Et sous sa fierté farouche se cache un désir de meurtre et de chaos. Vanifer éprouve une haine féroce envers tous ceux qui se croient supérieurs à elle, et elle ne recule devant rien pour leur faire voir en elle une figure à craindre et à respecter.",
+										"Vanifer est née et a grandi dans la misère écrasante des quartiers les plus pauvres de Calimport, armée de sa seule intelligence retorse. Dans sa jeunesse, elle apprit à danser pour quelques pièces et gravit lentement les échelons, des bouges à vin des quartiers populaires aux salons élégants des nobles de la cité. Elle maîtrisa une magie du feu mineure pour se distinguer des autres danseuses et intégra la flamme à ses numéros. Ses talents grandirent, et elle attira bientôt l'attention d'un pacha dont elle devint la concubine. Mais tout en jouissant des présents qu'il lui prodiguait, Vanifer haïssait le pacha de la voir comme un simple trophée. Elle ne tarda pas à le quitter, dérobant au pacha une petite fortune en bijoux et mettant le feu à son palais.",
+										"Vanifer s'enfuit à Zazesspur, mais les agents de son ancien maître la retrouvèrent bientôt. Elle gagna ensuite Baldur's Gate, s'installant dans le quartier pauvre connu sous le nom de Petit Calimshan. Elle y ouvrit une école de danse et découvrit que son don pour le feu attirait d'autres sortes d'élèves. Elle devint la dirigeante d'un culte d'adorateurs du feu. Elle y demeura jusqu'il y a quelques mois, quand des rêves et des visions la poussèrent à partir en quête d'un souterrain perdu du Nord. Sur l'autel d'un temple oublié, elle trouva la dague {@item Flambart|PotA}, imprégnée du pouvoir d'Imix, le Prince du Feu Maléfique. Armée de cette arme puissante, Vanifer résolut d'établir une nouvelle antenne de son culte sous les collines de Sumber.",
 										{
 											"type": "entries",
 											"name": "Traits",
 											"entries": [
-												"Vanifer is an extraordinary manipulator. She collects allies and followers with her wiles, using them as she needs and discarding them the moment they lose their usefulness. Its a testament to her natural talent that many of her victims are pathetically eager to bask in the glow of her attention again if she discovers she needs something else from them. While Vanifer puts on the airs of a rich noble, she despises those raised with great wealth, and her sensibilities favor the coarse. Vanifer is ambitious above all else, and as undisputed master of the fire cult, she intends to make the Eternal Flame the strongest and most feared cult of all."
+												"Vanifer est une manipulatrice hors du commun. Elle amasse alliés et partisans par ses ruses, les utilise à sa convenance et les abandonne dès qu'ils perdent leur utilité. Témoignage de son talent naturel, nombre de ses victimes sont pitoyablement empressées de profiter à nouveau des lueurs de son attention si elle découvre qu'elle a besoin d'autre chose d'elles. Bien que Vanifer prenne des airs de noble richissime, elle méprise ceux élevés dans une grande richesse, et ses goûts penchent vers la crudité. Vanifer est avant tout ambitieuse, et en maîtresse incontestée du culte du feu, elle entend faire de la Flamme éternelle le plus puissant et le plus redouté des cultes."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Enemies and Allies",
+									"name": "Ennemis et alliés",
 									"entries": [
-										"Eternal Flame cultists detest the followers of the Crushing Wave. They see the water cultists as slippery and untrustworthy, perhaps even cowardly-after all, the Crushing Wave retreats quickly from opposition and seeks the path of least resistance before committing its strength. The earth cultists are stolid and courageous, but maddeningly slow to act. The cultists of the Howling Hatred share the fire cults impulse to act swiftly and show many of the same qualities of inventiveness and creativity in the service of Elemental Evil."
+										"Les cultistes de la Flamme éternelle exècrent les adeptes de la Vague écrasante. Ils voient dans les cultistes de l'eau des individus glissants et peu fiables, peut-être même lâches — après tout, la Vague écrasante se replie rapidement face à l'opposition et cherche la voie de la moindre résistance avant d'engager ses forces. Les cultistes de la terre sont stoïques et courageux, mais d'une lenteur à agir désespérante. Les cultistes de la Haine hurlante partagent l'impulsion d'agir vite propre au culte du feu et montrent nombre des mêmes qualités d'inventivité et de créativité au service du Mal Élémentaire."
 									]
 								}
 							]
@@ -792,10 +792,10 @@
 			]
 		},
 		{
-			"name": "Cult of the Howling Hatred",
+			"name": "Culte de la Haine hurlante",
 			"source": "PotA",
 			"page": 11,
-			"type": "Elemental",
+			"type": "Élémentaire",
 			"entries": [
 				{
 					"type": "section",
@@ -803,51 +803,51 @@
 						{
 							"type": "entries",
 							"entries": [
-								"The followers of elemental air call themselves the Cult of the Howling Hatred. They worship the destructive power of wind and storms, believing that those who venerate elemental air gain the power to punish those who have wronged them. More so than the members of the other cults, air cultists see their beliefs as a means to an end. Destruction for its own sake isn't particularly interesting, but destruction as an expression of personal freedom or to earn things wrongfully denied? Thats a different story.",
-								"The Cult of the Howling Hatred appeals to those who deal in perceptions over facts: illusionists, spies, and assassins, for example. Predatory or fierce winged creatures of any kind, even non-sentient monsters that would otherwise resist training, perceive the air cultists as allies and cooperate with them. Hippogriffs, griffons, and giant vultures are frequently used as air cult steeds.",
+								"Les adeptes de l'air élémentaire se nomment eux-mêmes le Culte de la Haine hurlante. Ils vénèrent la puissance destructrice du vent et des tempêtes, convaincus que ceux qui vénèrent l'air élémentaire obtiennent le pouvoir de punir ceux qui leur ont fait tort. Plus encore que les membres des autres cultes, les cultistes de l'air voient leurs croyances comme un moyen d'atteindre une fin. La destruction pour elle-même ne présente pas un intérêt particulier, mais la destruction comme expression de la liberté personnelle ou pour arracher ce qui leur a été injustement refusé ? Voilà qui est une tout autre histoire.",
+								"Le Culte de la Haine hurlante séduit ceux qui privilégient les perceptions sur les faits : illusionnistes, espions et assassins, par exemple. Les créatures ailées prédatrices ou féroces de toutes sortes, même les monstres dépourvus de conscience qui résisteraient autrement au dressage, perçoivent les cultistes de l'air comme des alliés et coopèrent avec eux. Les hippogriffes, les griffons et les vautours géants servent fréquemment de montures aux cultistes de l'air.",
 								{
 									"type": "entries",
 									"entries": [
 										{
 											"type": "entries",
-											"name": "The Sign of the Howling Hatred",
+											"name": "Le signe de la Haine hurlante",
 											"entries": [
-												"The symbol of elemental air is an inverted triangle with three branching lines above it. Some believe it stands for the funnel cloud of a tornado, while others see it as the superiority of winged creatures over the ground. Some maintain it is an ancient rune that stands for the elemental lord Yan-C-Bin. Whatever their interpretations, the air cultists use the symbol as a secret password of sorts. By touching the thumbs and little fingers together and closing the rest of the fingers into a fist, an air cultist forms an inverted triangle that is a mark of membership in the cult."
+												"Le symbole de l'air élémentaire est un triangle inversé surmonté de trois lignes divergentes. Les uns y voient le nuage en entonnoir d'une tornade, les autres la supériorité des créatures ailées sur la terre ferme. Certains soutiennent que c'est une rune ancienne représentant le seigneur élémentaire Yan-C-Bin. Quelles que soient leurs interprétations, les cultistes de l'air utilisent le symbole comme une sorte de mot de passe secret. En joignant le pouce et l'auriculaire et en fermant les autres doigts en poing, un cultiste de l'air forme un triangle inversé qui est la marque de l'appartenance au culte."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Tactics and Philosophy",
+									"name": "Tactiques et philosophie",
 									"entries": [
-										"Howling Hatred cultists are clever, impulsive, and creative. They usually see themselves as smarter, quicker, and more capable than others they meet. Howling Hatred cultists dislike open battle. They prefer to work in secret, using stealth and illusion to gain their ends with a minimum of force. Tactics of deception and ambush provide the air cultists with opportunities to prove themselves smarter and more resourceful than their opponents. The wind doesn't blow down a castle, but flows around and through it. Infiltration and indirect attack are clearly superior tactics.",
-										"Air cultists seek out high places for their strongholds wherever possible, although they value subterranean spaces with wide chasms or lofty vaults. Places where flying is possible are mandatory. The followers of the Howling Hatred understand that sometimes they must put secrecy above other considerations."
+										"Les cultistes de la Haine hurlante sont rusés, impulsifs et créatifs. Ils se voient généralement comme plus intelligents, plus vifs et plus capables que les autres gens qu'ils croisent. Les cultistes de la Haine hurlante n'aiment pas la bataille rangée. Ils préfèrent agir en secret, usant de furtivité et d'illusions pour atteindre leurs fins avec un minimum de force. Les tactiques de tromperie et d'embuscade donnent aux cultistes de l'air l'occasion de prouver qu'ils sont plus malins et plus débrouillards que leurs adversaires. Le vent ne renverse pas un château, mais il l'entoure et le traverse. L'infiltration et l'attaque indirecte sont clairement des tactiques supérieures.",
+										"Les cultistes de l'air recherchent des lieux élevés pour leurs places fortes dans la mesure du possible, mais ils prisent également les espaces souterrains aux gouffres vastes ou aux voûtes hautes. Les endroits où le vol est possible sont indispensables. Les adeptes de la Haine hurlante comprennent qu'ils doivent parfois placer le secret au-dessus de toute autre considération."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Prophet of Air",
+									"name": "Prophétesse de l'Air",
 									"entries": [
-										"The moon elf Aerisi Kalinoth leads the Cult of the Howling Hatred. Tall and slender, with illusory wings that gently fan the air, Aerisi speaks to her people in a whisper that sounds clearly in the ears of all in her presence. Aerisi regards her followers not as cultists, but as her noble subjects. Before them she is prophet and queen. Musicians and courtiers amuse and flatter her, and warriors mounted on hippogriffs serve as her knights.",
-										"Aerisi grew up in an enchanted castle in a remote part of Faerûn, surrounded by tales, histories, and tomes of magic. She passed her early years playing games, practicing enchantments, and imagining herself as one of the avariel (winged elves) from her storybooks. Her parents' sheltered her from the conflicts of Faerûn, and she came of age with a tender and fragile disposition.",
-										"Eventually her parents decided it was time for their daughter to engage in elven society, and they brought her to the hidden city of Evereska. Her parents then realized their grave mistake. In pampering and sheltering their daughter, they had raised not a young lady but a spoiled child. Accustomed to having all she desired, the princess erupted into tantrums whenever she was denied her slightest whim, and the moon elves of Evereska could hardly endure her.",
-										"Aerisi felt powerless among the moon elves. Although she had become a skilled enchanter in Faerie, her people were resistant to such charms. In her dreams she began to envision herself as one of the winged elves from her storybooks. She wished to control the wind and go wherever she liked, and to punish those who offended her. The childlike fantasies of her youth became dark visions where she ruled the storms and the air itself. She dreamed of an old mystic with brown skin and white hair, who promised to teach her all she desired to know-a vision of Yan-C-Bin, the Prince of Evil Air. Aerisi turned her study to elemental air, learning the secret of flight and escaping Evereska to follow the deluded visions of her dreams.",
-										"Aerisi's visions led her to a strange altar in a cavern beneath the Sumber Hills, where she acquired the spear {@item Windvane|PotA}. Driven by Yan-C-Bin, she dubbed herself a queen and set out to find followers to rule. Her enchantments helped fill the ranks of the Cult of the Howling Hatred with initiates hopelessly devoted to her.",
+										"L'elfe lunaire Aerisi Kalinoth dirige le Culte de la Haine hurlante. Grande et svelte, dotée d'ailes illusoires qui battent doucement l'air, Aerisi s'adresse à son peuple dans un murmure qui résonne clairement aux oreilles de tous ceux qui se trouvent en sa présence. Aerisi considère ses partisans non pas comme des cultistes, mais comme ses nobles sujets. Devant eux, elle est prophétesse et reine. Des musiciens et des courtisans l'amusent et la flattent, et des guerriers montés sur hippogriffes lui servent de chevaliers.",
+										"Aerisi a grandi dans un château enchanté d'une contrée reculée de Faerûn, entourée de contes, d'histoires et de tomes de magie. Elle passa ses premières années à jouer, à pratiquer des enchantements et à s'imaginer en l'une des avariels (elfes ailés) de ses livres d'histoires. Ses parents la protégèrent des conflits de Faerûn, et elle atteignit l'âge adulte avec un tempérament tendre et fragile.",
+										"Finalement, ses parents décidèrent qu'il était temps pour leur fille d'entrer dans la société elfe, et ils l'emmenèrent dans la cité cachée d'Evereska. Ils comprirent alors leur grave erreur. En cajolant et en protégeant leur fille, ils n'avaient pas élevé une jeune demoiselle, mais un enfant gâté. Accoutumée à obtenir tout ce qu'elle désirait, la princesse éclatait en crises de colère dès qu'on refusait son moindre caprice, et les elfes lunaires d'Evereska supportaient à peine sa présence.",
+										"Aerisi se sentit impuissante parmi les elfes lunaires. Bien qu'elle fût devenue une enchantresse accomplie en Féerie, son peuple résistait à de tels charmes. Dans ses rêves, elle commença à se voir comme l'une des elfes ailées de ses livres d'histoires. Elle souhaitait commander au vent, aller où bon lui semblait et punir ceux qui l'offensaient. Les fantasmes enfantins de sa jeunesse devinrent de sombres visions où elle régnait sur les tempêtes et sur l'air lui-même. Elle rêva d'un vieux mystique à la peau brune et aux cheveux blancs, qui promettait de lui enseigner tout ce qu'elle désirait savoir — une vision de Yan-C-Bin, le Prince de l'Air Maléfique. Aerisi tourna ses études vers l'air élémentaire, apprit le secret du vol et s'évada d'Evereska pour suivre les visions égarées de ses rêves.",
+										"Les visions d'Aerisi la conduisirent à un étrange autel dans une caverne sous les collines de Sumber, où elle acquit la lance {@item Girouette|PotA}. Poussée par Yan-C-Bin, elle se proclama reine et se mit en quête de partisans à gouverner. Ses enchantements l'aidèrent à remplir les rangs du Culte de la Haine hurlante d'initiés dévoués corps et âme à sa personne.",
 										{
 											"type": "entries",
 											"name": "Traits",
 											"entries": [
-												"No one can deny Aerisi's grace, but she also possesses a violent temper that reveals itself whenever she is denied what she wants. Aerisi is prone to flights of fancy and impulsive decadence. She doesn't see herself as evil because she lacks the capacity to empathize with anyone else. Those who worship and please her are good, and those who defy her are wicked and must be punished. Her wish to lash the world with storms and destruction is, at its root, a temper tantrum against the elven society that dared to impose its strictures on her."
+												"Nul ne peut nier la grâce d'Aerisi, mais elle possède aussi un tempérament violent qui se manifeste dès qu'on lui refuse ce qu'elle veut. Aerisi est encline aux élans d'imagination et à la décadence impulsive. Elle ne se voit pas comme malfaisante car elle est incapable d'éprouver de l'empathie pour quiconque. Ceux qui l'adorent et lui plaisent sont bons, et ceux qui la défient sont pervers et doivent être punis. Son souhait de fouetter le monde de tempêtes et de destruction est, au fond, une crise de colère contre la société elfe qui a osé lui imposer ses contraintes."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Enemies and Allies",
+									"name": "Ennemis et alliés",
 									"entries": [
-										"The cultists of the Howling Hatred find the Black Earth cultists to be coarse, rude, unimaginative, and stubborn to the point of stupidity. Most offensively, the earth cultists are bluntly unimpressed by the Howling Hatred cult and its achievements. Followers of the Crushing Wave are more flexible and inventive, but they are crass mercenaries and likewise too pragmatic to appreciate the finer points of the air cults philosophy. The Eternal Flame is the best of the lot, since the fire cultists share the decisiveness and creative energy of the Howling Hatred cult, even if they are overly proud and aggressive."
+										"Les cultistes de la Haine hurlante trouvent les cultistes de la Terre Noire grossiers, impolis, sans imagination et obstinés au point de la bêtise. Plus scandalisant encore, les cultistes de la terre restent d'une froide indifférence face au culte de la Haine hurlante et à ses accomplissements. Les adeptes de la Vague écrasante sont plus souples et plus inventifs, mais ce sont de vulgaires mercenaires, tout aussi pragmatiques et incapables d'apprécier les subtilités de la philosophie du culte de l'air. La Flamme éternelle est la meilleure du lot, car les cultistes du feu partagent la résolution et l'énergie créatrice du culte de la Haine hurlante, même s'ils sont excessivement fiers et agressifs."
 									]
 								}
 							]
@@ -857,7 +857,7 @@
 			]
 		},
 		{
-			"name": "Cult of Tyranthraxus, the Flamed One",
+			"name": "Culte de Tyranthraxus, l'Enflammé",
 			"source": "MTF",
 			"page": 237,
 			"otherSources": [
@@ -866,46 +866,46 @@
 					"page": 226
 				}
 			],
-			"type": "Elder Evil",
+			"type": "Mal ancien",
 			"entries": [
 				{
-					"name": "Radiant Flames (1/Day)",
+					"name": "Flammes radiantes (1/jour)",
 					"type": "entries",
 					"entries": [
-						"Multihued flame surrounds the cultist for 1 minute, until the cultist is {@condition incapacitated} or dies, or until the cultist extinguishes the flame (no action required). While inflamed, the cultist has telepathy with a range of 30 feet, and it can teleport as a bonus action up to 30 feet to an unoccupied space it can see. In addition, every creature that starts its turn within 5 feet of the cultist must make a {@dc 15} Dexterity saving throw, taking 16 ({@damage 3d10}) radiant damage on a failed save, or half as much damage on a successful one."
+						"Une flamme multicolore enveloppe le cultiste pendant 1 minute, jusqu'à ce que le cultiste soit {@condition Incapable} ou meure, ou jusqu'à ce que le cultiste éteigne la flamme (aucune action requise). Tant qu'il est en flammes, le cultiste dispose d'une télépathie d'une portée de 9 mètres, et il peut se téléporter par une action bonus jusqu'à 9 mètres dans un espace inoccupé qu'il peut voir. De plus, chaque créature qui commence son tour à 1,50 mètre du cultiste doit effectuer un jet de sauvegarde de Dextérité {@dc 15}, subissant 16 ({@damage 3d10}) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Yeenoghu",
+			"name": "Culte de Yeenoghu",
 			"source": "MPMM",
 			"page": 270,
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"entries": [
-				"Yeenoghu grants special abilities to his cultists. His most devoted followers gain the Gnashing Jaws action and the Rampage bonus action, while cult leaders gain the Aura of Bloodthirst trait.",
+				"Yeenoghu accorde des capacités spéciales à ses cultistes. Ses partisans les plus dévoués obtiennent l'action Mâchoires broyeuses et l'action bonus Ravage, tandis que les chefs de culte obtiennent le trait Aura de soif de sang.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Gnashing Jaws",
+							"name": "Mâchoires broyeuses",
 							"entries": [
-								"{@atk mw} bonus to hit equal to this creature's proficiency bonus plus its Strength modifier, reach 5 ft., one target. {@h}{@damage 1d4} + this creature's Strength modifier piercing damage."
+								"{@atk mw} bonus à l'attaque égal au bonus de maîtrise de cette créature plus son modificateur de Force, portée 1,50 m, une cible. {@h}{@damage 1d4} dégâts perforants + le modificateur de Force de cette créature."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Rampage",
+							"name": "Ravage",
 							"entries": [
-								"When this creature reduces a creature to 0 hit points with a melee attack on its turn, it can take a bonus action to move up to half its speed and make one Gnashing Jaws attack."
+								"Lorsque cette créature réduit une créature à 0 point de vie avec une attaque au corps à corps lors de son tour, elle peut utiliser une action bonus pour se déplacer jusqu'à la moitié de sa vitesse et effectuer une attaque de Mâchoires broyeuses."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Aura of Bloodthirst",
+							"name": "Aura de soif de sang",
 							"entries": [
-								"If this creature isn't incapacitated, any creature that has Rampage can make its Gnashing Jaws attack as a bonus action while within 10 feet of this creature."
+								"Si cette créature n'est pas incapable d'agir, toute créature qui possède le trait Ravage peut effectuer son attaque de Mâchoires broyeuses par une action bonus tant qu'elle se trouve à 3 mètres de cette créature."
 							]
 						}
 					]
@@ -913,27 +913,27 @@
 			]
 		},
 		{
-			"name": "Cult of Zariel",
+			"name": "Culte de Zariel",
 			"source": "MPMM",
 			"page": 280,
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"entries": [
-				"Zariel grants special abilities to her most loyal cultists. They can gain the Ferocious Surge trait, and her cult's leaders can also gain the Infernal Tactics trait.",
+				"Zariel accorde des capacités spéciales à ses cultistes les plus loyaux. Ils peuvent obtenir le trait Poussée farouche, et les dirigeants de son culte peuvent également obtenir le trait Tactiques infernales.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Ferocious Surge (Recharges after a Short or Long Rest)",
+							"name": "Poussée farouche (Recharge après un repos court ou long)",
 							"entries": [
-								"When this creature hits with an attack roll that isn't a critical hit, it can turn the hit into a critical hit."
+								"Lorsque cette créature touche avec un jet d'attaque qui n'est pas un coup critique, elle peut transformer le toucher en coup critique."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Infernal Tactics",
+							"name": "Tactiques infernales",
 							"entries": [
-								"Immediately after rolling initiative, this creature can choose itself and up to three allies it can see if it isn't {@condition incapacitated}. It can swap the initiative results of the chosen creatures among them."
+								"Immédiatement après le jet d'initiative, cette créature peut se choisir elle-même ainsi que jusqu'à trois alliés qu'elle peut voir si elle n'est pas {@condition Incapable}. Elle peut échanger les résultats d'initiative des créatures choisies entre elles."
 							]
 						}
 					]
@@ -941,7 +941,7 @@
 			]
 		},
 		{
-			"name": "Cult of Zariel",
+			"name": "Culte de Zariel",
 			"source": "MTF",
 			"page": 21,
 			"reprintedAs": [
@@ -950,51 +950,51 @@
 					"uid": "Cult of Zariel|MPMM"
 				}
 			],
-			"type": "Diabolical",
+			"type": "Diabolique",
 			"goal": {
-				"entry": "Conquest, glory in battle, fame and fortune derived from military victory"
+				"entry": "Conquête, gloire au combat, renommée et fortune tirées de la victoire militaire"
 			},
 			"cultists": {
-				"entry": "{@creature Berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiator}, {@creature guard}, {@creature knight}, {@creature veteran}"
+				"entry": "{@creature Berserker}, {@creature cult fanatic|fanatique de culte}, {@creature cultist|cultiste}, {@creature gladiator|gladiateur}, {@creature guard|garde}, {@creature knight|chevalier}, {@creature veteran|vétéran}"
 			},
 			"signatureSpells": {
-				"entry": "{@spell True strike} (cantrip), {@spell heroism} (1st level), {@spell spiritual weapon} (2nd level), {@spell crusader's mantle} (3rd level)"
+				"entry": "{@spell True strike|Attaque au plus près} (tour de magie), {@spell heroism|Héroïsme} (niveau 1), {@spell spiritual weapon|Arme spirituelle} (niveau 2), {@spell crusader's mantle|Mante du croisé} (niveau 3)"
 			},
 			"entries": [
-				"Zariel's cult offers martial training and talent. It flourishes in areas wracked by war. Refugees with the will to fight but lacking experience are drawn to Zariel, as she can provide them with the skills needed to survive. Established warriors looking for an edge are otherwise her most common recruits.",
-				"Knightly orders, fighters' guilds, and mercenary companies are the most likely to come under her sway. {@creature hobgoblin||Hobgoblins} sometimes turn to her, but only if they have escaped the influence of Maglubiyet and his priests.",
-				"Zariel's cultists can gain the Ferocious Surge trait. Cult leaders can also gain the Infernal Tactics trait.",
+				"Le culte de Zariel offre entraînement martial et talent. Il prospère dans les régions dévastées par la guerre. Les réfugiés animés par la volonté de se battre mais manquant d'expérience sont attirés vers Zariel, car elle peut leur dispenser les compétences nécessaires pour survivre. Ses recrues les plus courantes sont par ailleurs des guerriers aguerris en quête d'un avantage.",
+				"Les ordres de chevalerie, les guildes de guerriers et les compagnies de mercenaires sont les plus susceptibles de passer sous sa coupe. Les {@creature hobgoblin||Hobgoblins} se tournent parfois vers elle, mais seulement s'ils ont échappé à l'influence de Maglubiyet et de ses prêtres.",
+				"Les cultistes de Zariel peuvent obtenir le trait Poussée farouche. Les chefs de culte peuvent également obtenir le trait Tactiques infernales.",
 				{
 					"type": "entries",
-					"name": "Ferocious Surge (Recharges after a Short or Long Rest)",
+					"name": "Poussée farouche (Recharge après un repos court ou long)",
 					"entries": [
-						"When this creature hits with an attack that isn't a critical hit, it can turn the hit into a critical hit."
+						"Lorsque cette créature touche avec une attaque qui n'est pas un coup critique, elle peut transformer le toucher en coup critique."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Infernal Tactics",
+					"name": "Tactiques infernales",
 					"entries": [
-						"This creature has a keen eye for seizing a tactical advantage. Immediately after rolling initiative, it can choose itself and up to three allies it can see if it isn't {@condition incapacitated}. It can swap the initiative results of the chosen creatures among them."
+						"Cette créature a un œil exercé pour saisir un avantage tactique. Immédiatement après le jet d'initiative, elle peut se choisir elle-même ainsi que jusqu'à trois alliés qu'elle peut voir si elle n'est pas {@condition Incapable}. Elle peut échanger les résultats d'initiative des créatures choisies entre elles."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cult of Zuggtmoy",
+			"name": "Culte de Zuggtmoy",
 			"source": "MPMM",
 			"page": 281,
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"entries": [
-				"Zuggtmoy's cultists are primarily mindless victims of her children's strange spores. The spores burrow into a victim's brain, turning it into a fanatic servitor. Each victim gains the Spore Kissed trait.",
+				"Les cultistes de Zuggtmoy sont avant tout des victimes irrescient des étranges spores de ses enfants. Les spores se fraient un chemin dans le cerveau d'une victime, en faisant un serviteur fanatique. Chaque victime obtient le trait Baiser des spores.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Spore Kissed",
+							"name": "Baiser des spores",
 							"entries": [
-								"This creature is immune to the {@condition charmed} and {@condition frightened} conditions. In addition, if it is reduced to 0 hit points, each creature within 10 feet of it takes poison damage equal to its number of Hit Dice."
+								"Cette créature est immunisée contre les états {@condition Charmé} et {@condition Effrayé}. En outre, si elle est réduite à 0 point de vie, chaque créature dans un rayon de 3 mètres d'elle subit des dégâts de poison égaux à son nombre de dés de vie."
 							]
 						}
 					]
@@ -1004,23 +1004,23 @@
 	],
 	"boon": [
 		{
-			"name": "Demonic Boon of Balor",
+			"name": "Don démoniaque de Balor",
 			"source": "MTF",
 			"page": 32,
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"entries": [
-				"Demons of sufficient cunning and power can bestow boons, using the boons' recipients as pawns. A {@creature balor} can grant the following special trait:",
+				"Les démons suffisamment retors et puissants peuvent accorder des dons, se servant des récipiendaires de ces dons comme de pions. Un {@creature balor} peut accorder le trait spécial suivant :",
 				{
 					"type": "entries",
-					"name": "Fiery Soul",
+					"name": "Âme ardente",
 					"entries": [
-						"This creature has resistance to fire damage. When it dies, it explodes; each creature within 10 feet of it takes fire damage equal to its number of Hit Dice."
+						"Cette créature a la résistance aux dégâts de feu. Lorsqu'elle meurt, elle explose ; chaque créature dans un rayon de 3 mètres d'elle subit des dégâts de feu égaux à son nombre de dés de vie."
 					]
 				}
 			]
 		},
 		{
-			"name": "Demonic Boon of Baphomet",
+			"name": "Don démoniaque de Baphomet",
 			"source": "MTF",
 			"page": 30,
 			"reprintedAs": [
@@ -1029,40 +1029,40 @@
 					"uid": "Cult of Baphomet|MPMM"
 				}
 			],
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"ability": {
-				"entry": "Up to a +4 bonus to Strength, Wisdom, or both"
+				"entry": "Jusqu'à un bonus de +4 en Force, en Sagesse, ou aux deux"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Hunter's mark} (1st level), {@spell beast sense} (2nd level), {@spell slow} (3rd level)"
+				"entry": "{@spell Hunter's mark|Marque du chasseur} (niveau 1), {@spell beast sense|Sens de la bête} (niveau 2), {@spell slow|Lenteur} (niveau 3)"
 			},
 			"entries": [
-				"Baphomet grants the gifts of cunning and physical power. He grants his rank-and-file followers the Unerring Tracker trait, and cult leaders gain the Incite the Hunters trait. All of his devotees also gain the Labyrinthine Recall trait.",
+				"Baphomet accorde les dons de la ruse et de la puissance physique. Il accorde à ses partisans de base le trait Pisteur infaillible, et les chefs de culte obtiennent le trait Exciter les chasseurs. Tous ses dévots obtiennent également le trait Souvenir du labyrinthe.",
 				{
 					"type": "entries",
-					"name": "Unerring Tracker",
+					"name": "Pisteur infaillible",
 					"entries": [
-						"As a bonus action, this creature magically creates a psychic link with one creature it can see. For the next hour, as a bonus action this creature learns the current distance and direction to the target if it is on the same plane of existence. The link ends if this creature is {@condition incapacitated} or if it uses this ability on a different target."
+						"Par une action bonus, cette créature crée par voie magique un lien psychique avec une créature qu'elle peut voir. Pendant l'heure qui suit, par une action bonus, la créature apprend la distance et la direction actuelles de la cible si celle-ci se trouve sur le même plan d'existence. Le lien prend fin si cette créature est {@condition Incapable} ou si elle utilise cette capacité sur une autre cible."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Incite the Hunters (Recharges after a Short or Long Rest)",
+					"name": "Exciter les chasseurs (Recharge après un repos court ou long)",
 					"entries": [
-						"As an action, this creature allows each ally within 30 feet of it that has the Unerring Tracker trait to make one weapon attack as a reaction against the target of that ally's Unerring Tracker."
+						"Par une action, cette créature permet à chaque allié dans un rayon de 9 mètres d'elle qui possède le trait Pisteur infaillible d'effectuer une attaque d'arme en réaction contre la cible du Pisteur infaillible de cet allié."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Labyrinthine Recall",
+					"name": "Souvenir du labyrinthe",
 					"entries": [
-						"This creature can perfectly recall any path it has traveled."
+						"Cette créature peut se rappeler parfaitement tout chemin qu'elle a parcouru."
 					]
 				}
 			]
 		},
 		{
-			"name": "Demonic Boon of Demogorgon",
+			"name": "Don démoniaque de Démogorgon",
 			"source": "MTF",
 			"page": 30,
 			"reprintedAs": [
@@ -1071,26 +1071,26 @@
 					"uid": "Cult of Demogorgon|MPMM"
 				}
 			],
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"ability": {
-				"entry": "Up to a +4 bonus to Strength, Charisma, or both"
+				"entry": "Jusqu'à un bonus de +4 en Force, en Charisme, ou aux deux"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Charm person} (1st level), {@spell enlarge/reduce} (2nd level), {@spell vampiric touch} (3rd level)"
+				"entry": "{@spell Charm person|Charmement} (niveau 1), {@spell enlarge/reduce|Agrandissement/réduction} (niveau 2), {@spell vampiric touch|Contact vampirique} (niveau 3)"
 			},
 			"entries": [
-				"Demogorgon's followers are typically lone killers driven by the whispering voice of their master. His most blessed followers gain the Two Minds of Madness trait.",
+				"Les adeptes de Démogorgon sont typiquement des tueurs solitaires guidés par la voix murmurante de leur maître. Ses adeptes les plus bénis obtiennent le trait Deux esprits de folie.",
 				{
 					"type": "entries",
-					"name": "Two Minds of Madness",
+					"name": "Deux esprits de folie",
 					"entries": [
-						"This creature has advantage on all Intelligence, Wisdom, and Charisma saving throws."
+						"Cette créature a l'avantage à tous les jets de sauvegarde d'Intelligence, de Sagesse et de Charisme."
 					]
 				}
 			]
 		},
 		{
-			"name": "Demonic Boon of Fraz-Urb'luu",
+			"name": "Don démoniaque de Fraz-Urb'luu",
 			"source": "MTF",
 			"page": 30,
 			"reprintedAs": [
@@ -1099,43 +1099,43 @@
 					"uid": "Cult of Fraz-Urb'luu|MPMM"
 				}
 			],
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"ability": {
-				"entry": "Up to a +4 bonus to Wisdom, Charisma, or both"
+				"entry": "Jusqu'à un bonus de +4 en Sagesse, en Charisme, ou aux deux"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Minor illusion} (cantrip), {@spell disguise self} (1st level), {@spell invisibility} (2nd level), {@spell hypnotic pattern} (3rd level)"
+				"entry": "{@spell Minor illusion|Illusion mineure} (tour de magie), {@spell disguise self|Déguisement} (niveau 1), {@spell invisibility|Invisibilité} (niveau 2), {@spell hypnotic pattern|Profil hypnotique} (niveau 3)"
 			},
 			"entries": [
-				"As a master of deceit, Fraz-Urb'luu teaches his initiates the secrets of lies and illusions. They can also gain the Liar's Eye trait.",
+				"Maître de la duperie, Fraz-Urb'luu enseigne à ses initiés les secrets du mensonge et de l'illusion. Ils peuvent également obtenir le trait Œil du menteur.",
 				{
 					"type": "entries",
-					"name": "Liar's Eye",
+					"name": "Œil du menteur",
 					"entries": [
-						"This creature has advantage on Wisdom ({@skill Insight} or {@skill Perception}) checks.",
-						"As a bonus action, it automatically detects the location of all illusions and hidden creatures within 15 feet of it."
+						"Cette créature a l'avantage aux tests de Sagesse ({@skill Perspicacité} ou {@skill Perception}).",
+						"Par une action bonus, elle détecte automatiquement l'emplacement de toutes les illusions et de toutes les créatures cachées dans un rayon de 4,50 mètres d'elle."
 					]
 				}
 			]
 		},
 		{
-			"name": "Demonic Boon of Goristro",
+			"name": "Don démoniaque de Goristro",
 			"source": "MTF",
 			"page": 32,
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"entries": [
-				"Demons of sufficient cunning and power can bestow boons, using the boons' recipients as pawns. A {@creature goristro} can grant the following special trait:",
+				"Les démons suffisamment retors et puissants peuvent accorder des dons, se servant des récipiendaires de ces dons comme de pions. Un {@creature goristro} peut accorder le trait spécial suivant :",
 				{
 					"type": "entries",
-					"name": "Labyrinthine Recall",
+					"name": "Souvenir du labyrinthe",
 					"entries": [
-						"This creature can perfectly recall any path it has traveled."
+						"Cette créature peut se rappeler parfaitement tout chemin qu'elle a parcouru."
 					]
 				}
 			]
 		},
 		{
-			"name": "Demonic Boon of Graz'zt",
+			"name": "Don démoniaque de Graz'zt",
 			"source": "MTF",
 			"page": 30,
 			"reprintedAs": [
@@ -1144,33 +1144,33 @@
 					"uid": "Cult of Graz'zt|MPMM"
 				}
 			],
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"ability": {
-				"entry": "Up to a +4 bonus to Constitution, Charisma, or both"
+				"entry": "Jusqu'à un bonus de +4 en Constitution, en Charisme, ou aux deux"
 			},
 			"signatureSpells": {
-				"entry": "{@spell False life} (1st level), {@spell hold person} (2nd level), {@spell fear} (3rd level)"
+				"entry": "{@spell False life|Fausse vie} (niveau 1), {@spell hold person|Immobilisation de personne} (niveau 2), {@spell fear|Peur} (niveau 3)"
 			},
 			"entries": [
-				"The Lord of Forbidden Pleasures grants his cultists the ability to transform even the most hideous pain into pleasure. His cultists gain the Joy from Pain trait, while his cult leaders gain the Master of Pleasures trait.",
+				"Le Seigneur des Plaisirs interdits accorde à ses cultistes la capacité de transformer même la plus hideuse des douleurs en plaisir. Ses cultistes obtiennent le trait Joie dans la douleur, tandis que ses chefs de culte obtiennent le trait Maître des plaisirs.",
 				{
 					"type": "entries",
-					"name": "Joy from Pain",
+					"name": "Joie dans la douleur",
 					"entries": [
-						"Whenever this creature suffers a critical hit, it can make one melee weapon attack as a reaction."
+						"Chaque fois que cette créature subit un coup critique, elle peut effectuer une attaque d'arme au corps à corps en réaction."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Master of Pleasures",
+					"name": "Maître des plaisirs",
 					"entries": [
-						"As a reaction when this creature takes damage, it can magically grant 5 temporary hit points to itself and up to three allies within 30 feet of it."
+						"Par une réaction lorsque cette créature subit des dégâts, elle peut accorder par voie magique 5 points de vie temporaires à elle-même et à jusqu'à trois alliés dans un rayon de 9 mètres d'elle."
 					]
 				}
 			]
 		},
 		{
-			"name": "Demonic Boon of Juiblex",
+			"name": "Don démoniaque de Jubilex",
 			"source": "MTF",
 			"page": 30,
 			"reprintedAs": [
@@ -1179,66 +1179,66 @@
 					"uid": "Cult of Juiblex|MPMM"
 				}
 			],
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"ability": {
-				"entry": "Up to a +8 bonus to Constitution, with an equal penalty to Intelligence, Wisdom, and Charisma"
+				"entry": "Jusqu'à un bonus de +8 en Constitution, avec une pénalité égale en Intelligence, en Sagesse et en Charisme"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Grease} (1st level), {@spell web} (2nd level), {@spell gaseous form} (3rd level)"
+				"entry": "{@spell Grease|Graisse} (niveau 1), {@spell web|Toile} (niveau 2), {@spell gaseous form|Forme gazeuse} (niveau 3)"
 			},
 			"entries": [
-				"The Faceless Lord's followers are bizarre loners who prefer the company of slimes and oozes to other creatures. They gain the hardiness of a slime at the cost of their minds. Lesser followers gain the Liquid Movement trait. The most dedicated devotees of ooze also gain the Slimy Organs trait.",
+				"Les adeptes du Seigneur sans visage sont d'étranges solitaires qui préfèrent la compagnie des limons et des gluants à celle des autres créatures. Ils gagnent la robustesse d'un limon au prix de leur esprit. Les partisans de moindre rang obtiennent le trait Mouvement fluide. Les dévots les plus dévoués aux gluants obtiennent également le trait Organes visqueux.",
 				{
 					"type": "entries",
-					"name": "Liquid Movement",
+					"name": "Mouvement fluide",
 					"entries": [
-						"As an action, this creature can move up to 20 feet through spaces no more than an inch in diameter. It must end this movement in a space that can accommodate its full size. Otherwise, it takes 5 force damage and returns to the space where it began this movement."
+						"Par une action, cette créature peut se déplacer jusqu'à 6 mètres à travers des espaces de 2,5 centimètres de diamètre au maximum. Elle doit terminer ce déplacement dans un espace capable d'accueillir l'intégralité de sa taille. Sinon, elle subit 5 dégâts de force et retourne dans l'espace où elle a commencé ce déplacement."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Slimy Organs",
+					"name": "Organes visqueux",
 					"entries": [
-						"This creature has resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
-						"Whenever this creature suffers a critical hit or is reduced to 0 hit points, all creatures within 5 feet of it take acid damage equal to its number of Hit Dice."
+						"Cette créature a la résistance aux dégâts contondants, perforants et tranchants d'attaques non magiques.",
+						"Chaque fois que cette créature subit un coup critique ou est réduite à 0 point de vie, toutes les créatures dans un rayon de 1,50 mètre d'elle subissent des dégâts d'acide égaux à son nombre de dés de vie."
 					]
 				}
 			]
 		},
 		{
-			"name": "Demonic Boon of Marilith",
+			"name": "Don démoniaque de Marilith",
 			"source": "MTF",
 			"page": 32,
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"entries": [
-				"Demons of sufficient cunning and power can bestow boons, using the boons' recipients as pawns. A {@creature marilith} can grant the following special trait:",
+				"Les démons suffisamment retors et puissants peuvent accorder des dons, se servant des récipiendaires de ces dons comme de pions. Une {@creature marilith} peut accorder le trait spécial suivant :",
 				{
 					"type": "entries",
-					"name": "Serpentine Reaction",
+					"name": "Réaction serpentine",
 					"entries": [
-						"This creature can take an extra reaction each round, but this reaction can be used only to make an opportunity attack."
+						"Cette créature peut effectuer une réaction supplémentaire à chaque round, mais cette réaction ne peut être utilisée que pour réaliser une attaque d'opportunité."
 					]
 				}
 			]
 		},
 		{
-			"name": "Demonic Boon of Nalfeshnee",
+			"name": "Don démoniaque de Nalfeshnee",
 			"source": "MTF",
 			"page": 32,
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"entries": [
-				"Demons of sufficient cunning and power can bestow boons, using the boons' recipients as pawns. A {@creature nalfeshnee} can grant the following special trait:",
+				"Les démons suffisamment retors et puissants peuvent accorder des dons, se servant des récipiendaires de ces dons comme de pions. Un {@creature nalfeshnee} peut accorder le trait spécial suivant :",
 				{
 					"type": "entries",
-					"name": "Guarded Mind",
+					"name": "Esprit protégé",
 					"entries": [
-						"This creature is immune to the {@condition frightened} condition."
+						"Cette créature est immunisée contre l'état {@condition Effrayé}."
 					]
 				}
 			]
 		},
 		{
-			"name": "Demonic Boon of Orcus",
+			"name": "Don démoniaque d'Orcus",
 			"source": "MTF",
 			"page": 31,
 			"reprintedAs": [
@@ -1247,33 +1247,33 @@
 					"uid": "Cult of Orcus|MPMM"
 				}
 			],
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"ability": {
-				"entry": "Up to a +4 bonus to Intelligence, Wisdom, or both"
+				"entry": "Jusqu'à un bonus de +4 en Intelligence, en Sagesse, ou aux deux"
 			},
 			"signatureSpells": {
-				"entry": "{@spell False life} (1st level), {@spell ray of enfeeblement} (2nd level), {@spell animate dead} (3rd level)"
+				"entry": "{@spell False life|Fausse vie} (niveau 1), {@spell ray of enfeeblement|Rayon d'affaiblissement} (niveau 2), {@spell animate dead|Animation des morts} (niveau 3)"
 			},
 			"entries": [
-				"In most cases, Orcus transforms his followers into undead creatures such as ghouls and wights. Sometimes he needs his followers to retain their mortal forms, to more easily infiltrate a kingdom or city. He grants rank-and-file cultists the Undying Soul trait, and his cult leaders gain the Aura of Death trait.",
+				"Dans la plupart des cas, Orcus transforme ses adeptes en créatures mortes-vivantes telles que des goules et des spectres. Parfois, il a besoin que ses adeptes conservent leur forme mortelle, afin d'infiltrer plus facilement un royaume ou une cité. Il accorde aux cultistes de base le trait Âme immortelle, et ses chefs de culte obtiennent le trait Aura de mort.",
 				{
 					"type": "entries",
-					"name": "Undying Soul (Recharges after a Short or Long Rest)",
+					"name": "Âme immortelle (Recharge après un repos court ou long)",
 					"entries": [
-						"If this creature is reduced to 0 hit points, it immediately makes a {@dc 10} Constitution saving throw. If it succeeds, it is instead reduced to 1 hit point."
+						"Si cette créature est réduite à 0 point de vie, elle effectue immédiatement un jet de sauvegarde de Constitution {@dc 10}. En cas de réussite, elle n'est en réalité réduite qu'à 1 point de vie."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Aura of Death",
+					"name": "Aura de mort",
 					"entries": [
-						"This creature emanates a deathly aura that extends 30 feet in every direction from its space while it isn't {@condition incapacitated}. The aura is blocked by {@quickref Cover||3||total cover}. While in the aura, the creature and any friendly undead are immune to the {@condition frightened} condition and have resistance to radiant damage. Enemies suffer disadvantage on death saving throws while in the aura."
+						"Tant qu'elle n'est pas {@condition Incapable}, cette créature émane une aura funeste qui s'étend sur 9 mètres dans toutes les directions à partir de son espace. L'aura est bloquée par un {@quickref Cover||3||couvert total}. Tant qu'ils se trouvent dans l'aura, la créature et tous les morts-vivants amis sont immunisés contre l'état {@condition Effrayé} et ont la résistance aux dégâts radiants. Les ennemis subissent un désavantage aux jets de sauvegarde contre la mort tant qu'ils se trouvent dans l'aura."
 					]
 				}
 			]
 		},
 		{
-			"name": "Demonic Boon of Yeenoghu",
+			"name": "Don démoniaque de Yeenoghu",
 			"source": "MTF",
 			"page": 31,
 			"reprintedAs": [
@@ -1282,40 +1282,40 @@
 					"uid": "Cult of Yeenoghu|MPMM"
 				}
 			],
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"ability": {
-				"entry": "Up to a +4 bonus to Strength and Dexterity, with an equal penalty to Intelligence and Charisma"
+				"entry": "Jusqu'à un bonus de +4 en Force et en Dextérité, avec une pénalité égale en Intelligence et en Charisme"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Tasha's hideous laughter} (1st level), {@spell crown of madness} (2nd level), {@spell fear} (3rd level)"
+				"entry": "{@spell Tasha's hideous laughter|Rire hideux de Tasha} (niveau 1), {@spell crown of madness|Couronne de folie} (niveau 2), {@spell fear|Peur} (niveau 3)"
 			},
 			"entries": [
-				"Yeenoghu's followers form packs of cannibalistic marauders. They grow more like {@creature gnoll||gnolls} in temperament with each passing day. His most devoted followers gain the Gnashing Jaws action option and the Rampage trait, while cult leaders gain the Aura of Bloodthirst trait.",
+				"Les adeptes de Yeenoghu forment des meutes de pillards cannibales. Ils ressemblent de plus en plus, en tempérament, à des {@creature gnoll||gnolls} au fil des jours. Ses partisans les plus dévoués obtiennent l'option d'action Mâchoires broyeuses et le trait Ravage, tandis que les chefs de culte obtiennent le trait Aura de soif de sang.",
 				{
 					"type": "entries",
-					"name": "Gnashing Jaws",
+					"name": "Mâchoires broyeuses",
 					"entries": [
-						"{@i Melee Weapon Attack}: bonus to hit equal to this creature's proficiency bonus plus its Strength modifier, reach 5 ft., one target. Hit: {@damage 1d4} + this creature's Strength modifier piercing damage."
+						"{@i Attaque d'arme au corps à corps} : bonus à l'attaque égal au bonus de maîtrise de cette créature plus son modificateur de Force, portée 1,50 m, une cible. Toucher : {@damage 1d4} dégâts perforants + le modificateur de Force de cette créature."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Rampage",
+					"name": "Ravage",
 					"entries": [
-						"When this creature reduces a creature to 0 hit points with a melee attack on its turn, it can take a bonus action to move up to half its speed and make its Gnashing Jaws attack once."
+						"Lorsque cette créature réduit une créature à 0 point de vie avec une attaque au corps à corps lors de son tour, elle peut utiliser une action bonus pour se déplacer jusqu'à la moitié de sa vitesse et effectuer une fois son attaque de Mâchoires broyeuses."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Aura of Bloodthirst",
+					"name": "Aura de soif de sang",
 					"entries": [
-						"If this creature isn't {@condition incapacitated}, any creature with the Rampage trait can make its Gnashing Jaws attack as a bonus action while within 10 feet of this creature."
+						"Si cette créature n'est pas {@condition Incapable}, toute créature dotée du trait Ravage peut effectuer son attaque de Mâchoires broyeuses par une action bonus tant qu'elle se trouve à 3 mètres de cette créature."
 					]
 				}
 			]
 		},
 		{
-			"name": "Demonic Boon of Zuggtmoy",
+			"name": "Don démoniaque de Zuggtmoy",
 			"source": "MTF",
 			"page": 31,
 			"reprintedAs": [
@@ -1324,20 +1324,20 @@
 					"uid": "Cult of Zuggtmoy|MPMM"
 				}
 			],
-			"type": "Demonic",
+			"type": "Démoniaque",
 			"ability": {
-				"entry": "Up to a +4 bonus to Constitution, with an equal penalty to Intelligence, Wisdom, and Charisma"
+				"entry": "Jusqu'à un bonus de +4 en Constitution, avec une pénalité égale en Intelligence, en Sagesse et en Charisme"
 			},
 			"signatureSpells": {
-				"entry": "{@spell Ray of sickness} (1st level), {@spell suggestion} (2nd level), {@spell plant growth} (3rd level)"
+				"entry": "{@spell Ray of sickness|Rayon nauséeux} (niveau 1), {@spell suggestion|Suggestion} (niveau 2), {@spell plant growth|Croissance végétale} (niveau 3)"
 			},
 			"entries": [
-				"Zuggtmoy's followers are primarily mindless victims of her children's strange spores. The spores burrow into a victim's brain, turning it into a fanatic servitor. Each victim gains the Spore Kissed trait.",
+				"Les adeptes de Zuggtmoy sont avant tout des victimes irrescient des étranges spores de ses enfants. Les spores se fraient un chemin dans le cerveau d'une victime, en faisant un serviteur fanatique. Chaque victime obtient le trait Baiser des spores.",
 				{
 					"type": "entries",
-					"name": "Spore Kissed",
+					"name": "Baiser des spores",
 					"entries": [
-						"This creature is immune to the {@condition charmed} and {@condition frightened} conditions. In addition, if it is reduced to 0 hit points, each creature within 10 feet of it takes poison damage equal to its number of Hit Dice."
+						"Cette créature est immunisée contre les états {@condition Charmé} et {@condition Effrayé}. En outre, si elle est réduite à 0 point de vie, chaque créature dans un rayon de 3 mètres d'elle subit des dégâts de poison égaux à son nombre de dés de vie."
 					]
 				}
 			]

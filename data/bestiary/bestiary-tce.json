@@ -72,7 +72,7 @@
 				{
 					"name": "Whispering Aura (Star Spawn Only)",
 					"entries": [
-						"At the start of each of the aberration's turns, each creature within 5 feet of the aberration must succeed on a Wisdom saving throw against your spell save DC or take {@damage 2d6} psychic damage, provided that the aberration isn't {@condition incapacitated}."
+						"At the start of each of the aberration's turns, each creature within 5 feet of the aberration must succeed on a Wisdom saving throw against your spell save DC or take {@damage 2d6} psychic damage, provided that the aberration isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -326,7 +326,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra {@damage 1d6} slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+						"If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra {@damage 1d6} slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked {@condition À terre}."
 					]
 				},
 				{
@@ -421,7 +421,7 @@
 				{
 					"name": "Binding Strike",
 					"entries": [
-						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + 2 + PB} piercing damage or {@damage 1d6 + 2 + PB} bludgeoning damage (your choice), and the target is {@condition grappled} (escape DC equal to your spellcasting save DC). Until this grapple ends, the beast can't use this attack on another target."
+						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + 2 + PB} piercing damage or {@damage 1d6 + 2 + PB} bludgeoning damage (your choice), and the target is {@condition Agrippé} (escape DC equal to your spellcasting save DC). Until this grapple ends, the beast can't use this attack on another target."
 					]
 				}
 			],
@@ -588,7 +588,7 @@
 				{
 					"name": "Pack Tactics (Land and Water Only)",
 					"entries": [
-						"The beast has advantage on an attack roll against a creature if at least one of the beast's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The beast has advantage on an attack roll against a creature if at least one of the beast's allies is within 5 feet of the creature and the ally isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -1109,7 +1109,7 @@
 				{
 					"name": "Irrepressible Dance",
 					"entries": [
-						"When any creature starts its turn within 10 feet of the item, the item can increase or decrease (your choice) the walking speed of that creature by 10 feet until the end of the turn, provided the item isn't {@condition incapacitated}."
+						"When any creature starts its turn within 10 feet of the item, the item can increase or decrease (your choice) the walking speed of that creature by 10 feet until the end of the turn, provided the item isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -1499,7 +1499,7 @@
 								{
 									"type": "item",
 									"name": "Mirthful",
-									"entry": "The fey can force one creature it can see within 10 feet of it to make a Wisdom saving throw against your spell save DC. Unless the save succeeds, the target is {@condition charmed} by you and the fey for 1 minute or until the target takes any damage."
+									"entry": "The fey can force one creature it can see within 10 feet of it to make a Wisdom saving throw against your spell save DC. Unless the save succeeds, the target is {@condition Charmé} by you and the fey for 1 minute or until the target takes any damage."
 								},
 								{
 									"type": "item",
@@ -1557,7 +1557,7 @@
 						{
 							"name": "Fey Step",
 							"entries": [
-								"The fey magically teleports up to 30 feet to an unoccupied space it can see. The fey can force one creature it can see within 10 feet of it to make a Wisdom saving throw against your spell save DC. Unless the save succeeds, the target is {@condition charmed} by you and the fey for 1 minute or until the target takes any damage."
+								"The fey magically teleports up to 30 feet to an unoccupied space it can see. The fey can force one creature it can see within 10 feet of it to make a Wisdom saving throw against your spell save DC. Unless the save succeeds, the target is {@condition Charmé} by you and the fey for 1 minute or until the target takes any damage."
 							]
 						}
 					]
@@ -1917,7 +1917,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's {@condition incapacitated}."
+						"If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's {@condition Incapable}."
 					]
 				}
 			],
@@ -2169,7 +2169,7 @@
 				{
 					"name": "Crushing Leap",
 					"entries": [
-						"If the servant jumps at least 25 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures is pushed to an unoccupied space within 5 feet of the servant and must make a {@dc 25} Dexterity saving throw. On a failed save, a creature takes 26 ({@damage 4d12}) bludgeoning damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}."
+						"If the servant jumps at least 25 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures is pushed to an unoccupied space within 5 feet of the servant and must make a {@dc 25} Dexterity saving throw. On a failed save, a creature takes 26 ({@damage 4d12}) bludgeoning damage and is knocked {@condition À terre}. On a successful save, a creature takes half as much damage and isn't knocked {@condition À terre}."
 					]
 				}
 			],
@@ -2285,7 +2285,7 @@
 				{
 					"name": "Terror Frenzy (Fury Only)",
 					"entries": [
-						"The spirit has advantage on attack rolls against {@condition frightened} creatures."
+						"The spirit has advantage on attack rolls against {@condition Effrayé} creatures."
 					]
 				},
 				{
@@ -2311,7 +2311,7 @@
 				{
 					"name": "Dreadful Scream (1/Day)",
 					"entries": [
-						"The spirit screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your spell save DC or be {@condition frightened} for 1 minute. The {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The spirit screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your spell save DC or be {@condition Effrayé} for 1 minute. The {@condition Effrayé} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -2319,7 +2319,7 @@
 				{
 					"name": "Shadow Stealth (Fear Only)",
 					"entries": [
-						"While in dim light or darkness, the spirit takes the {@action Hide} action."
+						"While in dim light or darkness, the spirit takes the {@action Se cacher} action."
 					]
 				}
 			],
@@ -2469,7 +2469,7 @@
 				{
 					"name": "Vigilant",
 					"entries": [
-						"The defender can't be {@status surprised}."
+						"The defender can't be {@status Surpris}."
 					]
 				}
 			],
@@ -2573,7 +2573,7 @@
 				{
 					"name": "Festering Aura (Putrid Only)",
 					"entries": [
-						"Any creature, other than you, that starts its turn within 5 feet of the spirit must succeed on a Constitution saving throw against your spell save DC or be {@condition poisoned} until the start of its next turn."
+						"Any creature, other than you, that starts its turn within 5 feet of the spirit must succeed on a Constitution saving throw against your spell save DC or be {@condition Empoisonné} until the start of its next turn."
 					]
 				}
 			],
@@ -2587,7 +2587,7 @@
 				{
 					"name": "Deathly Touch (Ghostly Only)",
 					"entries": [
-						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one creature. {@h}{@damage 1d8 + 3 + summonSpellLevel} necrotic damage, and the creature must succeed on a Wisdom saving throw against your spell save DC or be {@condition frightened} of the undead until the end of the target's next turn."
+						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one creature. {@h}{@damage 1d8 + 3 + summonSpellLevel} necrotic damage, and the creature must succeed on a Wisdom saving throw against your spell save DC or be {@condition Effrayé} of the undead until the end of the target's next turn."
 					]
 				},
 				{
@@ -2599,7 +2599,7 @@
 				{
 					"name": "Rotting Claw (Putrid Only)",
 					"entries": [
-						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + 3 + summonSpellLevel} slashing damage. If the target is {@condition poisoned}, it must succeed on a Constitution saving throw against your spell save DC or be {@condition paralyzed} until the end of its next turn."
+						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + 3 + summonSpellLevel} slashing damage. If the target is {@condition Empoisonné}, it must succeed on a Constitution saving throw against your spell save DC or be {@condition Paralysé} until the end of its next turn."
 					]
 				}
 			],

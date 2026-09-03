@@ -741,8 +741,8 @@
 								{
 									"type": "list",
 									"items": [
-										"For attacks with {@b melee weapons}, use your Strength modifier for attack and damage rolls. A weapon that has the finesse property, such as a {@item rapier|phb}, can use your Dexterity modifier instead.",
-										"For attacks with {@b ranged weapons}, use your Dexterity modifier for attack and damage rolls. A melee weapon that has the thrown property, such as a {@item handaxe|phb}, can use your Strength modifier instead."
+										"For attacks with {@b melee weapons}, use your Strength modifier for attack and damage rolls. A weapon that has the finesse property, such as a {@item Rapière|phb}, can use your Dexterity modifier instead.",
+										"For attacks with {@b ranged weapons}, use your Dexterity modifier for attack and damage rolls. A melee weapon that has the thrown property, such as a {@item Hache à une main|phb}, can use your Strength modifier instead."
 									]
 								}
 							],
@@ -1118,14 +1118,14 @@
 							"type": "list",
 							"columns": 3,
 							"items": [
-								"{@race Dragonborn}",
-								"{@race Dwarf}",
-								"{@race Elf}",
+								"{@race Drakéide}",
+								"{@race Nain}",
+								"{@race Elfe}",
 								"{@race Gnome}",
-								"{@race Half-Elf}",
-								"{@race Half-Orc}",
-								"{@race Halfling}",
-								"{@race Human}",
+								"{@race Half-elfe}",
+								"{@race Half-orc}",
+								"{@race Halfelin}",
+								"{@race Humain}",
 								"{@race Tiefling}"
 							]
 						},
@@ -1467,7 +1467,7 @@
 									],
 									"rows": [
 										[
-											"{@race Human}",
+											"{@race Humain}",
 											"4'8\"",
 											"+{@dice 2d10}",
 											"110 lb.",
@@ -1509,14 +1509,14 @@
 											"× ({@dice 1d6}) lb."
 										],
 										[
-											"{@race Halfling}",
+											"{@race Halfelin}",
 											"2'7\"",
 											"+{@dice 2d4}",
 											"35 lb.",
 											"× 1 lb"
 										],
 										[
-											"{@race Dragonborn}",
+											"{@race Drakéide}",
 											"5'6\"",
 											"+{@dice 2d8}",
 											"175 lb.",
@@ -1530,7 +1530,7 @@
 											"× 1 lb."
 										],
 										[
-											"{@race Half-elf}",
+											"{@race Half-elfe}",
 											"4'9\"",
 											"+{@dice 2d8}",
 											"110 lb.",
@@ -1955,7 +1955,7 @@
 							"name": "Tika and Artemis: Backgrounds",
 							"page": 125,
 							"entries": [
-								"Tika Waylan and Artemis Entreri both lived their earliest years as street urchins. Tika's later career as a barmaid didn't really change her, so she might choose the urchin background, gaining proficiency in the {@skill Sleight of Hand} and {@skill Stealth} skills, and learning the tools of the thieving trade. Artemis is more defined by his criminal background, giving him skills in {@skill Deception} and {@skill Stealth}, as well as proficiency with the tools of thievery and poison."
+								"Tika Waylan and Artemis Entreri both lived their earliest years as street urchins. Tika's later career as a barmaid didn't really change her, so she might choose the urchin background, gaining proficiency in the {@skill Escamotage} and {@skill Discrétion} skills, and learning the tools of the thieving trade. Artemis is more defined by his criminal background, giving him skills in {@skill Tromperie} and {@skill Discrétion}, as well as proficiency with the tools of thievery and poison."
 							],
 							"id": "05c"
 						},
@@ -2326,7 +2326,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item padded armor|phb|Padded}",
+										"{@item Armure rembourrée|phb|Padded}",
 										"5 gp",
 										"11 + Dex modifier",
 										"\u2014",
@@ -2338,7 +2338,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item leather armor|phb|Leather}",
+										"{@item Armure de cuir|phb|Leather}",
 										"10 gp",
 										"11 + Dex modifier",
 										"\u2014",
@@ -2350,7 +2350,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item studded leather armor|phb|Studded leather}",
+										"{@item Armure de cuir clouté|phb|Studded leather}",
 										"45 gp",
 										"12 + Dex modifier",
 										"\u2014",
@@ -2370,7 +2370,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item hide armor|phb|Hide}",
+										"{@item Armure de peau|phb|Hide}",
 										"10 gp",
 										"12 + Dex modifier (max 2)",
 										"\u2014",
@@ -2382,7 +2382,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Chain shirt|phb}",
+										"{@item Chemise de mailles|phb}",
 										"50 gp",
 										"13 + Dex modifier (max 2)",
 										"\u2014",
@@ -2394,7 +2394,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Scale mail|phb}",
+										"{@item Écailles|phb}",
 										"50 gp",
 										"14 + Dex modifier (max 2)",
 										"\u2014",
@@ -2406,7 +2406,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Breastplate|phb}",
+										"{@item Cuirasse|phb}",
 										"400 gp",
 										"14 + Dex modifier (max 2)",
 										"\u2014",
@@ -2418,7 +2418,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item half plate armor|phb|Half plate}",
+										"{@item Demi-plate|phb|Half plate}",
 										"750 gp",
 										"15 + Dex modifier (max 2)",
 										"\u2014",
@@ -2438,7 +2438,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Ring mail|phb}",
+										"{@item Anneaux|phb}",
 										"30 gp",
 										"14",
 										"\u2014",
@@ -2450,7 +2450,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Chain mail|phb}",
+										"{@item Cotte de mailles|phb}",
 										"75 gp",
 										"16",
 										"Str 13",
@@ -2462,7 +2462,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item splint armor|phb|Splint}",
+										"{@item Armure de plaques à bandes|phb|Splint}",
 										"200 gp",
 										"17",
 										"Str 15",
@@ -2474,7 +2474,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item plate armor|phb|Plate}",
+										"{@item Harnois de plaques|phb|Plate}",
 										"1,500 gp",
 										"18",
 										"Str 15",
@@ -2494,7 +2494,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Shield|phb}",
+										"{@item Bouclier|phb}",
 										"10 gp",
 										"+2",
 										"\u2014",
@@ -2559,7 +2559,7 @@
 											"name": "Stealth",
 											"page": 144,
 											"entries": [
-												"If the Armor table shows \"Disadvantage\" in the Stealth column, the wearer has disadvantage on Dexterity ({@skill Stealth}) checks."
+												"If the Armor table shows \"Disadvantage\" in the Stealth column, the wearer has disadvantage on Dexterity ({@skill Discrétion}) checks."
 											],
 											"id": "06d"
 										},
@@ -2864,7 +2864,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Club|phb}",
+										"{@item Gourdin|phb}",
 										"1 sp",
 										"1d4 bludgeoning",
 										"2 lb.",
@@ -2875,7 +2875,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Dagger|phb}",
+										"{@item Dague|phb}",
 										"2 gp",
 										"1d4 piercing",
 										"1 lb.",
@@ -2886,7 +2886,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Greatclub|phb}",
+										"{@item Gourdin géant|phb}",
 										"2 sp",
 										"1d8 bludgeoning",
 										"10 lb.",
@@ -2897,7 +2897,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Handaxe|phb}",
+										"{@item Hache à une main|phb}",
 										"5 gp",
 										"1d6 slashing",
 										"2 lb.",
@@ -2908,7 +2908,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Javelin|phb}",
+										"{@item Javelot|phb}",
 										"5 sp",
 										"1d6 piercing",
 										"2 lb.",
@@ -2919,7 +2919,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Light hammer|phb}",
+										"{@item Marteau léger|phb}",
 										"2 gp",
 										"1d4 bludgeoning",
 										"2 lb.",
@@ -2930,7 +2930,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Mace|phb}",
+										"{@item Masse d'armes|phb}",
 										"5 gp",
 										"1d6 bludgeoning",
 										"4 lb.",
@@ -2941,7 +2941,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Quarterstaff|phb}",
+										"{@item Bâton|phb}",
 										"2 sp",
 										"1d6 bludgeoning",
 										"4 lb.",
@@ -2952,7 +2952,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Sickle|phb}",
+										"{@item Faucille|phb}",
 										"1 gp",
 										"1d4 slashing",
 										"2 lb.",
@@ -2963,7 +2963,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Spear|phb}",
+										"{@item Lance|phb}",
 										"1 gp",
 										"1d6 piercing",
 										"3 lb.",
@@ -2981,7 +2981,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item light crossbow|phb|Crossbow, light}",
+										"{@item Arbalète légère|phb|Crossbow, light}",
 										"25 gp",
 										"1d8 piercing",
 										"5 lb.",
@@ -2992,7 +2992,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Dart|phb}",
+										"{@item Fléchette|phb}",
 										"5 cp",
 										"1d4 piercing",
 										"1/4 lb.",
@@ -3003,7 +3003,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Shortbow|phb}",
+										"{@item Arc court|phb}",
 										"25 gp",
 										"1d6 piercing",
 										"2 lb.",
@@ -3014,7 +3014,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Sling|phb}",
+										"{@item Fronde|phb}",
 										"1 sp",
 										"1d4 bludgeoning",
 										"\u2014",
@@ -3032,7 +3032,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Battleaxe|phb}",
+										"{@item Hache d'armes|phb}",
 										"10 gp",
 										"1d8 slashing",
 										"4 lb.",
@@ -3043,7 +3043,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Flail|phb}",
+										"{@item Fléau d'armes|phb}",
 										"10 gp",
 										"1d8 bludgeoning",
 										"2 lb.",
@@ -3065,7 +3065,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Greataxe|phb}",
+										"{@item Grande hache|phb}",
 										"30 gp",
 										"1d12 slashing",
 										"7 lb.",
@@ -3076,7 +3076,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Greatsword|phb}",
+										"{@item Épée à deux mains|phb}",
 										"50 gp",
 										"2d6 slashing",
 										"6 lb.",
@@ -3087,7 +3087,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Halberd|phb}",
+										"{@item Hallebarde|phb}",
 										"20 gp",
 										"1d10 slashing",
 										"6 lb.",
@@ -3109,7 +3109,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Longsword|phb}",
+										"{@item Épée longue|phb}",
 										"15 gp",
 										"1d8 slashing",
 										"3 lb.",
@@ -3120,7 +3120,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Maul|phb}",
+										"{@item Masse à deux mains|phb}",
 										"10 gp",
 										"2d6 bludgeoning",
 										"10 lb.",
@@ -3142,7 +3142,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Pike|phb}",
+										"{@item Pique|phb}",
 										"5 gp",
 										"1d10 piercing",
 										"18 lb.",
@@ -3153,7 +3153,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Rapier|phb}",
+										"{@item Rapière|phb}",
 										"25 gp",
 										"1d8 piercing",
 										"2 lb.",
@@ -3164,7 +3164,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Scimitar|phb}",
+										"{@item Cimeterre|phb}",
 										"25 gp",
 										"1d6 slashing",
 										"3 lb.",
@@ -3175,7 +3175,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Shortsword|phb}",
+										"{@item Épée courte|phb}",
 										"10 gp",
 										"1d6 piercing",
 										"2 lb.",
@@ -3197,7 +3197,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item War pick|phb}",
+										"{@item Pic de guerre|phb}",
 										"5 gp",
 										"1d8 piercing",
 										"2 lb.",
@@ -3208,7 +3208,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Warhammer|phb}",
+										"{@item Marteau de guerre|phb}",
 										"15 gp",
 										"1d8 bludgeoning",
 										"2 lb.",
@@ -3219,7 +3219,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Whip|phb}",
+										"{@item Fouet|phb}",
 										"2 gp",
 										"1d4 slashing",
 										"3 lb.",
@@ -3237,7 +3237,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Blowgun|phb}",
+										"{@item Sarbacane|phb}",
 										"10 gp",
 										"1 piercing",
 										"1 lb.",
@@ -3248,7 +3248,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item hand crossbow|phb|Crossbow, hand}",
+										"{@item Arbalète de poing|phb|Crossbow, hand}",
 										"75 gp",
 										"1d6 piercing",
 										"3 lb.",
@@ -3259,7 +3259,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item heavy crossbow|phb|Crossbow, heavy}",
+										"{@item Arbalète lourde|phb|Crossbow, heavy}",
 										"50 gp",
 										"1d10 piercing",
 										"18 lb.",
@@ -3270,7 +3270,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Longbow|phb}",
+										"{@item Arc long|phb}",
 										"50 gp",
 										"1d8 piercing",
 										"2 lb.",
@@ -3281,7 +3281,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Net|phb}",
+										"{@item Filet|phb}",
 										"1 gp",
 										"\u2014",
 										"3 lb.",
@@ -3500,7 +3500,7 @@
 											"name": "Net",
 											"page": 148,
 											"entries": [
-												"A Large or smaller creature hit by a net is {@condition restrained} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a {@dc 10} Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+												"A Large or smaller creature hit by a net is {@condition Entravé} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a {@dc 10} Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
 											],
 											"id": "099"
 										},
@@ -3548,17 +3548,17 @@
 							],
 							"rows": [
 								[
-									"{@item Abacus|PHB}",
+									"{@item Boulier|PHB}",
 									"2 gp",
 									"2 lb."
 								],
 								[
-									"{@item Acid (vial)|PHB}",
+									"{@item Acide (fiole)|PHB}",
 									"25 gp",
 									"1 lb."
 								],
 								[
-									"{@item Alchemist's fire (flask)|PHB}",
+									"{@item Feu grégeois (flasque)|PHB}",
 									"50 gp",
 									"1 lb."
 								],
@@ -3571,7 +3571,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Arrows (20)|PHB}",
+										"{@item Flèches (20)|PHB}",
 										"1 gp",
 										"1 lb."
 									]
@@ -3580,7 +3580,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Blowgun needles (50)|PHB}",
+										"{@item Aiguilles de sarbacane (50)|PHB}",
 										"1 gp",
 										"1 lb."
 									]
@@ -3589,7 +3589,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Crossbow bolts (20)|PHB}",
+										"{@item Carreaux d'arbalète (20)|PHB}",
 										"1 gp",
 										"1½ lb."
 									]
@@ -3598,13 +3598,13 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Sling bullets (20)|PHB}",
+										"{@item Balles de fronde (20)|PHB}",
 										"4 cp",
 										"1½ lb."
 									]
 								},
 								[
-									"{@item Antitoxin (vial)|PHB}",
+									"{@item Antidote (fiole)|PHB}",
 									"50 gp",
 									"\u2014"
 								],
@@ -3617,7 +3617,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Crystal|PHB}",
+										"{@item Cristal|PHB}",
 										"10 gp",
 										"1 lb."
 									]
@@ -3626,7 +3626,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Orb|PHB}",
+										"{@item Orbe|PHB}",
 										"20 gp",
 										"3 lb."
 									]
@@ -3635,7 +3635,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Rod|PHB}",
+										"{@item Sceptre|PHB}",
 										"10 gp",
 										"2 lb."
 									]
@@ -3644,7 +3644,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Staff|PHB}",
+										"{@item Bâton|PHB}",
 										"5 gp",
 										"4 lb."
 									]
@@ -3653,128 +3653,128 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Wand|PHB}",
+										"{@item Baguette|PHB}",
 										"10 gp",
 										"1 lb."
 									]
 								},
 								[
-									"{@item Backpack|PHB}",
+									"{@item Sac à dos|PHB}",
 									"2 gp",
 									"5 lb."
 								],
 								[
-									"{@item Ball bearings (bag of 1,000)|PHB}",
+									"{@item Billes (sac de 1000)|PHB}",
 									"1 gp",
 									"2 lb."
 								],
 								[
-									"{@item Barrel|PHB}",
+									"{@item Tonneau|PHB}",
 									"2 gp",
 									"70 lb."
 								],
 								[
-									"{@item Basket|PHB}",
+									"{@item Panier|PHB}",
 									"4 sp",
 									"2 lb."
 								],
 								[
-									"{@item Bedroll|PHB}",
+									"{@item Sac de couchage|PHB}",
 									"1 gp",
 									"7 lb."
 								],
 								[
-									"{@item Bell|PHB}",
+									"{@item Cloche|PHB}",
 									"1 gp",
 									"\u2014"
 								],
 								[
-									"{@item Blanket|PHB}",
+									"{@item Couverture|PHB}",
 									"5 sp",
 									"3 lb."
 								],
 								[
-									"{@item Block and tackle|PHB}",
+									"{@item Palan|PHB}",
 									"1 gp",
 									"5 lb."
 								],
 								[
-									"{@item Book|PHB}",
+									"{@item Livre|PHB}",
 									"25 gp",
 									"5 lb."
 								],
 								[
-									"{@item glass bottle|PHB|Bottle, glass}",
+									"{@item Bouteille en verre|PHB|Bottle, glass}",
 									"2 gp",
 									"2 lb."
 								],
 								[
-									"{@item Bucket|PHB}",
+									"{@item Seau|PHB}",
 									"5 cp",
 									"2 lb."
 								],
 								[
-									"{@item Caltrops (bag of 20)|PHB}",
+									"{@item Chausse-trappes (sac de 20)|PHB}",
 									"1 gp",
 									"2 lb."
 								],
 								[
-									"{@item Candle|PHB}",
+									"{@item Bougie|PHB}",
 									"1 cp",
 									"\u2014"
 								],
 								[
-									"{@item crossbow bolt case|PHB|Case, crossbow bolt}",
+									"{@item Étui à carreaux|PHB|Case, crossbow bolt}",
 									"1 gp",
 									"1 lb."
 								],
 								[
-									"{@item map or scroll case|PHB|Case, map or scroll}",
+									"{@item Étui à cartes ou à parchemins|PHB|Case, map or scroll}",
 									"1 gp",
 									"1 lb."
 								],
 								[
-									"{@item Chain (10 feet)|PHB}",
+									"{@item Chaîne (3 m)|PHB}",
 									"5 gp",
 									"10 lb."
 								],
 								[
-									"{@item Chalk (1 piece)|PHB}",
+									"{@item Craie (un morceau)|PHB}",
 									"1 cp",
 									"\u2014"
 								],
 								[
-									"{@item Chest|PHB}",
+									"{@item Coffre|PHB}",
 									"5 gp",
 									"25 lb."
 								],
 								[
-									"{@item common clothes|PHB|Clothes, common}",
+									"{@item Vêtements, communs|PHB|Clothes, common}",
 									"5 sp",
 									"3 lb."
 								],
 								[
-									"{@item costume clothes|PHB|Clothes, costume}",
+									"{@item Vêtements, costume|PHB|Clothes, costume}",
 									"5 gp",
 									"4 lb."
 								],
 								[
-									"{@item fine clothes|PHB|Clothes, fine}",
+									"{@item Vêtements fins|PHB|Clothes, fine}",
 									"15 gp",
 									"6 lb."
 								],
 								[
-									"{@item traveler's clothes|PHB|Clothes, traveler's}",
+									"{@item Vêtements de voyage|PHB|Clothes, traveler's}",
 									"2 gp",
 									"4 lb."
 								],
 								[
-									"{@item Component pouch|PHB}",
+									"{@item Sacoche à composantes|PHB}",
 									"25 gp",
 									"2 lb."
 								],
 								[
-									"{@item Crowbar|PHB}",
+									"{@item Pied-de-biche|PHB}",
 									"2 gp",
 									"5 lb."
 								],
@@ -3787,7 +3787,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Sprig of mistletoe|PHB}",
+										"{@item Brin de gui|PHB}",
 										"1 gp",
 										"\u2014"
 									]
@@ -3805,7 +3805,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Wooden staff|PHB}",
+										"{@item Bâton en bois|PHB}",
 										"5 gp",
 										"4 lb."
 									]
@@ -3814,38 +3814,38 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Yew wand|PHB}",
+										"{@item Baguette d'if|PHB}",
 										"10 gp",
 										"1 lb."
 									]
 								},
 								[
-									"{@item Fishing tackle|PHB}",
+									"{@item Équipement de pêche|PHB}",
 									"1 gp",
 									"4 lb."
 								],
 								[
-									"{@item Flask|PHB} or {@item tankard|PHB}",
+									"{@item Fiole|PHB} or {@item Chope|PHB}",
 									"2 cp",
 									"1 lb."
 								],
 								[
-									"{@item Grappling hook|PHB}",
+									"{@item Grappin|PHB}",
 									"2 gp",
 									"4 lb."
 								],
 								[
-									"{@item Hammer|PHB}",
+									"{@item Marteau|PHB}",
 									"1 gp",
 									"3 lb."
 								],
 								[
-									"{@item sledgehammer|PHB|Hammer, sledge}",
+									"{@item Masse d'armes à deux mains|PHB|Hammer, sledge}",
 									"2 gp",
 									"10 lb."
 								],
 								[
-									"{@item Healer's Kit|PHB}",
+									"{@item Trousse de soins|PHB}",
 									"5 gp",
 									"3 lb."
 								],
@@ -3858,7 +3858,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Amulet|PHB}",
+										"{@item Amulette|PHB}",
 										"5 gp",
 										"1 lb."
 									]
@@ -3867,7 +3867,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Emblem|PHB}",
+										"{@item Emblème|PHB}",
 										"5 gp",
 										"\u2014"
 									]
@@ -3876,138 +3876,138 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Reliquary|PHB}",
+										"{@item Reliquaire|PHB}",
 										"5 gp",
 										"2 lb."
 									]
 								},
 								[
-									"{@item Holy water (flask)|PHB}",
+									"{@item Eau bénite (fiole)|PHB}",
 									"25 gp",
 									"1 lb."
 								],
 								[
-									"{@item Hourglass|PHB}",
+									"{@item Sablier|PHB}",
 									"25 gp",
 									"1 lb."
 								],
 								[
-									"{@item Hunting trap|PHB}",
+									"{@item Piège de chasse|PHB}",
 									"5 gp",
 									"25 lb."
 								],
 								[
-									"{@item Ink (1-ounce bottle)|PHB}",
+									"{@item Encre (fiole de 30 grammes)|PHB}",
 									"10 gp",
 									"\u2014"
 								],
 								[
-									"{@item Ink pen|PHB}",
+									"{@item Plume|PHB}",
 									"2 cp",
 									"\u2014"
 								],
 								[
-									"{@item Jug|PHB} or {@item pitcher|PHB}",
+									"{@item Broc|PHB} or {@item Carafe|PHB}",
 									"2 cp",
 									"4 lb."
 								],
 								[
-									"{@item climber's kit|PHB|Kit, climber's}",
+									"{@item Kit d'escalade|PHB|Kit, climber's}",
 									"25 gp",
 									"12 lb."
 								],
 								[
-									"{@item disguise kit|PHB|Kit, disguise}",
+									"{@item Kit de déguisement|PHB|Kit, disguise}",
 									"25 gp",
 									"3 lb."
 								],
 								[
-									"{@item forgery kit|PHB|Kit, forgery}",
+									"{@item Trousse de faussaire|PHB|Kit, forgery}",
 									"15 gp",
 									"5 lb."
 								],
 								[
-									"{@item herbalism kit|PHB|Kit, herbalism}",
+									"{@item Trousse d'herboriste|PHB|Kit, herbalism}",
 									"5 gp",
 									"3 lb."
 								],
 								[
-									"{@item healer's kit|PHB|Kit, healer's}",
+									"{@item Trousse de soins|PHB|Kit, healer's}",
 									"5 gp",
 									"3 lb."
 								],
 								[
-									"{@item mess kit|PHB|Kit, mess}",
+									"{@item Kit de campagne|PHB|Kit, mess}",
 									"2 sp",
 									"1 lb."
 								],
 								[
-									"{@item poisoner's kit|PHB|Kit, poisoner's}",
+									"{@item Kit d'empoisonneur|PHB|Kit, poisoner's}",
 									"50 gp",
 									"2 lb."
 								],
 								[
-									"{@item Ladder (10-foot)|PHB}",
+									"{@item Échelle (3 mètres)|PHB}",
 									"1 sp",
 									"25 lb."
 								],
 								[
-									"{@item Lamp|PHB}",
+									"{@item Lampe|PHB}",
 									"5 sp",
 									"1 lb."
 								],
 								[
-									"{@item bullseye lantern|PHB|Lantern, bullseye}",
+									"{@item Lanterne sourde|PHB|Lantern, bullseye}",
 									"10 gp",
 									"2 lb."
 								],
 								[
-									"{@item hooded lantern|PHB|Lantern, hooded}",
+									"{@item Lanterne à capuchon|PHB|Lantern, hooded}",
 									"5 gp",
 									"2 lb."
 								],
 								[
-									"{@item Lock|PHB}",
+									"{@item Serrure|PHB}",
 									"10 gp",
 									"1 lb."
 								],
 								[
-									"{@item Magnifying glass|PHB}",
+									"{@item Loupe|PHB}",
 									"100 gp",
 									"\u2014"
 								],
 								[
-									"{@item Manacles|PHB}",
+									"{@item Menottes|PHB}",
 									"2 gp",
 									"6 lb."
 								],
 								[
-									"{@item steel mirror|PHB|Mirror, steel}",
+									"{@item Miroir d'acier|PHB|Mirror, steel}",
 									"5 gp",
 									"1/2 lb."
 								],
 								[
-									"{@item Oil (flask)|PHB}",
+									"{@item Huile (fiole)|PHB}",
 									"1 sp",
 									"1 lb."
 								],
 								[
-									"{@item Paper (one sheet)|PHB}",
+									"{@item Papier (une feuille)|PHB}",
 									"2 sp",
 									"\u2014"
 								],
 								[
-									"{@item Parchment (one sheet)|PHB}",
+									"{@item Parchemin (une feuille)|PHB}",
 									"1 sp",
 									"\u2014"
 								],
 								[
-									"{@item Perfume (vial)|PHB}",
+									"{@item Parfum (fiole)|PHB}",
 									"5 gp",
 									"\u2014"
 								],
 								[
-									"{@item miner's pick|PHB|Pick, miner's}",
+									"{@item Pioche de mineur|PHB|Pick, miner's}",
 									"2 gp",
 									"10 lb."
 								],
@@ -4017,42 +4017,42 @@
 									"1/4 lb."
 								],
 								[
-									"{@item basic poison (vial)|PHB|Poison, basic (vial)}",
+									"{@item Poison de base (fiole)|PHB|Poison, basic (vial)}",
 									"100 gp",
 									"\u2014"
 								],
 								[
-									"{@item Pole (10-foot)|PHB}",
+									"{@item Perche (3 mètres)|PHB}",
 									"5 cp",
 									"7 lb."
 								],
 								[
-									"{@item iron pot|PHB|Pot, iron}",
+									"{@item Chaudron de fer|PHB|Pot, iron}",
 									"2 gp",
 									"10 lb."
 								],
 								[
-									"{@item Potion of healing|DMG}",
+									"{@item Potion de soins|DMG}",
 									"50 gp",
 									"1/2 lb."
 								],
 								[
-									"{@item Pouch|PHB}",
+									"{@item Bourse|PHB}",
 									"5 sp",
 									"1 lb."
 								],
 								[
-									"{@item Quiver|PHB}",
+									"{@item Carquois|PHB}",
 									"1 gp",
 									"1 lb."
 								],
 								[
-									"{@item portable ram|PHB|Ram, portable}",
+									"{@item Bélier portatif|PHB|Ram, portable}",
 									"4 gp",
 									"35 lb."
 								],
 								[
-									"{@item Rations (1 day)|PHB}",
+									"{@item Rations (1 jour)|PHB}",
 									"5 sp",
 									"2 lb."
 								],
@@ -4062,92 +4062,92 @@
 									"4 lb."
 								],
 								[
-									"{@item hempen rope (50 feet)|PHB|Rope, hempen (50 feet)}",
+									"{@item Corde de chanvre (15 mètres)|PHB|Rope, hempen (50 feet)}",
 									"1 gp",
 									"10 lb."
 								],
 								[
-									"{@item silk rope (50 feet)|PHB|Rope, silk (50 feet)}",
+									"{@item Corde de soie (15 mètres)|PHB|Rope, silk (50 feet)}",
 									"10 gp",
 									"5 lb."
 								],
 								[
-									"{@item Sack|PHB}",
+									"{@item Sac|PHB}",
 									"1 cp",
 									"1/2 lb."
 								],
 								[
-									"{@item merchant's scale|PHB|Scale, merchant's}",
+									"{@item Balance de marchand|PHB|Scale, merchant's}",
 									"5 gp",
 									"3 lb."
 								],
 								[
-									"{@item Sealing wax|PHB}",
+									"{@item Cire à sceller|PHB}",
 									"5 sp",
 									"\u2014"
 								],
 								[
-									"{@item Shovel|PHB}",
+									"{@item Pelle|PHB}",
 									"2 gp",
 									"5 lb."
 								],
 								[
-									"{@item Signal whistle|PHB}",
+									"{@item Sifflet de signal|PHB}",
 									"5 cp",
 									"\u2014"
 								],
 								[
-									"{@item Signet ring|PHB}",
+									"{@item Chevalière à cachet|PHB}",
 									"5 gp",
 									"\u2014"
 								],
 								[
-									"{@item Soap|PHB}",
+									"{@item Savon|PHB}",
 									"2 cp",
 									"\u2014"
 								],
 								[
-									"{@item Spellbook|PHB}",
+									"{@item Livre de sorts|PHB}",
 									"50 gp",
 									"3 lb."
 								],
 								[
-									"{@item iron spikes (10)|PHB|Spikes, iron (10)}",
+									"{@item Pointes de fer (10)|PHB|Spikes, iron (10)}",
 									"1 gp",
 									"5 lb."
 								],
 								[
-									"{@item Spyglass|PHB}",
+									"{@item Longue-vue|PHB}",
 									"1,000 gp",
 									"1 lb."
 								],
 								[
-									"{@item two-person tent|PHB|Tent, two-person}",
+									"{@item Tente pour deux personnes|PHB|Tent, two-person}",
 									"2 gp",
 									"20 lb."
 								],
 								[
-									"{@item Tinderbox|PHB}",
+									"{@item Boîte d'amadou|PHB}",
 									"5 sp",
 									"1 lb."
 								],
 								[
-									"{@item Torch|PHB}",
+									"{@item Torche|PHB}",
 									"1 cp",
 									"1 lb."
 								],
 								[
-									"{@item Vial|PHB}",
+									"{@item Fiole|PHB}",
 									"1 gp",
 									"\u2014"
 								],
 								[
-									"{@item Waterskin|PHB}",
+									"{@item Outre|PHB}",
 									"2 sp",
 									"5 lb. (full)"
 								],
 								[
-									"{@item Whetstone|PHB}",
+									"{@item Pierre à aiguiser|PHB}",
 									"1 cp",
 									"1 lb."
 								]
@@ -4207,7 +4207,7 @@
 											"name": "Ball Bearings",
 											"page": 151,
 											"entries": [
-												"As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a {@dc 10} Dexterity saving throw or fall {@condition prone}. A creature moving through the area at half speed doesn't need to make this save."
+												"As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a {@dc 10} Dexterity saving throw or fall {@condition À terre}. A creature moving through the area at half speed doesn't need to make this save."
 											],
 											"id": "0a1"
 										},
@@ -4324,7 +4324,7 @@
 											"name": "Healer's Kit",
 											"page": 151,
 											"entries": [
-												"This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom ({@skill Medicine}) check."
+												"This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom ({@skill Médecine}) check."
 											],
 											"id": "0ae"
 										},
@@ -4397,7 +4397,7 @@
 											"name": "Lock",
 											"page": 152,
 											"entries": [
-												"A key is provided with the lock. Without the key, a creature proficient with {@item thieves' tools|phb} can pick this lock with a successful {@dc 15} Dexterity check. Your DM may decide that better locks are available for higher prices."
+												"A key is provided with the lock. Without the key, a creature proficient with {@item Outils de crocheteur|phb} can pick this lock with a successful {@dc 15} Dexterity check. Your DM may decide that better locks are available for higher prices."
 											],
 											"id": "0b5"
 										},
@@ -4415,7 +4415,7 @@
 											"name": "Manacles",
 											"page": 152,
 											"entries": [
-												"These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful {@dc 20} Dexterity check. Breaking them requires a successful {@dc 20} Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with {@item thieves' tools|phb} can pick the manacles' lock with a successful {@dc 15} Dexterity check. Manacles have 15 hit points."
+												"These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful {@dc 20} Dexterity check. Breaking them requires a successful {@dc 20} Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with {@item Outils de crocheteur|phb} can pick the manacles' lock with a successful {@dc 15} Dexterity check. Manacles have 15 hit points."
 											],
 											"id": "0b7"
 										},
@@ -4593,55 +4593,55 @@
 							],
 							"rows": [
 								[
-									"{@item Backpack|phb}*",
+									"{@item Sac à dos|phb}*",
 									"1 cubic foot/30 pounds of gear"
 								],
 								[
-									"{@item Barrel|phb}",
+									"{@item Tonneau|phb}",
 									"40 gallons liquid, 4 cubic feet solid"
 								],
 								[
-									"{@item Basket|phb}",
+									"{@item Panier|phb}",
 									"2 cubic feet/40 pounds of gear"
 								],
 								[
-									"{@item Glass Bottle|phb|Bottle}",
+									"{@item Bouteille en verre|phb|Bottle}",
 									"1½ pints liquid"
 								],
 								[
-									"{@item Bucket|phb}",
+									"{@item Seau|phb}",
 									"3 gallons liquid, 1/2 cubic foot solid"
 								],
 								[
-									"{@item Chest|phb}",
+									"{@item Coffre|phb}",
 									"12 cubic feet/300 pounds of gear"
 								],
 								[
-									"{@item Flask|phb} or {@item tankard|phb}",
+									"{@item Fiole|phb} or {@item Chope|phb}",
 									"1 pint liquid"
 								],
 								[
-									"{@item Jug|phb} or {@item pitcher|phb}",
+									"{@item Broc|phb} or {@item Carafe|phb}",
 									"1 gallon liquid"
 								],
 								[
-									"{@item Iron Pot|phb|Pot, iron}",
+									"{@item Chaudron de fer|phb|Pot, iron}",
 									"1 gallon liquid"
 								],
 								[
-									"{@item Pouch|phb}",
+									"{@item Bourse|phb}",
 									"1/5 cubic foot/6 pounds of gear"
 								],
 								[
-									"{@item Sack|phb}",
+									"{@item Sac|phb}",
 									"1 cubic foot/30 pounds of gear"
 								],
 								[
-									"{@item Vial|phb}",
+									"{@item Fiole|phb}",
 									"4 ounces liquid"
 								],
 								[
-									"{@item Waterskin|phb}",
+									"{@item Outre|phb}",
 									"4 pints liquid"
 								]
 							],
@@ -4801,7 +4801,7 @@
 											"name": "Navigator's Tools",
 											"page": 154,
 											"entries": [
-												"This set of instruments is used for navigation at sea. Proficiency with {@item navigator's tools|phb} lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea."
+												"This set of instruments is used for navigation at sea. Proficiency with {@item Outils de navigateur|phb} lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea."
 											],
 											"id": "0d9"
 										},
@@ -4810,7 +4810,7 @@
 											"name": "Poisoner's Kit",
 											"page": 154,
 											"entries": [
-												"A {@item poisoner's kit|phb} includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."
+												"A {@item Kit d'empoisonneur|phb} includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."
 											],
 											"id": "0da"
 										},
@@ -4860,7 +4860,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Alchemist's supplies|phb}",
+										"{@item Fournitures d'alchimiste|phb}",
 										"50 gp",
 										"8 lb."
 									]
@@ -4869,7 +4869,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Brewer's supplies|phb}",
+										"{@item Fournitures de brasseur|phb}",
 										"20 gp",
 										"9 lb."
 									]
@@ -4878,7 +4878,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Calligrapher's supplies|phb}",
+										"{@item Fournitures de calligraphe|phb}",
 										"10 gp",
 										"5 lb."
 									]
@@ -4887,7 +4887,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Carpenter's tools|phb}",
+										"{@item Outils de menuisier|phb}",
 										"8 gp",
 										"6 lb."
 									]
@@ -4896,7 +4896,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Cartographer's tools|phb}",
+										"{@item Outils de cartographe|phb}",
 										"15 gp.",
 										"6 lb."
 									]
@@ -4905,7 +4905,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Cobbler's tools|phb}",
+										"{@item Outils de cordonnier|phb}",
 										"5 gp",
 										"5 lb."
 									]
@@ -4914,7 +4914,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Cook's utensils|phb}",
+										"{@item Ustensiles de cuisine|phb}",
 										"1 gp",
 										"8 lb."
 									]
@@ -4923,7 +4923,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Glassblower's tools|phb}",
+										"{@item Outils de souffleur de verre|phb}",
 										"30 gp",
 										"5 lb."
 									]
@@ -4932,7 +4932,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Jeweler's tools|phb}",
+										"{@item Outils de joaillier|phb}",
 										"25 gp",
 										"2 lb."
 									]
@@ -4941,7 +4941,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Leatherworker's tools|phb}",
+										"{@item Outils de travailleur du cuir|phb}",
 										"5 gp",
 										"5 lb."
 									]
@@ -4950,7 +4950,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Mason's tools|phb}",
+										"{@item Outils de maçon|phb}",
 										"10 gp",
 										"8 lb."
 									]
@@ -4959,7 +4959,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Painter's supplies|phb}",
+										"{@item Fournitures de peintre|phb}",
 										"10 gp",
 										"5 lb."
 									]
@@ -4968,7 +4968,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Potter's tools|phb}",
+										"{@item Outils de potier|phb}",
 										"10 gp",
 										"3 lb."
 									]
@@ -4977,7 +4977,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Smith's tools|phb}",
+										"{@item Outils de forgeron|phb}",
 										"20 gp",
 										"8 lb."
 									]
@@ -4986,7 +4986,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Tinker's tools|phb}",
+										"{@item Outils de rétameur|phb}",
 										"50 gp",
 										"10 lb."
 									]
@@ -4995,7 +4995,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Weaver's tools|phb}",
+										"{@item Outils de tisserand|phb}",
 										"1 gp",
 										"5 lb."
 									]
@@ -5004,18 +5004,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Woodcarver's tools|phb}",
+										"{@item Outils de sculpteur|phb}",
 										"1 gp",
 										"5 lb."
 									]
 								},
 								[
-									"{@item Disguise Kit|phb}",
+									"{@item Kit de déguisement|phb}",
 									"25 gp",
 									"3 lb."
 								],
 								[
-									"{@item Forgery kit|phb}",
+									"{@item Trousse de faussaire|phb}",
 									"15 gp",
 									"5 lb."
 								],
@@ -5028,7 +5028,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Dice set|phb}",
+										"{@item Jeu de dés|phb}",
 										"1 sp",
 										"\u2014"
 									]
@@ -5037,7 +5037,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Dragonchess set|phb}",
+										"{@item Jeu d'échecs du dragon|phb}",
 										"1 gp",
 										"1/2 lb."
 									]
@@ -5046,7 +5046,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Playing card set|phb}",
+										"{@item Jeu de cartes|phb}",
 										"5 sp",
 										"\u2014"
 									]
@@ -5055,13 +5055,13 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Three-Dragon Ante set|phb}",
+										"{@item Jeu du Dragon à trois têtes|phb}",
 										"1 gp",
 										"\u2014"
 									]
 								},
 								[
-									"{@item Herbalism kit|phb}",
+									"{@item Trousse d'herboriste|phb}",
 									"5 gp",
 									"3 lb."
 								],
@@ -5074,7 +5074,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Bagpipes|phb}",
+										"{@item Cornemuse|phb}",
 										"30 gp",
 										"6 lb."
 									]
@@ -5083,7 +5083,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Drum|phb}",
+										"{@item Tambour|phb}",
 										"6 gp",
 										"3 lb."
 									]
@@ -5092,7 +5092,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Dulcimer|phb}",
+										"{@item Tympanon|phb}",
 										"25 gp",
 										"10 lb."
 									]
@@ -5101,7 +5101,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Flute|phb}",
+										"{@item Flûte|phb}",
 										"2 gp",
 										"1 lb."
 									]
@@ -5110,7 +5110,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Lute|phb}",
+										"{@item Luth|phb}",
 										"35 gp",
 										"2 lb."
 									]
@@ -5128,7 +5128,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Horn|phb}",
+										"{@item Cor|phb}",
 										"3 gp",
 										"2 lb."
 									]
@@ -5137,7 +5137,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Pan flute|phb}",
+										"{@item Flûte de pan|phb}",
 										"12 gp",
 										"2 lb."
 									]
@@ -5146,7 +5146,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Shawm|phb}",
+										"{@item Chalemie|phb}",
 										"2 gp",
 										"1 lb."
 									]
@@ -5155,23 +5155,23 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Viol|phb}",
+										"{@item Viole|phb}",
 										"30 gp",
 										"1 lb."
 									]
 								},
 								[
-									"{@item Navigator's tools|phb}",
+									"{@item Outils de navigateur|phb}",
 									"25 gp",
 									"2 lb."
 								],
 								[
-									"{@item Poisoner's kit|phb}",
+									"{@item Kit d'empoisonneur|phb}",
 									"50 gp",
 									"2 lb."
 								],
 								[
-									"{@item Thieves' tools|phb}",
+									"{@item Outils de crocheteur|phb}",
 									"25 gp",
 									"1 lb."
 								],
@@ -5216,7 +5216,7 @@
 									"name": "Saddles",
 									"page": 155,
 									"entries": [
-										"A {@item military saddle|phb} braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An {@item exotic saddle|phb} is required for riding any aquatic or flying mount."
+										"A {@item Selle de guerre|phb} braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An {@item Selle exotique|phb} is required for riding any aquatic or flying mount."
 									],
 									"id": "0df"
 								},
@@ -5269,49 +5269,49 @@
 							],
 							"rows": [
 								[
-									"{@item Camel|phb}",
+									"{@item Chameau|phb}",
 									"50 gp",
 									"50 ft.",
 									"480 lb."
 								],
 								[
-									"{@item Donkey|phb} or {@item mule|phb}",
+									"{@item Âne|phb} or {@item Mulet|phb}",
 									"8 gp",
 									"40 ft.",
 									"420 lb."
 								],
 								[
-									"{@item Elephant|phb}",
+									"{@item Éléphant|phb}",
 									"200 gp",
 									"40 ft.",
 									"1,320 lb."
 								],
 								[
-									"{@item draft horse|phb|Horse, draft}",
+									"{@item Cheval de trait|phb|Horse, draft}",
 									"50 gp",
 									"40 ft.",
 									"540 lb."
 								],
 								[
-									"{@item riding horse|phb|Horse, riding}",
+									"{@item Cheval de selle|phb|Horse, riding}",
 									"75 gp",
 									"60 ft.",
 									"480 lb."
 								],
 								[
-									"{@item Mastiff|phb}",
+									"{@item Dogue|phb}",
 									"25 gp",
 									"40 ft.",
 									"195 lb."
 								],
 								[
-									"{@item Pony|phb}",
+									"{@item Poney|phb}",
 									"30 gp",
 									"40 ft.",
 									"225 lb."
 								],
 								[
-									"{@item Warhorse|phb}",
+									"{@item Cheval de guerre|phb}",
 									"400 gp",
 									"60 ft.",
 									"540 lb."
@@ -5342,27 +5342,27 @@
 							],
 							"rows": [
 								[
-									"{@item Barding|PHB}",
+									"{@item Caparaçon|PHB}",
 									"×4",
 									"×2"
 								],
 								[
-									"{@item Bit and bridle|PHB}",
+									"{@item Mors et bridon|PHB}",
 									"2 gp",
 									"1 lb."
 								],
 								[
-									"{@item Carriage|PHB}",
+									"{@item Carrosse|PHB}",
 									"100 gp",
 									"600 lb."
 								],
 								[
-									"{@item Cart|PHB}",
+									"{@item Charrette|PHB}",
 									"15 gp",
 									"200 lb."
 								],
 								[
-									"{@item Chariot|PHB}",
+									"{@item Char de guerre|PHB}",
 									"250 gp",
 									"100 lb."
 								],
@@ -5380,7 +5380,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Exotic saddle|PHB|Exotic}",
+										"{@item Selle exotique|PHB|Exotic}",
 										"60 gp",
 										"40 lb."
 									]
@@ -5389,7 +5389,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Military saddle|PHB|Military}",
+										"{@item Selle de guerre|PHB|Military}",
 										"20 gp",
 										"30 lb."
 									]
@@ -5398,7 +5398,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Pack saddle|PHB|Pack}",
+										"{@item Bâts|PHB|Pack}",
 										"5 gp",
 										"15 lb."
 									]
@@ -5407,18 +5407,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Riding saddle|PHB|Riding}",
+										"{@item Selle de randonnée|PHB|Riding}",
 										"10 gp",
 										"25 lb."
 									]
 								},
 								[
-									"{@item Saddlebags|PHB}",
+									"{@item Fontes de selle|PHB}",
 									"4 gp",
 									"8 lb."
 								],
 								[
-									"{@item Sled|PHB}",
+									"{@item Traîneau|PHB}",
 									"20 gp",
 									"300 lb."
 								],
@@ -5428,7 +5428,7 @@
 									"\u2014"
 								],
 								[
-									"{@item Wagon|PHB}",
+									"{@item Charrette|PHB}",
 									"35 gp",
 									"400 lb."
 								]
@@ -5458,32 +5458,32 @@
 							],
 							"rows": [
 								[
-									"{@item Galley|DMG}",
+									"{@item Galère|DMG}",
 									"30,000 gp",
 									"4 mph"
 								],
 								[
-									"{@item Keelboat|DMG}",
+									"{@item Navire à quille|DMG}",
 									"3,000 gp",
 									"1 mph"
 								],
 								[
-									"{@item Longship|DMG}",
+									"{@item Drakkar|DMG}",
 									"10,000 gp",
 									"3 mph"
 								],
 								[
-									"{@item Rowboat|DMG}",
+									"{@item Barque|DMG}",
 									"50 gp",
 									"1½ mph"
 								],
 								[
-									"{@item Sailing ship|DMG}",
+									"{@item Navire de commerce|DMG}",
 									"10,000 gp",
 									"2 mph"
 								],
 								[
-									"{@item Warship|DMG}",
+									"{@item Navire de guerre|DMG}",
 									"25,000 gp",
 									"2½ mph"
 								]
@@ -5761,7 +5761,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"{@item Ale (Gallon)|PHB|Gallon}",
+												"{@item Bière (3,7 l)|PHB|Gallon}",
 												"2 sp"
 											]
 										},
@@ -5769,7 +5769,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"{@item Ale (mug)|phb|Mug}",
+												"{@item Bière (chope)|phb|Mug}",
 												"4 cp"
 											]
 										},
@@ -5778,11 +5778,11 @@
 											"10 gp"
 										],
 										[
-											"{@item loaf of bread|phb|Bread, loaf}",
+											"{@item Miche de pain|phb|Bread, loaf}",
 											"2 cp"
 										],
 										[
-											"{@item hunk of cheese|phb|Cheese, hunk}",
+											"{@item Morceau de fromage|phb|Cheese, hunk}",
 											"1 sp"
 										],
 										[
@@ -5890,7 +5890,7 @@
 											]
 										},
 										[
-											"{@item chunk of meat|phb|Meat, chunk}",
+											"{@item Morceau de viande|phb|Meat, chunk}",
 											"3 sp"
 										],
 										[
@@ -5901,7 +5901,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"{@item common wine (pitcher)|phb|Common (pitcher)}",
+												"{@item Vin commun (pichet)|phb|Common (pitcher)}",
 												"2 sp"
 											]
 										},
@@ -5909,7 +5909,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"{@item fine wine (bottle)|phb|Fine (bottle)}",
+												"{@item Vin fin (bouteille)|phb|Fine (bottle)}",
 												"10 gp"
 											]
 										}
@@ -5928,7 +5928,7 @@
 									"page": 159,
 									"entries": [
 										"The expenses and lifestyles described in this chapter assume that you are spending your time between adventures in town, availing yourself of whatever services you can afford\u2014paying for food and shelter, paying townspeople to sharpen your sword and repair your armor, and so on. Some characters, though, might prefer to spend their time away from civilization, sustaining themselves in the wild by hunting, foraging, and repairing their own gear.",
-										"Maintaining this kind of lifestyle doesn't require you to spend any coin, but it is time-consuming. If you spend your time between adventures practicing a profession, as described in chapter 8, you can eke out the equivalent of a poor lifestyle. Proficiency in the {@skill Survival} skill lets you live at the equivalent of a comfortable lifestyle."
+										"Maintaining this kind of lifestyle doesn't require you to spend any coin, but it is time-consuming. If you spend your time between adventures practicing a profession, as described in chapter 8, you can eke out the equivalent of a poor lifestyle. Proficiency in the {@skill Survie} skill lets you live at the equivalent of a comfortable lifestyle."
 									],
 									"id": "0ee"
 								}
@@ -6053,7 +6053,7 @@
 					"name": "Trinkets",
 					"page": 159,
 					"entries": [
-						"When you make your character, you can roll once on the {@item Trinket|phb|Trinkets} table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creature's pockets."
+						"When you make your character, you can roll once on the {@item Babiole|phb|Trinkets} table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creature's pockets."
 					],
 					"id": "0f1"
 				},
@@ -6249,7 +6249,7 @@
 										],
 										[
 											"{@class Rogue}",
-											"Light armor, one skill from the class's skill list, {@item thieves' tools|phb}"
+											"Light armor, one skill from the class's skill list, {@item Outils de crocheteur|phb}"
 										],
 										[
 											"{@class Sorcerer}",
@@ -6797,7 +6797,7 @@
 						"Characters have a proficiency bonus determined by level, as detailed in chapter 1. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability checks, saving throws, and attack rolls.",
 						"Your proficiency bonus can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save.",
 						"Occasionally, your proficiency bonus might be multiplied or divided (doubled or halved, for example) before you apply it. For example, the rogue's Expertise feature doubles the proficiency bonus for certain ability checks. If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.",
-						"By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn't normally benefit from your proficiency bonus, you still don't add the bonus to the check. For that check your proficiency bonus is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you lack proficiency in the {@skill History} skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Intelligence ({@skill History}) checks.",
+						"By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn't normally benefit from your proficiency bonus, you still don't add the bonus to the check. For that check your proficiency bonus is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you lack proficiency in the {@skill Histoire} skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Intelligence ({@skill Histoire}) checks.",
 						"In general, you don't multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply."
 					],
 					"id": "106"
@@ -6884,7 +6884,7 @@
 							"page": 174,
 							"entries": [
 								"Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in the monster's stat block.)",
-								"For example, a Dexterity check might reflect a character's attempt to pull off an acrobatic stunt, to palm an object, or to stay hidden. Each of these aspects of Dexterity has an associated skill: {@skill Acrobatics}, {@skill Sleight of Hand}, and {@skill Stealth}, respectively. So a character who has proficiency in the {@skill Stealth} skill is particularly good at Dexterity checks related to sneaking and hiding.",
+								"For example, a Dexterity check might reflect a character's attempt to pull off an acrobatic stunt, to palm an object, or to stay hidden. Each of these aspects of Dexterity has an associated skill: {@skill Acrobaties}, {@skill Escamotage}, and {@skill Discrétion}, respectively. So a character who has proficiency in the {@skill Discrétion} skill is particularly good at Dexterity checks related to sneaking and hiding.",
 								"The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this chapter for examples of how to use a skill associated with an ability.",
 								{
 									"type": "table",
@@ -6899,23 +6899,23 @@
 									"rows": [
 										[
 											"Strength",
-											"{@skill Athletics}"
+											"{@skill Athlétisme}"
 										],
 										[
 											"Dexterity",
-											"{@skill Acrobatics}, {@skill Sleight of Hand}, {@skill Stealth}"
+											"{@skill Acrobaties}, {@skill Escamotage}, {@skill Discrétion}"
 										],
 										[
 											"Intelligence",
-											"{@skill Arcana}, {@skill History}, {@skill Investigation}, {@skill Nature}, {@skill Religion}"
+											"{@skill Arcanes}, {@skill Histoire}, {@skill Investigation}, {@skill Nature}, {@skill Religion}"
 										],
 										[
 											"Wisdom",
-											"{@skill Animal Handling}, {@skill Insight}, {@skill Medicine}, {@skill Perception}, {@skill Survival}"
+											"{@skill Dressage}, {@skill Perspicacité}, {@skill Médecine}, {@skill Perception}, {@skill Survie}"
 										],
 										[
 											"Charisma",
-											"{@skill Deception}, {@skill Intimidation}, {@skill Performance}, {@skill Persuasion}"
+											"{@skill Tromperie}, {@skill Intimidation}, {@skill Représentation}, {@skill Persuasion}"
 										]
 									],
 									"data": {
@@ -6927,13 +6927,13 @@
 									}
 								},
 								"Sometimes, the DM might ask for an ability check using a specific skill\u2014for example, \"Make a Wisdom ({@skill Perception}) check.\" At other times, a player might ask the DM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.",
-								"For example, if a character attempts to climb up a dangerous cliff, the Dungeon Master might ask for a Strength ({@skill Athletics}) check. If the character is proficient in {@skill Athletics}, the character's proficiency bonus is added to the Strength check. If the character lacks that proficiency, he or she just makes a Strength check.",
+								"For example, if a character attempts to climb up a dangerous cliff, the Dungeon Master might ask for a Strength ({@skill Athlétisme}) check. If the character is proficient in {@skill Athlétisme}, the character's proficiency bonus is added to the Strength check. If the character lacks that proficiency, he or she just makes a Strength check.",
 								{
 									"type": "entries",
 									"name": "Variant: Skills with Different Abilities",
 									"page": 175,
 									"entries": [
-										"Normally, your proficiency in a skill applies only to a specific kind of ability check. Proficiency in {@skill Athletics}, for example, usually applies to Strength checks. In some situations, though, your proficiency might reasonably apply to a different kind of check. In such cases, the DM might ask for a check using an unusual combination of ability and skill, or you might ask your DM if you can apply a proficiency to a different check. For example, if you have to swim from an offshore island to the mainland, your DM might call for a Constitution check to see if you have the stamina to make it that far. In this case, your DM might allow you to apply your proficiency in {@skill Athletics} and ask for a Constitution ({@skill Athletics}) check. So if you're proficient in {@skill Athletics}, you apply your proficiency bonus to the Constitution check just as you would normally do for a Strength ({@skill Athletics}) check.",
+										"Normally, your proficiency in a skill applies only to a specific kind of ability check. Proficiency in {@skill Athlétisme}, for example, usually applies to Strength checks. In some situations, though, your proficiency might reasonably apply to a different kind of check. In such cases, the DM might ask for a check using an unusual combination of ability and skill, or you might ask your DM if you can apply a proficiency to a different check. For example, if you have to swim from an offshore island to the mainland, your DM might call for a Constitution check to see if you have the stamina to make it that far. In this case, your DM might allow you to apply your proficiency in {@skill Athlétisme} and ask for a Constitution ({@skill Athlétisme}) check. So if you're proficient in {@skill Athlétisme}, you apply your proficiency bonus to the Constitution check just as you would normally do for a Strength ({@skill Athlétisme}) check.",
 										"Similarly, when your dwarf fighter uses a display of raw strength to intimidate an enemy, your DM might ask for a Strength ({@skill Intimidation}) check, even though {@skill Intimidation} is normally associated with Charisma."
 									],
 									"id": "10a"
@@ -6966,7 +6966,7 @@
 							"name": "Working Together",
 							"page": 175,
 							"entries": [
-								"Sometimes two or more characters team up to attempt a task. The character who's leading the effort\u2014or the one with the highest ability modifier\u2014can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the {@action Help} action (see chapter 9).",
+								"Sometimes two or more characters team up to attempt a task. The character who's leading the effort\u2014or the one with the highest ability modifier\u2014can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the {@action Aider} action (see chapter 9).",
 								"A character can only provide help if the task is one that he or she could attempt alone. For example, trying to open a lock requires proficiency with thieves' tools, so a character who lacks that proficiency can't help another character in that task. Moreover, a character can help only when two or more individuals working together would actually be productive. Some tasks, such as threading a needle, are no easier with help.",
 								{
 									"type": "entries",
@@ -6975,7 +6975,7 @@
 									"entries": [
 										"When a number of individuals are trying to accomplish something as a group, the DM might ask for a group ability check. In such a situation, the characters who are skilled at a particular task help cover those who aren't.",
 										"To make a group ability check, everyone in the group makes the ability check. If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails.",
-										"Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the DM might call for a group Wisdom ({@skill Survival}) check to see if the characters can avoid the quicksand, sinkholes, and other natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards.",
+										"Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the DM might call for a group Wisdom ({@skill Survie}) check to see if the characters can avoid the quicksand, sinkholes, and other natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards.",
 										{
 											"type": "image",
 											"href": {
@@ -7017,13 +7017,13 @@
 									"name": "Strength Checks",
 									"page": 175,
 									"entries": [
-										"A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The {@skill Athletics} skill reflects aptitude in certain kinds of Strength checks.",
+										"A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The {@skill Athlétisme} skill reflects aptitude in certain kinds of Strength checks.",
 										{
 											"type": "entries",
 											"name": "Athletics",
 											"page": 175,
 											"entries": [
-												"Your Strength ({@skill Athletics}) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:",
+												"Your Strength ({@skill Athlétisme}) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:",
 												{
 													"type": "list",
 													"items": [
@@ -7131,13 +7131,13 @@
 									"name": "Dexterity Checks",
 									"page": 176,
 									"entries": [
-										"A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The {@skill Acrobatics}, {@skill Sleight of Hand}, and {@skill Stealth} skills reflect aptitude in certain kinds of Dexterity checks.",
+										"A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The {@skill Acrobaties}, {@skill Escamotage}, and {@skill Discrétion} skills reflect aptitude in certain kinds of Dexterity checks.",
 										{
 											"type": "entries",
 											"name": "Acrobatics",
 											"page": 176,
 											"entries": [
-												"Your Dexterity ({@skill Acrobatics}) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The DM might also call for a Dexterity ({@skill Acrobatics}) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips."
+												"Your Dexterity ({@skill Acrobaties}) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The DM might also call for a Dexterity ({@skill Acrobaties}) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips."
 											],
 											"id": "11b"
 										},
@@ -7146,7 +7146,7 @@
 											"name": "Sleight of Hand",
 											"page": 177,
 											"entries": [
-												"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity ({@skill Sleight of Hand}) check. The DM might also call for a Dexterity ({@skill Sleight of Hand}) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket."
+												"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity ({@skill Escamotage}) check. The DM might also call for a Dexterity ({@skill Escamotage}) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket."
 											],
 											"id": "11c"
 										},
@@ -7155,7 +7155,7 @@
 											"name": "Stealth",
 											"page": 177,
 											"entries": [
-												"Make a Dexterity ({@skill Stealth}) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
+												"Make a Dexterity ({@skill Discrétion}) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
 											],
 											"id": "11d"
 										},
@@ -7220,7 +7220,7 @@
 									"name": "Hiding",
 									"page": 177,
 									"entries": [
-										"The DM decides when circumstances are appropriate for hiding. When you try to hide, make a Dexterity ({@skill Stealth}) check. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom ({@skill Perception}) check of any creature that actively searches for signs of your presence.",
+										"The DM decides when circumstances are appropriate for hiding. When you try to hide, make a Dexterity ({@skill Discrétion}) check. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom ({@skill Perception}) check of any creature that actively searches for signs of your presence.",
 										"You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase. An {@condition invisible} creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet.",
 										"In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the DM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen.",
 										{
@@ -7228,7 +7228,7 @@
 											"name": "Passive Perception",
 											"page": 177,
 											"entries": [
-												"When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the DM compares your Dexterity ({@skill Stealth}) check with that creature's passive Wisdom ({@skill Perception}) score, which equals 10 + the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has advantage, add 5. For disadvantage, subtract 5.",
+												"When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the DM compares your Dexterity ({@skill Discrétion}) check with that creature's passive Wisdom ({@skill Perception}) score, which equals 10 + the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has advantage, add 5. For disadvantage, subtract 5.",
 												"For example, if a 1st-level character (with a proficiency bonus of +2) has a Wisdom of 15 (a +2 modifier) and a proficiency in {@skill Perception}, he or she has a passive Wisdom ({@skill Perception}) of 14."
 											],
 											"id": "123"
@@ -7299,13 +7299,13 @@
 									"name": "Intelligence Checks",
 									"page": 177,
 									"entries": [
-										"An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The {@skill Arcana}, {@skill History}, {@skill Investigation}, {@skill Nature}, and {@skill Religion} skills reflect aptitude in certain kinds of Intelligence checks.",
+										"An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The {@skill Arcanes}, {@skill Histoire}, {@skill Investigation}, {@skill Nature}, and {@skill Religion} skills reflect aptitude in certain kinds of Intelligence checks.",
 										{
 											"type": "entries",
 											"name": "Arcana",
 											"page": 177,
 											"entries": [
-												"Your Intelligence ({@skill Arcana}) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes."
+												"Your Intelligence ({@skill Arcanes}) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes."
 											],
 											"id": "12a"
 										},
@@ -7314,7 +7314,7 @@
 											"name": "History",
 											"page": 177,
 											"entries": [
-												"Your Intelligence ({@skill History}) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations."
+												"Your Intelligence ({@skill Histoire}) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations."
 											],
 											"id": "12b"
 										},
@@ -7391,13 +7391,13 @@
 									"name": "Wisdom Checks",
 									"page": 178,
 									"entries": [
-										"A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The {@skill Animal Handling}, {@skill Insight}, {@skill Medicine}, {@skill Perception}, and {@skill Survival} skills reflect aptitude in certain kinds of Wisdom checks.",
+										"A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The {@skill Dressage}, {@skill Perspicacité}, {@skill Médecine}, {@skill Perception}, and {@skill Survie} skills reflect aptitude in certain kinds of Wisdom checks.",
 										{
 											"type": "entries",
 											"name": "Animal Handling",
 											"page": 178,
 											"entries": [
-												"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the DM might call for a Wisdom ({@skill Animal Handling}) check. You also make a Wisdom ({@skill Animal Handling}) check to control your mount when you attempt a risky maneuver."
+												"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the DM might call for a Wisdom ({@skill Dressage}) check. You also make a Wisdom ({@skill Dressage}) check to control your mount when you attempt a risky maneuver."
 											],
 											"id": "133"
 										},
@@ -7406,7 +7406,7 @@
 											"name": "Insight",
 											"page": 178,
 											"entries": [
-												"Your Wisdom ({@skill Insight}) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
+												"Your Wisdom ({@skill Perspicacité}) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
 											],
 											"id": "134"
 										},
@@ -7415,7 +7415,7 @@
 											"name": "Medicine",
 											"page": 178,
 											"entries": [
-												"A Wisdom ({@skill Medicine}) check lets you try to stabilize a dying companion or diagnose an illness."
+												"A Wisdom ({@skill Médecine}) check lets you try to stabilize a dying companion or diagnose an illness."
 											],
 											"id": "135"
 										},
@@ -7434,7 +7434,7 @@
 											"name": "Survival",
 											"page": 178,
 											"entries": [
-												"The DM might ask you to make a Wisdom ({@skill Survival}) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards."
+												"The DM might ask you to make a Wisdom ({@skill Survie}) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards."
 											],
 											"id": "137"
 										},
@@ -7490,13 +7490,13 @@
 									"name": "Charisma Checks",
 									"page": 178,
 									"entries": [
-										"A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The {@skill Deception}, {@skill Intimidation}, {@skill Performance}, and {@skill Persuasion} skills reflect aptitude in certain kinds of Charisma checks.",
+										"A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The {@skill Tromperie}, {@skill Intimidation}, {@skill Représentation}, and {@skill Persuasion} skills reflect aptitude in certain kinds of Charisma checks.",
 										{
 											"type": "entries",
 											"name": "Deception",
 											"page": 178,
 											"entries": [
-												"Your Charisma ({@skill Deception}) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
+												"Your Charisma ({@skill Tromperie}) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
 											],
 											"id": "13d"
 										},
@@ -7514,7 +7514,7 @@
 											"name": "Performance",
 											"page": 179,
 											"entries": [
-												"Your Charisma ({@skill Performance}) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment."
+												"Your Charisma ({@skill Représentation}) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment."
 											],
 											"id": "13f"
 										},
@@ -7657,11 +7657,11 @@
 											"name": "Forced March",
 											"page": 181,
 											"entries": [
-												"The Travel Pace table assumes that characters travel for 8 hours in day. They can push on beyond that limit, at the risk of {@condition exhaustion}."
+												"The Travel Pace table assumes that characters travel for 8 hours in day. They can push on beyond that limit, at the risk of {@condition Épuisement}."
 											],
 											"id": "149"
 										},
-										"For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of {@condition exhaustion} (see the appendix).",
+										"For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of {@condition Épuisement} (see the appendix).",
 										{
 											"type": "entries",
 											"name": "Mounts and Vehicles",
@@ -7756,7 +7756,7 @@
 									"name": "Climbing, Swimming, and Crawling",
 									"page": 182,
 									"entries": [
-										"Each foot of movement costs 1 extra foot (2 extra feet in {@quickref difficult terrain||3}) when you're climbing, swimming, or crawling. You ignore this extra cost if you have a climbing speed and use it to climb, or a swimming speed and use it to swim. At the DM's option, climbing a slippery vertical surface or one with few handholds requires a successful Strength ({@skill Athletics}) check. Similarly, gaining any distance in rough water might require a successful Strength ({@skill Athletics}) check."
+										"Each foot of movement costs 1 extra foot (2 extra feet in {@quickref difficult terrain||3}) when you're climbing, swimming, or crawling. You ignore this extra cost if you have a climbing speed and use it to climb, or a swimming speed and use it to swim. At the DM's option, climbing a slippery vertical surface or one with few handholds requires a successful Strength ({@skill Athlétisme}) check. Similarly, gaining any distance in rough water might require a successful Strength ({@skill Athlétisme}) check."
 									],
 									"id": "14d"
 								},
@@ -7775,8 +7775,8 @@
 											"page": 182,
 											"entries": [
 												"When you make a long jump, you cover a number of feet up to your Strength score if you move at least 10 feet on foot immediately before the jump. When you make a standing long jump, you can leap only half that distance. Either way, each foot you clear on the jump costs a foot of movement.",
-												"This rule assumes that the height of your jump doesn't matter, such as a jump across a stream or chasm. At your DM's option, you must succeed on a {@dc 10} Strength ({@skill Athletics}) check to clear a low obstacle (no taller than a quarter of the jump's distance), such as a hedge or low wall. Otherwise, you hit it.",
-												"When you land in {@quickref difficult terrain||3}, you must succeed on a {@dc 10} Dexterity ({@skill Acrobatics}) check to land on your feet. Otherwise, you land {@condition prone}."
+												"This rule assumes that the height of your jump doesn't matter, such as a jump across a stream or chasm. At your DM's option, you must succeed on a {@dc 10} Strength ({@skill Athlétisme}) check to clear a low obstacle (no taller than a quarter of the jump's distance), such as a hedge or low wall. Otherwise, you hit it.",
+												"When you land in {@quickref difficult terrain||3}, you must succeed on a {@dc 10} Dexterity ({@skill Acrobaties}) check to land on your feet. Otherwise, you land {@condition À terre}."
 											],
 											"id": "14f"
 										},
@@ -7785,7 +7785,7 @@
 											"name": "High Jump",
 											"page": 182,
 											"entries": [
-												"When you make a high jump, you leap into the air a number of feet equal to 3 + your Strength modifier (minimum of 0 feet) if you move at least 10 feet on foot immediately before the jump. When you make a standing high jump, you can jump only half that distance. Either way, each foot you clear on the jump costs a foot of movement. In some circumstances, your DM might allow you to make a Strength ({@skill Athletics}) check to jump higher than you normally can.",
+												"When you make a high jump, you leap into the air a number of feet equal to 3 + your Strength modifier (minimum of 0 feet) if you move at least 10 feet on foot immediately before the jump. When you make a standing high jump, you can jump only half that distance. Either way, each foot you clear on the jump costs a foot of movement. In some circumstances, your DM might allow you to make a Strength ({@skill Athlétisme}) check to jump higher than you normally can.",
 												"You can extend your arms half your height above yourself during the jump. Thus, you can reach above you a distance equal to the height of the jump plus 1½ times your height."
 											],
 											"id": "150"
@@ -7852,7 +7852,7 @@
 											"name": "Surprising Foes",
 											"page": 183,
 											"entries": [
-												"If the adventurers encounter a hostile creature or group, the DM determines whether the adventurers or their foes might be {@status surprised} when combat erupts. See chapter 9 for more about surprise."
+												"If the adventurers encounter a hostile creature or group, the DM determines whether the adventurers or their foes might be {@status Surpris} when combat erupts. See chapter 9 for more about surprise."
 											],
 											"id": "157"
 										}
@@ -7871,7 +7871,7 @@
 											"name": "Navigate",
 											"page": 183,
 											"entries": [
-												"The character can try to prevent the group from becoming lost, making a Wisdom ({@skill Survival}) check when the DM calls for it. (The Dungeon Master's Guide has rules to determine whether the group gets lost.)"
+												"The character can try to prevent the group from becoming lost, making a Wisdom ({@skill Survie}) check when the DM calls for it. (The Dungeon Master's Guide has rules to determine whether the group gets lost.)"
 											],
 											"id": "159"
 										},
@@ -7889,7 +7889,7 @@
 											"name": "Track",
 											"page": 183,
 											"entries": [
-												"A character can follow the tracks of another creature, making a Wisdom ({@skill Survival}) check when the DM calls for it. (The Dungeon Master's Guide has rules for tracking.)"
+												"A character can follow the tracks of another creature, making a Wisdom ({@skill Survie}) check when the DM calls for it. (The Dungeon Master's Guide has rules for tracking.)"
 											],
 											"id": "15b"
 										},
@@ -7898,7 +7898,7 @@
 											"name": "Forage",
 											"page": 183,
 											"entries": [
-												"The character can keep an eye out for ready sources of food and water, making a Wisdom ({@skill Survival}) check when the DM calls for it. (The Dungeon Master's Guide has rules for foraging.)"
+												"The character can keep an eye out for ready sources of food and water, making a Wisdom ({@skill Survie}) check when the DM calls for it. (The Dungeon Master's Guide has rules for foraging.)"
 											],
 											"id": "15c"
 										}
@@ -7930,7 +7930,7 @@
 									"page": 183,
 									"entries": [
 										"A fall from a great height is one of the most common hazards facing an adventurer.",
-										"At the end of a fall, a creature takes {@dice 1d6} bludgeoning damage for every 10 feet it fell, to a maximum of {@dice 20d6}. The creature lands {@condition prone}, unless it avoids taking damage from the fall."
+										"At the end of a fall, a creature takes {@dice 1d6} bludgeoning damage for every 10 feet it fell, to a maximum of {@dice 20d6}. The creature lands {@condition À terre}, unless it avoids taking damage from the fall."
 									],
 									"id": "15f"
 								},
@@ -7963,7 +7963,7 @@
 									"entries": [
 										"The most fundamental tasks of adventuring\u2014noticing danger, finding hidden objects, hitting an enemy in combat, and targeting a spell, to name just a few\u2014rely heavily on a character's ability to see. Darkness and other effects that obscure vision can prove a significant hindrance.",
 										"A given area might be lightly or heavily obscured. In a {@b lightly obscured} area, such as dim light, patchy fog, or moderate foliage, creatures have disadvantage on Wisdom ({@skill Perception}) checks that rely on sight.",
-										"A {@b heavily obscured} area\u2014such as darkness, opaque fog, or dense foliage\u2014blocks vision entirely. A creature effectively suffers from the {@condition blinded} condition when trying to see something in that area.",
+										"A {@b heavily obscured} area\u2014such as darkness, opaque fog, or dense foliage\u2014blocks vision entirely. A creature effectively suffers from the {@condition Aveuglé} condition when trying to see something in that area.",
 										"The presence or absence of light in an environment creates three categories of illumination: bright light, dim light, and darkness.",
 										"{@b Bright light} lets most creatures see normally. Even gloomy days provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius.",
 										"{@b Dim light}, also called shadows, creates a lightly obscured area. An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness. The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light.",
@@ -8015,14 +8015,14 @@
 									"name": "Food and Water",
 									"page": 185,
 									"entries": [
-										"Characters who don't eat or drink suffer the effects of {@condition exhaustion} (see the appendix). Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.",
+										"Characters who don't eat or drink suffer the effects of {@condition Épuisement} (see the appendix). Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.",
 										{
 											"type": "entries",
 											"name": "Food",
 											"page": 185,
 											"entries": [
 												"A character needs one pound of food per day and can make food last longer by subsisting on half rations. Eating half a pound of food in a day counts as half a day without food.",
-												"A character can go without food for a number of days equal to 3 + his or her Constitution modifier (minimum 1). At the end of each day beyond that limit, a character automatically suffers one level of {@condition exhaustion}.",
+												"A character can go without food for a number of days equal to 3 + his or her Constitution modifier (minimum 1). At the end of each day beyond that limit, a character automatically suffers one level of {@condition Épuisement}.",
 												"A normal day of eating resets the count of days without food to zero."
 											],
 											"id": "166"
@@ -8032,8 +8032,8 @@
 											"name": "Water",
 											"page": 185,
 											"entries": [
-												"A character needs one gallon of water per day, or two gallons per day if the weather is hot. A character who drinks only half that much water must succeed on a {@dc 15} Constitution saving throw or suffer one level of {@condition exhaustion} at the end of the day. A character with access to even less water automatically suffers one level of {@condition exhaustion} at the end of the day.",
-												"If the character already has one or more levels of {@condition exhaustion}, the character takes two levels in either case."
+												"A character needs one gallon of water per day, or two gallons per day if the weather is hot. A character who drinks only half that much water must succeed on a {@dc 15} Constitution saving throw or suffer one level of {@condition Épuisement} at the end of the day. A character with access to even less water automatically suffers one level of {@condition Épuisement} at the end of the day.",
+												"If the character already has one or more levels of {@condition Épuisement}, the character takes two levels in either case."
 											],
 											"id": "167"
 										}
@@ -8130,7 +8130,7 @@
 									"entries": [
 										"In addition to roleplaying, ability checks are key in determining the outcome of an interaction.",
 										"Your roleplaying efforts can alter an NPC's attitude, but there might still be an element of chance in the situation. For example, your DM can call for a Charisma check at any point during an interaction if he or she wants the dice to play a role in determining an NPC's reactions. Other checks might be appropriate in certain situations, at your DM's discretion.",
-										"Pay attention to your skill proficiencies when thinking of how you want to interact with an NPC, and stack the deck in your favor by using an approach that relies on your best bonuses and skills. If the group needs to trick a guard into letting them into a castle, the rogue who is proficient in {@skill Deception} is the best bet to lead the discussion. When negotiating for a hostage's release, the cleric with {@skill Persuasion} should do most of the talking."
+										"Pay attention to your skill proficiencies when thinking of how you want to interact with an NPC, and stack the deck in your favor by using an approach that relies on your best bonuses and skills. If the group needs to trick a guard into letting them into a castle, the rogue who is proficient in {@skill Tromperie} is the best bet to lead the discussion. When negotiating for a hostage's release, the cleric with {@skill Persuasion} should do most of the talking."
 									],
 									"id": "16e"
 								}
@@ -8201,7 +8201,7 @@
 											"name": "Crafting",
 											"page": 187,
 											"entries": [
-												"You can craft nonmagical objects, including adventuring equipment and works of art. You must be proficient with tools related to the object you are trying to create (typically artisan's tools). You might also need access to special materials or locations necessary to create it. For example, someone proficient with {@item smith's tools|phb} needs a forge in order to craft a sword or suit of armor.",
+												"You can craft nonmagical objects, including adventuring equipment and works of art. You must be proficient with tools related to the object you are trying to create (typically artisan's tools). You might also need access to special materials or locations necessary to create it. For example, someone proficient with {@item Outils de forgeron|phb} needs a forge in order to craft a sword or suit of armor.",
 												"For every day of downtime you spend crafting, you can craft one or more items with a total market value not exceeding 5 gp, and you must expend raw materials worth half the total market value. If something you want to craft has a market value greater than 5 gp, you make progress every day in 5-gp increments until you reach the market value of the item. For example, a suit of plate armor (market value 1,500 gp) takes 300 days to craft by yourself.",
 												"Multiple characters can combine their efforts toward the crafting of a single item, provided that the characters all have proficiency with the requisite tools and are working together in the same place. Each character contributes 5 gp worth of effort for every day spent helping to craft the item. For example, three characters with the requisite tool proficiency and the proper facilities can craft a suit of plate armor in 100 days, at a total cost of 750 gp.",
 												"While crafting, you can maintain a modest lifestyle without having to pay 1 gp per day, or a comfortable lifestyle at half the normal cost (see chapter 5 for more information on lifestyle expenses)."
@@ -8215,7 +8215,7 @@
 											"entries": [
 												"You can work between adventures, allowing you to maintain a modest lifestyle without having to pay 1 gp per day (see chapter 5 for more information on lifestyle expenses). This benefit lasts as long you continue to practice your profession.",
 												"If you are a member of an organization that can provide gainful employment, such as a temple or a thieves' guild, you earn enough to support a comfortable lifestyle instead.",
-												"If you have proficiency in the {@skill Performance} skill and put your performance skill to use during your downtime, you earn enough to support a wealthy lifestyle instead."
+												"If you have proficiency in the {@skill Représentation} skill and put your performance skill to use during your downtime, you earn enough to support a wealthy lifestyle instead."
 											],
 											"id": "176"
 										},
@@ -8300,7 +8300,7 @@
 								{
 									"type": "item",
 									"name": "1. Determine surprise",
-									"entry": "The DM determines whether anyone involved in the combat encounter is {@status surprised}."
+									"entry": "The DM determines whether anyone involved in the combat encounter is {@status Surpris}."
 								}
 							]
 						},
@@ -8366,8 +8366,8 @@
 							"page": 189,
 							"entries": [
 								"A band of adventurers sneaks up on a bandit camp, springing from the trees to attack them. A gelatinous cube glides down a dungeon passage, unnoticed by the adventurers until the cube engulfs one of them. In these situations, one side of the battle gains surprise over the other.",
-								"The DM determines who might be {@status surprised}. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the DM compares the Dexterity ({@skill Stealth}) checks of anyone hiding with the passive Wisdom ({@skill Perception}) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is {@status surprised} at the start of the encounter.",
-								"If you're {@status surprised}, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be {@status surprised} even if the other members aren't."
+								"The DM determines who might be {@status Surpris}. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the DM compares the Dexterity ({@skill Discrétion}) checks of anyone hiding with the passive Wisdom ({@skill Perception}) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is {@status Surpris} at the start of the encounter.",
+								"If you're {@status Surpris}, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be {@status Surpris} even if the other members aren't."
 							],
 							"data": {
 								"quickrefIndex": true
@@ -8393,7 +8393,7 @@
 								"On your turn, you can {@b move} a distance up to your speed and {@b take one action}. You decide whether to move first or take your action first. Your speed\u2014sometimes called your walking speed\u2014is noted on your character sheet.",
 								"The most common actions you can take are described in the \"Actions in Combat\" section later in this chapter. Many class features and other abilities provide additional options for your action.",
 								"The \"Movement and Position\" section later in this chapter gives the rules for your move.",
-								"You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do on your turn, consider taking the {@action Dodge} or {@action Ready} action, as described in \"Actions in Combat.\"",
+								"You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do on your turn, consider taking the {@action Esquive} or {@action Se tenir prêt} action, as described in \"Actions in Combat.\"",
 								{
 									"type": "entries",
 									"name": "Bonus Actions",
@@ -8532,9 +8532,9 @@
 							"name": "Being Prone",
 							"page": 190,
 							"entries": [
-								"Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are {@condition prone}, a condition described in the appendix.",
-								"You can drop {@condition prone} without using any of your speed. Standing up takes more effort; doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.",
-								"To move while {@condition prone}, you must crawl or use magic such as teleportation. Every foot of movement while crawling costs 1 extra foot. Crawling 1 foot in {@quickref difficult terrain||3}, therefore, costs 3 feet of movement."
+								"Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are {@condition À terre}, a condition described in the appendix.",
+								"You can drop {@condition À terre} without using any of your speed. Standing up takes more effort; doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.",
+								"To move while {@condition À terre}, you must crawl or use magic such as teleportation. Every foot of movement while crawling costs 1 extra foot. Crawling 1 foot in {@quickref difficult terrain||3}, therefore, costs 3 feet of movement."
 							],
 							"id": "189"
 						},
@@ -8554,7 +8554,7 @@
 							"name": "Flying Movement",
 							"page": 191,
 							"entries": [
-								"Flying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked {@condition prone}, has its speed reduced to 0, or is otherwise deprived of the ability to move, the creature falls, unless it has the ability to hover or it is being held aloft by magic, such as by the {@spell fly} spell."
+								"Flying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked {@condition À terre}, has its speed reduced to 0, or is otherwise deprived of the ability to move, the creature falls, unless it has the ability to hover or it is being held aloft by magic, such as by the {@spell fly} spell."
 							],
 							"data": {
 								"quickrefIndex": true
@@ -8721,17 +8721,17 @@
 							"type": "list",
 							"columns": 3,
 							"items": [
-								"{@action Attack}",
-								"{@action Cast a Spell}",
-								"{@action Dash}",
-								"{@action Disengage}",
-								"{@action Dodge}",
-								"{@action Help}",
-								"{@action Hide}",
-								"{@action Ready}",
-								"{@action Search}",
-								"{@action Use an Object}",
-								"{@action Improvising an Action}"
+								"{@action Attaque}",
+								"{@action Lancer un sort}",
+								"{@action Course}",
+								"{@action Désengagement}",
+								"{@action Esquive}",
+								"{@action Aider}",
+								"{@action Se cacher}",
+								"{@action Se tenir prêt}",
+								"{@action Chercher}",
+								"{@action Utiliser un objet}",
+								"{@action Improviser une action}"
 							]
 						},
 						{
@@ -8923,7 +8923,7 @@
 									"name": "Ranged Attacks in Close Combat",
 									"page": 195,
 									"entries": [
-										"Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a spell, or some other means, you have disadvantage on the attack roll if you are within 5 feet of a hostile creature who can see you and who isn't {@condition incapacitated}."
+										"Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a spell, or some other means, you have disadvantage on the attack roll if you are within 5 feet of a hostile creature who can see you and who isn't {@condition Incapable}."
 									],
 									"id": "19f"
 								}
@@ -8951,7 +8951,7 @@
 							"entries": [
 								"In a fight, everyone is constantly watching for enemies to drop their guard. You can rarely move heedlessly past your foes without putting yourself in danger; doing so provokes an opportunity attack.",
 								"You can make an opportunity attack when a hostile creature that you can see moves out of your reach. To make the opportunity attack, you use your reaction to make one melee attack against the provoking creature. The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-								"You can avoid provoking an opportunity attack by taking the {@action Disengage} action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy."
+								"You can avoid provoking an opportunity attack by taking the {@action Désengagement} action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy."
 							],
 							"id": "1a1"
 						},
@@ -8960,7 +8960,7 @@
 							"name": "Two-Weapon Fighting",
 							"page": 195,
 							"entries": [
-								"When you take the {@action Attack} action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
+								"When you take the {@action Attaque} action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
 								"If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
 							],
 							"data": {
@@ -8982,14 +8982,14 @@
 							"name": "Grappling",
 							"page": 195,
 							"entries": [
-								"When you want to grab a creature or wrestle with it, you can use the {@action Attack} action to make a special melee attack, a grapple. If you're able to make multiple attacks with the {@action Attack} action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-								"Using at least one free hand, you try to seize the target by making a grapple check, a Strength ({@skill Athletics}) check contested by the target's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitated}. If you succeed, you subject the target to the {@condition grappled} condition (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no action required).",
+								"When you want to grab a creature or wrestle with it, you can use the {@action Attaque} action to make a special melee attack, a grapple. If you're able to make multiple attacks with the {@action Attaque} action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
+								"Using at least one free hand, you try to seize the target by making a grapple check, a Strength ({@skill Athlétisme}) check contested by the target's Strength ({@skill Athlétisme}) or Dexterity ({@skill Acrobaties}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition Incapable}. If you succeed, you subject the target to the {@condition Agrippé} condition (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no action required).",
 								{
 									"type": "entries",
 									"name": "Escaping a Grapple",
 									"page": 195,
 									"entries": [
-										"A {@condition grappled} creature can use its action to escape. To do so, it must succeed on a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check contested by your Strength ({@skill Athletics}) check."
+										"A {@condition Agrippé} creature can use its action to escape. To do so, it must succeed on a Strength ({@skill Athlétisme}) or Dexterity ({@skill Acrobaties}) check contested by your Strength ({@skill Athlétisme}) check."
 									],
 									"id": "1a5"
 								},
@@ -8998,7 +8998,7 @@
 									"name": "Moving a Grappled Target",
 									"page": 195,
 									"entries": [
-										"When you move, you can drag or carry the {@condition grappled} creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you."
+										"When you move, you can drag or carry the {@condition Agrippé} creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you."
 									],
 									"id": "1a6"
 								}
@@ -9010,8 +9010,8 @@
 							"name": "Shoving a Creature",
 							"page": 195,
 							"entries": [
-								"Using the {@action Attack} action, you can make a special melee attack to shove a creature, either to knock it {@condition prone} or push it away from you. If you're able to make multiple attacks with the {@action Attack} action, this attack replaces one of them.",
-								"The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength ({@skill Athletics}) check contested by the target's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitated}. If you succeed, you either knock the target {@condition prone} or push it 5 feet away from you."
+								"Using the {@action Attaque} action, you can make a special melee attack to shove a creature, either to knock it {@condition À terre} or push it away from you. If you're able to make multiple attacks with the {@action Attaque} action, this attack replaces one of them.",
+								"The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength ({@skill Athlétisme}) check contested by the target's Strength ({@skill Athlétisme}) or Dexterity ({@skill Acrobaties}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition Incapable}. If you succeed, you either knock the target {@condition À terre} or push it 5 feet away from you."
 							],
 							"id": "1a7"
 						}
@@ -9215,7 +9215,7 @@
 									"name": "Describing the Effects of Damage",
 									"page": 197,
 									"entries": [
-										"Dungeon Masters describe hit point loss in different ways. When your current hit point total is half or more of your hit point maximum, you typically show no signs of injury. When you drop below half your hit point maximum, you show signs of wear, such as cuts and bruises. An attack that reduces you to 0 hit points strikes you directly, leaving a bleeding injury or other trauma, or it simply knocks you {@condition unconscious}."
+										"Dungeon Masters describe hit point loss in different ways. When your current hit point total is half or more of your hit point maximum, you typically show no signs of injury. When you drop below half your hit point maximum, you show signs of wear, such as cuts and bruises. An attack that reduces you to 0 hit points strikes you directly, leaving a bleeding injury or other trauma, or it simply knocks you {@condition Inconscient}."
 									],
 									"id": "1bc"
 								}
@@ -9243,7 +9243,7 @@
 							],
 							"page": 197,
 							"entries": [
-								"When you drop to 0 hit points, you either die outright or fall {@condition unconscious}, as explained in the following sections.",
+								"When you drop to 0 hit points, you either die outright or fall {@condition Inconscient}, as explained in the following sections.",
 								{
 									"type": "entries",
 									"name": "Instant Death",
@@ -9259,7 +9259,7 @@
 									"name": "Falling Unconscious",
 									"page": 197,
 									"entries": [
-										"If damage reduces you to 0 hit points and fails to kill you, you fall {@condition unconscious} (see the appendix). This unconsciousness ends if you regain any hit points."
+										"If damage reduces you to 0 hit points and fails to kill you, you fall {@condition Inconscient} (see the appendix). This unconsciousness ends if you regain any hit points."
 									],
 									"id": "1c0"
 								},
@@ -9297,8 +9297,8 @@
 									"page": 197,
 									"entries": [
 										"The best way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed death saving throw.",
-										"You can use your action to administer first aid to an {@condition unconscious} creature and attempt to stabilize it, which requires a successful {@dc 10} Wisdom ({@skill Medicine}) check.",
-										"A stable creature doesn't make death saving throws, even though it has 0 hit points, but it does remain {@condition unconscious}. The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after {@dice 1d4} hours."
+										"You can use your action to administer first aid to an {@condition Inconscient} creature and attempt to stabilize it, which requires a successful {@dc 10} Wisdom ({@skill Médecine}) check.",
+										"A stable creature doesn't make death saving throws, even though it has 0 hit points, but it does remain {@condition Inconscient}. The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after {@dice 1d4} hours."
 									],
 									"id": "1c4"
 								},
@@ -9316,8 +9316,8 @@
 									"name": "Monsters and Death",
 									"page": 198,
 									"entries": [
-										"Most DMs have a monster die the instant it drops to 0 hit points, rather than having it fall {@condition unconscious} and make death saving throws.",
-										"Mighty villains and special nonplayer characters are common exceptions; the DM might have them fall {@condition unconscious} and follow the same rules as player characters."
+										"Most DMs have a monster die the instant it drops to 0 hit points, rather than having it fall {@condition Inconscient} and make death saving throws.",
+										"Mighty villains and special nonplayer characters are common exceptions; the DM might have them fall {@condition Inconscient} and follow the same rules as player characters."
 									],
 									"id": "1c5"
 								}
@@ -9329,7 +9329,7 @@
 							"name": "Knocking a Creature Out",
 							"page": 198,
 							"entries": [
-								"Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 hit points with a melee attack, the attacker can knock the creature out. The attacker can make this choice the instant the damage is dealt. The creature falls {@condition unconscious} and is stable."
+								"Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 hit points with a melee attack, the attacker can knock the creature out. The attacker can make this choice the instant the damage is dealt. The creature falls {@condition Inconscient} and is stable."
 							],
 							"data": {
 								"quickrefIndex": true
@@ -9373,8 +9373,8 @@
 							"page": 198,
 							"entries": [
 								"Once during your move, you can mount a creature that is within 5 feet of you or dismount. Doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to mount a horse. Therefore, you can't mount it if you don't have 15 feet of movement left or if your speed is 0.",
-								"If an effect moves your mount against its will while you're on it, you must succeed on a {@dc 10} Dexterity saving throw or fall off the mount, landing {@condition prone} in a space within 5 feet of it. If you're knocked {@condition prone} while mounted, you must make the same saving throw.",
-								"If your mount is knocked {@condition prone}, you can use your reaction to dismount it as it falls and land on your feet. Otherwise, you are dismounted and fall {@condition prone} in a space within 5 feet it."
+								"If an effect moves your mount against its will while you're on it, you must succeed on a {@dc 10} Dexterity saving throw or fall off the mount, landing {@condition À terre} in a space within 5 feet of it. If you're knocked {@condition À terre} while mounted, you must make the same saving throw.",
+								"If your mount is knocked {@condition À terre}, you can use your reaction to dismount it as it falls and land on your feet. Otherwise, you are dismounted and fall {@condition À terre} in a space within 5 feet it."
 							],
 							"id": "1c9"
 						},
@@ -9385,7 +9385,7 @@
 							"entries": [
 								"While you're mounted, you have two options. You can either control the mount or allow it to act independently. Intelligent creatures, such as dragons, act independently.",
 								"You can control a mount only if it has been trained to accept a rider. Domesticated horses, donkeys, and similar creatures are assumed to have such training.",
-								"The initiative of a controlled mount changes to match yours when you mount it. It moves as you direct it, and it has only three action options: {@action Dash}, {@action Disengage}, and {@action Dodge}. A controlled mount can move and act even on the turn that you mount it.",
+								"The initiative of a controlled mount changes to match yours when you mount it. It moves as you direct it, and it has only three action options: {@action Course}, {@action Désengagement}, and {@action Esquive}. A controlled mount can move and act even on the turn that you mount it.",
 								"An independent mount retains its place in the initiative order. Bearing a rider puts no restrictions on the actions the mount can take, and it moves and acts as it wishes. It might flee from combat, rush to attack and devour a badly injured foe, or otherwise act against your wishes.",
 								"In either case, if the mount provokes an opportunity attack while you're on it, the attacker can target you or the mount."
 							],
@@ -9643,7 +9643,7 @@
 											"items": [
 												"{@b Casting another spell that requires concentration.} You lose concentration on a spell if you cast another spell that requires concentration. You can't concentrate on two spells at once.",
 												"{@b Taking damage.} Whenever you take damage while you are concentrating on a spell, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher. If you take damage from multiple sources, such as an arrow and a dragon's breath, you make a separate saving throw for each source of damage.",
-												"{@b Being incapacitated or killed.} You lose concentration on a spell if you are {@condition incapacitated} or if you die."
+												"{@b Being incapacitated or killed.} You lose concentration on a spell if you are {@condition Incapable} or if you die."
 											],
 											"columns": 3
 										}
@@ -9839,7 +9839,7 @@
 							"page": 205,
 							"entries": [
 								"Some spells require the caster to make an attack roll to determine whether the spell effect hits the intended target. Your attack bonus with a spell attack equals your spellcasting ability modifier + your proficiency bonus.",
-								"Most spells that require attack rolls involve ranged attacks. Remember that you have disadvantage on a ranged attack roll if you are within 5 feet of a hostile creature that can see you and that isn't {@condition incapacitated}."
+								"Most spells that require attack rolls involve ranged attacks. Remember that you have disadvantage on a ranged attack roll if you are within 5 feet of a hostile creature that can see you and that isn't {@condition Incapable}."
 							],
 							"id": "218"
 						},
@@ -13689,8 +13689,8 @@
 			"name": "Conditions",
 			"page": 289,
 			"entries": [
-				"Conditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as {@condition blinded}, are impairments, but a few, such as {@condition invisible}, can be advantageous.",
-				"A condition lasts either until it is countered (the {@condition prone} condition is countered by standing up, for example) or for a duration specified by the effect that imposed the condition.",
+				"Conditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as {@condition Aveuglé}, are impairments, but a few, such as {@condition invisible}, can be advantageous.",
+				"A condition lasts either until it is countered (the {@condition À terre} condition is countered by standing up, for example) or for a duration specified by the effect that imposed the condition.",
 				"If multiple effects impose the same condition on a creature, each instance of the condition has its own duration, but the condition's effects don't get worse. A creature either has a condition or doesn't.",
 				{
 					"type": "inlineBlock",
@@ -13699,21 +13699,21 @@
 						{
 							"type": "list",
 							"items": [
-								"{@condition blinded}",
-								"{@condition charmed}",
-								"{@condition deafened}",
-								"{@condition exhaustion}",
-								"{@condition frightened}",
-								"{@condition grappled}",
-								"{@condition incapacitated}",
+								"{@condition Aveuglé}",
+								"{@condition Charmé}",
+								"{@condition Assourdi}",
+								"{@condition Épuisement}",
+								"{@condition Effrayé}",
+								"{@condition Agrippé}",
+								"{@condition Incapable}",
 								"{@condition invisible}",
-								"{@condition paralyzed}",
-								"{@condition petrified}",
-								"{@condition poisoned}",
-								"{@condition prone}",
-								"{@condition restrained}",
-								"{@condition stunned}",
-								"{@condition unconscious}"
+								"{@condition Paralysé}",
+								"{@condition Pétrifié}",
+								"{@condition Empoisonné}",
+								"{@condition À terre}",
+								"{@condition Entravé}",
+								"{@condition Étourdi}",
+								"{@condition Inconscient}"
 							],
 							"columns": 3
 						}

@@ -96,7 +96,7 @@
 				{
 					"name": "Tongue {@recharge}",
 					"entries": [
-						"The aartuk tries to use its gooey tongue to snare one Large or smaller creature it can see within 30 feet of itself. The target must make a {@dc 12} Dexterity saving throw. On a failed save, the target is {@condition grappled} by the tongue (escape {@dc 14}) and pulled up to 25 feet toward the aartuk. The tongue can grapple one creature at a time."
+						"The aartuk tries to use its gooey tongue to snare one Large or smaller creature it can see within 30 feet of itself. The target must make a {@dc 12} Dexterity saving throw. On a failed save, the target is {@condition Agrippé} by the tongue (escape {@dc 14}) and pulled up to 25 feet toward the aartuk. The tongue can grapple one creature at a time."
 					]
 				}
 			],
@@ -231,13 +231,13 @@
 				{
 					"name": "Rally the Troops (1/Day)",
 					"entries": [
-						"The aartuk magically ends the {@condition charmed} and {@condition frightened} conditions on itself and each creature of its choice that it can see within 30 feet of itself."
+						"The aartuk magically ends the {@condition Charmé} and {@condition Effrayé} conditions on itself and each creature of its choice that it can see within 30 feet of itself."
 					]
 				},
 				{
 					"name": "Tongue {@recharge}",
 					"entries": [
-						"The aartuk tries to use its gooey tongue to snare one Medium or smaller creature it can see within 30 feet of itself. The target must make a {@dc 12} Dexterity saving throw. On a failed save, the target is {@condition grappled} by the tongue (escape {@dc 11}) and pulled up to 25 feet toward the aartuk. The tongue can grapple one creature at a time."
+						"The aartuk tries to use its gooey tongue to snare one Medium or smaller creature it can see within 30 feet of itself. The target must make a {@dc 12} Dexterity saving throw. On a failed save, the target is {@condition Agrippé} by the tongue (escape {@dc 11}) and pulled up to 25 feet toward the aartuk. The tongue can grapple one creature at a time."
 					]
 				}
 			],
@@ -349,7 +349,7 @@
 				{
 					"name": "Tongue {@recharge}",
 					"entries": [
-						"The aartuk tries to use its gooey tongue to snare one Medium or smaller creature it can see within 30 feet of itself. The target must make a {@dc 11} Dexterity saving throw. On a failed save, the target is {@condition grappled} by the tongue (escape {@dc 12}) and pulled up to 25 feet toward the aartuk. The tongue can grapple one creature at a time."
+						"The aartuk tries to use its gooey tongue to snare one Medium or smaller creature it can see within 30 feet of itself. The target must make a {@dc 11} Dexterity saving throw. On a failed save, the target is {@condition Agrippé} by the tongue (escape {@dc 12}) and pulled up to 25 feet toward the aartuk. The tongue can grapple one creature at a time."
 					]
 				}
 			],
@@ -681,7 +681,7 @@
 				{
 					"name": "Burst of Light (Costs 2 Actions)",
 					"entries": [
-						"The dragon emits magical light in a 30-foot-radius sphere centered on itself. Each creature in this area must succeed on a {@dc 23} Wisdom saving throw or be {@condition blinded} until the end of its next turn."
+						"The dragon emits magical light in a 30-foot-radius sphere centered on itself. Each creature in this area must succeed on a {@dc 23} Wisdom saving throw or be {@condition Aveuglé} until the end of its next turn."
 					]
 				}
 			],
@@ -859,7 +859,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a {@dc 21} Dexterity saving throw or take 12 ({@damage 1d8 + 8}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its speed without provoking opportunity attacks."
+						"The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a {@dc 21} Dexterity saving throw or take 12 ({@damage 1d8 + 8}) bludgeoning damage and be knocked {@condition À terre}. The dragon can then fly up to half its speed without provoking opportunity attacks."
 					]
 				}
 			],
@@ -1035,7 +1035,7 @@
 				{
 					"name": "Blinding Brilliance (Costs 2 Actions)",
 					"entries": [
-						"The dragon emits magical light in a 30-foot-radius sphere centered on itself. Each creature in this area must succeed on a {@dc 23} Wisdom saving throw or be {@condition blinded} until the end of its next turn."
+						"The dragon emits magical light in a 30-foot-radius sphere centered on itself. Each creature in this area must succeed on a {@dc 23} Wisdom saving throw or be {@condition Aveuglé} until the end of its next turn."
 					]
 				}
 			],
@@ -1104,7 +1104,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item elven chain}"
+						"{@item Cotte d'elfe}"
 					]
 				}
 			],
@@ -1165,13 +1165,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The elf has advantage on saving throws it makes to avoid or end the {@condition charmed} condition on itself, and magic can't put it to sleep."
+						"The elf has advantage on saving throws it makes to avoid or end the {@condition Charmé} condition on itself, and magic can't put it to sleep."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"The elf wears a suit of {@item elven chain}."
+						"The elf wears a suit of {@item Cotte d'elfe}."
 					]
 				},
 				{
@@ -1275,7 +1275,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item half plate armor|PHB|half plate}"
+						"{@item Demi-plate|PHB|half plate}"
 					]
 				}
 			],
@@ -1334,7 +1334,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The elf has advantage on saving throws it makes to avoid or end the {@condition charmed} condition on itself, and magic can't put it to sleep."
+						"The elf has advantage on saving throws it makes to avoid or end the {@condition Charmé} condition on itself, and magic can't put it to sleep."
 					]
 				},
 				{
@@ -1419,7 +1419,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item half plate armor|PHB|half plate}"
+						"{@item Demi-plate|PHB|half plate}"
 					]
 				}
 			],
@@ -1459,7 +1459,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The elf has advantage on saving throws it makes to avoid or end the {@condition charmed} condition on itself, and magic can't put it to sleep."
+						"The elf has advantage on saving throws it makes to avoid or end the {@condition Charmé} condition on itself, and magic can't put it to sleep."
 					]
 				},
 				{
@@ -1542,7 +1542,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item chain shirt|phb}"
+						"{@item Chemise de mailles|phb}"
 					]
 				}
 			],
@@ -1604,7 +1604,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The elf has advantage on saving throws it makes to avoid or end the {@condition charmed} condition on itself, and magic can't put it to sleep."
+						"The elf has advantage on saving throws it makes to avoid or end the {@condition Charmé} condition on itself, and magic can't put it to sleep."
 					]
 				},
 				{
@@ -1702,7 +1702,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item breastplate|PHB}"
+						"{@item Cuirasse|PHB}"
 					]
 				}
 			],
@@ -1741,7 +1741,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The elf has advantage on saving throws it makes to avoid or end the {@condition charmed} condition on itself, and magic can't put it to sleep."
+						"The elf has advantage on saving throws it makes to avoid or end the {@condition Charmé} condition on itself, and magic can't put it to sleep."
 					]
 				},
 				{
@@ -1882,7 +1882,7 @@
 									"type": "item",
 									"name": "11-12: \"My Mind Is Going. I Can Feel It.\"",
 									"entries": [
-										"The autognome is {@condition incapacitated} for 1 minute."
+										"The autognome is {@condition Incapable} for 1 minute."
 									]
 								},
 								{
@@ -1896,7 +1896,7 @@
 									"type": "item",
 									"name": "15-16: \"Who Turned Out the Lights?\"",
 									"entries": [
-										"The autognome's head falls off and deactivates, causing the autognome to be {@condition blinded} and {@condition deafened} until a creature uses an action to reattach the head, which reactivates it."
+										"The autognome's head falls off and deactivates, causing the autognome to be {@condition Aveuglé} and {@condition Assourdi} until a creature uses an action to reattach the head, which reactivates it."
 									]
 								},
 								{
@@ -2024,7 +2024,7 @@
 				{
 					"name": "Hideous Rend",
 					"entries": [
-						"The b'rohg uses all four of its hands to target one Large or smaller creature it can see within 10 feet of itself. The target must succeed on a {@dc 16} Dexterity saving throw or be {@condition grappled} (escape {@dc 16}). Until this grapple ends, the b'rohg can't make Fist attacks or Rock attacks, and the target takes 49 ({@damage 8d10 + 5}) bludgeoning damage at the start of each of its turns. A creature reduced to 0 hit points by this damage is ripped into four pieces."
+						"The b'rohg uses all four of its hands to target one Large or smaller creature it can see within 10 feet of itself. The target must succeed on a {@dc 16} Dexterity saving throw or be {@condition Agrippé} (escape {@dc 16}). Until this grapple ends, the b'rohg can't make Fist attacks or Rock attacks, and the target takes 49 ({@damage 8d10 + 5}) bludgeoning damage at the start of each of its turns. A creature reduced to 0 hit points by this damage is ripped into four pieces."
 					]
 				}
 			],
@@ -2250,8 +2250,8 @@
 					"name": "Swallowing Bite",
 					"entries": [
 						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 13} Dexterity saving throw or be swallowed by the scavver. The scavver can have one creature swallowed at a time.",
-						"A swallowed creature is {@condition blinded} and {@condition restrained}, has {@quickref Cover||3||total cover} against attacks and other effects outside the scavver, and takes 13 ({@damage 3d8}) poison damage at the start of each of the scavver's turns from the poisonous gas in the scavver's gullet.",
-						"If the scavver takes 15 damage or more on a single turn from a creature inside it, the scavver must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls {@condition prone} in a space within 10 feet of the scavver. If the scavver dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 10 feet of movement, exiting {@condition prone}."
+						"A swallowed creature is {@condition Aveuglé} and {@condition Entravé}, has {@quickref Cover||3||total cover} against attacks and other effects outside the scavver, and takes 13 ({@damage 3d8}) poison damage at the start of each of the scavver's turns from the poisonous gas in the scavver's gullet.",
+						"If the scavver takes 15 damage or more on a single turn from a creature inside it, the scavver must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls {@condition À terre} in a space within 10 feet of the scavver. If the scavver dies, a swallowed creature is no longer {@condition Entravé} by it and can escape from the corpse by using 10 feet of movement, exiting {@condition À terre}."
 					]
 				}
 			],
@@ -2344,7 +2344,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails, provided it isn't {@condition incapacitated}."
+						"When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails, provided it isn't {@condition Incapable}."
 					]
 				},
 				{
@@ -2472,7 +2472,7 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 30 ft., one target. {@h}18 ({@damage 3d6 + 8}) force damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the horror can't use this tentacle against other targets. The horror has {@dice 1d8 + 1} tentacles, each of which can grapple one target."
+						"{@atk mw} {@hit 14} to hit, reach 30 ft., one target. {@h}18 ({@damage 3d6 + 8}) force damage, and if the target is a creature, it is {@condition Agrippé} (escape {@dc 18}). Until this grapple ends, the horror can't use this tentacle against other targets. The horror has {@dice 1d8 + 1} tentacles, each of which can grapple one target."
 					]
 				},
 				{
@@ -2486,7 +2486,7 @@
 				{
 					"name": "Crushing Tentacle",
 					"entries": [
-						"The horror crushes one creature it is grappling. The {@condition grappled} creature must make a {@dc 22} Constitution saving throw, taking 18 ({@damage 3d6 + 8}) force damage on a failed save, or half as much damage on a successful one."
+						"The horror crushes one creature it is grappling. The {@condition Agrippé} creature must make a {@dc 22} Constitution saving throw, taking 18 ({@damage 3d6 + 8}) force damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -2725,7 +2725,7 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 30 ft., one target. {@h}17 ({@damage 3d6 + 7}) force damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the creature takes 18 ({@damage 4d8}) acid damage at the start of each of its turns, and the esthetic can't use this tentacle against other targets. The esthetic has {@dice 1d4 × 2} tentacles, each of which can grapple one target."
+						"{@atk mw} {@hit 11} to hit, reach 30 ft., one target. {@h}17 ({@damage 3d6 + 7}) force damage, and if the target is a creature, it is {@condition Agrippé} (escape {@dc 17}). Until this grapple ends, the creature takes 18 ({@damage 4d8}) acid damage at the start of each of its turns, and the esthetic can't use this tentacle against other targets. The esthetic has {@dice 1d4 × 2} tentacles, each of which can grapple one target."
 					]
 				}
 			],
@@ -2842,8 +2842,8 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage, and if the target is a Medium or smaller creature, it must succeed on a {@dc 18} Dexterity saving throw or be swallowed by the eye monger and deposited in the eye monger's gullet (see Antimagic Gullet). The eye monger can swallow one creature at a time. A swallowed creature is {@condition blinded} and {@condition restrained}, has {@quickref Cover||3||total cover} against attacks and other effects originating outside the eye monger, and takes 35 ({@damage 10d6}) acid damage at the start of each of its turns.",
-						"If the eye monger takes 25 damage or more on a single turn from a creature inside its gullet, the eye monger regurgitates the swallowed creature, which falls {@condition prone} in a space within 10 feet of the eye monger. If the eye monger dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 10 feet of movement, exiting {@condition prone}."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage, and if the target is a Medium or smaller creature, it must succeed on a {@dc 18} Dexterity saving throw or be swallowed by the eye monger and deposited in the eye monger's gullet (see Antimagic Gullet). The eye monger can swallow one creature at a time. A swallowed creature is {@condition Aveuglé} and {@condition Entravé}, has {@quickref Cover||3||total cover} against attacks and other effects originating outside the eye monger, and takes 35 ({@damage 10d6}) acid damage at the start of each of its turns.",
+						"If the eye monger takes 25 damage or more on a single turn from a creature inside its gullet, the eye monger regurgitates the swallowed creature, which falls {@condition À terre} in a space within 10 feet of the eye monger. If the eye monger dies, a swallowed creature is no longer {@condition Entravé} by it and can escape from the corpse by using 10 feet of movement, exiting {@condition À terre}."
 					]
 				}
 			],
@@ -2955,13 +2955,13 @@
 				{
 					"name": "Frightful Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d10 + 3}) piercing damage, and each creature within 10 feet of the feyr that can see it must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} of the feyr until the end of the feyr's next turn."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d10 + 3}) piercing damage, and each creature within 10 feet of the feyr that can see it must succeed on a {@dc 13} Wisdom saving throw or be {@condition Effrayé} of the feyr until the end of the feyr's next turn."
 					]
 				},
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one creature. {@h}17 ({@damage 4d6 + 3}) psychic damage, and the target is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the feyr can't use this tentacle against other targets. The feyr has two tentacles, each of which can grapple one creature."
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one creature. {@h}17 ({@damage 4d6 + 3}) psychic damage, and the target is {@condition Agrippé} (escape {@dc 13}). Until this grapple ends, the feyr can't use this tentacle against other targets. The feyr has two tentacles, each of which can grapple one creature."
 					]
 				},
 				{
@@ -2973,7 +2973,7 @@
 				{
 					"name": "Nightmare Fuel (1/Day)",
 					"entries": [
-						"The feyr targets one {@condition unconscious} creature it can see within 10 feet of itself. The target must succeed on a {@dc 13} Wisdom saving throw or take 27 ({@damage 5d10}) psychic damage, and the feyr gains temporary hit points equal to the damage dealt."
+						"The feyr targets one {@condition Inconscient} creature it can see within 10 feet of itself. The target must succeed on a {@dc 13} Wisdom saving throw or take 27 ({@damage 5d10}) psychic damage, and the feyr gains temporary hit points equal to the damage dealt."
 					]
 				}
 			],
@@ -3067,19 +3067,19 @@
 				{
 					"name": "Mandibles",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d6 + 3}) slashing damage, and the target is {@condition grappled} (escape {@dc 11}). Until the grapple ends, the target takes 10 ({@damage 2d6 + 3}) slashing damage at the start of each of the gaj's turns. While it is grappling a creature, the gaj can't use its mandibles to attack other creatures."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d6 + 3}) slashing damage, and the target is {@condition Agrippé} (escape {@dc 11}). Until the grapple ends, the target takes 10 ({@damage 2d6 + 3}) slashing damage at the start of each of the gaj's turns. While it is grappling a creature, the gaj can't use its mandibles to attack other creatures."
 					]
 				},
 				{
 					"name": "Mind-Probing Antennae",
 					"entries": [
-						"The gaj targets one creature {@condition grappled} by it. The target must make a {@dc 12} Wisdom saving throw. On a failed save, the target takes 16 ({@damage 3d10}) psychic damage, and the gaj magically pulls one piece of information from the target's mind that the gaj wants to know. On a successful save, the target takes half as much damage, and the gaj learns nothing."
+						"The gaj targets one creature {@condition Agrippé} by it. The target must make a {@dc 12} Wisdom saving throw. On a failed save, the target takes 16 ({@damage 3d10}) psychic damage, and the gaj magically pulls one piece of information from the target's mind that the gaj wants to know. On a successful save, the target takes half as much damage, and the gaj learns nothing."
 					]
 				},
 				{
 					"name": "Paralyze {@recharge}",
 					"entries": [
-						"The gaj magically targets one creature it can see within 60 feet of itself. The target must succeed on a {@dc 12} Wisdom saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The gaj magically targets one creature it can see within 60 feet of itself. The target must succeed on a {@dc 12} Wisdom saving throw or be {@condition Paralysé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -3206,7 +3206,7 @@
 				{
 					"name": "Steady as She Goes",
 					"entries": [
-						"On the deck of a ship, the giff has advantage on ability checks and saving throws made against effects that would knock it {@condition prone} or shove it overboard."
+						"On the deck of a ship, the giff has advantage on ability checks and saving throws made against effects that would knock it {@condition À terre} or shove it overboard."
 					]
 				}
 			],
@@ -3281,7 +3281,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|PHB|plate}"
+						"{@item Harnois de plaques|PHB|plate}"
 					]
 				}
 			],
@@ -3324,7 +3324,7 @@
 				{
 					"name": "Headfirst Charge",
 					"entries": [
-						"If the giff moves at least 20 feet in a straight line and ends within 5 feet of a Large or smaller creature, that creature must succeed on a {@dc 16} Strength saving throw or take 7 ({@damage 2d6}) bludgeoning damage and be knocked {@condition prone}."
+						"If the giff moves at least 20 feet in a straight line and ends within 5 feet of a Large or smaller creature, that creature must succeed on a {@dc 16} Strength saving throw or take 7 ({@damage 2d6}) bludgeoning damage and be knocked {@condition À terre}."
 					]
 				},
 				{
@@ -3411,7 +3411,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item half plate armor|PHB|half plate}"
+						"{@item Demi-plate|PHB|half plate}"
 					]
 				}
 			],
@@ -3489,7 +3489,7 @@
 				{
 					"name": "Rallying Cry",
 					"entries": [
-						"The giff ends the {@condition frightened} condition on itself and each creature of its choice that it can see within 30 feet of it."
+						"The giff ends the {@condition Effrayé} condition on itself and each creature of its choice that it can see within 30 feet of it."
 					]
 				},
 				{
@@ -3546,7 +3546,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item breastplate|PHB}"
+						"{@item Cuirasse|PHB}"
 					]
 				}
 			],
@@ -4028,7 +4028,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|PHB|studded leather}"
+						"{@item Armure de cuir clouté|PHB|studded leather}"
 					]
 				}
 			],
@@ -4066,7 +4066,7 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"If it isn't {@condition incapacitated} or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air."
+						"If it isn't {@condition Incapable} or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air."
 					]
 				}
 			],
@@ -4094,7 +4094,7 @@
 				{
 					"name": "Nimble Escape",
 					"entries": [
-						"The hadozee takes the {@action Disengage} or {@action Hide} action."
+						"The hadozee takes the {@action Désengagement} or {@action Se cacher} action."
 					]
 				}
 			],
@@ -4177,7 +4177,7 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"If it isn't {@condition incapacitated} or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air."
+						"If it isn't {@condition Incapable} or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air."
 					]
 				}
 			],
@@ -4234,7 +4234,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item breastplate|PHB}"
+						"{@item Cuirasse|PHB}"
 					]
 				}
 			],
@@ -4271,7 +4271,7 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"If it isn't {@condition incapacitated} or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air."
+						"If it isn't {@condition Incapable} or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air."
 					]
 				}
 			],
@@ -4378,7 +4378,7 @@
 				{
 					"name": "Spelljammer Overload",
 					"entries": [
-						"If the leech is reduced to 0 hit points while attached to a ship that has a spelljamming helm, the creature attuned to that helm must make a {@dc 13} Constitution saving throw. On a failed save, the creature takes 10 ({@damage 4d4}) psychic damage and is {@condition incapacitated} for 1 minute. On a successful save, the creature takes half as much damage and is {@condition incapacitated} until the end of its next turn."
+						"If the leech is reduced to 0 hit points while attached to a ship that has a spelljamming helm, the creature attuned to that helm must make a {@dc 13} Constitution saving throw. On a failed save, the creature takes 10 ({@damage 4d4}) psychic damage and is {@condition Incapable} for 1 minute. On a successful save, the creature takes half as much damage and is {@condition Incapable} until the end of its next turn."
 					]
 				},
 				{
@@ -4408,7 +4408,7 @@
 				{
 					"name": "Magical Discharge (1/Day)",
 					"entries": [
-						"When it takes damage, the leech can discharge a bolt of magical energy from its eye that targets one creature it can see within 30 feet of itself. The target must succeed on a {@dc 13} Dexterity saving throw or take 10 ({@damage 3d6}) force damage and be {@condition stunned} until the end of its next turn."
+						"When it takes damage, the leech can discharge a bolt of magical energy from its eye that targets one creature it can see within 30 feet of itself. The target must succeed on a {@dc 13} Dexterity saving throw or take 10 ({@damage 3d6}) force damage and be {@condition Étourdi} until the end of its next turn."
 					]
 				}
 			],
@@ -4503,7 +4503,7 @@
 				{
 					"name": "Flashing Eyes {@recharge}",
 					"entries": [
-						"The kindori emits bright light in a 120-foot cone. Each creature in the cone must succeed on a {@dc 14} Wisdom saving throw or be {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The kindori emits bright light in a 120-foot cone. Each creature in the cone must succeed on a {@dc 14} Wisdom saving throw or be {@condition Aveuglé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -4721,7 +4721,7 @@
 				{
 					"name": "Psychic Bomb",
 					"entries": [
-						"The megapede targets one creature it can see within 60 feet of itself. The target must make a {@dc 15} Wisdom saving throw. On a failed save, the target takes 22 ({@damage 5d8}) psychic damage and is {@condition incapacitated} until the end of its next turn. On a successful save, the target takes half as much damage and isn't {@condition incapacitated}."
+						"The megapede targets one creature it can see within 60 feet of itself. The target must make a {@dc 15} Wisdom saving throw. On a failed save, the target takes 22 ({@damage 5d8}) psychic damage and is {@condition Incapable} until the end of its next turn. On a successful save, the target takes half as much damage and isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -4847,7 +4847,7 @@
 				{
 					"name": "Psi-Imbued Blade",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage, and if the target is a creature, it must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} of the mercane until the end of the target's next turn."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage, and if the target is a creature, it must succeed on a {@dc 15} Wisdom saving throw or be {@condition Effrayé} of the mercane until the end of the target's next turn."
 					]
 				}
 			],
@@ -5135,13 +5135,13 @@
 				{
 					"name": "Extract Brain",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one {@condition incapacitated} Humanoid. {@h}35 ({@damage 10d6}) piercing damage. If this damage reduces the target to 0 hit points, the neh-thalggu kills the target by extracting and consuming its brain."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one {@condition Incapable} Humanoid. {@h}35 ({@damage 10d6}) piercing damage. If this damage reduces the target to 0 hit points, the neh-thalggu kills the target by extracting and consuming its brain."
 					]
 				},
 				{
 					"name": "Mind Blast {@recharge 5}",
 					"entries": [
-						"The neh-thalggu magically emits psychic energy at one Humanoid it can see within 10 feet of itself. The target must make a {@dc 14} Wisdom saving throw. On a failed save, the target takes 9 ({@damage 2d8}) psychic damage and is {@condition incapacitated} until the end of its next turn. On a successful save, the target takes half as much damage and isn't {@condition incapacitated}."
+						"The neh-thalggu magically emits psychic energy at one Humanoid it can see within 10 feet of itself. The target must make a {@dc 14} Wisdom saving throw. On a failed save, the target takes 9 ({@damage 2d8}) psychic damage and is {@condition Incapable} until the end of its next turn. On a successful save, the target takes half as much damage and isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -5265,7 +5265,7 @@
 				{
 					"name": "Swarm of Bites",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}22 ({@damage 6d6 + 1}) poison damage, or 11 ({@damage 3d6 + 1}) poison damage if the swarm has half of its hit points or fewer, and the target must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}22 ({@damage 6d6 + 1}) poison damage, or 11 ({@damage 3d6 + 1}) poison damage if the swarm has half of its hit points or fewer, and the target must succeed on a {@dc 12} Constitution saving throw or become {@condition Empoisonné} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -5310,7 +5310,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item breastplate|PHB}"
+						"{@item Cuirasse|PHB}"
 					]
 				}
 			],
@@ -5346,7 +5346,7 @@
 				{
 					"name": "Mental Fortitude",
 					"entries": [
-						"The neogi has advantage on saving throws against being {@condition charmed} or {@condition frightened}, and magic can't put the neogi to sleep."
+						"The neogi has advantage on saving throws against being {@condition Charmé} or {@condition Effrayé}, and magic can't put the neogi to sleep."
 					]
 				},
 				{
@@ -5366,7 +5366,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 14 ({@damage 4d6}) poison damage, and the target must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 14 ({@damage 4d6}) poison damage, and the target must succeed on a {@dc 12} Constitution saving throw or become {@condition Empoisonné} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -5496,7 +5496,7 @@
 				{
 					"name": "Mental Fortitude",
 					"entries": [
-						"The neogi has advantage on saving throws against being {@condition charmed} or {@condition frightened}, and magic can't put the neogi to sleep."
+						"The neogi has advantage on saving throws against being {@condition Charmé} or {@condition Effrayé}, and magic can't put the neogi to sleep."
 					]
 				},
 				{
@@ -5516,7 +5516,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 14 ({@damage 4d6}) poison damage, and the target must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 14 ({@damage 4d6}) poison damage, and the target must succeed on a {@dc 12} Constitution saving throw or become {@condition Empoisonné} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -5536,7 +5536,7 @@
 				{
 					"name": "Enslave (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The neogi targets one creature it can see within 30 feet of itself. The target must succeed on a {@dc 14} Wisdom saving throw or be magically {@condition charmed} by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The {@condition charmed} target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the {@condition charmed} target takes damage, it can repeat the saving throw, ending the effect on itself on a success."
+						"The neogi targets one creature it can see within 30 feet of itself. The target must succeed on a {@dc 14} Wisdom saving throw or be magically {@condition Charmé} by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The {@condition Charmé} target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the {@condition Charmé} target takes damage, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -5896,7 +5896,7 @@
 					"ac": 16,
 					"from": [
 						"natural armor",
-						"{@item shield|PHB}"
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -6226,7 +6226,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The psurlon has advantage on saving throws it makes to avoid or end the {@condition frightened}, {@condition stunned}, or {@condition unconscious} condition on itself. While one of the psurlon's heads is asleep, its other head is awake."
+						"The psurlon has advantage on saving throws it makes to avoid or end the {@condition Effrayé}, {@condition Étourdi}, or {@condition Inconscient} condition on itself. While one of the psurlon's heads is asleep, its other head is awake."
 					]
 				}
 			],
@@ -6252,7 +6252,7 @@
 				{
 					"name": "Pacify {@recharge 5}",
 					"entries": [
-						"The psurlon targets one creature it can see within 120 feet of itself. The target must succeed on a {@dc 16} Wisdom saving throw or fall {@condition unconscious} for 10 minutes. The condition ends if the target takes any damage or if another creature uses its action to shake the target awake."
+						"The psurlon targets one creature it can see within 120 feet of itself. The target must succeed on a {@dc 16} Wisdom saving throw or fall {@condition Inconscient} for 10 minutes. The condition ends if the target takes any damage or if another creature uses its action to shake the target awake."
 					]
 				},
 				{
@@ -6816,7 +6816,7 @@
 				{
 					"name": "Ray Gun",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 120 ft., one creature. {@h}7 ({@damage 2d6}) psychic damage, and if the target is a Humanoid with an Intelligence score of 3 or higher, it must make a {@dc 12} Wisdom saving throw. On a failed save, the target perceives everything it sees or hears as hilariously funny and is {@condition incapacitated} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk rs} {@hit 5} to hit, range 120 ft., one creature. {@h}7 ({@damage 2d6}) psychic damage, and if the target is a Humanoid with an Intelligence score of 3 or higher, it must make a {@dc 12} Wisdom saving throw. On a failed save, the target perceives everything it sees or hears as hilariously funny and is {@condition Incapable} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -6824,7 +6824,7 @@
 				{
 					"name": "Phantasmal Form (3/Day)",
 					"entries": [
-						"The clown veils itself and everything it is wearing and carrying in an illusion that makes it look like some other creature of its size or smaller (such as a child) or an object small enough to fit in the clown's space (such as a floating balloon). Maintaining this effect requires the clown's {@status concentration} (as if {@status concentration||concentrating} on a spell), and the illusion fails to hold up to physical inspection. As an action, a creature that can see the clown's illusory form can make a {@dc 15} Wisdom ({@skill Insight}) check, piercing the illusion and discerning the clown's true form on a success."
+						"The clown veils itself and everything it is wearing and carrying in an illusion that makes it look like some other creature of its size or smaller (such as a child) or an object small enough to fit in the clown's space (such as a floating balloon). Maintaining this effect requires the clown's {@status concentration} (as if {@status concentration||concentrating} on a spell), and the illusion fails to hold up to physical inspection. As an action, a creature that can see the clown's illusory form can make a {@dc 15} Wisdom ({@skill Perspicacité}) check, piercing the illusion and discerning the clown's true form on a success."
 					]
 				}
 			],
@@ -6914,7 +6914,7 @@
 				{
 					"name": "Tail Spine",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}3 ({@damage 1d4 + 1}) piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned} for 1 minute. Until this poison ends, the target is {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}3 ({@damage 1d4 + 1}) piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition Empoisonné} for 1 minute. Until this poison ends, the target is {@condition Paralysé}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -7068,7 +7068,7 @@
 				{
 					"name": "Go for the Eyes {@recharge}",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d6 + 5}) piercing damage, and the target must succeed on a {@dc 15} Dexterity saving throw or be {@condition blinded} until the start of the hamster's next turn."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d6 + 5}) piercing damage, and the target must succeed on a {@dc 15} Dexterity saving throw or be {@condition Aveuglé} until the start of the hamster's next turn."
 					]
 				}
 			],
@@ -7076,7 +7076,7 @@
 				{
 					"name": "Escape",
 					"entries": [
-						"The hamster takes the {@action Dash} or {@action Disengage} action."
+						"The hamster takes the {@action Course} or {@action Désengagement} action."
 					]
 				}
 			],
@@ -7387,7 +7387,7 @@
 					"ac": 16,
 					"from": [
 						"natural armor",
-						"{@item shield|PHB}"
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -7585,13 +7585,13 @@
 				{
 					"name": "Radiant Eruption",
 					"entries": [
-						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 120 ft., one target. {@h}20 ({@damage 5d6 + 3}) radiant damage, and if the target is a creature, it must succeed on a {@dc 14} Wisdom saving throw or be {@condition blinded} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 120 ft., one target. {@h}20 ({@damage 5d6 + 3}) radiant damage, and if the target is a creature, it must succeed on a {@dc 14} Wisdom saving throw or be {@condition Aveuglé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Possession {@recharge}",
 					"entries": [
-						"One Humanoid that the apparition can see within 5 feet of itself must succeed on a {@dc 14} Charisma saving throw or be possessed by the apparition; the apparition then disappears, and the target is {@condition incapacitated} and loses control of its body. The apparition now controls the body but doesn't deprive the target of awareness. The apparition can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"One Humanoid that the apparition can see within 5 feet of itself must succeed on a {@dc 14} Charisma saving throw or be possessed by the apparition; the apparition then disappears, and the target is {@condition Incapable} and loses control of its body. The apparition now controls the body but doesn't deprive the target of awareness. The apparition can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition Charmé} and {@condition Effrayé}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
 						"The possession lasts until the body drops to 0 hit points, the apparition ends it as a bonus action, the body leaves the Astral Plane, or the apparition is forced out by an effect like the {@spell dispel evil and good} spell. When the possession ends, the apparition reappears in an unoccupied space within 5 feet of the body. If it reappears in a location not on the Astral Plane, the apparition is destroyed. The target is immune to this apparition's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
 					]
 				}
@@ -7814,7 +7814,7 @@
 				{
 					"name": "Chameleon Carapace",
 					"entries": [
-						"The thri-kreen changes the color of its carapace to match the color and texture of its surroundings, gaining advantage on Dexterity ({@skill Stealth}) checks it makes to hide in those surroundings."
+						"The thri-kreen changes the color of its carapace to match the color and texture of its surroundings, gaining advantage on Dexterity ({@skill Discrétion}) checks it makes to hide in those surroundings."
 					]
 				},
 				{
@@ -7954,7 +7954,7 @@
 				{
 					"name": "Chameleon Carapace",
 					"entries": [
-						"The thri-kreen changes the color of its carapace to match the color and texture of its surroundings, gaining advantage on Dexterity ({@skill Stealth}) checks it makes to hide in those surroundings."
+						"The thri-kreen changes the color of its carapace to match the color and texture of its surroundings, gaining advantage on Dexterity ({@skill Discrétion}) checks it makes to hide in those surroundings."
 					]
 				}
 			],
@@ -8470,8 +8470,8 @@
 					"name": "Swallowing Bite",
 					"entries": [
 						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}45 ({@damage 6d12 + 6}) piercing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 16} Dexterity saving throw or be swallowed by the scavver. The scavver can have one creature swallowed at a time.",
-						"A swallowed creature is {@condition blinded} and {@condition restrained}, has {@quickref Cover||3||total cover} against attacks and other effects outside the scavver, and takes 11 ({@damage 2d10}) acid damage at the start of each of the scavver's turns from the digestive juices in the scavver's gullet.",
-						"If the scavver takes 25 damage or more on a single turn from a creature inside it, the scavver must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls {@condition prone} in a space within 10 feet of the scavver. If the scavver dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 10 feet of movement, exiting {@condition prone}."
+						"A swallowed creature is {@condition Aveuglé} and {@condition Entravé}, has {@quickref Cover||3||total cover} against attacks and other effects outside the scavver, and takes 11 ({@damage 2d10}) acid damage at the start of each of the scavver's turns from the digestive juices in the scavver's gullet.",
+						"If the scavver takes 25 damage or more on a single turn from a creature inside it, the scavver must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls {@condition À terre} in a space within 10 feet of the scavver. If the scavver dies, a swallowed creature is no longer {@condition Entravé} by it and can escape from the corpse by using 10 feet of movement, exiting {@condition À terre}."
 					]
 				}
 			],
@@ -8479,7 +8479,7 @@
 				{
 					"name": "Ray of Fear {@recharge 4}",
 					"entries": [
-						"The scavver's eye emits an {@condition invisible}, magical ray that targets one creature the scavver can see within 60 feet of itself. The target must succeed on a {@dc 16} Wisdom saving throw or be {@condition frightened} of the scavver until the start of the scavver's next turn."
+						"The scavver's eye emits an {@condition invisible}, magical ray that targets one creature the scavver can see within 60 feet of itself. The target must succeed on a {@dc 16} Wisdom saving throw or be {@condition Effrayé} of the scavver until the start of the scavver's next turn."
 					]
 				}
 			],

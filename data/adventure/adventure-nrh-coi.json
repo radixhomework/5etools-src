@@ -46,7 +46,7 @@
 							"name": "TPK: Total Party Kill",
 							"page": 3,
 							"entries": [
-								"In solo play, there's always a chance the character can die. In the case of a single adventurer, this death results in the end of play; which isn't optimal for an afternoon of fun! One way to avoid death is to have healing readily available to the adventurer. If they're without healing, have the character find the odd {@item potion of healing} lying in a dusty crate or have them discover a special healing plant on their journey that, if eaten, puts them back to full hit points.",
+								"In solo play, there's always a chance the character can die. In the case of a single adventurer, this death results in the end of play; which isn't optimal for an afternoon of fun! One way to avoid death is to have healing readily available to the adventurer. If they're without healing, have the character find the odd {@item Potion de soins} lying in a dusty crate or have them discover a special healing plant on their journey that, if eaten, puts them back to full hit points.",
 								"In the case of an untimely death, you can have a helpful NPC (like Mr. Honeycutt) save the day and revive them, or you can have them forego death saving throws and wake up as they're being dragged someplace unpleasant."
 							],
 							"id": "003"
@@ -99,7 +99,7 @@
 							],
 							"id": "007"
 						},
-						"The nervous man introduces himself as {@creature Mr. Honeycutt|NRH-TCMC} and says to Green that he needs their help in a matter of utmost importance. If Green is willing to hear Mr. Honeycutt out, he tells Green that he's the current Magister of the Lorekeeper Society\u2014an ancient and secret group dedicated to the defense of Harmony. He believes he knows how to solve the mystery of the color outages and to do this, he needs to recover the Emerald Gem. He believes this gemstone is in the possession of a thief who's somewhere in the Circus of Illusions, an entertainment mainstay of Harmony. Mr. Honeycutt says a bard of Green's talent and charm could easily infiltrate the circus as a performer. If Green is amenable, Mr. Honeycutt gives Green a {@item potion of healing} and whispers \"Watch out for the clowns.\" He awaits Green's return in the tavern."
+						"The nervous man introduces himself as {@creature Mr. Honeycutt|NRH-TCMC} and says to Green that he needs their help in a matter of utmost importance. If Green is willing to hear Mr. Honeycutt out, he tells Green that he's the current Magister of the Lorekeeper Society\u2014an ancient and secret group dedicated to the defense of Harmony. He believes he knows how to solve the mystery of the color outages and to do this, he needs to recover the Emerald Gem. He believes this gemstone is in the possession of a thief who's somewhere in the Circus of Illusions, an entertainment mainstay of Harmony. Mr. Honeycutt says a bard of Green's talent and charm could easily infiltrate the circus as a performer. If Green is amenable, Mr. Honeycutt gives Green a {@item Potion de soins} and whispers \"Watch out for the clowns.\" He awaits Green's return in the tavern."
 					],
 					"id": "006"
 				},
@@ -116,7 +116,7 @@
 							"page": 4,
 							"entries": [
 								"Green can choose to pay 1 sp and enter by the main gate or to sneak in. The circus is patrolled by tough-looking clowns wearing colorful costumes, big boots, and red noses. Although the clowns honk horns and act jolly, it's clear they could handle themselves in a fight.",
-								"Should anyone try to break into the circus or cause trouble, they run afoul of a couple of these clowns. Avoiding the clowns requires a successful {@dc 12} Dexterity ({@skill Stealth}) check. On a failure, {@dice 1d4} {@creature clown|NRH-CoI|clowns} investigate, ready to pummel and eject any trespassers or ne'er-do-wells. If Green turns to run away, the clowns don't give chase, but shout taunts and honk horns at them.",
+								"Should anyone try to break into the circus or cause trouble, they run afoul of a couple of these clowns. Avoiding the clowns requires a successful {@dc 12} Dexterity ({@skill Discrétion}) check. On a failure, {@dice 1d4} {@creature clown|NRH-CoI|clowns} investigate, ready to pummel and eject any trespassers or ne'er-do-wells. If Green turns to run away, the clowns don't give chase, but shout taunts and honk horns at them.",
 								"Charming the clowns takes real skill and can only be done with a successful {@dc 15} Charisma ({@skill Persuasion}) check."
 							],
 							"id": "009"
@@ -243,14 +243,14 @@
 															"type": "item",
 															"name": "Play It Safe",
 															"entries": [
-																"Green plays it safe and gives a solid, but uninspired, performance. If your player does some inspired roleplaying, give them advantage on the check. Green must make a {@dc 12} Charisma ({@skill Performance}) check. On a failure, there are some frowning faces and maybe a couple of yawns. Clearly, they weren't expecting much. On a success, the crowd claps politely and then quickly forgets the performance as they wait for the next show."
+																"Green plays it safe and gives a solid, but uninspired, performance. If your player does some inspired roleplaying, give them advantage on the check. Green must make a {@dc 12} Charisma ({@skill Représentation}) check. On a failure, there are some frowning faces and maybe a couple of yawns. Clearly, they weren't expecting much. On a success, the crowd claps politely and then quickly forgets the performance as they wait for the next show."
 															]
 														},
 														{
 															"type": "item",
 															"name": "Go for It!",
 															"entries": [
-																"Green attempts the performance of a lifetime with a {@dc 15} Charisma ({@skill Performance}) check. If your player does some inspired roleplaying, they have advantage on the check, or you could even allow them to succeed outright. On a failure, there are audible groans from the crowd and Rubina manages to crack a supportive smile, but looks crestfallen. On a success, minds are blown, the crowd goes wild, and there are calls for encores. After the show, signatures are demanded. From now on, Green is a celebrity in the city of Harmony. At the end of all the hubbub, Rubina approaches Green with tears in her eyes and gives Green a doss lute. There's an audible gasp from the crowd. \"It was sublime. A gift that has lifted my spirits forever,\" Rubina says."
+																"Green attempts the performance of a lifetime with a {@dc 15} Charisma ({@skill Représentation}) check. If your player does some inspired roleplaying, they have advantage on the check, or you could even allow them to succeed outright. On a failure, there are audible groans from the crowd and Rubina manages to crack a supportive smile, but looks crestfallen. On a success, minds are blown, the crowd goes wild, and there are calls for encores. After the show, signatures are demanded. From now on, Green is a celebrity in the city of Harmony. At the end of all the hubbub, Rubina approaches Green with tears in her eyes and gives Green a doss lute. There's an audible gasp from the crowd. \"It was sublime. A gift that has lifted my spirits forever,\" Rubina says."
 															]
 														}
 													]
@@ -662,7 +662,7 @@
 											"name": "Sneaking In",
 											"page": 6,
 											"entries": [
-												"If Green wishes to enter stealthily, they must make a successful {@dc 12} Dexterity ({@skill Stealth}) check or alert the clowns or Finster (an {@creature imp}), who's inside the tent in rat form."
+												"If Green wishes to enter stealthily, they must make a successful {@dc 12} Dexterity ({@skill Discrétion}) check or alert the clowns or Finster (an {@creature imp}), who's inside the tent in rat form."
 											],
 											"id": "018"
 										},
@@ -692,7 +692,7 @@
 											"page": 6,
 											"entries": [
 												"This simple ebony box with a magic lock contains the Emerald Gem. The box has AC 12, 10 hit points, a damage threshold of 5, and immunity to poison and psychic damage. (The box's damage threshold means has immunity to all damage unless it takes 5 or more damage, in which case it takes damage as normal. Dealing the box 4 damage or less is considered superficial damage and doesn't reduce the box's hit points.)",
-												"The box's lock can be picked with a successful {@dc 14} Dexterity ({@skill Sleight of Hand}) check."
+												"The box's lock can be picked with a successful {@dc 14} Dexterity ({@skill Escamotage}) check."
 											],
 											"id": "01b"
 										}
@@ -733,7 +733,7 @@
 									"name": "C7. Vendors",
 									"page": 7,
 									"entries": [
-										"These tents are for vendors of tasty treats like kettle corn, caramel apples, and toad-in-the-holes. You can also put in a strength test game where you hit the lever with a hammer to ring the bell. Green must make a successful {@dc 14} Strength ({@skill Athletics}) check to ring the bell and win a prize (a stuffed monster of the player's choice)."
+										"These tents are for vendors of tasty treats like kettle corn, caramel apples, and toad-in-the-holes. You can also put in a strength test game where you hit the lever with a hammer to ring the bell. Green must make a successful {@dc 14} Strength ({@skill Athlétisme}) check to ring the bell and win a prize (a stuffed monster of the player's choice)."
 									],
 									"id": "01f"
 								}
@@ -755,7 +755,7 @@
 										"Have Green try to get the gem during one of {@creature Magnifico|NRH-CoI}'s magic acts when he has the magic mirror on stage, resulting in a grand spectacle for the audience."
 									]
 								},
-								"By the end of it all, Green should get the Emerald Gem and the {@item Instrument of the Bards, Doss Lute||doss lute} (if Rubina didn't already give it to them) as thanks for Green's heroics in such a dull and dreary time."
+								"By the end of it all, Green should get the Emerald Gem and the {@item Instrument des bardes, luth de Doss||doss lute} (if Rubina didn't already give it to them) as thanks for Green's heroics in such a dull and dreary time."
 							],
 							"id": "020"
 						},
@@ -782,7 +782,7 @@
 						{
 							"type": "list",
 							"items": [
-								"{@item Instrument of the Bards, Doss Lute}"
+								"{@item Instrument des bardes, luth de Doss}"
 							],
 							"columns": 3
 						},

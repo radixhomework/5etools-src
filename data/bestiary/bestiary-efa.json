@@ -183,7 +183,7 @@
 				{
 					"name": "Poisoned Blade",
 					"entries": [
-						"{@atkr m} {@hit 7}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Slashing damage plus 7 ({@damage 2d6}) Poison damage, and the target has the {@condition Poisoned|XPHB} condition until the start of the underboss's next turn. If the target is already {@condition Poisoned|XPHB}, it instead takes an extra 7 ({@damage 2d6}) Poison damage."
+						"{@atkr m} {@hit 7}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Slashing damage plus 7 ({@damage 2d6}) Poison damage, and the target has the {@condition Empoisonné|XPHB} condition until the start of the underboss's next turn. If the target is already {@condition Empoisonné|XPHB}, it instead takes an extra 7 ({@damage 2d6}) Poison damage."
 					]
 				},
 				{
@@ -312,7 +312,7 @@
 				{
 					"name": "Battering Mace",
 					"entries": [
-						"{@atkr m} {@hit 6}, reach 5 ft. {@h}14 ({@damage 3d6 + 4}) Bludgeoning damage, and if the target is a Large or smaller creature, it has the {@condition Prone|XPHB} condition."
+						"{@atkr m} {@hit 6}, reach 5 ft. {@h}14 ({@damage 3d6 + 4}) Bludgeoning damage, and if the target is a Large or smaller creature, it has the {@condition À terre|XPHB} condition."
 					]
 				},
 				{
@@ -438,7 +438,7 @@
 				{
 					"name": "Glare",
 					"entries": [
-						"{@actSave wis} {@dc 14}, one creature the bruiser can see within 30 feet. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition until the start of the bruiser's next turn."
+						"{@actSave wis} {@dc 14}, one creature the bruiser can see within 30 feet. {@actSaveFail} The target has the {@condition Effrayé|XPHB} condition until the start of the bruiser's next turn."
 					]
 				}
 			],
@@ -529,7 +529,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The raider has {@variantrule Advantage|XPHB} on an attack roll against a creature if at least one of the raider's allies is within 5 feet of the creature and the ally doesn't have the {@condition Incapacitated|XPHB} condition."
+						"The raider has {@variantrule Advantage|XPHB} on an attack roll against a creature if at least one of the raider's allies is within 5 feet of the creature and the ally doesn't have the {@condition Incapable|XPHB} condition."
 					]
 				}
 			],
@@ -786,13 +786,13 @@
 				{
 					"name": "Nightmare Whisper",
 					"entries": [
-						"{@atkr m,r} {@hit 9}, reach 5 ft. or range 30 ft. {@h}27 ({@damage 5d8 + 5}) Psychic damage, and the target has the {@condition Frightened|XPHB} condition until the start of the mindkiller's next turn. If the target is already {@condition Frightened|XPHB}, it instead takes an extra 10 ({@damage 3d6}) Psychic damage."
+						"{@atkr m,r} {@hit 9}, reach 5 ft. or range 30 ft. {@h}27 ({@damage 5d8 + 5}) Psychic damage, and the target has the {@condition Effrayé|XPHB} condition until the start of the mindkiller's next turn. If the target is already {@condition Effrayé|XPHB}, it instead takes an extra 10 ({@damage 3d6}) Psychic damage."
 					]
 				},
 				{
 					"name": "Primal Fear (1/Day)",
 					"entries": [
-						"{@actSave wis} {@dc 17}, each creature in a 30-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point the mindkiller can see within 120 feet. {@actSaveFail} 35 ({@damage 10d6}) Psychic damage, and the target has the {@condition Frightened|XPHB} condition until the start of the mindkiller's next turn. While {@condition Frightened|XPHB} in this way, the target can do only one of the following on each of its turns: move, take an action, or take a {@variantrule Bonus Action|XPHB}. {@actSaveSuccess} Half damage only."
+						"{@actSave wis} {@dc 17}, each creature in a 30-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point the mindkiller can see within 120 feet. {@actSaveFail} 35 ({@damage 10d6}) Psychic damage, and the target has the {@condition Effrayé|XPHB} condition until the start of the mindkiller's next turn. While {@condition Effrayé|XPHB} in this way, the target can do only one of the following on each of its turns: move, take an action, or take a {@variantrule Bonus Action|XPHB}. {@actSaveSuccess} Half damage only."
 					]
 				}
 			],
@@ -893,7 +893,7 @@
 				{
 					"name": "Aura of Authority",
 					"entries": [
-						"While in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the commander, the commander and its allies have {@variantrule Advantage|XPHB} on attack rolls and saving throws, provided the commander doesn't have the {@condition Incapacitated|XPHB} condition."
+						"While in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the commander, the commander and its allies have {@variantrule Advantage|XPHB} on attack rolls and saving throws, provided the commander doesn't have the {@condition Incapable|XPHB} condition."
 					]
 				}
 			],
@@ -913,7 +913,7 @@
 				{
 					"name": "Javelin",
 					"entries": [
-						"{@atkr m,r} {@hit 6}, reach 5 ft. or range 30/120 ft. {@h}7 ({@damage 1d6 + 4}) Piercing damage\u2014plus 7 ({@damage 2d6}) Necrotic damage if the commander is {@status Bloodied|XPHB}."
+						"{@atkr m,r} {@hit 6}, reach 5 ft. or range 30/120 ft. {@h}7 ({@damage 1d6 + 4}) Piercing damage\u2014plus 7 ({@damage 2d6}) Necrotic damage if the commander is {@status Meurtri|XPHB}."
 					]
 				}
 			],
@@ -1006,7 +1006,7 @@
 				{
 					"name": "Javelin",
 					"entries": [
-						"{@atkr m,r} {@hit 5}, reach 5 ft. or range 30/120 ft. {@h}6 ({@damage 1d6 + 3}) Piercing damage\u2014plus 4 ({@damage 1d8}) Necrotic damage if the knight is {@status Bloodied|XPHB}."
+						"{@atkr m,r} {@hit 5}, reach 5 ft. or range 30/120 ft. {@h}6 ({@damage 1d6 + 3}) Piercing damage\u2014plus 4 ({@damage 1d8}) Necrotic damage if the knight is {@status Meurtri|XPHB}."
 					]
 				}
 			],
@@ -1126,7 +1126,7 @@
 				{
 					"name": "Poisoned Dagger",
 					"entries": [
-						"{@atkr m,r} {@hit 5}, reach 5 ft. or range 20/60 ft. {@h}5 ({@damage 1d4 + 3}) Piercing damage, and the target has the {@condition Poisoned|XPHB} condition until the start of the troubleshooter's next turn."
+						"{@atkr m,r} {@hit 5}, reach 5 ft. or range 20/60 ft. {@h}5 ({@damage 1d4 + 3}) Piercing damage, and the target has the {@condition Empoisonné|XPHB} condition until the start of the troubleshooter's next turn."
 					]
 				}
 			],
@@ -1134,7 +1134,7 @@
 				{
 					"name": "Nimble Escape",
 					"entries": [
-						"The troubleshooter takes the {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+						"The troubleshooter takes the {@action Désengagement|XPHB} or {@action Se cacher|XPHB} action."
 					]
 				}
 			],
@@ -1220,7 +1220,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the homunculus instead takes no damage if it succeeds on the save and only half damage if it fails. It can't use this trait if it has the {@condition Incapacitated|XPHB} condition."
+						"If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the homunculus instead takes no damage if it succeeds on the save and only half damage if it fails. It can't use this trait if it has the {@condition Incapable|XPHB} condition."
 					]
 				},
 				{
@@ -1350,7 +1350,7 @@
 				{
 					"name": "Radiant Burst",
 					"entries": [
-						"{@atkr m,r} {@hit 5}, reach 5 ft. or range 30 ft. {@h}7 ({@damage 2d6}) Radiant damage, and the creature has the {@condition Blinded|XPHB} condition until the start of the medic's next turn."
+						"{@atkr m,r} {@hit 5}, reach 5 ft. or range 30 ft. {@h}7 ({@damage 2d6}) Radiant damage, and the creature has the {@condition Aveuglé|XPHB} condition until the start of the medic's next turn."
 					]
 				}
 			],
@@ -1483,13 +1483,13 @@
 				{
 					"name": "Arcane Whip",
 					"entries": [
-						"{@atkr m} {@hit 6}, reach 10 ft. {@h}13 ({@damage 3d6 + 3}) Force damage, and if the target is a Medium or smaller creature, it has the {@condition Prone|XPHB} condition. If the target already has the {@condition Prone|XPHB} condition, the attack deals an extra 7 ({@damage 2d6}) Force damage."
+						"{@atkr m} {@hit 6}, reach 10 ft. {@h}13 ({@damage 3d6 + 3}) Force damage, and if the target is a Medium or smaller creature, it has the {@condition À terre|XPHB} condition. If the target already has the {@condition À terre|XPHB} condition, the attack deals an extra 7 ({@damage 2d6}) Force damage."
 					]
 				},
 				{
 					"name": "Shackling Glyph {@recharge}",
 					"entries": [
-						"{@actSave str} {@dc 14}, one creature the warden can see within 60 feet. {@actSaveFail} The creature has the {@condition Grappled|XPHB} condition (escape {@dc 14}). While {@condition Grappled|XPHB}, the creature has the {@condition Restrained|XPHB} condition."
+						"{@actSave str} {@dc 14}, one creature the warden can see within 60 feet. {@actSaveFail} The creature has the {@condition Agrippé|XPHB} condition (escape {@dc 14}). While {@condition Agrippé|XPHB}, the creature has the {@condition Entravé|XPHB} condition."
 					]
 				}
 			],
@@ -1649,7 +1649,7 @@
 				{
 					"name": "Thunderbolt",
 					"entries": [
-						"{@atkr m,r} {@hit 6}, reach 5 ft. or range 30 ft. {@h}11 ({@damage 2d6 + 4}) Lightning damage plus 9 ({@damage 2d8}) Thunder damage. Critical {@h}The creature also has the {@condition Deafened|XPHB} condition for 1 minute."
+						"{@atkr m,r} {@hit 6}, reach 5 ft. or range 30 ft. {@h}11 ({@damage 2d6 + 4}) Lightning damage plus 9 ({@damage 2d8}) Thunder damage. Critical {@h}The creature also has the {@condition Assourdi|XPHB} condition for 1 minute."
 					]
 				}
 			],
@@ -1772,7 +1772,7 @@
 				{
 					"name": "Crooked Staff",
 					"entries": [
-						"{@atkr m} {@hit 4}, reach 5 ft. {@h}6 ({@damage 1d8 + 2}) Bludgeoning damage. If the target is a Medium or smaller creature, it has the {@condition Prone|XPHB} condition. If the target already has the {@condition Prone|XPHB} condition, the attack deals an extra 7 ({@damage 2d6}) Radiant damage."
+						"{@atkr m} {@hit 4}, reach 5 ft. {@h}6 ({@damage 1d8 + 2}) Bludgeoning damage. If the target is a Medium or smaller creature, it has the {@condition À terre|XPHB} condition. If the target already has the {@condition À terre|XPHB} condition, the attack deals an extra 7 ({@damage 2d6}) Radiant damage."
 					]
 				},
 				{
@@ -2278,7 +2278,7 @@
 				{
 					"name": "Words of Reason",
 					"entries": [
-						"Allies in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the scribe have {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Charmed|XPHB} or {@condition Frightened|XPHB} condition. This trait doesn't function if the scribe has the {@condition Incapacitated|XPHB} condition."
+						"Allies in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the scribe have {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Charmé|XPHB} or {@condition Effrayé|XPHB} condition. This trait doesn't function if the scribe has the {@condition Incapable|XPHB} condition."
 					]
 				}
 			],
@@ -2300,7 +2300,7 @@
 				{
 					"name": "Word of Stasis {@recharge 5}",
 					"entries": [
-						"{@actSave con} {@dc 13}, each creature in a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point the scribe can see within 60 feet. {@actSaveFail} The target has the {@condition Incapacitated|XPHB} condition until the start of the scribe's next turn. While the target is {@condition Incapacitated|XPHB}, its {@variantrule Speed|XPHB} is 0 and can't increase."
+						"{@actSave con} {@dc 13}, each creature in a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point the scribe can see within 60 feet. {@actSaveFail} The target has the {@condition Incapable|XPHB} condition until the start of the scribe's next turn. While the target is {@condition Incapable|XPHB}, its {@variantrule Speed|XPHB} is 0 and can't increase."
 					]
 				}
 			],
@@ -2493,7 +2493,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the marauder is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the marauder instead takes no damage if it succeeds on the save and only half as much damage if it fails. It can't use this trait if it has the {@condition Incapacitated|XPHB} condition."
+						"If the marauder is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the marauder instead takes no damage if it succeeds on the save and only half as much damage if it fails. It can't use this trait if it has the {@condition Incapable|XPHB} condition."
 					]
 				}
 			],
@@ -2515,7 +2515,7 @@
 				{
 					"name": "Tear Through Space",
 					"entries": [
-						"The marauder teleports to a space it can see within 30 feet, appearing in a dazzling flash. {@actSave con} {@dc 17}, each creature in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the marauder when it appears. {@actSaveFail} The target has the {@condition Blinded|XPHB} condition until the end of the marauder's next turn."
+						"The marauder teleports to a space it can see within 30 feet, appearing in a dazzling flash. {@actSave con} {@dc 17}, each creature in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the marauder when it appears. {@actSaveFail} The target has the {@condition Aveuglé|XPHB} condition until the end of the marauder's next turn."
 					]
 				}
 			],
@@ -2877,7 +2877,7 @@
 				{
 					"name": "Shadow Cowl",
 					"entries": [
-						"{@actSave wis} {@dc 17}, one creature the shadow walker can see within 120 feet. {@actSaveFail} 14 ({@damage 4d6}) Necrotic damage, and the target has the {@condition Blinded|XPHB} condition until the start of the shadow walker's next turn."
+						"{@actSave wis} {@dc 17}, one creature the shadow walker can see within 120 feet. {@actSaveFail} 14 ({@damage 4d6}) Necrotic damage, and the target has the {@condition Aveuglé|XPHB} condition until the start of the shadow walker's next turn."
 					]
 				}
 			],
@@ -2996,7 +2996,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The heir has {@variantrule Advantage|XPHB} on an attack roll against a creature if at least one of the heir's allies is within 5 feet of the creature and the ally doesn't have the {@condition Incapacitated|XPHB} condition."
+						"The heir has {@variantrule Advantage|XPHB} on an attack roll against a creature if at least one of the heir's allies is within 5 feet of the creature and the ally doesn't have the {@condition Incapable|XPHB} condition."
 					]
 				}
 			],
@@ -3268,7 +3268,7 @@
 				{
 					"name": "Venom Staff",
 					"entries": [
-						"{@atkr m} {@hit 4}, reach 5 ft. {@h}9 ({@damage 2d6 + 2}) Bludgeoning damage, and the target has the {@condition Poisoned|XPHB} condition until the end of the priest's next turn."
+						"{@atkr m} {@hit 4}, reach 5 ft. {@h}9 ({@damage 2d6 + 2}) Bludgeoning damage, and the target has the {@condition Empoisonné|XPHB} condition until the end of the priest's next turn."
 					]
 				}
 			],
@@ -3276,7 +3276,7 @@
 				{
 					"name": "Intensify Poison",
 					"entries": [
-						"Each creature with the {@condition Poisoned|XPHB} condition within a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the priest takes 3 ({@damage 1d6}) Poison damage."
+						"Each creature with the {@condition Empoisonné|XPHB} condition within a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the priest takes 3 ({@damage 1d6}) Poison damage."
 					]
 				}
 			],

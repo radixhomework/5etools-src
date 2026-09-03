@@ -1,7 +1,7 @@
 {
 	"condition": [
 		{
-			"name": "Blinded",
+			"name": "Aveuglé",
 			"source": "PHB",
 			"page": 290,
 			"srd": true,
@@ -23,36 +23,36 @@
 				{
 					"type": "list",
 					"items": [
-						"A blinded creature can't see and automatically fails any ability check that requires sight.",
-						"Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage."
+						"Une créature aveuglée ne peut pas voir et échoue automatiquement à tout test de caractéristique qui requiert la vue.",
+						"Les jets d'attaque contre la créature ont l'avantage, et les jets d'attaque de la créature ont le désavantage."
 					]
 				}
 			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Blinded",
+			"name": "Aveuglé",
 			"source": "XPHB",
 			"page": 361,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Blinded condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition Aveuglé, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Can't See",
+							"name": "Impossible de voir",
 							"entries": [
-								"You can't see and automatically fail any ability check that requires sight."
+								"Vous ne pouvez pas voir et échouez automatiquement à tout test de caractéristique qui requiert la vue."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Attacks Affected",
+							"name": "Attaques affectées",
 							"entries": [
-								"{@action Attack|XPHB} rolls against you have {@variantrule Advantage|XPHB}, and your attack rolls have {@variantrule Disadvantage|XPHB}."
+								"Les jets d'{@action Attaque|XPHB} effectués contre vous ont {@variantrule Advantage|XPHB}, et vos jets d'attaque ont {@variantrule Disadvantage|XPHB}."
 							]
 						}
 					]
@@ -60,7 +60,7 @@
 			]
 		},
 		{
-			"name": "Charmed",
+			"name": "Charmé",
 			"source": "PHB",
 			"page": 290,
 			"srd": true,
@@ -82,36 +82,36 @@
 				{
 					"type": "list",
 					"items": [
-						"A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.",
-						"The charmer has advantage on any ability check to interact socially with the creature."
+						"Une créature charmée ne peut pas attaquer la personne qui l'a charmée, ni la cibler avec des capacités ou des effets magiques nuisibles.",
+						"La personne qui l'a charmée a l'avantage à tout test de caractéristique d'interaction sociale avec la créature."
 					]
 				}
 			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Charmed",
+			"name": "Charmé",
 			"source": "XPHB",
 			"page": 361,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Charmed condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition Charmé, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Can't Harm the Charmer",
+							"name": "Impossible de nuire au charmeur",
 							"entries": [
-								"You can't attack the charmer or target the charmer with damaging abilities or {@variantrule Magical Effect|XPHB|magical effects}."
+								"Vous ne pouvez pas attaquer le charmeur, ni le cibler avec des capacités infligeant des dégâts ou des {@variantrule Magical Effect|XPHB|effets magiques}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Social Advantage",
+							"name": "Avantage social",
 							"entries": [
-								"The charmer has {@variantrule Advantage|XPHB} on any ability check to interact with you socially."
+								"Le charmeur a {@variantrule Advantage|XPHB} à tout test de caractéristique destiné à interagir avec vous sur le plan social."
 							]
 						}
 					]
@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"name": "Deafened",
+			"name": "Assourdi",
 			"source": "PHB",
 			"page": 290,
 			"srd": true,
@@ -141,28 +141,28 @@
 				{
 					"type": "list",
 					"items": [
-						"A deafened creature can't hear and automatically fails any ability check that requires hearing."
+						"Une créature assourdie ne peut pas entendre et échoue automatiquement à tout test de caractéristique qui requiert l'ouïe."
 					]
 				}
 			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Deafened",
+			"name": "Assourdi",
 			"source": "XPHB",
 			"page": 365,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Deafened condition, you experience the following effect.",
+				"Tant que vous êtes soumis à la condition Assourdi, vous subissez l'effet suivant.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Can't Hear",
+							"name": "Impossible d'entendre",
 							"entries": [
-								"You can't hear and automatically fail any ability check that requires hearing."
+								"Vous ne pouvez pas entendre et échouez automatiquement à tout test de caractéristique qui requiert l'ouïe."
 							]
 						}
 					]
@@ -170,7 +170,7 @@
 			]
 		},
 		{
-			"name": "Exhaustion",
+			"name": "Épuisement",
 			"source": "PHB",
 			"page": 291,
 			"srd": true,
@@ -185,12 +185,12 @@
 				"Exhaustion|XPHB"
 			],
 			"entries": [
-				"Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.",
+				"Certaines capacités spéciales et certains dangers environnementaux, comme la famine ou les effets à long terme du gel ou des températures torrides, peuvent conduire à une condition spéciale appelée épuisement. L'épuisement se mesure en six niveaux. Un effet peut donner à une créature un ou plusieurs niveaux d'épuisement, comme précisé dans la description de l'effet.",
 				{
 					"type": "table",
 					"colLabels": [
-						"Level",
-						"Effect"
+						"Niveau",
+						"Effet"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -199,73 +199,73 @@
 					"rows": [
 						[
 							"1",
-							"Disadvantage on ability checks"
+							"Désavantage aux tests de caractéristique"
 						],
 						[
 							"2",
-							"Speed halved"
+							"Vitesse réduite de moitié"
 						],
 						[
 							"3",
-							"Disadvantage on attack rolls and saving throws"
+							"Désavantage aux jets d'attaque et aux jets de sauvegarde"
 						],
 						[
 							"4",
-							"Hit point maximum halved"
+							"Maximum de points de vie réduit de moitié"
 						],
 						[
 							"5",
-							"Speed reduced to 0"
+							"Vitesse réduite à 0"
 						],
 						[
 							"6",
-							"Death"
+							"Mort"
 						]
 					]
 				},
-				"If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.",
-				"A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.",
-				"An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.",
-				"Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink. Also, being raised from the dead reduces a creature's exhaustion level by 1."
+				"Si une créature déjà épuisée subit un autre effet qui cause l'épuisement, son niveau d'épuisement actuel augmente du montant précisé dans la description de l'effet.",
+				"Une créature subit l'effet de son niveau d'épuisement actuel ainsi que tous les effets des niveaux inférieurs. Par exemple, une créature victime d'un épuisement de niveau 2 voit sa vitesse réduite de moitié et a un désavantage aux tests de caractéristique.",
+				"Un effet qui supprime l'épuisement réduit son niveau comme précisé dans la description de l'effet, tous les effets de l'épuisement prenant fin si le niveau d'épuisement d'une créature descend en dessous de 1.",
+				"Terminer un repos long réduit le niveau d'épuisement d'une créature de 1, à condition que la créature ait également ingéré de la nourriture et de la boisson. De plus, le fait d'être ramené d'entre les morts réduit le niveau d'épuisement d'une créature de 1."
 			]
 		},
 		{
-			"name": "Exhaustion",
+			"name": "Épuisement",
 			"source": "XPHB",
 			"page": 365,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Exhaustion condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition Épuisement, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Exhaustion Levels",
+							"name": "Niveaux d'épuisement",
 							"entries": [
-								"This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6."
+								"Cette condition est cumulative. Chaque fois que vous la recevez, vous gagnez 1 niveau d'Épuisement. Vous mourez si votre niveau d'Épuisement atteint 6."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "D20 Tests Affected",
+							"name": "Tests de d20 affectés",
 							"entries": [
-								"When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level."
+								"Lorsque vous effectuez un test de d20, le jet est réduit de 2 fois votre niveau d'Épuisement."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Speed Reduced",
+							"name": "Vitesse réduite",
 							"entries": [
-								"Your {@variantrule Speed|XPHB} is reduced by a number of feet equal to 5 times your Exhaustion level."
+								"Votre {@variantrule Speed|XPHB} est réduite d'un nombre de pieds égal à 5 fois votre niveau d'Épuisement."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Removing Exhaustion Levels",
+							"name": "Suppression des niveaux d'épuisement",
 							"entries": [
-								"Finishing a {@variantrule Long Rest|XPHB} removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends."
+								"Terminer un {@variantrule Long Rest|XPHB} supprime 1 de vos niveaux d'Épuisement. Lorsque votre niveau d'Épuisement atteint 0, la condition prend fin."
 							]
 						}
 					]
@@ -273,7 +273,7 @@
 			]
 		},
 		{
-			"name": "Frightened",
+			"name": "Effrayé",
 			"source": "PHB",
 			"page": 290,
 			"srd": true,
@@ -295,36 +295,36 @@
 				{
 					"type": "list",
 					"items": [
-						"A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.",
-						"The creature can't willingly move closer to the source of its fear."
+						"Une créature effrayée a un désavantage aux tests de caractéristique et aux jets d'attaque tant que la source de sa peur est dans sa ligne de vue.",
+						"La créature ne peut pas se rapprocher volontairement de la source de sa peur."
 					]
 				}
 			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Frightened",
+			"name": "Effrayé",
 			"source": "XPHB",
 			"page": 367,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Frightened condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition Effrayé, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Ability Checks and Attacks Affected",
+							"name": "Tests de caractéristique et attaques affectés",
 							"entries": [
-								"You have {@variantrule Disadvantage|XPHB} on ability checks and attack rolls while the source of fear is within line of sight."
+								"Vous avez {@variantrule Disadvantage|XPHB} aux tests de caractéristique et aux jets d'attaque tant que la source de la peur est dans votre ligne de vue."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Can't Approach",
+							"name": "Impossible de s'approcher",
 							"entries": [
-								"You can't willingly move closer to the source of fear."
+								"Vous ne pouvez pas vous rapprocher volontairement de la source de la peur."
 							]
 						}
 					]
@@ -332,7 +332,7 @@
 			]
 		},
 		{
-			"name": "Grappled",
+			"name": "Agrippé",
 			"source": "PHB",
 			"page": 290,
 			"srd": true,
@@ -354,44 +354,44 @@
 				{
 					"type": "list",
 					"items": [
-						"A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
-						"The condition ends if the grappler is {@condition incapacitated}.",
-						"The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the {@spell thunderwave} spell."
+						"La vitesse d'une créature agrippée devient 0, et elle ne peut bénéficier d'aucun bonus à sa vitesse.",
+						"La condition prend fin si l'agrippeur est {@condition Incapable}.",
+						"La condition prend également fin si un effet retire la créature agrippée de la portée de l'agrippeur ou de l'effet d'agrippement, comme lorsqu'une créature est projetée au loin par le sort {@spell thunderwave}."
 					]
 				}
 			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Grappled",
+			"name": "Agrippé",
 			"source": "XPHB",
 			"page": 367,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Grappled condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition Agrippé, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Speed 0",
+							"name": "Vitesse 0",
 							"entries": [
-								"Your {@variantrule Speed|XPHB} is 0 and can't increase."
+								"Votre {@variantrule Speed|XPHB} est 0 et ne peut pas augmenter."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Attacks Affected",
+							"name": "Attaques affectées",
 							"entries": [
-								"You have {@variantrule Disadvantage|XPHB} on attack rolls against any target other than the grappler."
+								"Vous avez {@variantrule Disadvantage|XPHB} aux jets d'attaque contre toute cible autre que l'agrippeur."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Movable",
+							"name": "Déplacement possible",
 							"entries": [
-								"The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it."
+								"L'agrippeur peut vous traîner ou vous porter lorsqu'il se déplace, mais chaque pied de son déplacement lui coûte 1 pied supplémentaire, à moins que vous ne soyez Minuscule ou d'au moins deux catégories de taille inférieure à la sienne."
 							]
 						}
 					]
@@ -399,7 +399,7 @@
 			]
 		},
 		{
-			"name": "Incapacitated",
+			"name": "Incapable",
 			"source": "PHB",
 			"page": 290,
 			"srd": true,
@@ -421,48 +421,48 @@
 				{
 					"type": "list",
 					"items": [
-						"An incapacitated creature can't take actions or reactions."
+						"Une créature incapable ne peut entreprendre ni actions ni réactions."
 					]
 				}
 			]
 		},
 		{
-			"name": "Incapacitated",
+			"name": "Incapable",
 			"source": "XPHB",
 			"page": 369,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Incapacitated condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition Incapable, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Inactive",
+							"name": "Inactif",
 							"entries": [
-								"You can't take any {@variantrule Action|XPHB|action}, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB}."
+								"Vous ne pouvez entreprendre aucune {@variantrule Action|XPHB|action}, {@variantrule Bonus Action|XPHB} ni {@variantrule Reaction|XPHB}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "No Concentration",
+							"name": "Plus de concentration",
 							"entries": [
-								"Your {@status Concentration|XPHB} is broken."
+								"Votre {@status Concentration|XPHB} est brisée."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Speechless",
+							"name": "Muet",
 							"entries": [
-								"You can't speak."
+								"Vous ne pouvez pas parler."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Surprised",
+							"name": "Surpris",
 							"entries": [
-								"If you're Incapacitated when you roll {@variantrule Initiative|XPHB}, you have {@variantrule Disadvantage|XPHB} on the roll."
+								"Si vous êtes Incapable lorsque vous effectuez votre jet d'{@variantrule Initiative|XPHB}, vous avez {@variantrule Disadvantage|XPHB} à ce jet."
 							]
 						}
 					]
@@ -492,8 +492,8 @@
 				{
 					"type": "list",
 					"items": [
-						"An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.",
-						"Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage."
+						"Une créature invisible est impossible à voir sans l'aide de la magie ou d'un sens particulier. Aux fins de se cacher, la créature est lourdement masquée. L'emplacement de la créature peut être détecté par tout bruit qu'elle fait ou toute trace qu'elle laisse.",
+						"Les jets d'attaque contre la créature ont le désavantage, et les jets d'attaque de la créature ont l'avantage."
 					]
 				}
 			],
@@ -506,7 +506,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Invisible condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition Invisible, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
@@ -514,21 +514,21 @@
 							"type": "entries",
 							"name": "Surprise",
 							"entries": [
-								"If you're Invisible when you roll {@variantrule Initiative|XPHB}, you have {@variantrule Advantage|XPHB} on the roll."
+								"Si vous êtes Invisible lorsque vous effectuez votre jet d'{@variantrule Initiative|XPHB}, vous avez {@variantrule Advantage|XPHB} à ce jet."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Concealed",
+							"name": "Dissimulé",
 							"entries": [
-								"You aren't affected by any effect that requires its target to be seen unless the effect's creator can somehow see you. Any equipment you are wearing or carrying is also concealed."
+								"Vous n'êtes affecté par aucun effet qui requiert que sa cible soit vue, à moins que le créateur de l'effet ne puisse d'une manière ou d'une autre vous voir. Tout équipement que vous portez ou transportez est également dissimulé."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Attacks Affected",
+							"name": "Attaques affectées",
 							"entries": [
-								"{@action Attack|XPHB} rolls against you have {@variantrule Disadvantage|XPHB}, and your attack rolls have {@variantrule Advantage|XPHB}. If a creature can somehow see you, you don't gain this benefit against that creature."
+								"Les jets d'{@action Attaque|XPHB} effectués contre vous ont {@variantrule Disadvantage|XPHB}, et vos jets d'attaque ont {@variantrule Advantage|XPHB}. Si une créature peut d'une manière ou d'une autre vous voir, vous ne bénéficiez pas de cet avantage contre cette créature."
 							]
 						}
 					]
@@ -536,7 +536,7 @@
 			]
 		},
 		{
-			"name": "Paralyzed",
+			"name": "Paralysé",
 			"source": "PHB",
 			"page": 291,
 			"srd": true,
@@ -558,59 +558,59 @@
 				{
 					"type": "list",
 					"items": [
-						"A paralyzed creature is {@condition incapacitated} and can't move or speak.",
-						"The creature automatically fails Strength and Dexterity saving throws.",
-						"Attack rolls against the creature have advantage.",
-						"Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+						"Une créature paralysée est {@condition Incapable} et ne peut ni bouger ni parler.",
+						"La créature échoue automatiquement ses jets de sauvegarde de Force et de Dextérité.",
+						"Les jets d'attaque contre la créature ont l'avantage.",
+						"Toute attaque qui touche la créature est un coup critique si l'attaquant se trouve à 5 pieds ou moins de la créature."
 					]
 				}
 			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Paralyzed",
+			"name": "Paralysé",
 			"source": "XPHB",
 			"page": 371,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Paralyzed condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition Paralysé, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Incapacitated",
+							"name": "Incapable",
 							"entries": [
-								"You have the {@condition Incapacitated|XPHB} condition."
+								"Vous êtes soumis à la condition {@condition Incapable|XPHB}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Speed 0",
+							"name": "Vitesse 0",
 							"entries": [
-								"Your {@variantrule Speed|XPHB} is 0 and can't increase."
+								"Votre {@variantrule Speed|XPHB} est 0 et ne peut pas augmenter."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Saving Throws Affected",
+							"name": "Jets de sauvegarde affectés",
 							"entries": [
-								"You automatically fail Strength and Dexterity {@variantrule Saving Throw|XPHB|saving throws}."
+								"Vous échouez automatiquement vos {@variantrule Saving Throw|XPHB|jets de sauvegarde} de Force et de Dextérité."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Attacks Affected",
+							"name": "Attaques affectées",
 							"entries": [
-								"{@action Attack|XPHB} rolls against you have {@variantrule Advantage|XPHB}."
+								"Les jets d'{@action Attaque|XPHB} effectués contre vous ont {@variantrule Advantage|XPHB}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Automatic Critical Hits",
+							"name": "Coups critiques automatiques",
 							"entries": [
-								"Any attack roll that hits you is a {@variantrule Critical Hit|XPHB} if the attacker is within 5 feet of you."
+								"Tout jet d'attaque qui vous touche est un {@variantrule Critical Hit|XPHB} si l'attaquant se trouve à 5 pieds ou moins de vous."
 							]
 						}
 					]
@@ -618,7 +618,7 @@
 			]
 		},
 		{
-			"name": "Petrified",
+			"name": "Pétrifié",
 			"source": "PHB",
 			"page": 291,
 			"srd": true,
@@ -640,75 +640,75 @@
 				{
 					"type": "list",
 					"items": [
-						"A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.",
-						"The creature is {@condition incapacitated}, can't move or speak, and is unaware of its surroundings.",
-						"Attack rolls against the creature have advantage.",
-						"The creature automatically fails Strength and Dexterity saving throws.",
-						"The creature has resistance to all damage.",
-						"The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized."
+						"Une créature pétrifiée est transformée, avec tout objet non magique qu'elle porte ou transporte, en une substance solide et inerte (généralement de la pierre). Son poids est multiplié par dix, et elle cesse de vieillir.",
+						"La créature est {@condition Incapable}, ne peut ni bouger ni parler, et n'a pas conscience de son environnement.",
+						"Les jets d'attaque contre la créature ont l'avantage.",
+						"La créature échoue automatiquement ses jets de sauvegarde de Force et de Dextérité.",
+						"La créature a une résistance à tous les dégâts.",
+						"La créature est immunisée contre le poison et les maladies, bien que tout poison ou maladie déjà présent dans son organisme soit suspendu, et non neutralisé."
 					]
 				}
 			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Petrified",
+			"name": "Pétrifié",
 			"source": "XPHB",
 			"page": 372,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Petrified condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition Pétrifié, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Turned to Inanimate Substance",
+							"name": "Transformé en substance inerte",
 							"entries": [
-								"You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging."
+								"Vous êtes transformé, avec tout objet non magique que vous portez et transportez, en une substance solide et inerte (généralement de la pierre). Votre poids est multiplié par dix, et vous cessez de vieillir."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Incapacitated",
+							"name": "Incapable",
 							"entries": [
-								"You have the {@condition Incapacitated|XPHB} condition."
+								"Vous êtes soumis à la condition {@condition Incapable|XPHB}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Speed 0",
+							"name": "Vitesse 0",
 							"entries": [
-								"Your {@variantrule Speed|XPHB} is 0 and can't increase."
+								"Votre {@variantrule Speed|XPHB} est 0 et ne peut pas augmenter."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Attacks Affected",
+							"name": "Attaques affectées",
 							"entries": [
-								"{@action Attack|XPHB} rolls against you have {@variantrule Advantage|XPHB}."
+								"Les jets d'{@action Attaque|XPHB} effectués contre vous ont {@variantrule Advantage|XPHB}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Saving Throws Affected",
+							"name": "Jets de sauvegarde affectés",
 							"entries": [
-								"You automatically fail Strength and Dexterity {@variantrule Saving Throw|XPHB|saving throws}."
+								"Vous échouez automatiquement vos {@variantrule Saving Throw|XPHB|jets de sauvegarde} de Force et de Dextérité."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Resist Damage",
+							"name": "Résistance aux dégâts",
 							"entries": [
-								"You have {@variantrule Resistance|XPHB} to all damage."
+								"Vous avez {@variantrule Resistance|XPHB} à tous les dégâts."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Poison Immunity",
+							"name": "Immunité au poison",
 							"entries": [
-								"You have {@variantrule Immunity|XPHB} to the {@condition Poisoned|XPHB} condition."
+								"Vous avez {@variantrule Immunity|XPHB} à la condition {@condition Empoisonné|XPHB}."
 							]
 						}
 					]
@@ -716,7 +716,7 @@
 			]
 		},
 		{
-			"name": "Poisoned",
+			"name": "Empoisonné",
 			"source": "PHB",
 			"page": 292,
 			"srd": true,
@@ -738,28 +738,28 @@
 				{
 					"type": "list",
 					"items": [
-						"A poisoned creature has disadvantage on attack rolls and ability checks."
+						"Une créature empoisonnée a un désavantage aux jets d'attaque et aux tests de caractéristique."
 					]
 				}
 			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Poisoned",
+			"name": "Empoisonné",
 			"source": "XPHB",
 			"page": 372,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Poisoned condition, you experience the following effect.",
+				"Tant que vous êtes soumis à la condition Empoisonné, vous subissez l'effet suivant.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Ability Checks and Attacks Affected",
+							"name": "Tests de caractéristique et attaques affectés",
 							"entries": [
-								"You have {@variantrule Disadvantage|XPHB} on attack rolls and ability checks."
+								"Vous avez {@variantrule Disadvantage|XPHB} aux jets d'attaque et aux tests de caractéristique."
 							]
 						}
 					]
@@ -767,7 +767,7 @@
 			]
 		},
 		{
-			"name": "Prone",
+			"name": "À terre",
 			"source": "PHB",
 			"page": 292,
 			"srd": true,
@@ -789,37 +789,37 @@
 				{
 					"type": "list",
 					"items": [
-						"A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.",
-						"The creature has disadvantage on attack rolls.",
-						"An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage."
+						"La seule option de déplacement d'une créature à terre est de ramper, à moins qu'elle ne se relève, mettant ainsi fin à la condition.",
+						"La créature a un désavantage aux jets d'attaque.",
+						"Un jet d'attaque contre la créature a l'avantage si l'attaquant se trouve à 5 pieds ou moins de la créature. Sinon, le jet d'attaque a le désavantage."
 					]
 				}
 			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Prone",
+			"name": "À terre",
 			"source": "XPHB",
 			"page": 372,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Prone condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition À terre, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Restricted Movement",
+							"name": "Déplacement limité",
 							"entries": [
-								"Your only movement options are to {@variantrule Crawling|XPHB|crawl} or to spend an amount of movement equal to half your {@variantrule Speed|XPHB} (round down) to right yourself and thereby end the condition. If your {@variantrule Speed|XPHB} is 0, you can't right yourself."
+								"Vos seules options de déplacement sont de {@variantrule Crawling|XPHB|ramper} ou de dépenser une quantité de déplacement égale à la moitié de votre {@variantrule Speed|XPHB} (arrondie à l'entier inférieur) pour vous relever et mettre ainsi fin à la condition. Si votre {@variantrule Speed|XPHB} est 0, vous ne pouvez pas vous relever."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Attacks Affected",
+							"name": "Attaques affectées",
 							"entries": [
-								"You have {@variantrule Disadvantage|XPHB} on attack rolls. An attack roll against you has {@variantrule Advantage|XPHB} if the attacker is within 5 feet of you. Otherwise, that attack roll has {@variantrule Disadvantage|XPHB}."
+								"Vous avez {@variantrule Disadvantage|XPHB} aux jets d'attaque. Un jet d'attaque contre vous a {@variantrule Advantage|XPHB} si l'attaquant se trouve à 5 pieds ou moins de vous. Sinon, ce jet d'attaque a {@variantrule Disadvantage|XPHB}."
 							]
 						}
 					]
@@ -827,7 +827,7 @@
 			]
 		},
 		{
-			"name": "Restrained",
+			"name": "Entravé",
 			"source": "PHB",
 			"page": 292,
 			"srd": true,
@@ -849,44 +849,44 @@
 				{
 					"type": "list",
 					"items": [
-						"A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
-						"Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.",
-						"The creature has disadvantage on Dexterity saving throws."
+						"La vitesse d'une créature entravée devient 0, et elle ne peut bénéficier d'aucun bonus à sa vitesse.",
+						"Les jets d'attaque contre la créature ont l'avantage, et les jets d'attaque de la créature ont le désavantage.",
+						"La créature a un désavantage aux jets de sauvegarde de Dextérité."
 					]
 				}
 			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Restrained",
+			"name": "Entravé",
 			"source": "XPHB",
 			"page": 373,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Restrained condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition Entravé, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Speed 0",
+							"name": "Vitesse 0",
 							"entries": [
-								"Your {@variantrule Speed|XPHB} is 0 and can't increase."
+								"Votre {@variantrule Speed|XPHB} est 0 et ne peut pas augmenter."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Attacks Affected",
+							"name": "Attaques affectées",
 							"entries": [
-								"{@action Attack|XPHB} rolls against you have {@variantrule Advantage|XPHB}, and your attack rolls have {@variantrule Disadvantage|XPHB}."
+								"Les jets d'attaque contre vous ont {@variantrule Advantage|XPHB}, et vos jets d'attaque ont {@variantrule Disadvantage|XPHB}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Saving Throws Affected",
+							"name": "Jets de sauvegarde affectés",
 							"entries": [
-								"You have {@variantrule Disadvantage|XPHB} on Dexterity {@variantrule Saving Throw|XPHB|saving throws}."
+								"Vous avez {@variantrule Disadvantage|XPHB} aux {@variantrule Saving Throw|XPHB|jets de sauvegarde} de Dextérité."
 							]
 						}
 					]
@@ -894,7 +894,7 @@
 			]
 		},
 		{
-			"name": "Stunned",
+			"name": "Étourdi",
 			"source": "PHB",
 			"page": 292,
 			"srd": true,
@@ -916,44 +916,44 @@
 				{
 					"type": "list",
 					"items": [
-						"A stunned creature is {@condition incapacitated}, can't move, and can speak only falteringly.",
-						"The creature automatically fails Strength and Dexterity saving throws.",
-						"Attack rolls against the creature have advantage."
+						"Une créature étourdie est {@condition Incapable}, ne peut pas bouger et ne peut parler que de manière hésitante.",
+						"La créature échoue automatiquement ses jets de sauvegarde de Force et de Dextérité.",
+						"Les jets d'attaque contre la créature ont l'avantage."
 					]
 				}
 			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Stunned",
+			"name": "Étourdi",
 			"source": "XPHB",
 			"page": 376,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Stunned condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition Étourdi, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Incapacitated",
+							"name": "Incapable",
 							"entries": [
-								"You have the {@condition Incapacitated|XPHB} condition."
+								"Vous êtes soumis à la condition {@condition Incapable|XPHB}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Saving Throws Affected",
+							"name": "Jets de sauvegarde affectés",
 							"entries": [
-								"You automatically fail Strength and Dexterity {@variantrule Saving Throw|XPHB|saving throws}."
+								"Vous échouez automatiquement vos {@variantrule Saving Throw|XPHB|jets de sauvegarde} de Force et de Dextérité."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Attacks Affected",
+							"name": "Attaques affectées",
 							"entries": [
-								"{@action Attack|XPHB} rolls against you have {@variantrule Advantage|XPHB}."
+								"Les jets d'{@action Attaque|XPHB} effectués contre vous ont {@variantrule Advantage|XPHB}."
 							]
 						}
 					]
@@ -961,7 +961,7 @@
 			]
 		},
 		{
-			"name": "Unconscious",
+			"name": "Inconscient",
 			"source": "PHB",
 			"page": 292,
 			"srd": true,
@@ -983,67 +983,67 @@
 				{
 					"type": "list",
 					"items": [
-						"An unconscious creature is {@condition incapacitated}, can't move or speak, and is unaware of its surroundings.",
-						"The creature drops whatever it's holding and falls {@condition prone}.",
-						"The creature automatically fails Strength and Dexterity saving throws.",
-						"Attack rolls against the creature have advantage.",
-						"Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+						"Une créature inconsciente est {@condition Incapable}, ne peut ni bouger ni parler, et n'a pas conscience de son environnement.",
+						"La créature lâche ce qu'elle tient et tombe {@condition À terre}.",
+						"La créature échoue automatiquement ses jets de sauvegarde de Force et de Dextérité.",
+						"Les jets d'attaque contre la créature ont l'avantage.",
+						"Toute attaque qui touche la créature est un coup critique si l'attaquant se trouve à 5 pieds ou moins de la créature."
 					]
 				}
 			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Unconscious",
+			"name": "Inconscient",
 			"source": "XPHB",
 			"page": 376,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"While you have the Unconscious condition, you experience the following effects.",
+				"Tant que vous êtes soumis à la condition Inconscient, vous subissez les effets suivants.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Inert",
+							"name": "Inerte",
 							"entries": [
-								"You have the {@condition Incapacitated|XPHB} and {@condition Prone|XPHB} conditions, and you drop whatever you're holding. When this condition ends, you remain {@condition Prone|XPHB}."
+								"Vous êtes soumis aux conditions {@condition Incapable|XPHB} et {@condition À terre|XPHB}, et vous lâchez ce que vous tenez. Lorsque cette condition prend fin, vous restez {@condition À terre|XPHB}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Speed 0",
+							"name": "Vitesse 0",
 							"entries": [
-								"Your {@variantrule Speed|XPHB} is 0 and can't increase."
+								"Votre {@variantrule Speed|XPHB} est 0 et ne peut pas augmenter."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Attacks Affected",
+							"name": "Attaques affectées",
 							"entries": [
-								"{@action Attack|XPHB} rolls against you have {@variantrule Advantage|XPHB}."
+								"Les jets d'{@action Attaque|XPHB} effectués contre vous ont {@variantrule Advantage|XPHB}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Saving Throws Affected",
+							"name": "Jets de sauvegarde affectés",
 							"entries": [
-								"You automatically fail Strength and Dexterity {@variantrule Saving Throw|XPHB|saving throws}."
+								"Vous échouez automatiquement vos {@variantrule Saving Throw|XPHB|jets de sauvegarde} de Force et de Dextérité."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Automatic Critical Hits",
+							"name": "Coups critiques automatiques",
 							"entries": [
-								"Any attack roll that hits you is a {@variantrule Critical Hit|XPHB} if the attacker is within 5 feet of you."
+								"Tout jet d'attaque qui vous touche est un {@variantrule Critical Hit|XPHB} si l'attaquant se trouve à 5 pieds ou moins de vous."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Unaware",
+							"name": "Inconscient de son environnement",
 							"entries": [
-								"You're unaware of your surroundings."
+								"Vous n'avez pas conscience de votre environnement."
 							]
 						}
 					]
@@ -1053,23 +1053,23 @@
 	],
 	"disease": [
 		{
-			"name": "Arcane Blight",
+			"name": "Fléau arcanique",
 			"source": "IDRotF",
 			"page": 233,
 			"entries": [
-				"Any humanoid that spends 12 hours in the necropolis must succeed on a {@dc 15} Constitution saving throw or contract an arcane blight. This magical disease transforms the humanoid into a {@creature nothic}, but only after the victim experiences hallucinations and feelings of isolation and paranoia. Other symptoms include clammy skin, hair loss, and myopia (nearsightedness).",
-				"A player character infected with the arcane blight gains the following flaw: \"I don't trust anyone.\" This flaw, which supersedes any conflicting flaw, is fed by delusions that are difficult for the character to distinguish from reality. Common delusions include the belief that allies are conspiring to steal the victim's riches or otherwise turn against the victim.",
-				"Whenever it finishes a long rest, an infected humanoid must repeat the saving throw. On a successful save, the DC for future saves against the arcane blight drops by {@dice 1d6}. If the saving throw DC drops to 0, the creature overcomes the arcane blight and becomes immune to the effect of further exposure. A creature that fails three of these saving throws transforms into a {@creature nothic} under the DM's control. Only a {@spell wish} spell or divine intervention can undo this transformation.",
-				"A {@spell greater restoration} spell or similar magic ends the infection on the target, removing the flaw and all other symptoms, but this magic doesn't protect the target against further exposure."
+				"Tout humanoïde qui passe 12 heures dans la nécropole doit réussir un jet de sauvegarde de Constitution {@dc 15}, sans quoi il contracte un fléau arcanique. Cette maladie magique transforme l'humanoïde en {@creature nothic}, mais seulement après que la victime a éprouvé des hallucinations et des sentiments d'isolement et de paranoïa. Les autres symptômes comprennent une peau moite, une perte de cheveux et une myopie.",
+				"Un personnage joueur infecté par le fléau arcanique gagne le défaut suivant : « Je ne fais confiance à personne. » Ce défaut, qui remplace tout défaut incompatible, est alimenté par des idées délirantes qu'il est difficile pour le personnage de distinguer de la réalité. Parmi les délires courants figurent la conviction que les alliés conspirent pour voler les richesses de la victime ou se retourner autrement contre elle.",
+				"Chaque fois qu'il termine un repos long, un humanoïde infecté doit relancer le jet de sauvegarde. En cas de réussite, le DD des jets de sauvegarde futurs contre le fléau arcanique diminue de {@dice 1d6}. Si le DD du jet de sauvegarde descend à 0, la créature vient à bout du fléau arcanique et devient immunisée contre l'effet d'une exposition ultérieure. Une créature qui échoue à trois de ces jets de sauvegarde se transforme en {@creature nothic} sous le contrôle du MJ. Seul un sort de {@spell wish} ou une intervention divine peut annuler cette transformation.",
+				"Un sort de {@spell greater restoration} ou une magie similaire met fin à l'infection sur la cible, supprimant le défaut et tous les autres symptômes, mais cette magie ne protège pas la cible contre une exposition ultérieure."
 			]
 		},
 		{
-			"name": "Blinding Sickness",
+			"name": "Mal aveuglant",
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"Pain grips the creature's mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is {@condition blinded}.",
-				"{@note This disease can be inflicted with the {@spell contagion|PHB} spell.}"
+				"La douleur saisit l'esprit de la créature, et ses yeux deviennent d'un blanc laiteux. La créature a un désavantage aux tests de Sagesse et aux jets de sauvegarde de Sagesse, et elle est {@condition Aveuglé}.",
+				"{@note Cette maladie peut être infligée par le sort {@spell contagion|PHB}.}"
 			]
 		},
 		{
@@ -1082,16 +1082,16 @@
 			]
 		},
 		{
-			"name": "Bluerot",
+			"name": "Pourriture bleue",
 			"source": "GoS",
 			"page": 234,
 			"entries": [
-				"This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures. The disease's boils manifest in {@dice 1d4} hours, causing the victim's Constitution and Charisma scores to decrease by {@dice 1d4} each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.",
-				"At the end of each long rest, an infected creature makes a {@dc 12} Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 ({@damage 4d8}) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal."
+				"Cette maladie cible les humanoïdes. Tandis qu'il souffre de la pourriture bleue, la victime voit apparaître d'ignobles furoncles bleus sur son visage et son dos. Cette maladie est portée par les morts-vivants (y compris les noyés de « Tammeraut's Fate »), et les victimes la contractent le plus souvent par des blessures causées par des créatures infectées. Les furoncles de la maladie se manifestent en {@dice 1d4} heures, réduisant les scores de Constitution et de Charisme de la victime de {@dice 1d4} chacun, à un minimum de 3. Cela est rapidement suivi d'une fièvre et de picotements dans les extrémités. Une créature infectée est vulnérable aux dégâts radiants et gagne la capacité de respirer sous l'eau.",
+				"À la fin de chaque repos long, une créature infectée effectue un jet de sauvegarde de Constitution {@dc 12}. En cas de réussite, la victime récupère 1 point de Constitution et 1 point de Charisme perdus à cause de la maladie. Si la créature infectée récupère tous les points perdus à cause de la maladie, elle est guérie. Les autres effets qui augmentent les scores de caractéristique de la victime ne guérissent pas la maladie. En cas d'échec au jet de sauvegarde, la victime subit 18 ({@damage 4d8}) dégâts nécrotiques lorsque les furoncles éclatent et se propagent. Une créature réduite à 0 point de vie par ces dégâts ne peut pas récupérer de points de vie tant que la maladie n'est pas guérie, mais elle peut être stabilisée normalement."
 			]
 		},
 		{
-			"name": "Cackle Fever",
+			"name": "Fièvre ricanante",
 			"source": "DMG",
 			"page": 257,
 			"srd": true,
@@ -1099,34 +1099,34 @@
 				"Cackle Fever|XDMG"
 			],
 			"entries": [
-				"This disease targets humanoids, although gnomes are strangely immune. While in the grips of this disease, victims frequently succumb to fits of mad laughter, giving the disease its common name and its morbid nickname: \"the shrieks.\"",
-				"Symptoms manifest {@dice 1d4} hours after infection and include fever and disorientation. The infected creature gains one level of {@condition exhaustion} that can't be removed until the disease is cured.",
-				"Any event that causes the infected creature great stress—including entering combat, taking damage, experiencing fear, or having a nightmare—forces the creature to make a {@dc 13} Constitution saving throw.",
-				"On a failed save, the creature takes 5 ({@dice 1d10}) psychic damage and becomes {@condition incapacitated} with mad laughter for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the mad laughter and the {@condition incapacitated} condition on a success. Any humanoid creature that starts its turn within 10 feet of an infected creature in the throes of mad laughter must succeed on a {@dc 10} Constitution saving throw or also become infected with the disease. Once a creature succeeds on this save, it is immune to the mad laughter of that particular infected creature for 24 hours.",
-				"At the end of each long rest, an infected creature can make a {@dc 13} Constitution saving throw. On a successful save, the DC for this save and for the save to avoid an attack of mad laughter drops by {@dice 1d6}. When the saving throw DC drops to 0, the creature recovers from the disease. A creature that fails three of these saving throws gains a randomly determined form of {@variantrule Madness|DMG|indefinite madness}."
+				"Cette maladie cible les humanoïdes, bien que les gnomes soient étrangement immunisés. Aux prises avec cette maladie, les victimes cèdent fréquemment à des crises de rire frénétique, ce qui a valu à la maladie son nom courant et son sinistre surnom : « les hurlements ».",
+				"Les symptômes se manifestent {@dice 1d4} heures après l'infection et comprennent fièvre et désorientation. La créature infectée gagne un niveau d'{@condition Épuisement} qui ne peut être supprimé tant que la maladie n'est pas guérie.",
+				"Tout événement qui cause un grand stress à la créature infectée — notamment entrer en combat, subir des dégâts, ressentir de la peur ou faire un cauchemar — oblige la créature à effectuer un jet de sauvegarde de Constitution {@dc 13}.",
+				"En cas d'échec, la créature subit 5 ({@dice 1d10}) dégâts psychiques et devient {@condition Incapable}, prise d'un rire frénétique pendant 1 minute. La créature peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin au rire frénétique et à la condition {@condition Incapable} en cas de réussite. Toute créature humanoïde qui commence son tour à 10 pieds ou moins d'une créature infectée en proie à un rire frénétique doit réussir un jet de sauvegarde de Constitution {@dc 10}, sans quoi elle est également infectée par la maladie. Une fois qu'une créature réussit ce jet de sauvegarde, elle est immunisée contre le rire frénétique de cette créature infectée particulière pendant 24 heures.",
+				"À la fin de chaque repos long, une créature infectée peut effectuer un jet de sauvegarde de Constitution {@dc 13}. En cas de réussite, le DD de ce jet et celui du jet destiné à éviter une crise de rire frénétique diminuent de {@dice 1d6}. Lorsque le DD du jet de sauvegarde descend à 0, la créature guérit de la maladie. Une créature qui échoue à trois de ces jets de sauvegarde gagne une forme déterminée aléatoirement de {@variantrule Madness|DMG|folie indéfinie}."
 			]
 		},
 		{
-			"name": "Cackle Fever",
+			"name": "Fièvre ricanante",
 			"source": "XDMG",
 			"page": 61,
 			"srd52": true,
-			"type": "Magical Contagion",
+			"type": "Contagion magique",
 			"entries": [
-				"Cheaply made potions and elixirs are sometimes tainted by Cackle Fever, which affects Humanoids only (gnomes are strangely immune). A creature suffers the following effects {@dice 1d4} days after infection:",
+				"Les potions et élixirs de fabrication bon marché sont parfois contaminés par la fièvre ricanante, qui n'affecte que les humanoïdes (les gnomes sont étrangement immunisés). Une créature subit les effets suivants {@dice 1d4} jours après l'infection :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Fever",
-							"entry": "The creature gains 1 {@condition Exhaustion|XPHB} level, which lasts until the contagion ends on the creature."
+							"name": "Fièvre",
+							"entry": "La créature gagne 1 niveau d'{@condition Épuisement|XPHB}, qui persiste jusqu'à la fin de la contagion qui l'affecte."
 						},
 						{
 							"type": "item",
-							"name": "Uncontrollable Laughter",
-							"entry": "While the creature has the {@condition Exhaustion|XPHB} condition, the creature makes a {@dc 13} Constitution saving throw each time it takes damage other than Psychic damage. On a failed save, the creature takes 5 ({@damage 1d10}) Psychic damage and has the {@condition Incapacitated|XPHB} condition as it laughs uncontrollably. At the end of each of its turns, the creature repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+							"name": "Rire incontrôlable",
+							"entry": "Tant que la créature est soumise à la condition {@condition Épuisement|XPHB}, elle effectue un jet de sauvegarde de Constitution {@dc 13} chaque fois qu'elle subit des dégâts autres que des dégâts psychiques. En cas d'échec, la créature subit 5 ({@damage 1d10}) dégâts psychiques et est soumise à la condition {@condition Incapable|XPHB} tandis qu'elle rit de manière incontrôlable. À la fin de chacun de ses tours, la créature relance le jet de sauvegarde, mettant fin à l'effet qui l'affecte en cas de réussite. Après 1 minute, elle réussit automatiquement."
 						}
 					]
 				},
@@ -1135,16 +1135,16 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Fighting the Contagion",
+							"name": "Lutter contre la contagion",
 							"entries": [
-								"At the end of each Long Rest, an infected creature makes a {@dc 13} Constitution saving throw. After the creature succeeds on three of these saves, the contagion ends on it, and the creature is immune to Cackle Fever for 1 year."
+								"À la fin de chaque Repos long, une créature infectée effectue un jet de sauvegarde de Constitution {@dc 13}. Après que la créature a réussi trois de ces jets de sauvegarde, la contagion prend fin pour elle, et la créature est immunisée contre la fièvre ricanante pendant 1 an."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Spreading the Contagion",
+							"name": "Propagation de la contagion",
 							"entries": [
-								"Any Humanoid (other than a gnome) that starts its turn within a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from a creature infected with Cackle Fever must succeed on a {@dc 10} Constitution saving throw or also become infected with the contagion. On a successful save, the Humanoid can't catch the contagion from that particular infected creature for the next 24 hours."
+								"Tout humanoïde (autre qu'un gnome) qui commence son tour dans une {@variantrule Emanation [Area of Effect]|XPHB|Émanation} de 10 pieds provenant d'une créature infectée par la fièvre ricanante doit réussir un jet de sauvegarde de Constitution {@dc 10}, sans quoi il est également infecté par la contagion. En cas de réussite, l'humanoïde ne peut pas attraper la contagion de cette créature infectée particulière pendant les 24 prochaines heures."
 							]
 						}
 					]
@@ -1152,72 +1152,72 @@
 			]
 		},
 		{
-			"name": "Filth Fever",
+			"name": "Fièvre des immondices",
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"A raging fever sweeps through the creature's body. The creature has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength.",
-				"{@note This disease can be inflicted with the {@spell contagion|PHB} spell.}"
+				"Une fièvre violente parcourt le corps de la créature. La créature a un désavantage aux tests de Force, aux jets de sauvegarde de Force et aux jets d'attaque qui utilisent la Force.",
+				"{@note Cette maladie peut être infligée par le sort {@spell contagion|PHB}.}"
 			]
 		},
 		{
-			"name": "Flesh Rot",
+			"name": "Pourriture des chairs",
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"The creature's flesh decays. The creature has disadvantage on Charisma checks and vulnerability to all damage.",
-				"{@note This disease can be inflicted with the {@spell contagion|PHB} spell.}"
+				"La chair de la créature se décompose. La créature a un désavantage aux tests de Charisme et une vulnérabilité à tous les dégâts.",
+				"{@note Cette maladie peut être infligée par le sort {@spell contagion|PHB}.}"
 			]
 		},
 		{
-			"name": "Frigid Woe",
+			"name": "Mal glacial",
 			"source": "EGW",
 			"page": 125,
 			"entries": [
-				"Frigid woe is a special disease developed by Aeor's mages that cannot be cured by conventional treatment or magic. The only way a creature infected with the disease can be cured is by finding and drinking the manufactured antidote, a milky liquid stored in gold vials found in Eiselcross's ruins. This disease was created to slow down the forces of the gods and get around the healing power of their clerics and angels.",
-				"The disease is transmitted by breathing in blue spores that Aeor's mages created long ago. When a creature comes into contact with these spores, it must succeed on a {@dc 11} Constitution saving throw or become infected with frigid woe. It takes {@dice 1d4} days for the symptoms to manifest in an infected creature. These symptoms include fatigue, chills, and visible blue veins that appear on the creature's body. The infected creature's speed is reduced by 5 feet as long as it remains infected. Every 10 days after symptoms appear, an infected creature must succeed on a {@dc 11} Constitution saving throw, or its speed is reduced by another 5 feet. If a creature's speed is reduced to 0 as a result of this disease, the creature dies and its body turns into a statue made of ice.",
-				"A creature can drink the antidote as an action, ending all symptoms and effects of the disease instantly."
+				"Le mal glacial est une maladie particulière mise au point par les mages d'Aeor, qui ne peut être guérie ni par un traitement conventionnel ni par la magie. La seule façon de guérir une créature infectée par cette maladie est de trouver et de boire l'antidote fabriqué à cet effet, un liquide laiteux conservé dans des fioles d'or que l'on trouve dans les ruines d'Eiselcross. Cette maladie a été créée pour ralentir les armées des dieux et contourner le pouvoir de guérison de leurs clercs et de leurs anges.",
+				"Cette maladie se transmet en respirant des spores bleues créées il y a longtemps par les mages d'Aeor. Lorsqu'une créature entre en contact avec ces spores, elle doit réussir un jet de sauvegarde de Constitution {@dc 11}, sans quoi elle est infectée par le mal glacial. Les symptômes mettent {@dice 1d4} jours à se manifester chez une créature infectée. Ils comprennent de la fatigue, des frissons et des veines bleues visibles qui apparaissent sur le corps de la créature. La vitesse de la créature infectée est réduite de 5 pieds tant qu'elle reste infectée. Tous les 10 jours après l'apparition des symptômes, une créature infectée doit réussir un jet de sauvegarde de Constitution {@dc 11}, sinon sa vitesse est réduite de 5 pieds supplémentaires. Si la vitesse d'une créature est réduite à 0 à cause de cette maladie, la créature meurt et son corps se transforme en statue de glace.",
+				"Une créature peut boire l'antidote au prix d'une action, mettant fin instantanément à tous les symptômes et à tous les effets de la maladie."
 			]
 		},
 		{
-			"name": "Ghoul Gut",
+			"name": "Ventre de goule",
 			"source": "OoW",
 			"page": 111,
 			"entries": [
-				"Water polluted with ghoul parts carries ghoul gut. A creature drinking this tainted water must succeed on a {@dc 12} Constitution saving throw or contract the disease. Symptoms strike when a victim starts a long rest or next becomes excited, as during combat. A victim suffers severe cramps, and their bowels make sounds like two ghouls fighting. When the symptoms first strike, the victim takes 5 ({@damage 2d4}) necrotic damage. In addition, a diseased victim regains no hit points or Hit Dice from nonmagical sources, including resting or spending Hit Dice. A victim who finishes a long rest can attempt a {@dc 12} Constitution saving throw. On a successful save, the victim shakes off the disease. Failure deals the character another 5 ({@damage 2d4}) necrotic damage.",
-				"A character who succeeds on a {@dc 15} Wisdom ({@skill Medicine}) check can also remove the disease from another creature. Doing so requires the character making the check to care for the sick individual during a long rest. The caregiver gains no benefit from that rest."
+				"L'eau polluée par des restes de goules est porteuse du ventre de goule. Une créature qui boit cette eau souillée doit réussir un jet de sauvegarde de Constitution {@dc 12}, sans quoi elle contracte la maladie. Les symptômes frappent lorsque la victime commence un repos long ou lorsqu'elle s'excite par la suite, comme pendant un combat. La victime souffre de crampes sévères, et ses intestins produisent des sons semblables à ceux de deux goules qui se battent. Lorsque les symptômes frappent pour la première fois, la victime subit 5 ({@damage 2d4}) dégâts nécrotiques. De plus, une victime malade ne récupère aucun point de vie ni aucun dé de vie de sources non magiques, y compris en se reposant ou en dépensant des dés de vie. Une victime qui termine un repos long peut tenter un jet de sauvegarde de Constitution {@dc 12}. En cas de réussite, la victime se débarrasse de la maladie. Un échec inflige au personnage 5 ({@damage 2d4}) dégâts nécrotiques supplémentaires.",
+				"Un personnage qui réussit un test de Sagesse ({@skill Médecine}) {@dc 15} peut également retirer la maladie d'une autre créature. Pour ce faire, le personnage qui effectue le test doit prendre soin de l'individu malade pendant un repos long. La personne soignante ne retire aucun bénéfice de ce repos."
 			]
 		},
 		{
-			"name": "Grackle-Lung",
+			"name": "Poumon de grackl",
 			"source": "OotA",
 			"page": 54,
 			"entries": [
-				"The constant smog in Gracklstugh causes grackle-lung in living, breathing creatures, resulting in persistent, wracking coughs and the spewing of thick, black phlegm. Whenever a living, breathing creature finishes a long rest in Gracklstugh, it must make a {@dc 11} Constitution saving throw. On each failed save, the creature gains one level of {@condition exhaustion} as its airways become increasingly clogged. A creature that reaches level 6 {@condition exhaustion} dies, as normal.",
-				"A creature with one or more levels of {@condition exhaustion} brought on by grackle-lung must succeed on a Constitution check to take the {@action Dash} action. If the check fails, the action cannot be attempted. If the creature attempts to cast a spell with a verbal component, it must succeed on a Constitution check or be unable to complete the spell, causing the spell to fail with no effect. The DC for each check is 10 + the creature's current {@condition exhaustion} level.",
-				"If a creature's {@condition exhaustion} level drops below 1, it no longer suffers the effects of grackle-lung and becomes immune to it for the next week. Duergar and derro are inured to grackle-lung, making Constitution checks against it with advantage. Any spell or effect that cures disease also cures grackle-lung, effectively removing all levels of {@condition exhaustion} brought on by the affliction."
+				"Le smog permanent de Gracklstugh provoque le poumon de grackl chez les créatures vivantes qui respirent, entraînant des toux persistantes et épuisantes ainsi que l'expectoration de crachats épais et noirs. Chaque fois qu'une créature vivante qui respire termine un repos long dans Gracklstugh, elle doit effectuer un jet de sauvegarde de Constitution {@dc 11}. À chaque échec, la créature gagne un niveau d'{@condition Épuisement} tandis que ses voies respiratoires s'obstruent de plus en plus. Une créature qui atteint le niveau 6 d'{@condition Épuisement} meurt, comme d'habitude.",
+				"Une créature atteinte d'un ou plusieurs niveaux d'{@condition Épuisement} provoqués par le poumon de grackl doit réussir un test de Constitution pour entreprendre l'action {@action Course}. En cas d'échec au test, l'action ne peut pas être tentée. Si la créature tente de lancer un sort avec une composante verbale, elle doit réussir un test de Constitution, sans quoi elle ne peut pas achever le sort, ce qui fait échouer le sort sans effet. Le DD de chaque test est de 10 + le niveau d'{@condition Épuisement} actuel de la créature.",
+				"Si le niveau d'{@condition Épuisement} d'une créature descend en dessous de 1, elle ne souffre plus des effets du poumon de grackl et devient immunisée contre celui-ci pendant la semaine suivante. Les duergars et les derros sont endurcis face au poumon de grackl et effectuent les tests de Constitution qui s'y rapportent avec avantage. Tout sort ou effet qui guérit les maladies guérit également le poumon de grackl, supprimant de fait tous les niveaux d'{@condition Épuisement} provoqués par cette affliction."
 			]
 		},
 		{
-			"name": "Lichen Plague",
+			"name": "Peste du lichen",
 			"source": "FRAiF",
 			"page": 98,
-			"type": "Magical Contagion",
+			"type": "Contagion magique",
 			"entries": [
-				"A Beast, Giant, Humanoid, or Monstrosity that comes into contact with bile lichen spores is at risk of contracting a horrible disease as the lichen takes root on its body and grows into its brain. A creature suffers the following effects {@dice 1d4} days after infection:",
+				"Une bête, un géant, un humanoïde ou une monstrosité qui entre en contact avec les spores du lichen bilieux risque de contracter une horrible maladie tandis que le lichen prend racine sur son corps et se développe jusqu'à son cerveau. Une créature subit les effets suivants {@dice 1d4} jours après l'infection :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Skinroot",
-							"entry": "The contagion first appears as a patch of green-yellow lichen no larger than 1 square inch on a random area of the body. When it finishes a Long Rest, the infected creature must succeed on a {@dc 14} Constitution saving throw or gain 1 Exhaustion level as the lichen spreads toward the creature's head. This Exhaustion level lasts until the contagion ends on the creature."
+							"name": "Racine cutanée",
+							"entry": "La contagion apparaît d'abord sous la forme d'une plaque de lichen vert jaunâtre d'au plus 1 pouce carré sur une zone aléatoire du corps. Lorsqu'elle termine un Repos long, la créature infectée doit réussir un jet de sauvegarde de Constitution {@dc 14}, sans quoi elle gagne 1 niveau d'Épuisement tandis que le lichen se propage vers la tête de la créature. Ce niveau d'Épuisement persiste jusqu'à la fin de la contagion qui l'affecte."
 						},
 						{
 							"type": "item",
-							"name": "Mindroot",
-							"entry": "A Humanoid that dies while infected with Lichen Plague rises immediately as a {@creature Zombie|XMM} under the DM's control."
+							"name": "Racine mentale",
+							"entry": "Un humanoïde qui meurt alors qu'il est infecté par la peste du lichen se relève immédiatement sous la forme d'un {@creature Zombie|XMM} sous le contrôle du MJ."
 						}
 					]
 				},
@@ -1226,16 +1226,16 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Fighting the Contagion",
+							"name": "Lutter contre la contagion",
 							"entries": [
-								"When it finishes a Long Rest, an infected creature makes a {@dc 14} Constitution saving throw. If the creature succeeds on three of these saving throws, the contagion ends on the creature and the creature is immune to Lichen Plague forever. The successful saves don't need to be consecutive."
+								"Lorsqu'elle termine un Repos long, une créature infectée effectue un jet de sauvegarde de Constitution {@dc 14}. Si la créature réussit trois de ces jets de sauvegarde, la contagion prend fin pour elle et elle est immunisée à jamais contre la peste du lichen. Les jets de sauvegarde réussis n'ont pas besoin d'être consécutifs."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Spreading the Contagion",
+							"name": "Propagation de la contagion",
 							"entries": [
-								"Any Beast, Giant, Humanoid, or Monstrosity that makes skin contact with the lichen on an infected creature must succeed on a {@dc 14} Constitution saving throw or be infected with Lichen Plague. On a successful save, the creature can't catch Lichen Plague for the next 24 hours."
+								"Toute bête, tout géant, tout humanoïde ou toute monstrosité qui entre en contact cutané avec le lichen d'une créature infectée doit réussir un jet de sauvegarde de Constitution {@dc 14}, sans quoi il est infecté par la peste du lichen. En cas de réussite, la créature ne peut pas attraper la peste du lichen pendant les 24 prochaines heures."
 							]
 						}
 					]
@@ -1243,29 +1243,29 @@
 			]
 		},
 		{
-			"name": "Mindfire",
+			"name": "Fièvre mentale",
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the {@spell confusion} spell during combat.",
-				"{@note This disease can be inflicted with the {@spell contagion|PHB} spell.}"
+				"L'esprit de la créature devient fiévreux. La créature a un désavantage aux tests d'Intelligence et aux jets de sauvegarde d'Intelligence, et elle se comporte comme si elle était sous les effets du sort {@spell confusion} pendant un combat.",
+				"{@note Cette maladie peut être infligée par le sort {@spell contagion|PHB}.}"
 			]
 		},
 		{
-			"name": "Mudpox",
+			"name": "Vérole des boues",
 			"source": "FRAiF",
 			"page": 98,
-			"type": "Magical Contagion",
+			"type": "Contagion magique",
 			"entries": [
-				"Contact with dead oozes from the Underdark mixed with snowmelt and mud has been making people sick. Any Beast or Humanoid that touches mud contaminated by Mudpox must succeed on a {@dc 12} Constitution saving throw or become infected, suffering the following effect:",
+				"Le contact avec des buées mortes de l'Outreterre mélangées à l'eau de fonte des neiges et à la boue rend les gens malades. Toute bête ou tout humanoïde qui touche de la boue contaminée par la vérole des boues doit réussir un jet de sauvegarde de Constitution {@dc 12}, sans quoi il est infecté et subit l'effet suivant :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Disrupted Digestion",
-							"entry": "Daily at dawn, the creature must succeed on a {@dc 12} Constitution saving throw or vomit up the food it ate the previous day, gaining 1 Exhaustion level. If the creature succeeds on this saving throw three consecutive times, the contagion ends."
+							"name": "Digestion perturbée",
+							"entry": "Chaque jour à l'aube, la créature doit réussir un jet de sauvegarde de Constitution {@dc 12}, sans quoi elle vomit la nourriture qu'elle a mangée la veille et gagne 1 niveau d'Épuisement. Si la créature réussit ce jet de sauvegarde trois fois consécutives, la contagion prend fin."
 						}
 					]
 				},
@@ -1274,16 +1274,16 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Fighting the Contagion",
+							"name": "Lutter contre la contagion",
 							"entries": [
-								"A {@spell Heal|XPHB} or {@spell Lesser Restoration|XPHB} spell ends the contagion immediately."
+								"Un sort de {@spell Heal|XPHB} ou de {@spell Lesser Restoration|XPHB} met immédiatement fin à la contagion."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Spreading the Contagion",
+							"name": "Propagation de la contagion",
 							"entries": [
-								"Any Humanoid that makes skin contact with a creature infected with Mudpox must succeed on a {@dc 12} Constitution saving throw or also become infected with the contagion. If the creature succeeds on this save, it can't catch the contagion from that particular infected creature for the next 24 hours."
+								"Tout humanoïde qui entre en contact cutané avec une créature infectée par la vérole des boues doit réussir un jet de sauvegarde de Constitution {@dc 12}, sans quoi il est également infecté par la contagion. Si la créature réussit ce jet de sauvegarde, elle ne peut pas attraper la contagion de cette créature infectée particulière pendant les 24 prochaines heures."
 							]
 						}
 					]
@@ -1291,36 +1291,36 @@
 			]
 		},
 		{
-			"name": "Redface",
+			"name": "Visage rouge",
 			"source": "GoS",
 			"page": 168,
 			"entries": [
-				"The effects of redface are identical to those of {@disease sight rot} (see \"{@book Diseases|DMG|8|Diseases}\" in chapter 8 of the {@book Dungeon Master's Guide|DMG}), but it's caused by pollutants in the air rather than contaminated drinking water, making it difficult to avoid."
+				"Les effets du visage rouge sont identiques à ceux de la {@disease Pourriture des yeux} (voir « {@book Diseases|DMG|8|Maladies} » au chapitre 8 du {@book Dungeon Master's Guide|DMG}), mais il est causé par des polluants présents dans l'air plutôt que par de l'eau potable contaminée, ce qui le rend difficile à éviter."
 			]
 		},
 		{
-			"name": "Saprophytic Plague",
+			"name": "Peste saprophytique",
 			"source": "CM",
 			"page": 253,
 			"entries": [
-				"Xanthoria's research into lichdom and her creation of a living phylactery led to the emergence of the plague spreading across the Sword Coast. Any beast or humanoid that comes within 10 feet of a creature infected by the saprophytic plague must succeed on a {@dc 20} Constitution saving throw or become infected as well. On a successful save, a creature is immune to the plague for 24 hours, and any creature that is immune to disease succeeds on the save automatically.",
-				"After a failed save, a creature experiences the first symptoms—body aches, nausea, slurred speech, and uncontrollable drooling—{@dice 1d4} hours later and gains 1 level of {@condition exhaustion}. Every 24 hours thereafter, the creature automatically gains another level of {@condition exhaustion}. Any creature killed by the saprophytic plague transforms into a lifeless magenta ooze.",
-				"A creature infected by the saprophytic plague for at least 24 hours behaves like a zombie and seems barely aware of its surroundings, as fungal growths sprout from its head, body, and limbs. It feels an overriding urge to be around groups of uninfected creatures so that it can spread the contagion. This is the time when infected humanoids begin speaking the word \"Xanthoria\" over and over, with no understanding of what the word means. This behavior is the result of a mycelial network of spores that forms a tenuous connection between Xanthoria and humanoids that become infected by the plague.",
-				"Foodstuffs that are exposed to the plague's spores decay or go sour within {@dice 2d12} hours, leaving behind a lurid magenta mass of oozing fungi. Eating infected food requires a saving throw as above.",
-				"Any magic that cures a disease can rid a creature of the saprophytic plague. Casting {@spell purify food and drink} destroys the infection in foodstuffs."
+				"Les recherches de Xanthoria sur la lichité et la création de son phylactère vivant ont conduit à l'émergence de la peste qui se propage à travers la Côte de l'Épée. Toute bête ou tout humanoïde qui s'approche à 10 pieds ou moins d'une créature infectée par la peste saprophytique doit réussir un jet de sauvegarde de Constitution {@dc 20}, sans quoi il est également infecté. En cas de réussite, une créature est immunisée contre la peste pendant 24 heures, et toute créature immunisée contre les maladies réussit automatiquement ce jet de sauvegarde.",
+				"Après un échec au jet de sauvegarde, une créature éprouve les premiers symptômes — courbatures, nausées, parole pâteuse et bave incontrôlable — {@dice 1d4} heures plus tard et gagne 1 niveau d'{@condition Épuisement}. Toutes les 24 heures par la suite, la créature gagne automatiquement un autre niveau d'{@condition Épuisement}. Toute créature tuée par la peste saprophytique se transforme en une buée magenta inerte.",
+				"Une créature infectée par la peste saprophytique depuis au moins 24 heures se comporte comme un zombi et semble à peine consciente de son environnement, tandis que des excroissances fongiques poussent sur sa tête, son corps et ses membres. Elle ressent une envie irrésistible de se trouver à proximité de groupes de créatures non infectées afin de propager la contagion. C'est à ce moment que les humanoïdes infectés commencent à répéter le mot « Xanthoria » sans fin, sans comprendre ce que ce mot signifie. Ce comportement est le résultat d'un réseau mycélien de spores qui forme un lien ténu entre Xanthoria et les humanoïdes infectés par la peste.",
+				"Les denrées alimentaires exposées aux spores de la peste se décomposent ou tournent en moins de {@dice 2d12} heures, laissant derrière elles une masse magenta macabre de champignons suintants. Manger des aliments infectés nécessite un jet de sauvegarde comme décrit ci-dessus.",
+				"Toute magie qui guérit une maladie peut débarrasser une créature de la peste saprophytique. Le lancement de {@spell purify food and drink} détruit l'infection présente dans les denrées alimentaires."
 			]
 		},
 		{
-			"name": "Seizure",
+			"name": "Convulsions",
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity.",
-				"{@note This disease can be inflicted with the {@spell contagion|PHB} spell.}"
+				"La créature est secouée de tremblements. La créature a un désavantage aux tests de Dextérité, aux jets de sauvegarde de Dextérité et aux jets d'attaque qui utilisent la Dextérité.",
+				"{@note Cette maladie peut être infligée par le sort {@spell contagion|PHB}.}"
 			]
 		},
 		{
-			"name": "Sewer Plague",
+			"name": "Peste des égouts",
 			"source": "DMG",
 			"page": 257,
 			"srd": true,
@@ -1328,21 +1328,21 @@
 				"Sewer Plague|XDMG"
 			],
 			"entries": [
-				"Sewer plague is a generic term for a broad category of illnesses that incubate in sewers, refuse heaps, and stagnant swamps, and which are sometimes transmitted by creatures that dwell in those areas, such as rats and otyughs.",
-				"When a humanoid creature is bitten by a creature that carries the disease, or when it comes into contact with filth or offal contaminated by the disease, the creature must succeed on a {@dc 11} Constitution saving throw or become infected.",
-				"It takes {@dice 1d4} days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The infected creature suffers one level of {@condition exhaustion}, and it regains only half the normal number of hit points from spending Hit Dice and no hit points from finishing a long rest.",
-				"At the end of each long rest, an infected creature must make a {@dc 11} Constitution saving throw. On a failed save, the character gains one level of {@condition exhaustion}.",
-				"On a successful save, the character's {@condition exhaustion} level decreases by one level. If a successful saving throw reduces the infected creature's level of {@condition exhaustion} below 1, the creature recovers from the disease."
+				"La peste des égouts est un terme générique désignant une large catégorie de maladies qui incubent dans les égouts, les tas d'ordures et les marais stagnants, et qui sont parfois transmises par les créatures vivant dans ces zones, comme les rats et les otyughs.",
+				"Lorsqu'une créature humanoïde est mordue par une créature porteuse de la maladie, ou lorsqu'elle entre en contact avec de la saleté ou des abats contaminés par la maladie, la créature doit réussir un jet de sauvegarde de Constitution {@dc 11}, sans quoi elle est infectée.",
+				"Les symptômes de la peste des égouts mettent {@dice 1d4} jours à se manifester chez une créature infectée. Ils comprennent de la fatigue et des crampes. La créature infectée subit un niveau d'{@condition Épuisement}, et elle ne récupère que la moitié du nombre normal de points de vie en dépensant des dés de vie, et aucun point de vie en terminant un repos long.",
+				"À la fin de chaque repos long, une créature infectée doit effectuer un jet de sauvegarde de Constitution {@dc 11}. En cas d'échec, le personnage gagne un niveau d'{@condition Épuisement}.",
+				"En cas de réussite, le niveau d'{@condition Épuisement} du personnage diminue d'un niveau. Si un jet de sauvegarde réussi fait descendre le niveau d'{@condition Épuisement} de la créature infectée en dessous de 1, la créature guérit de la maladie."
 			]
 		},
 		{
-			"name": "Sewer Plague",
+			"name": "Peste des égouts",
 			"source": "XDMG",
 			"page": 61,
 			"srd52": true,
-			"type": "Magical Contagion",
+			"type": "Contagion magique",
 			"entries": [
-				"Fouled potions and alchemical waste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal must succeed on a {@dc 11} Constitution saving throw or become infected with Sewer Plague. A creature suffers the following effects {@dice 1d4} days after infection:",
+				"Les potions souillées et les déchets alchimiques peuvent donner naissance à la peste des égouts, qui incubent dans les égouts et les tas d'ordures et qui est parfois transmise par les créatures vivant dans de telles zones, notamment les otyughs et les rats. Tout humanoïde blessé par une créature porteuse de la contagion ou qui entre en contact avec de la saleté ou des abats contaminés doit réussir un jet de sauvegarde de Constitution {@dc 11}, sans quoi il est infecté par la peste des égouts. Une créature subit les effets suivants {@dice 1d4} jours après l'infection :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1350,17 +1350,17 @@
 						{
 							"type": "item",
 							"name": "Fatigue",
-							"entry": "The creature gains 1 {@condition Exhaustion|XPHB} level."
+							"entry": "La créature gagne 1 niveau d'{@condition Épuisement|XPHB}."
 						},
 						{
 							"type": "item",
-							"name": "Weakness",
-							"entry": "While the creature has any Exhaustion levels, it regains only half the normal number of Hit Points from spending Hit Point Dice."
+							"name": "Faiblesse",
+							"entry": "Tant que la créature a des niveaux d'Épuisement, elle ne récupère que la moitié du nombre normal de points de vie en dépensant des dés de vie."
 						},
 						{
 							"type": "item",
-							"name": "Restlessness",
-							"entry": "While the creature has any Exhaustion levels, finishing a Long Rest neither restores lost Hit Points nor reduces the creature's Exhaustion level."
+							"name": "Agitation",
+							"entry": "Tant que la créature a des niveaux d'Épuisement, terminer un Repos long ne restaure ni les points de vie perdus, ni ne réduit le niveau d'Épuisement de la créature."
 						}
 					]
 				},
@@ -1369,9 +1369,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Fighting the Contagion",
+							"name": "Lutter contre la contagion",
 							"entries": [
-								"Daily at dawn, an infected creature makes a {@dc 11} Constitution saving throw. On a failed save, the creature gains 1 {@condition Exhaustion|XPHB} level as its fatigue worsens. On a successful save, the creature's Exhaustion level decreases by 1. If the creature's Exhaustion level is reduced to 0, the contagion ends on the creature."
+								"Chaque jour à l'aube, une créature infectée effectue un jet de sauvegarde de Constitution {@dc 11}. En cas d'échec, la créature gagne 1 niveau d'{@condition Épuisement|XPHB} à mesure que sa fatigue s'aggrave. En cas de réussite, le niveau d'Épuisement de la créature diminue de 1. Si le niveau d'Épuisement de la créature est réduit à 0, la contagion prend fin pour elle."
 							]
 						}
 					]
@@ -1379,12 +1379,12 @@
 			]
 		},
 		{
-			"name": "Shaking Plague",
+			"name": "Peste des tremblements",
 			"source": "FRAiF",
 			"page": 70,
-			"type": "Magical Contagion",
+			"type": "Contagion magique",
 			"entries": [
-				"Magical experiments gone awry gave rise to Shaking Plague, which affects Humanoids. A creature suffers the following effects {@dice 1d4} days after infection:",
+				"Des expériences magiques qui ont mal tourné ont donné naissance à la peste des tremblements, qui affecte les humanoïdes. Une créature subit les effets suivants {@dice 1d4} jours après l'infection :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1392,17 +1392,17 @@
 						{
 							"type": "item",
 							"name": "Fatigue",
-							"entry": "The creature gains 1 {@condition Exhaustion|XPHB} level. While the creature has any {@condition Exhaustion|XPHB} levels, finishing a {@variantrule Long Rest|XPHB} doesn't reduce the creature's {@condition Exhaustion|XPHB} level."
+							"entry": "La créature gagne 1 niveau d'{@condition Épuisement|XPHB}. Tant que la créature a des niveaux d'{@condition Épuisement|XPHB}, terminer un {@variantrule Long Rest|XPHB} ne réduit pas le niveau d'{@condition Épuisement|XPHB} de la créature."
 						},
 						{
 							"type": "item",
-							"name": "Pus Boils",
-							"entry": "While the creature has any {@condition Exhaustion|XPHB} levels, its skin is covered in pus-filled boils."
+							"name": "Furoncles purulents",
+							"entry": "Tant que la créature a des niveaux d'{@condition Épuisement|XPHB}, sa peau est couverte de furoncles remplis de pus."
 						},
 						{
 							"type": "item",
-							"name": "Shaking",
-							"entry": "While the creature has any {@condition Exhaustion|XPHB} levels, magic-dampening tremors afflict it. The creature has {@variantrule Disadvantage|XPHB} on Dexterity checks and saving throws, and whenever the creature casts a spell with a Somatic component, it must succeed on a {@dc 11} Constitution saving throw, or the spell dissipates with no effect and the action, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB} used to cast it is wasted. If that spell was cast with a spell slot, that slot isn't expended."
+							"name": "Tremblements",
+							"entry": "Tant que la créature a des niveaux d'{@condition Épuisement|XPHB}, des tremblements qui étouffent la magie l'accablent. La créature a {@variantrule Disadvantage|XPHB} aux tests et aux jets de sauvegarde de Dextérité, et chaque fois que la créature lance un sort avec une composante somatique, elle doit réussir un jet de sauvegarde de Constitution {@dc 11}, sinon le sort se dissipe sans effet et l'action, l'{@variantrule Bonus Action|XPHB} ou la {@variantrule Reaction|XPHB} utilisée pour le lancer est gaspillée. Si ce sort a été lancé avec un emplacement de sort, cet emplacement n'est pas dépensé."
 						}
 					]
 				},
@@ -1411,16 +1411,16 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Fighting the Contagion",
+							"name": "Lutter contre la contagion",
 							"entries": [
-								"Daily at dawn, an infected creature makes a {@dc 11} Constitution saving throw. On a failed save, the creature gains 1 {@condition Exhaustion|XPHB} level as its fatigue worsens. On a successful save, the creature's {@condition Exhaustion|XPHB} level decreases by 1. If the creature's {@condition Exhaustion|XPHB} level is reduced to 0, the contagion ends on the creature."
+								"Chaque jour à l'aube, une créature infectée effectue un jet de sauvegarde de Constitution {@dc 11}. En cas d'échec, la créature gagne 1 niveau d'{@condition Épuisement|XPHB} à mesure que sa fatigue s'aggrave. En cas de réussite, le niveau d'{@condition Épuisement|XPHB} de la créature diminue de 1. Si le niveau d'{@condition Épuisement|XPHB} de la créature est réduit à 0, la contagion prend fin pour elle."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Spreading the Contagion",
+							"name": "Propagation de la contagion",
 							"entries": [
-								"Any Humanoid that makes skin contact with a creature infected with Shaking Plague must succeed on a {@dc 11} Constitution saving throw or also become infected with the contagion. On a successful save, the Humanoid can't catch the contagion from that particular infected creature for the next 24 hours."
+								"Tout humanoïde qui entre en contact cutané avec une créature infectée par la peste des tremblements doit réussir un jet de sauvegarde de Constitution {@dc 11}, sans quoi il est également infecté par la contagion. En cas de réussite, l'humanoïde ne peut pas attraper la contagion de cette créature infectée particulière pendant les 24 prochaines heures."
 							]
 						}
 					]
@@ -1439,7 +1439,7 @@
 			]
 		},
 		{
-			"name": "Sight Rot",
+			"name": "Pourriture des yeux",
 			"source": "DMG",
 			"page": 257,
 			"srd": true,
@@ -1447,34 +1447,34 @@
 				"Sight Rot|XDMG"
 			],
 			"entries": [
-				"This painful infection causes bleeding from the eyes and eventually blinds the victim.",
-				"A beast or humanoid that drinks water tainted by sight rot must succeed on a {@dc 15} Constitution saving throw or become infected. One day after infection, the creature's vision starts to become blurry. The creature takes a -1 penalty to attack rolls and ability checks that rely on sight. At the end of each long rest after the symptoms appear, the penalty worsens by 1. When it reaches -5, the victim is {@condition blinded} until its sight is restored by magic such as {@spell lesser restoration} or {@spell heal}.",
-				"Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character who has proficiency with an {@item herbalism kit|phb} can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely."
+				"Cette infection douloureuse provoque des saignements des yeux et finit par rendre la victime aveugle.",
+				"Une bête ou un humanoïde qui boit de l'eau contaminée par la pourriture des yeux doit réussir un jet de sauvegarde de Constitution {@dc 15}, sans quoi il est infecté. Un jour après l'infection, la vision de la créature commence à devenir floue. La créature subit un malus de -1 aux jets d'attaque et aux tests de caractéristique qui reposent sur la vue. À la fin de chaque repos long suivant l'apparition des symptômes, le malus s'aggrave de 1. Lorsqu'il atteint -5, la victime est {@condition Aveuglé} jusqu'à ce que sa vue soit restaurée par une magie telle que {@spell lesser restoration} ou {@spell heal}.",
+				"La pourriture des yeux peut être guérie à l'aide d'une fleur rare appelée euphraise, qui pousse dans certains marais. En une heure, un personnage qui maîtrise les {@item Trousse d'herboriste|phb} peut transformer la fleur en une dose de pommade. Appliquée sur les yeux avant un repos long, une dose de cette pommade empêche la maladie de s'aggraver après ce repos. Après trois doses, la pommade guérit entièrement la maladie."
 			]
 		},
 		{
-			"name": "Sight Rot",
+			"name": "Pourriture des yeux",
 			"source": "XDMG",
 			"page": 61,
 			"srd52": true,
-			"type": "Magical Contagion",
+			"type": "Contagion magique",
 			"entries": [
-				"Any Beast or Humanoid that drinks water tainted by Sight Rot must succeed on a {@dc 15} Constitution saving throw or have the {@condition Blinded|XPHB} condition until the contagion ends.",
+				"Toute bête ou tout humanoïde qui boit de l'eau contaminée par la pourriture des yeux doit réussir un jet de sauvegarde de Constitution {@dc 15}, sans quoi il est soumis à la condition {@condition Aveuglé|XPHB} jusqu'à la fin de la contagion.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Fighting the Contagion",
+							"name": "Lutter contre la contagion",
 							"entries": [
-								"Magic such as a {@spell Heal|XPHB} or {@spell Lesser Restoration|XPHB} spell ends the contagion immediately. A character who is proficient with an {@item Herbalism Kit|XPHB} can use it to create one dose of nonmagical ointment, which takes 1 hour. When applied to the eyes of a creature suffering from Sight Rot, the ointment suppresses the contagion on that creature for 24 hours. If the contagion is suppressed in this way for a total of 72 hours (requiring three doses and applications of the ointment), the contagion ends on the creature."
+								"Une magie telle qu'un sort de {@spell Heal|XPHB} ou de {@spell Lesser Restoration|XPHB} met immédiatement fin à la contagion. Un personnage qui maîtrise les {@item Trousse d'herboriste|XPHB} peut s'en servir pour créer une dose de pommade non magique, ce qui prend 1 heure. Appliquée sur les yeux d'une créature atteinte de la pourriture des yeux, la pommade supprime la contagion chez cette créature pendant 24 heures. Si la contagion est ainsi supprimée pendant un total de 72 heures (nécessitant trois doses et trois applications de la pommade), la contagion prend fin pour la créature."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Spreading the Contagion",
+							"name": "Propagation de la contagion",
 							"entries": [
-								"Any Humanoid that makes skin contact with a creature infected with Sight Rot must succeed on a {@dc 15} Constitution saving throw or also become infected with the contagion. On a successful save, the Humanoid can't catch the contagion from that particular infected creature for the next 24 hours."
+								"Tout humanoïde qui entre en contact cutané avec une créature infectée par la pourriture des yeux doit réussir un jet de sauvegarde de Constitution {@dc 15}, sans quoi il est également infecté par la contagion. En cas de réussite, l'humanoïde ne peut pas attraper la contagion de cette créature infectée particulière pendant les 24 prochaines heures."
 							]
 						}
 					]
@@ -1482,43 +1482,43 @@
 			]
 		},
 		{
-			"name": "Slimy Doom",
+			"name": "Mal visqueux",
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is {@condition stunned} until the end of its next turn.",
-				"{@note This disease can be inflicted with the {@spell contagion|PHB} spell.}"
+				"La créature se met à saigner de manière incontrôlable. La créature a un désavantage aux tests de Constitution et aux jets de sauvegarde de Constitution. De plus, chaque fois que la créature subit des dégâts, elle est {@condition Étourdi} jusqu'à la fin de son prochain tour.",
+				"{@note Cette maladie peut être infligée par le sort {@spell contagion|PHB}.}"
 			]
 		},
 		{
-			"name": "Spider Eggs",
+			"name": "Œufs d'araignée",
 			"source": "WDMM",
 			"page": 47,
 			"entries": [
-				"If the party is defeated, stabilized characters awaken after {@dice 1d4} hours to find themselves cocooned in sticky webs and suspended 10 feet off the floor, with spider eggs implanted in their bodies. A cocooned character is {@condition restrained} and can use its action to try to escape by making a successful {@dc 15} Strength check.",
-				"Spider eggs implanted in a host hatch in {@dice 2d12} hours, killing the host as the baby spiders chew their way out. This infestation functions like a disease. A {@spell lesser restoration} spell or similar magic cast upon the host kills the spider eggs, ending the threat."
+				"Si le groupe est vaincu, les personnages stabilisés se réveillent après {@dice 1d4} heures et découvrent qu'ils sont enveloppés dans des toiles collantes, suspendus à 10 pieds au-dessus du sol, avec des œufs d'araignée implantés dans leur corps. Un personnage ainsi enveloppé est {@condition Entravé} et peut utiliser son action pour tenter de s'échapper en réussissant un test de Force {@dc 15}.",
+				"Les œufs d'araignée implantés dans un hôte éclosent en {@dice 2d12} heures, tuant l'hôte tandis que les araignées nouveau-nées se frayent un chemin vers l'extérieur. Cette infestation fonctionne comme une maladie. Un sort de {@spell lesser restoration} ou une magie similaire lancé sur l'hôte tue les œufs d'araignée, mettant fin à la menace."
 			]
 		},
 		{
-			"name": "Super-Tetanus",
+			"name": "Super-tétanos",
 			"source": "TftYP",
 			"page": 104,
 			"entries": [
-				"A creature that contracts the disease of super-tetanus is wracked with pain as its heart races and its muscles spasm hard enough to break its bones. The creature takes 11 ({@damage 2d10}) damage at the start of each of its turns. If a victim is not cured by other means, it can repeat the saving throw at the end of every minute after becoming exposed, ending the effect on itself with a successful save."
+				"Une créature qui contracte le super-tétanos est secouée par la douleur tandis que son cœur s'emballe et que ses muscles se contractent en spasmes avec assez de force pour lui briser les os. La créature subit 11 ({@damage 2d10}) dégâts au début de chacun de ses tours. Si la victime n'est pas guérie par d'autres moyens, elle peut relancer le jet de sauvegarde à la fin de chaque minute suivant son exposition, mettant fin à l'effet qui l'affecte en cas de réussite."
 			]
 		},
 		{
-			"name": "The Gnawing Plague",
+			"name": "Peste rongeante",
 			"source": "VRGR",
 			"page": 153,
 			"entries": [
-				"The Gnawing Plague, also known as \"the Gnaws,\" is known in every corner of Richemulot.",
+				"La peste rongeante, également connue sous le nom de « la Rongeuse », est connue dans chaque recoin de Richemulot.",
 				{
 					"type": "entries",
 					"name": "Transmission",
 					"page": 153,
 					"entries": [
-						"The Gnaws is spread when a creature is bitten by a {@creature rat}, {@creature giant rat}, {@creature swarm of rats}, or {@creature wererat} that carries the disease, or by coming into physical contact with an infected creature."
+						"La Rongeuse se propage lorsqu'une créature est mordue par un {@creature rat}, un {@creature giant rat}, un {@creature swarm of rats} ou un {@creature wererat} porteur de la maladie, ou lorsqu'elle entre en contact physique avec une créature infectée."
 					]
 				},
 				{
@@ -1526,62 +1526,62 @@
 					"name": "Infection",
 					"page": 153,
 					"entries": [
-						"Creatures exposed to the disease must succeed on a {@dc 10} Constitution saving throw or become infected. The DC of this saving throw can increase depending on the severity of the plague's spread (see \"{@book Cycle of the Plague|VRGR|3|Cycle of the Plague}\" below)."
+						"Les créatures exposées à la maladie doivent réussir un jet de sauvegarde de Constitution {@dc 10}, sans quoi elles sont infectées. Le DD de ce jet de sauvegarde peut augmenter en fonction de la gravité de la propagation de la peste (voir « {@book Cycle of the Plague|VRGR|3|Cycle de la peste} » ci-dessous)."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Symptoms",
+					"name": "Symptômes",
 					"page": 153,
 					"entries": [
-						"It takes {@dice 1d2} days for the Gnawing Plague's symptoms to manifest in an infected creature. The infected creature then gains 1 level of {@condition exhaustion}, regains only half the normal number of hit points from spending Hit Dice, and regains no hit points from finishing a long rest.",
-						"The plague's symptoms include buboes, fatigue, splotchy rashes, sweats, and shaking, particularly facial tremors. Locals liken these twitches to the sniffing of rats. Sufferers often have scraps of leather placed in their mouths to prevent their teeth from clattering, though they inevitably gnaw through these scraps."
+						"Les symptômes de la peste rongeante mettent {@dice 1d2} jours à se manifester chez une créature infectée. La créature infectée gagne alors 1 niveau d'{@condition Épuisement}, ne récupère que la moitié du nombre normal de points de vie en dépensant des dés de vie, et ne récupère aucun point de vie en terminant un repos long.",
+						"Les symptômes de la peste comprennent des bubons, de la fatigue, des éruptions cutanées, des sueurs et des tremblements, notamment des tremblements faciaux. Les habitants comparent ces tics au reniflement des rats. On place souvent des morceaux de cuir dans la bouche des malades pour empêcher leurs dents de claquer, mais ils finissent inévitablement par les ronger."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Recovery",
+					"name": "Guérison",
 					"page": 154,
 					"entries": [
-						"At the end of each long rest, an infected creature must make a {@dc 10} Constitution saving throw. On a failed save, the creature gains 1 level of {@condition exhaustion}. On a successful save, the creature's {@condition exhaustion} level decreases by 1. If a successful saving throw reduces the infected creature's level of {@condition exhaustion} below 1, the creature recovers from the disease."
+						"À la fin de chaque repos long, une créature infectée doit effectuer un jet de sauvegarde de Constitution {@dc 10}. En cas d'échec, la créature gagne 1 niveau d'{@condition Épuisement}. En cas de réussite, le niveau d'{@condition Épuisement} de la créature diminue de 1. Si un jet de sauvegarde réussi fait descendre le niveau d'{@condition Épuisement} de la créature infectée en dessous de 1, la créature guérit de la maladie."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Immunity",
+					"name": "Immunité",
 					"page": 154,
 					"entries": [
-						"All forms of rats and wererats are immune to the Gnawing Plague."
+						"Toutes les formes de rats et de loups-garous rats sont immunisés contre la peste rongeante."
 					]
 				}
 			]
 		},
 		{
-			"name": "The Rusting",
+			"name": "La Rouille",
 			"source": "FRAiF",
 			"page": 165,
-			"type": "Magical Contagion",
+			"type": "Contagion magique",
 			"entries": [
-				"The Rusting manifests as a thin, iron coating that grows over a victim's body. When exposed to moisture, this iron skin corrodes into a rust-colored plaque. As the Rusting covers the victim, the victim eventually transforms into a type of creature known as a Rusted (see {@book chapter 9|FRAiF|9}).",
-				"Any creature that is wounded by a Rusted creature or spends 1 hour in an area where the Rusting has manifested makes a {@dc 10} Constitution saving throw. Constructs and Undead automatically succeed on this save. On a failed save, the creature is afflicted by the Rusting and suffers the following effects:",
+				"La Rouille se manifeste sous la forme d'un fin revêtement de fer qui se développe sur le corps de la victime. Exposée à l'humidité, cette peau de fer se corrode en une plaque couleur rouille. À mesure que la Rouille recouvre la victime, celle-ci finit par se transformer en un type de créature connu sous le nom de Rouillé (voir {@book chapter 9|FRAiF|9}).",
+				"Toute créature blessée par une créature Rouillée ou qui passe 1 heure dans une zone où la Rouille s'est manifestée effectue un jet de sauvegarde de Constitution {@dc 10}. Les constructions et les morts-vivants réussissent automatiquement ce jet de sauvegarde. En cas d'échec, la créature est atteinte par la Rouille et subit les effets suivants :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Curse",
-							"entry": "The creature gains 1 {@condition Exhaustion|XPHB} level and is cursed. While the creature is cursed, finishing a {@variantrule Long Rest|XPHB} doesn't reduce the creature's {@condition Exhaustion|XPHB} level."
+							"name": "Malédiction",
+							"entry": "La créature gagne 1 niveau d'{@condition Épuisement|XPHB} et est maudite. Tant que la créature est maudite, terminer un {@variantrule Long Rest|XPHB} ne réduit pas le niveau d'{@condition Épuisement|XPHB} de la créature."
 						},
 						{
 							"type": "item",
-							"name": "Plated Joints",
-							"entry": "The creature's {@variantrule Speed|XPHB} is reduced by 5 feet."
+							"name": "Articulations plaquées",
+							"entry": "La {@variantrule Speed|XPHB} de la créature est réduite de 5 pieds."
 						},
 						{
 							"type": "item",
-							"name": "Rusted Fate",
-							"entry": "When a cursed creature's {@condition Exhaustion|XPHB} level reaches 6, it doesn't die. Instead, the creature transforms into a Rusted version of its former self; its creature type becomes Construct, and it gains {@variantrule Immunity|XPHB} to Poison damage and the {@condition Exhaustion|XPHB}, {@condition Petrified|XPHB}, and {@condition Poisoned|XPHB} conditions. The curse then ends for that creature."
+							"name": "Destin rouillé",
+							"entry": "Lorsque le niveau d'{@condition Épuisement|XPHB} d'une créature maudite atteint 6, elle ne meurt pas. Au lieu de cela, la créature se transforme en une version Rouillée de son ancien être ; son type de créature devient construction, et elle gagne {@variantrule Immunity|XPHB} aux dégâts de poison et aux conditions {@condition Épuisement|XPHB}, {@condition Pétrifié|XPHB} et {@condition Empoisonné|XPHB}. La malédiction prend alors fin pour cette créature."
 						}
 					]
 				},
@@ -1590,10 +1590,10 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Fighting the Contagion",
+							"name": "Lutter contre la contagion",
 							"entries": [
-								"Daily at dawn, an afflicted creature makes a {@dc 10} Constitution saving throw. On a failed save, the creature gains 1 {@condition Exhaustion|XPHB} level as more iron coats its skin. On a successful save, the creature's {@condition Exhaustion|XPHB} level decreases by 1. If the creature's {@condition Exhaustion|XPHB} level is reduced to 0, the contagion ends on the creature.",
-								"Removing the curse immediately ends the contagion for a creature."
+								"Chaque jour à l'aube, une créature atteinte effectue un jet de sauvegarde de Constitution {@dc 10}. En cas d'échec, la créature gagne 1 niveau d'{@condition Épuisement|XPHB} à mesure que davantage de fer recouvre sa peau. En cas de réussite, le niveau d'{@condition Épuisement|XPHB} de la créature diminue de 1. Si le niveau d'{@condition Épuisement|XPHB} de la créature est réduit à 0, la contagion prend fin pour elle.",
+								"Retirer la malédiction met immédiatement fin à la contagion pour une créature."
 							]
 						}
 					]
@@ -1605,20 +1605,20 @@
 			"source": "ToA",
 			"page": 40,
 			"entries": [
-				"Des parasites minuscules connus sous le nom de sangsues de la gorge infestent l'eau des forêts, des marais et des rivières de Chult. Tout géant ou humanoïde qui avale de l'eau contaminée doit réussir un jet de sauvegarde de Constitution {@dc 12}, sans quoi il est infesté de sangsues de la gorge. Les symptômes immédiats comprennent une inflammation de la gorge et un essoufflement. Après {@dice 1d6} heures, le personnage infecté gagne 1 niveau d'{@condition exhaustion} qui ne peut être supprimé (sauf comme décrit ci-dessous) tant que la maladie n'est pas guérie. À la fin de chaque repos long, la créature infectée doit relancer le jet de sauvegarde. En cas d'échec, son {@condition exhaustion} augmente d'1 niveau ; en cas de réussite, son {@condition exhaustion} diminue d'1 niveau. Si un jet de sauvegarde réussi fait descendre le niveau d'{@condition exhaustion} de la créature infectée en dessous de 1, elle guérit de la maladie.",
+				"Des parasites minuscules connus sous le nom de sangsues de la gorge infestent l'eau des forêts, des marais et des rivières de Chult. Tout géant ou humanoïde qui avale de l'eau contaminée doit réussir un jet de sauvegarde de Constitution {@dc 12}, sans quoi il est infesté de sangsues de la gorge. Les symptômes immédiats comprennent une inflammation de la gorge et un essoufflement. Après {@dice 1d6} heures, le personnage infecté gagne 1 niveau d'{@condition Épuisement} qui ne peut être supprimé (sauf comme décrit ci-dessous) tant que la maladie n'est pas guérie. À la fin de chaque repos long, la créature infectée doit relancer le jet de sauvegarde. En cas d'échec, son {@condition Épuisement} augmente d'1 niveau ; en cas de réussite, son {@condition Épuisement} diminue d'1 niveau. Si un jet de sauvegarde réussi fait descendre le niveau d'{@condition Épuisement} de la créature infectée en dessous de 1, elle guérit de la maladie.",
 				"Les explorateurs peuvent éviter de contracter des sangsues de la gorge en ne buvant que de l'eau de pluie ou de l'eau qui a été bouillie ou purifiée par la magie."
 			]
 		}
 	],
 	"status": [
 		{
-			"name": "Bloodied",
+			"name": "Meurtri",
 			"source": "XPHB",
 			"page": 362,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"A creature is Bloodied while it has half its {@variantrule Hit Points|XPHB} or fewer remaining."
+				"Une créature est Meurtri tant qu'il lui reste la moitié de ses {@variantrule Hit Points|XPHB} ou moins."
 			]
 		},
 		{
@@ -1631,36 +1631,36 @@
 				"Concentration|XPHB"
 			],
 			"entries": [
-				"Some spells require you to maintain {@status concentration} in order to keep their magic active. If you lose {@status concentration}, such a spell ends.",
-				"If a spell must be maintained with {@status concentration}, that fact appears in its Duration entry, and the spell specifies how long you can concentrate on it. You can end {@status concentration} at any time (no action required).",
-				"Normal activity, such as moving and attacking, doesn't interfere with {@status concentration}. The following factors can break {@status concentration}:",
+				"Certains sorts vous demandent de maintenir la {@status concentration} afin de garder leur magie active. Si vous perdez la {@status concentration}, un tel sort prend fin.",
+				"Si un sort doit être maintenu au moyen de la {@status concentration}, ce fait apparaît dans son entrée de durée, et le sort précise combien de temps vous pouvez vous concentrer sur lui. Vous pouvez mettre fin à la {@status concentration} à tout moment (aucune action n'est requise).",
+				"Une activité normale, comme se déplacer et attaquer, n'interfère pas avec la {@status concentration}. Les facteurs suivants peuvent briser la {@status concentration} :",
 				{
 					"type": "list",
 					"items": [
 						{
 							"type": "entries",
-							"name": "Casting another spell that requires concentration",
+							"name": "Lancer un autre sort exigeant la concentration",
 							"entries": [
-								"You lose {@status concentration} on a spell if you cast another spell that requires {@status concentration}. You can't concentrate on two spells at once."
+								"Vous perdez la {@status concentration} sur un sort si vous lancez un autre sort qui exige la {@status concentration}. Vous ne pouvez pas vous concentrer sur deux sorts à la fois."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Taking damage",
+							"name": "Subir des dégâts",
 							"entries": [
-								"Whenever you take damage while you are {@status concentration||concentrating} on a spell, you must make a Constitution saving throw to maintain your {@status concentration}. The DC equals 10 or half the damage you take, whichever number is higher. If you take damage from multiple sources, such as an arrow and a dragon's breath, you make a separate saving throw for each source of damage."
+								"Chaque fois que vous subissez des dégâts alors que vous êtes {@status concentration||en train de vous concentrer} sur un sort, vous devez effectuer un jet de sauvegarde de Constitution pour maintenir votre {@status concentration}. Le DD est égal à 10 ou à la moitié des dégâts que vous subissez, le chiffre le plus élevé des deux s'appliquant. Si vous subissez des dégâts de plusieurs sources, comme une flèche et le souffle d'un dragon, vous effectuez un jet de sauvegarde distinct pour chaque source de dégâts."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Being incapacitated or killed",
+							"name": "Être incapable ou tué",
 							"entries": [
-								"You lose {@status concentration} on a spell if you are {@condition incapacitated} or if you die."
+								"Vous perdez la {@status concentration} sur un sort si vous êtes {@condition Incapable} ou si vous mourez."
 							]
 						}
 					]
 				},
-				"The DM might also decide that certain environmental phenomena, such as a wave crashing over you while you're on a storm-tossed ship, require you to succeed on a {@dc 10} Constitution saving throw to maintain {@status concentration} on a spell."
+				"Le MJ peut également décider que certains phénomènes environnementaux, comme une vague s'abattant sur vous alors que vous vous trouvez sur un navire ballotté par la tempête, exigent que vous réussissiez un jet de sauvegarde de Constitution {@dc 10} pour maintenir la {@status concentration} sur un sort."
 			]
 		},
 		{
@@ -1670,29 +1670,29 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"Some spells and other effects require Concentration to remain active, as specified in their descriptions. If the effect's creator loses Concentration, the effect ends. If the effect has a maximum duration, the effect's description specifies how long the creator can concentrate on it: up to 1 minute, 1 hour, or some other duration. The creator can end Concentration at any time (no action required). The following factors break Concentration.",
+				"Certains sorts et autres effets exigent la Concentration pour rester actifs, comme précisé dans leurs descriptions. Si le créateur de l'effet perd la Concentration, l'effet prend fin. Si l'effet a une durée maximale, la description de l'effet précise combien de temps le créateur peut s'y concentrer : jusqu'à 1 minute, 1 heure ou une autre durée. Le créateur peut mettre fin à la Concentration à tout moment (aucune action n'est requise). Les facteurs suivants brisent la Concentration.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Another Concentration Effect",
+							"name": "Un autre effet de concentration",
 							"entries": [
-								"You lose Concentration on an effect the moment you start casting a spell that requires Concentration or activate another effect that requires Concentration."
+								"Vous perdez la Concentration sur un effet dès que vous commencez à lancer un sort qui exige la Concentration ou à activer un autre effet qui exige la Concentration."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Damage",
+							"name": "Dégâts",
 							"entries": [
-								"If you take damage, you must succeed on a Constitution {@variantrule Saving Throw|XPHB|saving throw} to maintain Concentration. The DC equals 10 or half the damage taken (round down), whichever number is higher, up to a maximum DC of 30."
+								"Si vous subissez des dégâts, vous devez réussir un {@variantrule Saving Throw|XPHB|jet de sauvegarde} de Constitution pour maintenir la Concentration. Le DD est égal à 10 ou à la moitié des dégâts subis (arrondis à l'entier inférieur), le chiffre le plus élevé des deux s'appliquant, avec un DD maximal de 30."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Incapacitated or Dead",
+							"name": "Incapable ou mort",
 							"entries": [
-								"Your Concentration ends if you have the {@condition Incapacitated|XPHB} condition or you die."
+								"Votre Concentration prend fin si vous êtes soumis à la condition {@condition Incapable|XPHB} ou si vous mourez."
 							]
 						}
 					]
@@ -1700,7 +1700,7 @@
 			]
 		},
 		{
-			"name": "Surprised",
+			"name": "Surpris",
 			"source": "PHB",
 			"page": 189,
 			"srd": true,
@@ -1709,19 +1709,19 @@
 				"Surprised|XPHB"
 			],
 			"entries": [
-				"A band of adventurers sneaks up on a bandit camp, springing from the trees to attack them. A {@creature gelatinous cube} glides down a dungeon passage, unnoticed by the adventurers until the cube engulfs one of them. In these situations, one side of the battle gains surprise over the other.",
-				"The DM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the DM compares the Dexterity ({@skill Stealth}) checks of anyone hiding with the passive Wisdom ({@skill Perception}) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is {@status surprised} at the start of the encounter.",
-				"If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be {@status surprised} even if the other members aren't."
+				"Un groupe d'aventuriers s'approche furtivement d'un camp de bandits, surgissant des arbres pour les attaquer. Un {@creature gelatinous cube} glisse dans un passage de donjon, sans être remarqué par les aventuriers jusqu'à ce que le cube en englobe l'un d'entre eux. Dans ces situations, un camp du combat obtient la surprise sur l'autre.",
+				"Le MJ détermine qui risque d'être surpris. Si aucun des deux camps ne tente de se montrer furtif, ils se remarquent automatiquement. Sinon, le MJ compare les tests de Dextérité ({@skill Discrétion}) de tous ceux qui se cachent au score de Sagesse ({@skill Perception}) passive de chaque créature du camp adverse. Tout personnage ou monstre qui ne remarque pas une menace est {@status Surpris} au début de la rencontre.",
+				"Si vous êtes surpris, vous ne pouvez ni bouger ni entreprendre d'action lors de votre premier tour de combat, et vous ne pouvez entreprendre de réaction avant la fin de ce tour. Un membre d'un groupe peut être {@status Surpris} même si les autres membres ne le sont pas."
 			]
 		},
 		{
-			"name": "Surprised",
+			"name": "Surpris",
 			"source": "XPHB",
 			"page": 376,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"If a creature is caught unawares by the start of combat, that creature is surprised, which causes it to have {@variantrule Disadvantage|XPHB} on its {@variantrule Initiative|XPHB} roll."
+				"Si une créature est prise au dépourvu au début du combat, cette créature est surprise, ce qui lui confère {@variantrule Disadvantage|XPHB} à son jet d'{@variantrule Initiative|XPHB}."
 			]
 		}
 	]

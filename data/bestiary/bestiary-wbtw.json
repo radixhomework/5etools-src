@@ -41,8 +41,8 @@
 				{
 					"ac": 19,
 					"from": [
-						"{@item studded leather armor|PHB|studded leather}",
-						"{@item shield|PHB}"
+						"{@item Armure de cuir clouté|PHB|studded leather}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -87,7 +87,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If Agdon is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw and only half damage if he fails, provided he isn't {@condition incapacitated}."
+						"If Agdon is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw and only half damage if he fails, provided he isn't {@condition Incapable}."
 					]
 				},
 				{
@@ -121,7 +121,7 @@
 				{
 					"name": "Quick Fingers",
 					"entries": [
-						"Agdon targets one creature within 5 feet of him that he can see and makes a Dexterity ({@skill Sleight of Hand}) check, with a DC equal to 1 + the target's passive Wisdom ({@skill Perception}) score. On a successful check, Agdon pilfers one object weighing 1 pound or less that the target has in its possession but not in its grasp, without the target noticing the theft."
+						"Agdon targets one creature within 5 feet of him that he can see and makes a Dexterity ({@skill Escamotage}) check, with a DC equal to 1 + the target's passive Wisdom ({@skill Perception}) score. On a successful check, Agdon pilfers one object weighing 1 pound or less that the target has in its possession but not in its grasp, without the target noticing the theft."
 					]
 				}
 			],
@@ -210,13 +210,13 @@
 				{
 					"name": "Brave",
 					"entries": [
-						"Alagarthas has advantage on saving throws against being {@condition frightened}."
+						"Alagarthas has advantage on saving throws against being {@condition Effrayé}."
 					]
 				},
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Alagarthas has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Alagarthas has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				}
 			],
@@ -236,7 +236,7 @@
 				{
 					"name": "Leadership (Recharges after a Short or Long Rest)",
 					"entries": [
-						"For 1 minute, Alagarthas can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand him. A creature can benefit from only one Leadership die at a time. This effect ends if Alagarthas is {@condition incapacitated}."
+						"For 1 minute, Alagarthas can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand him. A creature can benefit from only one Leadership die at a time. This effect ends if Alagarthas is {@condition Incapable}."
 					]
 				}
 			],
@@ -466,7 +466,7 @@
 				{
 					"name": "Widdershins Allergy",
 					"entries": [
-						"If a creature within 10 feet of Bavlorna uses at least 10 feet of movement to run in place counterclockwise, Bavlorna is overcome by a fit of sneezing and can't cast spells until the end of her next turn. In addition, any creature Bavlorna has swallowed is immediately expelled and falls {@condition prone} in an unoccupied space within 5 feet of her."
+						"If a creature within 10 feet of Bavlorna uses at least 10 feet of movement to run in place counterclockwise, Bavlorna is overcome by a fit of sneezing and can't cast spells until the end of her next turn. In addition, any creature Bavlorna has swallowed is immediately expelled and falls {@condition À terre} in an unoccupied space within 5 feet of her."
 					]
 				}
 			],
@@ -480,7 +480,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage, and the target is {@condition grappled} (escape {@dc 16}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition restrained}, and Bavlorna can't use her Bite attack on another target."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage, and the target is {@condition Agrippé} (escape {@dc 16}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition Entravé}, and Bavlorna can't use her Bite attack on another target."
 					]
 				},
 				{
@@ -500,8 +500,8 @@
 				{
 					"name": "Swallow",
 					"entries": [
-						"Bavlorna swallows a Small or smaller creature she is grappling, ending the grapple on it. The swallowed creature is {@condition blinded} and {@condition restrained}, it has {@quickref Cover||3||total cover} against attacks and other effects outside Bavlorna, and it takes 10 ({@damage 3d6}) acid damage at the start of each of its turns. If the swallowed creature is one of Bavlorna's lornlings, Bavlorna gains all the lornling's memories when the acid damage reduces it to 0 hit points.",
-						"Bavlorna can have only one creature swallowed at a time. If Bavlorna dies, a swallowed creature is no longer {@condition restrained} and can escape from the corpse using 5 feet of movement, exiting {@condition prone}."
+						"Bavlorna swallows a Small or smaller creature she is grappling, ending the grapple on it. The swallowed creature is {@condition Aveuglé} and {@condition Entravé}, it has {@quickref Cover||3||total cover} against attacks and other effects outside Bavlorna, and it takes 10 ({@damage 3d6}) acid damage at the start of each of its turns. If the swallowed creature is one of Bavlorna's lornlings, Bavlorna gains all the lornling's memories when the acid damage reduces it to 0 hit points.",
+						"Bavlorna can have only one creature swallowed at a time. If Bavlorna dies, a swallowed creature is no longer {@condition Entravé} and can escape from the corpse using 5 feet of movement, exiting {@condition À terre}."
 					]
 				}
 			],
@@ -612,7 +612,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The brigganock has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+						"The brigganock has advantage on saving throws against being {@condition Charmé}, and magic can't put it to sleep."
 					]
 				},
 				{
@@ -701,7 +701,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|PHB|plate}"
+						"{@item Harnois de plaques|PHB|plate}"
 					]
 				}
 			],
@@ -767,7 +767,7 @@
 				{
 					"name": "Croak of Charming (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The knight makes a loud croak while targeting one creature it can see within 30 feet of it. The target must succeed on a {@dc 12} Wisdom saving throw or be {@condition charmed} until the end of its next turn."
+						"The knight makes a loud croak while targeting one creature it can see within 30 feet of it. The target must succeed on a {@dc 12} Wisdom saving throw or be {@condition Charmé} until the end of its next turn."
 					]
 				}
 			],
@@ -863,7 +863,7 @@
 				{
 					"name": "Spores (1/Day)",
 					"entries": [
-						"A 5-foot radius of spores extends from the campestri. These spores can go around corners, and they have no effect on Constructs, Elementals, Plants, or Undead. Each other creature in the area must make a {@dc 10} Wisdom saving throw. On a failed save, the creature is {@condition incapacitated} and its speed is halved, both for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"A 5-foot radius of spores extends from the campestri. These spores can go around corners, and they have no effect on Constructs, Elementals, Plants, or Undead. Each other creature in the area must make a {@dc 10} Wisdom saving throw. On a failed save, the creature is {@condition Incapable} and its speed is halved, both for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -981,7 +981,7 @@
 				{
 					"name": "Unsettling Presence {@recharge}",
 					"entries": [
-						"Clapperclaw targets one creature it can see within 15 feet of it. The target must succeed on a {@dc 11} Wisdom saving throw or be magically {@condition frightened} until the end of Clapperclaw's next turn."
+						"Clapperclaw targets one creature it can see within 15 feet of it. The target must succeed on a {@dc 11} Wisdom saving throw or be magically {@condition Effrayé} until the end of Clapperclaw's next turn."
 					]
 				}
 			],
@@ -1024,7 +1024,7 @@
 				{
 					"name": "Strength Drain",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d6 + 2}) necrotic damage, and the target's Strength score is reduced by {@dice 1d4}. The target falls {@condition unconscious} if this reduces its Strength to 0. The creature regains consciousness and the reduction to its Strength score disappears after it finishes a short or long rest."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d6 + 2}) necrotic damage, and the target's Strength score is reduced by {@dice 1d4}. The target falls {@condition Inconscient} if this reduces its Strength to 0. The creature regains consciousness and the reduction to its Strength score disappears after it finishes a short or long rest."
 					]
 				}
 			],
@@ -1074,7 +1074,7 @@
 				{
 					"name": "Displacement",
 					"entries": [
-						"The displacer beast projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displacer beast is {@condition incapacitated} or has a speed of 0."
+						"The displacer beast projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displacer beast is {@condition Incapable} or has a speed of 0."
 					]
 				}
 			],
@@ -1125,8 +1125,8 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item chain mail|PHB}",
-						"{@item shield|PHB}"
+						"{@item Cotte de mailles|PHB}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -1336,7 +1336,7 @@
 				{
 					"name": "Uncanny Awareness",
 					"entries": [
-						"Endelyn can't be {@status surprised}."
+						"Endelyn can't be {@status Surpris}."
 					]
 				}
 			],
@@ -1432,7 +1432,7 @@
 				{
 					"name": "Trampling Charge",
 					"entries": [
-						"If Envy moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, Envy can make one attack with its claws against it as a bonus action."
+						"If Envy moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a {@dc 16} Strength saving throw or be knocked {@condition À terre}. If the target is {@condition À terre}, Envy can make one attack with its claws against it as a bonus action."
 					]
 				}
 			],
@@ -1452,7 +1452,7 @@
 				{
 					"name": "Petrifying Breath {@recharge 5}",
 					"entries": [
-						"Envy exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a {@dc 13} Constitution saving throw. On a failed save, a target begins to turn to stone and is {@condition restrained}. The {@condition restrained} target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is {@condition petrified} until freed by the {@spell greater restoration} spell or other magic."
+						"Envy exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a {@dc 13} Constitution saving throw. On a failed save, a target begins to turn to stone and is {@condition Entravé}. The {@condition Entravé} target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is {@condition Pétrifié} until freed by the {@spell greater restoration} spell or other magic."
 					]
 				}
 			],
@@ -1985,7 +1985,7 @@
 				{
 					"name": "Dazzling Light {@recharge 5}",
 					"entries": [
-						"Magical, colored light springs from the golem in a 15-foot cone. Each creature in the cone must succeed on a {@dc 10} Constitution saving throw or be {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Magical, colored light springs from the golem in a 15-foot cone. Each creature in the cone must succeed on a {@dc 10} Constitution saving throw or be {@condition Aveuglé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -2108,7 +2108,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -2142,7 +2142,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The harengon has advantage on an attack roll against a creature if at least one of the harengon's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The harengon has advantage on an attack roll against a creature if at least one of the harengon's allies is within 5 feet of the creature and the ally isn't {@condition Incapable}."
 					]
 				},
 				{
@@ -2204,7 +2204,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -2253,7 +2253,7 @@
 				{
 					"name": "Light Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit (the target gains no benefit from less than {@quickref Cover||3||total cover}), range 320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage. {@hom}Immediately after making this attack, the harengon can use the {@action Hide} action."
+						"{@atk rw} {@hit 5} to hit (the target gains no benefit from less than {@quickref Cover||3||total cover}), range 320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage. {@hom}Immediately after making this attack, the harengon can use the {@action Se cacher} action."
 					]
 				}
 			],
@@ -2304,7 +2304,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"{@item robe of the archmagi}"
+						"{@item Robe des archimages}"
 					]
 				}
 			],
@@ -2405,7 +2405,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Iggwilv wears an {@item amulet of the planes} and a {@item robe of the archmagi}."
+						"Iggwilv wears an {@item Amulette des plans} and a {@item Robe des archimages}."
 					]
 				}
 			],
@@ -2419,7 +2419,7 @@
 				{
 					"name": "Bewitching Bolt",
 					"entries": [
-						"{@atk ms,rs} {@hit 16} to hit, reach 5 ft. or range 120 ft., one target. {@h}25 ({@damage 5d6 + 8}) lightning damage, and if the target is a creature, it must succeed on a {@dc 22} Wisdom saving throw or be {@condition charmed} by Iggwilv until the start of her next turn."
+						"{@atk ms,rs} {@hit 16} to hit, reach 5 ft. or range 120 ft., one target. {@h}25 ({@damage 5d6 + 8}) lightning damage, and if the target is a creature, it must succeed on a {@dc 22} Wisdom saving throw or be {@condition Charmé} by Iggwilv until the start of her next turn."
 					]
 				},
 				{
@@ -2455,7 +2455,7 @@
 				{
 					"name": "Dark Speech (Costs 2 Actions)",
 					"entries": [
-						"Iggwilv utters a phrase in a forbidden language and targets one or two creatures she can see within 60 feet of her. Each target must succeed on a {@dc 22} Wisdom saving throw or take 11 ({@damage 2d10}) psychic damage and be {@condition frightened} of Iggwilv for 1 minute. A target can repeat the save at the end of each of its turns, ending the effect on itself on a success and thereby becoming immune to Iggwilv's Dark Speech for 24 hours."
+						"Iggwilv utters a phrase in a forbidden language and targets one or two creatures she can see within 60 feet of her. Each target must succeed on a {@dc 22} Wisdom saving throw or take 11 ({@damage 2d10}) psychic damage and be {@condition Effrayé} of Iggwilv for 1 minute. A target can repeat the save at the end of each of its turns, ending the effect on itself on a success and thereby becoming immune to Iggwilv's Dark Speech for 24 hours."
 					]
 				},
 				{
@@ -2596,7 +2596,7 @@
 				{
 					"name": "Confusing Burble",
 					"entries": [
-						"The jabberwock burbles to itself unless it is {@condition incapacitated}. Any creature that starts its turn within 30 feet of the jabberwock and is able to hear its burbling must make a {@dc 18} Charisma saving throw. On a failed saving throw, the creature can't take reactions until the start of its next turn, and it rolls a {@dice d4} to determine what it does during its current turn:",
+						"The jabberwock burbles to itself unless it is {@condition Incapable}. Any creature that starts its turn within 30 feet of the jabberwock and is able to hear its burbling must make a {@dc 18} Charisma saving throw. On a failed saving throw, the creature can't take reactions until the start of its next turn, and it rolls a {@dice d4} to determine what it does during its current turn:",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -2661,7 +2661,7 @@
 				{
 					"name": "Fiery Gaze {@recharge 5}",
 					"entries": [
-						"Unless it is {@condition blinded}, the jabberwock emits a 120-foot-long, 5-foot-wide line of fire from its eyes. Each creature in that line must make a {@dc 18} Dexterity saving throw, taking 31 ({@damage 7d8}) fire damage on a failed save, or half as much damage on a successful one."
+						"Unless it is {@condition Aveuglé}, the jabberwock emits a 120-foot-long, 5-foot-wide line of fire from its eyes. Each creature in that line must make a {@dc 18} Dexterity saving throw, taking 31 ({@damage 7d8}) fire damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -2681,7 +2681,7 @@
 				{
 					"name": "Wing Attack (3 Actions)",
 					"entries": [
-						"The jabberwock beats its wings. Each creature within 10 feet of the jabberwock must succeed on a {@dc 18} Dexterity saving throw or take 8 ({@damage 1d6 + 5}) bludgeoning damage and be knocked {@condition prone}."
+						"The jabberwock beats its wings. Each creature within 10 feet of the jabberwock must succeed on a {@dc 18} Dexterity saving throw or take 8 ({@damage 1d6 + 5}) bludgeoning damage and be knocked {@condition À terre}."
 					]
 				}
 			],
@@ -2739,8 +2739,8 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item leather armor|PHB}",
-						"{@item shield|PHB}"
+						"{@item Armure de cuir|PHB}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -2773,7 +2773,7 @@
 				{
 					"name": "Nimble Escape",
 					"entries": [
-						"Jingle Jangle can take the {@action Disengage} or {@action Hide} action as a bonus action on each of her turns."
+						"Jingle Jangle can take the {@action Désengagement} or {@action Se cacher} action as a bonus action on each of her turns."
 					]
 				}
 			],
@@ -2827,7 +2827,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"{@item bracers of defense}"
+						"{@item Brassards de défense}"
 					]
 				}
 			],
@@ -2887,7 +2887,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Kelek wears {@item bracers of defense} and carries a {@item staff of striking} with 10 charges. The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If its last charge is expended, roll a {@dice d20}; on a 1, the staff becomes a nonmagical quarterstaff."
+						"Kelek wears {@item Brassards de défense} and carries a {@item Bâton de frappe} with 10 charges. The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If its last charge is expended, roll a {@dice d20}; on a 1, the staff becomes a nonmagical quarterstaff."
 					]
 				}
 			],
@@ -3044,7 +3044,7 @@
 				{
 					"name": "Mimicry",
 					"entries": [
-						"Kettlesteam can mimic any sounds she has heard, including voices. A creature that hears the sounds can tell they are imitations only with a successful {@dc 13} Wisdom ({@skill Insight}) check."
+						"Kettlesteam can mimic any sounds she has heard, including voices. A creature that hears the sounds can tell they are imitations only with a successful {@dc 13} Wisdom ({@skill Perspicacité}) check."
 					]
 				}
 			],
@@ -3064,7 +3064,7 @@
 				{
 					"name": "Twilight Sleep (2/Day)",
 					"entries": [
-						"Kettlesteam targets one creature she can see within 10 feet of her. The target is engulfed in a cloud of magical, sleep-inducing gas and must succeed on a {@dc 13} Constitution saving throw or fall {@condition unconscious} for 1 minute. A creature put to sleep by this gas awakens instantly if it takes damage, or if someone uses an action to shake or slap the sleeper awake."
+						"Kettlesteam targets one creature she can see within 10 feet of her. The target is engulfed in a cloud of magical, sleep-inducing gas and must succeed on a {@dc 13} Constitution saving throw or fall {@condition Inconscient} for 1 minute. A creature put to sleep by this gas awakens instantly if it takes damage, or if someone uses an action to shake or slap the sleeper awake."
 					]
 				}
 			],
@@ -3189,7 +3189,7 @@
 				{
 					"name": "Grabby Hands",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one creature. {@h}The target is {@condition grappled} (escape {@dc 6}) and takes 11 ({@damage 2d10}) psychic damage at the start of each of its turns until this grapple ends. The doll can grapple only one creature at a time."
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one creature. {@h}The target is {@condition Agrippé} (escape {@dc 6}) and takes 11 ({@damage 2d10}) psychic damage at the start of each of its turns until this grapple ends. The doll can grapple only one creature at a time."
 					]
 				}
 			],
@@ -3197,7 +3197,7 @@
 				{
 					"name": "Cackle {@recharge 4}",
 					"entries": [
-						"The doll cackles as it targets one or two creatures it can see within 30 feet of it. Each target that can hear the doll's cackling must make a {@dc 11} Wisdom saving throw, succeeding automatically if it has an Intelligence of 4 or lower. On a failed saving throw, the creature takes 5 ({@damage 2d4}) psychic damage and is {@condition incapacitated} for 1 minute as it is overcome by a fit of laughter. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on itself on a success. A creature that succeeds on this saving throw is immune to this doll's Cackle for 24 hours."
+						"The doll cackles as it targets one or two creatures it can see within 30 feet of it. Each target that can hear the doll's cackling must make a {@dc 11} Wisdom saving throw, succeeding automatically if it has an Intelligence of 4 or lower. On a failed saving throw, the creature takes 5 ({@damage 2d4}) psychic damage and is {@condition Incapable} for 1 minute as it is overcome by a fit of laughter. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on itself on a success. A creature that succeeds on this saving throw is immune to this doll's Cackle for 24 hours."
 					]
 				}
 			],
@@ -3253,7 +3253,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"{@item plate armor|PHB}"
+						"{@item Harnois de plaques|PHB}"
 					]
 				}
 			],
@@ -3455,7 +3455,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"While carrying the {@item Witchlight vane|WbtW}, Light casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
+						"While carrying the {@item Girouette de la féérie|WbtW}, Light casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -3470,13 +3470,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Light has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Light has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Light carries and is attuned to the {@item Witchlight vane|WbtW}. In Light's hands, the vane is a finesse weapon."
+						"Light carries and is attuned to the {@item Girouette de la féérie|WbtW}. In Light's hands, the vane is a finesse weapon."
 					]
 				}
 			],
@@ -3484,7 +3484,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Light makes two {@item Witchlight vane|WbtW} attacks."
+						"Light makes two {@item Girouette de la féérie|WbtW} attacks."
 					]
 				},
 				{
@@ -3599,7 +3599,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"While carrying the {@item Witchlight watch|WbtW}, Witch casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
+						"While carrying the {@item Montre de la féérie|WbtW}, Witch casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
 					],
 					"will": [
 						"{@spell fire bolt}",
@@ -3614,13 +3614,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Witch has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Witch has advantage on saving throws against being {@condition Charmé}, and magic can't put him to sleep."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Witch carries and is attuned to the {@item Witchlight watch|WbtW}."
+						"Witch carries and is attuned to the {@item Montre de la féérie|WbtW}."
 					]
 				}
 			],
@@ -3738,13 +3738,13 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"When subjected to an effect that allows a Dexterity saving throw to take only half damage, Molliver takes no damage on a successful save or half damage on a failed one, provided Molliver is not {@condition incapacitated}."
+						"When subjected to an effect that allows a Dexterity saving throw to take only half damage, Molliver takes no damage on a successful save or half damage on a failed one, provided Molliver is not {@condition Incapable}."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Molliver wears {@item +1 leather armor} and {@item boots of levitation}."
+						"Molliver wears {@item +1 leather armor} and {@item Bottes de lévitation}."
 					]
 				}
 			],
@@ -3997,13 +3997,13 @@
 				{
 					"name": "Cunning Action",
 					"entries": [
-						"On each of her turns, Raezil can use a bonus action to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+						"On each of her turns, Raezil can use a bonus action to take the {@action Course}, {@action Désengagement}, or {@action Se cacher} action."
 					]
 				},
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Raezil has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+						"Raezil has advantage on saving throws against being {@condition Charmé}, and magic can't put her to sleep."
 					]
 				},
 				{
@@ -4087,7 +4087,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"{@item staff of power}"
+						"{@item Bâton de pouvoir}"
 					]
 				}
 			],
@@ -4157,7 +4157,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Ringlerun wields a {@item staff of power}. It has 20 charges when fully charged and regains {@dice 2d8 + 4} expended charges daily at dawn. If its last charge is expended, roll a {@dice d20}. On a 1, the staff retains its +2 bonus to attack and damage rolls but loses its other properties; on a 20, it regains {@dice 1d8 + 2} charges."
+						"Ringlerun wields a {@item Bâton de pouvoir}. It has 20 charges when fully charged and regains {@dice 2d8 + 4} expended charges daily at dawn. If its last charge is expended, roll a {@dice d20}. On a 1, the staff retains its +2 bonus to attack and damage rolls but loses its other properties; on a 20, it regains {@dice 1d8 + 2} charges."
 					]
 				}
 			],
@@ -4165,7 +4165,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Ringlerun makes three {@item staff of power} or Freezing Ray attacks. He can replace one of those attacks with a use of Spellcasting."
+						"Ringlerun makes three {@item Bâton de pouvoir} or Freezing Ray attacks. He can replace one of those attacks with a use of Spellcasting."
 					]
 				},
 				{
@@ -4183,7 +4183,7 @@
 				{
 					"name": "Staff Spell",
 					"entries": [
-						"While holding his {@item staff of power}, Ringlerun can expend 1 or more of its charges to cast one of the following spells from it (spell save {@dc 14}, {@hit 8} to hit with spell attacks): cone of cold ({@damage 8d8} cold damage; 5 charges), fireball ({@damage 10d6} fire damage; 5 charges), globe of invulnerability (6 charges), hold monster (5 charges), levitate (2 charges), lightning bolt ({@damage 10d6} lightning damage; 5 charges), magic missile (1 charge), ray of enfeeblement (1 charge), or wall of force (5 charges)."
+						"While holding his {@item Bâton de pouvoir}, Ringlerun can expend 1 or more of its charges to cast one of the following spells from it (spell save {@dc 14}, {@hit 8} to hit with spell attacks): cone of cold ({@damage 8d8} cold damage; 5 charges), fireball ({@damage 10d6} fire damage; 5 charges), globe of invulnerability (6 charges), hold monster (5 charges), levitate (2 charges), lightning bolt ({@damage 10d6} lightning damage; 5 charges), magic missile (1 charge), ray of enfeeblement (1 charge), or wall of force (5 charges)."
 					]
 				}
 			],
@@ -4278,7 +4278,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The Selenelion twins, Gleam and Glister, have advantage on saving throws against being {@condition charmed}, and magic can't put them to sleep."
+						"The Selenelion twins, Gleam and Glister, have advantage on saving throws against being {@condition Charmé}, and magic can't put them to sleep."
 					]
 				},
 				{
@@ -4310,7 +4310,7 @@
 				{
 					"name": "Sun Ray (Glister Only; 3/Day)",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 60 ft., one creature. {@h}12 ({@damage 2d8 + 3}) radiant damage, and the target must succeed on a {@dc 13} Wisdom saving throw or be {@condition blinded} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk rs} {@hit 5} to hit, range 60 ft., one creature. {@h}12 ({@damage 2d8 + 3}) radiant damage, and the target must succeed on a {@dc 13} Wisdom saving throw or be {@condition Aveuglé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -4649,7 +4649,7 @@
 					"name": "Alter Size",
 					"entries": [
 						"Skabatha magically shrinks herself to Tiny size (between 4 and 8 inches tall) or returns to her normal size. If Skabatha lacks the room to return to her normal size, she attains the maximum size possible in the space available. Anything she is wearing or carrying changes size along with her.",
-						"As a Tiny creature, Skabatha deals 2 ({@damage 1d4}) poison damage when she hits with a Claw attack. She has advantage on Dexterity ({@skill Stealth}) checks, and disadvantage on Strength checks and Strength saving throws. Her statistics otherwise remain unchanged."
+						"As a Tiny creature, Skabatha deals 2 ({@damage 1d4}) poison damage when she hits with a Claw attack. She has advantage on Dexterity ({@skill Discrétion}) checks, and disadvantage on Strength checks and Strength saving throws. Her statistics otherwise remain unchanged."
 					]
 				}
 			],
@@ -4766,7 +4766,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Skylla carries an {@item Eldritch Staff|WBtW} (see appendix A) with 10 charges. The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If its last charge is expended, roll a {@dice d20}; on a 1, the staff is destroyed."
+						"Skylla carries an {@item Bâton occulte|WBtW} (see appendix A) with 10 charges. The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If its last charge is expended, roll a {@dice d20}; on a 1, the staff is destroyed."
 					]
 				}
 			],
@@ -4905,7 +4905,7 @@
 				{
 					"name": "Boggle Oil (3 Applications)",
 					"entries": [
-						"Squirt expends 1 application of boggle oil to create a 10-foot-square puddle of slippery, non-flammable oil on the ground within 5 feet of it. The puddle is {@quickref difficult terrain||3} and lasts for 1 hour. Each creature that enters the puddle's area or starts its turn there must succeed on a {@dc 11} Dexterity saving throw or fall {@condition prone}. Boggles are unaffected by the oil. After it expends all 3 applications, Squirt can't use this action again until its supply of boggle oil is replenished."
+						"Squirt expends 1 application of boggle oil to create a 10-foot-square puddle of slippery, non-flammable oil on the ground within 5 feet of it. The puddle is {@quickref difficult terrain||3} and lasts for 1 hour. Each creature that enters the puddle's area or starts its turn there must succeed on a {@dc 11} Dexterity saving throw or fall {@condition À terre}. Boggles are unaffected by the oil. After it expends all 3 applications, Squirt can't use this action again until its supply of boggle oil is replenished."
 					]
 				}
 			],
@@ -4958,8 +4958,8 @@
 				{
 					"ac": 20,
 					"from": [
-						"{@item plate armor|PHB}",
-						"{@item shield|PHB}"
+						"{@item Harnois de plaques|PHB}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -5020,7 +5020,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Strongheart wields {@item Steel|WBtW}, a sentient, lawful good longsword (see appendix A)."
+						"Strongheart wields {@item Acier|WBtW}, a sentient, lawful good longsword (see appendix A)."
 					]
 				}
 			],
@@ -5034,7 +5034,7 @@
 				{
 					"name": "Steel",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage when used with two hands. Once on each of his turns, Strongheart can also cause the blade to gleam with holy light. If he does so, the target is {@condition blinded} until the start of Strongheart's next turn."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage when used with two hands. Once on each of his turns, Strongheart can also cause the blade to gleam with holy light. If he does so, the target is {@condition Aveuglé} until the start of Strongheart's next turn."
 					]
 				},
 				{
@@ -5169,7 +5169,7 @@
 				{
 					"name": "Spores (1/Day)",
 					"entries": [
-						"A 20-foot radius of spores extends from the swarm. These spores can go around corners, and they have no effect on Constructs, Elementals, Plants, or Undead. Each other creature in the area must make a {@dc 10} Wisdom saving throw. On a failed save, the creature is {@condition incapacitated} and its speed is halved, both for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"A 20-foot radius of spores extends from the swarm. These spores can go around corners, and they have no effect on Constructs, Elementals, Plants, or Undead. Each other creature in the area must make a {@dc 10} Wisdom saving throw. On a failed save, the creature is {@condition Incapable} and its speed is halved, both for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -5469,8 +5469,8 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item half plate armor|PHB|half plate}",
-						"{@item shield|PHB}"
+						"{@item Demi-plate|PHB|half plate}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -5504,7 +5504,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Warduke wears a {@item dread helm|XGE} (see appendix A) and wields a {@item flame tongue longsword}."
+						"Warduke wears a {@item Heaume terrifiant|XGE} (see appendix A) and wields a {@item flame tongue longsword}."
 					]
 				}
 			],
@@ -5652,7 +5652,7 @@
 				{
 					"name": "Secret Expertise",
 					"entries": [
-						"The hand has one of these additional skills: {@skill Acrobatics} {@skillCheck acrobatics 6}, {@skill Animal Handling} {@skillCheck animal_handling 5}, {@skill Arcana} {@skillCheck arcana 5}, {@skill Athletics} {@skillCheck athletics 4}, {@skill Medicine} {@skillCheck medicine 5}, or {@skill Performance} {@skillCheck performance 5}."
+						"The hand has one of these additional skills: {@skill Acrobaties} {@skillCheck acrobatics 6}, {@skill Dressage} {@skillCheck animal_handling 5}, {@skill Arcanes} {@skillCheck arcana 5}, {@skill Athlétisme} {@skillCheck athletics 4}, {@skill Médecine} {@skillCheck medicine 5}, or {@skill Représentation} {@skillCheck performance 5}."
 					]
 				}
 			],
@@ -5739,7 +5739,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -5779,7 +5779,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Zarak carries a {@item potion of invisibility}."
+						"Zarak carries a {@item Potion d'invisibilité}."
 					]
 				}
 			],
@@ -5799,7 +5799,7 @@
 				{
 					"name": "Garrote",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one Humanoid. {@h}8 ({@damage 2d4 + 3}) slashing damage, and the target is {@condition grappled} (escape {@dc 11}). Until this grapple ends, the target takes 8 ({@damage 2d4 + 3}) slashing damage at the start of each of its turns, and Zarak can't grapple another creature or use Assassin's Whim."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one Humanoid. {@h}8 ({@damage 2d4 + 3}) slashing damage, and the target is {@condition Agrippé} (escape {@dc 11}). Until this grapple ends, the target takes 8 ({@damage 2d4 + 3}) slashing damage at the start of each of its turns, and Zarak can't grapple another creature or use Assassin's Whim."
 					]
 				}
 			],
@@ -5807,7 +5807,7 @@
 				{
 					"name": "Assassin's Whim",
 					"entries": [
-						"Zarak takes the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+						"Zarak takes the {@action Course}, {@action Désengagement}, or {@action Se cacher} action."
 					]
 				}
 			],
@@ -5873,7 +5873,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item chain shirt|phb}"
+						"{@item Chemise de mailles|phb}"
 					]
 				}
 			],
@@ -5937,7 +5937,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Zargash wears a bat-shaped amulet that has the properties of a {@item ring of feather falling}."
+						"Zargash wears a bat-shaped amulet that has the properties of a {@item Anneau de chute de plume}."
 					]
 				}
 			],

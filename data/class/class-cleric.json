@@ -84,11 +84,11 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item mace|phb} or (b) a {@item warhammer|phb} (if proficient)",
-					"(a) {@item scale mail|phb}, (b) {@item leather armor|phb}, or (c) {@item chain mail|phb} (if proficient)",
-					"(a) a {@item light crossbow|phb} and {@item Crossbow Bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"A {@item shield|phb} and a {@item holy symbol|phb}"
+					"(a) a {@item Masse d'armes|phb} or (b) a {@item Marteau de guerre|phb} (if proficient)",
+					"(a) {@item Écailles|phb}, (b) {@item Armure de cuir|phb}, or (c) {@item Cotte de mailles|phb} (if proficient)",
+					"(a) a {@item Arbalète légère|phb} and {@item Carreaux d'arbalète (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item Paquetage du prêtre|phb} or (b) an {@item Pack d'explorateur|phb}",
+					"A {@item Bouclier|phb} and a {@item holy symbol|phb}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -658,7 +658,7 @@
 					}
 				],
 				"entries": [
-					"{@i Choose A or B:} (A) {@item Chain Shirt|XPHB}, {@item Shield|XPHB}, {@item Mace|XPHB}, {@item Holy Symbol|XPHB}, {@item Priest's Pack|XPHB}, 7 GP; or (B) 110 GP"
+					"{@i Choose A or B:} (A) {@item Chemise de mailles|XPHB}, {@item Bouclier|XPHB}, {@item Masse d'armes|XPHB}, {@item Holy Symbol|XPHB}, {@item Paquetage du prêtre|XPHB}, 7 GP; or (B) 110 GP"
 				]
 			},
 			"multiclassing": {
@@ -3003,7 +3003,7 @@
 			},
 			"entries": [
 				"As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
-				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action."
+				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Course} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Esquive} action."
 			]
 		},
 		{
@@ -3379,7 +3379,7 @@
 			"classSource": "XPHB",
 			"level": 1,
 			"entries": [
-				"You know one extra cantrip from the {@filter Cleric spell list|spells|class=Cleric}. In addition, your mystical connection to the divine gives you a bonus to your Intelligence ({@skill Arcana|XPHB} or {@skill Religion|XPHB}) checks. The bonus equals your Wisdom modifier (minimum of +1)."
+				"You know one extra cantrip from the {@filter Cleric spell list|spells|class=Cleric}. In addition, your mystical connection to the divine gives you a bonus to your Intelligence ({@skill Arcanes|XPHB} or {@skill Religion|XPHB}) checks. The bonus equals your Wisdom modifier (minimum of +1)."
 			]
 		},
 		{
@@ -3424,7 +3424,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you point your {@item Holy Symbol|XPHB} at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll {@dice 1d8} and add your Wisdom modifier. You either restore {@variantrule Hit Points|XPHB} to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).",
+				"As a {@action Magie|XPHB} action, you point your {@item Holy Symbol|XPHB} at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll {@dice 1d8} and add your Wisdom modifier. You either restore {@variantrule Hit Points|XPHB} to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).",
 				"You roll an additional {@dice d8} when you reach Cleric levels 7 ({@dice 2d8}), 13 ({@dice 3d8}), and 18 ({@dice 4d8})."
 			]
 		},
@@ -3442,7 +3442,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you present your {@item Holy Symbol|XPHB} and censure Undead creatures. Each Undead of your choice within 30 feet of you must make a Wisdom saving throw. If the creature fails its save, it has the {@condition Frightened|XPHB} and {@condition Incapacitated|XPHB} conditions for 1 minute. For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the {@condition Incapacitated|XPHB} condition, or if you die."
+				"As a {@action Magie|XPHB} action, you present your {@item Holy Symbol|XPHB} and censure Undead creatures. Each Undead of your choice within 30 feet of you must make a Wisdom saving throw. If the creature fails its save, it has the {@condition Effrayé|XPHB} and {@condition Incapable|XPHB} conditions for 1 minute. For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the {@condition Incapable|XPHB} condition, or if you die."
 			]
 		},
 		{
@@ -3468,7 +3468,7 @@
 			"classSource": "XPHB",
 			"level": 4,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16."
 			]
 		},
 		{
@@ -3561,7 +3561,7 @@
 			"classSource": "XPHB",
 			"level": 8,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -3574,7 +3574,7 @@
 			"classSource": "XPHB",
 			"level": 10,
 			"entries": [
-				"You can call on your deity or pantheon to intervene on your behalf. As a {@action Magic|XPHB} action, choose any Cleric spell of level 5 or lower that doesn't require a {@variantrule Reaction|XPHB} to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a {@variantrule Long Rest|XPHB}."
+				"You can call on your deity or pantheon to intervene on your behalf. As a {@action Magie|XPHB} action, choose any Cleric spell of level 5 or lower that doesn't require a {@variantrule Reaction|XPHB} to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
 		{
@@ -3587,7 +3587,7 @@
 			"classSource": "XPHB",
 			"level": 12,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -3632,7 +3632,7 @@
 			"classSource": "XPHB",
 			"level": 16,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
 			]
 		},
 		{
@@ -3658,7 +3658,7 @@
 			"classSource": "XPHB",
 			"level": 19,
 			"entries": [
-				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Fate|XPHB} is recommended."
+				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Don du destin|XPHB} is recommended."
 			]
 		},
 		{
@@ -3899,7 +3899,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: {@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}.",
+				"At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: {@skill Arcanes}, {@skill Histoire}, {@skill Nature}, or {@skill Religion}.",
 				"Your proficiency bonus is doubled for any ability check you make that uses either of those skills."
 			]
 		},
@@ -4264,7 +4264,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be {@condition blinded} is immune to this feature.",
+				"Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be {@condition Aveuglé} is immune to this feature.",
 				"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
 			]
 		},
@@ -4411,7 +4411,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn one druid cantrip of your choice. This cantrip doesn't count against the number of cleric cantrips you know. You also gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Nature}, or {@skill Survival}."
+				"At 1st level, you learn one druid cantrip of your choice. This cantrip doesn't count against the number of cleric cantrips you know. You also gain proficiency in one of the following skills of your choice: {@skill Dressage}, {@skill Nature}, or {@skill Survie}."
 			]
 		},
 		{
@@ -4443,7 +4443,7 @@
 			},
 			"entries": [
 				"Starting at 2nd level, you can use your Channel Divinity to charm animals and plants.",
-				"As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is {@condition charmed} by you for 1 minute or until it takes damage. While it is {@condition charmed} by you, it is friendly to you and other creatures you designate."
+				"As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is {@condition Charmé} by you for 1 minute or until it takes damage. While it is {@condition Charmé} by you, it is friendly to you and other creatures you designate."
 			]
 		},
 		{
@@ -4501,7 +4501,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"At 17th level, you gain the ability to command animals and plant creatures. While creatures are {@condition charmed} by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn."
+				"At 17th level, you gain the ability to command animals and plant creatures. While creatures are {@condition Charmé} by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn."
 			]
 		},
 		{
@@ -4728,7 +4728,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity ({@skill Stealth}) checks. This blessing lasts for 1 hour or until you use this feature again."
+				"Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity ({@skill Discrétion}) checks. This blessing lasts for 1 hour or until you use this feature again."
 			]
 		},
 		{
@@ -4893,7 +4893,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the {@action Attack} action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+				"From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the {@action Attaque} action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
 			]
 		},
 		{
@@ -5043,7 +5043,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"When you choose this domain at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be {@condition blinded} is immune to this feature.",
+				"When you choose this domain at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be {@condition Aveuglé} is immune to this feature.",
 				"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
 			]
 		},
@@ -5238,7 +5238,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Also at 1st level, when you take the {@action Help} action to aid an ally's attack, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain expended uses when you finish a long rest."
+				"Also at 1st level, when you take the {@action Aider} action to aid an ally's attack, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain expended uses when you finish a long rest."
 			]
 		},
 		{
@@ -5390,7 +5390,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn one druid cantrip of your choice. You also gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Athletics}, {@skill Nature}, or {@skill Survival}."
+				"At 1st level, you learn one druid cantrip of your choice. You also gain proficiency in one of the following skills of your choice: {@skill Dressage}, {@skill Athlétisme}, {@skill Nature}, or {@skill Survie}."
 			]
 		},
 		{
@@ -5569,7 +5569,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"From 1st level, Hazoret delivers bolts of inspiration to you while you are engaged in battle. When you use the {@action Attack} action, you can make one weapon attack as a bonus action.",
+				"From 1st level, Hazoret delivers bolts of inspiration to you while you are engaged in battle. When you use the {@action Attaque} action, you can make one weapon attack as a bonus action.",
 				"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
 			]
 		},
@@ -5647,7 +5647,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 17th level, you can delay death for an instant to perform a final heroic act.",
-				"When you are reduced to 0 hit points by an attacker you can see, even if you would be killed outright, you can use your reaction to move up to your speed toward the attacker and make one melee weapon attack against it, as long as the movement brings it within your reach. You make this attack with advantage. If the attack hits, the creature takes an extra {@damage 5d10} fire damage and an extra {@damage 5d10} damage of the weapon's type. You then fall {@condition unconscious} and begin making death saving throws as normal, or you die if the damage you took would have killed you outright.",
+				"When you are reduced to 0 hit points by an attacker you can see, even if you would be killed outright, you can use your reaction to move up to your speed toward the attacker and make one melee weapon attack against it, as long as the movement brings it within your reach. You make this attack with advantage. If the attack hits, the creature takes an extra {@damage 5d10} fire damage and an extra {@damage 5d10} damage of the weapon's type. You then fall {@condition Inconscient} and begin making death saving throws as normal, or you die if the damage you took would have killed you outright.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
@@ -5715,7 +5715,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"When you choose this domain at 1st level, you gain proficiency in the {@skill Arcana} skill, and you gain two cantrips of your choice from the {@filter wizard spell list|spells|class=wizard|level=0}. For you, these cantrips count as cleric cantrips."
+				"When you choose this domain at 1st level, you gain proficiency in the {@skill Arcanes} skill, and you gain two cantrips of your choice from the {@filter wizard spell list|spells|class=wizard|level=0}. For you, these cantrips count as cleric cantrips."
 			]
 		},
 		{
@@ -5734,7 +5734,7 @@
 			"entries": [
 				"Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly creatures.",
 				"As an action, you present your holy symbol, and one celestial, elemental, fey, or fiend of your choice that is within 30 feet of you must make a Wisdom saving throw, provided that the creature can see or hear you. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
-				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, then the creature can use the {@action Dodge} action.",
+				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Course} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, then the creature can use the {@action Esquive} action.",
 				"After you reach 5th level, when a creature fails its saving throw against your Arcane Abjuration feature, the creature is banished for 1 minute (as in the {@spell banishment} spell, no {@status concentration} required) if it isn't on its plane of origin, and its challenge rating is at or below a certain threshold, as shown below.",
 				{
 					"type": "table",
@@ -5956,7 +5956,7 @@
 			},
 			"entries": [
 				"Starting at 2nd level, you can use your Channel Divinity to exert an intimidating presence over others.",
-				"As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be {@condition charmed} by you until the end of your next turn or until the {@condition charmed} creature takes any damage. You can also cause any of the {@condition charmed} creatures to drop what they are holding when they fail the saving throw."
+				"As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be {@condition Charmé} by you until the end of your next turn or until the {@condition Charmé} creature takes any damage. You can also cause any of the {@condition Charmé} creatures to drop what they are holding when they fail the saving throw."
 			]
 		},
 		{
@@ -6175,7 +6175,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 1st-level Peace Domain feature}",
-				"You gain proficiency in the {@skill Insight}, {@skill Performance}, or {@skill Persuasion} skill (your choice)."
+				"You gain proficiency in the {@skill Perspicacité}, {@skill Représentation}, or {@skill Persuasion} skill (your choice)."
 			]
 		},
 		{
@@ -6398,8 +6398,8 @@
 			"header": 1,
 			"entries": [
 				"{@i 1st-level Twilight Domain feature}",
-				"You can see through the deepest gloom. You have {@sense darkvision} out to a range of 300 feet. In that radius, you can see in dim light as if it were bright light and in darkness as if it were dim light.",
-				"As an action, you can magically share the {@sense darkvision} of this feature with willing creatures you can see within 10 feet of you, up to a number of creatures equal to your Wisdom modifier (minimum of one creature). The shared {@sense darkvision} lasts for 1 hour. Once you share it, you can't do so again until you finish a long rest, unless you expend a spell slot of any level to share it again."
+				"You can see through the deepest gloom. You have {@sense Vision dans le noir} out to a range of 300 feet. In that radius, you can see in dim light as if it were bright light and in darkness as if it were dim light.",
+				"As an action, you can magically share the {@sense Vision dans le noir} of this feature with willing creatures you can see within 10 feet of you, up to a number of creatures equal to your Wisdom modifier (minimum of one creature). The shared {@sense Vision dans le noir} lasts for 1 hour. Once you share it, you can't do so again until you finish a long rest, unless you expend a spell slot of any level to share it again."
 			]
 		},
 		{
@@ -6433,12 +6433,12 @@
 			"entries": [
 				"{@i 2nd-level Twilight Domain feature}",
 				"You can use your Channel Divinity to refresh your allies with soothing twilight.",
-				"As an action, you present your holy symbol, and a sphere of twilight emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are {@condition incapacitated} or die. Whenever a creature (including you) ends its turn in the sphere, you can grant that creature one of these benefits:",
+				"As an action, you present your holy symbol, and a sphere of twilight emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are {@condition Incapable} or die. Whenever a creature (including you) ends its turn in the sphere, you can grant that creature one of these benefits:",
 				{
 					"type": "list",
 					"items": [
 						"You grant it temporary hit points equal to {@dice 1d6} plus your cleric level.",
-						"You end one effect on it causing it to be {@condition charmed} or {@condition frightened}."
+						"You end one effect on it causing it to be {@condition Charmé} or {@condition Effrayé}."
 					]
 				}
 			]
@@ -6586,7 +6586,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"When you choose this domain at 1st level, you gain proficiency with heavy armor and {@item smith's tools|phb}."
+				"When you choose this domain at 1st level, you gain proficiency with heavy armor and {@item Outils de forgeron|phb}."
 			]
 		},
 		{
@@ -6839,7 +6839,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"Starting at 17th level, you can seize a trace of vitality from a parting soul and use it to heal the living. When an enemy you can see dies within 60 feet of you, you or one creature of your choice that is within 60 feet of you regains hit points equal to the enemy's number of Hit Dice. You can use this feature only if you aren't {@condition incapacitated}. Once you use it, you can't do so again until the start of your next turn."
+				"Starting at 17th level, you can seize a trace of vitality from a parting soul and use it to heal the living. When an enemy you can see dies within 60 feet of you, you or one creature of your choice that is within 60 feet of you regains hit points equal to the enemy's number of Hit Dice. You can use this feature only if you aren't {@condition Incapable}. Once you use it, you can't do so again until the start of your next turn."
 			]
 		},
 		{
@@ -6894,7 +6894,7 @@
 			"subclassSource": "FRHoF",
 			"level": 3,
 			"entries": [
-				"You gain proficiency with one type of {@item Artisan's Tools|XPHB} of your choice and in two of the following skills of your choice: {@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Nature|XPHB}, or {@skill Religion|XPHB}. You have {@variantrule Expertise|XPHB} in those two skills."
+				"You gain proficiency with one type of {@item Artisan's Tools|XPHB} of your choice and in two of the following skills of your choice: {@skill Arcanes|XPHB}, {@skill Histoire|XPHB}, {@skill Nature|XPHB}, or {@skill Religion|XPHB}. You have {@variantrule Expertise|XPHB} in those two skills."
 			]
 		},
 		{
@@ -6983,7 +6983,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can expend one use of your Channel Divinity to manifest your magical knowledge. Choose one spell from the Divination school on the Knowledge Domain Spells table that you have prepared. As part of that action, you cast that spell without expending a spell slot or needing Material components."
+				"As a {@action Magie|XPHB} action, you can expend one use of your Channel Divinity to manifest your magical knowledge. Choose one spell from the Divination school on the Knowledge Domain Spells table that you have prepared. As part of that action, you cast that spell without expending a spell slot or needing Material components."
 			]
 		},
 		{
@@ -7624,7 +7624,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"When you or a {@status Bloodied|XPHB} creature you can see within 60 feet of yourself is hit with an attack roll, you can take a {@variantrule Reaction|XPHB} to halve that attack's damage (round down). If the triggering attack roll was a {@variantrule Critical Hit|XPHB}, any effects triggered by a {@variantrule Critical Hit|XPHB} are canceled.",
+				"When you or a {@status Meurtri|XPHB} creature you can see within 60 feet of yourself is hit with an attack roll, you can take a {@variantrule Reaction|XPHB} to halve that attack's damage (round down). If the triggering attack roll was a {@variantrule Critical Hit|XPHB}, any effects triggered by a {@variantrule Critical Hit|XPHB} are canceled.",
 				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
@@ -7650,7 +7650,7 @@
 					"type": "entries",
 					"name": "Keeper of Souls",
 					"entries": [
-						"When an enemy dies within 60 feet of you, you or one creature you can see within 60 feet of yourself regains {@variantrule Hit Points|XPHB} equal to twice your Cleric level. You can't use this feature if you have the {@condition Incapacitated|XPHB} condition. Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, unless you expend a level 6+ spell slot (no action required) to restore your use of it."
+						"When an enemy dies within 60 feet of you, you or one creature you can see within 60 feet of yourself regains {@variantrule Hit Points|XPHB} equal to twice your Cleric level. You can't use this feature if you have the {@condition Incapable|XPHB} condition. Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, unless you expend a level 6+ spell slot (no action required) to restore your use of it."
 					]
 				}
 			]
@@ -8014,7 +8014,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you present your {@item Holy Symbol|XPHB} and expend a use of your Channel Divinity to evoke healing energy that can restore a number of {@variantrule Hit Points|XPHB} equal to five times your Cleric level. Choose {@status Bloodied|XPHB} creatures within 30 feet of yourself (which can include you), and divide those {@variantrule Hit Points|XPHB} among them. This feature can restore a creature to no more than half its {@variantrule Hit Points|XPHB|Hit Point} maximum."
+				"As a {@action Magie|XPHB} action, you present your {@item Holy Symbol|XPHB} and expend a use of your Channel Divinity to evoke healing energy that can restore a number of {@variantrule Hit Points|XPHB} equal to five times your Cleric level. Choose {@status Meurtri|XPHB} creatures within 30 feet of yourself (which can include you), and divide those {@variantrule Hit Points|XPHB} among them. This feature can restore a creature to no more than half its {@variantrule Hit Points|XPHB|Hit Point} maximum."
 			]
 		},
 		{
@@ -8134,7 +8134,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you present your {@item Holy Symbol|XPHB} and expend a use of your Channel Divinity to emit a flash of light in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself. Any magical {@variantrule Darkness|XPHB}\u2014such as that created by the {@spell Darkness|XPHB} spell\u2014in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to {@dice 2d10} plus your Cleric level on a failed save or half as much damage on a successful one."
+				"As a {@action Magie|XPHB} action, you present your {@item Holy Symbol|XPHB} and expend a use of your Channel Divinity to emit a flash of light in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself. Any magical {@variantrule Darkness|XPHB}\u2014such as that created by the {@spell Darkness|XPHB} spell\u2014in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to {@dice 2d10} plus your Cleric level on a failed save or half as much damage on a successful one."
 			]
 		},
 		{
@@ -8178,7 +8178,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"As a {@action Magic|XPHB} action, you cause yourself to emit an aura of sunlight that lasts for 1 minute or until you dismiss it (no action required). You emit {@variantrule Bright Light|XPHB} in a 60-foot radius and {@variantrule Dim Light|XPHB} for an additional 30 feet. Your enemies in the {@variantrule Bright Light|XPHB} have {@variantrule Disadvantage|XPHB} on saving throws against your Radiance of the Dawn and any spell that deals Fire or Radiant damage.",
+				"As a {@action Magie|XPHB} action, you cause yourself to emit an aura of sunlight that lasts for 1 minute or until you dismiss it (no action required). You emit {@variantrule Bright Light|XPHB} in a 60-foot radius and {@variantrule Dim Light|XPHB} for an additional 30 feet. Your enemies in the {@variantrule Bright Light|XPHB} have {@variantrule Disadvantage|XPHB} on saving throws against your Radiance of the Dawn and any spell that deals Fire or Radiant damage.",
 				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
@@ -8220,7 +8220,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can choose yourself or a willing creature within 30 feet of yourself to have {@variantrule Advantage|XPHB} on Dexterity ({@skill Stealth|XPHB}) checks. This blessing lasts until you finish a {@variantrule Long Rest|XPHB} or you use this feature again."
+				"As a {@action Magie|XPHB} action, you can choose yourself or a willing creature within 30 feet of yourself to have {@variantrule Advantage|XPHB} on Dexterity ({@skill Discrétion|XPHB}) checks. This blessing lasts until you finish a {@variantrule Long Rest|XPHB} or you use this feature again."
 			]
 		},
 		{
@@ -8237,7 +8237,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you can expend one use of your Channel Divinity to create a perfect visual illusion of yourself in an unoccupied space you can see within 30 feet of yourself. The illusion is intangible and doesn't occupy its space. It lasts for 1 minute, but it ends early if you dismiss it (no action required) or have the {@condition Incapacitated|XPHB} condition. The illusion is animated and mimics your expressions and gestures. While it persists, you gain the following benefits.",
+				"As a {@variantrule Bonus Action|XPHB}, you can expend one use of your Channel Divinity to create a perfect visual illusion of yourself in an unoccupied space you can see within 30 feet of yourself. The illusion is intangible and doesn't occupy its space. It lasts for 1 minute, but it ends early if you dismiss it (no action required) or have the {@condition Incapable|XPHB} condition. The illusion is animated and mimics your expressions and gestures. While it persists, you gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Cast Spells",
@@ -8468,7 +8468,7 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"You can expend a use of your Channel Divinity to cast {@spell Shield of Faith|XPHB} or {@spell Spiritual Weapon|XPHB} rather than expending a spell slot. When you cast either spell in this way, the spell doesn't require {@status Concentration|XPHB}. Instead the spell lasts for 1 minute, but it ends early if you cast that spell again, have the {@condition Incapacitated|XPHB} condition, or die."
+				"You can expend a use of your Channel Divinity to cast {@spell Shield of Faith|XPHB} or {@spell Spiritual Weapon|XPHB} rather than expending a spell slot. When you cast either spell in this way, the spell doesn't require {@status Concentration|XPHB}. Instead the spell lasts for 1 minute, but it ends early if you cast that spell again, have the {@condition Incapable|XPHB} condition, or die."
 			]
 		},
 		{

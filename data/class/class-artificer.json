@@ -108,8 +108,8 @@
 					}
 				],
 				"tools": [
-					"{@item thieves' tools|PHB}",
-					"{@item tinker's tools|PHB}",
+					"{@item Outils de crocheteur|PHB}",
+					"{@item Outils de rétameur|PHB}",
 					"one type of {@item artisan's tools|PHB} of your choice"
 				],
 				"toolProficiencies": [
@@ -136,9 +136,9 @@
 				"additionalFromBackground": true,
 				"default": [
 					"any two {@filter simple weapons|items|source=phb|category=basic|type=simple weapon} of your choice",
-					"a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts}",
-					"(a) {@item studded leather armor|phb} or (b) {@item scale mail|phb}",
-					"{@item thieves' tools|phb} and a {@item dungeoneer's pack|phb}"
+					"a {@item Arbalète légère|phb} and {@item Carreaux d'arbalète (20)|phb|20 bolts}",
+					"(a) {@item Armure de cuir clouté|phb} or (b) {@item Écailles|phb}",
+					"{@item Outils de crocheteur|phb} and a {@item Pack d'explorateur des donjons|phb}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -178,8 +178,8 @@
 				},
 				"proficienciesGained": {
 					"tools": [
-						"{@item thieves' tools|PHB}",
-						"{@item tinker's tools|PHB}"
+						"{@item Outils de crocheteur|PHB}",
+						"{@item Outils de rétameur|PHB}"
 					],
 					"toolProficiencies": [
 						{
@@ -609,8 +609,8 @@
 					"simple"
 				],
 				"tools": [
-					"{@item Thieves' Tools|XPHB}",
-					"{@item Tinker's Tools|XPHB}",
+					"{@item Outils de crocheteur|XPHB}",
+					"{@item Outils de rétameur|XPHB}",
 					"one type of {@item Artisan's Tools|XPHB} of your choice"
 				],
 				"toolProficiencies": [
@@ -665,7 +665,7 @@
 					}
 				],
 				"entries": [
-					"{@i Choose A or B:} (A) {@item Studded Leather Armor|XPHB}, {@item Dagger|XPHB}, {@item Thieves' Tools|XPHB}, {@item Tinker's Tools|XPHB}, {@item Dungeoneer's Pack|XPHB}, and 16 GP; or (B) 150 GP"
+					"{@i Choose A or B:} (A) {@item Armure de cuir clouté|XPHB}, {@item Dague|XPHB}, {@item Outils de crocheteur|XPHB}, {@item Outils de rétameur|XPHB}, {@item Pack d'explorateur des donjons|XPHB}, and 16 GP; or (B) 150 GP"
 				]
 			},
 			"multiclassing": {
@@ -687,7 +687,7 @@
 						}
 					],
 					"tools": [
-						"{@item Tinker's Tools|XPHB}"
+						"{@item Outils de rétameur|XPHB}"
 					],
 					"toolProficiencies": [
 						{
@@ -1599,7 +1599,7 @@
 							"type": "entries",
 							"name": "Tools Required",
 							"entries": [
-								"You produce your Artificer spells through tools. You can use {@item Thieves' Tools|XPHB}, {@item Tinker's Tools|XPHB}, or another kind of {@item Artisan's Tools|XPHB} with which you have proficiency as a {@variantrule Spellcasting Focus|XPHB}, and you must have one of those focuses in hand when you cast an Artificer spell (meaning the spell has an {@i M} component when you cast it)."
+								"You produce your Artificer spells through tools. You can use {@item Outils de crocheteur|XPHB}, {@item Outils de rétameur|XPHB}, or another kind of {@item Artisan's Tools|XPHB} with which you have proficiency as a {@variantrule Spellcasting Focus|XPHB}, and you must have one of those focuses in hand when you cast an Artificer spell (meaning the spell has an {@i M} component when you cast it)."
 							]
 						},
 						{
@@ -1654,43 +1654,43 @@
 			"level": 1,
 			"entries": [
 				"You know the {@spell Mending|XPHB} cantrip.",
-				"As a {@action Magic|XPHB} action while holding {@item Tinker's Tools|XPHB}, you can create one item in an unoccupied space within 5 feet of yourself, choosing the item from the following list:",
+				"As a {@action Magie|XPHB} action while holding {@item Outils de rétameur|XPHB}, you can create one item in an unoccupied space within 5 feet of yourself, choosing the item from the following list:",
 				{
 					"type": "list",
 					"style": "list-hang",
 					"columns": 3,
 					"items": [
-						"{@item Ball Bearings|XPHB}",
-						"{@item Basket|XPHB}",
-						"{@item Bedroll|XPHB}",
-						"{@item Bell|XPHB}",
-						"{@item Blanket|XPHB}",
-						"{@item Block and Tackle|XPHB}",
-						"{@item Glass Bottle|XPHB|Bottle, Glass}",
-						"{@item Bucket|XPHB}",
-						"{@item Caltrops|XPHB}",
-						"{@item Candle|XPHB}",
-						"{@item Crowbar|XPHB}",
-						"{@item Flask|XPHB}",
-						"{@item Grappling Hook|XPHB}",
-						"{@item Hunting Trap|XPHB}",
-						"{@item Jug|XPHB}",
-						"{@item Lamp|XPHB}",
-						"{@item Manacles|XPHB}",
-						"{@item Net|XPHB}",
-						"{@item Oil|XPHB}",
-						"{@item Paper|XPHB}",
-						"{@item Parchment|XPHB}",
-						"{@item Pole|XPHB}",
-						"{@item Pouch|XPHB}",
-						"{@item Rope|XPHB}",
-						"{@item Sack|XPHB}",
-						"{@item Shovel|XPHB}",
-						"{@item Iron Spikes|XPHB|Spikes, Iron}",
-						"{@item String|XPHB}",
-						"{@item Tinderbox|XPHB}",
-						"{@item Torch|XPHB}",
-						"{@item Vial|XPHB}"
+						"{@item Billes|XPHB}",
+						"{@item Panier|XPHB}",
+						"{@item Sac de couchage|XPHB}",
+						"{@item Cloche|XPHB}",
+						"{@item Couverture|XPHB}",
+						"{@item Palan|XPHB}",
+						"{@item Bouteille en verre|XPHB|Bottle, Glass}",
+						"{@item Seau|XPHB}",
+						"{@item Chausse-trappes|XPHB}",
+						"{@item Bougie|XPHB}",
+						"{@item Pied-de-biche|XPHB}",
+						"{@item Fiole|XPHB}",
+						"{@item Grappin|XPHB}",
+						"{@item Piège de chasse|XPHB}",
+						"{@item Broc|XPHB}",
+						"{@item Lampe|XPHB}",
+						"{@item Menottes|XPHB}",
+						"{@item Filet|XPHB}",
+						"{@item Huile|XPHB}",
+						"{@item Papier|XPHB}",
+						"{@item Parchemin|XPHB}",
+						"{@item Perche|XPHB}",
+						"{@item Bourse|XPHB}",
+						"{@item Corde|XPHB}",
+						"{@item Sac|XPHB}",
+						"{@item Pelle|XPHB}",
+						"{@item Pointes de fer|XPHB|Spikes, Iron}",
+						"{@item Ficelle|XPHB}",
+						"{@item Boîte d'amadou|XPHB}",
+						"{@item Torche|XPHB}",
+						"{@item Fiole|XPHB}"
 					]
 				},
 				"See the rules for the item in the {@book Player's Handbook|XPHB}. The item lasts until you finish a {@variantrule Long Rest|XPHB}, at which point it vanishes.",
@@ -1713,7 +1713,7 @@
 							"type": "entries",
 							"name": "Plans Known",
 							"entries": [
-								"When you gain this feature, choose four plans to learn from the Magic Item Plans (Artificer Level 2+) table (see the {@book Dungeon Master's Guide|XDMG} for the items' descriptions). {@item Bag of Holding|XDMG}, {@item Cap of Water Breathing|XDMG}, {@item Sending Stones|XDMG}, and {@item +1 Wand of the War Mage|XDMG|Wand of the War Mage} are recommended. Whenever you gain an Artificer level, you can replace one of the plans you know with a new plan for which you qualify.",
+								"When you gain this feature, choose four plans to learn from the Magic Item Plans (Artificer Level 2+) table (see the {@book Dungeon Master's Guide|XDMG} for the items' descriptions). {@item Sac contenant|XDMG}, {@item Capuchon de respiration aquatique|XDMG}, {@item Pierres d'envoi|XDMG}, and {@item +1 Baguette du mage de guerre|XDMG|Wand of the War Mage} are recommended. Whenever you gain an Artificer level, you can replace one of the plans you know with a new plan for which you qualify.",
 								"You learn another plan of your choice when you reach certain Artificer levels, as shown in the Plans Known column of the Artificer Features table. When you choose a plan to learn, you choose it from any Magic Item Plans table for which you qualify; your qualification is based on your Artificer level."
 							]
 						},
@@ -1721,7 +1721,7 @@
 							"type": "entries",
 							"name": "Creating an Item",
 							"entries": [
-								"When you finish a {@variantrule Long Rest|XPHB}, you can create one or two different magic items if you have {@item Tinker's Tools|XPHB} in hand. Each item is based on one of the plans you know for this feature.",
+								"When you finish a {@variantrule Long Rest|XPHB}, you can create one or two different magic items if you have {@item Outils de rétameur|XPHB} in hand. Each item is based on one of the plans you know for this feature.",
 								"If a created item requires {@variantrule Attunement|XPHB}, you can attune yourself to it the instant you create it. If you decide to attune to the item later, you must do so using the normal process for {@variantrule Attunement|XPHB}.",
 								"When you reach certain Artificer levels specified in the Magic Items column of the Artificer Features table, the number of magic items you can create at the end of a {@variantrule Long Rest|XPHB} increases. Each item you create must be based on a different plan you know.",
 								"You can't have more magic items from this feature than the number shown in the Magic Items column of the Artificer Features table for your level. If you try to exceed your maximum number of magic items for this feature, the oldest item vanishes, and then the new item appears."
@@ -1732,7 +1732,7 @@
 							"name": "Duration",
 							"entries": [
 								"A magic item created by this feature functions as the normal magic item, except its magic isn't permanent; when you die, the magic item vanishes after {@dice 1d4} days. If you replace a plan you know with a new plan, any magic item created with the replaced plan immediately vanishes.",
-								"If an item that you created with this feature is a container, such as a {@item Bag of Holding|XDMG}, and it vanishes, its contents harmlessly appear in and around its space."
+								"If an item that you created with this feature is a container, such as a {@item Sac contenant|XDMG}, and it vanishes, its contents harmlessly appear in and around its space."
 							]
 						},
 						{
@@ -1763,15 +1763,15 @@
 							],
 							"rows": [
 								[
-									"{@item Alchemy Jug|XDMG}",
+									"{@item Cruche alchimique|XDMG}",
 									"No"
 								],
 								[
-									"{@item Bag of Holding|XDMG}",
+									"{@item Sac contenant|XDMG}",
 									"No"
 								],
 								[
-									"{@item Cap of Water Breathing|XDMG}",
+									"{@item Capuchon de respiration aquatique|XDMG}",
 									"No"
 								],
 								[
@@ -1779,11 +1779,11 @@
 									"Varies"
 								],
 								[
-									"{@item Goggles of Night|XDMG}",
+									"{@item Lunettes de nuit|XDMG}",
 									"No"
 								],
 								[
-									"{@item Manifold Tool|EFA}",
+									"{@item Outil polyvalent|EFA}",
 									"Yes"
 								],
 								[
@@ -1795,11 +1795,11 @@
 									"No"
 								],
 								[
-									"{@item Rope of Climbing|XDMG}",
+									"{@item Corde d'escalade|XDMG}",
 									"No"
 								],
 								[
-									"{@item Sending Stones|XDMG}",
+									"{@item Pierres d'envoi|XDMG}",
 									"No"
 								],
 								[
@@ -1807,15 +1807,15 @@
 									"No"
 								],
 								[
-									"{@item Wand of Magic Detection|XDMG}",
+									"{@item Baguette de détection de la magie|XDMG}",
 									"No"
 								],
 								[
-									"{@item Wand of Secrets|XDMG}",
+									"{@item Baguette des secrets|XDMG}",
 									"No"
 								],
 								[
-									"{@item +1 Wand of the War Mage|XDMG|Wand of the War Mage +1}",
+									"{@item +1 Baguette du mage de guerre|XDMG|Wand of the War Mage +1}",
 									"Yes"
 								],
 								[
@@ -1823,7 +1823,7 @@
 									"No"
 								],
 								[
-									"{@item +1 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power, +1}",
+									"{@item +1 Bandages de puissance à mains nues|XDMG|Wraps of Unarmed Power, +1}",
 									"No"
 								]
 							],
@@ -1848,19 +1848,19 @@
 									"No"
 								],
 								[
-									"{@item Boots of Elvenkind|XDMG}",
+									"{@item Bottes elviques|XDMG}",
 									"No"
 								],
 								[
-									"{@item Boots of the Winding Path|EFA}",
+									"{@item Bottes du chemin sinueux|EFA}",
 									"Yes"
 								],
 								[
-									"{@item Cloak of Elvenkind|XDMG}",
+									"{@item Cape elvique|XDMG}",
 									"Yes"
 								],
 								[
-									"{@item Cloak of the Manta Ray|XDMG}",
+									"{@item Cape de la raie manta|XDMG}",
 									"Yes"
 								],
 								[
@@ -1868,67 +1868,67 @@
 									"Yes"
 								],
 								[
-									"{@item Eyes of Charming|XDMG}",
+									"{@item Yeux de charme|XDMG}",
 									"Yes"
 								],
 								[
-									"{@item Eyes of Minute Seeing|XDMG}",
+									"{@item Yeux de la vue perçante|XDMG}",
 									"No"
 								],
 								[
-									"{@item Gloves of Thievery|XDMG}",
+									"{@item Gants de voleur|XDMG}",
 									"No"
 								],
 								[
-									"{@item Helm of Awareness|EFA}",
+									"{@item Heaume de vigilance|EFA}",
 									"No"
 								],
 								[
-									"{@item Lantern of Revealing|XDMG}",
+									"{@item Lanterne de révélation|XDMG}",
 									"No"
 								],
 								[
-									"{@item Mind Sharpener|EFA}",
+									"{@item Affûteur mental|EFA}",
 									"Yes"
 								],
 								[
-									"{@item Necklace of Adaptation|XDMG}",
+									"{@item Collier d'adaptation|XDMG}",
 									"Yes"
 								],
 								[
-									"{@item Pipes of Haunting|XDMG}",
+									"{@item Cornemuse hantée|XDMG}",
 									"No"
 								],
 								[
-									"{@item Repulsion Shield|EFA}",
+									"{@item Bouclier de répulsion|EFA}",
 									"No"
 								],
 								[
-									"{@item Ring of Swimming|XDMG}",
+									"{@item Anneau de nage|XDMG}",
 									"No"
 								],
 								[
-									"{@item Ring of Water Walking|XDMG}",
+									"{@item Anneau de marche sur les eaux|XDMG}",
 									"No"
 								],
 								[
-									"{@item Sentinel Shield|XDMG}",
+									"{@item Bouclier du factionnaire|XDMG}",
 									"No"
 								],
 								[
-									"{@item Spell-Refueling Ring|EFA}",
+									"{@item Anneau de ravitaillement de sorts|EFA}",
 									"Yes"
 								],
 								[
-									"{@item Wand of Magic Missiles|XDMG}",
+									"{@item Baguette de traits de magie|XDMG}",
 									"No"
 								],
 								[
-									"{@item Wand of Web|XDMG}",
+									"{@item Baguette de toile|XDMG}",
 									"Yes"
 								],
 								[
-									"{@item Weapon of Warning|XDMG}",
+									"{@item Arme d'avertissement|XDMG}",
 									"Yes"
 								]
 							]
@@ -1950,23 +1950,23 @@
 									"Yes"
 								],
 								[
-									"{@item Dagger of Venom|XDMG}",
+									"{@item Dague venimeuse|XDMG}",
 									"No"
 								],
 								[
-									"{@item Elven Chain|XDMG}",
+									"{@item Cotte d'elfe|XDMG}",
 									"No"
 								],
 								[
-									"{@item Ring of Feather Falling|XDMG}",
+									"{@item Anneau de chute de plume|XDMG}",
 									"Yes"
 								],
 								[
-									"{@item Ring of Jumping|XDMG}",
+									"{@item Anneau de saut|XDMG}",
 									"Yes"
 								],
 								[
-									"{@item Ring of Mind Shielding|XDMG}",
+									"{@item Anneau de protection mentale|XDMG}",
 									"Yes"
 								],
 								[
@@ -1978,7 +1978,7 @@
 									"Varies"
 								],
 								[
-									"{@item +2 Wand of the War Mage|XDMG|Wand of the War Mage, +2}",
+									"{@item +2 Baguette du mage de guerre|XDMG|Wand of the War Mage, +2}",
 									"Yes"
 								],
 								[
@@ -1986,7 +1986,7 @@
 									"No"
 								],
 								[
-									"{@item +2 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power, +2}",
+									"{@item +2 Bandages de puissance à mains nues|XDMG|Wraps of Unarmed Power, +2}",
 									"No"
 								]
 							],
@@ -2011,7 +2011,7 @@
 									"No"
 								],
 								[
-									"{@item Arrow-Catching Shield|XDMG}",
+									"{@item Bouclier d'attraction des projectiles|XDMG}",
 									"Yes"
 								],
 								[
@@ -2023,15 +2023,15 @@
 									"Varies"
 								],
 								[
-									"{@item Ring of Free Action|XDMG}",
+									"{@item Anneau de liberté d'action|XDMG}",
 									"Yes"
 								],
 								[
-									"{@item Ring of Protection|XDMG}",
+									"{@item Anneau de protection|XDMG}",
 									"Yes"
 								],
 								[
-									"{@item Ring of the Ram|XDMG}",
+									"{@item Anneau du bélier|XDMG}",
 									"Yes"
 								]
 							],
@@ -2062,7 +2062,7 @@
 			"classSource": "EFA",
 			"level": 4,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another feat of your choice for which you qualify. You gain this feature again at Artificer levels 8, 12, and 16."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another feat of your choice for which you qualify. You gain this feature again at Artificer levels 8, 12, and 16."
 			]
 		},
 		{
@@ -2106,7 +2106,7 @@
 							"type": "entries",
 							"name": "Transmute Magic Item",
 							"entries": [
-								"As a {@action Magic|XPHB} action, you can touch one magic item within 5 feet of yourself that you created with Replicate Magic Item and transform it into a different magic item. The resulting item must be based on a magic item plan you know. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+								"As a {@action Magie|XPHB} action, you can touch one magic item within 5 feet of yourself that you created with Replicate Magic Item and transform it into a different magic item. The resulting item must be based on a magic item plan you know. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
 							]
 						}
 					]
@@ -2133,7 +2133,7 @@
 			"classSource": "EFA",
 			"level": 8,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another feat of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another feat of your choice for which you qualify."
 			]
 		},
 		{
@@ -2167,7 +2167,7 @@
 			"level": 11,
 			"entries": [
 				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can touch one Simple or Martial weapon or one item that you can use as a {@variantrule Spellcasting Focus|XPHB}, and you store a spell in it, choosing a level 1, 2, or 3 Artificer spell that has a casting time of an action and doesn't require a Material component that is consumed by the spell (you needn't have the spell prepared).",
-				"While holding the object, a creature can take a {@action Magic|XPHB} action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires {@status Concentration|XPHB}, the creature must concentrate. Once a creature has used the object to produce the spell's effect, the object can't be used this way again until the start of the creature's next turn.",
+				"While holding the object, a creature can take a {@action Magie|XPHB} action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires {@status Concentration|XPHB}, the creature must concentrate. Once a creature has used the object to produce the spell's effect, the object can't be used this way again until the start of the creature's next turn.",
 				"The spell stays in the object until it's been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object."
 			]
 		},
@@ -2179,7 +2179,7 @@
 			"classSource": "EFA",
 			"level": 12,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another feat of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another feat of your choice for which you qualify."
 			]
 		},
 		{
@@ -2231,7 +2231,7 @@
 			"classSource": "EFA",
 			"level": 16,
 			"entries": [
-				"You gain the {@feat Ability Score Improvement|XPHB} feat or another feat of your choice for which you qualify."
+				"You gain the {@feat Amélioration de caractéristique|XPHB} feat or another feat of your choice for which you qualify."
 			]
 		},
 		{
@@ -2253,7 +2253,7 @@
 			"classSource": "EFA",
 			"level": 19,
 			"entries": [
-				"You gain an Epic Boon feat or another feat of your choice for which you qualify. {@feat Boon of Energy Resistance|XPHB} is recommended."
+				"You gain an Epic Boon feat or another feat of your choice for which you qualify. {@feat Don de la résistance à l'énergie|XPHB} is recommended."
 			]
 		},
 		{
@@ -2301,7 +2301,7 @@
 			"level": 1,
 			"entries": [
 				"{@i 1st-level artificer feature}",
-				"You've learned how to invest a spark of magic into mundane objects. To use this ability, you must have {@item thieves' tools|PHB} or {@item artisan's tools|PHB} in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:",
+				"You've learned how to invest a spark of magic into mundane objects. To use this ability, you must have {@item Outils de crocheteur|PHB} or {@item artisan's tools|PHB} in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:",
 				{
 					"type": "list",
 					"items": [
@@ -2352,13 +2352,13 @@
 					"type": "entries",
 					"name": "Tools Required",
 					"entries": [
-						"You produce your artificer spell effects through your tools. You must have a spellcasting focus\u2014specifically {@item thieves' tools|phb} or some kind of {@item artisan's tools|phb|artisan's tool}\u2014in hand when you cast any spell with this Spellcasting feature (meaning the spell has an 'M' component when you cast it). You must be proficient with the tool to use it in this way. See {@book chapter 5|PHB|4}, \"Equipment,\" in the {@book Player's Handbook|PHB} for descriptions of these tools.",
+						"You produce your artificer spell effects through your tools. You must have a spellcasting focus\u2014specifically {@item Outils de crocheteur|phb} or some kind of {@item artisan's tools|phb|artisan's tool}\u2014in hand when you cast any spell with this Spellcasting feature (meaning the spell has an 'M' component when you cast it). You must be proficient with the tool to use it in this way. See {@book chapter 5|PHB|4}, \"Equipment,\" in the {@book Player's Handbook|PHB} for descriptions of these tools.",
 						"After you gain the Infuse Item feature at 2nd level, you can also use any item bearing one of your infusions as a spellcasting focus.",
 						{
 							"type": "inset",
 							"name": "The Magic of Artifice",
 							"entries": [
-								"As an artificer, you use tools when you cast your spells. When describing your spellcasting, think about how you're using a tool to perform the spell effect. If you cast {@spell cure wounds} using {@item alchemist's supplies|PHB}, you could be quickly producing a salve. If you cast it using {@item tinker's tools|PHB}, you might have a miniature mechanical spider that binds wounds. When you cast {@spell poison spray}, you could fling foul chemicals or use a wand that spits venom. The effect of the spell is the same as for a spellcaster of any other class, but your method of spellcasting is special.",
+								"As an artificer, you use tools when you cast your spells. When describing your spellcasting, think about how you're using a tool to perform the spell effect. If you cast {@spell cure wounds} using {@item Fournitures d'alchimiste|PHB}, you could be quickly producing a salve. If you cast it using {@item Outils de rétameur|PHB}, you might have a miniature mechanical spider that binds wounds. When you cast {@spell poison spray}, you could fling foul chemicals or use a wand that spits venom. The effect of the spell is the same as for a spellcaster of any other class, but your method of spellcasting is special.",
 								"The same principle applies when you prepare your spells. As an artificer, you don't study a spellbook or pray to prepare your spells. Instead, you work with your tools and create the specialized items you'll use to produce your effects. If you replace {@spell cure wounds} with {@spell heat metal}, you might be altering the device you use to heal\u2014perhaps modifying a tool so that it channels heat instead of healing energy.",
 								"Such details don't limit you in any way or provide you with any benefit beyond the spell's effects. You don't have to justify how you're using tools to cast a spell. But describing your spellcasting creatively is a fun way to distinguish yourself from other spellcasters."
 							]
@@ -2450,7 +2450,7 @@
 						"Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions, turning it into a magic item. An infusion works on only certain kinds of objects, as specified in the infusion's description. If the item requires attunement, you can attune yourself to it the instant you infuse the item. If you decide to attune to the item later, you must do so using the normal process for attunement (see \"{@book Attunement|DMG|7|Attunement}\" in chapter 7 of the {@book Dungeon Master's Guide|DMG}).",
 						"Your infusion remains in an item indefinitely, but when you die, the infusion vanishes after a number of days have passed equal to your Intelligence modifier (minimum of 1 day). The infusion also vanishes if you give up your knowledge of the infusion for another one.",
 						"You can infuse more than one nonmagical object at the end of a long rest; the maximum number of objects appears in the Infused Items column of the Artificer table. You must touch each of the objects, and each of your infusions can be in only one object at a time. Moreover, no object can bear more than one of your infusions at a time. If you try to exceed your maximum number of infusions, the oldest infusion immediately ends, and then the new infusion applies.",
-						"If an infusion ends on an item that contains other things, like a {@item bag of holding}, its contents harmlessly appear in and around its space."
+						"If an infusion ends on an item that contains other things, like a {@item Sac contenant}, its contents harmlessly appear in and around its space."
 					]
 				}
 			]
@@ -2507,7 +2507,7 @@
 			"level": 3,
 			"entries": [
 				"{@i 3rd-level artificer feature}",
-				"You've learned how to produce exactly the tool you need: with {@item thieves' tools|PHB} or {@item artisan's tools|PHB} in hand, you can magically create one set of {@item artisan's tools|PHB} in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work, which can coincide with a short or long rest. Though the product of magic, the tools are nonmagical, and they vanish when you use this feature again."
+				"You've learned how to produce exactly the tool you need: with {@item Outils de crocheteur|PHB} or {@item artisan's tools|PHB} in hand, you can magically create one set of {@item artisan's tools|PHB} in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work, which can coincide with a short or long rest. Though the product of magic, the tools are nonmagical, and they vanish when you use this feature again."
 			]
 		},
 		{
@@ -2894,7 +2894,7 @@
 			"subclassSource": "EFA",
 			"level": 3,
 			"entries": [
-				"Whenever you finish a {@variantrule Long Rest|XPHB} while holding {@item Alchemist's Supplies|XPHB}, you can use that tool to magically produce two elixirs. For each elixir, roll on the Experimental Elixir table for the elixir's effect, which is triggered when someone drinks the elixir. The elixir appears in a vial, and the vial vanishes when the elixir is drunk or poured out. If any elixir remains when you finish a {@variantrule Long Rest|XPHB}, the elixir and its vial vanish.",
+				"Whenever you finish a {@variantrule Long Rest|XPHB} while holding {@item Fournitures d'alchimiste|XPHB}, you can use that tool to magically produce two elixirs. For each elixir, roll on the Experimental Elixir table for the elixir's effect, which is triggered when someone drinks the elixir. The elixir appears in a vial, and the vial vanishes when the elixir is drunk or poured out. If any elixir remains when you finish a {@variantrule Long Rest|XPHB}, the elixir and its vial vanish.",
 				{
 					"type": "entries",
 					"name": "Drinking an Elixir",
@@ -2906,7 +2906,7 @@
 					"type": "entries",
 					"name": "Creating Additional Elixirs",
 					"entries": [
-						"As a {@action Magic|XPHB} action while holding {@item Alchemist's Supplies|XPHB}, you can expend one spell slot to create another elixir. When you do so, you choose its effect from the Experimental Elixir table rather than rolling.",
+						"As a {@action Magie|XPHB} action while holding {@item Fournitures d'alchimiste|XPHB}, you can expend one spell slot to create another elixir. When you do so, you choose its effect from the Experimental Elixir table rather than rolling.",
 						"When you reach certain Artificer levels, you can make an additional elixir at the end of each {@variantrule Long Rest|XPHB}: a total of three at level 5, four at level 9, and five at level 15."
 					]
 				},
@@ -2966,7 +2966,7 @@
 					"type": "entries",
 					"name": "Tool Proficiency",
 					"entries": [
-						"You gain proficiency with {@item Alchemist's Supplies|XPHB} and the {@item Herbalism Kit|XPHB}. If you already have one of these proficiencies, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice (or with two other types if you have both)."
+						"You gain proficiency with {@item Fournitures d'alchimiste|XPHB} and the {@item Trousse d'herboriste|XPHB}. If you already have one of these proficiencies, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice (or with two other types if you have both)."
 					]
 				},
 				{
@@ -2989,7 +2989,7 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"Whenever you cast a spell using your {@item Alchemist's Supplies|XPHB} as the {@variantrule Spellcasting Focus|XPHB}, you gain a bonus to one roll of the spell. That roll must restore {@variantrule Hit Points|XPHB} or be a damage roll that deals Acid, Fire, or Poison damage. The bonus equals your Intelligence modifier (minimum bonus of +1)."
+				"Whenever you cast a spell using your {@item Fournitures d'alchimiste|XPHB} as the {@variantrule Spellcasting Focus|XPHB}, you gain a bonus to one roll of the spell. That roll must restore {@variantrule Hit Points|XPHB} or be a damage roll that deals Acid, Fire, or Poison damage. The bonus equals your Intelligence modifier (minimum bonus of +1)."
 			]
 		},
 		{
@@ -3003,7 +3003,7 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"You can cast {@spell Lesser Restoration|XPHB} without expending a spell slot and without preparing the spell, provided you use {@item Alchemist's Supplies|XPHB} as the {@variantrule Spellcasting Focus|XPHB}. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+				"You can cast {@spell Lesser Restoration|XPHB} without expending a spell slot and without preparing the spell, provided you use {@item Fournitures d'alchimiste|XPHB} as the {@variantrule Spellcasting Focus|XPHB}. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
 		{
@@ -3029,14 +3029,14 @@
 					"type": "entries",
 					"name": "Chemical Resistance",
 					"entries": [
-						"You gain {@variantrule Resistance|XPHB} to Acid damage and Poison damage. You also gain {@variantrule Immunity|XPHB} to the {@condition Poisoned|XPHB} condition."
+						"You gain {@variantrule Resistance|XPHB} to Acid damage and Poison damage. You also gain {@variantrule Immunity|XPHB} to the {@condition Empoisonné|XPHB} condition."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Conjured Cauldron",
 					"entries": [
-						"You can cast {@spell Tasha's Bubbling Cauldron|XPHB} without expending a spell slot, without preparing the spell, and without Material components, provided you use {@item Alchemist's Supplies|XPHB} as the {@variantrule Spellcasting Focus|XPHB}. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+						"You can cast {@spell Tasha's Bubbling Cauldron|XPHB} without expending a spell slot, without preparing the spell, and without Material components, provided you use {@item Fournitures d'alchimiste|XPHB} as the {@variantrule Spellcasting Focus|XPHB}. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
 					]
 				}
 			]
@@ -3051,7 +3051,7 @@
 			"subclassSource": "EFA",
 			"level": 3,
 			"entries": [
-				"As a {@action Magic|XPHB} action while you have {@item Smith's Tools|XPHB} in hand, you can turn a suit of armor you are wearing into Arcane Armor. The armor continues to be Arcane Armor until you don another suit of armor or you die.",
+				"As a {@action Magie|XPHB} action while you have {@item Outils de forgeron|XPHB} in hand, you can turn a suit of armor you are wearing into Arcane Armor. The armor continues to be Arcane Armor until you don another suit of armor or you die.",
 				"You gain the following benefits while wearing your Arcane Armor.",
 				{
 					"type": "entries",
@@ -3064,7 +3064,7 @@
 					"type": "entries",
 					"name": "Quick Don and Doff",
 					"entries": [
-						"You can don or doff the armor as a {@action Utilize|XPHB} action. The armor can't be removed against your will."
+						"You can don or doff the armor as a {@action Utiliser|XPHB} action. The armor can't be removed against your will."
 					]
 				},
 				{
@@ -3088,7 +3088,7 @@
 			"entries": [
 				"You can customize your Arcane Armor. When you do so, choose one of the following armor models: {@subclassFeature Dreadnaught|Artificer|EFA|Armorer|EFA|3|EFA}, {@subclassFeature Guardian|Artificer|EFA|Armorer|EFA|3|EFA}, or {@subclassFeature Infiltrator|Artificer|EFA|Armorer|EFA|3|EFA}. The model you choose gives you special benefits while you wear it.",
 				"Each model includes a special weapon. When you attack with that weapon, you can add your Intelligence modifier, instead of your Strength or Dexterity modifier, to the attack and damage rolls.",
-				"You can change the armor's model whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} if you have {@item Smith's Tools|XPHB} in hand.",
+				"You can change the armor's model whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} if you have {@item Outils de forgeron|XPHB} in hand.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Dreadnaught|Artificer|EFA|Armorer|EFA|3|EFA"
@@ -3236,7 +3236,7 @@
 					"type": "item",
 					"name": "Defensive Field",
 					"entries": [
-						"While {@status Bloodied|XPHB}, you can take a {@variantrule Bonus Action|XPHB} to gain {@variantrule Temporary Hit Points|XPHB} equal to your Artificer level. You lose these {@variantrule Temporary Hit Points|XPHB} if you doff the armor."
+						"While {@status Meurtri|XPHB}, you can take a {@variantrule Bonus Action|XPHB} to gain {@variantrule Temporary Hit Points|XPHB} equal to your Artificer level. You lose these {@variantrule Temporary Hit Points|XPHB} if you doff the armor."
 					]
 				}
 			]
@@ -3274,7 +3274,7 @@
 							"type": "item",
 							"name": "Dampening Field",
 							"entries": [
-								"You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Stealth|XPHB}) checks. If the armor imposes {@variantrule Disadvantage|XPHB} on such checks, the {@variantrule Advantage|XPHB} and {@variantrule Disadvantage|XPHB} cancel each other, as normal."
+								"You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Discrétion|XPHB}) checks. If the armor imposes {@variantrule Disadvantage|XPHB} on such checks, the {@variantrule Advantage|XPHB} and {@variantrule Disadvantage|XPHB} cancel each other, as normal."
 							]
 						}
 					]
@@ -3305,7 +3305,7 @@
 					"name": "Tool Proficiency",
 					"page": 15,
 					"entries": [
-						"You gain proficiency with {@item Smith's Tools|XPHB}. If you already have this tool proficiency, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice."
+						"You gain proficiency with {@item Outils de forgeron|XPHB}. If you already have this tool proficiency, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice."
 					]
 				},
 				{
@@ -3329,7 +3329,7 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+				"You can attack twice instead of once whenever you take the {@action Attaque|XPHB} action on your turn."
 			]
 		},
 		{
@@ -3486,7 +3486,7 @@
 			"subclassSource": "EFA",
 			"level": 3,
 			"entries": [
-				"Using {@item Smith's Tools|XPHB} or {@item Woodcarver's Tools|XPHB}, you can take a {@action Magic|XPHB} action to create a Small or Tiny {@object Eldritch Cannon|EFA} in an unoccupied space on a horizontal surface within 5 feet of yourself. You determine its appearance, including whether you carry it or not (and your choice of legs or wheels, for the latter). It disappears if it is reduced to 0 {@variantrule Hit Points|XPHB} or after 1 hour. You can dismiss it early as a {@action Magic|XPHB} action.",
+				"Using {@item Outils de forgeron|XPHB} or {@item Outils de sculpteur|XPHB}, you can take a {@action Magie|XPHB} action to create a Small or Tiny {@object Canon occulte|EFA} in an unoccupied space on a horizontal surface within 5 feet of yourself. You determine its appearance, including whether you carry it or not (and your choice of legs or wheels, for the latter). It disappears if it is reduced to 0 {@variantrule Hit Points|XPHB} or after 1 hour. You can dismiss it early as a {@action Magie|XPHB} action.",
 				"Once you create a cannon, you can't do so again until you finish a {@variantrule Long Rest|XPHB} or expend a spell slot to create one. You can have only one cannon at a time and can't create one while you already have one."
 			]
 		},
@@ -3512,14 +3512,14 @@
 					"type": "entries",
 					"name": "Tool Proficiency",
 					"entries": [
-						"You gain proficiency with {@item Woodcarver's Tools|XPHB}. If you already have this proficiency, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice."
+						"You gain proficiency with {@item Outils de sculpteur|XPHB}. If you already have this proficiency, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Wand Crafting",
 					"entries": [
-						"When you craft a magic {@item Wand|XPHB}, the amount of time required to craft it is halved."
+						"When you craft a magic {@item Baguette|XPHB}, the amount of time required to craft it is halved."
 					]
 				}
 			]
@@ -3535,7 +3535,7 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"When you finish a {@variantrule Long Rest|XPHB}, you can use {@item Woodcarver's Tools|XPHB} to carve special sigils into a {@item Rod|XPHB}, {@item Staff|XPHB}, {@item Wand|XPHB}, or {@filter Martial Ranged weapon|items|type=martial weapon;ranged weapon=sand} and thereby turn it into your Arcane Firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.",
+				"When you finish a {@variantrule Long Rest|XPHB}, you can use {@item Outils de sculpteur|XPHB} to carve special sigils into a {@item Sceptre|XPHB}, {@item Bâton|XPHB}, {@item Baguette|XPHB}, or {@filter Martial Ranged weapon|items|type=martial weapon;ranged weapon=sand} and thereby turn it into your Arcane Firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.",
 				"You can use your Arcane Firearm as a {@variantrule Spellcasting Focus|XPHB} for your Artificer spells. When you cast an Artificer spell through the firearm, roll {@damage 1d8}, and you gain a bonus to one of the spell's damage rolls equal to the number rolled."
 			]
 		},
@@ -3550,7 +3550,7 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"Every {@object Eldritch Cannon|EFA} you create is now more destructive. You gain the following benefits.",
+				"Every {@object Canon occulte|EFA} you create is now more destructive. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Detonate",
@@ -3578,19 +3578,19 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"You're a master at forming well-defended emplacements using your {@object Eldritch Cannon|EFA}. You gain the following benefits.",
+				"You're a master at forming well-defended emplacements using your {@object Canon occulte|EFA}. You gain the following benefits.",
 				{
 					"type": "item",
 					"name": "Double Firepower",
 					"entries": [
-						"You can now have two cannons at the same time, and you can create two with the same {@action Magic|XPHB} action. (If you expend a spell slot to create the first cannon, you must expend another spell slot to create the second.) You can activate both of them with the same {@variantrule Bonus Action|XPHB}, ordering them to use the same activation option or different ones. You can't create a third cannon while you have two."
+						"You can now have two cannons at the same time, and you can create two with the same {@action Magie|XPHB} action. (If you expend a spell slot to create the first cannon, you must expend another spell slot to create the second.) You can activate both of them with the same {@variantrule Bonus Action|XPHB}, ordering them to use the same activation option or different ones. You can't create a third cannon while you have two."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Shimmering Field Projection",
 					"entries": [
-						"You and your allies have {@variantrule Cover|XPHB|Half Cover} while within 10 feet of your {@object Eldritch Cannon|EFA}."
+						"You and your allies have {@variantrule Cover|XPHB|Half Cover} while within 10 feet of your {@object Canon occulte|EFA}."
 					]
 				}
 			]
@@ -3716,7 +3716,7 @@
 					"type": "entries",
 					"name": "The Defender in Combat",
 					"entries": [
-						"In combat, the defender acts during your turn. It can move and take its {@variantrule Reaction|XPHB} on its own, but the only action it takes is the {@action Dodge|XPHB} action unless you take a {@variantrule Bonus Action|XPHB} to command it to take an action. If you have the {@condition Incapacitated|XPHB} condition, the defender acts on its own and isn't limited to the {@action Dodge|XPHB} action."
+						"In combat, the defender acts during your turn. It can move and take its {@variantrule Reaction|XPHB} on its own, but the only action it takes is the {@action Esquive|XPHB} action unless you take a {@variantrule Bonus Action|XPHB} to command it to take an action. If you have the {@condition Incapable|XPHB} condition, the defender acts on its own and isn't limited to the {@action Esquive|XPHB} action."
 					]
 				},
 				{
@@ -3724,8 +3724,8 @@
 					"name": "Restoring or Replacing the Defender",
 					"page": 19,
 					"entries": [
-						"If the defender has died within the last hour, you can take a {@action Magic|XPHB} action to touch it and expend a spell slot. The defender returns to life after 1 minute with all its {@variantrule Hit Points|XPHB} restored.",
-						"Whenever you finish a {@variantrule Long Rest|XPHB}, you can create a new {@creature Steel Defender|EFA|defender} if you have {@item Smith's Tools|XPHB} in hand. If you already have a defender from this feature, the first one vanishes."
+						"If the defender has died within the last hour, you can take a {@action Magie|XPHB} action to touch it and expend a spell slot. The defender returns to life after 1 minute with all its {@variantrule Hit Points|XPHB} restored.",
+						"Whenever you finish a {@variantrule Long Rest|XPHB}, you can create a new {@creature Steel Defender|EFA|defender} if you have {@item Outils de forgeron|XPHB} in hand. If you already have a defender from this feature, the first one vanishes."
 					]
 				}
 			]
@@ -3745,7 +3745,7 @@
 					"type": "entries",
 					"name": "Tool Proficiency",
 					"entries": [
-						"You gain proficiency with {@item Smith's Tools|XPHB}. If you already have this proficiency, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice."
+						"You gain proficiency with {@item Outils de forgeron|XPHB}. If you already have this proficiency, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice."
 					]
 				},
 				{
@@ -3768,7 +3768,7 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn. You can forgo one of your attacks when you take the {@action Attack|XPHB} action to command your {@creature Steel Defender|EFA} to take the Force-Empowered Rend action."
+				"You can attack twice instead of once whenever you take the {@action Attaque|XPHB} action on your turn. You can forgo one of your attacks when you take the {@action Attaque|XPHB} action to command your {@creature Steel Defender|EFA} to take the Force-Empowered Rend action."
 			]
 		},
 		{
@@ -3844,7 +3844,7 @@
 			"subclassSource": "EFA",
 			"level": 3,
 			"entries": [
-				"Whenever you finish a {@variantrule Long Rest|XPHB} while holding {@item Cartographer's Tools|XPHB}, you can use that tool to create a set of magical maps by touching at least two creatures (one of whom can be yourself), up to a maximum number of creatures equal to 1 plus your Intelligence modifier (minimum of two creatures). Each target receives a magical map, which constantly updates to show the relative position of all the map holders but is illegible to all others. The maps last until you die or until you use this feature again, at which point any existing maps created by this feature immediately vanish.",
+				"Whenever you finish a {@variantrule Long Rest|XPHB} while holding {@item Outils de cartographe|XPHB}, you can use that tool to create a set of magical maps by touching at least two creatures (one of whom can be yourself), up to a maximum number of creatures equal to 1 plus your Intelligence modifier (minimum of two creatures). Each target receives a magical map, which constantly updates to show the relative position of all the map holders but is illegible to all others. The maps last until you die or until you use this feature again, at which point any existing maps created by this feature immediately vanish.",
 				"While carrying the map, a target gains the following benefits.",
 				{
 					"type": "entries",
@@ -3982,7 +3982,7 @@
 					"type": "entries",
 					"name": "Tool Proficiency",
 					"entries": [
-						"You gain proficiency with {@item Calligrapher's Supplies|XPHB} and {@item Cartographer's Tools|XPHB}. If you already have one of these proficiencies, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice (or with two other types if you have both)."
+						"You gain proficiency with {@item Fournitures de calligraphe|XPHB} and {@item Outils de cartographe|XPHB}. If you already have one of these proficiencies, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice (or with two other types if you have both)."
 					]
 				},
 				{
@@ -4060,14 +4060,14 @@
 			"subclassSource": "RHW",
 			"level": 3,
 			"entries": [
-				"Using {@item Tinker's Tools|XPHB} or another type of {@item Artisan's Tools|XPHB} with which you have proficiency, you can take a {@action Magic|XPHB} action to create a {@creature Reanimated Companion|RHW} through the power of necromancy and science. The companion manifests in an unoccupied space within 5 feet of you. You determine the companion's appearance; your choices don't affect the companion's game statistics.",
-				"The companion is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and obeys you. It lasts until you finish a {@variantrule Long Rest|XPHB} or until you take a {@action Magic|XPHB} action to dismiss it early, at which point it harmlessly collapses into a pile of viscera. It immediately drops to 0 {@variantrule Hit Points|XPHB} and dies (triggering its Death Burst trait) if you die.",
+				"Using {@item Outils de rétameur|XPHB} or another type of {@item Artisan's Tools|XPHB} with which you have proficiency, you can take a {@action Magie|XPHB} action to create a {@creature Reanimated Companion|RHW} through the power of necromancy and science. The companion manifests in an unoccupied space within 5 feet of you. You determine the companion's appearance; your choices don't affect the companion's game statistics.",
+				"The companion is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and obeys you. It lasts until you finish a {@variantrule Long Rest|XPHB} or until you take a {@action Magie|XPHB} action to dismiss it early, at which point it harmlessly collapses into a pile of viscera. It immediately drops to 0 {@variantrule Hit Points|XPHB} and dies (triggering its Death Burst trait) if you die.",
 				"Once you create a companion, you can't do so again until you finish a {@variantrule Long Rest|XPHB} or expend a spell slot to create one. You can have only one companion at a time and can't create one while your companion is present.",
 				{
 					"type": "entries",
 					"name": "The Companion in Combat",
 					"entries": [
-						"In combat, the companion acts during your turn. It can move and take its {@variantrule Reaction|XPHB} on its own, but the only action it takes is the {@action Dodge|XPHB} action unless you take a {@variantrule Bonus Action|XPHB} to command it to take an action. If you have the {@condition Incapacitated|XPHB} condition, the companion acts on its own and isn't limited to the {@action Dodge|XPHB} action."
+						"In combat, the companion acts during your turn. It can move and take its {@variantrule Reaction|XPHB} on its own, but the only action it takes is the {@action Esquive|XPHB} action unless you take a {@variantrule Bonus Action|XPHB} to command it to take an action. If you have the {@condition Incapable|XPHB} condition, the companion acts on its own and isn't limited to the {@action Esquive|XPHB} action."
 					]
 				}
 			]
@@ -4165,7 +4165,7 @@
 					"type": "entries",
 					"name": "Reanimator's Tools",
 					"entries": [
-						"You gain proficiency with {@item Alchemist's Supplies|XPHB}. If you already have this proficiency, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice."
+						"You gain proficiency with {@item Fournitures d'alchimiste|XPHB}. If you already have this proficiency, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice."
 					]
 				}
 			]
@@ -4232,7 +4232,7 @@
 					"type": "entries",
 					"name": "Gaunt",
 					"entries": [
-						"The companion's {@variantrule Speed|XPHB} increases to 45 feet, and it gains a {@variantrule Climb Speed|XPHB} equal to its {@variantrule Speed|XPHB}. It can climb difficult surfaces, including along ceilings, without needing to make an ability check. In addition, whenever a creature of your choice starts its turn within a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from your companion, the creature must succeed on a Wisdom saving throw against your spell save DC or have the {@condition Frightened|XPHB} condition until the start of its next turn."
+						"The companion's {@variantrule Speed|XPHB} increases to 45 feet, and it gains a {@variantrule Climb Speed|XPHB} equal to its {@variantrule Speed|XPHB}. It can climb difficult surfaces, including along ceilings, without needing to make an ability check. In addition, whenever a creature of your choice starts its turn within a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from your companion, the creature must succeed on a Wisdom saving throw against your spell save DC or have the {@condition Effrayé|XPHB} condition until the start of its next turn."
 					]
 				},
 				{
@@ -4259,7 +4259,7 @@
 					"type": "entries",
 					"name": "Facilitated Revival",
 					"entries": [
-						"You can cast {@spell Raise Dead|XPHB} once without expending a spell slot and without Material components, provided you use {@item Tinker's Tools|XPHB} or another type of {@item Artisan's Tools|XPHB} with which you have proficiency as the {@variantrule Spellcasting Focus|XPHB}. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+						"You can cast {@spell Raise Dead|XPHB} once without expending a spell slot and without Material components, provided you use {@item Outils de rétameur|XPHB} or another type of {@item Artisan's Tools|XPHB} with which you have proficiency as the {@variantrule Spellcasting Focus|XPHB}. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
 					]
 				},
 				{
@@ -4380,8 +4380,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Beginning at 3rd level, whenever you finish a long rest, you can magically produce an {@i experimental elixir} in an empty flask you touch. Roll on the Experimental Elixir table for the elixir's effect, which is triggered when someone drinks the elixir. As an action, a creature can drink the elixir or administer it to an {@condition incapacitated} creature.",
-				"Creating an {@i experimental elixir} requires you to have {@item alchemist's supplies|PHB} on your person, and any elixir you create with this feature lasts until it is drunk or until the end of your next long rest.",
+				"Beginning at 3rd level, whenever you finish a long rest, you can magically produce an {@i experimental elixir} in an empty flask you touch. Roll on the Experimental Elixir table for the elixir's effect, which is triggered when someone drinks the elixir. As an action, a creature can drink the elixir or administer it to an {@condition Incapable} creature.",
+				"Creating an {@i experimental elixir} requires you to have {@item Fournitures d'alchimiste|PHB} on your person, and any elixir you create with this feature lasts until it is drunk or until the end of your next long rest.",
 				"When you reach certain levels in this class, you can make more elixirs at the end of a long rest: two at 6th level and three at 15th level. Roll for each elixir's effect separately. Each elixir requires its own flask.",
 				"You can create additional {@i experimental elixirs} by expending a spell slot of 1st level or higher for each one. When you do so, you use your action to create the elixir in an empty flask you touch, and you choose the elixir's effect from the Experimental Elixir table.",
 				{
@@ -4441,7 +4441,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you adopt this specialization at 3rd level, you gain proficiency with {@item alchemist's supplies|PHB}. If you already have this proficiency, you gain proficiency with one other type of {@item artisan's tools|PHB} of your choice."
+				"When you adopt this specialization at 3rd level, you gain proficiency with {@item Fournitures d'alchimiste|PHB}. If you already have this proficiency, you gain proficiency with one other type of {@item artisan's tools|PHB} of your choice."
 			]
 		},
 		{
@@ -4461,7 +4461,7 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"At 5th level, you develop masterful command of magical chemicals, enhancing the healing and damage you create through them. Whenever you cast a spell using your {@item alchemist's supplies|PHB} as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid, fire, necrotic, or poison damage, and the bonus equals your Intelligence modifier (minimum of +1)."
+				"At 5th level, you develop masterful command of magical chemicals, enhancing the healing and damage you create through them. Whenever you cast a spell using your {@item Fournitures d'alchimiste|PHB} as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid, fire, necrotic, or poison damage, and the bonus equals your Intelligence modifier (minimum of +1)."
 			]
 		},
 		{
@@ -4486,7 +4486,7 @@
 					"type": "list",
 					"items": [
 						"Whenever a creature drinks an {@i experimental elixir} you created, the creature gains temporary hit points equal to {@dice 2d6} + your Intelligence modifier (minimum of 1 temporary hit point).",
-						"You can cast {@spell lesser restoration} without expending a spell slot and without preparing the spell, provided you use {@item alchemist's supplies|PHB} as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+						"You can cast {@spell lesser restoration} without expending a spell slot and without preparing the spell, provided you use {@item Fournitures d'alchimiste|PHB} as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
 					]
 				}
 			]
@@ -4512,8 +4512,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain resistance to acid damage and poison damage, and you are immune to the {@condition poisoned} condition.",
-						"You can cast {@spell greater restoration} and {@spell heal} without expending a spell slot, without preparing the spell, and without material components, provided you use {@item alchemist's supplies|PHB} as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest."
+						"You gain resistance to acid damage and poison damage, and you are immune to the {@condition Empoisonné} condition.",
+						"You can cast {@spell greater restoration} and {@spell heal} without expending a spell slot, without preparing the spell, and without material components, provided you use {@item Fournitures d'alchimiste|PHB} as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest."
 					]
 				}
 			]
@@ -4558,7 +4558,7 @@
 			"level": 3,
 			"type": "item",
 			"entries": [
-				"You have advantage on Dexterity ({@skill Stealth}) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal."
+				"You have advantage on Dexterity ({@skill Discrétion}) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal."
 			]
 		},
 		{
@@ -4629,7 +4629,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Armorer feature}",
-				"Your metallurgical pursuits have led to you making armor a conduit for your magic. As an action, you can turn a suit of armor you are wearing into Arcane Armor, provided you have {@item smith's tools|PHB} in hand.",
+				"Your metallurgical pursuits have led to you making armor a conduit for your magic. As an action, you can turn a suit of armor you are wearing into Arcane Armor, provided you have {@item Outils de forgeron|PHB} in hand.",
 				"You gain the following benefits while wearing this armor:",
 				{
 					"type": "list",
@@ -4656,7 +4656,7 @@
 				"{@i 3rd-level Armorer feature}",
 				"You can customize your Arcane Armor. When you do so, choose one of the following armor models: Guardian or Infiltrator. The model you choose gives you special benefits while you wear it.",
 				"Each model includes a special weapon. When you attack with that weapon, you can add your Intelligence modifier, instead of Strength or Dexterity, to the attack and damage rolls.",
-				"You can change the armor's model whenever you finish a short or long rest, provided you have {@item smith's tools|PHB} in hand.",
+				"You can change the armor's model whenever you finish a short or long rest, provided you have {@item Outils de forgeron|PHB} in hand.",
 				{
 					"type": "entries",
 					"entries": [
@@ -4771,7 +4771,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Armorer feature}",
-				"You gain proficiency with heavy armor. You also gain proficiency with {@item smith's tools|PHB}. If you already have this tool proficiency, you gain proficiency with one other type of {@item artisan's tools|PHB} of your choice."
+				"You gain proficiency with heavy armor. You also gain proficiency with {@item Outils de forgeron|PHB}. If you already have this tool proficiency, you gain proficiency with one other type of {@item artisan's tools|PHB} of your choice."
 			]
 		},
 		{
@@ -4786,7 +4786,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 5th-level Armorer feature}",
-				"You can attack twice, rather than once, whenever you take the {@action Attack} action on your turn."
+				"You can attack twice, rather than once, whenever you take the {@action Attaque} action on your turn."
 			]
 		},
 		{
@@ -4959,7 +4959,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you learn how to create a magical cannon. Using {@item woodcarver's tools|PHB} or {@item smith's tools|PHB}, you can take an action to magically create a Small or Tiny eldritch cannon in an unoccupied space on a horizontal surface within 5 feet of you. A Small eldritch cannon occupies its space, and a Tiny one can be held in one hand.",
+				"At 3rd level, you learn how to create a magical cannon. Using {@item Outils de sculpteur|PHB} or {@item Outils de forgeron|PHB}, you can take an action to magically create a Small or Tiny eldritch cannon in an unoccupied space on a horizontal surface within 5 feet of you. A Small eldritch cannon occupies its space, and a Tiny one can be held in one hand.",
 				"Once you create a cannon, you can't do so again until you finish a long rest or until you expend a spell slot of 1st level or higher. You can have only one cannon at a time and can't create one while your cannon is present.",
 				"The cannon is a magical object. Regardless of size, the cannon has an AC of 18 and a number of hit points equal to five times your artificer level. It is immune to poison damage and psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the {@spell mending} spell is cast on it, it regains {@dice 2d6} hit points. It disappears if it is reduced to 0 hit points or after 1 hour. You can dismiss it early as an action.",
 				"When you create the cannon, you determine its appearance and whether it has legs. You also decide which type it is, choosing from the options on the Eldritch Cannons table. On each of your turns, you can take a bonus action to cause the cannon to activate if you are within 60 feet of it. As part of the same bonus action, you can direct the cannon to walk or climb up to 15 feet to an unoccupied space, provided it has legs.",
@@ -4976,15 +4976,15 @@
 					],
 					"rows": [
 						[
-							"{@object Eldritch Cannon, Flamethrower|TCE|Flamethrower}",
+							"{@object Canon occulte, lance-flammes|TCE|Flamethrower}",
 							"The cannon exhales fire in an adjacent 15-foot cone that you designate. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking {@damage 2d8} fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried."
 						],
 						[
-							"{@object Eldritch Cannon, Force Ballista|TCE|Force Ballista}",
+							"{@object Canon occulte, baliste de force|TCE|Force Ballista}",
 							"Make a ranged spell attack, originating from the cannon, at one creature or object within 120 feet of it. On a hit, the target takes {@damage 2d8} force damage, and if the target is a creature, it is pushed up to 5 feet away from the cannon."
 						],
 						[
-							"{@object Eldritch Cannon, Protector|TCE|Protector}",
+							"{@object Canon occulte, protecteur|TCE|Protector}",
 							"The cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to {@damage 1d8} + your Intelligence modifier (minimum of +1)."
 						]
 					]
@@ -5008,7 +5008,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you adopt this specialization at 3rd level, you gain proficiency with {@item woodcarver's tools|PHB}. If you already have this proficiency, you gain proficiency with one other type of {@item artisan's tools|PHB} of your choice."
+				"When you adopt this specialization at 3rd level, you gain proficiency with {@item Outils de sculpteur|PHB}. If you already have this proficiency, you gain proficiency with one other type of {@item artisan's tools|PHB} of your choice."
 			]
 		},
 		{
@@ -5028,7 +5028,7 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"At 5th level, you know how to turn a wand, staff, or rod into an arcane firearm, a conduit for your destructive spells. When you finish a long rest, you can use {@item woodcarver's tools|PHB} to carve special sigils into a wand, staff, or rod and thereby turn it into your arcane firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.",
+				"At 5th level, you know how to turn a wand, staff, or rod into an arcane firearm, a conduit for your destructive spells. When you finish a long rest, you can use {@item Outils de sculpteur|PHB} to carve special sigils into a wand, staff, or rod and thereby turn it into your arcane firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.",
 				"You can use your arcane firearm as a spellcasting focus for your artificer spells. When you cast an artificer spell through the firearm, roll a {@damage d8}, and you gain a bonus to one of the spell's damage rolls equal to the number rolled."
 			]
 		},
@@ -5221,9 +5221,9 @@
 			"header": 1,
 			"entries": [
 				"By 3rd level, your tinkering has borne you a faithful companion, a {@creature steel defender|tce}. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the steel defender stat block, which uses your proficiency bonus (PB) in several places. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on its game statistics.",
-				"In combat, the defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the defender can take any action of its choice, not just {@action Dodge}.",
-				"If the {@spell mending} spell is cast on it, it regains {@dice 2d6} hit points. If it has died within the last hour, you can use your {@item smith's tools|PHB} as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored.",
-				"At the end of a long rest, you can create a new steel defender if you have your {@item smith's tools|PHB} with you. If you already have a steel defender from this feature, the first one immediately perishes. The defender also perishes if you die."
+				"In combat, the defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Esquive} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition Incapable}, the defender can take any action of its choice, not just {@action Esquive}.",
+				"If the {@spell mending} spell is cast on it, it regains {@dice 2d6} hit points. If it has died within the last hour, you can use your {@item Outils de forgeron|PHB} as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored.",
+				"At the end of a long rest, you can create a new steel defender if you have your {@item Outils de forgeron|PHB} with you. If you already have a steel defender from this feature, the first one immediately perishes. The defender also perishes if you die."
 			]
 		},
 		{
@@ -5243,7 +5243,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you adopt this specialization at 3rd level, you gain proficiency with {@item smith's tools|PHB}. If you already have this proficiency, you gain proficiency with one other type of {@item artisan's tools|PHB} of your choice."
+				"When you adopt this specialization at 3rd level, you gain proficiency with {@item Outils de forgeron|PHB}. If you already have this proficiency, you gain proficiency with one other type of {@item artisan's tools|PHB} of your choice."
 			]
 		},
 		{
@@ -5263,7 +5263,7 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"Starting at 5th level, you can attack twice, rather than once, whenever you take the {@action Attack} action on your turn."
+				"Starting at 5th level, you can attack twice, rather than once, whenever you take the {@action Attaque} action on your turn."
 			]
 		},
 		{

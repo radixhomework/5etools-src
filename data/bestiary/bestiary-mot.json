@@ -187,8 +187,8 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item breastplate|PHB}",
-						"{@item shield|PHB}"
+						"{@item Cuirasse|PHB}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -238,7 +238,7 @@
 				{
 					"name": "Shield Bash",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition À terre}."
 					]
 				}
 			],
@@ -353,7 +353,7 @@
 				{
 					"name": "Hide in Plain Sight",
 					"entries": [
-						"The alseid has advantage on Dexterity ({@skill Stealth}) checks made to hide while it is in grassland."
+						"The alseid has advantage on Dexterity ({@skill Discrétion}) checks made to hide while it is in grassland."
 					]
 				},
 				{
@@ -470,7 +470,7 @@
 				{
 					"name": "Recorded Mimicry",
 					"entries": [
-						"The raptor can mimic any sound, including voices, it has heard in the last 24 hours. A creature that hears the sounds can tell they are imitations with a successful {@dc 12} Wisdom ({@skill Insight}) check."
+						"The raptor can mimic any sound, including voices, it has heard in the last 24 hours. A creature that hears the sounds can tell they are imitations with a successful {@dc 12} Wisdom ({@skill Perspicacité}) check."
 					]
 				}
 			],
@@ -624,13 +624,13 @@
 				{
 					"name": "Discordant Song",
 					"entries": [
-						"Aphemia shrieks a cacophony of magical sounds. Each humanoid within 120 feet of her must succeed on a {@dc 14} Wisdom saving throw or be {@condition frightened} of her until the song ends. A {@condition frightened} creature takes 7 ({@damage 2d6}) psychic damage at the start of its turn while Aphemia is singing. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Aphemia's Discordant Song for the next 24 hours. Aphemia must take a bonus action on her subsequent turns to continue singing. She can stop singing at any time. The song ends if Aphemia is {@condition incapacitated} or dies."
+						"Aphemia shrieks a cacophony of magical sounds. Each humanoid within 120 feet of her must succeed on a {@dc 14} Wisdom saving throw or be {@condition Effrayé} of her until the song ends. A {@condition Effrayé} creature takes 7 ({@damage 2d6}) psychic damage at the start of its turn while Aphemia is singing. A {@condition Effrayé} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Aphemia's Discordant Song for the next 24 hours. Aphemia must take a bonus action on her subsequent turns to continue singing. She can stop singing at any time. The song ends if Aphemia is {@condition Incapable} or dies."
 					]
 				},
 				{
 					"name": "Grave Calling Song",
 					"entries": [
-						"Aphemia intones a low, growling magical melody. Every undead within 300 feet of her must succeed on a {@dc 14} Wisdom saving throw or fall under her control until the song ends. Aphemia must take a bonus action on her subsequent turns to continue singing, and she can mentally command the undead under her control as part of the same bonus action. She can stop singing at any time. The song ends if Aphemia is {@condition incapacitated} or dies."
+						"Aphemia intones a low, growling magical melody. Every undead within 300 feet of her must succeed on a {@dc 14} Wisdom saving throw or fall under her control until the song ends. Aphemia must take a bonus action on her subsequent turns to continue singing, and she can mentally command the undead under her control as part of the same bonus action. She can stop singing at any time. The song ends if Aphemia is {@condition Incapable} or dies."
 					]
 				}
 			],
@@ -747,7 +747,7 @@
 				{
 					"name": "Armor of Spiders (Mythic Trait; Recharges after a Short or Long Rest)",
 					"entries": [
-						"If Arasta is reduced to 0 hit points, she doesn't die or fall {@condition unconscious}. Instead, she regains 200 hit points. In addition, Arasta's children immediately swarm over her body to protect her, granting her 100 temporary hit points."
+						"If Arasta is reduced to 0 hit points, she doesn't die or fall {@condition Inconscient}. Instead, she regains 200 hit points. In addition, Arasta's children immediately swarm over her body to protect her, granting her 100 temporary hit points."
 					]
 				},
 				{
@@ -785,7 +785,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 5 ft., one creature. {@h}20 ({@damage 3d8 + 7}) piercing damage, and the target must make a {@dc 21} Constitution saving throw, taking 32 ({@damage 5d12}) poison damage on a failed save, or half as much damage on a successful one. If the damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one creature. {@h}20 ({@damage 3d8 + 7}) piercing damage, and the target must make a {@dc 21} Constitution saving throw, taking 32 ({@damage 5d12}) poison damage on a failed save, or half as much damage on a successful one. If the damage reduces the target to 0 hit points, the target is stable but {@condition Empoisonné} for 1 hour, even after regaining hit points, and is {@condition Paralysé} while {@condition Empoisonné} in this way."
 					]
 				},
 				{
@@ -797,7 +797,7 @@
 				{
 					"name": "Web of Hair {@recharge 4}",
 					"entries": [
-						"Arasta unleashes her hair in the form of webbing that fills a 30-foot cube next to her. The web is {@quickref difficult terrain||3}, its area is lightly obscured, and it lasts for 1 minute. Any creature that moves into the web or that starts its turn there must make a {@dc 21} Dexterity saving throw. On a failed save, the creature is {@condition restrained} while in the web. A creature can use an action to make a {@dc 21} Strength check. On a success, it can free itself or a creature within 5 feet of it that is {@condition restrained} by the web. This webbing is immune to all damage except magical fire. A 5-foot cube of the web is destroyed if it takes at least 20 fire damage from a spell or other magical source on a single turn."
+						"Arasta unleashes her hair in the form of webbing that fills a 30-foot cube next to her. The web is {@quickref difficult terrain||3}, its area is lightly obscured, and it lasts for 1 minute. Any creature that moves into the web or that starts its turn there must make a {@dc 21} Dexterity saving throw. On a failed save, the creature is {@condition Entravé} while in the web. A creature can use an action to make a {@dc 21} Strength check. On a success, it can free itself or a creature within 5 feet of it that is {@condition Entravé} by the web. This webbing is immune to all damage except magical fire. A 5-foot cube of the web is destroyed if it takes at least 20 fire damage from a spell or other magical source on a single turn."
 					]
 				}
 			],
@@ -817,7 +817,7 @@
 				{
 					"name": "Toxic Web (Costs 3 Actions)",
 					"entries": [
-						"Each creature {@condition restrained} by Arasta's Web of Hair takes 18 ({@damage 4d8}) poison damage."
+						"Each creature {@condition Entravé} by Arasta's Web of Hair takes 18 ({@damage 4d8}) poison damage."
 					]
 				}
 			],
@@ -840,7 +840,7 @@
 				{
 					"name": "Nyx Weave (Costs 2 Actions)",
 					"entries": [
-						"Each creature {@condition restrained} by Arasta's Web of Hair must succeed on a {@dc 21} Constitution saving throw, or the creature takes 26 ({@damage 4d12}) force damage and any spell of 6th level or lower on it ends."
+						"Each creature {@condition Entravé} by Arasta's Web of Hair must succeed on a {@dc 21} Constitution saving throw, or the creature takes 26 ({@damage 4d12}) force damage and any spell of 6th level or lower on it ends."
 					]
 				}
 			],
@@ -909,7 +909,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|PHB|plate}"
+						"{@item Harnois de plaques|PHB|plate}"
 					]
 				}
 			],
@@ -985,13 +985,13 @@
 				{
 					"name": "Mount",
 					"entries": [
-						"If the archon isn't mounted, it can use a bonus action to magically teleport onto the creature serving as its mount, provided the archon and its mount are on the same plane of existence. When it teleports, the archon appears astride the mount, along with any equipment it is wearing or carrying. While mounted and not {@condition incapacitated}, the archon can't be {@status surprised}, and both it and its mount have advantage on Dexterity saving throws. If the archon is reduced to 0 hit points while riding its mount, the mount is reduced to 0 hit points as well."
+						"If the archon isn't mounted, it can use a bonus action to magically teleport onto the creature serving as its mount, provided the archon and its mount are on the same plane of existence. When it teleports, the archon appears astride the mount, along with any equipment it is wearing or carrying. While mounted and not {@condition Incapable}, the archon can't be {@status Surpris}, and both it and its mount have advantage on Dexterity saving throws. If the archon is reduced to 0 hit points while riding its mount, the mount is reduced to 0 hit points as well."
 					]
 				},
 				{
 					"name": "Radiant Rebirth (Recharges after a Long Rest)",
 					"entries": [
-						"If the archon is reduced to 0 hit points, it regains 30 hit points and springs back to its feet with a burst of radiance. Each creature of the archon's choice within 30 feet of it must succeed on a {@dc 16} Constitution saving throw, or the creature takes 13 ({@damage 3d8}) radiant damage and is {@condition blinded} until the start of the archon's turn."
+						"If the archon is reduced to 0 hit points, it regains 30 hit points and springs back to its feet with a burst of radiance. Each creature of the archon's choice within 30 feet of it must succeed on a {@dc 16} Constitution saving throw, or the creature takes 13 ({@damage 3d8}) radiant damage and is {@condition Aveuglé} until the start of the archon's turn."
 					]
 				}
 			],
@@ -1091,7 +1091,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|PHB|plate}"
+						"{@item Harnois de plaques|PHB|plate}"
 					]
 				}
 			],
@@ -1159,14 +1159,14 @@
 				{
 					"name": "Aura of Silence",
 					"entries": [
-						"When a creature starts its turn within 30 feet of the ashen rider, the rider can force that creature to make a {@dc 18} Wisdom saving throw if the rider can see it. On a successful save, the creature is immune to this aura for the next 24 hours. On a failed save, the creature can't speak and is {@condition deafened} until the start of its next turn."
+						"When a creature starts its turn within 30 feet of the ashen rider, the rider can force that creature to make a {@dc 18} Wisdom saving throw if the rider can see it. On a successful save, the creature is immune to this aura for the next 24 hours. On a failed save, the creature can't speak and is {@condition Assourdi} until the start of its next turn."
 					]
 				},
 				{
 					"name": "Mount",
 					"entries": [
 						"If the ashen rider isn't mounted, it can use a bonus action to magically teleport onto the creature serving as its mount, provided the ashen rider and its mount are on the same plane of existence. When it teleports, the ashen rider appears astride the mount along with any equipment it is wearing or carrying.",
-						"While mounted and not {@condition incapacitated}, the ashen rider can't be {@status surprised}, and both it and its mount have advantage on Dexterity saving throws. If the ashen rider is reduced to 0 hit points while riding its mount, the mount is reduced to 0 hit points as well."
+						"While mounted and not {@condition Incapable}, the ashen rider can't be {@status Surpris}, and both it and its mount have advantage on Dexterity saving throws. If the ashen rider is reduced to 0 hit points while riding its mount, the mount is reduced to 0 hit points as well."
 					]
 				}
 			],
@@ -1302,7 +1302,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"The harpy has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"The harpy has advantage on saving throws against being {@condition Charmé} or {@condition Effrayé}."
 					]
 				}
 			],
@@ -1391,7 +1391,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If Antigonos moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+						"If Antigonos moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition À terre}."
 					]
 				},
 				{
@@ -1429,7 +1429,7 @@
 				{
 					"name": "Amphora",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one Medium or smaller creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If there is not already a creature inside the amphora, the target is {@condition restrained} inside. As an action, the {@condition restrained} creature can make a {@dc 14} Dexterity ({@skill Acrobatics}) check, escaping from the amphora on a success. The effect also ends if the amphora is destroyed. The amphora has AC 8, 20 hit points, and immunity to poison and psychic damage."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one Medium or smaller creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If there is not already a creature inside the amphora, the target is {@condition Entravé} inside. As an action, the {@condition Entravé} creature can make a {@dc 14} Dexterity ({@skill Acrobaties}) check, escaping from the amphora on a success. The effect also ends if the amphora is destroyed. The amphora has AC 8, 20 hit points, and immunity to poison and psychic damage."
 					]
 				}
 			],
@@ -1531,7 +1531,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The sable has advantage on an attack roll against a creature if at least one of the sable's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The sable has advantage on an attack roll against a creature if at least one of the sable's allies is within 5 feet of the creature and the ally isn't {@condition Incapable}."
 					]
 				},
 				{
@@ -1633,7 +1633,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If the hart moves at least 20 feet straight toward a target and then hits it with an antlers attack on the same turn, the target takes an extra 7 ({@damage 2d6}) fire damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+						"If the hart moves at least 20 feet straight toward a target and then hits it with an antlers attack on the same turn, the target takes an extra 7 ({@damage 2d6}) fire damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition À terre}."
 					]
 				},
 				{
@@ -1645,7 +1645,7 @@
 				{
 					"name": "Sure-Footed",
 					"entries": [
-						"The hart has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+						"The hart has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition À terre}."
 					]
 				}
 			],
@@ -1956,7 +1956,7 @@
 				{
 					"name": "Noxious Gust {@recharge 5}",
 					"entries": [
-						"The giant exhales a mighty gust that creates a blast of deadly mist in a 60-foot line that is 10 feet wide. Each creature in that line must make a {@dc 18} Constitution saving throw. On a failed save, the creature takes 36 ({@damage 8d8}) necrotic damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}."
+						"The giant exhales a mighty gust that creates a blast of deadly mist in a 60-foot line that is 10 feet wide. Each creature in that line must make a {@dc 18} Constitution saving throw. On a failed save, the creature takes 36 ({@damage 8d8}) necrotic damage and is knocked {@condition À terre}. On a successful save, a creature takes half as much damage and isn't knocked {@condition À terre}."
 					]
 				}
 			],
@@ -2170,7 +2170,7 @@
 				{
 					"name": "Pounce",
 					"entries": [
-						"If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the lion can make one bite attack against it as a bonus action."
+						"If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition À terre}. If the target is {@condition À terre}, the lion can make one bite attack against it as a bonus action."
 					]
 				},
 				{
@@ -2217,7 +2217,7 @@
 				{
 					"name": "Roar (Costs 2 Actions)",
 					"entries": [
-						"The lion emits a magical roar. Each creature within 60 feet of the lion that can hear the roar must succeed on a {@dc 12} Wisdom saving throw or be {@condition frightened} of the lion until the end of the lion's next turn."
+						"The lion emits a magical roar. Each creature within 60 feet of the lion that can hear the roar must succeed on a {@dc 12} Wisdom saving throw or be {@condition Effrayé} of the lion until the end of the lion's next turn."
 					]
 				}
 			],
@@ -2313,13 +2313,13 @@
 				{
 					"name": "Blurred Form",
 					"entries": [
-						"Attack rolls against the eidolon are made with disadvantage unless the eidolon is {@condition incapacitated}."
+						"Attack rolls against the eidolon are made with disadvantage unless the eidolon is {@condition Incapable}."
 					]
 				},
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the eidolon is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the eidolon instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's {@condition incapacitated}."
+						"If the eidolon is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the eidolon instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's {@condition Incapable}."
 					]
 				},
 				{
@@ -2443,7 +2443,7 @@
 				{
 					"name": "Blurred Form",
 					"entries": [
-						"Attack rolls against the eidolon are made with disadvantage unless the eidolon is {@condition incapacitated}."
+						"Attack rolls against the eidolon are made with disadvantage unless the eidolon is {@condition Incapable}."
 					]
 				},
 				{
@@ -2553,7 +2553,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If the sentinel moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 10 ({@damage 3d6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+						"If the sentinel moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 10 ({@damage 3d6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition À terre}."
 					]
 				},
 				{
@@ -2667,7 +2667,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If the hippocamp moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 ({@damage 2d6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}."
+						"If the hippocamp moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 ({@damage 2d6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 12} Strength saving throw or be knocked {@condition À terre}."
 					]
 				}
 			],
@@ -2770,7 +2770,7 @@
 				{
 					"name": "Vigilant",
 					"entries": [
-						"The giant can't be {@status surprised}."
+						"The giant can't be {@status Surpris}."
 					]
 				}
 			],
@@ -2790,7 +2790,7 @@
 				{
 					"name": "Rock",
 					"entries": [
-						"{@atk rw} {@hit 13} to hit, range 60/240 ft., one target. {@h}30 ({@damage 4d10 + 8}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 21} Strength saving throw or be knocked {@condition prone}."
+						"{@atk rw} {@hit 13} to hit, range 60/240 ft., one target. {@h}30 ({@damage 4d10 + 8}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 21} Strength saving throw or be knocked {@condition À terre}."
 					]
 				}
 			],
@@ -2922,13 +2922,13 @@
 				{
 					"name": "Petrifying Gaze",
 					"entries": [
-						"When a creature that can see Hythonia's eyes starts its turn within 30 feet of her, Hythonia can force it to make a {@dc 18} Constitution saving throw if she isn't {@condition incapacitated} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition petrified}. Otherwise, on a failed save the creature begins to turn to stone and is {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic. Unless {@status surprised}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Hythonia until the start of its next turn, when it can avert its eyes again. If the creature looks at Hythonia in the meantime, it must immediately make the save. If Hythonia sees herself reflected on a polished surface within 30 feet of her and in an area of bright light, she is affected by her own gaze."
+						"When a creature that can see Hythonia's eyes starts its turn within 30 feet of her, Hythonia can force it to make a {@dc 18} Constitution saving throw if she isn't {@condition Incapable} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition Pétrifié}. Otherwise, on a failed save the creature begins to turn to stone and is {@condition Entravé}. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn, becoming {@condition Pétrifié} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic. Unless {@status Surpris}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Hythonia until the start of its next turn, when it can avert its eyes again. If the creature looks at Hythonia in the meantime, it must immediately make the save. If Hythonia sees herself reflected on a polished surface within 30 feet of her and in an area of bright light, she is affected by her own gaze."
 					]
 				},
 				{
 					"name": "Shed Skin (Mythic Trait; Recharges after a Short or Long Rest)",
 					"entries": [
-						"If Hythonia is reduced to 0 hit points, she doesn't die or fall {@condition unconscious}. Instead, she sheds her skin, regains 199 hit points, and moves up to her speed without provoking opportunity attacks."
+						"If Hythonia is reduced to 0 hit points, she doesn't die or fall {@condition Inconscient}. Instead, she sheds her skin, regains 199 hit points, and moves up to her speed without provoking opportunity attacks."
 					]
 				}
 			],
@@ -2948,7 +2948,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 15 ft., one Large or smaller creature. {@h}16 ({@damage 2d10 + 5}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained} and takes 15 ({@damage 3d6 + 5}) bludgeoning damage at the start of each of its turns, and Hythonia can't constrict another target."
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one Large or smaller creature. {@h}16 ({@damage 2d10 + 5}) bludgeoning damage, and the target is {@condition Agrippé} (escape {@dc 19}). Until this grapple ends, the target is {@condition Entravé} and takes 15 ({@damage 3d6 + 5}) bludgeoning damage at the start of each of its turns, and Hythonia can't constrict another target."
 					]
 				},
 				{
@@ -2985,13 +2985,13 @@
 				{
 					"name": "Numbing Claws",
 					"entries": [
-						"Hythonia makes two attacks with her claws. If both attacks hit the same creature, it takes an extra 7 ({@damage 2d6}) poison damage and must succeed on a {@dc 18} Constitution saving throw or become {@condition paralyzed} until the start of her next turn."
+						"Hythonia makes two attacks with her claws. If both attacks hit the same creature, it takes an extra 7 ({@damage 2d6}) poison damage and must succeed on a {@dc 18} Constitution saving throw or become {@condition Paralysé} until the start of her next turn."
 					]
 				},
 				{
 					"name": "Look at Me (Costs 3 Actions)",
 					"entries": [
-						"Hythonia can force a sighted creature she has {@condition grappled} to see her eyes and be affected by her gaze."
+						"Hythonia can force a sighted creature she has {@condition Agrippé} to see her eyes and be affected by her gaze."
 					]
 				}
 			],
@@ -3113,7 +3113,7 @@
 				{
 					"name": "Multiple Heads",
 					"entries": [
-						"The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}. Whenever the hydra takes 35 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies. At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way."
+						"The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being {@condition Aveuglé}, {@condition Charmé}, {@condition Assourdi}, {@condition Effrayé}, {@condition Étourdi}, or knocked {@condition Inconscient}. Whenever the hydra takes 35 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies. At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way."
 					]
 				},
 				{
@@ -3370,7 +3370,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the leonin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's {@condition incapacitated}."
+						"If the leonin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's {@condition Incapable}."
 					]
 				},
 				{
@@ -3459,7 +3459,7 @@
 							"items": {
 								"name": "Constrict",
 								"entries": [
-									"{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}7 ({@damage 2d6}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 11}). Until this grapple ends, the target is {@condition restrained}, and the medusa can't constrict another target."
+									"{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}7 ({@damage 2d6}) bludgeoning damage, and the target is {@condition Agrippé} (escape {@dc 11}). Until this grapple ends, the target is {@condition Entravé}, and the medusa can't constrict another target."
 								]
 							}
 						}
@@ -3489,8 +3489,8 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item breastplate|PHB}",
-						"{@item shield|PHB}"
+						"{@item Cuirasse|PHB}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -3572,7 +3572,7 @@
 				{
 					"name": "Shield Bash",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition À terre}."
 					]
 				},
 				{
@@ -3975,7 +3975,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If the ram moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 ({@damage 2d4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+						"If the ram moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 ({@damage 2d4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition À terre}."
 					]
 				},
 				{
@@ -3987,7 +3987,7 @@
 				{
 					"name": "Sure-Footed",
 					"entries": [
-						"The ram has advantage on Strength and Dexterity saving throws against effects that would knock it {@condition prone}."
+						"The ram has advantage on Strength and Dexterity saving throws against effects that would knock it {@condition À terre}."
 					]
 				}
 			],
@@ -4311,7 +4311,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|PHB|plate}"
+						"{@item Harnois de plaques|PHB|plate}"
 					]
 				}
 			],
@@ -4372,7 +4372,7 @@
 				{
 					"name": "Vigilant",
 					"entries": [
-						"The phylaskia can't be {@status surprised}."
+						"The phylaskia can't be {@status Surpris}."
 					]
 				}
 			],
@@ -4494,7 +4494,7 @@
 				{
 					"name": "Multiple Heads",
 					"entries": [
-						"Polukranos has five heads. While it has more than one head, Polukranos has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}. Whenever Polukranos takes 40 or more damage in a single turn, one of its heads dies. If all its heads die, Polukranos dies. At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken 40 or more fire damage since its last turn. Polukranos regains 20 hit points for each head regrown in this way."
+						"Polukranos has five heads. While it has more than one head, Polukranos has advantage on saving throws against being {@condition Aveuglé}, {@condition Charmé}, {@condition Assourdi}, {@condition Effrayé}, {@condition Étourdi}, or knocked {@condition Inconscient}. Whenever Polukranos takes 40 or more damage in a single turn, one of its heads dies. If all its heads die, Polukranos dies. At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken 40 or more fire damage since its last turn. Polukranos regains 20 hit points for each head regrown in this way."
 					]
 				},
 				{
@@ -4605,7 +4605,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -4646,7 +4646,7 @@
 				{
 					"name": "Unreadable Face",
 					"entries": [
-						"The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom ({@skill Insight}) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
+						"The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom ({@skill Perspicacité}) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
 					]
 				}
 			],
@@ -4757,7 +4757,7 @@
 				{
 					"name": "Unreadable Face",
 					"entries": [
-						"The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom ({@skill Insight}) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
+						"The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom ({@skill Perspicacité}) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
 					]
 				}
 			],
@@ -4865,7 +4865,7 @@
 				{
 					"name": "Unreadable Face",
 					"entries": [
-						"The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom ({@skill Insight}) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
+						"The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom ({@skill Perspicacité}) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
 					]
 				}
 			],
@@ -4923,8 +4923,8 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item leather armor|PHB}",
-						"{@item shield|PHB}"
+						"{@item Armure de cuir|PHB}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -4959,7 +4959,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The Returned has advantage on an attack roll against a creature if at least one of the Returned's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The Returned has advantage on an attack roll against a creature if at least one of the Returned's allies is within 5 feet of the creature and the ally isn't {@condition Incapable}."
 					]
 				},
 				{
@@ -4971,7 +4971,7 @@
 				{
 					"name": "Unreadable Face",
 					"entries": [
-						"The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom ({@skill Insight}) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
+						"The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom ({@skill Perspicacité}) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
 					]
 				}
 			],
@@ -5059,7 +5059,7 @@
 				{
 					"name": "Enthralling Performance",
 					"entries": [
-						"If the satyr performs for at least 1 minute, it chooses up to four humanoids within 60 feet of it who watched or listened to the entire performance. Each target must succeed on a {@dc 13} Wisdom saving throw or be {@condition charmed}. While {@condition charmed} in this way, the target idolizes the satyr and will take part in the satyr's revels. The {@condition charmed} condition ends for the creature after 1 hour, if it takes any damage, if the satyr attacks the target, or if the target witnesses the satyr attacking or damaging any of the target's allies."
+						"If the satyr performs for at least 1 minute, it chooses up to four humanoids within 60 feet of it who watched or listened to the entire performance. Each target must succeed on a {@dc 13} Wisdom saving throw or be {@condition Charmé}. While {@condition Charmé} in this way, the target idolizes the satyr and will take part in the satyr's revels. The {@condition Charmé} condition ends for the creature after 1 hour, if it takes any damage, if the satyr attacks the target, or if the target witnesses the satyr attacking or damaging any of the target's allies."
 					]
 				},
 				{
@@ -5143,7 +5143,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item leather armor|PHB}"
+						"{@item Armure de cuir|PHB}"
 					]
 				}
 			],
@@ -5256,8 +5256,8 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item leather armor|PHB|leather}",
-						"{@item shield|PHB}"
+						"{@item Armure de cuir|PHB|leather}",
+						"{@item Bouclier|PHB}"
 					]
 				}
 			],
@@ -5292,7 +5292,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The hoplite has advantage on an attack roll against a creature if at least one of the hoplite's allies is within 5 feet of the hoplite and the ally isn't {@condition incapacitated}."
+						"The hoplite has advantage on an attack roll against a creature if at least one of the hoplite's allies is within 5 feet of the hoplite and the ally isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -5698,7 +5698,7 @@
 				{
 					"name": "Nimble Escape",
 					"entries": [
-						"The triton can take the {@action Disengage} or {@action Hide} actions as a bonus action on each of its turns."
+						"The triton can take the {@action Désengagement} or {@action Se cacher} actions as a bonus action on each of its turns."
 					]
 				}
 			],
@@ -5712,7 +5712,7 @@
 				{
 					"name": "Urchin-Spine Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) poison damage. If the damage reduces a creature to 0 hit points, that creature is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) poison damage. If the damage reduces a creature to 0 hit points, that creature is stable but {@condition Empoisonné} for 1 hour, even after regaining hit points, and is {@condition Paralysé} while {@condition Empoisonné} in this way."
 					]
 				},
 				{
@@ -5835,7 +5835,7 @@
 				{
 					"name": "Hearts of the Kraken (Mythic Trait; Recharges after a Short or Long Rest)",
 					"entries": [
-						"When Tromokratis is reduced to 0 hit points, it doesn't die or fall {@condition unconscious}. Instead, the damage creates cracks in its carapace, revealing its hearts. Tromokratis has four hearts: two on its chest, one on its back, and one at the base of its tail. A heart has an AC of 22 and 100 hit points. It is immune to bludgeoning, piercing, and slashing damage from nonmagical attacks, and it is immune to all conditions. If it is forced to make a saving throw, treat its ability scores as 10 (+0). If it finishes a short or long rest, the carapace heals, any destroyed hearts regenerate, and the hearts are covered again. Tromokratis dies when all the hearts are destroyed."
+						"When Tromokratis is reduced to 0 hit points, it doesn't die or fall {@condition Inconscient}. Instead, the damage creates cracks in its carapace, revealing its hearts. Tromokratis has four hearts: two on its chest, one on its back, and one at the base of its tail. A heart has an AC of 22 and 100 hit points. It is immune to bludgeoning, piercing, and slashing damage from nonmagical attacks, and it is immune to all conditions. If it is forced to make a saving throw, treat its ability scores as 10 (+0). If it finishes a short or long rest, the carapace heals, any destroyed hearts regenerate, and the hearts are covered again. Tromokratis dies when all the hearts are destroyed."
 					]
 				},
 				{
@@ -5873,25 +5873,25 @@
 				{
 					"name": "Pincer",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}20 ({@damage 3d6 + 10}) bludgeoning damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 26}). Until the grapple ends, the target is {@condition restrained}, and Tromokratis can't use this attack on anyone else."
+						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}20 ({@damage 3d6 + 10}) bludgeoning damage, and if the target is a creature, it is {@condition Agrippé} (escape {@dc 26}). Until the grapple ends, the target is {@condition Entravé}, and Tromokratis can't use this attack on anyone else."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}23 ({@damage 3d8 + 10}) bludgeoning damage, and if the target is a creature, it is knocked {@condition prone}."
+						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}23 ({@damage 3d8 + 10}) bludgeoning damage, and if the target is a creature, it is knocked {@condition À terre}."
 					]
 				},
 				{
 					"name": "Tentacle Grasp",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 20 ft., one creature. {@h}20 ({@damage 3d6 + 10}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 26}). If the target doesn't escape by the end of its next turn, Tromokratis throws the target up to 60 feet in a straight line. The target lands {@condition prone} and takes 21 ({@damage 6d6}) bludgeoning damage."
+						"{@atk mw} {@hit 18} to hit, reach 20 ft., one creature. {@h}20 ({@damage 3d6 + 10}) bludgeoning damage, and the target is {@condition Agrippé} (escape {@dc 26}). If the target doesn't escape by the end of its next turn, Tromokratis throws the target up to 60 feet in a straight line. The target lands {@condition À terre} and takes 21 ({@damage 6d6}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 5 ft., one target. {@h}29 ({@damage 3d12 + 10}) piercing damage. If the target is a Large or smaller creature {@condition grappled} by Tromokratis, that creature is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has {@quickref Cover||3||total cover} against attacks and other effects outside Tromokratis, and it takes 42 ({@damage 12d6}) acid damage at the start of each of Tromokratis's turns. If Tromokratis takes 50 damage or more on a single turn from a creature inside it, Tromokratis must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of Tromokratis. If Tromokratis dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
+						"{@atk mw} {@hit 18} to hit, reach 5 ft., one target. {@h}29 ({@damage 3d12 + 10}) piercing damage. If the target is a Large or smaller creature {@condition Agrippé} by Tromokratis, that creature is swallowed, and the grapple ends. While swallowed, the creature is {@condition Aveuglé} and {@condition Entravé}, it has {@quickref Cover||3||total cover} against attacks and other effects outside Tromokratis, and it takes 42 ({@damage 12d6}) acid damage at the start of each of Tromokratis's turns. If Tromokratis takes 50 damage or more on a single turn from a creature inside it, Tromokratis must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition À terre} in a space within 10 feet of Tromokratis. If Tromokratis dies, a swallowed creature is no longer {@condition Entravé} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition À terre}."
 					]
 				}
 			],
@@ -6033,13 +6033,13 @@
 				{
 					"name": "Multiheaded",
 					"entries": [
-						"The cerberus can't be {@status surprised}, and it has advantage on saving throws against being knocked {@condition unconscious}."
+						"The cerberus can't be {@status Surpris}, and it has advantage on saving throws against being knocked {@condition Inconscient}."
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The cerberus has advantage on an attack roll against a creature if at least one of the cerberus's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The cerberus has advantage on an attack roll against a creature if at least one of the cerberus's allies is within 5 feet of the creature and the ally isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -6059,7 +6059,7 @@
 				{
 					"name": "Breath Weapon {@recharge 5}",
 					"entries": [
-						"The cerberus exhales a 15-foot cone of molten rock. Each creature in the cone must make a {@dc 12} Dexterity saving throw, taking 10 ({@damage 3d6}) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also {@condition restrained} by the hardening rock. A creature can make a {@dc 12} Strength ({@skill Athletics}) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 10 hit points, and it is immune to fire, poison, and psychic damage."
+						"The cerberus exhales a 15-foot cone of molten rock. Each creature in the cone must make a {@dc 12} Dexterity saving throw, taking 10 ({@damage 3d6}) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also {@condition Entravé} by the hardening rock. A creature can make a {@dc 12} Strength ({@skill Athlétisme}) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 10 hit points, and it is immune to fire, poison, and psychic damage."
 					]
 				}
 			],
@@ -6170,7 +6170,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 15 ft., one Large or smaller creature. {@h}17 ({@damage 3d6 + 7}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained} and takes 17 ({@damage 3d6 + 7}) bludgeoning damage at the start of each of its turns. The typhon can have up to two creatures constricted."
+						"{@atk mw} {@hit 12} to hit, reach 15 ft., one Large or smaller creature. {@h}17 ({@damage 3d6 + 7}) bludgeoning damage, and the target is {@condition Agrippé} (escape {@dc 19}). Until this grapple ends, the target is {@condition Entravé} and takes 17 ({@damage 3d6 + 7}) bludgeoning damage at the start of each of its turns. The typhon can have up to two creatures constricted."
 					]
 				},
 				{
@@ -6278,13 +6278,13 @@
 				{
 					"name": "Multiheaded",
 					"entries": [
-						"The cerberus can't be {@status surprised}, and it has advantage on saving throws against being knocked {@condition unconscious}."
+						"The cerberus can't be {@status Surpris}, and it has advantage on saving throws against being knocked {@condition Inconscient}."
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The cerberus has advantage on an attack roll against a creature if at least one of the cerberus's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The cerberus has advantage on an attack roll against a creature if at least one of the cerberus's allies is within 5 feet of the creature and the ally isn't {@condition Incapable}."
 					]
 				}
 			],
@@ -6304,7 +6304,7 @@
 				{
 					"name": "Breath Weapon {@recharge 5}",
 					"entries": [
-						"The cerberus exhales a 30-foot cone of molten rock. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also {@condition restrained} by the hardening rock. A creature can make a {@dc 15} Strength ({@skill Athletics}) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 20 hit points, and it is immune to fire, poison, and psychic damage."
+						"The cerberus exhales a 30-foot cone of molten rock. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also {@condition Entravé} by the hardening rock. A creature can make a {@dc 15} Strength ({@skill Athlétisme}) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 20 hit points, and it is immune to fire, poison, and psychic damage."
 					]
 				}
 			],
@@ -6443,7 +6443,7 @@
 				{
 					"name": "Pounce",
 					"entries": [
-						"If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the lion can make one bite attack against it as a bonus action."
+						"If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 15} Strength saving throw or be knocked {@condition À terre}. If the target is {@condition À terre}, the lion can make one bite attack against it as a bonus action."
 					]
 				}
 			],
@@ -6545,7 +6545,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The woe strider makes two claw attacks and one bite attack. If both claws hit the same creature, the target is {@condition grappled} (escape {@dc 14})."
+						"The woe strider makes two claw attacks and one bite attack. If both claws hit the same creature, the target is {@condition Agrippé} (escape {@dc 14})."
 					]
 				},
 				{
@@ -6557,7 +6557,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature that is {@condition grappled}, {@condition incapacitated}, or {@condition restrained}. {@h}13 ({@damage 2d8 + 4}) piercing damage plus 16 ({@damage 3d10}) psychic damage. In addition, each magic item the creature is carrying that isn't an artifact has its magical properties suppressed for 1 minute."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature that is {@condition Agrippé}, {@condition Incapable}, or {@condition Entravé}. {@h}13 ({@damage 2d8 + 4}) piercing damage plus 16 ({@damage 3d10}) psychic damage. In addition, each magic item the creature is carrying that isn't an artifact has its magical properties suppressed for 1 minute."
 					]
 				}
 			],

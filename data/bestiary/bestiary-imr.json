@@ -350,15 +350,15 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell ensnaring strike}",
-								"{@spell hail of thorns}",
-								"{@spell hunter's mark}"
+								"{@spell Attaque entravante}",
+								"{@spell Pluie d'épines}",
+								"{@spell Marque du chasseur}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
-								"{@spell locate animals or plants}"
+								"{@spell Localisation d'animaux ou de plantes}"
 							]
 						}
 					},
@@ -552,7 +552,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}"
+								"{@spell Lumière}"
 							]
 						}
 					},
@@ -563,7 +563,7 @@
 				{
 					"name": "Petrifying Gaze",
 					"entries": [
-						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 14} Constitution saving throw if the medusa isn't {@condition Incapable} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition Pétrifié}. Otherwise, a creature that fails the save begins to turn to metal, wood, or porcelain (the medusa's choice) and is {@condition Entravé}. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn, becoming {@condition Pétrifié} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic.",
+						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 14} Constitution saving throw if the medusa isn't {@condition Incapable} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition Pétrifié}. Otherwise, a creature that fails the save begins to turn to metal, wood, or porcelain (the medusa's choice) and is {@condition Entravé}. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn, becoming {@condition Pétrifié} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell Restauration supérieure} spell or other magic.",
 						"Unless {@status Surpris}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.",
 						"If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze."
 					]
@@ -689,7 +689,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Lynx's crystal eye is a magically shrunken {@item Boule de cristal} of true seeing. One of her teeth is a refashioned {@item Anneau de protection mentale}, while another has been magicked to place her under a permanent {@spell Nystul's magic aura} spell, concealing the magic of these items and hiding her true nature from magic or features that can detect undead."
+						"Lynx's crystal eye is a magically shrunken {@item Boule de cristal} of true seeing. One of her teeth is a refashioned {@item Anneau de protection mentale}, while another has been magicked to place her under a permanent {@spell Aura magique de Nystul} spell, concealing the magic of these items and hiding her true nature from magic or features that can detect undead."
 					]
 				},
 				{
@@ -843,49 +843,49 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell dancing lights}",
-								"{@spell light}",
+								"{@spell Lumières dansantes}",
+								"{@spell Lumière}",
 								"{@spell message}",
-								"{@spell shocking grasp}"
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell comprehend languages}",
-								"{@spell cure wounds}",
-								"{@spell grease}",
-								"{@spell identify}"
+								"{@spell Compréhension des langues}",
+								"{@spell Soins}",
+								"{@spell Graisse}",
+								"{@spell Identification}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell detect thoughts}",
-								"{@spell invisibility}",
-								"{@spell heat metal}"
+								"{@spell Détection de pensées}",
+								"{@spell Invisibilité}",
+								"{@spell Métal brûlant}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell dispel magic}",
+								"{@spell Dissipation de la magie}",
 								"{@spell flame arrows|XGE}",
-								"{@spell hypnotic pattern}"
+								"{@spell Motif hypnotique}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell fabricate}",
-								"{@spell stone shape}",
-								"{@spell stoneskin}"
+								"{@spell Fabrication}",
+								"{@spell Forme de pierre}",
+								"{@spell Peau de pierre}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell creation}"
+								"{@spell Création}"
 							]
 						}
 					},
@@ -922,13 +922,13 @@
 				{
 					"name": "Blight (1/Day)",
 					"entries": [
-						"While wielding {@item Lame de ruine|IMR}, Moghadam can cast the {@spell blight} spell ({@dc 15})."
+						"While wielding {@item Lame de ruine|IMR}, Moghadam can cast the {@spell Ravage} spell ({@dc 15})."
 					]
 				},
 				{
 					"name": "Disintegrate (1/7 Days)",
 					"entries": [
-						"While wielding {@item Lame de ruine|IMR}, Moghadam can cast the {@spell disintegrate} spell against any nonmagical object or creation of magical force."
+						"While wielding {@item Lame de ruine|IMR}, Moghadam can cast the {@spell Désintégration} spell against any nonmagical object or creation of magical force."
 					]
 				},
 				{
@@ -1027,12 +1027,12 @@
 						"The neo-otyugh's innate spellcasting ability is Intelligence (spell save {@dc 12}). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell detect thoughts}"
+						"{@spell Détection de pensées}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell command}",
-							"{@spell hold person}"
+							"{@spell Ordre}",
+							"{@spell Immobiliser un personnage}"
 						]
 					},
 					"ability": "int"
@@ -1561,49 +1561,49 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}",
-								"{@spell mending}",
+								"{@spell Lumière}",
+								"{@spell Réparation}",
 								"{@spell message}",
-								"{@spell shocking grasp}"
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell alarm}",
-								"{@spell cure wounds}",
-								"{@spell identify}",
-								"{@spell ray of sickness}"
+								"{@spell Alarme}",
+								"{@spell Soins}",
+								"{@spell Identification}",
+								"{@spell Rayon nauséeux}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell invisibility}",
-								"{@spell Melf's acid arrow}",
-								"{@spell web}"
+								"{@spell Invisibilité}",
+								"{@spell Flèche acide de Melf}",
+								"{@spell Toile}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell dispel magic}",
-								"{@spell haste}",
-								"{@spell stinking cloud}"
+								"{@spell Dissipation de la magie}",
+								"{@spell Célérité}",
+								"{@spell Nuée nauséabonde}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell blight}",
-								"{@spell Mordenkainen's faithful hound}",
-								"{@spell Otiluke's resilient sphere}"
+								"{@spell Ravage}",
+								"{@spell Chien fidèle de Mordenkainen}",
+								"{@spell Sphère résiliente d'Otiluke}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell cloudkill}"
+								"{@spell Nuée mortelle}"
 							]
 						}
 					},
@@ -1620,7 +1620,7 @@
 				{
 					"name": "Alchemical Homunculus",
 					"entries": [
-						"Thessalar is accompanied by his {@creature Thessalar's homunculus|IMR}. If the {@spell mending} spell is cast on it, the homunculus regains {@dice 2d6} hit points."
+						"Thessalar is accompanied by his {@creature Thessalar's homunculus|IMR}. If the {@spell Réparation} spell is cast on it, the homunculus regains {@dice 2d6} hit points."
 					]
 				},
 				{
@@ -1632,7 +1632,7 @@
 				{
 					"name": "Greater Restoration (1/Day)",
 					"entries": [
-						"Thessalar can cast {@spell greater restoration} if he has access to {@item Fournitures d'alchimiste|phb|alchemical supplies}."
+						"Thessalar can cast {@spell Restauration supérieure} if he has access to {@item Fournitures d'alchimiste|phb|alchemical supplies}."
 					]
 				}
 			],
@@ -1640,7 +1640,7 @@
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, and the target must succeed on a {@dc 15} Constitution saving throw. On a failed save, the target is affected as if by the {@spell polymorph} spell, transforming into a random {@filter beast|bestiary|type=beast|miscellaneous=!swarm} or a creature it has seen within the last 24 hours (as chosen by the DM). This effect lasts until the target finishes a long rest."
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, and the target must succeed on a {@dc 15} Constitution saving throw. On a failed save, the target is affected as if by the {@spell Polymorphie} spell, transforming into a random {@filter beast|bestiary|type=beast|miscellaneous=!swarm} or a creature it has seen within the last 24 hours (as chosen by the DM). This effect lasts until the target finishes a long rest."
 					]
 				}
 			],

@@ -329,17 +329,17 @@
 						"La capacité d'incantation innée de Zariel est le Charisme (jet de sauvegarde contre les sorts {@dc 26}). Elle peut lancer innément les sorts suivants, sans composante matérielle :"
 					],
 					"will": [
-						"{@spell alter self} (peut devenir de taille M lorsqu'elle change d'apparence)",
-						"{@spell detect evil and good}",
-						"{@spell fireball}",
-						"{@spell invisibility} (sur elle-même uniquement)",
-						"{@spell wall of fire}"
+						"{@spell Changement d'apparence} (peut devenir de taille M lorsqu'elle change d'apparence)",
+						"{@spell Détection du mal et du bien}",
+						"{@spell Boule de feu}",
+						"{@spell Invisibilité} (sur elle-même uniquement)",
+						"{@spell Mur de feu}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell blade barrier}",
-							"{@spell dispel evil and good}",
-							"{@spell finger of death}"
+							"{@spell Mur de lames}",
+							"{@spell Dissipation du mal et du bien}",
+							"{@spell Doigt de mort}"
 						]
 					},
 					"ability": "cha"
@@ -587,13 +587,13 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell animate dead}",
-							"{@spell branding smite} (au niveau 4)",
-							"{@spell revivify}"
+							"{@spell Animation des morts}",
+							"{@spell Châtiment marquant} (au niveau 4)",
+							"{@spell Retour à la vie}"
 						],
 						"1e": [
 							"{@spell geas}",
-							"{@spell raise dead}"
+							"{@spell Relèvement}"
 						]
 					},
 					"ability": "cha"
@@ -609,7 +609,7 @@
 				{
 					"name": "Main de Vecna",
 					"entries": [
-						"La {@item Main de Vecna} possède 8 charges et récupère {@dice 1d4 + 4} charges dépensées chaque jour à l'aube. Arkhan peut lancer les sorts suivants depuis la main en dépensant le nombre de charges indiqué (jet de sauvegarde contre les sorts {@dc 18}) : {@spell finger of death} (5 charges), {@spell sleep} (1 charge), {@spell slow} (2 charges) et {@spell teleport} (3 charges)."
+						"La {@item Main de Vecna} possède 8 charges et récupère {@dice 1d4 + 4} charges dépensées chaque jour à l'aube. Arkhan peut lancer les sorts suivants depuis la main en dépensant le nombre de charges indiqué (jet de sauvegarde contre les sorts {@dc 18}) : {@spell Doigt de mort} (5 charges), {@spell Sommeil} (1 charge), {@spell Lenteur} (2 charges) et {@spell Téléportation} (3 charges)."
 					]
 				},
 				{
@@ -771,22 +771,22 @@
 						"La capacité d'incantation de Bel est le Charisme (jet de sauvegarde contre les sorts {@dc 23}). Bel peut innément lancer les sorts suivants, sans composante matérielle :"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell fireball}"
+						"{@spell Détection de la magie}",
+						"{@spell Boule de feu}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell hold monster}",
-							"{@spell mirror image}",
-							"{@spell mislead}",
-							"{@spell raise dead}",
-							"{@spell teleport}",
-							"{@spell wall of fire}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Immobilisation de monstre}",
+							"{@spell Image dédoublée}",
+							"{@spell Fourberie}",
+							"{@spell Relèvement}",
+							"{@spell Téléportation}",
+							"{@spell Mur de feu}"
 						],
 						"1e": [
-							"{@spell imprisonment}",
-							"{@spell meteor swarm}"
+							"{@spell Emprisonnement}",
+							"{@spell Pluie de météores}"
 						]
 					},
 					"ability": "cha"
@@ -842,7 +842,7 @@
 				{
 					"name": "Boule de feu",
 					"entries": [
-						"Bel lance {@spell fireball}."
+						"Bel lance {@spell Boule de feu}."
 					]
 				},
 				{
@@ -1154,32 +1154,32 @@
 						"0": {
 							"spells": [
 								"{@spell guidance}",
-								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell Flamme sacrée}",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell bane}",
-								"{@spell bless}",
-								"{@spell cure wounds}",
-								"{@spell guiding bolt} (voir « Actions » ci-dessous)"
+								"{@spell Fléau}",
+								"{@spell Bénédiction}",
+								"{@spell Soins}",
+								"{@spell Trait de lumière} (voir « Actions » ci-dessous)"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell blindness/deafness}",
-								"{@spell hold person}",
+								"{@spell Cécité/Surdité}",
+								"{@spell Immobiliser un personnage}",
 								"{@spell silence}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell sending}",
-								"{@spell spirit guardians}"
+								"{@spell Envoi de message}",
+								"{@spell Esprits gardiens}"
 							]
 						}
 					},
@@ -1432,9 +1432,9 @@
 								"type": "list",
 								"items": [
 									"Sauf décision contraire de Burney, dès qu'une créature moins puissante qu'une divinité a fait trois pas pour s'éloigner d'elle, elle ne peut plus se souvenir de Burney ni du fait d'avoir interagi avec elle.",
-									"Burney est sous l'effet d'un sort de {@spell mind blank} permanent et ne peut être détectée ni par des moyens magiques ni par des moyens ordinaires, à moins qu'elle ne le souhaite. En échange de cette bénédiction, Burney ne peut entreprendre aucune action directe contre les habitants des Neuf Enfers, mais elle peut tout à fait solliciter l'aide de ceux qui le peuvent.",
-									"Burney connaît toujours l'emplacement de l'Emporium errant et peut s'y transporter comme si elle lançait le sort {@spell word of recall}. C'est pourquoi Burney semble simplement apparaître au milieu du marché entièrement déployé chaque matin d'activité, pour rendre service et raconter des histoires.",
-									"Une fois par jour, quand Burney le désire, elle peut se transporter instantanément à la cour de Bahamut grâce à une puissante bénédiction semblable au sort {@spell plane shift}."
+									"Burney est sous l'effet d'un sort de {@spell Vide mental} permanent et ne peut être détectée ni par des moyens magiques ni par des moyens ordinaires, à moins qu'elle ne le souhaite. En échange de cette bénédiction, Burney ne peut entreprendre aucune action directe contre les habitants des Neuf Enfers, mais elle peut tout à fait solliciter l'aide de ceux qui le peuvent.",
+									"Burney connaît toujours l'emplacement de l'Emporium errant et peut s'y transporter comme si elle lançait le sort {@spell Mot de rappel}. C'est pourquoi Burney semble simplement apparaître au milieu du marché entièrement déployé chaque matin d'activité, pour rendre service et raconter des histoires.",
+									"Une fois par jour, quand Burney le désire, elle peut se transporter instantanément à la cour de Bahamut grâce à une puissante bénédiction semblable au sort {@spell Déplacement planaire}."
 								]
 							}
 						]
@@ -2516,7 +2516,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "avec {@spell mage armor}",
+					"condition": "avec {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -2556,47 +2556,47 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
+								"{@spell Trait de feu}",
+								"{@spell Lumière}",
+								"{@spell Main du mage}",
 								"{@spell prestidigitation}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell Détection de la magie}",
+								"{@spell Armure du mage}",
+								"{@spell Projectile magique}",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell misty step}",
+								"{@spell Pas brumeux}",
 								"{@spell suggestion}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell fireball}",
-								"{@spell fly}"
+								"{@spell Contresort}",
+								"{@spell Boule de feu}",
+								"{@spell Vol}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell greater invisibility}",
-								"{@spell ice storm}"
+								"{@spell Invisibilité supérieure}",
+								"{@spell Tempête de glace}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell cone of cold}"
+								"{@spell Cône de froid}"
 							]
 						}
 					},
@@ -2616,7 +2616,7 @@
 					"type": "variant",
 					"name": "Familiers",
 					"entries": [
-						"Tout lanceur de sorts capable de lancer le sort {@spell find familiar} (comme un archimage ou un mage) a probablement un familier. Le familier peut être l'une des créatures décrites dans le sort (voir le Guide du joueur) ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit}."
+						"Tout lanceur de sorts capable de lancer le sort {@spell Familier} (comme un archimage ou un mage) a probablement un familier. Le familier peut être l'une des créatures décrites dans le sort (voir le Guide du joueur) ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit}."
 					]
 				}
 			],
@@ -2669,7 +2669,7 @@
 							"spells": {
 								"1": {
 									"spells": [
-										"{@spell find familiar} (l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit})"
+										"{@spell Familier} (l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit})"
 									]
 								}
 							}
@@ -2734,7 +2734,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "avec {@spell mage armor}",
+					"condition": "avec {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -2784,85 +2784,85 @@
 					"name": "Incantation",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Feonor est un lanceur de sorts de niveau 18. Sa capacité d'incantation est l'Intelligence (jet de sauvegarde contre les sorts {@dc 17}, {@hit 9} pour toucher avec les attaques de sorts). Feonor peut lancer {@spell disguise self} et {@spell invisibility} à volonté et a préparé les sorts de magicien suivants :"
+						"Feonor est un lanceur de sorts de niveau 18. Sa capacité d'incantation est l'Intelligence (jet de sauvegarde contre les sorts {@dc 17}, {@hit 9} pour toucher avec les attaques de sorts). Feonor peut lancer {@spell Déguisement} et {@spell Invisibilité} à volonté et a préparé les sorts de magicien suivants :"
 					],
 					"will": [
-						"{@spell disguise self}",
-						"{@spell invisibility}"
+						"{@spell Déguisement}",
+						"{@spell Invisibilité}"
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
+								"{@spell Trait de feu}",
+								"{@spell Lumière}",
+								"{@spell Main du mage}",
 								"{@spell prestidigitation}",
-								"{@spell shocking grasp}"
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell identify}",
-								"{@spell mage armor}*",
-								"{@spell magic missile}"
+								"{@spell Détection de la magie}",
+								"{@spell Identification}",
+								"{@spell Armure du mage}*",
+								"{@spell Projectile magique}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell detect thoughts}",
-								"{@spell mirror image}",
-								"{@spell misty step}"
+								"{@spell Détection de pensées}",
+								"{@spell Image dédoublée}",
+								"{@spell Pas brumeux}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell fly}",
-								"{@spell lightning bolt}"
+								"{@spell Contresort}",
+								"{@spell Vol}",
+								"{@spell Éclair}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell banishment}",
-								"{@spell fire shield}",
-								"{@spell stoneskin}*"
+								"{@spell Bannissement}",
+								"{@spell Bouclier de feu}",
+								"{@spell Peau de pierre}*"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell cone of cold}",
-								"{@spell scrying}",
-								"{@spell wall of force}"
+								"{@spell Cône de froid}",
+								"{@spell Scrutation}",
+								"{@spell Mur de force}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell globe of invulnerability}"
+								"{@spell Globe d'invulnérabilité}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell teleport}"
+								"{@spell Téléportation}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell mind blank}*"
+								"{@spell Vide mental}*"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell time stop}"
+								"{@spell Arrêt du temps}"
 							]
 						}
 					},
@@ -2896,7 +2896,7 @@
 					"type": "variant",
 					"name": "Familiers",
 					"entries": [
-						"Tout lanceur de sorts capable de lancer le sort {@spell find familiar} (comme un archimage ou un mage) a probablement un familier. Le familier peut être l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit}."
+						"Tout lanceur de sorts capable de lancer le sort {@spell Familier} (comme un archimage ou un mage) a probablement un familier. Le familier peut être l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit}."
 					]
 				}
 			],
@@ -2953,7 +2953,7 @@
 							"spells": {
 								"1": {
 									"spells": [
-										"{@spell find familiar} (l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit})"
+										"{@spell Familier} (l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit})"
 									]
 								}
 							}
@@ -3286,7 +3286,7 @@
 				{
 					"name": "Vulnérabilité à l'antimagie",
 					"entries": [
-						"La dague est {@condition Incapable} tant qu'elle se trouve dans la zone d'un {@spell antimagic field}. Si elle est ciblée par {@spell dispel magic}, la dague doit réussir un jet de sauvegarde de Constitution contre le DD de sauvegarde de sorts du lanceur, sinon elle tombe {@condition Inconscient} pendant 1 minute."
+						"La dague est {@condition Incapable} tant qu'elle se trouve dans la zone d'un {@spell Antichamp magique}. Si elle est ciblée par {@spell Dissipation de la magie}, la dague doit réussir un jet de sauvegarde de Constitution contre le DD de sauvegarde de sorts du lanceur, sinon elle tombe {@condition Inconscient} pendant 1 minute."
 					]
 				},
 				{
@@ -3889,20 +3889,20 @@
 						"La capacité d'incantation innée du hollyphant est la Sagesse (jet de sauvegarde contre les sorts {@dc 15}). Il peut innément lancer les sorts suivants, sans composante matérielle :"
 					],
 					"will": [
-						"{@spell light}"
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell bless}",
-							"{@spell cure wounds}",
-							"{@spell protection from evil and good}"
+							"{@spell Bénédiction}",
+							"{@spell Soins}",
+							"{@spell Protection contre le mal et le bien}"
 						],
 						"1e": [
-							"{@spell banishment}",
-							"{@spell heal}",
-							"{@spell raise dead}",
-							"{@spell shapechange} (en un {@creature mammoth|mammouth} au pelage doré et aux ailes emplumées, avec une vitesse de vol de 36 m)",
-							"{@spell teleport} (sans risque d'erreur)"
+							"{@spell Bannissement}",
+							"{@spell Guérison}",
+							"{@spell Relèvement}",
+							"{@spell Changement de forme} (en un {@creature mammoth|mammouth} au pelage doré et aux ailes emplumées, avec une vitesse de vol de 36 m)",
+							"{@spell Téléportation} (sans risque d'erreur)"
 						]
 					},
 					"ability": "wis"
@@ -4176,17 +4176,17 @@
 						"La capacité d'incantation innée de Kostchtchie est le Charisme (jet de sauvegarde contre les sorts {@dc 20}). Il peut innément lancer les sorts suivants, sans composante matérielle :"
 					],
 					"will": [
-						"{@spell command}",
-						"{@spell darkness}"
+						"{@spell Ordre}",
+						"{@spell Ténèbres}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dispel evil and good}",
-							"{@spell gate}",
-							"{@spell harm}",
-							"{@spell telekinesis}",
-							"{@spell teleport}",
-							"{@spell wind walk}"
+							"{@spell Dissipation du mal et du bien}",
+							"{@spell Portail}",
+							"{@spell Infection}",
+							"{@spell Télékinésie}",
+							"{@spell Téléportation}",
+							"{@spell Marche aérienne}"
 						]
 					},
 					"ability": "cha"
@@ -4357,75 +4357,75 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell chill touch}",
-								"{@spell mending}",
-								"{@spell resistance}",
-								"{@spell sacred flame}",
-								"{@spell spare the dying}",
-								"{@spell thaumaturgy}"
+								"{@spell Main glaciale}",
+								"{@spell Réparation}",
+								"{@spell Résistance}",
+								"{@spell Flamme sacrée}",
+								"{@spell Aide aux mourants}",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell cure wounds}",
-								"{@spell detect evil and good}",
-								"{@spell false life}",
-								"{@spell inflict wounds}",
-								"{@spell ray of sickness}"
+								"{@spell Soins}",
+								"{@spell Détection du mal et du bien}",
+								"{@spell Fausse vie}",
+								"{@spell Blessures infligées}",
+								"{@spell Rayon nauséeux}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell blindness/deafness}",
-								"{@spell gentle repose}",
-								"{@spell hold person}",
-								"{@spell ray of enfeeblement}",
-								"{@spell spiritual weapon}"
+								"{@spell Cécité/Surdité}",
+								"{@spell Conservation des corps}",
+								"{@spell Immobiliser un personnage}",
+								"{@spell Rayon affaiblissant}",
+								"{@spell Arme spirituelle}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell animate dead}",
-								"{@spell magic circle}",
-								"{@spell speak with dead}",
-								"{@spell spirit guardians}",
-								"{@spell vampiric touch}"
+								"{@spell Animation des morts}",
+								"{@spell Cercle magique}",
+								"{@spell Parler aux morts}",
+								"{@spell Esprits gardiens}",
+								"{@spell Toucher vampirique}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell banishment}",
-								"{@spell blight}",
-								"{@spell death ward}",
+								"{@spell Bannissement}",
+								"{@spell Ravage}",
+								"{@spell Protection contre la mort}",
 								"{@spell divination}",
-								"{@spell locate creature}"
+								"{@spell Localisation de créature}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell antilife shell}",
-								"{@spell cloudkill}",
+								"{@spell Coque antivie}",
+								"{@spell Nuée mortelle}",
 								"{@spell contagion}",
-								"{@spell greater restoration}"
+								"{@spell Restauration supérieure}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell create undead}",
-								"{@spell true seeing}"
+								"{@spell Création de morts-vivants}",
+								"{@spell Vision véritable}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell divine word}",
-								"{@spell regenerate}"
+								"{@spell Verbe divin}",
+								"{@spell Régénération}"
 							]
 						}
 					},
@@ -4579,20 +4579,20 @@
 						"La capacité d'incantation innée du hollyphant est la Sagesse (jet de sauvegarde contre les sorts {@dc 15}). Il peut innément lancer les sorts suivants, sans composante matérielle :"
 					],
 					"will": [
-						"{@spell light}"
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell bless}",
-							"{@spell cure wounds}",
-							"{@spell protection from evil and good}"
+							"{@spell Bénédiction}",
+							"{@spell Soins}",
+							"{@spell Protection contre le mal et le bien}"
 						],
 						"1e": [
-							"{@spell banishment}",
-							"{@spell heal}",
-							"{@spell raise dead}",
-							"{@spell shapechange} (en un {@creature mammoth|mammouth} au pelage doré et aux ailes emplumées, avec une vitesse de vol de 36 m)",
-							"{@spell teleport} (sans risque d'erreur)"
+							"{@spell Bannissement}",
+							"{@spell Guérison}",
+							"{@spell Relèvement}",
+							"{@spell Changement de forme} (en un {@creature mammoth|mammouth} au pelage doré et aux ailes emplumées, avec une vitesse de vol de 36 m)",
+							"{@spell Téléportation} (sans risque d'erreur)"
 						]
 					},
 					"ability": "wis"
@@ -4775,14 +4775,14 @@
 						"La capacité d'incantation innée de Maggie est le Charisme (jet de sauvegarde contre les sorts {@dc 14}, {@hit 6} pour toucher avec les attaques de sorts). Elle peut lancer innément les sorts suivants, sans composante matérielle :"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell magic missile}"
+						"{@spell Détection de la magie}",
+						"{@spell Projectile magique}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell plane shift} (sur elle-même uniquement)",
-							"{@spell ray of enfeeblement}",
-							"{@spell sleep}"
+							"{@spell Déplacement planaire} (sur elle-même uniquement)",
+							"{@spell Rayon affaiblissant}",
+							"{@spell Sommeil}"
 						]
 					},
 					"ability": "cha"
@@ -4838,7 +4838,7 @@
 				{
 					"name": "Hantise cauchemardesque (1/jour)",
 					"entries": [
-						"Tandis qu'elle se trouve sur le Plan éthéré, Maggie touche magiquement un humanoïde endormi sur le Plan matériel. Un sort de {@spell protection from evil and good} lancé sur la cible empêche ce contact, tout comme un cercle magique. Tant que le contact persiste, la cible a des visions effroyables. Si ces visions durent au moins 1 heure, la cible ne tire aucun bénéfice de son repos, et son maximum de points de vie est réduit de 5 ({@dice 1d10}). Si cet effet réduit le maximum de points de vie de la cible à 0, la cible meurt, et si elle était mauvaise, son âme est piégée dans le sac d'âmes de Maggie. La réduction du maximum de points de vie de la cible persiste jusqu'à ce qu'elle soit supprimée par un sort de {@spell greater restoration} ou une magie similaire."
+						"Tandis qu'elle se trouve sur le Plan éthéré, Maggie touche magiquement un humanoïde endormi sur le Plan matériel. Un sort de {@spell Protection contre le mal et le bien} lancé sur la cible empêche ce contact, tout comme un cercle magique. Tant que le contact persiste, la cible a des visions effroyables. Si ces visions durent au moins 1 heure, la cible ne tire aucun bénéfice de son repos, et son maximum de points de vie est réduit de 5 ({@dice 1d10}). Si cet effet réduit le maximum de points de vie de la cible à 0, la cible meurt, et si elle était mauvaise, son âme est piégée dans le sac d'âmes de Maggie. La réduction du maximum de points de vie de la cible persiste jusqu'à ce qu'elle soit supprimée par un sort de {@spell Restauration supérieure} ou une magie similaire."
 					]
 				}
 			],
@@ -4863,43 +4863,43 @@
 								"1": {
 									"slots": 4,
 									"spells": [
-										"{@spell identify}",
-										"{@spell ray of sickness}"
+										"{@spell Identification}",
+										"{@spell Rayon nauséeux}"
 									]
 								},
 								"2": {
 									"slots": 3,
 									"spells": [
-										"{@spell hold person}",
-										"{@spell locate object}"
+										"{@spell Immobiliser un personnage}",
+										"{@spell Localisation d'objet}"
 									]
 								},
 								"3": {
 									"slots": 3,
 									"spells": [
-										"{@spell bestow curse}",
-										"{@spell counterspell}",
-										"{@spell lightning bolt}"
+										"{@spell Malédiction}",
+										"{@spell Contresort}",
+										"{@spell Éclair}"
 									]
 								},
 								"4": {
 									"slots": 3,
 									"spells": [
-										"{@spell phantasmal killer}",
-										"{@spell polymorph}"
+										"{@spell Tueur phantasmal}",
+										"{@spell Polymorphie}"
 									]
 								},
 								"5": {
 									"slots": 2,
 									"spells": [
-										"{@spell contact other plane}",
-										"{@spell scrying}"
+										"{@spell Contact avec les autres plans}",
+										"{@spell Scrutation}"
 									]
 								},
 								"6": {
 									"slots": 1,
 									"spells": [
-										"{@spell eyebite}"
+										"{@spell Morsure d'œil}"
 									]
 								}
 							},
@@ -4985,43 +4985,43 @@
 									"1": {
 										"slots": 4,
 										"spells": [
-											"{@spell identify}",
-											"{@spell ray of sickness}"
+											"{@spell Identification}",
+											"{@spell Rayon nauséeux}"
 										]
 									},
 									"2": {
 										"slots": 3,
 										"spells": [
-											"{@spell hold person}",
-											"{@spell locate object}"
+											"{@spell Immobiliser un personnage}",
+											"{@spell Localisation d'objet}"
 										]
 									},
 									"3": {
 										"slots": 3,
 										"spells": [
-											"{@spell bestow curse}",
-											"{@spell counterspell}",
-											"{@spell lightning bolt}"
+											"{@spell Malédiction}",
+											"{@spell Contresort}",
+											"{@spell Éclair}"
 										]
 									},
 									"4": {
 										"slots": 3,
 										"spells": [
-											"{@spell phantasmal killer}",
-											"{@spell polymorph}"
+											"{@spell Tueur phantasmal}",
+											"{@spell Polymorphie}"
 										]
 									},
 									"5": {
 										"slots": 2,
 										"spells": [
-											"{@spell contact other plane}",
-											"{@spell scrying}"
+											"{@spell Contact avec les autres plans}",
+											"{@spell Scrutation}"
 										]
 									},
 									"6": {
 										"slots": 1,
 										"spells": [
-											"{@spell eyebite}"
+											"{@spell Morsure d'œil}"
 										]
 									}
 								},
@@ -5125,31 +5125,31 @@
 						"La capacité d'incantation innée de Mahadi est le Charisme (jet de sauvegarde contre les sorts {@dc 18}, {@hit 9} pour toucher avec les attaques de sort). Il peut innément lancer les sorts suivants, sans composante matérielle :"
 					],
 					"will": [
-						"{@spell detect thoughts}",
-						"{@spell disguise self}",
-						"{@spell mage hand}",
-						"{@spell minor illusion}"
+						"{@spell Détection de pensées}",
+						"{@spell Déguisement}",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell charm person}",
-							"{@spell detect magic}",
-							"{@spell dispel magic}",
-							"{@spell hellish rebuke}",
-							"{@spell invisibility}",
-							"{@spell major image}",
-							"{@spell speak with dead}",
+							"{@spell Charmement}",
+							"{@spell Détection de la magie}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Réprobation infernale}",
+							"{@spell Invisibilité}",
+							"{@spell Image majeure}",
+							"{@spell Parler aux morts}",
 							"{@spell suggestion}"
 						],
 						"1e": [
-							"{@spell banishment}",
-							"{@spell demiplane}",
-							"{@spell dominate person}",
-							"{@spell fly}",
-							"{@spell forcecage}",
+							"{@spell Bannissement}",
+							"{@spell Demi-plan}",
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Vol}",
+							"{@spell Cage de force}",
 							"{@spell geas}",
-							"{@spell plane shift}",
-							"{@spell true seeing}"
+							"{@spell Déplacement planaire}",
+							"{@spell Vision véritable}"
 						]
 					},
 					"ability": "cha"
@@ -5179,7 +5179,7 @@
 				{
 					"name": "Griffe",
 					"entries": [
-						"{@atk mw} {@hit 7} pour toucher, allonge 1,50 m, une cible. {@h}9 ({@damage 2d6 + 2}) dégâts tranchants, et la cible est maudite s'il s'agit d'une créature. La malédiction prend effet chaque fois que la cible achève un repos court ou long, remplissant ses pensées d'images et de rêves horribles. La cible maudite ne tire aucun bénéfice de l'achèvement d'un repos court ou long. La malédiction dure jusqu'à ce qu'elle soit levée par un sort {@spell remove curse} ou une magie similaire."
+						"{@atk mw} {@hit 7} pour toucher, allonge 1,50 m, une cible. {@h}9 ({@damage 2d6 + 2}) dégâts tranchants, et la cible est maudite s'il s'agit d'une créature. La malédiction prend effet chaque fois que la cible achève un repos court ou long, remplissant ses pensées d'images et de rêves horribles. La cible maudite ne tire aucun bénéfice de l'achèvement d'un repos court ou long. La malédiction dure jusqu'à ce qu'elle soit levée par un sort {@spell Délivrance de la malédiction} ou une magie similaire."
 					]
 				},
 				{
@@ -5283,8 +5283,8 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell chill touch} (voir « Actions » ci-dessous)",
-								"{@spell mage hand}",
+								"{@spell Main glaciale} (voir « Actions » ci-dessous)",
+								"{@spell Main du mage}",
 								"{@spell message}",
 								"{@spell prestidigitation}"
 							]
@@ -5292,25 +5292,25 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell burning hands}",
-								"{@spell detect magic}",
-								"{@spell ray of sickness} (voir « Actions » ci-dessous)",
-								"{@spell shield}"
+								"{@spell Mains brûlantes}",
+								"{@spell Détection de la magie}",
+								"{@spell Rayon nauséeux} (voir « Actions » ci-dessous)",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell darkness}",
-								"{@spell misty step}",
-								"{@spell scorching ray} (voir « Actions » ci-dessous)"
+								"{@spell Ténèbres}",
+								"{@spell Pas brumeux}",
+								"{@spell Rayons brûlants} (voir « Actions » ci-dessous)"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell animate dead}",
-								"{@spell fireball}"
+								"{@spell Animation des morts}",
+								"{@spell Boule de feu}"
 							]
 						}
 					},
@@ -6380,9 +6380,9 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell charm person}",
-							"{@spell disguise self}",
-							"{@spell sanctuary}"
+							"{@spell Charmement}",
+							"{@spell Déguisement}",
+							"{@spell Sanctuaire}"
 						]
 					},
 					"ability": "cha"
@@ -6745,7 +6745,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
+								"{@spell Main du mage}",
 								"{@spell message}",
 								"{@spell prestidigitation}"
 							]
@@ -6753,17 +6753,17 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell protection from evil and good}",
-								"{@spell ray of sickness} (voir « Actions » ci-dessous)",
-								"{@spell shield}"
+								"{@spell Détection de la magie}",
+								"{@spell Protection contre le mal et le bien}",
+								"{@spell Rayon nauséeux} (voir « Actions » ci-dessous)",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
-								"{@spell darkness}",
-								"{@spell misty step}"
+								"{@spell Ténèbres}",
+								"{@spell Pas brumeux}"
 							]
 						}
 					},
@@ -6901,18 +6901,18 @@
 						"La capacité d'incantation innée de Smiler est le Charisme (jet de sauvegarde contre les sorts {@dc 15}). Il peut innément lancer les sorts suivants, sans composante matérielle :"
 					],
 					"will": [
-						"{@spell charm person}",
-						"{@spell Tasha's hideous laughter}"
+						"{@spell Charmement}",
+						"{@spell Rire hideux de Tasha}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell confusion}",
-							"{@spell enthrall}",
+							"{@spell Fascination}",
 							"{@spell suggestion}"
 						],
 						"1e": [
-							"{@spell hallucinatory terrain}",
-							"{@spell Otto's irresistible dance}"
+							"{@spell Terrain illusoire}",
+							"{@spell Danse irrésistible d'Otto}"
 						]
 					},
 					"ability": "cha"
@@ -7036,7 +7036,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "avec {@spell mage armor}",
+					"condition": "avec {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -7092,85 +7092,85 @@
 					"name": "Incantation",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Sylvira est une lanceuse de sorts de niveau 18. Sa capacité d'incantation est l'Intelligence (jet de sauvegarde contre les sorts {@dc 17}, {@hit 9} pour toucher avec les attaques de sorts). Sylvira peut lancer {@spell disguise self} et {@spell invisibility} à volonté et a préparé les sorts de magicien suivants :"
+						"Sylvira est une lanceuse de sorts de niveau 18. Sa capacité d'incantation est l'Intelligence (jet de sauvegarde contre les sorts {@dc 17}, {@hit 9} pour toucher avec les attaques de sorts). Sylvira peut lancer {@spell Déguisement} et {@spell Invisibilité} à volonté et a préparé les sorts de magicien suivants :"
 					],
 					"will": [
-						"{@spell disguise self}",
-						"{@spell invisibility}"
+						"{@spell Déguisement}",
+						"{@spell Invisibilité}"
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
+								"{@spell Trait de feu}",
+								"{@spell Lumière}",
+								"{@spell Main du mage}",
 								"{@spell prestidigitation}",
-								"{@spell shocking grasp}"
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell identify}",
-								"{@spell mage armor}*",
-								"{@spell magic missile}"
+								"{@spell Détection de la magie}",
+								"{@spell Identification}",
+								"{@spell Armure du mage}*",
+								"{@spell Projectile magique}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell detect thoughts}",
-								"{@spell mirror image}",
-								"{@spell misty step}"
+								"{@spell Détection de pensées}",
+								"{@spell Image dédoublée}",
+								"{@spell Pas brumeux}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell fly}",
-								"{@spell lightning bolt}"
+								"{@spell Contresort}",
+								"{@spell Vol}",
+								"{@spell Éclair}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell banishment}",
-								"{@spell fire shield}",
-								"{@spell stoneskin}*"
+								"{@spell Bannissement}",
+								"{@spell Bouclier de feu}",
+								"{@spell Peau de pierre}*"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell cone of cold}",
-								"{@spell scrying}",
-								"{@spell wall of force}"
+								"{@spell Cône de froid}",
+								"{@spell Scrutation}",
+								"{@spell Mur de force}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell globe of invulnerability}"
+								"{@spell Globe d'invulnérabilité}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell teleport}"
+								"{@spell Téléportation}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell mind blank}*"
+								"{@spell Vide mental}*"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell time stop}"
+								"{@spell Arrêt du temps}"
 							]
 						}
 					},
@@ -7204,7 +7204,7 @@
 					"type": "variant",
 					"name": "Familiers",
 					"entries": [
-						"Tout lanceur de sorts capable de lancer le sort {@spell find familiar} (comme un archimage ou un mage) a probablement un familier. Le familier peut être l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit}."
+						"Tout lanceur de sorts capable de lancer le sort {@spell Familier} (comme un archimage ou un mage) a probablement un familier. Le familier peut être l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit}."
 					]
 				}
 			],
@@ -7266,7 +7266,7 @@
 							"spells": {
 								"1": {
 									"spells": [
-										"{@spell find familiar} (l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit})"
+										"{@spell Familier} (l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit})"
 									]
 								}
 							}
@@ -7422,16 +7422,16 @@
 						"0": {
 							"spells": [
 								"{@spell guidance}",
-								"{@spell sacred flame} (voir « Actions » ci-dessous)",
-								"{@spell thaumaturgy}"
+								"{@spell Flamme sacrée} (voir « Actions » ci-dessous)",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
-								"{@spell command}",
-								"{@spell detect evil and good}",
-								"{@spell sanctuary}"
+								"{@spell Ordre}",
+								"{@spell Détection du mal et du bien}",
+								"{@spell Sanctuaire}"
 							]
 						}
 					},
@@ -7649,7 +7649,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "avec {@spell mage armor}",
+					"condition": "avec {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -7704,85 +7704,85 @@
 					"name": "Incantation",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Traxigor est un lanceur de sorts de niveau 18. Sa capacité d'incantation est l'Intelligence (jet de sauvegarde contre les sorts {@dc 17}, {@hit 9} pour toucher avec les attaques de sorts). Traxigor peut lancer {@spell disguise self} et {@spell invisibility} à volonté et a préparé les sorts de magicien suivants :"
+						"Traxigor est un lanceur de sorts de niveau 18. Sa capacité d'incantation est l'Intelligence (jet de sauvegarde contre les sorts {@dc 17}, {@hit 9} pour toucher avec les attaques de sorts). Traxigor peut lancer {@spell Déguisement} et {@spell Invisibilité} à volonté et a préparé les sorts de magicien suivants :"
 					],
 					"will": [
-						"{@spell disguise self}",
-						"{@spell invisibility}"
+						"{@spell Déguisement}",
+						"{@spell Invisibilité}"
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
+								"{@spell Trait de feu}",
+								"{@spell Lumière}",
+								"{@spell Main du mage}",
 								"{@spell prestidigitation}",
-								"{@spell shocking grasp}"
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell identify}",
-								"{@spell mage armor}*",
-								"{@spell magic missile}"
+								"{@spell Détection de la magie}",
+								"{@spell Identification}",
+								"{@spell Armure du mage}*",
+								"{@spell Projectile magique}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell detect thoughts}",
-								"{@spell mirror image}",
-								"{@spell misty step}"
+								"{@spell Détection de pensées}",
+								"{@spell Image dédoublée}",
+								"{@spell Pas brumeux}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell fly}",
-								"{@spell lightning bolt}"
+								"{@spell Contresort}",
+								"{@spell Vol}",
+								"{@spell Éclair}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell banishment}",
-								"{@spell fire shield}",
-								"{@spell stoneskin}*"
+								"{@spell Bannissement}",
+								"{@spell Bouclier de feu}",
+								"{@spell Peau de pierre}*"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell cone of cold}",
-								"{@spell scrying}",
-								"{@spell wall of force}"
+								"{@spell Cône de froid}",
+								"{@spell Scrutation}",
+								"{@spell Mur de force}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell globe of invulnerability}"
+								"{@spell Globe d'invulnérabilité}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell plane shift}"
+								"{@spell Déplacement planaire}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell mind blank}*"
+								"{@spell Vide mental}*"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell time stop}"
+								"{@spell Arrêt du temps}"
 							]
 						}
 					},
@@ -7816,7 +7816,7 @@
 					"type": "variant",
 					"name": "Familiers",
 					"entries": [
-						"Tout lanceur de sorts capable de lancer le sort {@spell find familiar} (comme un archimage ou un mage) a probablement un familier. Le familier peut être l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit}."
+						"Tout lanceur de sorts capable de lancer le sort {@spell Familier} (comme un archimage ou un mage) a probablement un familier. Le familier peut être l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit}."
 					]
 				}
 			],
@@ -7878,7 +7878,7 @@
 							"spells": {
 								"1": {
 									"spells": [
-										"{@spell find familiar} (l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit})"
+										"{@spell Familier} (l'une des créatures décrites dans le sort ou un autre monstre de taille TP, comme une {@creature crawling claw}, un {@creature imp}, un {@creature pseudodragon} ou un {@creature quasit})"
 									]
 								}
 							}
@@ -7963,7 +7963,7 @@
 				{
 					"name": "Familier",
 					"entries": [
-						"Avec la permission du MD, une personne qui lance le sort {@spell find familiar} peut choisir de convoquer un tressym à la place d'un chat normal."
+						"Avec la permission du MD, une personne qui lance le sort {@spell Familier} peut choisir de convoquer un tressym à la place d'un chat normal."
 					]
 				}
 			],

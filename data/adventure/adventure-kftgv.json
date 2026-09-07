@@ -797,7 +797,7 @@
 											"page": 16,
 											"id": "024",
 											"entries": [
-												"Audible {@spell alarm} spells have been cast in areas marked (A) on {@adventure map 1.2|KftGV|1|MAP 1.2: DM'S MAP}. The museum's guards and the curator have pass cards that allow them to bypass these alarms, and spare pass cards are kept in {@area area V7|04d|x} (see \"{@area Bypassing Alarms|029|x}\" below for more information). The alarms are located as follows:",
+												"Audible {@spell Alarme} spells have been cast in areas marked (A) on {@adventure map 1.2|KftGV|1|MAP 1.2: DM'S MAP}. The museum's guards and the curator have pass cards that allow them to bypass these alarms, and spare pass cards are kept in {@area area V7|04d|x} (see \"{@area Bypassing Alarms|029|x}\" below for more information). The alarms are located as follows:",
 												{
 													"type": "list",
 													"items": [
@@ -810,7 +810,7 @@
 													]
 												},
 												"If an alarm is on a door, touching the door sets off the alarm. If an alarm is on a 5-foot square, entering that square sets it off. The alarm on the front doors in area V1 extends 10 feet, covering the entire width of the doorway. When an alarm sounds, any guards in the area plus {@dice 1d3} other guards from that floor hear it and investigate.",
-												"The characters can find a record of the museum's payment for these spells, including their specific locations, by searching the records room (area V6); the alarms can also be detected using {@spell detect magic}. The alarms aren't armed while the museum is open to the public."
+												"The characters can find a record of the museum's payment for these spells, including their specific locations, by searching the records room (area V6); the alarms can also be detected using {@spell Détection de la magie}. The alarms aren't armed while the museum is open to the public."
 											]
 										},
 										{
@@ -820,7 +820,7 @@
 											"id": "025",
 											"entries": [
 												"The statues that flank the front desk in {@area area V1|035|x} and the statue next to the stairs in {@area area V12|05f|x} can animate after hours to attack intruders. These statues use the {@creature animated armor} stat block. Causing a statue to animate alerts any guards in that area.",
-												"A {@spell detect magic} spell reveals an aura of transmutation magic around each statue. A character who becomes aware of the statues' magical nature can make a {@dc 10} Intelligence ({@skill Arcanes}) check. If the check is successful, the character realizes the statues can animate."
+												"A {@spell Détection de la magie} spell reveals an aura of transmutation magic around each statue. A character who becomes aware of the statues' magical nature can make a {@dc 10} Intelligence ({@skill Arcanes}) check. If the check is successful, the character realizes the statues can animate."
 											]
 										},
 										{
@@ -829,7 +829,7 @@
 											"page": 16,
 											"id": "026",
 											"entries": [
-												"If the characters don't carefully remove the Murkmire Stone from its pedestal in area V13, {@spell arcane lock} spells cause all doors leading to the room (including secret doors) to close and lock. As an action, a character can either try to unlock a door using thieves' tools, doing so with a successful {@dc 20} Dexterity check, or force open the door by succeeding on a {@dc 20} Strength ({@skill Athlétisme}) check. The characters can learn about this security measure by attending the gala (see the \"{@area Attending the Gala|02c|x}\" section)."
+												"If the characters don't carefully remove the Murkmire Stone from its pedestal in area V13, {@spell Serrure magique} spells cause all doors leading to the room (including secret doors) to close and lock. As an action, a character can either try to unlock a door using thieves' tools, doing so with a successful {@dc 20} Dexterity check, or force open the door by succeeding on a {@dc 20} Strength ({@skill Athlétisme}) check. The characters can learn about this security measure by attending the gala (see the \"{@area Attending the Gala|02c|x}\" section)."
 											]
 										},
 										{
@@ -917,7 +917,7 @@
 												{
 													"type": "item",
 													"name": "Bypassing Alarms",
-													"entry": "The curator and guards each carry a palm-sized pass card embossed with the museum's logo. A {@spell detect magic} spell reveals an aura of divination magic around each pass card, which allows the bearer to bypass any of the museum's alarms. The characters can find a stash of extra pass cards in {@area area V7|04d|x}. A character who is hidden and within reach of a guard can try to steal that guard's pass card without the guard's knowledge, doing so with a successful {@dc 14} Dexterity ({@skill Escamotage}) check."
+													"entry": "The curator and guards each carry a palm-sized pass card embossed with the museum's logo. A {@spell Détection de la magie} spell reveals an aura of divination magic around each pass card, which allows the bearer to bypass any of the museum's alarms. The characters can find a stash of extra pass cards in {@area area V7|04d|x}. A character who is hidden and within reach of a guard can try to steal that guard's pass card without the guard's knowledge, doing so with a successful {@dc 14} Dexterity ({@skill Escamotage}) check."
 												},
 												{
 													"type": "item",
@@ -1150,12 +1150,12 @@
 										{
 											"type": "item",
 											"name": "Interior Doors",
-											"entry": "The interior doors are closed and locked, with the exception of the privies in {@area area V15|06b|x}. A character can use an action to try to unlock a door using thieves' tools, doing so with a successful {@dc 12} Dexterity check unless otherwise noted. Attempting to use thieves' tools to unlock a door with an enabled {@spell alarm} spell triggers that alarm."
+											"entry": "The interior doors are closed and locked, with the exception of the privies in {@area area V15|06b|x}. A character can use an action to try to unlock a door using thieves' tools, doing so with a successful {@dc 12} Dexterity check unless otherwise noted. Attempting to use thieves' tools to unlock a door with an enabled {@spell Alarme} spell triggers that alarm."
 										},
 										{
 											"type": "item",
 											"name": "Lighting",
-											"entry": "On the first two floors, most areas are lit with {@spell continual flame} spells placed on sconces. The grand entrance ({@area area V1|035|x}), Prehistoric Predators exhibit ({@area area V12|05f|x}), basement ({@area area V16|06c|x}), and attic ({@area area V17|071|x}) are areas of {@quickref Vision and Light||2||dim light}. Guards in areas {@area V1|035|x} and {@area V12|05f|x} carry hooded lanterns."
+											"entry": "On the first two floors, most areas are lit with {@spell Flamme perpétuelle} spells placed on sconces. The grand entrance ({@area area V1|035|x}), Prehistoric Predators exhibit ({@area area V12|05f|x}), basement ({@area area V16|06c|x}), and attic ({@area area V17|071|x}) are areas of {@quickref Vision and Light||2||dim light}. Guards in areas {@area V1|035|x} and {@area V12|05f|x} carry hooded lanterns."
 										},
 										{
 											"type": "item",
@@ -1931,7 +1931,7 @@
 											"page": 19,
 											"id": "037",
 											"entries": [
-												"An {@spell alarm} spell has been cast on the bottom of the grand staircase. Another such spell has been cast on the front doors."
+												"An {@spell Alarme} spell has been cast on the bottom of the grand staircase. Another such spell has been cast on the front doors."
 											]
 										},
 										{
@@ -2001,7 +2001,7 @@
 											"page": 19,
 											"id": "03f",
 											"entries": [
-												"The short hallways that connect this area to the grand entrance ({@area area V1|035|x}) have {@spell alarm} spells cast on them."
+												"The short hallways that connect this area to the grand entrance ({@area area V1|035|x}) have {@spell Alarme} spells cast on them."
 											]
 										},
 										{
@@ -2059,7 +2059,7 @@
 											"page": 20,
 											"id": "046",
 											"entries": [
-												"An {@spell alarm} spell has been cast on the door that connects this room to {@area area V1|035|x}."
+												"An {@spell Alarme} spell has been cast on the door that connects this room to {@area area V1|035|x}."
 											]
 										},
 										{
@@ -2102,7 +2102,7 @@
 											"page": 20,
 											"id": "04b",
 											"entries": [
-												"An {@spell alarm} spell has been cast on the door that connects this room to {@area area V1|035|x}."
+												"An {@spell Alarme} spell has been cast on the door that connects this room to {@area area V1|035|x}."
 											]
 										},
 										{
@@ -2111,7 +2111,7 @@
 											"page": 20,
 											"id": "04c",
 											"entries": [
-												"This room contains records about past and current exhibits as well as the museum's financial records. A character who searches this area also finds information about the placement of the building's {@spell alarm} spells (see \"{@area Investigating Security Measures|023|x}\" earlier in the adventure)."
+												"This room contains records about past and current exhibits as well as the museum's financial records. A character who searches this area also finds information about the placement of the building's {@spell Alarme} spells (see \"{@area Investigating Security Measures|023|x}\" earlier in the adventure)."
 											]
 										}
 									]
@@ -2135,7 +2135,7 @@
 											"page": 20,
 											"id": "04f",
 											"entries": [
-												"An {@spell alarm} spell has been cast on the door that connects this room to {@area area V1|035|x}."
+												"An {@spell Alarme} spell has been cast on the door that connects this room to {@area area V1|035|x}."
 											]
 										},
 										{
@@ -2290,7 +2290,7 @@
 											"page": 22,
 											"id": "061",
 											"entries": [
-												"An {@spell alarm} spell has been cast in the hallway leading to the Unearthed Café (area V11). Another {@spell alarm} spell has been cast on the door in the middle of the east wall (which leads to area V13)."
+												"An {@spell Alarme} spell has been cast in the hallway leading to the Unearthed Café (area V11). Another {@spell Alarme} spell has been cast on the door in the middle of the east wall (which leads to area V13)."
 											]
 										},
 										{
@@ -2351,9 +2351,9 @@
 											"page": 22,
 											"id": "067",
 											"entries": [
-												"A {@spell detect magic} spell reveals an aura of transmutation magic around the pedestal, which is attached to the floor and can't be moved. A character who examines the pedestal notices tiny glyphs carved into its base and can make a {@dc 12} Intelligence ({@skill Arcanes}) check. On a success, the character realizes that all doors leading to the room will lock if the stone is removed from the pedestal.",
-												"If the Murkmire Stone is removed from the pedestal, {@spell arcane lock} spells activate on all doors leading to the room (including secret doors), causing them to close and lock. As an action, a character can try to open a locked door using thieves' tools, doing so with a successful {@dc 20} Dexterity check, or force open a locked door by succeeding on a {@dc 20} Strength ({@skill Athlétisme}) check. The {@spell arcane lock} spells don't prevent the curator or the museum guards from opening the doors.",
-												"Replacing the Murkmire Stone with a fake can prevent the trap from triggering. A suitable fake can be found in {@area area V9|055|x}. Swapping it for the real Murkmire Stone without activating the {@spell arcane lock} spells requires a successful {@dc 10} Dexterity ({@skill Escamotage}) check."
+												"A {@spell Détection de la magie} spell reveals an aura of transmutation magic around the pedestal, which is attached to the floor and can't be moved. A character who examines the pedestal notices tiny glyphs carved into its base and can make a {@dc 12} Intelligence ({@skill Arcanes}) check. On a success, the character realizes that all doors leading to the room will lock if the stone is removed from the pedestal.",
+												"If the Murkmire Stone is removed from the pedestal, {@spell Serrure magique} spells activate on all doors leading to the room (including secret doors), causing them to close and lock. As an action, a character can try to open a locked door using thieves' tools, doing so with a successful {@dc 20} Dexterity check, or force open a locked door by succeeding on a {@dc 20} Strength ({@skill Athlétisme}) check. The {@spell Serrure magique} spells don't prevent the curator or the museum guards from opening the doors.",
+												"Replacing the Murkmire Stone with a fake can prevent the trap from triggering. A suitable fake can be found in {@area area V9|055|x}. Swapping it for the real Murkmire Stone without activating the {@spell Serrure magique} spells requires a successful {@dc 10} Dexterity ({@skill Escamotage}) check."
 											]
 										},
 										{
@@ -2562,8 +2562,8 @@
 															"id": "07f",
 															"entries": [
 																"The eldritch horror casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (save {@dc 14}):",
-																"2/day each: {@spell blindness/deafness}, {@spell blur}",
-																"1/day: {@spell project image}"
+																"2/day each: {@spell Cécité/Surdité}, {@spell Distorsion}",
+																"1/day: {@spell Projection d'image}"
 															]
 														}
 													]
@@ -2876,8 +2876,8 @@
 							"page": 30,
 							"id": "090",
 							"entries": [
-								"Every casino employee carries a pass card made of green metal and embossed with a devil's smiling, winking visage. A {@spell detect magic} spell reveals a faint aura of abjuration magic around the card.",
-								"Anyone in possession of a pass card can open any locked door in the casino, bypassing the {@spell arcane lock} spell on the door.",
+								"Every casino employee carries a pass card made of green metal and embossed with a devil's smiling, winking visage. A {@spell Détection de la magie} spell reveals a faint aura of abjuration magic around the card.",
+								"Anyone in possession of a pass card can open any locked door in the casino, bypassing the {@spell Serrure magique} spell on the door.",
 								"As an action, a character within reach of an employee can attempt to steal that employee's pass card, doing so with a successful {@dc 15} Dexterity ({@skill Escamotage}) check. If the check fails by 5 or more, the employee notices the botched theft and cries for help. Otherwise, a failed check goes unnoticed."
 							]
 						}
@@ -2954,8 +2954,8 @@
 									"page": 31,
 									"id": "098",
 									"entries": [
-										"The casino's interior doors are made of wood. {@spell Arcane lock} spells have been cast on the doors that lead to the employee-only areas, the vault hallway, and the vault itself. These doors have bright-green trim, making them obvious to visitors. (On {@adventure map 2.2|KftGV|2|Map 2.2: DM's map}, these doors are marked with dots to indicate they are locked.)",
-										"Casino personnel use pass cards (see \"{@area Employee Pass Cards|090|x}\" earlier in the adventure) to bypass the {@spell arcane lock} spells on the doors, which can be shouldered open with a {@dc 25} Strength ({@skill Athlétisme}) check."
+										"The casino's interior doors are made of wood. {@spell Serrure magique} spells have been cast on the doors that lead to the employee-only areas, the vault hallway, and the vault itself. These doors have bright-green trim, making them obvious to visitors. (On {@adventure map 2.2|KftGV|2|Map 2.2: DM's map}, these doors are marked with dots to indicate they are locked.)",
+										"Casino personnel use pass cards (see \"{@area Employee Pass Cards|090|x}\" earlier in the adventure) to bypass the {@spell Serrure magique} spells on the doors, which can be shouldered open with a {@dc 25} Strength ({@skill Athlétisme}) check."
 									]
 								},
 								{
@@ -2974,7 +2974,7 @@
 									"page": 31,
 									"id": "09a",
 									"entries": [
-										"The casino is lit by programmed {@spell dancing lights} spells that create flames of a hellish hue. These lights float and bob at varying heights. The employee tunnels contain {@spell continual flame} spells cast on sconces.",
+										"The casino is lit by programmed {@spell Lumières dansantes} spells that create flames of a hellish hue. These lights float and bob at varying heights. The employee tunnels contain {@spell Flamme perpétuelle} spells cast on sconces.",
 										"The music that plays throughout the casino is illusory and sounds a lot like cowboy country music. The music plays more softly in employee-only areas."
 									]
 								},
@@ -2993,7 +2993,7 @@
 									"page": 31,
 									"id": "09c",
 									"entries": [
-										"Throughout the casino are security mirrors, each one anchored to a wall at a downward angle twelve feet off the floor. A {@spell detect magic} spell reveals an aura of divination magic around each mirror, which is a Large object with AC 13, 5 hit points, and immunity to poison and psychic damage. In addition to functioning as a normal mirror, each security mirror acts as a magical scrying device, allowing guards in the security office ({@area area A16|0d5|x}) to see through it like a window. Casting {@spell dispel magic} on a security mirror suppresses its scrying property for 10 minutes.",
+										"Throughout the casino are security mirrors, each one anchored to a wall at a downward angle twelve feet off the floor. A {@spell Détection de la magie} spell reveals an aura of divination magic around each mirror, which is a Large object with AC 13, 5 hit points, and immunity to poison and psychic damage. In addition to functioning as a normal mirror, each security mirror acts as a magical scrying device, allowing guards in the security office ({@area area A16|0d5|x}) to see through it like a window. Casting {@spell Dissipation de la magie} on a security mirror suppresses its scrying property for 10 minutes.",
 										"Breaking a mirror or suppressing its magic leads two guards from area A16 to investigate and report what they learn to Quentin."
 									]
 								},
@@ -3003,7 +3003,7 @@
 									"page": 32,
 									"id": "09d",
 									"entries": [
-										"The casino's perimeter walls are made of rough, naturally carved stone. Interior walls are made of 2-foot-thick stone; these walls look natural but were sculpted using {@spell stone shape} spells. The floors are made of smooth worked stone and are covered with garish rugs.",
+										"The casino's perimeter walls are made of rough, naturally carved stone. Interior walls are made of 2-foot-thick stone; these walls look natural but were sculpted using {@spell Forme de pierre} spells. The floors are made of smooth worked stone and are covered with garish rugs.",
 										{
 											"type": "inset",
 											"name": "Cheating",
@@ -5027,7 +5027,7 @@
 											"entries": [
 												"A tiefling security guard (use the {@creature thug} stat block) stands next to the display case and allows guests to examine the statuette without touching the case.",
 												"The display case is 2 feet wide, 2 feet deep, and 3 feet tall, and it weighs 25 pounds. It is a Small object that has AC 13, 3 hit points, and immunity to poison and psychic damage. The erinyes statuette is a Tiny object that weighs 9 pounds.",
-												"A character who examines the display case and succeeds on a {@dc 18} Intelligence ({@skill Investigation}) check spots a line of barely visible runes inscribed around the perimeter of each pane of glass. A {@spell detect magic} spell reveals an aura of abjuration magic emanating from these runes. Damaging the case triggers a magical trap that forces each creature in a 15-foot-radius sphere centered on the case to succeed on a {@dc 17} Wisdom saving throw or be {@condition Paralysé} for 1 minute.",
+												"A character who examines the display case and succeeds on a {@dc 18} Intelligence ({@skill Investigation}) check spots a line of barely visible runes inscribed around the perimeter of each pane of glass. A {@spell Détection de la magie} spell reveals an aura of abjuration magic emanating from these runes. Damaging the case triggers a magical trap that forces each creature in a 15-foot-radius sphere centered on the case to succeed on a {@dc 17} Wisdom saving throw or be {@condition Paralysé} for 1 minute.",
 												"The front of the display case is a hinged door with a locked latch. The door can be unlocked and opened using the key found in Quentin's office ({@area area A14|0cb|x}). As an action, a character using thieves' tools can try to pick the lock, doing so with a successful {@dc 15} Dexterity check.",
 												{
 													"type": "image",
@@ -5238,7 +5238,7 @@
 											"id": "0d1",
 											"entries": [
 												"The top drawer of Quentin's desk holds a red candle, a quill, a jar of ink, a few sheets of parchment, a few envelopes, a tiny glass key that unlocks the display case in {@area area A9|0b9|x}, a copper ring bearing Quentin's wax seal, and a velvet pouch containing 25 gp.",
-												"The bottom drawer of Quentin's desk contains an unlocked wooden case that contains a 12-inch-long rod made of bone with a stylized copper minotaur head mounted at each end of it. A {@spell detect magic} spell reveals an aura of enchantment magic emanating from the rod. As an action, the holder of the rod can use it to telepathically command the minotaur skeleton in {@area area A19|0db|x}, provided the rod is within 30 feet of it. The minotaur skeleton follows such commands to the best of its ability. If the minotaur skeleton ever leaves the casino, it goes berserk and can't be controlled by anyone, and the rod turns to dust."
+												"The bottom drawer of Quentin's desk contains an unlocked wooden case that contains a 12-inch-long rod made of bone with a stylized copper minotaur head mounted at each end of it. A {@spell Détection de la magie} spell reveals an aura of enchantment magic emanating from the rod. As an action, the holder of the rod can use it to telepathically command the minotaur skeleton in {@area area A19|0db|x}, provided the rod is within 30 feet of it. The minotaur skeleton follows such commands to the best of its ability. If the minotaur skeleton ever leaves the casino, it goes berserk and can't be controlled by anyone, and the rod turns to dust."
 											]
 										},
 										{
@@ -5350,7 +5350,7 @@
 											"page": 39,
 											"id": "0dd",
 											"entries": [
-												"A {@spell detect magic} spell reveals an aura of transmutation magic around each iron chest. All seven chests are magically linked to the cashier stations in the casino. The interior of each chest's lid is scribed with a rune that enables the cashiers to remotely deposit coins into and withdraw coins from the chests. The chests must be closed for their magic to function, and the chests become nonmagical if removed from the vault.",
+												"A {@spell Détection de la magie} spell reveals an aura of transmutation magic around each iron chest. All seven chests are magically linked to the cashier stations in the casino. The interior of each chest's lid is scribed with a rune that enables the cashiers to remotely deposit coins into and withdraw coins from the chests. The chests must be closed for their magic to function, and the chests become nonmagical if removed from the vault.",
 												"At any given time, the seven chests contain mixed coinage worth a total of {@dice 2d4 × 1,000} gp.",
 												"If all the coins are removed from the chests, the cashiers quickly discover they are unable to withdraw money from the vault and alert the guards immediately. It's only a matter of time until someone investigates."
 											]
@@ -5630,12 +5630,12 @@
 										{
 											"type": "item",
 											"name": "Lighting",
-											"entry": "The mansion is illuminated by {@spell continual flame} spells cast on candles that are mounted to the walls."
+											"entry": "The mansion is illuminated by {@spell Flamme perpétuelle} spells cast on candles that are mounted to the walls."
 										},
 										{
 											"type": "item",
 											"name": "Windows",
-											"entry": "Each window is under the effect of an {@spell arcane lock} spell. The password to circumvent the magical locks is \"Krokulmar.\""
+											"entry": "Each window is under the effect of an {@spell Serrure magique} spell. The password to circumvent the magical locks is \"Krokulmar.\""
 										}
 									]
 								},
@@ -6918,7 +6918,7 @@
 											"page": 46,
 											"id": "106",
 											"entries": [
-												"The wooden chest is unlocked and holds three {@item Spell Scroll||spell scrolls} ({@spell arms of Hadar}, {@spell bane}, and {@spell dimension door}) and a bag containing six pieces of jewelry worth 100 gp each."
+												"The wooden chest is unlocked and holds three {@item Spell Scroll||spell scrolls} ({@spell Bras de Hadar}, {@spell Fléau}, and {@spell Porte dimensionnelle}) and a bag containing six pieces of jewelry worth 100 gp each."
 											]
 										}
 									]
@@ -6981,7 +6981,7 @@
 											"page": 47,
 											"id": "10c",
 											"entries": [
-												"Zala carries two {@item Spell Scroll||spell scrolls} ({@spell crown of madness} and {@spell sleep}) and a {@item Livre de sorts|PHB} that contains the following spells: {@spell arcane lock}, {@spell detect magic}, {@spell detect thoughts}, {@spell knock}, {@spell mage armor}, {@spell magic missile}, {@spell phantasmal force}, {@spell shield}, and {@spell suggestion}."
+												"Zala carries two {@item Spell Scroll||spell scrolls} ({@spell Couronne de folie} and {@spell Sommeil}) and a {@item Livre de sorts|PHB} that contains the following spells: {@spell Serrure magique}, {@spell Détection de la magie}, {@spell Détection de pensées}, {@spell Crochetage}, {@spell Armure du mage}, {@spell Projectile magique}, {@spell Force phantasmale}, {@spell Bouclier}, and {@spell suggestion}."
 											]
 										}
 									]
@@ -7155,7 +7155,7 @@
 											"page": 48,
 											"id": "120",
 											"entries": [
-												"Characters who search the northernmost room find a {@item Livre de sorts|PHB} that contains the following spells: {@spell comprehend languages}, {@spell detect magic}, {@spell detect thoughts}, {@spell identify}, {@spell mage armor}, {@spell misty step}, {@spell Tasha's hideous laughter}, and {@spell unseen servant}."
+												"Characters who search the northernmost room find a {@item Livre de sorts|PHB} that contains the following spells: {@spell Compréhension des langues}, {@spell Détection de la magie}, {@spell Détection de pensées}, {@spell Identification}, {@spell Armure du mage}, {@spell Pas brumeux}, {@spell Rire hideux de Tasha}, and {@spell Servant invisible}."
 											]
 										}
 									]
@@ -7225,7 +7225,7 @@
 											"page": 49,
 											"id": "127",
 											"entries": [
-												"A {@spell detect magic} spell reveals an aura of divination magic around the circle on the floor. A creature standing fully inside the circle feels the unsettling presence of a Far Realm entity and can choose to receive an omen from that entity, as if the creature had cast an {@spell augury} spell. After receiving such an omen, the creature can't receive another one for 24 hours but still feels the otherworldly presence while inside the circle."
+												"A {@spell Détection de la magie} spell reveals an aura of divination magic around the circle on the floor. A creature standing fully inside the circle feels the unsettling presence of a Far Realm entity and can choose to receive an omen from that entity, as if the creature had cast an {@spell Augure} spell. After receiving such an omen, the creature can't receive another one for 24 hours but still feels the otherworldly presence while inside the circle."
 											]
 										},
 										{
@@ -7235,7 +7235,7 @@
 											"id": "128",
 											"entries": [
 												"The hook-handed figure is Markos's former butler, Esquire (use the {@creature hook horror} stat block). Esquire isn't bound inside the circle and attacks intruders on sight. He doesn't know the cause of his transformation. If the characters explain that an evil entity is responsible for Esquire's transformation or that Markos might be in danger from this entity, Esquire lets them live if they vow to save Markos.",
-												"Esquire's tattered butler uniform has a pocket containing a locket and a note. The locket is under the effects of a {@spell magic mouth} spell; when opened, it speaks the password to the temple ({@adventure area D24|KftGV|3|D24: Temple}), \"farrl'v hrak,\" which is Deep Speech for \"forever changing.\" The note contains a sketch of a wine bottle and a row of four circles. The second circle from the left is crossed out. (The circles represent the casks in {@adventure area D23|KftGV|3|D23: Wine Cellar}, the crossed-out one representing the cask blocking a secret door.)",
+												"Esquire's tattered butler uniform has a pocket containing a locket and a note. The locket is under the effects of a {@spell Bouche magique} spell; when opened, it speaks the password to the temple ({@adventure area D24|KftGV|3|D24: Temple}), \"farrl'v hrak,\" which is Deep Speech for \"forever changing.\" The note contains a sketch of a wine bottle and a row of four circles. The second circle from the left is crossed out. (The circles represent the casks in {@adventure area D23|KftGV|3|D23: Wine Cellar}, the crossed-out one representing the cask blocking a secret door.)",
 												{
 													"type": "image",
 													"href": {
@@ -7295,7 +7295,7 @@
 											]
 										},
 										"Three of the wine casks contain varying amounts of wine. The fourth cask is empty and positioned in front of a secret door in the west wall. Characters who examine the empty cask see handprints on it, suggesting it has been moved multiple times. The characters also feel cold air coming from the wall, suggesting the presence of a secret door. The wine cask must be moved aside to access the secret door.",
-										"{@b Secret Door}. An {@spell arcane lock} spell has been cast on the secret door. The password to bypass the spell is \"farrl'v hrak,\" which is Deep Speech for \"forever changing.\" Esquire's locket (see {@adventure area D19|KftGV|3|D19: Eldritch Observation Room}) speaks the password when opened.",
+										"{@b Secret Door}. An {@spell Serrure magique} spell has been cast on the secret door. The password to bypass the spell is \"farrl'v hrak,\" which is Deep Speech for \"forever changing.\" Esquire's locket (see {@adventure area D19|KftGV|3|D19: Eldritch Observation Room}) speaks the password when opened.",
 										"Alternatively, a character can use an action to try to force open the locked secret door, doing so with a successful {@dc 20} Strength ({@skill Athlétisme}) check."
 									]
 								},
@@ -7321,7 +7321,7 @@
 											"id": "130",
 											"entries": [
 												"The cloaked figures are four neutral, human {@creature Cultist||cultists} who are taking notes on the eldritch surges that occur in this area. These cultists defend themselves if attacked but otherwise pose no threat. They know Markos is performing a ritual in {@adventure area D27|KftGV|3|D27: Ritual Room} but won't share this information until the statue is destroyed.",
-												"{@b Statue}. The statue depicts Krokulmar and was created with the aid of a {@item spell scroll} of {@spell stone shape}. Any creature that touches the statue for the first time on a turn must succeed on a {@dc 11} Wisdom saving throw or take 3 ({@dice 1d6}) psychic damage.",
+												"{@b Statue}. The statue depicts Krokulmar and was created with the aid of a {@item spell scroll} of {@spell Forme de pierre}. Any creature that touches the statue for the first time on a turn must succeed on a {@dc 11} Wisdom saving throw or take 3 ({@dice 1d6}) psychic damage.",
 												"The statue amplifies the eldritch surges, which a character can ascertain by examining the statue and then succeeding on a {@dc 15} Intelligence ({@skill Arcanes}) check. If the statue is destroyed, the eldritch surges stop occurring throughout the mansion. The statue is a Medium object with AC 17, 36 hit points, and immunity to poison and psychic damage."
 											]
 										}
@@ -7426,8 +7426,8 @@
 											"page": 52,
 											"id": "13a",
 											"entries": [
-												"The book resting on the crate is The Celestial Codex. A {@spell mage hand} spell can easily lift the book. An {@condition invisible} character can sneak across the room and try to steal the book without Markos noticing, doing so with a successful {@dc 14} Dexterity ({@skill Discrétion}) check. On a failed check, Markos detects the theft. Although he no longer needs the book to complete the ritual, Markos won't give it up without a fight while he's under Krokulmar's influence. Once free of that influence, Markos is horrified by his actions and gladly gives up the book (see \"{@area Markos Lives|13d|x}\").",
-												"{@i The Celestial Codex} is filled with arcane lore about the stars and the planes of existence. Nestled among its benign descriptions are eldritch incantations written in Celestial, and tucked between the book's pages are two {@item Spell Scroll||spell scrolls} ({@spell armor of Agathys} and {@spell arms of Hadar})."
+												"The book resting on the crate is The Celestial Codex. A {@spell Main du mage} spell can easily lift the book. An {@condition invisible} character can sneak across the room and try to steal the book without Markos noticing, doing so with a successful {@dc 14} Dexterity ({@skill Discrétion}) check. On a failed check, Markos detects the theft. Although he no longer needs the book to complete the ritual, Markos won't give it up without a fight while he's under Krokulmar's influence. Once free of that influence, Markos is horrified by his actions and gladly gives up the book (see \"{@area Markos Lives|13d|x}\").",
+												"{@i The Celestial Codex} is filled with arcane lore about the stars and the planes of existence. Nestled among its benign descriptions are eldritch incantations written in Celestial, and tucked between the book's pages are two {@item Spell Scroll||spell scrolls} ({@spell Armure d'Agathys} and {@spell Bras de Hadar})."
 											]
 										}
 									]
@@ -7657,7 +7657,7 @@
 										{
 											"type": "item",
 											"name": "Doors and Hatches",
-											"entry": "The doors and hatches are sealed with {@spell arcane lock} spells that only prison staff can bypass. However, while the characters are within 100 feet of Revel's End, the map allows them to use an action to touch the image of a door or hatch and suppress the lock on that portal. While a lock is suppressed, its image turns green. The lock remains suppressed for 1 minute or until another lock is suppressed."
+											"entry": "The doors and hatches are sealed with {@spell Serrure magique} spells that only prison staff can bypass. However, while the characters are within 100 feet of Revel's End, the map allows them to use an action to touch the image of a door or hatch and suppress the lock on that portal. While a lock is suppressed, its image turns green. The lock remains suppressed for 1 minute or until another lock is suppressed."
 										},
 										{
 											"type": "item",
@@ -7775,7 +7775,7 @@
 										{
 											"type": "item",
 											"name": "Doors and Hatches",
-											"entry": "Each door and rooftop hatch is made of reinforced iron held shut by an {@spell arcane lock} spell. Prison personnel can open these doors and hatches normally. A locked door or hatch is too strong to be shouldered or kicked open, but it can be destroyed if it takes enough damage. A door or hatch has AC 19, a damage threshold of 10, 30 hit points, and immunity to poison and psychic damage."
+											"entry": "Each door and rooftop hatch is made of reinforced iron held shut by an {@spell Serrure magique} spell. Prison personnel can open these doors and hatches normally. A locked door or hatch is too strong to be shouldered or kicked open, but it can be destroyed if it takes enough damage. A door or hatch has AC 19, a damage threshold of 10, 30 hit points, and immunity to poison and psychic damage."
 										},
 										{
 											"type": "item",
@@ -7785,7 +7785,7 @@
 										{
 											"type": "item",
 											"name": "Lighting",
-											"entry": "Unless a location states otherwise, the courtyard, corridors, rooms, and staircases are brightly lit with {@spell continual flame} spells cast on wall sconces. (The unlit cells in {@area area R17|176|x} are exceptions.) In some locations, the magical lights can be dimmed or suppressed, as noted in the text."
+											"entry": "Unless a location states otherwise, the courtyard, corridors, rooms, and staircases are brightly lit with {@spell Flamme perpétuelle} spells cast on wall sconces. (The unlit cells in {@area area R17|176|x} are exceptions.) In some locations, the magical lights can be dimmed or suppressed, as noted in the text."
 										},
 										{
 											"type": "item",
@@ -7985,7 +7985,7 @@
 										{
 											"type": "item",
 											"name": "High-Alert Signals",
-											"entry": "For 1 minute, a warning horn blares throughout the prison, and all light created by {@spell continual flame} spells in the prison takes on a reddish hue."
+											"entry": "For 1 minute, a warning horn blares throughout the prison, and all light created by {@spell Flamme perpétuelle} spells in the prison takes on a reddish hue."
 										},
 										{
 											"type": "item",
@@ -7995,7 +7995,7 @@
 										{
 											"type": "item",
 											"name": "See Invisibility",
-											"entry": "The warden and all prison guards gain the benefit of a {@spell see invisibility} spell."
+											"entry": "The warden and all prison guards gain the benefit of a {@spell Voir l'invisible} spell."
 										}
 									]
 								}
@@ -9023,7 +9023,7 @@
 									"page": 62,
 									"id": "167",
 									"entries": [
-										"These ten rooms are furnished identically. Each contains a bed, a desk with matching chair, a claw-footed chest, and wall hooks for hanging clothes. The {@spell continual flame} spell that illuminates each room can be suppressed or returned to its normal light level by uttering the command word, \"lights.\"",
+										"These ten rooms are furnished identically. Each contains a bed, a desk with matching chair, a claw-footed chest, and wall hooks for hanging clothes. The {@spell Flamme perpétuelle} spell that illuminates each room can be suppressed or returned to its normal light level by uttering the command word, \"lights.\"",
 										"These rooms are set aside for the ten members of the Absolution Council, though only three rooms are currently in use. The other seven members of the council are absent, so the warden lets visitors use the spare rooms.",
 										{
 											"type": "entries",
@@ -9064,7 +9064,7 @@
 									"id": "169",
 									"entries": [
 										"Six cooks (neutral, human {@creature Commoner||commoners}) take shifts here, working in pairs to produce meals for the prisoners and staff. The kitchen contains everything one would expect to see, as well as an iron stove and a pump that draws water from a magically heated cistern on the roof.",
-										"Off-duty cooks sleep in the largest of the three rooms west of the kitchen. This side room is lit by {@spell continual flame} spells that can be suppressed or activated by uttering the command word, \"lights.\"",
+										"Off-duty cooks sleep in the largest of the three rooms west of the kitchen. This side room is lit by {@spell Flamme perpétuelle} spells that can be suppressed or activated by uttering the command word, \"lights.\"",
 										"The middle side room\u2014not heated, unlike the rest of the prison\u2014is used for cold storage.",
 										"The smallest side room is a well-stocked pantry."
 									]
@@ -9075,7 +9075,7 @@
 									"page": 64,
 									"id": "16a",
 									"entries": [
-										"Each of these four triangular towers is two stories tall. A tower's interior chamber is empty except for a wooden ladder that climbs to an iron hatch held shut by an {@spell arcane lock} spell (see the \"{@area Prison Features|14f|x}\" section for more details). This hatch leads to the tower's flat rooftop, which is lined with battlements. Three Lords' Alliance guards ({@creature Veteran||veterans}) in cold-weather clothing are stationed on the roof of each tower."
+										"Each of these four triangular towers is two stories tall. A tower's interior chamber is empty except for a wooden ladder that climbs to an iron hatch held shut by an {@spell Serrure magique} spell (see the \"{@area Prison Features|14f|x}\" section for more details). This hatch leads to the tower's flat rooftop, which is lined with battlements. Three Lords' Alliance guards ({@creature Veteran||veterans}) in cold-weather clothing are stationed on the roof of each tower."
 									]
 								},
 								{
@@ -9099,7 +9099,7 @@
 											"page": 64,
 											"id": "16d",
 											"entries": [
-												"A wooden ladder leads to an iron hatch in the ceiling. An {@spell arcane lock} spell seals the hatch (see the \"{@area Prison Features|14f|x}\" section for more details), which opens onto the roof."
+												"A wooden ladder leads to an iron hatch in the ceiling. An {@spell Serrure magique} spell seals the hatch (see the \"{@area Prison Features|14f|x}\" section for more details), which opens onto the roof."
 											]
 										}
 									]
@@ -9127,7 +9127,7 @@
 											"page": 64,
 											"id": "170",
 											"entries": [
-												"A wooden ladder leads to an iron hatch in the ceiling that opens onto the roof. An {@spell arcane lock} spell seals the hatch (see the \"{@area Prison Features|14f|x}\" section for more details)."
+												"A wooden ladder leads to an iron hatch in the ceiling that opens onto the roof. An {@spell Serrure magique} spell seals the hatch (see the \"{@area Prison Features|14f|x}\" section for more details)."
 											]
 										}
 									]
@@ -9172,7 +9172,7 @@
 												"This hexagonal chamber is a large open space at the center of the prison. Cells line the chamber walls, and a smaller hexagonal room occupies the center of the space."
 											]
 										},
-										"The {@spell continual flame} spells that light this area can be dimmed from the surveillance hub ({@area area R18|179|x}). The hall is dimly lit at night."
+										"The {@spell Flamme perpétuelle} spells that light this area can be dimmed from the surveillance hub ({@area area R18|179|x}). The hall is dimly lit at night."
 									]
 								},
 								{
@@ -9311,7 +9311,7 @@
 											]
 										},
 										"Characters who climb the spiral staircase come to a door 100 feet above the prison roof. The staircase continues beyond this door to the tower's higher levels.",
-										"The door opens into a room filled with wooden bunk beds. Areas to the north, west, and south can be viewed through 4-foot-tall, 1-foot-wide arrow slits. The {@spell continual flame} spells that light the room can be dimmed or brightened by uttering the command word, \"lights.\"",
+										"The door opens into a room filled with wooden bunk beds. Areas to the north, west, and south can be viewed through 4-foot-tall, 1-foot-wide arrow slits. The {@spell Flamme perpétuelle} spells that light the room can be dimmed or brightened by uttering the command word, \"lights.\"",
 										"When the prison isn't on high alert, fifty guards ({@creature Veteran||veterans} without armor or weapons) sleep in the bunks. The guards keep their armor and weapons within easy reach. They keep other belongings in unlocked footlockers tucked under their bunk beds.",
 										"The guards need 10 minutes to don their armor. If the prison is put on high alert, the guards take the time to put on their armor before making their way down to area R18."
 									]
@@ -9341,7 +9341,7 @@
 									"page": 66,
 									"id": "180",
 									"entries": [
-										"The {@spell arcane lock} on this door can be opened only by the warden. Beyond the door is a comfortable bedchamber lit by a {@spell continual flame} spell that can be dimmed or brightened by uttering the command word, \"vaudra.\"",
+										"The {@spell Serrure magique} on this door can be opened only by the warden. Beyond the door is a comfortable bedchamber lit by a {@spell Flamme perpétuelle} spell that can be dimmed or brightened by uttering the command word, \"vaudra.\"",
 										{
 											"type": "entries",
 											"name": "Prison Warden",
@@ -9529,7 +9529,7 @@
 											"page": 69,
 											"id": "18e",
 											"entries": [
-												"If the characters acquire the prisoner files from the warden's office ({@area area R22|184|x}), {@creature Prisoner 13|KftGV} demands to read them somewhere outside her cell. She takes 20 minutes to read through the documents and telepathically relay the information to her agents for later use. Following that, she reveals that the tattoo on her right hand is the key to the vault. She allows the characters to study it so they can replicate its image using magic such as {@spell disguise self} or {@spell minor illusion}, or even copy it with pen and ink. In any case, a character must succeed on a {@dc 15} Intelligence ({@skill Arcanes}) check to correctly re-create the tattoo, which requires 10 minutes of study or drawing. The characters can retry if they fail, at the cost of more time and more risk of discovery."
+												"If the characters acquire the prisoner files from the warden's office ({@area area R22|184|x}), {@creature Prisoner 13|KftGV} demands to read them somewhere outside her cell. She takes 20 minutes to read through the documents and telepathically relay the information to her agents for later use. Following that, she reveals that the tattoo on her right hand is the key to the vault. She allows the characters to study it so they can replicate its image using magic such as {@spell Déguisement} or {@spell Illusion mineure}, or even copy it with pen and ink. In any case, a character must succeed on a {@dc 15} Intelligence ({@skill Arcanes}) check to correctly re-create the tattoo, which requires 10 minutes of study or drawing. The characters can retry if they fail, at the cost of more time and more risk of discovery."
 											]
 										},
 										{
@@ -9684,7 +9684,7 @@
 					"page": 71,
 					"id": "196",
 					"entries": [
-						"Little Lockford is situated in the Underdark, but the tunnels leading to the settlement are well traveled and relatively easy to navigate. Stone signs illuminated by {@spell continual flame} spells can be found at every junction, pointing the way to the settlement.",
+						"Little Lockford is situated in the Underdark, but the tunnels leading to the settlement are well traveled and relatively easy to navigate. Stone signs illuminated by {@spell Flamme perpétuelle} spells can be found at every junction, pointing the way to the settlement.",
 						"If you want to make the journey to Little Lockford more interesting, you can insert a random encounter or two as the characters make their way through dark tunnels. To determine what the characters encounter, roll on the Underdark Encounters table.",
 						{
 							"type": "table",
@@ -10803,7 +10803,7 @@
 												"Standing watch by the gates are two dour gnomes in black robes. On Cragknuckle's signal, each of these gnomes casts a spell that causes the gates to swing open before you. A wave of heat washes through the bulwark as the gates part, revealing a grim town bathed in hellish light and periodically brightened by flashes of lightning."
 											]
 										},
-										"The outer gates lock automatically when they close. The two gnome mages on duty have prepared {@spell knock} spells, which they use to circumvent the gates' complex locking mechanisms. It takes two {@spell knock} spells to open the gates.",
+										"The outer gates lock automatically when they close. The two gnome mages on duty have prepared {@spell Crochetage} spells, which they use to circumvent the gates' complex locking mechanisms. It takes two {@spell Crochetage} spells to open the gates.",
 										"Sergeant Cragknuckle goes no farther. In Gnomish, he wishes the characters good luck, instructs them to knock on the gates seven times to signal that they're ready to exit, and assures them he will be here waiting for them. (If the characters don't speak his language, the sergeant raps his knuckles on the outer gates seven times to explain what they must do to signal for the gates to be opened.)",
 										"As soon as the characters enter the town, the gates lock behind them. True to his word, Sergeant Cragknuckle instructs the mages to open the gates if he hears someone on the other side knock on the gates seven times.",
 										{
@@ -10883,8 +10883,8 @@
 											"page": 78,
 											"id": "1b2",
 											"entries": [
-												"The abbot {@creature Kavoda|KftGV} tried to flee Little Lockford with his fellow monks, but he didn't get far before one of Tockworth's automatons chased him back to the abbey. Minutes after {@creature Kavoda|KftGV} returned to the abbey, Slonk and Yuzzik showed up. {@creature Kavoda|KftGV} avoided them by casting {@spell meld into stone}. He has been using {@spell meld into stone} spells to hide ever since. As the characters explore the abbey, {@creature Kavoda|KftGV} hears one of them and emerges from a nearby wall when he thinks it's safe to do so.",
-												"{@creature Kavoda|KftGV} is a chaotic good {@creature Deep Gnome (Svirfneblin)||deep gnome} who speaks Common, Gnomish, Terran, and Undercommon. His Innate Spellcasting trait includes the ability to cast {@spell meld into stone} three times per day. He wears a gray robe instead of armor (AC 12) and carries a {@item spell scroll} of {@spell magic weapon} and a {@item Potion de force de géant des collines||potion of giant strength (hill)}.",
+												"The abbot {@creature Kavoda|KftGV} tried to flee Little Lockford with his fellow monks, but he didn't get far before one of Tockworth's automatons chased him back to the abbey. Minutes after {@creature Kavoda|KftGV} returned to the abbey, Slonk and Yuzzik showed up. {@creature Kavoda|KftGV} avoided them by casting {@spell Fusion avec la pierre}. He has been using {@spell Fusion avec la pierre} spells to hide ever since. As the characters explore the abbey, {@creature Kavoda|KftGV} hears one of them and emerges from a nearby wall when he thinks it's safe to do so.",
+												"{@creature Kavoda|KftGV} is a chaotic good {@creature Deep Gnome (Svirfneblin)||deep gnome} who speaks Common, Gnomish, Terran, and Undercommon. His Innate Spellcasting trait includes the ability to cast {@spell Fusion avec la pierre} three times per day. He wears a gray robe instead of armor (AC 12) and carries a {@item spell scroll} of {@spell Arme magique} and a {@item Potion de force de géant des collines||potion of giant strength (hill)}.",
 												"{@creature Kavoda|KftGV} doesn't want to stay in Little Lockford any longer. Desperate and hungry, he begs the characters to escort him safely to Little Lockford's outer gates ({@area area L1|1a8|x}), offering his magic items if they accept the quest. He insists they deliver him to the gates by the most direct route without delay, and he protests loudly if they dawdle or deviate from this course of action. If he is separated from the characters or wounded, {@creature Kavoda|KftGV} runs back to the abbey, crying \"Callarduran, protect me!\" all the way."
 											]
 										}
@@ -10907,7 +10907,7 @@
 										"The streets of this district are filled with steam. Through the haze, you can see bright streetlamps and abandoned buildings. Every fifteen seconds, a bolt of electricity arcs from a metal tower in the middle of the district to similar towers in other districts."
 									]
 								},
-								"The electrically charged metal tower is attached to the roof of the power station ({@area area L6|1bb|x}). Due to a backup at the station, steam has overflowed into the streets of Turbine Heights. Consequently, the district is {@book lightly obscured|PHB|8|Vision and Light}, as if by fog. A {@spell gust of wind} spell rids a street of steam for 1 minute.",
+								"The electrically charged metal tower is attached to the roof of the power station ({@area area L6|1bb|x}). Due to a backup at the station, steam has overflowed into the streets of Turbine Heights. Consequently, the district is {@book lightly obscured|PHB|8|Vision and Light}, as if by fog. A {@spell Rafale} spell rids a street of steam for 1 minute.",
 								{
 									"type": "entries",
 									"name": "L4. Infirmary",
@@ -11106,7 +11106,7 @@
 											"page": 80,
 											"id": "1c9",
 											"entries": [
-												"The taproom contains seating areas, including a row of stools next to a low bar made of carved basalt. Hanging above the bar are two soot-stained lanterns with {@spell continual flame} spells cast inside them. Half-drunk flagons of flat mushroom beer rest on the bar and on the tables, abandoned by patrons in their haste to evacuate Little Lockford."
+												"The taproom contains seating areas, including a row of stools next to a low bar made of carved basalt. Hanging above the bar are two soot-stained lanterns with {@spell Flamme perpétuelle} spells cast inside them. Half-drunk flagons of flat mushroom beer rest on the bar and on the tables, abandoned by patrons in their haste to evacuate Little Lockford."
 											]
 										},
 										{
@@ -11116,7 +11116,7 @@
 											"id": "1ca",
 											"entries": [
 												"Unless she was defeated elsewhere, {@creature Tixie Tockworth|KftGV} (see her description and stat block at the end of the adventure) sits on the barstool farthest from the entrance, cradling an empty flagon while mumbling to herself.",
-												"The presence of intruders confuses, disturbs, and annoys Tockworth. If she is confronted by the characters here or if the {@spell alarm} spell triggers on the safe in {@area area L9b|1d3|x}, she casts {@spell dimension door} and steps through the spell's magical doorway into area L9b. As she leaves, she says, \"Break time's over, Poots!\" (The characters have no way to know this, but Poots is the name of an imaginary friend Tockworth invented in her childhood. This long-lost imaginary friend has resurfaced recently in response to Tockworth's mounting loneliness.)"
+												"The presence of intruders confuses, disturbs, and annoys Tockworth. If she is confronted by the characters here or if the {@spell Alarme} spell triggers on the safe in {@area area L9b|1d3|x}, she casts {@spell Porte dimensionnelle} and steps through the spell's magical doorway into area L9b. As she leaves, she says, \"Break time's over, Poots!\" (The characters have no way to know this, but Poots is the name of an imaginary friend Tockworth invented in her childhood. This long-lost imaginary friend has resurfaced recently in response to Tockworth's mounting loneliness.)"
 											]
 										}
 									]
@@ -11188,7 +11188,7 @@
 											"page": 81,
 											"id": "1d1",
 											"entries": [
-												"A {@spell detect magic} spell reveals an aura of abjuration magic around the complex geometric symbol inscribed on the floor. When a creature other than Tockworth enters the space above the symbol for the first time on a turn or starts its turn there, that creature becomes the target of a {@spell crown of madness} spell (save {@dc 15}) that has a duration of 1 minute."
+												"A {@spell Détection de la magie} spell reveals an aura of abjuration magic around the complex geometric symbol inscribed on the floor. When a creature other than Tockworth enters the space above the symbol for the first time on a turn or starts its turn there, that creature becomes the target of a {@spell Couronne de folie} spell (save {@dc 15}) that has a duration of 1 minute."
 											]
 										},
 										{
@@ -11221,8 +11221,8 @@
 											"page": 81,
 											"id": "1d5",
 											"entries": [
-												"The safe can't be moved, and a {@spell detect magic} spell reveals an aura of abjuration magic around it.",
-												"A character equipped with thieves' tools can spend 1 minute trying to crack open the safe door, doing so with a successful {@dc 20} Dexterity check. Alternatively, a character can spend 1 minute pressing their ear to the safe's door while trying to delicately pick its combination lock, opening the door with a successful {@dc 16} Dexterity ({@skill Escamotage}) or Wisdom ({@skill Perception}) check. The safe door also opens when the proper command word (\"Poots\") is spoken within 5 feet of it. A {@spell knock} spell or similar magic also opens the safe."
+												"The safe can't be moved, and a {@spell Détection de la magie} spell reveals an aura of abjuration magic around it.",
+												"A character equipped with thieves' tools can spend 1 minute trying to crack open the safe door, doing so with a successful {@dc 20} Dexterity check. Alternatively, a character can spend 1 minute pressing their ear to the safe's door while trying to delicately pick its combination lock, opening the door with a successful {@dc 16} Dexterity ({@skill Escamotage}) or Wisdom ({@skill Perception}) check. The safe door also opens when the proper command word (\"Poots\") is spoken within 5 feet of it. A {@spell Crochetage} spell or similar magic also opens the safe."
 											]
 										},
 										{
@@ -11231,8 +11231,8 @@
 											"page": 82,
 											"id": "1d6",
 											"entries": [
-												"If the safe door is opened by any means other than speaking the proper command word, a mental {@spell alarm} spell alerts {@creature Tixie Tockworth|KftGV} (see her description and stat block at the end of the adventure). Unless she was defeated in {@area area L8|1c6|x}, Tockworth uses a {@spell dimension door} spell to appear in the middle of the room and attacks any burglars she sees.",
-												"If Tockworth is reduced to 40 hit points or fewer, she uses her next action to cast {@spell dimension door} again, then steps through the doorway into {@area area L12|1e7|x}."
+												"If the safe door is opened by any means other than speaking the proper command word, a mental {@spell Alarme} spell alerts {@creature Tixie Tockworth|KftGV} (see her description and stat block at the end of the adventure). Unless she was defeated in {@area area L8|1c6|x}, Tockworth uses a {@spell Porte dimensionnelle} spell to appear in the middle of the room and attacks any burglars she sees.",
+												"If Tockworth is reduced to 40 hit points or fewer, she uses her next action to cast {@spell Porte dimensionnelle} again, then steps through the doorway into {@area area L12|1e7|x}."
 											]
 										},
 										{
@@ -11376,7 +11376,7 @@
 											"page": 83,
 											"id": "1e3",
 											"entries": [
-												"An inventor named Ignus Flint (lawful neutral, deep gnome {@creature mage} who speaks Common, Gnomish, Terran, and Undercommon) built the contraption and recently locked himself inside it with enough food and water to keep himself alive for 1 week. A metal hatch at the back of the vehicle is the only entrance, and Ignus used a {@item spell scroll} of {@spell arcane lock} to seal it. A character can use an action to try to pull open the magically sealed hatch, doing so with a successful {@dc 25} Strength ({@skill Athlétisme}) check. If the characters knock on the contraption, they hear Ignus's muffled voice shout, \"Go away!\" in Gnomish. Ignus attacks anyone who breaks into his contraption but surrenders if reduced to 10 hit points or fewer.",
+												"An inventor named Ignus Flint (lawful neutral, deep gnome {@creature mage} who speaks Common, Gnomish, Terran, and Undercommon) built the contraption and recently locked himself inside it with enough food and water to keep himself alive for 1 week. A metal hatch at the back of the vehicle is the only entrance, and Ignus used a {@item spell scroll} of {@spell Serrure magique} to seal it. A character can use an action to try to pull open the magically sealed hatch, doing so with a successful {@dc 25} Strength ({@skill Athlétisme}) check. If the characters knock on the contraption, they hear Ignus's muffled voice shout, \"Go away!\" in Gnomish. Ignus attacks anyone who breaks into his contraption but surrenders if reduced to 10 hit points or fewer.",
 												"Ignus and Tockworth are rivals, and Ignus long suspected Tockworth's experiments would prove troublesome for Little Lockford. His public warnings about Tockworth went ignored, however. A character can use an action to try to convince Ignus to help them, first by impressing on him the importance of freeing Little Lockford from Tockworth's control and then by succeeding on a {@dc 14} Charisma ({@skill Persuasion}) check. Once coaxed into helping the characters, Ignus pilots his contraption anywhere they need him to go. The vehicle has enough space inside for Ignus plus one other passenger. If a character asks Ignus to allow the party to drive the contraption, he adamantly refuses to part with his prized invention."
 											]
 										},
@@ -11409,7 +11409,7 @@
 														{
 															"type": "item",
 															"name": "Who Is Poots?",
-															"entry": "When Tockworth is upset, she speaks to an imaginary friend named Poots\u2014as if Poots were standing right next to her. (Ignus doesn't know that \"Poots\" is also the command word to bypass the {@spell alarm} spell on Tockworth's safe.)"
+															"entry": "When Tockworth is upset, she speaks to an imaginary friend named Poots\u2014as if Poots were standing right next to her. (Ignus doesn't know that \"Poots\" is also the command word to bypass the {@spell Alarme} spell on Tockworth's safe.)"
 														}
 													]
 												}
@@ -11490,7 +11490,7 @@
 											"page": 84,
 											"id": "1ed",
 											"entries": [
-												"If she fled to this chamber using {@spell dimension door}, {@creature Tixie Tockworth|KftGV} (see her description and stat block at the end of the adventure) is next to the console. She has attached an experimental jet pack to her body, giving her a flying speed of 30 feet and the ability to hover. She accuses the characters of being pawns and mocks their heroics. She occasionally speaks to an imaginary friend named Poots, saying things like, \"We'll show them, Poots!\" and \"No one can stop us!\"",
+												"If she fled to this chamber using {@spell Porte dimensionnelle}, {@creature Tixie Tockworth|KftGV} (see her description and stat block at the end of the adventure) is next to the console. She has attached an experimental jet pack to her body, giving her a flying speed of 30 feet and the ability to hover. She accuses the characters of being pawns and mocks their heroics. She occasionally speaks to an imaginary friend named Poots, saying things like, \"We'll show them, Poots!\" and \"No one can stop us!\"",
 												"If Tockworth is reduced to 0 hit points, her jet pack explodes in a 20-foot-radius sphere, blowing Tockworth to smithereens. Every other creature within that sphere must succeed on a {@dc 15} Dexterity saving throw or take 16 ({@dice 3d10}) piercing damage from flying shrapnel. If the explosion occurs under the crystal dome, the dome shatters, showering creatures in the room with harmless, confetti-sized quartz particles."
 											]
 										}
@@ -11828,7 +11828,7 @@
 								"Characters can obtain one of the guildhouse's master keys from Elix the Saint (lawful evil, human {@creature bandit captain}), a high-ranking member of the Agile Hand and one of Guildmaster Dusk's more capable lieutenants. After questioning Grinky, the characters should know that Elix the Saint frequents a tavern called the Tipsy Tankard, which is about a 45-minute walk from the guildhouse. He travels there alone because he likes to flirt with a bartender named Karyssa (neutral, human {@creature commoner}).",
 								"Elix usually leaves the guildhouse at sundown and returns by midnight. Characters can approach him during this interval and take his master key by force or snatch it from him without his knowledge. As an action, a character within reach of Elix can try to snatch the key from his pocket, doing so with a successful {@dc 10} Dexterity ({@skill Escamotage}) check. If the attempt is made in a crowded place where others might notice the theft, increase the DC by 5.",
 								"Elix would sooner die than betray Guildmaster Dusk, although a {@spell suggestion} spell or other coercive magic can wring information from him. For example, he knows where {@item Portrait de Constantori|KftGV} is being kept (on the tower's third floor, above Guildmaster Dusk's private quarters).",
-								"Clever characters can steal Elix's identity as well as his key. If Elix is either detained or disposed of, a character can use magic (for example, {@spell alter self} or {@spell disguise self}) to mimic his appearance. A disguise kit can also help perpetrate such a ruse. In this form, a character can search most of the guildhouse without inviting altercations.",
+								"Clever characters can steal Elix's identity as well as his key. If Elix is either detained or disposed of, a character can use magic (for example, {@spell Changement d'apparence} or {@spell Déguisement}) to mimic his appearance. A disguise kit can also help perpetrate such a ruse. In this form, a character can search most of the guildhouse without inviting altercations.",
 								"If Elix the Saint doesn't return to the guildhouse by midnight, the lookouts on watch assume he had too much to drink and either passed out in a field or got thrown in jail for brawling. His failure to return won't cause alarm."
 							]
 						},
@@ -11838,7 +11838,7 @@
 							"page": 89,
 							"id": "202",
 							"entries": [
-								"Characters can use {@spell invisibility} spells to approach and observe the guildhouse without being seen. They can also use a {@spell locate object} spell to pinpoint the painting's location ({@area area G27|260|x} on {@adventure map 6.2|KftGV|6|Map 6.2: DM's map}). If they don't have access to such magic, they can request Adrisa's help. Within a day, she can obtain a {@item spell scroll} of {@spell locate object} for them.",
+								"Characters can use {@spell Invisibilité} spells to approach and observe the guildhouse without being seen. They can also use a {@spell Localisation d'objet} spell to pinpoint the painting's location ({@area area G27|260|x} on {@adventure map 6.2|KftGV|6|Map 6.2: DM's map}). If they don't have access to such magic, they can request Adrisa's help. Within a day, she can obtain a {@item spell scroll} of {@spell Localisation d'objet} for them.",
 								"The characters might have access to other magic that can help with surveillance, such as the {@spell clairvoyance} spell. A wizard's familiar can slip inside the guildhouse without attracting too much attention, as can a druid using Wild Shape to assume the form of a stray cat or some other common animal.",
 								{
 									"type": "image",
@@ -13731,7 +13731,7 @@
 											"id": "24e",
 											"entries": [
 												"Gwish has received a note from one of Guildmaster Dusk's spies. The note is written in code on a slip of parchment, and only Guildmaster Dusk is authorized to read it. Gwish plans to deliver the message to Dusk once her guest leaves (see {@area area G26|25b|x}).",
-												"A {@spell comprehend languages} spell can decipher the note, as can a character who succeeds on a {@dc 20} Intelligence ({@skill Investigation}) check after studying the note for 1 minute. It reads, \"Constantori in danger. Cognoscenti retaliation imminent. Be on high alert.\""
+												"A {@spell Compréhension des langues} spell can decipher the note, as can a character who succeeds on a {@dc 20} Intelligence ({@skill Investigation}) check after studying the note for 1 minute. It reads, \"Constantori in danger. Cognoscenti retaliation imminent. Be on high alert.\""
 											]
 										}
 									]
@@ -14104,7 +14104,7 @@
 												"Branches in the tunnel ahead suggest you're entering some sort of maze. You hear the sounds of heavy breathing coming from somewhere ahead."
 											]
 										},
-										"Permanent {@spell minor illusion} spells create the sounds of heavy breathing. These sounds originate in the two spaces marked T on {@adventure map 6.2|KftGV|6|Map 6.2: DM's map}. Any character who succeeds on a {@dc 10} Wisdom ({@skill Perception}) check can track the sounds to their points of origin. A character who enters one of these squares steps on a pressure plate that sinks 1 inch into the floor and remains in that position for 1 minute before resetting itself. A character who searches that section of floor before stepping on it must make a {@dc 13} Wisdom ({@skill Perception}) check. If the check is successful, the character spots the pressure plate and can avoid it. If the characters depress the two pressure plates here along with the one in G33, the north secret door in area G33 swings open."
+										"Permanent {@spell Illusion mineure} spells create the sounds of heavy breathing. These sounds originate in the two spaces marked T on {@adventure map 6.2|KftGV|6|Map 6.2: DM's map}. Any character who succeeds on a {@dc 10} Wisdom ({@skill Perception}) check can track the sounds to their points of origin. A character who enters one of these squares steps on a pressure plate that sinks 1 inch into the floor and remains in that position for 1 minute before resetting itself. A character who searches that section of floor before stepping on it must make a {@dc 13} Wisdom ({@skill Perception}) check. If the check is successful, the character spots the pressure plate and can avoid it. If the characters depress the two pressure plates here along with the one in G33, the north secret door in area G33 swings open."
 									]
 								},
 								{
@@ -14128,7 +14128,7 @@
 														{
 															"type": "item",
 															"name": "North Secret Door",
-															"entry": "This secret door has three separate locks built into it. If all three pressure plates in the maze (the one in this area and the two in area G32) are in their sunken positions, the door unlocks and swings open on its own, revealing {@area area G28|264|x} beyond. Otherwise, each of the door's three locks requires a separate {@spell knock} spell or similar magic to bypass. The locks are hidden and can't be picked."
+															"entry": "This secret door has three separate locks built into it. If all three pressure plates in the maze (the one in this area and the two in area G32) are in their sunken positions, the door unlocks and swings open on its own, revealing {@area area G28|264|x} beyond. Otherwise, each of the door's three locks requires a separate {@spell Crochetage} spell or similar magic to bypass. The locks are hidden and can't be picked."
 														},
 														{
 															"type": "item",
@@ -14700,7 +14700,7 @@
 									"page": 110,
 									"id": "2a8",
 									"entries": [
-										"The conservatory's exterior walls are lit up at night by golden {@spell continual flame} spells spaced evenly around the building's foundation. These spells are suppressed during daylight hours."
+										"The conservatory's exterior walls are lit up at night by golden {@spell Flamme perpétuelle} spells spaced evenly around the building's foundation. These spells are suppressed during daylight hours."
 									]
 								},
 								{
@@ -14817,7 +14817,7 @@
 									"page": 111,
 									"id": "2b2",
 									"entries": [
-										"If the characters use their audience with Sythian to demand that Golden Axe be handed over to them, Sythian lets out a haughty laugh and orders the characters to leave at once. If the characters refuse, Sythian and Joster flee to {@area area C15|2d6|x}, where Sythian equips himself with {@item Instrument des bardes, mandoline de Canaith||Golden Axe} and tries to escape out the window using the mandolin's {@spell fly} spell while Joster makes his own escape."
+										"If the characters use their audience with Sythian to demand that Golden Axe be handed over to them, Sythian lets out a haughty laugh and orders the characters to leave at once. If the characters refuse, Sythian and Joster flee to {@area area C15|2d6|x}, where Sythian equips himself with {@item Instrument des bardes, mandoline de Canaith||Golden Axe} and tries to escape out the window using the mandolin's {@spell Vol} spell while Joster makes his own escape."
 									]
 								},
 								{
@@ -14834,7 +14834,7 @@
 											"page": 111,
 											"id": "2b4",
 											"entries": [
-												"If Sythian becomes suspicious of characters posing as debt collectors, he entertains them long enough for Joster to \"fetch the payment.\" The incubus rounds up the demons in areas {@area C4|2bf|x}, {@area C11|2cb|x}, and {@area C18|2df|x} before returning to dispose of the visitors. When combat erupts, Sythian retreats to his bedroom ({@area area C15|2d6|x}) and grabs {@item Instrument des bardes, mandoline de Canaith||Golden Axe}. If the characters catch up to him, he tries to escape out the window using the mandolin's {@spell fly} spell."
+												"If Sythian becomes suspicious of characters posing as debt collectors, he entertains them long enough for Joster to \"fetch the payment.\" The incubus rounds up the demons in areas {@area C4|2bf|x}, {@area C11|2cb|x}, and {@area C18|2df|x} before returning to dispose of the visitors. When combat erupts, Sythian retreats to his bedroom ({@area area C15|2d6|x}) and grabs {@item Instrument des bardes, mandoline de Canaith||Golden Axe}. If the characters catch up to him, he tries to escape out the window using the mandolin's {@spell Vol} spell."
 											]
 										}
 									]
@@ -16085,7 +16085,7 @@
 											"page": 114,
 											"id": "2d2",
 											"entries": [
-												"A secret door disguised to look like a section of wood-paneled wall is hidden behind the suit of armor. A character can detect the secret door by searching the wall and succeeding on a {@dc 14} Intelligence ({@skill Investigation}) check. A successful check also reveals a faint glyph on the secret door\u2014the telltale sign of a {@spell glyph of warding} spell. Only Sythian can open the door without triggering the glyph. When the glyph triggers, each creature in a 10-foot-radius sphere centered on the suit of armor suffers the effect of a {@spell shatter} spell (save {@dc 14}). The spell also causes the suit of armor to fall to pieces and alerts Sythian and Joster in {@area area C15|2d6|x} if they are there. Once the spell goes off, the secret door is no longer trapped.",
+												"A secret door disguised to look like a section of wood-paneled wall is hidden behind the suit of armor. A character can detect the secret door by searching the wall and succeeding on a {@dc 14} Intelligence ({@skill Investigation}) check. A successful check also reveals a faint glyph on the secret door\u2014the telltale sign of a {@spell Glyphe de garde} spell. Only Sythian can open the door without triggering the glyph. When the glyph triggers, each creature in a 10-foot-radius sphere centered on the suit of armor suffers the effect of a {@spell Déflagration} spell (save {@dc 14}). The spell also causes the suit of armor to fall to pieces and alerts Sythian and Joster in {@area area C15|2d6|x} if they are there. Once the spell goes off, the secret door is no longer trapped.",
 												"The secret door is unlocked and leads to area C14."
 											]
 										}
@@ -16147,7 +16147,7 @@
 											"page": 115,
 											"id": "2d8",
 											"entries": [
-												"A character who examines the trunk and succeeds on a {@dc 14} Intelligence ({@skill Investigation}) check detects a faint glyph on its lid\u2014the telltale sign of a {@spell glyph of warding} spell. The first time a creature other than Sythian opens the trunk, the spell goes off, targeting the creature that opened the trunk with a {@spell suggestion} spell (save {@dc 14}). On a successful saving throw, the creature resists the spell. On a failed saving throw, the creature is compelled to leave the room empty-handed and not return for 8 hours (the duration of the spell). Once the glyph is triggered, the trunk is safe to open."
+												"A character who examines the trunk and succeeds on a {@dc 14} Intelligence ({@skill Investigation}) check detects a faint glyph on its lid\u2014the telltale sign of a {@spell Glyphe de garde} spell. The first time a creature other than Sythian opens the trunk, the spell goes off, targeting the creature that opened the trunk with a {@spell suggestion} spell (save {@dc 14}). On a successful saving throw, the creature resists the spell. On a failed saving throw, the creature is compelled to leave the room empty-handed and not return for 8 hours (the duration of the spell). Once the glyph is triggered, the trunk is safe to open."
 											]
 										},
 										{
@@ -16583,7 +16583,7 @@
 									"page": 123,
 									"id": "2fc",
 									"entries": [
-										"Unless otherwise noted, all areas are brightly lit by lamps imbued with {@spell continual flame} spells."
+										"Unless otherwise noted, all areas are brightly lit by lamps imbued with {@spell Flamme perpétuelle} spells."
 									]
 								},
 								{
@@ -16592,7 +16592,7 @@
 									"page": 123,
 									"id": "2fd",
 									"entries": [
-										"The vault's walls and floors are made of thick stone. The characters can use the {@spell stone shape} spell or similar magic to create a passage into the vault, though a guard patrol spots them if the characters spend more than a minute getting everyone inside. Each 10-foot section of wall has AC 15, 200 hit points, and immunity to poison and psychic damage. Damaging the wall catches the attention of the guards unless the characters take extraordinary measures."
+										"The vault's walls and floors are made of thick stone. The characters can use the {@spell Forme de pierre} spell or similar magic to create a passage into the vault, though a guard patrol spots them if the characters spend more than a minute getting everyone inside. Each 10-foot section of wall has AC 15, 200 hit points, and immunity to poison and psychic damage. Damaging the wall catches the attention of the guards unless the characters take extraordinary measures."
 									]
 								},
 								{
@@ -16601,7 +16601,7 @@
 									"page": 123,
 									"id": "2fe",
 									"entries": [
-										"The building is warded against teleportation and planar travel. Effects like the {@spell dimension door} spell can't be used to enter, exit, or move within the building."
+										"The building is warded against teleportation and planar travel. Effects like the {@spell Porte dimensionnelle} spell can't be used to enter, exit, or move within the building."
 									]
 								},
 								{
@@ -16611,7 +16611,7 @@
 									"id": "2ff",
 									"entries": [
 										"Areas {@area T2|30b|x}, {@area T3|30f|x}, {@area T7|326|x}, {@area T8|32a|x}, and {@area T9|32e|x} have windows 10 feet above the ground, and {@area area T13|33e|x} has a window 20 feet above the ground. Each window is locked and can be unlocked easily from the inside. As an action, a character can use thieves' tools to try to unlock a window from the outside, doing so with a successful {@dc 16} Dexterity check.",
-										"Each window is warded with an abjuration rune that sounds an audible alarm if the window opens (see \"{@area Caught in the Act|304|x}\"). A character who searches a window for traps notices the rune with a successful {@dc 10} Wisdom ({@skill Perception}) check and can use an action to try to disable it, doing so with a successful {@dc 14} Intelligence ({@skill Arcanes}) check or a {@spell dispel magic} spell. A character who disables the alarm on one window can do the same on other vault windows without having to repeat the check.",
+										"Each window is warded with an abjuration rune that sounds an audible alarm if the window opens (see \"{@area Caught in the Act|304|x}\"). A character who searches a window for traps notices the rune with a successful {@dc 10} Wisdom ({@skill Perception}) check and can use an action to try to disable it, doing so with a successful {@dc 14} Intelligence ({@skill Arcanes}) check or a {@spell Dissipation de la magie} spell. A character who disables the alarm on one window can do the same on other vault windows without having to repeat the check.",
 										"The windows are too small for a Medium creature to climb through, but a Small creature can squeeze through one with a successful {@dc 20} Dexterity ({@skill Acrobaties}) check."
 									]
 								}
@@ -17278,7 +17278,7 @@
 											"id": "31a",
 											"entries": [
 												"The shelves contain twenty-six {@item Acide (fiole)|PHB|vials of acid}, a {@item Potion d'amitié avec les animaux}, two {@item Potion de soins supérieurs||potions of healing (greater)}, two {@item Potion of Resistance||potions of resistance} (one {@item Potion de résistance au feu||fire}, the other {@item Potion de résistance au poison||poison}), and one {@item Potion de respiration aquatique}.",
-												"The sheets of parchment in the barrels include {@item Spell Scroll||spell scrolls} for each of the following spells: {@spell charm person} (2 scrolls), {@spell cure wounds} (1 scroll), {@spell detect magic} (2 scrolls), {@spell dispel magic} (1 scroll), {@spell false life} (1 scroll), {@spell identify} (4 scrolls), {@spell invisibility} (1 scroll), {@spell lesser restoration} (2 scrolls), and {@spell nondetection} (1 scroll)."
+												"The sheets of parchment in the barrels include {@item Spell Scroll||spell scrolls} for each of the following spells: {@spell Charmement} (2 scrolls), {@spell Soins} (1 scroll), {@spell Détection de la magie} (2 scrolls), {@spell Dissipation de la magie} (1 scroll), {@spell Fausse vie} (1 scroll), {@spell Identification} (4 scrolls), {@spell Invisibilité} (1 scroll), {@spell Restauration partielle} (2 scrolls), and {@spell Occultation} (1 scroll)."
 											]
 										}
 									]
@@ -17320,7 +17320,7 @@
 											"page": 127,
 											"id": "31f",
 											"entries": [
-												"The two document safes in this room contain secret information about local nobles and government officials. Each safe is trapped with enchantment magic. If a creature attempts to open a safe without Vidorant's personal key, the safe's trap emits an audible alarm (see \"{@area Caught in the Act|304|x}\") and casts {@spell hold person} (save {@dc 16}) on the three creatures nearest the safe. A character who uses an action to search the safe for traps notices the trap's rune with a successful {@dc 15} Wisdom ({@skill Perception}) check. Once the trap is detected, a character can use an action to try to disarm the trap, doing so with a successful {@dc 16} Intelligence ({@skill Arcanes}) check or a {@spell dispel magic} spell.",
+												"The two document safes in this room contain secret information about local nobles and government officials. Each safe is trapped with enchantment magic. If a creature attempts to open a safe without Vidorant's personal key, the safe's trap emits an audible alarm (see \"{@area Caught in the Act|304|x}\") and casts {@spell Immobiliser un personnage} (save {@dc 16}) on the three creatures nearest the safe. A character who uses an action to search the safe for traps notices the trap's rune with a successful {@dc 15} Wisdom ({@skill Perception}) check. Once the trap is detected, a character can use an action to try to disarm the trap, doing so with a successful {@dc 16} Intelligence ({@skill Arcanes}) check or a {@spell Dissipation de la magie} spell.",
 												"A character using thieves' tools can try to unlock a safe, which takes 1 minute. At the end of that time, the character must succeed on a {@dc 17} Dexterity check, or the safe remains locked. The safes are full of documents. Every minute a character spends looking through the documents yields one of the following:",
 												{
 													"type": "list",
@@ -17485,7 +17485,7 @@
 												"This room smells strongly of incense and paper. It has several bookshelves filled with antique books. A large, embroidered rug covers the floor."
 											]
 										},
-										"A character who has a passive Wisdom ({@skill Perception}) score of 18 or higher notices a conjuration rune peeking from under the rug. After discovering it, a character can use an action to try to disable the rune, doing so with a successful {@dc 18} Intelligence ({@skill Arcanes}) check or a {@spell dispel magic} spell.",
+										"A character who has a passive Wisdom ({@skill Perception}) score of 18 or higher notices a conjuration rune peeking from under the rug. After discovering it, a character can use an action to try to disable the rune, doing so with a successful {@dc 18} Intelligence ({@skill Arcanes}) check or a {@spell Dissipation de la magie} spell.",
 										"If a creature steps on the rug without saying the password, \"quixotic,\" the rune summons an {@creature invisible stalker}. The invisible stalker doesn't reveal its presence or attack immediately, waiting to do so until the characters either remove a book from the room or try to cross the spiked pit in {@area area T10|333|x}.",
 										{
 											"type": "entries",
@@ -17539,7 +17539,7 @@
 											"page": 128,
 											"id": "335",
 											"entries": [
-												"Two permanent {@spell silent image} spells have been cast over the pit, one on the east side and another on the west. The illusion on the west side depicts a bridge spanning the pit. The illusion on the east side shows an open pit, hiding a real bridge that can be used to safely cross. Touching the fake bridge (which is shown on {@adventure map 8.2|KftGV|8|Map 8.2: DM's Map}) reveals that it has no substance. Similarly, feeling around the pit for the real bridge reveals it in short order. Casting {@spell dispel magic} on either illusion ends it."
+												"Two permanent {@spell Image silencieuse} spells have been cast over the pit, one on the east side and another on the west. The illusion on the west side depicts a bridge spanning the pit. The illusion on the east side shows an open pit, hiding a real bridge that can be used to safely cross. Touching the fake bridge (which is shown on {@adventure map 8.2|KftGV|8|Map 8.2: DM's Map}) reveals that it has no substance. Similarly, feeling around the pit for the real bridge reveals it in short order. Casting {@spell Dissipation de la magie} on either illusion ends it."
 											]
 										},
 										{
@@ -17778,13 +17778,13 @@
 														{
 															"type": "item",
 															"name": "Thesis of Mortinsor",
-															"entry": "The card reads, \"Owned by Mortinsor, the famous necromancer. Possibly contains secrets of longevity, but difficult to decipher.\" This oversized tome is full of esoteric, archaic text that would require extensive research to decipher. A character who spends 12 weeks studying it and succeeds on a {@dc 22} Intelligence ({@skill Arcanes}) check finds a page that serves as a {@item spell scroll} of {@spell sequester}. (The thesis is worth 500 gp.)"
+															"entry": "The card reads, \"Owned by Mortinsor, the famous necromancer. Possibly contains secrets of longevity, but difficult to decipher.\" This oversized tome is full of esoteric, archaic text that would require extensive research to decipher. A character who spends 12 weeks studying it and succeeds on a {@dc 22} Intelligence ({@skill Arcanes}) check finds a page that serves as a {@item spell scroll} of {@spell Réclusion}. (The thesis is worth 500 gp.)"
 														}
 													]
 												},
-												"Each item is protected by two separate abjuration runes that trigger {@spell alarm} spells. The first rune is on the display case, and it sounds an audible alarm when that display case is opened (see \"{@area Caught in the Act|304|x}\"). The second rune is on the item itself, and it silently alerts Vidorant when that item is removed from the room (see \"Vidorant Arrives\" below).",
+												"Each item is protected by two separate abjuration runes that trigger {@spell Alarme} spells. The first rune is on the display case, and it sounds an audible alarm when that display case is opened (see \"{@area Caught in the Act|304|x}\"). The second rune is on the item itself, and it silently alerts Vidorant when that item is removed from the room (see \"Vidorant Arrives\" below).",
 												"A character who examines the various treasures and succeeds on a {@dc 15} Wisdom ({@skill Perception}) check notices the first set of runes on all the display cases. A character who succeeds on this check by 5 or more also notices the second set of runes on the items themselves.",
-												"A character can disable a particular rune (and its linked {@spell alarm} spell) with the {@spell dispel magic} spell or a successful {@dc 18} Intelligence ({@skill Arcanes}) check. A character who fails the check by 5 or more triggers the alarm. The first time a character successfully disables one of these runes, the DC to do so on the others decreases to 13. Alternatively, a character can slip an item out of its case without triggering the display case alarm by succeeding on a {@dc 18} Dexterity ({@skill Escamotage}) check. On a failed check, the audible alarm activates (see \"Caught in the Act\")."
+												"A character can disable a particular rune (and its linked {@spell Alarme} spell) with the {@spell Dissipation de la magie} spell or a successful {@dc 18} Intelligence ({@skill Arcanes}) check. A character who fails the check by 5 or more triggers the alarm. The first time a character successfully disables one of these runes, the DC to do so on the others decreases to 13. Alternatively, a character can slip an item out of its case without triggering the display case alarm by succeeding on a {@dc 18} Dexterity ({@skill Escamotage}) check. On a failed check, the audible alarm activates (see \"Caught in the Act\")."
 											]
 										}
 									]
@@ -18337,7 +18337,7 @@
 										{
 											"type": "item",
 											"name": "Light",
-											"entry": "Areas {@area X2|37b|x}, {@area X3|37e|x}, {@area X4|381|x}, and {@area X21|3b9|x} are brightly lit by torches imbued with {@spell continual flame} spells. The rest of the tomb is dark. Members of the Onyx Scar use oil lamps to light their surroundings. Area descriptions assume the characters have a light source or other means of seeing in the dark."
+											"entry": "Areas {@area X2|37b|x}, {@area X3|37e|x}, {@area X4|381|x}, and {@area X21|3b9|x} are brightly lit by torches imbued with {@spell Flamme perpétuelle} spells. The rest of the tomb is dark. Members of the Onyx Scar use oil lamps to light their surroundings. Area descriptions assume the characters have a light source or other means of seeing in the dark."
 										},
 										{
 											"type": "item",
@@ -19619,7 +19619,7 @@
 											"page": 142,
 											"id": "38d",
 											"entries": [
-												"The stairs in the garden ascend to a trapdoor that Edino (see {@area area X10|399|x}) has sealed with an {@spell arcane lock} spell. As an action, a character can use thieves' tools to try to bypass the magical lock, doing so with a successful {@dc 25} Dexterity check, or the character can try to force open the trapdoor, doing so with a successful {@dc 25} Strength ({@skill Athlétisme}) check. A {@spell knock} spell or similar magic also opens the trapdoor, which swings upward into {@area area X21|3b9|x}."
+												"The stairs in the garden ascend to a trapdoor that Edino (see {@area area X10|399|x}) has sealed with an {@spell Serrure magique} spell. As an action, a character can use thieves' tools to try to bypass the magical lock, doing so with a successful {@dc 25} Dexterity check, or the character can try to force open the trapdoor, doing so with a successful {@dc 25} Strength ({@skill Athlétisme}) check. A {@spell Crochetage} spell or similar magic also opens the trapdoor, which swings upward into {@area area X21|3b9|x}."
 											]
 										}
 									]
@@ -19712,7 +19712,7 @@
 											"page": 143,
 											"id": "398",
 											"entries": [
-												"The door to area X10 is warded by an {@spell alarm} spell that mentally alerts Edino if anyone touches it."
+												"The door to area X10 is warded by an {@spell Alarme} spell that mentally alerts Edino if anyone touches it."
 											]
 										}
 									]
@@ -19731,7 +19731,7 @@
 											]
 										},
 										"The hulking figure is a {@creature clay golem} that doesn't wait for characters to enter the room before attacking them. It fights until destroyed.",
-										"A lawful evil, elf {@creature mage} named Edino lurks in the room. Edino is the Onyx Scar's resident spellcaster and has cast {@spell greater invisibility} on himself. If the characters defeat the golem, Edino hides until he can sneak to {@area area X19|3b3|x} and alert Aminta.",
+										"A lawful evil, elf {@creature mage} named Edino lurks in the room. Edino is the Onyx Scar's resident spellcaster and has cast {@spell Invisibilité supérieure} on himself. If the characters defeat the golem, Edino hides until he can sneak to {@area area X19|3b3|x} and alert Aminta.",
 										{
 											"type": "entries",
 											"name": "Edino's Experiments",
@@ -19747,7 +19747,7 @@
 											"page": 144,
 											"id": "39c",
 											"entries": [
-												"A {@item Livre de sorts|PHB} on the western bookshelf contains the spells Edino has prepared plus {@spell alarm}, {@spell arcane lock}, {@spell detect thoughts}, {@spell dimension door}, and {@spell glyph of warding}. The other books in Edino's collection aren't valuable and cover such topics as geology, gemology, and mining."
+												"A {@item Livre de sorts|PHB} on the western bookshelf contains the spells Edino has prepared plus {@spell Alarme}, {@spell Serrure magique}, {@spell Détection de pensées}, {@spell Porte dimensionnelle}, and {@spell Glyphe de garde}. The other books in Edino's collection aren't valuable and cover such topics as geology, gemology, and mining."
 											]
 										}
 									]
@@ -20026,7 +20026,7 @@
 											"page": 146,
 											"id": "3bc",
 											"entries": [
-												"The trapdoor leading to {@area area X6|388|x} is secured with an {@spell arcane lock} spell. As an action, a character can use thieves' tools to try to bypass the magical lock, doing so with a successful {@dc 25} Dexterity check, or the character can try to wrench open the trapdoor, doing so with a successful {@dc 25} Strength ({@skill Athlétisme}) check. A {@spell knock} spell or similar magic also opens the trapdoor."
+												"The trapdoor leading to {@area area X6|388|x} is secured with an {@spell Serrure magique} spell. As an action, a character can use thieves' tools to try to bypass the magical lock, doing so with a successful {@dc 25} Dexterity check, or the character can try to wrench open the trapdoor, doing so with a successful {@dc 25} Strength ({@skill Athlétisme}) check. A {@spell Crochetage} spell or similar magic also opens the trapdoor."
 											]
 										}
 									]
@@ -20183,7 +20183,7 @@
 						},
 						"Known for its exquisite glasswork, Ghalasine was a prosperous city ruled by {@creature King Jhaeros|KftGV} Astolko. Governing from Castle Cinis, Jhaeros was advised by two councilors, Regine LaVerne and {@creature Charmayne Daymore|KftGV}, and a guard captain named {@creature Naevys Tharesso|KftGV}. Jhaeros's rule was compassionate, just, and kind. Over the last year, however, Naevys watched with growing concern as Jhaeros became more withdrawn and secretive, closing Ghalasine to trade and failing to honor his alliances.",
 						"A powerful spellcaster, Charmayne had become jealous of the king's passion and warmth. Longing to possess those qualities, she painstakingly created rituals to drain Jhaeros's vitality and charm, and to funnel these qualities into herself. However, the magic only enhanced her greed and jealousy; the more she took from Jhaeros, the hungrier for power Charmayne became, going so far as to murder her fellow councilor, Regine, while she slept.",
-						"Unaware of Charmayne's magical hold over the king but afraid for his well-being, Naevys sought the counsel of a mage's guild in a neighboring city. With the help of {@spell scrying} spells, the mages gleaned the truth and revealed Charmayne's treachery to Naevys. The loyal captain returned to Ghalasine at once but found herself unable to enter the city. Charmayne had anticipated Naevys's return and prepared accordingly by invoking a powerful ward that prevents anyone born in Ghalasine from entering or leaving the city.",
+						"Unaware of Charmayne's magical hold over the king but afraid for his well-being, Naevys sought the counsel of a mage's guild in a neighboring city. With the help of {@spell Scrutation} spells, the mages gleaned the truth and revealed Charmayne's treachery to Naevys. The loyal captain returned to Ghalasine at once but found herself unable to enter the city. Charmayne had anticipated Naevys's return and prepared accordingly by invoking a powerful ward that prevents anyone born in Ghalasine from entering or leaving the city.",
 						"As she came to realize the people of Ghalasine didn't love her as they did the king, Charmayne became filled with rage. She used magic to tear out Jhaeros's heart while keeping it alive. She then used the still-beating heart as the focus of a ritual to destroy Ghalasine. A spherical void appeared in the sky above Castle Cinis, causing the city to slowly turn to ash and drawing the souls of the dead into it. The longer the void persists, the more quickly the city deteriorates.",
 						"Jhaeros has been transformed into a heartless puppet under Charmayne's command. It's up to the characters to steal the king's heart, thereby ending Charmayne's ritual. If the characters are successful, all the damage wrought by Charmayne's magic will be undone, restoring Ghalasine and its king to their former glory. If they fail, the city will be destroyed, and Charmayne's treason will be complete.",
 						{
@@ -21005,7 +21005,7 @@
 												"Lining the west wall of this once grand hall are six hollow suits of crimson armor. Each one holds an ornate shield and an intricate glass lance, which is topped with a glowing glass sculpture that resembles a flickering torch."
 											]
 										},
-										"Characters can cross this hall safely if they are wearing the uniforms of castle guards. Otherwise, any attempt by them to cross the hall causes magical flames to fill three of the suits of armor, which spring to life as three {@creature Helmed Horror||helmed horrors}. These helmed horrors also animate if anyone touches one of the suits of armor. The helmed horrors' Spell Immunity trait grants them immunity to {@spell burning hands}, {@spell fireball}, and {@spell scorching ray} spells.",
+										"Characters can cross this hall safely if they are wearing the uniforms of castle guards. Otherwise, any attempt by them to cross the hall causes magical flames to fill three of the suits of armor, which spring to life as three {@creature Helmed Horror||helmed horrors}. These helmed horrors also animate if anyone touches one of the suits of armor. The helmed horrors' Spell Immunity trait grants them immunity to {@spell Mains brûlantes}, {@spell Boule de feu}, and {@spell Rayons brûlants} spells.",
 										"As a bonus action on its first turn in combat, each helmed horror drops its glass lance (which shatters on the floor) and conjures a longsword-sized blade of fire, which appears in its free hand. The helmed horror deals fire damage instead of slashing damage with its fiery sword, which disappears in a cloud of smoke when the helmed horror drops to 0 hit points."
 									]
 								},
@@ -21117,7 +21117,7 @@
 											"page": 154,
 											"id": "3e3",
 											"entries": [
-												"The six figurines are floating because they are subject to the tug of the void (see \"{@area Castle Features|3d4|x}\"). The figurines are shaped like tiny humans but lack fine features to distinguish them from one another. A {@spell detect magic} spell reveals a dim aura of necromantic magic around each one. Each figurine represents someone who was killed by Charmayne. Five of the victims were guards or nobles who tried to defend Jhaeros and Regine; the sixth was Regine herself.",
+												"The six figurines are floating because they are subject to the tug of the void (see \"{@area Castle Features|3d4|x}\"). The figurines are shaped like tiny humans but lack fine features to distinguish them from one another. A {@spell Détection de la magie} spell reveals a dim aura of necromantic magic around each one. Each figurine represents someone who was killed by Charmayne. Five of the victims were guards or nobles who tried to defend Jhaeros and Regine; the sixth was Regine herself.",
 												"A character who holds a figurine experiences a flash of emotion like that felt by the victim in their final moments and, in a couple cases, a vision of Charmayne as seen by the victim:",
 												"{@b Figurine 1} is full of terror. A momentary vision shows Charmayne (an auburn-haired woman in a scarlet robe) casting a fiery spell.",
 												"{@b Figurine 2} holds the dying fear of someone fixated on a person they're leaving behind.",
@@ -21833,7 +21833,7 @@
 							"page": 164,
 							"id": "416",
 							"entries": [
-								"Embedded in Glitch's body is an {@item Amulette des plans} that turns to dust (along with the rest of the quadrone) if Glitch is reduced to 0 hit points. Glitch uses this built-in amulet to cast {@spell plane shift}, delivering itself and the characters to a field in {@book the Outlands|DMG|2|The Outlands and Sigil} (see the {@book Dungeon Master's Guide|DMG} for more information about this plane of existence). There they must wait for the train to arrive.",
+								"Embedded in Glitch's body is an {@item Amulette des plans} that turns to dust (along with the rest of the quadrone) if Glitch is reduced to 0 hit points. Glitch uses this built-in amulet to cast {@spell Déplacement planaire}, delivering itself and the characters to a field in {@book the Outlands|DMG|2|The Outlands and Sigil} (see the {@book Dungeon Master's Guide|DMG} for more information about this plane of existence). There they must wait for the train to arrive.",
 								"As the train approaches the characters' location, read the following text:",
 								{
 									"type": "insetReadaloud",
@@ -22040,7 +22040,7 @@
 										],
 										[
 											"3",
-											"Mount Celestia. Good-aligned creatures aboard the train gain a benefit of a {@spell bless} spell that lasts until the train leaves Mount Celestia."
+											"Mount Celestia. Good-aligned creatures aboard the train gain a benefit of a {@spell Bénédiction} spell that lasts until the train leaves Mount Celestia."
 										],
 										[
 											"4",
@@ -22751,7 +22751,7 @@
 									"page": 168,
 									"id": "42c",
 									"entries": [
-										"The alabaster statue is a {@condition Pétrifié} {@creature deva} with a {@item Carafe intarissable}. If any harm befalls the fish in the aquarium, the deva immediately reverts to flesh and chastises whoever is responsible. If the aquarium's plug was removed, the deva replaces it. If any water was drained from the car, the deva uses the decanter to replenish it. If any fish died, the deva uses {@spell raise dead} spells to revive one fish per day for ten days. Once all is set right, the deva flies from the train and casts {@spell plane shift} to return to Mount Celestia, taking the decanter with it."
+										"The alabaster statue is a {@condition Pétrifié} {@creature deva} with a {@item Carafe intarissable}. If any harm befalls the fish in the aquarium, the deva immediately reverts to flesh and chastises whoever is responsible. If the aquarium's plug was removed, the deva replaces it. If any water was drained from the car, the deva uses the decanter to replenish it. If any fish died, the deva uses {@spell Relèvement} spells to revive one fish per day for ten days. Once all is set right, the deva flies from the train and casts {@spell Déplacement planaire} to return to Mount Celestia, taking the decanter with it."
 									]
 								}
 							]
@@ -22800,7 +22800,7 @@
 										"The short tube rising from the floor near the dais has a slot large enough to insert coins, gemstones, and other small valuables. Such valuables are then teleported to the cart in {@area area E9|448|x}.",
 										"Whenever a creature drops at least 10 gp worth of treasure into the tube, Cosmo, the illusory modron, reappears. It thanks the donor and asks which plane of existence they'd like to learn about.",
 										"Cosmo can give a brief lecture on any {@book plane of existence|DMG|2} described in the {@book Dungeon Master's Guide|DMG}. If a character asks about a plane on the train's route, Cosmo also alludes to noteworthy planar effects. For example, if asked about the Nine Hells, the spectral duodrone might say, \"Rest assured, the Concordant Express is reinforced to withstand extreme heat and extreme cold.\" Cosmo lectures about one plane per donation and vanishes after each lecture.",
-										"If a character inserts something worthless into the donation slot or otherwise tries to fool it with counterfeits and the like, the tube disgorges poisonous gas that quickly fills the compartment. This gas duplicates the effect of a {@spell stinking cloud} spell that lasts for 1 minute or until it is dispersed."
+										"If a character inserts something worthless into the donation slot or otherwise tries to fool it with counterfeits and the like, the tube disgorges poisonous gas that quickly fills the compartment. This gas duplicates the effect of a {@spell Nuée nauséabonde} spell that lasts for 1 minute or until it is dispersed."
 									]
 								}
 							]
@@ -22826,7 +22826,7 @@
 									"id": "434",
 									"entries": [
 										"The detective is a lawful neutral {@creature mind flayer} named {@creature Ignatius Inkblot|KftGV}. Seeing the characters, Ignatius lights a pipe with a match it holds with one of its face tentacles. The pipe exudes a green vapor that smells of absinthe. Since the characters weren't on the car when the murder occurred, Ignatius doesn't regard them as suspects and is friendly toward them. Ignatius can speak Common but loathes doing so; the mind flayer prefers to converse telepathically. Its tone is strident, and it uses stereotypical detective phrases such as \"The game is afoot!\" and \"The devil is in the details!\"",
-										"Ignatius tries to enlist the characters in its investigation. If they agree to help, the mind flayer asks them to look for clues and question suspects. (In the meantime, the mind flayer quietly casts {@spell detect thoughts}, focusing on every creature in the Passenger Car.) Ignatius asks that no one leave the car until the mystery is solved. If the characters leave anyway, Ignatius solves the case without their help.",
+										"Ignatius tries to enlist the characters in its investigation. If they agree to help, the mind flayer asks them to look for clues and question suspects. (In the meantime, the mind flayer quietly casts {@spell Détection de pensées}, focusing on every creature in the Passenger Car.) Ignatius asks that no one leave the car until the mystery is solved. If the characters leave anyway, Ignatius solves the case without their help.",
 										{
 											"type": "entries",
 											"name": "What Ignatius Knows",
@@ -22876,17 +22876,17 @@
 												{
 													"type": "item",
 													"name": "Examining the Corpse",
-													"entry": "A character who examines Quintus and succeeds on a {@dc 11} Intelligence ({@skill Arcanes}) or Wisdom ({@skill Médecine}) check determines that the aasimar was killed by three bolts of magical force identical to those created by a {@spell magic missile} spell. Given where the body fell, the direction Quintus was walking when he died, and where the wounds on the body are located, a character can deduce, with a successful {@dc 16} Intelligence ({@skill Investigation}) check, that the killer likely didn't come from Meldar's cabin."
+													"entry": "A character who examines Quintus and succeeds on a {@dc 11} Intelligence ({@skill Arcanes}) or Wisdom ({@skill Médecine}) check determines that the aasimar was killed by three bolts of magical force identical to those created by a {@spell Projectile magique} spell. Given where the body fell, the direction Quintus was walking when he died, and where the wounds on the body are located, a character can deduce, with a successful {@dc 16} Intelligence ({@skill Investigation}) check, that the killer likely didn't come from Meldar's cabin."
 												},
 												{
 													"type": "item",
 													"name": "Raising the Dead",
-													"entry": "A character who has the {@spell raise dead} spell prepared can use it to restore Quintus to life. (The devas in {@area areas E3|42a|x}and {@area E8|441|x} can also provide this service, if asked nicely.) Quintus is chaotic neutral and uses the {@creature noble} stat block, although he is unarmored and carries no weapons. Alive, the aasimar is less cooperative than when he was dead, for reasons explained in the \"{@area Motive|439|x}\" section below. He offers no possible reasons for why someone would want to kill him."
+													"entry": "A character who has the {@spell Relèvement} spell prepared can use it to restore Quintus to life. (The devas in {@area areas E3|42a|x}and {@area E8|441|x} can also provide this service, if asked nicely.) Quintus is chaotic neutral and uses the {@creature noble} stat block, although he is unarmored and carries no weapons. Alive, the aasimar is less cooperative than when he was dead, for reasons explained in the \"{@area Motive|439|x}\" section below. He offers no possible reasons for why someone would want to kill him."
 												},
 												{
 													"type": "item",
 													"name": "Speaking with the Dead",
-													"entry": "If a {@spell speak with dead} spell is cast on the corpse, the aasimar's spirit answers questions honestly. Quintus did not see his killer, but he knows one reason why every other passenger in this car (besides Ignatius) might want him dead. These reasons are summarized in the {@area Murder Suspects table|436|x}."
+													"entry": "If a {@spell Parler aux morts} spell is cast on the corpse, the aasimar's spirit answers questions honestly. Quintus did not see his killer, but he knows one reason why every other passenger in this car (besides Ignatius) might want him dead. These reasons are summarized in the {@area Murder Suspects table|436|x}."
 												}
 											]
 										}
@@ -22961,7 +22961,7 @@
 											"page": 171,
 											"id": "43c",
 											"entries": [
-												"If the characters accuse Ethlynn or Meldar of murdering Quintus, Ignatius telepathically warns the characters that their investigation has gone \"off the rails.\" He then recommends they \"look for clues within clues\" and \"try to understand the motive behind the killing.\" Gifted with the ability to cast {@spell detect thoughts} at will, Ignatius has already identified Vern as the individual responsible for Quintus's death, but Ignatius wants the characters to see the truth for themselves\u2014not simply take a mind flayer's word for it."
+												"If the characters accuse Ethlynn or Meldar of murdering Quintus, Ignatius telepathically warns the characters that their investigation has gone \"off the rails.\" He then recommends they \"look for clues within clues\" and \"try to understand the motive behind the killing.\" Gifted with the ability to cast {@spell Détection de pensées} at will, Ignatius has already identified Vern as the individual responsible for Quintus's death, but Ignatius wants the characters to see the truth for themselves\u2014not simply take a mind flayer's word for it."
 											]
 										},
 										{
@@ -23026,7 +23026,7 @@
 									"page": 172,
 									"id": "440",
 									"entries": [
-										"The slaad's master watches the battle unfold through an invisible scrying sensor like the one created by a {@spell scrying} spell. If the characters defeat the slaad, a magically altered voice issues from the invisible sensor and says in Common, \"So much for that. Next time you won't be so lucky!\" If the characters are working for the Golden Vault, the voice adds, \"The Golden Vault won't be able to protect you from our wrath.\" The scrying sensor then disappears."
+										"The slaad's master watches the battle unfold through an invisible scrying sensor like the one created by a {@spell Scrutation} spell. If the characters defeat the slaad, a magically altered voice issues from the invisible sensor and says in Common, \"So much for that. Next time you won't be so lucky!\" If the characters are working for the Golden Vault, the voice adds, \"The Golden Vault won't be able to protect you from our wrath.\" The scrying sensor then disappears."
 									]
 								}
 							]
@@ -23038,7 +23038,7 @@
 							"id": "441",
 							"entries": [
 								"This soundproof car is two stories tall (30 feet high) and encased in thick iron. Four {@creature Pentadrone||pentadrones} guard the rooftop. These guards are positioned near the corners of the roof, allowing them to spot trouble coming from the sides of the car.",
-								"The outer doors of the car are locked tight, as is the 10-foot-square skylight in the roof. As an action, a character with thieves' tools can try to open one of the doors or the skylight, doing so with a successful {@dc 17} Dexterity check. The skylight can also be shattered; it is made of thick glass and has AC 13, 27 hit points, and immunity to poison and psychic damage. Conversely, the doors are too strong to be forced open by anything other than {@spell knock} spells or similar magic.",
+								"The outer doors of the car are locked tight, as is the 10-foot-square skylight in the roof. As an action, a character with thieves' tools can try to open one of the doors or the skylight, doing so with a successful {@dc 17} Dexterity check. The skylight can also be shattered; it is made of thick glass and has AC 13, 27 hit points, and immunity to poison and psychic damage. Conversely, the doors are too strong to be forced open by anything other than {@spell Crochetage} spells or similar magic.",
 								"When the characters enter the car, read or paraphrase the following:",
 								{
 									"type": "insetReadaloud",
@@ -23199,7 +23199,7 @@
 									]
 								},
 								"The sapient Engine Car is the source of the deep, booming voice. The car speaks Common and Modron. While it's moving and not talking, the Engine Car labors through an endless chain of short, forceful breaths timed with each rhythmic churn of its mechanisms. Its undercarriage chatters as dozens of mechanical arms lay railway tracks before the train.",
-								"Inside the car, two {@creature Monodrone||monodrones} stoke the fire in the furnace by shoveling loot into it from a nearby cart (see \"{@area Treasure|44b|x}\" below). A {@creature shield guardian} stands next to the cart, guarding the treasure from thieves. Thanks to its Spell Storing trait, the guardian can cast {@spell sleep} (4th-level version) once.",
+								"Inside the car, two {@creature Monodrone||monodrones} stoke the fire in the furnace by shoveling loot into it from a nearby cart (see \"{@area Treasure|44b|x}\" below). A {@creature shield guardian} stands next to the cart, guarding the treasure from thieves. Thanks to its Spell Storing trait, the guardian can cast {@spell Sommeil} (4th-level version) once.",
 								{
 									"type": "image",
 									"href": {
@@ -23253,7 +23253,7 @@
 					"page": 174,
 					"id": "44c",
 					"entries": [
-						"After imparting the true names, the freed Stranger tips their hat and leaps from the train. Once out of range of the train's teleportation ward, {@creature the Stranger|KftGV} casts {@spell plane shift} and disappears. The characters can leave the Concordant Express in a similar fashion, or they can remain on the train until it arrives in Mechanus and secure safe passage home from there. Whether or not they helped solve the murder in the Passenger Car ({@area area E7|43e|x}), characters who disembark in Mechanus see {@creature Ignatius Inkblot|KftGV}, the mind flayer detective, escorting the cambion Abernathy Vernus off the train and into the waiting arms of a group of modrons.",
+						"After imparting the true names, the freed Stranger tips their hat and leaps from the train. Once out of range of the train's teleportation ward, {@creature the Stranger|KftGV} casts {@spell Déplacement planaire} and disappears. The characters can leave the Concordant Express in a similar fashion, or they can remain on the train until it arrives in Mechanus and secure safe passage home from there. Whether or not they helped solve the murder in the Passenger Car ({@area area E7|43e|x}), characters who disembark in Mechanus see {@creature Ignatius Inkblot|KftGV}, the mind flayer detective, escorting the cambion Abernathy Vernus off the train and into the waiting arms of a group of modrons.",
 						{
 							"type": "entries",
 							"name": "For the Golden Vault",
@@ -23269,7 +23269,7 @@
 							"page": 175,
 							"id": "44e",
 							"entries": [
-								"If the characters helped solve the murder mystery aboard the Concordant Express, the mind flayer detective {@creature Ignatius Inkblot|KftGV} uses its {@spell plane shift} spell to deliver a wrapped parcel to the characters several days later. The parcel contains a token of the illithid's esteem: a masterfully crafted magnifying glass worth 1,000 gp.",
+								"If the characters helped solve the murder mystery aboard the Concordant Express, the mind flayer detective {@creature Ignatius Inkblot|KftGV} uses its {@spell Déplacement planaire} spell to deliver a wrapped parcel to the characters several days later. The parcel contains a token of the illithid's esteem: a masterfully crafted magnifying glass worth 1,000 gp.",
 								"Characters can also leverage any true names they learn into further rewards, as discussed below:",
 								{
 									"type": "list",
@@ -23626,7 +23626,7 @@
 								"Zorhanna and {@creature Eliphas Adulare|KftGV} request the pleasure of your company at Paliset Hall to celebrate the arrival of the winter solstice. Come to Loch Wynnis no earlier than three days before the winter solstice, then take the crossing there to the Feywild at sundown. The many splendors of Paliset Hall await you on the other side! Formal attire is expected but not required."
 							]
 						},
-						"A {@spell detect magic} spell reveals an invisible watermark on the back of each invitation, which is used to verify its authenticity.",
+						"A {@spell Détection de la magie} spell reveals an invisible watermark on the back of each invitation, which is used to verify its authenticity.",
 						"Once the invitations are distributed, Fifel uncorks a scroll tube with his teeth, then flips the tube upside-down and shakes it vigorously until a rolled-up sheet of parchment falls out. He picks up the parchment, unrolls it, and reads what's written on it in Common:",
 						{
 							"type": "insetReadaloud",
@@ -23921,7 +23921,7 @@
 								"The other wolf reassures any first-time guests, \"While Loch Wynnis's gateway is open, you will find the water neither cold nor wet.\""
 							]
 						},
-						"The two {@creature Winter Wolf||winter wolves} inspect every guest's invitation but are fooled by well-crafted forgeries. Each wolf can cast {@spell see invisibility} on itself once per day, enabling it to see the invisible watermarks on the guests' invitations as well as to detect {@condition invisible} party-crashers.",
+						"The two {@creature Winter Wolf||winter wolves} inspect every guest's invitation but are fooled by well-crafted forgeries. Each wolf can cast {@spell Voir l'invisible} on itself once per day, enabling it to see the invisible watermarks on the guests' invitations as well as to detect {@condition invisible} party-crashers.",
 						"The wolves attack anyone caught trying to enter the Feywild without a validated invitation. When the last guest has crossed, the wolves return to Paliset Hall. If one or both wolves are killed, their failure to return is noticed by four more winter wolves on the Feywild side of the crossing (see {@area area P1|473|x}). These wolves recheck all invitations and attack anyone whose invitation fails a second inspection.",
 						{
 							"type": "entries",
@@ -23976,7 +23976,7 @@
 										{
 											"type": "item",
 											"name": "Lighting",
-											"entry": "The rooms of the manor are brightly lit with {@spell continual flame} spells spaced evenly along the walls."
+											"entry": "The rooms of the manor are brightly lit with {@spell Flamme perpétuelle} spells spaced evenly along the walls."
 										},
 										{
 											"type": "item",
@@ -24927,7 +24927,7 @@
 											"height": 1148,
 											"credit": "Nikki Dawes"
 										},
-										"The four {@creature Winter Wolf||winter wolves} are soon joined by the two {@creature Winter Wolf||winter wolves} from Loch Wynnis. Each wolf can cast {@spell see invisibility} on itself once per day, enabling it to see the invisible watermarks on the guests' invitations as well as detect {@condition invisible} party-crashers. The wolves are forbidden from entering Paliset Hall without a command from Zorhanna or Eliphas. If someone tries to slip past the wolves, they alert the ice mephits in {@area area P2|477|x}, which attack the offender.",
+										"The four {@creature Winter Wolf||winter wolves} are soon joined by the two {@creature Winter Wolf||winter wolves} from Loch Wynnis. Each wolf can cast {@spell Voir l'invisible} on itself once per day, enabling it to see the invisible watermarks on the guests' invitations as well as detect {@condition invisible} party-crashers. The wolves are forbidden from entering Paliset Hall without a command from Zorhanna or Eliphas. If someone tries to slip past the wolves, they alert the ice mephits in {@area area P2|477|x}, which attack the offender.",
 										{
 											"type": "entries",
 											"name": "Fey Crossing",
@@ -25321,7 +25321,7 @@
 											"page": 188,
 											"id": "49b",
 											"entries": [
-												"The Elvish rune for \"winter\" is inscribed on the wall opposite the stairs. A character who examines that wall and succeeds on a {@dc 20} Wisdom ({@skill Perception}) check spots the rune, which can also be found with a {@spell detect magic} spell. Pressing the rune's tile opens hidden pipes at the bottom of the pool and drains it completely in 1 minute. The pool remains empty for 10 minutes, after which it automatically refills with frigid water."
+												"The Elvish rune for \"winter\" is inscribed on the wall opposite the stairs. A character who examines that wall and succeeds on a {@dc 20} Wisdom ({@skill Perception}) check spots the rune, which can also be found with a {@spell Détection de la magie} spell. Pressing the rune's tile opens hidden pipes at the bottom of the pool and drains it completely in 1 minute. The pool remains empty for 10 minutes, after which it automatically refills with frigid water."
 											]
 										},
 										{
@@ -25331,7 +25331,7 @@
 											"id": "49c",
 											"entries": [
 												"The three concentric, gilded rings at the bottom of the pool are the locking mechanisms for a hidden safe. Each ring is flat and set in a shallow groove, such that it can be rotated. Once the water in the pool is drained, tiny Elvish runes representing the letters A through Z magically appear on the surface of each ring, with the letters spaced around the ring at equal intervals. Opening the safe requires that the three rings be turned in their grooves until their runes line up to form the word \"OAK.\" Only Zorhanna and her simulacrum know the correct combination of letters (although \"OAK\" is a direct reference to the magic painting in {@area area P10|492|x}).",
-												"The safe has no mechanisms that a thief can exploit using thieves' tools, but a {@spell knock} spell or similar magic can be used to open it.",
+												"The safe has no mechanisms that a thief can exploit using thieves' tools, but a {@spell Crochetage} spell or similar magic can be used to open it.",
 												"When the rings are properly aligned or the safe is opened by other means, the circular area inside the innermost ring disappears, allowing access to a hidden compartment measuring 1 foot on each side. If the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire} necklace was taken from {@creature Zorhanna's simulacrum|KftGV}, it rests in the compartment (the stone is still attuned to the Far Realm entity trapped inside it). Otherwise, the compartment is empty.",
 												"Seconds before the pool refills with water, the safe reseals itself and the runes vanish from the golden rings."
 											]
@@ -25381,9 +25381,9 @@
 													"id": "4a2",
 													"entries": [
 														"Eliphas casts one of the following spells, using Intelligence as the spellcasting ability (save {@dc 15}):",
-														"At will: {@spell light}, {@spell minor illusion}, {@spell prestidigitation}",
-														"2/day each: {@spell detect magic}, {@spell fog cloud}",
-														"1/day each: {@spell phantasmal force}, {@spell shatter}"
+														"At will: {@spell Lumière}, {@spell Illusion mineure}, {@spell prestidigitation}",
+														"2/day each: {@spell Détection de la magie}, {@spell Nuage de brouillard}",
+														"1/day each: {@spell Force phantasmale}, {@spell Déflagration}"
 													]
 												}
 											]
@@ -25429,8 +25429,8 @@
 									"page": 189,
 									"id": "4a4",
 									"entries": [
-										"An {@spell arcane lock} spell has been cast on the door to this room. Zorhanna, her simulacrum, and Eliphas treat the door as though it were unlocked.",
-										"As an action, a character can try to open the magically locked door using thieves' tools, doing so with a successful {@dc 22} Dexterity check, or try to force it open, doing so with a successful {@dc 22} Strength ({@skill Athlétisme}) check. A {@spell knock} spell or similar magic also opens the door.",
+										"An {@spell Serrure magique} spell has been cast on the door to this room. Zorhanna, her simulacrum, and Eliphas treat the door as though it were unlocked.",
+										"As an action, a character can try to open the magically locked door using thieves' tools, doing so with a successful {@dc 22} Dexterity check, or try to force it open, doing so with a successful {@dc 22} Strength ({@skill Athlétisme}) check. A {@spell Crochetage} spell or similar magic also opens the door.",
 										{
 											"type": "insetReadaloud",
 											"id": "4a5",
@@ -25446,8 +25446,8 @@
 											"id": "4a6",
 											"entries": [
 												"Any character who spends 1 hour examining the books on the shelves can, at the end of that hour, make a {@dc 20} Intelligence ({@skill Investigation}) check. If the check is successful, the character finds a rare book worth 250 gp to a collector. Only four such books can be found here.",
-												"The fur-covered book on the desk is Zorhanna's {@item Livre de sorts|PHB}, which contains the following spells: {@spell arcane lock}, {@spell banishment}, {@spell cone of cold}, {@spell counterspell}, {@spell detect magic}, {@spell detect thoughts}, {@spell fire shield}, {@spell fly}, {@spell globe of invulnerability}, {@spell ice storm}, {@spell identify}, {@spell knock}, {@spell legend lore}, {@spell lightning bolt}, {@spell mage armor}, {@spell magic missile}, {@spell mind blank}, {@spell mirror image}, {@spell misty step}, {@spell plane shift}, {@spell polymorph}, {@spell remove curse}, {@spell scrying}, {@spell sending}, {@spell stoneskin}, {@spell teleport}, {@spell time stop}, {@spell true seeing}, and {@spell wall of force}.",
-												"The crystal ball on the desk is nonmagical but worth 1,000 gp. It can be used as a focus for the {@spell scrying} spell.",
+												"The fur-covered book on the desk is Zorhanna's {@item Livre de sorts|PHB}, which contains the following spells: {@spell Serrure magique}, {@spell Bannissement}, {@spell Cône de froid}, {@spell Contresort}, {@spell Détection de la magie}, {@spell Détection de pensées}, {@spell Bouclier de feu}, {@spell Vol}, {@spell Globe d'invulnérabilité}, {@spell Tempête de glace}, {@spell Identification}, {@spell Crochetage}, {@spell Connaissance des légendes}, {@spell Éclair}, {@spell Armure du mage}, {@spell Projectile magique}, {@spell Vide mental}, {@spell Image dédoublée}, {@spell Pas brumeux}, {@spell Déplacement planaire}, {@spell Polymorphie}, {@spell Délivrance de la malédiction}, {@spell Scrutation}, {@spell Envoi de message}, {@spell Peau de pierre}, {@spell Téléportation}, {@spell Arrêt du temps}, {@spell Vision véritable}, and {@spell Mur de force}.",
+												"The crystal ball on the desk is nonmagical but worth 1,000 gp. It can be used as a focus for the {@spell Scrutation} spell.",
 												"Inside one of the desk drawers is a set of {@item Outils de rétameur|PHB} and a partially dismantled (and nonfunctional) music box similar in design to the ones used by the Golden Vault. Inside another desk drawer is a set of {@item Fournitures de calligraphe|PHB|calligrapher's tools}, three blank invitations to the winter solstice gala, some envelopes, a wax seal, and a silk {@item Bourse|PHB} containing 50 pp."
 											]
 										}
@@ -25489,7 +25489,7 @@
 											"page": 189,
 											"id": "4ab",
 											"entries": [
-												"Both storage closets are locked. Oren (see {@area area P3|47c|x}) and Anisetta (see {@area area P8|48d|x}) carry keys to these closets. As an action, a character can use thieves' tools to try to open a locked door, doing so with a successful {@dc 11} Dexterity check, or try to force open the door, doing so with a successful {@dc 15} Strength ({@skill Athlétisme}) check. A {@spell knock} spell or similar magic also opens the door.",
+												"Both storage closets are locked. Oren (see {@area area P3|47c|x}) and Anisetta (see {@area area P8|48d|x}) carry keys to these closets. As an action, a character can use thieves' tools to try to open a locked door, doing so with a successful {@dc 11} Dexterity check, or try to force open the door, doing so with a successful {@dc 15} Strength ({@skill Athlétisme}) check. A {@spell Crochetage} spell or similar magic also opens the door.",
 												"The easternmost closet is the one emitting light. When a character opens this closet for the first time, read or paraphrase the following text:",
 												{
 													"type": "insetReadaloud",
@@ -25547,9 +25547,9 @@
 											]
 										},
 										"{@creature Zorhanna Adulare|KftGV} stands in the middle of the largest floating rock (marked C on {@area map 12.2|472|x}). She is a chaotic good, elf {@creature archmage} who speaks Auran, Common, Draconic, Elvish, and Sylvan. She has expended all her 6th-level and higher spell slots trying to escape from the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire's} extradimensional space, to no avail.",
-										"Zorhanna's sense of reality has been warped by prolonged contact with the shapeless Far Realm entity that haunts the extradimensional space. She is convinced that the characters were conjured by this entity to harm her, so she attacks them. She casts {@spell cone of cold} or {@spell lightning bolt} every round on her turn for as long as she is able to do so. If one or more characters close to melee distance, she casts {@spell shocking grasp} and {@spell misty step} on her next turn, using the latter spell to teleport to another rock.",
+										"Zorhanna's sense of reality has been warped by prolonged contact with the shapeless Far Realm entity that haunts the extradimensional space. She is convinced that the characters were conjured by this entity to harm her, so she attacks them. She casts {@spell Cône de froid} or {@spell Éclair} every round on her turn for as long as she is able to do so. If one or more characters close to melee distance, she casts {@spell Poing électrique} and {@spell Pas brumeux} on her next turn, using the latter spell to teleport to another rock.",
 										"As an action, a character can make a {@dc 17} Charisma ({@skill Persuasion}) check while trying to convince Zorhanna that the party is not her enemy. If the check is successful, Zorhanna does nothing on her next turn except mutter to herself as she ponders what the character said. If the check fails, Zorhanna continues her attack. Once three such checks succeed, Zorhanna concludes that the characters are not her enemies and calls for an end to hostilities. She then screams into the void, \"You almost had me! Nice try, whatever you are!\"",
-										"The characters can also convince Zorhanna to stop attacking them by returning her spellbook to her. The spellbook (found in {@area area P16|4a4|x}) excites her because it contains the {@spell plane shift} spell\u2014her ticket to freedom (see \"{@area Escaping the Rift|4b3|x}\" below).",
+										"The characters can also convince Zorhanna to stop attacking them by returning her spellbook to her. The spellbook (found in {@area area P16|4a4|x}) excites her because it contains the {@spell Déplacement planaire} spell\u2014her ticket to freedom (see \"{@area Escaping the Rift|4b3|x}\" below).",
 										"Once Zorhanna is no longer hostile toward the characters, they can question her and learn the following information:",
 										{
 											"type": "list",
@@ -25593,8 +25593,8 @@
 											"page": 191,
 											"id": "4b3",
 											"entries": [
-												"A creature can't simply teleport from the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire's} extradimensional space. A {@spell plane shift} spell or similar magic is required.",
-												"If Zorhanna obtains her spellbook, she can use it to prepare the {@spell plane shift} spell, but only after finishing a 4-hour trance (the equivalent of a long rest for her). If the characters escape with Zorhanna before the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire} cracks, she admits that the {@item shard solitaire|KftGV} is too dangerous to keep in Paliset Hall and does everything in her power to make sure the characters leave with it. She also suggests the characters place it inside a {@item Sac contenant} or some other item that contains extradimensional storage space, in case the {@item shard solitaire|KftGV} explodes.",
+												"A creature can't simply teleport from the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire's} extradimensional space. A {@spell Déplacement planaire} spell or similar magic is required.",
+												"If Zorhanna obtains her spellbook, she can use it to prepare the {@spell Déplacement planaire} spell, but only after finishing a 4-hour trance (the equivalent of a long rest for her). If the characters escape with Zorhanna before the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire} cracks, she admits that the {@item shard solitaire|KftGV} is too dangerous to keep in Paliset Hall and does everything in her power to make sure the characters leave with it. She also suggests the characters place it inside a {@item Sac contenant} or some other item that contains extradimensional storage space, in case the {@item shard solitaire|KftGV} explodes.",
 												"If Zorhanna and the characters have no means of escaping the extradimensional space on their own, they are released when the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire} cracks (see \"{@area The Solitaire Cracks|4b7|x}\" below). Until then, they must try to resist the psychic damage caused by the Far Realm entity."
 											]
 										}
@@ -25618,8 +25618,8 @@
 							"page": 191,
 							"id": "4b5",
 							"entries": [
-								"If all three members of the Crestfall Coven are within 30 feet of each other, they gain the benefit of the Shared Spellcasting trait described in the \"Hag Covens\" sidebar in the {@book Monster Manual|MM}. One of the three hags uses this trait to cast {@spell locate object} to find the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire}. If they find the {@item shard solitaire|KftGV} in another creature's possession, the hags attack whoever has it. If the {@item shard solitaire|KftGV} necklace teleported to Zorhanna's vault, the hags use Change Shape to assume Zorhanna's appearance and slip past the vault's stone golem guardian. One of the hags then casts {@spell contact other plane} (which has a 1-minute casting time) to learn the three-letter combination needed to open the vault.",
-								"If the characters are trapped inside the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire} or otherwise unable to thwart the Crestfall Coven, the hags snatch the necklace from the vault and use their {@spell plane shift} spells to transport to Loch Wynnis, where they wait for Mettle."
+								"If all three members of the Crestfall Coven are within 30 feet of each other, they gain the benefit of the Shared Spellcasting trait described in the \"Hag Covens\" sidebar in the {@book Monster Manual|MM}. One of the three hags uses this trait to cast {@spell Localisation d'objet} to find the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire}. If they find the {@item shard solitaire|KftGV} in another creature's possession, the hags attack whoever has it. If the {@item shard solitaire|KftGV} necklace teleported to Zorhanna's vault, the hags use Change Shape to assume Zorhanna's appearance and slip past the vault's stone golem guardian. One of the hags then casts {@spell Contact avec les autres plans} (which has a 1-minute casting time) to learn the three-letter combination needed to open the vault.",
+								"If the characters are trapped inside the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire} or otherwise unable to thwart the Crestfall Coven, the hags snatch the necklace from the vault and use their {@spell Déplacement planaire} spells to transport to Loch Wynnis, where they wait for Mettle."
 							]
 						},
 						{
@@ -25629,7 +25629,7 @@
 							"id": "4b6",
 							"entries": [
 								"Characters in Paliset Hall might encounter the Crestfall Coven as the hags search for the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire} necklace. The hags are willing to cut a deal with the characters, provided the coven gets to keep the {@item shard solitaire|KftGV}. Clever characters might help the hags break into Zorhanna's vault, then betray the hags and claim the {@item shard solitaire|KftGV} for themselves. Similarly, any character who took Mettle's {@item Œil de sorcière|MM} can trade it for the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire}, since the hags don't want to suffer the consequences of their {@item Œil de sorcière|MM} being destroyed.",
-								"If a night hag is reduced to 50 hit points or fewer, it uses {@spell plane shift} to flee. If two members of the coven are forced to flee in this manner, the third flees as well."
+								"If a night hag is reduced to 50 hit points or fewer, it uses {@spell Déplacement planaire} to flee. If two members of the coven are forced to flee in this manner, the third flees as well."
 							]
 						}
 					]
@@ -25646,7 +25646,7 @@
 							"items": [
 								"{@dice 1d8} hours after the characters return to the Material Plane with the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire} in their possession",
 								"If the characters are trapped in {@area area P20|4af|x} with the Far Realm entity and have no means of escape",
-								"After the night hags obtain the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire} but before they can use their {@spell plane shift} spells to escape with it"
+								"After the night hags obtain the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire} but before they can use their {@spell Déplacement planaire} spells to escape with it"
 							]
 						},
 						"The cracking of the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire} is audible to anyone holding or wearing it. In that instant, the {@item Solitaire d'éclat (diamant)|KftGV|shard solitaire} becomes a flawed, nonmagical diamond worth 500 gp, and all the creatures and extradimensional energy contained within it are released at once. If Zorhanna is alive, she materializes in an unoccupied space within 30 feet of the stone, as do any characters who were trapped in the stone with her. The Far Realm entity is nowhere to be seen, and its presence can no longer be felt.",
@@ -25923,7 +25923,7 @@
 										{
 											"type": "item",
 											"name": "Timing Arrival",
-											"entry": "The characters can time their arrival to coincide with the arrival of a prisoner escort or supply shipment. Timing their arrival to Vrakir's presence or absence is harder, since the efreeti travels to the fortress via the {@spell plane shift} spell. Doing so might first require characters to spy on the hold's activities."
+											"entry": "The characters can time their arrival to coincide with the arrival of a prisoner escort or supply shipment. Timing their arrival to Vrakir's presence or absence is harder, since the efreeti travels to the fortress via the {@spell Déplacement planaire} spell. Doing so might first require characters to spy on the hold's activities."
 										},
 										{
 											"type": "item",
@@ -28449,7 +28449,7 @@
 											"page": 206,
 											"id": "525",
 											"entries": [
-												"The statues are two {@creature Stone Golem||stone golems} that are normally quiescent and don't react to the characters' presence. However, the golems are magically attuned to the door to area B29 and become hostile if a creature attempts to open the door by any means other than using Vrakir's key. A character who succeeds on their ability check to pick the lock by 10 or more avoids triggering the golems. Entering area B29 by using magic (such as the {@spell passwall} spell) to bypass the door entirely doesn't trigger the golems."
+												"The statues are two {@creature Stone Golem||stone golems} that are normally quiescent and don't react to the characters' presence. However, the golems are magically attuned to the door to area B29 and become hostile if a creature attempts to open the door by any means other than using Vrakir's key. A character who succeeds on their ability check to pick the lock by 10 or more avoids triggering the golems. Entering area B29 by using magic (such as the {@spell Passage en creux} spell) to bypass the door entirely doesn't trigger the golems."
 											]
 										}
 									]
@@ -28493,8 +28493,8 @@
 											]
 										},
 										"The tome resembles the {@item Les Chapitres interdits (variante)|KftGV|Book of Vile Darkness} but is actually a trained {@creature mimic}. Any character who examines the tome and succeeds on a {@dc 20} Intelligence ({@skill Arcanes}) check recognizes it as a fraud. The mimic attacks any creature that touches or attacks it.",
-										"The room's back wall appears solid but is the anchor for a magical doorway to area B30: the demiplane where Vrakir keeps the real {@item Les Chapitres interdits (variante)|KftGV|Book of Vile Darkness}. Anyone examining the wall using {@spell detect magic} can see the outline of the door. The scorch marks and cracked masonry are due to the book's corrupting influence, which seeps out every time the doorway is opened.",
-										"The key to opening the door is the gemstone set in the wall carving. The gem is trapped with a 6th-level {@spell glyph of warding} spell. The glyph casts {@spell disintegrate} on any creature that touches the gem without speaking Vrakir's motto: atka ignari. While touching the gem, a creature can take an action to open the door to area B30 as if the creature had cast the {@spell demiplane} spell; this causes the face in the wall to stretch its mouth wide as a shimmering gray portal appears within. Removing the gem from the wall causes the doorway to disappear, trapping anything in area B30 in the demiplane until the gem is replaced or someone else accesses the room with a {@spell demiplane} spell.",
+										"The room's back wall appears solid but is the anchor for a magical doorway to area B30: the demiplane where Vrakir keeps the real {@item Les Chapitres interdits (variante)|KftGV|Book of Vile Darkness}. Anyone examining the wall using {@spell Détection de la magie} can see the outline of the door. The scorch marks and cracked masonry are due to the book's corrupting influence, which seeps out every time the doorway is opened.",
+										"The key to opening the door is the gemstone set in the wall carving. The gem is trapped with a 6th-level {@spell Glyphe de garde} spell. The glyph casts {@spell Désintégration} on any creature that touches the gem without speaking Vrakir's motto: atka ignari. While touching the gem, a creature can take an action to open the door to area B30 as if the creature had cast the {@spell Demi-plan} spell; this causes the face in the wall to stretch its mouth wide as a shimmering gray portal appears within. Removing the gem from the wall causes the doorway to disappear, trapping anything in area B30 in the demiplane until the gem is replaced or someone else accesses the room with a {@spell Demi-plan} spell.",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -28530,7 +28530,7 @@
 											"height": 1147,
 											"credit": "Conceptopolis"
 										},
-										"If the characters had a relatively easy time getting here, add two {@condition invisible} {@creature Nycaloth||nycaloths} as guards. The nycaloths are mercenaries hired by Vrakir to protect the {@item Les Chapitres interdits (variante)|KftGV|Book of Vile Darkness}, and their {@spell invisibility} spells end when they attack.",
+										"If the characters had a relatively easy time getting here, add two {@condition invisible} {@creature Nycaloth||nycaloths} as guards. The nycaloths are mercenaries hired by Vrakir to protect the {@item Les Chapitres interdits (variante)|KftGV|Book of Vile Darkness}, and their {@spell Invisibilité} spells end when they attack.",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -28545,7 +28545,7 @@
 														{
 															"type": "item",
 															"name": "Circle of Death",
-															"entry": "While attuned to the book, you can cast {@spell circle of death} (save {@dc 20}) from it as an action. After you cast the spell, roll a {@dice d6}. On a roll of 1\u20135, you can't use this property again until the next dawn."
+															"entry": "While attuned to the book, you can cast {@spell Cercle de mort} (save {@dc 20}) from it as an action. After you cast the spell, roll a {@dice d6}. On a roll of 1\u20135, you can't use this property again until the next dawn."
 														},
 														{
 															"type": "item",
@@ -28555,7 +28555,7 @@
 														{
 															"type": "item",
 															"name": "Evil Presence",
-															"entry": "The book houses an evil spirit that is hostile toward you. When you become attuned to the book, the spirit tries to leave the book and enter your body. If you fail a {@dc 20} Charisma saving throw, it succeeds, and you become an NPC under the DM's control until the intruding spirit is banished using magic such as the {@spell dispel evil and good} spell. The banished spirit returns to the book."
+															"entry": "The book houses an evil spirit that is hostile toward you. When you become attuned to the book, the spirit tries to leave the book and enter your body. If you fail a {@dc 20} Charisma saving throw, it succeeds, and you become an NPC under the DM's control until the intruding spirit is banished using magic such as the {@spell Dissipation du mal et du bien} spell. The banished spirit returns to the book."
 														}
 													]
 												}

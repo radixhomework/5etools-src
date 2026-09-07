@@ -356,7 +356,7 @@
 					"items": [
 						"La vitesse d'une créature agrippée devient 0, et elle ne peut bénéficier d'aucun bonus à sa vitesse.",
 						"La condition prend fin si l'agrippeur est {@condition Incapable}.",
-						"La condition prend également fin si un effet retire la créature agrippée de la portée de l'agrippeur ou de l'effet d'agrippement, comme lorsqu'une créature est projetée au loin par le sort {@spell thunderwave}."
+						"La condition prend également fin si un effet retire la créature agrippée de la portée de l'agrippeur ou de l'effet d'agrippement, comme lorsqu'une créature est projetée au loin par le sort {@spell Onde de tonnerre}."
 					]
 				}
 			],
@@ -1059,8 +1059,8 @@
 			"entries": [
 				"Tout humanoïde qui passe 12 heures dans la nécropole doit réussir un jet de sauvegarde de Constitution {@dc 15}, sans quoi il contracte un fléau arcanique. Cette maladie magique transforme l'humanoïde en {@creature nothic}, mais seulement après que la victime a éprouvé des hallucinations et des sentiments d'isolement et de paranoïa. Les autres symptômes comprennent une peau moite, une perte de cheveux et une myopie.",
 				"Un personnage joueur infecté par le fléau arcanique gagne le défaut suivant : « Je ne fais confiance à personne. » Ce défaut, qui remplace tout défaut incompatible, est alimenté par des idées délirantes qu'il est difficile pour le personnage de distinguer de la réalité. Parmi les délires courants figurent la conviction que les alliés conspirent pour voler les richesses de la victime ou se retourner autrement contre elle.",
-				"Chaque fois qu'il termine un repos long, un humanoïde infecté doit relancer le jet de sauvegarde. En cas de réussite, le DD des jets de sauvegarde futurs contre le fléau arcanique diminue de {@dice 1d6}. Si le DD du jet de sauvegarde descend à 0, la créature vient à bout du fléau arcanique et devient immunisée contre l'effet d'une exposition ultérieure. Une créature qui échoue à trois de ces jets de sauvegarde se transforme en {@creature nothic} sous le contrôle du MJ. Seul un sort de {@spell wish} ou une intervention divine peut annuler cette transformation.",
-				"Un sort de {@spell greater restoration} ou une magie similaire met fin à l'infection sur la cible, supprimant le défaut et tous les autres symptômes, mais cette magie ne protège pas la cible contre une exposition ultérieure."
+				"Chaque fois qu'il termine un repos long, un humanoïde infecté doit relancer le jet de sauvegarde. En cas de réussite, le DD des jets de sauvegarde futurs contre le fléau arcanique diminue de {@dice 1d6}. Si le DD du jet de sauvegarde descend à 0, la créature vient à bout du fléau arcanique et devient immunisée contre l'effet d'une exposition ultérieure. Une créature qui échoue à trois de ces jets de sauvegarde se transforme en {@creature nothic} sous le contrôle du MJ. Seul un sort de {@spell Souhait} ou une intervention divine peut annuler cette transformation.",
+				"Un sort de {@spell Restauration supérieure} ou une magie similaire met fin à l'infection sur la cible, supprimant le défaut et tous les autres symptômes, mais cette magie ne protège pas la cible contre une exposition ultérieure."
 			]
 		},
 		{
@@ -1077,7 +1077,7 @@
 			"source": "ToA",
 			"page": 40,
 			"entries": [
-				"Une brume magique rampe à travers les jungles de Chult. Le contact avec cette brume fine, bleue et inodore peut infecter les géants et les humanoïdes de la fièvre de la brume bleue. Un sort {@spell dispel magic} détruit la brume dans une zone de 20 pieds de côté commençant à un point choisi par le lanceur dans la portée du sort. Une rencontre avec cette brume couvre généralement {@dice 1d6} zones de ce type (400 à 2 400 pieds carrés).",
+				"Une brume magique rampe à travers les jungles de Chult. Le contact avec cette brume fine, bleue et inodore peut infecter les géants et les humanoïdes de la fièvre de la brume bleue. Un sort {@spell Dissipation de la magie} détruit la brume dans une zone de 20 pieds de côté commençant à un point choisi par le lanceur dans la portée du sort. Une rencontre avec cette brume couvre généralement {@dice 1d6} zones de ce type (400 à 2 400 pieds carrés).",
 				"Un géant ou un humanoïde qui entre en contact avec la brume doit réussir un jet de sauvegarde de Constitution {@dc 13}, sans quoi il est infecté par la fièvre de la brume bleue. Une créature infectée commence à voir d'éclatantes hallucinations de singes bleus {@dice 1d6} heures après son échec au jet, et ces hallucinations durent jusqu'à la fin de la maladie. Une créature peut relancer le jet de sauvegarde toutes les 24 heures, mettant fin à l'effet en cas de réussite."
 			]
 		},
@@ -1276,7 +1276,7 @@
 							"type": "entries",
 							"name": "Lutter contre la contagion",
 							"entries": [
-								"Un sort de {@spell Heal|XPHB} ou de {@spell Lesser Restoration|XPHB} met immédiatement fin à la contagion."
+								"Un sort de {@spell Guérison|XPHB} ou de {@spell Restauration partielle|XPHB} met immédiatement fin à la contagion."
 							]
 						},
 						{
@@ -1307,7 +1307,7 @@
 				"Après un échec au jet de sauvegarde, une créature éprouve les premiers symptômes — courbatures, nausées, parole pâteuse et bave incontrôlable — {@dice 1d4} heures plus tard et gagne 1 niveau d'{@condition Épuisement}. Toutes les 24 heures par la suite, la créature gagne automatiquement un autre niveau d'{@condition Épuisement}. Toute créature tuée par la peste saprophytique se transforme en une buée magenta inerte.",
 				"Une créature infectée par la peste saprophytique depuis au moins 24 heures se comporte comme un zombi et semble à peine consciente de son environnement, tandis que des excroissances fongiques poussent sur sa tête, son corps et ses membres. Elle ressent une envie irrésistible de se trouver à proximité de groupes de créatures non infectées afin de propager la contagion. C'est à ce moment que les humanoïdes infectés commencent à répéter le mot « Xanthoria » sans fin, sans comprendre ce que ce mot signifie. Ce comportement est le résultat d'un réseau mycélien de spores qui forme un lien ténu entre Xanthoria et les humanoïdes infectés par la peste.",
 				"Les denrées alimentaires exposées aux spores de la peste se décomposent ou tournent en moins de {@dice 2d12} heures, laissant derrière elles une masse magenta macabre de champignons suintants. Manger des aliments infectés nécessite un jet de sauvegarde comme décrit ci-dessus.",
-				"Toute magie qui guérit une maladie peut débarrasser une créature de la peste saprophytique. Le lancement de {@spell purify food and drink} détruit l'infection présente dans les denrées alimentaires."
+				"Toute magie qui guérit une maladie peut débarrasser une créature de la peste saprophytique. Le lancement de {@spell Purification de la nourriture et de la boisson} détruit l'infection présente dans les denrées alimentaires."
 			]
 		},
 		{
@@ -1448,7 +1448,7 @@
 			],
 			"entries": [
 				"Cette infection douloureuse provoque des saignements des yeux et finit par rendre la victime aveugle.",
-				"Une bête ou un humanoïde qui boit de l'eau contaminée par la pourriture des yeux doit réussir un jet de sauvegarde de Constitution {@dc 15}, sans quoi il est infecté. Un jour après l'infection, la vision de la créature commence à devenir floue. La créature subit un malus de -1 aux jets d'attaque et aux tests de caractéristique qui reposent sur la vue. À la fin de chaque repos long suivant l'apparition des symptômes, le malus s'aggrave de 1. Lorsqu'il atteint -5, la victime est {@condition Aveuglé} jusqu'à ce que sa vue soit restaurée par une magie telle que {@spell lesser restoration} ou {@spell heal}.",
+				"Une bête ou un humanoïde qui boit de l'eau contaminée par la pourriture des yeux doit réussir un jet de sauvegarde de Constitution {@dc 15}, sans quoi il est infecté. Un jour après l'infection, la vision de la créature commence à devenir floue. La créature subit un malus de -1 aux jets d'attaque et aux tests de caractéristique qui reposent sur la vue. À la fin de chaque repos long suivant l'apparition des symptômes, le malus s'aggrave de 1. Lorsqu'il atteint -5, la victime est {@condition Aveuglé} jusqu'à ce que sa vue soit restaurée par une magie telle que {@spell Restauration partielle} ou {@spell Guérison}.",
 				"La pourriture des yeux peut être guérie à l'aide d'une fleur rare appelée euphraise, qui pousse dans certains marais. En une heure, un personnage qui maîtrise les {@item Trousse d'herboriste|phb} peut transformer la fleur en une dose de pommade. Appliquée sur les yeux avant un repos long, une dose de cette pommade empêche la maladie de s'aggraver après ce repos. Après trois doses, la pommade guérit entièrement la maladie."
 			]
 		},
@@ -1467,7 +1467,7 @@
 							"type": "entries",
 							"name": "Lutter contre la contagion",
 							"entries": [
-								"Une magie telle qu'un sort de {@spell Heal|XPHB} ou de {@spell Lesser Restoration|XPHB} met immédiatement fin à la contagion. Un personnage qui maîtrise les {@item Trousse d'herboriste|XPHB} peut s'en servir pour créer une dose de pommade non magique, ce qui prend 1 heure. Appliquée sur les yeux d'une créature atteinte de la pourriture des yeux, la pommade supprime la contagion chez cette créature pendant 24 heures. Si la contagion est ainsi supprimée pendant un total de 72 heures (nécessitant trois doses et trois applications de la pommade), la contagion prend fin pour la créature."
+								"Une magie telle qu'un sort de {@spell Guérison|XPHB} ou de {@spell Restauration partielle|XPHB} met immédiatement fin à la contagion. Un personnage qui maîtrise les {@item Trousse d'herboriste|XPHB} peut s'en servir pour créer une dose de pommade non magique, ce qui prend 1 heure. Appliquée sur les yeux d'une créature atteinte de la pourriture des yeux, la pommade supprime la contagion chez cette créature pendant 24 heures. Si la contagion est ainsi supprimée pendant un total de 72 heures (nécessitant trois doses et trois applications de la pommade), la contagion prend fin pour la créature."
 							]
 						},
 						{
@@ -1496,7 +1496,7 @@
 			"page": 47,
 			"entries": [
 				"Si le groupe est vaincu, les personnages stabilisés se réveillent après {@dice 1d4} heures et découvrent qu'ils sont enveloppés dans des toiles collantes, suspendus à 10 pieds au-dessus du sol, avec des œufs d'araignée implantés dans leur corps. Un personnage ainsi enveloppé est {@condition Entravé} et peut utiliser son action pour tenter de s'échapper en réussissant un test de Force {@dc 15}.",
-				"Les œufs d'araignée implantés dans un hôte éclosent en {@dice 2d12} heures, tuant l'hôte tandis que les araignées nouveau-nées se frayent un chemin vers l'extérieur. Cette infestation fonctionne comme une maladie. Un sort de {@spell lesser restoration} ou une magie similaire lancé sur l'hôte tue les œufs d'araignée, mettant fin à la menace."
+				"Les œufs d'araignée implantés dans un hôte éclosent en {@dice 2d12} heures, tuant l'hôte tandis que les araignées nouveau-nées se frayent un chemin vers l'extérieur. Cette infestation fonctionne comme une maladie. Un sort de {@spell Restauration partielle} ou une magie similaire lancé sur l'hôte tue les œufs d'araignée, mettant fin à la menace."
 			]
 		},
 		{

@@ -54,14 +54,14 @@
 						"The aarakocra casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Elementalism|XPHB}",
-						"{@spell Gust of Wind|XPHB}",
-						"{@spell Mage Hand|XPHB}",
+						"{@spell Élémentalisme|XPHB}",
+						"{@spell Rafale|XPHB}",
+						"{@spell Main du mage|XPHB}",
 						"{@spell Message|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Lightning Bolt|XPHB}"
+							"{@spell Éclair|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -71,11 +71,11 @@
 					"name": "Feather Fall (1/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The aarakocra casts {@spell Feather Fall|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+						"The aarakocra casts {@spell Chute ralentie|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"1": [
-							"{@spell Feather Fall|XPHB}"
+							"{@spell Chute ralentie|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -89,7 +89,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The aarakocra makes two Wind Staff attacks, and it can use Spellcasting to cast {@spell Gust of Wind|XPHB}."
+						"The aarakocra makes two Wind Staff attacks, and it can use Spellcasting to cast {@spell Rafale|XPHB}."
 					]
 				},
 				{
@@ -279,8 +279,8 @@
 						"The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Minor Illusion|XPHB}"
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Illusion mineure|XPHB}"
 					],
 					"ability": "wis",
 					"displayAs": "action"
@@ -289,11 +289,11 @@
 					"name": "Counterspell (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The cultist casts {@spell Counterspell|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+						"The cultist casts {@spell Contresort|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Counterspell|XPHB}"
+							"{@spell Contresort|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -763,14 +763,14 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}, {@hit 9} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Fear|XPHB}",
-						"{@spell Melf's Acid Arrow|XPHB} (level 3 version)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Peur|XPHB}",
+						"{@spell Flèche acide de Melf|XPHB} (level 3 version)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Speak with Dead|XPHB}",
-							"{@spell Vitriolic Sphere|XPHB}"
+							"{@spell Parler aux morts|XPHB}",
+							"{@spell Sphère vitriolique|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -795,7 +795,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Melf's Acid Arrow|XPHB} (level 3 version)."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Flèche acide de Melf|XPHB} (level 3 version)."
 					]
 				},
 				{
@@ -822,7 +822,7 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Fear|XPHB}. The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Peur|XPHB}. The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -974,15 +974,15 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Invisibility|XPHB}",
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Shatter|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Invisibilité|XPHB}",
+						"{@spell Main du mage|XPHB}",
+						"{@spell Déflagration|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Scrying|XPHB}",
-							"{@spell Sending|XPHB}"
+							"{@spell Scrutation|XPHB}",
+							"{@spell Envoi de message|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -1001,7 +1001,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Shatter|XPHB}."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Déflagration|XPHB}."
 					]
 				},
 				{
@@ -1022,13 +1022,13 @@
 				{
 					"name": "Cloaked Flight",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Invisibility|XPHB} on itself, and it can fly up to half its {@variantrule Fly Speed|XPHB}. The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Invisibilité|XPHB} on itself, and it can fly up to half its {@variantrule Fly Speed|XPHB}. The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
 					"name": "Sonic Boom",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Shatter|XPHB}. The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Déflagration|XPHB}. The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -1177,16 +1177,16 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Minor Illusion|XPHB}",
-						"{@spell Scorching Ray|XPHB}",
-						"{@spell Shapechange|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)",
-						"{@spell Speak with Animals|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Illusion mineure|XPHB}",
+						"{@spell Rayons brûlants|XPHB}",
+						"{@spell Changement de forme|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)",
+						"{@spell Parler aux animaux|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Detect Thoughts|XPHB}",
-							"{@spell Control Weather|XPHB}"
+							"{@spell Détection de pensées|XPHB}",
+							"{@spell Contrôle du climat|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -1205,7 +1205,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Sleep Breath or (B) Spellcasting to cast {@spell Scorching Ray|XPHB}."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Sleep Breath or (B) Spellcasting to cast {@spell Rayons brûlants|XPHB}."
 					]
 				},
 				{
@@ -1232,7 +1232,7 @@
 				{
 					"name": "Blazing Light",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Scorching Ray|XPHB}."
+						"The dragon uses Spellcasting to cast {@spell Rayons brûlants|XPHB}."
 					]
 				},
 				{
@@ -1383,16 +1383,16 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}, {@hit 10} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Guiding Bolt|XPHB} (level 2 version)",
-						"{@spell Shapechange|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)",
-						"{@spell Speak with Animals|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Trait de lumière|XPHB} (level 2 version)",
+						"{@spell Changement de forme|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)",
+						"{@spell Parler aux animaux|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Detect Thoughts|XPHB}",
-							"{@spell Water Breathing|XPHB}"
+							"{@spell Détection de pensées|XPHB}",
+							"{@spell Respiration aquatique|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -1417,7 +1417,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Repulsion Breath or (B) Spellcasting to cast {@spell Guiding Bolt|XPHB} (level 2 version)."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Repulsion Breath or (B) Spellcasting to cast {@spell Trait de lumière|XPHB} (level 2 version)."
 					]
 				},
 				{
@@ -1444,7 +1444,7 @@
 				{
 					"name": "Guiding Light",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Guiding Bolt|XPHB} (level 2 version)."
+						"The dragon uses Spellcasting to cast {@spell Trait de lumière|XPHB} (level 2 version)."
 					]
 				},
 				{
@@ -1604,15 +1604,15 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Mind Spike|XPHB} (level 4 version)",
-						"{@spell Minor Illusion|XPHB}",
-						"{@spell Shapechange|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Pic mental|XPHB} (level 4 version)",
+						"{@spell Illusion mineure|XPHB}",
+						"{@spell Changement de forme|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Greater Restoration|XPHB}",
-							"{@spell Major Image|XPHB}"
+							"{@spell Restauration supérieure|XPHB}",
+							"{@spell Image majeure|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -1631,7 +1631,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Slowing Breath or (B) Spellcasting to cast {@spell Mind Spike|XPHB} (level 4 version)."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Slowing Breath or (B) Spellcasting to cast {@spell Pic mental|XPHB} (level 4 version)."
 					]
 				},
 				{
@@ -1664,7 +1664,7 @@
 				{
 					"name": "Mind Jolt",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Mind Spike|XPHB} (level 4 version). The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Pic mental|XPHB} (level 4 version). The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -1814,14 +1814,14 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 21}, {@hit 13} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Guiding Bolt|XPHB} (level 2 version)",
-						"{@spell Shapechange|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Trait de lumière|XPHB} (level 2 version)",
+						"{@spell Changement de forme|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Flame Strike|XPHB}",
-							"{@spell Zone of Truth|XPHB}"
+							"{@spell Colère sacrée|XPHB}",
+							"{@spell Zone de vérité|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -1846,7 +1846,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Spellcasting to cast {@spell Guiding Bolt|XPHB} (level 2 version) or (B) Weakening Breath."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Spellcasting to cast {@spell Trait de lumière|XPHB} (level 2 version) or (B) Weakening Breath."
 					]
 				},
 				{
@@ -1879,7 +1879,7 @@
 				{
 					"name": "Guiding Light",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Guiding Bolt|XPHB} (level 2 version)."
+						"The dragon uses Spellcasting to cast {@spell Trait de lumière|XPHB} (level 2 version)."
 					]
 				},
 				{
@@ -2039,8 +2039,8 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Mind Spike|XPHB} (level 3 version)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Pic mental|XPHB} (level 3 version)"
 					],
 					"daily": {
 						"1": [
@@ -2069,7 +2069,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Mind Spike|XPHB} (level 3 version)."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Pic mental|XPHB} (level 3 version)."
 					]
 				},
 				{
@@ -2090,7 +2090,7 @@
 				{
 					"name": "Mind Invasion",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Mind Spike|XPHB} (level 3 version)."
+						"The dragon uses Spellcasting to cast {@spell Pic mental|XPHB} (level 3 version)."
 					]
 				},
 				{
@@ -2246,13 +2246,13 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 20}, {@hit 12} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Command|XPHB} (level 2 version)",
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Scorching Ray|XPHB}"
+						"{@spell Ordre|XPHB} (level 2 version)",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Rayons brûlants|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Fireball|XPHB}"
+							"{@spell Boule de feu|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -2271,7 +2271,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Scorching Ray|XPHB}."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Rayons brûlants|XPHB}."
 					]
 				},
 				{
@@ -2292,13 +2292,13 @@
 				{
 					"name": "Commanding Presence",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Command|XPHB} (level 2 version). The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Ordre|XPHB} (level 2 version). The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
 					"name": "Fiery Rays",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Scorching Ray|XPHB}. The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Rayons brûlants|XPHB}. The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -2445,15 +2445,15 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 19}, {@hit 11} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Hold Monster|XPHB}",
-						"{@spell Ice Knife|XPHB}",
-						"{@spell Shapechange|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Immobilisation de monstre|XPHB}",
+						"{@spell Couteau de glace|XPHB}",
+						"{@spell Changement de forme|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Ice Storm|XPHB} (level 5 version)",
-							"{@spell Zone of Truth|XPHB}"
+							"{@spell Tempête de glace|XPHB} (level 5 version)",
+							"{@spell Zone de vérité|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -2472,7 +2472,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Paralyzing Breath or (B) Spellcasting to cast {@spell Ice Knife|XPHB}."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Paralyzing Breath or (B) Spellcasting to cast {@spell Couteau de glace|XPHB}."
 					]
 				},
 				{
@@ -2499,7 +2499,7 @@
 				{
 					"name": "Chill",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Hold Monster|XPHB}. The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Immobilisation de monstre|XPHB}. The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -2660,11 +2660,11 @@
 					"name": "Frightful Presence",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The dragon casts {@spell Fear|XPHB}, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 14}). The dragon can't take this action again until the start of its next turn."
+						"The dragon casts {@spell Peur|XPHB}, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 14}). The dragon can't take this action again until the start of its next turn."
 					],
 					"legendary": {
 						"1": [
-							"{@spell Fear|XPHB}"
+							"{@spell Peur|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -3071,15 +3071,15 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 21}, {@hit 13} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Fear|XPHB}",
-						"{@spell Melf's Acid Arrow|XPHB} (level 4 version)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Peur|XPHB}",
+						"{@spell Flèche acide de Melf|XPHB} (level 4 version)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Create Undead|XPHB}",
-							"{@spell Speak with Dead|XPHB}",
-							"{@spell Vitriolic Sphere|XPHB} (level 5 version)"
+							"{@spell Création de morts-vivants|XPHB}",
+							"{@spell Parler aux morts|XPHB}",
+							"{@spell Sphère vitriolique|XPHB} (level 5 version)"
 						]
 					},
 					"ability": "cha",
@@ -3104,7 +3104,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Melf's Acid Arrow|XPHB} (level 4 version)."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Flèche acide de Melf|XPHB} (level 4 version)."
 					]
 				},
 				{
@@ -3131,7 +3131,7 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Fear|XPHB}. The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Peur|XPHB}. The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -3284,15 +3284,15 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 22}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Invisibility|XPHB}",
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Shatter|XPHB} (level 3 version)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Invisibilité|XPHB}",
+						"{@spell Main du mage|XPHB}",
+						"{@spell Déflagration|XPHB} (level 3 version)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Scrying|XPHB}",
-							"{@spell Sending|XPHB}"
+							"{@spell Scrutation|XPHB}",
+							"{@spell Envoi de message|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -3311,7 +3311,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Shatter|XPHB} (level 3 version)."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Déflagration|XPHB} (level 3 version)."
 					]
 				},
 				{
@@ -3332,13 +3332,13 @@
 				{
 					"name": "Cloaked Flight",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Invisibility|XPHB} on itself, and it can fly up to half its {@variantrule Fly Speed|XPHB}. The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Invisibilité|XPHB} on itself, and it can fly up to half its {@variantrule Fly Speed|XPHB}. The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
 					"name": "Sonic Boom",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Shatter|XPHB} (level 3 version). The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Déflagration|XPHB} (level 3 version). The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -3487,16 +3487,16 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 20}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Minor Illusion|XPHB}",
-						"{@spell Scorching Ray|XPHB} (level 3 version)",
-						"{@spell Shapechange|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)",
-						"{@spell Speak with Animals|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Illusion mineure|XPHB}",
+						"{@spell Rayons brûlants|XPHB} (level 3 version)",
+						"{@spell Changement de forme|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)",
+						"{@spell Parler aux animaux|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Control Weather|XPHB}",
-							"{@spell Detect Thoughts|XPHB}"
+							"{@spell Contrôle du climat|XPHB}",
+							"{@spell Détection de pensées|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -3515,7 +3515,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Sleep Breath or (B) Spellcasting to cast {@spell Scorching Ray|XPHB} (level 3 version)."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Sleep Breath or (B) Spellcasting to cast {@spell Rayons brûlants|XPHB} (level 3 version)."
 					]
 				},
 				{
@@ -3542,7 +3542,7 @@
 				{
 					"name": "Blazing Light",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Scorching Ray|XPHB} (level 3 version)."
+						"The dragon uses Spellcasting to cast {@spell Rayons brûlants|XPHB} (level 3 version)."
 					]
 				},
 				{
@@ -3693,18 +3693,18 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 22}, {@hit 14} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Guiding Bolt|XPHB} (level 2 version)",
-						"{@spell Shapechange|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)",
-						"{@spell Speak with Animals|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Trait de lumière|XPHB} (level 2 version)",
+						"{@spell Changement de forme|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)",
+						"{@spell Parler aux animaux|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Detect Thoughts|XPHB}",
-							"{@spell Control Water|XPHB}",
-							"{@spell Scrying|XPHB}",
-							"{@spell Water Breathing|XPHB}"
+							"{@spell Détection de pensées|XPHB}",
+							"{@spell Contrôle de l'eau|XPHB}",
+							"{@spell Scrutation|XPHB}",
+							"{@spell Respiration aquatique|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -3729,7 +3729,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Repulsion Breath or (B) Spellcasting to cast {@spell Guiding Bolt|XPHB} (level 2 version)."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Repulsion Breath or (B) Spellcasting to cast {@spell Trait de lumière|XPHB} (level 2 version)."
 					]
 				},
 				{
@@ -3756,7 +3756,7 @@
 				{
 					"name": "Guiding Light",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Guiding Bolt|XPHB} (level 2 version)."
+						"The dragon uses Spellcasting to cast {@spell Trait de lumière|XPHB} (level 2 version)."
 					]
 				},
 				{
@@ -3916,16 +3916,16 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Mind Spike|XPHB} (level 5 version)",
-						"{@spell Minor Illusion|XPHB}",
-						"{@spell Shapechange|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Pic mental|XPHB} (level 5 version)",
+						"{@spell Illusion mineure|XPHB}",
+						"{@spell Changement de forme|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Greater Restoration|XPHB}",
-							"{@spell Major Image|XPHB}",
-							"{@spell Project Image|XPHB}"
+							"{@spell Restauration supérieure|XPHB}",
+							"{@spell Image majeure|XPHB}",
+							"{@spell Projection d'image|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -3944,7 +3944,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Slowing Breath or (B) Spellcasting to cast {@spell Mind Spike|XPHB} (level 5 version)."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Slowing Breath or (B) Spellcasting to cast {@spell Pic mental|XPHB} (level 5 version)."
 					]
 				},
 				{
@@ -3977,7 +3977,7 @@
 				{
 					"name": "Mind Jolt",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Mind Spike|XPHB} (level 5 version). The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Pic mental|XPHB} (level 5 version). The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -4128,15 +4128,15 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 24}, {@hit 16} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Guiding Bolt|XPHB} (level 4 version)",
-						"{@spell Shapechange|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Trait de lumière|XPHB} (level 4 version)",
+						"{@spell Changement de forme|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Flame Strike|XPHB} (level 6 version)",
-							"{@spell Word of Recall|XPHB}",
-							"{@spell Zone of Truth|XPHB}"
+							"{@spell Colère sacrée|XPHB} (level 6 version)",
+							"{@spell Mot de rappel|XPHB}",
+							"{@spell Zone de vérité|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -4161,7 +4161,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Spellcasting to cast {@spell Guiding Bolt|XPHB} (level 4 version) or (B) Weakening Breath."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Spellcasting to cast {@spell Trait de lumière|XPHB} (level 4 version) or (B) Weakening Breath."
 					]
 				},
 				{
@@ -4194,7 +4194,7 @@
 				{
 					"name": "Guiding Light",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Guiding Bolt|XPHB} (level 4 version)."
+						"The dragon uses Spellcasting to cast {@spell Trait de lumière|XPHB} (level 4 version)."
 					]
 				},
 				{
@@ -4351,13 +4351,13 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Mind Spike|XPHB} (level 5 version)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Pic mental|XPHB} (level 5 version)"
 					],
 					"daily": {
 						"1e": [
 							"{@spell Geas|XPHB}",
-							"{@spell Modify Memory|XPHB}"
+							"{@spell Modification de mémoire|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -4382,7 +4382,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Mind Spike|XPHB} (level 5 version)."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Pic mental|XPHB} (level 5 version)."
 					]
 				},
 				{
@@ -4403,7 +4403,7 @@
 				{
 					"name": "Mind Invasion",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Mind Spike|XPHB} (level 5 version)."
+						"The dragon uses Spellcasting to cast {@spell Pic mental|XPHB} (level 5 version)."
 					]
 				},
 				{
@@ -4560,14 +4560,14 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 23}, {@hit 15} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Command|XPHB} (level 2 version)",
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Scorching Ray|XPHB} (level 3 version)"
+						"{@spell Ordre|XPHB} (level 2 version)",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Rayons brûlants|XPHB} (level 3 version)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Fireball|XPHB} (level 6 version)",
-							"{@spell Scrying|XPHB}"
+							"{@spell Boule de feu|XPHB} (level 6 version)",
+							"{@spell Scrutation|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -4586,7 +4586,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Scorching Ray|XPHB} (level 3 version)."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Rayons brûlants|XPHB} (level 3 version)."
 					]
 				},
 				{
@@ -4607,13 +4607,13 @@
 				{
 					"name": "Commanding Presence",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Command|XPHB} (level 2 version). The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Ordre|XPHB} (level 2 version). The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
 					"name": "Fiery Rays",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Scorching Ray|XPHB} (level 3 version). The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Rayons brûlants|XPHB} (level 3 version). The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -4760,17 +4760,17 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 23}, {@hit 15} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Hold Monster|XPHB}",
-						"{@spell Ice Knife|XPHB} (level 2 version)",
-						"{@spell Shapechange|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Immobilisation de monstre|XPHB}",
+						"{@spell Couteau de glace|XPHB} (level 2 version)",
+						"{@spell Changement de forme|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Control Weather|XPHB}",
-							"{@spell Ice Storm|XPHB} (level 7 version)",
-							"{@spell Teleport|XPHB}",
-							"{@spell Zone of Truth|XPHB}"
+							"{@spell Contrôle du climat|XPHB}",
+							"{@spell Tempête de glace|XPHB} (level 7 version)",
+							"{@spell Téléportation|XPHB}",
+							"{@spell Zone de vérité|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -4789,7 +4789,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Paralyzing Breath or (B) Spellcasting to cast {@spell Ice Knife|XPHB} (level 2 version)."
+						"The dragon makes three Rend attacks. It can replace one attack with a use of (A) Paralyzing Breath or (B) Spellcasting to cast {@spell Couteau de glace|XPHB} (level 2 version)."
 					]
 				},
 				{
@@ -4816,7 +4816,7 @@
 				{
 					"name": "Chill",
 					"entries": [
-						"The dragon uses Spellcasting to cast {@spell Hold Monster|XPHB}. The dragon can't take this action again until the start of its next turn."
+						"The dragon uses Spellcasting to cast {@spell Immobilisation de monstre|XPHB}. The dragon can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -4973,11 +4973,11 @@
 					"name": "Frightful Presence",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The dragon casts {@spell Fear|XPHB}, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 18}). The dragon can't take this action again until the start of its next turn."
+						"The dragon casts {@spell Peur|XPHB}, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 18}). The dragon can't take this action again until the start of its next turn."
 					],
 					"legendary": {
 						"1": [
-							"{@spell Fear|XPHB}"
+							"{@spell Peur|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -5171,18 +5171,18 @@
 						"The animal lord casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 20}):"
 					],
 					"will": [
-						"{@spell Animal Friendship|XPHB}",
-						"{@spell Animal Messenger|XPHB}",
-						"{@spell Speak with Animals|XPHB}"
+						"{@spell Amitié animale|XPHB}",
+						"{@spell Messager animal|XPHB}",
+						"{@spell Parler aux animaux|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Awaken|XPHB}",
-							"{@spell Greater Restoration|XPHB}"
+							"{@spell Éveil|XPHB}",
+							"{@spell Restauration supérieure|XPHB}"
 						],
 						"1e": [
-							"{@spell Animal Shapes|XPHB}",
-							"{@spell Sunburst|XPHB}"
+							"{@spell Formes animales|XPHB}",
+							"{@spell Éclat solaire|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -6162,18 +6162,18 @@
 						"The arcanaloth casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Alter Self|XPHB}",
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Identify|XPHB}",
-						"{@spell Mage Hand|XPHB}",
+						"{@spell Changement d'apparence|XPHB}",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Identification|XPHB}",
+						"{@spell Main du mage|XPHB}",
 						"{@spell Prestidigitation|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Contact Other Plane|XPHB}",
-							"{@spell Detect Thoughts|XPHB}",
-							"{@spell Dimension Door|XPHB}",
-							"{@spell Mind Blank|XPHB}"
+							"{@spell Contact avec les autres plans|XPHB}",
+							"{@spell Détection de pensées|XPHB}",
+							"{@spell Porte dimensionnelle|XPHB}",
+							"{@spell Vide mental|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -6183,10 +6183,10 @@
 					"name": "Counterspell",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The arcanaloth casts {@spell Counterspell|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+						"The arcanaloth casts {@spell Contresort|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"will": [
-						"{@spell Counterspell|XPHB}"
+						"{@spell Contresort|XPHB}"
 					],
 					"ability": "int",
 					"displayAs": "reaction",
@@ -6372,16 +6372,16 @@
 					"name": "Coven Magic",
 					"type": "spellcasting",
 					"headerEntries": [
-						"While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save {@dc 19}): {@spell Augury|XPHB}, {@spell Find Familiar|XPHB}, {@spell Identify|XPHB}, {@spell Locate Object|XPHB}, {@spell Scrying|XPHB}, or {@spell Unseen Servant|XPHB}. The hag must finish a {@variantrule Long Rest|XPHB} before using this trait to cast that spell again."
+						"While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save {@dc 19}): {@spell Augure|XPHB}, {@spell Familier|XPHB}, {@spell Identification|XPHB}, {@spell Localisation d'objet|XPHB}, {@spell Scrutation|XPHB}, or {@spell Servant invisible|XPHB}. The hag must finish a {@variantrule Long Rest|XPHB} before using this trait to cast that spell again."
 					],
 					"restLong": {
 						"1": [
-							"{@spell Augury|XPHB}",
-							"{@spell Find Familiar|XPHB}",
-							"{@spell Identify|XPHB}",
-							"{@spell Locate Object|XPHB}",
-							"{@spell Scrying|XPHB}",
-							"{@spell Unseen Servant|XPHB}"
+							"{@spell Augure|XPHB}",
+							"{@spell Familier|XPHB}",
+							"{@spell Identification|XPHB}",
+							"{@spell Localisation d'objet|XPHB}",
+							"{@spell Scrutation|XPHB}",
+							"{@spell Servant invisible|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -6396,16 +6396,16 @@
 						"The hag casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 22}):"
 					],
 					"will": [
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Dimension Door|XPHB}",
-						"{@spell Dispel Magic|XPHB}",
-						"{@spell Hypnotic Pattern|XPHB}"
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Porte dimensionnelle|XPHB}",
+						"{@spell Dissipation de la magie|XPHB}",
+						"{@spell Motif hypnotique|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Mass Suggestion|XPHB}",
-							"{@spell Modify Memory|XPHB}",
-							"{@spell Plane Shift|XPHB}"
+							"{@spell Suggestion de groupe|XPHB}",
+							"{@spell Modification de mémoire|XPHB}",
+							"{@spell Déplacement planaire|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -6415,10 +6415,10 @@
 					"name": "Tongue Twister",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The hag casts {@spell Counterspell|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting. If the target fails its saving throw, it is cursed until the end of its next turn. Until the curse ends, the target can't cast spells with a Verbal component, and when it speaks, it says the opposite of what it means."
+						"The hag casts {@spell Contresort|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting. If the target fails its saving throw, it is cursed until the end of its next turn. Until the curse ends, the target can't cast spells with a Verbal component, and when it speaks, it says the opposite of what it means."
 					],
 					"will": [
-						"{@spell Counterspell|XPHB}"
+						"{@spell Contresort|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "reaction",
@@ -6486,7 +6486,7 @@
 				{
 					"name": "Malicious Magic",
 					"entries": [
-						"The hag uses Spellcasting to cast {@spell Dimension Door|XPHB} or {@spell Hypnotic Pattern|XPHB}. The hag can't take this action again until the start of its next turn."
+						"The hag uses Spellcasting to cast {@spell Porte dimensionnelle|XPHB} or {@spell Motif hypnotique|XPHB}. The hag can't take this action again until the start of its next turn."
 					]
 				}
 			],
@@ -6719,25 +6719,25 @@
 						"The archmage casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Disguise Self|XPHB}",
-						"{@spell Invisibility|XPHB}",
-						"{@spell Light|XPHB}",
-						"{@spell Mage Armor|XPHB} (included in AC)",
-						"{@spell Mage Hand|XPHB}",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Déguisement|XPHB}",
+						"{@spell Invisibilité|XPHB}",
+						"{@spell Lumière|XPHB}",
+						"{@spell Armure du mage|XPHB} (included in AC)",
+						"{@spell Main du mage|XPHB}",
 						"{@spell Prestidigitation|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Fly|XPHB}",
-							"{@spell Lightning Bolt|XPHB} (level 7 version)"
+							"{@spell Vol|XPHB}",
+							"{@spell Éclair|XPHB} (level 7 version)"
 						],
 						"1e": [
-							"{@spell Cone of Cold|XPHB} (level 9 version)",
-							"{@spell Mind Blank|XPHB} (cast before combat)",
-							"{@spell Scrying|XPHB}",
-							"{@spell Teleport|XPHB}"
+							"{@spell Cône de froid|XPHB} (level 9 version)",
+							"{@spell Vide mental|XPHB} (cast before combat)",
+							"{@spell Scrutation|XPHB}",
+							"{@spell Téléportation|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -6747,11 +6747,11 @@
 					"name": "Misty Step (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mage casts {@spell Misty Step|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The mage casts {@spell Pas brumeux|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Misty Step|XPHB}"
+							"{@spell Pas brumeux|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -6764,12 +6764,12 @@
 					"name": "Protective Magic (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The archmage casts {@spell Counterspell|XPHB} or {@spell Shield|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+						"The archmage casts {@spell Contresort|XPHB} or {@spell Bouclier|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Counterspell|XPHB}",
-							"{@spell Shield|XPHB}"
+							"{@spell Contresort|XPHB}",
+							"{@spell Bouclier|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -6921,15 +6921,15 @@
 						"The archpriest casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Light|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Lumière|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Flame Strike|XPHB} (level 6 version)",
-							"{@spell Greater Restoration|XPHB}",
-							"{@spell Raise Dead|XPHB}",
-							"{@spell Zone of Truth|XPHB}"
+							"{@spell Colère sacrée|XPHB} (level 6 version)",
+							"{@spell Restauration supérieure|XPHB}",
+							"{@spell Relèvement|XPHB}",
+							"{@spell Zone de vérité|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -6939,14 +6939,14 @@
 					"name": "Divine Aid (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The priest casts {@spell Bless|XPHB}, {@spell Dispel Magic|XPHB}, {@spell Healing Word|XPHB}, or {@spell Lesser Restoration|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The priest casts {@spell Bénédiction|XPHB}, {@spell Dissipation de la magie|XPHB}, {@spell Mot de guérison|XPHB}, or {@spell Restauration partielle|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Bless|XPHB}",
-							"{@spell Dispel Magic|XPHB}",
-							"{@spell Healing Word|XPHB}",
-							"{@spell Lesser Restoration|XPHB}"
+							"{@spell Bénédiction|XPHB}",
+							"{@spell Dissipation de la magie|XPHB}",
+							"{@spell Mot de guérison|XPHB}",
+							"{@spell Restauration partielle|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -7423,12 +7423,12 @@
 						"The azer casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Elementalism|XPHB}",
-						"{@spell Mage Hand|XPHB}"
+						"{@spell Élémentalisme|XPHB}",
+						"{@spell Main du mage|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Fireball|XPHB}"
+							"{@spell Boule de feu|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -7438,11 +7438,11 @@
 					"name": "Hellish Rebuke (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The azer casts {@spell Hellish Rebuke|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+						"The azer casts {@spell Réprobation infernale|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Hellish Rebuke|XPHB}"
+							"{@spell Réprobation infernale|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -8328,15 +8328,15 @@
 						"The bandit casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Disguise Self|XPHB}",
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Minor Illusion|XPHB}"
+						"{@spell Déguisement|XPHB}",
+						"{@spell Main du mage|XPHB}",
+						"{@spell Illusion mineure|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Hold Person|XPHB} (level 4 version)",
-							"{@spell Mage Armor|XPHB} (included in AC)",
-							"{@spell Major Image|XPHB}"
+							"{@spell Immobiliser un personnage|XPHB} (level 4 version)",
+							"{@spell Armure du mage|XPHB} (included in AC)",
+							"{@spell Image majeure|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -8799,12 +8799,12 @@
 					],
 					"daily": {
 						"2e": [
-							"{@spell Disguise Self|XPHB}",
-							"{@spell Invisibility|XPHB} (self only)"
+							"{@spell Déguisement|XPHB}",
+							"{@spell Invisibilité|XPHB} (self only)"
 						],
 						"1e": [
-							"{@spell Entangle|XPHB}",
-							"{@spell Phantasmal Killer|XPHB} (level 6 version)"
+							"{@spell Enchevêtrement|XPHB}",
+							"{@spell Tueur phantasmal|XPHB} (level 6 version)"
 						]
 					},
 					"ability": "wis",
@@ -9499,7 +9499,7 @@
 				{
 					"name": "Antimagic Cone",
 					"entries": [
-						"The beholder's central eye emits an antimagic wave in a 150-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Until the start of the beholder's next turn, that area acts as an {@spell Antimagic Field|XPHB} spell, and that area works against the beholder's own Eye Rays."
+						"The beholder's central eye emits an antimagic wave in a 150-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Until the start of the beholder's next turn, that area acts as an {@spell Antichamp magique|XPHB} spell, and that area works against the beholder's own Eye Rays."
 					]
 				}
 			],
@@ -10235,7 +10235,7 @@
 				{
 					"name": "Corrosive Form",
 					"entries": [
-						"A creature that hits the pudding with a melee attack roll takes 4 ({@damage 1d8}) Acid damage. Nonmagical ammunition is destroyed immediately after hitting the pudding and dealing any damage. Any nonmagical weapon takes a cumulative -1 penalty to attack rolls immediately after dealing damage to the pudding and coming into contact with it. The weapon is destroyed if the penalty reaches -5. The penalty can be removed by casting the {@spell Mending|XPHB} spell on the weapon.",
+						"A creature that hits the pudding with a melee attack roll takes 4 ({@damage 1d8}) Acid damage. Nonmagical ammunition is destroyed immediately after hitting the pudding and dealing any damage. Any nonmagical weapon takes a cumulative -1 penalty to attack rolls immediately after dealing damage to the pudding and coming into contact with it. The weapon is destroyed if the penalty reaches -5. The penalty can be removed by casting the {@spell Réparation|XPHB} spell on the weapon.",
 						"In 1 minute, the pudding can eat through 2 feet of nonmagical wood or metal."
 					]
 				},
@@ -10250,7 +10250,7 @@
 				{
 					"name": "Dissolving Pseudopod",
 					"entries": [
-						"{@atkr m} {@hit 5}, reach 10 ft. {@h}17 ({@damage 4d6 + 3}) Acid damage. Nonmagical armor worn by the target takes a -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. The penalty can be removed by casting the {@spell Mending|XPHB} spell on the armor."
+						"{@atkr m} {@hit 5}, reach 10 ft. {@h}17 ({@damage 4d6 + 3}) Acid damage. Nonmagical armor worn by the target takes a -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. The penalty can be removed by casting the {@spell Réparation|XPHB} spell on the armor."
 					]
 				}
 			],
@@ -10832,7 +10832,7 @@
 				{
 					"name": "Mutating Claw",
 					"entries": [
-						"{@atkr m} {@hit 8}, reach 10 ft. {@h}12 ({@damage 2d6 + 5}) Slashing damage plus 3 ({@damage 1d6}) Poison damage. If the target is a Humanoid not cursed by a slaad, it is subjected to the following effect. {@actSave con} {@dc 15}. {@actSaveFail} The target is cursed. The cursed target can't regain {@variantrule Hit Points|XPHB}, and its {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by 10 ({@dice 3d6}) after every 24 hours and doesn't return to normal after finishing a {@variantrule Long Rest|XPHB}. If the curse reduces the target's {@variantrule Hit Points|XPHB|Hit Point} maximum to 0, the curse ends, and instead of dying, the target instantly transforms into a {@creature Red Slaad|XMM} or, if it can cast spells of level 3 or higher, a {@creature Green Slaad|XMM}. Only a {@spell Wish|XPHB} spell can reverse this transformation."
+						"{@atkr m} {@hit 8}, reach 10 ft. {@h}12 ({@damage 2d6 + 5}) Slashing damage plus 3 ({@damage 1d6}) Poison damage. If the target is a Humanoid not cursed by a slaad, it is subjected to the following effect. {@actSave con} {@dc 15}. {@actSaveFail} The target is cursed. The cursed target can't regain {@variantrule Hit Points|XPHB}, and its {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by 10 ({@dice 3d6}) after every 24 hours and doesn't return to normal after finishing a {@variantrule Long Rest|XPHB}. If the curse reduces the target's {@variantrule Hit Points|XPHB|Hit Point} maximum to 0, the curse ends, and instead of dying, the target instantly transforms into a {@creature Red Slaad|XMM} or, if it can cast spells of level 3 or higher, a {@creature Green Slaad|XMM}. Only a {@spell Souhait|XPHB} spell can reverse this transformation."
 					]
 				}
 			],
@@ -11152,14 +11152,14 @@
 						"The naga casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Main du mage|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Command|XPHB}",
-							"{@spell Detect Thoughts|XPHB}",
-							"{@spell Lightning Bolt|XPHB}"
+							"{@spell Ordre|XPHB}",
+							"{@spell Détection de pensées|XPHB}",
+							"{@spell Éclair|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -12208,14 +12208,14 @@
 						"The bullywug casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Dancing Lights|XPHB}",
-						"{@spell Druidcraft|XPHB}",
-						"{@spell Ray of Sickness|XPHB}"
+						"{@spell Lumières dansantes|XPHB}",
+						"{@spell Druidisme|XPHB}",
+						"{@spell Rayon nauséeux|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Speak with Plants|XPHB}",
-							"{@spell Vitriolic Sphere|XPHB}"
+							"{@spell Parler aux plantes|XPHB}",
+							"{@spell Sphère vitriolique|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -12240,7 +12240,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The bullywug makes two Bog Staff attacks. It can replace any attack with a use of Spellcasting to cast {@spell Ray of Sickness|XPHB}."
+						"The bullywug makes two Bog Staff attacks. It can replace any attack with a use of Spellcasting to cast {@spell Rayon nauséeux|XPHB}."
 					]
 				},
 				{
@@ -12468,13 +12468,13 @@
 					],
 					"daily": {
 						"2e": [
-							"{@spell Alter Self|XPHB}",
-							"{@spell Command|XPHB} (level 3 version)",
-							"{@spell Detect Magic|XPHB}"
+							"{@spell Changement d'apparence|XPHB}",
+							"{@spell Ordre|XPHB} (level 3 version)",
+							"{@spell Détection de la magie|XPHB}"
 						],
 						"1e": [
-							"{@spell Dominate Person|XPHB} (level 8 version)",
-							"{@spell Plane Shift|XPHB} (self only)"
+							"{@spell Soumission d'humanoïde|XPHB} (level 8 version)",
+							"{@spell Déplacement planaire|XPHB} (self only)"
 						]
 					},
 					"ability": "cha",
@@ -12989,8 +12989,8 @@
 						"The centaur casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Druidcraft|XPHB}",
-						"{@spell Speak with Animals|XPHB}"
+						"{@spell Druidisme|XPHB}",
+						"{@spell Parler aux animaux|XPHB}"
 					],
 					"ability": "wis",
 					"displayAs": "action"
@@ -13552,7 +13552,7 @@
 				{
 					"name": "Sense Magic",
 					"entries": [
-						"The chuul senses magic within 120 feet of itself. This trait otherwise works like the {@spell Detect Magic|XPHB} spell but isn't itself magical."
+						"The chuul senses magic within 120 feet of itself. This trait otherwise works like the {@spell Détection de la magie|XPHB} spell but isn't itself magical."
 					]
 				}
 			],
@@ -13822,10 +13822,10 @@
 					"name": "Phantasms (Recharge after a Short or Long Rest)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The cloaker casts the {@spell Mirror Image|XPHB} spell, requiring no spell components and using Wisdom as the spellcasting ability. The spell ends early if the cloaker starts or ends its turn in {@variantrule Bright Light|XPHB}."
+						"The cloaker casts the {@spell Image dédoublée|XPHB} spell, requiring no spell components and using Wisdom as the spellcasting ability. The spell ends early if the cloaker starts or ends its turn in {@variantrule Bright Light|XPHB}."
 					],
 					"will": [
-						"{@spell Mirror Image|XPHB}"
+						"{@spell Image dédoublée|XPHB}"
 					],
 					"ability": "wis",
 					"displayAs": "bonus",
@@ -13978,15 +13978,15 @@
 						"The giant casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Fog Cloud|XPHB}",
-						"{@spell Light|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Nuage de brouillard|XPHB}",
+						"{@spell Lumière|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Control Weather|XPHB}",
-							"{@spell Gaseous Form|XPHB}",
-							"{@spell Telekinesis|XPHB}"
+							"{@spell Contrôle du climat|XPHB}",
+							"{@spell Forme gazeuse|XPHB}",
+							"{@spell Télékinésie|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -13996,10 +13996,10 @@
 					"name": "Misty Step",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The giant casts the {@spell Misty Step|XPHB} spell, using the same spellcasting ability as Spellcasting."
+						"The giant casts the {@spell Pas brumeux|XPHB} spell, using the same spellcasting ability as Spellcasting."
 					],
 					"will": [
-						"{@spell Misty Step|XPHB}"
+						"{@spell Pas brumeux|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "bonus",
@@ -14012,7 +14012,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The giant makes two attacks, using Thunderous Mace or Thundercloud in any combination. It can replace one attack with a use of Spellcasting to cast {@spell Fog Cloud|XPHB}."
+						"The giant makes two attacks, using Thunderous Mace or Thundercloud in any combination. It can replace one attack with a use of Spellcasting to cast {@spell Nuage de brouillard|XPHB}."
 					]
 				},
 				{
@@ -14805,18 +14805,18 @@
 						"The couatl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Detect Evil and Good|XPHB}",
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Shapechange|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
+						"{@spell Détection du mal et du bien|XPHB}",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Changement de forme|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Create Food and Water|XPHB}",
-							"{@spell Dream|XPHB}",
-							"{@spell Greater Restoration|XPHB}",
-							"{@spell Scrying|XPHB}",
-							"{@spell Sleep|XPHB}"
+							"{@spell Création de nourriture et d'eau|XPHB}",
+							"{@spell Songe|XPHB}",
+							"{@spell Restauration supérieure|XPHB}",
+							"{@spell Scrutation|XPHB}",
+							"{@spell Sommeil|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -14826,13 +14826,13 @@
 					"name": "Divine Aid (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The couatl casts {@spell Bless|XPHB}, {@spell Lesser Restoration|XPHB}, or {@spell Sanctuary|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The couatl casts {@spell Bénédiction|XPHB}, {@spell Restauration partielle|XPHB}, or {@spell Sanctuaire|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Bless|XPHB}",
-							"{@spell Lesser Restoration|XPHB}",
-							"{@spell Sanctuary|XPHB}"
+							"{@spell Bénédiction|XPHB}",
+							"{@spell Restauration partielle|XPHB}",
+							"{@spell Sanctuaire|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -15320,15 +15320,15 @@
 						"The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 12}, {@hit 4} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Light|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Lumière|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Hold Person|XPHB}"
+							"{@spell Immobiliser un personnage|XPHB}"
 						],
 						"2": [
-							"{@spell Command|XPHB}"
+							"{@spell Ordre|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -15338,11 +15338,11 @@
 					"name": "Spiritual Weapon (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The cultist casts the {@spell Spiritual Weapon|XPHB} spell, using the same spellcasting ability as Spellcasting."
+						"The cultist casts the {@spell Arme spirituelle|XPHB} spell, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Spiritual Weapon|XPHB}"
+							"{@spell Arme spirituelle|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -15456,12 +15456,12 @@
 						"The cultist casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Jallarzi's Storm of Radiance|XPHB} (level 7 version)",
-							"{@spell Mass Suggestion|XPHB}"
+							"{@spell Tempête de rayonnement de Jallarzi|XPHB} (level 7 version)",
+							"{@spell Suggestion de groupe|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -15589,12 +15589,12 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell Legend Lore|XPHB}"
+							"{@spell Connaissance des légendes|XPHB}"
 						],
 						"2e": [
-							"{@spell Arcane Eye|XPHB}",
-							"{@spell Detect Magic|XPHB}",
-							"{@spell Locate Object|XPHB}"
+							"{@spell Œil magique|XPHB}",
+							"{@spell Détection de la magie|XPHB}",
+							"{@spell Localisation d'objet|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -15833,19 +15833,19 @@
 						"The dao casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Detect Evil and Good|XPHB}",
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Stone Shape|XPHB}"
+						"{@spell Détection du mal et du bien|XPHB}",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Forme de pierre|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Gaseous Form|XPHB}",
-							"{@spell Invisibility|XPHB}",
-							"{@spell Move Earth|XPHB}",
-							"{@spell Passwall|XPHB}",
-							"{@spell Plane Shift|XPHB}",
-							"{@spell Tongues|XPHB}",
-							"{@spell Wall of Stone|XPHB}"
+							"{@spell Forme gazeuse|XPHB}",
+							"{@spell Invisibilité|XPHB}",
+							"{@spell Déplacement de terre|XPHB}",
+							"{@spell Passage en creux|XPHB}",
+							"{@spell Déplacement planaire|XPHB}",
+							"{@spell Don des langues|XPHB}",
+							"{@spell Mur de pierre|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -15874,7 +15874,7 @@
 				{
 					"name": "Wishes",
 					"entries": [
-						"The dao has a 30 percent chance of knowing the {@spell Wish|XPHB} spell. If the dao knows it, the dao can cast it only on behalf of a non-genie creature who communicates a wish in a way the dao can understand. If the dao casts the spell for the creature, the dao suffers none of the spell's stress. Once the dao has cast it three times, the dao can't do so again for 365 days."
+						"The dao has a 30 percent chance of knowing the {@spell Souhait|XPHB} spell. If the dao knows it, the dao can cast it only on behalf of a non-genie creature who communicates a wish in a way the dao can understand. If the dao casts the spell for the creature, the dao suffers none of the spell's stress. Once the dao has cast it three times, the dao can't do so again for 365 days."
 					]
 				}
 			],
@@ -16097,8 +16097,8 @@
 						"The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Speak with Dead|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Parler aux morts|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"ability": "wis",
 					"displayAs": "action"
@@ -16332,13 +16332,13 @@
 						"The death knight casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell Command|XPHB}",
-						"{@spell Phantom Steed|XPHB}"
+						"{@spell Ordre|XPHB}",
+						"{@spell Destrier fantôme|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Destructive Wave|XPHB} (Necrotic)",
-							"{@spell Dispel Magic|XPHB}"
+							"{@spell Onde destructrice|XPHB} (Necrotic)",
+							"{@spell Dissipation de la magie|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -16403,7 +16403,7 @@
 				{
 					"name": "Dread Authority",
 					"entries": [
-						"The death knight uses Spellcasting to cast {@spell Command|XPHB}. The death knight can't take this action again until the start of its next turn."
+						"The death knight uses Spellcasting to cast {@spell Ordre|XPHB}. The death knight can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -16543,12 +16543,12 @@
 						"The aspirant casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Phantom Steed|XPHB}"
+						"{@spell Destrier fantôme|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Destructive Wave|XPHB} (Necrotic)",
-							"{@spell Dispel Magic|XPHB}"
+							"{@spell Onde destructrice|XPHB} (Necrotic)",
+							"{@spell Dissipation de la magie|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -16707,19 +16707,19 @@
 						"The slaad casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Invisibility|XPHB} (self only)",
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Major Image|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Invisibilité|XPHB} (self only)",
+						"{@spell Main du mage|XPHB}",
+						"{@spell Image majeure|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Blight|XPHB} (level 8 version)",
-							"{@spell Cloudkill|XPHB} (level 6 version)",
-							"{@spell Fly|XPHB}",
-							"{@spell Plane Shift|XPHB}",
-							"{@spell Tongues|XPHB}"
+							"{@spell Ravage|XPHB} (level 8 version)",
+							"{@spell Nuée mortelle|XPHB} (level 6 version)",
+							"{@spell Vol|XPHB}",
+							"{@spell Déplacement planaire|XPHB}",
+							"{@spell Don des langues|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -17241,7 +17241,7 @@
 				{
 					"name": "Undead Restoration",
 					"entries": [
-						"If the demilich is destroyed, it reforms and regains all its {@variantrule Hit Points|XPHB} in {@dice 1d10} days unless a {@spell Wish|XPHB} spell is cast on its remains."
+						"If the demilich is destroyed, it reforms and regains all its {@variantrule Hit Points|XPHB} in {@dice 1d10} days unless a {@spell Souhait|XPHB} spell is cast on its remains."
 					]
 				}
 			],
@@ -17411,13 +17411,13 @@
 						"The deva casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Detect Evil and Good|XPHB}",
-						"{@spell Shapechange|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
+						"{@spell Détection du mal et du bien|XPHB}",
+						"{@spell Changement de forme|XPHB} (Beast or Humanoid form only, no {@variantrule Temporary Hit Points|XPHB} gained from the spell, and no {@status Concentration|XPHB} or {@variantrule Temporary Hit Points|XPHB} required to maintain the spell)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Commune|XPHB}",
-							"{@spell Raise Dead|XPHB}"
+							"{@spell Communion|XPHB}",
+							"{@spell Relèvement|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -17427,13 +17427,13 @@
 					"name": "Divine Aid (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The deva casts {@spell Cure Wounds|XPHB}, {@spell Lesser Restoration|XPHB}, or {@spell Remove Curse|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The deva casts {@spell Soins|XPHB}, {@spell Restauration partielle|XPHB}, or {@spell Délivrance de la malédiction|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Cure Wounds|XPHB}",
-							"{@spell Lesser Restoration|XPHB}",
-							"{@spell Remove Curse|XPHB}"
+							"{@spell Soins|XPHB}",
+							"{@spell Restauration partielle|XPHB}",
+							"{@spell Délivrance de la malédiction|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -17906,21 +17906,21 @@
 						"The djinni casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Detect Evil and Good|XPHB}",
-						"{@spell Detect Magic|XPHB}"
+						"{@spell Détection du mal et du bien|XPHB}",
+						"{@spell Détection de la magie|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Create Food and Water|XPHB} (can create wine instead of water)",
-							"{@spell Tongues|XPHB}",
-							"{@spell Wind Walk|XPHB}"
+							"{@spell Création de nourriture et d'eau|XPHB} (can create wine instead of water)",
+							"{@spell Don des langues|XPHB}",
+							"{@spell Marche aérienne|XPHB}"
 						],
 						"1e": [
-							"{@spell Creation|XPHB}",
-							"{@spell Gaseous Form|XPHB}",
-							"{@spell Invisibility|XPHB}",
-							"{@spell Major Image|XPHB}",
-							"{@spell Plane Shift|XPHB}"
+							"{@spell Création|XPHB}",
+							"{@spell Forme gazeuse|XPHB}",
+							"{@spell Invisibilité|XPHB}",
+							"{@spell Image majeure|XPHB}",
+							"{@spell Déplacement planaire|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -17943,7 +17943,7 @@
 				{
 					"name": "Wishes",
 					"entries": [
-						"The djinni has a 30 percent chance of knowing the {@spell Wish|XPHB} spell. If the djinni knows it, the djinni can cast it only on behalf of a non-genie creature who communicates a wish in a way the djinni can understand. If the djinni casts the spell for the creature, the djinni suffers none of the spell's stress. Once the djinni has cast it three times, the djinni can't do so again for 365 days."
+						"The djinni has a 30 percent chance of knowing the {@spell Souhait|XPHB} spell. If the djinni knows it, the djinni can cast it only on behalf of a non-genie creature who communicates a wish in a way the djinni can understand. If the djinni casts the spell for the creature, the djinni suffers none of the spell's stress. Once the djinni has cast it three times, the djinni can't do so again for 365 days."
 					]
 				}
 			],
@@ -18083,10 +18083,10 @@
 					"name": "Read Thoughts",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The doppelganger casts {@spell Detect Thoughts|XPHB}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 12})."
+						"The doppelganger casts {@spell Détection de pensées|XPHB}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 12})."
 					],
 					"will": [
-						"{@spell Detect Thoughts|XPHB}"
+						"{@spell Détection de pensées|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "action",
@@ -18243,13 +18243,13 @@
 						"The dracolich casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 19}, {@hit 11} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Ray of Sickness|XPHB} (level 2 version)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Rayon nauséeux|XPHB} (level 2 version)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Create Undead|XPHB} (level 8 version)",
-							"{@spell Finger of Death|XPHB}"
+							"{@spell Création de morts-vivants|XPHB} (level 8 version)",
+							"{@spell Doigt de mort|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -18287,7 +18287,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dracolich makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Ray of Sickness|XPHB} (level 2 version)."
+						"The dracolich makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Rayon nauséeux|XPHB} (level 2 version)."
 					]
 				},
 				{
@@ -18314,7 +18314,7 @@
 				{
 					"name": "Sickening Ray",
 					"entries": [
-						"The dracolich uses Spellcasting to cast {@spell Ray of Sickness|XPHB} (level 2 version). The dracolich can't take this action again until the start of its next turn."
+						"The dracolich uses Spellcasting to cast {@spell Rayon nauséeux|XPHB} (level 2 version). The dracolich can't take this action again until the start of its next turn."
 					]
 				},
 				{
@@ -18734,13 +18734,13 @@
 					"name": "Magic of the Spider Queen {@recharge 5}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The drider casts {@spell Darkness|XPHB}, {@spell Faerie Fire|XPHB}, or {@spell Web|XPHB}, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 14})."
+						"The drider casts {@spell Ténèbres|XPHB}, {@spell Lueur féérique|XPHB}, or {@spell Toile|XPHB}, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 14})."
 					],
 					"recharge": {
 						"5": [
-							"{@spell Darkness|XPHB}",
-							"{@spell Faerie Fire|XPHB}",
-							"{@spell Web|XPHB}"
+							"{@spell Ténèbres|XPHB}",
+							"{@spell Lueur féérique|XPHB}",
+							"{@spell Toile|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -18902,18 +18902,18 @@
 						"The druid casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Druidcraft|XPHB}",
-						"{@spell Speak with Animals|XPHB}"
+						"{@spell Druidisme|XPHB}",
+						"{@spell Parler aux animaux|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Entangle|XPHB}",
-							"{@spell Thunderwave|XPHB}"
+							"{@spell Enchevêtrement|XPHB}",
+							"{@spell Onde de tonnerre|XPHB}"
 						],
 						"1e": [
-							"{@spell Animal Messenger|XPHB}",
-							"{@spell Longstrider|XPHB}",
-							"{@spell Moonbeam|XPHB}"
+							"{@spell Messager animal|XPHB}",
+							"{@spell Longue foulée|XPHB}",
+							"{@spell Rayon de lune|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -19044,14 +19044,14 @@
 						"The dryad casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Animal Friendship|XPHB}",
-						"{@spell Charm Monster|XPHB} (lasts 24 hours; ends early if the dryad casts the spell again)",
-						"{@spell Druidcraft|XPHB}"
+						"{@spell Amitié animale|XPHB}",
+						"{@spell Charmement de monstre|XPHB} (lasts 24 hours; ends early if the dryad casts the spell again)",
+						"{@spell Druidisme|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Entangle|XPHB}",
-							"{@spell Pass without Trace|XPHB}"
+							"{@spell Enchevêtrement|XPHB}",
+							"{@spell Passage sans trace|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -19076,7 +19076,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dryad makes one Vine Lash or Thorn Burst attack, and it can use Spellcasting to cast {@spell Charm Monster|XPHB}."
+						"The dryad makes one Vine Lash or Thorn Burst attack, and it can use Spellcasting to cast {@spell Charmement de monstre|XPHB}."
 					]
 				},
 				{
@@ -19208,11 +19208,11 @@
 					"name": "Sleep (1/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mephit casts the {@spell Sleep|XPHB} spell, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 10})."
+						"The mephit casts the {@spell Sommeil|XPHB} spell, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 10})."
 					],
 					"daily": {
 						"1": [
-							"{@spell Sleep|XPHB}"
+							"{@spell Sommeil|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -19554,17 +19554,17 @@
 						"The efreeti casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Elementalism|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Élémentalisme|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Gaseous Form|XPHB}",
-							"{@spell Invisibility|XPHB}",
-							"{@spell Major Image|XPHB}",
-							"{@spell Plane Shift|XPHB}",
-							"{@spell Tongues|XPHB}",
-							"{@spell Wall of Fire|XPHB} (level 7 version)"
+							"{@spell Forme gazeuse|XPHB}",
+							"{@spell Invisibilité|XPHB}",
+							"{@spell Image majeure|XPHB}",
+							"{@spell Déplacement planaire|XPHB}",
+							"{@spell Don des langues|XPHB}",
+							"{@spell Mur de feu|XPHB} (level 7 version)"
 						]
 					},
 					"ability": "cha",
@@ -19587,7 +19587,7 @@
 				{
 					"name": "Wishes",
 					"entries": [
-						"The efreeti has a 30 percent chance of knowing the {@spell Wish|XPHB} spell. If the efreeti knows it, the efreeti can cast it only on behalf of a non-genie creature who communicates a wish in a way the efreeti can understand. If the efreeti casts the spell for the creature, the efreeti suffers none of the spell's stress. Once the efreeti has cast it three times, the efreeti can't do so again for 365 days."
+						"The efreeti has a 30 percent chance of knowing the {@spell Souhait|XPHB} spell. If the efreeti knows it, the efreeti can cast it only on behalf of a non-genie creature who communicates a wish in a way the efreeti can understand. If the efreeti casts the spell for the creature, the efreeti suffers none of the spell's stress. Once the efreeti has cast it three times, the efreeti can't do so again for 365 days."
 					]
 				}
 			],
@@ -19747,10 +19747,10 @@
 					"name": "Control Weather",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The cataclysm casts the {@spell Control Weather|XPHB} spell, requiring no spell components and using Constitution as the spellcasting ability."
+						"The cataclysm casts the {@spell Contrôle du climat|XPHB} spell, requiring no spell components and using Constitution as the spellcasting ability."
 					],
 					"will": [
-						"{@spell Control Weather|XPHB}"
+						"{@spell Contrôle du climat|XPHB}"
 					],
 					"ability": "con",
 					"displayAs": "action",
@@ -19955,8 +19955,8 @@
 						"The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Elementalism|XPHB}",
-						"{@spell Mage Hand|XPHB}"
+						"{@spell Élémentalisme|XPHB}",
+						"{@spell Main du mage|XPHB}"
 					],
 					"ability": "wis",
 					"displayAs": "action"
@@ -20269,16 +20269,16 @@
 						"The empyrean casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
 					],
 					"will": [
-						"{@spell Calm Emotions|XPHB}",
-						"{@spell Greater Restoration|XPHB}",
-						"{@spell Pass without Trace|XPHB}",
-						"{@spell Water Breathing|XPHB}"
+						"{@spell Apaisement|XPHB}",
+						"{@spell Restauration supérieure|XPHB}",
+						"{@spell Passage sans trace|XPHB}",
+						"{@spell Respiration aquatique|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Commune|XPHB}",
-							"{@spell Dispel Evil and Good|XPHB}",
-							"{@spell Plane Shift|XPHB}"
+							"{@spell Communion|XPHB}",
+							"{@spell Dissipation du mal et du bien|XPHB}",
+							"{@spell Déplacement planaire|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -20467,8 +20467,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell Bless|XPHB}",
-							"{@spell Lesser Restoration|XPHB} (as an action)"
+							"{@spell Bénédiction|XPHB}",
+							"{@spell Restauration partielle|XPHB} (as an action)"
 						]
 					},
 					"ability": "wis",
@@ -20478,11 +20478,11 @@
 					"name": "Healing Word (1/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The empyrean casts {@spell Healing Word|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The empyrean casts {@spell Mot de guérison|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"1": [
-							"{@spell Healing Word|XPHB}"
+							"{@spell Mot de guérison|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -21007,14 +21007,14 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Dancing Lights|XPHB}",
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Minor Illusion|XPHB}"
+						"{@spell Lumières dansantes|XPHB}",
+						"{@spell Main du mage|XPHB}",
+						"{@spell Illusion mineure|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Hallucinatory Terrain|XPHB}",
-							"{@spell Polymorph|XPHB}"
+							"{@spell Terrain illusoire|XPHB}",
+							"{@spell Polymorphie|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -21024,10 +21024,10 @@
 					"name": "Superior Invisibility",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The dragon casts {@spell Greater Invisibility|XPHB} on itself, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The dragon casts {@spell Invisibilité supérieure|XPHB} on itself, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"will": [
-						"{@spell Greater Invisibility|XPHB}"
+						"{@spell Invisibilité supérieure|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "bonus",
@@ -21159,9 +21159,9 @@
 						"The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell Dancing Lights|XPHB}",
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Minor Illusion|XPHB}"
+						"{@spell Lumières dansantes|XPHB}",
+						"{@spell Main du mage|XPHB}",
+						"{@spell Illusion mineure|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -21170,10 +21170,10 @@
 					"name": "Superior Invisibility",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The dragon casts {@spell Greater Invisibility|XPHB} on itself, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The dragon casts {@spell Invisibilité supérieure|XPHB} on itself, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"will": [
-						"{@spell Greater Invisibility|XPHB}"
+						"{@spell Invisibilité supérieure|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "bonus",
@@ -21312,12 +21312,12 @@
 						"The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}, {@hit 7} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Scorching Ray|XPHB} (level 5 version)",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Rayons brûlants|XPHB} (level 5 version)",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"2": [
-							"{@spell Fireball|XPHB} (level 6 version)"
+							"{@spell Boule de feu|XPHB} (level 6 version)"
 						]
 					},
 					"ability": "wis",
@@ -21327,10 +21327,10 @@
 					"name": "Hellish Rebuke",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The cultist casts {@spell Hellish Rebuke|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+						"The cultist casts {@spell Réprobation infernale|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"will": [
-						"{@spell Hellish Rebuke|XPHB}"
+						"{@spell Réprobation infernale|XPHB}"
 					],
 					"ability": "wis",
 					"displayAs": "reaction",
@@ -21707,14 +21707,14 @@
 						"The flameskull casts one of the following spells, requiring no Somatic or Material components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Mage Hand|XPHB}"
+						"{@spell Main du mage|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Fireball|XPHB}"
+							"{@spell Boule de feu|XPHB}"
 						],
 						"2": [
-							"{@spell Magic Missile|XPHB} (level 2 version)"
+							"{@spell Projectile magique|XPHB} (level 2 version)"
 						]
 					},
 					"ability": "int",
@@ -21737,7 +21737,7 @@
 				{
 					"name": "Undead Restoration",
 					"entries": [
-						"If the flameskull is destroyed, it regains all its {@variantrule Hit Points|XPHB} in 1 hour unless {@item Eau bénite|XPHB} is sprinkled on its remains or the {@spell Dispel Evil and Good|XPHB} spell is cast on them."
+						"If the flameskull is destroyed, it regains all its {@variantrule Hit Points|XPHB} in 1 hour unless {@item Eau bénite|XPHB} is sprinkled on its remains or the {@spell Dissipation du mal et du bien|XPHB} spell is cast on them."
 					]
 				}
 			],
@@ -23172,8 +23172,8 @@
 						"The ghast casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell Speak with Dead|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Parler aux morts|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"ability": "int",
 					"displayAs": "action"
@@ -23329,10 +23329,10 @@
 					"name": "Etherealness",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The ghost casts the {@spell Etherealness|XPHB} spell, requiring no spell components and using Charisma as the spellcasting ability. The ghost is visible on the Material Plane while on the Border Ethereal and vice versa, but it can't affect or be affected by anything on the other plane."
+						"The ghost casts the {@spell Éthéré|XPHB} spell, requiring no spell components and using Charisma as the spellcasting ability. The ghost is visible on the Material Plane while on the Border Ethereal and vice versa, but it can't affect or be affected by anything on the other plane."
 					],
 					"will": [
-						"{@spell Etherealness|XPHB}"
+						"{@spell Éthéré|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "action",
@@ -25068,8 +25068,8 @@
 						"The owl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell Detect Evil and Good|XPHB}",
-						"{@spell Detect Magic|XPHB}"
+						"{@spell Détection du mal et du bien|XPHB}",
+						"{@spell Détection de la magie|XPHB}"
 					],
 					"daily": {
 						"1": [
@@ -26387,13 +26387,13 @@
 						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 18}, {@hit 10} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Mage Hand|XPHB} (the hand is {@condition Invisible|XPHB})"
+						"{@spell Main du mage|XPHB} (the hand is {@condition Invisible|XPHB})"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Nondetection|XPHB} (self only)",
-							"{@spell Plane Shift|XPHB}",
-							"{@spell Tongues|XPHB}"
+							"{@spell Occultation|XPHB} (self only)",
+							"{@spell Déplacement planaire|XPHB}",
+							"{@spell Don des langues|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -26403,11 +26403,11 @@
 					"name": "Misty Step (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githyanki casts {@spell Misty Step|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The githyanki casts {@spell Pas brumeux|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Misty Step|XPHB}"
+							"{@spell Pas brumeux|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -26542,16 +26542,16 @@
 						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Mage Hand|XPHB} (the hand is {@condition Invisible|XPHB})"
+						"{@spell Main du mage|XPHB} (the hand is {@condition Invisible|XPHB})"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Nondetection|XPHB} (self only)",
-							"{@spell Tongues|XPHB}"
+							"{@spell Occultation|XPHB} (self only)",
+							"{@spell Don des langues|XPHB}"
 						],
 						"1e": [
-							"{@spell Plane Shift|XPHB}",
-							"{@spell Telekinesis|XPHB}"
+							"{@spell Déplacement planaire|XPHB}",
+							"{@spell Télékinésie|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -26561,11 +26561,11 @@
 					"name": "Misty Step (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githyanki casts {@spell Misty Step|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The githyanki casts {@spell Pas brumeux|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Misty Step|XPHB}"
+							"{@spell Pas brumeux|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -26579,13 +26579,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The githyanki makes three Silver Sword attacks. It can replace one attack with a use of Spellcasting to cast {@spell Telekinesis|XPHB} if available."
+						"The githyanki makes three Silver Sword attacks. It can replace one attack with a use of Spellcasting to cast {@spell Télékinésie|XPHB} if available."
 					]
 				},
 				{
 					"name": "Silver Sword",
 					"entries": [
-						"{@atkr m} {@hit 6}, reach 5 ft. {@h}10 ({@damage 2d6 + 3}) Slashing damage plus 14 ({@damage 4d6}) Psychic damage. Critical {@h}If the target is in an astral body (as with the {@spell Astral Projection|XPHB} spell), the githyanki can cut the silvery cord that tethers the target to its material body instead of dealing damage."
+						"{@atkr m} {@hit 6}, reach 5 ft. {@h}10 ({@damage 2d6 + 3}) Slashing damage plus 14 ({@damage 4d6}) Psychic damage. Critical {@h}If the target is in an astral body (as with the {@spell Projection astrale|XPHB} spell), the githyanki can cut the silvery cord that tethers the target to its material body instead of dealing damage."
 					]
 				}
 			],
@@ -26684,11 +26684,11 @@
 						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell Mage Hand|XPHB} (the hand is {@condition Invisible|XPHB})"
+						"{@spell Main du mage|XPHB} (the hand is {@condition Invisible|XPHB})"
 					],
 					"daily": {
 						"2": [
-							"{@spell Nondetection|XPHB} (self only)"
+							"{@spell Occultation|XPHB} (self only)"
 						]
 					},
 					"ability": "int",
@@ -26698,11 +26698,11 @@
 					"name": "Misty Step (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githyanki casts {@spell Misty Step|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The githyanki casts {@spell Pas brumeux|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Misty Step|XPHB}"
+							"{@spell Pas brumeux|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -26817,11 +26817,11 @@
 						"The githzerai casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell Mage Hand|XPHB} (the hand is {@condition Invisible|XPHB})"
+						"{@spell Main du mage|XPHB} (the hand is {@condition Invisible|XPHB})"
 					],
 					"daily": {
 						"1": [
-							"{@spell See Invisibility|XPHB}"
+							"{@spell Voir l'invisible|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -26831,11 +26831,11 @@
 					"name": "Psi-Powered Leap (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githzerai casts {@spell Jump|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The githzerai casts {@spell Saut|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Jump|XPHB}"
+							"{@spell Saut|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -26848,12 +26848,12 @@
 					"name": "Psionic Defense (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githzerai casts {@spell Feather Fall|XPHB} or {@spell Shield|XPHB} in response to the spell's trigger, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The githzerai casts {@spell Chute ralentie|XPHB} or {@spell Bouclier|XPHB} in response to the spell's trigger, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Feather Fall|XPHB}",
-							"{@spell Shield|XPHB}"
+							"{@spell Chute ralentie|XPHB}",
+							"{@spell Bouclier|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -26975,12 +26975,12 @@
 						"The githzerai casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Mage Hand|XPHB} (the hand is {@condition Invisible|XPHB})"
+						"{@spell Main du mage|XPHB} (the hand is {@condition Invisible|XPHB})"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Plane Shift|XPHB}",
-							"{@spell See Invisibility|XPHB}"
+							"{@spell Déplacement planaire|XPHB}",
+							"{@spell Voir l'invisible|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -26990,11 +26990,11 @@
 					"name": "Psionic Defense",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githzerai casts {@spell Feather Fall|XPHB} or {@spell Shield|XPHB} in response to the spell's trigger, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The githzerai casts {@spell Chute ralentie|XPHB} or {@spell Bouclier|XPHB} in response to the spell's trigger, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"will": [
-						"{@spell Feather Fall|XPHB}",
-						"{@spell Shield|XPHB}"
+						"{@spell Chute ralentie|XPHB}",
+						"{@spell Bouclier|XPHB}"
 					],
 					"ability": "int",
 					"displayAs": "reaction",
@@ -27106,13 +27106,13 @@
 						"The githzerai casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Mage Hand|XPHB} (the hand is {@condition Invisible|XPHB})"
+						"{@spell Main du mage|XPHB} (the hand is {@condition Invisible|XPHB})"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Phantasmal Killer|XPHB} (level 6 version)",
-							"{@spell Plane Shift|XPHB}",
-							"{@spell See Invisibility|XPHB}"
+							"{@spell Tueur phantasmal|XPHB} (level 6 version)",
+							"{@spell Déplacement planaire|XPHB}",
+							"{@spell Voir l'invisible|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -27122,11 +27122,11 @@
 					"name": "Psi-Powered Leap (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githzerai casts {@spell Jump|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The githzerai casts {@spell Saut|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Jump|XPHB}"
+							"{@spell Saut|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -27139,12 +27139,12 @@
 					"name": "Psionic Defense (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githzerai casts {@spell Feather Fall|XPHB} or {@spell Shield|XPHB} in response to the spell's trigger, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The githzerai casts {@spell Chute ralentie|XPHB} or {@spell Bouclier|XPHB} in response to the spell's trigger, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Feather Fall|XPHB}",
-							"{@spell Shield|XPHB}"
+							"{@spell Chute ralentie|XPHB}",
+							"{@spell Bouclier|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -27284,15 +27284,15 @@
 						"The glabrezu casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Darkness|XPHB}",
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Dispel Magic|XPHB}"
+						"{@spell Ténèbres|XPHB}",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Dissipation de la magie|XPHB}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell Confusion|XPHB}",
-							"{@spell Fly|XPHB}",
-							"{@spell Power Word Stun|XPHB}"
+							"{@spell Vol|XPHB}",
+							"{@spell Mot de pouvoir d'étourdissement|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -28225,13 +28225,13 @@
 						"The goblin casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Minor Illusion|XPHB}"
+						"{@spell Illusion mineure|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Blindness/Deafness|XPHB}",
-							"{@spell Faerie Fire|XPHB}",
-							"{@spell Grease|XPHB}"
+							"{@spell Cécité/Surdité|XPHB}",
+							"{@spell Lueur féérique|XPHB}",
+							"{@spell Graisse|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -28999,7 +28999,7 @@
 				{
 					"name": "Undead Restoration",
 					"entries": [
-						"If the revenant dies, it revives 24 hours later unless {@spell Dispel Evil and Good|XPHB} is cast on its remains. If it revives, it animates another group of corpses elsewhere on the same plane of existence; it now looks different but uses the same stat block and returns with all its {@variantrule Hit Points|XPHB}."
+						"If the revenant dies, it revives 24 hours later unless {@spell Dissipation du mal et du bien|XPHB} is cast on its remains. If it revives, it animates another group of corpses elsewhere on the same plane of existence; it now looks different but uses the same stat block and returns with all its {@variantrule Hit Points|XPHB}."
 					]
 				}
 			],
@@ -29127,7 +29127,7 @@
 				{
 					"name": "Corrosive Form",
 					"entries": [
-						"Nonmagical ammunition is destroyed immediately after hitting the ooze and dealing any damage. Any nonmagical weapon takes a cumulative -1 penalty to attack rolls immediately after dealing damage to the ooze and coming into contact with it. The weapon is destroyed if the penalty reaches -5. The penalty can be removed by casting the {@spell Mending|XPHB} spell on the weapon.",
+						"Nonmagical ammunition is destroyed immediately after hitting the ooze and dealing any damage. Any nonmagical weapon takes a cumulative -1 penalty to attack rolls immediately after dealing damage to the ooze and coming into contact with it. The weapon is destroyed if the penalty reaches -5. The penalty can be removed by casting the {@spell Réparation|XPHB} spell on the weapon.",
 						"The ooze can eat through 2-inch-thick, nonmagical metal or wood in 1 round."
 					]
 				}
@@ -29136,7 +29136,7 @@
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"{@atkr m} {@hit 3}, reach 5 ft. {@h}10 ({@damage 2d8 + 1}) Acid damage. Nonmagical armor worn by the target takes a -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. The penalty can be removed by casting the {@spell Mending|XPHB} spell on the armor."
+						"{@atkr m} {@hit 3}, reach 5 ft. {@h}10 ({@damage 2d8 + 1}) Acid damage. Nonmagical armor worn by the target takes a -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. The penalty can be removed by casting the {@spell Réparation|XPHB} spell on the armor."
 					]
 				}
 			],
@@ -29226,18 +29226,18 @@
 						"The slaad casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Invisibility|XPHB} (self only)",
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Major Image|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Invisibilité|XPHB} (self only)",
+						"{@spell Main du mage|XPHB}",
+						"{@spell Image majeure|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Cloudkill|XPHB}",
-							"{@spell Fly|XPHB}",
-							"{@spell Plane Shift|XPHB} (self only)",
-							"{@spell Tongues|XPHB}"
+							"{@spell Nuée mortelle|XPHB}",
+							"{@spell Vol|XPHB}",
+							"{@spell Déplacement planaire|XPHB} (self only)",
+							"{@spell Don des langues|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -29528,16 +29528,16 @@
 					"name": "Coven Magic",
 					"type": "spellcasting",
 					"headerEntries": [
-						"While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save {@dc 11}): {@spell Augury|XPHB}, {@spell Find Familiar|XPHB}, {@spell Identify|XPHB}, {@spell Locate Object|XPHB}, {@spell Scrying|XPHB}, or {@spell Unseen Servant|XPHB}. The hag must finish a {@variantrule Long Rest|XPHB} before using this trait to cast that spell again."
+						"While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save {@dc 11}): {@spell Augure|XPHB}, {@spell Familier|XPHB}, {@spell Identification|XPHB}, {@spell Localisation d'objet|XPHB}, {@spell Scrutation|XPHB}, or {@spell Servant invisible|XPHB}. The hag must finish a {@variantrule Long Rest|XPHB} before using this trait to cast that spell again."
 					],
 					"restLong": {
 						"1": [
-							"{@spell Augury|XPHB}",
-							"{@spell Find Familiar|XPHB}",
-							"{@spell Identify|XPHB}",
-							"{@spell Locate Object|XPHB}",
-							"{@spell Scrying|XPHB}",
-							"{@spell Unseen Servant|XPHB}"
+							"{@spell Augure|XPHB}",
+							"{@spell Familier|XPHB}",
+							"{@spell Identification|XPHB}",
+							"{@spell Localisation d'objet|XPHB}",
+							"{@spell Scrutation|XPHB}",
+							"{@spell Servant invisible|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -29552,11 +29552,11 @@
 						"The hag casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 12}, {@hit 4} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Dancing Lights|XPHB}",
-						"{@spell Disguise Self|XPHB} (24-hour duration)",
-						"{@spell Invisibility|XPHB} (self only, and the hag leaves no tracks while {@condition Invisible|XPHB})",
-						"{@spell Minor Illusion|XPHB}",
-						"{@spell Ray of Sickness|XPHB} (level 3 version)"
+						"{@spell Lumières dansantes|XPHB}",
+						"{@spell Déguisement|XPHB} (24-hour duration)",
+						"{@spell Invisibilité|XPHB} (self only, and the hag leaves no tracks while {@condition Invisible|XPHB})",
+						"{@spell Illusion mineure|XPHB}",
+						"{@spell Rayon nauséeux|XPHB} (level 3 version)"
 					],
 					"ability": "wis",
 					"displayAs": "action"
@@ -29704,14 +29704,14 @@
 						"The slaad casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 14}, {@hit 6} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Mage Hand|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Main du mage|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Fireball|XPHB}",
-							"{@spell Invisibility|XPHB} (self only)"
+							"{@spell Boule de feu|XPHB}",
+							"{@spell Invisibilité|XPHB} (self only)"
 						]
 					},
 					"ability": "cha",
@@ -30547,15 +30547,15 @@
 						"The naga casts one of the following spells, requiring no Somatic or Material components and using Wisdom as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell Clairvoyance|XPHB}",
-							"{@spell Cure Wounds|XPHB} (level 6 version)",
-							"{@spell Flame Strike|XPHB} (level 6 version)",
+							"{@spell Soins|XPHB} (level 6 version)",
+							"{@spell Colère sacrée|XPHB} (level 6 version)",
 							"{@spell Geas|XPHB}",
-							"{@spell True Seeing|XPHB}"
+							"{@spell Vision véritable|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -30566,7 +30566,7 @@
 				{
 					"name": "Celestial Restoration",
 					"entries": [
-						"If the naga dies, it returns to life in {@dice 1d6} days and regains all its {@variantrule Hit Points|XPHB} unless {@spell Dispel Evil and Good|XPHB} is cast on its remains."
+						"If the naga dies, it returns to life in {@dice 1d6} days and regains all its {@variantrule Hit Points|XPHB} unless {@spell Dissipation du mal et du bien|XPHB} is cast on its remains."
 					]
 				}
 			],
@@ -31058,7 +31058,7 @@
 				{
 					"name": "Undead Restoration",
 					"entries": [
-						"If the revenant dies, it revives 24 hours later unless {@spell Dispel Evil and Good|XPHB} is cast on its remains. If it revives, it animates another Gargantuan object or structure elsewhere on the same plane of existence; it now looks different but uses the same stat block and returns with all its {@variantrule Hit Points|XPHB}."
+						"If the revenant dies, it revives 24 hours later unless {@spell Dissipation du mal et du bien|XPHB} is cast on its remains. If it revives, it animates another Gargantuan object or structure elsewhere on the same plane of existence; it now looks different but uses the same stat block and returns with all its {@variantrule Hit Points|XPHB}."
 					]
 				}
 			],
@@ -31079,7 +31079,7 @@
 					"name": "Invitation",
 					"entries": [
 						"{@actSave cha} {@dc 17}, each creature in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} The target is teleported inside the revenant's space and swallowed. A swallowed creature has {@variantrule Cover|XPHB|Total Cover} against attacks and other effects outside the revenant.",
-						"While the revenant has {@variantrule Hit Points|XPHB}, a swallowed creature can leave the revenant's space only by using magic that enables planar travel, such as the {@spell Plane Shift|XPHB} spell."
+						"While the revenant has {@variantrule Hit Points|XPHB}, a swallowed creature can leave the revenant's space only by using magic that enables planar travel, such as the {@spell Déplacement planaire|XPHB} spell."
 					]
 				}
 			],
@@ -31388,7 +31388,7 @@
 				{
 					"name": "Spell Immunity",
 					"entries": [
-						"The helmed horror is immune to three spells chosen by its creator. Typical choices include {@spell Heat Metal|XPHB}, {@spell Lightning Bolt|XPHB}, and {@spell Magic Missile|XPHB}."
+						"The helmed horror is immune to three spells chosen by its creator. Typical choices include {@spell Métal brûlant|XPHB}, {@spell Éclair|XPHB}, and {@spell Projectile magique|XPHB}."
 					]
 				}
 			],
@@ -32940,11 +32940,11 @@
 					"name": "Ice Wall {@recharge}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The devil casts {@spell Wall of Ice|XPHB} (level 8 version), requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17})."
+						"The devil casts {@spell Mur de glace|XPHB} (level 8 version), requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17})."
 					],
 					"recharge": {
 						"6": [
-							"{@spell Wall of Ice|XPHB} (level 8 version)"
+							"{@spell Mur de glace|XPHB} (level 8 version)"
 						]
 					},
 					"ability": "int",
@@ -33103,11 +33103,11 @@
 					"name": "Fog Cloud (1/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mephit casts {@spell Fog Cloud|XPHB}, requiring no spell components and using Charisma as the spellcasting ability."
+						"The mephit casts {@spell Nuage de brouillard|XPHB}, requiring no spell components and using Charisma as the spellcasting ability."
 					],
 					"daily": {
 						"1": [
-							"{@spell Fog Cloud|XPHB}"
+							"{@spell Nuage de brouillard|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -33256,10 +33256,10 @@
 					"name": "Invisibility",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The imp casts {@spell Invisibility|XPHB} on itself, requiring no spell components and using Charisma as the spellcasting ability."
+						"The imp casts {@spell Invisibilité|XPHB} on itself, requiring no spell components and using Charisma as the spellcasting ability."
 					],
 					"will": [
-						"{@spell Invisibility|XPHB}"
+						"{@spell Invisibilité|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "action",
@@ -33393,13 +33393,13 @@
 						"The incubus casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Disguise Self|XPHB}",
-						"{@spell Etherealness|XPHB}"
+						"{@spell Déguisement|XPHB}",
+						"{@spell Éthéré|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Dream|XPHB}",
-							"{@spell Hypnotic Pattern|XPHB}"
+							"{@spell Songe|XPHB}",
+							"{@spell Motif hypnotique|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -33568,7 +33568,7 @@
 					"name": "Steal Body",
 					"entries": [
 						"{@actSave int} {@dc 12}, one Small or Medium creature within 5 feet that has the {@condition Incapable|XPHB} condition, is a Humanoid or Beast, and has 10 {@variantrule Hit Points|XPHB} or fewer. {@actSaveFail} The intellect devourer possesses the target, consumes its brain, and teleports inside its skull. While there, the intellect devourer has {@variantrule Cover|XPHB|Total Cover} against attacks and other effects originating outside its host. The intellect devourer retains its Intelligence, Wisdom, and Charisma scores; its understanding of Deep Speech; its telepathy; and its Detect Intelligence trait. It otherwise adopts the target's game statistics. It knows everything the target knew, including spells and languages.",
-						"If the host body dies, the intellect devourer must leave it. The intellect devourer is also forced out if the target regains its devoured brain by means of a {@spell Wish|XPHB} spell. By spending 5 feet of its movement, the intellect devourer can voluntarily leave the body, teleporting to the nearest unoccupied space within 5 feet of it. The body then dies unless its brain is restored before the end of the intellect devourer's next turn."
+						"If the host body dies, the intellect devourer must leave it. The intellect devourer is also forced out if the target regains its devoured brain by means of a {@spell Souhait|XPHB} spell. By spending 5 feet of its movement, the intellect devourer can voluntarily leave the body, teleporting to the nearest unoccupied space within 5 feet of it. The body then dies unless its brain is restored before the end of the intellect devourer's next turn."
 					]
 				}
 			],
@@ -34283,11 +34283,11 @@
 					"name": "Eldritch Lantern {@recharge 4}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The kenku casts {@spell Faerie Fire|XPHB}, using Intelligence as the spellcasting ability (spell save {@dc 10})."
+						"The kenku casts {@spell Lueur féérique|XPHB}, using Intelligence as the spellcasting ability (spell save {@dc 10})."
 					],
 					"recharge": {
 						"4": [
-							"{@spell Faerie Fire|XPHB}"
+							"{@spell Lueur féérique|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -35051,16 +35051,16 @@
 						"The kuo-toa casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Destructive Wave|XPHB}",
+							"{@spell Onde destructrice|XPHB}",
 							"{@spell Divination|XPHB}",
-							"{@spell Hold Monster|XPHB} (level 6 version)",
-							"{@spell Scrying|XPHB}",
-							"{@spell Tongues|XPHB}"
+							"{@spell Immobilisation de monstre|XPHB} (level 6 version)",
+							"{@spell Scrutation|XPHB}",
+							"{@spell Don des langues|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -35070,11 +35070,11 @@
 					"name": "Shield of Faith (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The kuo-toa casts {@spell Shield of Faith|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The kuo-toa casts {@spell Bouclier de la foi|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Shield of Faith|XPHB}"
+							"{@spell Bouclier de la foi|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -35326,11 +35326,11 @@
 					"name": "Shield of Faith (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The kuo-toa casts {@spell Shield of Faith|XPHB}, using Wisdom as the spellcasting ability."
+						"The kuo-toa casts {@spell Bouclier de la foi|XPHB}, using Wisdom as the spellcasting ability."
 					],
 					"daily": {
 						"2": [
-							"{@spell Shield of Faith|XPHB}"
+							"{@spell Bouclier de la foi|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -35577,14 +35577,14 @@
 						"The lamia casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Disguise Self|XPHB} (can appear as a Large or Medium biped)",
-						"{@spell Minor Illusion|XPHB}"
+						"{@spell Déguisement|XPHB} (can appear as a Large or Medium biped)",
+						"{@spell Illusion mineure|XPHB}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell Geas|XPHB}",
-							"{@spell Major Image|XPHB}",
-							"{@spell Scrying|XPHB}"
+							"{@spell Image majeure|XPHB}",
+							"{@spell Scrutation|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -35792,7 +35792,7 @@
 				{
 					"name": "Hellish Restoration",
 					"entries": [
-						"If the lemure dies in the Nine Hells, it revives with all its {@variantrule Hit Points|XPHB} in {@dice 1d10} days unless it is killed by a creature under the effects of a {@spell Bless|XPHB} spell or its remains are sprinkled with {@item Eau bénite|XPHB}."
+						"If the lemure dies in the Nine Hells, it revives with all its {@variantrule Hit Points|XPHB} in {@dice 1d10} days unless it is killed by a creature under the effects of a {@spell Bénédiction|XPHB} spell or its remains are sprinkled with {@item Eau bénite|XPHB}."
 					]
 				}
 			],
@@ -35925,26 +35925,26 @@
 						"The lich casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 20}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Dispel Magic|XPHB}",
-						"{@spell Fireball|XPHB} (level 5 version)",
-						"{@spell Invisibility|XPHB}",
-						"{@spell Lightning Bolt|XPHB} (level 5 version)",
-						"{@spell Mage Hand|XPHB}",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Dissipation de la magie|XPHB}",
+						"{@spell Boule de feu|XPHB} (level 5 version)",
+						"{@spell Invisibilité|XPHB}",
+						"{@spell Éclair|XPHB} (level 5 version)",
+						"{@spell Main du mage|XPHB}",
 						"{@spell Prestidigitation|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Animate Dead|XPHB}",
-							"{@spell Dimension Door|XPHB}",
-							"{@spell Plane Shift|XPHB}"
+							"{@spell Animation des morts|XPHB}",
+							"{@spell Porte dimensionnelle|XPHB}",
+							"{@spell Déplacement planaire|XPHB}"
 						],
 						"1e": [
-							"{@spell Chain Lightning|XPHB}",
-							"{@spell Finger of Death|XPHB}",
-							"{@spell Power Word Kill|XPHB}",
-							"{@spell Scrying|XPHB}"
+							"{@spell Chaîne d'éclairs|XPHB}",
+							"{@spell Doigt de mort|XPHB}",
+							"{@spell Mot de pouvoir de mort|XPHB}",
+							"{@spell Scrutation|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -35954,11 +35954,11 @@
 					"name": "Protective Magic",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The lich casts {@spell Counterspell|XPHB} or {@spell Shield|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+						"The lich casts {@spell Contresort|XPHB} or {@spell Bouclier|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"will": [
-						"{@spell Counterspell|XPHB}",
-						"{@spell Shield|XPHB}"
+						"{@spell Contresort|XPHB}",
+						"{@spell Bouclier|XPHB}"
 					],
 					"ability": "int",
 					"displayAs": "reaction",
@@ -35970,11 +35970,11 @@
 					"name": "Frightening Gaze",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The lich casts {@spell Fear|XPHB}, using the same spellcasting ability as Spellcasting. The lich can't take this action again until the start of its next turn."
+						"The lich casts {@spell Peur|XPHB}, using the same spellcasting ability as Spellcasting. The lich can't take this action again until the start of its next turn."
 					],
 					"legendary": {
 						"1": [
-							"{@spell Fear|XPHB}"
+							"{@spell Peur|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -36351,13 +36351,13 @@
 						"The lizardfolk casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell Elementalism|XPHB}"
+						"{@spell Élémentalisme|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Meld into Stone|XPHB}",
-							"{@spell Speak with Plants|XPHB}",
-							"{@spell Spike Growth|XPHB}"
+							"{@spell Fusion avec la pierre|XPHB}",
+							"{@spell Parler aux plantes|XPHB}",
+							"{@spell Croissance d'épines|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -36613,20 +36613,20 @@
 						"The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Light|XPHB}",
-						"{@spell Mage Armor|XPHB} (included in AC)",
-						"{@spell Mage Hand|XPHB}",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Lumière|XPHB}",
+						"{@spell Armure du mage|XPHB} (included in AC)",
+						"{@spell Main du mage|XPHB}",
 						"{@spell Prestidigitation|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Fireball|XPHB} (level 4 version)",
-							"{@spell Invisibility|XPHB}"
+							"{@spell Boule de feu|XPHB} (level 4 version)",
+							"{@spell Invisibilité|XPHB}"
 						],
 						"1e": [
-							"{@spell Cone of Cold|XPHB}",
-							"{@spell Fly|XPHB}"
+							"{@spell Cône de froid|XPHB}",
+							"{@spell Vol|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -36636,11 +36636,11 @@
 					"name": "Misty Step (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mage casts {@spell Misty Step|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The mage casts {@spell Pas brumeux|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Misty Step|XPHB}"
+							"{@spell Pas brumeux|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -36653,12 +36653,12 @@
 					"name": "Protective Magic (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mage casts {@spell Counterspell|XPHB} or {@spell Shield|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+						"The mage casts {@spell Contresort|XPHB} or {@spell Bouclier|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Counterspell|XPHB}",
-							"{@spell Shield|XPHB}"
+							"{@spell Contresort|XPHB}",
+							"{@spell Bouclier|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -36788,15 +36788,15 @@
 						"The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Mage Hand|XPHB}",
+						"{@spell Main du mage|XPHB}",
 						"{@spell Prestidigitation|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Disguise Self|XPHB}",
-							"{@spell Ice Knife|XPHB}",
-							"{@spell Mage Armor|XPHB} (included in AC)",
-							"{@spell Thunderwave|XPHB}"
+							"{@spell Déguisement|XPHB}",
+							"{@spell Couteau de glace|XPHB}",
+							"{@spell Armure du mage|XPHB} (included in AC)",
+							"{@spell Onde de tonnerre|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -37525,18 +37525,18 @@
 						"The marid casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Create or Destroy Water|XPHB}",
-						"{@spell Detect Evil and Good|XPHB}",
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Purify Food and Drink|XPHB}"
+						"{@spell Création ou destruction d'eau|XPHB}",
+						"{@spell Détection du mal et du bien|XPHB}",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Purification de la nourriture et de la boisson|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Control Water|XPHB}",
-							"{@spell Gaseous Form|XPHB}",
-							"{@spell Invisibility|XPHB}",
-							"{@spell Plane Shift|XPHB}",
-							"{@spell Tongues|XPHB}"
+							"{@spell Contrôle de l'eau|XPHB}",
+							"{@spell Forme gazeuse|XPHB}",
+							"{@spell Invisibilité|XPHB}",
+							"{@spell Déplacement planaire|XPHB}",
+							"{@spell Don des langues|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -37546,11 +37546,11 @@
 					"name": "Misty Veil {@recharge 5}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The marid casts {@spell Fog Cloud|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The marid casts {@spell Nuage de brouillard|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"recharge": {
 						"5": [
-							"{@spell Fog Cloud|XPHB}"
+							"{@spell Nuage de brouillard|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -37576,7 +37576,7 @@
 				{
 					"name": "Wishes",
 					"entries": [
-						"The marid has a 30 percent chance of knowing the {@spell Wish|XPHB} spell. If the marid knows it, the marid can cast it only on behalf of a non-genie creature who communicates a wish in a way the marid can understand. If the marid casts the spell for the creature, the marid suffers none of the spell's stress. Once the marid has cast it three times, the marid can't do so again for 365 days."
+						"The marid has a 30 percent chance of knowing the {@spell Souhait|XPHB} spell. If the marid knows it, the marid can cast it only on behalf of a non-genie creature who communicates a wish in a way the marid can understand. If the marid casts the spell for the creature, the marid suffers none of the spell's stress. Once the marid has cast it three times, the marid can't do so again for 365 days."
 					]
 				}
 			],
@@ -38177,13 +38177,13 @@
 						"The merfolk casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Elementalism|XPHB}",
-						"{@spell Light|XPHB}"
+						"{@spell Élémentalisme|XPHB}",
+						"{@spell Lumière|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Control Water|XPHB}",
-							"{@spell Create or Destroy Water|XPHB}"
+							"{@spell Contrôle de l'eau|XPHB}",
+							"{@spell Création ou destruction d'eau|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -38459,9 +38459,9 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell Cloudkill|XPHB}",
-							"{@spell Darkness|XPHB}",
-							"{@spell Dispel Magic|XPHB}"
+							"{@spell Nuée mortelle|XPHB}",
+							"{@spell Ténèbres|XPHB}",
+							"{@spell Dissipation de la magie|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -38753,12 +38753,12 @@
 						"The mind flayer casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Detect Thoughts|XPHB}"
+						"{@spell Détection de pensées|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Dominate Monster|XPHB}",
-							"{@spell Plane Shift|XPHB} (self only)"
+							"{@spell Soumission de monstre|XPHB}",
+							"{@spell Déplacement planaire|XPHB} (self only)"
 						]
 					},
 					"ability": "int",
@@ -38920,19 +38920,19 @@
 						"The mind flayer casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Disguise Self|XPHB}",
-						"{@spell Mage Hand|XPHB} (the hand is {@condition Invisible|XPHB})"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Déguisement|XPHB}",
+						"{@spell Main du mage|XPHB} (the hand is {@condition Invisible|XPHB})"
 					],
 					"daily": {
 						"1e": [
 							"{@spell Clairvoyance|XPHB}",
-							"{@spell Dimension Door|XPHB}",
-							"{@spell Fireball|XPHB} (level 5 version)",
-							"{@spell Lightning Bolt|XPHB} (level 5 version)",
-							"{@spell Plane Shift|XPHB} (self only)",
-							"{@spell Sending|XPHB}"
+							"{@spell Porte dimensionnelle|XPHB}",
+							"{@spell Boule de feu|XPHB} (level 5 version)",
+							"{@spell Éclair|XPHB} (level 5 version)",
+							"{@spell Déplacement planaire|XPHB} (self only)",
+							"{@spell Envoi de message|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -38942,11 +38942,11 @@
 					"name": "Shield (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mind flayer casts {@spell Shield|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+						"The mind flayer casts {@spell Bouclier|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Shield|XPHB}"
+							"{@spell Bouclier|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -40086,14 +40086,14 @@
 						"The mummy casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 17}, {@hit 9} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Dispel Magic|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Dissipation de la magie|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Animate Dead|XPHB}",
-							"{@spell Harm|XPHB}",
-							"{@spell Insect Plague|XPHB} (level 7 version)"
+							"{@spell Animation des morts|XPHB}",
+							"{@spell Infection|XPHB}",
+							"{@spell Nuée d'insectes|XPHB} (level 7 version)"
 						]
 					},
 					"ability": "wis",
@@ -40103,11 +40103,11 @@
 					"name": "Dread Command",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mummy casts {@spell Command|XPHB} (level 2 version), using the same spellcasting ability as Spellcasting. The mummy can't take this action again until the start of its next turn."
+						"The mummy casts {@spell Ordre|XPHB} (level 2 version), using the same spellcasting ability as Spellcasting. The mummy can't take this action again until the start of its next turn."
 					],
 					"legendary": {
 						"1": [
-							"{@spell Command|XPHB} (level 2 version)"
+							"{@spell Ordre|XPHB} (level 2 version)"
 						]
 					},
 					"ability": "wis",
@@ -40954,16 +40954,16 @@
 					"name": "Coven Magic",
 					"type": "spellcasting",
 					"headerEntries": [
-						"While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save {@dc 14}): {@spell Augury|XPHB}, {@spell Find Familiar|XPHB}, {@spell Identify|XPHB}, {@spell Locate Object|XPHB}, {@spell Scrying|XPHB}, or {@spell Unseen Servant|XPHB}. The hag must finish a {@variantrule Long Rest|XPHB} before using this trait to cast that spell again."
+						"While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save {@dc 14}): {@spell Augure|XPHB}, {@spell Familier|XPHB}, {@spell Identification|XPHB}, {@spell Localisation d'objet|XPHB}, {@spell Scrutation|XPHB}, or {@spell Servant invisible|XPHB}. The hag must finish a {@variantrule Long Rest|XPHB} before using this trait to cast that spell again."
 					],
 					"restLong": {
 						"1": [
-							"{@spell Augury|XPHB}",
-							"{@spell Find Familiar|XPHB}",
-							"{@spell Identify|XPHB}",
-							"{@spell Locate Object|XPHB}",
-							"{@spell Scrying|XPHB}",
-							"{@spell Unseen Servant|XPHB}"
+							"{@spell Augure|XPHB}",
+							"{@spell Familier|XPHB}",
+							"{@spell Identification|XPHB}",
+							"{@spell Localisation d'objet|XPHB}",
+							"{@spell Scrutation|XPHB}",
+							"{@spell Servant invisible|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -40978,14 +40978,14 @@
 						"The hag casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Etherealness|XPHB}",
-						"{@spell Magic Missile|XPHB} (level 4 version)"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Éthéré|XPHB}",
+						"{@spell Projectile magique|XPHB} (level 4 version)"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Phantasmal Killer|XPHB}",
-							"{@spell Plane Shift|XPHB} (self only)"
+							"{@spell Tueur phantasmal|XPHB}",
+							"{@spell Déplacement planaire|XPHB} (self only)"
 						]
 					},
 					"ability": "int",
@@ -40995,14 +40995,14 @@
 					"name": "Nightmare Haunting (1/Day; Requires Soul Bag)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"While on the Ethereal Plane, the hag casts {@spell Dream|XPHB}, using the same spellcasting ability as Spellcasting. Only the hag can serve as the spell's messenger, and the target must be a creature the hag can see on the Material Plane. The spell fails and is wasted if the target is under the effect of the {@spell Protection from Evil and Good|XPHB} spell or within a {@spell Magic Circle|XPHB} spell.",
-						"If the target takes damage from the {@spell Dream|XPHB} spell, the target's {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by an amount equal to that damage. If the spell kills the target, its soul is trapped in the hag's soul bag, and the target can't be raised from the dead until its soul is released."
+						"While on the Ethereal Plane, the hag casts {@spell Songe|XPHB}, using the same spellcasting ability as Spellcasting. Only the hag can serve as the spell's messenger, and the target must be a creature the hag can see on the Material Plane. The spell fails and is wasted if the target is under the effect of the {@spell Protection contre le mal et le bien|XPHB} spell or within a {@spell Cercle magique|XPHB} spell.",
+						"If the target takes damage from the {@spell Songe|XPHB} spell, the target's {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by an amount equal to that damage. If the spell kills the target, its soul is trapped in the hag's soul bag, and the target can't be raised from the dead until its soul is released."
 					],
 					"daily": {
 						"1": [
-							"{@spell Dream|XPHB}",
-							"{@spell Protection from Evil and Good|XPHB}",
-							"{@spell Magic Circle|XPHB}"
+							"{@spell Songe|XPHB}",
+							"{@spell Protection contre le mal et le bien|XPHB}",
+							"{@spell Cercle magique|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -41364,17 +41364,17 @@
 						"The noble casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Mage Armor|XPHB} (included in AC)",
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Minor Illusion|XPHB}"
+						"{@spell Armure du mage|XPHB} (included in AC)",
+						"{@spell Main du mage|XPHB}",
+						"{@spell Illusion mineure|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Befuddlement|XPHB}",
-							"{@spell Detect Thoughts|XPHB}",
-							"{@spell Fly|XPHB}",
-							"{@spell Scrying|XPHB}",
-							"{@spell Shatter|XPHB} (level 7 version)"
+							"{@spell Dégénrescence|XPHB}",
+							"{@spell Détection de pensées|XPHB}",
+							"{@spell Vol|XPHB}",
+							"{@spell Scrutation|XPHB}",
+							"{@spell Déflagration|XPHB} (level 7 version)"
 						]
 					},
 					"ability": "cha",
@@ -41384,11 +41384,11 @@
 					"name": "Shield (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The noble casts {@spell Shield|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+						"The noble casts {@spell Bouclier|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Shield|XPHB}"
+							"{@spell Bouclier|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -42286,10 +42286,10 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell Charm Person|XPHB} (level 2 version)",
-							"{@spell Darkness|XPHB}",
-							"{@spell Gaseous Form|XPHB}",
-							"{@spell Sleep|XPHB}"
+							"{@spell Charmement|XPHB} (level 2 version)",
+							"{@spell Ténèbres|XPHB}",
+							"{@spell Forme gazeuse|XPHB}",
+							"{@spell Sommeil|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -42299,10 +42299,10 @@
 					"name": "Invisibility",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The oni casts {@spell Invisibility|XPHB} on itself, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The oni casts {@spell Invisibilité|XPHB} on itself, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"will": [
-						"{@spell Invisibility|XPHB}"
+						"{@spell Invisibilité|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "bonus",
@@ -43006,14 +43006,14 @@
 						"The performer casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Minor Illusion|XPHB}",
+						"{@spell Main du mage|XPHB}",
+						"{@spell Illusion mineure|XPHB}",
 						"{@spell Prestidigitation|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Major Image|XPHB}",
-							"{@spell Project Image|XPHB}"
+							"{@spell Image majeure|XPHB}",
+							"{@spell Projection d'image|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -43148,12 +43148,12 @@
 						"The performer casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Minor Illusion|XPHB}",
+						"{@spell Illusion mineure|XPHB}",
 						"{@spell Prestidigitation|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Tasha's Hideous Laughter|XPHB} (level 3 version)"
+							"{@spell Rire hideux de Tasha|XPHB} (level 3 version)"
 						]
 					},
 					"ability": "cha",
@@ -44076,13 +44076,13 @@
 					"name": "Hellfire Spellcasting {@recharge 4}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The pit fiend casts {@spell Fireball|XPHB} (level 5 version) twice, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 21}). It can replace one {@spell Fireball|XPHB} with {@spell Hold Monster|XPHB} (level 7 version) or {@spell Wall of Fire|XPHB}."
+						"The pit fiend casts {@spell Boule de feu|XPHB} (level 5 version) twice, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 21}). It can replace one {@spell Boule de feu|XPHB} with {@spell Immobilisation de monstre|XPHB} (level 7 version) or {@spell Mur de feu|XPHB}."
 					],
 					"recharge": {
 						"4": [
-							"{@spell Fireball|XPHB} (level 5 version)",
-							"{@spell Hold Monster|XPHB} (level 7 version)",
-							"{@spell Wall of Fire|XPHB}"
+							"{@spell Boule de feu|XPHB} (level 5 version)",
+							"{@spell Immobilisation de monstre|XPHB} (level 7 version)",
+							"{@spell Mur de feu|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -44255,15 +44255,15 @@
 						"The pixie casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell Dancing Lights|XPHB}",
-						"{@spell Druidcraft|XPHB}",
-						"{@spell Invisibility|XPHB} (self only)"
+						"{@spell Lumières dansantes|XPHB}",
+						"{@spell Druidisme|XPHB}",
+						"{@spell Invisibilité|XPHB} (self only)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Detect Thoughts|XPHB}",
-							"{@spell Fly|XPHB}",
-							"{@spell Sleep|XPHB}"
+							"{@spell Détection de pensées|XPHB}",
+							"{@spell Vol|XPHB}",
+							"{@spell Sommeil|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -44377,15 +44377,15 @@
 						"The pixie casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Dancing Lights|XPHB}",
-						"{@spell Druidcraft|XPHB}",
-						"{@spell Invisibility|XPHB} (self only)"
+						"{@spell Lumières dansantes|XPHB}",
+						"{@spell Druidisme|XPHB}",
+						"{@spell Invisibilité|XPHB} (self only)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Detect Thoughts|XPHB}",
-							"{@spell Fly|XPHB}",
-							"{@spell Major Image|XPHB}"
+							"{@spell Détection de pensées|XPHB}",
+							"{@spell Vol|XPHB}",
+							"{@spell Image majeure|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -44395,13 +44395,13 @@
 					"name": "Burst of Wonder {@recharge 5}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The pixie casts {@spell Entangle|XPHB}, {@spell Polymorph|XPHB}, or {@spell Tasha's Hideous Laughter|XPHB}, requiring no Material components and using the same spellcasting ability as Spellcasting."
+						"The pixie casts {@spell Enchevêtrement|XPHB}, {@spell Polymorphie|XPHB}, or {@spell Rire hideux de Tasha|XPHB}, requiring no Material components and using the same spellcasting ability as Spellcasting."
 					],
 					"recharge": {
 						"5": [
-							"{@spell Entangle|XPHB}",
-							"{@spell Polymorph|XPHB}",
-							"{@spell Tasha's Hideous Laughter|XPHB}"
+							"{@spell Enchevêtrement|XPHB}",
+							"{@spell Polymorphie|XPHB}",
+							"{@spell Rire hideux de Tasha|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -44557,14 +44557,14 @@
 						"The planetar casts one of the following spells, requiring no Material components and using Charisma as spellcasting ability (spell save {@dc 20}):"
 					],
 					"will": [
-						"{@spell Detect Evil and Good|XPHB}"
+						"{@spell Détection du mal et du bien|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Commune|XPHB}",
-							"{@spell Control Weather|XPHB}",
-							"{@spell Dispel Evil and Good|XPHB}",
-							"{@spell Raise Dead|XPHB}"
+							"{@spell Communion|XPHB}",
+							"{@spell Contrôle du climat|XPHB}",
+							"{@spell Dissipation du mal et du bien|XPHB}",
+							"{@spell Relèvement|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -44574,14 +44574,14 @@
 					"name": "Divine Aid (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The planetar casts {@spell Cure Wounds|XPHB}, {@spell Invisibility|XPHB}, {@spell Lesser Restoration|XPHB}, or {@spell Remove Curse|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The planetar casts {@spell Soins|XPHB}, {@spell Invisibilité|XPHB}, {@spell Restauration partielle|XPHB}, or {@spell Délivrance de la malédiction|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Cure Wounds|XPHB}",
-							"{@spell Invisibility|XPHB}",
-							"{@spell Lesser Restoration|XPHB}",
-							"{@spell Remove Curse|XPHB}"
+							"{@spell Soins|XPHB}",
+							"{@spell Invisibilité|XPHB}",
+							"{@spell Restauration partielle|XPHB}",
+							"{@spell Délivrance de la malédiction|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -45128,12 +45128,12 @@
 						"The priest casts one of the following spells, using Wisdom as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell Light|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Lumière|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Spirit Guardians|XPHB}"
+							"{@spell Esprits gardiens|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -45143,14 +45143,14 @@
 					"name": "Divine Aid (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The priest casts {@spell Bless|XPHB}, {@spell Dispel Magic|XPHB}, {@spell Healing Word|XPHB}, or {@spell Lesser Restoration|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The priest casts {@spell Bénédiction|XPHB}, {@spell Dissipation de la magie|XPHB}, {@spell Mot de guérison|XPHB}, or {@spell Restauration partielle|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Bless|XPHB}",
-							"{@spell Dispel Magic|XPHB}",
-							"{@spell Healing Word|XPHB}",
-							"{@spell Lesser Restoration|XPHB}"
+							"{@spell Bénédiction|XPHB}",
+							"{@spell Dissipation de la magie|XPHB}",
+							"{@spell Mot de guérison|XPHB}",
+							"{@spell Restauration partielle|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -45284,8 +45284,8 @@
 						"The priest casts one of the following spells, using Wisdom as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell Light|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Lumière|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"ability": "wis",
 					"displayAs": "action"
@@ -45294,13 +45294,13 @@
 					"name": "Divine Aid (1/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The priest casts {@spell Bless|XPHB}, {@spell Healing Word|XPHB}, or {@spell Sanctuary|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The priest casts {@spell Bénédiction|XPHB}, {@spell Mot de guérison|XPHB}, or {@spell Sanctuaire|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"1": [
-							"{@spell Bless|XPHB}",
-							"{@spell Healing Word|XPHB}",
-							"{@spell Sanctuary|XPHB}"
+							"{@spell Bénédiction|XPHB}",
+							"{@spell Mot de guérison|XPHB}",
+							"{@spell Sanctuaire|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -46050,12 +46050,12 @@
 						"The quaggoth casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell Mage Hand|XPHB} (the hand is {@condition Invisible|XPHB})",
-						"{@spell Minor Illusion|XPHB}"
+						"{@spell Main du mage|XPHB} (the hand is {@condition Invisible|XPHB})",
+						"{@spell Illusion mineure|XPHB}"
 					],
 					"daily": {
 						"2": [
-							"{@spell Mind Spike|XPHB}"
+							"{@spell Pic mental|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -46065,12 +46065,12 @@
 					"name": "Psionic Defense (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The quaggoth casts {@spell Feather Fall|XPHB} or {@spell Shield|XPHB} in response to the spell's trigger, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The quaggoth casts {@spell Chute ralentie|XPHB} or {@spell Bouclier|XPHB} in response to the spell's trigger, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Feather Fall|XPHB}",
-							"{@spell Shield|XPHB}"
+							"{@spell Chute ralentie|XPHB}",
+							"{@spell Bouclier|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -46214,10 +46214,10 @@
 					"name": "Invisibility",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The quasit casts {@spell Invisibility|XPHB} on itself, requiring no spell components and using Charisma as the spellcasting ability."
+						"The quasit casts {@spell Invisibilité|XPHB} on itself, requiring no spell components and using Charisma as the spellcasting ability."
 					],
 					"will": [
-						"{@spell Invisibility|XPHB}"
+						"{@spell Invisibilité|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "action",
@@ -46364,10 +46364,10 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell Daylight|XPHB}",
-							"{@spell Dispel Evil and Good|XPHB}",
-							"{@spell Greater Restoration|XPHB}",
-							"{@spell Phantom Steed|XPHB}"
+							"{@spell Lumière du jour|XPHB}",
+							"{@spell Dissipation du mal et du bien|XPHB}",
+							"{@spell Restauration supérieure|XPHB}",
+							"{@spell Destrier fantôme|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -46488,7 +46488,7 @@
 					"vulnerable": [
 						"piercing"
 					],
-					"note": "damage from weapons wielded by creatures under the effect of a {@spell Bless|XPHB} spell",
+					"note": "damage from weapons wielded by creatures under the effect of a {@spell Bénédiction|XPHB} spell",
 					"cond": true
 				}
 			],
@@ -46509,18 +46509,18 @@
 						"The rakshasa casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Disguise Self|XPHB}",
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Minor Illusion|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Déguisement|XPHB}",
+						"{@spell Main du mage|XPHB}",
+						"{@spell Illusion mineure|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Fly|XPHB}",
-							"{@spell Invisibility|XPHB}",
-							"{@spell Major Image|XPHB}",
-							"{@spell Plane Shift|XPHB}"
+							"{@spell Vol|XPHB}",
+							"{@spell Invisibilité|XPHB}",
+							"{@spell Image majeure|XPHB}",
+							"{@spell Déplacement planaire|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -47289,7 +47289,7 @@
 				{
 					"name": "Undead Restoration",
 					"entries": [
-						"If the revenant dies, it revives 24 hours later in a different body unless {@spell Dispel Evil and Good|XPHB} is cast on its corpse. If it revives, it animates a Humanoid corpse elsewhere on the same plane of existence; it now looks different but uses the same stat block and returns with all its {@variantrule Hit Points|XPHB}."
+						"If the revenant dies, it revives 24 hours later in a different body unless {@spell Dissipation du mal et du bien|XPHB} is cast on its corpse. If it revives, it animates a Humanoid corpse elsewhere on the same plane of existence; it now looks different but uses the same stat block and returns with all its {@variantrule Hit Points|XPHB}."
 					]
 				}
 			],
@@ -47782,7 +47782,7 @@
 				{
 					"name": "Antennae",
 					"entries": [
-						"The rust monster targets one nonmagical metal object\u2014armor or a weapon\u2014worn or carried by a creature within 5 feet of itself. {@actSave dex} {@dc 11}, the creature with the object. {@actSaveFail} The object takes a -1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches -5. The penalty can be removed by casting the {@spell Mending|XPHB} spell on the armor or weapon."
+						"The rust monster targets one nonmagical metal object\u2014armor or a weapon\u2014worn or carried by a creature within 5 feet of itself. {@actSave dex} {@dc 11}, the creature with the object. {@actSaveFail} The object takes a -1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches -5. The penalty can be removed by casting the {@spell Réparation|XPHB} spell on the armor or weapon."
 					]
 				},
 				{
@@ -48123,12 +48123,12 @@
 						"The sahuagin casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Hold Person|XPHB}",
-							"{@spell Tongues|XPHB}"
+							"{@spell Immobiliser un personnage|XPHB}",
+							"{@spell Don des langues|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -48138,12 +48138,12 @@
 					"name": "Fiendish Aid (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The sahuagin casts {@spell Bless|XPHB} or {@spell Healing Word|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The sahuagin casts {@spell Bénédiction|XPHB} or {@spell Mot de guérison|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Bless|XPHB}",
-							"{@spell Healing Word|XPHB}"
+							"{@spell Bénédiction|XPHB}",
+							"{@spell Mot de guérison|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -49362,16 +49362,16 @@
 					"name": "Coven Magic",
 					"type": "spellcasting",
 					"headerEntries": [
-						"While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save {@dc 11}): {@spell Augury|XPHB}, {@spell Find Familiar|XPHB}, {@spell Identify|XPHB}, {@spell Locate Object|XPHB}, {@spell Scrying|XPHB}, or {@spell Unseen Servant|XPHB}. The hag must finish a {@variantrule Long Rest|XPHB} before using this trait to cast that spell again."
+						"While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save {@dc 11}): {@spell Augure|XPHB}, {@spell Familier|XPHB}, {@spell Identification|XPHB}, {@spell Localisation d'objet|XPHB}, {@spell Scrutation|XPHB}, or {@spell Servant invisible|XPHB}. The hag must finish a {@variantrule Long Rest|XPHB} before using this trait to cast that spell again."
 					],
 					"restLong": {
 						"1": [
-							"{@spell Augury|XPHB}",
-							"{@spell Find Familiar|XPHB}",
-							"{@spell Identify|XPHB}",
-							"{@spell Locate Object|XPHB}",
-							"{@spell Scrying|XPHB}",
-							"{@spell Unseen Servant|XPHB}"
+							"{@spell Augure|XPHB}",
+							"{@spell Familier|XPHB}",
+							"{@spell Identification|XPHB}",
+							"{@spell Localisation d'objet|XPHB}",
+							"{@spell Scrutation|XPHB}",
+							"{@spell Servant invisible|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -49383,10 +49383,10 @@
 					"name": "Illusory Appearance",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The hag casts {@spell Disguise Self|XPHB}, using Constitution as the spellcasting ability (spell save {@dc 13}). The spell's duration is 24 hours."
+						"The hag casts {@spell Déguisement|XPHB}, using Constitution as the spellcasting ability (spell save {@dc 13}). The spell's duration is 24 hours."
 					],
 					"will": [
-						"{@spell Disguise Self|XPHB}"
+						"{@spell Déguisement|XPHB}"
 					],
 					"ability": "con",
 					"displayAs": "action",
@@ -50832,14 +50832,14 @@
 						"The solar casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 25}):"
 					],
 					"will": [
-						"{@spell Detect Evil and Good|XPHB}"
+						"{@spell Détection du mal et du bien|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Commune|XPHB}",
-							"{@spell Control Weather|XPHB}",
-							"{@spell Dispel Evil and Good|XPHB}",
-							"{@spell Resurrection|XPHB}"
+							"{@spell Communion|XPHB}",
+							"{@spell Contrôle du climat|XPHB}",
+							"{@spell Dissipation du mal et du bien|XPHB}",
+							"{@spell Résurrection|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -50849,13 +50849,13 @@
 					"name": "Divine Aid (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The solar casts {@spell Cure Wounds|XPHB} (level 2 version), {@spell Lesser Restoration|XPHB}, or {@spell Remove Curse|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The solar casts {@spell Soins|XPHB} (level 2 version), {@spell Restauration partielle|XPHB}, or {@spell Délivrance de la malédiction|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Cure Wounds|XPHB} (level 2 version)",
-							"{@spell Lesser Restoration|XPHB}",
-							"{@spell Remove Curse|XPHB}"
+							"{@spell Soins|XPHB} (level 2 version)",
+							"{@spell Restauration partielle|XPHB}",
+							"{@spell Délivrance de la malédiction|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -51348,20 +51348,20 @@
 						"The sphinx casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Identify|XPHB}",
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Minor Illusion|XPHB}",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Identification|XPHB}",
+						"{@spell Main du mage|XPHB}",
+						"{@spell Illusion mineure|XPHB}",
 						"{@spell Prestidigitation|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Dispel Magic|XPHB}",
-							"{@spell Legend Lore|XPHB}",
-							"{@spell Locate Object|XPHB}",
-							"{@spell Plane Shift|XPHB}",
-							"{@spell Remove Curse|XPHB}",
-							"{@spell Tongues|XPHB}"
+							"{@spell Dissipation de la magie|XPHB}",
+							"{@spell Connaissance des légendes|XPHB}",
+							"{@spell Localisation d'objet|XPHB}",
+							"{@spell Déplacement planaire|XPHB}",
+							"{@spell Délivrance de la malédiction|XPHB}",
+							"{@spell Don des langues|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -51531,14 +51531,14 @@
 						"The sphinx casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Identify|XPHB}",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Identification|XPHB}",
 						"{@spell Prestidigitation|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Locate Object|XPHB}",
-							"{@spell Remove Curse|XPHB}"
+							"{@spell Localisation d'objet|XPHB}",
+							"{@spell Délivrance de la malédiction|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -51694,16 +51694,16 @@
 						"The sphinx casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 20}):"
 					],
 					"will": [
-						"{@spell Detect Evil and Good|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Détection du mal et du bien|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Detect Magic|XPHB}",
-							"{@spell Dispel Magic|XPHB}",
-							"{@spell Greater Restoration|XPHB}",
-							"{@spell Heroes' Feast|XPHB}",
-							"{@spell Zone of Truth|XPHB}"
+							"{@spell Détection de la magie|XPHB}",
+							"{@spell Dissipation de la magie|XPHB}",
+							"{@spell Restauration supérieure|XPHB}",
+							"{@spell Festin des héros|XPHB}",
+							"{@spell Zone de vérité|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -52235,17 +52235,17 @@
 						"The naga casts one of the following spells, requiring no Somatic or Material components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Mage Hand|XPHB}",
-						"{@spell Minor Illusion|XPHB}",
-						"{@spell Water Breathing|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Main du mage|XPHB}",
+						"{@spell Illusion mineure|XPHB}",
+						"{@spell Respiration aquatique|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Detect Thoughts|XPHB}",
-							"{@spell Dimension Door|XPHB}",
-							"{@spell Hold Person|XPHB} (level 3 version)",
-							"{@spell Lightning Bolt|XPHB} (level 4 version)"
+							"{@spell Détection de pensées|XPHB}",
+							"{@spell Porte dimensionnelle|XPHB}",
+							"{@spell Immobiliser un personnage|XPHB} (level 3 version)",
+							"{@spell Éclair|XPHB} (level 4 version)"
 						]
 					},
 					"ability": "int",
@@ -52256,7 +52256,7 @@
 				{
 					"name": "Fiendish Restoration",
 					"entries": [
-						"If it dies, the naga returns to life in {@dice 1d6} days and regains all its {@variantrule Hit Points|XPHB}. Only a {@spell Wish|XPHB} spell can prevent this trait from functioning."
+						"If it dies, the naga returns to life in {@dice 1d6} days and regains all its {@variantrule Hit Points|XPHB}. Only a {@spell Souhait|XPHB} spell can prevent this trait from functioning."
 					]
 				}
 			],
@@ -52389,10 +52389,10 @@
 					"name": "Invisibility",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The sprite casts {@spell Invisibility|XPHB} on itself, requiring no spell components and using Charisma as the spellcasting ability."
+						"The sprite casts {@spell Invisibilité|XPHB} on itself, requiring no spell components and using Charisma as the spellcasting ability."
 					],
 					"will": [
-						"{@spell Invisibility|XPHB}"
+						"{@spell Invisibilité|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "action",
@@ -53082,11 +53082,11 @@
 					"name": "Slow {@recharge 5}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The golem casts the {@spell Slow|XPHB} spell, requiring no spell components and using Constitution as the spellcasting ability (spell save {@dc 17})."
+						"The golem casts the {@spell Lenteur|XPHB} spell, requiring no spell components and using Constitution as the spellcasting ability (spell save {@dc 17})."
 					],
 					"recharge": {
 						"5": [
-							"{@spell Slow|XPHB}"
+							"{@spell Lenteur|XPHB}"
 						]
 					},
 					"ability": "con",
@@ -53249,12 +53249,12 @@
 						"The giant casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Light|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Lumière|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Control Weather|XPHB}"
+							"{@spell Contrôle du climat|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -53424,7 +53424,7 @@
 				{
 					"name": "Charm",
 					"entries": [
-						"The succubus casts {@spell Dominate Person|XPHB} (level 8 version), requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 15})."
+						"The succubus casts {@spell Soumission d'humanoïde|XPHB} (level 8 version), requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 15})."
 					]
 				},
 				{
@@ -54093,7 +54093,7 @@
 				{
 					"name": "Hellish Restoration",
 					"entries": [
-						"If the swarm dies in the Nine Hells, it revives with all its {@variantrule Hit Points|XPHB} in {@dice 1d10} days unless it is killed by a creature under the effects of a {@spell Bless|XPHB} spell or its remains are sprinkled with {@item Eau bénite|XPHB}."
+						"If the swarm dies in the Nine Hells, it revives with all its {@variantrule Hit Points|XPHB} in {@dice 1d10} days unless it is killed by a creature under the effects of a {@spell Bénédiction|XPHB} spell or its remains are sprinkled with {@item Eau bénite|XPHB}."
 					]
 				},
 				{
@@ -54714,7 +54714,7 @@
 				{
 					"name": "Reflective Carapace",
 					"entries": [
-						"If the tarrasque is targeted by a {@spell Magic Missile|XPHB} spell or a spell that requires a ranged attack roll, roll {@dice 1d6}. On a 1-5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected and reflects the spell, turning the caster into the target."
+						"If the tarrasque is targeted by a {@spell Projectile magique|XPHB} spell or a spell that requires a ranged attack roll, roll {@dice 1d6}. On a 1-5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected and reflects the spell, turning the caster into the target."
 					]
 				},
 				{
@@ -54986,13 +54986,13 @@
 						"The thri-kreen casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Mage Hand|XPHB} (the hand is {@condition Invisible|XPHB})"
+						"{@spell Main du mage|XPHB} (the hand is {@condition Invisible|XPHB})"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Detect Thoughts|XPHB}",
-							"{@spell Sending|XPHB}",
-							"{@spell Synaptic Static|XPHB}"
+							"{@spell Détection de pensées|XPHB}",
+							"{@spell Envoi de message|XPHB}",
+							"{@spell Statique synaptique|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -56229,15 +56229,15 @@
 						"The ultroloth casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Alter Self|XPHB}",
+						"{@spell Changement d'apparence|XPHB}",
 						"{@spell Clairvoyance|XPHB}",
-						"{@spell Detect Magic|XPHB}"
+						"{@spell Détection de la magie|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Dimension Door|XPHB}",
-							"{@spell Fireball|XPHB} (level 5 version)",
-							"{@spell Wall of Fire|XPHB}"
+							"{@spell Porte dimensionnelle|XPHB}",
+							"{@spell Boule de feu|XPHB} (level 5 version)",
+							"{@spell Mur de feu|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -56247,13 +56247,13 @@
 					"name": "Fiendish Guile {@recharge 4}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The ultroloth casts {@spell Dispel Magic|XPHB}, {@spell Invisibility|XPHB} (self only), {@spell Misty Step|XPHB}, or {@spell Suggestion|XPHB}, requiring no Material components and using the same spellcasting ability as Spellcasting."
+						"The ultroloth casts {@spell Dissipation de la magie|XPHB}, {@spell Invisibilité|XPHB} (self only), {@spell Pas brumeux|XPHB}, or {@spell Suggestion|XPHB}, requiring no Material components and using the same spellcasting ability as Spellcasting."
 					],
 					"recharge": {
 						"4": [
-							"{@spell Dispel Magic|XPHB}",
-							"{@spell Invisibility|XPHB}",
-							"{@spell Misty Step|XPHB}",
+							"{@spell Dissipation de la magie|XPHB}",
+							"{@spell Invisibilité|XPHB}",
+							"{@spell Pas brumeux|XPHB}",
 							"{@spell Suggestion|XPHB}"
 						]
 					},
@@ -56552,16 +56552,16 @@
 						"The unicorn casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Detect Evil and Good|XPHB}",
-						"{@spell Druidcraft|XPHB}"
+						"{@spell Détection du mal et du bien|XPHB}",
+						"{@spell Druidisme|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Calm Emotions|XPHB}",
-							"{@spell Dispel Evil and Good|XPHB}",
-							"{@spell Entangle|XPHB}",
-							"{@spell Pass without Trace|XPHB}",
-							"{@spell Word of Recall|XPHB}"
+							"{@spell Apaisement|XPHB}",
+							"{@spell Dissipation du mal et du bien|XPHB}",
+							"{@spell Enchevêtrement|XPHB}",
+							"{@spell Passage sans trace|XPHB}",
+							"{@spell Mot de rappel|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -56571,12 +56571,12 @@
 					"name": "Unicorn's Blessing (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The unicorn touches another creature with its horn and casts {@spell Cure Wounds|XPHB} or {@spell Lesser Restoration|XPHB} on that creature, using the same spellcasting ability as Spellcasting."
+						"The unicorn touches another creature with its horn and casts {@spell Soins|XPHB} or {@spell Restauration partielle|XPHB} on that creature, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Cure Wounds|XPHB}",
-							"{@spell Lesser Restoration|XPHB}"
+							"{@spell Soins|XPHB}",
+							"{@spell Restauration partielle|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -56756,11 +56756,11 @@
 					"name": "Charm {@recharge 5}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The vampire casts {@spell Charm Person|XPHB}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 17}), and the duration is 24 hours. The {@condition Charmé|XPHB} target is a willing recipient of the vampire's Bite, the damage of which doesn't end the spell. When the spell ends, the target is unaware it was {@condition Charmé|XPHB} by the vampire."
+						"The vampire casts {@spell Charmement|XPHB}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 17}), and the duration is 24 hours. The {@condition Charmé|XPHB} target is a willing recipient of the vampire's Bite, the damage of which doesn't end the spell. When the spell ends, the target is unaware it was {@condition Charmé|XPHB} by the vampire."
 					],
 					"recharge": {
 						"5": [
-							"{@spell Charm Person|XPHB}"
+							"{@spell Charmement|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -56773,11 +56773,11 @@
 					"name": "Beguile",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The vampire casts {@spell Command|XPHB}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 17}). The vampire can't take this action again until the start of its next turn."
+						"The vampire casts {@spell Ordre|XPHB}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 17}). The vampire can't take this action again until the start of its next turn."
 					],
 					"legendary": {
 						"1": [
-							"{@spell Command|XPHB}"
+							"{@spell Ordre|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -57474,11 +57474,11 @@
 					"name": "Hunger of Hadar {@recharge 5}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The vampire casts {@spell Hunger of Hadar|XPHB} (level 5 version), requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 18})."
+						"The vampire casts {@spell Faim de Hadar|XPHB} (level 5 version), requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 18})."
 					],
 					"recharge": {
 						"5": [
-							"{@spell Hunger of Hadar|XPHB} (level 5 version)"
+							"{@spell Faim de Hadar|XPHB} (level 5 version)"
 						]
 					},
 					"ability": "cha",
@@ -57491,11 +57491,11 @@
 					"name": "Beguile",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The vampire casts {@spell Command|XPHB}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 18}). The vampire can't take this action again until the start of its next turn."
+						"The vampire casts {@spell Ordre|XPHB}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 18}). The vampire can't take this action again until the start of its next turn."
 					],
 					"legendary": {
 						"1": [
-							"{@spell Command|XPHB}"
+							"{@spell Ordre|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -57786,11 +57786,11 @@
 					"name": "Entangling Plants {@recharge 5}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The blight casts the {@spell Entangle|XPHB} spell, using Constitution as the spellcasting ability (spell save {@dc 12})."
+						"The blight casts the {@spell Enchevêtrement|XPHB} spell, using Constitution as the spellcasting ability (spell save {@dc 12})."
 					],
 					"recharge": {
 						"5": [
-							"{@spell Entangle|XPHB}"
+							"{@spell Enchevêtrement|XPHB}"
 						]
 					},
 					"ability": "con",
@@ -61157,13 +61157,13 @@
 						"The yochlol casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Gaseous Form|XPHB} (self only)",
-						"{@spell Web|XPHB}"
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Forme gazeuse|XPHB} (self only)",
+						"{@spell Toile|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Dominate Person|XPHB}"
+							"{@spell Soumission d'humanoïde|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -61200,7 +61200,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The yochlol makes two Caustic Lash attacks, and it can use Spellcasting to cast {@spell Web|XPHB} or {@spell Dominate Person|XPHB} if available."
+						"The yochlol makes two Caustic Lash attacks, and it can use Spellcasting to cast {@spell Toile|XPHB} or {@spell Soumission d'humanoïde|XPHB} if available."
 					]
 				},
 				{
@@ -62787,7 +62787,7 @@
 						"The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Animal Friendship|XPHB} (snakes only)"
+						"{@spell Amitié animale|XPHB} (snakes only)"
 					],
 					"daily": {
 						"3": [
@@ -62955,7 +62955,7 @@
 						"The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell Animal Friendship|XPHB} (snakes only)"
+						"{@spell Amitié animale|XPHB} (snakes only)"
 					],
 					"daily": {
 						"2": [
@@ -63107,7 +63107,7 @@
 						"The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Animal Friendship|XPHB} (snakes only)"
+						"{@spell Amitié animale|XPHB} (snakes only)"
 					],
 					"daily": {
 						"2": [
@@ -63261,7 +63261,7 @@
 						"The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Animal Friendship|XPHB} (snakes only)"
+						"{@spell Amitié animale|XPHB} (snakes only)"
 					],
 					"daily": {
 						"2": [
@@ -63410,7 +63410,7 @@
 						"The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Animal Friendship|XPHB} (snakes only)"
+						"{@spell Amitié animale|XPHB} (snakes only)"
 					],
 					"daily": {
 						"2": [

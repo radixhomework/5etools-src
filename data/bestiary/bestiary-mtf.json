@@ -281,10 +281,10 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell charm person} (as 5th-level spell)",
-							"{@spell color spray}",
-							"{@spell detect thoughts}",
-							"{@spell hold person} (as 3rd-level spell)"
+							"{@spell Charmement} (as 5th-level spell)",
+							"{@spell Gerbe colorée}",
+							"{@spell Détection de pensées}",
+							"{@spell Immobiliser un personnage} (as 3rd-level spell)"
 						]
 					},
 					"ability": "int"
@@ -326,7 +326,7 @@
 				{
 					"name": "Eat Memories",
 					"entries": [
-						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 15} Wisdom saving throw or take 18 ({@damage 4d8}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
+						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 15} Wisdom saving throw or take 18 ({@damage 4d8}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell Restauration supérieure} or {@spell Guérison} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
 						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition Inconscient} for 1 hour. The effect then ends.",
 						"When an oblex causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except for any saving throw proficiencies."
 					]
@@ -933,17 +933,17 @@
 						"The amnizu's innate spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). The amnizu can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell charm person}",
-						"{@spell command}"
+						"{@spell Charmement}",
+						"{@spell Ordre}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dominate person}",
-							"{@spell fireball}"
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Boule de feu}"
 						],
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell feeblemind}"
+							"{@spell Soumission de monstre}",
+							"{@spell Dégénrescence}"
 						]
 					},
 					"ability": "int"
@@ -1307,7 +1307,7 @@
 				{
 					"name": "Antimagic Cone",
 					"entries": [
-						"The astral dreadnought's opened eye creates an area of antimagic, as in the {@spell antimagic field} spell, in a 150-foot cone. At the start of each of its turns, the dreadnought decides which way the cone faces. The cone doesn't function while the dreadnought's eye is closed or while the dreadnought is {@condition Aveuglé}."
+						"The astral dreadnought's opened eye creates an area of antimagic, as in the {@spell Antichamp magique} spell, in a 150-foot cone. At the start of each of its turns, the dreadnought decides which way the cone faces. The cone doesn't function while the dreadnought's eye is closed or while the dreadnought is {@condition Aveuglé}."
 					]
 				},
 				{
@@ -1319,7 +1319,7 @@
 				{
 					"name": "Demiplanar Donjon",
 					"entries": [
-						"Any creature or object that the astral dreadnought swallows is transported to a demiplane that can be entered by no other means except a {@spell wish} spell or this creature's Donjon Visit ability. A creature can leave the demiplane only by using magic that enables planar travel, such as the {@spell plane shift} spell. The demiplane resembles a stone cave roughly 1,000 feet in diameter with a ceiling 100 feet high. Like a stomach, it contains the remains of the dreadnought's past meals.",
+						"Any creature or object that the astral dreadnought swallows is transported to a demiplane that can be entered by no other means except a {@spell Souhait} spell or this creature's Donjon Visit ability. A creature can leave the demiplane only by using magic that enables planar travel, such as the {@spell Déplacement planaire} spell. The demiplane resembles a stone cave roughly 1,000 feet in diameter with a ceiling 100 feet high. Like a stomach, it contains the remains of the dreadnought's past meals.",
 						"The dreadnought can't be harmed from within the demiplane. If the dreadnought dies, the demiplane disappears, and everything inside it appears around the corpse. The demiplane is otherwise indestructible."
 					]
 				},
@@ -1338,7 +1338,7 @@
 				{
 					"name": "Sever Silver Cord",
 					"entries": [
-						"If the astral dreadnought scores a critical hit against a creature traveling through the Astral Plane by means of the {@spell astral projection} spell, the dreadnought can cut the target's silver cord instead of dealing damage."
+						"If the astral dreadnought scores a critical hit against a creature traveling through the Astral Plane by means of the {@spell Projection astrale} spell, the dreadnought can cut the target's silver cord instead of dealing damage."
 					]
 				}
 			],
@@ -1492,18 +1492,18 @@
 						"The eladrin's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell calm emotions}",
-						"{@spell sleep}"
+						"{@spell Apaisement}",
+						"{@spell Sommeil}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell cure wounds} (as a 5th-level spell)",
-							"{@spell lesser restoration}"
+							"{@spell Soins} (as a 5th-level spell)",
+							"{@spell Restauration partielle}"
 						],
 						"1e": [
-							"{@spell greater restoration}",
-							"{@spell heal}",
-							"{@spell raise dead}"
+							"{@spell Restauration supérieure}",
+							"{@spell Guérison}",
+							"{@spell Relèvement}"
 						]
 					},
 					"ability": "cha"
@@ -1696,25 +1696,25 @@
 						"Bael's innate spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell animate dead}",
-						"{@spell charm person}",
-						"{@spell detect magic}",
-						"{@spell inflict wounds} (as an 8th-level spell)",
-						"{@spell invisibility} (self only)",
-						"{@spell major image}"
+						"{@spell Changement d'apparence} (can become Medium when changing his appearance)",
+						"{@spell Animation des morts}",
+						"{@spell Charmement}",
+						"{@spell Détection de la magie}",
+						"{@spell Blessures infligées} (as an 8th-level spell)",
+						"{@spell Invisibilité} (self only)",
+						"{@spell Image majeure}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell counterspell}",
-							"{@spell dispel magic}",
-							"{@spell fly}",
+							"{@spell Contresort}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Vol}",
 							"{@spell suggestion}",
-							"{@spell wall of fire}"
+							"{@spell Mur de feu}"
 						],
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell symbol} (stunning only)"
+							"{@spell Soumission de monstre}",
+							"{@spell Symbole} (stunning only)"
 						]
 					},
 					"ability": "cha"
@@ -1788,7 +1788,7 @@
 				{
 					"name": "Awaken Greed",
 					"entries": [
-						"Bael casts {@spell charm person} or major image."
+						"Bael casts {@spell Charmement} or major image."
 					]
 				},
 				{
@@ -2123,18 +2123,18 @@
 						"Baphomet's spellcasting ability is Charisma (spell save {@dc 18}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell detect magic}"
+						"{@spell Détection de la magie}"
 					],
 					"daily": {
 						"1": [
-							"{@spell teleport}"
+							"{@spell Téléportation}"
 						],
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell dominate beast}",
-							"{@spell hunter's mark}",
-							"{@spell maze}",
-							"{@spell wall of stone}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Soumission de bête}",
+							"{@spell Marque du chasseur}",
+							"{@spell Labyrinthe}",
+							"{@spell Mur de pierre}"
 						]
 					},
 					"ability": "cha"
@@ -2150,7 +2150,7 @@
 				{
 					"name": "Labyrinthine Recall",
 					"entries": [
-						"Baphomet can perfectly recall any path he has traveled, and he is immune to the {@spell maze} spell."
+						"Baphomet can perfectly recall any path he has traveled, and he is immune to the {@spell Labyrinthe} spell."
 					]
 				},
 				{
@@ -2344,11 +2344,11 @@
 						"The berbalang's innate spellcasting ability is Intelligence (spell save {@dc 13}). The berbalang can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell speak with dead}"
+						"{@spell Parler aux morts}"
 					],
 					"daily": {
 						"1": [
-							"{@spell plane shift} (self only)"
+							"{@spell Déplacement planaire} (self only)"
 						]
 					},
 					"ability": "int"
@@ -2544,7 +2544,7 @@
 				{
 					"name": "Creeping Darkness {@recharge}",
 					"entries": [
-						"The abishai casts {@spell darkness} at a point within 120 feet of it, requiring no components. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action."
+						"The abishai casts {@spell Ténèbres} at a point within 120 feet of it, requiring no components. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action."
 					]
 				}
 			],
@@ -2676,65 +2676,65 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell friends}",
-								"{@spell mage hand}",
+								"{@spell Ami}",
+								"{@spell Main du mage}",
 								"{@spell message}",
-								"{@spell minor illusion}",
-								"{@spell shocking grasp}"
+								"{@spell Illusion mineure}",
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell chromatic orb}",
-								"{@spell disguise self}",
-								"{@spell expeditious retreat}",
-								"{@spell magic missile}",
-								"{@spell charm person}",
-								"{@spell thunderwave}"
+								"{@spell Orbe chromatique}",
+								"{@spell Déguisement}",
+								"{@spell Retrait expéditif}",
+								"{@spell Projectile magique}",
+								"{@spell Charmement}",
+								"{@spell Onde de tonnerre}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell darkness}",
-								"{@spell mirror image}",
-								"{@spell misty step}"
+								"{@spell Ténèbres}",
+								"{@spell Image dédoublée}",
+								"{@spell Pas brumeux}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell dispel magic}",
-								"{@spell fear}",
-								"{@spell lightning bolt}"
+								"{@spell Dissipation de la magie}",
+								"{@spell Peur}",
+								"{@spell Éclair}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell dimension door}",
-								"{@spell greater invisibility}",
-								"{@spell ice storm}"
+								"{@spell Porte dimensionnelle}",
+								"{@spell Invisibilité supérieure}",
+								"{@spell Tempête de glace}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell cone of cold}",
-								"{@spell wall of force}"
+								"{@spell Cône de froid}",
+								"{@spell Mur de force}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell chain lightning}"
+								"{@spell Chaîne d'éclairs}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell teleport}"
+								"{@spell Téléportation}"
 							]
 						}
 					},
@@ -3846,7 +3846,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -3906,9 +3906,9 @@
 						"The deathlock's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell disguise self}",
-						"{@spell mage armor}"
+						"{@spell Détection de la magie}",
+						"{@spell Déguisement}",
+						"{@spell Armure du mage}"
 					],
 					"ability": "cha"
 				},
@@ -3921,21 +3921,21 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell chill touch}",
-								"{@spell eldritch blast}",
-								"{@spell mage hand}"
+								"{@spell Main glaciale}",
+								"{@spell Trait occulte}",
+								"{@spell Main du mage}"
 							]
 						},
 						"3": {
 							"lower": 1,
 							"slots": 2,
 							"spells": [
-								"{@spell arms of Hadar}",
-								"{@spell dispel magic}",
-								"{@spell hold person}",
-								"{@spell hunger of Hadar}",
-								"{@spell invisibility}",
-								"{@spell spider climb}"
+								"{@spell Bras de Hadar}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Immobiliser un personnage}",
+								"{@spell Faim de Hadar}",
+								"{@spell Invisibilité}",
+								"{@spell Marche arachnéenne}"
 							]
 						}
 					},
@@ -3968,9 +3968,9 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
-								"Archfey patron: {@spell blink}, {@spell faerie fire}, {@spell hunger of Hadar}, {@spell hypnotic pattern}, {@spell phantasmal force}, {@spell sleep}",
-								"Fiend patron: {@spell blindness/deafness}, {@spell burning hands}, {@spell command}, {@spell fireball}, {@spell hellish rebuke}, {@spell scorching ray}",
-								"Great Old One patron: {@spell armor of Agathys}, {@spell detect thoughts}, {@spell dissonant whispers}, {@spell hunger of Hadar}, {@spell Tasha's hideous laughter}, {@spell phantasmal force}"
+								"Archfey patron: {@spell Fugue}, {@spell Lueur féérique}, {@spell Faim de Hadar}, {@spell Motif hypnotique}, {@spell Force phantasmale}, {@spell Sommeil}",
+								"Fiend patron: {@spell Cécité/Surdité}, {@spell Mains brûlantes}, {@spell Ordre}, {@spell Boule de feu}, {@spell Réprobation infernale}, {@spell Rayons brûlants}",
+								"Great Old One patron: {@spell Armure d'Agathys}, {@spell Détection de pensées}, {@spell Murmures discordants}, {@spell Faim de Hadar}, {@spell Rire hideux de Tasha}, {@spell Force phantasmale}"
 							]
 						}
 					]
@@ -4032,21 +4032,21 @@
 								"spells": {
 									"0": {
 										"spells": [
-											"{@spell chill touch}",
-											"{@spell eldritch blast}",
-											"{@spell mage hand}"
+											"{@spell Main glaciale}",
+											"{@spell Trait occulte}",
+											"{@spell Main du mage}"
 										]
 									},
 									"3": {
 										"lower": 1,
 										"slots": 2,
 										"spells": [
-											"{@spell blink}",
-											"{@spell faerie fire}",
-											"{@spell hunger of Hadar}",
-											"{@spell hypnotic pattern}",
-											"{@spell phantasmal force}",
-											"{@spell sleep}"
+											"{@spell Fugue}",
+											"{@spell Lueur féérique}",
+											"{@spell Faim de Hadar}",
+											"{@spell Motif hypnotique}",
+											"{@spell Force phantasmale}",
+											"{@spell Sommeil}"
 										]
 									}
 								},
@@ -4071,21 +4071,21 @@
 								"spells": {
 									"0": {
 										"spells": [
-											"{@spell chill touch}",
-											"{@spell eldritch blast}",
-											"{@spell mage hand}"
+											"{@spell Main glaciale}",
+											"{@spell Trait occulte}",
+											"{@spell Main du mage}"
 										]
 									},
 									"3": {
 										"lower": 1,
 										"slots": 2,
 										"spells": [
-											"{@spell blindness/deafness}",
-											"{@spell burning hands}",
-											"{@spell command}",
-											"{@spell fireball}",
-											"{@spell hellish rebuke}",
-											"{@spell scorching ray}"
+											"{@spell Cécité/Surdité}",
+											"{@spell Mains brûlantes}",
+											"{@spell Ordre}",
+											"{@spell Boule de feu}",
+											"{@spell Réprobation infernale}",
+											"{@spell Rayons brûlants}"
 										]
 									}
 								},
@@ -4110,21 +4110,21 @@
 								"spells": {
 									"0": {
 										"spells": [
-											"{@spell chill touch}",
-											"{@spell eldritch blast}",
-											"{@spell mage hand}"
+											"{@spell Main glaciale}",
+											"{@spell Trait occulte}",
+											"{@spell Main du mage}"
 										]
 									},
 									"3": {
 										"lower": 1,
 										"slots": 2,
 										"spells": [
-											"{@spell armor of Agathys}",
-											"{@spell detect thoughts}",
-											"{@spell dissonant whispers}",
-											"{@spell hunger of Hadar}",
-											"{@spell Tasha's hideous laughter}",
-											"{@spell phantasmal force}"
+											"{@spell Armure d'Agathys}",
+											"{@spell Détection de pensées}",
+											"{@spell Murmures discordants}",
+											"{@spell Faim de Hadar}",
+											"{@spell Rire hideux de Tasha}",
+											"{@spell Force phantasmale}"
 										]
 									}
 								},
@@ -4158,7 +4158,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -4219,9 +4219,9 @@
 						"The deathlock's innate spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell disguise self}",
-						"{@spell mage armor}"
+						"{@spell Détection de la magie}",
+						"{@spell Déguisement}",
+						"{@spell Armure du mage}"
 					],
 					"ability": "cha"
 				},
@@ -4234,26 +4234,26 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell chill touch}",
-								"{@spell mage hand}",
-								"{@spell minor illusion}",
-								"{@spell poison spray}"
+								"{@spell Main glaciale}",
+								"{@spell Main du mage}",
+								"{@spell Illusion mineure}",
+								"{@spell Jet de poison}"
 							]
 						},
 						"5": {
 							"lower": 1,
 							"slots": 2,
 							"spells": [
-								"{@spell arms of Hadar}",
-								"{@spell blight}",
-								"{@spell counterspell}",
-								"{@spell crown of madness}",
-								"{@spell darkness}",
-								"{@spell dimension door}",
-								"{@spell dispel magic}",
-								"{@spell fly}",
-								"{@spell hold monster}",
-								"{@spell invisibility}"
+								"{@spell Bras de Hadar}",
+								"{@spell Ravage}",
+								"{@spell Contresort}",
+								"{@spell Couronne de folie}",
+								"{@spell Ténèbres}",
+								"{@spell Porte dimensionnelle}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Vol}",
+								"{@spell Immobilisation de monstre}",
+								"{@spell Invisibilité}"
 							]
 						}
 					},
@@ -4292,9 +4292,9 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
-								"Archfey patron: {@spell blink}, {@spell dominate beast}, {@spell dominate person}, {@spell faerie fire}, {@spell greater invisibility}, {@spell hunger of Hadar}, {@spell hypnotic pattern}, {@spell phantasmal force}, {@spell seeming}, {@spell sleep}",
-								"Fiend patron: {@spell blindness/deafness}, {@spell burning hands}, {@spell command}, {@spell fire shield}, {@spell fireball}, {@spell flame strike}, {@spell hellish rebuke}, {@spell scorching ray}, {@spell stinking cloud}, {@spell wall of fire}",
-								"Great Old One patron: {@spell clairvoyance}, {@spell detect thoughts}, {@spell dissonant whispers}, {@spell dominate person}, {@spell Evard's black tentacles}, {@spell hunger of Hadar}, {@spell phantasmal force}, {@spell sending}, {@spell Tasha's hideous laughter}, {@spell telekinesis}"
+								"Archfey patron: {@spell Fugue}, {@spell Soumission de bête}, {@spell Soumission d'humanoïde}, {@spell Lueur féérique}, {@spell Invisibilité supérieure}, {@spell Faim de Hadar}, {@spell Motif hypnotique}, {@spell Force phantasmale}, {@spell Apparence}, {@spell Sommeil}",
+								"Fiend patron: {@spell Cécité/Surdité}, {@spell Mains brûlantes}, {@spell Ordre}, {@spell Bouclier de feu}, {@spell Boule de feu}, {@spell Colère sacrée}, {@spell Réprobation infernale}, {@spell Rayons brûlants}, {@spell Nuée nauséabonde}, {@spell Mur de feu}",
+								"Great Old One patron: {@spell clairvoyance}, {@spell Détection de pensées}, {@spell Murmures discordants}, {@spell Soumission d'humanoïde}, {@spell Tentacules noirs d'Evard}, {@spell Faim de Hadar}, {@spell Force phantasmale}, {@spell Envoi de message}, {@spell Rire hideux de Tasha}, {@spell Télékinésie}"
 							]
 						}
 					]
@@ -4366,26 +4366,26 @@
 								"spells": {
 									"0": {
 										"spells": [
-											"{@spell chill touch}",
-											"{@spell mage hand}",
-											"{@spell minor illusion}",
-											"{@spell poison spray}"
+											"{@spell Main glaciale}",
+											"{@spell Main du mage}",
+											"{@spell Illusion mineure}",
+											"{@spell Jet de poison}"
 										]
 									},
 									"5": {
 										"lower": 1,
 										"slots": 2,
 										"spells": [
-											"{@spell blink}",
-											"{@spell dominate beast}",
-											"{@spell dominate person}",
-											"{@spell faerie fire}",
-											"{@spell greater invisibility}",
-											"{@spell hunger of Hadar}",
-											"{@spell hypnotic pattern}",
-											"{@spell phantasmal force}",
-											"{@spell seeming}",
-											"{@spell sleep}"
+											"{@spell Fugue}",
+											"{@spell Soumission de bête}",
+											"{@spell Soumission d'humanoïde}",
+											"{@spell Lueur féérique}",
+											"{@spell Invisibilité supérieure}",
+											"{@spell Faim de Hadar}",
+											"{@spell Motif hypnotique}",
+											"{@spell Force phantasmale}",
+											"{@spell Apparence}",
+											"{@spell Sommeil}"
 										]
 									}
 								},
@@ -4410,26 +4410,26 @@
 								"spells": {
 									"0": {
 										"spells": [
-											"{@spell chill touch}",
-											"{@spell mage hand}",
-											"{@spell minor illusion}",
-											"{@spell poison spray}"
+											"{@spell Main glaciale}",
+											"{@spell Main du mage}",
+											"{@spell Illusion mineure}",
+											"{@spell Jet de poison}"
 										]
 									},
 									"5": {
 										"lower": 1,
 										"slots": 2,
 										"spells": [
-											"{@spell blindness/deafness}",
-											"{@spell burning hands}",
-											"{@spell command}",
-											"{@spell fire shield}",
-											"{@spell fireball}",
-											"{@spell flame strike}",
-											"{@spell hellish rebuke}",
-											"{@spell scorching ray}",
-											"{@spell stinking cloud}",
-											"{@spell wall of fire}"
+											"{@spell Cécité/Surdité}",
+											"{@spell Mains brûlantes}",
+											"{@spell Ordre}",
+											"{@spell Bouclier de feu}",
+											"{@spell Boule de feu}",
+											"{@spell Colère sacrée}",
+											"{@spell Réprobation infernale}",
+											"{@spell Rayons brûlants}",
+											"{@spell Nuée nauséabonde}",
+											"{@spell Mur de feu}"
 										]
 									}
 								},
@@ -4454,10 +4454,10 @@
 								"spells": {
 									"0": {
 										"spells": [
-											"{@spell chill touch}",
-											"{@spell mage hand}",
-											"{@spell minor illusion}",
-											"{@spell poison spray}"
+											"{@spell Main glaciale}",
+											"{@spell Main du mage}",
+											"{@spell Illusion mineure}",
+											"{@spell Jet de poison}"
 										]
 									},
 									"5": {
@@ -4465,15 +4465,15 @@
 										"slots": 2,
 										"spells": [
 											"{@spell clairvoyance}",
-											"{@spell detect thoughts}",
-											"{@spell dissonant whispers}",
-											"{@spell dominate person}",
-											"{@spell Evard's black tentacles}",
-											"{@spell hunger of Hadar}",
-											"{@spell phantasmal force}",
-											"{@spell sending}",
-											"{@spell Tasha's hideous laughter}",
-											"{@spell telekinesis}"
+											"{@spell Détection de pensées}",
+											"{@spell Murmures discordants}",
+											"{@spell Soumission d'humanoïde}",
+											"{@spell Tentacules noirs d'Evard}",
+											"{@spell Faim de Hadar}",
+											"{@spell Force phantasmale}",
+											"{@spell Envoi de message}",
+											"{@spell Rire hideux de Tasha}",
+											"{@spell Télékinésie}"
 										]
 									}
 								},
@@ -4519,7 +4519,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -4578,15 +4578,15 @@
 						"The wight's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no verbal or material components:"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell disguise self}",
-						"{@spell mage armor}"
+						"{@spell Détection de la magie}",
+						"{@spell Déguisement}",
+						"{@spell Armure du mage}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell fear}",
-							"{@spell hold person}",
-							"{@spell misty step}"
+							"{@spell Peur}",
+							"{@spell Immobiliser un personnage}",
+							"{@spell Pas brumeux}"
 						]
 					},
 					"ability": "cha"
@@ -4765,18 +4765,18 @@
 						"Demogorgon's spellcasting ability is Charisma (spell save {@dc 23}). Demogorgon can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell major image}"
+						"{@spell Détection de la magie}",
+						"{@spell Image majeure}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell fear}",
-							"{@spell telekinesis}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Peur}",
+							"{@spell Télékinésie}"
 						],
 						"1e": [
-							"{@spell feeblemind}",
-							"{@spell project image}"
+							"{@spell Dégénrescence}",
+							"{@spell Projection d'image}"
 						]
 					},
 					"ability": "cha"
@@ -5089,32 +5089,32 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell acid splash}",
-								"{@spell mage hand}",
+								"{@spell Aspersion d'acide}",
+								"{@spell Main du mage}",
 								"{@spell message}",
 								"{@spell prestidigitation}",
-								"{@spell ray of frost}"
+								"{@spell Rayon de gel}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell burning hands}",
-								"{@spell chromatic orb}",
-								"{@spell sleep}"
+								"{@spell Mains brûlantes}",
+								"{@spell Orbe chromatique}",
+								"{@spell Sommeil}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell invisibility}",
-								"{@spell spider climb}"
+								"{@spell Invisibilité}",
+								"{@spell Marche arachnéenne}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell lightning bolt}"
+								"{@spell Éclair}"
 							]
 						}
 					},
@@ -5273,12 +5273,12 @@
 						"The dhergoloth's innate spellcasting ability is Charisma (spell save {@dc 10}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell fear}"
+						"{@spell Ténèbres}",
+						"{@spell Peur}"
 					],
 					"daily": {
 						"3": [
-							"{@spell sleep}"
+							"{@spell Sommeil}"
 						]
 					},
 					"ability": "cha"
@@ -5594,13 +5594,13 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell dancing lights}"
+						"{@spell Lumières dansantes}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{@spell Ténèbres}",
+							"{@spell Lueur féérique}",
+							"{@spell Lévitation} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -5613,37 +5613,37 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell eyebite}",
-							"{@spell etherealness}",
-							"{@spell dominate monster}"
+							"{@spell Morsure d'œil}",
+							"{@spell Éthéré}",
+							"{@spell Soumission de monstre}"
 						]
 					},
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell chill touch}",
-								"{@spell eldritch blast}",
-								"{@spell mage hand}",
-								"{@spell poison spray}"
+								"{@spell Main glaciale}",
+								"{@spell Trait occulte}",
+								"{@spell Main du mage}",
+								"{@spell Jet de poison}"
 							]
 						},
 						"5": {
 							"lower": 1,
 							"slots": 3,
 							"spells": [
-								"{@spell conjure animals} (spiders only)",
-								"{@spell crown of madness}",
-								"{@spell dimension door}",
-								"{@spell dispel magic}",
-								"{@spell fear}",
-								"{@spell fly}",
-								"{@spell giant insect}",
-								"{@spell hold monster}",
-								"{@spell insect plague}",
-								"{@spell invisibility}",
-								"{@spell vampiric touch}",
-								"{@spell web}",
-								"{@spell witch bolt}"
+								"{@spell Invocation d'animaux} (spiders only)",
+								"{@spell Couronne de folie}",
+								"{@spell Porte dimensionnelle}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Peur}",
+								"{@spell Vol}",
+								"{@spell Insecte géant}",
+								"{@spell Immobilisation de monstre}",
+								"{@spell Nuée d'insectes}",
+								"{@spell Invisibilité}",
+								"{@spell Toucher vampirique}",
+								"{@spell Toile}",
+								"{@spell Décharge occulte}"
 							]
 						}
 					},
@@ -5805,7 +5805,7 @@
 				15,
 				{
 					"ac": 18,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -5850,13 +5850,13 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 18}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell dancing lights}"
+						"{@spell Lumières dansantes}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{@spell Ténèbres}",
+							"{@spell Lueur féérique}",
+							"{@spell Lévitation} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -5870,56 +5870,56 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
+								"{@spell Main du mage}",
 								"{@spell message}",
-								"{@spell poison spray}",
-								"{@spell shocking grasp}",
-								"{@spell ray of frost}"
+								"{@spell Jet de poison}",
+								"{@spell Poing électrique}",
+								"{@spell Rayon de gel}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell burning hands}",
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell Mains brûlantes}",
+								"{@spell Armure du mage}",
+								"{@spell Projectile magique}",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell gust of wind}",
-								"{@spell invisibility}",
-								"{@spell misty step}",
-								"{@spell shatter}"
+								"{@spell Rafale}",
+								"{@spell Invisibilité}",
+								"{@spell Pas brumeux}",
+								"{@spell Déflagration}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell fireball}",
-								"{@spell haste}"
+								"{@spell Contresort}",
+								"{@spell Boule de feu}",
+								"{@spell Célérité}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell dimension door}",
-								"{@spell Otiluke's resilient sphere}"
+								"{@spell Porte dimensionnelle}",
+								"{@spell Sphère résiliente d'Otiluke}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell cone of cold}"
+								"{@spell Cône de froid}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell chain lightning}"
+								"{@spell Chaîne d'éclairs}"
 							]
 						}
 					},
@@ -6106,13 +6106,13 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 13}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell dancing lights}"
+						"{@spell Lumières dansantes}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{@spell Ténèbres}",
+							"{@spell Lueur féérique}",
+							"{@spell Lévitation} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -6304,17 +6304,17 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 18}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell detect magic}"
+						"{@spell Lumières dansantes}",
+						"{@spell Détection de la magie}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell clairvoyance}",
-							"{@spell darkness}",
-							"{@spell detect thoughts}",
-							"{@spell dispel magic}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)",
+							"{@spell Ténèbres}",
+							"{@spell Détection de pensées}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Lueur féérique}",
+							"{@spell Lévitation} (self only)",
 							"{@spell suggestion}"
 						]
 					},
@@ -6331,56 +6331,56 @@
 							"spells": [
 								"{@spell guidance}",
 								"{@spell message}",
-								"{@spell poison spray}",
-								"{@spell resistance}",
-								"{@spell thaumaturgy}"
+								"{@spell Jet de poison}",
+								"{@spell Résistance}",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell bane}",
-								"{@spell cure wounds}",
-								"{@spell inflict wounds}"
+								"{@spell Fléau}",
+								"{@spell Soins}",
+								"{@spell Blessures infligées}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell blindness/deafness}",
+								"{@spell Cécité/Surdité}",
 								"{@spell silence}",
-								"{@spell spiritual weapon}"
+								"{@spell Arme spirituelle}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell bestow curse}",
-								"{@spell dispel magic}",
-								"{@spell magic circle}"
+								"{@spell Malédiction}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Cercle magique}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell banishment}",
+								"{@spell Bannissement}",
 								"{@spell divination}",
-								"{@spell freedom of movement}"
+								"{@spell Liberté de mouvement}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell contagion}",
-								"{@spell dispel evil and good}",
-								"{@spell insect plague}"
+								"{@spell Dissipation du mal et du bien}",
+								"{@spell Nuée d'insectes}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell harm}",
-								"{@spell true seeing}"
+								"{@spell Infection}",
+								"{@spell Vision véritable}"
 							]
 						}
 					},
@@ -6583,17 +6583,17 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 20}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell detect magic}"
+						"{@spell Lumières dansantes}",
+						"{@spell Détection de la magie}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell clairvoyance}",
-							"{@spell darkness}",
-							"{@spell detect thoughts}",
-							"{@spell dispel magic}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)",
+							"{@spell Ténèbres}",
+							"{@spell Détection de pensées}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Lueur féérique}",
+							"{@spell Lévitation} (self only)",
 							"{@spell suggestion}"
 						]
 					},
@@ -6609,80 +6609,80 @@
 						"0": {
 							"spells": [
 								"{@spell guidance}",
-								"{@spell mending}",
-								"{@spell resistance}",
-								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell Réparation}",
+								"{@spell Résistance}",
+								"{@spell Flamme sacrée}",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell bane}",
-								"{@spell command}",
-								"{@spell cure wounds}",
-								"{@spell guiding bolt}"
+								"{@spell Fléau}",
+								"{@spell Ordre}",
+								"{@spell Soins}",
+								"{@spell Trait de lumière}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
+								"{@spell Immobiliser un personnage}",
 								"{@spell silence}",
-								"{@spell spiritual weapon}"
+								"{@spell Arme spirituelle}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell bestow curse}",
+								"{@spell Malédiction}",
 								"{@spell clairvoyance}",
-								"{@spell dispel magic}",
-								"{@spell spirit guardians}"
+								"{@spell Dissipation de la magie}",
+								"{@spell Esprits gardiens}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell banishment}",
-								"{@spell death ward}",
-								"{@spell freedom of movement}",
-								"{@spell guardian of faith}"
+								"{@spell Bannissement}",
+								"{@spell Protection contre la mort}",
+								"{@spell Liberté de mouvement}",
+								"{@spell Gardien de la foi}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
 								"{@spell contagion}",
-								"{@spell flame strike}",
+								"{@spell Colère sacrée}",
 								"{@spell geas}",
-								"{@spell mass cure wounds}"
+								"{@spell Guérison de groupe}"
 							]
 						},
 						"6": {
 							"slots": 2,
 							"spells": [
-								"{@spell blade barrier}",
-								"{@spell harm}"
+								"{@spell Mur de lames}",
+								"{@spell Infection}"
 							]
 						},
 						"7": {
 							"slots": 2,
 							"spells": [
-								"{@spell divine word}",
-								"{@spell plane shift}"
+								"{@spell Verbe divin}",
+								"{@spell Déplacement planaire}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell holy aura}"
+								"{@spell Aura sacrée}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell gate}"
+								"{@spell Portail}"
 							]
 						}
 					},
@@ -6900,13 +6900,13 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell dancing lights}"
+						"{@spell Lumières dansantes}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{@spell Ténèbres}",
+							"{@spell Lueur féérique}",
+							"{@spell Lévitation} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -7097,14 +7097,14 @@
 						"The duergar despot's innate spellcasting ability is Intelligence (spell save {@dc 12}). It can cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell minor illusion}"
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell counterspell}",
-							"{@spell misty step}",
-							"{@spell stinking cloud}"
+							"{@spell Contresort}",
+							"{@spell Pas brumeux}",
+							"{@spell Nuée nauséabonde}"
 						]
 					},
 					"ability": "int"
@@ -7818,13 +7818,13 @@
 						"The duergar's innate spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell blade ward}",
-						"{@spell true strike}"
+						"{@spell Garde de lame}",
+						"{@spell Frappe exacte}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell jump}",
-							"{@spell hunter's mark}"
+							"{@spell Saut}",
+							"{@spell Marque du chasseur}"
 						]
 					},
 					"ability": "wis"
@@ -8438,12 +8438,12 @@
 						"The dybbuk's innate spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell dimension door}"
+						"{@spell Porte dimensionnelle}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell fear}",
-							"{@spell phantasmal force}"
+							"{@spell Peur}",
+							"{@spell Force phantasmale}"
 						]
 					},
 					"ability": "cha"
@@ -8891,20 +8891,20 @@
 						"The oblex's innate spellcasting ability is Intelligence (spell save {@dc 18}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell charm person} (as 5th-level spell)",
-						"{@spell detect thoughts}",
-						"{@spell hold person}"
+						"{@spell Charmement} (as 5th-level spell)",
+						"{@spell Détection de pensées}",
+						"{@spell Immobiliser un personnage}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell confusion}",
-							"{@spell dimension door}",
-							"{@spell dominate person}",
-							"{@spell fear}",
-							"{@spell hallucinatory terrain}",
-							"{@spell hold monster}",
-							"{@spell hypnotic pattern}",
-							"{@spell telekinesis}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Peur}",
+							"{@spell Terrain illusoire}",
+							"{@spell Immobilisation de monstre}",
+							"{@spell Motif hypnotique}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int"
@@ -8946,7 +8946,7 @@
 				{
 					"name": "Eat Memories",
 					"entries": [
-						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 18} Wisdom saving throw or take 44 ({@damage 8d10}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
+						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 18} Wisdom saving throw or take 44 ({@damage 8d10}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell Restauration supérieure} or {@spell Guérison} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
 						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition Inconscient} for 1 hour. The effect then ends.",
 						"When an oblex causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except any saving throw proficiencies."
 					]
@@ -9551,23 +9551,23 @@
 						"Fraz-Urb'luu's spellcasting ability is Charisma (spell save {@dc 23}). Fraz-Urb'luu can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell phantasmal force}"
+						"{@spell Changement d'apparence} (can become Medium when changing his appearance)",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Force phantasmale}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell confusion}",
-							"{@spell dream}",
-							"{@spell mislead}",
-							"{@spell programmed illusion}",
-							"{@spell seeming}"
+							"{@spell Songe}",
+							"{@spell Fourberie}",
+							"{@spell Illusion programmée}",
+							"{@spell Apparence}"
 						],
 						"1e": [
-							"{@spell mirage arcane}",
-							"{@spell modify memory}",
-							"{@spell project image}"
+							"{@spell Mirage arcanique}",
+							"{@spell Modification de mémoire}",
+							"{@spell Projection d'image}"
 						]
 					},
 					"ability": "cha"
@@ -9629,7 +9629,7 @@
 				{
 					"name": "Phantasmal Killer (Costs 2 Actions)",
 					"entries": [
-						"Fraz-Urb'luu casts {@spell phantasmal killer}, no {@status concentration} required."
+						"Fraz-Urb'luu casts {@spell Tueur phantasmal}, no {@status concentration} required."
 					]
 				}
 			],
@@ -9915,19 +9915,19 @@
 						"Geryon's innate spellcasting ability is Charisma (spell save {@dc 21}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell detect magic}",
+						"{@spell Changement d'apparence} (can become Medium when changing his appearance)",
+						"{@spell Détection de la magie}",
 						"{@spell geas}",
-						"{@spell ice storm}",
-						"{@spell invisibility} (self only)",
-						"{@spell locate object}",
+						"{@spell Tempête de glace}",
+						"{@spell Invisibilité} (self only)",
+						"{@spell Localisation d'objet}",
 						"{@spell suggestion}",
-						"{@spell wall of ice}"
+						"{@spell Mur de glace}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell divine word}",
-							"{@spell symbol} (pain only)"
+							"{@spell Verbe divin}",
+							"{@spell Symbole} (pain only)"
 						]
 					},
 					"ability": "cha"
@@ -10313,17 +10313,17 @@
 						"The githyanki's innate spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell jump}",
-							"{@spell misty step}",
-							"{@spell nondetection} (self only)"
+							"{@spell Saut}",
+							"{@spell Pas brumeux}",
+							"{@spell Occultation} (self only)"
 						],
 						"1e": [
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{@spell Déplacement planaire}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int"
@@ -10337,41 +10337,41 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell blade ward}",
-								"{@spell light}",
+								"{@spell Garde de lame}",
+								"{@spell Lumière}",
 								"{@spell message}",
-								"{@spell true strike}"
+								"{@spell Frappe exacte}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell expeditious retreat}",
-								"{@spell magic missile}",
-								"{@spell sleep}",
-								"{@spell thunderwave}"
+								"{@spell Retrait expéditif}",
+								"{@spell Projectile magique}",
+								"{@spell Sommeil}",
+								"{@spell Onde de tonnerre}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell blur}",
-								"{@spell invisibility}",
-								"{@spell levitate}"
+								"{@spell Distorsion}",
+								"{@spell Invisibilité}",
+								"{@spell Lévitation}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell fireball}",
-								"{@spell haste}"
+								"{@spell Contresort}",
+								"{@spell Boule de feu}",
+								"{@spell Célérité}"
 							]
 						},
 						"4": {
 							"slots": 2,
 							"spells": [
-								"{@spell dimension door}"
+								"{@spell Porte dimensionnelle}"
 							]
 						}
 					},
@@ -10508,18 +10508,18 @@
 						"The githyanki's innate spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell blur}",
-							"{@spell jump}",
-							"{@spell misty step}",
-							"{@spell nondetection} (self only)"
+							"{@spell Distorsion}",
+							"{@spell Saut}",
+							"{@spell Pas brumeux}",
+							"{@spell Occultation} (self only)"
 						],
 						"1e": [
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{@spell Déplacement planaire}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int"
@@ -10660,20 +10660,20 @@
 						"The githyanki's innate spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell jump}",
-							"{@spell levitate} (self only)",
-							"{@spell misty step}",
-							"{@spell nondetection} (self only)"
+							"{@spell Saut}",
+							"{@spell Lévitation} (self only)",
+							"{@spell Pas brumeux}",
+							"{@spell Occultation} (self only)"
 						],
 						"1e": [
-							"{@spell Bigby's hand}",
-							"{@spell mass suggestion}",
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{@spell Main de Bigby}",
+							"{@spell Suggestion de groupe}",
+							"{@spell Déplacement planaire}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int"
@@ -10689,7 +10689,7 @@
 				{
 					"name": "Silver Greatsword",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage plus 17 ({@damage 5d6}) psychic damage. On a critical hit against a target in an astral body (as with the {@spell astral projection} spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage plus 17 ({@damage 5d6}) psychic damage. On a critical hit against a target in an astral body (as with the {@spell Projection astrale} spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
 					]
 				}
 			],
@@ -10828,21 +10828,21 @@
 						"The anarch's innate spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell feather fall}",
-							"{@spell jump}",
-							"{@spell see invisibility}",
-							"{@spell shield}",
-							"{@spell telekinesis}"
+							"{@spell Chute ralentie}",
+							"{@spell Saut}",
+							"{@spell Voir l'invisible}",
+							"{@spell Bouclier}",
+							"{@spell Télékinésie}"
 						],
 						"1e": [
-							"{@spell globe of invulnerability}",
-							"{@spell plane shift}",
-							"{@spell teleportation circle}",
-							"{@spell wall of force}"
+							"{@spell Globe d'invulnérabilité}",
+							"{@spell Déplacement planaire}",
+							"{@spell Cercle de téléportation}",
+							"{@spell Mur de force}"
 						]
 					},
 					"ability": "wis"
@@ -10886,7 +10886,7 @@
 				{
 					"name": "Change Gravity (Costs 3 Actions)",
 					"entries": [
-						"The anarch casts the {@spell reverse gravity} spell. The spell has the normal effect, except that the anarch can orient the area in any direction and creatures and objects fall toward the end of the area."
+						"The anarch casts the {@spell Inversion de la gravité} spell. The spell has the normal effect, except that the anarch can orient the area in any direction and creatures and objects fall toward the end of the area."
 					]
 				}
 			],
@@ -10988,21 +10988,21 @@
 						"The githzerai's innate spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell blur}",
-							"{@spell expeditious retreat}",
-							"{@spell feather fall}",
-							"{@spell jump}",
-							"{@spell see invisibility}",
-							"{@spell shield}"
+							"{@spell Distorsion}",
+							"{@spell Retrait expéditif}",
+							"{@spell Chute ralentie}",
+							"{@spell Saut}",
+							"{@spell Voir l'invisible}",
+							"{@spell Bouclier}"
 						],
 						"1e": [
-							"{@spell haste}",
-							"{@spell plane shift}",
-							"{@spell teleport}"
+							"{@spell Célérité}",
+							"{@spell Déplacement planaire}",
+							"{@spell Téléportation}"
 						]
 					},
 					"ability": "wis"
@@ -11095,7 +11095,7 @@
 				14,
 				{
 					"ac": 17,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -11140,17 +11140,17 @@
 						"The gloom weaver's innate spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell arcane eye}",
-						"{@spell mage armor}",
-						"{@spell speak with dead}"
+						"{@spell Œil magique}",
+						"{@spell Armure du mage}",
+						"{@spell Parler aux morts}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell arcane gate}",
-							"{@spell bane}",
-							"{@spell compulsion}",
+							"{@spell Porte des arcanes}",
+							"{@spell Fléau}",
+							"{@spell Contrainte}",
 							"{@spell confusion}",
-							"{@spell true seeing}"
+							"{@spell Vision véritable}"
 						]
 					},
 					"ability": "cha"
@@ -11164,27 +11164,27 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell minor illusion}",
+								"{@spell Illusion mineure}",
 								"{@spell prestidigitation}",
-								"{@spell chill touch}",
-								"{@spell eldritch blast}*"
+								"{@spell Main glaciale}",
+								"{@spell Trait occulte}*"
 							]
 						},
 						"5": {
 							"lower": 1,
 							"slots": 3,
 							"spells": [
-								"{@spell armor of Agathys}",
-								"{@spell blight}",
-								"{@spell darkness}",
-								"{@spell dream}",
-								"{@spell invisibility}",
-								"{@spell fear}",
-								"{@spell hypnotic pattern}",
-								"{@spell major image}",
-								"{@spell contact other plane}",
-								"{@spell vampiric touch}",
-								"{@spell witch bolt}"
+								"{@spell Armure d'Agathys}",
+								"{@spell Ravage}",
+								"{@spell Ténèbres}",
+								"{@spell Songe}",
+								"{@spell Invisibilité}",
+								"{@spell Peur}",
+								"{@spell Motif hypnotique}",
+								"{@spell Image majeure}",
+								"{@spell Contact avec les autres plans}",
+								"{@spell Toucher vampirique}",
+								"{@spell Décharge occulte}"
 							]
 						}
 					},
@@ -11498,24 +11498,24 @@
 						"Graz'zt's spellcasting ability is Charisma (spell save {@dc 23}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell charm person}",
-						"{@spell crown of madness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell dissonant whispers}"
+						"{@spell Charmement}",
+						"{@spell Couronne de folie}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Murmures discordants}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell counterspell}",
-							"{@spell darkness}",
-							"{@spell dominate person}",
-							"{@spell sanctuary}",
-							"{@spell telekinesis}",
-							"{@spell teleport}"
+							"{@spell Contresort}",
+							"{@spell Ténèbres}",
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Sanctuaire}",
+							"{@spell Télékinésie}",
+							"{@spell Téléportation}"
 						],
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell greater invisibility}"
+							"{@spell Soumission de monstre}",
+							"{@spell Invisibilité supérieure}"
 						]
 					},
 					"ability": "cha"
@@ -11583,7 +11583,7 @@
 				{
 					"name": "Sow Discord",
 					"entries": [
-						"Graz'zt casts {@spell crown of madness} or {@spell dissonant whispers}."
+						"Graz'zt casts {@spell Couronne de folie} or {@spell Murmures discordants}."
 					]
 				},
 				{
@@ -11733,19 +11733,19 @@
 						"The abishai's innate spellcasting ability is Charisma (spell save {@dc 17}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell alter self}",
-						"{@spell major image}"
+						"{@spell Changement d'apparence}",
+						"{@spell Image majeure}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell charm person}",
-							"{@spell detect thoughts}",
-							"{@spell fear}"
+							"{@spell Charmement}",
+							"{@spell Détection de pensées}",
+							"{@spell Peur}"
 						],
 						"1e": [
 							"{@spell confusion}",
-							"{@spell dominate person}",
-							"{@spell mass suggestion}"
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Suggestion de groupe}"
 						]
 					},
 					"ability": "cha"
@@ -11972,7 +11972,7 @@
 								}
 							]
 						},
-						"If the chosen option kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell wish} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+						"If the chosen option kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell Souhait} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
 					]
 				}
 			],
@@ -12238,22 +12238,22 @@
 						"Hutijin's innate spellcasting ability is Charisma (spell save {@dc 22}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell animate dead}",
-						"{@spell detect magic}",
-						"{@spell hold monster}",
-						"{@spell invisibility} (self only)",
-						"{@spell lightning bolt}",
+						"{@spell Changement d'apparence} (can become Medium when changing his appearance)",
+						"{@spell Animation des morts}",
+						"{@spell Détection de la magie}",
+						"{@spell Immobilisation de monstre}",
+						"{@spell Invisibilité} (self only)",
+						"{@spell Éclair}",
 						"{@spell suggestion}",
-						"{@spell wall of fire}"
+						"{@spell Mur de feu}"
 					],
 					"daily": {
 						"3": [
-							"{@spell dispel magic}"
+							"{@spell Dissipation de la magie}"
 						],
 						"1e": [
-							"{@spell heal}",
-							"{@spell symbol} (hopelessness only)"
+							"{@spell Guérison}",
+							"{@spell Symbole} (hopelessness only)"
 						]
 					},
 					"ability": "cha"
@@ -12516,18 +12516,18 @@
 						"The hydroloth's innate spellcasting ability is Intelligence (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell invisibility} (self only)",
-						"{@spell water walk}"
+						"{@spell Ténèbres}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Invisibilité} (self only)",
+						"{@spell Marche sur les eaux}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell control water}",
-							"{@spell crown of madness}",
-							"{@spell fear}",
-							"{@spell phantasmal killer}",
+							"{@spell Contrôle de l'eau}",
+							"{@spell Couronne de folie}",
+							"{@spell Peur}",
+							"{@spell Tueur phantasmal}",
 							"{@spell suggestion}"
 						]
 					},
@@ -12588,7 +12588,7 @@
 				{
 					"name": "Steal Memory (1/Day)",
 					"entries": [
-						"The hydroloth targets one creature it can see within 60 feet of it. The target takes {@damage 4d6} psychic damage, and it must make a {@dc 16} Intelligence saving throw. On a successful save, the target becomes immune to this hydroloth's Steal Memory for 24 hours. On a failed save, the target loses all proficiencies, it can't cast spells, it can't understand language, and if its Intelligence and Charisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success. A {@spell greater restoration} or {@spell remove curse} spell cast on the target ends this effect early."
+						"The hydroloth targets one creature it can see within 60 feet of it. The target takes {@damage 4d6} psychic damage, and it must make a {@dc 16} Intelligence saving throw. On a successful save, the target becomes immune to this hydroloth's Steal Memory for 24 hours. On a failed save, the target loses all proficiencies, it can't cast spells, it can't understand language, and if its Intelligence and Charisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success. A {@spell Restauration supérieure} or {@spell Délivrance de la malédiction} spell cast on the target ends this effect early."
 					]
 				},
 				{
@@ -12881,14 +12881,14 @@
 						"Juiblex's spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). Juiblex can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell acid splash} (17th level)",
-						"{@spell detect magic}"
+						"{@spell Aspersion d'acide} (17th level)",
+						"{@spell Détection de la magie}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell blight}",
+							"{@spell Ravage}",
 							"{@spell contagion}",
-							"{@spell gaseous form}"
+							"{@spell Forme gazeuse}"
 						]
 					},
 					"ability": "cha"
@@ -12956,7 +12956,7 @@
 				{
 					"name": "Acid Splash",
 					"entries": [
-						"Juiblex casts {@spell acid splash}."
+						"Juiblex casts {@spell Aspersion d'acide}."
 					]
 				},
 				{
@@ -13537,7 +13537,7 @@
 						"The marut's innate spellcasting ability is Intelligence (spell save {@dc 20}). The marut can innately cast the following spell, requiring no material components."
 					],
 					"will": [
-						"{@spell plane shift} (self only)"
+						"{@spell Déplacement planaire} (self only)"
 					],
 					"ability": "int"
 				}
@@ -14147,18 +14147,18 @@
 						"The merrenoloth's innate spellcasting ability is Intelligence (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell charm person}",
-						"{@spell darkness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell gust of wind}"
+						"{@spell Charmement}",
+						"{@spell Ténèbres}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Rafale}"
 					],
 					"daily": {
 						"1": [
-							"{@spell control weather}"
+							"{@spell Contrôle du climat}"
 						],
 						"3": [
-							"{@spell control water}"
+							"{@spell Contrôle de l'eau}"
 						]
 					},
 					"ability": "int"
@@ -14358,22 +14358,22 @@
 						"Moloch's innate spellcasting ability is Charisma (spell save {@dc 21}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell animate dead}",
-						"{@spell burning hands} (as a 7th-level spell)",
+						"{@spell Changement d'apparence} (can become Medium when changing his appearance)",
+						"{@spell Animation des morts}",
+						"{@spell Mains brûlantes} (as a 7th-level spell)",
 						"{@spell confusion}",
-						"{@spell detect magic}",
-						"{@spell fly}",
+						"{@spell Détection de la magie}",
+						"{@spell Vol}",
 						"{@spell geas}",
-						"{@spell major image}",
-						"{@spell stinking cloud}",
+						"{@spell Image majeure}",
+						"{@spell Nuée nauséabonde}",
 						"{@spell suggestion}",
-						"{@spell wall of fire}"
+						"{@spell Mur de feu}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell flame strike}",
-							"{@spell symbol} (stunning only)"
+							"{@spell Colère sacrée}",
+							"{@spell Symbole} (stunning only)"
 						]
 					},
 					"ability": "cha"
@@ -14447,7 +14447,7 @@
 				{
 					"name": "Stinking Cloud",
 					"entries": [
-						"Moloch casts {@spell stinking cloud}."
+						"Moloch casts {@spell Nuée nauséabonde}."
 					]
 				},
 				{
@@ -14626,17 +14626,17 @@
 						"The molydeus' innate spellcasting ability is Charisma (spell save {@dc 22}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell dispel magic}",
-						"{@spell polymorph}",
-						"{@spell telekinesis}",
-						"{@spell teleport}"
+						"{@spell Dissipation de la magie}",
+						"{@spell Polymorphie}",
+						"{@spell Télékinésie}",
+						"{@spell Téléportation}"
 					],
 					"daily": {
 						"1": [
-							"{@spell imprisonment}"
+							"{@spell Emprisonnement}"
 						],
 						"3": [
-							"{@spell lightning bolt}"
+							"{@spell Éclair}"
 						]
 					},
 					"ability": "cha"
@@ -14684,7 +14684,7 @@
 				{
 					"name": "Snakebite",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 15 ft., one creature. {@h}12 ({@damage 1d6 + 9}) piercing damage, and the target must succeed on a {@dc 22} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target transforms into a {@creature manes} if this reduces its hit point maximum to 0. This transformation can be ended only by a {@spell wish} spell."
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one creature. {@h}12 ({@damage 1d6 + 9}) piercing damage, and the target must succeed on a {@dc 22} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target transforms into a {@creature manes} if this reduces its hit point maximum to 0. This transformation can be ended only by a {@spell Souhait} spell."
 					]
 				}
 			],
@@ -14860,7 +14860,7 @@
 				{
 					"name": "Devour Soul",
 					"entries": [
-						"A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a construct nor an undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice ({@dice d8}s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 ({@damage 1d6}) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a {@spell wish} spell."
+						"A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a construct nor an undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice ({@dice d8}s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 ({@damage 1d6}) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a {@spell Souhait} spell."
 					]
 				},
 				{
@@ -15012,72 +15012,72 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell chill touch}",
-								"{@spell fire bolt}",
-								"{@spell mage hand}",
+								"{@spell Main glaciale}",
+								"{@spell Trait de feu}",
+								"{@spell Main du mage}",
 								"{@spell message}",
-								"{@spell minor illusion}"
+								"{@spell Illusion mineure}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell charm person}",
-								"{@spell detect magic}",
-								"{@spell protection from evil and good}",
-								"{@spell witch bolt}"
+								"{@spell Charmement}",
+								"{@spell Détection de la magie}",
+								"{@spell Protection contre le mal et le bien}",
+								"{@spell Décharge occulte}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell ray of enfeeblement}",
+								"{@spell Immobiliser un personnage}",
+								"{@spell Rayon affaiblissant}",
 								"{@spell suggestion}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell fireball}",
-								"{@spell fly}"
+								"{@spell Contresort}",
+								"{@spell Boule de feu}",
+								"{@spell Vol}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell confusion}",
-								"{@spell hallucinatory terrain}",
-								"{@spell wall of fire}"
+								"{@spell Terrain illusoire}",
+								"{@spell Mur de feu}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell dominate person}",
-								"{@spell dream}",
+								"{@spell Soumission d'humanoïde}",
+								"{@spell Songe}",
 								"{@spell geas}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell circle of death}",
-								"{@spell disintegrate}"
+								"{@spell Cercle de mort}",
+								"{@spell Désintégration}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell etherealness}",
-								"{@spell prismatic spray}"
+								"{@spell Éthéré}",
+								"{@spell Jet prismatique}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell feeblemind}"
+								"{@spell Dégénrescence}"
 							]
 						}
 					},
@@ -15286,7 +15286,7 @@
 					"name": "Hellfire Lance",
 					"entries": [
 						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d12 + 5}) piercing damage plus 16 ({@damage 3d10}) fire damage. If this damage kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in {@dice 1d4} hours.",
-						"If the creature isn't revived before then, only a {@spell wish} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+						"If the creature isn't revived before then, only a {@spell Souhait} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
 					]
 				},
 				{
@@ -15426,7 +15426,7 @@
 				{
 					"name": "Life Eater",
 					"entries": [
-						"A creature reduced to 0 hit points from damage dealt by the nightwalker dies and can't be revived by any means short of a {@spell wish} spell."
+						"A creature reduced to 0 hit points from damage dealt by the nightwalker dies and can't be revived by any means short of a {@spell Souhait} spell."
 					]
 				}
 			],
@@ -16312,17 +16312,17 @@
 						"The oinoloth's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell invisibility} (self only)"
+						"{@spell Ténèbres}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Invisibilité} (self only)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell feeblemind}",
-							"{@spell globe of invulnerability}",
-							"{@spell wall of fire}",
-							"{@spell wall of ice}"
+							"{@spell Dégénrescence}",
+							"{@spell Globe d'invulnérabilité}",
+							"{@spell Mur de feu}",
+							"{@spell Mur de glace}"
 						]
 					},
 					"ability": "cha"
@@ -16366,7 +16366,7 @@
 				{
 					"name": "Corrupted Healing {@recharge}",
 					"entries": [
-						"The oinoloth touches one willing creature within 5 feet of it. The target regains all its hit points. In addition, the oinoloth can end one disease on the target or remove one of the following conditions from it: {@condition Aveuglé}, {@condition Assourdi}, {@condition Paralysé}, or {@condition Empoisonné}. The target then gains 1 level of {@condition Épuisement}, and its hit point maximum is reduced by 7 ({@dice 2d6}). This reduction can be removed only by a {@spell wish} spell or by casting {@spell greater restoration} on the target three times within the same hour. The target dies if its hit point maximum is reduced to 0."
+						"The oinoloth touches one willing creature within 5 feet of it. The target regains all its hit points. In addition, the oinoloth can end one disease on the target or remove one of the following conditions from it: {@condition Aveuglé}, {@condition Assourdi}, {@condition Paralysé}, or {@condition Empoisonné}. The target then gains 1 level of {@condition Épuisement}, and its hit point maximum is reduced by 7 ({@dice 2d6}). This reduction can be removed only by a {@spell Souhait} spell or by casting {@spell Restauration supérieure} on the target three times within the same hour. The target dies if its hit point maximum is reduced to 0."
 					]
 				},
 				{
@@ -16551,16 +16551,16 @@
 						"Orcus's spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell chill touch} (17th level)",
-						"{@spell detect magic}"
+						"{@spell Main glaciale} (17th level)",
+						"{@spell Détection de la magie}"
 					],
 					"daily": {
 						"1": [
-							"{@spell time stop}"
+							"{@spell Arrêt du temps}"
 						],
 						"3e": [
-							"{@spell create undead}",
-							"{@spell dispel magic}"
+							"{@spell Création de morts-vivants}",
+							"{@spell Dissipation de la magie}"
 						]
 					},
 					"ability": "cha"
@@ -16570,7 +16570,7 @@
 				{
 					"name": "Wand of Orcus",
 					"entries": [
-						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast {@spell animate dead}, {@spell blight}, or {@spell speak with dead}. Alternatively, he can expend 1 or more of the wand's charges to cast one of the following spells from it: {@spell circle of death} (1 charge), {@spell finger of death} (1 charge), or {@spell power word kill} (2 charges). The wand regains {@dice 1d4 + 3} charges daily at dawn.",
+						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast {@spell Animation des morts}, {@spell Ravage}, or {@spell Parler aux morts}. Alternatively, he can expend 1 or more of the wand's charges to cast one of the following spells from it: {@spell Cercle de mort} (1 charge), {@spell Doigt de mort} (1 charge), or {@spell Mot de pouvoir de mort} (2 charges). The wand regains {@dice 1d4 + 3} charges daily at dawn.",
 						"While holding the wand, Orcus can use an action to conjure undead creatures whose combined average hit points don't exceed 500. These undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of Orcus and obey his commands until they are destroyed or until he dismisses them as an action. Once this property of the wand is used, the property can't be used again until the next dawn."
 					]
 				},
@@ -16595,7 +16595,7 @@
 				{
 					"name": "Master of Undeath",
 					"entries": [
-						"When Orcus casts {@spell animate dead} or {@spell create undead}, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast {@spell create undead} even when it isn't night."
+						"When Orcus casts {@spell Animation des morts} or {@spell Création de morts-vivants}, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast {@spell Création de morts-vivants} even when it isn't night."
 					]
 				}
 			],
@@ -16629,7 +16629,7 @@
 				{
 					"name": "A Taste of Undeath",
 					"entries": [
-						"Orcus casts {@spell chill touch} (17th level)."
+						"Orcus casts {@spell Main glaciale} (17th level)."
 					]
 				},
 				{
@@ -17355,8 +17355,8 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell plane shift} (only self and up to one incapacitated creature which is considered willing for the spell)",
-							"{@spell web}"
+							"{@spell Déplacement planaire} (only self and up to one incapacitated creature which is considered willing for the spell)",
+							"{@spell Toile}"
 						]
 					},
 					"ability": "wis"
@@ -17641,7 +17641,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition Empoisonné}. At the end of each long rest, the {@condition Empoisonné} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition Empoisonné} in this way, it dies and instantly transforms into a living {@creature abyssal wretch|mtf}. The transformation of the body can be undone only by a {@spell wish} spell."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition Empoisonné}. At the end of each long rest, the {@condition Empoisonné} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition Empoisonné} in this way, it dies and instantly transforms into a living {@creature abyssal wretch|mtf}. The transformation of the body can be undone only by a {@spell Souhait} spell."
 					]
 				}
 			],
@@ -17765,7 +17765,7 @@
 				{
 					"name": "Ghostly Inhabitant",
 					"entries": [
-						"The {@creature eidolon|MTF} that enters the sacred statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the {@spell dispel evil and good} spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue."
+						"The {@creature eidolon|MTF} that enters the sacred statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the {@spell Dissipation du mal et du bien} spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue."
 					]
 				},
 				{
@@ -18059,14 +18059,14 @@
 						"The sibriex's innate spellcasting ability is Charisma (spell save {@dc 21}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell charm person}",
-						"{@spell command}",
-						"{@spell dispel magic}",
-						"{@spell hold monster}"
+						"{@spell Charmement}",
+						"{@spell Ordre}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Immobilisation de monstre}"
 					],
 					"daily": {
 						"3": [
-							"{@spell feeblemind}"
+							"{@spell Dégénrescence}"
 						]
 					},
 					"ability": "cha"
@@ -18120,7 +18120,7 @@
 				{
 					"name": "Warp Creature",
 					"entries": [
-						"The sibriex targets up to three creatures it can see within 120 feet of it. Each target must make a {@dc 20} Constitution saving throw. On a successful save, a creature becomes immune to this sibriex's Warp Creature. On a failed save, the target is {@condition Empoisonné}, which causes it to also gain 1 level of {@condition Épuisement}. While {@condition Empoisonné} in this way, the target must repeat the saving throw at the start of each of its turns. Three successful saves against the poison end it, and ending the poison removes any levels of {@condition Épuisement} caused by it. Each failed save causes the target to suffer another level of {@condition Épuisement}. Once the target reaches 6 levels of {@condition Épuisement}, it dies and instantly transforms into a living {@creature abyssal wretch|mtf} under the sibriex's control. The transformation of the body can be undone only by a {@spell wish} spell."
+						"The sibriex targets up to three creatures it can see within 120 feet of it. Each target must make a {@dc 20} Constitution saving throw. On a successful save, a creature becomes immune to this sibriex's Warp Creature. On a failed save, the target is {@condition Empoisonné}, which causes it to also gain 1 level of {@condition Épuisement}. While {@condition Empoisonné} in this way, the target must repeat the saving throw at the start of each of its turns. Three successful saves against the poison end it, and ending the poison removes any levels of {@condition Épuisement} caused by it. Each failed save causes the target to suffer another level of {@condition Épuisement}. Once the target reaches 6 levels of {@condition Épuisement}, it dies and instantly transforms into a living {@creature abyssal wretch|mtf} under the sibriex's control. The transformation of the body can be undone only by a {@spell Souhait} spell."
 					]
 				}
 			],
@@ -18509,60 +18509,60 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell chill touch}",
-								"{@spell fire bolt}",
-								"{@spell mage hand}",
-								"{@spell poison spray}",
-								"{@spell ray of frost}",
-								"{@spell shocking grasp}"
+								"{@spell Main glaciale}",
+								"{@spell Trait de feu}",
+								"{@spell Main du mage}",
+								"{@spell Jet de poison}",
+								"{@spell Rayon de gel}",
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell magic missile}",
-								"{@spell expeditious retreat}",
-								"{@spell thunderwave}"
+								"{@spell Projectile magique}",
+								"{@spell Retrait expéditif}",
+								"{@spell Onde de tonnerre}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell mirror image}",
-								"{@spell scorching ray}"
+								"{@spell Image dédoublée}",
+								"{@spell Rayons brûlants}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell fear}",
-								"{@spell haste}"
+								"{@spell Peur}",
+								"{@spell Célérité}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell dimension door}",
-								"{@spell ice storm}"
+								"{@spell Porte dimensionnelle}",
+								"{@spell Tempête de glace}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell cloudkill}",
-								"{@spell cone of cold}"
+								"{@spell Nuée mortelle}",
+								"{@spell Cône de froid}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell eyebite}"
+								"{@spell Morsure d'œil}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}"
+								"{@spell Doigt de mort}"
 							]
 						}
 					},
@@ -18753,17 +18753,17 @@
 						"The soul monger's innate spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell chill touch}",
-						"{@spell poison spray}"
+						"{@spell Main glaciale}",
+						"{@spell Jet de poison}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell bestow curse}",
-							"{@spell chain lightning}",
-							"{@spell finger of death}",
-							"{@spell gaseous form}",
-							"{@spell phantasmal killer}",
-							"{@spell seeming}"
+							"{@spell Malédiction}",
+							"{@spell Chaîne d'éclairs}",
+							"{@spell Doigt de mort}",
+							"{@spell Forme gazeuse}",
+							"{@spell Tueur phantasmal}",
+							"{@spell Apparence}"
 						]
 					},
 					"ability": "int"
@@ -19097,18 +19097,18 @@
 						"The eladrin's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell charm person}",
-						"{@spell Tasha's hideous laughter}"
+						"{@spell Charmement}",
+						"{@spell Rire hideux de Tasha}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell confusion}",
-							"{@spell enthrall}",
+							"{@spell Fascination}",
 							"{@spell suggestion}"
 						],
 						"1e": [
-							"{@spell hallucinatory terrain}",
-							"{@spell Otto's irresistible dance}"
+							"{@spell Terrain illusoire}",
+							"{@spell Danse irrésistible d'Otto}"
 						]
 					},
 					"ability": "cha"
@@ -19516,15 +19516,15 @@
 						"The larva mage's innate spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell eldritch blast}*",
-						"{@spell minor illusion}"
+						"{@spell Trait occulte}*",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1": [
-							"{@spell circle of death}"
+							"{@spell Cercle de mort}"
 						],
 						"3": [
-							"{@spell dominate monster}"
+							"{@spell Soumission de monstre}"
 						]
 					},
 					"footerEntries": [
@@ -19996,8 +19996,8 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell dimension door} (self only)",
-							"{@spell plane shift} (self only)"
+							"{@spell Porte dimensionnelle} (self only)",
+							"{@spell Déplacement planaire} (self only)"
 						]
 					},
 					"ability": "wis"
@@ -21444,24 +21444,24 @@
 						"Titivilus's innate spellcasting ability is Charisma (spell save {@dc 21}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell alter self}",
-						"{@spell animate dead}",
-						"{@spell bestow curse}",
+						"{@spell Changement d'apparence}",
+						"{@spell Animation des morts}",
+						"{@spell Malédiction}",
 						"{@spell confusion}",
-						"{@spell major image}",
-						"{@spell modify memory}",
-						"{@spell nondetection}",
-						"{@spell sending}",
+						"{@spell Image majeure}",
+						"{@spell Modification de mémoire}",
+						"{@spell Occultation}",
+						"{@spell Envoi de message}",
 						"{@spell suggestion}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell greater invisibility} (self only)",
-							"{@spell mislead}"
+							"{@spell Invisibilité supérieure} (self only)",
+							"{@spell Fourberie}"
 						],
 						"1e": [
-							"{@spell feeblemind}",
-							"{@spell symbol} (discord or sleep only)"
+							"{@spell Dégénrescence}",
+							"{@spell Symbole} (discord or sleep only)"
 						]
 					},
 					"ability": "cha"
@@ -21816,25 +21816,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
+								"{@spell Druidisme}",
 								"{@spell guidance}",
-								"{@spell produce flame}"
+								"{@spell Production de flamme}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell animal friendship}",
-								"{@spell cure wounds}",
-								"{@spell speak with animals}",
-								"{@spell thunderwave}"
+								"{@spell Amitié animale}",
+								"{@spell Soins}",
+								"{@spell Parler aux animaux}",
+								"{@spell Onde de tonnerre}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell darkvision}",
-								"{@spell hold person}"
+								"{@spell Vision dans le noir}",
+								"{@spell Immobiliser un personnage}"
 							]
 						}
 					},
@@ -22774,13 +22774,13 @@
 						"The eladrin's innate spellcasting ability is Intelligence (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell fog cloud}",
-						"{@spell gust of wind}"
+						"{@spell Nuage de brouillard}",
+						"{@spell Rafale}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell cone of cold}",
-							"{@spell ice storm}"
+							"{@spell Cône de froid}",
+							"{@spell Tempête de glace}"
 						]
 					},
 					"ability": "int"
@@ -22979,15 +22979,15 @@
 						"The yagnoloth's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell invisibility} (self only)",
+						"{@spell Ténèbres}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Invisibilité} (self only)",
 						"{@spell suggestion}"
 					],
 					"daily": {
 						"3": [
-							"{@spell lightning bolt}"
+							"{@spell Éclair}"
 						]
 					},
 					"ability": "cha"
@@ -23203,16 +23203,16 @@
 						"Yeenoghu's spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell detect magic}"
+						"{@spell Détection de la magie}"
 					],
 					"daily": {
 						"1": [
-							"{@spell teleport}"
+							"{@spell Téléportation}"
 						],
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell fear}",
-							"{@spell invisibility}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Peur}",
+							"{@spell Invisibilité}"
 						]
 					},
 					"ability": "cha"
@@ -23768,17 +23768,17 @@
 						"Zariel's innate spellcasting ability is Charisma (spell save {@dc 26}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing her appearance)",
-						"{@spell detect evil and good}",
-						"{@spell fireball}",
-						"{@spell invisibility} (self only)",
-						"{@spell wall of fire}"
+						"{@spell Changement d'apparence} (can become Medium when changing her appearance)",
+						"{@spell Détection du mal et du bien}",
+						"{@spell Boule de feu}",
+						"{@spell Invisibilité} (self only)",
+						"{@spell Mur de feu}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell blade barrier}",
-							"{@spell dispel evil and good}",
-							"{@spell finger of death}"
+							"{@spell Mur de lames}",
+							"{@spell Dissipation du mal et du bien}",
+							"{@spell Doigt de mort}"
 						]
 					},
 					"ability": "cha"
@@ -24041,20 +24041,20 @@
 						"Zuggtmoy's spellcasting ability is Charisma (spell save {@dc 22}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell locate animals or plants}",
-						"{@spell ray of sickness}"
+						"{@spell Détection de la magie}",
+						"{@spell Localisation d'animaux ou de plantes}",
+						"{@spell Rayon nauséeux}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell ensnaring strike}",
-							"{@spell entangle}",
-							"{@spell plant growth}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Attaque entravante}",
+							"{@spell Enchevêtrement}",
+							"{@spell Croissance végétale}"
 						],
 						"1e": [
-							"{@spell etherealness}",
-							"{@spell teleport}"
+							"{@spell Éthéré}",
+							"{@spell Téléportation}"
 						]
 					},
 					"ability": "cha"

@@ -718,8 +718,8 @@
 					],
 					"rows": [
 						[
-							"\u2014",
-							"\u2014",
+							"—",
+							"—",
 							2,
 							2
 						],
@@ -1606,7 +1606,7 @@
 							"type": "entries",
 							"name": "Cantrips",
 							"entries": [
-								"You know two {@filter Artificer cantrips|spells|level=0|class=Artificer} of your choice. {@spell Acid Splash|XPHB} and {@spell Prestidigitation|XPHB} are recommended.",
+								"You know two {@filter Artificer cantrips|spells|level=0|class=Artificer} of your choice. {@spell Aspersion d'acide|XPHB} and {@spell Prestidigitation|XPHB} are recommended.",
 								"Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace one of your cantrips from this feature with another Artificer cantrip of your choice.",
 								"When you reach Artificer levels 10 and 14, you learn another Artificer cantrip of your choice, as shown in the Cantrips column of the Artificer Features table."
 							]
@@ -1622,7 +1622,7 @@
 							"type": "entries",
 							"name": "Prepared Spells of Level 1+",
 							"entries": [
-								"You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Artificer spells|spells|level=1|class=Artificer}. {@spell Cure Wounds|XPHB} and {@spell Grease|XPHB} are recommended.",
+								"You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Artificer spells|spells|level=1|class=Artificer}. {@spell Soins|XPHB} and {@spell Graisse|XPHB} are recommended.",
 								"The number of spells on your list increases as you gain Artificer levels, as shown in the Prepared Spells column of the Artificer Features table. Whenever that number increases, choose additional {@filter Artificer spells|spells|class=Artificer} until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Artificer, your list of prepared spells can include six Artificer spells of levels 1 and 2 in any combination.",
 								"If another Artificer feature gives you spells that you always have prepared, those don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Artificer spells for you."
 							]
@@ -1653,7 +1653,7 @@
 			"classSource": "EFA",
 			"level": 1,
 			"entries": [
-				"You know the {@spell Mending|XPHB} cantrip.",
+				"You know the {@spell Réparation|XPHB} cantrip.",
 				"As a {@action Magie|XPHB} action while holding {@item Outils de rétameur|XPHB}, you can create one item in an unoccupied space within 5 feet of yourself, choosing the item from the following list:",
 				{
 					"type": "list",
@@ -1746,7 +1746,7 @@
 							"type": "inset",
 							"name": "Crafting More Magic Items",
 							"entries": [
-								"The Replicate Magic Item feature isn't the only way for an Artificer to make magic items. The {@book Dungeon Master's Guide|XDMG|6|Crafting Magic Items} provides rules for characters\u2014not just Artificers\u2014who want to make magic items of all sorts. Though many different characters can make magic items, Artificers can do it faster than others; each Artificer subclass improves a character's speed at making items of a certain category.",
+								"The Replicate Magic Item feature isn't the only way for an Artificer to make magic items. The {@book Dungeon Master's Guide|XDMG|6|Crafting Magic Items} provides rules for characters—not just Artificers—who want to make magic items of all sorts. Though many different characters can make magic items, Artificers can do it faster than others; each Artificer subclass improves a character's speed at making items of a certain category.",
 								"When an Artificer crafts a magic item using the normal rules in the {@book Dungeon Master's Guide|XDMG|6|Crafting Magic Items}, the character gains no special connection to that item. Class features that refer to items created by your Replicate Magic Item feature don't apply to items you craft by other means."
 							]
 						},
@@ -2352,14 +2352,14 @@
 					"type": "entries",
 					"name": "Tools Required",
 					"entries": [
-						"You produce your artificer spell effects through your tools. You must have a spellcasting focus\u2014specifically {@item Outils de crocheteur|phb} or some kind of {@item artisan's tools|phb|artisan's tool}\u2014in hand when you cast any spell with this Spellcasting feature (meaning the spell has an 'M' component when you cast it). You must be proficient with the tool to use it in this way. See {@book chapter 5|PHB|4}, \"Equipment,\" in the {@book Player's Handbook|PHB} for descriptions of these tools.",
+						"You produce your artificer spell effects through your tools. You must have a spellcasting focus—specifically {@item Outils de crocheteur|phb} or some kind of {@item artisan's tools|phb|artisan's tool}—in hand when you cast any spell with this Spellcasting feature (meaning the spell has an 'M' component when you cast it). You must be proficient with the tool to use it in this way. See {@book chapter 5|PHB|4}, \"Equipment,\" in the {@book Player's Handbook|PHB} for descriptions of these tools.",
 						"After you gain the Infuse Item feature at 2nd level, you can also use any item bearing one of your infusions as a spellcasting focus.",
 						{
 							"type": "inset",
 							"name": "The Magic of Artifice",
 							"entries": [
-								"As an artificer, you use tools when you cast your spells. When describing your spellcasting, think about how you're using a tool to perform the spell effect. If you cast {@spell cure wounds} using {@item Fournitures d'alchimiste|PHB}, you could be quickly producing a salve. If you cast it using {@item Outils de rétameur|PHB}, you might have a miniature mechanical spider that binds wounds. When you cast {@spell poison spray}, you could fling foul chemicals or use a wand that spits venom. The effect of the spell is the same as for a spellcaster of any other class, but your method of spellcasting is special.",
-								"The same principle applies when you prepare your spells. As an artificer, you don't study a spellbook or pray to prepare your spells. Instead, you work with your tools and create the specialized items you'll use to produce your effects. If you replace {@spell cure wounds} with {@spell heat metal}, you might be altering the device you use to heal\u2014perhaps modifying a tool so that it channels heat instead of healing energy.",
+								"As an artificer, you use tools when you cast your spells. When describing your spellcasting, think about how you're using a tool to perform the spell effect. If you cast {@spell Soins} using {@item Fournitures d'alchimiste|PHB}, you could be quickly producing a salve. If you cast it using {@item Outils de rétameur|PHB}, you might have a miniature mechanical spider that binds wounds. When you cast {@spell Jet de poison}, you could fling foul chemicals or use a wand that spits venom. The effect of the spell is the same as for a spellcaster of any other class, but your method of spellcasting is special.",
+								"The same principle applies when you prepare your spells. As an artificer, you don't study a spellbook or pray to prepare your spells. Instead, you work with your tools and create the specialized items you'll use to produce your effects. If you replace {@spell Soins} with {@spell Métal brûlant}, you might be altering the device you use to heal—perhaps modifying a tool so that it channels heat instead of healing energy.",
 								"Such details don't limit you in any way or provide you with any benefit beyond the spell's effects. You don't have to justify how you're using tools to cast a spell. But describing your spellcasting creatively is a fun way to distinguish yourself from other spellcasters."
 							]
 						}
@@ -2379,7 +2379,7 @@
 					"entries": [
 						"The Artificer table shows how many spell slots you have to cast your artificer spells. To cast one of your artificer spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
 						"You prepare the list of artificer spells that are available for you to cast, choosing from the {@filter artificer spell list|spells|class=Artificer}. When you do so, choose a number of artificer spells equal to your Intelligence modifier + half your artificer level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
-						"For example, if you are a 5th-level artificer, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+						"For example, if you are a 5th-level artificer, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell Soins}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
 						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of artificer spells requires time spent tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list."
 					]
 				},
@@ -2862,23 +2862,23 @@
 					"rows": [
 						[
 							"3",
-							"{@spell Healing Word|XPHB}, {@spell Ray of Sickness|XPHB}"
+							"{@spell Mot de guérison|XPHB}, {@spell Rayon nauséeux|XPHB}"
 						],
 						[
 							"5",
-							"{@spell Flaming Sphere|XPHB}, {@spell Melf's Acid Arrow|XPHB}"
+							"{@spell Sphère enflammée|XPHB}, {@spell Flèche acide de Melf|XPHB}"
 						],
 						[
 							"9",
-							"{@spell Gaseous Form|XPHB}, {@spell Mass Healing Word|XPHB}"
+							"{@spell Forme gazeuse|XPHB}, {@spell Mot de guérison de groupe|XPHB}"
 						],
 						[
 							"13",
-							"{@spell Death Ward|XPHB}, {@spell Vitriolic Sphere|XPHB}"
+							"{@spell Protection contre la mort|XPHB}, {@spell Sphère vitriolique|XPHB}"
 						],
 						[
 							"17",
-							"{@spell Cloudkill|XPHB}, {@spell Raise Dead|XPHB}"
+							"{@spell Nuée mortelle|XPHB}, {@spell Relèvement|XPHB}"
 						]
 					]
 				}
@@ -3003,7 +3003,7 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"You can cast {@spell Lesser Restoration|XPHB} without expending a spell slot and without preparing the spell, provided you use {@item Fournitures d'alchimiste|XPHB} as the {@variantrule Spellcasting Focus|XPHB}. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+				"You can cast {@spell Restauration partielle|XPHB} without expending a spell slot and without preparing the spell, provided you use {@item Fournitures d'alchimiste|XPHB} as the {@variantrule Spellcasting Focus|XPHB}. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
 		{
@@ -3036,7 +3036,7 @@
 					"type": "entries",
 					"name": "Conjured Cauldron",
 					"entries": [
-						"You can cast {@spell Tasha's Bubbling Cauldron|XPHB} without expending a spell slot, without preparing the spell, and without Material components, provided you use {@item Fournitures d'alchimiste|XPHB} as the {@variantrule Spellcasting Focus|XPHB}. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+						"You can cast {@spell Chaudron bouillonnant de Tasha|XPHB} without expending a spell slot, without preparing the spell, and without Material components, provided you use {@item Fournitures d'alchimiste|XPHB} as the {@variantrule Spellcasting Focus|XPHB}. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
 					]
 				}
 			]
@@ -3159,23 +3159,23 @@
 					"rows": [
 						[
 							"3",
-							"{@spell Magic Missile|XPHB}, {@spell Thunderwave|XPHB}"
+							"{@spell Projectile magique|XPHB}, {@spell Onde de tonnerre|XPHB}"
 						],
 						[
 							"5",
-							"{@spell Mirror Image|XPHB}, {@spell Shatter|XPHB}"
+							"{@spell Image dédoublée|XPHB}, {@spell Déflagration|XPHB}"
 						],
 						[
 							"9",
-							"{@spell Hypnotic Pattern|XPHB}, {@spell Lightning Bolt|XPHB}"
+							"{@spell Motif hypnotique|XPHB}, {@spell Éclair|XPHB}"
 						],
 						[
 							"13",
-							"{@spell Fire Shield|XPHB}, {@spell Greater Invisibility|XPHB}"
+							"{@spell Bouclier de feu|XPHB}, {@spell Invisibilité supérieure|XPHB}"
 						],
 						[
 							"17",
-							"{@spell Passwall|XPHB}, {@spell Wall of Force|XPHB}"
+							"{@spell Passage en creux|XPHB}, {@spell Mur de force|XPHB}"
 						]
 					]
 				}
@@ -3454,23 +3454,23 @@
 					"rows": [
 						[
 							"3",
-							"{@spell Shield|XPHB}, {@spell Thunderwave|XPHB}"
+							"{@spell Bouclier|XPHB}, {@spell Onde de tonnerre|XPHB}"
 						],
 						[
 							"5",
-							"{@spell Scorching Ray|XPHB}, {@spell Shatter|XPHB}"
+							"{@spell Rayons brûlants|XPHB}, {@spell Déflagration|XPHB}"
 						],
 						[
 							"9",
-							"{@spell Fireball|XPHB}, {@spell Wind Wall|XPHB}"
+							"{@spell Boule de feu|XPHB}, {@spell Mur de vent|XPHB}"
 						],
 						[
 							"13",
-							"{@spell Ice Storm|XPHB}, {@spell Wall of Fire|XPHB}"
+							"{@spell Tempête de glace|XPHB}, {@spell Mur de feu|XPHB}"
 						],
 						[
 							"17",
-							"{@spell Cone of Cold|XPHB}, {@spell Wall of Force|XPHB}"
+							"{@spell Cône de froid|XPHB}, {@spell Mur de force|XPHB}"
 						]
 					]
 				}
@@ -3678,23 +3678,23 @@
 					"rows": [
 						[
 							"3",
-							"{@spell Heroism|XPHB}, {@spell Shield|XPHB}"
+							"{@spell Héroïsme|XPHB}, {@spell Bouclier|XPHB}"
 						],
 						[
 							"5",
-							"{@spell Shining Smite|XPHB}, {@spell Warding Bond|XPHB}"
+							"{@spell Frappe resplendissante|XPHB}, {@spell Lien de protection|XPHB}"
 						],
 						[
 							"9",
-							"{@spell Aura of Vitality|XPHB}, {@spell Conjure Barrage|XPHB}"
+							"{@spell Aura de vitalité|XPHB}, {@spell Salve d'invocation|XPHB}"
 						],
 						[
 							"13",
-							"{@spell Aura of Purity|XPHB}, {@spell Fire Shield|XPHB}"
+							"{@spell Aura de pureté|XPHB}, {@spell Bouclier de feu|XPHB}"
 						],
 						[
 							"17",
-							"{@spell Banishing Smite|XPHB}, {@spell Mass Cure Wounds|XPHB}"
+							"{@spell Châtiment banissant|XPHB}, {@spell Guérison de groupe|XPHB}"
 						]
 					]
 				}
@@ -3918,23 +3918,23 @@
 					"rows": [
 						[
 							"3",
-							"{@spell Faerie Fire|XPHB}, {@spell Guiding Bolt|XPHB}, {@spell Healing Word|XPHB}"
+							"{@spell Lueur féérique|XPHB}, {@spell Trait de lumière|XPHB}, {@spell Mot de guérison|XPHB}"
 						],
 						[
 							"5",
-							"{@spell Locate Object|XPHB}, {@spell Mind Spike|XPHB}"
+							"{@spell Localisation d'objet|XPHB}, {@spell Pic mental|XPHB}"
 						],
 						[
 							"9",
-							"{@spell Call Lightning|XPHB}, {@spell Clairvoyance|XPHB}"
+							"{@spell Foudre multiple|XPHB}, {@spell Clairvoyance|XPHB}"
 						],
 						[
 							"13",
-							"{@spell Banishment|XPHB}, {@spell Locate Creature|XPHB}"
+							"{@spell Bannissement|XPHB}, {@spell Localisation de créature|XPHB}"
 						],
 						[
 							"17",
-							"{@spell Scrying|XPHB}, {@spell Teleportation Circle|XPHB}"
+							"{@spell Scrutation|XPHB}, {@spell Cercle de téléportation|XPHB}"
 						]
 					]
 				}
@@ -3955,7 +3955,7 @@
 					"type": "entries",
 					"name": "Illuminated Cartography",
 					"entries": [
-						"You can cast {@spell Faerie Fire|XPHB} without expending a spell slot, outlining the affected creatures as if in ink. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+						"You can cast {@spell Lueur féérique|XPHB} without expending a spell slot, outlining the affected creatures as if in ink. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 					]
 				},
 				{
@@ -4005,8 +4005,8 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"Once per turn, whenever you cast a spell from your Cartographer Spells list or hit a creature affected by your {@spell Faerie Fire|XPHB} with an attack roll, you can add your Intelligence modifier to one damage roll of the spell or attack.",
-				"In addition, taking damage can't cause you to lose {@status Concentration|XPHB} on {@spell Faerie Fire|XPHB}."
+				"Once per turn, whenever you cast a spell from your Cartographer Spells list or hit a creature affected by your {@spell Lueur féérique|XPHB} with an attack roll, you can add your Intelligence modifier to one damage roll of the spell or attack.",
+				"In addition, taking damage can't cause you to lose {@status Concentration|XPHB} on {@spell Lueur féérique|XPHB}."
 			]
 		},
 		{
@@ -4046,7 +4046,7 @@
 					"type": "entries",
 					"name": "Unerring Path",
 					"entries": [
-						"If you are one of the map holders for your Adventurer's Atlas, you can cast {@spell Find the Path|XPHB} without expending a spell slot, without preparing the spell, and without needing spell components. Once you use this benefit, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+						"If you are one of the map holders for your Adventurer's Atlas, you can cast {@spell Trouver le chemin|XPHB} without expending a spell slot, without preparing the spell, and without needing spell components. Once you use this benefit, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
 					]
 				}
 			]
@@ -4121,23 +4121,23 @@
 					"rows": [
 						[
 							"3",
-							"{@spell False Life|XPHB}, {@spell Spare the Dying|XPHB}, {@spell Witch Bolt|XPHB}"
+							"{@spell Fausse vie|XPHB}, {@spell Aide aux mourants|XPHB}, {@spell Décharge occulte|XPHB}"
 						],
 						[
 							"5",
-							"{@spell Blindness/Deafness|XPHB}, {@spell Enhance Ability|XPHB}"
+							"{@spell Cécité/Surdité|XPHB}, {@spell Amélioration de caractéristique|XPHB}"
 						],
 						[
 							"9",
-							"{@spell Animate Dead|XPHB}, {@spell Lightning Bolt|XPHB}"
+							"{@spell Animation des morts|XPHB}, {@spell Éclair|XPHB}"
 						],
 						[
 							"13",
-							"{@spell Blight|XPHB}, {@spell Death Ward|XPHB}"
+							"{@spell Ravage|XPHB}, {@spell Protection contre la mort|XPHB}"
 						],
 						[
 							"17",
-							"{@spell Antilife Shell|XPHB}, {@spell Raise Dead|XPHB}"
+							"{@spell Coque antivie|XPHB}, {@spell Relèvement|XPHB}"
 						]
 					]
 				}
@@ -4157,7 +4157,7 @@
 					"type": "entries",
 					"name": "Jolt to Life",
 					"entries": [
-						"When you cast {@spell Spare the Dying|XPHB}, you can modify the spell so that it sends a jolt of electricity through the target, reviving it. The target regains a number of {@variantrule Hit Points|XPHB} equal to your Artificer level, and each creature of your choice in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target makes a Dexterity saving throw against your spell save DC, taking {@damage 2d4} Lightning damage on a failed save or half as much damage on a successful one.",
+						"When you cast {@spell Aide aux mourants|XPHB}, you can modify the spell so that it sends a jolt of electricity through the target, reviving it. The target regains a number of {@variantrule Hit Points|XPHB} equal to your Artificer level, and each creature of your choice in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target makes a Dexterity saving throw against your spell save DC, taking {@damage 2d4} Lightning damage on a failed save or half as much damage on a successful one.",
 						"You can modify the spell this way a number of times equal to your Intelligence modifier, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. The Lightning damage of this feature increases by {@dice 1d4} when you reach Artificer levels 11 ({@dice 3d4}) and 17 ({@dice 4d4})."
 					]
 				},
@@ -4207,7 +4207,7 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"The damage of your {@creature Reanimated Companion|RHW|Reanimated Companion's} Death Burst increases to {@dice 4d4}. Necrotic damage dealt by your companion ignores {@spell Resistance|XPHB}."
+				"The damage of your {@creature Reanimated Companion|RHW|Reanimated Companion's} Death Burst increases to {@dice 4d4}. Necrotic damage dealt by your companion ignores {@spell Résistance|XPHB}."
 			]
 		},
 		{
@@ -4259,7 +4259,7 @@
 					"type": "entries",
 					"name": "Facilitated Revival",
 					"entries": [
-						"You can cast {@spell Raise Dead|XPHB} once without expending a spell slot and without Material components, provided you use {@item Outils de rétameur|XPHB} or another type of {@item Artisan's Tools|XPHB} with which you have proficiency as the {@variantrule Spellcasting Focus|XPHB}. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+						"You can cast {@spell Relèvement|XPHB} once without expending a spell slot and without Material components, provided you use {@item Outils de rétameur|XPHB} or another type of {@item Artisan's Tools|XPHB} with which you have proficiency as the {@variantrule Spellcasting Focus|XPHB}. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
 					]
 				},
 				{
@@ -4341,23 +4341,23 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell healing word}, {@spell ray of sickness}"
+							"{@spell Mot de guérison}, {@spell Rayon nauséeux}"
 						],
 						[
 							"5th",
-							"{@spell flaming sphere}, {@spell Melf's acid arrow}"
+							"{@spell Sphère enflammée}, {@spell Flèche acide de Melf}"
 						],
 						[
 							"9th",
-							"{@spell gaseous form}, {@spell mass healing word}"
+							"{@spell Forme gazeuse}, {@spell Mot de guérison de groupe}"
 						],
 						[
 							"13th",
-							"{@spell blight}, {@spell death ward}"
+							"{@spell Ravage}, {@spell Protection contre la mort}"
 						],
 						[
 							"17th",
-							"{@spell cloudkill}, {@spell raise dead}"
+							"{@spell Nuée mortelle}, {@spell Relèvement}"
 						]
 					]
 				}
@@ -4418,7 +4418,7 @@
 						],
 						[
 							"6",
-							"{@b Transformation}. The drinker's body is transformed as if by the {@spell alter self} spell. The drinker determines the transformation caused by the spell, the effects of which last for 10 minutes."
+							"{@b Transformation}. The drinker's body is transformed as if by the {@spell Changement d'apparence} spell. The drinker determines the transformation caused by the spell, the effects of which last for 10 minutes."
 						]
 					]
 				}
@@ -4486,7 +4486,7 @@
 					"type": "list",
 					"items": [
 						"Whenever a creature drinks an {@i experimental elixir} you created, the creature gains temporary hit points equal to {@dice 2d6} + your Intelligence modifier (minimum of 1 temporary hit point).",
-						"You can cast {@spell lesser restoration} without expending a spell slot and without preparing the spell, provided you use {@item Fournitures d'alchimiste|PHB} as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+						"You can cast {@spell Restauration partielle} without expending a spell slot and without preparing the spell, provided you use {@item Fournitures d'alchimiste|PHB} as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
 					]
 				}
 			]
@@ -4513,7 +4513,7 @@
 					"type": "list",
 					"items": [
 						"You gain resistance to acid damage and poison damage, and you are immune to the {@condition Empoisonné} condition.",
-						"You can cast {@spell greater restoration} and {@spell heal} without expending a spell slot, without preparing the spell, and without material components, provided you use {@item Fournitures d'alchimiste|PHB} as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest."
+						"You can cast {@spell Restauration supérieure} and {@spell Guérison} without expending a spell slot, without preparing the spell, and without material components, provided you use {@item Fournitures d'alchimiste|PHB} as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest."
 					]
 				}
 			]
@@ -4737,23 +4737,23 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell magic missile}, {@spell thunderwave}"
+							"{@spell Projectile magique}, {@spell Onde de tonnerre}"
 						],
 						[
 							"5th",
-							"{@spell mirror image}, {@spell shatter}"
+							"{@spell Image dédoublée}, {@spell Déflagration}"
 						],
 						[
 							"9th",
-							"{@spell hypnotic pattern}, {@spell lightning bolt}"
+							"{@spell Motif hypnotique}, {@spell Éclair}"
 						],
 						[
 							"13th",
-							"{@spell fire shield}, {@spell greater invisibility}"
+							"{@spell Bouclier de feu}, {@spell Invisibilité supérieure}"
 						],
 						[
 							"17th",
-							"{@spell passwall}, {@spell wall of force}"
+							"{@spell Passage en creux}, {@spell Mur de force}"
 						]
 					]
 				}
@@ -4920,23 +4920,23 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell shield}, {@spell thunderwave}"
+							"{@spell Bouclier}, {@spell Onde de tonnerre}"
 						],
 						[
 							"5th",
-							"{@spell scorching ray}, {@spell shatter}"
+							"{@spell Rayons brûlants}, {@spell Déflagration}"
 						],
 						[
 							"9th",
-							"{@spell fireball}, {@spell wind wall}"
+							"{@spell Boule de feu}, {@spell Mur de vent}"
 						],
 						[
 							"13th",
-							"{@spell ice storm}, {@spell wall of fire}"
+							"{@spell Tempête de glace}, {@spell Mur de feu}"
 						],
 						[
 							"17th",
-							"{@spell cone of cold}, {@spell wall of force}"
+							"{@spell Cône de froid}, {@spell Mur de force}"
 						]
 					]
 				}
@@ -4961,7 +4961,7 @@
 			"entries": [
 				"At 3rd level, you learn how to create a magical cannon. Using {@item Outils de sculpteur|PHB} or {@item Outils de forgeron|PHB}, you can take an action to magically create a Small or Tiny eldritch cannon in an unoccupied space on a horizontal surface within 5 feet of you. A Small eldritch cannon occupies its space, and a Tiny one can be held in one hand.",
 				"Once you create a cannon, you can't do so again until you finish a long rest or until you expend a spell slot of 1st level or higher. You can have only one cannon at a time and can't create one while your cannon is present.",
-				"The cannon is a magical object. Regardless of size, the cannon has an AC of 18 and a number of hit points equal to five times your artificer level. It is immune to poison damage and psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the {@spell mending} spell is cast on it, it regains {@dice 2d6} hit points. It disappears if it is reduced to 0 hit points or after 1 hour. You can dismiss it early as an action.",
+				"The cannon is a magical object. Regardless of size, the cannon has an AC of 18 and a number of hit points equal to five times your artificer level. It is immune to poison damage and psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the {@spell Réparation} spell is cast on it, it regains {@dice 2d6} hit points. It disappears if it is reduced to 0 hit points or after 1 hour. You can dismiss it early as an action.",
 				"When you create the cannon, you determine its appearance and whether it has legs. You also decide which type it is, choosing from the options on the Eldritch Cannons table. On each of your turns, you can take a bonus action to cause the cannon to activate if you are within 60 feet of it. As part of the same bonus action, you can direct the cannon to walk or climb up to 15 feet to an unoccupied space, provided it has legs.",
 				{
 					"type": "table",
@@ -5181,23 +5181,23 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell heroism}, {@spell shield}"
+							"{@spell Héroïsme}, {@spell Bouclier}"
 						],
 						[
 							"5th",
-							"{@spell branding smite}, {@spell warding bond}"
+							"{@spell Châtiment marquant}, {@spell Lien de protection}"
 						],
 						[
 							"9th",
-							"{@spell aura of vitality}, {@spell conjure barrage}"
+							"{@spell Aura de vitalité}, {@spell Salve d'invocation}"
 						],
 						[
 							"13th",
-							"{@spell aura of purity}, {@spell fire shield}"
+							"{@spell Aura de pureté}, {@spell Bouclier de feu}"
 						],
 						[
 							"17th",
-							"{@spell banishing smite}, {@spell mass cure wounds}"
+							"{@spell Châtiment banissant}, {@spell Guérison de groupe}"
 						]
 					]
 				}
@@ -5222,7 +5222,7 @@
 			"entries": [
 				"By 3rd level, your tinkering has borne you a faithful companion, a {@creature steel defender|tce}. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the steel defender stat block, which uses your proficiency bonus (PB) in several places. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on its game statistics.",
 				"In combat, the defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Esquive} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition Incapable}, the defender can take any action of its choice, not just {@action Esquive}.",
-				"If the {@spell mending} spell is cast on it, it regains {@dice 2d6} hit points. If it has died within the last hour, you can use your {@item Outils de forgeron|PHB} as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored.",
+				"If the {@spell Réparation} spell is cast on it, it regains {@dice 2d6} hit points. If it has died within the last hour, you can use your {@item Outils de forgeron|PHB} as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored.",
 				"At the end of a long rest, you can create a new steel defender if you have your {@item Outils de forgeron|PHB} with you. If you already have a steel defender from this feature, the first one immediately perishes. The defender also perishes if you die."
 			]
 		},

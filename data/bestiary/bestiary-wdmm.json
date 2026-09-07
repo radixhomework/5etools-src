@@ -188,7 +188,7 @@
 				{
 					"name": "Staff of Frost",
 					"entries": [
-						"The staff has 10 charges. It can expend 1 or more of its charges to cast one of the following spells (save {@dc 12}): {@spell cone of cold} (5 charges), {@spell fog cloud} (1 charge), {@spell ice storm} (4 charges), or {@spell wall of ice} (4 charges). It regains {@dice 1d6 + 4} expended charges daily at dawn. If the staff expends its last charge, roll a {@dice d20}. On a 1, the staff turns to water and is destroyed."
+						"The staff has 10 charges. It can expend 1 or more of its charges to cast one of the following spells (save {@dc 12}): {@spell Cône de froid} (5 charges), {@spell Nuage de brouillard} (1 charge), {@spell Tempête de glace} (4 charges), or {@spell Mur de glace} (4 charges). It regains {@dice 1d6 + 4} expended charges daily at dawn. If the staff expends its last charge, roll a {@dice d20}. On a 1, the staff turns to water and is destroyed."
 					]
 				},
 				{
@@ -238,14 +238,14 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell banishment}",
-									"with": "{@spell ice storm}"
+									"replace": "{@spell Bannissement}",
+									"with": "{@spell Tempête de glace}"
 								}
 							],
 							"7": [
 								{
-									"replace": "{@spell teleport}",
-									"with": "{@spell finger of death}"
+									"replace": "{@spell Téléportation}",
+									"with": "{@spell Doigt de mort}"
 								}
 							]
 						}
@@ -429,85 +429,85 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Arcturia is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Arcturia can cast {@spell alter self} at will and has the following wizard spells prepared:"
+						"Arcturia is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Arcturia can cast {@spell Changement d'apparence} at will and has the following wizard spells prepared:"
 					],
 					"will": [
-						"{@spell alter self}"
+						"{@spell Changement d'apparence}"
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
+								"{@spell Main du mage}",
 								"{@spell prestidigitation}",
-								"{@spell ray of frost}"
+								"{@spell Rayon de gel}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell thunderwave}"
+								"{@spell Détection de la magie}",
+								"{@spell Projectile magique}",
+								"{@spell Bouclier}",
+								"{@spell Onde de tonnerre}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell detect thoughts}",
-								"{@spell enlarge/reduce}",
-								"{@spell Melf's acid arrow}",
-								"{@spell mirror image}"
+								"{@spell Détection de pensées}",
+								"{@spell Agrandissement/Réduction}",
+								"{@spell Flèche acide de Melf}",
+								"{@spell Image dédoublée}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell dispel magic}",
-								"{@spell fireball}",
-								"{@spell slow}"
+								"{@spell Contresort}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Boule de feu}",
+								"{@spell Lenteur}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell blight}",
-								"{@spell polymorph}"
+								"{@spell Ravage}",
+								"{@spell Polymorphie}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell animate objects}",
-								"{@spell telekinesis}"
+								"{@spell Animation d'objets}",
+								"{@spell Télékinésie}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell disintegrate}",
-								"{@spell flesh to stone}"
+								"{@spell Désintégration}",
+								"{@spell Chaire en pierre}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell reverse gravity}",
-								"{@spell teleport}"
+								"{@spell Inversion de la gravité}",
+								"{@spell Téléportation}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell feeblemind}",
-								"{@spell maze}"
+								"{@spell Dégénrescence}",
+								"{@spell Labyrinthe}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell true polymorph}"
+								"{@spell Vraie polymorphie}"
 							]
 						}
 					},
@@ -616,12 +616,12 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell alarm}",
-							"{@spell detect magic}",
-							"{@spell gaseous form}",
-							"{@spell misty step}",
-							"{@spell passwall}",
-							"{@spell see invisibility}"
+							"{@spell Alarme}",
+							"{@spell Détection de la magie}",
+							"{@spell Forme gazeuse}",
+							"{@spell Pas brumeux}",
+							"{@spell Passage en creux}",
+							"{@spell Voir l'invisible}"
 						]
 					},
 					"ability": "cha"
@@ -745,81 +745,81 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Berlain is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Berlain can cast {@spell disguise self} and invisibility at will and has the following wizard spells prepared:"
+						"Berlain is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Berlain can cast {@spell Déguisement} and invisibility at will and has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
+								"{@spell Trait de feu}",
+								"{@spell Lumière}",
+								"{@spell Main du mage}",
 								"{@spell prestidigitation}",
-								"{@spell shocking grasp}"
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell identify}",
-								"{@spell mage armor}*",
-								"{@spell magic missile}"
+								"{@spell Détection de la magie}",
+								"{@spell Identification}",
+								"{@spell Armure du mage}*",
+								"{@spell Projectile magique}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell detect thoughts}",
-								"{@spell mirror image}",
-								"{@spell misty step}"
+								"{@spell Détection de pensées}",
+								"{@spell Image dédoublée}",
+								"{@spell Pas brumeux}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell fly}",
-								"{@spell lightning bolt}"
+								"{@spell Contresort}",
+								"{@spell Vol}",
+								"{@spell Éclair}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell polymorph}",
-								"{@spell fire shield}",
-								"{@spell stoneskin}*"
+								"{@spell Polymorphie}",
+								"{@spell Bouclier de feu}",
+								"{@spell Peau de pierre}*"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell cone of cold}",
-								"{@spell scrying}",
-								"{@spell wall of force}"
+								"{@spell Cône de froid}",
+								"{@spell Scrutation}",
+								"{@spell Mur de force}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell globe of invulnerability}"
+								"{@spell Globe d'invulnérabilité}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell teleport}"
+								"{@spell Téléportation}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell mind blank}*"
+								"{@spell Vide mental}*"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell time stop}"
+								"{@spell Arrêt du temps}"
 							]
 						}
 					},
@@ -1163,7 +1163,7 @@
 				14,
 				{
 					"ac": 17,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -1186,81 +1186,81 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Cassiok is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). Cassiok can cast {@spell disguise self} and invisibility at will and has the following wizard spells prepared:"
+						"Cassiok is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). Cassiok can cast {@spell Déguisement} and invisibility at will and has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
+								"{@spell Trait de feu}",
+								"{@spell Lumière}",
+								"{@spell Main du mage}",
 								"{@spell prestidigitation}",
-								"{@spell shocking grasp}"
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell identify}",
-								"{@spell mage armor}*",
-								"{@spell magic missile}"
+								"{@spell Détection de la magie}",
+								"{@spell Identification}",
+								"{@spell Armure du mage}*",
+								"{@spell Projectile magique}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell detect thoughts}",
-								"{@spell mirror image}",
-								"{@spell misty step}"
+								"{@spell Détection de pensées}",
+								"{@spell Image dédoublée}",
+								"{@spell Pas brumeux}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell fly}",
-								"{@spell lightning bolt}"
+								"{@spell Contresort}",
+								"{@spell Vol}",
+								"{@spell Éclair}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell phantasmal killer}",
-								"{@spell fire shield}",
-								"{@spell stoneskin}*"
+								"{@spell Tueur phantasmal}",
+								"{@spell Bouclier de feu}",
+								"{@spell Peau de pierre}*"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell cone of cold}",
-								"{@spell scrying}",
-								"{@spell wall of force}"
+								"{@spell Cône de froid}",
+								"{@spell Scrutation}",
+								"{@spell Mur de force}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell globe of invulnerability}"
+								"{@spell Globe d'invulnérabilité}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell teleport}"
+								"{@spell Téléportation}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell mind blank}*"
+								"{@spell Vide mental}*"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell time stop}"
+								"{@spell Arrêt du temps}"
 							]
 						}
 					},
@@ -1523,36 +1523,36 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell command}",
-								"{@spell compelled duel}",
-								"{@spell searing smite}"
+								"{@spell Ordre}",
+								"{@spell Duel forcé}",
+								"{@spell Frappe ardente}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell magic weapon}"
+								"{@spell Immobiliser un personnage}",
+								"{@spell Arme magique}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell dispel magic}",
-								"{@spell elemental weapon}"
+								"{@spell Dissipation de la magie}",
+								"{@spell Arme élémentaire}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell locate creature}",
-								"{@spell staggering smite}"
+								"{@spell Localisation de créature}",
+								"{@spell Frappe ébranlante}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell destructive wave} (necrotic)"
+								"{@spell Onde destructrice} (necrotic)"
 							]
 						}
 					},
@@ -1728,77 +1728,77 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
+								"{@spell Main du mage}",
 								"{@spell prestidigitation}",
-								"{@spell ray of frost}"
+								"{@spell Rayon de gel}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell thunderwave}"
+								"{@spell Détection de la magie}",
+								"{@spell Projectile magique}",
+								"{@spell Bouclier}",
+								"{@spell Onde de tonnerre}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell detect thoughts}",
-								"{@spell invisibility}",
-								"{@spell Melf's acid arrow}",
-								"{@spell mirror image}"
+								"{@spell Détection de pensées}",
+								"{@spell Invisibilité}",
+								"{@spell Flèche acide de Melf}",
+								"{@spell Image dédoublée}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell animate dead}",
-								"{@spell counterspell}",
-								"{@spell dispel magic}",
-								"{@spell fireball}"
+								"{@spell Animation des morts}",
+								"{@spell Contresort}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Boule de feu}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell blight}",
-								"{@spell dimension door}"
+								"{@spell Ravage}",
+								"{@spell Porte dimensionnelle}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell cloudkill}",
-								"{@spell scrying}"
+								"{@spell Nuée mortelle}",
+								"{@spell Scrutation}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell disintegrate}",
-								"{@spell globe of invulnerability}"
+								"{@spell Désintégration}",
+								"{@spell Globe d'invulnérabilité}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}",
-								"{@spell forcecage}"
+								"{@spell Doigt de mort}",
+								"{@spell Cage de force}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell dominate monster}",
-								"{@spell power word stun}"
+								"{@spell Soumission de monstre}",
+								"{@spell Mot de pouvoir d'étourdissement}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell power word kill}"
+								"{@spell Mot de pouvoir de mort}"
 							]
 						}
 					},
@@ -2093,7 +2093,7 @@
 								"name": "Invisibility (Recharges after a Short or Long Rest)",
 								"entries": [
 									"The mummy lord magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its {@status concentration} is broken (as if {@status concentration||concentrating} on a spell). Any equipment the mummy lord wears or carries is {@condition invisible} with it.",
-									"The stalagmite in the northwest alcove is hollow and serves as Gorka Tharn's sarcophagus. The mummy lord is lodged inside the stalagmite's funnel-shaped interior. When it awakens, the mummy lord uses a {@spell stone shape} spell to create an opening large enough for it to emerge. It destroys any intruders in its lair, then returns to its sarcophagus and its slumber.",
+									"The stalagmite in the northwest alcove is hollow and serves as Gorka Tharn's sarcophagus. The mummy lord is lodged inside the stalagmite's funnel-shaped interior. When it awakens, the mummy lord uses a {@spell Forme de pierre} spell to create an opening large enough for it to emerge. It destroys any intruders in its lair, then returns to its sarcophagus and its slumber.",
 									"At the bottom of the stalagmite's hollow cavity, four 1-foot-tall clay urns contain Gorka Tharn's preserved internal organs, including the mummy lord's shriveled heart. Only by destroying the heart can the characters prevent the mummy lord from rejuvenating. The heart is a Tiny object with AC 5, 25 hit points, and immunity to all damage except fire."
 								]
 							}
@@ -2118,51 +2118,51 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell Flamme sacrée}",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell command}",
-								"{@spell guiding bolt}",
-								"{@spell shield of faith}"
+								"{@spell Ordre}",
+								"{@spell Trait de lumière}",
+								"{@spell Bouclier de la foi}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
+								"{@spell Immobiliser un personnage}",
 								"{@spell silence}",
-								"{@spell spiritual weapon}"
+								"{@spell Arme spirituelle}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell animate dead}",
-								"{@spell dispel magic}"
+								"{@spell Animation des morts}",
+								"{@spell Dissipation de la magie}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell stone shape}",
-								"{@spell guardian of faith}"
+								"{@spell Forme de pierre}",
+								"{@spell Gardien de la foi}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell contagion}",
-								"{@spell insect plague}"
+								"{@spell Nuée d'insectes}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell harm}"
+								"{@spell Infection}"
 							]
 						}
 					},
@@ -2203,7 +2203,7 @@
 				14,
 				{
 					"ac": 17,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -2258,98 +2258,98 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Halaster is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 22}, {@hit 14} to hit with spell attacks). He can cast {@spell disguise self} and {@spell invisibility} at will. He can cast {@spell fly} and {@spell lightning bolt} once each without expending a spell slot, but can't do so again until he finishes a short or long rest. Halaster has the following wizard spells prepared:"
+						"Halaster is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 22}, {@hit 14} to hit with spell attacks). He can cast {@spell Déguisement} and {@spell Invisibilité} at will. He can cast {@spell Vol} and {@spell Éclair} once each without expending a spell slot, but can't do so again until he finishes a short or long rest. Halaster has the following wizard spells prepared:"
 					],
 					"will": [
-						"{@spell disguise self}",
-						"{@spell invisibility}"
+						"{@spell Déguisement}",
+						"{@spell Invisibilité}"
 					],
 					"daily": {
 						"1": [
-							"{@spell fly}",
-							"{@spell lightning bolt}"
+							"{@spell Vol}",
+							"{@spell Éclair}"
 						]
 					},
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell dancing lights}",
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
+								"{@spell Lumières dansantes}",
+								"{@spell Trait de feu}",
+								"{@spell Lumière}",
+								"{@spell Main du mage}",
 								"{@spell prestidigitation}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell silent image}"
+								"{@spell Armure du mage}",
+								"{@spell Projectile magique}",
+								"{@spell Bouclier}",
+								"{@spell Image silencieuse}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell arcane lock}",
-								"{@spell cloud of daggers}",
-								"{@spell darkvision}",
-								"{@spell knock}"
+								"{@spell Serrure magique}",
+								"{@spell Nuage de dagues}",
+								"{@spell Vision dans le noir}",
+								"{@spell Crochetage}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell dispel magic}",
-								"{@spell fireball}"
+								"{@spell Contresort}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Boule de feu}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell confusion}",
-								"{@spell hallucinatory terrain}",
-								"{@spell polymorph}"
+								"{@spell Terrain illusoire}",
+								"{@spell Polymorphie}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell Bigby's hand}",
+								"{@spell Main de Bigby}",
 								"{@spell geas}",
-								"{@spell wall of force}"
+								"{@spell Mur de force}"
 							]
 						},
 						"6": {
 							"slots": 2,
 							"spells": [
-								"{@spell chain lightning}",
-								"{@spell globe of invulnerability}",
-								"{@spell programmed illusion}"
+								"{@spell Chaîne d'éclairs}",
+								"{@spell Globe d'invulnérabilité}",
+								"{@spell Illusion programmée}"
 							]
 						},
 						"7": {
 							"slots": 2,
 							"spells": [
-								"{@spell finger of death}",
-								"{@spell symbol}",
-								"{@spell teleport}"
+								"{@spell Doigt de mort}",
+								"{@spell Symbole}",
+								"{@spell Téléportation}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell maze}",
-								"{@spell mind blank}"
+								"{@spell Labyrinthe}",
+								"{@spell Vide mental}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell meteor swarm}",
-								"{@spell wish}"
+								"{@spell Pluie de météores}",
+								"{@spell Souhait}"
 							]
 						}
 					},
@@ -2365,7 +2365,7 @@
 					"name": "Special Equipment",
 					"entries": [
 						"Halaster wears a {@item Robe aux yeux} that lets him see in all directions, gives him darkvision out to a range of 120 feet, grants advantage on Wisdom ({@skill Perception}) checks that rely on sight, and allows him to see {@condition invisible} creatures and objects, as well as into the Ethereal Plane, out to a range of 120 feet.",
-						"Halaster wields a {@item Sceptre d'explosion|WDMM} (a very rare magic item that requires attunement). It can be used as an arcane focus. Whoever is attuned to the blast scepter gains resistance to fire and lightning damage and can, as an action, use it to cast {@spell thunderwave} as a 4th-level spell (save {@dc 16}) without expending a spell slot.",
+						"Halaster wields a {@item Sceptre d'explosion|WDMM} (a very rare magic item that requires attunement). It can be used as an arcane focus. Whoever is attuned to the blast scepter gains resistance to fire and lightning damage and can, as an action, use it to cast {@spell Onde de tonnerre} as a 4th-level spell (save {@dc 16}) without expending a spell slot.",
 						"Halaster also wears a horned ring (a very rare magic item that requires attunement), which allows an attuned wearer to ignore Undermountain's magical restrictions (see \"Alterations to Magic\")."
 					]
 				},
@@ -2392,7 +2392,7 @@
 				{
 					"name": "Blast Scepter",
 					"entries": [
-						"Halaster uses his blast scepter to cast {@spell thunderwave} as a 4th-level spell. Each creature in a 15-foot cube originating from him must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes {@damage 5d8} thunder damage and is pushed 10 feet away. On a successful save, the creature takes half as much damage and isn't pushed"
+						"Halaster uses his blast scepter to cast {@spell Onde de tonnerre} as a 4th-level spell. Each creature in a 15-foot cube originating from him must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes {@damage 5d8} thunder damage and is pushed 10 feet away. On a successful save, the creature takes half as much damage and isn't pushed"
 					]
 				}
 			],
@@ -2490,7 +2490,7 @@
 						"items": {
 							"name": "Spell Immunity",
 							"entries": [
-								"The Halaster horror is immune to the {@spell cone of cold}, {@spell disintegrate}, and {@spell fireball} spells."
+								"The Halaster horror is immune to the {@spell Cône de froid}, {@spell Désintégration}, and {@spell Boule de feu} spells."
 							]
 						}
 					}
@@ -2559,7 +2559,7 @@
 				{
 					"name": "Antimagic Susceptibility",
 					"entries": [
-						"The puppet is destroyed if a successful {@spell dispel magic} spell ({@dc 15}) is cast on it"
+						"The puppet is destroyed if a successful {@spell Dissipation de la magie} spell ({@dc 15}) is cast on it"
 					]
 				}
 			],
@@ -2651,7 +2651,7 @@
 				{
 					"name": "Magical Properties",
 					"entries": [
-						"A creature that uses an action to touch the living snail gains 6 temporary hit points that last for 24 hours. Any creature or object that touches the living snail also gains the benefit of a {@spell remove curse} spell. The snail loses these magical properties if it dies."
+						"A creature that uses an action to touch the living snail gains 6 temporary hit points that last for 24 hours. Any creature or object that touches the living snail also gains the benefit of a {@spell Délivrance de la malédiction} spell. The snail loses these magical properties if it dies."
 					]
 				},
 				{
@@ -2815,17 +2815,17 @@
 						"The pudding's spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}"
+						"{@spell Lumières dansantes}",
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Melf's acid arrow}"
+							"{@spell Flèche acide de Melf}"
 						],
 						"3e": [
-							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell shield}"
+							"{@spell Ténèbres}",
+							"{@spell Lueur féérique}",
+							"{@spell Bouclier}"
 						]
 					},
 					"ability": "int"
@@ -2894,7 +2894,7 @@
 				{
 					"name": "Antimagic Susceptibility",
 					"entries": [
-						"The iron spider is {@condition Incapable} while in the area of an {@spell antimagic field}. If targeted by {@spell dispel magic}, the iron spider must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition Inconscient} for 1 minute."
+						"The iron spider is {@condition Incapable} while in the area of an {@spell Antichamp magique}. If targeted by {@spell Dissipation de la magie}, the iron spider must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition Inconscient} for 1 minute."
 					]
 				}
 			],
@@ -3044,50 +3044,50 @@
 						"0": {
 							"spells": [
 								"{@spell guidance}",
-								"{@spell mending}",
-								"{@spell resistance}",
-								"{@spell thaumaturgy}"
+								"{@spell Réparation}",
+								"{@spell Résistance}",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell bane}",
-								"{@spell command}",
-								"{@spell inflict wounds}",
-								"{@spell ray of sickness}"
+								"{@spell Fléau}",
+								"{@spell Ordre}",
+								"{@spell Blessures infligées}",
+								"{@spell Rayon nauséeux}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell blindness/deafness}",
-								"{@spell ray of enfeeblement}",
-								"{@spell spiritual weapon}"
+								"{@spell Cécité/Surdité}",
+								"{@spell Rayon affaiblissant}",
+								"{@spell Arme spirituelle}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell animate dead}",
-								"{@spell bestow curse}",
-								"{@spell dispel magic}",
-								"{@spell spirit guardians}"
+								"{@spell Animation des morts}",
+								"{@spell Malédiction}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Esprits gardiens}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell blight}",
-								"{@spell death ward}",
+								"{@spell Ravage}",
+								"{@spell Protection contre la mort}",
 								"{@spell divination}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell antilife shell}",
-								"{@spell destructive wave}"
+								"{@spell Coque antivie}",
+								"{@spell Onde destructrice}"
 							]
 						}
 					},
@@ -3312,8 +3312,8 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell banishment}",
-									"with": "{@spell blight}"
+									"replace": "{@spell Bannissement}",
+									"with": "{@spell Ravage}"
 								}
 							]
 						}
@@ -3566,7 +3566,7 @@
 						"spells": {
 							"0": {
 								"spells": [
-									"{@spell ray of frost}"
+									"{@spell Rayon de gel}"
 								]
 							}
 						}
@@ -3619,8 +3619,8 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell banishment}",
-									"with": "{@spell dimension door}"
+									"replace": "{@spell Bannissement}",
+									"with": "{@spell Porte dimensionnelle}"
 								}
 							]
 						}
@@ -3793,64 +3793,64 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell dancing lights}",
-								"{@spell mage hand}",
+								"{@spell Lumières dansantes}",
+								"{@spell Main du mage}",
 								"{@spell prestidigitation}",
-								"{@spell ray of frost}",
-								"{@spell shocking grasp}"
+								"{@spell Rayon de gel}",
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell expeditious retreat}",
-								"{@spell fog cloud}",
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell Retrait expéditif}",
+								"{@spell Nuage de brouillard}",
+								"{@spell Projectile magique}",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell darkness}",
-								"{@spell knock}",
-								"{@spell see invisibility}",
-								"{@spell spider climb}"
+								"{@spell Ténèbres}",
+								"{@spell Crochetage}",
+								"{@spell Voir l'invisible}",
+								"{@spell Marche arachnéenne}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell animate dead}",
-								"{@spell counterspell}",
-								"{@spell lightning bolt}"
+								"{@spell Animation des morts}",
+								"{@spell Contresort}",
+								"{@spell Éclair}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell greater invisibility}",
-								"{@spell polymorph}"
+								"{@spell Invisibilité supérieure}",
+								"{@spell Polymorphie}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell animate objects}",
-								"{@spell wall of force}"
+								"{@spell Animation d'objets}",
+								"{@spell Mur de force}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell create undead}",
-								"{@spell flesh to stone}"
+								"{@spell Création de morts-vivants}",
+								"{@spell Chaire en pierre}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}"
+								"{@spell Doigt de mort}"
 							]
 						}
 					},
@@ -4011,12 +4011,12 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 15}). The drow can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell dancing lights}"
+						"{@spell Lumières dansantes}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell faerie fire}"
+							"{@spell Ténèbres}",
+							"{@spell Lueur féérique}"
 						]
 					},
 					"ability": "cha"
@@ -4125,20 +4125,20 @@
 						"spells": {
 							"3": [
 								{
-									"replace": "{@spell fly}",
-									"with": "{@spell animate dead}"
+									"replace": "{@spell Vol}",
+									"with": "{@spell Animation des morts}"
 								}
 							],
 							"4": [
 								{
-									"replace": "{@spell banishment}",
-									"with": "{@spell blight}"
+									"replace": "{@spell Bannissement}",
+									"with": "{@spell Ravage}"
 								}
 							],
 							"5": [
 								{
-									"replace": "{@spell scrying}",
-									"with": "{@spell Rary's telepathic bond}"
+									"replace": "{@spell Scrutation}",
+									"with": "{@spell Lien télépathique de Rary}"
 								}
 							]
 						}
@@ -4160,7 +4160,7 @@
 				"Dwarvish",
 				"Giant",
 				"Terran",
-				"but can't speak (he uses {@spell Rary's telepathic bond} to communicate)"
+				"but can't speak (he uses {@spell Lien télépathique de Rary} to communicate)"
 			],
 			"tokenCustom": true,
 			"senseTags": [
@@ -4341,7 +4341,7 @@
 				{
 					"name": "Brew Bound",
 					"entries": [
-						"The weird dies if forced to leave the basin of toxic brew it inhabits, or if a {@spell purify food and drink} spell is cast on the brew."
+						"The weird dies if forced to leave the basin of toxic brew it inhabits, or if a {@spell Purification de la nourriture et de la boisson} spell is cast on the brew."
 					]
 				},
 				{
@@ -4382,7 +4382,7 @@
 							"items": {
 								"name": "Shadowfell Despair",
 								"entries": [
-									"Portia suffers from Shadowfell despair manifesting as unshakable dread. Until the despair ends, she has disadvantage on all saving throws and gains the following flaw: \"I'm convinced that I'm going to die in Vanrakdoom.\" Portia can attempt to end her despair each time she finishes a long rest, doing so with a successful {@dc 15} Wisdom saving throw. A {@spell calm emotions} spell also ends her despair, as does any spell or other magical effect that removes a curse."
+									"Portia suffers from Shadowfell despair manifesting as unshakable dread. Until the despair ends, she has disadvantage on all saving throws and gains the following flaw: \"I'm convinced that I'm going to die in Vanrakdoom.\" Portia can attempt to end her despair each time she finishes a long rest, doing so with a successful {@dc 15} Wisdom saving throw. A {@spell Apaisement} spell also ends her despair, as does any spell or other magical effect that removes a curse."
 								]
 							}
 						}
@@ -4567,12 +4567,12 @@
 					"name": "Lesser Magic",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The behir casts {@spell color spray} or {@spell sleep}, requiring no components. Its spellcasting ability is Charisma (spell save {@dc 13})."
+						"The behir casts {@spell Gerbe colorée} or {@spell Sommeil}, requiring no components. Its spellcasting ability is Charisma (spell save {@dc 13})."
 					],
 					"legendary": {
 						"1e": [
-							"{@spell color spray}",
-							"{@spell sleep}"
+							"{@spell Gerbe colorée}",
+							"{@spell Sommeil}"
 						]
 					},
 					"ability": "cha",
@@ -4585,12 +4585,12 @@
 					"name": "Greater Magic (Costs 2 Actions)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The behir casts {@spell invisibility} or {@spell misty step}, requiring no components."
+						"The behir casts {@spell Invisibilité} or {@spell Pas brumeux}, requiring no components."
 					],
 					"legendary": {
 						"2e": [
-							"{@spell invisibility}",
-							"{@spell misty step}"
+							"{@spell Invisibilité}",
+							"{@spell Pas brumeux}"
 						]
 					},
 					"ability": "cha",
@@ -5429,27 +5429,27 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}"
+								"{@spell Main du mage}"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell Projectile magique}",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
-								"{@spell blur}",
-								"{@spell flaming sphere}"
+								"{@spell Distorsion}",
+								"{@spell Sphère enflammée}"
 							]
 						},
 						"3": {
 							"slots": 1,
 							"spells": [
-								"{@spell lightning bolt}"
+								"{@spell Éclair}"
 							]
 						}
 					},
@@ -5514,77 +5514,77 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell mage hand}",
+								"{@spell Trait de feu}",
+								"{@spell Main du mage}",
 								"{@spell prestidigitation}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell Détection de la magie}",
+								"{@spell Projectile magique}",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell blur}",
-								"{@spell detect thoughts}",
-								"{@spell misty step}",
-								"{@spell shatter}"
+								"{@spell Distorsion}",
+								"{@spell Détection de pensées}",
+								"{@spell Pas brumeux}",
+								"{@spell Déflagration}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell dispel magic}",
-								"{@spell fireball}",
-								"{@spell haste}"
+								"{@spell Contresort}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Boule de feu}",
+								"{@spell Célérité}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell blight}",
-								"{@spell greater invisibility}"
+								"{@spell Ravage}",
+								"{@spell Invisibilité supérieure}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell animate objects}",
-								"{@spell Bigby's hand}",
-								"{@spell scrying}"
+								"{@spell Animation d'objets}",
+								"{@spell Main de Bigby}",
+								"{@spell Scrutation}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell chain lightning}",
-								"{@spell globe of invulnerability}"
+								"{@spell Chaîne d'éclairs}",
+								"{@spell Globe d'invulnérabilité}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}",
-								"{@spell forcecage}"
+								"{@spell Doigt de mort}",
+								"{@spell Cage de force}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell incendiary cloud}",
-								"{@spell power word stun}"
+								"{@spell Nuée incendiaire}",
+								"{@spell Mot de pouvoir d'étourdissement}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell power word kill}"
+								"{@spell Mot de pouvoir de mort}"
 							]
 						}
 					},
@@ -5745,8 +5745,8 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell banishment}",
-									"with": "{@spell Otiluke's Resilient Sphere}"
+									"replace": "{@spell Bannissement}",
+									"with": "{@spell Sphère résiliente d'Otiluke}"
 								}
 							]
 						}
@@ -5801,7 +5801,7 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell banishment}",
+									"replace": "{@spell Bannissement}",
 									"with": "{@spell confusion}"
 								}
 							]
@@ -6224,8 +6224,8 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell banishment}",
-									"with": "{@spell locate creature}"
+									"replace": "{@spell Bannissement}",
+									"with": "{@spell Localisation de créature}"
 								}
 							]
 						}
@@ -6543,7 +6543,7 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell banishment}",
+									"replace": "{@spell Bannissement}",
 									"with": "{@spell confusion}"
 								}
 							]

@@ -288,14 +288,14 @@
 						"The artificer casts one of the following spells, using its Tinker's Tools as an Arcane Focus and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Burning Hands|XPHB} (level 3 version)",
-						"{@spell Mending|XPHB}",
-						"{@spell Thunderwave|XPHB} (level 3 version)"
+						"{@spell Mains brûlantes|XPHB} (level 3 version)",
+						"{@spell Réparation|XPHB}",
+						"{@spell Onde de tonnerre|XPHB} (level 3 version)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Cure Wounds|XPHB}",
-							"{@spell Invisibility|XPHB}"
+							"{@spell Soins|XPHB}",
+							"{@spell Invisibilité|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -632,10 +632,10 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell Synaptic Static|XPHB}"
+							"{@spell Statique synaptique|XPHB}"
 						],
 						"3": [
-							"{@spell Detect Thoughts|XPHB}"
+							"{@spell Détection de pensées|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -762,11 +762,11 @@
 					"name": "Slayer's Puppet (1/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mindkiller casts {@spell Dominate Person|XPHB}, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17})."
+						"The mindkiller casts {@spell Soumission d'humanoïde|XPHB}, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17})."
 					],
 					"daily": {
 						"1": [
-							"{@spell Dominate Person|XPHB}"
+							"{@spell Soumission d'humanoïde|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -1100,8 +1100,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell Sleep|XPHB}",
-							"{@spell Unseen Servant|XPHB}"
+							"{@spell Sommeil|XPHB}",
+							"{@spell Servant invisible|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -1317,12 +1317,12 @@
 					"name": "Mark of Healing (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The medic casts {@spell Cure Wounds|XPHB} or {@spell Lesser Restoration|XPHB}, using Wisdom as the spellcasting ability."
+						"The medic casts {@spell Soins|XPHB} or {@spell Restauration partielle|XPHB}, using Wisdom as the spellcasting ability."
 					],
 					"daily": {
 						"2": [
-							"{@spell Cure Wounds|XPHB}",
-							"{@spell Lesser Restoration|XPHB}"
+							"{@spell Soins|XPHB}",
+							"{@spell Restauration partielle|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -1434,13 +1434,13 @@
 						"The warden casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Alarm|XPHB}",
-						"{@spell Arcane Lock|XPHB}",
-						"{@spell Mage Armor|XPHB} (included in AC)"
+						"{@spell Alarme|XPHB}",
+						"{@spell Serrure magique|XPHB}",
+						"{@spell Armure du mage|XPHB} (included in AC)"
 					],
 					"daily": {
 						"1": [
-							"{@spell Dispel Magic|XPHB}"
+							"{@spell Dissipation de la magie|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -1450,12 +1450,12 @@
 					"name": "Protective Magic (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The warden casts {@spell Counterspell|XPHB} or {@spell Shield|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+						"The warden casts {@spell Contresort|XPHB} or {@spell Bouclier|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Counterspell|XPHB}",
-							"{@spell Shield|XPHB}"
+							"{@spell Contresort|XPHB}",
+							"{@spell Bouclier|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -1597,9 +1597,9 @@
 						"The scion casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Elementalism|XPHB}",
-						"{@spell Gust of Wind|XPHB}",
-						"{@spell Thunderwave|XPHB}"
+						"{@spell Élémentalisme|XPHB}",
+						"{@spell Rafale|XPHB}",
+						"{@spell Onde de tonnerre|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -1608,11 +1608,11 @@
 					"name": "Jump (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The scion casts {@spell Jump|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"The scion casts {@spell Saut|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Jump|XPHB}"
+							"{@spell Saut|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -1625,11 +1625,11 @@
 					"name": "Feather Fall (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The scion casts {@spell Feather Fall|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+						"The scion casts {@spell Chute ralentie|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Feather Fall|XPHB}"
+							"{@spell Chute ralentie|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -1754,8 +1754,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell Detect Thoughts|XPHB}",
-							"{@spell See Invisibility|XPHB}"
+							"{@spell Détection de pensées|XPHB}",
+							"{@spell Voir l'invisible|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -1886,11 +1886,11 @@
 					"name": "Misty Step (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The enforcer casts {@spell Misty Step|XPHB}, using Intelligence as the spellcasting ability."
+						"The enforcer casts {@spell Pas brumeux|XPHB}, using Intelligence as the spellcasting ability."
 					],
 					"daily": {
 						"2": [
-							"{@spell Misty Step|XPHB}"
+							"{@spell Pas brumeux|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -2018,11 +2018,11 @@
 					"name": "Shield (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The marshal casts {@spell Shield|XPHB} in response to the spell's trigger, using Wisdom as the spellcasting ability."
+						"The marshal casts {@spell Bouclier|XPHB} in response to the spell's trigger, using Wisdom as the spellcasting ability."
 					],
 					"daily": {
 						"3": [
-							"{@spell Shield|XPHB}"
+							"{@spell Bouclier|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -2142,12 +2142,12 @@
 						"The agent casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability ({@dc 14}):"
 					],
 					"will": [
-						"{@spell Disguise Self|XPHB}",
-						"{@spell Minor Illusion|XPHB}"
+						"{@spell Déguisement|XPHB}",
+						"{@spell Illusion mineure|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Pass without Trace|XPHB}"
+							"{@spell Passage sans trace|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -2261,13 +2261,13 @@
 						"The scribe casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability ({@dc 13}):"
 					],
 					"will": [
-						"{@spell Comprehend Languages|XPHB}",
-						"{@spell Mage Armor|XPHB} (included in AC)",
+						"{@spell Compréhension des langues|XPHB}",
+						"{@spell Armure du mage|XPHB} (included in AC)",
 						"{@spell Message|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Sending|XPHB}"
+							"{@spell Envoi de message|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -2482,7 +2482,7 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell Disintegrate|XPHB}"
+							"{@spell Désintégration|XPHB}"
 						]
 					},
 					"ability": "con",
@@ -2607,11 +2607,11 @@
 						"The ruffian casts one of the following spells, requiring no Material components and using Constitution as the spellcasting ability (spell save {@dc 12}, {@hit 4} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Witch Bolt|XPHB}"
+							"{@spell Décharge occulte|XPHB}"
 						]
 					},
 					"ability": "con",
@@ -2622,7 +2622,7 @@
 				{
 					"name": "Aberrant Surge",
 					"entries": [
-						"When the ruffian casts {@spell Witch Bolt|XPHB}, roll {@dice 1d8}. On an even number, the ruffian gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the number rolled. On an odd number, one creature of the ruffian's choice within 30 feet of it takes Force damage equal to the number rolled; if no other creatures are in range, it takes the damage."
+						"When the ruffian casts {@spell Décharge occulte|XPHB}, roll {@dice 1d8}. On an even number, the ruffian gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the number rolled. On an odd number, one creature of the ruffian's choice within 30 feet of it takes Force damage equal to the number rolled; if no other creatures are in range, it takes the damage."
 					]
 				}
 			],
@@ -2839,9 +2839,9 @@
 						"The shadow walker casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Dancing Lights|XPHB}",
-						"{@spell Darkness|XPHB}",
-						"{@spell Minor Illusion|XPHB}"
+						"{@spell Lumières dansantes|XPHB}",
+						"{@spell Ténèbres|XPHB}",
+						"{@spell Illusion mineure|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -2975,17 +2975,17 @@
 						"The heir casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Druidcraft|XPHB}",
-						"{@spell Light|XPHB}",
-						"{@spell Speak with Animals|XPHB}"
+						"{@spell Druidisme|XPHB}",
+						"{@spell Lumière|XPHB}",
+						"{@spell Parler aux animaux|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Ice Storm|XPHB}"
+							"{@spell Tempête de glace|XPHB}"
 						],
 						"3e": [
-							"{@spell Animal Friendship|XPHB}",
-							"{@spell Animal Messenger|XPHB}"
+							"{@spell Amitié animale|XPHB}",
+							"{@spell Messager animal|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -3241,15 +3241,15 @@
 						"The priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Dancing Lights|XPHB}",
-						"{@spell Ray of Sickness|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Lumières dansantes|XPHB}",
+						"{@spell Rayon nauséeux|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Cure Wounds|XPHB}",
-							"{@spell Hold Person|XPHB}",
-							"{@spell Protection from Poison|XPHB}"
+							"{@spell Soins|XPHB}",
+							"{@spell Immobiliser un personnage|XPHB}",
+							"{@spell Protection contre le poison|XPHB}"
 						]
 					},
 					"ability": "wis",

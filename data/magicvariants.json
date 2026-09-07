@@ -1161,7 +1161,7 @@
 				"reqAttune": true,
 				"entries": [
 					"Tant que vous portez cette armure, vous pouvez utiliser votre réaction pour vous accorder un avantage sur un jet de sauvegarde que vous effectuez contre un sort. Une fois cette propriété utilisée, elle ne peut plus l'être avant l'aube suivante.",
-					"De plus, tant que vous portez cette armure, vous pouvez l'utiliser pour lancer {@spell Antimagic Field}, sans composantes. Une fois cette propriété utilisée, elle ne peut plus l'être avant l'aube suivante."
+					"De plus, tant que vous portez cette armure, vous pouvez l'utiliser pour lancer {@spell Antichamp magique}, sans composantes. Une fois cette propriété utilisée, elle ne peut plus l'être avant l'aube suivante."
 				],
 				"attachedSpells": {
 					"daily": {
@@ -1854,7 +1854,7 @@
 						"type": "entries",
 						"name": "Invoquer la rune",
 						"entries": [
-							"Par une action, vous pouvez invoquer la rune de l'armure pour lancer le sort {@spell beacon of hope} par son intermédiaire ; le sort a une durée de 1 minute et ne nécessite pas de {@status concentration}. Une fois la rune invoquée, elle ne peut plus l'être avant l'aube suivante."
+							"Par une action, vous pouvez invoquer la rune de l'armure pour lancer le sort {@spell Flambeau d'espoir} par son intermédiaire ; le sort a une durée de 1 minute et ne nécessite pas de {@status concentration}. Une fois la rune invoquée, elle ne peut plus l'être avant l'aube suivante."
 						]
 					}
 				],
@@ -1891,7 +1891,7 @@
 				"rarity": "uncommon",
 				"reqAttune": true,
 				"entries": [
-					"Tant que vous portez cette armure, vous pouvez l'utiliser pour lancer {@spell Speak with Dead} ou {@spell Animate Dead}. Une fois que l'armure a lancé un sort de cette manière, elle ne peut plus lancer l'un ni l'autre avant l'aube suivante.",
+					"Tant que vous portez cette armure, vous pouvez l'utiliser pour lancer {@spell Parler aux morts} ou {@spell Animation des morts}. Une fois que l'armure a lancé un sort de cette manière, elle ne peut plus lancer l'un ni l'autre avant l'aube suivante.",
 					"Votre âme maintient cette armure en un seul morceau. Si vous mourez alors que vous êtes harmonisé à l'armure, celle-ci est détruite."
 				]
 			},
@@ -1993,7 +1993,7 @@
 						"type": "entries",
 						"name": "Malédiction",
 						"entries": [
-							"Cette armure est maudite, un fait qui n'est révélé que si le sort {@spell Identify|XPHB} est lancé sur l'armure ou si vous vous y harmonisez. Vous harmoniser à l'armure vous maudit jusqu'à ce que vous soyez la cible d'un sort {@spell Remove Curse|XPHB} ou d'une magie similaire ; retirer l'armure ne met pas fin à la malédiction. Tant que vous êtes maudit, vous avez une {@variantrule Vulnerability|XPHB} aux dégâts perforants et tranchants."
+							"Cette armure est maudite, un fait qui n'est révélé que si le sort {@spell Identification|XPHB} est lancé sur l'armure ou si vous vous y harmonisez. Vous harmoniser à l'armure vous maudit jusqu'à ce que vous soyez la cible d'un sort {@spell Délivrance de la malédiction|XPHB} ou d'une magie similaire ; retirer l'armure ne met pas fin à la malédiction. Tant que vous êtes maudit, vous avez une {@variantrule Vulnerability|XPHB} aux dégâts perforants et tranchants."
 						]
 					}
 				]
@@ -2035,7 +2035,7 @@
 						"type": "entries",
 						"name": "Malédiction",
 						"entries": [
-							"Cette armure est maudite, un fait qui n'est révélé que si le sort {@spell Identify|XPHB} est lancé sur l'armure ou si vous vous y harmonisez. Vous harmoniser à l'armure vous maudit jusqu'à ce que vous soyez la cible d'un sort {@spell Remove Curse|XPHB} ou d'une magie similaire ; retirer l'armure ne met pas fin à la malédiction. Tant que vous êtes maudit, vous avez une {@variantrule Vulnerability|XPHB} aux dégâts contondants et tranchants."
+							"Cette armure est maudite, un fait qui n'est révélé que si le sort {@spell Identification|XPHB} est lancé sur l'armure ou si vous vous y harmonisez. Vous harmoniser à l'armure vous maudit jusqu'à ce que vous soyez la cible d'un sort {@spell Délivrance de la malédiction|XPHB} ou d'une magie similaire ; retirer l'armure ne met pas fin à la malédiction. Tant que vous êtes maudit, vous avez une {@variantrule Vulnerability|XPHB} aux dégâts contondants et tranchants."
 						]
 					}
 				]
@@ -2077,7 +2077,7 @@
 						"type": "entries",
 						"name": "Malédiction",
 						"entries": [
-							"Cette armure est maudite, un fait qui n'est révélé que si le sort {@spell Identify|XPHB} est lancé sur l'armure ou si vous vous y harmonisez. Vous harmoniser à l'armure vous maudit jusqu'à ce que vous soyez la cible d'un sort {@spell Remove Curse|XPHB} ou d'une magie similaire ; retirer l'armure ne met pas fin à la malédiction. Tant que vous êtes maudit, vous avez une {@variantrule Vulnerability|XPHB} aux dégâts contondants et perforants."
+							"Cette armure est maudite, un fait qui n'est révélé que si le sort {@spell Identification|XPHB} est lancé sur l'armure ou si vous vous y harmonisez. Vous harmoniser à l'armure vous maudit jusqu'à ce que vous soyez la cible d'un sort {@spell Délivrance de la malédiction|XPHB} ou d'une magie similaire ; retirer l'armure ne met pas fin à la malédiction. Tant que vous êtes maudit, vous avez une {@variantrule Vulnerability|XPHB} aux dégâts contondants et perforants."
 						]
 					}
 				]
@@ -2116,7 +2116,7 @@
 				"rechargeAmount": "{@dice 1d4 + 1}",
 				"charges": 5,
 				"entries": [
-					"Cette armure possède 5 charges. Tant que vous la portez, vous pouvez utiliser une action bonus pour dépenser 1 charge ou plus et lancer l'un des sorts suivants depuis l'armure, en vous ciblant : {@spell Jump} (1 charge) ou {@spell Levitate} (2 charges).",
+					"Cette armure possède 5 charges. Tant que vous la portez, vous pouvez utiliser une action bonus pour dépenser 1 charge ou plus et lancer l'un des sorts suivants depuis l'armure, en vous ciblant : {@spell Saut} (1 charge) ou {@spell Lévitation} (2 charges).",
 					"Cette armure regagne {@dice 1d4 + 1} charges dépensées chaque jour à l'aube."
 				],
 				"attachedSpells": {
@@ -2339,7 +2339,7 @@
 						"name": "Malédiction",
 						"type": "entries",
 						"entries": [
-							"Cette arme est maudite, et s'y harmoniser étend la malédiction sur vous. Jusqu'à ce que la malédiction soit brisée par un sort {@spell remove curse} ou une magie similaire, vous ne pouvez vous résoudre à vous séparer de l'arme. Chaque fois que vous attaquez une créature avec cette arme et obtenez un 1 au jet d'attaque, vous devez réussir un jet de sauvegarde de Constitution {@dc 15} sinon vous êtes {@condition Entravé} et contraint d'effectuer des jets de sauvegarde supplémentaires contre l'état {@condition Pétrifié}, comme ci-dessus."
+							"Cette arme est maudite, et s'y harmoniser étend la malédiction sur vous. Jusqu'à ce que la malédiction soit brisée par un sort {@spell Délivrance de la malédiction} ou une magie similaire, vous ne pouvez vous résoudre à vous séparer de l'arme. Chaque fois que vous attaquez une créature avec cette arme et obtenez un 1 au jet d'attaque, vous devez réussir un jet de sauvegarde de Constitution {@dc 15} sinon vous êtes {@condition Entravé} et contraint d'effectuer des jets de sauvegarde supplémentaires contre l'état {@condition Pétrifié}, comme ci-dessus."
 						]
 					}
 				]
@@ -2777,7 +2777,7 @@
 						"type": "entries",
 						"name": "Malédiction",
 						"entries": [
-							"Une fois que vous avez enfilé cette armure maudite, vous ne pouvez plus la retirer à moins d'être la cible d'un sort {@spell Remove Curse|XPHB} ou d'une magie similaire. Tant que vous portez l'armure, vous avez un {@variantrule Disadvantage|XPHB} aux jets d'attaque contre les démons et aux jets de sauvegarde contre leurs sorts et capacités spéciales."
+							"Une fois que vous avez enfilé cette armure maudite, vous ne pouvez plus la retirer à moins d'être la cible d'un sort {@spell Délivrance de la malédiction|XPHB} ou d'une magie similaire. Tant que vous portez l'armure, vous avez un {@variantrule Disadvantage|XPHB} aux jets d'attaque contre les démons et aux jets de sauvegarde contre leurs sorts et capacités spéciales."
 						]
 					}
 				],
@@ -2839,7 +2839,7 @@
 						"entries": [
 							"Vous ne pouvez vous résoudre à vous séparer de cette arme tant que vous y êtes harmonisé. Tant que vous y êtes harmonisé, vous avez un désavantage aux jets d'attaque avec les autres armes.",
 							"Chaque fois qu'une créature hostile vous inflige des dégâts, vous devez réussir un jet de sauvegarde de Sagesse {@dc 15} sinon vous entrez en furie. Tant que vous êtes en furie, vous devez utiliser votre action à chacun de vos tours pour attaquer avec l'arme la créature la plus proche de vous. Si vous pouvez effectuer des attaques supplémentaires dans le cadre de l'action {@action Attaque}, vous les utilisez, vous déplaçant pour attaquer la créature la plus proche suivante après avoir abattu votre cible actuelle. Si vous avez plusieurs cibles possibles, vous en attaquez une au hasard.",
-							"Vous restez en furie jusqu'à ce que vous entamiez votre tour sans qu'aucune créature que vous pouvez voir ou entendre ne se trouve à 18 mètres de vous ou moins. Alternativement, un allié peut utiliser une action pour effectuer un test de Charisme ({@skill Persuasion}) {@dc 15} et, en cas de réussite, vous n'êtes plus en furie. Seul le sort {@spell Remove Curse} vous permet de mettre fin à votre harmonisation avec cet objet."
+							"Vous restez en furie jusqu'à ce que vous entamiez votre tour sans qu'aucune créature que vous pouvez voir ou entendre ne se trouve à 18 mètres de vous ou moins. Alternativement, un allié peut utiliser une action pour effectuer un test de Charisme ({@skill Persuasion}) {@dc 15} et, en cas de réussite, vous n'êtes plus en furie. Seul le sort {@spell Délivrance de la malédiction} vous permet de mettre fin à votre harmonisation avec cet objet."
 						]
 					},
 					{
@@ -3870,7 +3870,7 @@
 				"entries": [
 					"Cette armure colorée et fleurie a été forgée dans le Feywild et est imprégnée de la magie envoûtante de ce plan.",
 					"Tant que vous portez cette armure, vous avez un avantage aux jets de sauvegarde que vous effectuez pour éviter ou mettre fin à l'état {@condition Charmé} qui vous affecte.",
-					"Cette armure possède 3 charges. Vous pouvez utiliser une action pour dépenser une charge et lancer le sort {@spell Compulsion} (jet de sauvegarde {@dc 15}) depuis cette armure. L'armure regagne {@dice 1d3} charges dépensées chaque jour à l'aube."
+					"Cette armure possède 3 charges. Vous pouvez utiliser une action pour dépenser une charge et lancer le sort {@spell Contrainte} (jet de sauvegarde {@dc 15}) depuis cette armure. L'armure regagne {@dice 1d3} charges dépensées chaque jour à l'aube."
 				],
 				"attachedSpells": {
 					"charges": {
@@ -4014,7 +4014,7 @@
 				"bonusWeapon": "+2",
 				"entries": [
 					"Vous gagnez un bonus de {=bonusWeapon} aux jets d'attaque et de dégâts effectués avec cette arme magique.",
-					"Cette arme a été forgée pour détruire les structures de force, telles que celles créées par {@spell Forcecage} ou {@spell Wall of Force}. Frapper une structure de force magique de taille G ou inférieure avec cette arme brise automatiquement celle-ci. Si la cible est une structure de force de taille TG ou supérieure, cette arme en brise une portion de 6 mètres cubes."
+					"Cette arme a été forgée pour détruire les structures de force, telles que celles créées par {@spell Cage de force} ou {@spell Mur de force}. Frapper une structure de force magique de taille G ou inférieure avec cette arme brise automatiquement celle-ci. Si la cible est une structure de force de taille TG ou supérieure, cette arme en brise une portion de 6 mètres cubes."
 				]
 			}
 		},
@@ -4139,7 +4139,7 @@
 						"name": "Malédiction",
 						"type": "entries",
 						"entries": [
-							"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unwilling to part with the weapon."
+							"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell Délivrance de la malédiction} spell or similar magic, you are unwilling to part with the weapon."
 						]
 					}
 				]
@@ -4272,7 +4272,7 @@
 				"entries": [
 					"Cette armure complexe aux nuances de gris a été forgée dans le Royaume de l'Ombre et est imprégnée de la pénombre de ce plan.",
 					"Tant que vous portez cette armure, vous avez un avantage aux jets de sauvegarde que vous effectuez pour éviter ou mettre fin à l'état effrayé qui vous affecte.",
-					"Cette armure possède 3 charges. Vous pouvez dépenser une charge pour lancer le sort {@spell Calm Emotions} (jet de sauvegarde {@dc 15}) depuis l'armure. Cette armure regagne {@dice 1d3} charges dépensées chaque jour à l'aube."
+					"Cette armure possède 3 charges. Vous pouvez dépenser une charge pour lancer le sort {@spell Apaisement} (jet de sauvegarde {@dc 15}) depuis l'armure. Cette armure regagne {@dice 1d3} charges dépensées chaque jour à l'aube."
 				],
 				"attachedSpells": {
 					"charges": {
@@ -4793,7 +4793,7 @@
 					"type": "entries",
 					"name": "Souhait",
 					"entries": [
-						"L'épée possède {@dice 1d4 - 1} charges. Tant que vous la tenez, vous pouvez utiliser une action pour dépenser 1 charge et lancer le sort {@spell wish} par son intermédiaire. Cette propriété ne peut plus être utilisée avant l'aube suivante. L'épée perd cette propriété si elle n'a plus de charges."
+						"L'épée possède {@dice 1d4 - 1} charges. Tant que vous la tenez, vous pouvez utiliser une action pour dépenser 1 charge et lancer le sort {@spell Souhait} par son intermédiaire. Cette propriété ne peut plus être utilisée avant l'aube suivante. L'épée perd cette propriété si elle n'a plus de charges."
 					]
 				}
 			],
@@ -4824,7 +4824,7 @@
 						"type": "entries",
 						"name": "Souhait",
 						"entries": [
-							"L'épée possède {@dice 1d4 - 1} charges. Tant que vous la tenez, vous pouvez utiliser une action pour dépenser 1 charge et lancer le sort {@spell wish} par son intermédiaire. Cette propriété ne peut plus être utilisée avant l'aube suivante. L'épée perd cette propriété si elle n'a plus de charges."
+							"L'épée possède {@dice 1d4 - 1} charges. Tant que vous la tenez, vous pouvez utiliser une action pour dépenser 1 charge et lancer le sort {@spell Souhait} par son intermédiaire. Cette propriété ne peut plus être utilisée avant l'aube suivante. L'épée perd cette propriété si elle n'a plus de charges."
 						]
 					}
 				],
@@ -4898,7 +4898,7 @@
 						"type": "entries",
 						"name": "Souhait",
 						"entries": [
-							"L'arme possède {@dice 1d3} charges. Tant que vous la tenez, vous pouvez dépenser 1 charge et lancer {@spell Wish|XPHB} par son intermédiaire. Une fois utilisée, cette propriété ne peut plus l'être avant l'aube suivante. L'arme perd cette propriété si elle n'a plus de charges."
+							"L'arme possède {@dice 1d3} charges. Tant que vous la tenez, vous pouvez dépenser 1 charge et lancer {@spell Souhait|XPHB} par son intermédiaire. Une fois utilisée, cette propriété ne peut plus l'être avant l'aube suivante. L'arme perd cette propriété si elle n'a plus de charges."
 						]
 					}
 				],
@@ -5293,7 +5293,7 @@
 				"bonusWeapon": "+1",
 				"entries": [
 					"De tous les objets magiques créés par les elfes, l'un des plus convoités et jalousement gardés est une lame de lune. Dans l'Antiquité, presque toutes les maisons nobles elfiques revendiquaient une telle arme. Au fil des siècles, certaines de ces armes ont disparu du monde, leur magie perdue à mesure que les lignées familiales s'éteignaient. D'autres ont disparu avec leurs porteurs lors de grandes quêtes. Il ne reste donc que quelques-unes de ces armes.",
-					"Chaque lame de lune aspire à un porteur dont le tempérament et les objectifs sont compatibles avec les siens. Si vous tentez de vous harmoniser à une lame de lune qui ne vous veut pas comme porteur, l'arme vous rejette non seulement, mais vous maudit aussi, vous faisant effectuer des {@variantrule D20 Test|XPHB|tests de d20} avec un {@variantrule Disadvantage|XPHB} pendant 24 heures ou jusqu'à ce que la malédiction soit levée par un sort {@spell Remove Curse|XPHB} ou une magie similaire. Si l'arme vous accepte et que vous tentez de vous y harmoniser, vous le devenez instantanément, et une nouvelle rune apparaît sur elle. Vous restez harmonisé à l'arme jusqu'à votre mort ou jusqu'à sa destruction. Une lame de lune fonctionne comme une arme non magique de son type pour quiconque autre que le porteur qu'elle a choisi.",
+					"Chaque lame de lune aspire à un porteur dont le tempérament et les objectifs sont compatibles avec les siens. Si vous tentez de vous harmoniser à une lame de lune qui ne vous veut pas comme porteur, l'arme vous rejette non seulement, mais vous maudit aussi, vous faisant effectuer des {@variantrule D20 Test|XPHB|tests de d20} avec un {@variantrule Disadvantage|XPHB} pendant 24 heures ou jusqu'à ce que la malédiction soit levée par un sort {@spell Délivrance de la malédiction|XPHB} ou une magie similaire. Si l'arme vous accepte et que vous tentez de vous y harmoniser, vous le devenez instantanément, et une nouvelle rune apparaît sur elle. Vous restez harmonisé à l'arme jusqu'à votre mort ou jusqu'à sa destruction. Une lame de lune fonctionne comme une arme non magique de son type pour quiconque autre que le porteur qu'elle a choisi.",
 					"Une lame de lune porte une rune pour chaque porteur qu'elle a servi de son plein gré (typiquement {@dice 1d6 + 1}). La première rune accorde un bonus de +1 aux jets d'attaque et aux jets de dégâts effectués avec cette arme magique. Chaque rune au-delà de la première accorde à la lame de lune une propriété supplémentaire. Le MD choisit chaque propriété ou la détermine aléatoirement en tirant sur la table des propriétés de la lame de lune.",
 					{
 						"type": "entries",
@@ -5750,7 +5750,7 @@
 			],
 			"entries": [
 				"{@note * Cette variante générique porte le même nom et a la même source que l'objet {@item Harnois d'éthéréité|XDMG}}.",
-				"Tant que vous portez cette armure, vous pouvez prendre une action {@action Magie|XPHB} et utiliser un mot de commande pour obtenir l'effet du sort {@spell Etherealness|XPHB}. Le sort prend immédiatement fin si vous retirez l'armure ou si vous prenez une action {@action Magie|XPHB} pour répéter le mot de commande. Cette propriété de l'armure ne peut plus être utilisée avant l'aube suivante."
+				"Tant que vous portez cette armure, vous pouvez prendre une action {@action Magie|XPHB} et utiliser un mot de commande pour obtenir l'effet du sort {@spell Éthéré|XPHB}. Le sort prend immédiatement fin si vous retirez l'armure ou si vous prenez une action {@action Magie|XPHB} pour répéter le mot de commande. Cette propriété de l'armure ne peut plus être utilisée avant l'aube suivante."
 			],
 			"inherits": {
 				"nameSuffix": " of Etherealness",
@@ -5761,7 +5761,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"entries": [
-					"Tant que vous portez cette armure, vous pouvez prendre une action {@action Magie|XPHB} et utiliser un mot de commande pour obtenir l'effet du sort {@spell Etherealness|XPHB}. Le sort prend immédiatement fin si vous retirez l'armure ou si vous prenez une action {@action Magie|XPHB} pour répéter le mot de commande. Cette propriété de l'armure ne peut plus être utilisée avant l'aube suivante."
+					"Tant que vous portez cette armure, vous pouvez prendre une action {@action Magie|XPHB} et utiliser un mot de commande pour obtenir l'effet du sort {@spell Éthéré|XPHB}. Le sort prend immédiatement fin si vous retirez l'armure ou si vous prenez une action {@action Magie|XPHB} pour répéter le mot de commande. Cette propriété de l'armure ne peut plus être utilisée avant l'aube suivante."
 				],
 				"attachedSpells": {
 					"daily": {
@@ -5791,7 +5791,7 @@
 				"reqAttune": true,
 				"curse": true,
 				"entries": [
-					"Lorsque vous attaquez une créature avec cette arme magique et obtenez un 20 au jet d'attaque, la créature doit réussir un jet de sauvegarde de Sagesse {@dc 15} en plus de subir les effets normaux de l'attaque. En cas d'échec, la créature subit aussi les effets d'un sort {@spell polymorph}. Tirez un d20 et consultez la table suivante pour déterminer la forme sous laquelle la créature ciblée est transformée.",
+					"Lorsque vous attaquez une créature avec cette arme magique et obtenez un 20 au jet d'attaque, la créature doit réussir un jet de sauvegarde de Sagesse {@dc 15} en plus de subir les effets normaux de l'attaque. En cas d'échec, la créature subit aussi les effets d'un sort {@spell Polymorphie}. Tirez un d20 et consultez la table suivante pour déterminer la forme sous laquelle la créature ciblée est transformée.",
 					{
 						"type": "table",
 						"caption": "",
@@ -5891,7 +5891,7 @@
 						"name": "Malédiction",
 						"type": "entries",
 						"entries": [
-							"Cette arme est maudite, et s'y harmoniser étend la malédiction sur vous. Jusqu'à ce que la malédiction soit brisée par un sort {@spell remove curse} ou une magie similaire, vous ne pouvez vous résoudre à vous séparer de l'arme. Chaque fois que vous attaquez une créature avec cette arme et obtenez un 1 au jet d'attaque, vous subissez l'effet d'un sort {@spell polymorph} pendant 1 heure, en tirant sur la table pour déterminer votre nouvelle forme."
+							"Cette arme est maudite, et s'y harmoniser étend la malédiction sur vous. Jusqu'à ce que la malédiction soit brisée par un sort {@spell Délivrance de la malédiction} ou une magie similaire, vous ne pouvez vous résoudre à vous séparer de l'arme. Chaque fois que vous attaquez une créature avec cette arme et obtenez un 1 au jet d'attaque, vous subissez l'effet d'un sort {@spell Polymorphie} pendant 1 heure, en tirant sur la table pour déterminer votre nouvelle forme."
 						]
 					}
 				]
@@ -6330,7 +6330,7 @@
 						"entries": [
 							"Vous ne pouvez vous résoudre à vous séparer de cette arme tant que vous y êtes harmonisé. De plus, vous avez un désavantage aux jets d'attaque effectués avec les autres armes.",
 							"Chaque fois que vous obtenez un 1 à un jet d'attaque effectué avec cette arme, votre cible devient votre allié le plus proche.",
-							"S'il y a plusieurs alliés, déterminez aléatoirement lequel est la cible. Effectuez un nouveau jet d'attaque avec avantage contre votre allié. Si l'attaque touche, en plus des dégâts standards, vous infligez {@damage 2d6} dégâts de poison supplémentaires. Seul le sort {@spell Remove Curse} vous permet de mettre fin à votre harmonisation avec cet objet."
+							"S'il y a plusieurs alliés, déterminez aléatoirement lequel est la cible. Effectuez un nouveau jet d'attaque avec avantage contre votre allié. Si l'attaque touche, en plus des dégâts standards, vous infligez {@damage 2d6} dégâts de poison supplémentaires. Seul le sort {@spell Délivrance de la malédiction} vous permet de mettre fin à votre harmonisation avec cet objet."
 						]
 					},
 					{
@@ -6446,7 +6446,7 @@
 						"name": "Malédiction",
 						"entries": [
 							"Vous ne pouvez vous résoudre à vous séparer de cette arme tant que vous y êtes harmonisé. Tant que vous êtes harmonisé à cette arme, vous avez aussi un désavantage aux jets d'attaque effectués avec les autres armes.",
-							"L'esprit vengeur qui possède l'épée partage son histoire et sa soif de vengeance avec celui qui la manie. Après chaque repos long réussi, vous êtes hanté par des cauchemars du passé de l'esprit, culminant avec sa mort. À votre réveil, vous devez effectuer un jet de sauvegarde de Constitution {@dc 11}. En cas d'échec, vous ne bénéficiez que des avantages d'un repos court. Seul le sort {@spell Remove Curse} vous permet de mettre fin à votre harmonisation avec cet objet."
+							"L'esprit vengeur qui possède l'épée partage son histoire et sa soif de vengeance avec celui qui la manie. Après chaque repos long réussi, vous êtes hanté par des cauchemars du passé de l'esprit, culminant avec sa mort. À votre réveil, vous devez effectuer un jet de sauvegarde de Constitution {@dc 11}. En cas d'échec, vous ne bénéficiez que des avantages d'un repos court. Seul le sort {@spell Délivrance de la malédiction} vous permet de mettre fin à votre harmonisation avec cet objet."
 						]
 					},
 					{
@@ -6599,7 +6599,7 @@
 						"entries": [
 							"Cette épée est maudite et possédée par un esprit vengeur. S'y harmoniser étend la malédiction sur vous. Tant que vous resterez maudit, vous ne pourrez vous résoudre à vous séparer de l'épée, la gardant constamment sur vous. Tant que vous êtes harmonisé à cette arme, vous avez un désavantage aux jets d'attaque effectués avec les autres armes.",
 							"De plus, tant que l'épée est sur vous, vous devez réussir un jet de sauvegarde de Sagesse {@dc 15} chaque fois que vous subissez des dégâts au combat. En cas d'échec, vous devez attaquer la créature qui vous a infligé des dégâts jusqu'à ce que vous tombiez à 0 point de vie ou qu'elle y tombe, ou jusqu'à ce que vous ne puissiez plus l'atteindre pour lui porter une attaque au corps à corps.",
-							"Vous pouvez briser la malédiction par les moyens habituels. Alternativement, lancer {@spell banishment} sur l'épée force l'esprit vengeur à la quitter. L'épée devient alors une arme +1 sans autre propriété."
+							"Vous pouvez briser la malédiction par les moyens habituels. Alternativement, lancer {@spell Bannissement} sur l'épée force l'esprit vengeur à la quitter. L'épée devient alors une arme +1 sans autre propriété."
 						]
 					}
 				],
@@ -6653,7 +6653,7 @@
 						"entries": [
 							"Cette arme est maudite et possédée par un esprit vengeur. S'y harmoniser étend la malédiction sur vous. Tant que vous resterez maudit, vous ne pourrez vous résoudre à vous séparer de l'arme, la gardant constamment sur vous. Tant que vous êtes harmonisé à cette arme, vous avez un {@variantrule Disadvantage|XPHB} aux jets d'attaque effectués avec les autres armes.",
 							"De plus, tant que l'arme est sur vous, vous devez réussir un jet de sauvegarde de Sagesse {@dc 15} chaque fois que vous subissez des dégâts d'une autre créature au combat. En cas d'échec, vous devez attaquer la créature qui vous a infligé des dégâts jusqu'à ce que vous tombiez à 0 {@variantrule Hit Points|XPHB} ou qu'elle y tombe, ou jusqu'à ce que vous ne puissiez plus l'atteindre pour lui porter une attaque au corps à corps.",
-							"Vous pouvez briser la malédiction par les moyens habituels. Alternativement, lancer {@spell Banishment|XPHB} sur l'arme force l'esprit vengeur à la quitter. L'arme devient alors une arme +1 sans autre propriété."
+							"Vous pouvez briser la malédiction par les moyens habituels. Alternativement, lancer {@spell Bannissement|XPHB} sur l'arme force l'esprit vengeur à la quitter. L'arme devient alors une arme +1 sans autre propriété."
 						]
 					}
 				],
@@ -7065,7 +7065,7 @@
 				"reqAttune": true,
 				"bonusWeapon": "+3",
 				"entries": [
-					"Vous avez un bonus de {=bonusWeapon} aux jets d'attaque et de dégâts effectués avec cette arme magique. Lorsque cette arme fait tomber une créature à 0 point de vie, la créature ne meurt pas. À la place, des runes infernales apparaissent comme gravées dans sa chair et elle est soignée à 1 point de vie. Elle subit dès lors l'état {@condition Paralysé} jusqu'à ce que l'état soit levé par un sort {@spell Lesser Restoration} ou une magie similaire. Lorsque l'état est levé, les runes disparaissent. Au début de chacun de ses tours tant qu'elle est {@condition Paralysé}, la créature souffre d'une douleur immense et gagne un niveau de {@condition Épuisement}."
+					"Vous avez un bonus de {=bonusWeapon} aux jets d'attaque et de dégâts effectués avec cette arme magique. Lorsque cette arme fait tomber une créature à 0 point de vie, la créature ne meurt pas. À la place, des runes infernales apparaissent comme gravées dans sa chair et elle est soignée à 1 point de vie. Elle subit dès lors l'état {@condition Paralysé} jusqu'à ce que l'état soit levé par un sort {@spell Restauration partielle} ou une magie similaire. Lorsque l'état est levé, les runes disparaissent. Au début de chacun de ses tours tant qu'elle est {@condition Paralysé}, la créature souffre d'une douleur immense et gagne un niveau de {@condition Épuisement}."
 				]
 			}
 		},
@@ -7115,7 +7115,7 @@
 						"type": "entries",
 						"name": "Incantation",
 						"entries": [
-							"L'arme possède 5 charges. Vous pouvez utiliser une action bonus et dépenser 1 charge ou plus pour lancer l'un des sorts suivants (jet de sauvegarde {@dc 16}) : {@spell Command} (1 charge), {@spell Zone of Truth} (2 charges), {@spell Compulsion} (4 charges), {@spell Banishment} (4 charges) ou {@spell Dominate Person} (5 charges).",
+							"L'arme possède 5 charges. Vous pouvez utiliser une action bonus et dépenser 1 charge ou plus pour lancer l'un des sorts suivants (jet de sauvegarde {@dc 16}) : {@spell Ordre} (1 charge), {@spell Zone de vérité} (2 charges), {@spell Contrainte} (4 charges), {@spell Bannissement} (4 charges) ou {@spell Soumission d'humanoïde} (5 charges).",
 							"L'arme regagne {@dice 1d4} charges dépensées chaque jour à l'aube."
 						]
 					}
@@ -7270,7 +7270,7 @@
 						"type": "entries",
 						"name": "Invoquer la rune",
 						"entries": [
-							"Par une action, vous pouvez invoquer la rune de l'armure pour lancer le sort {@spell wind wall} (jet de sauvegarde {@dc 15}) par son intermédiaire. Une fois la rune invoquée, elle ne peut plus l'être avant l'aube suivante."
+							"Par une action, vous pouvez invoquer la rune de l'armure pour lancer le sort {@spell Mur de vent} (jet de sauvegarde {@dc 15}) par son intermédiaire. Une fois la rune invoquée, elle ne peut plus l'être avant l'aube suivante."
 						]
 					}
 				],

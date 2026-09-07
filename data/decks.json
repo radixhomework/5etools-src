@@ -620,7 +620,7 @@
 			"entries": [
 				"Cette boîte contient un jeu de cartes. Un jeu complet compte 34 cartes : 32 représentant des créatures spécifiques et deux à surface réfléchissante. Un jeu trouvé comme trésor a généralement perdu {@dice 1d20 - 1} cartes.",
 				"La magie du jeu ne fonctionne que si ses cartes sont tirées au hasard. Vous pouvez utiliser une action {@action Magie|XPHB} pour tirer une carte au hasard dans le jeu et la jeter au sol en un point situé à 9 mètres ou moins de vous. Une illusion de créature, déterminée en tirant sur la table du Jeu d'illusions, se forme au-dessus de la carte jetée et persiste jusqu'à ce qu'elle soit dissipée. La créature illusoire créée par la carte ressemble et se comporte comme une vraie créature de son espèce, excepté qu'elle ne peut nuire à personne. Tant que vous êtes à 36 mètres ou moins de la créature illusoire et que vous la voyez, vous pouvez utiliser une action {@action Magie|XPHB} pour la déplacer n'importe où à 9 mètres ou moins de sa carte.",
-				"Toute interaction physique avec la créature illusoire révèle qu'elle est fausse, car les objets la traversent. Une créature qui utilise une action {@action Étudier|XPHB} pour examiner visuellement la créature illusoire l'identifie comme une illusion après un jet d'Intelligence ({@skill Investigation|XPHB}) réussi (DD {@dc 15}). L'illusion dure jusqu'à ce que sa carte soit déplacée ou que l'illusion soit dissipée (au moyen d'un sort tel que {@spell Dispel Magic|XPHB} ou d'un effet similaire). Quand l'illusion prend fin, l'image sur sa carte disparaît, et cette carte ne peut plus être utilisée.",
+				"Toute interaction physique avec la créature illusoire révèle qu'elle est fausse, car les objets la traversent. Une créature qui utilise une action {@action Étudier|XPHB} pour examiner visuellement la créature illusoire l'identifie comme une illusion après un jet d'Intelligence ({@skill Investigation|XPHB}) réussi (DD {@dc 15}). L'illusion dure jusqu'à ce que sa carte soit déplacée ou que l'illusion soit dissipée (au moyen d'un sort tel que {@spell Dissipation de la magie|XPHB} ou d'un effet similaire). Quand l'illusion prend fin, l'image sur sa carte disparaît, et cette carte ne peut plus être utilisée.",
 				{
 					"type": "table",
 					"caption": "Jeu d'illusions",
@@ -3207,9 +3207,9 @@
 				"height": 561
 			},
 			"entries": [
-				"Les runes anciennes sont des symboles ancestraux chargés de puissance magique. Après des années d'étude, toute créature capable de lancer le {@spell symbol} sort peut apprendre une rune ancienne et l'ajouter à la sélection de symboles pouvant être créés avec le sort. Halaster a passé des vies entières à étudier les runes anciennes, à en inventer de nouvelles et à exploiter leur magie volatile. Il aime en placer un peu partout dans l'Outre-Terrier, à la manière de pièges.",
+				"Les runes anciennes sont des symboles ancestraux chargés de puissance magique. Après des années d'étude, toute créature capable de lancer le {@spell Symbole} sort peut apprendre une rune ancienne et l'ajouter à la sélection de symboles pouvant être créés avec le sort. Halaster a passé des vies entières à étudier les runes anciennes, à en inventer de nouvelles et à exploiter leur magie volatile. Il aime en placer un peu partout dans l'Outre-Terrier, à la manière de pièges.",
 				"L'{@adventure annexe B|WDMM|26} présente plusieurs {@deck Jeu des runes anciennes|WDMM|runes anciennes sur cartes de papier} que vous pouvez photocopier et découper pour créer un {@deck Jeu des runes anciennes|WDMM}. Lorsque les circonstances exigent l'apparition d'une rune ancienne, on tire une carte de ce jeu pour déterminer quelle rune apparaît et ce qu'elle fait.",
-				"Les runes anciennes fonctionnent comme des symboles lancés via le {@spell symbol} sort, avec les changements suivants :",
+				"Les runes anciennes fonctionnent comme des symboles lancés via le {@spell Symbole} sort, avec les changements suivants :",
 				{
 					"type": "list",
 					"items": [
@@ -7256,7 +7256,7 @@
 			},
 			"entries": [
 				"Vous êtes immédiatement transformé en {@filter Bête aléatoire d'un FP de 5 ou moins|bestiary|source=|Challenge Rating=[&0;&5]|type=beast}. Vos statistiques de jeu — y compris vos caractéristiques, vos points de vie et vos actions possibles — sont remplacées par celles de la Bête, et tout équipement non magique que vous portez ou transportez fusionne avec votre nouvelle forme et ne peut être utilisé. Les objets magiques que vous transportez tombent dans un espace inoccupé à 1,50 mètre ou moins de votre nouvelle forme.",
-				"Vous restez ainsi transformé pendant {@dice 2d12} jours ; rien ne peut modifier votre forme tant que vous êtes sous les effets de cette carte, mais le {@spell Wish} sort peut mettre fin prématurément à la transformation. Lorsque vous reprenez votre forme normale, vous retrouvez l'état dans lequel vous étiez au moment de votre transformation initiale."
+				"Vous restez ainsi transformé pendant {@dice 2d12} jours ; rien ne peut modifier votre forme tant que vous êtes sous les effets de cette carte, mais le {@spell Souhait} sort peut mettre fin prématurément à la transformation. Lorsque vous reprenez votre forme normale, vous retrouvez l'état dans lequel vous étiez au moment de votre transformation initiale."
 			]
 		},
 		{
@@ -7294,7 +7294,7 @@
 				"height": 1229
 			},
 			"entries": [
-				"Vous obtenez la capacité de lancer le {@spell Time Stop} sort {@dice 1d3} fois. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix)."
+				"Vous obtenez la capacité de lancer le {@spell Arrêt du temps} sort {@dice 1d3} fois. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix)."
 			]
 		},
 		{
@@ -7408,7 +7408,7 @@
 				"height": 1231
 			},
 			"entries": [
-				"Vous tombez immédiatement à 0 point de vie, avez l'{@condition Inconscient} état, et devez commencer à effectuer des jets de sauvegarde contre la mort. Les sorts et autres effets magiques qui restaurent des points de vie n'ont aucun effet sur vous tant que vous n'êtes pas stabilisé. Si vous échouez à trois jets de sauvegarde contre la mort, vous mourez et ne pouvez être ressuscité que par le {@spell Wish} sort."
+				"Vous tombez immédiatement à 0 point de vie, avez l'{@condition Inconscient} état, et devez commencer à effectuer des jets de sauvegarde contre la mort. Les sorts et autres effets magiques qui restaurent des points de vie n'ont aucun effet sur vous tant que vous n'êtes pas stabilisé. Si vous échouez à trois jets de sauvegarde contre la mort, vous mourez et ne pouvez être ressuscité que par le {@spell Souhait} sort."
 			]
 		},
 		{
@@ -7427,7 +7427,7 @@
 				"height": 1229
 			},
 			"entries": [
-				"Lancez un {@dice d20}. Si le résultat est pair, vous vieillissez de {@dice 1d10} ans. Si le résultat est impair, vous rajeunissez de {@dice 1d10} ans, jusqu'à un minimum de 1 an. Cet effet ne peut être annulé que par le {@spell Wish} sort, une intervention divine ou une magie similaire."
+				"Lancez un {@dice d20}. Si le résultat est pair, vous vieillissez de {@dice 1d10} ans. Si le résultat est impair, vous rajeunissez de {@dice 1d10} ans, jusqu'à un minimum de 1 an. Cet effet ne peut être annulé que par le {@spell Souhait} sort, une intervention divine ou une magie similaire."
 			]
 		},
 		{
@@ -7446,7 +7446,7 @@
 				"height": 1228
 			},
 			"entries": [
-				"Vous disparaissez et vous retrouvez enseveli dans un état d'animation suspendue dans une sphère extradimensionnelle. Tout ce que vous portiez et transportiez reste derrière vous, dans l'espace que vous occupiez au moment de votre disparition. Vous restez emprisonné jusqu'à ce qu'on vous trouve et vous extraie de la sphère. Aucune magie de divination ne peut vous localiser, mais un {@spell wish} sort peut révéler l'emplacement de votre prison. Vous ne tirez plus de cartes."
+				"Vous disparaissez et vous retrouvez enseveli dans un état d'animation suspendue dans une sphère extradimensionnelle. Tout ce que vous portiez et transportiez reste derrière vous, dans l'espace que vous occupiez au moment de votre disparition. Vous restez emprisonné jusqu'à ce qu'on vous trouve et vous extraie de la sphère. Aucune magie de divination ne peut vous localiser, mais un {@spell Souhait} sort peut révéler l'emplacement de votre prison. Vous ne tirez plus de cartes."
 			]
 		},
 		{
@@ -7465,7 +7465,7 @@
 				"height": 1233
 			},
 			"entries": [
-				"Vous obtenez la capacité de lancer le {@spell Gate} sort {@dice 1d4} fois, sans composantes matérielles. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix)."
+				"Vous obtenez la capacité de lancer le {@spell Portail} sort {@dice 1d4} fois, sans composantes matérielles. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix)."
 			]
 		},
 		{
@@ -7884,7 +7884,7 @@
 				"height": 1229
 			},
 			"entries": [
-				"Il vous est accordé la capacité de lancer le {@spell wish} sort {@dice 1d3} fois."
+				"Il vous est accordé la capacité de lancer le {@spell Souhait} sort {@dice 1d3} fois."
 			]
 		},
 		{
@@ -7960,7 +7960,7 @@
 				"height": 1229
 			},
 			"entries": [
-				"Vous obtenez la capacité de lancer {@spell Speak with Plants} sans dépenser d'emplacement de sort ; vous devez terminer un repos long avant de pouvoir le lancer à nouveau de cette façon. Si vous avez des emplacements de sort de niveau 3 ou supérieur, vous pouvez lancer ce sort en les utilisant. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix)."
+				"Vous obtenez la capacité de lancer {@spell Parler aux plantes} sans dépenser d'emplacement de sort ; vous devez terminer un repos long avant de pouvoir le lancer à nouveau de cette façon. Si vous avez des emplacements de sort de niveau 3 ou supérieur, vous pouvez lancer ce sort en les utilisant. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix)."
 			]
 		},
 		{
@@ -7998,7 +7998,7 @@
 				"height": 1229
 			},
 			"entries": [
-				"Des chaînes luisantes faites de force magique apparaissent et s'enroulent autour de vous. Vous avez l'{@condition Entravé} état jusqu'à ce que les chaînes soient détruites ou que vous soyez libéré. Tant que vous avez cet état, vous ne pouvez pas lancer de sorts, et les propriétés des objets magiques que vous portez ou transportez sont supprimées. Vous ne tirez plus de cartes. Les chaînes sont immunisées contre les dégâts et ne peuvent être dissipées par le {@spell Dispel Magic} sort ou une magie similaire. Toutefois, un {@spell Disintegrate} sort détruit les chaînes instantanément et vous libère. Une autre créature peut aussi vous libérer en réussissant un jet de Dextérité (DD {@dc 30}) au moyen d'{@item Outils de crocheteur|PHB}."
+				"Des chaînes luisantes faites de force magique apparaissent et s'enroulent autour de vous. Vous avez l'{@condition Entravé} état jusqu'à ce que les chaînes soient détruites ou que vous soyez libéré. Tant que vous avez cet état, vous ne pouvez pas lancer de sorts, et les propriétés des objets magiques que vous portez ou transportez sont supprimées. Vous ne tirez plus de cartes. Les chaînes sont immunisées contre les dégâts et ne peuvent être dissipées par le {@spell Dissipation de la magie} sort ou une magie similaire. Toutefois, un {@spell Désintégration} sort détruit les chaînes instantanément et vous libère. Une autre créature peut aussi vous libérer en réussissant un jet de Dextérité (DD {@dc 30}) au moyen d'{@item Outils de crocheteur|PHB}."
 			]
 		},
 		{
@@ -8058,7 +8058,7 @@
 				"height": 1228
 			},
 			"entries": [
-				"Un personnage joueur au choix du DM devient hostile à votre égard. L'identité de votre nouvel ennemi n'est pas connue tant que le PNJ ou quelqu'un d'autre ne la révèle. Rien de moins qu'un {@spell wish} sort ou une intervention divine ne peut mettre fin à l'hostilité du PNJ à votre égard."
+				"Un personnage joueur au choix du DM devient hostile à votre égard. L'identité de votre nouvel ennemi n'est pas connue tant que le PNJ ou quelqu'un d'autre ne la révèle. Rien de moins qu'un {@spell Souhait} sort ou une intervention divine ne peut mettre fin à l'hostilité du PNJ à votre égard."
 			]
 		},
 		{
@@ -8232,7 +8232,7 @@
 				"height": 1230
 			},
 			"entries": [
-				"Vous avez immédiatement l'{@condition Pétrifié} état tandis que votre corps se transforme en marbre. La pétrification dure jusqu'à ce que vous soyez libéré par le {@spell Greater Restoration} sort ou une magie similaire."
+				"Vous avez immédiatement l'{@condition Pétrifié} état tandis que votre corps se transforme en marbre. La pétrification dure jusqu'à ce que vous soyez libéré par le {@spell Restauration supérieure} sort ou une magie similaire."
 			]
 		},
 		{
@@ -8308,7 +8308,7 @@
 				"height": 1229
 			},
 			"entries": [
-				"Une divinité ou une entité de pouvoir similaire se lie à vous pour vous aider. À tout moment entre le tirage de la carte et votre mort, vous pouvez utiliser votre action pour appeler cette entité afin d'obtenir une intervention divine, et l'entité est tenue de répondre. Les paramètres et la nature de cette intervention sont choisis par le MD. Si vous mourez sans avoir utilisé cette intervention, la divinité honore son obligation en vous lançant le {@spell Resurrection} sort. Une fois que l'entité a répondu à votre appel à l'intervention divine ou vous a ressuscité, elle n'est plus tenue de vous aider."
+				"Une divinité ou une entité de pouvoir similaire se lie à vous pour vous aider. À tout moment entre le tirage de la carte et votre mort, vous pouvez utiliser votre action pour appeler cette entité afin d'obtenir une intervention divine, et l'entité est tenue de répondre. Les paramètres et la nature de cette intervention sont choisis par le MD. Si vous mourez sans avoir utilisé cette intervention, la divinité honore son obligation en vous lançant le {@spell Résurrection} sort. Une fois que l'entité a répondu à votre appel à l'intervention divine ou vous a ressuscité, elle n'est plus tenue de vous aider."
 			]
 		},
 		{
@@ -8346,7 +8346,7 @@
 				"height": 1230
 			},
 			"entries": [
-				"À tout moment de votre choix dans l'année suivant le tirage de cette carte, vous pouvez lancer une fois le {@spell True Resurrection} sort sans dépenser d'emplacement de sort ni avoir besoin de composantes matérielles. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix)."
+				"À tout moment de votre choix dans l'année suivant le tirage de cette carte, vous pouvez lancer une fois le {@spell Résurrection véritable} sort sans dépenser d'emplacement de sort ni avoir besoin de composantes matérielles. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix)."
 			]
 		},
 		{
@@ -8384,7 +8384,7 @@
 				"height": 1229
 			},
 			"entries": [
-				"Votre peau devient immédiatement rugueuse, comme de l'écorce. Votre CA de base est alors de 15 + votre modificateur de Dextérité tant que vous ne portez pas d'armure, mais vous avez une vulnérabilité aux dégâts de feu. Cette transformation ne peut être annulée que par le {@spell Wish} sort, une intervention divine ou une magie similaire."
+				"Votre peau devient immédiatement rugueuse, comme de l'écorce. Votre CA de base est alors de 15 + votre modificateur de Dextérité tant que vous ne portez pas d'armure, mais vous avez une vulnérabilité aux dégâts de feu. Cette transformation ne peut être annulée que par le {@spell Souhait} sort, une intervention divine ou une magie similaire."
 			]
 		},
 		{
@@ -8403,7 +8403,7 @@
 				"height": 1232
 			},
 			"entries": [
-				"Quelque part sur le Plan Matériel, un {@creature revenant} se dresse. Ce revenant vous tient responsable de son existence et vous traque sans relâche pour assouvir sa vengeance. Le revenant existe jusqu'à ce qu'une année s'écoule, que le revenant vous tue, ou que vous utilisiez un {@spell Wish} sort pour le bannir définitivement dans l'au-delà."
+				"Quelque part sur le Plan Matériel, un {@creature revenant} se dresse. Ce revenant vous tient responsable de son existence et vous traque sans relâche pour assouvir sa vengeance. Le revenant existe jusqu'à ce qu'une année s'écoule, que le revenant vous tue, ou que vous utilisiez un {@spell Souhait} sort pour le bannir définitivement dans l'au-delà."
 			]
 		},
 		{
@@ -8422,7 +8422,7 @@
 				"height": 1229
 			},
 			"entries": [
-				"Cette carte noire annonce le désastre. Votre âme est extraite de votre corps et contenue dans un objet, en un lieu au choix du MD. Une ou plusieurs créatures puissantes gardent l'endroit. Tant que votre âme est piégée de cette façon, votre corps est {@condition Incapable}. Un {@spell wish} sort ne peut pas restaurer votre âme, mais le sort révèle l'emplacement de l'objet qui la contient. Vous ne tirez plus de cartes."
+				"Cette carte noire annonce le désastre. Votre âme est extraite de votre corps et contenue dans un objet, en un lieu au choix du MD. Une ou plusieurs créatures puissantes gardent l'endroit. Tant que votre âme est piégée de cette façon, votre corps est {@condition Incapable}. Un {@spell Souhait} sort ne peut pas restaurer votre âme, mais le sort révèle l'emplacement de l'objet qui la contient. Vous ne tirez plus de cartes."
 			]
 		},
 		{
@@ -8812,7 +8812,7 @@
 								{
 									"type": "item",
 									"name": "Créature ou Piège",
-									"entry": "Un piège impliquant des runes écrites (comme un {@spell Glyph of Warding} ou un {@spell Symbol} sort)."
+									"entry": "Un piège impliquant des runes écrites (comme un {@spell Glyphe de garde} ou un {@spell Symbole} sort)."
 								},
 								{
 									"type": "item",
@@ -11328,7 +11328,7 @@
 								{
 									"type": "item",
 									"name": "Lieu",
-									"entry": "Un lieu où la magie a causé des destructions, ne fonctionne pas (comme l'effet d'un {@spell Antimagic Field}), ou fonctionne de façon imprévisible (déclenchant peut-être des {@table Wild Magic Surge|PHB|surges de magie sauvage})."
+									"entry": "Un lieu où la magie a causé des destructions, ne fonctionne pas (comme l'effet d'un {@spell Antichamp magique}), ou fonctionne de façon imprévisible (déclenchant peut-être des {@table Wild Magic Surge|PHB|surges de magie sauvage})."
 								},
 								{
 									"type": "item",
@@ -11947,7 +11947,7 @@
 								{
 									"type": "item",
 									"name": "Trésor",
-									"entry": "Un objet d'art représentant une route ou un chemin, ou un objet magique qui permet la divination (comme une {@item Boule de cristal} ou un {@item Parchemin de sort (niveau 6)|DMG|Parchemin de sort} de {@spell Find the Path})."
+									"entry": "Un objet d'art représentant une route ou un chemin, ou un objet magique qui permet la divination (comme une {@item Boule de cristal} ou un {@item Parchemin de sort (niveau 6)|DMG|Parchemin de sort} de {@spell Trouver le chemin})."
 								},
 								{
 									"type": "item",
@@ -16522,7 +16522,7 @@
 				"credit": "Tinnel Lovitt"
 			},
 			"entries": [
-				"En utilisant une action, vous pouvez brandir cette carte vers une créature que vous pouvez voir à 9 mètres ou moins de vous et tenter de la pétrifier. La cible doit réussir un jet de sauvegarde de Constitution (DD {@dc 17}), sinon elle commence à se changer en pierre et a l'{@condition Entravé} état. La cible affectée doit répéter le jet de sauvegarde à la fin de son tour suivant. En cas de réussite, l'effet prend fin sur la cible. En cas d'échec, la cible a l'{@condition Pétrifié} état (au lieu de l'{@condition Entravé} état) jusqu'à ce qu'il soit levé par le {@spell Greater Restoration} sort ou une magie similaire. Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
+				"En utilisant une action, vous pouvez brandir cette carte vers une créature que vous pouvez voir à 9 mètres ou moins de vous et tenter de la pétrifier. La cible doit réussir un jet de sauvegarde de Constitution (DD {@dc 17}), sinon elle commence à se changer en pierre et a l'{@condition Entravé} état. La cible affectée doit répéter le jet de sauvegarde à la fin de son tour suivant. En cas de réussite, l'effet prend fin sur la cible. En cas d'échec, la cible a l'{@condition Pétrifié} état (au lieu de l'{@condition Entravé} état) jusqu'à ce qu'il soit levé par le {@spell Restauration supérieure} sort ou une magie similaire. Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
 			]
 		},
 		{
@@ -16617,7 +16617,7 @@
 				"credit": "Harry Conway"
 			},
 			"entries": [
-				"En utilisant une action, vous pouvez brandir cette carte et l'utiliser pour lancer le {@spell Otto's Irresistible Dance} sort (DD de sauvegarde {@dc 17}), et vous avez un avantage aux jets de sauvegarde de Constitution pour maintenir votre concentration dessus. Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
+				"En utilisant une action, vous pouvez brandir cette carte et l'utiliser pour lancer le {@spell Danse irrésistible d'Otto} sort (DD de sauvegarde {@dc 17}), et vous avez un avantage aux jets de sauvegarde de Constitution pour maintenir votre concentration dessus. Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
 			]
 		},
 		{
@@ -16636,7 +16636,7 @@
 				"credit": "Tinnel Lovitt"
 			},
 			"entries": [
-				"En utilisant une action, vous pouvez brandir cette carte et l'utiliser pour lancer le {@spell Knock} sort, sans que le sort ne fasse de bruit. Cette propriété peut être utilisée cinq fois, et elle regagne toutes ses utilisations dépensées à l'aube."
+				"En utilisant une action, vous pouvez brandir cette carte et l'utiliser pour lancer le {@spell Crochetage} sort, sans que le sort ne fasse de bruit. Cette propriété peut être utilisée cinq fois, et elle regagne toutes ses utilisations dépensées à l'aube."
 			]
 		},
 		{
@@ -16696,7 +16696,7 @@
 				"credit": "Tinnel Lovitt"
 			},
 			"entries": [
-				"En utilisant une action, vous pouvez lever cette carte au-dessus de vous et désactiver magiquement chaque piège se trouvant à 18 mètres ou moins de vous qui n'est pas protégé par une {@quickref cover||3||total cover}. Un piège, aux fins de cette propriété, comprend tout objet ou mécanisme susceptible d'infliger un effet soudain voulu par son créateur pour causer du tort ou des désagréments. Si le piège est l'effet d'un sort, tel que {@spell Alarm}, ce piège est supprimé pendant 10 minutes au lieu d'être désactivé. Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
+				"En utilisant une action, vous pouvez lever cette carte au-dessus de vous et désactiver magiquement chaque piège se trouvant à 18 mètres ou moins de vous qui n'est pas protégé par une {@quickref cover||3||total cover}. Un piège, aux fins de cette propriété, comprend tout objet ou mécanisme susceptible d'infliger un effet soudain voulu par son créateur pour causer du tort ou des désagréments. Si le piège est l'effet d'un sort, tel que {@spell Alarme}, ce piège est supprimé pendant 10 minutes au lieu d'être désactivé. Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
 			]
 		},
 		{
@@ -16734,7 +16734,7 @@
 				"credit": "Andrea Sipl"
 			},
 			"entries": [
-				"En utilisant une action, vous pouvez brandir cette carte et l'utiliser pour lancer le {@spell Disintegrate} sort (DD de sauvegarde {@dc 17}). Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
+				"En utilisant une action, vous pouvez brandir cette carte et l'utiliser pour lancer le {@spell Désintégration} sort (DD de sauvegarde {@dc 17}). Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
 			]
 		},
 		{
@@ -16756,7 +16756,7 @@
 				"credit": "Joanna Barnum"
 			},
 			"entries": [
-				"En utilisant une action, vous pouvez brandir cette carte et l'utiliser pour lancer le {@spell Contact Other Plane} sort. Lorsque vous lancez le sort de cette façon, vos questions reçoivent les réponses de la figure mystérieuse représentée sur la carte. Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
+				"En utilisant une action, vous pouvez brandir cette carte et l'utiliser pour lancer le {@spell Contact avec les autres plans} sort. Lorsque vous lancez le sort de cette façon, vos questions reçoivent les réponses de la figure mystérieuse représentée sur la carte. Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
 			]
 		},
 		{
@@ -16813,7 +16813,7 @@
 				"credit": "Vallez Gax"
 			},
 			"entries": [
-				"En utilisant une action, vous pouvez brandir cette carte et l'utiliser pour lancer le {@spell Sunbeam} sort (DD de sauvegarde {@dc 17}), en projetant la lumière depuis la face de la carte. Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
+				"En utilisant une action, vous pouvez brandir cette carte et l'utiliser pour lancer le {@spell Rayon solaire} sort (DD de sauvegarde {@dc 17}), en projetant la lumière depuis la face de la carte. Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
 			]
 		},
 		{
@@ -16851,7 +16851,7 @@
 				"credit": "Andrea Sipl"
 			},
 			"entries": [
-				"En utilisant une action, vous pouvez prononcer un mot de commande tout en tenant cette carte pour obtenir un avantage aux jets de Charisme ({@skill Intimidation} ou {@skill Persuasion}) pendant 1 minute. De plus, pendant cette durée, vous pouvez utiliser cette carte pour lancer le {@spell Command} sort (DD de sauvegarde {@dc 17}) en utilisant une action. Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
+				"En utilisant une action, vous pouvez prononcer un mot de commande tout en tenant cette carte pour obtenir un avantage aux jets de Charisme ({@skill Intimidation} ou {@skill Persuasion}) pendant 1 minute. De plus, pendant cette durée, vous pouvez utiliser cette carte pour lancer le {@spell Ordre} sort (DD de sauvegarde {@dc 17}) en utilisant une action. Une fois cette propriété utilisée, elle ne peut l'être à nouveau avant l'aube suivante."
 			]
 		},
 		{
@@ -16927,7 +16927,7 @@
 				"height": 959
 			},
 			"entries": [
-				"Vous disparaissez et vous retrouvez enseveli dans un état d'animation suspendue dans une sphère extradimensionnelle. Tout ce que vous portiez et transportiez reste derrière vous, dans l'espace que vous occupiez au moment de votre disparition. Vous restez emprisonné jusqu'à ce qu'on vous trouve et vous extraie de la sphère. Aucune magie de divination ne peut vous localiser, mais un {@spell wish} sort peut révéler l'emplacement de votre prison. Vous ne tirez plus de cartes."
+				"Vous disparaissez et vous retrouvez enseveli dans un état d'animation suspendue dans une sphère extradimensionnelle. Tout ce que vous portiez et transportiez reste derrière vous, dans l'espace que vous occupiez au moment de votre disparition. Vous restez emprisonné jusqu'à ce qu'on vous trouve et vous extraie de la sphère. Aucune magie de divination ne peut vous localiser, mais un {@spell Souhait} sort peut révéler l'emplacement de votre prison. Vous ne tirez plus de cartes."
 			]
 		},
 		{
@@ -17098,7 +17098,7 @@
 				"height": 959
 			},
 			"entries": [
-				"Il vous est accordé la capacité de lancer le {@spell wish} sort {@dice 1d3} fois."
+				"Il vous est accordé la capacité de lancer le {@spell Souhait} sort {@dice 1d3} fois."
 			]
 		},
 		{
@@ -17117,7 +17117,7 @@
 				"height": 959
 			},
 			"entries": [
-				"Un personnage joueur au choix du DM devient hostile à votre égard. L'identité de votre nouvel ennemi n'est pas connue tant que le PNJ ou quelqu'un d'autre ne la révèle. Rien de moins qu'un {@spell wish} sort ou une intervention divine ne peut mettre fin à l'hostilité du PNJ à votre égard."
+				"Un personnage joueur au choix du DM devient hostile à votre égard. L'identité de votre nouvel ennemi n'est pas connue tant que le PNJ ou quelqu'un d'autre ne la révèle. Rien de moins qu'un {@spell Souhait} sort ou une intervention divine ne peut mettre fin à l'hostilité du PNJ à votre égard."
 			]
 		},
 		{
@@ -17250,7 +17250,7 @@
 				"height": 959
 			},
 			"entries": [
-				"Cette carte noire annonce le désastre. Votre âme est extraite de votre corps et contenue dans un objet, en un lieu au choix du MD. Une ou plusieurs créatures puissantes gardent l'endroit. Tant que votre âme est piégée de cette façon, votre corps est {@condition Incapable}. Un {@spell wish} sort ne peut pas restaurer votre âme, mais le sort révèle l'emplacement de l'objet qui la contient. Vous ne tirez plus de cartes."
+				"Cette carte noire annonce le désastre. Votre âme est extraite de votre corps et contenue dans un objet, en un lieu au choix du MD. Une ou plusieurs créatures puissantes gardent l'endroit. Tant que votre âme est piégée de cette façon, votre corps est {@condition Incapable}. Un {@spell Souhait} sort ne peut pas restaurer votre âme, mais le sort révèle l'emplacement de l'objet qui la contient. Vous ne tirez plus de cartes."
 			]
 		},
 		{
@@ -17348,7 +17348,7 @@
 				"credit": "Jim Zaccaria"
 			},
 			"entries": [
-				"Vous disparaissez et vous retrouvez enseveli dans un état d'animation suspendue dans une sphère extradimensionnelle. Tout ce que vous portez et transportez disparaît avec vous, à l'exception des Artéfacts, qui restent sur place dans l'espace que vous occupiez au moment de votre disparition. Vous restez emprisonné jusqu'à ce qu'on vous trouve et vous extraie de la sphère. Aucune magie de Divination ne peut vous localiser, mais un {@spell Wish|XPHB} sort peut révéler l'emplacement de votre prison. Vous ne tirez plus de cartes."
+				"Vous disparaissez et vous retrouvez enseveli dans un état d'animation suspendue dans une sphère extradimensionnelle. Tout ce que vous portez et transportez disparaît avec vous, à l'exception des Artéfacts, qui restent sur place dans l'espace que vous occupiez au moment de votre disparition. Vous restez emprisonné jusqu'à ce qu'on vous trouve et vous extraie de la sphère. Aucune magie de Divination ne peut vous localiser, mais un {@spell Souhait|XPHB} sort peut révéler l'emplacement de votre prison. Vous ne tirez plus de cartes."
 			]
 		},
 		{
@@ -17528,7 +17528,7 @@
 				"credit": "Vallez Gax"
 			},
 			"entries": [
-				"Vous obtenez la capacité de lancer {@spell Wish|XPHB} {@dice 1d3} fois."
+				"Vous obtenez la capacité de lancer {@spell Souhait|XPHB} {@dice 1d3} fois."
 			]
 		},
 		{
@@ -17568,7 +17568,7 @@
 				"credit": "Harry Conway"
 			},
 			"entries": [
-				"Un PNJ au choix du MD devient {@variantrule Hostile [Attitude]|XPHB|Hostile} à votre égard. Vous ne connaissez pas l'identité de ce PNJ tant qu'il ou quelqu'un d'autre ne la révèle. Rien de moins qu'un {@spell Wish|XPHB} sort ou une intervention divine ne peut mettre fin à l'hostilité du PNJ à votre égard."
+				"Un PNJ au choix du MD devient {@variantrule Hostile [Attitude]|XPHB|Hostile} à votre égard. Vous ne connaissez pas l'identité de ce PNJ tant qu'il ou quelqu'un d'autre ne la révèle. Rien de moins qu'un {@spell Souhait|XPHB} sort ou une intervention divine ne peut mettre fin à l'hostilité du PNJ à votre égard."
 			]
 		},
 		{
@@ -17728,7 +17728,7 @@
 				"credit": "Alex Dos Diaz"
 			},
 			"entries": [
-				"Votre âme est extraite de votre corps et contenue dans un objet, en un lieu au choix du MD. Une ou plusieurs créatures puissantes gardent l'endroit. Tant que votre âme est piégée de cette façon, votre corps est inerte, cesse de vieillir et n'a besoin ni de nourriture, ni d'air, ni d'eau. Un {@spell Wish|XPHB} sort ne peut pas rendre votre âme à votre corps, mais le sort révèle l'emplacement de l'objet qui contient votre âme. Vous ne tirez plus de cartes."
+				"Votre âme est extraite de votre corps et contenue dans un objet, en un lieu au choix du MD. Une ou plusieurs créatures puissantes gardent l'endroit. Tant que votre âme est piégée de cette façon, votre corps est inerte, cesse de vieillir et n'a besoin ni de nourriture, ni d'air, ni d'eau. Un {@spell Souhait|XPHB} sort ne peut pas rendre votre âme à votre corps, mais le sort révèle l'emplacement de l'objet qui contient votre âme. Vous ne tirez plus de cartes."
 			]
 		},
 		{
@@ -18088,7 +18088,7 @@
 				"height": 959
 			},
 			"entries": [
-				"Cette carte noire annonce le désastre. Votre âme est extraite de votre corps et retenue dans une machine, soit dans la salle de contrôle du Monastère du Corps Angoissé (zone M8), soit dans le laboratoire de Kwalish à Daoine Gloine (zone O7), selon lequel vient en dernier dans l'aventure. Tant que votre âme est piégée de cette façon, votre corps est {@condition Incapable}. {@spell Divination}, {@spell contact other plane}, ou un sort similaire de niveau 4 ou supérieur révèle l'emplacement de la machine qui retient votre âme. Vous ne tirez plus de cartes."
+				"Cette carte noire annonce le désastre. Votre âme est extraite de votre corps et retenue dans une machine, soit dans la salle de contrôle du Monastère du Corps Angoissé (zone M8), soit dans le laboratoire de Kwalish à Daoine Gloine (zone O7), selon lequel vient en dernier dans l'aventure. Tant que votre âme est piégée de cette façon, votre corps est {@condition Incapable}. {@spell Divination}, {@spell Contact avec les autres plans}, ou un sort similaire de niveau 4 ou supérieur révèle l'emplacement de la machine qui retient votre âme. Vous ne tirez plus de cartes."
 			]
 		},
 		{
@@ -18181,7 +18181,7 @@
 				"height": 2233
 			},
 			"entries": [
-				"Dans les 8 heures suivant le tirage de cette carte, vous pouvez lancer une fois {@spell Augury} en utilisant une action, sans composantes matérielles. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix)."
+				"Dans les 8 heures suivant le tirage de cette carte, vous pouvez lancer une fois {@spell Augure} en utilisant une action, sans composantes matérielles. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix)."
 			]
 		},
 		{
@@ -18238,7 +18238,7 @@
 				"height": 2233
 			},
 			"entries": [
-				"Vous apprenez le tour de magie {@spell Friends}. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix). Si vous connaissez déjà ce tour de magie, la carte n'a aucun effet."
+				"Vous apprenez le tour de magie {@spell Ami}. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix). Si vous connaissez déjà ce tour de magie, la carte n'a aucun effet."
 			]
 		},
 		{
@@ -18314,7 +18314,7 @@
 				"height": 2233
 			},
 			"entries": [
-				"Cette carte draine surnaturellement votre énergie. Vous avez un désavantage aux jets d'initiative. Cet effet dure jusqu'à ce que vous terminiez un repos long, mais il peut être interrompu plus tôt par un {@spell Remove Curse} sort ou une magie similaire."
+				"Cette carte draine surnaturellement votre énergie. Vous avez un désavantage aux jets d'initiative. Cet effet dure jusqu'à ce que vous terminiez un repos long, mais il peut être interrompu plus tôt par un {@spell Délivrance de la malédiction} sort ou une magie similaire."
 			]
 		},
 		{
@@ -18333,7 +18333,7 @@
 				"height": 2233
 			},
 			"entries": [
-				"Cette carte est un présage de mort. Vous subissez {@damage 2d10} dégâts nécrotiques, et votre maximum de points de vie est réduit d'un montant égal aux dégâts subis. Cet effet ne peut pas réduire votre maximum de points de vie au-dessous de 10 points de vie. Cette réduction dure jusqu'à ce que vous terminiez un repos long, mais elle peut être interrompue plus tôt par un {@spell Remove Curse} sort ou une magie similaire."
+				"Cette carte est un présage de mort. Vous subissez {@damage 2d10} dégâts nécrotiques, et votre maximum de points de vie est réduit d'un montant égal aux dégâts subis. Cet effet ne peut pas réduire votre maximum de points de vie au-dessous de 10 points de vie. Cette réduction dure jusqu'à ce que vous terminiez un repos long, mais elle peut être interrompue plus tôt par un {@spell Délivrance de la malédiction} sort ou une magie similaire."
 			]
 		},
 		{
@@ -18409,7 +18409,7 @@
 				"height": 2233
 			},
 			"entries": [
-				"Vous obtenez la capacité de lancer {@spell Knock} {@dice 1d3} fois. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix)."
+				"Vous obtenez la capacité de lancer {@spell Crochetage} {@dice 1d3} fois. Utilisez votre Intelligence, votre Sagesse ou votre Charisme comme caractéristique d'incantation (à votre choix)."
 			]
 		},
 		{
@@ -18447,7 +18447,7 @@
 				"height": 2233
 			},
 			"entries": [
-				"Le visage monstrueux de cette carte vous maudit. Tant que vous êtes maudit de cette façon, chaque fois que vous effectuez un jet de sauvegarde, vous devez lancer {@dice 1d4} et soustraire le résultat du total. La malédiction dure jusqu'à ce que vous terminiez un repos long, mais elle peut être interrompue plus tôt par un {@spell Remove Curse} sort ou une magie similaire."
+				"Le visage monstrueux de cette carte vous maudit. Tant que vous êtes maudit de cette façon, chaque fois que vous effectuez un jet de sauvegarde, vous devez lancer {@dice 1d4} et soustraire le résultat du total. La malédiction dure jusqu'à ce que vous terminiez un repos long, mais elle peut être interrompue plus tôt par un {@spell Délivrance de la malédiction} sort ou une magie similaire."
 			]
 		},
 		{
@@ -18565,7 +18565,7 @@
 					"type": "entries",
 					"name": "Effet de malédiction :",
 					"entries": [
-						"La cible doit réussir un jet de sauvegarde de Constitution, sinon elle ne peut regagner de points de vie tant qu'un {@spell remove curse} ou un {@spell greater restoration} sort n'a pas été lancé sur elle."
+						"La cible doit réussir un jet de sauvegarde de Constitution, sinon elle ne peut regagner de points de vie tant qu'un {@spell Délivrance de la malédiction} ou un {@spell Restauration supérieure} sort n'a pas été lancé sur elle."
 					]
 				},
 				{
@@ -18636,7 +18636,7 @@
 					"type": "entries",
 					"name": "Effet de bénédiction :",
 					"entries": [
-						"La cible récupère ses emplacements de sorts dépensés de niveau 6 ou inférieur. Si la cible n'a aucun emplacement de sort à récupérer, un bouclier magique entoure plutôt la cible pendant 1 heure. Ce bouclier accorde à la cible une résistance à tous les dégâts et ne peut être dissipé, bien qu'un contact avec un {@spell antimagic field} le détruise."
+						"La cible récupère ses emplacements de sorts dépensés de niveau 6 ou inférieur. Si la cible n'a aucun emplacement de sort à récupérer, un bouclier magique entoure plutôt la cible pendant 1 heure. Ce bouclier accorde à la cible une résistance à tous les dégâts et ne peut être dissipé, bien qu'un contact avec un {@spell Antichamp magique} le détruise."
 					]
 				}
 			]
@@ -18764,7 +18764,7 @@
 					"type": "entries",
 					"name": "Effet de bénédiction :",
 					"entries": [
-						"La cible peut lancer le {@spell augury} sort en utilisant une action trois fois, sans composantes et sans risque de lecture aléatoire."
+						"La cible peut lancer le {@spell Augure} sort en utilisant une action trois fois, sans composantes et sans risque de lecture aléatoire."
 					]
 				}
 			]
@@ -18832,8 +18832,8 @@
 						{
 							"type": "list",
 							"items": [
-								"Les effets du {@spell freedom of movement} sort",
-								"La capacité de lancer le {@spell knock} sort à volonté, sans composantes"
+								"Les effets du {@spell Liberté de mouvement} sort",
+								"La capacité de lancer le {@spell Crochetage} sort à volonté, sans composantes"
 							]
 						}
 					]

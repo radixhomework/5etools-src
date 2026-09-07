@@ -91,7 +91,7 @@
 					"daily": {
 						"1e": [
 							"{@spell confusion}",
-							"{@spell crown of madness}",
+							"{@spell Couronne de folie}",
 							"{@spell suggestion}"
 						]
 					},
@@ -336,14 +336,14 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell cure wounds}",
-							"{@spell charm person}",
-							"{@spell sleep}"
+							"{@spell Soins}",
+							"{@spell Charmement}",
+							"{@spell Sommeil}"
 						],
 						"1e": [
-							"{@spell calm emotions}",
-							"{@spell lesser restoration}",
-							"{@spell plant growth}"
+							"{@spell Apaisement}",
+							"{@spell Restauration partielle}",
+							"{@spell Croissance végétale}"
 						]
 					},
 					"ability": "cha"
@@ -962,14 +962,14 @@
 						"The archon's spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The archon can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell command}",
-						"{@spell guiding bolt}",
-						"{@spell spare the dying}"
+						"{@spell Ordre}",
+						"{@spell Trait de lumière}",
+						"{@spell Aide aux mourants}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell crusader's mantle}",
-							"{@spell spirit guardians}"
+							"{@spell Cape du croisé}",
+							"{@spell Esprits gardiens}"
 						]
 					},
 					"ability": "wis"
@@ -1013,7 +1013,7 @@
 				{
 					"name": "Attack",
 					"entries": [
-						"The archon makes a radiant spear attack or casts {@spell guiding bolt}."
+						"The archon makes a radiant spear attack or casts {@spell Trait de lumière}."
 					]
 				},
 				{
@@ -1143,13 +1143,13 @@
 						"The ashen rider's spellcasting ability is Wisdom (spell save {@dc 18}). The rider can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell command}",
-						"{@spell compelled duel}"
+						"{@spell Ordre}",
+						"{@spell Duel forcé}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell banishment}",
-							"{@spell blade barrier}"
+							"{@spell Bannissement}",
+							"{@spell Mur de lames}"
 						]
 					},
 					"ability": "wis"
@@ -1206,7 +1206,7 @@
 				{
 					"name": "Reduce to Ash (Costs 3 Actions)",
 					"entries": [
-						"The ashen rider targets a creature it can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, or it takes 27 ({@damage 5d10}) necrotic damage and its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. If the target's hit point maximum is reduced to 0, its body and everything it is wearing and carrying, except for magic items, are reduced to ash. A creature reduced to ash can't be revived by any means short of a {@spell wish} spell."
+						"The ashen rider targets a creature it can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, or it takes 27 ({@damage 5d10}) necrotic damage and its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. If the target's hit point maximum is reduced to 0, its body and everything it is wearing and carrying, except for magic items, are reduced to ash. A creature reduced to ash can't be revived by any means short of a {@spell Souhait} spell."
 					]
 				}
 			],
@@ -2902,11 +2902,11 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Hythonia's spellcasting ability is Charisma (spell save {@dc 18}). She can innately cast {@spell animate objects} once per day requiring no material components."
+						"Hythonia's spellcasting ability is Charisma (spell save {@dc 18}). She can innately cast {@spell Animation d'objets} once per day requiring no material components."
 					],
 					"daily": {
 						"1": [
-							"{@spell animate objects}"
+							"{@spell Animation d'objets}"
 						]
 					},
 					"ability": "cha"
@@ -2922,7 +2922,7 @@
 				{
 					"name": "Petrifying Gaze",
 					"entries": [
-						"When a creature that can see Hythonia's eyes starts its turn within 30 feet of her, Hythonia can force it to make a {@dc 18} Constitution saving throw if she isn't {@condition Incapable} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition Pétrifié}. Otherwise, on a failed save the creature begins to turn to stone and is {@condition Entravé}. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn, becoming {@condition Pétrifié} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic. Unless {@status Surpris}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Hythonia until the start of its next turn, when it can avert its eyes again. If the creature looks at Hythonia in the meantime, it must immediately make the save. If Hythonia sees herself reflected on a polished surface within 30 feet of her and in an area of bright light, she is affected by her own gaze."
+						"When a creature that can see Hythonia's eyes starts its turn within 30 feet of her, Hythonia can force it to make a {@dc 18} Constitution saving throw if she isn't {@condition Incapable} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition Pétrifié}. Otherwise, on a failed save the creature begins to turn to stone and is {@condition Entravé}. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn, becoming {@condition Pétrifié} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell Restauration supérieure} spell or other magic. Unless {@status Surpris}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Hythonia until the start of its next turn, when it can avert its eyes again. If the creature looks at Hythonia in the meantime, it must immediately make the save. If Hythonia sees herself reflected on a polished surface within 30 feet of her and in an area of bright light, she is affected by her own gaze."
 					]
 				},
 				{
@@ -3230,8 +3230,8 @@
 						"The lampad's spellcasting ability is Charisma ({@hit 6} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell chill touch} (see \"Actions\" below)",
-						"{@spell gentle repose}"
+						"{@spell Main glaciale} (see \"Actions\" below)",
+						"{@spell Conservation des corps}"
 					],
 					"ability": "cha"
 				}
@@ -3359,8 +3359,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell banishment}",
-							"{@spell detect evil and good}"
+							"{@spell Bannissement}",
+							"{@spell Détection du mal et du bien}"
 						]
 					},
 					"ability": "wis"
@@ -3531,25 +3531,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
-								"{@spell minor illusion}",
-								"{@spell ray of frost} (see \"Actions\" below)"
+								"{@spell Main du mage}",
+								"{@spell Illusion mineure}",
+								"{@spell Rayon de gel} (see \"Actions\" below)"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell color spray}",
-								"{@spell expeditious retreat}",
-								"{@spell sleep}"
+								"{@spell Gerbe colorée}",
+								"{@spell Retrait expéditif}",
+								"{@spell Sommeil}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
-								"{@spell blur}",
-								"{@spell cloud of daggers}",
-								"{@spell invisibility}"
+								"{@spell Distorsion}",
+								"{@spell Nuage de dagues}",
+								"{@spell Invisibilité}"
 							]
 						}
 					},
@@ -3693,15 +3693,15 @@
 						"The naiad's spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell minor illusion}"
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"3": [
-							"{@spell phantasmal force}"
+							"{@spell Force phantasmale}"
 						],
 						"1e": [
-							"{@spell fly}",
-							"{@spell hypnotic pattern}"
+							"{@spell Vol}",
+							"{@spell Motif hypnotique}"
 						]
 					},
 					"ability": "cha"
@@ -3850,8 +3850,8 @@
 					"daily": {
 						"1e": [
 							"{@spell confusion}",
-							"{@spell dispel magic}",
-							"{@spell hold person}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Immobiliser un personnage}",
 							"{@spell suggestion}"
 						]
 					},
@@ -4077,19 +4077,19 @@
 					],
 					"will": [
 						"{@spell guidance}",
-						"{@spell light}",
-						"{@spell thaumaturgy}"
+						"{@spell Lumière}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell bless}",
-							"{@spell guiding bolt}",
-							"{@spell healing word}",
-							"{@spell hold person}"
+							"{@spell Bénédiction}",
+							"{@spell Trait de lumière}",
+							"{@spell Mot de guérison}",
+							"{@spell Immobiliser un personnage}"
 						],
 						"1e": [
-							"{@spell augury}",
-							"{@spell scrying}"
+							"{@spell Augure}",
+							"{@spell Scrutation}"
 						]
 					},
 					"ability": "wis"
@@ -4207,15 +4207,15 @@
 						"The oread's spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell fire bolt} (see \"Actions\" below)"
+						"{@spell Trait de feu} (see \"Actions\" below)"
 					],
 					"daily": {
 						"3": [
-							"{@spell burning hands}"
+							"{@spell Mains brûlantes}"
 						],
 						"1e": [
-							"{@spell hellish rebuke} (see \"Reactions\" below)",
-							"{@spell scorching ray}"
+							"{@spell Réprobation infernale} (see \"Reactions\" below)",
+							"{@spell Rayons brûlants}"
 						]
 					},
 					"ability": "cha"
@@ -5530,16 +5530,16 @@
 						"The triton's spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell ray of frost} (see \"Actions\" below)"
+						"{@spell Rayon de gel} (see \"Actions\" below)"
 					],
 					"daily": {
 						"2": [
-							"{@spell cone of cold}"
+							"{@spell Cône de froid}"
 						],
 						"1e": [
-							"{@spell fog cloud}",
-							"{@spell gust of wind}",
-							"{@spell wind wall}"
+							"{@spell Nuage de brouillard}",
+							"{@spell Rafale}",
+							"{@spell Mur de vent}"
 						]
 					},
 					"ability": "cha"
@@ -5563,7 +5563,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The triton makes two attacks using Wave Touch and casts {@spell ray of frost}."
+						"The triton makes two attacks using Wave Touch and casts {@spell Rayon de gel}."
 					]
 				},
 				{
@@ -5681,8 +5681,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell fog cloud}",
-							"{@spell gust of wind}"
+							"{@spell Nuage de brouillard}",
+							"{@spell Rafale}"
 						]
 					},
 					"ability": "wis"
@@ -6537,7 +6537,7 @@
 				{
 					"name": "Antimagic Cone",
 					"entries": [
-						"The woe strider's open mouth creates an area of antimagic, as in the {@spell antimagic field} spell, in a 60-foot cone. At the start of each of its turns, the woe strider decides which way the cone faces and whether its mouth is open or closed."
+						"The woe strider's open mouth creates an area of antimagic, as in the {@spell Antichamp magique} spell, in a 60-foot cone. At the start of each of its turns, the woe strider decides which way the cone faces and whether its mouth is open or closed."
 					]
 				}
 			],

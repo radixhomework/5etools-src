@@ -326,21 +326,21 @@
 						"The brain's innate spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell chill touch} (see \"Actions\" below)",
-						"{@spell detect thoughts}",
-						"{@spell mage hand}",
-						"{@spell zone of truth}"
+						"{@spell Main glaciale} (see \"Actions\" below)",
+						"{@spell Détection de pensées}",
+						"{@spell Main du mage}",
+						"{@spell Zone de vérité}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell charm person}",
-							"{@spell hold person}"
+							"{@spell Charmement}",
+							"{@spell Immobiliser un personnage}"
 						],
 						"1e": [
-							"{@spell compulsion}",
-							"{@spell hold monster}",
-							"{@spell sleep} (3rd-level version)",
-							"{@spell Tasha's hideous laughter}"
+							"{@spell Contrainte}",
+							"{@spell Immobilisation de monstre}",
+							"{@spell Sommeil} (3rd-level version)",
+							"{@spell Rire hideux de Tasha}"
 						]
 					},
 					"ability": "int"
@@ -350,7 +350,7 @@
 				{
 					"name": "Detect Sentience",
 					"entries": [
-						"The brain can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a {@spell mind blank} spell."
+						"The brain can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a {@spell Vide mental} spell."
 					]
 				},
 				{
@@ -590,8 +590,8 @@
 				{
 					"name": "Soul Swap",
 					"entries": [
-						"The carrionette targets a creature it can see within 15 feet of it that is cursed by its Silver Needle. Unless the target is protected by a {@spell protection from evil and good} spell, it must succeed on a {@dc 12} Charisma saving throw or have its consciousness swapped with the carrionette. The carrionette gains control of the target's body, and the target is {@condition Inconscient} for 1 hour, after which it gains control of the carrionette's body. While controlling the target's body, the carrionette retains its Intelligence, Wisdom, and Charisma scores. It otherwise uses the controlled body's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
-						"If the carrionette's body is destroyed, both the carrionette and the target die. A {@spell protection from evil and good} spell cast on the controlled body drives the carrionette out and returns the consciousness of both creatures to their original bodies. The swap is also undone if the controlled body takes damage from the carrionette's Silver Needle."
+						"The carrionette targets a creature it can see within 15 feet of it that is cursed by its Silver Needle. Unless the target is protected by a {@spell Protection contre le mal et le bien} spell, it must succeed on a {@dc 12} Charisma saving throw or have its consciousness swapped with the carrionette. The carrionette gains control of the target's body, and the target is {@condition Inconscient} for 1 hour, after which it gains control of the carrionette's body. While controlling the target's body, the carrionette retains its Intelligence, Wisdom, and Charisma scores. It otherwise uses the controlled body's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"If the carrionette's body is destroyed, both the carrionette and the target die. A {@spell Protection contre le mal et le bien} spell cast on the controlled body drives the carrionette out and returns the consciousness of both creatures to their original bodies. The swap is also undone if the controlled body takes damage from the carrionette's Silver Needle."
 					]
 				}
 			],
@@ -1456,18 +1456,18 @@
 						"The inquisitor casts one of the following spells, requiring no components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell arcane eye}",
-						"{@spell calm emotions}",
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell dispel magic}",
-						"{@spell sending}",
+						"{@spell Œil magique}",
+						"{@spell Apaisement}",
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Envoi de message}",
 						"{@spell suggestion}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell mass suggestion}",
-							"{@spell modify memory}"
+							"{@spell Suggestion de groupe}",
+							"{@spell Modification de mémoire}"
 						]
 					},
 					"ability": "cha",
@@ -1607,16 +1607,16 @@
 						"The inquisitor casts one of the following spells, requiring no components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell dispel magic}",
-						"{@spell sending}"
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Envoi de message}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dimension door}",
-							"{@spell fly}",
-							"{@spell greater invisibility}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Vol}",
+							"{@spell Invisibilité supérieure}"
 						]
 					},
 					"ability": "wis",
@@ -1750,17 +1750,17 @@
 						"The inquisitor casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell levitate}",
-						"{@spell mage armor}",
-						"{@spell mage hand}",
-						"{@spell sending}"
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Lévitation}",
+						"{@spell Armure du mage}",
+						"{@spell Main du mage}",
+						"{@spell Envoi de message}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Otiluke's resilient sphere}",
-							"{@spell telekinesis}"
+							"{@spell Sphère résiliente d'Otiluke}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int",
@@ -1930,12 +1930,12 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell plane shift} (self only)"
+							"{@spell Déplacement planaire} (self only)"
 						],
 						"3e": [
-							"{@spell alter self}",
-							"{@spell command}",
-							"{@spell detect magic}"
+							"{@spell Changement d'apparence}",
+							"{@spell Ordre}",
+							"{@spell Détection de la magie}"
 						]
 					},
 					"ability": "cha"
@@ -2569,7 +2569,7 @@
 				{
 					"name": "Rejuvenation",
 					"entries": [
-						"Unless its lifeless remains are splashed with {@item Eau bénite (fiole)|PHB|holy water} or placed in a vessel under the effects of the {@spell hallow} spell, the destroyed necrichor re-forms in {@dice 1d10} days, regaining all its hits points and appearing in the place it died or in the nearest unoccupied space."
+						"Unless its lifeless remains are splashed with {@item Eau bénite (fiole)|PHB|holy water} or placed in a vessel under the effects of the {@spell Consécration} spell, the destroyed necrichor re-forms in {@dice 1d10} days, regaining all its hits points and appearing in the place it died or in the nearest unoccupied space."
 					]
 				},
 				{
@@ -3032,7 +3032,7 @@
 										"type": "entries",
 										"name": "Deathly",
 										"entries": [
-											"The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast {@spell animate dead} and {@spell create undead} once per day each, using Intelligence as the spellcasting ability, and it gains the following action:",
+											"The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast {@spell Animation des morts} and {@spell Création de morts-vivants} once per day each, using Intelligence as the spellcasting ability, and it gains the following action:",
 											{
 												"type": "entries",
 												"name": "Circle of Death (Spell; {@recharge 5|m})",
@@ -3117,14 +3117,14 @@
 							],
 							"will": [
 								{
-									"entry": "{@spell circle of death}",
+									"entry": "{@spell Cercle de mort}",
 									"hidden": true
 								}
 							],
 							"daily": {
 								"1e": [
-									"{@spell animate dead}",
-									"{@spell create undead}"
+									"{@spell Animation des morts}",
+									"{@spell Création de morts-vivants}"
 								]
 							},
 							"ability": "int",
@@ -4281,7 +4281,7 @@
 										"type": "entries",
 										"name": "Petrifying Hex {@recharge 5}",
 										"entries": [
-											"The horror expels petrifying gas in a 30-foot cone. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or take 14 ({@damage 4d6}) necrotic damage and be {@condition Entravé} as it begins to turn to stone. A {@condition Entravé} creature must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is {@condition Pétrifié} until freed by the {@spell greater restoration} spell or other magic."
+											"The horror expels petrifying gas in a 30-foot cone. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or take 14 ({@damage 4d6}) necrotic damage and be {@condition Entravé} as it begins to turn to stone. A {@condition Entravé} creature must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is {@condition Pétrifié} until freed by the {@spell Restauration supérieure} spell or other magic."
 										]
 									}
 								],

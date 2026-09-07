@@ -864,23 +864,23 @@
 						"Asmodeus casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 27}):"
 					],
 					"will": [
-						"{@spell Bane}",
-						"{@spell Bestow Curse}",
-						"{@spell Command}",
-						"{@spell Cure Wounds}",
-						"{@spell Darkness}",
-						"{@spell Lesser Restoration}",
-						"{@spell Remove Curse}"
+						"{@spell Fléau}",
+						"{@spell Malédiction}",
+						"{@spell Ordre}",
+						"{@spell Soins}",
+						"{@spell Ténèbres}",
+						"{@spell Restauration partielle}",
+						"{@spell Délivrance de la malédiction}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Antimagic Field}",
-							"{@spell Earthquake}",
-							"{@spell Flame Strike}",
-							"{@spell Gate}",
-							"{@spell Heal}",
-							"{@spell Mass Heal}",
-							"{@spell Wish}"
+							"{@spell Antichamp magique}",
+							"{@spell Séisme}",
+							"{@spell Colère sacrée}",
+							"{@spell Portail}",
+							"{@spell Guérison}",
+							"{@spell Guérison de masse}",
+							"{@spell Souhait}"
 						]
 					},
 					"ability": "wis",
@@ -970,7 +970,7 @@
 				{
 					"name": "Channel Ruby Rod",
 					"entries": [
-						"The Ruby Rod has 66 charges. Asmodeus may spend its charges to cast one of the following spells from it, with a spell save DC of 20: {@spell Lesser Restoration} (3 charges), {@spell Wall of Force} (7 charges), {@spell Greater Restoration} (12 charges), {@spell Chain Lightning} (15 charges), {@spell Prismatic Spray} (23 charges), {@spell Globe of Invulnerability} (33 charges)"
+						"The Ruby Rod has 66 charges. Asmodeus may spend its charges to cast one of the following spells from it, with a spell save DC of 20: {@spell Restauration partielle} (3 charges), {@spell Mur de force} (7 charges), {@spell Restauration supérieure} (12 charges), {@spell Chaîne d'éclairs} (15 charges), {@spell Jet prismatique} (23 charges), {@spell Globe d'invulnérabilité} (33 charges)"
 					]
 				},
 				{
@@ -1593,21 +1593,21 @@
 						"Baalzebul casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 24}):"
 					],
 					"will": [
-						"{@spell Animate Dead}",
-						"{@spell Darkness}",
-						"{@spell Detect Evil and Good}",
-						"{@spell Detect Magic}",
-						"{@spell Dispel Evil and Good}",
-						"{@spell Hallow}",
-						"{@spell Hold Monster}",
+						"{@spell Animation des morts}",
+						"{@spell Ténèbres}",
+						"{@spell Détection du mal et du bien}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation du mal et du bien}",
+						"{@spell Consécration}",
+						"{@spell Immobilisation de monstre}",
 						"{@spell Suggestion}",
-						"{@spell Teleport}",
-						"{@spell True Seeing}"
+						"{@spell Téléportation}",
+						"{@spell Vision véritable}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Symbol} (pain or insanity)",
-							"{@spell Wish}"
+							"{@spell Symbole} (pain or insanity)",
+							"{@spell Souhait}"
 						]
 					},
 					"ability": "cha",
@@ -1674,7 +1674,7 @@
 				{
 					"name": "Heart of Pestilence {@recharge 5}",
 					"entries": [
-						"Baalzebul channels pestilence into his body, sickening creatures within 50 feet that can see him. Sickened creatures must make a {@dc 21} Charisma saving throw, followed by a {@dc 21} Constitution saving throw. Failing the Charisma save makes a creature have the {@condition Effrayé} condition, while failing the Constitution save makes a creature weak. While weakened, a creature deals half damage on melee attacks. Both effects last for 1 minute or until a {@spell Greater Restoration} spell or similar is cast."
+						"Baalzebul channels pestilence into his body, sickening creatures within 50 feet that can see him. Sickened creatures must make a {@dc 21} Charisma saving throw, followed by a {@dc 21} Constitution saving throw. Failing the Charisma save makes a creature have the {@condition Effrayé} condition, while failing the Constitution save makes a creature weak. While weakened, a creature deals half damage on melee attacks. Both effects last for 1 minute or until a {@spell Restauration supérieure} spell or similar is cast."
 					]
 				}
 			],
@@ -1974,22 +1974,22 @@
 						"Bel casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 24}):"
 					],
 					"will": [
-						"{@spell Detect Magic}",
-						"{@spell Fireball}"
+						"{@spell Détection de la magie}",
+						"{@spell Boule de feu}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Dispel Magic}",
-							"{@spell Hold Monster}",
-							"{@spell Mirror Image}",
-							"{@spell Mislead}",
-							"{@spell Raise Dead}",
-							"{@spell Teleport}",
-							"{@spell Wall of Fire}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Immobilisation de monstre}",
+							"{@spell Image dédoublée}",
+							"{@spell Fourberie}",
+							"{@spell Relèvement}",
+							"{@spell Téléportation}",
+							"{@spell Mur de feu}"
 						],
 						"1e": [
-							"{@spell Imprisonment}",
-							"{@spell Meteor Swarm}"
+							"{@spell Emprisonnement}",
+							"{@spell Pluie de météores}"
 						]
 					},
 					"ability": "cha",
@@ -2040,7 +2040,7 @@
 				{
 					"name": "Fireball",
 					"entries": [
-						"Bel casts {@spell Fireball}."
+						"Bel casts {@spell Boule de feu}."
 					]
 				},
 				{
@@ -2500,7 +2500,7 @@
 				{
 					"name": "Mental Blocker",
 					"entries": [
-						"Adramalech fortifies the mind of a creature he can see within 60 feet of him, or himself. The target benefits as if the {@spell Greater Restoration} spell has been cast on them and is granted resistance to psychic damage until the end of Adramalech's next turn."
+						"Adramalech fortifies the mind of a creature he can see within 60 feet of him, or himself. The target benefits as if the {@spell Restauration supérieure} spell has been cast on them and is granted resistance to psychic damage until the end of Adramalech's next turn."
 					]
 				}
 			],
@@ -3036,18 +3036,18 @@
 						"The paeliryon casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Bestow Curse}",
-						"{@spell Command}",
-						"{@spell Darkness}",
-						"{@spell Hold Monster}",
-						"{@spell Major Image}"
+						"{@spell Malédiction}",
+						"{@spell Ordre}",
+						"{@spell Ténèbres}",
+						"{@spell Immobilisation de monstre}",
+						"{@spell Image majeure}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Antilife Shell}",
-							"{@spell Incendiary Cloud}",
-							"{@spell Scrying}",
-							"{@spell Weird}"
+							"{@spell Coque antivie}",
+							"{@spell Nuée incendiaire}",
+							"{@spell Scrutation}",
+							"{@spell Cauchemar}"
 						]
 					},
 					"ability": "int",
@@ -3752,21 +3752,21 @@
 						"Ekengarik casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell Detect Magic}",
-						"{@spell Dispel Magic}",
-						"{@spell Heroism}",
-						"{@spell Magic Missile}"
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Héroïsme}",
+						"{@spell Projectile magique}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Evard's Black Tentacles}",
-							"{@spell Cone of Cold}",
+							"{@spell Tentacules noirs d'Evard}",
+							"{@spell Cône de froid}",
 							"{@spell Confusion}",
-							"{@spell Dimension Door}",
+							"{@spell Porte dimensionnelle}",
 							"{@spell Geas}",
-							"{@spell Invisibility}",
-							"{@spell Prismatic Wall}",
-							"{@spell Slow}"
+							"{@spell Invisibilité}",
+							"{@spell Mur prismatique}",
+							"{@spell Lenteur}"
 						]
 					},
 					"ability": "cha",
@@ -4868,7 +4868,7 @@
 				{
 					"name": "Cloak of Shadows",
 					"entries": [
-						"The shadow bends darkness around itself, and now has the {@condition invisible} condition for 1 minute. The invisibility ends if the shadow is subjected to a {@spell Daylight} spell or similar."
+						"The shadow bends darkness around itself, and now has the {@condition invisible} condition for 1 minute. The invisibility ends if the shadow is subjected to a {@spell Lumière du jour} spell or similar."
 					]
 				},
 				{
@@ -5313,19 +5313,19 @@
 						"Jenevere casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
 					],
 					"will": [
-						"{@spell Bless}",
-						"{@spell Detect Evil and Good}"
+						"{@spell Bénédiction}",
+						"{@spell Détection du mal et du bien}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Foresight}"
+							"{@spell Prescience}"
 						],
 						"2e": [
-							"{@spell Commune}",
-							"{@spell Heal}",
-							"{@spell Legend Lore}",
-							"{@spell Raise Dead}",
-							"{@spell Scrying}"
+							"{@spell Communion}",
+							"{@spell Guérison}",
+							"{@spell Connaissance des légendes}",
+							"{@spell Relèvement}",
+							"{@spell Scrutation}"
 						]
 					},
 					"ability": "cha",
@@ -5454,23 +5454,23 @@
 						"Koh Tam casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell False Life}",
-						"{@spell Gentle Repose}",
-						"{@spell Lesser Restoration}",
-						"{@spell Protection from Evil and Good}",
-						"{@spell Speak with Dead}"
+						"{@spell Fausse vie}",
+						"{@spell Conservation des corps}",
+						"{@spell Restauration partielle}",
+						"{@spell Protection contre le mal et le bien}",
+						"{@spell Parler aux morts}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Antilife Shell}",
-							"{@spell Blight}",
-							"{@spell Death Ward}",
-							"{@spell Dispel Evil and Good}",
-							"{@spell Greater Restoration}",
-							"{@spell Raise Dead}",
-							"{@spell Regenerate}",
-							"{@spell Revivify}",
-							"{@spell Spiritual Weapon}"
+							"{@spell Coque antivie}",
+							"{@spell Ravage}",
+							"{@spell Protection contre la mort}",
+							"{@spell Dissipation du mal et du bien}",
+							"{@spell Restauration supérieure}",
+							"{@spell Relèvement}",
+							"{@spell Régénération}",
+							"{@spell Retour à la vie}",
+							"{@spell Arme spirituelle}"
 						]
 					},
 					"ability": "wis",
@@ -5671,7 +5671,7 @@
 				{
 					"name": "Cloak of Shadows",
 					"entries": [
-						"The shadow bends darkness around itself, and now has the {@condition invisible} condition for 1 minute. The invisibility ends if the shadow is subjected to a {@spell Daylight} spell or similar."
+						"The shadow bends darkness around itself, and now has the {@condition invisible} condition for 1 minute. The invisibility ends if the shadow is subjected to a {@spell Lumière du jour} spell or similar."
 					]
 				},
 				{
@@ -5803,10 +5803,10 @@
 						"Levistus casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 23}):"
 					],
 					"will": [
-						"{@spell Cone of Cold}",
-						"{@spell Darkness}",
-						"{@spell Ice Storm}",
-						"{@spell Wall of Ice}"
+						"{@spell Cône de froid}",
+						"{@spell Ténèbres}",
+						"{@spell Tempête de glace}",
+						"{@spell Mur de glace}"
 					],
 					"ability": "int",
 					"displayAs": "action"
@@ -5882,7 +5882,7 @@
 				{
 					"name": "Amnesia",
 					"entries": [
-						"Levistus selects a {@condition Étourdi} creature that he can see. The creature must succeed on a {@dc 23} Charisma saving throw or Levistus erases a specific memory from the target. The memory must be one that the target experienced in the last 24 hours and that lasted no more than 10 minutes. The memory can only be restored with a {@spell Remove Curse} or a {@spell Greater Restoration} spell."
+						"Levistus selects a {@condition Étourdi} creature that he can see. The creature must succeed on a {@dc 23} Charisma saving throw or Levistus erases a specific memory from the target. The memory must be one that the target experienced in the last 24 hours and that lasted no more than 10 minutes. The memory can only be restored with a {@spell Délivrance de la malédiction} or a {@spell Restauration supérieure} spell."
 					]
 				},
 				{
@@ -6427,27 +6427,27 @@
 						"Mephistopheles casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 26}):"
 					],
 					"will": [
-						"{@spell Darkness}",
-						"{@spell Detect Evil and Good}",
-						"{@spell Detect Magic}",
-						"{@spell Dispel Magic}",
+						"{@spell Ténèbres}",
+						"{@spell Détection du mal et du bien}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
 						"{@spell Geas} (duration 1 year)",
-						"{@spell Greater Restoration}",
-						"{@spell Hallow}",
-						"{@spell Hold Monster}",
-						"{@spell Locate Creature}",
-						"{@spell Locate Object}",
-						"{@spell Major Image}",
-						"{@spell Resurrection}",
-						"{@spell Scrying}",
+						"{@spell Restauration supérieure}",
+						"{@spell Consécration}",
+						"{@spell Immobilisation de monstre}",
+						"{@spell Localisation de créature}",
+						"{@spell Localisation d'objet}",
+						"{@spell Image majeure}",
+						"{@spell Résurrection}",
+						"{@spell Scrutation}",
 						"{@spell Suggestion}",
-						"{@spell Wall of Fire}"
+						"{@spell Mur de feu}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Meteor Swarm}",
-							"{@spell Symbol}",
-							"{@spell Wish}"
+							"{@spell Pluie de météores}",
+							"{@spell Symbole}",
+							"{@spell Souhait}"
 						]
 					},
 					"ability": "int",
@@ -7099,16 +7099,16 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell Aura of Purity}",
-							"{@spell Compelled Duel}",
-							"{@spell Crusader's Mantle}",
-							"{@spell Death Ward}",
-							"{@spell Dispel Evil and Good}",
-							"{@spell Find Steed}",
-							"{@spell Lesser Restoration}",
-							"{@spell Remove Curse}",
-							"{@spell Revivify}",
-							"{@spell Shield of Faith}"
+							"{@spell Aura de pureté}",
+							"{@spell Duel forcé}",
+							"{@spell Cape du croisé}",
+							"{@spell Protection contre la mort}",
+							"{@spell Dissipation du mal et du bien}",
+							"{@spell Trouver une monture}",
+							"{@spell Restauration partielle}",
+							"{@spell Délivrance de la malédiction}",
+							"{@spell Retour à la vie}",
+							"{@spell Bouclier de la foi}"
 						]
 					},
 					"ability": "cha",
@@ -7509,23 +7509,23 @@
 						"Sarevok casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell Resistance}",
-						"{@spell Thaumaturgy}"
+						"{@spell Résistance}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Animate Dead}",
-							"{@spell Antimagic Field}",
-							"{@spell Astral Projection}",
-							"{@spell Blade Barrier}",
-							"{@spell Command}",
+							"{@spell Animation des morts}",
+							"{@spell Antichamp magique}",
+							"{@spell Projection astrale}",
+							"{@spell Mur de lames}",
+							"{@spell Ordre}",
 							"{@spell Contagion}",
-							"{@spell Dispel Magic}",
+							"{@spell Dissipation de la magie}",
 							"{@spell Divination}",
-							"{@spell Etherealness}",
-							"{@spell Fire Storm}",
-							"{@spell Harm}",
-							"{@spell Hold Person}",
+							"{@spell Éthéré}",
+							"{@spell Tempête de feu}",
+							"{@spell Infection}",
+							"{@spell Immobiliser un personnage}",
 							"{@spell Silence}"
 						]
 					},
@@ -7543,7 +7543,7 @@
 				{
 					"name": "Rejuvenation",
 					"entries": [
-						"If Sarevok is killed, he gains a new body in 24 hours, regaining all his hit points. The new body appears on the altar of the temple of Bhaal beneath Baldur's Gate. This ability ceases to function if a cleric of good alignment casts {@spell Hallow} on the altar in the temple of Bhaal."
+						"If Sarevok is killed, he gains a new body in 24 hours, regaining all his hit points. The new body appears on the altar of the temple of Bhaal beneath Baldur's Gate. This ability ceases to function if a cleric of good alignment casts {@spell Consécration} on the altar in the temple of Bhaal."
 					]
 				}
 			],
@@ -7557,13 +7557,13 @@
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5ft., one target. {@h}10 ({@damage 1d8 + 6}) slashing damage or 11 ({@damage 1d10 + 6}) if wielded in two hands. The target must succeed on a {@dc 18} Constitution saving throw or be cursed by Bhaal, preventing it from regaining hit points. The curse lasts until removed by the {@spell Remove Curse} spell or similar effect."
+						"{@atk mw} {@hit 12} to hit, reach 5ft., one target. {@h}10 ({@damage 1d8 + 6}) slashing damage or 11 ({@damage 1d10 + 6}) if wielded in two hands. The target must succeed on a {@dc 18} Constitution saving throw or be cursed by Bhaal, preventing it from regaining hit points. The curse lasts until removed by the {@spell Délivrance de la malédiction} spell or similar effect."
 					]
 				},
 				{
 					"name": "Flames of Bhaal",
 					"entries": [
-						"Sarevok causes flames to engulf one creature that he can see within 60 feet. The target must succeed on a {@dc 18} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. This damage can't be restored except by a {@spell Lesser Restoration} spell or similar effect."
+						"Sarevok causes flames to engulf one creature that he can see within 60 feet. The target must succeed on a {@dc 18} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. This damage can't be restored except by a {@spell Restauration partielle} spell or similar effect."
 					]
 				}
 			],
@@ -7742,7 +7742,7 @@
 					"name": "Burrow {@recharge 5}",
 					"entries": [
 						"On a hit, the creature takes an additional 32 ({@damage 5d12}) slashing damage as the wings merge with it. While merged, the creature moves with the shredwing, takes 19 ({@damage 3d12}) necrotic damage at the start of each of its turn, and has the {@condition Agrippé} condition. The shredwing can unmerge at any time, leaving the creature and dropping it if airborne. The only other way to end the merge is to kill the shredwing.",
-						"If the merged creature dies while merged, the shredwing permanently takes over its body. It gains the merged creature's hit dice, natural armor, possessions, and languages. If any of the merged creature's statistics are higher than the shredwing, it inherits those statistics as well. A creature permanently merged by the shredwing can only be resurrected through a {@spell Wish} spell or similar."
+						"If the merged creature dies while merged, the shredwing permanently takes over its body. It gains the merged creature's hit dice, natural armor, possessions, and languages. If any of the merged creature's statistics are higher than the shredwing, it inherits those statistics as well. A creature permanently merged by the shredwing can only be resurrected through a {@spell Souhait} spell or similar."
 					]
 				}
 			],
@@ -8094,7 +8094,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -8139,26 +8139,26 @@
 						"Tiax casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Bane}",
-						"{@spell Disguise Self}",
-						"{@spell Dispel Magic}",
-						"{@spell Mage Armor}",
-						"{@spell Mirror Image}",
-						"{@spell Thaumaturgy}"
+						"{@spell Fléau}",
+						"{@spell Déguisement}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Armure du mage}",
+						"{@spell Image dédoublée}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Bestow Curse}",
-							"{@spell Blindness/Deafness}",
-							"{@spell Blink}",
-							"{@spell Charm Person}",
+							"{@spell Malédiction}",
+							"{@spell Cécité/Surdité}",
+							"{@spell Fugue}",
+							"{@spell Charmement}",
 							"{@spell Contagion}",
-							"{@spell Dimension Door}",
-							"{@spell Dominate Person}",
-							"{@spell Hold Person}",
-							"{@spell Pass Without Trace}",
-							"{@spell Polymorph}",
-							"{@spell Teleport}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Immobiliser un personnage}",
+							"{@spell Passage sans trace}",
+							"{@spell Polymorphie}",
+							"{@spell Téléportation}"
 						]
 					},
 					"ability": "wis",
@@ -8342,7 +8342,7 @@
 				{
 					"name": "Cloak of Shadows",
 					"entries": [
-						"The shadow bends darkness around itself, and now has the {@condition invisible} condition for 1 minute. The invisibility ends if the shadow is subjected to a {@spell Daylight} spell or similar."
+						"The shadow bends darkness around itself, and now has the {@condition invisible} condition for 1 minute. The invisibility ends if the shadow is subjected to a {@spell Lumière du jour} spell or similar."
 					]
 				},
 				{
@@ -9123,18 +9123,18 @@
 						"Zariel casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 26}):"
 					],
 					"will": [
-						"{@spell Alter Self} (can become Medium when changing her appearance)",
-						"{@spell Detect Evil and Good}",
-						"{@spell Fireball}",
-						"{@spell Invisibility} (self only)",
-						"{@spell Major Image}",
-						"{@spell Wall of Fire}"
+						"{@spell Changement d'apparence} (can become Medium when changing her appearance)",
+						"{@spell Détection du mal et du bien}",
+						"{@spell Boule de feu}",
+						"{@spell Invisibilité} (self only)",
+						"{@spell Image majeure}",
+						"{@spell Mur de feu}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Blade Barrier}",
-							"{@spell Dispel Evil and Good}",
-							"{@spell Finger of Death}"
+							"{@spell Mur de lames}",
+							"{@spell Dissipation du mal et du bien}",
+							"{@spell Doigt de mort}"
 						]
 					},
 					"ability": "cha",
@@ -9299,7 +9299,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -9358,24 +9358,24 @@
 						"Zythan casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 18})."
 					],
 					"will": [
-						"{@spell Arcane Eye}",
-						"{@spell Detect Magic}",
-						"{@spell Detect Thoughts}",
-						"{@spell Fly}",
-						"{@spell Light}",
-						"{@spell Locate Object}",
-						"{@spell Mage Armor}",
-						"{@spell Mage Hand}",
+						"{@spell Œil magique}",
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}",
+						"{@spell Vol}",
+						"{@spell Lumière}",
+						"{@spell Localisation d'objet}",
+						"{@spell Armure du mage}",
+						"{@spell Main du mage}",
 						"{@spell Message}",
 						"{@spell Prestidigitation}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Cone of Cold}",
-							"{@spell Foresight}",
-							"{@spell Stoneskin}",
-							"{@spell Rary's telepathic bond}",
-							"{@spell True Seeing}"
+							"{@spell Cône de froid}",
+							"{@spell Prescience}",
+							"{@spell Peau de pierre}",
+							"{@spell Lien télépathique de Rary}",
+							"{@spell Vision véritable}"
 						]
 					},
 					"ability": "int",

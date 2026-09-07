@@ -47,7 +47,7 @@
 							"items": {
 								"name": "Detention Orb",
 								"entries": [
-									"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dispel Magic} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
+									"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dissipation de la magie} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
 								]
 							}
 						}
@@ -238,7 +238,7 @@
 							"items": {
 								"name": "Detention Orb",
 								"entries": [
-									"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dispel Magic} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
+									"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dissipation de la magie} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
 								]
 							}
 						}
@@ -420,17 +420,17 @@
 					],
 					"will": [
 						"{@spell Guidance}",
-						"{@spell Light}",
-						"{@spell Thaumaturgy}"
+						"{@spell Lumière}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Bless}",
-							"{@spell Freedom of Movement}",
-							"{@spell Greater Restoration}",
-							"{@spell Plane Shift} (self only)",
-							"{@spell Protection from Evil and Good}",
-							"{@spell Revivify}"
+							"{@spell Bénédiction}",
+							"{@spell Liberté de mouvement}",
+							"{@spell Restauration supérieure}",
+							"{@spell Déplacement planaire} (self only)",
+							"{@spell Protection contre le mal et le bien}",
+							"{@spell Retour à la vie}"
 						]
 					},
 					"ability": "cha",
@@ -625,14 +625,14 @@
 						"Aurnozci casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 20}):"
 					],
 					"will": [
-						"{@spell Detect Magic}",
-						"{@spell Heat Metal} (7th-level version)"
+						"{@spell Détection de la magie}",
+						"{@spell Métal brûlant} (7th-level version)"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Darkness}",
-							"{@spell Dispel Magic}",
-							"{@spell Hold Person}"
+							"{@spell Ténèbres}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Immobiliser un personnage}"
 						]
 					},
 					"ability": "wis",
@@ -834,7 +834,7 @@
 				{
 					"name": "Bite (Wolf or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}26 ({@damage 5d8 + 4}) piercing damage. If the target is a Humanoid, it must succeed on a {@dc 15} Constitution saving throw or be cursed with {@variantrule Player Characters as Lycanthropes|MM|lycanthropy}. While cursed in this way, the target retains its alignment, languages, and equipment but otherwise uses the werewolf stat block, excluding actions that require equipment the target doesn't have. During any night when there's a full moon in the sky, the target becomes an NPC under the DM's control and remains so until the night ends. A {@spell Remove Curse} spell or similar magic ends this curse."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}26 ({@damage 5d8 + 4}) piercing damage. If the target is a Humanoid, it must succeed on a {@dc 15} Constitution saving throw or be cursed with {@variantrule Player Characters as Lycanthropes|MM|lycanthropy}. While cursed in this way, the target retains its alignment, languages, and equipment but otherwise uses the werewolf stat block, excluding actions that require equipment the target doesn't have. During any night when there's a full moon in the sky, the target becomes an NPC under the DM's control and remains so until the night ends. A {@spell Délivrance de la malédiction} spell or similar magic ends this curse."
 					]
 				},
 				{
@@ -973,7 +973,7 @@
 				{
 					"name": "Bite (Rat or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}26 ({@damage 5d8 + 4}) piercing damage. If the target is a Humanoid, it must succeed on a {@dc 14} Constitution saving throw or be cursed with {@variantrule Player Characters as Lycanthropes|MM|lycanthropy}. While cursed in this way, the target retains its alignment, languages, and equipment but otherwise uses the wererat stat block, excluding actions that require equipment the target doesn't have. During any night when there's a full moon in the sky, the target becomes an NPC under the DM's control and remains so until the night ends. A {@spell Remove Curse} spell or similar magic ends this curse."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}26 ({@damage 5d8 + 4}) piercing damage. If the target is a Humanoid, it must succeed on a {@dc 14} Constitution saving throw or be cursed with {@variantrule Player Characters as Lycanthropes|MM|lycanthropy}. While cursed in this way, the target retains its alignment, languages, and equipment but otherwise uses the wererat stat block, excluding actions that require equipment the target doesn't have. During any night when there's a full moon in the sky, the target becomes an NPC under the DM's control and remains so until the night ends. A {@spell Délivrance de la malédiction} spell or similar magic ends this curse."
 					]
 				},
 				{
@@ -1265,13 +1265,13 @@
 					],
 					"will": [
 						"{@spell Prestidigitation}",
-						"{@spell Speak with Animals}"
+						"{@spell Parler aux animaux}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Bestow Curse}",
-							"{@spell Command}",
-							"{@spell Crown of Madness}"
+							"{@spell Malédiction}",
+							"{@spell Ordre}",
+							"{@spell Couronne de folie}"
 						]
 					},
 					"ability": "cha",
@@ -1769,16 +1769,16 @@
 						"Euryale casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 19}):"
 					],
 					"will": [
-						"{@spell Druidcraft}",
-						"{@spell Pass without Trace}"
+						"{@spell Druidisme}",
+						"{@spell Passage sans trace}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Goodberry}",
-							"{@spell Lesser Restoration}",
-							"{@spell Locate Creature}",
-							"{@spell Move Earth}",
-							"{@spell Transport via Plants}"
+							"{@spell Baie protectrice}",
+							"{@spell Restauration partielle}",
+							"{@spell Localisation de créature}",
+							"{@spell Déplacement de terre}",
+							"{@spell Voyage par les plantes}"
 						]
 					},
 					"ability": "wis",
@@ -1835,7 +1835,7 @@
 				{
 					"name": "Petrifying Gaze {@recharge 4}",
 					"entries": [
-						"Euryale unleashes petrifying magic from her eyes in a 30-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw if it doesn't have the {@condition Aveuglé} condition. If the saving throw fails by 5 or more, the creature has the {@condition Pétrifié} condition. Otherwise, on a failed save, the creature takes 14 ({@damage 4d6}) force damage, begins to turn to stone, and has the {@condition Entravé} condition. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn. On a failed save, it has the {@condition Pétrifié} condition, and on a successful save, the effect ends on it, The petrification lasts until the creature is freed by the {@spell Greater Restoration} spell or other magic A creature can use its reaction, if available, to shut its eyes to avoid the saving throw. If the creature does so, it has the {@condition Aveuglé} condition until the end of its next turn."
+						"Euryale unleashes petrifying magic from her eyes in a 30-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw if it doesn't have the {@condition Aveuglé} condition. If the saving throw fails by 5 or more, the creature has the {@condition Pétrifié} condition. Otherwise, on a failed save, the creature takes 14 ({@damage 4d6}) force damage, begins to turn to stone, and has the {@condition Entravé} condition. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn. On a failed save, it has the {@condition Pétrifié} condition, and on a successful save, the effect ends on it, The petrification lasts until the creature is freed by the {@spell Restauration supérieure} spell or other magic A creature can use its reaction, if available, to shut its eyes to avoid the saving throw. If the creature does so, it has the {@condition Aveuglé} condition until the end of its next turn."
 					]
 				}
 			],
@@ -1956,16 +1956,16 @@
 						"While holding its shears, the hag casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Bless}",
+						"{@spell Bénédiction}",
 						"{@spell Guidance}",
-						"{@spell Silent Image}"
+						"{@spell Image silencieuse}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Bane}",
-							"{@spell Bestow Curse}",
+							"{@spell Fléau}",
+							"{@spell Malédiction}",
 							"{@spell Divination}",
-							"{@spell Scrying} (as an action)"
+							"{@spell Scrutation} (as an action)"
 						]
 					},
 					"ability": "wis",
@@ -1982,7 +1982,7 @@
 				{
 					"name": "Trace the Threads (1/Day)",
 					"entries": [
-						"The hag can cast the {@spell Legend Lore} spell, requiring no material components and using Wisdom as the spellcasting ability."
+						"The hag can cast the {@spell Connaissance des légendes} spell, requiring no material components and using Wisdom as the spellcasting ability."
 					]
 				}
 			],
@@ -2147,17 +2147,17 @@
 						"Gremorly casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Dancing Lights}",
-						"{@spell Mage Hand}",
+						"{@spell Lumières dansantes}",
+						"{@spell Main du mage}",
 						"{@spell Prestidigitation}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Slow}"
+							"{@spell Lenteur}"
 						],
 						"2e": [
-							"{@spell Bestow Curse}",
-							"{@spell Dispel Magic}"
+							"{@spell Malédiction}",
+							"{@spell Dissipation de la magie}"
 						]
 					},
 					"ability": "int",
@@ -2207,7 +2207,7 @@
 					"name": "Possession {@recharge}",
 					"entries": [
 						"One Humanoid Gremorly can see within 5 feet of himself must succeed on a {@dc 15} Charisma saving throw or be possessed by him; Gremorly disappears, and the target has the {@condition Incapable} condition and loses control of its body. Gremorly can't be targeted by any attack, spell, or other effect, except ones that turn Undead, and he retains his alignment, Intelligence, Wisdom, Charisma, and immunity to the {@condition Charmé} and {@condition Effrayé} conditions. He otherwise uses the target's game statistics, but Gremorly doesn't gain access to the target's knowledge, class features, or proficiencies.",
-						"The possession lasts until the target drops to 0 hit points, Gremorly ends it as a bonus action, or Gremorly is turned or forced out by an effect like the {@spell Dispel Evil and Good} spell. When the possession ends, Gremorly reappears in an unoccupied space within 5 feet of the target. The target is immune to this Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+						"The possession lasts until the target drops to 0 hit points, Gremorly ends it as a bonus action, or Gremorly is turned or forced out by an effect like the {@spell Dissipation du mal et du bien} spell. When the possession ends, Gremorly reappears in an unoccupied space within 5 feet of the target. The target is immune to this Possession for 24 hours after succeeding on the saving throw or after the possession ends."
 					]
 				}
 			],
@@ -2602,7 +2602,7 @@
 				14,
 				{
 					"ac": 17,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -2671,16 +2671,16 @@
 						"The champion casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell Detect Magic}",
-						"{@spell Mage Armor} (self only)"
+						"{@spell Détection de la magie}",
+						"{@spell Armure du mage} (self only)"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Blight}",
-							"{@spell Blindness/Deafness}"
+							"{@spell Ravage}",
+							"{@spell Cécité/Surdité}"
 						],
 						"1e": [
-							"{@spell Cloudkill}",
+							"{@spell Nuée mortelle}",
 							"{@spell Contagion}"
 						]
 					},
@@ -2840,7 +2840,7 @@
 				{
 					"name": "Plane Shift (2/Day)",
 					"entries": [
-						"The hawk casts {@spell Plane Shift} on itself, requiring no spell components and using Wisdom as the spellcasting ability."
+						"The hawk casts {@spell Déplacement planaire} on itself, requiring no spell components and using Wisdom as the spellcasting ability."
 					]
 				}
 			],
@@ -3007,7 +3007,7 @@
 							"items": {
 								"name": "Detention Orb",
 								"entries": [
-									"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dispel Magic} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
+									"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dissipation de la magie} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
 								]
 							}
 						}
@@ -3094,18 +3094,18 @@
 						"The medusa casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 20}):"
 					],
 					"will": [
-						"{@spell Light}",
-						"{@spell Spare the Dying}",
-						"{@spell Thaumaturgy}"
+						"{@spell Lumière}",
+						"{@spell Aide aux mourants}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"2": [
-							"{@spell Mass Cure Wounds} (cast at 8th level)"
+							"{@spell Guérison de groupe} (cast at 8th level)"
 						],
 						"1e": [
-							"{@spell Blade Barrier}",
+							"{@spell Mur de lames}",
 							"{@spell Divination}",
-							"{@spell Greater Restoration}"
+							"{@spell Restauration supérieure}"
 						]
 					},
 					"ability": "wis",
@@ -3116,7 +3116,7 @@
 				{
 					"name": "Devotion's Call (1/Day)",
 					"entries": [
-						"The medusa can cast the {@spell Resurrection} spell, requiring no material components and using Wisdom as the spellcasting ability."
+						"The medusa can cast the {@spell Résurrection} spell, requiring no material components and using Wisdom as the spellcasting ability."
 					]
 				},
 				{
@@ -3162,7 +3162,7 @@
 				{
 					"name": "Petrifying Gaze {@recharge 4}",
 					"entries": [
-						"The medusa unleashes petrifying magic from its eyes in a 30-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw if it doesn't have the {@condition Aveuglé} condition. If the saving throw fails by 5 or more, the creature has the {@condition Pétrifié} condition. Otherwise, on a failed save, the creature takes 10 ({@damage 3d6}) force damage, begins to turn to stone, and has the {@condition Entravé} condition. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn. On a failed save, it has the {@condition Pétrifié} condition, and on a successful save, the effect ends on it. The petrification lasts until the creature is freed by the {@spell Greater Restoration} spell or other magic.",
+						"The medusa unleashes petrifying magic from its eyes in a 30-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw if it doesn't have the {@condition Aveuglé} condition. If the saving throw fails by 5 or more, the creature has the {@condition Pétrifié} condition. Otherwise, on a failed save, the creature takes 10 ({@damage 3d6}) force damage, begins to turn to stone, and has the {@condition Entravé} condition. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn. On a failed save, it has the {@condition Pétrifié} condition, and on a successful save, the effect ends on it. The petrification lasts until the creature is freed by the {@spell Restauration supérieure} spell or other magic.",
 						"A creature can use its reaction, if available, to shut its eyes to avoid the saving throw. If the creature does so, it has the {@condition Aveuglé} condition until the end of its next turn."
 					]
 				}
@@ -3311,14 +3311,14 @@
 						"The hierophant casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Detect Thoughts}",
-						"{@spell Mage Hand}",
-						"{@spell Thaumaturgy}"
+						"{@spell Détection de pensées}",
+						"{@spell Main du mage}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Dimension Door}",
-							"{@spell Mass Suggestion}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Suggestion de groupe}"
 						]
 					},
 					"ability": "cha",
@@ -3329,7 +3329,7 @@
 				{
 					"name": "Comet's Voice (1/Day)",
 					"entries": [
-						"The hierophant can cast {@spell Contact Other Plane}, using Charisma as the spellcasting ability."
+						"The hierophant can cast {@spell Contact avec les autres plans}, using Charisma as the spellcasting ability."
 					]
 				},
 				{
@@ -3516,15 +3516,15 @@
 						"Hulgaz casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell Charm Person}"
+						"{@spell Charmement}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Teleport}"
+							"{@spell Téléportation}"
 						],
 						"2e": [
-							"{@spell Dispel Magic}",
-							"{@spell Fog Cloud}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Nuage de brouillard}"
 						]
 					},
 					"ability": "cha",
@@ -3581,7 +3581,7 @@
 				{
 					"name": "Charm",
 					"entries": [
-						"Hulgaz uses Spellcasting to cast {@spell Charm Person}."
+						"Hulgaz uses Spellcasting to cast {@spell Charmement}."
 					]
 				},
 				{
@@ -3690,14 +3690,14 @@
 						"The initiate casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Mage Hand}",
-						"{@spell Thaumaturgy}"
+						"{@spell Main du mage}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Dimension Door}",
+							"{@spell Porte dimensionnelle}",
 							"{@spell Divination}",
-							"{@spell Enthrall}"
+							"{@spell Fascination}"
 						]
 					},
 					"ability": "cha",
@@ -3833,11 +3833,11 @@
 					],
 					"daily": {
 						"2": [
-							"{@spell Cure Wounds}"
+							"{@spell Soins}"
 						],
 						"1e": [
 							"{@spell Divination}",
-							"{@spell Greater Restoration}"
+							"{@spell Restauration supérieure}"
 						]
 					},
 					"ability": "wis",
@@ -4423,8 +4423,8 @@
 						"Oddlewin casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell Mage Hand}",
-						"{@spell Tasha's Hideous Laughter}"
+						"{@spell Main du mage}",
+						"{@spell Rire hideux de Tasha}"
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -4434,7 +4434,7 @@
 				{
 					"name": "Fortune Teller",
 					"entries": [
-						"Oddlewin can cast the {@spell Augury} spell as a ritual, using cards as the material component."
+						"Oddlewin can cast the {@spell Augure} spell as a ritual, using cards as the material component."
 					]
 				},
 				{
@@ -4764,17 +4764,17 @@
 						"Pazrodine casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
 					],
 					"will": [
-						"{@spell Faerie Fire}"
+						"{@spell Lueur féérique}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Calm Emotions}",
-							"{@spell Dispel Magic}",
-							"{@spell Invisibility}"
+							"{@spell Apaisement}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Invisibilité}"
 						],
 						"1e": [
-							"{@spell Mass Cure Wounds}",
-							"{@spell Revivify}"
+							"{@spell Guérison de groupe}",
+							"{@spell Retour à la vie}"
 						]
 					},
 					"ability": "cha",
@@ -4785,7 +4785,7 @@
 				{
 					"name": "Guardian of the Market",
 					"entries": [
-						"Pazrodine can sense when an item is stolen from Seelie Market. She knows the distance and direction to stolen items, as if by the {@spell Locate Object} spell."
+						"Pazrodine can sense when an item is stolen from Seelie Market. She knows the distance and direction to stolen items, as if by the {@spell Localisation d'objet} spell."
 					]
 				},
 				{
@@ -4934,7 +4934,7 @@
 							"items": {
 								"name": "Detention Orb",
 								"entries": [
-									"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dispel Magic} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
+									"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dissipation de la magie} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
 								]
 							}
 						}
@@ -5154,7 +5154,7 @@
 				{
 					"name": "Plane Shift",
 					"entries": [
-						"The riffler casts the {@spell Plane Shift} spell targeting only itself, requiring no material components and using Charisma as the spellcasting ability."
+						"The riffler casts the {@spell Déplacement planaire} spell targeting only itself, requiring no material components and using Charisma as the spellcasting ability."
 					]
 				}
 			],
@@ -5471,9 +5471,9 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell Greater Restoration}",
-							"{@spell Sending}",
-							"{@spell Word of Recall} (the prepared sanctuary is the Solar Bastion)"
+							"{@spell Restauration supérieure}",
+							"{@spell Envoi de message}",
+							"{@spell Mot de rappel} (the prepared sanctuary is the Solar Bastion)"
 						]
 					},
 					"ability": "cha",
@@ -5879,7 +5879,7 @@
 				{
 					"name": "Beak (Vulture or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a Humanoid, it must succeed on a {@dc 13} Constitution saving throw or be cursed until targeted by the {@spell Remove Curse} spell or a similar effect. If the cursed target drops to 0 hit points, it becomes a werevulture under the DM's control and regains 10 hit points."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a Humanoid, it must succeed on a {@dc 13} Constitution saving throw or be cursed until targeted by the {@spell Délivrance de la malédiction} spell or a similar effect. If the cursed target drops to 0 hit points, it becomes a werevulture under the DM's control and regains 10 hit points."
 					]
 				},
 				{

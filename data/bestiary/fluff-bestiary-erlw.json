@@ -1176,7 +1176,7 @@
 										"{@b Damage Immunity}. Replace the living spell's damage immunity with immunity to the type (or types) of damage dealt by the chosen spell.",
 										"{@b Magical Strike}. Replace the damage that Magical Strike deals with one type of damage dealt by the chosen spell.",
 										"{@b Spell Mimicry}. Replace the effect of Spell Mimicry with the effect of the chosen spell. If that spell requires a saving throw, use spell save DC from the replaced spell, and if the spell involves an attack roll, use the attack bonus from the living spell's Magical Strike.",
-										"For example, if you turn {@spell fireball} (a 3rd-level spell) into a living spell, customize the {@creature living lightning bolt|ERLW}. The living fireball has immunity to fire damage, instead of lightning damage; deals fire damage with its Magical Strike; and replicates {@spell fireball} with Spell Mimicry."
+										"For example, if you turn {@spell Boule de feu} (a 3rd-level spell) into a living spell, customize the {@creature living lightning bolt|ERLW}. The living fireball has immunity to fire damage, instead of lightning damage; deals fire damage with its Magical Strike; and replicates {@spell Boule de feu} with Spell Mimicry."
 									]
 								}
 							]
@@ -1189,7 +1189,7 @@
 			"name": "Magewright",
 			"source": "ERLW",
 			"entries": [
-				"In Khorvaire, magic is part of everyday life. A chef might use {@spell prestidigitation} to heat and season food, while a blacksmith uses {@spell mending} to perform minor repairs and {@spell guidance} to help inspire their work. Those who work minor magic into their labors are called magewrights.",
+				"In Khorvaire, magic is part of everyday life. A chef might use {@spell prestidigitation} to heat and season food, while a blacksmith uses {@spell Réparation} to perform minor repairs and {@spell guidance} to help inspire their work. Those who work minor magic into their labors are called magewrights.",
 				"Far more limited in magical power than a typical spellcaster, a magewright is dedicated to learning a handful of spells, and magewrights cast their non-cantrip spells as rituals\u2014even spells that can't normally be cast in this way. Most magewright rituals take 10 minutes to perform, but certain complex rituals can take up to 1 hour. However long the ritual takes, it requires extra material components, usually in the form of dragonshards.",
 				{
 					"type": "entries",
@@ -1215,49 +1215,49 @@
 								[
 									"1",
 									"Artisan",
-									"{@spell Guidance}, {@spell mending}",
+									"{@spell Guidance}, {@spell Réparation}",
 									"One type of artisan's tools"
 								],
 								[
 									"2",
 									"Entertainer",
-									"{@spell Minor illusion}, {@spell thaumaturgy}. Ritual only: {@spell disguise self}.",
+									"{@spell Illusion mineure}, {@spell Thaumaturgie}. Ritual only: {@spell Déguisement}.",
 									"{@skill Représentation} (+3)"
 								],
 								[
 									"3",
 									"Healer",
-									"{@spell Resistance}, {@spell spare the dying}. Ritual only: {@spell detect poison and disease}, {@spell lesser restoration} (1 hour).",
+									"{@spell Résistance}, {@spell Aide aux mourants}. Ritual only: {@spell Détection du poison et des maladies}, {@spell Restauration partielle} (1 hour).",
 									"{@skill Médecine} (+4), {@item Trousse d'herboriste|PHB}"
 								],
 								[
 									"4",
 									"Lamplighter",
-									"{@spell Light}. Ritual only: {@spell continual flame} (1 hour).",
+									"{@spell Lumière}. Ritual only: {@spell Flamme perpétuelle} (1 hour).",
 									"{@item Outils de rétameur|PHB}"
 								],
 								[
 									"5",
 									"Locksmith",
-									"{@spell Mending}. Ritual only: {@spell arcane lock} (1 hour), {@spell knock}.",
+									"{@spell Réparation}. Ritual only: {@spell Serrure magique} (1 hour), {@spell Crochetage}.",
 									"{@item Outils de crocheteur|PHB}, {@item Outils de rétameur|PHB}"
 								],
 								[
 									"6",
 									"Mediator",
-									"{@spell Guidance}. Ritual only: {@spell comprehend languages}, {@spell zone of truth}.",
+									"{@spell Guidance}. Ritual only: {@spell Compréhension des langues}, {@spell Zone de vérité}.",
 									"{@skill Perspicacité} (+4), {@skill Persuasion} (+3)"
 								],
 								[
 									"7",
 									"Medium",
-									"{@spell Minor illusion}. Ritual only: {@spell speak with dead}.",
+									"{@spell Illusion mineure}. Ritual only: {@spell Parler aux morts}.",
 									"{@skill Tromperie} (+3), {@skill Religion} (+4)"
 								],
 								[
 									"8",
 									"Oracle",
-									"{@spell Guidance}. Ritual only: {@spell augury}, {@spell divination} (1 hour).",
+									"{@spell Guidance}. Ritual only: {@spell Augure}, {@spell divination} (1 hour).",
 									"{@skill Histoire} (+4), {@skill Religion} (+4)"
 								]
 							]
@@ -1377,7 +1377,7 @@
 									"type": "entries",
 									"name": "Fallen Angels",
 									"entries": [
-										"The insatiable hunger to be adored can transform a fallen angel, physically and mentally. In its true form, a radiant idol appears to be a warped angel. It might have bloody stumps in place of its wings, or its wings could be weighted down with chains representing its pride. A radiant idol uses {@spell disguise self} to hide its corruption, presenting an image of celestial glory."
+										"The insatiable hunger to be adored can transform a fallen angel, physically and mentally. In its true form, a radiant idol appears to be a warped angel. It might have bloody stumps in place of its wings, or its wings could be weighted down with chains representing its pride. A radiant idol uses {@spell Déguisement} to hide its corruption, presenting an image of celestial glory."
 									]
 								},
 								{
@@ -1578,33 +1578,33 @@
 											"rows": [
 												[
 													"1",
-													"{@spell Fire bolt} ({@dice 2d10})",
-													"{@spell Burning hands} ({@dice 3d6})"
+													"{@spell Trait de feu} ({@dice 2d10})",
+													"{@spell Mains brûlantes} ({@dice 3d6})"
 												],
 												[
 													"2",
-													"{@spell Shocking grasp} ({@dice 2d8})",
-													"{@spell Chromatic orb} ({@dice 4d8})"
+													"{@spell Poing électrique} ({@dice 2d8})",
+													"{@spell Orbe chromatique} ({@dice 4d8})"
 												],
 												[
 													"3",
-													"{@spell Poison spray} ({@dice 2d12})",
-													"{@spell Ray of sickness} ({@dice 3d8})"
+													"{@spell Jet de poison} ({@dice 2d12})",
+													"{@spell Rayon nauséeux} ({@dice 3d8})"
 												],
 												[
 													"4",
-													"{@spell Friends}",
-													"{@spell Charm person} (two creatures)"
+													"{@spell Ami}",
+													"{@spell Charmement} (two creatures)"
 												],
 												[
 													"5",
-													"{@spell Minor illusion}",
-													"{@spell Thunderwave} ({@dice 2d8})"
+													"{@spell Illusion mineure}",
+													"{@spell Onde de tonnerre} ({@dice 2d8})"
 												],
 												[
 													"6",
-													"{@spell Dancing lights}",
-													"{@spell Sleep} ({@dice 7d8})"
+													"{@spell Lumières dansantes}",
+													"{@spell Sommeil} ({@dice 7d8})"
 												]
 											]
 										}

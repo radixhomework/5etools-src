@@ -81,7 +81,7 @@
 					"type": "entries",
 					"entries": [
 						"Cette option permet aux combattants au corps à corps de se harceler plus facilement grâce aux attaques d'opportunité.",
-						"Quand une créature effectue une attaque au corps à corps, elle peut également marquer sa cible. Jusqu'à la fin du prochain tour de l'attaquant, toute attaque d'opportunité que celui-ci effectue contre la cible marquée est effectuée avec avantage. L'attaque d'opportunité n'use pas la réaction de l'attaquant, mais ce dernier ne peut pas effectuer l'attaque si quoi que ce soit — comme l'état {@condition Incapable} ou le sort {@spell shocking grasp} — l'empêche d'utiliser des réactions. L'attaquant est limité à une attaque d'opportunité par tour."
+						"Quand une créature effectue une attaque au corps à corps, elle peut également marquer sa cible. Jusqu'à la fin du prochain tour de l'attaquant, toute attaque d'opportunité que celui-ci effectue contre la cible marquée est effectuée avec avantage. L'attaque d'opportunité n'use pas la réaction de l'attaquant, mais ce dernier ne peut pas effectuer l'attaque si quoi que ce soit — comme l'état {@condition Incapable} ou le sort {@spell Poing électrique} — l'empêche d'utiliser des réactions. L'attaquant est limité à une attaque d'opportunité par tour."
 					]
 				},
 				{
@@ -819,7 +819,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"Certains effets du jeu maudissent une créature ou un objet. L'effet qui inflige une malédiction en définit les conséquences. Les malédictions peuvent être supprimées par les sorts {@spell Remove Curse|XPHB} et {@spell Greater Restoration|XPHB} ou par d'autres magies qui mettent explicitement fin aux malédictions."
+				"Certains effets du jeu maudissent une créature ou un objet. L'effet qui inflige une malédiction en définit les conséquences. Les malédictions peuvent être supprimées par les sorts {@spell Délivrance de la malédiction|XPHB} et {@spell Restauration supérieure|XPHB} ou par d'autres magies qui mettent explicitement fin aux malédictions."
 			]
 		},
 		{
@@ -1172,7 +1172,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"Une créature morte n'a plus aucun {@variantrule Hit Points|XPHB} et ne peut les récupérer, à moins d'être d'abord ramenée à la vie par une magie telle que les sorts {@spell Raise Dead|XPHB} ou {@spell Revivify|XPHB}. Lorsqu'un tel sort est lancé, l'esprit sait qui le lance et peut refuser. L'esprit d'une créature morte a quitté le corps et s'en est allé vers les Plans Extérieurs ; ramener la créature à la vie exige de rappeler son esprit.",
+				"Une créature morte n'a plus aucun {@variantrule Hit Points|XPHB} et ne peut les récupérer, à moins d'être d'abord ramenée à la vie par une magie telle que les sorts {@spell Relèvement|XPHB} ou {@spell Retour à la vie|XPHB}. Lorsqu'un tel sort est lancé, l'esprit sait qui le lance et peut refuser. L'esprit d'une créature morte a quitté le corps et s'en est allé vers les Plans Extérieurs ; ramener la créature à la vie exige de rappeler son esprit.",
 				"Si la créature revient à la vie, l'effet de résurrection détermine ses {@variantrule Hit Points|XPHB} actuels. Sauf indication contraire, la créature revient à la vie avec les {@variantrule Condition|XPHB|états}, contagions magiques ou malédictions qui l'affectaient à sa mort, si la durée de ces effets est toujours en cours. Si la créature est morte avec un ou plusieurs niveaux d'{@condition Épuisement|XPHB}, elle revient avec un niveau de moins. Si la créature avait établi une {@variantrule Attunement|XPHB} avec un ou plusieurs objets magiques, elle n'y est plus harmonisée."
 			]
 		},
@@ -1818,7 +1818,7 @@
 			"ruleType": "O",
 			"entries": [
 				"Les objets magiques relèvent du MD ; c'est vous qui décidez comment ils tombent entre les mains du groupe. En option, vous pouvez autoriser les personnages joueurs à fabriquer des objets magiques.",
-				"La création d'un objet magique est une tâche longue et coûteuse. Pour commencer, un personnage doit posséder une formule décrivant la construction de l'objet. Le personnage doit aussi être un lanceur de sorts avec des emplacements de sorts et être capable de lancer tous les sorts que l'objet peut produire. De plus, le personnage doit satisfaire un niveau minimal déterminé par la rareté de l'objet, comme l'indique la table Fabriquer des objets magiques. Par exemple, un personnage de niveau 3 pourrait créer une {@item Baguette de traits de magie} (un objet peu commun), tant qu'il possède des emplacements de sorts et peut lancer {@spell magic missile}. Le même personnage pourrait fabriquer une {@item +1 weapon} (un autre objet peu commun), sans sort particulier requis.",
+				"La création d'un objet magique est une tâche longue et coûteuse. Pour commencer, un personnage doit posséder une formule décrivant la construction de l'objet. Le personnage doit aussi être un lanceur de sorts avec des emplacements de sorts et être capable de lancer tous les sorts que l'objet peut produire. De plus, le personnage doit satisfaire un niveau minimal déterminé par la rareté de l'objet, comme l'indique la table Fabriquer des objets magiques. Par exemple, un personnage de niveau 3 pourrait créer une {@item Baguette de traits de magie} (un objet peu commun), tant qu'il possède des emplacements de sorts et peut lancer {@spell Projectile magique}. Le même personnage pourrait fabriquer une {@item +1 weapon} (un autre objet peu commun), sans sort particulier requis.",
 				"Vous pouvez décider que certains objets exigent aussi des matériaux ou des lieux particuliers pour être créés. Par exemple, un personnage pourrait avoir besoin de {@item Fournitures d'alchimiste|phb} pour préparer une potion donnée, ou la formule d'une {@item flame tongue} pourrait exiger que l'arme soit forgée avec de la lave.",
 				{
 					"type": "table",
@@ -4609,7 +4609,7 @@
 							"name": "Souvenirs de cohésion d'équipe",
 							"page": 46,
 							"entries": [
-								"Les plus puissants changements personnels inspirés par la cohésion d'équipe peuvent durer toute une vie. Ou du moins une rencontre. Un personnage qui gagne un souvenir de cohésion d'équipe acquiert une aptitude extraordinaire utilisable une fois. Par une action bonus, le personnage gagne un effet du sort {@spell enhance ability} pendant 10 minutes (sans {@status concentration} requise).",
+								"Les plus puissants changements personnels inspirés par la cohésion d'équipe peuvent durer toute une vie. Ou du moins une rencontre. Un personnage qui gagne un souvenir de cohésion d'équipe acquiert une aptitude extraordinaire utilisable une fois. Par une action bonus, le personnage gagne un effet du sort {@spell Amélioration de caractéristique} pendant 10 minutes (sans {@status concentration} requise).",
 								"Un personnage ne peut conserver les souvenirs de cohésion d'équipe que de l'instance la plus récente de cette activité. Si un personnage possède des souvenirs de cohésion d'équipe inutilisés et entreprend de nouveau cette activité, ces souvenirs sont perdus.",
 								{
 									"type": "quote",
@@ -5422,7 +5422,7 @@
 					"type": "entries",
 					"name": "Créatures volantes et chute",
 					"entries": [
-						"Une créature volante en plein vol tombe si elle est renversée {@condition À terre}, si sa vitesse est réduite à 0, ou si elle perd d'une autre manière sa capacité à se déplacer, à moins qu'elle ne puisse voler sur place ou qu'elle ne soit maintenue en l'air par la magie, comme le sort {@spell fly}.",
+						"Une créature volante en plein vol tombe si elle est renversée {@condition À terre}, si sa vitesse est réduite à 0, ou si elle perd d'une autre manière sa capacité à se déplacer, à moins qu'elle ne puisse voler sur place ou qu'elle ne soit maintenue en l'air par la magie, comme le sort {@spell Vol}.",
 						"Si vous voulez qu'une créature volante ait plus de chances de survivre à une chute qu'une créature non volante, utilisez cette règle : soustrayez la vitesse de vol actuelle de la créature à la distance de sa chute avant de calculer les dégâts de chute. Cette règle est utile pour un volant renversé {@condition À terre} mais toujours conscient et doté d'une vitesse de vol actuelle supérieure à 0. La règle est conçue pour simuler la créature battant furieusement des ailes ou prenant des mesures similaires pour ralentir la vitesse de sa chute.",
 						"Si vous utilisez la règle de vitesse de chute de la section précédente, une créature volante descend de 150 mètres au tour où elle tombe, comme les autres créatures. Mais si cette créature commence l'un de ses tours suivants toujours en train de tomber et est {@condition À terre}, elle peut arrêter sa chute à son tour en dépensant la moitié de sa vitesse de vol pour contrer l'état {@condition À terre} (comme si elle se relevait en plein vol)."
 					]
@@ -5435,7 +5435,7 @@
 			"page": 347,
 			"ruleType": "V",
 			"entries": [
-				"Tout lanceur de sorts capable de lancer le sort {@spell find familiar} (comme un apprenti, un sorcier ou un magicien) est susceptible d'avoir un familier. Le familier peut être l'une des créatures décrites dans le sort (voir le {@book Manuel des joueurs|PHB}) ou quelque autre {@filter monstre de taille TP|bestiary|size=T|miscellaneous=!swarm}, comme une {@creature crawling claw}, un {@creature imp}, une {@creature pseudodragon} ou un {@creature quasit}.",
+				"Tout lanceur de sorts capable de lancer le sort {@spell Familier} (comme un apprenti, un sorcier ou un magicien) est susceptible d'avoir un familier. Le familier peut être l'une des créatures décrites dans le sort (voir le {@book Manuel des joueurs|PHB}) ou quelque autre {@filter monstre de taille TP|bestiary|size=T|miscellaneous=!swarm}, comme une {@creature crawling claw}, un {@creature imp}, une {@creature pseudodragon} ou un {@creature quasit}.",
 				"{@note Cette variante est {@link destinée aux PNJ.|https://twitter.com/JeremyECrawford/status/920714594334654465}}"
 			]
 		},
@@ -5445,7 +5445,7 @@
 			"page": 213,
 			"ruleType": "V",
 			"entries": [
-				"Tout lanceur de sorts capable de lancer le sort {@spell find familiar} (comme un apprenti, un sorcier ou un magicien) est susceptible d'avoir un familier. Le familier peut être l'une des créatures décrites dans le sort (voir le {@book Manuel des joueurs|PHB}) ou quelque autre {@filter monstre de taille TP|bestiary|size=T|miscellaneous=!swarm}, comme un {@creature cranium rat|vgm}, une {@creature crawling claw}, un {@creature gazer|vgm}, un {@creature imp}, une {@creature pseudodragon} ou un {@creature quasit}.",
+				"Tout lanceur de sorts capable de lancer le sort {@spell Familier} (comme un apprenti, un sorcier ou un magicien) est susceptible d'avoir un familier. Le familier peut être l'une des créatures décrites dans le sort (voir le {@book Manuel des joueurs|PHB}) ou quelque autre {@filter monstre de taille TP|bestiary|size=T|miscellaneous=!swarm}, comme un {@creature cranium rat|vgm}, une {@creature crawling claw}, un {@creature gazer|vgm}, un {@creature imp}, une {@creature pseudodragon} ou un {@creature quasit}.",
 				"{@note Cette variante est {@link destinée aux PNJ.|https://twitter.com/JeremyECrawford/status/920714594334654465}}"
 			]
 		},
@@ -5599,8 +5599,8 @@
 							"name": "Réduire le stress",
 							"entries": [
 								"Un personnage qui passe une journée entière à se détendre ou dans des circonstances par ailleurs calmes réduit son Score de stress de 1 lorsqu'il achève son prochain repos long.",
-								"L'effet du sort {@spell calm emotions} utilisé pour supprimer les états {@condition Charmé} et {@condition Effrayé} supprime aussi les effets de son Score de stress pendant la durée du sort.",
-								"Un sort {@spell lesser restoration} réduit le Score de stress de la cible de 1, et un sort {@spell greater restoration} réduit le Score de stress d'un personnage à 0."
+								"L'effet du sort {@spell Apaisement} utilisé pour supprimer les états {@condition Charmé} et {@condition Effrayé} supprime aussi les effets de son Score de stress pendant la durée du sort.",
+								"Un sort {@spell Restauration partielle} réduit le Score de stress de la cible de 1, et un sort {@spell Restauration supérieure} réduit le Score de stress d'un personnage à 0."
 							]
 						}
 					]
@@ -5777,16 +5777,16 @@
 					"type": "entries",
 					"name": "Détecter les pièges hantés",
 					"entries": [
-						"Chaque piège hanté possède une émanation, qui peut être aussi subtile qu'une baisse de température ou aussi manifeste qu'un objet se déplaçant de lui-même. L'émanation d'un piège hanté survient avant que le piège ne fasse effet. Un personnage remarque l'émanation si son score de Sagesse ({@skill Perception}) passive est égal ou supérieur à 10 + le Bonus de hantise du piège. Un personnage qui remarque le piège hanté a jusqu'au début de son prochain tour pour réagir, ce qui peut inclure fuir pour éviter le piège ou tenter de le désamorcer (voir la section suivante). Les aptitudes de classe et sorts, comme le Sens divin et {@spell detect evil and good}, qui discernent la profanation détectent aussi les pièges hantés."
+						"Chaque piège hanté possède une émanation, qui peut être aussi subtile qu'une baisse de température ou aussi manifeste qu'un objet se déplaçant de lui-même. L'émanation d'un piège hanté survient avant que le piège ne fasse effet. Un personnage remarque l'émanation si son score de Sagesse ({@skill Perception}) passive est égal ou supérieur à 10 + le Bonus de hantise du piège. Un personnage qui remarque le piège hanté a jusqu'au début de son prochain tour pour réagir, ce qui peut inclure fuir pour éviter le piège ou tenter de le désamorcer (voir la section suivante). Les aptitudes de classe et sorts, comme le Sens divin et {@spell Détection du mal et du bien}, qui discernent la profanation détectent aussi les pièges hantés."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Désamorcer les pièges hantés",
 					"entries": [
-						"Les personnages qui remarquent un piège hanté avant son activation peuvent tenter de le désamorcer. Les méthodes typiques de désamorçage des pièges, comme les {@item Outils de crocheteur|PHB} et {@spell dispel magic}, n'affectent pas les pièges hantés. Cependant, l'aptitude de classe Canaliser l'énergie divine et le sort {@spell remove curse} peuvent désamorcer un piège hanté.",
-						"Pour utiliser Canaliser l'énergie divine afin de désamorcer un piège hanté, un personnage utilise une action pour présenter son symbole sacré et prononcer une prière. Pour utiliser {@spell remove curse} à la place, un personnage doit lancer le sort et toucher un objet faisant partie du piège. Quelle que soit la méthode de désamorçage utilisée, le piège lui-même effectue ensuite un jet de sauvegarde contre le DD de sauvegarde des sorts du personnage, en ajoutant son Bonus de hantise au jet. En cas d'échec, le piège est désamorcé pendant 24 heures. Si le piège échoue au jet de 10 ou plus, il est désamorcé de façon permanente.",
-						"Selon les origines du piège hanté, certains sorts peuvent aussi affecter le piège. Par exemple, un piège hanté d'origine fiélonne peut être désamorcé de façon permanente par le sort {@spell dispel evil and good}.",
+						"Les personnages qui remarquent un piège hanté avant son activation peuvent tenter de le désamorcer. Les méthodes typiques de désamorçage des pièges, comme les {@item Outils de crocheteur|PHB} et {@spell Dissipation de la magie}, n'affectent pas les pièges hantés. Cependant, l'aptitude de classe Canaliser l'énergie divine et le sort {@spell Délivrance de la malédiction} peuvent désamorcer un piège hanté.",
+						"Pour utiliser Canaliser l'énergie divine afin de désamorcer un piège hanté, un personnage utilise une action pour présenter son symbole sacré et prononcer une prière. Pour utiliser {@spell Délivrance de la malédiction} à la place, un personnage doit lancer le sort et toucher un objet faisant partie du piège. Quelle que soit la méthode de désamorçage utilisée, le piège lui-même effectue ensuite un jet de sauvegarde contre le DD de sauvegarde des sorts du personnage, en ajoutant son Bonus de hantise au jet. En cas d'échec, le piège est désamorcé pendant 24 heures. Si le piège échoue au jet de 10 ou plus, il est désamorcé de façon permanente.",
+						"Selon les origines du piège hanté, certains sorts peuvent aussi affecter le piège. Par exemple, un piège hanté d'origine fiélonne peut être désamorcé de façon permanente par le sort {@spell Dissipation du mal et du bien}.",
 						"Certains pièges hantés peuvent aussi être désamorcés de manière non magique, en lien avec l'histoire d'une zone hantée. De telles méthodes peuvent être aussi simples que porter les vêtements de l'ancien propriétaire d'une maison hantée ou chanter une berceuse qui apaise un esprit agité. Les pièges hantés désamorcés de telles manières restent généralement désamorcés pendant 24 heures."
 					]
 				},
@@ -6331,15 +6331,15 @@
 					"rows": [
 						[
 							"1",
-							"{@bold Perte d'un œil.} Vous avez un désavantage aux tests de Sagesse ({@skill Perception}) qui reposent sur la vue et aux jets d'attaque à distance. Une magie telle que le sort {@spell regenerate} peut restaurer l'œil perdu. S'il ne vous reste plus aucun œil après avoir subi cette blessure, vous êtes {@condition Aveuglé}."
+							"{@bold Perte d'un œil.} Vous avez un désavantage aux tests de Sagesse ({@skill Perception}) qui reposent sur la vue et aux jets d'attaque à distance. Une magie telle que le sort {@spell Régénération} peut restaurer l'œil perdu. S'il ne vous reste plus aucun œil après avoir subi cette blessure, vous êtes {@condition Aveuglé}."
 						],
 						[
 							"2",
-							"{@bold Perte d'un bras ou d'une main.} Vous ne pouvez plus rien tenir à deux mains, et vous ne pouvez tenir qu'un seul objet à la fois. Une magie telle que le sort {@spell regenerate} peut restaurer le membre perdu."
+							"{@bold Perte d'un bras ou d'une main.} Vous ne pouvez plus rien tenir à deux mains, et vous ne pouvez tenir qu'un seul objet à la fois. Une magie telle que le sort {@spell Régénération} peut restaurer le membre perdu."
 						],
 						[
 							"3",
-							"{@bold Perte d'un pied ou d'une jambe.} Votre vitesse à pied est divisée par deux, et vous devez utiliser une canne ou une béquille pour vous déplacer, à moins de posséder une jambe de bois ou une autre prothèse. Vous tombez {@condition À terre} après avoir utilisé l'action {@action Course}. Vous avez un désavantage aux tests de Dextérité effectués pour garder l'équilibre. Une magie telle que le sort {@spell regenerate} peut restaurer le membre perdu."
+							"{@bold Perte d'un pied ou d'une jambe.} Votre vitesse à pied est divisée par deux, et vous devez utiliser une canne ou une béquille pour vous déplacer, à moins de posséder une jambe de bois ou une autre prothèse. Vous tombez {@condition À terre} après avoir utilisé l'action {@action Course}. Vous avez un désavantage aux tests de Dextérité effectués pour garder l'équilibre. Une magie telle que le sort {@spell Régénération} peut restaurer le membre perdu."
 						],
 						[
 							"4",
@@ -6355,7 +6355,7 @@
 						],
 						[
 							"11-13",
-							"{@bold Cicatrice horrible.} Vous êtes défiguré au point que la blessure ne peut pas être aisément dissimulée. Vous avez un désavantage aux tests de Charisme ({@skill Persuasion}) et un avantage aux tests de Charisme ({@skill Intimidation}). Des soins magiques de niveau 6 ou plus, comme {@spell heal} et {@spell regenerate}, suppriment la cicatrice."
+							"{@bold Cicatrice horrible.} Vous êtes défiguré au point que la blessure ne peut pas être aisément dissimulée. Vous avez un désavantage aux tests de Charisme ({@skill Persuasion}) et un avantage aux tests de Charisme ({@skill Intimidation}). Des soins magiques de niveau 6 ou plus, comme {@spell Guérison} et {@spell Régénération}, suppriment la cicatrice."
 						],
 						[
 							"14-16",
@@ -6363,7 +6363,7 @@
 						],
 						[
 							"17-20",
-							"{@bold Cicatrice mineure.} La cicatrice n'a aucun effet néfaste. Des soins magiques de niveau 6 ou plus, comme {@spell heal} et {@spell regenerate}, suppriment la cicatrice."
+							"{@bold Cicatrice mineure.} La cicatrice n'a aucun effet néfaste. Des soins magiques de niveau 6 ou plus, comme {@spell Guérison} et {@spell Régénération}, suppriment la cicatrice."
 						]
 					]
 				},
@@ -6695,7 +6695,7 @@
 					"type": "entries",
 					"name": "Devenir fou",
 					"entries": [
-						"Divers effets magiques peuvent infliger la folie à un esprit pourtant stable. Certains sorts, comme {@spell contact other plane} et {@spell symbol}, peuvent causer la démence, et vous pouvez utiliser les règles de folie présentées ici au lieu des effets de sorts du {@book Manuel des joueurs|PHB}. Les maladies, les poisons et les effets planaires comme le vent psychique ou les vents hurlants du Pandémonium peuvent tous infliger la folie. Certains artefacts peuvent aussi briser le psychisme d'un personnage qui les utilise ou s'y harmonise.",
+						"Divers effets magiques peuvent infliger la folie à un esprit pourtant stable. Certains sorts, comme {@spell Contact avec les autres plans} et {@spell Symbole}, peuvent causer la démence, et vous pouvez utiliser les règles de folie présentées ici au lieu des effets de sorts du {@book Manuel des joueurs|PHB}. Les maladies, les poisons et les effets planaires comme le vent psychique ou les vents hurlants du Pandémonium peuvent tous infliger la folie. Certains artefacts peuvent aussi briser le psychisme d'un personnage qui les utilise ou s'y harmonise.",
 						"Résister à un effet induisant la folie exige habituellement un jet de sauvegarde de Sagesse ou de Charisme. Si votre jeu inclut le {@variantrule New Ability Scores: Honor and Sanity||score de Santé mentale} (voir chapitre 9, « L'atelier du maître »), une créature effectue à la place un jet de sauvegarde de Santé mentale."
 					]
 				},
@@ -6787,7 +6787,7 @@
 								],
 								[
 									"31-40",
-									"Le personnage considère quelque chose (généralement la source de la folie) avec une répulsion intense, comme s'il était affecté par l'effet antipathie du sort {@spell antipathy/sympathy}."
+									"Le personnage considère quelque chose (généralement la source de la folie) avec une répulsion intense, comme s'il était affecté par l'effet antipathie du sort {@spell Antipathie/Sympathie}."
 								],
 								[
 									"41-45",
@@ -6891,7 +6891,7 @@
 					"type": "entries",
 					"name": "Guérir la folie",
 					"entries": [
-						"Un sort {@spell calm emotions} peut supprimer les effets de la folie, tandis qu'un sort {@spell lesser restoration} peut débarrasser un personnage d'une folie à court ou à long terme. Selon la source de la folie, {@spell remove curse} ou {@spell dispel evil and good||repousse le mal} peuvent aussi s'avérer efficaces. Un sort {@spell greater restoration} ou une magie plus puissante est nécessaire pour débarrasser un personnage d'une folie indéfinie."
+						"Un sort {@spell Apaisement} peut supprimer les effets de la folie, tandis qu'un sort {@spell Restauration partielle} peut débarrasser un personnage d'une folie à court ou à long terme. Selon la source de la folie, {@spell Délivrance de la malédiction} ou {@spell Dissipation du mal et du bien||repousse le mal} peuvent aussi s'avérer efficaces. Un sort {@spell Restauration supérieure} ou une magie plus puissante est nécessaire pour débarrasser un personnage d'une folie indéfinie."
 					]
 				}
 			]
@@ -7029,7 +7029,7 @@
 						],
 						[
 							"00",
-							"Une seule potion fonctionne, mais son effet est permanent. Choisissez l'effet le plus simple à rendre permanent, ou celui qui semble le plus amusant. Par exemple, une {@item Potion de soins} pourrait augmenter de 4 le maximum de points de vie du buveur, ou une {@item Huile d'éthéréité} pourrait piéger l'utilisateur pour toujours dans le Plan éthéré. À votre discrétion, un sort approprié, comme {@spell dispel magic} ou {@spell remove curse}, pourrait mettre fin à cet effet durable."
+							"Une seule potion fonctionne, mais son effet est permanent. Choisissez l'effet le plus simple à rendre permanent, ou celui qui semble le plus amusant. Par exemple, une {@item Potion de soins} pourrait augmenter de 4 le maximum de points de vie du buveur, ou une {@item Huile d'éthéréité} pourrait piéger l'utilisateur pour toujours dans le Plan éthéré. À votre discrétion, un sort approprié, comme {@spell Dissipation de la magie} ou {@spell Délivrance de la malédiction}, pourrait mettre fin à cet effet durable."
 						]
 					]
 				}
@@ -7082,7 +7082,7 @@
 			"page": 136,
 			"ruleType": "V",
 			"entries": [
-				"Si vous préférez que les objets magiques gardent davantage de mystère, envisagez de supprimer la possibilité d'identifier les propriétés d'un objet magique pendant un repos court, et exigez le sort {@spell identify}, l'expérimentation, ou les deux, pour révéler ce que fait un objet magique."
+				"Si vous préférez que les objets magiques gardent davantage de mystère, envisagez de supprimer la possibilité d'identifier les propriétés d'un objet magique pendant un repos court, et exigez le sort {@spell Identification}, l'expérimentation, ou les deux, pour révéler ce que fait un objet magique."
 			]
 		},
 		{
@@ -7299,7 +7299,7 @@
 									"name": "Emplacements de sorts",
 									"entries": [
 										"Vous déterminez vos emplacements de sorts disponibles en additionnant tous vos niveaux dans les classes de barde, clerc, druide, sorcier et magicien, la moitié de vos niveaux (arrondie à l'inférieur) dans les classes de paladin et rôdeur, et un tiers de vos niveaux de guerrier ou de roublard (arrondi à l'inférieur) si vous avez l'aptitude Chevalier occulte ou Filou arcanique. Utilisez ce total pour déterminer vos emplacements de sorts en consultant la table Incantateur multiclassé.",
-										"Si vous avez plus d'une classe d'incantation, cette table peut vous donner des emplacements de sorts d'un niveau supérieur aux sorts que vous connaissez ou pouvez préparer. Vous pouvez utiliser ces emplacements, mais uniquement pour lancer vos sorts de niveau inférieur. Si un sort de niveau inférieur que vous lancez, comme {@spell burning hands}, a un effet amplifié quand il est lancé en utilisant un emplacement de niveau supérieur, vous pouvez utiliser l'effet amplifié, même si vous ne connaissez aucun sort de ce niveau supérieur.",
+										"Si vous avez plus d'une classe d'incantation, cette table peut vous donner des emplacements de sorts d'un niveau supérieur aux sorts que vous connaissez ou pouvez préparer. Vous pouvez utiliser ces emplacements, mais uniquement pour lancer vos sorts de niveau inférieur. Si un sort de niveau inférieur que vous lancez, comme {@spell Mains brûlantes}, a un effet amplifié quand il est lancé en utilisant un emplacement de niveau supérieur, vous pouvez utiliser l'effet amplifié, même si vous ne connaissez aucun sort de ce niveau supérieur.",
 										"Par exemple, si vous êtes le rôdeur 4/magicien 3 mentionné ci-dessus, vous comptez comme un personnage de niveau 5 pour déterminer vos emplacements de sorts : vous avez quatre emplacements de niveau 1, trois emplacements de niveau 2 et deux emplacements de niveau 3. Cependant, vous ne connaissez aucun sort de niveau 3, ni aucun sort de rôdeur de niveau 2. Vous pouvez utiliser les emplacements de sorts de ces niveaux pour lancer les sorts que vous connaissez — et potentiellement amplifier leurs effets."
 									]
 								},
@@ -7771,7 +7771,7 @@
 									"rows": [
 										[
 											"1",
-											"Le chef possède un {@item spell scroll} de {@spell true resurrection} parmi ses possessions."
+											"Le chef possède un {@item spell scroll} de {@spell Résurrection véritable} parmi ses possessions."
 										],
 										[
 											"2",
@@ -7824,7 +7824,7 @@
 										],
 										[
 											"5",
-											"Les créatures doivent réussir un jet de sauvegarde de Constitution de {@dc 10} à la fin de chaque heure passée sur l'île. En cas d'échec, elles gagnent une cicatrice de 2,5 centimètres à un endroit aléatoire de leur corps. Seul un sort {@spell remove curse} ou une magie similaire supprime la cicatrice."
+											"Les créatures doivent réussir un jet de sauvegarde de Constitution de {@dc 10} à la fin de chaque heure passée sur l'île. En cas d'échec, elles gagnent une cicatrice de 2,5 centimètres à un endroit aléatoire de leur corps. Seul un sort {@spell Délivrance de la malédiction} ou une magie similaire supprime la cicatrice."
 										],
 										[
 											"6",
@@ -8460,7 +8460,7 @@
 									"rows": [
 										[
 											"1",
-											"L'île cache une source qui rend la vie à quiconque s'y lave, comme le sort {@spell raise dead}. Une créature ne peut bénéficier de la source qu'une seule fois."
+											"L'île cache une source qui rend la vie à quiconque s'y lave, comme le sort {@spell Relèvement}. Une créature ne peut bénéficier de la source qu'une seule fois."
 										],
 										[
 											"2",
@@ -8572,12 +8572,12 @@
 									"items": [
 										"Voir pour la première fois une créature du Plan lointain ou d'autres plans étranges",
 										"Entrer en contact direct avec l'esprit d'une créature alienne",
-										"Être soumis à des sorts qui affectent la stabilité mentale, comme l'option démence du sort {@spell symbol}",
+										"Être soumis à des sorts qui affectent la stabilité mentale, comme l'option démence du sort {@spell Symbole}",
 										"Traverser un demi-plan bâti sur une physique alienne",
 										"Résister à un effet conféré par une attaque ou un sort qui inflige des dégâts psychiques"
 									]
 								},
-								"Un jet de sauvegarde de Santé mentale raté peut entraîner une folie {@table short-term madness||à court terme}, {@table long-term madness||à long terme} ou {@table indefinite madness}, comme décrit au chapitre 8, « Conduire le jeu ». Chaque fois qu'un personnage souffre de folie à long terme ou indéfinie, sa Santé mentale est réduite de 1. Un sort {@spell greater restoration} peut restaurer la Santé mentale ainsi perdue, et un personnage peut augmenter sa Santé mentale grâce à la progression en niveau."
+								"Un jet de sauvegarde de Santé mentale raté peut entraîner une folie {@table short-term madness||à court terme}, {@table long-term madness||à long terme} ou {@table indefinite madness}, comme décrit au chapitre 8, « Conduire le jeu ». Chaque fois qu'un personnage souffre de folie à long terme ou indéfinie, sa Santé mentale est réduite de 1. Un sort {@spell Restauration supérieure} peut restaurer la Santé mentale ainsi perdue, et un personnage peut augmenter sa Santé mentale grâce à la progression en niveau."
 							]
 						}
 					]
@@ -9476,7 +9476,7 @@
 							"name": "Distorsion temporelle",
 							"entries": [
 								"Alors que le temps semble s'écouler normalement au Feywild, les personnages peuvent y passer une journée et se rendre compte, en quittant le plan, que moins ou plus de temps s'est écoulé partout ailleurs dans le multivers.",
-								"Chaque fois qu'une créature ou un groupe de créatures quitte le Feywild après y avoir passé au moins 1 journée, vous pouvez choisir le changement temporel qui convient le mieux à votre campagne, s'il y en a un, ou lancer sur la table Distorsion temporelle du Feywild. Un sort {@spell wish} peut être utilisé pour supprimer l'effet sur dix créatures au plus. Certaines fées puissantes ont la capacité d'exaucer de tels vœux et pourraient le faire si les bénéficiaires acceptent de se soumettre à un sort {@spell geas} et d'accomplir une quête après que le sort {@spell wish} a été lancé.",
+								"Chaque fois qu'une créature ou un groupe de créatures quitte le Feywild après y avoir passé au moins 1 journée, vous pouvez choisir le changement temporel qui convient le mieux à votre campagne, s'il y en a un, ou lancer sur la table Distorsion temporelle du Feywild. Un sort {@spell Souhait} peut être utilisé pour supprimer l'effet sur dix créatures au plus. Certaines fées puissantes ont la capacité d'exaucer de tels vœux et pourraient le faire si les bénéficiaires acceptent de se soumettre à un sort {@spell geas} et d'accomplir une quête après que le sort {@spell Souhait} a été lancé.",
 								{
 									"type": "table",
 									"caption": "Distorsion temporelle du Feywild",
@@ -9552,7 +9552,7 @@
 							]
 						},
 						"Si un personnage subit déjà un effet de désespoir et échoue au jet de sauvegarde, le nouvel effet de désespoir remplace l'ancien. Après avoir terminé un repos long, un personnage peut tenter de surmonter le désespoir avec un jet de sauvegarde de Sagesse de {@dc 15}. (Le DD est plus élevé parce qu'il est plus difficile de se débarrasser du désespoir une fois qu'il s'est installé.) En cas de réussite, l'effet de désespoir prend fin pour ce personnage.",
-						"Un sort {@spell calm emotions} supprime le désespoir, tout comme tout sort ou autre effet magique qui met fin à une malédiction."
+						"Un sort {@spell Apaisement} supprime le désespoir, tout comme tout sort ou autre effet magique qui met fin à une malédiction."
 					]
 				},
 				{
@@ -9566,21 +9566,21 @@
 					"type": "entries",
 					"name": "Mont Célestia : bienfaisance bénie",
 					"entries": [
-						"En contraste avec la dissonance éprouvée ici par les créatures mauvaises, les créatures bonnes sont littéralement bénies par la bienfaisance omniprésente du plan. Les créatures d'alignement bon gagnent le bénéfice du sort {@spell bless} tant qu'elles demeurent sur le plan. De plus, achever un repos long sur le plan accorde à une créature bonne le bénéfice d'un sort {@spell lesser restoration}."
+						"En contraste avec la dissonance éprouvée ici par les créatures mauvaises, les créatures bonnes sont littéralement bénies par la bienfaisance omniprésente du plan. Les créatures d'alignement bon gagnent le bénéfice du sort {@spell Bénédiction} tant qu'elles demeurent sur le plan. De plus, achever un repos long sur le plan accorde à une créature bonne le bénéfice d'un sort {@spell Restauration partielle}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Bytopie : bienveillance ambiante",
 					"entries": [
-						"À la fin de chaque repos long pris sur ce plan, un visiteur qui n'est ni loyal bon ni neutre bon doit effectuer un jet de sauvegarde de Sagesse de {@dc 10}. En cas d'échec, l'alignement de la créature devient loyal bon ou neutre bon (selon celui qui est le plus proche de l'alignement actuel de la créature). Le changement devient permanent si la créature ne quitte pas le plan dans les {@dice 1d4} jours. Sinon, l'alignement de la créature redevient normal après une journée passée sur un plan autre que la Bytopie. Lancer le sort {@spell dispel evil and good} sur la créature restaure aussi son alignement d'origine."
+						"À la fin de chaque repos long pris sur ce plan, un visiteur qui n'est ni loyal bon ni neutre bon doit effectuer un jet de sauvegarde de Sagesse de {@dc 10}. En cas d'échec, l'alignement de la créature devient loyal bon ou neutre bon (selon celui qui est le plus proche de l'alignement actuel de la créature). Le changement devient permanent si la créature ne quitte pas le plan dans les {@dice 1d4} jours. Sinon, l'alignement de la créature redevient normal après une journée passée sur un plan autre que la Bytopie. Lancer le sort {@spell Dissipation du mal et du bien} sur la créature restaure aussi son alignement d'origine."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Élysium : joie accablante",
 					"entries": [
-						"Les visiteurs qui passent du temps sur ce plan risquent de se retrouver piégés par d'accablantes sensations de contentement et de bonheur. À la fin de chaque repos long pris sur ce plan, un visiteur doit effectuer un jet de sauvegarde de Sagesse de {@dc 10}. En cas d'échec, la créature refuse de quitter le plan avant d'avoir pris un autre repos long. Après trois jets de sauvegarde ratés, la créature ne quitte plus jamais le plan de son plein gré et, si elle en est retirée de force, fait tout son possible pour y retourner. Un sort {@spell dispel evil and good} supprime cet effet de la créature."
+						"Les visiteurs qui passent du temps sur ce plan risquent de se retrouver piégés par d'accablantes sensations de contentement et de bonheur. À la fin de chaque repos long pris sur ce plan, un visiteur doit effectuer un jet de sauvegarde de Sagesse de {@dc 10}. En cas d'échec, la créature refuse de quitter le plan avant d'avoir pris un autre repos long. Après trois jets de sauvegarde ratés, la créature ne quitte plus jamais le plan de son plein gré et, si elle en est retirée de force, fait tout son possible pour y retourner. Un sort {@spell Dissipation du mal et du bien} supprime cet effet de la créature."
 					]
 				},
 				{
@@ -9594,14 +9594,14 @@
 					"type": "entries",
 					"name": "Les Contrées de la Bête : transformation animale",
 					"entries": [
-						"Chaque fois qu'un visiteur abat une bête originaire du plan, celui qui l'abat doit réussir un jet de sauvegarde de Charisme de {@dc 10} ou être transformé (comme par le sort {@spell polymorph}) en le type de bête qui a été abattue. Sous cette forme, la créature conserve son intelligence et sa capacité de parler. À la fin de chaque repos long, la créature métamorphosée peut répéter le jet de sauvegarde. En cas de réussite, la créature retrouve sa forme véritable. Après trois jets de sauvegarde ratés, la transformation ne peut être annulée que par un sort {@spell remove curse} ou une magie similaire. "
+						"Chaque fois qu'un visiteur abat une bête originaire du plan, celui qui l'abat doit réussir un jet de sauvegarde de Charisme de {@dc 10} ou être transformé (comme par le sort {@spell Polymorphie}) en le type de bête qui a été abattue. Sous cette forme, la créature conserve son intelligence et sa capacité de parler. À la fin de chaque repos long, la créature métamorphosée peut répéter le jet de sauvegarde. En cas de réussite, la créature retrouve sa forme véritable. Après trois jets de sauvegarde ratés, la transformation ne peut être annulée que par un sort {@spell Délivrance de la malédiction} ou une magie similaire. "
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Arborée : désir ardent",
 					"entries": [
-						"Suivez le nombre de jours qu'un visiteur passe en Arborée. Quand le visiteur s'en va, il doit effectuer un jet de sauvegarde de Charisme contre un DD de 5, plus 1 par journée passée sur le plan. En cas d'échec, la créature est affligée d'un désir de retourner en Arborée. Tant que l'effet persiste, la créature a un désavantage aux tests de caractéristique. À la fin de chaque repos long, la créature peut répéter le jet de sauvegarde, mettant fin à l'effet en cas de réussite. Un sort {@spell dispel evil and good} supprime cet effet de la créature."
+						"Suivez le nombre de jours qu'un visiteur passe en Arborée. Quand le visiteur s'en va, il doit effectuer un jet de sauvegarde de Charisme contre un DD de 5, plus 1 par journée passée sur le plan. En cas d'échec, la créature est affligée d'un désir de retourner en Arborée. Tant que l'effet persiste, la créature a un désavantage aux tests de caractéristique. À la fin de chaque repos long, la créature peut répéter le jet de sauvegarde, mettant fin à l'effet en cas de réussite. Un sort {@spell Dissipation du mal et du bien} supprime cet effet de la créature."
 					]
 				},
 				{
@@ -9632,8 +9632,8 @@
 					"name": "L'Abîme : corruption abyssale",
 					"entries": [
 						"Un visiteur non mauvais qui achève un repos long dans l'Abîme doit effectuer un jet de sauvegarde de Charisme de {@dc 10}. En cas d'échec, la créature devient corrompue. Reportez-vous à la table Corruption abyssale pour déterminer les effets de cette corruption. Vous pouvez substituer différents effets de corruption de votre création.",
-						"Après avoir terminé un repos long, une créature corrompue peut effectuer un jet de sauvegarde de Charisme de {@dc 15}. En cas de réussite, l'effet de corruption prend fin. Un sort {@spell dispel evil and good} ou toute magie qui met fin à une malédiction met aussi fin à l'effet.",
-						"Si une créature corrompue ne quitte pas le plan dans les {@dice 1d4 + 2} jours, son alignement devient chaotique mauvais. Lancer le sort {@spell dispel evil and good} sur la créature restaure son alignement d'origine.",
+						"Après avoir terminé un repos long, une créature corrompue peut effectuer un jet de sauvegarde de Charisme de {@dc 15}. En cas de réussite, l'effet de corruption prend fin. Un sort {@spell Dissipation du mal et du bien} ou toute magie qui met fin à une malédiction met aussi fin à l'effet.",
+						"Si une créature corrompue ne quitte pas le plan dans les {@dice 1d4 + 2} jours, son alignement devient chaotique mauvais. Lancer le sort {@spell Dissipation du mal et du bien} sur la créature restaure son alignement d'origine.",
 						{
 							"type": "table",
 							"caption": "Corruption abyssale",
@@ -9660,7 +9660,7 @@
 								],
 								[
 									"10",
-									"{@bold Possession démoniaque.} Le personnage est possédé par une entité démoniaque jusqu'à ce qu'il soit libéré par {@spell dispel evil and good} ou une magie similaire. Chaque fois que le personnage possédé obtient un 1 sur un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, le démon prend le contrôle du personnage et détermine son comportement. À la fin de chacun des tours du personnage possédé, celui-ci peut effectuer un jet de sauvegarde de Charisme de {@dc 15}. En cas de réussite, le personnage reprend le contrôle jusqu'à ce qu'il obtienne un autre 1."
+									"{@bold Possession démoniaque.} Le personnage est possédé par une entité démoniaque jusqu'à ce qu'il soit libéré par {@spell Dissipation du mal et du bien} ou une magie similaire. Chaque fois que le personnage possédé obtient un 1 sur un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, le démon prend le contrôle du personnage et détermine son comportement. À la fin de chacun des tours du personnage possédé, celui-ci peut effectuer un jet de sauvegarde de Charisme de {@dc 15}. En cas de réussite, le personnage reprend le contrôle jusqu'à ce qu'il obtienne un autre 1."
 								]
 							]
 						}
@@ -9693,7 +9693,7 @@
 					"type": "entries",
 					"name": "Les Neuf Enfers : mal omniprésent",
 					"entries": [
-						"Le mal imprègne les Neuf Enfers, et les visiteurs de ce plan en ressentent l'influence. À la fin de chaque repos long pris sur ce plan, un visiteur qui n'est pas mauvais doit effectuer un jet de sauvegarde de Sagesse de {@dc 10}. En cas d'échec, l'alignement de la créature devient loyal mauvais. Le changement devient permanent si la créature ne quitte pas le plan dans les {@dice 1d4} jours. Sinon, l'alignement de la créature redevient normal après une journée passée sur un plan autre que les Neuf Enfers. Lancer le sort {@spell dispel evil and good} sur la créature restaure aussi son alignement d'origine."
+						"Le mal imprègne les Neuf Enfers, et les visiteurs de ce plan en ressentent l'influence. À la fin de chaque repos long pris sur ce plan, un visiteur qui n'est pas mauvais doit effectuer un jet de sauvegarde de Sagesse de {@dc 10}. En cas d'échec, l'alignement de la créature devient loyal mauvais. Le changement devient permanent si la créature ne quitte pas le plan dans les {@dice 1d4} jours. Sinon, l'alignement de la créature redevient normal après une journée passée sur un plan autre que les Neuf Enfers. Lancer le sort {@spell Dissipation du mal et du bien} sur la créature restaure aussi son alignement d'origine."
 					]
 				},
 				{
@@ -9714,7 +9714,7 @@
 					"type": "entries",
 					"name": "Mechanus : ordre imposé",
 					"entries": [
-						"À la fin de chaque repos long pris sur ce plan, un visiteur qui n'est pas loyal neutre doit effectuer un jet de sauvegarde de Sagesse de {@dc 10}. En cas d'échec, l'alignement de la créature devient loyal neutre. L'alignement de la créature redevient normal après une journée passée sur un plan autre que Mechanus. Lancer le sort {@spell dispel evil and good} sur la créature restaure aussi son alignement d'origine."
+						"À la fin de chaque repos long pris sur ce plan, un visiteur qui n'est pas loyal neutre doit effectuer un jet de sauvegarde de Sagesse de {@dc 10}. En cas d'échec, l'alignement de la créature devient loyal neutre. L'alignement de la créature redevient normal après une journée passée sur un plan autre que Mechanus. Lancer le sort {@spell Dissipation du mal et du bien} sur la créature restaure aussi son alignement d'origine."
 					]
 				},
 				{
@@ -9822,7 +9822,7 @@
 							"page": 237,
 							"entries": [
 								"Un humanoïde qui cède à la lycanthropie d'un loup garou devient un {@creature werewolf} (voir ci-dessus). Cette forme de lycanthropie ne peut pas être levée tant que vit le loup garou qui a infligé la malédiction.",
-								"Une fois le loup garou tué, un sort {@spell remove curse} lancé pendant la nuit de pleine lune sur n'importe quel loup-garou atteint qu'il a créé force la cible à effectuer un jet de sauvegarde de Constitution de {@dc 17}. En cas de réussite, la malédiction est brisée, la cible reprend sa forme normale et gagne 3 niveaux d'{@condition Épuisement}. En cas d'échec, la malédiction demeure et la cible échoue automatiquement à tout jet de sauvegarde tenté pour briser cette malédiction pendant 1 mois."
+								"Une fois le loup garou tué, un sort {@spell Délivrance de la malédiction} lancé pendant la nuit de pleine lune sur n'importe quel loup-garou atteint qu'il a créé force la cible à effectuer un jet de sauvegarde de Constitution de {@dc 17}. En cas de réussite, la malédiction est brisée, la cible reprend sa forme normale et gagne 3 niveaux d'{@condition Épuisement}. En cas d'échec, la malédiction demeure et la cible échoue automatiquement à tout jet de sauvegarde tenté pour briser cette malédiction pendant 1 mois."
 							]
 						}
 					]
@@ -9840,7 +9840,7 @@
 				}
 			],
 			"entries": [
-				"Les statistiques de jeu d'un personnage joueur transformé en {@creature vampire spawn} puis en {@creature vampire} ne changent pas, excepté que les scores de Force, de Dextérité et de Constitution du personnage passent à 18 s'ils ne sont pas déjà supérieurs. En outre, le personnage gagne les résistances aux dégâts du vampire, la {@sense Vision dans le noir}, ses traits et ses actions. Les jets d'attaque et de dégâts des attaques du vampire se fondent sur la Force. Le DD de sauvegarde de Charme est de 8 + le bonus de maîtrise du vampire + le modificateur de Charisme du vampire. L'alignement du personnage devient loyal mauvais, et le MD peut prendre le contrôle du personnage jusqu'à ce que le vampirisme soit annulé par un sort {@spell wish} ou que le personnage soit tué et ramené à la vie.",
+				"Les statistiques de jeu d'un personnage joueur transformé en {@creature vampire spawn} puis en {@creature vampire} ne changent pas, excepté que les scores de Force, de Dextérité et de Constitution du personnage passent à 18 s'ils ne sont pas déjà supérieurs. En outre, le personnage gagne les résistances aux dégâts du vampire, la {@sense Vision dans le noir}, ses traits et ses actions. Les jets d'attaque et de dégâts des attaques du vampire se fondent sur la Force. Le DD de sauvegarde de Charme est de 8 + le bonus de maîtrise du vampire + le modificateur de Charisme du vampire. L'alignement du personnage devient loyal mauvais, et le MD peut prendre le contrôle du personnage jusqu'à ce que le vampirisme soit annulé par un sort {@spell Souhait} ou que le personnage soit tué et ramené à la vie.",
 				{
 					"type": "entries",
 					"name": "Jiangshi",
@@ -9954,7 +9954,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"Certains effets font qu'une créature est possédée par une autre créature ou entité. L'effet de possession définit le fonctionnement de la possession. La possession peut être prévenue par le sort {@spell Protection from Evil and Good|XPHB} et prendre fin grâce au sort {@spell Dispel Evil and Good|XPHB}."
+				"Certains effets font qu'une créature est possédée par une autre créature ou entité. L'effet de possession définit le fonctionnement de la possession. La possession peut être prévenue par le sort {@spell Protection contre le mal et le bien|XPHB} et prendre fin grâce au sort {@spell Dissipation du mal et du bien|XPHB}."
 			]
 		},
 		{
@@ -11196,11 +11196,11 @@
 						],
 						[
 							"4",
-							"L'effet du sort est contraire à son effet normal, mais ni nuisible ni bénéfique. Par exemple, un {@spell fireball} pourrait produire une zone de froid inoffensif."
+							"L'effet du sort est contraire à son effet normal, mais ni nuisible ni bénéfique. Par exemple, un {@spell Boule de feu} pourrait produire une zone de froid inoffensif."
 						],
 						[
 							"5",
-							"Le lanceur subit un effet mineur mais étrange lié au sort. De tels effets ne durent que le temps de la durée du sort d'origine, ou {@dice 1d10} minutes pour les sorts qui font effet instantanément. Par exemple, un {@spell fireball} pourrait faire jaillir de la fumée des oreilles du lanceur pendant {@dice 1d10} minutes. "
+							"Le lanceur subit un effet mineur mais étrange lié au sort. De tels effets ne durent que le temps de la durée du sort d'origine, ou {@dice 1d10} minutes pour les sorts qui font effet instantanément. Par exemple, un {@spell Boule de feu} pourrait faire jaillir de la fumée des oreilles du lanceur pendant {@dice 1d10} minutes. "
 						],
 						[
 							"6",
@@ -11218,7 +11218,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"Si un effet, comme la Forme sauvage ou le sort {@spell Polymorph|XPHB}, vous permet de vous métamorphoser, sa description précise ce qu'il vous arrive. Sauf si cette description indique le contraire, tous les effets en cours qui vous affectent — {@variantrule Condition|XPHB|états}, sorts, malédictions et autres — se transfèrent d'une forme à l'autre. Vous reprenez votre forme véritable si vous mourez."
+				"Si un effet, comme la Forme sauvage ou le sort {@spell Polymorphie|XPHB}, vous permet de vous métamorphoser, sa description précise ce qu'il vous arrive. Sauf si cette description indique le contraire, tous les effets en cours qui vous affectent — {@variantrule Condition|XPHB|états}, sorts, malédictions et autres — se transfèrent d'une forme à l'autre. Vous reprenez votre forme véritable si vous mourez."
 			]
 		},
 		{
@@ -11520,7 +11520,7 @@
 			"type": "entries",
 			"entries": [
 				"Les réparations non magiques d'un navire endommagé peuvent être effectuées pendant que le vaisseau est à quai. Réparer 1 point de vie de dégâts sur un navire à quai prend 1 journée et coûte 20 po en matériaux et main-d'œuvre. Les dégâts aux armes de bord peuvent être réparés tout aussi vite (1 point de vie par journée), mais à moitié prix (10 po par point de vie).",
-				"Le sort {@spell mending} est un moyen moins coûteux et moins chronophage d'effectuer des réparations. Lancer {@spell mending} sur un navire endommagé ou une arme de bord restaure à la cible un nombre de points de vie égal à {@dice 1d8} plus le modificateur de caractéristique d'incantation du lanceur de sorts. La cible ne peut récupérer des points de vie de ce sort qu'une fois par heure au maximum."
+				"Le sort {@spell Réparation} est un moyen moins coûteux et moins chronophage d'effectuer des réparations. Lancer {@spell Réparation} sur un navire endommagé ou une arme de bord restaure à la cible un nombre de points de vie égal à {@dice 1d8} plus le modificateur de caractéristique d'incantation du lanceur de sorts. La cible ne peut récupérer des points de vie de ce sort qu'une fois par heure au maximum."
 			]
 		},
 		{
@@ -11771,7 +11771,7 @@
 							"name": "Pertes d'équipage",
 							"entries": [
 								"Occire l'équipage d'un navire réduit le nombre d'actions que la plupart des navires peuvent entreprendre, faisant de l'équipage une cible tentante en combat. Résolvez les attaques individuelles normalement, en utilisant au besoin les lignes directrices pour résoudre de nombreuses attaques identiques à la fois du {@book Guide du maître|DMG}.",
-								"Dans le cas de sorts couvrant une zone, comme {@spell fireball} ou {@spell lightning bolt}, vous pouvez suivre la position exacte du sort et de l'équipage pour déterminer combien de marins il affecte. Alternativement, vous pouvez lancer {@dice 1d6} par niveau du sort. Le total des dés est le nombre de membres d'équipage pris dans la zone du sort."
+								"Dans le cas de sorts couvrant une zone, comme {@spell Boule de feu} ou {@spell Éclair}, vous pouvez suivre la position exacte du sort et de l'équipage pour déterminer combien de marins il affecte. Alternativement, vous pouvez lancer {@dice 1d6} par niveau du sort. Le total des dés est le nombre de membres d'équipage pris dans la zone du sort."
 							]
 						}
 					]
@@ -12024,7 +12024,7 @@
 										"type": "entries",
 										"name": "Incantation",
 										"entries": [
-											"Le lanceur de sorts apprend un autre sort de niveau 1 : {@spell bless} (soigneur) ou {@spell burning hands} (mage)."
+											"Le lanceur de sorts apprend un autre sort de niveau 1 : {@spell Bénédiction} (soigneur) ou {@spell Mains brûlantes} (mage)."
 										]
 									}
 								],
@@ -12035,7 +12035,7 @@
 										"type": "entries",
 										"name": "Incantation",
 										"entries": [
-											"Le lanceur de sorts gagne un emplacement de sort de niveau 1. Il apprend aussi un autre sort de niveau 1 : {@spell shield of faith} (soigneur) ou {@spell shield} (mage)."
+											"Le lanceur de sorts gagne un emplacement de sort de niveau 1. Il apprend aussi un autre sort de niveau 1 : {@spell Bouclier de la foi} (soigneur) ou {@spell Bouclier} (mage)."
 										]
 									}
 								],
@@ -12046,7 +12046,7 @@
 										"type": "entries",
 										"name": "Amélioration de caractéristique",
 										"entries": [
-											"Le score d'Int. (mage) ou de Sag. (soigneur) du lanceur de sorts augmente de 2, ce qui augmente le modificateur de 1 ; augmentez donc de 1 les nombres suivants : le DD de sauvegarde des sorts du lanceur de sorts et le bonus d'attaque des attaques de sorts, les bonus de l'entrée Compétences du mage, le bonus de jet de sauvegarde de Sagesse du soigneur et la {@skill Perception} passive du soigneur. Incantation. Le lanceur de sorts apprend un autre tour de magie : {@spell resistance} (soigneur) ou {@spell mage hand} (mage)."
+											"Le score d'Int. (mage) ou de Sag. (soigneur) du lanceur de sorts augmente de 2, ce qui augmente le modificateur de 1 ; augmentez donc de 1 les nombres suivants : le DD de sauvegarde des sorts du lanceur de sorts et le bonus d'attaque des attaques de sorts, les bonus de l'entrée Compétences du mage, le bonus de jet de sauvegarde de Sagesse du soigneur et la {@skill Perception} passive du soigneur. Incantation. Le lanceur de sorts apprend un autre tour de magie : {@spell Résistance} (soigneur) ou {@spell Main du mage} (mage)."
 										]
 									}
 								],
@@ -12067,7 +12067,7 @@
 												"type": "entries",
 												"name": "Incantation",
 												"entries": [
-													"Le lanceur de sorts gagne un emplacement de sort de niveau 1 et deux emplacements de sorts de niveau 2. Il apprend aussi un sort de niveau 2 : {@spell aid} (soigneur) ou {@spell invisibility} (mage)"
+													"Le lanceur de sorts gagne un emplacement de sort de niveau 1 et deux emplacements de sorts de niveau 2. Il apprend aussi un sort de niveau 2 : {@spell Aide} (soigneur) ou {@spell Invisibilité} (mage)"
 												]
 											}
 										]
@@ -12691,7 +12691,7 @@
 					"type": "entries",
 					"name": "Cibles de sort non valides",
 					"entries": [
-						"Un sort précise ce que le lanceur peut cibler avec lui : n'importe quel type de créature, une créature d'un certain type (humanoïde ou bête, par exemple), un objet, une zone, le lanceur ou autre chose. Mais que se passe-t-il si un sort cible quelque chose qui n'est pas une cible valide ? Par exemple, quelqu'un pourrait lancer {@spell charm person} sur une créature crue humanoïde, sans savoir que la cible est en réalité un vampire. Si cette question se pose, gérez-la à l'aide de la règle suivante.",
+						"Un sort précise ce que le lanceur peut cibler avec lui : n'importe quel type de créature, une créature d'un certain type (humanoïde ou bête, par exemple), un objet, une zone, le lanceur ou autre chose. Mais que se passe-t-il si un sort cible quelque chose qui n'est pas une cible valide ? Par exemple, quelqu'un pourrait lancer {@spell Charmement} sur une créature crue humanoïde, sans savoir que la cible est en réalité un vampire. Si cette question se pose, gérez-la à l'aide de la règle suivante.",
 						"Si vous lancez un sort sur quelqu'un ou quelque chose qui ne peut pas être affecté par le sort, rien ne se passe pour cette cible, mais si vous avez utilisé un emplacement de sort pour lancer le sort, l'emplacement est quand même dépensé. Si le sort n'a normalement aucun effet sur une cible qui réussit un jet de sauvegarde, la cible invalide semble avoir réussi son jet de sauvegarde, même si elle n'en a pas tenté (ne donnant aucun indice que la créature est en réalité une cible invalide). Sinon, vous percevez que le sort n'a rien fait à la cible."
 					]
 				},
@@ -12711,7 +12711,7 @@
 									"type": "entries",
 									"name": "Fabriquer un gabarit",
 									"entries": [
-										"Fabriquer un gabarit est simple. Prenez une feuille de papier ou de carton, et découpez-la en forme de la zone d'effet utilisée. Chaque tranche de 1,50 mètre de la zone équivaut à 2,5 centimètres de la taille du gabarit. Par exemple, la sphère de 6 mètres de rayon du sort {@spell fireball}, qui a un diamètre de 12 mètres, se traduirait par un gabarit circulaire de 20 centimètres de diamètre."
+										"Fabriquer un gabarit est simple. Prenez une feuille de papier ou de carton, et découpez-la en forme de la zone d'effet utilisée. Chaque tranche de 1,50 mètre de la zone équivaut à 2,5 centimètres de la taille du gabarit. Par exemple, la sphère de 6 mètres de rayon du sort {@spell Boule de feu}, qui a un diamètre de 12 mètres, se traduirait par un gabarit circulaire de 20 centimètres de diamètre."
 									]
 								},
 								{

@@ -659,7 +659,7 @@
 							"name": "Vanquish the Orc Raiders",
 							"page": 34,
 							"entries": [
-								"In the mining town of Blasingdell, the characters learn that orc raiders have been pillaging isolated farmsteads and camps in the hills north of the town. The local militia captured an orc warrior left for dead by its comrades and brought it back for questioning. Under the influence of a {@spell charm person} spell, the orc divulged the location of the monsters' lair, a lonely hill called the Stone Tooth. The mayor offers a bounty of 25 gp per orc, dead or alive, and the gratitude of the townsfolk to any who can permanently end the threat.",
+								"In the mining town of Blasingdell, the characters learn that orc raiders have been pillaging isolated farmsteads and camps in the hills north of the town. The local militia captured an orc warrior left for dead by its comrades and brought it back for questioning. Under the influence of a {@spell Charmement} spell, the orc divulged the location of the monsters' lair, a lonely hill called the Stone Tooth. The mayor offers a bounty of 25 gp per orc, dead or alive, and the gratitude of the townsfolk to any who can permanently end the threat.",
 								{
 									"type": "inset",
 									"name": "The Mining Town of Blasingdell",
@@ -3062,7 +3062,7 @@
 											"entries": [
 												"Burdug the shaman, an {@creature orc Eye of Gruumsh}, has commandeered a chamber as her private domain. She lives here with her two followers, female {@creature Orc||orcs}, separate from the rest of the tribe.",
 												"The door to area 10 is locked, but the key is inserted in the keyhole on this side. Burdug keeps the door closed because she wants to confine the stirges on the other side. (She calls the stirges her \"little stingies\" and occasionally captures one to use in her potions and brews.)",
-												"Burdug orders her two followers to engage intruders while she attempts to neutralize a dangerous-looking combatant with a {@spell command} spell. Then she casts {@spell bless} on herself and the others, and finally casts {@spell spiritual weapon} before joining battle.",
+												"Burdug orders her two followers to engage intruders while she attempts to neutralize a dangerous-looking combatant with a {@spell Ordre} spell. Then she casts {@spell Bénédiction} on herself and the others, and finally casts {@spell Arme spirituelle} before joining battle.",
 												"If the fight goes poorly, Burdug throws {@item Feu grégeois (flasque)|PHB|alchemist's fire} (she has three flasks) and opens the door to area 10, releasing the {@creature Stirge||stirges}. She takes advantage of the confusion, using more alchemist's fire if necessary, to escape and seek help."
 											],
 											"id": "076"
@@ -8129,9 +8129,9 @@
 											"page": 45,
 											"entries": [
 												"{@creature Kaarghaz|TftYP} is a 4th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He knows the following sorcerer spells:",
-												"Cantrips (at will): {@spell fire bolt}, {@spell mage hand}, {@spell poison spray}, {@spell prestidigitation}, {@spell ray of frost}",
-												"1st level (6 slots): {@spell burning hands}, {@spell shield}, {@spell sleep}",
-												"2nd level (3 slots): {@spell invisibility}, {@spell scorching ray}",
+												"Cantrips (at will): {@spell Trait de feu}, {@spell Main du mage}, {@spell Jet de poison}, {@spell prestidigitation}, {@spell Rayon de gel}",
+												"1st level (6 slots): {@spell Mains brûlantes}, {@spell Bouclier}, {@spell Sommeil}",
+												"2nd level (3 slots): {@spell Invisibilité}, {@spell Rayons brûlants}",
 												"If the characters make a lot of noise or tip off their presence in some other way, {@creature Kaarghaz|TftYP} begins this encounter {@condition invisible} (see below). Otherwise, read:",
 												{
 													"type": "insetReadaloud",
@@ -8140,7 +8140,7 @@
 													],
 													"id": "0b7"
 												},
-												"If {@creature Kaarghaz|TftYP} is alerted to the party's approach, he casts {@spell invisibility} on himself before they enter. If he loses at least half his hit points, he tries to escape (using {@spell invisibility} if possible). If his escape succeeds, he soon afterward rounds up a war party of surviving troglodytes from other areas to track down and ambush the party."
+												"If {@creature Kaarghaz|TftYP} is alerted to the party's approach, he casts {@spell Invisibilité} on himself before they enter. If he loses at least half his hit points, he tries to escape (using {@spell Invisibilité} if possible). If his escape succeeds, he soon afterward rounds up a war party of surviving troglodytes from other areas to track down and ambush the party."
 											],
 											"id": "0b6"
 										},
@@ -10024,7 +10024,7 @@
 											"page": 49,
 											"entries": [
 												"The water is about 5 feet deep and is tainted by disease. Anyone who drinks the water or wades into it is exposed and must succeed on a {@dc 10} Constitution saving throw to avoid infection. Symptoms manifest one day after exposure and include high fever, muscle spasms, and eventual paralysis.",
-												"An infected creature suffers one level of {@condition Épuisement} when it finishes the first long rest it takes after being exposed. Whenever it finishes a long rest thereafter, it must make a {@dc 10} Constitution saving throw. On a failed save, the creature suffers another level of {@condition Épuisement}. On a successful save, its {@condition Épuisement} level is reduced by one. If its {@condition Épuisement} level reaches 5, the infected creature becomes {@condition Paralysé} until the disease is cured or the effect is removed with a {@spell lesser restoration} spell or similar magic. If a successful saving throw reduces the infected creature's {@condition Épuisement} level to 0, the creature recovers from the disease."
+												"An infected creature suffers one level of {@condition Épuisement} when it finishes the first long rest it takes after being exposed. Whenever it finishes a long rest thereafter, it must make a {@dc 10} Constitution saving throw. On a failed save, the creature suffers another level of {@condition Épuisement}. On a successful save, its {@condition Épuisement} level is reduced by one. If its {@condition Épuisement} level reaches 5, the infected creature becomes {@condition Paralysé} until the disease is cured or the effect is removed with a {@spell Restauration partielle} spell or similar magic. If a successful saving throw reduces the infected creature's {@condition Épuisement} level to 0, the creature recovers from the disease."
 											],
 											"id": "0ee"
 										},
@@ -11329,7 +11329,7 @@
 											"page": 52,
 											"entries": [
 												"The secret door behind the east statue is well hidden, requiring a successful {@dc 18} Wisdom ({@skill Perception}) check to spot. If the characters detected the faint trail that leads there, a successful {@dc 10} Wisdom ({@skill Perception}) check locates the door. Beyond is a flight of stone stairs that leads upward.",
-												"The stairs have been warded with a magical alarm. When a creature ascends past the halfway point of the staircase, a {@spell magic mouth} spell calls out in Dwarvish, \"Alert! Alert! Intruders approach!\" This sound warns the duergar guards in area 36."
+												"The stairs have been warded with a magical alarm. When a creature ascends past the halfway point of the staircase, a {@spell Bouche magique} spell calls out in Dwarvish, \"Alert! Alert! Intruders approach!\" This sound warns the duergar guards in area 36."
 											],
 											"id": "101"
 										}
@@ -11362,7 +11362,7 @@
 											"name": "Creatures",
 											"page": 52,
 											"entries": [
-												"Two {@creature duergar} guards and Ghared, a {@creature duergar spy|TftYP} (see {@adventure appendix B|TftYP-THSoT|3}), stand watch here. Unless the party climbed the stairs from area 35 without triggering the {@spell magic mouth}, the duergar are {@condition invisible}."
+												"Two {@creature duergar} guards and Ghared, a {@creature duergar spy|TftYP} (see {@adventure appendix B|TftYP-THSoT|3}), stand watch here. Unless the party climbed the stairs from area 35 without triggering the {@spell Bouche magique}, the duergar are {@condition invisible}."
 											],
 											"id": "105"
 										},
@@ -11443,9 +11443,9 @@
 															"page": 53,
 															"entries": [
 																"{@creature Snurrevin|TftYP} is a 3rd-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He has the following wizard spells prepared:",
-																"Cantrips (at will): {@spell fire bolt}, {@spell mage hand}, {@spell minor illusion}, {@spell shocking grasp}",
-																"1st level (4 slots): {@spell color spray}, {@spell shield}, {@spell silent image}",
-																"2nd level (2 slots): {@spell hold person}, {@spell shatter}"
+																"Cantrips (at will): {@spell Trait de feu}, {@spell Main du mage}, {@spell Illusion mineure}, {@spell Poing électrique}",
+																"1st level (4 slots): {@spell Gerbe colorée}, {@spell Bouclier}, {@spell Image silencieuse}",
+																"2nd level (2 slots): {@spell Immobiliser un personnage}, {@spell Déflagration}"
 															],
 															"id": "10d"
 														}
@@ -11454,7 +11454,7 @@
 												},
 												"{@creature Snurrevin|TftYP} has a familiar, a {@creature rat} named Browngnaw, that hides in the shadows near the unlit forge to the east. The duergar are preoccupied with their task and don't notice the party's entrance unless the characters make themselves known. They object violently to intruders who aren't escorted by duergar.",
 												"If a threat becomes apparent, the two smiths grab their weapons, use Enlarge, and move to guard the two bridges. If the fight goes against them, they turn {@condition invisible} and try to slip out to area 36, then join the other duergar in {@adventure area 39|TftYP-TFoF|1|39. Council Chamber}.",
-												"In combat, {@creature Snurrevin|TftYP} might cast {@spell shocking grasp} through his hidden familiar, and he might use {@spell silent image} to confound enemies with realistic-seeming threats."
+												"In combat, {@creature Snurrevin|TftYP} might cast {@spell Poing électrique} through his hidden familiar, and he might use {@spell Image silencieuse} to confound enemies with realistic-seeming threats."
 											],
 											"id": "10b"
 										},
@@ -11697,7 +11697,7 @@
 											"name": "Treasure",
 											"page": 55,
 											"entries": [
-												"The orcs looted the shrine after the fall of Khundrukar, but two members of the previous expedition fell to the undead defenders with valuables in their possession. Under a scattering of bones near the altar can be found a sack that holds 280 gp and a bone case that contains a {@item spell scroll} of {@spell web} and a {@item spell scroll} of {@spell spider climb}."
+												"The orcs looted the shrine after the fall of Khundrukar, but two members of the previous expedition fell to the undead defenders with valuables in their possession. Under a scattering of bones near the altar can be found a sack that holds 280 gp and a bone case that contains a {@item spell scroll} of {@spell Toile} and a {@item spell scroll} of {@spell Marche arachnéenne}."
 											],
 											"id": "128"
 										}
@@ -11977,7 +11977,7 @@
 											"name": "Treasure",
 											"page": 57,
 											"entries": [
-												"The dwarf scholar amassed a small amount of treasure, which he kept in the secret compartment: 110 gp and a cat's-eye gem worth 70 gp. In the library, in addition to an extensive collection of dwarven lore, the characters can find four {@item Spell Scroll||spell scrolls} (of {@spell alarm}, {@spell disguise self}, {@spell enlarge/reduce}, and {@spell shield}). The shelves might also include more scrolls, useful information tying in to future adventures, items of value to a collector, or other interesting lore, as you see fit."
+												"The dwarf scholar amassed a small amount of treasure, which he kept in the secret compartment: 110 gp and a cat's-eye gem worth 70 gp. In the library, in addition to an extensive collection of dwarven lore, the characters can find four {@item Spell Scroll||spell scrolls} (of {@spell Alarme}, {@spell Déguisement}, {@spell Agrandissement/Réduction}, and {@spell Bouclier}). The shelves might also include more scrolls, useful information tying in to future adventures, items of value to a collector, or other interesting lore, as you see fit."
 											],
 											"id": "14b"
 										}

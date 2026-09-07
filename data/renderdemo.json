@@ -27,7 +27,7 @@
 						"Auto dice tags; as above, but a result is automatically rolled upon rendering: {@autodice 2d10+2}.",
 						"Chance tags; similar to dice roller tags, but output success/failure. Similar syntax as dice tags: {@chance 50}; {@chance 50|display text}; {@chance 50|display text|rolled by name}; {@chance 50|display text|rolled by name|on success text}; {@chance 50|display text|rolled by name|on success text|on failure text}.",
 						"Summon/companion-specific tags: {@hitYourSpellAttack} ({@hitYourSpellAttack with optional display text}), {@dcYourSpellSave} ({@dcYourSpellSave with optional display text}).",
-						"Recharge tags; output success/failure for ability recharge. {@recharge} in an ability title for '(Recharge 6)', {@recharge 4} for '(Recharge 4\u20136)'., {@recharge 4|m} for a \"minimal\" look (i.e., no brackets)",
+						"Recharge tags; output success/failure for ability recharge. {@recharge} in an ability title for '(Recharge 6)', {@recharge 4} for '(Recharge 4–6)'., {@recharge 4|m} for a \"minimal\" look (i.e., no brackets)",
 						"Coinflip tags; {@coinflip} or {@coinflip display text|rolee name|success text|failure text}",
 						"Skill and sense tags; {@skill Athlétisme}/{@skill Perception} (case sensitive) and {@sense Vision véritable}/{@sense Vision dans le noir} (case insensitive) which provide tooltips on hover.",
 						"Footnote tags; allows a footnote to be embedded {@footnote directly in text|This is primarily for homebrew purposes, as the official texts (so far) avoid using footnotes}, with {@footnote optional reference information|This is the footnote. References are free text.|Footnote 1, page 20}.",
@@ -36,7 +36,7 @@
 						{
 							"type": "list",
 							"items": [
-								"Spells: {@spell acid splash} assumes PHB by default, {@spell tiny servant|xge} can have sources added with a pipe, {@spell tiny servant|xge|and optional link text added with another pipe}.",
+								"Spells: {@spell Aspersion d'acide} assumes PHB by default, {@spell tiny servant|xge} can have sources added with a pipe, {@spell tiny servant|xge|and optional link text added with another pipe}.",
 								"Items: {@item Cruche alchimique} assumes DMG by default, {@item Épée longue|phb} can have sources added with a pipe, {@item Épée longue|phb|and optional link text added with another pipe}.",
 								"Creatures: {@creature goblin} assumes MM by default, {@creature cow|vgm} can have sources added with a pipe, {@creature cow|vgm|and optional link text added with another pipe}.",
 								"Creature legendary groups: {@legroup unicorn} assumes MM by default, {@legroup balhannoth|MPMM} can have sources added with a pipe, {@legroup balhannoth|MPMM|and optional link text added with another pipe}.",
@@ -80,7 +80,7 @@
 								"Another tag that appears occasionally in the data is the @filter tag. This tag can be tricky to use, and generally relies on knowledge of the internals of each page. As such, use with caution, and if you're not sure about something, don't be afraid to drop by our {@link Discord|https://discord.gg/5etools} and ask questions. Note that you can {@kbd CTRL}+click the \"Get link to filters\" (magnet) button on a list page to copy the @filter tag for your current filter selection.",
 								"The syntax for the @filter tag is as follows:",
 								"(open curly brace)@filter display text|page_without_file_extension|filter_name_1=filter_1_value_1;filter_1_value_2;...filter_1_value_n|...|filter_name_m=filter_m_value_1;filter_m_value_2;...(close curly brace)",
-								"The purpose of this tag is to open the given page, pre-filtered with the specified filtering options. There's one major caveat that makes this tricky to use for aspiring JSONtranauts\u2014the filter values use the {@i internal} version, as you'd find in the data. So, for example, ..|school=D|.. would filter spells to Divination school spells, as 'D' is the Divination identifier in the data. Trying to do e.g. ..|school=Divination|.. will not work.",
+								"The purpose of this tag is to open the given page, pre-filtered with the specified filtering options. There's one major caveat that makes this tricky to use for aspiring JSONtranauts—the filter values use the {@i internal} version, as you'd find in the data. So, for example, ..|school=D|.. would filter spells to Divination school spells, as 'D' is the Divination identifier in the data. Trying to do e.g. ..|school=Divination|.. will not work.",
 								"The 'filter_name_X' here matches the literal text name of the filter, as displayed in the dropdown.",
 								"Some examples of the tag in action:",
 								"{@filter Races that have a bonus to Intelligence|races|Ability Scores (Including Subspecies)=Intelligence +any}",
@@ -155,7 +155,7 @@
 						}
 					]
 				},
-				"These tags may be {@b {@i {@spell fireball|phb|nested}}}, although there are often better ways to get the combination of bold and italic that you're probably going to use this for; consider using one of the properly typed objects below (such as level 2 headers).",
+				"These tags may be {@b {@i {@spell Boule de feu|phb|nested}}}, although there are often better ways to get the combination of bold and italic that you're probably going to use this for; consider using one of the properly typed objects below (such as level 2 headers).",
 				{
 					"type": "entries",
 					"name": "A Subclass Name, For Example",
@@ -277,7 +277,7 @@
 									"Although layout may start to deteriorate with more exotic nesting."
 								]
 							},
-							"{@spell bless||Spells, on the other hand, make sense.}",
+							"{@spell Bénédiction||Spells, on the other hand, make sense.}",
 							""
 						],
 						{
@@ -447,7 +447,7 @@
 							"entries": [
 								"This was, again, required specifically for XGE's complex traps, which can have multiple lines of text, often long enough to wrap into multiple rows in the same column. For example:",
 								"Either portal can be neutralized with three successful {@dc 20} Intelligence ({@skill Arcanes}) checks, but the process of analyzing a portal to disrupt it takes time. Faint runes in the ceiling and floor at both ends of the hallway are involved in the functioning of the portals. A creature must first use an action to examine a set of runes, then use a subsequent action to attempt to vandalize the runes. Each successful check reduces the sphere's damage by 11 ({@dice 2d10}), as the disrupted sphere loses speed moving through the failing portal.",
-								"Alternatively, a set of runes can be disabled with three successful castings of {@spell dispel magic} ({@dc 19}) targeting any of the runes in the set.",
+								"Alternatively, a set of runes can be disabled with three successful castings of {@spell Dissipation de la magie} ({@dc 19}) targeting any of the runes in the set.",
 								"If the southern portal is destroyed, the sphere slams into the south wall and comes to a halt. It blocks the door to the tomb, but the characters can escape."
 							]
 						}
@@ -738,15 +738,15 @@
 											"The unicorn's innate spellcasting ability is Charisma (spell save {@dc 14}). The unicorn can innately cast the following spells, requiring no components:"
 										],
 										"will": [
-											"{@spell detect evil and good}",
-											"{@spell druidcraft}",
-											"{@spell pass without trace}"
+											"{@spell Détection du mal et du bien}",
+											"{@spell Druidisme}",
+											"{@spell Passage sans trace}"
 										],
 										"daily": {
 											"1e": [
-												"{@spell calm emotions}",
-												"{@spell dispel evil and good}",
-												"{@spell entangle}"
+												"{@spell Apaisement}",
+												"{@spell Dissipation du mal et du bien}",
+												"{@spell Enchevêtrement}"
 											]
 										},
 										"ability": "cha"
@@ -862,7 +862,7 @@
 							"name": "Wild Magic Sorcery",
 							"shortName": "Wild Magic",
 							"displayName": "Wild Magic Sorcerer",
-							"className": "Sorcerer",
+							"className": "Sorcier",
 							"classSource": "XPHB",
 							"collapsed": true
 						}

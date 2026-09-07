@@ -14,7 +14,7 @@
 				{
 					"type": "list",
 					"items": [
-						"The aboleth casts {@spell phantasmal force} (no components required) on any number of creatures it can see within 60 feet of it. While maintaining {@status concentration} on this effect, the aboleth can't take other lair actions. If a target succeeds on the saving throw or if the effect ends for it, the target is immune to the aboleth's phantasmal force lair action for the next 24 hours, although such a creature can choose to be affected.",
+						"The aboleth casts {@spell Force phantasmale} (no components required) on any number of creatures it can see within 60 feet of it. While maintaining {@status concentration} on this effect, the aboleth can't take other lair actions. If a target succeeds on the saving throw or if the effect ends for it, the target is immune to the aboleth's phantasmal force lair action for the next 24 hours, although such a creature can choose to be affected.",
 						"Pools of water within 90 feet of the aboleth surge outward in a grasping tide. Any creature on the ground within 20 feet of such a pool must succeed on a {@dc 14} Strength saving throw or be pulled up to 20 feet into the water and knocked {@condition À terre}. The aboleth can't use this lair action again until it has used a different one.",
 						"Water in the aboleth's lair magically becomes a conduit for the creature's rage. The aboleth can target any number of creatures it can see in such water within 90 feet of it. A target must succeed on a {@dc 14} Wisdom saving throw or take 7 ({@damage 2d6}) psychic damage. The aboleth can't use this lair action again until it has used a different one."
 					]
@@ -54,7 +54,7 @@
 							"type": "item",
 							"name": "Psionic Projection",
 							"entries": [
-								"While in its lair, the aboleth can cast {@spell Project Image|XPHB}, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 16}). When casting the spell this way, the spell's range is 1 mile, and the aboleth can use its telepathy as if it were in the illusion's space."
+								"While in its lair, the aboleth can cast {@spell Projection d'image|XPHB}, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 16}). When casting the spell this way, the spell's range is 1 mile, and the aboleth can use its telepathy as if it were in the illusion's space."
 							]
 						}
 					]
@@ -68,7 +68,7 @@
 			"page": 192,
 			"lairActions": [
 				"If Aerisi is in the air node while {@creature Yan-C-Bin|PotA} isn't, Aerisi can take lair actions. On initiative count 20 (losing initiative ties), Aerisi uses a lair action to cast one of her spells, up to 3rd level, without using components or a spell slot. She can't cast the same spell two rounds in a row, although she can continue to concentrate on a spell she previously cast using a lair action. Aerisi can take no other lair actions while {@status concentration||concentrating} on a spell cast as a lair action.",
-				"If Aerisi casts {@spell invisibility} using this lair action, she also draws the power of the air node into herself. By doing so, she regains 15 ({@dice 3d8 + 2}) hit points."
+				"If Aerisi casts {@spell Invisibilité} using this lair action, she also draws the power of the air node into herself. By doing so, she regains 15 ({@dice 3d8 + 2}) hit points."
 			]
 		},
 		{
@@ -253,7 +253,7 @@
 						{
 							"type": "item",
 							"name": "Imprisoning Force",
-							"entry": "The dragon casts the {@spell forcecage} spell, using its spell save DC and requiring no spell components. The spell ends early if the dragon uses this lair action again or dies."
+							"entry": "The dragon casts the {@spell Cage de force} spell, using its spell save DC and requiring no spell components. The spell ends early if the dragon uses this lair action again or dies."
 						},
 						{
 							"type": "item",
@@ -272,7 +272,7 @@
 						{
 							"type": "item",
 							"name": "Background Check",
-							"entry": "Once per day, the dragon can cast the {@spell legend lore} spell, requiring no spell components, naming any person, place, or object within 1 mile of the lair as the spell's subject."
+							"entry": "Once per day, the dragon can cast the {@spell Connaissance des légendes} spell, requiring no spell components, naming any person, place, or object within 1 mile of the lair as the spell's subject."
 						},
 						{
 							"type": "item",
@@ -454,7 +454,7 @@
 					"type": "list",
 					"items": [
 						"Arasta learns about any creature touching her webs. Each creature {@condition Entravé} by a web or Arasta's Web of Hair must make a {@dc 21} Intelligence saving throw. On a failed save, Arasta gains knowledge of a creature's name, race, where they consider home, and what brought them to her web.",
-						"Arasta casts the {@spell giant insect} spell (spiders only). It lasts until she uses this lair action again or until she dies."
+						"Arasta casts the {@spell Insecte géant} spell (spiders only). It lasts until she uses this lair action again or until she dies."
 					]
 				}
 			],
@@ -551,7 +551,7 @@
 							"type": "item",
 							"name": "Frenzy",
 							"entries": [
-								"The archdevil casts {@spell Haste} on themself. The effect ends at initiative count 20 of the next round."
+								"The archdevil casts {@spell Célérité} on themself. The effect ends at initiative count 20 of the next round."
 							]
 						},
 						{
@@ -572,7 +572,7 @@
 							"type": "item",
 							"name": "Trap",
 							"entries": [
-								"The archdevil casts the {@spell Hold Monster} spell."
+								"The archdevil casts the {@spell Immobilisation de monstre} spell."
 							]
 						}
 					]
@@ -618,7 +618,7 @@
 							"type": "item",
 							"name": "The Devil's Greeting",
 							"entries": [
-								"Within 500 miles of his lair, an illusory version of Asmodeus (as if he has cast the {@spell Project Image} spell) appears. Asmodeus attempts to communicate with any characters and decipher their intentions. If they're hostile, Asmodeus pretends to prepare himself for combat, in an effort to make the character's waste their resources."
+								"Within 500 miles of his lair, an illusory version of Asmodeus (as if he has cast the {@spell Projection d'image} spell) appears. Asmodeus attempts to communicate with any characters and decipher their intentions. If they're hostile, Asmodeus pretends to prepare himself for combat, in an effort to make the character's waste their resources."
 							]
 						}
 					]
@@ -691,7 +691,7 @@
 						{
 							"type": "item",
 							"name": "No Secrets",
-							"entry": "Whenever a creature in Darkon casts a spell using a level 5+ spell slot, Azalin becomes aware of that creature's name and location. A {@spell Nondetection|XPHB} spell blocks this effect."
+							"entry": "Whenever a creature in Darkon casts a spell using a level 5+ spell slot, Azalin becomes aware of that creature's name and location. A {@spell Occultation|XPHB} spell blocks this effect."
 						}
 					]
 				},
@@ -983,7 +983,7 @@
 					"items": [
 						"Baphomet seals one doorway or other entryway within the lair. The opening must be unoccupied. It is filled with solid stone for 1 minute or until Baphomet creates this effect again.",
 						"Baphomet chooses a room within the lair that is no larger in any dimension than 100 feet. Until the next initiative count 20, gravity is reversed within that room. Any creatures or objects in the room when this happens fall in the direction of the new pull of gravity, unless they have some means of remaining aloft. Baphomet can ignore the gravity reversal if he's in the room, although he likes to use this action to land on a ceiling to attack targets flying near it.",
-						"Baphomet casts {@spell mirage arcane}, affecting a room within the lair that is no larger in any dimension than 100 feet. The effect ends on the next initiative count 20."
+						"Baphomet casts {@spell Mirage arcanique}, affecting a room within the lair that is no larger in any dimension than 100 feet. The effect ends on the next initiative count 20."
 					]
 				}
 			],
@@ -1118,7 +1118,7 @@
 										"type": "item",
 										"name": "Transmute",
 										"entries": [
-											"If Bel has cast {@spell Wall of Fire}, that wall becomes a permanent Wall of Stone instead (doesn't require {@status concentration})."
+											"If Bel has cast {@spell Mur de feu}, that wall becomes a permanent Wall of Stone instead (doesn't require {@status concentration})."
 										]
 									}
 								]
@@ -1628,7 +1628,7 @@
 							"type": "item",
 							"name": "Mirages",
 							"entries": [
-								"While in its lair, the dragon can cast {@spell Major Image|XPHB}, requiring no Material components and using the same spellcasting ability as its Spellcasting action. When casting the spell this way, the spell's range is 1 mile, and the dragon doesn't need to see the spot where the illusion appears."
+								"While in its lair, the dragon can cast {@spell Image majeure|XPHB}, requiring no Material components and using the same spellcasting ability as its Spellcasting action. When casting the spell this way, the spell's range is 1 mile, and the dragon doesn't need to see the spot where the illusion appears."
 							]
 						},
 						{
@@ -1657,7 +1657,7 @@
 				{
 					"type": "list",
 					"items": [
-						"The dragon creates fog as though it had cast the {@spell fog cloud} spell. The fog lasts until initiative count 20 on the next round.",
+						"The dragon creates fog as though it had cast the {@spell Nuage de brouillard} spell. The fog lasts until initiative count 20 on the next round.",
 						"A thunderclap originates at a point the dragon can see within 120 feet of it. Each creature within a 20-foot radius centered on that point must make a {@dc 15} Constitution saving throw or take 5 ({@damage 1d10}) thunder damage and be {@condition Assourdi} until the end of its next turn."
 					]
 				},
@@ -1696,7 +1696,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Once per day, the dragon can alter the weather in a 6-mile radius centered on its lair. The dragon doesn't need to be outdoors; otherwise the effect is identical to the {@spell control weather} spell.",
+						"Once per day, the dragon can alter the weather in a 6-mile radius centered on its lair. The dragon doesn't need to be outdoors; otherwise the effect is identical to the {@spell Contrôle du climat} spell.",
 						"Underwater plants within 6 miles of the dragon's lair take on dazzlingly brilliant hues.",
 						"Within its lair, the dragon can set illusory sounds, such as soft music and strange echoes, so that they can be heard in various parts of the lair."
 					]
@@ -1766,7 +1766,7 @@
 							"type": "item",
 							"name": "Sun and Storms",
 							"entries": [
-								"While in its lair, the dragon can cast {@spell Control Weather|XPHB}, requiring no Material components and using the same spellcasting ability as its Spellcasting action. When casting the spell this way, the dragon can control the weather within 1 mile of its lair, regardless if the dragon is inside or outside."
+								"While in its lair, the dragon can cast {@spell Contrôle du climat|XPHB}, requiring no Material components and using the same spellcasting ability as its Spellcasting action. When casting the spell this way, the dragon can control the weather within 1 mile of its lair, regardless if the dragon is inside or outside."
 							]
 						}
 					]
@@ -1832,7 +1832,7 @@
 				{
 					"type": "list",
 					"items": [
-						"The dragon chooses a point on the ground that it can see within 120 feet of it. Stone spikes sprout from the ground in a 20-foot radius centered on that point. The effect is otherwise identical to the {@spell spike growth} spell and lasts until the dragon uses this lair action again or until the dragon dies.",
+						"The dragon chooses a point on the ground that it can see within 120 feet of it. Stone spikes sprout from the ground in a 20-foot radius centered on that point. The effect is otherwise identical to the {@spell Croissance d'épines} spell and lasts until the dragon uses this lair action again or until the dragon dies.",
 						"The dragon chooses a 10-foot-square area on the ground that it can see within 120 feet of it. The ground in that area turns into 3-foot-deep mud. Each creature on the ground in that area when the mud appears must succeed on a {@dc 15} Dexterity saving throw or sink into the mud and become {@condition Entravé}. A creature can take an action to attempt a {@dc 15} Strength check, freeing itself or another creature within its reach and ending the {@condition Entravé} condition on a success. Moving 1 foot in the mud costs 2 feet of movement. On initiative count 20 on the next round, the mud hardens, and the Strength DC to work free increases to 20."
 					]
 				},
@@ -2205,7 +2205,7 @@
 						{
 							"type": "item",
 							"name": "Deep Torpor",
-							"entry": "The dragon casts the {@spell slow} spell, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 16}). The spell ends early if the dragon uses this lair action again or if the dragon dies."
+							"entry": "The dragon casts the {@spell Lenteur} spell, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 16}). The spell ends early if the dragon uses this lair action again or if the dragon dies."
 						},
 						{
 							"type": "item",
@@ -2268,7 +2268,7 @@
 					"type": "list",
 					"items": [
 						"The tomb trembles violently for a moment. Each creature on the floor of the tomb must succeed on a {@dc 19} Dexterity saving throw or be knocked {@condition À terre}.",
-						"The demilich targets one creature it can see within 60 feet of it. An {@spell antimagic field} fills the space of the target, moving with it until initiative count 20 on the next round.",
+						"The demilich targets one creature it can see within 60 feet of it. An {@spell Antichamp magique} fills the space of the target, moving with it until initiative count 20 on the next round.",
 						"The demilich targets any number of creatures it can see within 30 feet of it. No target can regain hit points until initiative count 20 on the next round."
 					]
 				}
@@ -2329,7 +2329,7 @@
 							"type": "item",
 							"name": "Darkness",
 							"entries": [
-								"Demogorgon casts the {@spell darkness} spell four times, targeting different areas with the spell. Demogorgon doesn't need to concentrate on the spells, which end on initiative count 20 of the next round."
+								"Demogorgon casts the {@spell Ténèbres} spell four times, targeting different areas with the spell. Demogorgon doesn't need to concentrate on the spells, which end on initiative count 20 of the next round."
 							]
 						},
 						{
@@ -2384,7 +2384,7 @@
 					"type": "list",
 					"items": [
 						"Demogorgon creates an illusory duplicate of himself, which appears in his own space and lasts until initiative count 20 of the next round. On his turn, Demogorgon can move the illusory duplicate a distance equal to his walking speed (no action required). The first time a creature or object interacts physically with Demogorgon (for example, hitting him with an attack), there is a {@chance 50} chance that it is the illusory duplicate that is being affected, not Demogorgon himself, in which case the illusion disappears.",
-						"Demogorgon casts the {@spell darkness} spell four times at its lowest level, targeting different areas with the spell. Demogorgon doesn't need to concentrate on the spells, which end on initiative count 20 of the next round."
+						"Demogorgon casts the {@spell Ténèbres} spell four times at its lowest level, targeting different areas with the spell. Demogorgon doesn't need to concentrate on the spells, which end on initiative count 20 of the next round."
 					]
 				}
 			],
@@ -2669,7 +2669,7 @@
 							"name": "Force Wall",
 							"type": "item",
 							"entries": [
-								"The elder brain casts {@spell wall of force}."
+								"The elder brain casts {@spell Mur de force}."
 							]
 						},
 						{
@@ -2730,7 +2730,7 @@
 				{
 					"type": "list",
 					"items": [
-						"The elder brain casts {@spell wall of force}.",
+						"The elder brain casts {@spell Mur de force}.",
 						"The elder brain targets one friendly creature it can sense within 120 feet of it. The target has a flash of inspiration and gains advantage on one attack roll, ability check, or saving throw it makes before the end of its next turn. If the target doesn't or can't use this benefit in that time, the inspiration is lost.",
 						"The elder brain targets one creature it can sense within 120 feet of it and anchors it by sheer force of will. The target must succeed on a {@dc 18} Charisma saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
@@ -2880,7 +2880,7 @@
 					"items": [
 						"Blood flows from Fazrian's eyes until initiative count 20 on the next round. No creature within 120 feet of the planetar can regain hit points until the effect ends.",
 						"Fazrian's eyes become smoldering black voids until initiative count 20 on the next round. All other creatures within 120 feet of the planetar have disadvantage on saving throws until the effect ends.",
-						"Blinding magical light springs from Fazrian's eyes until initiative count 20 on the next round. If a creature starts its turn within 120 feet of the planetar and the two of them can see each other, Fazrian can force the creature to make a {@dc 20} Constitution saving throw. On a failed save, the creature is {@condition Aveuglé}. The blindness lasts until the creature receives a {@spell lesser restoration} spell or similar magic."
+						"Blinding magical light springs from Fazrian's eyes until initiative count 20 on the next round. If a creature starts its turn within 120 feet of the planetar and the two of them can see each other, Fazrian can force the creature to make a {@dc 20} Constitution saving throw. On a failed save, the creature is {@condition Aveuglé}. The blindness lasts until the creature receives a {@spell Restauration partielle} spell or similar magic."
 					]
 				}
 			],
@@ -2970,7 +2970,7 @@
 							"name": "Simulacrum",
 							"type": "item",
 							"entries": [
-								"Fraz-Urb'luu chooses one Humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the {@spell simulacrum} spell). This simulacrum obeys Fraz-Urb'luu's commands and is destroyed on the next initiative count 20."
+								"Fraz-Urb'luu chooses one Humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the {@spell Simulacre} spell). This simulacrum obeys Fraz-Urb'luu's commands and is destroyed on the next initiative count 20."
 							]
 						}
 					]
@@ -3018,7 +3018,7 @@
 					"type": "list",
 					"items": [
 						"Fraz-Urb'luu causes up to 5 doors within the lair to become walls, and an equal number of doors to appear on walls where there previously were none.",
-						"Fraz-Urb'luu chooses one humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the {@spell simulacrum} spell). This simulacrum obeys Fraz-Urb'luu's commands and is destroyed on the next initiative count 20.",
+						"Fraz-Urb'luu chooses one humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the {@spell Simulacre} spell). This simulacrum obeys Fraz-Urb'luu's commands and is destroyed on the next initiative count 20.",
 						"Fraz-Urb'luu creates a {@item Vague} of anguish. Each creature he can see within the lair must succeed on a {@dc 23} Wisdom saving throw or take 33 ({@damage 6d10}) psychic damage."
 					]
 				}
@@ -3142,8 +3142,8 @@
 			"source": "PotA",
 			"page": 208,
 			"lairActions": [
-				"If Gar is in the water node while {@creature Olhydra|PotA} isn't, he can take lair actions. On initiative count 20 (losing initiative ties), Gar uses a lair action to use his Multiattack or cast one of his spells, up to 3rd level, without using components or a spell slot. He can't cast the same spell two rounds in a row, but he can continue to concentrate on a spell he previously cast using a lair action. He can take no other lair actions while {@status concentration||concentrating} on a spell cast as a lair action. His favorite use of this capability is casting {@spell inflict wounds} or {@spell call lightning}.",
-				"If Gar casts {@spell cure wounds} using this lair action, he regains the maximum number of hit points from the spell (28)."
+				"If Gar is in the water node while {@creature Olhydra|PotA} isn't, he can take lair actions. On initiative count 20 (losing initiative ties), Gar uses a lair action to use his Multiattack or cast one of his spells, up to 3rd level, without using components or a spell slot. He can't cast the same spell two rounds in a row, but he can continue to concentrate on a spell he previously cast using a lair action. He can take no other lair actions while {@status concentration||concentrating} on a spell cast as a lair action. His favorite use of this capability is casting {@spell Blessures infligées} or {@spell Foudre multiple}.",
+				"If Gar casts {@spell Soins} using this lair action, he regains the maximum number of hit points from the spell (28)."
 			]
 		},
 		{
@@ -3223,7 +3223,7 @@
 					"items": [
 						"Geryon causes a blast of cold to burst from the ground at a point he can see within 120 feet of him. The cold fills a cube, 10 feet on each side, centered on that point. Each creature in that area must succeed on a {@dc 21} Constitution saving throw or take 28 ({@damage 8d6}) cold damage.",
 						"Geryon targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 21} Wisdom saving throw or become {@condition Entravé} for 1 minute. The target can end the effect on itself if it deals any damage to one or more of its allies.",
-						"Geryon casts the {@spell banishment} spell."
+						"Geryon casts the {@spell Bannissement} spell."
 					]
 				}
 			],
@@ -3308,8 +3308,8 @@
 				{
 					"type": "list",
 					"items": [
-						"The anarch casts the {@spell lightning bolt} spell (at 5th level), but the anarch can change the damage type from lightning to cold, fire, psychic, radiant, or thunder. If the spell deals damage other than fire or lightning, it doesn't ignite flammable objects.",
-						"The anarch casts the {@spell creation} spell (as a 9th-level spell) using the unformed substance of Limbo instead of shadow material. If used in Limbo, the object remains until the anarch's {@status concentration} is broken, regardless of its composition. If the anarch moves more than 120 feet from the object, its {@status concentration} breaks.",
+						"The anarch casts the {@spell Éclair} spell (at 5th level), but the anarch can change the damage type from lightning to cold, fire, psychic, radiant, or thunder. If the spell deals damage other than fire or lightning, it doesn't ignite flammable objects.",
+						"The anarch casts the {@spell Création} spell (as a 9th-level spell) using the unformed substance of Limbo instead of shadow material. If used in Limbo, the object remains until the anarch's {@status concentration} is broken, regardless of its composition. If the anarch moves more than 120 feet from the object, its {@status concentration} breaks.",
 						"The anarch can magically move an object it can see within 150 feet of it by making a Wisdom check with advantage. The DC depends on the object's size: {@dc 5} for Tiny, {@dc 10} for Small, {@dc 15} for Medium, {@dc 20} for Large, and {@dc 25} for Huge or larger."
 					]
 				}
@@ -3479,7 +3479,7 @@
 							"type": "item",
 							"name": "Dream Messenger",
 							"entries": [
-								"While in its lair, the dragon can cast {@spell Dream|XPHB}, requiring no Material components and using Charisma as the spellcasting ability. When casting the spell this way, the dragon can target any creature within 6 miles."
+								"While in its lair, the dragon can cast {@spell Songe|XPHB}, requiring no Material components and using Charisma as the spellcasting ability. When casting the spell this way, the dragon can target any creature within 6 miles."
 							]
 						},
 						{
@@ -3562,7 +3562,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Graz'zt casts the {@spell command} spell on every creature of his choice in the lair. He needn't see each one, but he must be aware that an individual is in the lair to target that creature. He issues the same command to all the targets.",
+						"Graz'zt casts the {@spell Ordre} spell on every creature of his choice in the lair. He needn't see each one, but he must be aware that an individual is in the lair to target that creature. He issues the same command to all the targets.",
 						"Smooth surfaces within the lair become as reflective as a polished mirror. Until a different lair action is used, creatures within the lair have disadvantage on Dexterity ({@skill Discrétion}) checks made to hide."
 					]
 				}
@@ -3866,9 +3866,9 @@
 				{
 					"type": "list",
 					"items": [
-						"A magical scrying sensor appears, taking the form of a ghostly, 1-foot-diameter humanoid eye surrounded by motes of light. The sensor is stationary, though Halaster can reorient the eye to face in any direction. Halaster can see through the eye as though he was in its space. The eye can't be harmed or dispelled, but it winks out within an {@spell antimagic field}. A scrying eye lasts until Halaster ends the effect (no action required).",
-						"A minor illusory effect is triggered, as though Halaster had cast {@spell minor illusion} in an area. Common illusions include the echo of rattling chains, the distant sound of explosive spells being cast, a dusty cloak or a rusty helm floating as though worn by an {@condition invisible} figure, and illusory footprints appearing on a dusty floor.",
-						"Silent apparitions of dead adventurers drift through halls and rooms as though they are lost. An apparition can't be harmed, and it doesn't acknowledge creatures or objects in any way. It can't be dispelled but is suppressed within an {@spell antimagic field}."
+						"A magical scrying sensor appears, taking the form of a ghostly, 1-foot-diameter humanoid eye surrounded by motes of light. The sensor is stationary, though Halaster can reorient the eye to face in any direction. Halaster can see through the eye as though he was in its space. The eye can't be harmed or dispelled, but it winks out within an {@spell Antichamp magique}. A scrying eye lasts until Halaster ends the effect (no action required).",
+						"A minor illusory effect is triggered, as though Halaster had cast {@spell Illusion mineure} in an area. Common illusions include the echo of rattling chains, the distant sound of explosive spells being cast, a dusty cloak or a rusty helm floating as though worn by an {@condition invisible} figure, and illusory footprints appearing on a dusty floor.",
+						"Silent apparitions of dead adventurers drift through halls and rooms as though they are lost. An apparition can't be harmed, and it doesn't acknowledge creatures or objects in any way. It can't be dispelled but is suppressed within an {@spell Antichamp magique}."
 					]
 				}
 			]
@@ -4326,7 +4326,7 @@
 							"type": "item",
 							"name": "Controlled Weather",
 							"entries": [
-								"A ki-rin can cast {@spell control weather} while it is within 3 miles of its lair. The spell's point of origin is always the point outdoors closest to the center of its lair. The ki-rin doesn't need to maintain a clear path to the sky or to concentrate for the change in weather to persist."
+								"A ki-rin can cast {@spell Contrôle du climat} while it is within 3 miles of its lair. The spell's point of origin is always the point outdoors closest to the center of its lair. The ki-rin doesn't need to maintain a clear path to the sky or to concentrate for the change in weather to persist."
 							]
 						},
 						{
@@ -4370,7 +4370,7 @@
 						"Water flows pure within 3 miles of a ki-rin's lair. Any purposeful corruption of the water lasts for no longer than 3 minutes.",
 						"Animals, plants, and good creatures within 3 miles of the ki-rin's lair gain vigor as they evolve toward an idealized form. Such creatures are rarely aggressive toward others that aren't normally prey. Evil creatures can't tolerate the holy atmosphere within the same distance, and usually choose to live much farther from the domain of a ki-rin.",
 						"Curses, diseases, and poisons affecting good-aligned creatures are suppressed when those creatures are within 3 miles of the lair.",
-						"A ki-rin can cast {@spell control weather} while it is within 3 miles of its lair. The spell's point of origin is always the point outdoors closest to the center of its lair. The ki-rin doesn't need to maintain a clear path to the sky or to concentrate for the change in weather to persist.",
+						"A ki-rin can cast {@spell Contrôle du climat} while it is within 3 miles of its lair. The spell's point of origin is always the point outdoors closest to the center of its lair. The ki-rin doesn't need to maintain a clear path to the sky or to concentrate for the change in weather to persist.",
 						"Within 3 miles of the lair, winds buoy non-evil creatures that fall due to no act of the ki-rin or its allies. Such creatures descend at a rate of 60 feet per round and take no falling damage."
 					]
 				},
@@ -4397,7 +4397,7 @@
 				{
 					"type": "list",
 					"items": [
-						"The kraken can alter the weather at will in a 6-mile radius centered on its lair. The effect is identical to the {@spell control weather} spell.",
+						"The kraken can alter the weather at will in a 6-mile radius centered on its lair. The effect is identical to the {@spell Contrôle du climat} spell.",
 						"Water elementals coalesce within 6 miles of the lair. These elementals can't leave the water and have Intelligence and Charisma scores of 1 (-5).",
 						"Aquatic creatures within 6 miles of the lair that have an Intelligence score of 2 or lower are {@condition Charmé} by the kraken and aggressive toward intruders in the area."
 					]
@@ -4426,7 +4426,7 @@
 							"type": "item",
 							"name": "Sea and Storms",
 							"entries": [
-								"While in its lair, the kraken can cast {@spell Control Weather|XPHB}, requiring no spell components and using Intelligence as the spellcasting ability."
+								"While in its lair, the kraken can cast {@spell Contrôle du climat|XPHB}, requiring no spell components and using Intelligence as the spellcasting ability."
 							]
 						}
 					]
@@ -4443,8 +4443,8 @@
 				{
 					"type": "list",
 					"items": [
-						"Kyrilla casts {@spell moonbeam} (no components required). While maintaining {@status concentration} on this effect, she can't take other lair actions.",
-						"Kyrilla casts {@spell cloud of daggers} (no components required), except the daggers are flying snakes and the spell deals piercing damage. While maintaining {@status concentration} on this effect, she can't take other lair actions.",
+						"Kyrilla casts {@spell Rayon de lune} (no components required). While maintaining {@status concentration} on this effect, she can't take other lair actions.",
+						"Kyrilla casts {@spell Nuage de dagues} (no components required), except the daggers are flying snakes and the spell deals piercing damage. While maintaining {@status concentration} on this effect, she can't take other lair actions.",
 						"Pools of liquid within 60 feet of Kyrilla surge and froth, splashing and soaking any creature on the ground within 5 feet of such pools. Creatures that succeed on a {@dc 14} Dexterity saving throw avoid getting liquid in their eyes and mouths. Kyrilla can't use this lair action again until she has used a different one."
 					]
 				}
@@ -4545,7 +4545,7 @@
 							"type": "item",
 							"name": "Inevitable Siphon",
 							"entries": [
-								"Whenever a Humanoid dies within 1 mile of the lair, its soul is immediately consumed by the lich. A Humanoid whose soul is consumed in this way can be brought back to life only by a True Resurrection or {@spell Wish|XPHB} spell."
+								"Whenever a Humanoid dies within 1 mile of the lair, its soul is immediately consumed by the lich. A Humanoid whose soul is consumed in this way can be brought back to life only by a True Resurrection or {@spell Souhait|XPHB} spell."
 							]
 						}
 					]
@@ -4750,7 +4750,7 @@
 			"source": "PotA",
 			"page": 199,
 			"lairActions": [
-				"If Marlos is in the earth node while {@creature Ogrémoch|PotA} isn't, the medusa can take lair actions. On initiative count 20 (losing initiative ties), Marlos uses a lair action to cast {@spell earthquake} without using components. As long as he maintains {@status concentration} on {@spell earthquake}, initiative count 20 is the start of Marlos's turn for the purpose of the spell. He can take no other lair actions while {@status concentration||concentrating} on {@spell earthquake}.",
+				"If Marlos is in the earth node while {@creature Ogrémoch|PotA} isn't, the medusa can take lair actions. On initiative count 20 (losing initiative ties), Marlos uses a lair action to cast {@spell Séisme} without using components. As long as he maintains {@status concentration} on {@spell Séisme}, initiative count 20 is the start of Marlos's turn for the purpose of the spell. He can take no other lair actions while {@status concentration||concentrating} on {@spell Séisme}.",
 				"Marlos's second option for a lair action is to draw power from the earth node to heal. When he does so, he regains 30 ({@dice 6d8 + 3}) hit points."
 			]
 		},
@@ -4989,7 +4989,7 @@
 							"name": "Cast a Spell",
 							"type": "item",
 							"entries": [
-								"The morkoth casts {@spell darkness}, {@spell dispel magic}, or {@spell misty step}, using Intelligence as its spellcasting ability and without expending a spell slot."
+								"The morkoth casts {@spell Ténèbres}, {@spell Dissipation de la magie}, or {@spell Pas brumeux}, using Intelligence as its spellcasting ability and without expending a spell slot."
 							]
 						},
 						{
@@ -5051,7 +5051,7 @@
 					"type": "list",
 					"items": [
 						"The morkoth uses its Hypnosis action, originating at a point within 120 feet of itself. It doesn't need to see the effect's point of origin.",
-						"The morkoth casts {@spell darkness}, {@spell dispel magic}, or {@spell misty step}, using Intelligence as its spellcasting ability and without expending a spell slot."
+						"The morkoth casts {@spell Ténèbres}, {@spell Dissipation de la magie}, or {@spell Pas brumeux}, using Intelligence as its spellcasting ability and without expending a spell slot."
 					]
 				}
 			],
@@ -5091,7 +5091,7 @@
 						{
 							"type": "item",
 							"name": "Sun and Storms",
-							"entry": "While in Tepest, Lorinda can cast {@spell Control Weather|XPHB}, requiring no Material components and using the same spellcasting ability as Spellcasting. When casting the spell this way, Lorinda can control the weather within 5 miles of herself, regardless of whether she is inside or outside."
+							"entry": "While in Tepest, Lorinda can cast {@spell Contrôle du climat|XPHB}, requiring no Material components and using the same spellcasting ability as Spellcasting. When casting the spell this way, Lorinda can control the weather within 5 miles of herself, regardless of whether she is inside or outside."
 						}
 					]
 				},
@@ -5120,7 +5120,7 @@
 					"items": [
 						"Food instantly molders and water instantly evaporates when brought into the lair. Other non magical drinks are spoiled - wine turning to vinegar, for instance.",
 						"{@spell Divination} spells cast within the lair by creatures other than the mummy lord have a {@chance 25} chance to provide misleading results, as determined by the DM. If a {@spell divination} spell already has a chance to fail or become unreliable when cast multiple times, that chance increases by 25 percent.",
-						"A creature that takes treasure from the lair is cursed until the treasure is returned. The cursed target has disadvantage on all saving throws. The curse lasts until removed by a {@spell remove curse} spell or other magic."
+						"A creature that takes treasure from the lair is cursed until the treasure is returned. The cursed target has disadvantage on all saving throws. The curse lasts until removed by a {@spell Délivrance de la malédiction} spell or other magic."
 					]
 				},
 				"If the mummy lord is destroyed, these regional effects end immediately."
@@ -5367,7 +5367,7 @@
 							"type": "item",
 							"name": "Deadly Utterance",
 							"entries": [
-								"Orcus's voice booms throughout the lair. His utterance causes one creature of his choice to be subjected to {@spell power word kill}. Orcus needn't see the creature, but he must be aware that the individual is in the lair."
+								"Orcus's voice booms throughout the lair. His utterance causes one creature of his choice to be subjected to {@spell Mot de pouvoir de mort}. Orcus needn't see the creature, but he must be aware that the individual is in the lair."
 							]
 						},
 						{
@@ -5421,7 +5421,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Orcus's voice booms throughout the lair. His utterance causes one creature of his choice to be subjected to {@spell power word kill}. Orcus needn't see the creature, but he must be aware that the individual is in the lair.",
+						"Orcus's voice booms throughout the lair. His utterance causes one creature of his choice to be subjected to {@spell Mot de pouvoir de mort}. Orcus needn't see the creature, but he must be aware that the individual is in the lair.",
 						"Orcus causes up to six corpses within the lair to rise as {@creature skeleton||skeletons}, {@creature zombie||zombies}, or {@creature ghoul||ghouls}. These undead obey his telepathic commands, which can reach anywhere in the lair.",
 						"Orcus causes skeletal arms to rise from an area on the ground in a 20-foot square that he can see. They last until the next initiative count 20. Each creature in that area when the arms appear must succeed on a {@dc 23} Strength saving throw or be {@condition Entravé} until the arms disappear or until Orcus releases their grasp (no action required)."
 					]
@@ -5520,8 +5520,8 @@
 					"type": "list",
 					"items": [
 						"Pazuzu opens a portal and summons forth {@dice 1d4} {@creature peryton||perytons} or {@creature gargoyle||gargoyles}.",
-						"Pazuzu casts {@spell insect plague} but does not need to concentrate to maintain it. The insects inflict 33 ({@damage 6d10}) piercing damage.",
-						"Pazuzu telepathically speaks to all creatures within 120 ft. of him and offers each what they most desire. Each target must succeed on a {@dc 21} Charisma saving throw or forfeit their next action as they contemplate the decision. A good-aligned target may voluntarily fail the saving throw and forfeit their action to agree to Pazuzu's terms. If so, and if he has the {@spell wish} spell available, he will cast it as long as he sees no immediate negative consequence to his doing so. Pazuzu does not suffer any of the negative effects of casting the {@spell wish} spell."
+						"Pazuzu casts {@spell Nuée d'insectes} but does not need to concentrate to maintain it. The insects inflict 33 ({@damage 6d10}) piercing damage.",
+						"Pazuzu telepathically speaks to all creatures within 120 ft. of him and offers each what they most desire. Each target must succeed on a {@dc 21} Charisma saving throw or forfeit their next action as they contemplate the decision. A good-aligned target may voluntarily fail the saving throw and forfeit their action to agree to Pazuzu's terms. If so, and if he has the {@spell Souhait} spell available, he will cast it as long as he sees no immediate negative consequence to his doing so. Pazuzu does not suffer any of the negative effects of casting the {@spell Souhait} spell."
 					]
 				}
 			],
@@ -5798,7 +5798,7 @@
 						{
 							"type": "item",
 							"name": "Telepathic Enhancement",
-							"entry": "The dragon's psionic energy enhances the mental powers of other creatures. Any creature capable of telepathic communication has its telepathy range doubled while within 1 mile of the lair. This includes creatures with innate telepathy and magical telepathy such as the {@spell Rary's telepathic bond} spell."
+							"entry": "The dragon's psionic energy enhances the mental powers of other creatures. Any creature capable of telepathic communication has its telepathy range doubled while within 1 mile of the lair. This includes creatures with innate telepathy and magical telepathy such as the {@spell Lien télépathique de Rary} spell."
 						},
 						{
 							"type": "item",
@@ -6085,7 +6085,7 @@
 								"type": "list",
 								"items": [
 									"The hag fills up to four 10-foot cubes of water with ink. The inky areas are heavily obscured for 1 minute, although a steady, strong underwater current disperses the ink on initiative count 10. The hag ignores the obscuring effect of the ink.",
-									"The hag chooses one humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the {@spell simulacrum} spell). This hideous simulacrum is formed out of seaweed, slime, half-eaten fish, and other garbage, but still generally resembles the creature it is imitating. This simulacrum obeys the hag's commands and is destroyed on initiative count 20 on the next round."
+									"The hag chooses one humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the {@spell Simulacre} spell). This hideous simulacrum is formed out of seaweed, slime, half-eaten fish, and other garbage, but still generally resembles the creature it is imitating. This simulacrum obeys the hag's commands and is destroyed on initiative count 20 on the next round."
 								]
 							}
 						]
@@ -6199,7 +6199,7 @@
 				{
 					"type": "list",
 					"items": [
-						"The dragon creates fog as if it had cast the {@spell fog cloud} spell. The fog lasts until initiative count 20 on the next round.",
+						"The dragon creates fog as if it had cast the {@spell Nuage de brouillard} spell. The fog lasts until initiative count 20 on the next round.",
 						"A blisteringly cold wind blows through the lair near the dragon. Each creature within 120 feet of the dragon must succeed on a {@dc 15} Constitution saving throw or take 5 ({@damage 1d10}) cold damage. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a {@chance 50} chance of being extinguished."
 					]
 				},
@@ -6228,7 +6228,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Once per day, the dragon can alter the weather in a 6-mile radius centered on its lair. The dragon doesn't need to be outdoors; otherwise the effect is identical to the {@spell control weather} spell.",
+						"Once per day, the dragon can alter the weather in a 6-mile radius centered on its lair. The dragon doesn't need to be outdoors; otherwise the effect is identical to the {@spell Contrôle du climat} spell.",
 						"Within 1 mile of the lair, winds buoy non-evil creatures that fall due to no act of the dragon's or its allies. Such creatures descend at a rate of 60 feet per round and take no falling damage.",
 						"Given days or longer to work, the dragon can make clouds and fog within its lair as solid as stone, forming structures and other objects as it wishes."
 					]
@@ -6269,7 +6269,7 @@
 							"type": "item",
 							"name": "Sun and Storms",
 							"entries": [
-								"While in its lair, the dragon can cast {@spell Control Weather|XPHB}, requiring no Material components and using the same spellcasting ability as its Spellcasting action."
+								"While in its lair, the dragon can cast {@spell Contrôle du climat|XPHB}, requiring no Material components and using the same spellcasting ability as its Spellcasting action."
 							]
 						}
 					]
@@ -6323,8 +6323,8 @@
 					"type": "list",
 					"items": [
 						"The flow of time is altered such that every creature in the lair must reroll initiative. The sphinx can choose not to reroll.",
-						"The effects of time are altered such that every creature in the lair must succeed on a {@dc 15} Constitution saving throw or become {@dice 1d20} years older or younger (the sphinx's choice), but never any younger than 1 year old. A {@spell greater restoration} spell can restore a creature's age to normal.",
-						"The flow of time within the lair is altered such that everything within moves up to 10 years forward or backward (sphinx's choice). Only the sphinx is immediately aware of the time change. A {@spell wish} spell can return the caster and up to seven other creatures designated by the caster to their normal time.",
+						"The effects of time are altered such that every creature in the lair must succeed on a {@dc 15} Constitution saving throw or become {@dice 1d20} years older or younger (the sphinx's choice), but never any younger than 1 year old. A {@spell Restauration supérieure} spell can restore a creature's age to normal.",
+						"The flow of time within the lair is altered such that everything within moves up to 10 years forward or backward (sphinx's choice). Only the sphinx is immediately aware of the time change. A {@spell Souhait} spell can return the caster and up to seven other creatures designated by the caster to their normal time.",
 						"The sphinx shifts itself and up to seven other creatures it can see within in its lair to another plane of existence. Once outside its lair, the sphinx can't use lair actions, but it can return to its lair as a bonus action on its turn, taking up to seven creatures with it."
 					]
 				}
@@ -6548,7 +6548,7 @@
 						"Until initiative count 20 of the next round, Strahd can pass through solid walls, doors, ceilings, and floors as if they weren't there.",
 						"Strahd targets any number of doors and windows that he can see, causing each one to either open or close as he wishes. Closed doors can be magically locked (needing a successful {@dc 20} Strength check to force open) until Strahd chooses to end the effect, or until Strahd uses this lair action again.",
 						"Strahd summons the angry spirit of one who has died in the castle. The apparition appears next to a hostile creature that Strahd can see, makes an attack against that creature, and then disappears. The apparition has the statistics of a {@creature specter}.",
-						"Strahd targets one Medium or smaller creature that casts a shadow. The target's shadow must be visible to Strahd and within 30 feet of him. If the target fails a {@dc 17} Charisma saving throw, its shadow detaches from it and becomes a {@creature shadow} that obeys Strahd's commands, acting on initiative count 20. A {@spell greater restoration} spell or a {@spell remove curse} spell cast on the target restores its natural shadow, but only if its undead shadow has been destroyed."
+						"Strahd targets one Medium or smaller creature that casts a shadow. The target's shadow must be visible to Strahd and within 30 feet of him. If the target fails a {@dc 17} Charisma saving throw, its shadow detaches from it and becomes a {@creature shadow} that obeys Strahd's commands, acting on initiative count 20. A {@spell Restauration supérieure} spell or a {@spell Délivrance de la malédiction} spell cast on the target restores its natural shadow, but only if its undead shadow has been destroyed."
 					]
 				}
 			]
@@ -6876,7 +6876,7 @@
 					"items": [
 						"Food instantly molders and water instantly evaporates when brought into the lair. Other nonmagical drinks are spoiled\u2014wine turning to vinegar, for instance.",
 						"{@spell Divination} spells cast within the lair by creatures other than Valin have a {@chance 25} chance to provide misleading results, as determined by the DM. If a {@spell divination} spell already has a chance to fail or become unreliable when cast multiple times, that chance increases by 25 percent.",
-						"A creature that takes treasure from the lair is cursed until the treasure is returned. The cursed target has disadvantage on all saving throws. The curse lasts until removed by a {@spell remove curse} spell or other magic."
+						"A creature that takes treasure from the lair is cursed until the treasure is returned. The cursed target has disadvantage on all saving throws. The curse lasts until removed by a {@spell Délivrance de la malédiction} spell or other magic."
 					]
 				},
 				"If Valin is destroyed, these regional effects end immediately."
@@ -6976,8 +6976,8 @@
 			"source": "PotA",
 			"page": 203,
 			"lairActions": [
-				"If Vanifer is in the fire node while {@creature Imix|PotA} isn't, the tiefling can take lair actions. On initiative count 20 (losing initiative ties), Vanifer uses a lair action to cast one of her spells, up to 3rd level, without using components or a spell slot. She can't cast the same spell two rounds in a row, although she can continue to concentrate on a spell she previously cast using a lair action. Vanifer can take no other lair actions while {@status concentration||concentrating} on a spell cast as a lair action. Her favorite use of this capability is casting {@spell fireball} or {@spell hypnotic pattern}.",
-				"If Vanifer casts {@spell misty step} using this lair action, she also draws the power of the fire node into herself. By doing so, she regains 15 ({@dice 3d8 + 2}) hit points."
+				"If Vanifer is in the fire node while {@creature Imix|PotA} isn't, the tiefling can take lair actions. On initiative count 20 (losing initiative ties), Vanifer uses a lair action to cast one of her spells, up to 3rd level, without using components or a spell slot. She can't cast the same spell two rounds in a row, although she can continue to concentrate on a spell she previously cast using a lair action. Vanifer can take no other lair actions while {@status concentration||concentrating} on a spell cast as a lair action. Her favorite use of this capability is casting {@spell Boule de feu} or {@spell Motif hypnotique}.",
+				"If Vanifer casts {@spell Pas brumeux} using this lair action, she also draws the power of the fire node into herself. By doing so, she regains 15 ({@dice 3d8 + 2}) hit points."
 			]
 		},
 		{
@@ -7221,7 +7221,7 @@
 						{
 							"type": "item",
 							"name": "Ears Everywhere",
-							"entry": "While in his domain, Lord Godefroy can cast {@spell Sending|XPHB}, requiring no Material components and using Charisma as the spellcasting ability. When casting the spell in this way, Lord Godefroy can target any Undead creature in Mordent, in addition to the usual targets."
+							"entry": "While in his domain, Lord Godefroy can cast {@spell Envoi de message|XPHB}, requiring no Material components and using Charisma as the spellcasting ability. When casting the spell in this way, Lord Godefroy can target any Undead creature in Mordent, in addition to the usual targets."
 						},
 						{
 							"type": "item",
@@ -7242,7 +7242,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Yan-C-Bin drops the temperature of the air, covering all surfaces with ice. This effect is identical to the {@spell sleet storm} spell.",
+						"Yan-C-Bin drops the temperature of the air, covering all surfaces with ice. This effect is identical to the {@spell Vendaval de glace} spell.",
 						"Yan-C-Bin controls the surrounding air as an extension of himself. Each creature Yan-C-Bin designates must succeed at a {@dc 24} Constitution saving throw or be hoisted or flung {@dice 3d6 × 10} feet through the air. A creature smashed into a solid object or released in mid-air takes {@damage 1d6} bludgeoning damage for every 10 feet moved or fallen.",
 						"Yan-C-Bin creates a torrent of debris within 120 feet of him that lasts until initiative count 20 on the next round. The debris lightly obscures every creature and object in the area for the duration. All creatures in the area must succeed at a {@dc 24} Wisdom saving throw or be {@condition Aveuglé} until initiative count 20 on the next round."
 					]
@@ -7463,7 +7463,7 @@
 										"type": "item",
 										"name": "Infernal Illusions",
 										"entries": [
-											"Zariel casts the {@spell Major Image} spell four times, targeting different areas with it. Zariel prefers to create images of intruders' loved ones being burned alive. Zariel doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. Each creature that can see these illusions must succeed on a {@dc 26} Wisdom saving throw or have the frightened condition for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"Zariel casts the {@spell Image majeure} spell four times, targeting different areas with it. Zariel prefers to create images of intruders' loved ones being burned alive. Zariel doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. Each creature that can see these illusions must succeed on a {@dc 26} Wisdom saving throw or have the frightened condition for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										]
 									}
 								]
@@ -7504,14 +7504,14 @@
 							"type": "item",
 							"name": "Fireball",
 							"entries": [
-								"Zariel casts the {@spell fireball} spell."
+								"Zariel casts the {@spell Boule de feu} spell."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Infernal Illusions",
 							"entries": [
-								"Zariel casts the {@spell major image} spell four times, targeting different areas with it. Zariel prefers to create images of intruders' loved ones being burned alive. Zariel doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. Each creature that can see these illusions must succeed on a {@dc 26} Wisdom saving throw or become {@condition Effrayé} of the illusion for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								"Zariel casts the {@spell Image majeure} spell four times, targeting different areas with it. Zariel prefers to create images of intruders' loved ones being burned alive. Zariel doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. Each creature that can see these illusions must succeed on a {@dc 26} Wisdom saving throw or become {@condition Effrayé} of the illusion for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 							]
 						}
 					]
@@ -7558,8 +7558,8 @@
 				{
 					"type": "list",
 					"items": [
-						"Zariel casts {@spell major image} four times at its lowest level, targeting different areas with the spell. Zariel prefers to create images of intruders' loved ones being burned alive. Zariel doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. Each creature that can see these illusions must succeed on a {@dc 26} Wisdom saving throw or become {@condition Effrayé} of the illusion for 1 minute. A {@condition Effrayé} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-						"Zariel casts her innate {@spell fireball} spell."
+						"Zariel casts {@spell Image majeure} four times at its lowest level, targeting different areas with the spell. Zariel prefers to create images of intruders' loved ones being burned alive. Zariel doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. Each creature that can see these illusions must succeed on a {@dc 26} Wisdom saving throw or become {@condition Effrayé} of the illusion for 1 minute. A {@condition Effrayé} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"Zariel casts her innate {@spell Boule de feu} spell."
 					]
 				}
 			],

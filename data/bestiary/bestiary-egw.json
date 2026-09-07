@@ -213,14 +213,14 @@
 						"The nullifier's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell counterspell} (see \"Reactions\" below)",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell see invisibility}"
+						"{@spell Contresort} (see \"Reactions\" below)",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Voir l'invisible}"
 					],
 					"daily": {
 						"1": [
-							"{@spell antimagic field}"
+							"{@spell Antichamp magique}"
 						]
 					},
 					"ability": "cha"
@@ -622,10 +622,10 @@
 					"name": "Innate Spellcasting (1/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The blood hunter can innately cast {@spell hex}. Its innate spellcasting ability is Intelligence."
+						"The blood hunter can innately cast {@spell Fléau}. Its innate spellcasting ability is Intelligence."
 					],
 					"will": [
-						"{@spell hex}"
+						"{@spell Fléau}"
 					],
 					"ability": "int",
 					"hidden": [
@@ -751,7 +751,7 @@
 				},
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -785,17 +785,17 @@
 						"Bol'bara's innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell eldritch blast}",
-						"{@spell false life}",
-						"{@spell mage armor}",
-						"{@spell mage hand}"
+						"{@spell Trait occulte}",
+						"{@spell Fausse vie}",
+						"{@spell Armure du mage}",
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell charm person}",
-							"{@spell hex}",
-							"{@spell hold person}",
-							"{@spell invisibility}"
+							"{@spell Charmement}",
+							"{@spell Fléau}",
+							"{@spell Immobiliser un personnage}",
+							"{@spell Invisibilité}"
 						]
 					},
 					"ability": "cha"
@@ -2693,33 +2693,33 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
-								"{@spell minor illusion}",
-								"{@spell shocking grasp}"
+								"{@spell Druidisme}",
+								"{@spell Illusion mineure}",
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell cure wounds}",
-								"{@spell fog cloud}",
-								"{@spell thunderwave}"
+								"{@spell Soins}",
+								"{@spell Nuage de brouillard}",
+								"{@spell Onde de tonnerre}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell mirror image}",
-								"{@spell misty step}"
+								"{@spell Immobiliser un personnage}",
+								"{@spell Image dédoublée}",
+								"{@spell Pas brumeux}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell dispel magic}",
-								"{@spell lightning bolt} (see \"Actions\" below)",
-								"{@spell sleet storm}"
+								"{@spell Dissipation de la magie}",
+								"{@spell Éclair} (see \"Actions\" below)",
+								"{@spell Vendaval de glace}"
 							]
 						}
 					},
@@ -2902,7 +2902,7 @@
 						"Mossback Steward's innate spellcasting ability is Wisdom (spell save {@dc 15}). It can innately cast the following spells, requiring no material components."
 					],
 					"will": [
-						"{@spell friends}"
+						"{@spell Ami}"
 					],
 					"rest": {
 						"1": [
@@ -3183,31 +3183,31 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}",
-								"{@spell sacred flame}",
-								"{@spell spare the dying}"
+								"{@spell Lumière}",
+								"{@spell Flamme sacrée}",
+								"{@spell Aide aux mourants}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell command}",
-								"{@spell cure wounds}",
-								"{@spell guiding bolt}"
+								"{@spell Ordre}",
+								"{@spell Soins}",
+								"{@spell Trait de lumière}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell lesser restoration}",
-								"{@spell spiritual weapon}"
+								"{@spell Restauration partielle}",
+								"{@spell Arme spirituelle}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell dispel magic}",
-								"{@spell revivify}"
+								"{@spell Dissipation de la magie}",
+								"{@spell Retour à la vie}"
 							]
 						}
 					},
@@ -3322,17 +3322,17 @@
 						"The warlock's innate spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell eldritch blast} (see \"Actions\" below)",
-						"{@spell minor illusion}"
+						"{@spell Trait occulte} (see \"Actions\" below)",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell armor of Agathys}",
-							"{@spell arms of Hadar}",
-							"{@spell counterspell}",
-							"{@spell crown of madness}",
-							"{@spell invisibility}",
-							"{@spell hunger of Hadar}"
+							"{@spell Armure d'Agathys}",
+							"{@spell Bras de Hadar}",
+							"{@spell Contresort}",
+							"{@spell Couronne de folie}",
+							"{@spell Invisibilité}",
+							"{@spell Faim de Hadar}"
 						]
 					},
 					"ability": "cha"
@@ -3560,13 +3560,13 @@
 						"The sea fury's innate spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell witch bolt}"
+						"{@spell Décharge occulte}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell bestow curse}",
-							"{@spell fear}",
-							"{@spell thunderwave}"
+							"{@spell Malédiction}",
+							"{@spell Peur}",
+							"{@spell Onde de tonnerre}"
 						]
 					},
 					"ability": "cha"
@@ -3888,7 +3888,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Sken wears a {@item Anneau d'obscurcissement|EGW}. With it, she can cast the {@spell fog cloud} spell centered on herself three times per day. The cloud lasts for 1 minute (no {@status concentration} required)."
+						"Sken wears a {@item Anneau d'obscurcissement|EGW}. With it, she can cast the {@spell Nuage de brouillard} spell centered on herself three times per day. The cloud lasts for 1 minute (no {@status concentration} required)."
 					]
 				}
 			],
@@ -3955,30 +3955,30 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell produce flame}",
-								"{@spell resistance}",
-								"{@spell thorn whip}"
+								"{@spell Production de flamme}",
+								"{@spell Résistance}",
+								"{@spell Fouet de ronces}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell entangle}",
-								"{@spell fog cloud}"
+								"{@spell Enchevêtrement}",
+								"{@spell Nuage de brouillard}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell blindness/deafness}",
-								"{@spell spike growth}"
+								"{@spell Cécité/Surdité}",
+								"{@spell Croissance d'épines}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell animate dead}",
-								"{@spell conjure animals} (reptiles only)"
+								"{@spell Animation des morts}",
+								"{@spell Invocation d'animaux} (reptiles only)"
 							]
 						}
 					},

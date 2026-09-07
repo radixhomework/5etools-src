@@ -182,15 +182,15 @@
 						"Ankhtepot casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 19}):"
 					],
 					"will": [
-						"{@spell Dispel Magic|XPHB}",
+						"{@spell Dissipation de la magie|XPHB}",
 						"{@spell Divination|XPHB}",
-						"{@spell Mage Hand|XPHB} (hand is {@condition Invisible|XPHB})",
-						"{@spell Power Word Stun|XPHB}"
+						"{@spell Main du mage|XPHB} (hand is {@condition Invisible|XPHB})",
+						"{@spell Mot de pouvoir d'étourdissement|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Animate Dead|XPHB}",
-							"{@spell Sunburst|XPHB}"
+							"{@spell Animation des morts|XPHB}",
+							"{@spell Éclat solaire|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -221,7 +221,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Ankhtepot makes four Negative Energy Burst attacks. He can replace one attack with a use of Spellcasting to cast {@spell Power Word Stun|XPHB}."
+						"Ankhtepot makes four Negative Energy Burst attacks. He can replace one attack with a use of Spellcasting to cast {@spell Mot de pouvoir d'étourdissement|XPHB}."
 					]
 				},
 				{
@@ -388,26 +388,26 @@
 						"Azalin casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 20}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Dispel Magic|XPHB}",
-						"{@spell Invisibility|XPHB}",
-						"{@spell Lightning Bolt|XPHB} (level 5 version)",
-						"{@spell Mage Hand|XPHB}",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Dissipation de la magie|XPHB}",
+						"{@spell Invisibilité|XPHB}",
+						"{@spell Éclair|XPHB} (level 5 version)",
+						"{@spell Main du mage|XPHB}",
 						"{@spell Prestidigitation|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Animate Dead|XPHB}",
-							"{@spell Dimension Door|XPHB}",
-							"{@spell Modify Memory|XPHB}",
-							"{@spell Plane Shift|XPHB}",
-							"{@spell Scrying|XPHB}"
+							"{@spell Animation des morts|XPHB}",
+							"{@spell Porte dimensionnelle|XPHB}",
+							"{@spell Modification de mémoire|XPHB}",
+							"{@spell Déplacement planaire|XPHB}",
+							"{@spell Scrutation|XPHB}"
 						],
 						"1e": [
-							"{@spell Chain Lightning|XPHB}",
-							"{@spell Finger of Death|XPHB}",
-							"{@spell Power Word Kill|XPHB}"
+							"{@spell Chaîne d'éclairs|XPHB}",
+							"{@spell Doigt de mort|XPHB}",
+							"{@spell Mot de pouvoir de mort|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -417,10 +417,10 @@
 					"name": "Siphon Spell",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Azalin casts {@spell Counterspell|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting. If the target creature fails its saving throw against this {@spell Counterspell|XPHB}, Azalin steals knowledge of the triggering spell. For 1 hour or until Azalin takes this {@variantrule Reaction|XPHB} again, Azalin can cast that spell once, using the same spellcasting ability as Spellcasting."
+						"Azalin casts {@spell Contresort|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting. If the target creature fails its saving throw against this {@spell Contresort|XPHB}, Azalin steals knowledge of the triggering spell. For 1 hour or until Azalin takes this {@variantrule Reaction|XPHB} again, Azalin can cast that spell once, using the same spellcasting ability as Spellcasting."
 					],
 					"will": [
-						"{@spell Counterspell|XPHB}"
+						"{@spell Contresort|XPHB}"
 					],
 					"ability": "int",
 					"displayAs": "reaction",
@@ -914,14 +914,14 @@
 						"The brain casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Charm Person|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Mage Hand|XPHB}"
+						"{@spell Charmement|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Main du mage|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Compulsion|XPHB}",
-							"{@spell Hold Person|XPHB} (level 3 version)"
+							"{@spell Contrainte|XPHB}",
+							"{@spell Immobiliser un personnage|XPHB} (level 3 version)"
 						]
 					},
 					"ability": "int",
@@ -1448,16 +1448,16 @@
 						"Cthulhu casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 25}):"
 					],
 					"will": [
-						"{@spell Mind Spike|XPHB} (level 4 version)"
+						"{@spell Pic mental|XPHB} (level 4 version)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell Dream|XPHB}",
+							"{@spell Songe|XPHB}",
 							"{@spell Geas|XPHB} (can target creatures through dreams)"
 						],
 						"1e": [
-							"{@spell Befuddlement|XPHB}",
-							"{@spell Plane Shift|XPHB} (self only)"
+							"{@spell Dégénrescence|XPHB}",
+							"{@spell Déplacement planaire|XPHB} (self only)"
 						]
 					},
 					"ability": "int",
@@ -1500,7 +1500,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Cthulhu makes three Eldritch Claw attacks and uses Spellcasting to cast {@spell Befuddlement|XPHB} if available or {@spell Mind Spike|XPHB} (level 4 version). It can replace one Eldritch Claw attack with a use of Tentacle."
+						"Cthulhu makes three Eldritch Claw attacks and uses Spellcasting to cast {@spell Dégénrescence|XPHB} if available or {@spell Pic mental|XPHB} (level 4 version). It can replace one Eldritch Claw attack with a use of Tentacle."
 					]
 				},
 				{
@@ -1731,7 +1731,7 @@
 				{
 					"name": "Unholy Regrowth",
 					"entries": [
-						"If the tree dies, {@dice 2d6} Death's Head Trees regrow around the same place in 365 days unless the tree is killed by a creature under the effect of a {@spell Bless|XPHB} spell using a weapon that deals Slashing damage."
+						"If the tree dies, {@dice 2d6} Death's Head Trees regrow around the same place in 365 days unless the tree is killed by a creature under the effect of a {@spell Bénédiction|XPHB} spell using a weapon that deals Slashing damage."
 					]
 				}
 			],
@@ -2046,7 +2046,7 @@
 				{
 					"name": "Worthy Wielder",
 					"entries": [
-						"{@actSave cha} {@dc 17}, one willing Humanoid within 5 feet. {@actSaveFail} 36 ({@damage 8d8}) Force damage. If this damage reduces the target to 0 {@variantrule Hit Points|XPHB}, Ebonbane devours its soul. A creature whose soul has been devoured by Ebonbane can be restored to life only by a {@spell Wish|XPHB} spell. {@actSaveSuccess} The target attunes to Ebonbane and can wield the sword."
+						"{@actSave cha} {@dc 17}, one willing Humanoid within 5 feet. {@actSaveFail} 36 ({@damage 8d8}) Force damage. If this damage reduces the target to 0 {@variantrule Hit Points|XPHB}, Ebonbane devours its soul. A creature whose soul has been devoured by Ebonbane can be restored to life only by a {@spell Souhait|XPHB} spell. {@actSaveSuccess} The target attunes to Ebonbane and can wield the sword."
 					]
 				}
 			],
@@ -2174,14 +2174,14 @@
 					"name": "Eldritch Magic (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The elder thing casts {@spell Command|XPHB}, {@spell Detect Thoughts|XPHB}, {@spell Gust of Wind|XPHB}, or {@spell Nondetection|XPHB}, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 18})."
+						"The elder thing casts {@spell Ordre|XPHB}, {@spell Détection de pensées|XPHB}, {@spell Rafale|XPHB}, or {@spell Occultation|XPHB}, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 18})."
 					],
 					"daily": {
 						"3": [
-							"{@spell Command|XPHB}",
-							"{@spell Detect Thoughts|XPHB}",
-							"{@spell Gust of Wind|XPHB}",
-							"{@spell Nondetection|XPHB}"
+							"{@spell Ordre|XPHB}",
+							"{@spell Détection de pensées|XPHB}",
+							"{@spell Rafale|XPHB}",
+							"{@spell Occultation|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -2340,14 +2340,14 @@
 						"Ez casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Light|XPHB}",
-						"{@spell Mage Hand|XPHB}"
+						"{@spell Lumière|XPHB}",
+						"{@spell Main du mage|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Dispel Evil and Good|XPHB}",
-							"{@spell Lightning Bolt|XPHB}",
-							"{@spell Magic Circle|XPHB}"
+							"{@spell Dissipation du mal et du bien|XPHB}",
+							"{@spell Éclair|XPHB}",
+							"{@spell Cercle magique|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -2357,11 +2357,11 @@
 					"name": "Shield (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Ez casts {@spell Shield|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+						"Ez casts {@spell Bouclier|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Shield|XPHB}"
+							"{@spell Bouclier|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -2643,14 +2643,14 @@
 						"Gennifer casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Light|XPHB}",
-						"{@spell Mending|XPHB}"
+						"{@spell Lumière|XPHB}",
+						"{@spell Réparation|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Locate Animals or Plants|XPHB}",
-							"{@spell Magic Circle|XPHB}",
-							"{@spell Protection from Poison|XPHB}"
+							"{@spell Localisation d'animaux ou de plantes|XPHB}",
+							"{@spell Cercle magique|XPHB}",
+							"{@spell Protection contre le poison|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -2660,11 +2660,11 @@
 					"name": "Occult Aid (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Gennifer casts {@spell Healing Word|XPHB}, using the same spellcasting ability as Spellcasting."
+						"Gennifer casts {@spell Mot de guérison|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Healing Word|XPHB}"
+							"{@spell Mot de guérison|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -3389,25 +3389,25 @@
 						"Hazlik casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Disguise Self|XPHB}",
-						"{@spell Invisibility|XPHB}",
-						"{@spell Light|XPHB}",
-						"{@spell Mage Armor|XPHB} (included in AC)",
-						"{@spell Mage Hand|XPHB}",
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Déguisement|XPHB}",
+						"{@spell Invisibilité|XPHB}",
+						"{@spell Lumière|XPHB}",
+						"{@spell Armure du mage|XPHB} (included in AC)",
+						"{@spell Main du mage|XPHB}",
 						"{@spell Prestidigitation|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Fly|XPHB}",
-							"{@spell Lightning Bolt|XPHB} (level 5 version)"
+							"{@spell Vol|XPHB}",
+							"{@spell Éclair|XPHB} (level 5 version)"
 						],
 						"1e": [
-							"{@spell Cone of Cold|XPHB}",
-							"{@spell Mind Blank|XPHB} (cast before combat)",
-							"{@spell Scrying|XPHB}",
-							"{@spell Teleport|XPHB}"
+							"{@spell Cône de froid|XPHB}",
+							"{@spell Vide mental|XPHB} (cast before combat)",
+							"{@spell Scrutation|XPHB}",
+							"{@spell Téléportation|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -3417,12 +3417,12 @@
 					"name": "Protective Magic (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Hazlik casts {@spell Counterspell|XPHB} or {@spell Shield|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+						"Hazlik casts {@spell Contresort|XPHB} or {@spell Bouclier|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"3": [
-							"{@spell Counterspell|XPHB}",
-							"{@spell Shield|XPHB}"
+							"{@spell Contresort|XPHB}",
+							"{@spell Bouclier|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -3643,16 +3643,16 @@
 						"The inquisitor casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Dispel Magic|XPHB}",
-						"{@spell Mage Hand|XPHB} (the hand is {@condition Invisible|XPHB})",
-						"{@spell Sending|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Dissipation de la magie|XPHB}",
+						"{@spell Main du mage|XPHB} (the hand is {@condition Invisible|XPHB})",
+						"{@spell Envoi de message|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Hold Monster|XPHB}",
-							"{@spell Modify Memory|XPHB}"
+							"{@spell Immobilisation de monstre|XPHB}",
+							"{@spell Modification de mémoire|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -3663,7 +3663,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The inquisitor makes three Silvered Longsword attacks or uses Mind Fire three times. It can replace one attack or one use of Mind Fire with a use of Spellcasting to cast {@spell Hold Monster|XPHB} if available."
+						"The inquisitor makes three Silvered Longsword attacks or uses Mind Fire three times. It can replace one attack or one use of Mind Fire with a use of Spellcasting to cast {@spell Immobilisation de monstre|XPHB} if available."
 					]
 				},
 				{
@@ -3799,17 +3799,17 @@
 						"The inquisitor casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Dispel Magic|XPHB}",
-						"{@spell Mage Hand|XPHB} (the hand is {@condition Invisible|XPHB})",
-						"{@spell Sending|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Dissipation de la magie|XPHB}",
+						"{@spell Main du mage|XPHB} (the hand is {@condition Invisible|XPHB})",
+						"{@spell Envoi de message|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Dimension Door|XPHB}",
-							"{@spell Fly|XPHB}",
-							"{@spell Greater Invisibility|XPHB}"
+							"{@spell Porte dimensionnelle|XPHB}",
+							"{@spell Vol|XPHB}",
+							"{@spell Invisibilité supérieure|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -3944,16 +3944,16 @@
 						"The inquisitor casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell Detect Magic|XPHB}",
-						"{@spell Dispel Magic|XPHB}",
-						"{@spell Mage Armor|XPHB} (included in AC)",
-						"{@spell Mage Hand|XPHB} (the hand is {@condition Invisible|XPHB})",
-						"{@spell Sending|XPHB}"
+						"{@spell Détection de la magie|XPHB}",
+						"{@spell Dissipation de la magie|XPHB}",
+						"{@spell Armure du mage|XPHB} (included in AC)",
+						"{@spell Main du mage|XPHB} (the hand is {@condition Invisible|XPHB})",
+						"{@spell Envoi de message|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Otiluke's Resilient Sphere|XPHB}",
-							"{@spell Telekinesis|XPHB}"
+							"{@spell Sphère résiliente d'Otiluke|XPHB}",
+							"{@spell Télékinésie|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -3964,7 +3964,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The inquisitor makes three Force Blade attacks. It can replace one attack with a use of Spellcasting to cast {@spell Otiluke's Resilient Sphere|XPHB} or {@spell Telekinesis|XPHB} if available."
+						"The inquisitor makes three Force Blade attacks. It can replace one attack with a use of Spellcasting to cast {@spell Sphère résiliente d'Otiluke|XPHB} or {@spell Télékinésie|XPHB} if available."
 					]
 				},
 				{
@@ -4225,11 +4225,11 @@
 					"name": "Charm {@recharge 5}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Ivana casts {@spell Charm Person|XPHB}, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}), and the duration is 24 hours."
+						"Ivana casts {@spell Charmement|XPHB}, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}), and the duration is 24 hours."
 					],
 					"recharge": {
 						"5": [
-							"{@spell Charm Person|XPHB}"
+							"{@spell Charmement|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -4819,13 +4819,13 @@
 					"name": "Commanding Magic (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Lord Soth casts {@spell Dispel Magic|XPHB}, {@spell Hold Person|XPHB}, or {@spell Banishment|XPHB} (level 5 version), using Charisma as the spellcasting ability (spell save {@dc 19})."
+						"Lord Soth casts {@spell Dissipation de la magie|XPHB}, {@spell Immobiliser un personnage|XPHB}, or {@spell Bannissement|XPHB} (level 5 version), using Charisma as the spellcasting ability (spell save {@dc 19})."
 					],
 					"daily": {
 						"3": [
-							"{@spell Dispel Magic|XPHB}",
-							"{@spell Hold Person|XPHB}",
-							"{@spell Banishment|XPHB} (level 5 version)"
+							"{@spell Dissipation de la magie|XPHB}",
+							"{@spell Immobiliser un personnage|XPHB}",
+							"{@spell Bannissement|XPHB} (level 5 version)"
 						]
 					},
 					"ability": "cha",
@@ -4897,7 +4897,7 @@
 				{
 					"name": "Soth's Command",
 					"entries": [
-						"Lord Soth casts {@spell Command|XPHB} (level 3 version), using the same spellcasting ability as Commanding Magic. Lord Soth can't take this action again until the start of his next turn."
+						"Lord Soth casts {@spell Ordre|XPHB} (level 3 version), using the same spellcasting ability as Commanding Magic. Lord Soth can't take this action again until the start of his next turn."
 					]
 				}
 			],
@@ -5183,20 +5183,20 @@
 						"Madam Eva casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Light|XPHB}",
-						"{@spell Mending|XPHB}",
-						"{@spell Thaumaturgy|XPHB}"
+						"{@spell Lumière|XPHB}",
+						"{@spell Réparation|XPHB}",
+						"{@spell Thaumaturgie|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Dispel Magic|XPHB}",
-							"{@spell Remove Curse|XPHB}"
+							"{@spell Dissipation de la magie|XPHB}",
+							"{@spell Délivrance de la malédiction|XPHB}"
 						],
 						"1e": [
-							"{@spell Greater Restoration|XPHB}",
-							"{@spell Raise Dead|XPHB}",
-							"{@spell Scrying|XPHB}",
-							"{@spell Spirit Guardians|XPHB} (level 8 version)"
+							"{@spell Restauration supérieure|XPHB}",
+							"{@spell Relèvement|XPHB}",
+							"{@spell Scrutation|XPHB}",
+							"{@spell Esprits gardiens|XPHB} (level 8 version)"
 						]
 					},
 					"ability": "wis",
@@ -5206,11 +5206,11 @@
 					"name": "Evil Eye (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Madam Eva casts {@spell Hold Person|XPHB}, using the same spellcasting ability as Spellcasting."
+						"Madam Eva casts {@spell Immobiliser un personnage|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"2": [
-							"{@spell Hold Person|XPHB}"
+							"{@spell Immobiliser un personnage|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -5369,8 +5369,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell Modify Memory|XPHB}",
-							"{@spell Plane Shift|XPHB} (self only)"
+							"{@spell Modification de mémoire|XPHB}",
+							"{@spell Déplacement planaire|XPHB} (self only)"
 						]
 					},
 					"ability": "int",
@@ -5538,11 +5538,11 @@
 						"The mist horror casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Fog Cloud|XPHB}"
+						"{@spell Nuage de brouillard|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Command|XPHB}"
+							"{@spell Ordre|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -5567,7 +5567,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The mist horror makes two Mind Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Command|XPHB} if available."
+						"The mist horror makes two Mind Rend attacks. It can replace one attack with a use of Spellcasting to cast {@spell Ordre|XPHB} if available."
 					]
 				},
 				{
@@ -5671,14 +5671,14 @@
 						"The wanderer casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Light|XPHB}",
-						"{@spell Mage Hand|XPHB}"
+						"{@spell Lumière|XPHB}",
+						"{@spell Main du mage|XPHB}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Augury|XPHB}",
-							"{@spell Detect Magic|XPHB}",
-							"{@spell Mind Spike|XPHB}"
+							"{@spell Augure|XPHB}",
+							"{@spell Détection de la magie|XPHB}",
+							"{@spell Pic mental|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -5688,11 +5688,11 @@
 					"name": "Evil Eye (1/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The wanderer casts {@spell Hold Person|XPHB}, using the same spellcasting ability as Spellcasting."
+						"The wanderer casts {@spell Immobiliser un personnage|XPHB}, using the same spellcasting ability as Spellcasting."
 					],
 					"daily": {
 						"1": [
-							"{@spell Hold Person|XPHB}"
+							"{@spell Immobiliser un personnage|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -5720,7 +5720,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The wanderer makes two Radiant Burst attacks. It can replace one attack with a use of Spellcasting to cast {@spell Mind Spike|XPHB} if available."
+						"The wanderer makes two Radiant Burst attacks. It can replace one attack with a use of Spellcasting to cast {@spell Pic mental|XPHB} if available."
 					]
 				},
 				{
@@ -5994,20 +5994,20 @@
 						"Lorinda casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 14}, {@hit 6} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Charm Person|XPHB}",
-						"{@spell Dancing Lights|XPHB}",
-						"{@spell Disguise Self|XPHB} (24-hour duration)",
-						"{@spell Invisibility|XPHB} (self only, and Lorinda leaves no tracks while {@condition Invisible|XPHB})",
-						"{@spell Minor Illusion|XPHB}",
-						"{@spell Ray of Sickness|XPHB} (level 3 version)"
+						"{@spell Charmement|XPHB}",
+						"{@spell Lumières dansantes|XPHB}",
+						"{@spell Déguisement|XPHB} (24-hour duration)",
+						"{@spell Invisibilité|XPHB} (self only, and Lorinda leaves no tracks while {@condition Invisible|XPHB})",
+						"{@spell Illusion mineure|XPHB}",
+						"{@spell Rayon nauséeux|XPHB} (level 3 version)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Augury|XPHB}",
-							"{@spell Blight|XPHB}",
-							"{@spell Plant Growth|XPHB}",
-							"{@spell Scrying|XPHB}",
-							"{@spell Unseen Servant|XPHB}"
+							"{@spell Augure|XPHB}",
+							"{@spell Ravage|XPHB}",
+							"{@spell Croissance végétale|XPHB}",
+							"{@spell Scrutation|XPHB}",
+							"{@spell Servant invisible|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -6017,11 +6017,11 @@
 					"name": "Overwhelming Presence",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Lorinda casts {@spell Slow|XPHB}, using the same spellcasting ability as Spellcasting. Lorinda can't take this action again until the start of her next turn."
+						"Lorinda casts {@spell Lenteur|XPHB}, using the same spellcasting ability as Spellcasting. Lorinda can't take this action again until the start of her next turn."
 					],
 					"legendary": {
 						"1": [
-							"{@spell Slow|XPHB}"
+							"{@spell Lenteur|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -6076,7 +6076,7 @@
 					"name": "Mother's Visage (1/Day)",
 					"entries": [
 						"Lorinda shape-shifts into Mother, a deity revered by the people of Tepest, for 8 hours. Her game statistics are the same in each form. Any equipment she is wearing or carrying isn't transformed.",
-						"While in the form of Mother, Lorinda can use Spellcasting to cast {@spell Charm Person|XPHB} as a {@variantrule Bonus Action|XPHB}.",
+						"While in the form of Mother, Lorinda can use Spellcasting to cast {@spell Charmement|XPHB} as a {@variantrule Bonus Action|XPHB}.",
 						"Lorinda reverts to her true form if she drops to 50 {@variantrule Hit Points|XPHB} or fewer.",
 						"When Lorinda reverts to her true form, each creature in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from Lorinda is subjected to the following effect. {@actSave wis} {@dc 14} (the target succeeds automatically if it is a Construct or an Undead). {@actSaveFail} The target has the {@condition Effrayé|XPHB} condition for 1 minute. While {@condition Effrayé|XPHB}, the target has {@variantrule Disadvantage|XPHB} on saving throws."
 					]
@@ -6220,7 +6220,7 @@
 				{
 					"name": "Reborn by Blood",
 					"entries": [
-						"If destroyed, the necrichor revives with all its {@variantrule Hit Points|XPHB} in {@dice 1d10} days in the nearest unoccupied space next to a creature of its choice that it has previously possessed with its Blood Puppeteering action. This trait doesn't function if the destroyed necrichor's remains are in a vessel affected by the {@spell Hallow|XPHB} spell or if all the necrichor's previous Blood Puppeteering targets are dead."
+						"If destroyed, the necrichor revives with all its {@variantrule Hit Points|XPHB} in {@dice 1d10} days in the nearest unoccupied space next to a creature of its choice that it has previously possessed with its Blood Puppeteering action. This trait doesn't function if the destroyed necrichor's remains are in a vessel affected by the {@spell Consécration|XPHB} spell or if all the necrichor's previous Blood Puppeteering targets are dead."
 					]
 				},
 				{
@@ -6746,11 +6746,11 @@
 						"Ramya casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Phantom Steed|XPHB}"
+						"{@spell Destrier fantôme|XPHB}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Create Undead|XPHB}"
+							"{@spell Création de morts-vivants|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -6760,11 +6760,11 @@
 					"name": "Illusory Disguise",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Ramya casts {@spell Disguise Self|XPHB} using the same spellcasting ability as Spellcasting. The spell lasts until Ramya drops to 80 {@variantrule Hit Points|XPHB} or fewer or uses her Vengeful Fire action. Intelligence ({@skill Investigation|XPHB}) checks to discern her true appearance are made with {@variantrule Disadvantage|XPHB}.",
+						"Ramya casts {@spell Déguisement|XPHB} using the same spellcasting ability as Spellcasting. The spell lasts until Ramya drops to 80 {@variantrule Hit Points|XPHB} or fewer or uses her Vengeful Fire action. Intelligence ({@skill Investigation|XPHB}) checks to discern her true appearance are made with {@variantrule Disadvantage|XPHB}.",
 						"When the disguise ends, each creature in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from Ramya is subjected to the following effect. Wisdom {@variantrule Saving Throw|XPHB}: {@dc 17} (the target succeeds automatically if it is a Construct or an Undead). Failure: The target has the {@condition Effrayé|XPHB} condition for 1 minute. While {@condition Effrayé|XPHB}, the target has {@variantrule Disadvantage|XPHB} on saving throws."
 					],
 					"will": [
-						"{@spell Disguise Self|XPHB}"
+						"{@spell Déguisement|XPHB}"
 					],
 					"ability": "cha",
 					"displayAs": "bonus",
@@ -6776,11 +6776,11 @@
 					"name": "Dread Authority",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Ramya casts {@spell Command|XPHB}, using the same spellcasting ability as Spellcasting. Ramya can't take this action again until the start of her next turn."
+						"Ramya casts {@spell Ordre|XPHB}, using the same spellcasting ability as Spellcasting. Ramya can't take this action again until the start of her next turn."
 					],
 					"legendary": {
 						"1": [
-							"{@spell Command|XPHB}"
+							"{@spell Ordre|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -7488,7 +7488,7 @@
 				{
 					"name": "Occult Aid (2/Day)",
 					"entries": [
-						"Rudolph casts {@spell Cure Wounds|XPHB}, {@spell Dispel Evil and Good|XPHB}, or {@spell Sanctuary|XPHB}, using Wisdom as the spellcasting modifier (spell save {@dc 15})."
+						"Rudolph casts {@spell Soins|XPHB}, {@spell Dissipation du mal et du bien|XPHB}, or {@spell Sanctuaire|XPHB}, using Wisdom as the spellcasting modifier (spell save {@dc 15})."
 					]
 				}
 			],
@@ -7619,11 +7619,11 @@
 					"name": "Truth or Die (1/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Saidra asks a creature she can see within 60 feet to identify itself and casts {@spell Disintegrate|XPHB} targeting the creature, requiring no Material components and using Charisma as the spellcasting ability ({@dc 15}, with {@variantrule Disadvantage|XPHB} if the target lies)."
+						"Saidra asks a creature she can see within 60 feet to identify itself and casts {@spell Désintégration|XPHB} targeting the creature, requiring no Material components and using Charisma as the spellcasting ability ({@dc 15}, with {@variantrule Disadvantage|XPHB} if the target lies)."
 					],
 					"daily": {
 						"1": [
-							"{@spell Disintegrate|XPHB}"
+							"{@spell Désintégration|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -7687,7 +7687,7 @@
 				{
 					"name": "At Will:",
 					"entries": [
-						"{@spell Charm Person|XPHB} (duchess form only), {@spell Fear|XPHB} (Red Death form only)."
+						"{@spell Charmement|XPHB} (duchess form only), {@spell Peur|XPHB} (Red Death form only)."
 					]
 				}
 			],
@@ -8095,22 +8095,22 @@
 						"Strahd casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell Detect Thoughts|XPHB}",
-						"{@spell Fog Cloud|XPHB}",
-						"{@spell Mage Hand|XPHB}"
+						"{@spell Détection de pensées|XPHB}",
+						"{@spell Nuage de brouillard|XPHB}",
+						"{@spell Main du mage|XPHB}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Animate Dead|XPHB}",
-							"{@spell Fireball|XPHB}",
-							"{@spell Gust of Wind|XPHB}",
-							"{@spell Mirror Image|XPHB}",
-							"{@spell Nondetection|XPHB}"
+							"{@spell Animation des morts|XPHB}",
+							"{@spell Boule de feu|XPHB}",
+							"{@spell Rafale|XPHB}",
+							"{@spell Image dédoublée|XPHB}",
+							"{@spell Occultation|XPHB}"
 						],
 						"1e": [
-							"{@spell Greater Invisibility|XPHB}",
-							"{@spell Polymorph|XPHB}",
-							"{@spell Scrying|XPHB}"
+							"{@spell Invisibilité supérieure|XPHB}",
+							"{@spell Polymorphie|XPHB}",
+							"{@spell Scrutation|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -8120,10 +8120,10 @@
 					"name": "Charm",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Strahd casts {@spell Charm Person|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting. When the spell is cast this way, its duration is 24 hours, and the {@condition Charmé|XPHB} target is a willing recipient of Strahd's Bite, the damage of which doesn't end the spell. When the spell ends, the target is unaware it was {@condition Charmé|XPHB} by Strahd."
+						"Strahd casts {@spell Charmement|XPHB}, requiring no spell components and using the same spellcasting ability as Spellcasting. When the spell is cast this way, its duration is 24 hours, and the {@condition Charmé|XPHB} target is a willing recipient of Strahd's Bite, the damage of which doesn't end the spell. When the spell ends, the target is unaware it was {@condition Charmé|XPHB} by Strahd."
 					],
 					"will": [
-						"{@spell Charm Person|XPHB}"
+						"{@spell Charmement|XPHB}"
 					],
 					"ability": "int",
 					"displayAs": "bonus",
@@ -8135,11 +8135,11 @@
 					"name": "Count's Command",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Strahd casts {@spell Command|XPHB} (level 2 version), requiring no spell components and using the same spellcasting ability as Spellcasting."
+						"Strahd casts {@spell Ordre|XPHB} (level 2 version), requiring no spell components and using the same spellcasting ability as Spellcasting."
 					],
 					"legendary": {
 						"1": [
-							"{@spell Command|XPHB} (level 2 version)"
+							"{@spell Ordre|XPHB} (level 2 version)"
 						]
 					},
 					"ability": "int",
@@ -8219,7 +8219,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Strahd makes two Death Strike attacks. He can replace one of these attacks with a use of (A) Bite or (B) Spellcasting to cast {@spell Fireball|XPHB} if available."
+						"Strahd makes two Death Strike attacks. He can replace one of these attacks with a use of (A) Bite or (B) Spellcasting to cast {@spell Boule de feu|XPHB} if available."
 					]
 				},
 				{
@@ -9325,11 +9325,11 @@
 					"name": "Activate Constructs (1/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Viktra casts {@spell Animate Objects|XPHB}, using Intelligence as the spellcasting ability."
+						"Viktra casts {@spell Animation d'objets|XPHB}, using Intelligence as the spellcasting ability."
 					],
 					"daily": {
 						"1": [
-							"{@spell Animate Objects|XPHB}"
+							"{@spell Animation d'objets|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -10144,13 +10144,13 @@
 					"name": "Eldritch Magic (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The yithian casts {@spell Clairvoyance|XPHB}, {@spell Modify Memory|XPHB}, {@spell Phantasmal Killer|XPHB}, or Transport via Plants, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 18})."
+						"The yithian casts {@spell Clairvoyance|XPHB}, {@spell Modification de mémoire|XPHB}, {@spell Tueur phantasmal|XPHB}, or Transport via Plants, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 18})."
 					],
 					"daily": {
 						"2": [
 							"{@spell Clairvoyance|XPHB}",
-							"{@spell Modify Memory|XPHB}",
-							"{@spell Phantasmal Killer|XPHB}"
+							"{@spell Modification de mémoire|XPHB}",
+							"{@spell Tueur phantasmal|XPHB}"
 						]
 					},
 					"ability": "int",

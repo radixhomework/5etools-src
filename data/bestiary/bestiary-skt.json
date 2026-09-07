@@ -68,7 +68,7 @@
 				{
 					"name": "Simulacra",
 					"entries": [
-						"When a simulacrum drops to 0 hit points or is subjected to a successful {@spell dispel magic} spell ({@dc 17}), it reverts to ice and snow and is destroyed."
+						"When a simulacrum drops to 0 hit points or is subjected to a successful {@spell Dissipation de la magie} spell ({@dc 17}), it reverts to ice and snow and is destroyed."
 					]
 				}
 			],
@@ -680,25 +680,25 @@
 						"Claugiyliamatar casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 19}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell druidcraft}",
-						"{@spell speak with animals}"
+						"{@spell Détection de la magie}",
+						"{@spell Druidisme}",
+						"{@spell Parler aux animaux}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell animal messenger}",
-							"{@spell cure wounds}",
-							"{@spell dispel magic}",
-							"{@spell entangle}",
-							"{@spell invisibility}"
+							"{@spell Messager animal}",
+							"{@spell Soins}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Enchevêtrement}",
+							"{@spell Invisibilité}"
 						],
 						"1e": [
-							"{@spell blight}",
-							"{@spell legend lore} (cast as 1 action)",
-							"{@spell locate creature}",
-							"{@spell pass without trace}",
-							"{@spell protection from energy}",
-							"{@spell true seeing}"
+							"{@spell Ravage}",
+							"{@spell Connaissance des légendes} (cast as 1 action)",
+							"{@spell Localisation de créature}",
+							"{@spell Passage sans trace}",
+							"{@spell Protection contre l'énergie}",
+							"{@spell Vision véritable}"
 						]
 					},
 					"ability": "cha",
@@ -798,46 +798,46 @@
 							"spells": {
 								"0": {
 									"spells": [
-										"{@spell druidcraft}",
-										"{@spell mending}",
-										"{@spell produce flame}"
+										"{@spell Druidisme}",
+										"{@spell Réparation}",
+										"{@spell Production de flamme}"
 									]
 								},
 								"1": {
 									"slots": 4,
 									"spells": [
-										"{@spell cure wounds}",
-										"{@spell entangle}",
-										"{@spell thunderwave}"
+										"{@spell Soins}",
+										"{@spell Enchevêtrement}",
+										"{@spell Onde de tonnerre}"
 									]
 								},
 								"2": {
 									"slots": 3,
 									"spells": [
-										"{@spell animal messenger}",
-										"{@spell barkskin}",
-										"{@spell gust of wind}"
+										"{@spell Messager animal}",
+										"{@spell Écorce}",
+										"{@spell Rafale}"
 									]
 								},
 								"3": {
 									"slots": 3,
 									"spells": [
-										"{@spell call lightning}",
-										"{@spell conjure animals}",
-										"{@spell speak with plants}"
+										"{@spell Foudre multiple}",
+										"{@spell Invocation d'animaux}",
+										"{@spell Parler aux plantes}"
 									]
 								},
 								"4": {
 									"slots": 3,
 									"spells": [
-										"{@spell freedom of movement}",
-										"{@spell grasping vine}"
+										"{@spell Liberté de mouvement}",
+										"{@spell Liane saisissante}"
 									]
 								},
 								"5": {
 									"slots": 1,
 									"spells": [
-										"{@spell conjure elemental}"
+										"{@spell Invocation d'élémentaire}"
 									]
 								}
 							},
@@ -859,7 +859,7 @@
 				},
 				{
 					"ac": 16,
-					"condition": "with {@spell barkskin}",
+					"condition": "with {@spell Écorce}",
 					"braces": true
 				}
 			],
@@ -908,27 +908,27 @@
 									"Sansuri casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}; {@hit 7} to hit with spell attacks):"
 								],
 								"will": [
-									"{@spell mage hand}",
+									"{@spell Main du mage}",
 									"{@spell message}",
 									"{@spell prestidigitation}",
-									"{@spell ray of frost}"
+									"{@spell Rayon de gel}"
 								],
 								"daily": {
 									"2e": [
-										"{@spell arcane lock}",
-										"{@spell gust of wind}",
-										"{@spell invisibility}",
-										"{@spell magic missile}",
-										"{@spell unseen servant}"
+										"{@spell Serrure magique}",
+										"{@spell Rafale}",
+										"{@spell Invisibilité}",
+										"{@spell Projectile magique}",
+										"{@spell Servant invisible}"
 									],
 									"1e": [
-										"{@spell globe of invulnerability}",
-										"{@spell haste}",
-										"{@spell hypnotic pattern}",
-										"{@spell ice storm}",
-										"{@spell lightning bolt}",
-										"{@spell Mordenkainen's sword}",
-										"{@spell wall of force}"
+										"{@spell Globe d'invulnérabilité}",
+										"{@spell Célérité}",
+										"{@spell Motif hypnotique}",
+										"{@spell Tempête de glace}",
+										"{@spell Éclair}",
+										"{@spell Épée de Mordenkainen}",
+										"{@spell Mur de force}"
 									]
 								},
 								"ability": "int",
@@ -1397,12 +1397,12 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell meld into stone}",
-							"{@spell stone shape}"
+							"{@spell Fusion avec la pierre}",
+							"{@spell Forme de pierre}"
 						],
 						"1e": [
-							"{@spell stoneskin}",
-							"{@spell time stop}"
+							"{@spell Peau de pierre}",
+							"{@spell Arrêt du temps}"
 						]
 					},
 					"ability": "wis"
@@ -1735,7 +1735,7 @@
 								"name": "Possession {@recharge}",
 								"entries": [
 									"One humanoid or giant that the ghost can see within 5 feet of it must succeed on a {@dc 13} Charisma saving throw or be possessed by the ghost; the ghost then disappears, and the target is {@condition Incapable} and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition Charmé} and {@condition Effrayé}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
-									"The possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the {@spell dispel evil and good} spell. When the possession ends, the ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends. If a creature possessed by the ghost is forcibly removed from the Eye of Annam, the ghost is expelled from its host and re-forms in the middle of this room."
+									"The possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the {@spell Dissipation du mal et du bien} spell. When the possession ends, the ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends. If a creature possessed by the ghost is forcibly removed from the Eye of Annam, the ghost is expelled from its host and re-forms in the middle of this room."
 								]
 							}
 						}
@@ -1797,31 +1797,31 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}",
-								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell Lumière}",
+								"{@spell Flamme sacrée}",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell cure wounds}",
-								"{@spell guiding bolt}",
-								"{@spell sanctuary}"
+								"{@spell Soins}",
+								"{@spell Trait de lumière}",
+								"{@spell Sanctuaire}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell lesser restoration}",
-								"{@spell spiritual weapon}"
+								"{@spell Restauration partielle}",
+								"{@spell Arme spirituelle}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell dispel magic}",
-								"{@spell create food and water}"
+								"{@spell Dissipation de la magie}",
+								"{@spell Création de nourriture et d'eau}"
 							]
 						}
 					},
@@ -2579,15 +2579,15 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell detect magic}",
-							"{@spell dispel magic}",
-							"{@spell ice storm}",
-							"{@spell stone shape}",
-							"{@spell teleport}"
+							"{@spell Détection de la magie}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Tempête de glace}",
+							"{@spell Forme de pierre}",
+							"{@spell Téléportation}"
 						]
 					},
 					"footerEntries": [
-						"When she casts her {@spell stone shape} spell, Iymrith can shape the targeted stone into a living {@creature gargoyle} instead of altering the stone as described in the spell's description. This transformation is permanent and can't be reversed or dispelled."
+						"When she casts her {@spell Forme de pierre} spell, Iymrith can shape the targeted stone into a living {@creature gargoyle} instead of altering the stone as described in the spell's description. This transformation is permanent and can't be reversed or dispelled."
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -2799,11 +2799,11 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell jump}",
-							"{@spell locate animals or plants}",
-							"{@spell locate object}",
-							"{@spell water breathing}",
-							"{@spell water walk}"
+							"{@spell Saut}",
+							"{@spell Localisation d'animaux ou de plantes}",
+							"{@spell Localisation d'objet}",
+							"{@spell Respiration aquatique}",
+							"{@spell Marche sur les eaux}"
 						]
 					},
 					"ability": "wis",
@@ -3123,15 +3123,15 @@
 						"The giant's innate spellcasting ability is Charisma (spell save {@dc 17}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell feather fall}",
-						"{@spell levitate}",
-						"{@spell light}"
+						"{@spell Détection de la magie}",
+						"{@spell Chute ralentie}",
+						"{@spell Lévitation}",
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell control weather}",
-							"{@spell water breathing}"
+							"{@spell Contrôle du climat}",
+							"{@spell Respiration aquatique}"
 						]
 					},
 					"ability": "cha"
@@ -3285,30 +3285,30 @@
 						"Klauth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 22}):"
 					],
 					"will": [
-						"{@spell comprehend languages}",
-						"{@spell detect magic}",
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
+						"{@spell Compréhension des langues}",
+						"{@spell Détection de la magie}",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell darkness}",
-							"{@spell detect thoughts}",
-							"{@spell ice storm}"
+							"{@spell Ténèbres}",
+							"{@spell Détection de pensées}",
+							"{@spell Tempête de glace}"
 						],
 						"1e": [
-							"{@spell banishment}",
-							"{@spell cloudkill}",
-							"{@spell disintegrate}",
-							"{@spell etherealness}",
-							"{@spell find the path} (cast as 1 action)",
-							"{@spell greater invisibility}",
-							"{@spell haste}",
-							"{@spell locate object}",
-							"{@spell mass suggestion}",
-							"{@spell mirage arcane} (cast as 1 action)",
-							"{@spell prismatic spray}"
+							"{@spell Bannissement}",
+							"{@spell Nuée mortelle}",
+							"{@spell Désintégration}",
+							"{@spell Éthéré}",
+							"{@spell Trouver le chemin} (cast as 1 action)",
+							"{@spell Invisibilité supérieure}",
+							"{@spell Célérité}",
+							"{@spell Localisation d'objet}",
+							"{@spell Suggestion de groupe}",
+							"{@spell Mirage arcanique} (cast as 1 action)",
+							"{@spell Jet prismatique}"
 						]
 					},
 					"ability": "cha",
@@ -3706,7 +3706,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Maegera casts {@spell fireball} (spell save {@dc 19}), requiring no material components and using Charisma as the spellcasting ability."
+						"Maegera casts {@spell Boule de feu} (spell save {@dc 19}), requiring no material components and using Charisma as the spellcasting ability."
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -4260,7 +4260,7 @@
 				10,
 				{
 					"ac": 13,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -4296,14 +4296,14 @@
 						"Naxene casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}; {@hit 5} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell fire bolt} ({@damage 1d10} fire damage)",
-						"{@spell light}",
-						"{@spell mage hand}"
+						"{@spell Trait de feu} ({@damage 1d10} fire damage)",
+						"{@spell Lumière}",
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell mage armor}",
-							"{@spell magic missile}",
+							"{@spell Armure du mage}",
+							"{@spell Projectile magique}",
 							"{@spell suggestion}"
 						]
 					},
@@ -4404,14 +4404,14 @@
 						"The giant casts one of the following spells, requiring no material spell components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell levitate}",
-						"{@spell light}"
+						"{@spell Détection de la magie}",
+						"{@spell Lévitation}",
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell control weather} (cast as 1 action)",
-							"{@spell water breathing}"
+							"{@spell Contrôle du climat} (cast as 1 action)",
+							"{@spell Respiration aquatique}"
 						]
 					},
 					"ability": "cha",
@@ -4690,14 +4690,14 @@
 						"The giant casts one of the following spells, requiring no material spell components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell levitate}",
-						"{@spell light}"
+						"{@spell Détection de la magie}",
+						"{@spell Lévitation}",
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell control weather} (cast as 1 action)",
-							"{@spell water breathing}"
+							"{@spell Contrôle du climat} (cast as 1 action)",
+							"{@spell Respiration aquatique}"
 						]
 					},
 					"ability": "cha",
@@ -4790,7 +4790,7 @@
 				10,
 				{
 					"ac": 13,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -4825,14 +4825,14 @@
 						"Othovir casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}; {@hit 5} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell fire bolt} ({@damage 1d10} fire damage)",
+						"{@spell Trait de feu} ({@damage 1d10} fire damage)",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell mage armor}",
-							"{@spell thunderwave}",
-							"{@spell witch bolt}"
+							"{@spell Armure du mage}",
+							"{@spell Onde de tonnerre}",
+							"{@spell Décharge occulte}"
 						]
 					},
 					"ability": "cha",
@@ -4975,47 +4975,47 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
+								"{@spell Trait de feu}",
+								"{@spell Lumière}",
+								"{@spell Main du mage}",
 								"{@spell prestidigitation}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell Détection de la magie}",
+								"{@spell Armure du mage}",
+								"{@spell Projectile magique}",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell detect thoughts}",
+								"{@spell Détection de pensées}",
 								"{@spell suggestion}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell fireball}",
-								"{@spell fly}"
+								"{@spell Contresort}",
+								"{@spell Boule de feu}",
+								"{@spell Vol}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell greater invisibility}",
-								"{@spell ice storm}"
+								"{@spell Invisibilité supérieure}",
+								"{@spell Tempête de glace}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell cone of cold}"
+								"{@spell Cône de froid}"
 							]
 						}
 					},
@@ -5321,14 +5321,14 @@
 						"The giant casts one of the following spells, requiring no material spell components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell levitate}",
-						"{@spell light}"
+						"{@spell Détection de la magie}",
+						"{@spell Lévitation}",
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell control weather} (cast as 1 action)",
-							"{@spell water breathing}"
+							"{@spell Contrôle du climat} (cast as 1 action)",
+							"{@spell Respiration aquatique}"
 						]
 					},
 					"ability": "cha",
@@ -5967,29 +5967,29 @@
 						"Slarkrethel casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 22}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell sending}"
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}",
+						"{@spell Envoi de message}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell control weather} (cast as 1 action)",
-							"{@spell fly}",
-							"{@spell ice storm}"
+							"{@spell Contrôle du climat} (cast as 1 action)",
+							"{@spell Vol}",
+							"{@spell Tempête de glace}"
 						],
 						"1e": [
-							"{@spell arcane eye}",
-							"{@spell chain lightning}",
-							"{@spell feeblemind}",
-							"{@spell foresight}",
-							"{@spell locate creature}",
-							"{@spell mass suggestion}",
-							"{@spell nondetection}",
-							"{@spell power word kill}",
-							"{@spell scrying} (cast as 1 action)",
-							"{@spell sequester}",
-							"{@spell telekinesis}",
-							"{@spell teleport}"
+							"{@spell Œil magique}",
+							"{@spell Chaîne d'éclairs}",
+							"{@spell Dégénrescence}",
+							"{@spell Prescience}",
+							"{@spell Localisation de créature}",
+							"{@spell Suggestion de groupe}",
+							"{@spell Occultation}",
+							"{@spell Mot de pouvoir de mort}",
+							"{@spell Scrutation} (cast as 1 action)",
+							"{@spell Réclusion}",
+							"{@spell Télékinésie}",
+							"{@spell Téléportation}"
 						]
 					},
 					"ability": "int",
@@ -6334,12 +6334,12 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell meld into stone}",
-							"{@spell stone shape}"
+							"{@spell Fusion avec la pierre}",
+							"{@spell Forme de pierre}"
 						],
 						"1e": [
-							"{@spell stoneskin}",
-							"{@spell time stop}"
+							"{@spell Peau de pierre}",
+							"{@spell Arrêt du temps}"
 						]
 					},
 					"ability": "wis"
@@ -6691,7 +6691,7 @@
 				{
 					"name": "Familiar",
 					"entries": [
-						"With the DM's permission, a person who casts the {@spell find familiar} spell can choose to conjure a tressym instead of a normal cat."
+						"With the DM's permission, a person who casts the {@spell Familier} spell can choose to conjure a tressym instead of a normal cat."
 					]
 				}
 			],
@@ -6773,25 +6773,25 @@
 						"Turlang casts one of the following spells, requiring no material spell components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell druidcraft}",
+						"{@spell Druidisme}",
 						"{@spell guidance}",
-						"{@spell resistance}",
-						"{@spell speak with plants}"
+						"{@spell Résistance}",
+						"{@spell Parler aux plantes}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell animal messenger}",
-							"{@spell detect magic}",
-							"{@spell entangle}",
-							"{@spell goodberry}",
-							"{@spell gust of wind}",
-							"{@spell pass without trace}",
-							"{@spell speak with animals}"
+							"{@spell Messager animal}",
+							"{@spell Détection de la magie}",
+							"{@spell Enchevêtrement}",
+							"{@spell Baie protectrice}",
+							"{@spell Rafale}",
+							"{@spell Passage sans trace}",
+							"{@spell Parler aux animaux}"
 						],
 						"1e": [
-							"{@spell commune with nature} (cast as 1 action)",
-							"{@spell conjure woodland beings}",
-							"{@spell hallucinatory terrain} (cast as 1 action)"
+							"{@spell Communion avec la nature} (cast as 1 action)",
+							"{@spell Invocation d'êtres sylvaines}",
+							"{@spell Terrain illusoire} (cast as 1 action)"
 						]
 					},
 					"ability": "wis",
@@ -7042,19 +7042,19 @@
 						"The shaman casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 12}; {@hit 4} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}",
+						"{@spell Lumières dansantes}",
+						"{@spell Main du mage}",
 						"{@spell message}",
-						"{@spell thaumaturgy}"
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell augury} (cast as 1 action)",
-							"{@spell bestow curse}",
-							"{@spell cordon of arrows}",
-							"{@spell detect magic}",
-							"{@spell speak with dead}",
-							"{@spell spirit guardians}"
+							"{@spell Augure} (cast as 1 action)",
+							"{@spell Malédiction}",
+							"{@spell Cordon de flèches}",
+							"{@spell Détection de la magie}",
+							"{@spell Parler aux morts}",
+							"{@spell Esprits gardiens}"
 						]
 					},
 					"ability": "wis",
@@ -7117,9 +7117,9 @@
 							"mode": "addSpells",
 							"daily": {
 								"1e": [
-									"{@spell chill touch}",
-									"{@spell feign death}",
-									"{@spell revivify}"
+									"{@spell Main glaciale}",
+									"{@spell Simulacre de mort}",
+									"{@spell Retour à la vie}"
 								]
 							}
 						}
@@ -7133,8 +7133,8 @@
 							"mode": "addSpells",
 							"daily": {
 								"1e": [
-									"{@spell animal messenger} (raven only)",
-									"{@spell polymorph} (self only; into a raven only)"
+									"{@spell Messager animal} (raven only)",
+									"{@spell Polymorphie} (self only; into a raven only)"
 								]
 							}
 						}
@@ -7148,8 +7148,8 @@
 							"mode": "addSpells",
 							"daily": {
 								"1e": [
-									"{@spell enhance ability} (bear's endurance only)",
-									"{@spell heroism}"
+									"{@spell Amélioration de caractéristique} (bear's endurance only)",
+									"{@spell Héroïsme}"
 								]
 							}
 						}
@@ -7163,8 +7163,8 @@
 							"mode": "addSpells",
 							"daily": {
 								"1e": [
-									"{@spell find steed} (cast as 1 action; elk only)",
-									"{@spell haste}"
+									"{@spell Trouver une monture} (cast as 1 action; elk only)",
+									"{@spell Célérité}"
 								]
 							}
 						}
@@ -7178,9 +7178,9 @@
 							"mode": "addSpells",
 							"daily": {
 								"1e": [
-									"{@spell beast sense} (wolf or dire wolf only)",
-									"{@spell moonbeam}",
-									"{@spell speak with animals} (wolf or dire wolf only)"
+									"{@spell Sens animal} (wolf or dire wolf only)",
+									"{@spell Rayon de lune}",
+									"{@spell Parler aux animaux} (wolf or dire wolf only)"
 								]
 							}
 						}
@@ -7194,8 +7194,8 @@
 							"mode": "addSpells",
 							"daily": {
 								"1e": [
-									"{@spell crusader's mantle}",
-									"{@spell hypnotic pattern}"
+									"{@spell Cape du croisé}",
+									"{@spell Motif hypnotique}"
 								]
 							}
 						}
@@ -7209,8 +7209,8 @@
 							"mode": "addSpells",
 							"daily": {
 								"1e": [
-									"{@spell beast sense} (birds only)",
-									"{@spell fly}"
+									"{@spell Sens animal} (birds only)",
+									"{@spell Vol}"
 								]
 							}
 						}
@@ -7224,8 +7224,8 @@
 							"mode": "addSpells",
 							"daily": {
 								"1e": [
-									"{@spell enhance ability} (cat's grace only)",
-									"{@spell jump}"
+									"{@spell Amélioration de caractéristique} (cat's grace only)",
+									"{@spell Saut}"
 								]
 							}
 						}
@@ -7239,8 +7239,8 @@
 							"mode": "addSpells",
 							"daily": {
 								"1e": [
-									"{@spell gust of wind}",
-									"{@spell witch bolt}"
+									"{@spell Rafale}",
+									"{@spell Décharge occulte}"
 								]
 							}
 						}
@@ -7254,8 +7254,8 @@
 							"mode": "addSpells",
 							"daily": {
 								"1e": [
-									"{@spell enhance ability} (bull's strength only)",
-									"{@spell pass without trace}"
+									"{@spell Amélioration de caractéristique} (bull's strength only)",
+									"{@spell Passage sans trace}"
 								]
 							}
 						}
@@ -7269,8 +7269,8 @@
 							"mode": "addSpells",
 							"daily": {
 								"1e": [
-									"{@spell barkskin}",
-									"{@spell speak with plants}"
+									"{@spell Écorce}",
+									"{@spell Parler aux plantes}"
 								]
 							}
 						}
@@ -7345,14 +7345,14 @@
 						"The giant casts one of the following spells, requiring no material spell components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell levitate}",
-						"{@spell light}"
+						"{@spell Détection de la magie}",
+						"{@spell Lévitation}",
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell control weather} (cast as 1 action)",
-							"{@spell water breathing}"
+							"{@spell Contrôle du climat} (cast as 1 action)",
+							"{@spell Respiration aquatique}"
 						]
 					},
 					"ability": "cha",
@@ -7546,41 +7546,41 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}",
-								"{@spell mending}",
-								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell Lumière}",
+								"{@spell Réparation}",
+								"{@spell Flamme sacrée}",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell bane}",
-								"{@spell command}",
-								"{@spell cure wounds}",
-								"{@spell sanctuary}"
+								"{@spell Fléau}",
+								"{@spell Ordre}",
+								"{@spell Soins}",
+								"{@spell Sanctuaire}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell augury}",
-								"{@spell hold person}",
-								"{@spell spiritual weapon}"
+								"{@spell Augure}",
+								"{@spell Immobiliser un personnage}",
+								"{@spell Arme spirituelle}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell bestow curse}",
-								"{@spell protection from energy}",
-								"{@spell sending}"
+								"{@spell Malédiction}",
+								"{@spell Protection contre l'énergie}",
+								"{@spell Envoi de message}"
 							]
 						},
 						"4": {
 							"slots": 1,
 							"spells": [
-								"{@spell banishment}"
+								"{@spell Bannissement}"
 							]
 						}
 					},
@@ -7592,7 +7592,7 @@
 					"name": "Possession (Recharges after a Short or Long Rest)",
 					"entries": [
 						"The yakfolk attempts to magically possess a humanoid or giant. The yakfolk must touch the target throughout a short rest, or the attempt fails. At the end of the rest, the target must succeed on a {@dc 12} Constitution saving throw or be possessed by the yakfolk, which disappears with everything it is carrying and wearing. Until the possession ends, the target is {@condition Incapable}, loses control of its body, and is unaware of its surroundings. The yakfolk now controls the body and can't be targeted by any attack, spell, or other effect, and it retains its alignment; its Intelligence, Wisdom, and Charisma scores; and its proficiencies. It otherwise uses the target's statistics, except the target's knowledge, class features, feats, and proficiencies.",
-						"The possession lasts until either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as the {@spell dispel evil and good} spell. When the possession ends, the yakfolk reappears in an unoccupied space within 5 feet of the body and is {@condition Étourdi} until the end of its next turn. If the host body dies while it is possessed by the yakfolk, the yakfolk dies as well, and its body doesn't reappear."
+						"The possession lasts until either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as the {@spell Dissipation du mal et du bien} spell. When the possession ends, the yakfolk reappears in an unoccupied space within 5 feet of the body and is {@condition Étourdi} until the end of its next turn. If the host body dies while it is possessed by the yakfolk, the yakfolk dies as well, and its body doesn't reappear."
 					]
 				}
 			],
@@ -7708,7 +7708,7 @@
 					"name": "Possession (Recharges after a Short or Long Rest)",
 					"entries": [
 						"The yakfolk attempts to magically possess a humanoid or giant. The yakfolk must touch the target throughout a short rest, or the attempt fails. At the end of the rest, the target must succeed on a {@dc 12} Constitution saving throw or be possessed by the yakfolk, which disappears with everything it is carrying and wearing. Until the possession ends, the target is {@condition Incapable}, loses control of its body, and is unaware of its surroundings. The yakfolk now controls the body and can't be targeted by any attack, spell, or other effect, and it retains its alignment; its Intelligence, Wisdom, and Charisma scores; and its proficiencies. It otherwise uses the target's statistics, except the target's knowledge, class features, feats, and proficiencies.",
-						"The possession lasts until either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as the {@spell dispel evil and good} spell. When the possession ends, the yakfolk reappears in an unoccupied space within 5 feet of the body and is {@condition Étourdi} until the end of its next turn. If the host body dies while it is possessed by the yakfolk, the yakfolk dies as well, and its body doesn't reappear."
+						"The possession lasts until either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as the {@spell Dissipation du mal et du bien} spell. When the possession ends, the yakfolk reappears in an unoccupied space within 5 feet of the body and is {@condition Étourdi} until the end of its next turn. If the host body dies while it is possessed by the yakfolk, the yakfolk dies as well, and its body doesn't reappear."
 					]
 				}
 			],
@@ -7925,20 +7925,20 @@
 						"Zephyros's innate spellcasting ability is Charisma. He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell fog cloud}",
-						"{@spell light}"
+						"{@spell Détection de la magie}",
+						"{@spell Nuage de brouillard}",
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell feather fall}",
-							"{@spell fly}",
-							"{@spell misty step}",
-							"{@spell telekinesis}"
+							"{@spell Chute ralentie}",
+							"{@spell Vol}",
+							"{@spell Pas brumeux}",
+							"{@spell Télékinésie}"
 						],
 						"1e": [
-							"{@spell control weather}",
-							"{@spell gaseous form}"
+							"{@spell Contrôle du climat}",
+							"{@spell Forme gazeuse}"
 						]
 					},
 					"ability": "cha"
@@ -7952,23 +7952,23 @@
 					"will": [
 						"{@spell message}",
 						"{@spell prestidigitation}",
-						"{@spell ray of frost}"
+						"{@spell Rayon de gel}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell gust of wind}",
-							"{@spell levitate}",
-							"{@spell magic missile}"
+							"{@spell Rafale}",
+							"{@spell Lévitation}",
+							"{@spell Projectile magique}"
 						],
 						"1e": [
-							"{@spell cone of cold}",
-							"{@spell contact other plane} (cast as 1 action)",
-							"{@spell greater invisibility}",
-							"{@spell mass suggestion}",
-							"{@spell nondetection}",
-							"{@spell Otiluke's resilient sphere}",
-							"{@spell protection from energy}",
-							"{@spell tongues}"
+							"{@spell Cône de froid}",
+							"{@spell Contact avec les autres plans} (cast as 1 action)",
+							"{@spell Invisibilité supérieure}",
+							"{@spell Suggestion de groupe}",
+							"{@spell Occultation}",
+							"{@spell Sphère résiliente d'Otiluke}",
+							"{@spell Protection contre l'énergie}",
+							"{@spell Don des langues}"
 						]
 					},
 					"ability": "int",

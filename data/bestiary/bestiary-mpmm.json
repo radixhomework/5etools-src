@@ -32,7 +32,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -70,23 +70,23 @@
 						"The abjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}",
+						"{@spell Lumières dansantes}",
+						"{@spell Main du mage}",
 						"{@spell message}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell dispel magic}",
-							"{@spell lightning bolt}",
-							"{@spell mage armor}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Éclair}",
+							"{@spell Armure du mage}"
 						],
 						"1e": [
-							"{@spell arcane lock}",
-							"{@spell banishment}",
-							"{@spell globe of invulnerability}",
-							"{@spell invisibility}",
-							"{@spell wall of force}"
+							"{@spell Serrure magique}",
+							"{@spell Bannissement}",
+							"{@spell Globe d'invulnérabilité}",
+							"{@spell Invisibilité}",
+							"{@spell Mur de force}"
 						]
 					},
 					"ability": "int",
@@ -358,9 +358,9 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell charm person} (as 5th-level spell)",
-							"{@spell detect thoughts}",
-							"{@spell hypnotic pattern}"
+							"{@spell Charmement} (as 5th-level spell)",
+							"{@spell Détection de pensées}",
+							"{@spell Motif hypnotique}"
 						]
 					},
 					"ability": "int",
@@ -403,7 +403,7 @@
 				{
 					"name": "Eat Memories",
 					"entries": [
-						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 15} Wisdom saving throw or take 18 ({@damage 4d8}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.",
+						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 15} Wisdom saving throw or take 18 ({@damage 4d8}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell Restauration supérieure} or {@spell Guérison} spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.",
 						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from its ability checks and attack rolls. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition Inconscient} for 1 hour. The effect then ends.",
 						"The oblex learns all the languages a memory-drained target knows and gains all its skill proficiencies."
 					]
@@ -699,21 +699,21 @@
 						"The alhoon casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell disguise self}",
-						"{@spell mage hand}",
+						"{@spell Lumières dansantes}",
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}",
+						"{@spell Déguisement}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell globe of invulnerability}",
-							"{@spell invisibility}",
-							"{@spell modify memory}",
-							"{@spell plane shift} (self only)",
-							"{@spell wall of force}"
+							"{@spell Soumission de monstre}",
+							"{@spell Globe d'invulnérabilité}",
+							"{@spell Invisibilité}",
+							"{@spell Modification de mémoire}",
+							"{@spell Déplacement planaire} (self only)",
+							"{@spell Mur de force}"
 						]
 					},
 					"ability": "int",
@@ -1255,14 +1255,14 @@
 						"The amnizu casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 19}):"
 					],
 					"will": [
-						"{@spell command}"
+						"{@spell Ordre}"
 					],
 					"daily": {
 						"1": [
-							"{@spell feeblemind}"
+							"{@spell Dégénrescence}"
 						],
 						"3": [
-							"{@spell dominate monster}"
+							"{@spell Soumission de monstre}"
 						]
 					},
 					"ability": "int",
@@ -1584,8 +1584,8 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell disguise self} (including the form of a Medium Humanoid)",
-							"{@spell Fog cloud}"
+							"{@spell Déguisement} (including the form of a Medium Humanoid)",
+							"{@spell Nuage de brouillard}"
 						]
 					},
 					"ability": "cha",
@@ -1681,7 +1681,7 @@
 				10,
 				{
 					"ac": 13,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -1715,14 +1715,14 @@
 						"The apprentice casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 12})"
 					],
 					"will": [
-						"{@spell mage hand}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell burning hands}",
-							"{@spell disguise self}",
-							"{@spell mage armor}"
+							"{@spell Mains brûlantes}",
+							"{@spell Déguisement}",
+							"{@spell Armure du mage}"
 						]
 					},
 					"ability": "int",
@@ -1829,20 +1829,20 @@
 						"The archdruid casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell beast sense}",
-						"{@spell entangle}",
-						"{@spell speak with animals}"
+						"{@spell Sens animal}",
+						"{@spell Enchevêtrement}",
+						"{@spell Parler aux animaux}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell animal messenger}",
-							"{@spell dominate beast}",
-							"{@spell faerie fire}",
-							"{@spell tree stride}"
+							"{@spell Messager animal}",
+							"{@spell Soumission de bête}",
+							"{@spell Lueur féérique}",
+							"{@spell Foulée sylvestre}"
 						],
 						"1e": [
-							"{@spell commune with nature} (as an action)",
-							"{@spell mass cure wounds}"
+							"{@spell Communion avec la nature} (as an action)",
+							"{@spell Guérison de groupe}"
 						]
 					},
 					"ability": "wis",
@@ -2265,7 +2265,7 @@
 				{
 					"name": "Antimagic Cone",
 					"entries": [
-						"The dreadnought's eye creates an area of antimagic, as in the {@spell antimagic field} spell, in a 150-foot cone. At the start of each of its turns, it decides which way the cone faces. The cone doesn't function while the eye is closed or while the dreadnought is {@condition Aveuglé}."
+						"The dreadnought's eye creates an area of antimagic, as in the {@spell Antichamp magique} spell, in a 150-foot cone. At the start of each of its turns, it decides which way the cone faces. The cone doesn't function while the eye is closed or while the dreadnought is {@condition Aveuglé}."
 					]
 				},
 				{
@@ -2277,7 +2277,7 @@
 				{
 					"name": "Demiplanar Donjon",
 					"entries": [
-						"Anything the dreadnought swallows is transported to a demiplane that can be entered by no other means except a {@spell wish} spell or the dreadnought's Bite and Donjon Visit. A creature can leave the demiplane only by using magic that enables planar travel, such as the {@spell plane shift} spell. The demiplane resembles a stone cave roughly 1,000 feet in diameter with a ceiling 100 feet high. Like a stomach, it contains the remains of past meals. The dreadnought can't be harmed from within the demiplane. If the dreadnought dies, the demiplane disappears, and everything inside it appears around the dreadnought's corpse. The demiplane is otherwise indestructible."
+						"Anything the dreadnought swallows is transported to a demiplane that can be entered by no other means except a {@spell Souhait} spell or the dreadnought's Bite and Donjon Visit. A creature can leave the demiplane only by using magic that enables planar travel, such as the {@spell Déplacement planaire} spell. The demiplane resembles a stone cave roughly 1,000 feet in diameter with a ceiling 100 feet high. Like a stomach, it contains the remains of past meals. The dreadnought can't be harmed from within the demiplane. If the dreadnought dies, the demiplane disappears, and everything inside it appears around the dreadnought's corpse. The demiplane is otherwise indestructible."
 					]
 				},
 				{
@@ -2289,7 +2289,7 @@
 				{
 					"name": "Sever Silver Cord",
 					"entries": [
-						"If the dreadnought scores a critical hit against a creature traveling by means of the {@spell astral projection} spell, the dreadnought can cut the target's silver cord instead of dealing damage."
+						"If the dreadnought scores a critical hit against a creature traveling by means of the {@spell Projection astrale} spell, the dreadnought can cut the target's silver cord instead of dealing damage."
 					]
 				},
 				{
@@ -2522,16 +2522,16 @@
 						"The eladrin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell hold person}"
+						"{@spell Immobiliser un personnage}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell cure wounds} (as a 5th-level spell)",
-							"{@spell lesser restoration}"
+							"{@spell Soins} (as a 5th-level spell)",
+							"{@spell Restauration partielle}"
 						],
 						"1e": [
-							"{@spell greater restoration}",
-							"{@spell revivify}"
+							"{@spell Restauration supérieure}",
+							"{@spell Retour à la vie}"
 						]
 					},
 					"ability": "cha",
@@ -2729,11 +2729,11 @@
 						"The babau casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 11}):"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell dispel magic}",
-						"{@spell fear}",
-						"{@spell heat metal}",
-						"{@spell levitate}"
+						"{@spell Ténèbres}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Peur}",
+						"{@spell Métal brûlant}",
+						"{@spell Lévitation}"
 					],
 					"ability": "wis",
 					"displayAs": "action"
@@ -2898,21 +2898,21 @@
 						"Bael casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium)",
-						"{@spell charm person}",
-						"{@spell detect magic}",
-						"{@spell invisibility}",
-						"{@spell major image}"
+						"{@spell Changement d'apparence} (can become Medium)",
+						"{@spell Charmement}",
+						"{@spell Détection de la magie}",
+						"{@spell Invisibilité}",
+						"{@spell Image majeure}"
 					],
 					"daily": {
 						"1": [
-							"{@spell dominate monster}"
+							"{@spell Soumission de monstre}"
 						],
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell fly}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Vol}",
 							"{@spell suggestion}",
-							"{@spell wall of fire}"
+							"{@spell Mur de feu}"
 						]
 					},
 					"ability": "cha",
@@ -3445,13 +3445,13 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell teleport}"
+							"{@spell Téléportation}"
 						],
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell dominate beast}",
-							"{@spell maze}",
-							"{@spell wall of stone}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Soumission de bête}",
+							"{@spell Labyrinthe}",
+							"{@spell Mur de pierre}"
 						]
 					},
 					"ability": "cha",
@@ -3462,7 +3462,7 @@
 				{
 					"name": "Labyrinthine Recall",
 					"entries": [
-						"Baphomet can perfectly recall any path he has traveled, and he is immune to the {@spell maze} spell."
+						"Baphomet can perfectly recall any path he has traveled, and he is immune to the {@spell Labyrinthe} spell."
 					]
 				},
 				{
@@ -3637,15 +3637,15 @@
 						"The bard casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}",
+						"{@spell Lumières dansantes}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell charm person}",
-							"{@spell invisibility}",
-							"{@spell sleep}"
+							"{@spell Charmement}",
+							"{@spell Invisibilité}",
+							"{@spell Sommeil}"
 						]
 					},
 					"ability": "cha",
@@ -3823,14 +3823,14 @@
 						"The barghest casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell levitate}",
-						"{@spell minor illusion}",
-						"{@spell pass without trace}"
+						"{@spell Lévitation}",
+						"{@spell Illusion mineure}",
+						"{@spell Passage sans trace}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell charm person}",
-							"{@spell dimension door}",
+							"{@spell Charmement}",
+							"{@spell Porte dimensionnelle}",
 							"{@spell suggestion}"
 						]
 					},
@@ -4001,11 +4001,11 @@
 						"The berbalang casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell speak with dead}"
+						"{@spell Parler aux morts}"
 					],
 					"daily": {
 						"1": [
-							"{@spell plane shift} (self only)"
+							"{@spell Déplacement planaire} (self only)"
 						]
 					},
 					"ability": "int",
@@ -4154,13 +4154,13 @@
 						"While holding or riding the graystaff, the hag casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell hold person}"
+						"{@spell Immobiliser un personnage}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell cone of cold}",
-							"{@spell ice storm}",
-							"{@spell wall of ice}"
+							"{@spell Cône de froid}",
+							"{@spell Tempête de glace}",
+							"{@spell Mur de glace}"
 						]
 					},
 					"ability": "cha",
@@ -4171,7 +4171,7 @@
 				{
 					"name": "Control Weather (1/Day)",
 					"entries": [
-						"The hag can cast the {@spell control weather} spell, requiring no material components and using Charisma as the spellcasting ability."
+						"The hag can cast the {@spell Contrôle du climat} spell, requiring no material components and using Charisma as the spellcasting ability."
 					]
 				},
 				{
@@ -4356,11 +4356,11 @@
 					"name": "Creeping Darkness {@recharge}",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The abishai casts {@spell darkness} at a point within 120 feet of it, requiring no spell components or {@status concentration}. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action."
+						"The abishai casts {@spell Ténèbres} at a point within 120 feet of it, requiring no spell components or {@status concentration}. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action."
 					],
 					"recharge": {
 						"6": [
-							"{@spell darkness}"
+							"{@spell Ténèbres}"
 						]
 					},
 					"ability": "wis",
@@ -4518,9 +4518,9 @@
 					],
 					"daily": {
 						"2e": [
-							"{@spell command}",
-							"{@spell dispel magic}",
-							"{@spell find steed}"
+							"{@spell Ordre}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Trouver une monture}"
 						]
 					},
 					"ability": "cha",
@@ -4722,16 +4722,16 @@
 						"The abishai casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 20}):"
 					],
 					"will": [
-						"{@spell disguise self}",
-						"{@spell mage hand}",
-						"{@spell minor illusion}"
+						"{@spell Déguisement}",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell charm person}",
-							"{@spell dispel magic}",
-							"{@spell greater invisibility}",
-							"{@spell wall of force}"
+							"{@spell Charmement}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Invisibilité supérieure}",
+							"{@spell Mur de force}"
 						]
 					},
 					"ability": "int",
@@ -6490,12 +6490,12 @@
 					],
 					"will": [
 						"{@spell guidance}",
-						"{@spell thaumaturgy}"
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell bane}",
-							"{@spell hold person}"
+							"{@spell Fléau}",
+							"{@spell Immobiliser un personnage}"
 						]
 					},
 					"ability": "wis",
@@ -7224,21 +7224,21 @@
 						"The giant casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell fog cloud}",
-						"{@spell light}",
-						"{@spell minor illusion}"
+						"{@spell Détection de la magie}",
+						"{@spell Nuage de brouillard}",
+						"{@spell Lumière}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell invisibility}",
-							"{@spell silent image}",
+							"{@spell Invisibilité}",
+							"{@spell Image silencieuse}",
 							"{@spell suggestion}",
-							"{@spell tongues}"
+							"{@spell Don des langues}"
 						],
 						"1e": [
-							"{@spell gaseous form}",
-							"{@spell major image}"
+							"{@spell Forme gazeuse}",
+							"{@spell Image majeure}"
 						]
 					},
 					"ability": "cha",
@@ -7249,7 +7249,7 @@
 				{
 					"name": "Control Weather (8th-level Spell)",
 					"entries": [
-						"The giant can cast the {@spell control weather} spell, requiring no material components and using Charisma as the spellcasting ability."
+						"The giant can cast the {@spell Contrôle du climat} spell, requiring no material components and using Charisma as the spellcasting ability."
 					]
 				}
 			],
@@ -7348,7 +7348,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -7386,20 +7386,20 @@
 						"The conjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}",
+						"{@spell Lumières dansantes}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell fireball}",
-							"{@spell mage armor}",
-							"{@spell unseen servant}"
+							"{@spell Boule de feu}",
+							"{@spell Armure du mage}",
+							"{@spell Servant invisible}"
 						],
 						"1e": [
-							"{@spell fly}",
-							"{@spell stinking cloud}",
-							"{@spell web}"
+							"{@spell Vol}",
+							"{@spell Nuée nauséabonde}",
+							"{@spell Toile}"
 						]
 					},
 					"ability": "int",
@@ -7878,11 +7878,11 @@
 					"name": "Darkness (Recharges after a Short or Long Rest)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The darkling elder casts {@spell darkness}, requiring no spell components and using Wisdom as the spellcasting ability."
+						"The darkling elder casts {@spell Ténèbres}, requiring no spell components and using Wisdom as the spellcasting ability."
 					],
 					"rest": {
 						"1": [
-							"{@spell darkness}"
+							"{@spell Ténèbres}"
 						]
 					},
 					"ability": "wis",
@@ -8182,17 +8182,17 @@
 						"The deathlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell disguise self}",
-						"{@spell mage armor}",
-						"{@spell mage hand}"
+						"{@spell Détection de la magie}",
+						"{@spell Déguisement}",
+						"{@spell Armure du mage}",
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dispel magic}",
-							"{@spell hunger of Hadar}",
-							"{@spell invisibility}",
-							"{@spell spider climb}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Faim de Hadar}",
+							"{@spell Invisibilité}",
+							"{@spell Marche arachnéenne}"
 						]
 					},
 					"ability": "cha",
@@ -8364,18 +8364,18 @@
 						"The deathlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell disguise self}",
-						"{@spell mage armor}",
-						"{@spell minor illusion}"
+						"{@spell Détection de la magie}",
+						"{@spell Déguisement}",
+						"{@spell Armure du mage}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell dimension door}",
-							"{@spell dispel magic}",
-							"{@spell fly}",
-							"{@spell invisibility}"
+							"{@spell Ténèbres}",
+							"{@spell Porte dimensionnelle}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Vol}",
+							"{@spell Invisibilité}"
 						]
 					},
 					"ability": "cha",
@@ -8550,14 +8550,14 @@
 						"The deathlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell disguise self}",
-						"{@spell mage armor}"
+						"{@spell Détection de la magie}",
+						"{@spell Déguisement}",
+						"{@spell Armure du mage}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell fear}",
-							"{@spell hold person}"
+							"{@spell Peur}",
+							"{@spell Immobiliser un personnage}"
 						]
 					},
 					"ability": "cha",
@@ -8688,10 +8688,10 @@
 					"name": "Dancing Lights",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The rothé casts {@spell dancing lights}, requiring no spell components and using Wisdom as the spellcasting ability."
+						"The rothé casts {@spell Lumières dansantes}, requiring no spell components and using Wisdom as the spellcasting ability."
 					],
 					"will": [
-						"{@spell dancing lights}"
+						"{@spell Lumières dansantes}"
 					],
 					"ability": "wis",
 					"displayAs": "action",
@@ -9092,18 +9092,18 @@
 						"Demogorgon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell major image}"
+						"{@spell Détection de la magie}",
+						"{@spell Image majeure}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell fear}",
-							"{@spell telekinesis}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Peur}",
+							"{@spell Télékinésie}"
 						],
 						"1e": [
-							"{@spell feeblemind}",
-							"{@spell project image}"
+							"{@spell Dégénrescence}",
+							"{@spell Projection d'image}"
 						]
 					},
 					"ability": "cha",
@@ -9441,15 +9441,15 @@
 						"The derro casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell mage hand}",
+						"{@spell Main du mage}",
 						"{@spell message}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell invisibility}",
-							"{@spell sleep}",
-							"{@spell spider climb}"
+							"{@spell Invisibilité}",
+							"{@spell Sommeil}",
+							"{@spell Marche arachnéenne}"
 						]
 					},
 					"ability": "cha",
@@ -9747,8 +9747,8 @@
 						"The dhergoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 10}):"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell fear}"
+						"{@spell Ténèbres}",
+						"{@spell Peur}"
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -10075,7 +10075,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -10113,23 +10113,23 @@
 						"The diviner casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell mage hand}",
+						"{@spell Main du mage}",
 						"{@spell message}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell arcane eye}",
-							"{@spell detect magic}",
-							"{@spell detect thoughts}",
-							"{@spell fly}",
-							"{@spell lightning bolt}",
-							"{@spell locate object}",
-							"{@spell mage armor}",
-							"{@spell Rary's telepathic bond}"
+							"{@spell Œil magique}",
+							"{@spell Détection de la magie}",
+							"{@spell Détection de pensées}",
+							"{@spell Vol}",
+							"{@spell Éclair}",
+							"{@spell Localisation d'objet}",
+							"{@spell Armure du mage}",
+							"{@spell Lien télépathique de Rary}"
 						],
 						"1e": [
-							"{@spell true seeing}"
+							"{@spell Vision véritable}"
 						]
 					},
 					"ability": "int",
@@ -10489,13 +10489,13 @@
 						"The draegloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 11}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell darkness}"
+						"{@spell Lumières dansantes}",
+						"{@spell Ténèbres}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell confusion}",
-							"{@spell faerie fire}"
+							"{@spell Lueur féérique}"
 						]
 					},
 					"ability": "cha",
@@ -10653,18 +10653,18 @@
 						"The drow casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}"
+						"{@spell Lumières dansantes}",
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell dispel magic}",
-							"{@spell etherealness}",
-							"{@spell faerie fire}",
-							"{@spell fly}",
-							"{@spell insect plague}",
-							"{@spell invisibility}"
+							"{@spell Ténèbres}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Éthéré}",
+							"{@spell Lueur féérique}",
+							"{@spell Vol}",
+							"{@spell Nuée d'insectes}",
+							"{@spell Invisibilité}"
 						]
 					},
 					"ability": "int",
@@ -10861,21 +10861,21 @@
 						"The drow casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage armor}",
-						"{@spell mage hand}",
+						"{@spell Lumières dansantes}",
+						"{@spell Armure du mage}",
+						"{@spell Main du mage}",
 						"{@spell message}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dimension door}",
-							"{@spell fireball}",
-							"{@spell invisibility}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Boule de feu}",
+							"{@spell Invisibilité}"
 						],
 						"1e": [
-							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{@spell Ténèbres}",
+							"{@spell Lueur féérique}",
+							"{@spell Lévitation} (self only)"
 						]
 					},
 					"ability": "int",
@@ -11048,13 +11048,13 @@
 						"The drow casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell dancing lights}"
+						"{@spell Lumières dansantes}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{@spell Ténèbres}",
+							"{@spell Lueur féérique}",
+							"{@spell Lévitation} (self only)"
 						]
 					},
 					"ability": "cha",
@@ -11255,22 +11255,22 @@
 						"The drow casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell detect magic}",
+						"{@spell Lumières dansantes}",
+						"{@spell Détection de la magie}",
 						"{@spell message}",
-						"{@spell thaumaturgy}"
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell clairvoyance}",
-							"{@spell darkness}",
-							"{@spell detect thoughts}",
-							"{@spell dispel magic}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)",
+							"{@spell Ténèbres}",
+							"{@spell Détection de pensées}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Lueur féérique}",
+							"{@spell Lévitation} (self only)",
 							"{@spell silence}",
 							"{@spell suggestion}",
-							"{@spell true seeing}"
+							"{@spell Vision véritable}"
 						]
 					},
 					"ability": "cha",
@@ -11463,28 +11463,28 @@
 						"The drow casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 20}):"
 					],
 					"will": [
-						"{@spell command}",
-						"{@spell dancing lights}",
-						"{@spell detect magic}",
-						"{@spell thaumaturgy}"
+						"{@spell Ordre}",
+						"{@spell Lumières dansantes}",
+						"{@spell Détection de la magie}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell banishment}",
-							"{@spell blade barrier}",
-							"{@spell cure wounds}",
-							"{@spell hold person}",
-							"{@spell plane shift}",
+							"{@spell Bannissement}",
+							"{@spell Mur de lames}",
+							"{@spell Soins}",
+							"{@spell Immobiliser un personnage}",
+							"{@spell Déplacement planaire}",
 							"{@spell silence}"
 						],
 						"1e": [
 							"{@spell clairvoyance}",
-							"{@spell darkness}",
-							"{@spell detect thoughts}",
-							"{@spell dispel magic}",
-							"{@spell faerie fire}",
-							"{@spell gate}",
-							"{@spell levitate} (self only)",
+							"{@spell Ténèbres}",
+							"{@spell Détection de pensées}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Lueur féérique}",
+							"{@spell Portail}",
+							"{@spell Lévitation} (self only)",
 							"{@spell suggestion}"
 						]
 					},
@@ -11718,13 +11718,13 @@
 						"The drow casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell darkness}"
+						"{@spell Lumières dansantes}",
+						"{@spell Ténèbres}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{@spell Lueur féérique}",
+							"{@spell Lévitation} (self only)"
 						]
 					},
 					"ability": "cha",
@@ -11919,12 +11919,12 @@
 						"The duergar casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell minor illusion}"
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1": [
-							"{@spell stinking cloud}"
+							"{@spell Nuée nauséabonde}"
 						]
 					},
 					"ability": "int",
@@ -13237,11 +13237,11 @@
 						"The dybbuk casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell dimension door}"
+						"{@spell Porte dimensionnelle}"
 					],
 					"daily": {
 						"3": [
-							"{@spell phantasmal force}"
+							"{@spell Force phantasmale}"
 						]
 					},
 					"ability": "cha",
@@ -13690,16 +13690,16 @@
 						"The elder brain casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell detect thoughts}",
-						"{@spell levitate}"
+						"{@spell Détection de pensées}",
+						"{@spell Lévitation}"
 					],
 					"daily": {
 						"3": [
-							"{@spell modify memory}"
+							"{@spell Modification de mémoire}"
 						],
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell plane shift} (self only)"
+							"{@spell Soumission de monstre}",
+							"{@spell Déplacement planaire} (self only)"
 						]
 					},
 					"ability": "int",
@@ -13710,7 +13710,7 @@
 				{
 					"name": "Creature Sense",
 					"entries": [
-						"The elder brain is aware of creatures within 5 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a {@spell mind blank} spell, a {@spell nondetection} spell, or similar magic can't be perceived in this manner."
+						"The elder brain is aware of creatures within 5 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a {@spell Vide mental} spell, a {@spell Occultation} spell, or similar magic can't be perceived in this manner."
 					]
 				},
 				{
@@ -13920,15 +13920,15 @@
 						"The oblex casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell charm person} (as 5th-level spell)",
-						"{@spell detect thoughts}"
+						"{@spell Charmement} (as 5th-level spell)",
+						"{@spell Détection de pensées}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dimension door}",
-							"{@spell dominate person}",
-							"{@spell hypnotic pattern}",
-							"{@spell telekinesis}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Motif hypnotique}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int",
@@ -13971,7 +13971,7 @@
 				{
 					"name": "Eat Memories",
 					"entries": [
-						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 18} Wisdom saving throw or take 44 ({@damage 8d10}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.",
+						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 18} Wisdom saving throw or take 44 ({@damage 8d10}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell Restauration supérieure} or {@spell Guérison} spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.",
 						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition Inconscient} for 1 hour. The effect then ends.",
 						"The oblex learns all the languages a memory-drained target knows and gains all its skill proficiencies."
 					]
@@ -14254,7 +14254,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -14292,18 +14292,18 @@
 						"The enchanter casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell friends}",
-						"{@spell mage hand}",
+						"{@spell Ami}",
+						"{@spell Main du mage}",
 						"{@spell message}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell charm person}",
-							"{@spell mage armor}",
-							"{@spell hold person}",
-							"{@spell invisibility}",
+							"{@spell Charmement}",
+							"{@spell Armure du mage}",
+							"{@spell Immobiliser un personnage}",
+							"{@spell Invisibilité}",
 							"{@spell suggestion}",
-							"{@spell tongues}"
+							"{@spell Don des langues}"
 						]
 					},
 					"ability": "int",
@@ -14388,7 +14388,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -14426,19 +14426,19 @@
 						"The evoker casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand}",
+						"{@spell Lumière}",
+						"{@spell Main du mage}",
 						"{@spell message}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell ice storm}",
-							"{@spell lightning bolt}",
-							"{@spell mage armor}"
+							"{@spell Tempête de glace}",
+							"{@spell Éclair}",
+							"{@spell Armure du mage}"
 						],
 						"1e": [
-							"{@spell wall of ice}"
+							"{@spell Mur de glace}"
 						]
 					},
 					"ability": "int",
@@ -14929,9 +14929,9 @@
 					],
 					"will": [
 						"{@spell guidance}",
-						"{@spell light}",
-						"{@spell mage armor}",
-						"{@spell mage hand}",
+						"{@spell Lumière}",
+						"{@spell Armure du mage}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"ability": "cha",
@@ -15502,20 +15502,20 @@
 						"Fraz-Urb'luu casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell phantasmal force}"
+						"{@spell Changement d'apparence} (can become Medium when changing his appearance)",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Force phantasmale}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell mislead}",
-							"{@spell programmed illusion}",
-							"{@spell seeming}"
+							"{@spell Fourberie}",
+							"{@spell Illusion programmée}",
+							"{@spell Apparence}"
 						],
 						"1e": [
-							"{@spell modify memory}",
-							"{@spell project image}"
+							"{@spell Modification de mémoire}",
+							"{@spell Projection d'image}"
 						]
 					},
 					"ability": "cha",
@@ -16532,17 +16532,17 @@
 						"Geryon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell detect magic}",
-						"{@spell ice storm}",
-						"{@spell invisibility} (self only)",
-						"{@spell locate object}",
+						"{@spell Changement d'apparence} (can become Medium when changing his appearance)",
+						"{@spell Détection de la magie}",
+						"{@spell Tempête de glace}",
+						"{@spell Invisibilité} (self only)",
+						"{@spell Localisation d'objet}",
 						"{@spell suggestion}",
-						"{@spell wall of ice}"
+						"{@spell Mur de glace}"
 					],
 					"daily": {
 						"1": [
-							"{@spell banishment}"
+							"{@spell Bannissement}"
 						]
 					},
 					"ability": "cha",
@@ -17101,20 +17101,20 @@
 						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand} (the hand is invisible)",
+						"{@spell Lumière}",
+						"{@spell Main du mage} (the hand is invisible)",
 						"{@spell message}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell fireball}",
-							"{@spell invisibility}",
-							"{@spell nondetection} (self only)"
+							"{@spell Boule de feu}",
+							"{@spell Invisibilité}",
+							"{@spell Occultation} (self only)"
 						],
 						"1e": [
-							"{@spell dimension door}",
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Déplacement planaire}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int",
@@ -17260,16 +17260,16 @@
 						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell blur}",
-							"{@spell nondetection} (self only)"
+							"{@spell Distorsion}",
+							"{@spell Occultation} (self only)"
 						],
 						"1e": [
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{@spell Déplacement planaire}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int",
@@ -17417,18 +17417,18 @@
 						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell levitate} (self only)",
-							"{@spell nondetection} (self only)"
+							"{@spell Lévitation} (self only)",
+							"{@spell Occultation} (self only)"
 						],
 						"1e": [
-							"{@spell Bigby's hand}",
-							"{@spell mass suggestion}",
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{@spell Main de Bigby}",
+							"{@spell Suggestion de groupe}",
+							"{@spell Déplacement planaire}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int",
@@ -17453,7 +17453,7 @@
 				{
 					"name": "Silver Greatsword",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage plus 17 ({@damage 5d6}) psychic damage. On a critical hit against a target in an astral body (as with the {@spell astral projection} spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage plus 17 ({@damage 5d6}) psychic damage. On a critical hit against a target in an astral body (as with the {@spell Projection astrale} spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
 					]
 				}
 			],
@@ -17608,17 +17608,17 @@
 						"The githzerai casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell see invisibility}",
-							"{@spell telekinesis}"
+							"{@spell Voir l'invisible}",
+							"{@spell Télékinésie}"
 						],
 						"1e": [
-							"{@spell globe of invulnerability}",
-							"{@spell plane shift}",
-							"{@spell wall of force}"
+							"{@spell Globe d'invulnérabilité}",
+							"{@spell Déplacement planaire}",
+							"{@spell Mur de force}"
 						]
 					},
 					"ability": "wis",
@@ -17669,7 +17669,7 @@
 				{
 					"name": "Change Gravity (Costs 3 Actions)",
 					"entries": [
-						"The githzerai casts the {@spell reverse gravity} spell, using Wisdom as the spellcasting ability. The spell has the normal effect, except that the githzerai can orient the area in any direction and creatures and objects fall toward the end of the area."
+						"The githzerai casts the {@spell Inversion de la gravité} spell, using Wisdom as the spellcasting ability. The spell has the normal effect, except that the githzerai can orient the area in any direction and creatures and objects fall toward the end of the area."
 					]
 				}
 			],
@@ -17777,15 +17777,15 @@
 						"The githzerai casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"3": [
-							"{@spell see invisibility}"
+							"{@spell Voir l'invisible}"
 						],
 						"1e": [
-							"{@spell plane shift}",
-							"{@spell teleport}"
+							"{@spell Déplacement planaire}",
+							"{@spell Téléportation}"
 						]
 					},
 					"ability": "wis",
@@ -18451,20 +18451,20 @@
 						"Graz'zt casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
 					],
 					"will": [
-						"{@spell charm person}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}"
+						"{@spell Charmement}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell darkness}",
-							"{@spell dominate person}",
-							"{@spell telekinesis}",
-							"{@spell teleport}"
+							"{@spell Ténèbres}",
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Télékinésie}",
+							"{@spell Téléportation}"
 						],
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell greater invisibility}"
+							"{@spell Soumission de monstre}",
+							"{@spell Invisibilité supérieure}"
 						]
 					},
 					"ability": "cha",
@@ -18682,19 +18682,19 @@
 						"The abishai casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell alter self}",
-						"{@spell major image}"
+						"{@spell Changement d'apparence}",
+						"{@spell Image majeure}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell charm person}",
-							"{@spell detect thoughts}",
-							"{@spell fear}"
+							"{@spell Charmement}",
+							"{@spell Détection de pensées}",
+							"{@spell Peur}"
 						],
 						"1e": [
 							"{@spell confusion}",
-							"{@spell dominate person}",
-							"{@spell mass suggestion}"
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Suggestion de groupe}"
 						]
 					},
 					"ability": "cha",
@@ -19428,15 +19428,15 @@
 						"The grung casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell druidcraft}"
+						"{@spell Druidisme}"
 					],
 					"daily": {
 						"2": [
-							"{@spell plant growth}"
+							"{@spell Croissance végétale}"
 						],
 						"3e": [
-							"{@spell cure wounds}",
-							"{@spell spike growth}"
+							"{@spell Soins}",
+							"{@spell Croissance d'épines}"
 						]
 					},
 					"ability": "wis",
@@ -20123,7 +20123,7 @@
 									"type": "item",
 									"entries": [
 										"The hellfire engine targets a point within 120 feet of it that it can see. Each creature within 30 feet of that point must make a {@dc 20} Dexterity saving throw, taking 27 ({@damage 5d10}) bludgeoning damage plus 19 ({@damage 3d12}) thunder damage on a failed save, or half as much damage on a successful one.",
-										"If the chosen option kills a creature, the creature's soul rises from the River Styx as a {@creature lemure} in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell wish} spell or killing the {@creature lemure} and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+										"If the chosen option kills a creature, the creature's soul rises from the River Styx as a {@creature lemure} in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell Souhait} spell or killing the {@creature lemure} and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
 									]
 								}
 							]
@@ -20234,16 +20234,16 @@
 						"The hobgoblin casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell mage hand}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell fireball}",
-							"{@spell fly}",
-							"{@spell fog cloud}",
-							"{@spell gust of wind}",
-							"{@spell lightning bolt}"
+							"{@spell Boule de feu}",
+							"{@spell Vol}",
+							"{@spell Nuage de brouillard}",
+							"{@spell Rafale}",
+							"{@spell Éclair}"
 						]
 					},
 					"ability": "int",
@@ -20393,14 +20393,14 @@
 						"The hobgoblin casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell minor illusion}",
+						"{@spell Illusion mineure}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell charm person}",
-							"{@spell disguise self}",
-							"{@spell silent image}"
+							"{@spell Charmement}",
+							"{@spell Déguisement}",
+							"{@spell Image silencieuse}"
 						]
 					},
 					"ability": "int",
@@ -20836,17 +20836,17 @@
 						"Hutijin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 22}):"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell detect magic}",
-						"{@spell hold monster}",
-						"{@spell invisibility} (self only)",
-						"{@spell lightning bolt}",
+						"{@spell Changement d'apparence} (can become Medium when changing his appearance)",
+						"{@spell Détection de la magie}",
+						"{@spell Immobilisation de monstre}",
+						"{@spell Invisibilité} (self only)",
+						"{@spell Éclair}",
 						"{@spell suggestion}",
-						"{@spell wall of fire}"
+						"{@spell Mur de feu}"
 					],
 					"daily": {
 						"3": [
-							"{@spell dispel magic}"
+							"{@spell Dissipation de la magie}"
 						]
 					},
 					"ability": "cha",
@@ -21100,16 +21100,16 @@
 						"The hydroloth casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell invisibility} (self only)"
+						"{@spell Ténèbres}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Invisibilité} (self only)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell control water}",
-							"{@spell crown of madness}",
-							"{@spell fear}",
+							"{@spell Contrôle de l'eau}",
+							"{@spell Couronne de folie}",
+							"{@spell Peur}",
 							"{@spell suggestion}"
 						]
 					},
@@ -21165,7 +21165,7 @@
 				{
 					"name": "Steal Memory (1/Day)",
 					"entries": [
-						"The hydroloth targets one creature it can see within 60 feet of it. The target takes 14 ({@damage 4d6}) psychic damage, and it must make a {@dc 16} Intelligence saving throw. On a successful save, the target becomes immune to this hydroloth's Steal Memory for 24 hours. On a failed save, the target loses all proficiencies; it can't cast spells; it can't understand language; and if its Intelligence and Charisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success. A {@spell greater restoration} or {@spell remove curse} spell cast on the target ends this effect early."
+						"The hydroloth targets one creature it can see within 60 feet of it. The target takes 14 ({@damage 4d6}) psychic damage, and it must make a {@dc 16} Intelligence saving throw. On a successful save, the target becomes immune to this hydroloth's Steal Memory for 24 hours. On a failed save, the target loses all proficiencies; it can't cast spells; it can't understand language; and if its Intelligence and Charisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success. A {@spell Restauration supérieure} or {@spell Délivrance de la malédiction} spell cast on the target ends this effect early."
 					]
 				},
 				{
@@ -21249,7 +21249,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -21287,18 +21287,18 @@
 						"The illusionist casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}",
-						"{@spell minor illusion}"
+						"{@spell Lumières dansantes}",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell disguise self}",
-							"{@spell invisibility}",
-							"{@spell mage armor}",
-							"{@spell major image}",
-							"{@spell phantasmal force}",
-							"{@spell phantom steed}"
+							"{@spell Déguisement}",
+							"{@spell Invisibilité}",
+							"{@spell Armure du mage}",
+							"{@spell Image majeure}",
+							"{@spell Force phantasmale}",
+							"{@spell Destrier fantôme}"
 						]
 					},
 					"ability": "int",
@@ -21466,12 +21466,12 @@
 						"Juiblex casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 20}):"
 					],
 					"will": [
-						"{@spell detect magic}"
+						"{@spell Détection de la magie}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell contagion}",
-							"{@spell gaseous form}"
+							"{@spell Forme gazeuse}"
 						]
 					},
 					"ability": "wis",
@@ -21526,7 +21526,7 @@
 				{
 					"name": "Eject Slime {@recharge 5}",
 					"entries": [
-						"Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must succeed on a {@dc 21} Dexterity saving throw or take 55 ({@damage 10d10}) acid damage. Unless the target avoids taking all of this damage, any metal armor worn by the target takes a permanent \u22121 penalty to the AC it offers, and any metal weapon the target is carrying or wearing takes a permanent \u22121 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to \u22125, the object is destroyed. The penalty on an object can be removed by the {@spell mending} spell."
+						"Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must succeed on a {@dc 21} Dexterity saving throw or take 55 ({@damage 10d10}) acid damage. Unless the target avoids taking all of this damage, any metal armor worn by the target takes a permanent \u22121 penalty to the AC it offers, and any metal weapon the target is carrying or wearing takes a permanent \u22121 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to \u22125, the object is destroyed. The penalty on an object can be removed by the {@spell Réparation} spell."
 					]
 				}
 			],
@@ -21680,26 +21680,26 @@
 						"The ki-rin casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell major image} (6th-level version)",
-						"{@spell thaumaturgy}"
+						"{@spell Lumière}",
+						"{@spell Image majeure} (6th-level version)",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell cure wounds}",
-							"{@spell dispel magic}",
-							"{@spell lesser restoration}",
-							"{@spell sending}"
+							"{@spell Soins}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Restauration partielle}",
+							"{@spell Envoi de message}"
 						],
 						"1e": [
-							"{@spell banishment}",
-							"{@spell calm emotions}",
-							"{@spell create food and water}",
-							"{@spell greater restoration}",
-							"{@spell plane shift}",
-							"{@spell protection from evil and good}",
-							"{@spell revivify}",
-							"{@spell wind walk}"
+							"{@spell Bannissement}",
+							"{@spell Apaisement}",
+							"{@spell Création de nourriture et d'eau}",
+							"{@spell Restauration supérieure}",
+							"{@spell Déplacement planaire}",
+							"{@spell Protection contre le mal et le bien}",
+							"{@spell Retour à la vie}",
+							"{@spell Marche aérienne}"
 						]
 					},
 					"ability": "wis",
@@ -22194,14 +22194,14 @@
 						"The kobold casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell mage hand}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell charm person}",
-							"{@spell fog cloud}",
-							"{@spell levitate}"
+							"{@spell Charmement}",
+							"{@spell Nuage de brouillard}",
+							"{@spell Lévitation}"
 						]
 					},
 					"ability": "cha",
@@ -22371,13 +22371,13 @@
 						"The korred casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell commune with nature} (as an action)",
-						"{@spell meld into stone}",
-						"{@spell stone shape}"
+						"{@spell Communion avec la nature} (as an action)",
+						"{@spell Fusion avec la pierre}",
+						"{@spell Forme de pierre}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Otto's irresistible dance}"
+							"{@spell Danse irrésistible d'Otto}"
 						]
 					},
 					"ability": "wis",
@@ -22536,18 +22536,18 @@
 						"The priest casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell command}",
-						"{@spell create or destroy water}"
+						"{@spell Ordre}",
+						"{@spell Création ou destruction d'eau}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Evard's black tentacles}"
+							"{@spell Tentacules noirs d'Evard}"
 						],
 						"3e": [
-							"{@spell control water}",
-							"{@spell darkness}",
-							"{@spell water breathing}",
-							"{@spell water walk}"
+							"{@spell Contrôle de l'eau}",
+							"{@spell Ténèbres}",
+							"{@spell Respiration aquatique}",
+							"{@spell Marche sur les eaux}"
 						]
 					},
 					"ability": "wis",
@@ -23676,11 +23676,11 @@
 					"name": "Plane Shift (3/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The marut casts {@spell plane shift}, requiring no material components and using Intelligence as the spellcasting ability. The marut can cast the spell normally, or it can cast the spell on an unwilling creature it can see within 60 feet of it. If it uses the latter option, the targeted creature must succeed on a {@dc 20} Charisma saving throw or be banished to a teleportation circle in the Hall of Concordance in Sigil."
+						"The marut casts {@spell Déplacement planaire}, requiring no material components and using Intelligence as the spellcasting ability. The marut can cast the spell normally, or it can cast the spell on an unwilling creature it can see within 60 feet of it. If it uses the latter option, the targeted creature must succeed on a {@dc 20} Charisma saving throw or be banished to a teleportation circle in the Hall of Concordance in Sigil."
 					],
 					"daily": {
 						"3": [
-							"{@spell plane shift}"
+							"{@spell Déplacement planaire}"
 						]
 					},
 					"ability": "int",
@@ -24246,7 +24246,7 @@
 					"name": "Shadow Teleport {@recharge 5}",
 					"entries": [
 						"The meazel, any equipment it is wearing or carrying, and any creature it is grappling teleport to an unoccupied space within 500 feet of it, provided that the starting space and the destination are in dim light or darkness. The destination must be a place the meazel has seen before, but it need not be within line of sight. If the destination space is occupied, the teleportation leads to the nearest unoccupied space.",
-						"Any other creature the meazel teleports becomes cursed for 1 hour or until the curse is ended by {@spell remove curse} or {@spell greater restoration}. Until this curse ends, every Undead and every creature native to the Shadowfell within 300 feet of the cursed creature can sense it, which prevents that creature from hiding from them."
+						"Any other creature the meazel teleports becomes cursed for 1 hour or until the curse is ended by {@spell Délivrance de la malédiction} or {@spell Restauration supérieure}. Until this curse ends, every Undead and every creature native to the Shadowfell within 300 feet of the cursed creature can sense it, which prevents that creature from hiding from them."
 					]
 				}
 			],
@@ -24667,15 +24667,15 @@
 						"The merrenoloth casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell charm person}",
-						"{@spell darkness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell gust of wind}"
+						"{@spell Charmement}",
+						"{@spell Ténèbres}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Rafale}"
 					],
 					"daily": {
 						"3": [
-							"{@spell control water}"
+							"{@spell Contrôle de l'eau}"
 						]
 					},
 					"ability": "int",
@@ -25067,14 +25067,14 @@
 						"Moloch casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
+						"{@spell Changement d'apparence} (can become Medium when changing his appearance)",
 						"{@spell confusion}",
-						"{@spell detect magic}",
-						"{@spell fly}",
-						"{@spell major image}",
-						"{@spell stinking cloud}",
+						"{@spell Détection de la magie}",
+						"{@spell Vol}",
+						"{@spell Image majeure}",
+						"{@spell Nuée nauséabonde}",
 						"{@spell suggestion}",
-						"{@spell wall of fire}"
+						"{@spell Mur de feu}"
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -25313,14 +25313,14 @@
 						"The molydeus casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 22}):"
 					],
 					"will": [
-						"{@spell dispel magic}",
-						"{@spell polymorph}",
-						"{@spell telekinesis}",
-						"{@spell teleport}"
+						"{@spell Dissipation de la magie}",
+						"{@spell Polymorphie}",
+						"{@spell Télékinésie}",
+						"{@spell Téléportation}"
 					],
 					"daily": {
 						"3": [
-							"{@spell lightning bolt}"
+							"{@spell Éclair}"
 						]
 					},
 					"ability": "cha",
@@ -25357,7 +25357,7 @@
 				{
 					"name": "Snakebite",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 15 ft., one creature. {@h}16 ({@damage 2d6 + 9}) poison damage. The target must succeed on a {@dc 22} Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target transforms into a {@creature manes} if this reduces its hit point maximum to 0. This transformation can be ended only by a {@spell wish} spell."
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one creature. {@h}16 ({@damage 2d6 + 9}) poison damage. The target must succeed on a {@dc 22} Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target transforms into a {@creature manes} if this reduces its hit point maximum to 0. This transformation can be ended only by a {@spell Souhait} spell."
 					]
 				},
 				{
@@ -25527,16 +25527,16 @@
 						"The morkoth casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell mage hand}"
+						"{@spell Détection de la magie}",
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell darkness}",
-							"{@spell dimension door}",
-							"{@spell dispel magic}",
-							"{@spell lightning bolt}",
-							"{@spell sending}"
+							"{@spell Ténèbres}",
+							"{@spell Porte dimensionnelle}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Éclair}",
+							"{@spell Envoi de message}"
 						]
 					},
 					"ability": "int",
@@ -25867,7 +25867,7 @@
 				{
 					"name": "Devour Soul",
 					"entries": [
-						"A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a Construct nor an Undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice (d8s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 ({@damage 1d6}) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a {@spell wish} spell."
+						"A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a Construct nor an Undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice (d8s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 ({@damage 1d6}) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a {@spell Souhait} spell."
 					]
 				},
 				{
@@ -26014,23 +26014,23 @@
 						"The nagpa casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 20}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell mage hand}",
+						"{@spell Détection de la magie}",
+						"{@spell Main du mage}",
 						"{@spell message}",
-						"{@spell minor illusion}"
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell fireball}",
-							"{@spell fly}",
-							"{@spell hold person}",
+							"{@spell Boule de feu}",
+							"{@spell Vol}",
+							"{@spell Immobiliser un personnage}",
 							"{@spell suggestion}",
-							"{@spell wall of fire}"
+							"{@spell Mur de feu}"
 						],
 						"1e": [
-							"{@spell dominate person}",
-							"{@spell etherealness}",
-							"{@spell feeblemind}"
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Éthéré}",
+							"{@spell Dégénrescence}"
 						]
 					},
 					"ability": "int",
@@ -26243,7 +26243,7 @@
 				{
 					"name": "Hellfire Lance",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d12 + 5}) piercing damage plus 16 ({@damage 3d10}) fire damage. If this damage kills a creature with a soul, the soul rises from the River Styx as a {@creature lemure} in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell wish} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d12 + 5}) piercing damage plus 16 ({@damage 3d10}) fire damage. If this damage kills a creature with a soul, the soul rises from the River Styx as a {@creature lemure} in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell Souhait} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
 					]
 				},
 				{
@@ -26329,7 +26329,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -26370,19 +26370,19 @@
 						"The necromancer casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}",
+						"{@spell Lumières dansantes}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell bestow curse}",
-							"{@spell dimension door}",
-							"{@spell mage armor}",
-							"{@spell web}"
+							"{@spell Malédiction}",
+							"{@spell Porte dimensionnelle}",
+							"{@spell Armure du mage}",
+							"{@spell Toile}"
 						],
 						"1e": [
-							"{@spell circle of death}"
+							"{@spell Cercle de mort}"
 						]
 					},
 					"ability": "int",
@@ -26774,15 +26774,15 @@
 					],
 					"will": [
 						"{@spell guidance}",
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dimension door}",
-							"{@spell hold person}",
-							"{@spell hunger of Hadar}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Immobiliser un personnage}",
+							"{@spell Faim de Hadar}"
 						]
 					},
 					"ability": "cha",
@@ -26960,13 +26960,13 @@
 						"The neothelid casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell levitate}"
+						"{@spell Lévitation}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell confusion}",
-							"{@spell feeblemind}",
-							"{@spell telekinesis}"
+							"{@spell Dégénrescence}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "wis",
@@ -26977,7 +26977,7 @@
 				{
 					"name": "Creature Sense",
 					"entries": [
-						"The neothelid is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's Intelligence score, but can't sense anything else about it. A creature protected by a {@spell mind blank} spell, a {@spell nondetection} spell, or similar magic can't be perceived in this manner."
+						"The neothelid is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's Intelligence score, but can't sense anything else about it. A creature protected by a {@spell Vide mental} spell, a {@spell Occultation} spell, or similar magic can't be perceived in this manner."
 					]
 				},
 				{
@@ -27141,7 +27141,7 @@
 				{
 					"name": "Life Eater",
 					"entries": [
-						"A creature dies if reduced to 0 hit points by the nightwalker and can't be revived except by a {@spell wish} spell."
+						"A creature dies if reduced to 0 hit points by the nightwalker and can't be revived except by a {@spell Souhait} spell."
 					]
 				},
 				{
@@ -27275,8 +27275,8 @@
 						"The nilbog casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell Tasha's hideous laughter}"
+						"{@spell Main du mage}",
+						"{@spell Rire hideux de Tasha}"
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -28080,16 +28080,16 @@
 						"The oinoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell hold monster}",
-						"{@spell invisibility} (self only)"
+						"{@spell Ténèbres}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Immobilisation de monstre}",
+						"{@spell Invisibilité} (self only)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell feeblemind}",
-							"{@spell globe of invulnerability}"
+							"{@spell Dégénrescence}",
+							"{@spell Globe d'invulnérabilité}"
 						]
 					},
 					"ability": "cha",
@@ -28120,7 +28120,7 @@
 				{
 					"name": "Corrupted Healing {@recharge}",
 					"entries": [
-						"The oinoloth touches one willing creature within 5 feet of it. The target regains all its hit points. In addition, the oinoloth can end one disease on the target or remove one of the following conditions from it: {@condition Aveuglé}, {@condition Assourdi}, {@condition Paralysé}, or {@condition Empoisonné}. The target then gains 1 level of {@condition Épuisement}, and its hit point maximum is reduced by 7 ({@dice 2d6}). This reduction can be removed only by a {@spell wish} spell or by casting {@spell greater restoration} on the target three times within the same hour. The target dies if its hit point maximum is reduced to 0."
+						"The oinoloth touches one willing creature within 5 feet of it. The target regains all its hit points. In addition, the oinoloth can end one disease on the target or remove one of the following conditions from it: {@condition Aveuglé}, {@condition Assourdi}, {@condition Paralysé}, or {@condition Empoisonné}. The target then gains 1 level of {@condition Épuisement}, and its hit point maximum is reduced by 7 ({@dice 2d6}). This reduction can be removed only by a {@spell Souhait} spell or by casting {@spell Restauration supérieure} on the target three times within the same hour. The target dies if its hit point maximum is reduced to 0."
 					]
 				},
 				{
@@ -28300,14 +28300,14 @@
 						"Orcus casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
 					],
 					"will": [
-						"{@spell detect magic}"
+						"{@spell Détection de la magie}"
 					],
 					"daily": {
 						"1": [
-							"{@spell time stop}"
+							"{@spell Arrêt du temps}"
 						],
 						"3": [
-							"{@spell dispel magic}"
+							"{@spell Dissipation de la magie}"
 						]
 					},
 					"ability": "cha",
@@ -28320,17 +28320,17 @@
 						"While holding the {@item Baguette d'Orcus}, Orcus casts one of the following spells (spell save {@dc 18}), some of which require charges; the wand has 7 charges to fuel these spells, and it regains {@dice 1d4 + 3} charges daily at dawn:"
 					],
 					"will": [
-						"{@spell animate dead} (as an action)",
-						"{@spell blight}",
-						"{@spell speak with dead}"
+						"{@spell Animation des morts} (as an action)",
+						"{@spell Ravage}",
+						"{@spell Parler aux morts}"
 					],
 					"charges": {
 						"1e": [
-							"{@spell circle of death}",
-							"{@spell finger of death}"
+							"{@spell Cercle de mort}",
+							"{@spell Doigt de mort}"
 						],
 						"2e": [
-							"{@spell power word kill}"
+							"{@spell Mot de pouvoir de mort}"
 						]
 					},
 					"chargesItem": "wand of orcus|dmg",
@@ -28353,7 +28353,7 @@
 				{
 					"name": "Master of Undeath",
 					"entries": [
-						"Orcus can cast {@spell animate dead} (at will) and {@spell create undead} (3/day). He chooses the level at which the spells are cast, and the creatures created by them remain under his control indefinitely. Additionally, he can cast {@spell create undead} even when it isn't night."
+						"Orcus can cast {@spell Animation des morts} (at will) and {@spell Création de morts-vivants} (3/day). He chooses the level at which the spells are cast, and the creatures created by them remain under his control indefinitely. Additionally, he can cast {@spell Création de morts-vivants} even when it isn't night."
 					]
 				},
 				{
@@ -29538,8 +29538,8 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell plane shift} (only self and up to one incapacitated creature, which is considered willing for the spell)",
-							"{@spell web}"
+							"{@spell Déplacement planaire} (only self and up to one incapacitated creature, which is considered willing for the spell)",
+							"{@spell Toile}"
 						]
 					},
 					"ability": "wis",
@@ -29822,7 +29822,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition Empoisonné}. At the end of each long rest, the {@condition Empoisonné} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition Empoisonné} in this way, it dies and instantly transforms into a living {@creature manes}. The transformation can be undone only by a {@spell wish} spell."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition Empoisonné}. At the end of each long rest, the {@condition Empoisonné} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition Empoisonné} in this way, it dies and instantly transforms into a living {@creature manes}. The transformation can be undone only by a {@spell Souhait} spell."
 					]
 				}
 			],
@@ -29944,7 +29944,7 @@
 				{
 					"name": "Ghostly Inhabitant",
 					"entries": [
-						"The {@creature eidolon|MPMM} that enters the statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the {@spell dispel evil and good} spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue."
+						"The {@creature eidolon|MPMM} that enters the statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the {@spell Dissipation du mal et du bien} spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue."
 					]
 				},
 				{
@@ -30220,21 +30220,21 @@
 						"The shadar-kai casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell arcane eye}",
-						"{@spell mage armor}",
-						"{@spell minor illusion}",
+						"{@spell Œil magique}",
+						"{@spell Armure du mage}",
+						"{@spell Illusion mineure}",
 						"{@spell prestidigitation}",
-						"{@spell speak with dead}"
+						"{@spell Parler aux morts}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell arcane gate}",
-							"{@spell bane}",
+							"{@spell Porte des arcanes}",
+							"{@spell Fléau}",
 							"{@spell confusion}",
-							"{@spell darkness}",
-							"{@spell fear}",
-							"{@spell major image}",
-							"{@spell true seeing}"
+							"{@spell Ténèbres}",
+							"{@spell Peur}",
+							"{@spell Image majeure}",
+							"{@spell Vision véritable}"
 						]
 					},
 					"ability": "cha",
@@ -30568,10 +30568,10 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell bestow curse}",
-							"{@spell finger of death}",
-							"{@spell gaseous form}",
-							"{@spell seeming}"
+							"{@spell Malédiction}",
+							"{@spell Doigt de mort}",
+							"{@spell Forme gazeuse}",
+							"{@spell Apparence}"
 						]
 					},
 					"ability": "int",
@@ -31151,13 +31151,13 @@
 						"The sibriex casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
 					],
 					"will": [
-						"{@spell command}",
-						"{@spell dispel magic}",
-						"{@spell hold monster}"
+						"{@spell Ordre}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Immobilisation de monstre}"
 					],
 					"daily": {
 						"1": [
-							"{@spell feeblemind}"
+							"{@spell Dégénrescence}"
 						]
 					},
 					"ability": "cha",
@@ -31206,7 +31206,7 @@
 				{
 					"name": "Warp Creature",
 					"entries": [
-						"The sibriex targets up to three creatures it can see within 120 feet of it. Each target must make a {@dc 20} Constitution saving throw. On a successful save, a creature becomes immune to this sibriex's Warp Creature. On a failed save, the target is {@condition Empoisonné}, which causes it to also gain 1 level of {@condition Épuisement}. While {@condition Empoisonné} in this way, the target must repeat the saving throw at the start of each of its turns. Three successful saves against the poison end it, and ending the poison removes any levels of {@condition Épuisement} caused by it. Each failed save causes the target to gain another level of {@condition Épuisement}. Once the target reaches 6 levels of {@condition Épuisement}, it dies and instantly transforms into a living {@creature manes} under the sibriex's control. The transformation of the body can be undone only by a {@spell wish} spell."
+						"The sibriex targets up to three creatures it can see within 120 feet of it. Each target must make a {@dc 20} Constitution saving throw. On a successful save, a creature becomes immune to this sibriex's Warp Creature. On a failed save, the target is {@condition Empoisonné}, which causes it to also gain 1 level of {@condition Épuisement}. While {@condition Empoisonné} in this way, the target must repeat the saving throw at the start of each of its turns. Three successful saves against the poison end it, and ending the poison removes any levels of {@condition Épuisement} caused by it. Each failed save causes the target to gain another level of {@condition Épuisement}. Once the target reaches 6 levels of {@condition Épuisement}, it dies and instantly transforms into a living {@creature manes} under the sibriex's control. The transformation of the body can be undone only by a {@spell Souhait} spell."
 					]
 				}
 			],
@@ -31623,17 +31623,17 @@
 						"The skull, lord casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell mage hand}",
+						"{@spell Main du mage}",
 						"{@spell message}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell dimension door}",
-							"{@spell fear}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Peur}"
 						],
 						"1e": [
-							"{@spell cloudkill}",
-							"{@spell cone of cold}"
+							"{@spell Nuée mortelle}",
+							"{@spell Cône de froid}"
 						]
 					},
 					"ability": "cha",
@@ -32262,11 +32262,11 @@
 						"The eladrin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell Tasha's hideous laughter}"
+						"{@spell Rire hideux de Tasha}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell major image}",
+							"{@spell Image majeure}",
 							"{@spell suggestion}"
 						]
 					},
@@ -32691,13 +32691,13 @@
 						"The mage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell mage hand}",
+						"{@spell Main du mage}",
 						"{@spell message}",
-						"{@spell minor illusion}"
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1": [
-							"{@spell dominate monster}"
+							"{@spell Soumission de monstre}"
 						]
 					},
 					"ability": "cha",
@@ -33201,8 +33201,8 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell dimension door} (self only)",
-							"{@spell plane shift} (self only)"
+							"{@spell Porte dimensionnelle} (self only)",
+							"{@spell Déplacement planaire} (self only)"
 						]
 					},
 					"ability": "wis",
@@ -33678,7 +33678,7 @@
 				{
 					"name": "Petrifying Touch",
 					"entries": [
-						"The giant touches one Medium or smaller creature within 10 feet of it that is {@condition Charmé} by it. The target must make a {@dc 17} Constitution saving throw. On a failed save, the target becomes {@condition Pétrifié}, and the giant can adhere the target to its stony body. {@spell greater restoration} spells and other magic that can undo petrification have no effect on a {@condition Pétrifié} creature adhered to the giant unless the giant is dead, in which case the magic works normally, freeing the {@condition Pétrifié} creature as well as ending the {@condition Pétrifié} condition on it."
+						"The giant touches one Medium or smaller creature within 10 feet of it that is {@condition Charmé} by it. The target must make a {@dc 17} Constitution saving throw. On a failed save, the target becomes {@condition Pétrifié}, and the giant can adhere the target to its stony body. {@spell Restauration supérieure} spells and other magic that can undo petrification have no effect on a {@condition Pétrifié} creature adhered to the giant unless the giant is dead, in which case the magic works normally, freeing the {@condition Pétrifié} creature as well as ending the {@condition Pétrifié} condition on it."
 					]
 				}
 			],
@@ -33854,7 +33854,7 @@
 				{
 					"name": "One with the Storm (Costs 3 Actions)",
 					"entries": [
-						"The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can't be targeted by attacks, spells, or other effects. The giant can't use this ability outside its lair, nor can it use this ability if another creature is using a {@spell control weather} spell or similar magic to quell the storm."
+						"The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can't be targeted by attacks, spells, or other effects. The giant can't use this ability outside its lair, nor can it use this ability if another creature is using a {@spell Contrôle du climat} spell or similar magic to quell the storm."
 					]
 				}
 			],
@@ -34137,14 +34137,14 @@
 						"As long as it has more than half of its hit points remaining, the swarm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell command}",
-						"{@spell comprehend languages}",
-						"{@spell detect thoughts}"
+						"{@spell Ordre}",
+						"{@spell Compréhension des langues}",
+						"{@spell Détection de pensées}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell confusion}",
-							"{@spell dominate monster}"
+							"{@spell Soumission de monstre}"
 						]
 					},
 					"ability": "int",
@@ -35087,16 +35087,16 @@
 						"Titivilus casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
 					],
 					"will": [
-						"{@spell alter self}",
-						"{@spell major image}",
-						"{@spell nondetection}",
-						"{@spell sending}",
+						"{@spell Changement d'apparence}",
+						"{@spell Image majeure}",
+						"{@spell Occultation}",
+						"{@spell Envoi de message}",
 						"{@spell suggestion}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell mislead}",
-							"{@spell modify memory}"
+							"{@spell Fourberie}",
+							"{@spell Modification de mémoire}"
 						]
 					},
 					"ability": "cha",
@@ -35531,15 +35531,15 @@
 						"The tortle casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell druidcraft}",
+						"{@spell Druidisme}",
 						"{@spell guidance}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell cure wounds}",
-							"{@spell hold person}",
-							"{@spell speak with animals}",
-							"{@spell thunderwave}"
+							"{@spell Soins}",
+							"{@spell Immobiliser un personnage}",
+							"{@spell Parler aux animaux}",
+							"{@spell Onde de tonnerre}"
 						]
 					},
 					"ability": "wis",
@@ -35642,7 +35642,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -35680,21 +35680,21 @@
 						"The transmuter casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell light}",
+						"{@spell Lumière}",
 						"{@spell message}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell fireball}",
-							"{@spell hold person}",
-							"{@spell knock}",
-							"{@spell mage armor}",
-							"{@spell polymorph}",
-							"{@spell slow}"
+							"{@spell Boule de feu}",
+							"{@spell Immobiliser un personnage}",
+							"{@spell Crochetage}",
+							"{@spell Armure du mage}",
+							"{@spell Polymorphie}",
+							"{@spell Lenteur}"
 						],
 						"1e": [
-							"{@spell telekinesis}"
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int",
@@ -35753,7 +35753,7 @@
 				{
 					"name": "Transmute {@recharge 4}",
 					"entries": [
-						"The transmuter casts {@spell alter self} or changes the benefit of Transmuter's Stone if bearing the stone."
+						"The transmuter casts {@spell Changement d'apparence} or changes the benefit of Transmuter's Stone if bearing the stone."
 					]
 				}
 			],
@@ -35965,18 +35965,18 @@
 						"The ulitharid casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell detect thoughts}",
-						"{@spell levitate}"
+						"{@spell Détection de pensées}",
+						"{@spell Lévitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell feeblemind}",
-							"{@spell mass suggestion}",
-							"{@spell plane shift} (self only)",
-							"{@spell project image}",
-							"{@spell scrying}",
-							"{@spell telekinesis}"
+							"{@spell Soumission de monstre}",
+							"{@spell Dégénrescence}",
+							"{@spell Suggestion de groupe}",
+							"{@spell Déplacement planaire} (self only)",
+							"{@spell Projection d'image}",
+							"{@spell Scrutation}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int",
@@ -35987,7 +35987,7 @@
 				{
 					"name": "Creature Sense",
 					"entries": [
-						"The ulitharid is aware of the presence of creatures within 2 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's intelligence score, but can't sense anything else about it. A creature protected by a {@spell mind blank} spell, a {@spell nondetection} spell, or similar magic can't be perceived in this manner."
+						"The ulitharid is aware of the presence of creatures within 2 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's intelligence score, but can't sense anything else about it. A creature protected by a {@spell Vide mental} spell, a {@spell Occultation} spell, or similar magic can't be perceived in this manner."
 					]
 				},
 				{
@@ -36315,7 +36315,7 @@
 				{
 					"name": "Abyssal Curse",
 					"entries": [
-						"The vargouille targets one {@condition Incapable} Humanoid within 5 feet of it. The target must succeed on a {@dc 12} Charisma saving throw or become cursed. The cursed target loses 1 point of Charisma after each hour, as its head takes on fiendish aspects. The curse doesn't advance while the target is in sunlight or the area of a {@spell daylight} spell; don't count that time. When the cursed target's Charisma becomes 2, it dies, and its head tears from its body and becomes a new vargouille. Casting {@spell remove curse}, {@spell greater restoration}, or a similar spell on the target before the transformation is complete can end the curse. Doing so undoes the changes made to the target by the curse."
+						"The vargouille targets one {@condition Incapable} Humanoid within 5 feet of it. The target must succeed on a {@dc 12} Charisma saving throw or become cursed. The cursed target loses 1 point of Charisma after each hour, as its head takes on fiendish aspects. The curse doesn't advance while the target is in sunlight or the area of a {@spell Lumière du jour} spell; don't count that time. When the cursed target's Charisma becomes 2, it dies, and its head tears from its body and becomes a new vargouille. Casting {@spell Délivrance de la malédiction}, {@spell Restauration supérieure}, or a similar spell on the target before the transformation is complete can end the curse. Doing so undoes the changes made to the target by the curse."
 					]
 				},
 				{
@@ -36920,20 +36920,20 @@
 						"The war priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell spare the dying}",
-						"{@spell thaumaturgy}"
+						"{@spell Lumière}",
+						"{@spell Aide aux mourants}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell banishment}",
-							"{@spell command}",
-							"{@spell dispel magic}",
-							"{@spell flame strike}",
-							"{@spell guardian of faith}",
-							"{@spell hold person}",
-							"{@spell lesser restoration}",
-							"{@spell revivify}"
+							"{@spell Bannissement}",
+							"{@spell Ordre}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Colère sacrée}",
+							"{@spell Gardien de la foi}",
+							"{@spell Immobiliser un personnage}",
+							"{@spell Restauration partielle}",
+							"{@spell Retour à la vie}"
 						]
 					},
 					"ability": "wis",
@@ -37043,7 +37043,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -37086,19 +37086,19 @@
 						"The warlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}): "
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell disguise self}",
-						"{@spell mage armor} (self only)",
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
+						"{@spell Lumières dansantes}",
+						"{@spell Déguisement}",
+						"{@spell Armure du mage} (self only)",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}",
 						"{@spell prestidigitation}",
-						"{@spell speak with animals}"
+						"{@spell Parler aux animaux}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell charm person}",
-							"{@spell dimension door}",
-							"{@spell hold monster}"
+							"{@spell Charmement}",
+							"{@spell Porte dimensionnelle}",
+							"{@spell Immobilisation de monstre}"
 						]
 					},
 					"ability": "cha",
@@ -37207,7 +37207,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -37250,16 +37250,16 @@
 						"The warlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 15}): "
 					],
 					"will": [
-						"{@spell alter self}",
-						"{@spell mage armor} (self only)",
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
+						"{@spell Changement d'apparence}",
+						"{@spell Armure du mage} (self only)",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell banishment}",
-							"{@spell plane shift}",
+							"{@spell Bannissement}",
+							"{@spell Déplacement planaire}",
 							"{@spell suggestion}"
 						]
 					},
@@ -37380,7 +37380,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -37425,19 +37425,19 @@
 						"The warlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 15}): "
 					],
 					"will": [
-						"{@spell detect magic}",
+						"{@spell Détection de la magie}",
 						"{@spell guidance}",
-						"{@spell levitate}",
-						"{@spell mage armor} (self only)",
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
+						"{@spell Lévitation}",
+						"{@spell Armure du mage} (self only)",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell arcane gate}",
-							"{@spell detect thoughts}",
-							"{@spell true seeing}"
+							"{@spell Porte des arcanes}",
+							"{@spell Détection de pensées}",
+							"{@spell Vision véritable}"
 						]
 					},
 					"ability": "cha",
@@ -38220,9 +38220,9 @@
 						"The eladrin casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell fog cloud}",
-						"{@spell gust of wind}",
-						"{@spell sleet storm}"
+						"{@spell Nuage de brouillard}",
+						"{@spell Rafale}",
+						"{@spell Vendaval de glace}"
 					],
 					"ability": "int",
 					"displayAs": "action"
@@ -38735,16 +38735,16 @@
 						"The xvart casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 11}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell mage armor} (self only)",
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
+						"{@spell Détection de la magie}",
+						"{@spell Armure du mage} (self only)",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell burning hands}",
-							"{@spell invisibility}"
+							"{@spell Mains brûlantes}",
+							"{@spell Invisibilité}"
 						]
 					},
 					"ability": "cha",
@@ -38933,15 +38933,15 @@
 						"The yagnoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell invisibility} (self only)",
+						"{@spell Ténèbres}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Invisibilité} (self only)",
 						"{@spell suggestion}"
 					],
 					"daily": {
 						"3": [
-							"{@spell lightning bolt}"
+							"{@spell Éclair}"
 						]
 					},
 					"ability": "cha",
@@ -39147,16 +39147,16 @@
 						"Yeenoghu casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell detect magic}"
+						"{@spell Détection de la magie}"
 					],
 					"daily": {
 						"1": [
-							"{@spell teleport}"
+							"{@spell Téléportation}"
 						],
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell fear}",
-							"{@spell invisibility}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Peur}",
+							"{@spell Invisibilité}"
 						]
 					},
 					"ability": "cha",
@@ -39633,14 +39633,14 @@
 						"The anathema casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell animal friendship} (snakes only)"
+						"{@spell Amitié animale} (snakes only)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell darkness}",
-							"{@spell entangle}",
-							"{@spell fear}",
-							"{@spell polymorph}",
+							"{@spell Ténèbres}",
+							"{@spell Enchevêtrement}",
+							"{@spell Peur}",
+							"{@spell Polymorphie}",
 							"{@spell suggestion}"
 						]
 					},
@@ -39967,9 +39967,9 @@
 						"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell animal friendship} (snakes only)",
+						"{@spell Amitié animale} (snakes only)",
 						"{@spell message}",
-						"{@spell minor illusion}",
+						"{@spell Illusion mineure}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
@@ -39977,8 +39977,8 @@
 							"{@spell suggestion}"
 						],
 						"2e": [
-							"{@spell detect thoughts}",
-							"{@spell hypnotic pattern}"
+							"{@spell Détection de pensées}",
+							"{@spell Motif hypnotique}"
 						]
 					},
 					"ability": "cha",
@@ -40166,8 +40166,8 @@
 						"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell animal friendship} (snakes only)",
-						"{@spell mage hand}",
+						"{@spell Amitié animale} (snakes only)",
+						"{@spell Main du mage}",
 						"{@spell message}",
 						"{@spell prestidigitation}"
 					],
@@ -40176,8 +40176,8 @@
 							"{@spell suggestion}"
 						],
 						"2e": [
-							"{@spell darkness}",
-							"{@spell fear}"
+							"{@spell Ténèbres}",
+							"{@spell Peur}"
 						]
 					},
 					"ability": "cha",
@@ -40376,9 +40376,9 @@
 						"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell animal friendship} (snakes only)",
+						"{@spell Amitié animale} (snakes only)",
 						"{@spell guidance}",
-						"{@spell mage hand}",
+						"{@spell Main du mage}",
 						"{@spell message}"
 					],
 					"daily": {
@@ -40386,8 +40386,8 @@
 							"{@spell suggestion}"
 						],
 						"2e": [
-							"{@spell hold person}",
-							"{@spell invisibility}"
+							"{@spell Immobiliser un personnage}",
+							"{@spell Invisibilité}"
 						]
 					},
 					"ability": "cha",
@@ -40803,18 +40803,18 @@
 						"Zariel casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 26}):"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing her appearance)",
-						"{@spell detect evil and good}",
-						"{@spell fireball}",
-						"{@spell invisibility} (self only)",
-						"{@spell major image}",
-						"{@spell wall of fire}"
+						"{@spell Changement d'apparence} (can become Medium when changing her appearance)",
+						"{@spell Détection du mal et du bien}",
+						"{@spell Boule de feu}",
+						"{@spell Invisibilité} (self only)",
+						"{@spell Image majeure}",
+						"{@spell Mur de feu}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell blade barrier}",
-							"{@spell dispel evil and good}",
-							"{@spell finger of death}"
+							"{@spell Mur de lames}",
+							"{@spell Dissipation du mal et du bien}",
+							"{@spell Doigt de mort}"
 						]
 					},
 					"ability": "cha",
@@ -41063,18 +41063,18 @@
 						"Zuggtmoy casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 22}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell locate animals or plants}"
+						"{@spell Détection de la magie}",
+						"{@spell Localisation d'animaux ou de plantes}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell entangle}",
-							"{@spell plant growth}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Enchevêtrement}",
+							"{@spell Croissance végétale}"
 						],
 						"1e": [
-							"{@spell etherealness}",
-							"{@spell teleport}"
+							"{@spell Éthéré}",
+							"{@spell Téléportation}"
 						]
 					},
 					"ability": "cha",

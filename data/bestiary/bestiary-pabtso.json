@@ -87,13 +87,13 @@
 						"The zealot casts one of the following spells, requiring no components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell detect thoughts}",
-						"{@spell minor illusion}"
+						"{@spell Détection de pensées}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell arcane gate}",
-							"{@spell hunger of Hadar}"
+							"{@spell Porte des arcanes}",
+							"{@spell Faim de Hadar}"
 						]
 					},
 					"ability": "cha",
@@ -1309,14 +1309,14 @@
 						"The goblin casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)",
-						"{@spell minor illusion}"
+						"{@spell Main du mage} (the hand is invisible)",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell charm person}",
-							"{@spell dissonant whispers}",
-							"{@spell telekinesis}"
+							"{@spell Charmement}",
+							"{@spell Murmures discordants}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int",
@@ -1452,7 +1452,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -1502,14 +1502,14 @@
 						"The grell psychic casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell detect thoughts}",
-						"{@spell mage armor}",
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Détection de pensées}",
+						"{@spell Armure du mage}",
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"1e": [
 							"{@spell confusion}",
-							"{@spell fear}"
+							"{@spell Peur}"
 						]
 					},
 					"ability": "cha",
@@ -1832,7 +1832,7 @@
 				12,
 				{
 					"ac": 16,
-					"condition": "with {@spell mage armor} and {@item Bâton de défense|PaBTSO}",
+					"condition": "with {@spell Armure du mage} and {@item Bâton de défense|PaBTSO}",
 					"braces": true
 				}
 			],
@@ -1873,14 +1873,14 @@
 						"Glasstaff casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand}"
+						"{@spell Lumière}",
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell charm person}",
-							"{@spell hold person}",
-							"{@spell magic missile}"
+							"{@spell Charmement}",
+							"{@spell Immobiliser un personnage}",
+							"{@spell Projectile magique}"
 						]
 					},
 					"ability": "int",
@@ -1891,7 +1891,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Glasstaff wields a {@item Bâton de défense|PaBTSO} (see appendix B). With the staff in hand, he can use an action to cast the {@spell mage armor} spell and use his reaction to cast the {@spell shield} spell."
+						"Glasstaff wields a {@item Bâton de défense|PaBTSO} (see appendix B). With the staff in hand, he can use an action to cast the {@spell Armure du mage} spell and use his reaction to cast the {@spell Bouclier} spell."
 					]
 				}
 			],
@@ -2008,8 +2008,8 @@
 						"The elder brain casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell detect thoughts}",
-						"{@spell levitate}"
+						"{@spell Détection de pensées}",
+						"{@spell Lévitation}"
 					],
 					"ability": "int",
 					"displayAs": "action"
@@ -2019,7 +2019,7 @@
 				{
 					"name": "Creature Sense",
 					"entries": [
-						"The elder brain is aware of creatures within 1 mile of itself that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a {@spell mind blank} spell, a {@spell nondetection} spell, or similar magic can't be perceived in this manner."
+						"The elder brain is aware of creatures within 1 mile of itself that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a {@spell Vide mental} spell, a {@spell Occultation} spell, or similar magic can't be perceived in this manner."
 					]
 				},
 				{
@@ -2359,10 +2359,10 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell dispel magic}",
-							"{@spell haste}",
-							"{@spell protection from evil and good}",
-							"{@spell sending}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Célérité}",
+							"{@spell Protection contre le mal et le bien}",
+							"{@spell Envoi de message}"
 						]
 					},
 					"ability": "int",
@@ -2546,17 +2546,17 @@
 						"The mind flayer casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}",
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"1": [
-							"{@spell plane shift} (self only)"
+							"{@spell Déplacement planaire} (self only)"
 						],
 						"3e": [
 							"{@spell clairvoyance} (as an action)",
-							"{@spell dispel magic}"
+							"{@spell Dissipation de la magie}"
 						]
 					},
 					"ability": "int",
@@ -2745,15 +2745,15 @@
 						"The mind flayer casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell levitate}"
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}",
+						"{@spell Lévitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell plane shift} (self only)",
-							"{@spell true seeing}"
+							"{@spell Soumission de monstre}",
+							"{@spell Déplacement planaire} (self only)",
+							"{@spell Vision véritable}"
 						]
 					},
 					"ability": "int",
@@ -2913,7 +2913,7 @@
 				11,
 				{
 					"ac": 14,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -2957,18 +2957,18 @@
 						"Nezznar casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13} unless otherwise noted):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}",
-						"{@spell spider climb} (from spider staff)",
-						"{@spell web} (from spider staff; save {@dc 15})"
+						"{@spell Lumières dansantes}",
+						"{@spell Main du mage}",
+						"{@spell Marche arachnéenne} (from spider staff)",
+						"{@spell Toile} (from spider staff; save {@dc 15})"
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell invisibility}",
-							"{@spell mage armor}",
-							"{@spell magic missile}",
+							"{@spell Ténèbres}",
+							"{@spell Lueur féérique}",
+							"{@spell Invisibilité}",
+							"{@spell Armure du mage}",
+							"{@spell Projectile magique}",
 							"{@spell suggestion}"
 						]
 					},
@@ -3359,21 +3359,21 @@
 						"Oshundo casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell disguise self}",
-						"{@spell mage hand}",
+						"{@spell Lumières dansantes}",
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}",
+						"{@spell Déguisement}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell globe of invulnerability}",
-							"{@spell invisibility}",
-							"{@spell modify memory}",
-							"{@spell plane shift} (self only)",
-							"{@spell wall of force}"
+							"{@spell Soumission de monstre}",
+							"{@spell Globe d'invulnérabilité}",
+							"{@spell Invisibilité}",
+							"{@spell Modification de mémoire}",
+							"{@spell Déplacement planaire} (self only)",
+							"{@spell Mur de force}"
 						]
 					},
 					"ability": "int",
@@ -3652,11 +3652,11 @@
 						"The ashenwight casts one of the following spells, requiring no spellcasting components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"1": [
-							"{@spell calm emotions}"
+							"{@spell Apaisement}"
 						]
 					},
 					"ability": "int",
@@ -3732,11 +3732,11 @@
 						"The shambling mound casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 8}):"
 					],
 					"will": [
-						"{@spell minor illusion}"
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1": [
-							"{@spell charm person} (already cast)"
+							"{@spell Charmement} (already cast)"
 						]
 					},
 					"ability": "int",
@@ -3776,7 +3776,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -3822,22 +3822,22 @@
 						"Qunbraxel casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell levitate}",
-						"{@spell mage armor} (self only)",
-						"{@spell mage hand} (the hand is invisible)",
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}",
+						"{@spell Lévitation}",
+						"{@spell Armure du mage} (self only)",
+						"{@spell Main du mage} (the hand is invisible)",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
 							"{@spell confusion}",
-							"{@spell sending}",
-							"{@spell telekinesis}"
+							"{@spell Envoi de message}",
+							"{@spell Télékinésie}"
 						],
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell plane shift} (self only)"
+							"{@spell Soumission de monstre}",
+							"{@spell Déplacement planaire} (self only)"
 						]
 					},
 					"ability": "cha",
@@ -4094,17 +4094,17 @@
 						"The refraction casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 19}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell detect thoughts}"
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell modify memory}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Modification de mémoire}"
 						],
 						"1e": [
-							"{@spell feeblemind}",
-							"{@spell plane shift} (self only)"
+							"{@spell Dégénrescence}",
+							"{@spell Déplacement planaire} (self only)"
 						]
 					},
 					"ability": "int",
@@ -4115,7 +4115,7 @@
 				{
 					"name": "Creature Sense",
 					"entries": [
-						"The refraction is aware of creatures within 100 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a {@spell mind blank} spell, a {@spell nondetection} spell, or similar magic can't be perceived in this manner."
+						"The refraction is aware of creatures within 100 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a {@spell Vide mental} spell, a {@spell Occultation} spell, or similar magic can't be perceived in this manner."
 					]
 				},
 				{

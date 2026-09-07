@@ -172,7 +172,7 @@
 											"type": "entries",
 											"name": "Does all magical Darkness block Darkvision?",
 											"entries": [
-												"Magical {@variantrule Darkness|XPHB} blocks {@sense Vision dans le noir|XPHB} only if the rules text for a particular instance of Darkness says it does. For example, the {@spell Darkness|XPHB} spell specifies that {@sense Vision dans le noir|XPHB} can't see through it. That obstruction is a feature of the spell, not a feature of magical {@variantrule Darkness|XPHB} in general."
+												"Magical {@variantrule Darkness|XPHB} blocks {@sense Vision dans le noir|XPHB} only if the rules text for a particular instance of Darkness says it does. For example, the {@spell Ténèbres|XPHB} spell specifies that {@sense Vision dans le noir|XPHB} can't see through it. That obstruction is a feature of the spell, not a feature of magical {@variantrule Darkness|XPHB} in general."
 											],
 											"id": "016"
 										},
@@ -204,7 +204,7 @@
 											"type": "entries",
 											"name": "What's an example of an effect that can reduce Exhaustion?",
 											"entries": [
-												"The {@spell Greater Restoration|XPHB} spell can reduce {@condition Épuisement|XPHB}."
+												"The {@spell Restauration supérieure|XPHB} spell can reduce {@condition Épuisement|XPHB}."
 											],
 											"id": "01a"
 										},
@@ -264,7 +264,7 @@
 											"type": "entries",
 											"name": "Can a Bonus Action be used as an action or vice versa? For example, can a Bard use a Bonus Action to grant a Bardic Inspiration die and an action to cast Healing Word?",
 											"entries": [
-												"No. {@variantrule action|XPHB|Actions} and {@variantrule Bonus Action|XPHB|Bonus Actions} aren't interchangeable. In the example, the {@class Bard|XPHB} could use {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} or {@spell Healing Word|XPHB} on a turn, not both."
+												"No. {@variantrule action|XPHB|Actions} and {@variantrule Bonus Action|XPHB|Bonus Actions} aren't interchangeable. In the example, the {@class Bard|XPHB} could use {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} or {@spell Mot de guérison|XPHB} on a turn, not both."
 											],
 											"id": "022"
 										},
@@ -603,7 +603,7 @@
 											"type": "entries",
 											"name": "If used on a damage roll, does a College of Lore Bard's Cutting Words apply to any kind of damage roll including an auto-hit spell like Magic Missile?",
 											"entries": [
-												"You can use {@subclassFeature Cutting Words|Bard|XPHB|Lore|XPHB|3} to reduce the damage from any effect that calls for a damage roll (including {@spell Magic Missile|XPHB}) even if the damage roll is not preceded by an attack roll."
+												"You can use {@subclassFeature Cutting Words|Bard|XPHB|Lore|XPHB|3} to reduce the damage from any effect that calls for a damage roll (including {@spell Projectile magique|XPHB}) even if the damage roll is not preceded by an attack roll."
 											],
 											"id": "04e"
 										},
@@ -613,7 +613,7 @@
 											"entries": [
 												"A {@class Bard|XPHB} can use any {@item Spell Scroll|XDMG} that has a Bard spell on it. This includes any spells the Bard has prepared through their {@classFeature Magical Secrets|Bard|XPHB|10|XPHB} feature.",
 												"However, this doesn't mean that a Bard can use a {@item Spell Scroll|XDMG} for any spell on the {@class Cleric|XPHB}, {@class Druid|XPHB}, and {@class Wizard|XPHB} spell lists (the other spell lists included in {@classFeature Magical Secrets|Bard|XPHB|10|XPHB}). For spells exclusive to the Cleric, Druid, and Wizard lists, a Bard must have that spell prepared via {@classFeature Magical Secrets|Bard|XPHB|10|XPHB} for it to count as a Bard spell.",
-												"For example, if a Bard has a {@item Spell Scroll|XDMG} of {@spell Spirit Guardians|XPHB} (a spell on the Cleric's spell list), that Bard can use that scroll only if they also have {@spell Spirit Guardians|XPHB} prepared via {@classFeature Magical Secrets|Bard|XPHB|10|XPHB}. Otherwise, the scroll is illegible to them."
+												"For example, if a Bard has a {@item Spell Scroll|XDMG} of {@spell Esprits gardiens|XPHB} (a spell on the Cleric's spell list), that Bard can use that scroll only if they also have {@spell Esprits gardiens|XPHB} prepared via {@classFeature Magical Secrets|Bard|XPHB|10|XPHB}. Otherwise, the scroll is illegible to them."
 											],
 											"id": "04f"
 										},
@@ -752,7 +752,7 @@
 											"type": "entries",
 											"name": "Does Uncanny Dodge work automatically against every attack a Rogue gets hit by? Spell attacks too?",
 											"entries": [
-												"A use of {@classFeature Uncanny Dodge|Rogue|XPHB|5|XPHB} works against only one attack, since it expends your {@variantrule Reaction|XPHB}, and only if you can see the attacker. It works against attacks of all sorts, including spell attacks, but it is no help against a spell or other effect, such as {@spell Fireball|XPHB}, that delivers its damage via a saving throw rather than an attack roll."
+												"A use of {@classFeature Uncanny Dodge|Rogue|XPHB|5|XPHB} works against only one attack, since it expends your {@variantrule Reaction|XPHB}, and only if you can see the attacker. It works against attacks of all sorts, including spell attacks, but it is no help against a spell or other effect, such as {@spell Boule de feu|XPHB}, that delivers its damage via a saving throw rather than an attack roll."
 											],
 											"id": "062"
 										},
@@ -797,7 +797,7 @@
 											"type": "entries",
 											"name": "In Draconic Sorcery, Elemental Affinity improves one damage roll of a spell, not multiple rolls. So with Scorching Ray, I don't add my Charisma modifier to each ray that hits?",
 											"entries": [
-												"That's correct. {@subclassFeature Elemental Affinity|Sorcerer|XPHB|Draconic|XPHB|6|XPHB} benefits one damage roll per casting of a spell, even if the spell allows more than one roll. So, for example, a {@class Sorcerer|XPHB} with {@subclassFeature Elemental Affinity|Sorcerer|XPHB|Draconic|XPHB|6|XPHB} adds their Charisma modifier to only one of the rays of a {@spell Scorching Ray|XPHB}."
+												"That's correct. {@subclassFeature Elemental Affinity|Sorcerer|XPHB|Draconic|XPHB|6|XPHB} benefits one damage roll per casting of a spell, even if the spell allows more than one roll. So, for example, a {@class Sorcerer|XPHB} with {@subclassFeature Elemental Affinity|Sorcerer|XPHB|Draconic|XPHB|6|XPHB} adds their Charisma modifier to only one of the rays of a {@spell Rayons brûlants|XPHB}."
 											],
 											"id": "068"
 										},
@@ -805,7 +805,7 @@
 											"type": "entries",
 											"name": "Can Empowered Spell affect all the rays of a Scorching Ray spell or just one?",
 											"entries": [
-												"A Sorcerer's {@optfeature Empowered Spell|XPHB} could affect more than one ray of a {@spell Scorching Ray|XPHB}, abiding by the feature's die limit. For instance, if you create three rays with the spell and you have a +3 Charisma modifier, you could reroll one of the damage dice for each ray, or two of the damage dice for one ray and one of the damage dice for another one."
+												"A Sorcerer's {@optfeature Empowered Spell|XPHB} could affect more than one ray of a {@spell Rayons brûlants|XPHB}, abiding by the feature's die limit. For instance, if you create three rays with the spell and you have a +3 Charisma modifier, you could reroll one of the damage dice for each ray, or two of the damage dice for one ray and one of the damage dice for another one."
 											],
 											"id": "069"
 										},
@@ -1302,7 +1302,7 @@
 											"type": "entries",
 											"name": "Can a spellcaster cast spells off-target to minimize damage to party members from a spell like Shatter?",
 											"entries": [
-												"The spellcaster chooses where to place the point of origin of a spell like {@spell Shatter|XPHB} and may, therefore, choose a position that is advantageous to allies."
+												"The spellcaster chooses where to place the point of origin of a spell like {@spell Déflagration|XPHB} and may, therefore, choose a position that is advantageous to allies."
 											],
 											"id": "0a7"
 										},
@@ -1310,7 +1310,7 @@
 											"type": "entries",
 											"name": "Can permanent magical effects be dispelled? Or are they no longer considered magical effects once permanent?",
 											"entries": [
-												"If the effect of a spell becomes permanent, it can be dispelled unless its description says otherwise (such as in the {@spell Wall of Stone|XPHB} spell)."
+												"If the effect of a spell becomes permanent, it can be dispelled unless its description says otherwise (such as in the {@spell Mur de pierre|XPHB} spell)."
 											],
 											"id": "0a8"
 										},
@@ -1373,7 +1373,7 @@
 											"name": "Can a spell with an attack roll be used as the attack in the Attack action or as part of the Extra Attack feature?",
 											"entries": [
 												"No. As explained in the {@book Player's Handbook|XPHB}, you can take one action on your turn in combat, in addition to moving. You choose your action from the options available to everyone\u2014options such as {@action Attaque|XPHB}, {@action Course|XPHB}, and {@action Magie|XPHB}\u2014or you choose from among the special actions you've gained from a class or another source.",
-												"To cast a spell on your turn, you take the {@action Magie|XPHB} action. Doing so means you're not taking the {@action Attaque|XPHB} action or any other action. It is true that a number of spells, such as {@spell Fire Bolt|XPHB} and {@spell Ray of Frost|XPHB}, involve making an attack roll, but you can't make such an attack without first casting the spell that delivers it. In other words, just because something involves an attack roll doesn't mean the {@action Attaque|XPHB} action is being used.",
+												"To cast a spell on your turn, you take the {@action Magie|XPHB} action. Doing so means you're not taking the {@action Attaque|XPHB} action or any other action. It is true that a number of spells, such as {@spell Trait de feu|XPHB} and {@spell Rayon de gel|XPHB}, involve making an attack roll, but you can't make such an attack without first casting the spell that delivers it. In other words, just because something involves an attack roll doesn't mean the {@action Attaque|XPHB} action is being used.",
 												"By extension, the {@classFeature Extra Attack|Fighter|XPHB|5|XPHB} feature (given by several classes, including the {@class Fighter|XPHB} and {@class Paladin|XPHB}) doesn't let you cast extra attack spells. That feature specifically relies on the {@action Attaque|XPHB} action, not the {@action Magie|XPHB} action or any other action.",
 												"In summary, to make a spell attack, you have to first cast a spell or use a feature that creates the spell's effect. A game feature, such as {@classFeature Extra Attack|Fighter|XPHB|5|XPHB}, that lets you make an attack doesn't let you cast a spell unless it says it does."
 											],
@@ -1383,7 +1383,7 @@
 											"type": "entries",
 											"name": "Can you use a melee spell attack to make an Opportunity Attack?",
 											"entries": [
-												"No, you can't cast a spell when a creature provokes an {@action Attaque d'opportunité|XPHB} from you. This is because each spell has a casting time. For example, the {@spell Chill Touch|XPHB} spell has a casting time of an action. A game mechanic, such as {@action Attaque d'opportunité|XPHB}, doesn't let you alter that casting time unless a feature says otherwise (see the {@feat Mage de guerre|XPHB} feat for an example of this)."
+												"No, you can't cast a spell when a creature provokes an {@action Attaque d'opportunité|XPHB} from you. This is because each spell has a casting time. For example, the {@spell Main glaciale|XPHB} spell has a casting time of an action. A game mechanic, such as {@action Attaque d'opportunité|XPHB}, doesn't let you alter that casting time unless a feature says otherwise (see the {@feat Mage de guerre|XPHB} feat for an example of this)."
 											],
 											"id": "0b1"
 										},
@@ -1435,7 +1435,7 @@
 											"name": "Is there a limit on the number of spells you can cast on your turn?",
 											"entries": [
 												"There's no rule that states you can cast only X number of spells on your turn, but there are some practical limitations. The main limiting factor is your action. Many spells require an action to cast, and unless a feature says otherwise, you only have one action on your turn. You also must abide by the rule of only expending one spell slot to cast a spell on your turn.",
-												"So, for example, if you take your {@variantrule Bonus Action|XPHB} to cast {@spell Healing Word|XPHB} using a spell slot, you can also take the {@action Magie|XPHB} action to cast {@spell Vicious Mockery|XPHB}\u2014a cantrip which doesn't require a spell slot."
+												"So, for example, if you take your {@variantrule Bonus Action|XPHB} to cast {@spell Mot de guérison|XPHB} using a spell slot, you can also take the {@action Magie|XPHB} action to cast {@spell Moquerie féroce|XPHB}\u2014a cantrip which doesn't require a spell slot."
 											],
 											"id": "0b8"
 										},
@@ -1443,7 +1443,7 @@
 											"type": "entries",
 											"name": "Can you cast a Reaction spell on your turn?",
 											"entries": [
-												"Yes, but you must abide by the rule of expending only one spell slot to cast a spell on your turn. For example, if you take a {@action Magie|XPHB} action to cast {@spell Fireball|XPHB} using a spell slot and an enemy casts {@spell Counterspell|XPHB}, you can't also then expend a spell slot to cast {@spell Counterspell|XPHB} targeting that enemy."
+												"Yes, but you must abide by the rule of expending only one spell slot to cast a spell on your turn. For example, if you take a {@action Magie|XPHB} action to cast {@spell Boule de feu|XPHB} using a spell slot and an enemy casts {@spell Contresort|XPHB}, you can't also then expend a spell slot to cast {@spell Contresort|XPHB} targeting that enemy."
 											],
 											"id": "0b9"
 										},
@@ -1472,7 +1472,7 @@
 											"type": "entries",
 											"name": "Does a spell consume its Material components?",
 											"entries": [
-												"A spell doesn't consume its {@book Material|XPHB|7|Material (M)} components unless its description says it does. For example, the pearl required by the {@spell Identify|XPHB} spell isn't consumed, whereas the diamond required by {@spell Raise Dead|XPHB} is consumed when you cast the spell."
+												"A spell doesn't consume its {@book Material|XPHB|7|Material (M)} components unless its description says it does. For example, the pearl required by the {@spell Identification|XPHB} spell isn't consumed, whereas the diamond required by {@spell Relèvement|XPHB} is consumed when you cast the spell."
 											],
 											"id": "0bd"
 										},
@@ -1489,7 +1489,7 @@
 											"name": "What's the amount of interaction needed to use a Spellcasting Focus? Does it have to be included in the Somatic component?",
 											"entries": [
 												"If a spell requires {@book Material|XPHB|7|Material (M)} components, the spellcaster must have a hand free to access or hold them, but it can be the same hand used to perform {@book Somatic|XPHB|7|Somatic (S)} components, if any. This latter rule holds true for using a {@variantrule Spellcasting Focus|XPHB}, which a spellcaster must hold unless its description says otherwise.",
-												"For example, a {@class Cleric|XPHB} uses an {@item Emblème|XPHB} on a {@item Bouclier|XPHB} as their {@item Holy Symbol|XPHB}. When in combat, this {@class Cleric|XPHB} likes to wield a {@item Masse d'armes|XPHB} in one hand and the emblazoned {@item Bouclier|XPHB} in the other. This {@class Cleric|XPHB} must have the {@item Bouclier|XPHB} in hand when casting a {@class Cleric|XPHB} spell that requires a {@book Material|XPHB|7|Material (M)} component. If the spell, such as {@spell Aid|XPHB}, also requires a {@book Somatic|XPHB|7|Somatic (S)} component, the {@class Cleric|XPHB} can perform the {@book Somatic|XPHB|7|Somatic (S)} component with the hand holding the {@item Bouclier|XPHB}, allowing the {@class Cleric|XPHB} to keep wielding the {@item Masse d'armes|XPHB}. However, if this same {@class Cleric|XPHB} were to later cast {@spell Cure Wounds|XPHB}\u2014which has {@book Somatic|XPHB|7|Somatic (S)} components but no {@book Material|XPHB|7|Material (M)} components\u2014they would need to unequip either their {@item Bouclier|XPHB} or {@item Masse d'armes|XPHB} to free a hand for the {@book Somatic|XPHB|7|Somatic (S)} components."
+												"For example, a {@class Cleric|XPHB} uses an {@item Emblème|XPHB} on a {@item Bouclier|XPHB} as their {@item Holy Symbol|XPHB}. When in combat, this {@class Cleric|XPHB} likes to wield a {@item Masse d'armes|XPHB} in one hand and the emblazoned {@item Bouclier|XPHB} in the other. This {@class Cleric|XPHB} must have the {@item Bouclier|XPHB} in hand when casting a {@class Cleric|XPHB} spell that requires a {@book Material|XPHB|7|Material (M)} component. If the spell, such as {@spell Aide|XPHB}, also requires a {@book Somatic|XPHB|7|Somatic (S)} component, the {@class Cleric|XPHB} can perform the {@book Somatic|XPHB|7|Somatic (S)} component with the hand holding the {@item Bouclier|XPHB}, allowing the {@class Cleric|XPHB} to keep wielding the {@item Masse d'armes|XPHB}. However, if this same {@class Cleric|XPHB} were to later cast {@spell Soins|XPHB}\u2014which has {@book Somatic|XPHB|7|Somatic (S)} components but no {@book Material|XPHB|7|Material (M)} components\u2014they would need to unequip either their {@item Bouclier|XPHB} or {@item Masse d'armes|XPHB} to free a hand for the {@book Somatic|XPHB|7|Somatic (S)} components."
 											],
 											"id": "0bf"
 										}
@@ -1548,7 +1548,7 @@
 											"type": "entries",
 											"name": "Does casting Animate Objects during a Time Stop spell end the Time Stop?",
 											"entries": [
-												"No. Commanding the newly created creatures with your {@variantrule Bonus Action|XPHB} does end {@spell Time Stop|XPHB}, however."
+												"No. Commanding the newly created creatures with your {@variantrule Bonus Action|XPHB} does end {@spell Arrêt du temps|XPHB}, however."
 											],
 											"id": "0c7"
 										},
@@ -1564,7 +1564,7 @@
 											"type": "entries",
 											"name": "How does Barkskin work with Shields, cover, and other modifiers to AC?",
 											"entries": [
-												"The target of {@spell Barkskin|XPHB} has an {@variantrule Armor Class|XPHB} of 17 if its AC is lower than that. This means the target effectively ignores any modifiers to its AC\u2014including any armor, a {@item Bouclier|XPHB}, or cover\u2014unless its AC is higher than 17. For example, if you're the target of a {@spell Barkskin|XPHB} spell and your AC is normally 14, your AC is 17 while under the effects of the spell; however, if your AC is normally 16 and you have {@variantrule Cover|XPHB|Half Cover}, your AC is 18, and {@spell Barkskin|XPHB|Barkskin's} effect isn't relevant."
+												"The target of {@spell Écorce|XPHB} has an {@variantrule Armor Class|XPHB} of 17 if its AC is lower than that. This means the target effectively ignores any modifiers to its AC\u2014including any armor, a {@item Bouclier|XPHB}, or cover\u2014unless its AC is higher than 17. For example, if you're the target of a {@spell Écorce|XPHB} spell and your AC is normally 14, your AC is 17 while under the effects of the spell; however, if your AC is normally 16 and you have {@variantrule Cover|XPHB|Half Cover}, your AC is 18, and {@spell Écorce|XPHB|Barkskin's} effect isn't relevant."
 											],
 											"id": "0c9"
 										},
@@ -1572,7 +1572,7 @@
 											"type": "entries",
 											"name": "Is the Chill Touch spell intended as a way of foiling Regeneration?",
 											"entries": [
-												"{@spell Chill Touch|XPHB} does, indeed, stop the target it hits from regaining {@variantrule Hit Points|XPHB} until the end of your next turn. This is true even if the target takes none of the Necrotic damage, whether because of {@variantrule Immunity|XPHB} or some other reason."
+												"{@spell Main glaciale|XPHB} does, indeed, stop the target it hits from regaining {@variantrule Hit Points|XPHB} until the end of your next turn. This is true even if the target takes none of the Necrotic damage, whether because of {@variantrule Immunity|XPHB} or some other reason."
 											],
 											"id": "0ca"
 										},
@@ -1580,7 +1580,7 @@
 											"type": "entries",
 											"name": "Using 5-foot squares, does Cloud of Daggers affect a single square?",
 											"entries": [
-												"{@spell Cloud of Daggers|XPHB} (5-foot {@variantrule Cube [Area of Effect]|XPHB|Cube}) can affect more than one square on a grid unless the DM says effects snap to the grid. There are many ways to position that {@variantrule Cube [Area of Effect]|XPHB|Cube}."
+												"{@spell Nuage de dagues|XPHB} (5-foot {@variantrule Cube [Area of Effect]|XPHB|Cube}) can affect more than one square on a grid unless the DM says effects snap to the grid. There are many ways to position that {@variantrule Cube [Area of Effect]|XPHB|Cube}."
 											],
 											"id": "0cb"
 										},
@@ -1588,7 +1588,7 @@
 											"type": "entries",
 											"name": "Can a creature under the effect of Compelled Duel teleport more than 30 feet away from the caster?",
 											"entries": [
-												"No. You can't move farther than 30 feet away from the caster of {@spell Compelled Duel|XPHB} by any means, including teleportation."
+												"No. You can't move farther than 30 feet away from the caster of {@spell Duel forcé|XPHB} by any means, including teleportation."
 											],
 											"id": "0cc"
 										},
@@ -1596,7 +1596,7 @@
 											"type": "entries",
 											"name": "If the damage from Disintegrate reduces an Orc to 0 Hit Points, can Relentless Endurance prevent the Orc from turning to ash?",
 											"entries": [
-												"Yes. The {@spell Disintegrate|XPHB} spell turns you into dust only if the spell's damage leaves you with 0 {@variantrule Hit Points|XPHB}. If you're an {@race Orc|XPHB}, Relentless Endurance can turn the 0 into a 1 before the spell can disintegrate you."
+												"Yes. The {@spell Désintégration|XPHB} spell turns you into dust only if the spell's damage leaves you with 0 {@variantrule Hit Points|XPHB}. If you're an {@race Orc|XPHB}, Relentless Endurance can turn the 0 into a 1 before the spell can disintegrate you."
 											],
 											"id": "0cd"
 										},
@@ -1604,7 +1604,7 @@
 											"type": "entries",
 											"name": "Can you use Dispel Magic to dispel a magical effect like a Druid's Wild Shape?",
 											"entries": [
-												"{@spell Dispel Magic|XPHB} has a particular purpose: to break other spells. It has no effect on a magical effect that isn't created by a spell unless the text says otherwise (though the DM can always make exceptions)."
+												"{@spell Dissipation de la magie|XPHB} has a particular purpose: to break other spells. It has no effect on a magical effect that isn't created by a spell unless the text says otherwise (though the DM can always make exceptions)."
 											],
 											"id": "0ce"
 										},
@@ -1612,9 +1612,9 @@
 											"type": "entries",
 											"name": "Can you use Dispel Magic on the creations of a spell like Animate Dead or affect those creations with Antimagic Field?",
 											"entries": [
-												"Whenever you wonder whether a spell's effects can be dispelled or suspended, you need to answer one question: is the spell's duration instantaneous? If the answer is yes, there is nothing to dispel or suspend. Here's why: the effects of an instantaneous spell are brought into being by magic, but the effects aren't sustained by magic. The magic flares for a split second and then vanishes. For example, the instantaneous spell {@spell Animate Dead|XPHB} harnesses magical energy to turn a corpse or a pile of bones into an Undead creature. That necromantic magic is present for an instant and is then gone. The resulting creature now exists without the magic's help. Casting {@spell Dispel Magic|XPHB} on the creature can't end its mockery of life, and the Undead can wander into an {@spell Antimagic Field|XPHB} with no adverse effect.",
-												"Another example: {@spell Cure Wounds|XPHB} instantaneously restores {@variantrule Hit Points|XPHB} to a creature. Because the spell's duration is instantaneous, the restoration can't be later dispelled. And you don't suddenly lose {@variantrule Hit Points|XPHB} if you step into an {@spell Antimagic Field|XPHB}!",
-												"In contrast, a spell like {@spell Conjure Woodland Beings|XPHB} has a non-instantaneous duration, which means its effect can be ended by {@spell Dispel Magic|XPHB} and temporarily disappears within an {@spell Antimagic Field|XPHB}."
+												"Whenever you wonder whether a spell's effects can be dispelled or suspended, you need to answer one question: is the spell's duration instantaneous? If the answer is yes, there is nothing to dispel or suspend. Here's why: the effects of an instantaneous spell are brought into being by magic, but the effects aren't sustained by magic. The magic flares for a split second and then vanishes. For example, the instantaneous spell {@spell Animation des morts|XPHB} harnesses magical energy to turn a corpse or a pile of bones into an Undead creature. That necromantic magic is present for an instant and is then gone. The resulting creature now exists without the magic's help. Casting {@spell Dissipation de la magie|XPHB} on the creature can't end its mockery of life, and the Undead can wander into an {@spell Antichamp magique|XPHB} with no adverse effect.",
+												"Another example: {@spell Soins|XPHB} instantaneously restores {@variantrule Hit Points|XPHB} to a creature. Because the spell's duration is instantaneous, the restoration can't be later dispelled. And you don't suddenly lose {@variantrule Hit Points|XPHB} if you step into an {@spell Antichamp magique|XPHB}!",
+												"In contrast, a spell like {@spell Invocation d'êtres sylvaines|XPHB} has a non-instantaneous duration, which means its effect can be ended by {@spell Dissipation de la magie|XPHB} and temporarily disappears within an {@spell Antichamp magique|XPHB}."
 											],
 											"id": "0cf"
 										},
@@ -1622,8 +1622,8 @@
 											"type": "entries",
 											"name": "Can you take a Ready action to ready Dispel Magic to stop another spell from taking effect?",
 											"entries": [
-												"The easiest way to stop a spell is to cast {@spell Counterspell|XPHB} on its caster while it's being cast. If successful, {@spell Counterspell|XPHB} interrupts the other spell's casting, and that spell fails to take effect. {@spell Counterspell|XPHB} works against any spell, regardless of a spell's casting time or duration.",
-												"With the {@action Se tenir prêt|XPHB} action, {@spell Dispel Magic|XPHB} can be cast in response to another spell being cast, yet {@spell Dispel Magic|XPHB} can't substitute for {@spell Counterspell|XPHB}. The main reason is that {@spell Dispel Magic|XPHB} removes a spell that is already on a target, whether that target is a creature, an object, or some other phenomenon. {@spell Dispel Magic|XPHB} can't dispel something in advance. If a spell isn't already present on a target, {@spell Dispel Magic|XPHB} does nothing to that target. The best that a readied {@spell Dispel Magic|XPHB} can do is dispel a spell immediately after the spell has been cast to prevent it from having any effect after the action used to cast it. For example, on your turn you could say something like this: \"I ready {@spell Dispel Magic|XPHB}, and if the high priest casts a spell on anyone, I cast {@spell Dispel Magic|XPHB} on the target if the spell takes hold.\" If the high priest then cast {@spell Hold Person|XPHB} on your companion who fails the save against it, you could unleash your readied {@spell Dispel Magic|XPHB} and end {@spell Hold Person|XPHB}."
+												"The easiest way to stop a spell is to cast {@spell Contresort|XPHB} on its caster while it's being cast. If successful, {@spell Contresort|XPHB} interrupts the other spell's casting, and that spell fails to take effect. {@spell Contresort|XPHB} works against any spell, regardless of a spell's casting time or duration.",
+												"With the {@action Se tenir prêt|XPHB} action, {@spell Dissipation de la magie|XPHB} can be cast in response to another spell being cast, yet {@spell Dissipation de la magie|XPHB} can't substitute for {@spell Contresort|XPHB}. The main reason is that {@spell Dissipation de la magie|XPHB} removes a spell that is already on a target, whether that target is a creature, an object, or some other phenomenon. {@spell Dissipation de la magie|XPHB} can't dispel something in advance. If a spell isn't already present on a target, {@spell Dissipation de la magie|XPHB} does nothing to that target. The best that a readied {@spell Dissipation de la magie|XPHB} can do is dispel a spell immediately after the spell has been cast to prevent it from having any effect after the action used to cast it. For example, on your turn you could say something like this: \"I ready {@spell Dissipation de la magie|XPHB}, and if the high priest casts a spell on anyone, I cast {@spell Dissipation de la magie|XPHB} on the target if the spell takes hold.\" If the high priest then cast {@spell Immobiliser un personnage|XPHB} on your companion who fails the save against it, you could unleash your readied {@spell Dissipation de la magie|XPHB} and end {@spell Immobiliser un personnage|XPHB}."
 											],
 											"id": "0d0"
 										},
@@ -1631,7 +1631,7 @@
 											"type": "entries",
 											"name": "Can Dispel Magic end Globe of Invulnerability?",
 											"entries": [
-												"Yes, {@spell Dispel Magic|XPHB} can dispel the barrier created by {@spell Globe of Invulnerability|XPHB}, but not any magical effects that are active inside the barrier."
+												"Yes, {@spell Dissipation de la magie|XPHB} can dispel the barrier created by {@spell Globe d'invulnérabilité|XPHB}, but not any magical effects that are active inside the barrier."
 											],
 											"id": "0d1"
 										},
@@ -1639,7 +1639,7 @@
 											"type": "entries",
 											"name": "If Dispel Magic targets the magical effect from Bless, does it remove the effect on all the targets?",
 											"entries": [
-												"{@spell Dispel Magic|XPHB} ends a spell on one target. It doesn't end the same spell on other targets."
+												"{@spell Dissipation de la magie|XPHB} ends a spell on one target. It doesn't end the same spell on other targets."
 											],
 											"id": "0d2"
 										},
@@ -1679,7 +1679,7 @@
 											"type": "entries",
 											"name": "If the Heroism spell is cast on a character that already has the Frightened condition, does it remove that condition?",
 											"entries": [
-												"The {@spell Heroism|XPHB} spell suppresses the {@condition Effrayé|XPHB} condition if it was already on the spell's target. When the spell ends, the target's immunity goes away and the {@condition Effrayé|XPHB} condition resumes if it has not expired or been removed."
+												"The {@spell Héroïsme|XPHB} spell suppresses the {@condition Effrayé|XPHB} condition if it was already on the spell's target. When the spell ends, the target's immunity goes away and the {@condition Effrayé|XPHB} condition resumes if it has not expired or been removed."
 											],
 											"id": "0d7"
 										},
@@ -1687,7 +1687,7 @@
 											"type": "entries",
 											"name": "Can you use a Shield with Mage Armor?",
 											"entries": [
-												"{@spell Mage Armor|XPHB} works with a {@item Bouclier|XPHB}. Shields are grouped with armor in the equipment rules in the {@book Player's Handbook|XPHB}, but various game features distinguish between the armor you don and a {@item Bouclier|XPHB} you wield. Take a look at the {@class Monk|XPHB|Monk's} {@classFeature Unarmored Defense|Monk|XPHB|1|XPHB} feature and compare it to the {@classFeature Unarmored Defense|Barbarian|XPHB|1|XPHB|Barbarian's version}. In the Monk's version, you must both forgo wearing armor and forgo wielding a {@item Bouclier|XPHB} if you want to benefit from the feature, whereas a {@class Barbarian|XPHB} must only forgo wearing armor."
+												"{@spell Armure du mage|XPHB} works with a {@item Bouclier|XPHB}. Shields are grouped with armor in the equipment rules in the {@book Player's Handbook|XPHB}, but various game features distinguish between the armor you don and a {@item Bouclier|XPHB} you wield. Take a look at the {@class Monk|XPHB|Monk's} {@classFeature Unarmored Defense|Monk|XPHB|1|XPHB} feature and compare it to the {@classFeature Unarmored Defense|Barbarian|XPHB|1|XPHB|Barbarian's version}. In the Monk's version, you must both forgo wearing armor and forgo wielding a {@item Bouclier|XPHB} if you want to benefit from the feature, whereas a {@class Barbarian|XPHB} must only forgo wearing armor."
 											],
 											"id": "0d8"
 										},
@@ -1695,7 +1695,7 @@
 											"type": "entries",
 											"name": "Does Unarmored Defense work with a spell like Mage Armor?",
 											"entries": [
-												"Unarmored Defense doesn't work with {@spell Mage Armor|XPHB}. You might be asking yourself, \"Why don't they work together? {@spell Mage Armor|XPHB} specifies that it works on a creature who isn't wearing armor.\" It's true that the target of {@spell Mage Armor|XPHB} must be unarmored, but {@spell Mage Armor|XPHB} gives you a new way to calculate your AC and is therefore incompatible with Unarmored Defense or any other feature that provides an AC calculation."
+												"Unarmored Defense doesn't work with {@spell Armure du mage|XPHB}. You might be asking yourself, \"Why don't they work together? {@spell Armure du mage|XPHB} specifies that it works on a creature who isn't wearing armor.\" It's true that the target of {@spell Armure du mage|XPHB} must be unarmored, but {@spell Armure du mage|XPHB} gives you a new way to calculate your AC and is therefore incompatible with Unarmored Defense or any other feature that provides an AC calculation."
 											],
 											"id": "0d9"
 										},
@@ -1711,7 +1711,7 @@
 											"type": "entries",
 											"name": "Can an object created with Minor Illusion move? For example, a wall sliding down a corridor?",
 											"entries": [
-												"An illusory object created by {@spell Minor Illusion|XPHB} doesn't move. Compare to spells like {@spell Major Image|XPHB} and {@spell Mislead|XPHB}, which talk about moving."
+												"An illusory object created by {@spell Illusion mineure|XPHB} doesn't move. Compare to spells like {@spell Image majeure|XPHB} and {@spell Fourberie|XPHB}, which talk about moving."
 											],
 											"id": "0db"
 										},
@@ -1719,7 +1719,7 @@
 											"type": "entries",
 											"name": "Could Minor Illusion create a fog cloud? If so, would shooting an arrow through it cancel the illusion?",
 											"entries": [
-												"An illusory object made by {@spell Minor Illusion|XPHB} is meant to be like a stool or a rock, not an atmospheric effect."
+												"An illusory object made by {@spell Illusion mineure|XPHB} is meant to be like a stool or a rock, not an atmospheric effect."
 											],
 											"id": "0dc"
 										},
@@ -1727,7 +1727,7 @@
 											"type": "entries",
 											"name": "Does Planar Binding summon the creature to be bound, or is that done separately?",
 											"entries": [
-												"{@spell Planar Binding|XPHB} doesn't summon a creature. It attempts to bind a creature that is within the spell's range."
+												"{@spell Lien planaire|XPHB} doesn't summon a creature. It attempts to bind a creature that is within the spell's range."
 											],
 											"id": "0dd"
 										},
@@ -1735,7 +1735,7 @@
 											"type": "entries",
 											"name": "Can you concentrate on a spell while transformed by Polymorph?",
 											"entries": [
-												"You can't cast spells while you're transformed by {@spell Polymorph|XPHB}, but nothing in the spell prevents you from {@status concentration|XPHB|concentrating} on a spell that you previously cast before being transformed."
+												"You can't cast spells while you're transformed by {@spell Polymorphie|XPHB}, but nothing in the spell prevents you from {@status concentration|XPHB|concentrating} on a spell that you previously cast before being transformed."
 											],
 											"id": "0de"
 										},
@@ -1759,7 +1759,7 @@
 											"type": "entries",
 											"name": "Can a creature under the effects of Polymorph have other spell effects on them, or are those game statistics also replaced by those of the beast form?",
 											"entries": [
-												"{@spell Polymorph|XPHB} replaces only the target's character sheet or stat block with the stat block of the chosen form. Other effects, such as other spells, still exist."
+												"{@spell Polymorphie|XPHB} replaces only the target's character sheet or stat block with the stat block of the chosen form. Other effects, such as other spells, still exist."
 											],
 											"id": "0e1"
 										},
@@ -1775,7 +1775,7 @@
 											"type": "entries",
 											"name": "If you grapple or shove an enemy, does that end a Sanctuary spell cast on you?",
 											"entries": [
-												"No. The {@spell Sanctuary|XPHB} spell ends only if the warded creature makes an attack roll, casts a spell, or deals damage. The Grapple and Shove options of an {@variantrule Unarmed Strike|XPHB} do none of these things."
+												"No. The {@spell Sanctuaire|XPHB} spell ends only if the warded creature makes an attack roll, casts a spell, or deals damage. The Grapple and Shove options of an {@variantrule Unarmed Strike|XPHB} do none of these things."
 											],
 											"id": "0e3"
 										},
@@ -1791,7 +1791,7 @@
 											"type": "entries",
 											"name": "Do the effects of Storm of Vengeance stack? Or do the effects change each turn?",
 											"entries": [
-												"In the spell {@spell Storm of Vengeance|XPHB}, each new effect replaces the effect of the previous round."
+												"In the spell {@spell Tempête de vengeance|XPHB}, each new effect replaces the effect of the previous round."
 											],
 											"id": "0e5"
 										},
@@ -1815,8 +1815,8 @@
 											"type": "entries",
 											"name": "Can you use True Strike with Extra Attack, Opportunity Attack, Sneak Attack, and other weapon attack options?",
 											"entries": [
-												"{@spell True Strike|XPHB} doesn't work with {@classFeature Extra Attack|Fighter|XPHB|5|XPHB} or any other feature that requires the {@action Attaque|XPHB} action. Like other spells with a casting time of an action, casting {@spell True Strike|XPHB} requires you to take the {@action Magie|XPHB} action, not the {@action Attaque|XPHB} action. Similarly, unless a special feature allows you to do so, you can't cast {@spell True Strike|XPHB} when making an {@action Attaque d'opportunité|XPHB}.",
-												"However, an attack made as part of {@spell True Strike|XPHB} works with {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} so long as it fills the normal requirements for that feature. For example, if you have the {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} feature and cast {@spell True Strike|XPHB} with a {@itemProperty F|XPHB|Finesse} weapon, you can deal {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} damage to the target of the attack if you have {@variantrule Advantage|XPHB} on the attack roll and hit."
+												"{@spell Frappe exacte|XPHB} doesn't work with {@classFeature Extra Attack|Fighter|XPHB|5|XPHB} or any other feature that requires the {@action Attaque|XPHB} action. Like other spells with a casting time of an action, casting {@spell Frappe exacte|XPHB} requires you to take the {@action Magie|XPHB} action, not the {@action Attaque|XPHB} action. Similarly, unless a special feature allows you to do so, you can't cast {@spell Frappe exacte|XPHB} when making an {@action Attaque d'opportunité|XPHB}.",
+												"However, an attack made as part of {@spell Frappe exacte|XPHB} works with {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} so long as it fills the normal requirements for that feature. For example, if you have the {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} feature and cast {@spell Frappe exacte|XPHB} with a {@itemProperty F|XPHB|Finesse} weapon, you can deal {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} damage to the target of the attack if you have {@variantrule Advantage|XPHB} on the attack roll and hit."
 											],
 											"id": "0e8"
 										},
@@ -1824,7 +1824,7 @@
 											"type": "entries",
 											"name": "Can I use Unseen Servant to act as an ally when using a class feature like Sneak Attack?",
 											"entries": [
-												"{@spell Unseen Servant|XPHB} creates an {@condition Invisible|XPHB}, mindless, shapeless force. In combat, it doesn't act as a creature, an enemy, or an ally."
+												"{@spell Servant invisible|XPHB} creates an {@condition Invisible|XPHB}, mindless, shapeless force. In combat, it doesn't act as a creature, an enemy, or an ally."
 											],
 											"id": "0e9"
 										},
@@ -1832,7 +1832,7 @@
 											"type": "entries",
 											"name": "Whenever you cast Wish, do you always have a 33 percent chance of never casting it again?",
 											"entries": [
-												"If you cast {@spell Wish|XPHB} to duplicate a spell of level 0\u20138, there are no detrimental effects. However, if you do anything other than duplicate a spell of level 0\u20138, you suffer the stress described in the final paragraph of the spell. As soon as that stress affects you, there is a {@chance 33} chance that you are unable to cast {@spell Wish|XPHB} again."
+												"If you cast {@spell Souhait|XPHB} to duplicate a spell of level 0\u20138, there are no detrimental effects. However, if you do anything other than duplicate a spell of level 0\u20138, you suffer the stress described in the final paragraph of the spell. As soon as that stress affects you, there is a {@chance 33} chance that you are unable to cast {@spell Souhait|XPHB} again."
 											],
 											"id": "0ea"
 										}
@@ -1900,7 +1900,7 @@
 											"type": "entries",
 											"name": "Is a Vampire affected by Hold Person or Calm Emotions?",
 											"entries": [
-												"Many spells affect not just any creatures, but only certain types, as specified in the spell. {@spell Hold Person|XPHB} and {@spell Calm Emotions|XPHB} work only on Humanoids, and a {@creature Vampire|XMM} is not a Humanoid."
+												"Many spells affect not just any creatures, but only certain types, as specified in the spell. {@spell Immobiliser un personnage|XPHB} and {@spell Apaisement|XPHB} work only on Humanoids, and a {@creature Vampire|XMM} is not a Humanoid."
 											],
 											"id": "0f3"
 										},

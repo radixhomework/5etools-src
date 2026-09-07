@@ -419,7 +419,7 @@
 										{
 											"type": "item",
 											"name": "Euryale",
-											"entry": "As an action, you can brandish this card at one creature you can see within 30 feet of yourself and attempt to turn it to stone. The target must succeed on a {@dc 17} Constitution saving throw, or it begins to turn to stone and has the {@condition Entravé} condition. The affected target must repeat the saving throw at the end of its next turn. On a successful save, the effect ends on the target. On a failed save, the target has the {@condition Pétrifié} condition (instead of the {@condition Entravé} condition) until it is removed by the {@spell Greater Restoration} spell or similar magic. Once this property is used, it can't be used again until the next dawn."
+											"entry": "As an action, you can brandish this card at one creature you can see within 30 feet of yourself and attempt to turn it to stone. The target must succeed on a {@dc 17} Constitution saving throw, or it begins to turn to stone and has the {@condition Entravé} condition. The affected target must repeat the saving throw at the end of its next turn. On a successful save, the effect ends on the target. On a failed save, the target has the {@condition Pétrifié} condition (instead of the {@condition Entravé} condition) until it is removed by the {@spell Restauration supérieure} spell or similar magic. Once this property is used, it can't be used again until the next dawn."
 										},
 										{
 											"type": "item",
@@ -444,12 +444,12 @@
 										{
 											"type": "item",
 											"name": "Jester",
-											"entry": "As an action, you can brandish this card and use it to cast the {@spell Otto's Irresistible Dance} spell (save {@dc 17}), and you have advantage on Constitution saving throws to maintain concentration on it. Once this property is used, it can't be used again until the next dawn."
+											"entry": "As an action, you can brandish this card and use it to cast the {@spell Danse irrésistible d'Otto} spell (save {@dc 17}), and you have advantage on Constitution saving throws to maintain concentration on it. Once this property is used, it can't be used again until the next dawn."
 										},
 										{
 											"type": "item",
 											"name": "Key",
-											"entry": "As an action, you can brandish this card and use it to cast the {@spell Knock} spell, with no sound made by the spell. This property can be used five times, and it regains all expended uses at dawn."
+											"entry": "As an action, you can brandish this card and use it to cast the {@spell Crochetage} spell, with no sound made by the spell. This property can be used five times, and it regains all expended uses at dawn."
 										},
 										{
 											"type": "item",
@@ -464,7 +464,7 @@
 										{
 											"type": "item",
 											"name": "Puzzle",
-											"entry": "As an action, you can hold this card aloft and magically disable each trap within 60 feet of you that isn't behind {@quickref cover||3||total cover}. A trap, for the purpose of this property, includes any object or mechanism that would inflict a sudden effect that was intended by its maker to cause harm or inconvenience. If the trap is the effect of a spell, such as {@spell Alarm}, that trap is suppressed for 10 minutes instead of being disabled. Once this property is used, it can't be used again until the next dawn."
+											"entry": "As an action, you can hold this card aloft and magically disable each trap within 60 feet of you that isn't behind {@quickref cover||3||total cover}. A trap, for the purpose of this property, includes any object or mechanism that would inflict a sudden effect that was intended by its maker to cause harm or inconvenience. If the trap is the effect of a spell, such as {@spell Alarme}, that trap is suppressed for 10 minutes instead of being disabled. Once this property is used, it can't be used again until the next dawn."
 										},
 										{
 											"type": "item",
@@ -474,12 +474,12 @@
 										{
 											"type": "item",
 											"name": "Ruin",
-											"entry": "As an action, you can brandish this card and use it to cast the {@spell Disintegrate} spell (save {@dc 17}). Once this property is used, it can't be used again until the next dawn."
+											"entry": "As an action, you can brandish this card and use it to cast the {@spell Désintégration} spell (save {@dc 17}). Once this property is used, it can't be used again until the next dawn."
 										},
 										{
 											"type": "item",
 											"name": "Sage",
-											"entry": "As an action, you can brandish this card and use it to cast the {@spell Contact Other Plane} spell. When you cast the spell in this way, your questions are answered by the mysterious figure depicted on the card. Once this property is used, it can't be used again until the next dawn."
+											"entry": "As an action, you can brandish this card and use it to cast the {@spell Contact avec les autres plans} spell. When you cast the spell in this way, your questions are answered by the mysterious figure depicted on the card. Once this property is used, it can't be used again until the next dawn."
 										},
 										{
 											"type": "item",
@@ -494,7 +494,7 @@
 										{
 											"type": "item",
 											"name": "Sun",
-											"entry": "As an action, you can brandish this card and use it to cast the {@spell Sunbeam} spell (save {@dc 17}), projecting the light from the card's face. Once this property is used, it can't be used again until the next dawn."
+											"entry": "As an action, you can brandish this card and use it to cast the {@spell Rayon solaire} spell (save {@dc 17}), projecting the light from the card's face. Once this property is used, it can't be used again until the next dawn."
 										},
 										{
 											"type": "item",
@@ -504,7 +504,7 @@
 										{
 											"type": "item",
 											"name": "Throne",
-											"entry": "As an action, you can speak a command word while holding this card to gain advantage on Charisma ({@skill Intimidation} or {@skill Persuasion}) checks for 1 minute. In addition, for that duration, you can use this card to cast the {@spell Command} spell (save {@dc 17}) as an action. Once this property is used, it can't be used again until the next dawn."
+											"entry": "As an action, you can speak a command word while holding this card to gain advantage on Charisma ({@skill Intimidation} or {@skill Persuasion}) checks for 1 minute. In addition, for that duration, you can use this card to cast the {@spell Ordre} spell (save {@dc 17}) as an action. Once this property is used, it can't be used again until the next dawn."
 										},
 										{
 											"type": "item",
@@ -2769,7 +2769,7 @@
 									"id": "06a",
 									"entries": [
 										"Wealth can transform people's lives; you just have to give the characters good reasons for spending their gold. Friends and loved ones, for example, can benefit from their largess, especially if these allies are experiencing hard times. If characters are attached to a settlement and its inhabitants, improving a neighborhood or the whole settlement can quickly expend their new wealth.",
-										"But an ally shouldn't simply approach characters and ask for money; instead, make the ally's financial needs part of a story. For example, if a dragon destroys the castle of a just ruler and devours the ruler's family, characters might be expected to hunt down the dragon, but wealthy ones can pay for the castle to be rebuilt and buy enough diamonds to cast {@spell Resurrection} for the ruler and their entire family."
+										"But an ally shouldn't simply approach characters and ask for money; instead, make the ally's financial needs part of a story. For example, if a dragon destroys the castle of a just ruler and devours the ruler's family, characters might be expected to hunt down the dragon, but wealthy ones can pay for the castle to be rebuilt and buy enough diamonds to cast {@spell Résurrection} for the ruler and their entire family."
 									]
 								}
 							]
@@ -4902,7 +4902,7 @@
 									"id": "145",
 									"entries": [
 										"One way to avoid overshadowing the characters is to create an ally who has skills and abilities that complement the party's. Healing, tracking, and proficiency with thieves' tools (to disarm traps and unlock doors) are common examples of such skills. A group without magical healing isn't going to complain when an NPC cleric joins their party, so long as the cleric focuses on healing!",
-										"Similarly, you can give an ally abilities that bolster or otherwise support the characters without dealing damage on their own, such as the {@spell Bless} spell or Bardic Inspiration. Perhaps the ally prefers to use the {@action Aider} action, and if a character's ability check or attack succeeds with the ally's help, the ally grants an additional benefit. These tactics keep the spotlight on the characters, with the ally providing valuable support."
+										"Similarly, you can give an ally abilities that bolster or otherwise support the characters without dealing damage on their own, such as the {@spell Bénédiction} spell or Bardic Inspiration. Perhaps the ally prefers to use the {@action Aider} action, and if a character's ability check or attack succeeds with the ally's help, the ally grants an additional benefit. These tactics keep the spotlight on the characters, with the ally providing valuable support."
 									]
 								},
 								{
@@ -5728,7 +5728,7 @@
 									"id": "152",
 									"entries": [
 										"Hilarion's residence is a gleaming white dome that suggests both a lofty temple and a majestic palace in its architecture and furnishings. Sun shines through a circular window in the top of the dome, and Hilarion can usually be found seated on a throne beneath that shaft of sunlight.",
-										"A permanent teleportation circle is inscribed in the floor before the throne, allowing anyone who knows the circle's sigil sequence and the {@spell Teleport} or {@spell Teleportation Circle} spell to teleport directly to the dome. The throne also allows anyone seated on it to cast the {@spell Sending} spell using the throne. Hilarion uses this feature to communicate with knights across the multiverse, but the angel allows knights or even some visitors to use this magic.",
+										"A permanent teleportation circle is inscribed in the floor before the throne, allowing anyone who knows the circle's sigil sequence and the {@spell Téléportation} or {@spell Cercle de téléportation} spell to teleport directly to the dome. The throne also allows anyone seated on it to cast the {@spell Envoi de message} spell using the throne. Hilarion uses this feature to communicate with knights across the multiverse, but the angel allows knights or even some visitors to use this magic.",
 										"The Dome of the Sun is said to have a hidden vault beneath it. One or more evil artifacts are rumored to be stashed in this vault to keep them from being used for malevolent ends. It's generally believed that Hilarion is the only being who knows how to access the vault, but knights of the Solar Bastion suspect traps, other angels, or perhaps heavenly Constructs protect the vault as well."
 									]
 								},
@@ -5859,7 +5859,7 @@
 											"page": 79,
 											"id": "15c",
 											"entries": [
-												"Knights of the Solar Bastion cast any spell available to them on your behalf without charge. See the {@creature Solar Bastion knight|BMT} stat block in this chapter for an example knight's spellcasting abilities. Some knights may have other spells they can cast, at the DM's discretion. The knight provides any costly material components needed for the spell, as long as you demonstrate your need and are in good standing with the Solar Bastion. In extreme circumstances, your group can appeal to Hilarion for more powerful magical assistance, including the {@spell Resurrection} spell."
+												"Knights of the Solar Bastion cast any spell available to them on your behalf without charge. See the {@creature Solar Bastion knight|BMT} stat block in this chapter for an example knight's spellcasting abilities. Some knights may have other spells they can cast, at the DM's discretion. The knight provides any costly material components needed for the spell, as long as you demonstrate your need and are in good standing with the Solar Bastion. In extreme circumstances, your group can appeal to Hilarion for more powerful magical assistance, including the {@spell Résurrection} spell."
 											]
 										},
 										{
@@ -5924,7 +5924,7 @@
 												],
 												[
 													"6",
-													"Hilarion. The solar speaks to you directly, via the {@spell Sending} spell or after summoning you to the Solar Bastion."
+													"Hilarion. The solar speaks to you directly, via the {@spell Envoi de message} spell or after summoning you to the Solar Bastion."
 												]
 											]
 										},
@@ -6114,7 +6114,7 @@
 										"{@creature Boss Augustus|BMT|Augustus} is a hulking human werewolf of few words. He shares leadership of the guild with Boss Delour and has a knack for planning heists. Guild members consider him a brutal but fair leader. Some perceptive guild members\u2014like Kathra Bitterwind\u2014have noticed he's become more reclusive recently, and when he does appear, he's restless.",
 										"Augustus is a natural-born lycanthrope, born to {@creature werewolf} parents. His parents were slain by monster hunters when he was young, and he traveled from town to town for most of his life, fleeing whenever townsfolk discovered his true nature.",
 										"Delour and Pyrite accepted Augustus in a way he'd never experienced before. When the three of them created the Moonstalkers guild, Augustus relished his new life of crime. But over time, his passion has faded. The riches they gathered mean nothing to him now. The violence grates on him, and he no longer empathizes with Delour's fantasies of revenge. Instead, Augustus secretly longs to end his curse and integrate into society.",
-										"Only a {@spell Wish} spell can end Augustus's curse. He has ordered Wanewort, a {@creature night hag}, to find anyone with access to that spell and plans to offer anything in his power in exchange for undoing his curse. And if bargaining doesn't work, there's always blackmail. (See the \"{@book Using the Moonstalkers in Your Campaign|BMT|10|Using the Moonstalkers in Your Campaign}\" section later in this chapter for more details.)"
+										"Only a {@spell Souhait} spell can end Augustus's curse. He has ordered Wanewort, a {@creature night hag}, to find anyone with access to that spell and plans to offer anything in his power in exchange for undoing his curse. And if bargaining doesn't work, there's always blackmail. (See the \"{@book Using the Moonstalkers in Your Campaign|BMT|10|Using the Moonstalkers in Your Campaign}\" section later in this chapter for more details.)"
 									]
 								},
 								{
@@ -6157,7 +6157,7 @@
 									"entries": [
 										"Wanewort the {@creature night hag} performs rituals that help the guild pull off its schemes. She uses divination magic to scope out locations for future heists and casts illusions that disguise Moonstalker members. Occasionally she provides a member with a {@i Hag Eye} necklace, allowing her to see what they see so she can provide real-time guidance during a mission. She reports to the bosses, but they give her ample rein to pursue her own endeavors and delegate tasks to guild members. Wanewort has special lair actions she can use while in the Moonstalkers' guildhall (see {@book area 11|BMT|10|11: Wanewort's Den}).",
 										"Wanewort has ten {@creature Imp||imps} as companions. They spend almost all their time in the form of house cats, not out of secrecy, but because Wanewort prefers them that way. Guild members never see her without one of these cats in her arms, twining around her legs, or following in her wake. She pampers these imp-cats like spoiled children.",
-										"Augustus has asked Wanewort to find someone who can cast the {@spell Wish} spell, but he hasn't told her why. She has developed a ritual that alerts her whenever someone draws the Moon card from a {@item Cartes merveilleuses}, anywhere in the world. She figures this is less dangerous than contacting spellcasters powerful enough to cast the {@spell Wish} spell."
+										"Augustus has asked Wanewort to find someone who can cast the {@spell Souhait} spell, but he hasn't told her why. She has developed a ritual that alerts her whenever someone draws the Moon card from a {@item Cartes merveilleuses}, anywhere in the world. She figures this is less dangerous than contacting spellcasters powerful enough to cast the {@spell Souhait} spell."
 									]
 								}
 							]
@@ -6206,12 +6206,12 @@
 										{
 											"type": "item",
 											"name": "Illumination",
-											"entry": "Magical moonstones in the ceilings shed {@quickref Vision and Light||2||bright light} in all rooms. The {@spell Dispel Magic} spell can turn off a moonstone's glow."
+											"entry": "Magical moonstones in the ceilings shed {@quickref Vision and Light||2||bright light} in all rooms. The {@spell Dissipation de la magie} spell can turn off a moonstone's glow."
 										},
 										{
 											"type": "item",
 											"name": "Protection from Scrying",
-											"entry": "Wanewort's hag rituals prevent locations or creatures in the guildhall from being targeted by the {@spell Scrying} spell."
+											"entry": "Wanewort's hag rituals prevent locations or creatures in the guildhall from being targeted by the {@spell Scrutation} spell."
 										}
 									]
 								},
@@ -7228,7 +7228,7 @@
 									"page": 87,
 									"id": "184",
 									"entries": [
-										"A large scrying pool takes up much of this room. Wanewort uses it for her {@spell Scrying} spells. Anyone who looks at the pool while Wanewort is scrying sees the same creature or location that she does. When not actively being used to scry, the pool's surface shows a reflection of the moon in its current phase."
+										"A large scrying pool takes up much of this room. Wanewort uses it for her {@spell Scrutation} spells. Anyone who looks at the pool while Wanewort is scrying sees the same creature or location that she does. When not actively being used to scry, the pool's surface shows a reflection of the moon in its current phase."
 									]
 								},
 								{
@@ -7276,8 +7276,8 @@
 							"page": 87,
 							"id": "189",
 							"entries": [
-								"If your characters have access to the {@spell Wish} spell\u2014for example, because they've drawn the Moon card from a {@item Cartes merveilleuses}\u2014Boss Augustus makes them an offer they can't refuse. The characters could also be drawn into this story if a noncombatant draws the Moon card and becomes a target for the Moonstalkers.",
-								"Wanewort's ritual tells her the name and location of anyone who draws the Moon card. She also has contacts looking for anyone who can cast the {@spell Wish} spell on their own. Once she has a target, she resorts to one of three tactics:",
+								"If your characters have access to the {@spell Souhait} spell\u2014for example, because they've drawn the Moon card from a {@item Cartes merveilleuses}\u2014Boss Augustus makes them an offer they can't refuse. The characters could also be drawn into this story if a noncombatant draws the Moon card and becomes a target for the Moonstalkers.",
+								"Wanewort's ritual tells her the name and location of anyone who draws the Moon card. She also has contacts looking for anyone who can cast the {@spell Souhait} spell on their own. Once she has a target, she resorts to one of three tactics:",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
@@ -7295,7 +7295,7 @@
 										{
 											"type": "item",
 											"name": "Kidnapping",
-											"entry": "Wanewort sends a team of Moonstalkers to kidnap the character or the party. She's more likely to attempt this with a low-level character or noncombatant who drew the Moon card than with high-level characters who can cast the {@spell Wish} spell on their own."
+											"entry": "Wanewort sends a team of Moonstalkers to kidnap the character or the party. She's more likely to attempt this with a low-level character or noncombatant who drew the Moon card than with high-level characters who can cast the {@spell Souhait} spell on their own."
 										}
 									]
 								},
@@ -8283,7 +8283,7 @@
 										],
 										[
 											"10",
-											"Magic goes awry, creating random zones of wild magic (where casting any spell of 1st level or higher causes a roll on the {@table Wild Magic Surge|PHB|Wild Magic Surge table} in the {@book Player's Handbook|PHB}) and dead magic (like an {@spell Antimagic Field} spell on a larger scale)."
+											"Magic goes awry, creating random zones of wild magic (where casting any spell of 1st level or higher causes a roll on the {@table Wild Magic Surge|PHB|Wild Magic Surge table} in the {@book Player's Handbook|PHB}) and dead magic (like an {@spell Antichamp magique} spell on a larger scale)."
 										],
 										[
 											"11",
@@ -8808,7 +8808,7 @@
 										],
 										[
 											"8",
-											"Euryale. Natural vegetation in the region grows poisonous thorns. A creature that enters or ends its turn in {@book difficult terrain|PHB|8|Difficult Terrain} caused by this vegetation must succeed on a {@dc 12} Constitution saving throw or take 7 ({@dice 2d6}) poison damage. If this damage reduces a creature to 0 hit points, the creature instead has 1 hit point and has the {@condition Pétrifié} condition until that condition is removed by the {@spell Greater Restoration} spell or similar magic."
+											"Euryale. Natural vegetation in the region grows poisonous thorns. A creature that enters or ends its turn in {@book difficult terrain|PHB|8|Difficult Terrain} caused by this vegetation must succeed on a {@dc 12} Constitution saving throw or take 7 ({@dice 2d6}) poison damage. If this damage reduces a creature to 0 hit points, the creature instead has 1 hit point and has the {@condition Pétrifié} condition until that condition is removed by the {@spell Restauration supérieure} spell or similar magic."
 										],
 										[
 											"9",
@@ -9428,7 +9428,7 @@
 									"page": 104,
 									"id": "1cc",
 									"entries": [
-										"Spellcasters who cast the {@spell Teleport} or {@spell Teleportation Circle} spell can use the sigil sequence inscribed on this permanent teleportation circle."
+										"Spellcasters who cast the {@spell Téléportation} or {@spell Cercle de téléportation} spell can use the sigil sequence inscribed on this permanent teleportation circle."
 									]
 								},
 								{
@@ -9480,7 +9480,7 @@
 												],
 												[
 													"3",
-													"Excess cosmic energy overloads the telescope, causing it to explode. Each creature within 60 feet of the telescope takes {@dice 8d6} necrotic damage. Any Humanoid who survives this damage is transformed into a different kind of creature, as if it had been subject to the {@spell Reincarnate} spell."
+													"Excess cosmic energy overloads the telescope, causing it to explode. Each creature within 60 feet of the telescope takes {@dice 8d6} necrotic damage. Any Humanoid who survives this damage is transformed into a different kind of creature, as if it had been subject to the {@spell Réincarnation} spell."
 												],
 												[
 													"4",
@@ -10403,11 +10403,11 @@
 										],
 										[
 											"5",
-											"The creature turns into a {@creature Faerie Dragon (Violet)||faerie dragon}, as if by a {@spell True Polymorph} spell that has a duration of 24 hours."
+											"The creature turns into a {@creature Faerie Dragon (Violet)||faerie dragon}, as if by a {@spell Vraie polymorphie} spell that has a duration of 24 hours."
 										],
 										[
 											"6",
-											"Regenerative bark covers the creature's skin, granting the effects of a {@spell Barkskin} spell for 24 hours."
+											"Regenerative bark covers the creature's skin, granting the effects of a {@spell Écorce} spell for 24 hours."
 										],
 										[
 											"7",
@@ -10415,7 +10415,7 @@
 										],
 										[
 											"8",
-											"The creature gains the benefits of a {@spell Speak with Animals} spell for 8 hours."
+											"The creature gains the benefits of a {@spell Parler aux animaux} spell for 8 hours."
 										],
 										[
 											"9",
@@ -10560,11 +10560,11 @@
 									"rows": [
 										[
 											"1st",
-											"{@spell Cure Wounds}, {@spell Faerie Fire}"
+											"{@spell Soins}, {@spell Lueur féérique}"
 										],
 										[
 											"2nd",
-											"{@spell Moonbeam}, {@spell Protection from Poison}"
+											"{@spell Rayon de lune}, {@spell Protection contre le poison}"
 										],
 										[
 											"3rd",
@@ -10583,7 +10583,7 @@
 									"id": "1e4",
 									"entries": [
 										"Lavender takes voices as payment. A character loses their voice for 10 minutes when they buy a 1st-level scroll, 1 hour when they buy a 2nd-level scroll, and 1 day when they buy a 3rd-level scroll; these durations are cumulative for characters who purchase multiple scrolls.",
-										"Whenever a voiceless character tries to speak or vocalize, they burp tiny bubbles instead. Lavender can mimic that character's voice perfectly for the duration of the effect, and she delights in doing so. A {@spell Remove Curse} spell or similar magic ends this effect."
+										"Whenever a voiceless character tries to speak or vocalize, they burp tiny bubbles instead. Lavender can mimic that character's voice perfectly for the duration of the effect, and she delights in doing so. A {@spell Délivrance de la malédiction} spell or similar magic ends this effect."
 									]
 								}
 							]
@@ -10760,7 +10760,7 @@
 												{
 													"type": "item",
 													"name": "Fool",
-													"entry": "An innocent-looking person or creature seems to need the characters' help but is a hungry monster in disguise. This might be a hag disguised as a child, a {@creature werewolf} in wolf form whimpering and feigning injury by the side of the road, or a group of {@creature Zombie||zombies} made to look like starving travelers by a nefarious necromancer's {@spell Seeming} spell. If you're using {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}, the monster might be an {@filter oblex|bestiary|source=MPMM|search=oblex}."
+													"entry": "An innocent-looking person or creature seems to need the characters' help but is a hungry monster in disguise. This might be a hag disguised as a child, a {@creature werewolf} in wolf form whimpering and feigning injury by the side of the road, or a group of {@creature Zombie||zombies} made to look like starving travelers by a nefarious necromancer's {@spell Apparence} spell. If you're using {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}, the monster might be an {@filter oblex|bestiary|source=MPMM|search=oblex}."
 												},
 												{
 													"type": "item",
@@ -10823,7 +10823,7 @@
 									]
 								},
 								"Granny Goosefinger, a {@creature green hag}, makes and sells dolls here. Some dolls are made of porcelain, others of cloth. All have round, beady eyes and perfectly painted smiles. Granny Goosefinger also has three {@item Loupe|PHB|magnifying glasses}, one {@item Longue-vue|PHB}, and ten {@item Miroir d'acier|PHB|mirrors} for sale.",
-								"If any characters gave their hair to a merchant at the market's fruit stands, the party might see their hair already glued atop the heads of some of the dolls, perhaps crafted in the characters' own likenesses; Granny Goosefinger works fast. Though she puts most of the hair the goblins give her toward decorating the dolls, she saves a bit for {@spell Scrying} spells or evil hag magic.",
+								"If any characters gave their hair to a merchant at the market's fruit stands, the party might see their hair already glued atop the heads of some of the dolls, perhaps crafted in the characters' own likenesses; Granny Goosefinger works fast. Though she puts most of the hair the goblins give her toward decorating the dolls, she saves a bit for {@spell Scrutation} spells or evil hag magic.",
 								"Granny Goosefinger refers to the characters in cloying terms like \"dearie\" or \"my sweets.\" There's a calm, collected wickedness behind her smile.",
 								{
 									"type": "entries",
@@ -10832,7 +10832,7 @@
 									"id": "1ed",
 									"entries": [
 										"A character who wishes to buy a doll or a glass object must trade Granny Goosefinger three days' worth of good dreams. She seals this bargain by having the character prick their finger with one of her sewing needles.",
-										"A character who pays this price is plagued with nightmares of haunted dolls for 3 days. Every time the character finishes a long rest during that period, they must make a {@dc 15} Wisdom saving throw. On a failed saving throw, the rest restores none of the character's Hit Dice. A {@spell Remove Curse} spell or similar magic ends this effect."
+										"A character who pays this price is plagued with nightmares of haunted dolls for 3 days. Every time the character finishes a long rest during that period, they must make a {@dc 15} Wisdom saving throw. On a failed saving throw, the rest restores none of the character's Hit Dice. A {@spell Délivrance de la malédiction} spell or similar magic ends this effect."
 									]
 								}
 							]
@@ -10926,7 +10926,7 @@
 												{
 													"type": "item",
 													"name": "Temporary Hit Points",
-													"entry": "When the characters agree to aid a group of ghosts, those ghosts grant each character {@dice 1d4 + 19} {@book temporary hit points|PHB|9|Temporary Hit Points}, in a manner similar to a 4th-level casting of the {@spell False Life} spell."
+													"entry": "When the characters agree to aid a group of ghosts, those ghosts grant each character {@dice 1d4 + 19} {@book temporary hit points|PHB|9|Temporary Hit Points}, in a manner similar to a 4th-level casting of the {@spell Fausse vie} spell."
 												},
 												{
 													"type": "item",
@@ -11015,7 +11015,7 @@
 							"page": 115,
 							"id": "1f7",
 							"entries": [
-								"Gremorly's ritual forces any Humanoid who dies within the keep to return as a ghost that's unable to pass beyond the keep's walls. The ritual can be broken by disassembling, moving, or destroying all three ritual rods, which the necromancer placed in the armory ({@book area 3|BMT|14|3: Armory}), the kitchen ({@book area 7|BMT|14|7: Kitchen and Pantry}), and the observatory ({@book area 15|BMT|14|15: Observatory}). Each rod is protected by a {@spell Glyph of Warding}. Once the ghost trap is broken, all the ghosts in the keep can leave except Gremorly, who remains to haunt the observatory.",
+								"Gremorly's ritual forces any Humanoid who dies within the keep to return as a ghost that's unable to pass beyond the keep's walls. The ritual can be broken by disassembling, moving, or destroying all three ritual rods, which the necromancer placed in the armory ({@book area 3|BMT|14|3: Armory}), the kitchen ({@book area 7|BMT|14|7: Kitchen and Pantry}), and the observatory ({@book area 15|BMT|14|15: Observatory}). Each rod is protected by a {@spell Glyphe de garde}. Once the ghost trap is broken, all the ghosts in the keep can leave except Gremorly, who remains to haunt the observatory.",
 								{
 									"type": "entries",
 									"name": "Side Effects",
@@ -12185,7 +12185,7 @@
 											"id": "205",
 											"entries": [
 												"Set into a metal tripod in the center of the room is a 3-foot-long metal rod decorated with runes and glowing with necromantic magic. The entire assembly weighs 8 pounds. This is one of three rods Gremorly set up to turn Harrowhall into a ghost trap. If the rod is removed from its tripod or destroyed, the necromantic energy fades and the rod becomes nonmagical. The rod and tripod assembly has AC 19, 5 hit points, and immunity to poison and psychic damage.",
-												"The rod is protected with a {@spell Glyph of Warding}; if anyone comes within 5 feet of the rod or anything touches it, explosive runes on the rod fill the room with acid. All creatures in the room must make a {@dc 15} Dexterity saving throw, taking {@dice 5d8} acid damage on a failed save, or half as much damage on a successful one. Once the glyph has gone off, or if it is dispelled, the ritual rod can be safely moved, destroyed, or disassembled. The glyph doesn't activate if the rod is moved without anyone touching it or approaching it, such as by using the {@spell Mage Hand} cantrip. Knocking the rod over by throwing an object at it triggers the explosive runes."
+												"The rod is protected with a {@spell Glyphe de garde}; if anyone comes within 5 feet of the rod or anything touches it, explosive runes on the rod fill the room with acid. All creatures in the room must make a {@dc 15} Dexterity saving throw, taking {@dice 5d8} acid damage on a failed save, or half as much damage on a successful one. Once the glyph has gone off, or if it is dispelled, the ritual rod can be safely moved, destroyed, or disassembled. The glyph doesn't activate if the rod is moved without anyone touching it or approaching it, such as by using the {@spell Main du mage} cantrip. Knocking the rod over by throwing an object at it triggers the explosive runes."
 											]
 										}
 									]
@@ -12260,7 +12260,7 @@
 											"page": 120,
 											"id": "20d",
 											"entries": [
-												"A second ritual rod, identical to the one in the armory ({@book area 3|BMT|14|3: Armory}), stands in the center of the kitchen. This rod is also protected by a {@spell Glyph of Warding}, but if triggered, the explosive runes deal cold damage instead of acid damage."
+												"A second ritual rod, identical to the one in the armory ({@book area 3|BMT|14|3: Armory}), stands in the center of the kitchen. This rod is also protected by a {@spell Glyphe de garde}, but if triggered, the explosive runes deal cold damage instead of acid damage."
 											]
 										},
 										{
@@ -12384,7 +12384,7 @@
 											"page": 121,
 											"id": "219",
 											"entries": [
-												"Once the characters deal with the phase spiders, they\u2014or the Spellseekers from {@book area 10|BMT|14|10: Eastern Bedrooms}\u2014can search for Exploring Arcanum, a book from Gremorly's collection that includes the ritual he used to make his ghost trap. Characters can find the tome with 10 minutes of careful searching. The book explains how the ritual rods must be placed and how to safely move them; any character who reads this ritual can move or dismantle the ritual rods without triggering their {@spell Glyph of Warding||Glyphs of Warding}."
+												"Once the characters deal with the phase spiders, they\u2014or the Spellseekers from {@book area 10|BMT|14|10: Eastern Bedrooms}\u2014can search for Exploring Arcanum, a book from Gremorly's collection that includes the ritual he used to make his ghost trap. Characters can find the tome with 10 minutes of careful searching. The book explains how the ritual rods must be placed and how to safely move them; any character who reads this ritual can move or dismantle the ritual rods without triggering their {@spell Glyphe de garde||Glyphs of Warding}."
 											]
 										}
 									]
@@ -12420,7 +12420,7 @@
 											"page": 121,
 											"id": "21d",
 											"entries": [
-												"A third ritual rod, identical to the one in the armory (see {@book area 3|BMT|14|3: Armory}), stands in the northwest corner of the room. This rod is also protected by a {@spell Glyph of Warding}, but if triggered, the explosive runes deal fire damage instead of acid damage.",
+												"A third ritual rod, identical to the one in the armory (see {@book area 3|BMT|14|3: Armory}), stands in the northwest corner of the room. This rod is also protected by a {@spell Glyphe de garde}, but if triggered, the explosive runes deal fire damage instead of acid damage.",
 												"{@creature Gremorly's ghost|BMT} (see the accompanying stat block) haunts the observatory. He appears as a translucent human figure wearing trousers, shoes, a long coat with wide sleeves, and a wizard's hat. He has a long beard and bushy eyebrows, and he carries a ghostly staff. Gremorly has forgotten the circumstances of his death and goes about his business as if he were still alive. He moves from one telescope to another, occasionally consulting the astronomical charts on the table or checking the ritual rod. He doesn't notice the characters unless they interact with him or the ritual rod. If the characters draw his attention, he snickers with glee. \"More fodder for my ghost army,\" he says, raising his staff. \"I hope you've made peace with your gods.\" Gremorly fights until he is destroyed."
 											]
 										},
@@ -13244,7 +13244,7 @@
 								"More than a century ago, adventurers investigating the abbey found a way inside the watchtower. They slew the Aberrations' beholder leader and dispelled the Far Realm magic that isolated the spire. Time once again began to affect the watchtower, though nothing remained alive within its walls.",
 								"Recently, a fell comet streaked through the sky above the abbey. As it did, lingering traces of the Far Realm energy woke again. The dead beholder was reanimated as a diabolical Undead known as a death tyrant. This creature, and other Far Realm Aberrations that fell from the comet, still hunt within the tower. But the knights' protective magic hasn't failed entirely; the creatures within the watchtower are trapped inside until someone or something frees them.",
 								"The watchtower is in better physical shape than the rest of the abbey. It was protected from time's ravages during the centuries it was trapped in a pocket dimension. The spire still has wooden floors and a ceiling. The circular stairs within are weakened and precarious but mostly intact. The chambers within the tower are home to four {@creature Red Slaad||red slaadi} (an equal number of {@creature Star Spawn Mangler|MPMM|star spawn manglers} from {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} might replace or supplement the slaadi). The top of the watchtower, however, is the domain of the {@creature death tyrant}.",
-								"None of the Aberrations within the watchtower can leave it, thanks to the ancient knights' protective spells, but characters might agree to remove these wards as part of a deal with the death tyrant. A character who is aware of the wards and able to perceive them (for example, via the {@spell Detect Magic} spell) can permanently remove them with the {@spell Dispel Magic} spell ({@dc 16}). Alternatively, anyone can attempt to remove the wards by performing a 1-hour ritual outside the watchtower and succeeding on a {@dc 21} Intelligence ({@skill Arcanes}) check. Removing these protective spells allows the Aberrations inside the tower to leave, something they're all eager to do. Physical damage to the watchtower\u2014volcanic activity, for example, spreading from Mekkalath's lair\u2014could also break the wards and release the creatures trapped within.",
+								"None of the Aberrations within the watchtower can leave it, thanks to the ancient knights' protective spells, but characters might agree to remove these wards as part of a deal with the death tyrant. A character who is aware of the wards and able to perceive them (for example, via the {@spell Détection de la magie} spell) can permanently remove them with the {@spell Dissipation de la magie} spell ({@dc 16}). Alternatively, anyone can attempt to remove the wards by performing a 1-hour ritual outside the watchtower and succeeding on a {@dc 21} Intelligence ({@skill Arcanes}) check. Removing these protective spells allows the Aberrations inside the tower to leave, something they're all eager to do. Physical damage to the watchtower\u2014volcanic activity, for example, spreading from Mekkalath's lair\u2014could also break the wards and release the creatures trapped within.",
 								"The death tyrant is desperate to escape the watchtower and promises anything to characters who reach the tower's summit. The tyrant keeps the strict letter of any promise it makes, but as it cares nothing for living creatures and respects only power, characters who try to direct it against Mekkalath might regret their decision. For example, the death tyrant might agree to attack the dragon, then start by slaying the peaceful minotaurs and turning them into its zombie minions. Mekkalath is aware of the death tyrant, and if it escapes, Mekkalath soon moves to destroy this potential rival and secure his dominance over the hill. Such a battle might last long enough for daring characters to infiltrate Dragon's Roost and abscond with treasures from Mekkalath's hoard.",
 								{
 									"type": "quote",
@@ -13399,7 +13399,7 @@
 												{
 													"type": "item",
 													"name": "Asteria's Aid",
-													"entry": "The famous paladin {@creature Asteria|BMT}, detailed in {@book chapter 22|BMT|21}, keeps track of each {@item Cartes merveilleuses} and those who've suffered from their many hazards. She approaches the party after a character draws the Donjon card and disappears. {@creature Asteria|BMT} knows the pain of losing a friend to unjust imprisonment and offers to help. She draws a replica of the teleportation circle inside the sphere. If the party can find someone able to cast the {@spell Teleport} spell, they can safely teleport into the sphere."
+													"entry": "The famous paladin {@creature Asteria|BMT}, detailed in {@book chapter 22|BMT|21}, keeps track of each {@item Cartes merveilleuses} and those who've suffered from their many hazards. She approaches the party after a character draws the Donjon card and disappears. {@creature Asteria|BMT} knows the pain of losing a friend to unjust imprisonment and offers to help. She draws a replica of the teleportation circle inside the sphere. If the party can find someone able to cast the {@spell Téléportation} spell, they can safely teleport into the sphere."
 												},
 												{
 													"type": "item",
@@ -13519,7 +13519,7 @@
 									"page": 134,
 									"id": "237",
 									"entries": [
-										"A character who inexplicably reappears after spending time in the Donjon Sphere gains a lingering curse called a Mark of the Donjon. Determine the character's mark by rolling on the Marks of the Donjon table. A Mark of the Donjon lasts until removed by a {@spell Remove Curse} spell or similar magic.",
+										"A character who inexplicably reappears after spending time in the Donjon Sphere gains a lingering curse called a Mark of the Donjon. Determine the character's mark by rolling on the Marks of the Donjon table. A Mark of the Donjon lasts until removed by a {@spell Délivrance de la malédiction} spell or similar magic.",
 										{
 											"type": "table",
 											"caption": "Marks of the Donjon",
@@ -13611,7 +13611,7 @@
 											"page": 134,
 											"id": "23c",
 											"entries": [
-												"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dispel Magic} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
+												"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dissipation de la magie} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
 											]
 										}
 									]
@@ -13686,7 +13686,7 @@
 										}
 									]
 								},
-								"Casting a {@spell Knock} spell on a red door's lock suppresses the lock for 10 minutes, casting a {@spell Knock} spell on a blue door's lock suppresses the lock for 1 minute, and casting a {@spell Knock} spell on a yellow door's lock suppresses the lock until the start of the caster's next turn."
+								"Casting a {@spell Crochetage} spell on a red door's lock suppresses the lock for 10 minutes, casting a {@spell Crochetage} spell on a blue door's lock suppresses the lock for 1 minute, and casting a {@spell Crochetage} spell on a yellow door's lock suppresses the lock until the start of the caster's next turn."
 							]
 						},
 						{
@@ -13713,7 +13713,7 @@
 							"page": 135,
 							"id": "241",
 							"entries": [
-								"No spell other than {@spell Wish} can be used to leave the Donjon Sphere or transport a character from one part of it to another. Effects that banish creatures to other planes of existence don't work inside the sphere. A creature that attempts to cast a spell or use a magic item or artifact to teleport from the sphere hears a dull fizzing in its head as the effect fails. The exception to this rule is magic that allows transit to the Border Ethereal, such as the {@spell Etherealness} spell. A creature that enters the Border Ethereal from the Donjon Sphere is returned to the sphere upon leaving that plane.",
+								"No spell other than {@spell Souhait} can be used to leave the Donjon Sphere or transport a character from one part of it to another. Effects that banish creatures to other planes of existence don't work inside the sphere. A creature that attempts to cast a spell or use a magic item or artifact to teleport from the sphere hears a dull fizzing in its head as the effect fails. The exception to this rule is magic that allows transit to the Border Ethereal, such as the {@spell Éthéré} spell. A creature that enters the Border Ethereal from the Donjon Sphere is returned to the sphere upon leaving that plane.",
 								"Magic that summons creatures or objects from other planes, or that allows contact with beings from other planes, functions normally inside the Donjon Sphere, as does magic that involves an extradimensional space. Any spells cast within such an extradimensional space are subject to the same restrictions as magic cast in the Donjon Sphere. While characters are in the sphere, those who receive spells from deities or otherworldly patrons continue to do so."
 							]
 						},
@@ -16065,7 +16065,7 @@
 							"id": "245",
 							"entries": [
 								"A young {@creature aboleth} named Th'kogga is contained in the 80-foot-deep pool of water here. Aware of the room's controls but unsure how they operate, Th'kogga attempts to charm any creature that comes within 30 feet of the pool, then urges that thrall to help it escape.",
-								"An invisible seal, like that created by the {@spell Wall of Force} spell, covers the pool. A detention drone or a creature with a blue or yellow key card can use an action to flip the lever on the south wall to disable or reenable the seal. Buttons around the lever control the pool's salinity, temperature, and automatic cleaning systems. If these controls are tampered with, Th'kogga's pool becomes unlivable; if forced to remain there, the aboleth dies in {@dice 2d4} days."
+								"An invisible seal, like that created by the {@spell Mur de force} spell, covers the pool. A detention drone or a creature with a blue or yellow key card can use an action to flip the lever on the south wall to disable or reenable the seal. Buttons around the lever control the pool's salinity, temperature, and automatic cleaning systems. If these controls are tampered with, Th'kogga's pool becomes unlivable; if forced to remain there, the aboleth dies in {@dice 2d4} days."
 							]
 						},
 						{
@@ -16232,7 +16232,7 @@
 												}
 											]
 										},
-										"The knights are initially indifferent to the characters. If made friendly, they are willing to work with the party to escape the sphere. Emerist and Hielyo can tell the party about the secret doors between {@book areas 19|BMT|16|19: Elevator Room} and {@book 22a|BMT|16|22a: Communal Room}, though the knights don't know how to operate the elevator in area 19. They also offer the party a {@item Parchemin de sort (niveau 1)||Spell Scroll} of {@spell Comprehend Languages} and a {@item Carillon d'ouverture} with 4 charges remaining. The {@item Carillon d'ouverture} can be used to open key card\u2013locked doors like the {@spell Knock} spell, as described in the \"{@book Doors and Key Cards|BMT|16|Doors and Key Cards}\" section; when used this way, one use of the chime is equivalent to one casting of the {@spell Knock} spell."
+										"The knights are initially indifferent to the characters. If made friendly, they are willing to work with the party to escape the sphere. Emerist and Hielyo can tell the party about the secret doors between {@book areas 19|BMT|16|19: Elevator Room} and {@book 22a|BMT|16|22a: Communal Room}, though the knights don't know how to operate the elevator in area 19. They also offer the party a {@item Parchemin de sort (niveau 1)||Spell Scroll} of {@spell Compréhension des langues} and a {@item Carillon d'ouverture} with 4 charges remaining. The {@item Carillon d'ouverture} can be used to open key card\u2013locked doors like the {@spell Crochetage} spell, as described in the \"{@book Doors and Key Cards|BMT|16|Doors and Key Cards}\" section; when used this way, one use of the chime is equivalent to one casting of the {@spell Crochetage} spell."
 									]
 								},
 								{
@@ -16468,7 +16468,7 @@
 									"page": 141,
 									"id": "26c",
 									"entries": [
-										"A glass orb wrapped in tattered oilcloth lies in one corner of this room. When uncovered, the orb shines light as if affected by the {@spell Continual Flame} spell."
+										"A glass orb wrapped in tattered oilcloth lies in one corner of this room. When uncovered, the orb shines light as if affected by the {@spell Flamme perpétuelle} spell."
 									]
 								},
 								{
@@ -16557,10 +16557,10 @@
 										{
 											"type": "list",
 											"items": [
-												"{@spell Create Food and Water}",
-												"{@spell Major Image}",
-												"{@spell Mirage Arcane}",
-												"{@spell Sleep} (cast as a 4th-level spell)"
+												"{@spell Création de nourriture et d'eau}",
+												"{@spell Image majeure}",
+												"{@spell Mirage arcanique}",
+												"{@spell Sommeil} (cast as a 4th-level spell)"
 											],
 											"columns": 3
 										}
@@ -16785,7 +16785,7 @@
 							"page": 145,
 							"id": "288",
 							"entries": [
-								"While the House of Cards exists, spells such as {@spell Plane Shift} can access it if the caster knows where they're trying to go. But the {@item Cartes merveilleuses} can also provide access to the dungeon. A creature touching the deck from which the Void card was drawn knows the House of Cards can be accessed in the following ways:",
+								"While the House of Cards exists, spells such as {@spell Déplacement planaire} can access it if the caster knows where they're trying to go. But the {@item Cartes merveilleuses} can also provide access to the dungeon. A creature touching the deck from which the Void card was drawn knows the House of Cards can be accessed in the following ways:",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
@@ -20102,7 +20102,7 @@
 												"A swirling starlight glow hovers above the floor here. The door in the east wall is the Balance card, and the door in the west wall is the Rogue card. The chamber is colder than other areas you've visited in the House of Cards."
 											]
 										},
-										"The starlight glow is a conduit to a living star (see the \"{@creature Living Portent|BMT|Variant: Servants of Living Stars}\" sidebar in {@book chapter 21|BMT|20} for examples). A creature that spends 10 minutes concentrating on the glow can contact the star and ask it questions as if using the {@spell Contact Other Plane} spell, including all the risks associated with that spell. A character who examines the starlight glow and succeeds on a {@dc 18} Intelligence ({@skill Arcanes}) check intuits its purpose and property.",
+										"The starlight glow is a conduit to a living star (see the \"{@creature Living Portent|BMT|Variant: Servants of Living Stars}\" sidebar in {@book chapter 21|BMT|20} for examples). A creature that spends 10 minutes concentrating on the glow can contact the star and ask it questions as if using the {@spell Contact avec les autres plans} spell, including all the risks associated with that spell. A character who examines the starlight glow and succeeds on a {@dc 18} Intelligence ({@skill Arcanes}) check intuits its purpose and property.",
 										{
 											"type": "entries",
 											"name": "Secret Door",
@@ -20145,7 +20145,7 @@
 											"page": 149,
 											"id": "2a7",
 											"entries": [
-												"The past fate hag appears as an adolescent girl. The first time a character tries talking to her, she asks what the character regrets most. If the character answers truthfully, the hag grants them the benefit of either a {@spell Greater Restoration} spell or a {@spell Heal} spell (the player's choice)."
+												"The past fate hag appears as an adolescent girl. The first time a character tries talking to her, she asks what the character regrets most. If the character answers truthfully, the hag grants them the benefit of either a {@spell Restauration supérieure} spell or a {@spell Guérison} spell (the player's choice)."
 											]
 										},
 										{
@@ -20248,7 +20248,7 @@
 														}
 													]
 												},
-												"Successfully casting the {@spell Dispel Magic} spell ({@dc 15}) nullifies all the corridor's traps for 1 minute."
+												"Successfully casting the {@spell Dissipation de la magie} spell ({@dc 15}) nullifies all the corridor's traps for 1 minute."
 											]
 										}
 									]
@@ -20273,7 +20273,7 @@
 											"page": 150,
 											"id": "2b6",
 											"entries": [
-												"The Sage door can't be opened or damaged by any means until all avatars of death in the room are destroyed. Spells such as {@spell Gaseous Form} or {@spell Dimension Door} can be used to bypass the door, but it won't open from the other side as long as an avatar is in this room."
+												"The Sage door can't be opened or damaged by any means until all avatars of death in the room are destroyed. Spells such as {@spell Forme gazeuse} or {@spell Porte dimensionnelle} can be used to bypass the door, but it won't open from the other side as long as an avatar is in this room."
 											]
 										}
 									]
@@ -20308,7 +20308,7 @@
 												"This massive chamber is dotted with thick, irregular columns of stacked cards, which make it difficult to see far into the room. Rogues leer from the room's card faces. The door to the east is the Star card, while the door to the south shows the back of a card. The door to the west displays the Puzzle card."
 											]
 										},
-										"Three of the columns in this room, colored in a lighter blue tone on the map, are illusions. Within them hide a number of creatures equal to the number of characters in the party, each identical in appearance to one character or to an ally accompanying the party. The creatures use the {@creature spy} stat block with the following changes: they are neutral evil Fey who speak all languages known to the characters in the room. These creatures can see through the illusory columns as if the columns were ghostly images; casting {@spell Dispel Magic} on an illusory pillar causes it to vanish.",
+										"Three of the columns in this room, colored in a lighter blue tone on the map, are illusions. Within them hide a number of creatures equal to the number of characters in the party, each identical in appearance to one character or to an ally accompanying the party. The creatures use the {@creature spy} stat block with the following changes: they are neutral evil Fey who speak all languages known to the characters in the room. These creatures can see through the illusory columns as if the columns were ghostly images; casting {@spell Dissipation de la magie} on an illusory pillar causes it to vanish.",
 										"The Fey try to kill the characters and fight to the death. They use hit-and-run tactics to launch attacks, ducking behind and hiding within illusory columns when possible to create the impression that they vanish.",
 										{
 											"type": "entries",
@@ -20334,7 +20334,7 @@
 												"Steps ascend to a dais that holds an elaborate throne made of cards."
 											]
 										},
-										"The first creature that sits on the throne gains the {@reward Charme du trône|BMT} supernatural gift. While the charm lasts, however, the creature has disadvantage on Charisma checks and expects its every command to be quickly obeyed. This charm can be bestowed only once, and it can be removed with the {@spell Remove Curse} spell.",
+										"The first creature that sits on the throne gains the {@reward Charme du trône|BMT} supernatural gift. While the charm lasts, however, the creature has disadvantage on Charisma checks and expects its every command to be quickly obeyed. This charm can be bestowed only once, and it can be removed with the {@spell Délivrance de la malédiction} spell.",
 										{
 											"type": "entries",
 											"name": "Secret Doors",
@@ -20366,7 +20366,7 @@
 											"page": 151,
 											"id": "2c1",
 											"entries": [
-												"The secret doors in this room can't be located without a {@spell True Seeing} spell or similar magic."
+												"The secret doors in this room can't be located without a {@spell Vision véritable} spell or similar magic."
 											]
 										},
 										{
@@ -20471,7 +20471,7 @@
 											"page": 152,
 											"id": "2cd",
 											"entries": [
-												"If the medusa is killed, any character who targeted the medusa with an attack or spell that deals damage is cursed; the cursed character has disadvantage on ability checks and saving throws made with their highest ability score (if the character has their highest ability score in more than one ability, the DM should choose one). The curse can't be broken while the House of Cards exists. Otherwise, a {@spell Remove Curse} or similar magic ends it."
+												"If the medusa is killed, any character who targeted the medusa with an attack or spell that deals damage is cursed; the cursed character has disadvantage on ability checks and saving throws made with their highest ability score (if the character has their highest ability score in more than one ability, the DM should choose one). The curse can't be broken while the House of Cards exists. Otherwise, a {@spell Délivrance de la malédiction} or similar magic ends it."
 											]
 										}
 									]
@@ -20557,7 +20557,7 @@
 							"entries": [
 								"The adventure in the House of Cards concludes when the mask is placed on the face of the soulless character or if the soulless character dies before their soul is returned.",
 								"When the mask is placed on the face of the soulless character, the House of Cards tumbles down, and the entire demiplane collapses. The adventurers return to where they were before they entered the House of Cards, or in the nearest unoccupied space.",
-								"If the soulless creature dies before the mask is placed on their face, the House of Cards collapses as described above, and the soulless character is slain forever. Not even a {@spell Wish} spell can return them to life.",
+								"If the soulless creature dies before the mask is placed on their face, the House of Cards collapses as described above, and the soulless character is slain forever. Not even a {@spell Souhait} spell can return them to life.",
 								{
 									"type": "inset",
 									"id": "2d6",
@@ -21192,7 +21192,7 @@
 												{
 													"type": "item",
 													"name": "Consuming Emptiness",
-													"entry": "Whenever a creature that isn't Undead finishes a long rest within the Mothwing Grove, that creature must succeed on a {@dc 15} Constitution saving throw or have its hit point maximum reduced by 5. This reduction lasts until ended by the {@spell Remove Curse} spell or similar magic. If this effect reduces the creature to 0 hit points, it dies."
+													"entry": "Whenever a creature that isn't Undead finishes a long rest within the Mothwing Grove, that creature must succeed on a {@dc 15} Constitution saving throw or have its hit point maximum reduced by 5. This reduction lasts until ended by the {@spell Délivrance de la malédiction} spell or similar magic. If this effect reduces the creature to 0 hit points, it dies."
 												}
 											]
 										},
@@ -22026,7 +22026,7 @@
 							"page": 170,
 							"id": "302",
 							"entries": [
-								"Here are several blessings {@creature Hulgaz|BMT} can bestow on willing Humanoids. Other Fiends, particularly archdevils, might bestow such blessings as well, and you can create additional blessings {@creature Hulgaz|BMT} might bestow. Unlike most blessings, infernal blessings impose both desirable and detrimental effects on the user. Casting the {@spell Remove Curse} spell on the subject of an infernal blessing ends the blessing's effects, including its consequences.",
+								"Here are several blessings {@creature Hulgaz|BMT} can bestow on willing Humanoids. Other Fiends, particularly archdevils, might bestow such blessings as well, and you can create additional blessings {@creature Hulgaz|BMT} might bestow. Unlike most blessings, infernal blessings impose both desirable and detrimental effects on the user. Casting the {@spell Délivrance de la malédiction} spell on the subject of an infernal blessing ends the blessing's effects, including its consequences.",
 								{
 									"type": "image",
 									"href": {
@@ -22170,7 +22170,7 @@
 											"page": 173,
 											"id": "317",
 											"entries": [
-												"{@creature Malaxxix|BMT} can cast the {@spell Scrying} spell on the cursed creature without material components or a spell slot. {@creature Malaxxix|BMT} doesn't need to be on the same plane of existence as the creature to use this ability, and the creature automatically fails the saving throw against the spell."
+												"{@creature Malaxxix|BMT} can cast the {@spell Scrutation} spell on the cursed creature without material components or a spell slot. {@creature Malaxxix|BMT} doesn't need to be on the same plane of existence as the creature to use this ability, and the creature automatically fails the saving throw against the spell."
 											]
 										},
 										{
@@ -22180,7 +22180,7 @@
 											"id": "318",
 											"entries": [
 												"As an action, {@creature Malaxxix|BMT} can teleport, along with any equipment it is wearing or carrying, to an unoccupied space within 60 feet of the cursed creature, regardless of the creature's location in the multiverse.",
-												"The curse of {@creature Malaxxix|BMT} lasts until ended with a {@spell Remove Curse} spell, a {@spell Greater Restoration} spell, or similar magic."
+												"The curse of {@creature Malaxxix|BMT} lasts until ended with a {@spell Délivrance de la malédiction} spell, a {@spell Restauration supérieure} spell, or similar magic."
 											]
 										}
 									]
@@ -22606,7 +22606,7 @@
 												{
 													"type": "item",
 													"name": "Powerful Flowers",
-													"entry": "{@creature Euryale|BMT}'s garden contains many magical flowers, including some that allow an individual to cast the {@spell Wish} spell. Characters might seek out {@creature Euryale|BMT}'s flower garden if they need powerful magic dispelled, such as the effects of the more ruinous cards from a {@item Cartes merveilleuses}."
+													"entry": "{@creature Euryale|BMT}'s garden contains many magical flowers, including some that allow an individual to cast the {@spell Souhait} spell. Characters might seek out {@creature Euryale|BMT}'s flower garden if they need powerful magic dispelled, such as the effects of the more ruinous cards from a {@item Cartes merveilleuses}."
 												},
 												{
 													"type": "item",
@@ -23449,7 +23449,7 @@
 												],
 												[
 													"20",
-													"Wishing Lion. This flower appears as a dandelion with a tiny lion head embedded in the fluff. As an action, you can blow on the fluff and cast the {@spell Wish} spell. The flower is then destroyed. This flower retains its magic until the spell is cast."
+													"Wishing Lion. This flower appears as a dandelion with a tiny lion head embedded in the fluff. As an action, you can blow on the fluff and cast the {@spell Souhait} spell. The flower is then destroyed. This flower retains its magic until the spell is cast."
 												]
 											]
 										},

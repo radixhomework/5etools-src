@@ -375,7 +375,7 @@
 									"entries": [
 										"Spelljammer Academy has a five-tier security system. Each tier is represented by a different color, as shown below on the Security Levels table. Security levels increase from green to gold, and each higher level has access to all areas accessible to lower security levels.",
 										"Academy personnel wear uniforms in the color of their security access level. The characters are inducted as cadets (level 2) and must visit administration to collect their uniforms. To access higher security levels, academy cadets and personnel must request a security helmet: a rigid leather cap dyed in the appropriate color.",
-										"Security checkpoints are set up throughout the academy, each guarded by three {@creature Veteran||veterans}. Each guard carries a shortsword that has a green-glowing blade. Any creature reduced to 0 hit points by one of these blades is instantly turned to dust, as if affected by a {@spell disintegrate} spell. Such a sword loses its magical properties if removed from Spelljammer Academy.",
+										"Security checkpoints are set up throughout the academy, each guarded by three {@creature Veteran||veterans}. Each guard carries a shortsword that has a green-glowing blade. Any creature reduced to 0 hit points by one of these blades is instantly turned to dust, as if affected by a {@spell Désintégration} spell. Such a sword loses its magical properties if removed from Spelljammer Academy.",
 										"Security guards refuse access to anyone not wearing the appropriate attire.",
 										{
 											"type": "table",
@@ -1494,7 +1494,7 @@
 												{
 													"type": "item",
 													"name": "Illusory Wards",
-													"entry": "Characters can't sense that they are in an illusion, nor can the illusion be dispelled. The {@spell detect magic} and {@spell dispel magic} spells don't register or disrupt the magic of the illusion, nor of the creatures or objects it creates."
+													"entry": "Characters can't sense that they are in an illusion, nor can the illusion be dispelled. The {@spell Détection de la magie} and {@spell Dissipation de la magie} spells don't register or disrupt the magic of the illusion, nor of the creatures or objects it creates."
 												},
 												{
 													"type": "item",
@@ -1611,7 +1611,7 @@
 									"name": "Retrieving the Logbook",
 									"id": "06d",
 									"entries": [
-										"The next, more difficult task is obtaining the book. While the debris rests in the ship's gravity plane, it's not exactly solid ground, and disturbing it could make finding the log difficult. This is a great opportunity for the players' ingenuity and creativity to shine. Let them come up with their own way of solving the problem, whether it's using {@spell mage hand}, tying a rope around a character's waist and leaping out toward the logbook, or other similar efforts\u2014assigning a {@dc 13} check using an ability and skill that you deem appropriate. If successful, they are able to retrieve the logbook."
+										"The next, more difficult task is obtaining the book. While the debris rests in the ship's gravity plane, it's not exactly solid ground, and disturbing it could make finding the log difficult. This is a great opportunity for the players' ingenuity and creativity to shine. Let them come up with their own way of solving the problem, whether it's using {@spell Main du mage}, tying a rope around a character's waist and leaping out toward the logbook, or other similar efforts\u2014assigning a {@dc 13} check using an ability and skill that you deem appropriate. If successful, they are able to retrieve the logbook."
 									]
 								},
 								{
@@ -1857,7 +1857,7 @@
 									"name": "Finding Clues",
 									"id": "081",
 									"entries": [
-										"Characters can help the training officers examine the simulation chambers for signs of sabotage. A character who succeeds on a {@dc 12} Intelligence ({@skill Investigation}) or Wisdom ({@skill Perception}) check notices an odd-shaped metallic plate crudely jammed into the walls of one of the chambers. A search of the other chamber reveals an identical object, with each bearing a jagged sigil carved into it. A {@spell detect magic} spell reveals powerful magic emanating from both objects. (If the characters don't find either plate, Mister Blip discovers one of them.)",
+										"Characters can help the training officers examine the simulation chambers for signs of sabotage. A character who succeeds on a {@dc 12} Intelligence ({@skill Investigation}) or Wisdom ({@skill Perception}) check notices an odd-shaped metallic plate crudely jammed into the walls of one of the chambers. A search of the other chamber reveals an identical object, with each bearing a jagged sigil carved into it. A {@spell Détection de la magie} spell reveals powerful magic emanating from both objects. (If the characters don't find either plate, Mister Blip discovers one of them.)",
 										"Once Saerthe Abizin or Boatswain Tarto are informed, they examine the plate and deduce it to be the cause of the sabotage. In addition, examination of the sigil reveals something to the officers, which the characters can overhear:",
 										{
 											"type": "insetReadaloud",
@@ -2351,7 +2351,7 @@
 										"5 {@item Chope|PHB|flasks} of cooking oil",
 										"2 {@item Coffre|PHB|chests} containing fresh foodstuffs",
 										"{@item Coffre|PHB} containing 150 {@item Rations (1 jour)|PHB|days rations}",
-										"5 lanterns with {@spell continual flame} spells cast on them",
+										"5 lanterns with {@spell Flamme perpétuelle} spells cast on them",
 										"1/2 cord of precut firewood",
 										"10 {@item Potion de soins||potions of healing} (each one in a metal flask)",
 										"{@item Pierres d'envoi||Sending stone} (Boatswain Tarto has its mate)"
@@ -2429,7 +2429,7 @@
 														{
 															"type": "item",
 															"name": "Magic",
-															"entry": "A character who can hover is unaffected by the trap, so long as no hard surfaces are in the character's space. A character who is under the effect of a {@spell feather fall} spell can be knocked {@condition À terre} by the trap but takes no damage from it."
+															"entry": "A character who can hover is unaffected by the trap, so long as no hard surfaces are in the character's space. A character who is under the effect of a {@spell Chute ralentie} spell can be knocked {@condition À terre} by the trap but takes no damage from it."
 														},
 														{
 															"type": "item",
@@ -2439,7 +2439,7 @@
 														{
 															"type": "item",
 															"name": "NPCs on Spin Cycle",
-															"entry": "As soon as the ship starts to spin, Petty Officer Winston Ryeback activates magic tattoo on his arm that allows him to cast the {@spell feather fall} spell once. The tattoo then vanishes. If Miken, Krik'Lit, and Pffred are still with him, the spell affects them as well. If they're not with him, assume that when the spin cycle ends, they are all {@condition Inconscient} but stable at 0 hit points. They can each be fed a {@item Potion de soins} from the equipment brought on board."
+															"entry": "As soon as the ship starts to spin, Petty Officer Winston Ryeback activates magic tattoo on his arm that allows him to cast the {@spell Chute ralentie} spell once. The tattoo then vanishes. If Miken, Krik'Lit, and Pffred are still with him, the spell affects them as well. If they're not with him, assume that when the spin cycle ends, they are all {@condition Inconscient} but stable at 0 hit points. They can each be fed a {@item Potion de soins} from the equipment brought on board."
 														}
 													]
 												},
@@ -2577,7 +2577,7 @@
 									"name": "Treasure",
 									"id": "0af",
 									"entries": [
-										"Lying next to Wizpop is a small iron coffer, latched but not locked, that contains five {@item Perle||pearls} (100 gp each) and a case that contains a {@item spell scroll} of {@spell rope trick}."
+										"Lying next to Wizpop is a small iron coffer, latched but not locked, that contains five {@item Perle||pearls} (100 gp each) and a case that contains a {@item spell scroll} of {@spell Corde disillusion}."
 									]
 								}
 							]
@@ -2659,7 +2659,7 @@
 									"name": "Elemental Meddling",
 									"id": "0b5",
 									"entries": [
-										"The chamber containing the galley is the source of the fire, which Miken set using two {@item Spell Scroll||spell scrolls} ({@spell glyph of warding} cast at 4th level and {@spell conjure minor elementals}). The {@spell glyph of warding} was triggered when Petty Officer Ryeback activated his portable cooking surface. The fire spread with the help of four magma mephits. The giff Petty Officer managed to slay one of the mephits before succumbing to fire damage and smoke inhalation.",
+										"The chamber containing the galley is the source of the fire, which Miken set using two {@item Spell Scroll||spell scrolls} ({@spell Glyphe de garde} cast at 4th level and {@spell Invocation d'élémentaires mineurs}). The {@spell Glyphe de garde} was triggered when Petty Officer Ryeback activated his portable cooking surface. The fire spread with the help of four magma mephits. The giff Petty Officer managed to slay one of the mephits before succumbing to fire damage and smoke inhalation.",
 										"When the characters reach Petty Officer Ryeback's dead body, three {@creature Magma Mephit||magma mephits} attack them. Due to their elemental nature, the mephits aren't as hindered by the smoke. They can see clearly out to 20 feet, and creatures and objects beyond that range are only {@quickref Vision and Light|PHB|2||lightly obscured}."
 									]
 								},
@@ -2729,7 +2729,7 @@
 									"id": "0ba",
 									"entries": [
 										"Krik'Lit and Pffred have no clue how the fire started. They remember hearing an explosion in the galley, followed by Petty Officer Ryeback screaming in pain and barking orders at them. Krik'Lit and Pffred did as they were told and opened the barrels of water while Petty Officer Ryeback battled the mephits.",
-										"Miken denies knowing who or what started the fire, but he's the only NPC cadet who has any magical talent, making him the most likely suspect. A {@spell detect thoughts} spell or similar magic can reveal his guilt. A character can try to force a confession from Miken, doing so with a successful {@dc 13} Charisma ({@skill Intimidation}) check. If the truth comes out, Miken explains that he was recruited by a mercane to set a trap for Petty Officer Ryeback. The mercane gave Miken two {@item Spell Scroll||spell scrolls} to set the trap. Miken expected Petty Office Ryeback would be hurt, but not killed. Although he doesn't know the mercane's name, Miken reveals that he was promised enough money to set him and his equally young fiancé up for life. Miken surrenders to the characters at this point, throwing himself on their mercy."
+										"Miken denies knowing who or what started the fire, but he's the only NPC cadet who has any magical talent, making him the most likely suspect. A {@spell Détection de pensées} spell or similar magic can reveal his guilt. A character can try to force a confession from Miken, doing so with a successful {@dc 13} Charisma ({@skill Intimidation}) check. If the truth comes out, Miken explains that he was recruited by a mercane to set a trap for Petty Officer Ryeback. The mercane gave Miken two {@item Spell Scroll||spell scrolls} to set the trap. Miken expected Petty Office Ryeback would be hurt, but not killed. Although he doesn't know the mercane's name, Miken reveals that he was promised enough money to set him and his equally young fiancé up for life. Miken surrenders to the characters at this point, throwing himself on their mercy."
 									]
 								}
 							]
@@ -3472,7 +3472,7 @@
 											"name": "Strange Sigil",
 											"id": "0ec",
 											"entries": [
-												"Characters who search Qitru or observe her closely notice a strange sigil tattooed on the back of her right hand. A {@spell detect magic} spell reveals an aura of transmutation magic around the tattoo. The tattoo is Vocath's sigil, worn by those who are closest to the mercane."
+												"Characters who search Qitru or observe her closely notice a strange sigil tattooed on the back of her right hand. A {@spell Détection de la magie} spell reveals an aura of transmutation magic around the tattoo. The tattoo is Vocath's sigil, worn by those who are closest to the mercane."
 											]
 										}
 									]
@@ -3512,7 +3512,7 @@
 								"After returning to Spelljammer Academy on the island of Nimbral, Tarto tells you to get some rest while she and Saerthe brief the senior staff. Tarto orders you to stay away from Miken and report for maintenance work in the morning."
 							]
 						},
-						"The characters aren't allowed to attend the senior staff briefing or see Miken, who is confined to his quarters. Two {@creature Veteran||veterans} stand guard outside Miken's room, the door to which has an {@spell arcane lock} spell cast on it.",
+						"The characters aren't allowed to attend the senior staff briefing or see Miken, who is confined to his quarters. Two {@creature Veteran||veterans} stand guard outside Miken's room, the door to which has an {@spell Serrure magique} spell cast on it.",
 						{
 							"type": "entries",
 							"name": "Extraction Force",
@@ -3656,7 +3656,7 @@
 											"name": "Light",
 											"id": "0fd",
 											"entries": [
-												"This area is brightly lit by {@spell continual flame} spells cast on wall sconces."
+												"This area is brightly lit by {@spell Flamme perpétuelle} spells cast on wall sconces."
 											]
 										},
 										{
@@ -3724,7 +3724,7 @@
 									"name": "Creatures",
 									"id": "104",
 									"entries": [
-										"The two {@creature Githyanki Warrior||githyanki warriors} (each with 30 hit points remaining) have Miken (an {@creature apprentice wizard|MPMM} with 2 hit points remaining and at-will spells only) in custody. One of them grapples Miken while the other one uses {@spell misty step} to board the ship and attack.",
+										"The two {@creature Githyanki Warrior||githyanki warriors} (each with 30 hit points remaining) have Miken (an {@creature apprentice wizard|MPMM} with 2 hit points remaining and at-will spells only) in custody. One of them grapples Miken while the other one uses {@spell Pas brumeux} to board the ship and attack.",
 										"If one githyanki falls in battle, the other githyanki uses its next action to try to slay Miken and take his head. One hit is enough to drop Miken to 0 hit points, and a follow-up swing with a greatsword is enough to decapitate him. If the characters defeat the githyanki before Miken can be killed, Miken crumples to the ground and weeps like a baby. He neither helps nor harms the characters.",
 										"If the githyanki defeat or drive off the characters, one of them begins the process of attuning to the {@i spelljamming helm}. The githyanki doesn't finish the process\u2014Mirt shows up with some aides to defeat the githyanki before too long. If one or more characters are dying, Mirt shows up in time for those characters to be saved by his aides.",
 										{
@@ -3751,7 +3751,7 @@
 									"name": "Strange Sigils",
 									"id": "106",
 									"entries": [
-										"Characters who defeat the githyanki and examine them closely notice a strange sigil tattooed on the back of each githyanki's right hand. A {@spell detect magic} spell reveals an aura of transmutation magic around the tattoo. The tattoo is Vocath's sigil, worn by those who are closest to the mercane. If the tattoos are brought to the attention of Saerthe or Tarto, they mention it to Mirt a few hours later. Mirt knows exactly what the symbol means, and eventually the characters are told as well. It is the mark of Vocath's personal retinue; only the mercane's most trusted operatives earn it."
+										"Characters who defeat the githyanki and examine them closely notice a strange sigil tattooed on the back of each githyanki's right hand. A {@spell Détection de la magie} spell reveals an aura of transmutation magic around the tattoo. The tattoo is Vocath's sigil, worn by those who are closest to the mercane. If the tattoos are brought to the attention of Saerthe or Tarto, they mention it to Mirt a few hours later. Mirt knows exactly what the symbol means, and eventually the characters are told as well. It is the mark of Vocath's personal retinue; only the mercane's most trusted operatives earn it."
 									]
 								},
 								{

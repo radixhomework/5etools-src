@@ -118,9 +118,9 @@
 					],
 					"daily": {
 						"2e": [
-							"{@spell Cure Wounds} (as a 3rd-level spell; medic only)",
-							"{@spell Identify}",
-							"{@spell Tongues} (diplomat only)"
+							"{@spell Soins} (as a 3rd-level spell; medic only)",
+							"{@spell Identification}",
+							"{@spell Don des langues} (diplomat only)"
 						]
 					},
 					"ability": "int",
@@ -240,8 +240,8 @@
 							],
 							"daily": {
 								"2e": [
-									"{@spell Identify}",
-									"{@spell Tongues}"
+									"{@spell Identification}",
+									"{@spell Don des langues}"
 								]
 							},
 							"ability": "int",
@@ -319,8 +319,8 @@
 							],
 							"daily": {
 								"2e": [
-									"{@spell Cure Wounds} (as a 3rd-level spell)",
-									"{@spell Identify}"
+									"{@spell Soins} (as a 3rd-level spell)",
+									"{@spell Identification}"
 								]
 							},
 							"ability": "int",
@@ -433,7 +433,7 @@
 				{
 					"name": "Lignify",
 					"entries": [
-						"The barkburr targets the creature it is attached to, and the target must make a {@dc 13} Constitution saving throw. On a failed save, the target has the {@condition Pétrifié} condition until freed by the {@spell Greater Restoration} spell or another effect, except it turns into a tree instead of stone. Any equipment the target is wearing or carrying is absorbed into the tree's bark."
+						"The barkburr targets the creature it is attached to, and the target must make a {@dc 13} Constitution saving throw. On a failed save, the target has the {@condition Pétrifié} condition until freed by the {@spell Restauration supérieure} spell or another effect, except it turns into a tree instead of stone. Any equipment the target is wearing or carrying is absorbed into the tree's bark."
 					]
 				}
 			],
@@ -687,7 +687,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -726,20 +726,20 @@
 						"The champion casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Light}",
-						"{@spell Mage Armor} (self only)",
-						"{@spell Mage Hand}",
-						"{@spell Minor Illusion}"
+						"{@spell Lumière}",
+						"{@spell Armure du mage} (self only)",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Charm Person}",
-							"{@spell Disguise Self}",
-							"{@spell Silent Image}"
+							"{@spell Charmement}",
+							"{@spell Déguisement}",
+							"{@spell Image silencieuse}"
 						],
 						"1e": [
-							"{@spell Crown of Madness}",
-							"{@spell Shatter}"
+							"{@spell Couronne de folie}",
+							"{@spell Déflagration}"
 						]
 					},
 					"ability": "int",
@@ -1040,7 +1040,7 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell Charm Person}"
+							"{@spell Charmement}"
 						]
 					},
 					"ability": "cha",
@@ -1233,7 +1233,7 @@
 				11,
 				{
 					"ac": 16,
-					"condition": "with {@spell barkskin}",
+					"condition": "with {@spell Écorce}",
 					"braces": true
 				}
 			],
@@ -1274,25 +1274,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
-								"{@spell produce flame}",
+								"{@spell Druidisme}",
+								"{@spell Production de flamme}",
 								"{@spell shillelagh}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell entangle}",
-								"{@spell longstrider}",
-								"{@spell speak with animals}",
-								"{@spell thunderwave}"
+								"{@spell Enchevêtrement}",
+								"{@spell Longue foulée}",
+								"{@spell Parler aux animaux}",
+								"{@spell Onde de tonnerre}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell animal messenger}",
-								"{@spell barkskin}"
+								"{@spell Messager animal}",
+								"{@spell Écorce}"
 							]
 						}
 					},
@@ -2210,17 +2210,17 @@
 						"The leprechaun casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Mending} (as an action)",
+						"{@spell Réparation} (as an action)",
 						"{@spell Prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Invisibility}",
-							"{@spell Phantasmal Force}"
+							"{@spell Invisibilité}",
+							"{@spell Force phantasmale}"
 						],
 						"1e": [
-							"{@spell Fabricate} (as an action)",
-							"{@spell Mislead}"
+							"{@spell Fabrication} (as an action)",
+							"{@spell Fourberie}"
 						]
 					},
 					"ability": "cha",
@@ -2362,15 +2362,15 @@
 						"The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell Light}",
-						"{@spell Mage Hand}",
-						"{@spell Minor Illusion}"
+						"{@spell Lumière}",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Charm Person}",
-							"{@spell Disguise Self}",
-							"{@spell Silent Image}"
+							"{@spell Charmement}",
+							"{@spell Déguisement}",
+							"{@spell Image silencieuse}"
 						]
 					},
 					"ability": "int",
@@ -2602,7 +2602,7 @@
 					"name": "Drain Memories",
 					"entries": [
 						"The memory web targets one creature {@condition Agrippé} by it. The target must make a {@dc 12} Intelligence saving throw. Constructs, Oozes, Plants, and Undead succeed on the save automatically. On a failed save, the target takes 5 ({@damage 2d4}) psychic damage and becomes memory drained until it finishes a long rest or the memory web is destroyed.",
-						"While memory drained, the target must roll a {@dice d4} each time it makes an ability check or attack roll, subtracting the {@dice d4} roll from it. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target has the {@condition Inconscient} condition for 1 hour. If a memory drained creature is the target of the Greater Restoration or {@spell Heal} spell, the memory drained effect ends on it. On a successful save, the target takes half as much damage only."
+						"While memory drained, the target must roll a {@dice d4} each time it makes an ability check or attack roll, subtracting the {@dice d4} roll from it. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target has the {@condition Inconscient} condition for 1 hour. If a memory drained creature is the target of the Greater Restoration or {@spell Guérison} spell, the memory drained effect ends on it. On a successful save, the target takes half as much damage only."
 					]
 				}
 			],
@@ -2717,24 +2717,24 @@
 						"Nafas casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
 					],
 					"will": [
-						"{@spell Detect Evil and Good}",
-						"{@spell Detect Magic}",
-						"{@spell Thaumaturgy}"
+						"{@spell Détection du mal et du bien}",
+						"{@spell Détection de la magie}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell Create Food and Water} (the food is always tasty)",
-							"{@spell Dispel Magic}",
-							"{@spell Invisibility}",
-							"{@spell Legend Lore} (as an action)",
-							"{@spell Tongues}",
-							"{@spell Wind Walk} (as an action)"
+							"{@spell Création de nourriture et d'eau} (the food is always tasty)",
+							"{@spell Dissipation de la magie}",
+							"{@spell Invisibilité}",
+							"{@spell Connaissance des légendes} (as an action)",
+							"{@spell Don des langues}",
+							"{@spell Marche aérienne} (as an action)"
 						],
 						"1e": [
-							"{@spell Gaseous Form}",
-							"{@spell Major Image}",
-							"{@spell Teleport}",
-							"{@spell Wish}"
+							"{@spell Forme gazeuse}",
+							"{@spell Image majeure}",
+							"{@spell Téléportation}",
+							"{@spell Souhait}"
 						]
 					},
 					"ability": "cha",
@@ -2771,7 +2771,7 @@
 				{
 					"name": "Noble Genie",
 					"entries": [
-						"Nafas doesn't suffer any of the penalties that normally follow casting the {@spell Wish} spell to produce an effect other than duplicating another spell."
+						"Nafas doesn't suffer any of the penalties that normally follow casting the {@spell Souhait} spell to produce an effect other than duplicating another spell."
 					]
 				}
 			],
@@ -2950,14 +2950,14 @@
 						"Nafik casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell Thaumaturgy}"
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Insect Plague}"
+							"{@spell Nuée d'insectes}"
 						],
 						"2e": [
-							"{@spell Command}",
+							"{@spell Ordre}",
 							"{@spell Silence}"
 						]
 					},
@@ -2995,7 +2995,7 @@
 				{
 					"name": "Rotting Fist",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 14} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies and its body turns to dust. The curse lasts until removed by the {@spell Remove Curse} spell or other magic."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 14} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies and its body turns to dust. The curse lasts until removed by the {@spell Délivrance de la malédiction} spell or other magic."
 					]
 				},
 				{
@@ -3155,12 +3155,12 @@
 					"name": "Communal Spellcasting (2/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The pech works with three or more pechs to cast spells, requiring no spell components and using Wisdom as the spellcasting ability (save {@dc 12}). If at least three other pechs are within 30 feet of it, the pech can cast {@spell Wall of Stone}. If at least seven other pechs are within 30 feet of it, it can cast {@spell Greater Restoration}. Each other pech involved in casting the spell can't have the incapacitated condition and must have at least one use of Communal Spellcasting remaining, which it must immediately expend to participate (no action required)."
+						"The pech works with three or more pechs to cast spells, requiring no spell components and using Wisdom as the spellcasting ability (save {@dc 12}). If at least three other pechs are within 30 feet of it, the pech can cast {@spell Mur de pierre}. If at least seven other pechs are within 30 feet of it, it can cast {@spell Restauration supérieure}. Each other pech involved in casting the spell can't have the incapacitated condition and must have at least one use of Communal Spellcasting remaining, which it must immediately expend to participate (no action required)."
 					],
 					"daily": {
 						"2": [
-							"{@spell Wall of Stone}",
-							"{@spell Greater Restoration}"
+							"{@spell Mur de pierre}",
+							"{@spell Restauration supérieure}"
 						]
 					},
 					"ability": "wis",
@@ -3200,7 +3200,7 @@
 				{
 					"name": "Stone Shape (3/Day)",
 					"entries": [
-						"The pech casts {@spell Stone Shape}, requiring no spell components and using Wisdom as the spellcasting ability."
+						"The pech casts {@spell Forme de pierre}, requiring no spell components and using Wisdom as the spellcasting ability."
 					]
 				}
 			],
@@ -3466,13 +3466,13 @@
 						"Sion casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Mage Hand}",
-						"{@spell Minor Illusion}"
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Darkness}",
-							"{@spell Mirror Image}",
+							"{@spell Ténèbres}",
+							"{@spell Image dédoublée}",
 							"{@spell Silence}"
 						]
 					},
@@ -3797,19 +3797,19 @@
 						"The Gardener casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Druidcraft}",
-						"{@spell Speak with Animals}",
-						"{@spell Speak with Plants}"
+						"{@spell Druidisme}",
+						"{@spell Parler aux animaux}",
+						"{@spell Parler aux plantes}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Awaken} (as an action)",
-							"{@spell Goodberry}",
-							"{@spell Plant Growth} (as an action only)"
+							"{@spell Éveil} (as an action)",
+							"{@spell Baie protectrice}",
+							"{@spell Croissance végétale} (as an action only)"
 						],
 						"1e": [
-							"{@spell Heroes' Feast} (as an action)",
-							"{@spell Teleport}"
+							"{@spell Festin des héros} (as an action)",
+							"{@spell Téléportation}"
 						]
 					},
 					"ability": "wis",
@@ -4034,7 +4034,7 @@
 				10,
 				{
 					"ac": 13,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -4069,18 +4069,18 @@
 						"The tower sage casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell Dancing Lights}",
-						"{@spell Mage Hand}",
+						"{@spell Lumières dansantes}",
+						"{@spell Main du mage}",
 						"{@spell Prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Arcane Lock}",
-							"{@spell Burning Hands}",
-							"{@spell Comprehend Languages}",
-							"{@spell Detect Magic}",
-							"{@spell Levitate}",
-							"{@spell Mage Armor}"
+							"{@spell Serrure magique}",
+							"{@spell Mains brûlantes}",
+							"{@spell Compréhension des langues}",
+							"{@spell Détection de la magie}",
+							"{@spell Lévitation}",
+							"{@spell Armure du mage}"
 						]
 					},
 					"ability": "int",
@@ -4779,7 +4779,7 @@
 				{
 					"name": "Tractor Beam",
 					"entries": [
-						"The robot casts {@spell Telekinesis}, targeting only creatures with the {@condition Incapable} condition or objects. It requires no spell components and uses Wisdom as the spellcasting ability."
+						"The robot casts {@spell Télékinésie}, targeting only creatures with the {@condition Incapable} condition or objects. It requires no spell components and uses Wisdom as the spellcasting ability."
 					]
 				}
 			],
@@ -4928,14 +4928,14 @@
 				{
 					"name": "Gore",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) force damage, and a 10-foot-radius {@condition invisible} sphere of antimagic, like that created by an {@spell Antimagic Field} spell, surrounds the target. The sphere is centered on the target, moves with the target, and lasts until the end of Zargon's next turn."
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) force damage, and a 10-foot-radius {@condition invisible} sphere of antimagic, like that created by an {@spell Antichamp magique} spell, surrounds the target. The sphere is centered on the target, moves with the target, and lasts until the end of Zargon's next turn."
 					]
 				},
 				{
 					"name": "Slime Wave {@recharge 5}",
 					"entries": [
 						"Zargon spews slime in a 60-foot cone. Each creature in that area that isn't an Aberration or Ooze must make a {@dc 19} Constitution saving throw. On a failed save, the creature takes 38 ({@damage 7d10}) acid damage and has the {@condition Empoisonné} condition for 1 minute. On a successful save, the creature takes half as much damage only. A {@condition Empoisonné} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-						"A creature reduced to 0 hit points by the acid damage dies and dissolves into a puddle of slime that rises as a gibbering mouther at the start of Zargon's next turn. The creature obeys Zargon's commands and takes its turn immediately after Zargon's. Only a {@spell Wish} spell can reverse this transformation and restore the creature to life."
+						"A creature reduced to 0 hit points by the acid damage dies and dissolves into a puddle of slime that rises as a gibbering mouther at the start of Zargon's next turn. The creature obeys Zargon's commands and takes its turn immediately after Zargon's. Only a {@spell Souhait} spell can reverse this transformation and restore the creature to life."
 					]
 				}
 			],

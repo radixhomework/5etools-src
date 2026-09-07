@@ -47,7 +47,7 @@
 				15,
 				{
 					"ac": 18,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -101,21 +101,21 @@
 						"Alustriel casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 22}):"
 					],
 					"will": [
-						"{@spell Dancing Lights}",
-						"{@spell Detect Magic}",
-						"{@spell Mage Armor} (self only)",
-						"{@spell Mage Hand}"
+						"{@spell Lumières dansantes}",
+						"{@spell Détection de la magie}",
+						"{@spell Armure du mage} (self only)",
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Detect Thoughts}",
-							"{@spell Dispel Magic}",
-							"{@spell Tongues}"
+							"{@spell Détection de pensées}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Don des langues}"
 						],
 						"1e": [
-							"{@spell Telepathy}",
-							"{@spell Teleport}",
-							"{@spell Time Stop}"
+							"{@spell Télépathie}",
+							"{@spell Téléportation}",
+							"{@spell Arrêt du temps}"
 						]
 					},
 					"ability": "int",
@@ -1338,15 +1338,15 @@
 						"The dryad casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell Druidcraft}"
+						"{@spell Druidisme}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Dispel Magic}"
+							"{@spell Dissipation de la magie}"
 						],
 						"2e": [
-							"{@spell Pass without Trace}",
-							"{@spell Spike Growth}"
+							"{@spell Passage sans trace}",
+							"{@spell Croissance d'épines}"
 						]
 					},
 					"ability": "cha",
@@ -1523,7 +1523,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage plus 9 ({@damage 2d8}) necrotic damage. The target must succeed on a {@dc 16} Wisdom saving throw or have disadvantage on saving throws against the {@condition Effrayé} condition. This curse lasts until removed by the {@spell Remove Curse} spell or other magic."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage plus 9 ({@damage 2d8}) necrotic damage. The target must succeed on a {@dc 16} Wisdom saving throw or have disadvantage on saving throws against the {@condition Effrayé} condition. This curse lasts until removed by the {@spell Délivrance de la malédiction} spell or other magic."
 					]
 				},
 				{
@@ -1834,19 +1834,19 @@
 						"The false lich casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 22}):"
 					],
 					"will": [
-						"{@spell Detect Magic}",
-						"{@spell Fly}",
-						"{@spell Mage Hand}",
+						"{@spell Détection de la magie}",
+						"{@spell Vol}",
+						"{@spell Main du mage}",
 						"{@spell Prestidigitation}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell Dispel Magic}",
-							"{@spell Invisibility} (self only)"
+							"{@spell Dissipation de la magie}",
+							"{@spell Invisibilité} (self only)"
 						],
 						"1e": [
-							"{@spell Globe of Invulnerability}",
-							"{@spell Hold Monster}"
+							"{@spell Globe d'invulnérabilité}",
+							"{@spell Immobilisation de monstre}"
 						]
 					},
 					"ability": "int",
@@ -3437,19 +3437,19 @@
 						"Miska casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
 					],
 					"will": [
-						"{@spell Disguise Self}",
-						"{@spell Invisibility}",
-						"{@spell Mage Hand}",
-						"{@spell Minor Illusion}",
-						"{@spell Web}"
+						"{@spell Déguisement}",
+						"{@spell Invisibilité}",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}",
+						"{@spell Toile}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Dominate Monster}",
-							"{@spell Mass Suggestion}",
-							"{@spell Mirror Image}",
-							"{@spell Telekinesis}",
-							"{@spell Teleport}"
+							"{@spell Soumission de monstre}",
+							"{@spell Suggestion de groupe}",
+							"{@spell Image dédoublée}",
+							"{@spell Télékinésie}",
+							"{@spell Téléportation}"
 						]
 					},
 					"ability": "cha",
@@ -4216,18 +4216,18 @@
 						"The raklupis casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 20})."
 					],
 					"will": [
-						"{@spell Disguise Self}",
-						"{@spell Invisibility} (self only)",
-						"{@spell Mage Hand}",
-						"{@spell Minor Illusion}"
+						"{@spell Déguisement}",
+						"{@spell Invisibilité} (self only)",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Darkness}",
-							"{@spell Dominate Monster}",
-							"{@spell Mass Suggestion}",
-							"{@spell Telekinesis}",
-							"{@spell Teleport}"
+							"{@spell Ténèbres}",
+							"{@spell Soumission de monstre}",
+							"{@spell Suggestion de groupe}",
+							"{@spell Télékinésie}",
+							"{@spell Téléportation}"
 						]
 					},
 					"ability": "cha",
@@ -4641,7 +4641,7 @@
 					"_": {
 						"mode": "addSpells",
 						"will": [
-							"{@spell speak with dead}"
+							"{@spell Parler aux morts}"
 						]
 					}
 				}
@@ -5021,21 +5021,21 @@
 						"Strahd casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell Detect Thoughts}",
-						"{@spell Fog Cloud}",
-						"{@spell Mage Hand}"
+						"{@spell Détection de pensées}",
+						"{@spell Nuage de brouillard}",
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Animate Dead} (as an action)",
-							"{@spell Gust of Wind}",
-							"{@spell Mirror Image}",
-							"{@spell Nondetection}"
+							"{@spell Animation des morts} (as an action)",
+							"{@spell Rafale}",
+							"{@spell Image dédoublée}",
+							"{@spell Occultation}"
 						],
 						"1e": [
-							"{@spell Greater Invisibility}",
-							"{@spell Polymorph}",
-							"{@spell Scrying} (as an action)"
+							"{@spell Invisibilité supérieure}",
+							"{@spell Polymorphie}",
+							"{@spell Scrutation} (as an action)"
 						]
 					},
 					"ability": "int",
@@ -5285,22 +5285,22 @@
 						"Tasha casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 22}, {@hit 14} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Detect Magic}",
-						"{@spell Disguise Self}",
-						"{@spell Dispel Magic}",
-						"{@spell Light}",
-						"{@spell Mage Hand}",
+						"{@spell Détection de la magie}",
+						"{@spell Déguisement}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Lumière}",
+						"{@spell Main du mage}",
 						"{@spell Message}",
 						"{@spell Prestidigitation}",
-						"{@spell Tasha's Hideous Laughter}"
+						"{@spell Rire hideux de Tasha}"
 					],
 					"daily": {
 						"2": [
-							"{@spell Polymorph}"
+							"{@spell Polymorphie}"
 						],
 						"1e": [
-							"{@spell Maze}",
-							"{@spell Telekinesis}"
+							"{@spell Labyrinthe}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int",
@@ -5632,24 +5632,24 @@
 						"Vecna casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 22}):"
 					],
 					"will": [
-						"{@spell Animate Dead} (as an action)",
-						"{@spell Detect Magic}",
-						"{@spell Dispel Magic}",
-						"{@spell Fly}",
-						"{@spell Lightning Bolt}",
-						"{@spell Mage Hand}",
+						"{@spell Animation des morts} (as an action)",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Vol}",
+						"{@spell Éclair}",
+						"{@spell Main du mage}",
 						"{@spell Prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell Dimension Door}",
-							"{@spell Invisibility}",
-							"{@spell Scrying} (as an action)"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Invisibilité}",
+							"{@spell Scrutation} (as an action)"
 						],
 						"1e": [
-							"{@spell Dominate Monster}",
-							"{@spell Globe of Invulnerability}",
-							"{@spell Plane Shift} (self only)"
+							"{@spell Soumission de monstre}",
+							"{@spell Globe d'invulnérabilité}",
+							"{@spell Déplacement planaire} (self only)"
 						]
 					},
 					"ability": "int",
@@ -6240,21 +6240,21 @@
 						"Windfall casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
 					],
 					"will": [
-						"{@spell Detect Magic}",
-						"{@spell Light}",
-						"{@spell Thaumaturgy}"
+						"{@spell Détection de la magie}",
+						"{@spell Lumière}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Hold Monster}"
+							"{@spell Immobilisation de monstre}"
 						],
 						"3e": [
-							"{@spell Shatter}",
-							"{@spell Unseen Servant}"
+							"{@spell Déflagration}",
+							"{@spell Servant invisible}"
 						],
 						"2e": [
-							"{@spell Hypnotic Pattern}",
-							"{@spell Sending}"
+							"{@spell Motif hypnotique}",
+							"{@spell Envoi de message}"
 						]
 					},
 					"ability": "cha",

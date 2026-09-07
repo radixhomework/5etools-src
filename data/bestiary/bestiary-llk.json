@@ -75,21 +75,21 @@
 						"The brain in a jar's innate spellcasting ability is Intelligence (spell save {@dc 15}). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell detect thoughts}",
-						"{@spell mage hand}",
-						"{@spell zone of truth}"
+						"{@spell Détection de pensées}",
+						"{@spell Main du mage}",
+						"{@spell Zone de vérité}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell charm person}",
-							"{@spell command}",
-							"{@spell hold person}"
+							"{@spell Charmement}",
+							"{@spell Ordre}",
+							"{@spell Immobiliser un personnage}"
 						],
 						"1e": [
-							"{@spell compulsion}",
-							"{@spell hold monster}",
-							"{@spell sleep} (cast at 3rd level)",
-							"{@spell Tasha's hideous laughter}"
+							"{@spell Contrainte}",
+							"{@spell Immobilisation de monstre}",
+							"{@spell Sommeil} (cast at 3rd level)",
+							"{@spell Rire hideux de Tasha}"
 						]
 					},
 					"ability": "int"
@@ -99,7 +99,7 @@
 				{
 					"name": "Detect Sentience",
 					"entries": [
-						"The brain in a jar can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a {@spell mind blank} spell."
+						"The brain in a jar can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a {@spell Vide mental} spell."
 					]
 				},
 				{
@@ -334,7 +334,7 @@
 						"items": {
 							"name": "Polymorph Blade",
 							"entries": [
-								"{@atk mw,rw} {@hit 5} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) piercing damage. If East Wind rolls a 20 on the attack roll, the target must succeed on a {@dc 15} Wisdom saving throw or suffer the effects of a {@spell polymorph} spell."
+								"{@atk mw,rw} {@hit 5} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) piercing damage. If East Wind rolls a 20 on the attack roll, the target must succeed on a {@dc 15} Wisdom saving throw or suffer the effects of a {@spell Polymorphie} spell."
 							]
 						}
 					}
@@ -432,18 +432,18 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell blade ward}",
-								"{@spell vicious mockery}"
+								"{@spell Garde de lame}",
+								"{@spell Moquerie féroce}"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
-								"{@spell charm person}",
-								"{@spell detect magic}",
-								"{@spell disguise self}",
-								"{@spell identify}",
-								"{@spell Tasha's hideous laughter}"
+								"{@spell Charmement}",
+								"{@spell Détection de la magie}",
+								"{@spell Déguisement}",
+								"{@spell Identification}",
+								"{@spell Rire hideux de Tasha}"
 							]
 						}
 					},
@@ -544,7 +544,7 @@
 						"items": {
 							"name": "Unique Programming",
 							"entries": [
-								"Gearbox's unique programming allows the modron to function as an {@item Orbe de la direction|XGE} and an {@item Orbe du temps|XGE}, to cast the {@spell light} cantrip at will, and to grant other characters advantage on Dexterity checks made with thieves' tools and on ability checks made to identify or operate mechanical or laboratory equipment."
+								"Gearbox's unique programming allows the modron to function as an {@item Orbe de la direction|XGE} and an {@item Orbe du temps|XGE}, to cast the {@spell Lumière} cantrip at will, and to grant other characters advantage on Dexterity checks made with thieves' tools and on ability checks made to identify or operate mechanical or laboratory equipment."
 							]
 						}
 					}
@@ -559,12 +559,12 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Gearbox can cast the {@spell light} cantrip at will."
+						"Gearbox can cast the {@spell Lumière} cantrip at will."
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}"
+								"{@spell Lumière}"
 							]
 						}
 					},
@@ -616,7 +616,7 @@
 				{
 					"name": "Petrifying Gaze",
 					"entries": [
-						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 14} Constitution saving throw if the medusa isn't {@condition Incapable} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition Pétrifié}. Otherwise, a creature that fails the save begins to turn to glass and is {@condition Entravé}. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn, becoming {@condition Pétrifié} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic.",
+						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 14} Constitution saving throw if the medusa isn't {@condition Incapable} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition Pétrifié}. Otherwise, a creature that fails the save begins to turn to glass and is {@condition Entravé}. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn, becoming {@condition Pétrifié} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell Restauration supérieure} spell or other magic.",
 						"Unless {@status Surpris}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.",
 						"If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze."
 					]
@@ -699,21 +699,21 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell chill touch}",
-								"{@spell eldritch blast}",
-								"{@spell mage hand}"
+								"{@spell Main glaciale}",
+								"{@spell Trait occulte}",
+								"{@spell Main du mage}"
 							]
 						},
 						"3": {
 							"lower": 1,
 							"slots": 3,
 							"spells": [
-								"{@spell darkness}",
-								"{@spell hex}",
-								"{@spell hypnotic pattern}",
-								"{@spell misty step}",
-								"{@spell phantasmal force}",
-								"{@spell unseen servant}"
+								"{@spell Ténèbres}",
+								"{@spell Fléau}",
+								"{@spell Motif hypnotique}",
+								"{@spell Pas brumeux}",
+								"{@spell Force phantasmale}",
+								"{@spell Servant invisible}"
 							]
 						}
 					},
@@ -987,7 +987,7 @@
 						"items": {
 							"name": "Blade of the Medusa",
 							"entries": [
-								"{@atk mw,rw} {@hit 5} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) piercing damage. If West Wind rolls a 20 on the attack roll, the target must succeed on a {@dc 15} Constitution saving throw or suffer the effects of a {@spell flesh to stone} spell."
+								"{@atk mw,rw} {@hit 5} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) piercing damage. If West Wind rolls a 20 on the attack roll, the target must succeed on a {@dc 15} Constitution saving throw or suffer the effects of a {@spell Chaire en pierre} spell."
 							]
 						}
 					}

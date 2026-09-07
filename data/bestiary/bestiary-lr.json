@@ -90,7 +90,7 @@
 						"0": {
 							"spells": [
 								"{@spell guidance}",
-								"{@spell mending}",
+								"{@spell Réparation}",
 								"{@spell shape water|XGE}",
 								"{@spell shillelagh}"
 							]
@@ -99,46 +99,46 @@
 							"slots": 4,
 							"spells": [
 								"{@spell absorb elements|XGE}",
-								"{@spell cure wounds}",
-								"{@spell entangle}",
-								"{@spell speak with animals}"
+								"{@spell Soins}",
+								"{@spell Enchevêtrement}",
+								"{@spell Parler aux animaux}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell darkvision}",
-								"{@spell hold person}",
-								"{@spell lesser restoration}",
-								"{@spell moonbeam}"
+								"{@spell Vision dans le noir}",
+								"{@spell Immobiliser un personnage}",
+								"{@spell Restauration partielle}",
+								"{@spell Rayon de lune}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell conjure animals}",
-								"{@spell dispel magic}",
-								"{@spell water breathing}"
+								"{@spell Invocation d'animaux}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Respiration aquatique}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell charm monster|XGE}",
-								"{@spell freedom of movement}"
+								"{@spell Liberté de mouvement}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell greater restoration}",
-								"{@spell mass cure wounds}"
+								"{@spell Restauration supérieure}",
+								"{@spell Guérison de groupe}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell conjure fey}"
+								"{@spell Invocation de féerique}"
 							]
 						}
 					},
@@ -259,8 +259,8 @@
 						"daily": {
 							"1e": [
 								{
-									"replace": "{@spell call lightning}",
-									"with": "{@spell lightning bolt}"
+									"replace": "{@spell Foudre multiple}",
+									"with": "{@spell Éclair}"
 								}
 							]
 						}
@@ -395,8 +395,8 @@
 						"0": {
 							"spells": [
 								"{@spell frostbite|XGE}",
-								"{@spell mending}",
-								"{@spell resistance}",
+								"{@spell Réparation}",
+								"{@spell Résistance}",
 								"{@spell shape water|XGE}",
 								"{@spell thunderclap|XGE}*"
 							]
@@ -404,62 +404,62 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell create or destroy water}",
-								"{@spell charm person}",
-								"{@spell cure wounds}",
-								"{@spell thunderwave}"
+								"{@spell Création ou destruction d'eau}",
+								"{@spell Charmement}",
+								"{@spell Soins}",
+								"{@spell Onde de tonnerre}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell darkvision}",
-								"{@spell hold person}",
-								"{@spell mirror image}*",
-								"{@spell misty step}*",
-								"{@spell pass without trace}",
-								"{@spell protection from poison}"
+								"{@spell Vision dans le noir}",
+								"{@spell Immobiliser un personnage}",
+								"{@spell Image dédoublée}*",
+								"{@spell Pas brumeux}*",
+								"{@spell Passage sans trace}",
+								"{@spell Protection contre le poison}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell conjure animals}",
-								"{@spell dispel magic}",
+								"{@spell Invocation d'animaux}",
+								"{@spell Dissipation de la magie}",
 								"{@spell tidal wave|XGE}",
-								"{@spell water breathing}*",
-								"{@spell water walk}*"
+								"{@spell Respiration aquatique}*",
+								"{@spell Marche sur les eaux}*"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell charm monster|XGE}",
-								"{@spell control water}*",
-								"{@spell dominate beast}",
-								"{@spell freedom of movement}*",
+								"{@spell Contrôle de l'eau}*",
+								"{@spell Soumission de bête}",
+								"{@spell Liberté de mouvement}*",
 								"{@spell watery sphere|XGE}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell conjure elemental}*",
+								"{@spell Invocation d'élémentaire}*",
 								"{@spell maelstrom|XGE}",
-								"{@spell scrying}*",
-								"{@spell tree stride}"
+								"{@spell Scrutation}*",
+								"{@spell Foulée sylvestre}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell heal}"
+								"{@spell Guérison}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell plane shift}"
+								"{@spell Déplacement planaire}"
 							]
 						}
 					},
@@ -630,7 +630,7 @@
 				11,
 				{
 					"ac": 14,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -677,7 +677,7 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell create or destroy water}"
+							"{@spell Création ou destruction d'eau}"
 						]
 					},
 					"ability": "con"
@@ -691,32 +691,32 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell acid splash}",
-								"{@spell chill touch}",
-								"{@spell light}",
+								"{@spell Aspersion d'acide}",
+								"{@spell Main glaciale}",
+								"{@spell Lumière}",
 								"{@spell prestidigitation}",
-								"{@spell ray of frost}"
+								"{@spell Rayon de gel}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell disguise self}",
-								"{@spell mage armor}",
-								"{@spell shield}"
+								"{@spell Déguisement}",
+								"{@spell Armure du mage}",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell misty step}"
+								"{@spell Immobiliser un personnage}",
+								"{@spell Pas brumeux}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell lightning bolt}",
+								"{@spell Éclair}",
 								"{@spell tidal wave|XGE}"
 							]
 						},
@@ -805,8 +805,8 @@
 						"daily": {
 							"1e": [
 								{
-									"replace": "{@spell call lightning}",
-									"with": "{@spell lightning bolt}"
+									"replace": "{@spell Foudre multiple}",
+									"with": "{@spell Éclair}"
 								}
 							]
 						}

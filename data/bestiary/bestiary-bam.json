@@ -55,9 +55,9 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell calm emotions}",
-							"{@spell detect magic}",
-							"{@spell sending}"
+							"{@spell Apaisement}",
+							"{@spell Détection de la magie}",
+							"{@spell Envoi de message}"
 						]
 					},
 					"ability": "wis",
@@ -191,8 +191,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell revivify}",
-							"{@spell speak with plants}"
+							"{@spell Retour à la vie}",
+							"{@spell Parler aux plantes}"
 						]
 					},
 					"ability": "wis",
@@ -1152,9 +1152,9 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell fly}",
-							"{@spell mislead}",
-							"{@spell sending}"
+							"{@spell Vol}",
+							"{@spell Fourberie}",
+							"{@spell Envoi de message}"
 						]
 					},
 					"ability": "int",
@@ -1323,7 +1323,7 @@
 					],
 					"daily": {
 						"2": [
-							"{@spell teleport}"
+							"{@spell Téléportation}"
 						]
 					},
 					"ability": "wis",
@@ -1587,13 +1587,13 @@
 					],
 					"daily": {
 						"2e": [
-							"{@spell cure wounds} (8th-level version)",
-							"{@spell hold person}"
+							"{@spell Soins} (8th-level version)",
+							"{@spell Immobiliser un personnage}"
 						],
 						"1e": [
 							"{@spell divination}",
-							"{@spell sending}",
-							"{@spell word of recall}"
+							"{@spell Envoi de message}",
+							"{@spell Mot de rappel}"
 						]
 					},
 					"ability": "wis",
@@ -2112,8 +2112,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell compulsion}",
-							"{@spell fear}"
+							"{@spell Contrainte}",
+							"{@spell Peur}"
 						]
 					},
 					"ability": "int",
@@ -2152,7 +2152,7 @@
 				{
 					"name": "Psionic Shield (3/Day)",
 					"entries": [
-						"When the braxat would be hit by an attack roll or a {@spell magic missile} spell that originates from a source the braxat can see, the braxat can create an {@condition invisible} barrier of magical force around itself that lasts until the start of its next turn. This barrier gives the braxat a +5 bonus to AC, including against the triggering attack, and prevents {@spell magic missile} spells from damaging it."
+						"When the braxat would be hit by an attack roll or a {@spell Projectile magique} spell that originates from a source the braxat can see, the braxat can create an {@condition invisible} barrier of magical force around itself that lasts until the start of its next turn. This barrier gives the braxat a +5 bonus to AC, including against the triggering attack, and prevents {@spell Projectile magique} spells from damaging it."
 					]
 				}
 			],
@@ -2331,10 +2331,10 @@
 						"The chwinga casts one of the following spells, requiring no material or verbal components and using Charisma as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell druidcraft}",
+						"{@spell Druidisme}",
 						"{@spell guidance}",
-						"{@spell pass without trace}",
-						"{@spell resistance}"
+						"{@spell Passage sans trace}",
+						"{@spell Résistance}"
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -2595,7 +2595,7 @@
 					],
 					"daily": {
 						"3": [
-							"{@spell detect thoughts}"
+							"{@spell Détection de pensées}"
 						]
 					},
 					"ability": "cha",
@@ -3588,13 +3588,13 @@
 						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Lumière}",
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{@spell Déplacement planaire}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int",
@@ -3683,7 +3683,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@spell mage armor}"
+						"{@spell Armure du mage}"
 					]
 				}
 			],
@@ -3726,20 +3726,20 @@
 						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Lumière}",
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"2e": [
-							"{@spell detect magic}",
-							"{@spell invisibility} (self only)",
-							"{@spell mage armor} (self only)",
-							"{@spell tongues}"
+							"{@spell Détection de la magie}",
+							"{@spell Invisibilité} (self only)",
+							"{@spell Armure du mage} (self only)",
+							"{@spell Don des langues}"
 						],
 						"1e": [
-							"{@spell contact other plane} (as an action)",
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{@spell Contact avec les autres plans} (as an action)",
+							"{@spell Déplacement planaire}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "int",
@@ -3857,20 +3857,20 @@
 						"The githyanki casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell druidcraft}",
-						"{@spell light}",
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Druidisme}",
+						"{@spell Lumière}",
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"2e": [
-							"{@spell invisibility} (self only)",
-							"{@spell pass without trace} (self only)"
+							"{@spell Invisibilité} (self only)",
+							"{@spell Passage sans trace} (self only)"
 						],
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell forcecage}",
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{@spell Soumission de monstre}",
+							"{@spell Cage de force}",
+							"{@spell Déplacement planaire}",
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "wis",
@@ -4773,7 +4773,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@spell mage armor}"
+						"{@spell Armure du mage}"
 					]
 				}
 			],
@@ -4815,14 +4815,14 @@
 						"The mercane casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell light}"
+						"{@spell Détection de la magie}",
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dimension door}",
-							"{@spell invisibility}",
-							"{@spell mage armor} (self only)"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Invisibilité}",
+							"{@spell Armure du mage} (self only)"
 						]
 					},
 					"ability": "int",
@@ -5081,18 +5081,18 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell arms of Hadar} (1 brain)",
-							"{@spell detect magic} (2 brains)",
-							"{@spell magic missile} (3 brains)",
-							"{@spell Tenser's floating disk} (4 brains)",
-							"{@spell darkness} (5 brains)",
-							"{@spell hold person} (6 brains)",
-							"{@spell invisibility} (7 brains)",
-							"{@spell spider climb} (8 brains)",
-							"{@spell fear} (9 brains)",
-							"{@spell hypnotic pattern} (10 brains)",
-							"{@spell major image} (11 brains)",
-							"{@spell stinking cloud} (12 brains)"
+							"{@spell Bras de Hadar} (1 brain)",
+							"{@spell Détection de la magie} (2 brains)",
+							"{@spell Projectile magique} (3 brains)",
+							"{@spell Disque flottant de Tenser} (4 brains)",
+							"{@spell Ténèbres} (5 brains)",
+							"{@spell Immobiliser un personnage} (6 brains)",
+							"{@spell Invisibilité} (7 brains)",
+							"{@spell Marche arachnéenne} (8 brains)",
+							"{@spell Peur} (9 brains)",
+							"{@spell Motif hypnotique} (10 brains)",
+							"{@spell Image majeure} (11 brains)",
+							"{@spell Nuée nauséabonde} (12 brains)"
 						]
 					},
 					"ability": "int",
@@ -5478,8 +5478,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell dimension door}",
-							"{@spell invisibility}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Invisibilité}"
 						]
 					},
 					"ability": "cha",
@@ -6020,7 +6020,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@spell mage armor}"
+						"{@spell Armure du mage}"
 					]
 				}
 			],
@@ -6065,8 +6065,8 @@
 							"{@spell suggestion}"
 						],
 						"2e": [
-							"{@spell disguise self}",
-							"{@spell mage armor} (self only)"
+							"{@spell Déguisement}",
+							"{@spell Armure du mage} (self only)"
 						]
 					},
 					"ability": "int",
@@ -6155,7 +6155,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@spell mage armor}"
+						"{@spell Armure du mage}"
 					]
 				}
 			],
@@ -6204,11 +6204,11 @@
 					],
 					"daily": {
 						"2e": [
-							"{@spell disguise self}",
-							"{@spell mage armor} (self only)"
+							"{@spell Déguisement}",
+							"{@spell Armure du mage} (self only)"
 						],
 						"1e": [
-							"{@spell dimension door}",
+							"{@spell Porte dimensionnelle}",
 							"{@spell suggestion}"
 						]
 					},
@@ -6319,7 +6319,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@spell mage armor}"
+						"{@spell Armure du mage}"
 					]
 				}
 			],
@@ -6360,7 +6360,7 @@
 							"{@spell suggestion}"
 						],
 						"2": [
-							"{@spell mage armor} (self only)"
+							"{@spell Armure du mage} (self only)"
 						]
 					},
 					"ability": "int",
@@ -6485,18 +6485,18 @@
 						"The reigar casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand}",
+						"{@spell Lumière}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell dimension door}",
-							"{@spell phantasmal force}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Force phantasmale}"
 						],
 						"1e": [
-							"{@spell mass suggestion}",
-							"{@spell sending}"
+							"{@spell Suggestion de groupe}",
+							"{@spell Envoi de message}"
 						]
 					},
 					"ability": "cha",
@@ -6778,14 +6778,14 @@
 						"The clown casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell friends}",
-						"{@spell mage hand}",
+						"{@spell Ami}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell mirror image}",
-							"{@spell spider climb}"
+							"{@spell Image dédoublée}",
+							"{@spell Marche arachnéenne}"
 						]
 					},
 					"ability": "cha",
@@ -7288,11 +7288,11 @@
 						"The ssurran casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"1": [
-							"{@spell invisibility} (self only)"
+							"{@spell Invisibilité} (self only)"
 						]
 					},
 					"ability": "int",
@@ -7592,7 +7592,7 @@
 					"name": "Possession {@recharge}",
 					"entries": [
 						"One Humanoid that the apparition can see within 5 feet of itself must succeed on a {@dc 14} Charisma saving throw or be possessed by the apparition; the apparition then disappears, and the target is {@condition Incapable} and loses control of its body. The apparition now controls the body but doesn't deprive the target of awareness. The apparition can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition Charmé} and {@condition Effrayé}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
-						"The possession lasts until the body drops to 0 hit points, the apparition ends it as a bonus action, the body leaves the Astral Plane, or the apparition is forced out by an effect like the {@spell dispel evil and good} spell. When the possession ends, the apparition reappears in an unoccupied space within 5 feet of the body. If it reappears in a location not on the Astral Plane, the apparition is destroyed. The target is immune to this apparition's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+						"The possession lasts until the body drops to 0 hit points, the apparition ends it as a bonus action, the body leaves the Astral Plane, or the apparition is forced out by an effect like the {@spell Dissipation du mal et du bien} spell. When the possession ends, the apparition reappears in an unoccupied space within 5 feet of the body. If it reappears in a location not on the Astral Plane, the apparition is destroyed. The target is immune to this apparition's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
 					]
 				}
 			],
@@ -7911,13 +7911,13 @@
 						"The thri-kreen casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell levitate} (self only)",
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell Lévitation} (self only)",
+						"{@spell Main du mage} (the hand is invisible)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell freedom of movement} (self only)",
-							"{@spell invisibility} (self only)"
+							"{@spell Liberté de mouvement} (self only)",
+							"{@spell Invisibilité} (self only)"
 						]
 					},
 					"ability": "wis",
@@ -8320,15 +8320,15 @@
 						"The mage casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell mage hand}",
+						"{@spell Main du mage}",
 						"{@spell message}"
 					],
 					"daily": {
 						"1": [
-							"{@spell darkness}",
-							"{@spell dimension door}",
-							"{@spell fly}",
-							"{@spell hypnotic pattern}"
+							"{@spell Ténèbres}",
+							"{@spell Porte dimensionnelle}",
+							"{@spell Vol}",
+							"{@spell Motif hypnotique}"
 						]
 					},
 					"ability": "cha",
@@ -8860,11 +8860,11 @@
 					"name": "Wish",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The zodar casts the {@spell wish} spell, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 17}). After casting this spell, the zodar turns to dust and is destroyed."
+						"The zodar casts the {@spell Souhait} spell, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 17}). After casting this spell, the zodar turns to dust and is destroyed."
 					],
 					"will": [
 						{
-							"entry": "{@spell wish}",
+							"entry": "{@spell Souhait}",
 							"hidden": true
 						}
 					],

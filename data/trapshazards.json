@@ -191,7 +191,7 @@
 			"trapHazType": "HAUNT",
 			"hauntBonus": "+4",
 			"entries": [
-				"Ce {@variantrule haunted traps|VRGR|piège hanté} affecte une sphère de 6 mètres de rayon centrée sur un instrument ancien mais immaculé. Quand une créature entre dans la zone, l'émanation du piège se manifeste sous la forme du son d'une musique lointaine et lugubre. Un round plus tard, un musicien fantomatique apparaît et se met à jouer de l'instrument pendant la minute qui suit. Tant que le musicien joue, toute créature qui entre dans la zone du piège hanté ou y commence son tour doit réussir un jet de sauvegarde de Sagesse {@dc 14} ou s'élever à 6 mètres au-dessus du sol et être affectée par le sort {@spell Otto's irresistible dance}. Des danseurs illusoires la rejoignent tandis qu'elle danse jusqu'à la fin de la chanson du musicien. Par une action, une créature qui danse peut répéter le jet de sauvegarde pour mettre fin à l'effet qui l'affecte, tombant alors de 6 mètres et subissant {@damage 2d6} dégâts contondants. Si le jet de sauvegarde d'une créature destiné à résister au piège ou à arrêter de danser est réussi, cette créature est immunisée contre le piège hanté pendant les 24 heures suivantes.",
+				"Ce {@variantrule haunted traps|VRGR|piège hanté} affecte une sphère de 6 mètres de rayon centrée sur un instrument ancien mais immaculé. Quand une créature entre dans la zone, l'émanation du piège se manifeste sous la forme du son d'une musique lointaine et lugubre. Un round plus tard, un musicien fantomatique apparaît et se met à jouer de l'instrument pendant la minute qui suit. Tant que le musicien joue, toute créature qui entre dans la zone du piège hanté ou y commence son tour doit réussir un jet de sauvegarde de Sagesse {@dc 14} ou s'élever à 6 mètres au-dessus du sol et être affectée par le sort {@spell Danse irrésistible d'Otto}. Des danseurs illusoires la rejoignent tandis qu'elle danse jusqu'à la fin de la chanson du musicien. Par une action, une créature qui danse peut répéter le jet de sauvegarde pour mettre fin à l'effet qui l'affecte, tombant alors de 6 mètres et subissant {@damage 2d6} dégâts contondants. Si le jet de sauvegarde d'une créature destiné à résister au piège ou à arrêter de danser est réussi, cette créature est immunisée contre le piège hanté pendant les 24 heures suivantes.",
 				"Tant que le musicien fantomatique joue, toute créature dans la zone du piège hanté peut utiliser une action pour tenter de convaincre le musicien d'arrêter de jouer, y parvenant grâce à un test de Charisme {@dc 14} réussi ({@skill Persuasion}). Quand le musicien cesse de jouer, toutes les créatures affectées par le piège hanté sont libérées de ses effets et flottent jusqu'au sol sans danger."
 			]
 		},
@@ -207,7 +207,7 @@
 				}
 			],
 			"effect": [
-				"Les portes claquent et se verrouillent tandis qu'un nuage vénéneux (considérer comme un sort {@spell cloudkill} de {@dc 15}) remplit la pièce."
+				"Les portes claquent et se verrouillent tandis qu'un nuage vénéneux (considérer comme un sort {@spell Nuée mortelle} de {@dc 15}) remplit la pièce."
 			],
 			"trigger": [
 				"Les niches funéraires sont perturbées par des voleurs ou des profanateurs."
@@ -226,7 +226,7 @@
 			"trapHazType": "HAUNT",
 			"hauntBonus": "+2",
 			"entries": [
-				"Ce {@variantrule haunted traps|VRGR|piège hanté} affecte un cube de 4,5 mètres d'arête placé devant un miroir orné accroché à un mur. Quand une créature visible entre dans la zone, l'émanation du piège se manifeste sous la forme du reflet déformé de la créature dans le miroir. Si cette créature se trouve toujours dans la zone au début de son tour suivant, elle doit réussir un jet de sauvegarde de Sagesse {@dc 12} ou être {@condition Aveuglé}, {@condition Assourdi} et incapable de parler pendant 1 minute. De plus, une illusion donne l'impression que la créature a perdu son visage. Le sort {@spell remove curse} met fin à cet effet, tout comme la destruction du miroir. Le miroir a une CA de 12, 10 points de vie, une vulnérabilité aux dégâts contondants et une immunité aux dégâts de poison et psychiques. Après qu'une créature a raté son jet de sauvegarde contre le piège, celui-ci ne se réactive plus pendant 24 heures."
+				"Ce {@variantrule haunted traps|VRGR|piège hanté} affecte un cube de 4,5 mètres d'arête placé devant un miroir orné accroché à un mur. Quand une créature visible entre dans la zone, l'émanation du piège se manifeste sous la forme du reflet déformé de la créature dans le miroir. Si cette créature se trouve toujours dans la zone au début de son tour suivant, elle doit réussir un jet de sauvegarde de Sagesse {@dc 12} ou être {@condition Aveuglé}, {@condition Assourdi} et incapable de parler pendant 1 minute. De plus, une illusion donne l'impression que la créature a perdu son visage. Le sort {@spell Délivrance de la malédiction} met fin à cet effet, tout comme la destruction du miroir. Le miroir a une CA de 12, 10 points de vie, une vulnérabilité aux dégâts contondants et une immunité aux dégâts de poison et psychiques. Après qu'une créature a raté son jet de sauvegarde contre le piège, celui-ci ne se réactive plus pendant 24 heures."
 			],
 			"hasFluffImages": true
 		},
@@ -342,7 +342,7 @@
 				"Le temple de Pyremius, un dieu du feu, est menacé par des voleurs qui cherchent à dérober les opales de feu que les prêtres y exposent en hommage à leur dieu. Une mosaïque sur le sol de l'entrée du sanctuaire intérieur inflige une réprimande ardente aux intrus."
 			],
 			"countermeasures": [
-				"Un test de Sagesse {@dc 15} réussi ({@skill Perception}) révèle la présence de cendres et de légères traces de brûlure dans la zone affectée par ce piège. Un test d'Intelligence {@dc 15} réussi ({@skill Religion}) permet à une créature de détruire le piège en mutilant une rune clé située à sa portée sur le pourtour de la mosaïque ; rater ce test active le piège. Un {@spell dispel magic} réussi ({@dc 15}) lancé sur les runes détruit le piège."
+				"Un test de Sagesse {@dc 15} réussi ({@skill Perception}) révèle la présence de cendres et de légères traces de brûlure dans la zone affectée par ce piège. Un test d'Intelligence {@dc 15} réussi ({@skill Religion}) permet à une créature de détruire le piège en mutilant une rune clé située à sa portée sur le pourtour de la mosaïque ; rater ce test active le piège. Un {@spell Dissipation de la magie} réussi ({@dc 15}) lancé sur les runes détruit le piège."
 			],
 			"entries": [
 				"Quiconque marche sur la mosaïque provoque une éruption de feu depuis celle-ci. Ceux qui portent ouvertement les symboles sacrés de Pyremius ne déclenchent pas ce piège."
@@ -361,7 +361,7 @@
 				"Ce piège s'active quand un intrus marche sur une plaque de pression dissimulée, libérant un jet de flammes magiques émis par une statue proche. La statue peut représenter n'importe quoi, y compris un dragon ou un sorcier en train de lancer un sort.",
 				"Le DD est de 15 pour repérer la plaque de pression, ainsi que les légères marques de calcination sur le sol et les murs. Un sort ou autre effet capable de sentir la présence de la magie, comme la détection de la magie, révèle une aura de magie d'évocation autour de la statue.",
 				"Le piège s'active quand un poids de plus de 10 kilos est placé sur la plaque de pression, ce qui amène la statue à libérer un cône de feu de 9 mètres. Chaque créature dans les flammes doit effectuer un jet de sauvegarde de Dextérité {@dc 13}, subissant 22 ({@damage 4d10}) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
-				"Coincer un pique en fer ou un autre objet sous la plaque de pression empêche le piège de s'activer. Un {@spell dispel magic} réussi ({@dc 13}) lancé sur la statue détruit le piège."
+				"Coincer un pique en fer ou un autre objet sous la plaque de pression empêche le piège de s'activer. Un {@spell Dissipation de la magie} réussi ({@dc 13}) lancé sur la statue détruit le piège."
 			]
 		},
 		{
@@ -390,7 +390,7 @@
 					"type": "entries",
 					"name": "Détection et désamorçage",
 					"entries": [
-						"Un sort {@spell Detect Magic|XPHB} révèle une aura de magie d'évocation autour de la statue. Par une action {@action Chercher|XPHB}, une créature à 1,5 mètre ou moins de la statue peut l'examiner et effectuer un test de Sagesse {@dc 10} ({@skill Perception|XPHB}), repérant un minuscule glyphe sur la statue en cas de réussite. Une fois le glyphe découvert, un personnage peut utiliser une action {@action Étudier|XPHB} pour l'examiner et effectuer un test d'Intelligence {@dc 15} ({@skill Arcanes|XPHB}), concluant que le glyphe signifie « feu » en cas de réussite. Par une action, un personnage peut utiliser un outil acéré pour mutiler le glyphe, ce qui désamorce le piège.",
+						"Un sort {@spell Détection de la magie|XPHB} révèle une aura de magie d'évocation autour de la statue. Par une action {@action Chercher|XPHB}, une créature à 1,5 mètre ou moins de la statue peut l'examiner et effectuer un test de Sagesse {@dc 10} ({@skill Perception|XPHB}), repérant un minuscule glyphe sur la statue en cas de réussite. Une fois le glyphe découvert, un personnage peut utiliser une action {@action Étudier|XPHB} pour l'examiner et effectuer un test d'Intelligence {@dc 15} ({@skill Arcanes|XPHB}), concluant que le glyphe signifie « feu » en cas de réussite. Par une action, un personnage peut utiliser un outil acéré pour mutiler le glyphe, ce qui désamorce le piège.",
 						"Par une action {@action Chercher|XPHB}, une créature peut examiner la section de sol qui forme la plaque de pression et effectuer un test de Sagesse {@dc 15} ({@skill Perception|XPHB}), repérant la plaque de pression en cas de réussite. Coincer une {@item Pointes de fer|XPHB|pique en fer} ou un objet similaire sous la plaque de pression empêche le piège de se déclencher."
 					]
 				},
@@ -460,14 +460,14 @@
 					"type": "entries",
 					"name": "Détection et désamorçage",
 					"entries": [
-						"Par une action {@action Étudier|XPHB}, une créature peut examiner la section de sol qui forme le couvercle de la fosse et effectuer un test d'Intelligence {@dc 15} ({@skill Investigation|XPHB}), repérant la fosse en cas de réussite. Une fois la fosse détectée, on peut coincer un pique en fer ou un objet similaire entre le couvercle de la fosse et le sol environnant pour empêcher le couvercle de s'ouvrir, rendant ainsi le passage sans danger. Le couvercle peut aussi être maintenu fermé au moyen d'un sort {@spell Arcane Lock|XPHB} ou d'une magie similaire."
+						"Par une action {@action Étudier|XPHB}, une créature peut examiner la section de sol qui forme le couvercle de la fosse et effectuer un test d'Intelligence {@dc 15} ({@skill Investigation|XPHB}), repérant la fosse en cas de réussite. Une fois la fosse détectée, on peut coincer un pique en fer ou un objet similaire entre le couvercle de la fosse et le sol environnant pour empêcher le couvercle de s'ouvrir, rendant ainsi le passage sans danger. Le couvercle peut aussi être maintenu fermé au moyen d'un sort {@spell Serrure magique|XPHB} ou d'une magie similaire."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "S'échapper",
 					"entries": [
-						"Une créature a besoin d'une vitesse d'escalade, d'un équipement d'escalade ou d'une magie telle que {@spell Spider Climb|XPHB} pour gravir les parois lisses de la fosse. (Vous pouvez rendre la fosse plus facile à quitter en ajoutant des fissures dans les parois, assez grandes pour servir de prises aux mains et aux pieds.)"
+						"Une créature a besoin d'une vitesse d'escalade, d'un équipement d'escalade ou d'une magie telle que {@spell Marche arachnéenne|XPHB} pour gravir les parois lisses de la fosse. (Vous pouvez rendre la fosse plus facile à quitter en ajoutant des fissures dans les parois, assez grandes pour servir de prises aux mains et aux pieds.)"
 					]
 				},
 				{
@@ -516,8 +516,8 @@
 			"trapHazType": "HAUNT",
 			"hauntBonus": "+6",
 			"entries": [
-				"Ce {@variantrule haunted traps|VRGR|piège hanté} est lié à la sphère de 3 mètres de rayon qui entoure une sinistre statue de 30 centimètres de haut représentant une figure d'oiseau menaçante pourvue de quatre ailes. Une fois par jour, quand une créature entre dans la zone, l'émanation du piège se manifeste sous la forme du bruit lointain d'ailes battantes et d'un souffle d'air chaud. Si cette créature se trouve toujours dans la zone au début de son tour suivant, elle doit réussir un jet de sauvegarde de Sagesse {@dc 16} ou être {@condition Charmé} et {@condition Incapable} pendant 1 minute. Ces états persistent jusqu'à ce que la créature subisse des dégâts ou que quelqu'un d'autre utilise une action pour la secouer. Si la créature affectée demeure {@condition Charmé} pendant la minute complète, elle est alors affectée comme par le sort {@spell magic jar} : son âme entre dans la statue et est remplacée par l'esprit d'un fiélon sans corps. Cet effet prend fin quand {@spell dispel evil and good} ou un sort similaire est lancé sur la créature affectée, ou quand la statue est détruite. La statue a une CA de 17, 15 points de vie et une immunité aux dégâts de poison et psychiques.",
-				"Ce piège hanté se manifeste sous l'effet d'une influence fiélonne. Lancer {@spell dispel evil and good} sur la statue désamorce le piège hanté de façon permanente."
+				"Ce {@variantrule haunted traps|VRGR|piège hanté} est lié à la sphère de 3 mètres de rayon qui entoure une sinistre statue de 30 centimètres de haut représentant une figure d'oiseau menaçante pourvue de quatre ailes. Une fois par jour, quand une créature entre dans la zone, l'émanation du piège se manifeste sous la forme du bruit lointain d'ailes battantes et d'un souffle d'air chaud. Si cette créature se trouve toujours dans la zone au début de son tour suivant, elle doit réussir un jet de sauvegarde de Sagesse {@dc 16} ou être {@condition Charmé} et {@condition Incapable} pendant 1 minute. Ces états persistent jusqu'à ce que la créature subisse des dégâts ou que quelqu'un d'autre utilise une action pour la secouer. Si la créature affectée demeure {@condition Charmé} pendant la minute complète, elle est alors affectée comme par le sort {@spell Jarre magique} : son âme entre dans la statue et est remplacée par l'esprit d'un fiélon sans corps. Cet effet prend fin quand {@spell Dissipation du mal et du bien} ou un sort similaire est lancé sur la créature affectée, ou quand la statue est détruite. La statue a une CA de 17, 15 points de vie et une immunité aux dégâts de poison et psychiques.",
+				"Ce piège hanté se manifeste sous l'effet d'une influence fiélonne. Lancer {@spell Dissipation du mal et du bien} sur la statue désamorce le piège hanté de façon permanente."
 			]
 		},
 		{
@@ -631,7 +631,7 @@
 						{
 							"type": "itemSub",
 							"name": "Intelligence (Arcanes), {@dc 15}",
-							"entry": "La magie qui augmente la matrice d'alimentation peut être neutralisée au moyen de trois tests réussis. Alternativement, elle peut l'être par un unique lancer réussi de {@spell dispel magic} ({@dc 13}) ciblant les bobines. Si les bobines sont neutralisées, cela désamorce les éléments de décharge de la bobine ainsi que l'élément dynamique d'explosion. L'émetteur reste actif, recevant une partie de son énergie de la matrice. Les créatures qui tentent cela sont soumises à l'élément constant de décharge de la bobine si elles terminent leur tour à côté de la matrice d'alimentation."
+							"entry": "La magie qui augmente la matrice d'alimentation peut être neutralisée au moyen de trois tests réussis. Alternativement, elle peut l'être par un unique lancer réussi de {@spell Dissipation de la magie} ({@dc 13}) ciblant les bobines. Si les bobines sont neutralisées, cela désamorce les éléments de décharge de la bobine ainsi que l'élément dynamique d'explosion. L'émetteur reste actif, recevant une partie de son énergie de la matrice. Les créatures qui tentent cela sont soumises à l'élément constant de décharge de la bobine si elles terminent leur tour à côté de la matrice d'alimentation."
 						},
 						{
 							"type": "itemSub",
@@ -790,7 +790,7 @@
 						{
 							"type": "item",
 							"name": "Rune de peur",
-							"entry": "La rune peut être désamorcée au moyen de trois tests d'Intelligence {@dc 15} réussis ({@skill Arcanes}). Chaque test nécessite une action. Une créature doit se trouver à l'extrémité du couloir pour tenter le test, et une seule créature peut travailler sur cette tâche à la fois. Une fois qu'une créature a tenté un test à cette fin, aucun autre personnage ne peut le faire avant la fin du tour suivant de cette créature. Alternativement, la rune peut être désamorcée au moyen de trois lancers réussis de {@spell dispel magic} ({@dc 13}) ciblant la rune."
+							"entry": "La rune peut être désamorcée au moyen de trois tests d'Intelligence {@dc 15} réussis ({@skill Arcanes}). Chaque test nécessite une action. Une créature doit se trouver à l'extrémité du couloir pour tenter le test, et une seule créature peut travailler sur cette tâche à la fois. Une fois qu'une créature a tenté un test à cette fin, aucun autre personnage ne peut le faire avant la fin du tour suivant de cette créature. Alternativement, la rune peut être désamorcée au moyen de trois lancers réussis de {@spell Dissipation de la magie} ({@dc 13}) ciblant la rune."
 						}
 					]
 				}
@@ -848,7 +848,7 @@
 					"entries": [
 						"Un test de Sagesse {@dc 15} réussi ({@skill Perception}) discerne l'absence de passages répétés sur la section de sol qui forme le couvercle de la fosse. Un test d'Intelligence {@dc 15} réussi ({@skill Investigation}) est nécessaire pour confirmer que la section de sol piégée est bien le couvercle d'une fosse.",
 						"Quand une créature marche sur le couvercle, celui-ci s'ouvre comme une trappe, faisant basculer l'intrus dans la fosse en dessous. La fosse est généralement profonde de 3 ou 6 mètres, mais elle peut l'être davantage.",
-						"Une fois le piège à fosse détecté, on peut coincer un pique en fer ou un objet similaire entre le couvercle de la fosse et le sol environnant de manière à empêcher le couvercle de s'ouvrir, rendant ainsi le passage sans danger. Le couvercle peut aussi être maintenu fermé par magie au moyen du sort {@spell arcane lock} ou d'une magie similaire."
+						"Une fois le piège à fosse détecté, on peut coincer un pique en fer ou un objet similaire entre le couvercle de la fosse et le sol environnant de manière à empêcher le couvercle de s'ouvrir, rendant ainsi le passage sans danger. Le couvercle peut aussi être maintenu fermé par magie au moyen du sort {@spell Serrure magique} ou d'une magie similaire."
 					]
 				},
 				{
@@ -991,7 +991,7 @@
 					"type": "entries",
 					"name": "Éviter",
 					"entries": [
-						"Le piège ne se déclenche pas si la serrure est ouverte au moyen d'un sort {@spell Knock|XPHB} ou d'une magie similaire."
+						"Le piège ne se déclenche pas si la serrure est ouverte au moyen d'un sort {@spell Crochetage|XPHB} ou d'une magie similaire."
 					]
 				},
 				{
@@ -1142,7 +1142,7 @@
 						{
 							"type": "item",
 							"name": "Ouvrir les portes",
-							"entry": "Ouvrir les portes est le moyen le plus rapide de contourner le piège, mais elles sont protégées par magie. Pour ouvrir les portes, un personnage doit d'abord réussir un test de Sagesse {@dc 20} ({@skill Perception}) pour trouver le mécanisme de verrouillage. Un test d'Intelligence {@dc 20} réussi ({@skill Arcanes}) est ensuite nécessaire pour désamorcer la sphère de force qui entoure la serrure ({@spell dispel magic} est inefficace contre elle). La réussite d'un test de Dextérité {@dc 20} effectué avec des outils de crochetage force la serrure. Enfin, un test de Force {@dc 20} réussi ({@skill Athlétisme}) est nécessaire pour pousser la porte. Chaque test nécessite une action."
+							"entry": "Ouvrir les portes est le moyen le plus rapide de contourner le piège, mais elles sont protégées par magie. Pour ouvrir les portes, un personnage doit d'abord réussir un test de Sagesse {@dc 20} ({@skill Perception}) pour trouver le mécanisme de verrouillage. Un test d'Intelligence {@dc 20} réussi ({@skill Arcanes}) est ensuite nécessaire pour désamorcer la sphère de force qui entoure la serrure ({@spell Dissipation de la magie} est inefficace contre elle). La réussite d'un test de Dextérité {@dc 20} effectué avec des outils de crochetage force la serrure. Enfin, un test de Force {@dc 20} réussi ({@skill Athlétisme}) est nécessaire pour pousser la porte. Chaque test nécessite une action."
 						},
 						{
 							"type": "item",
@@ -1263,13 +1263,13 @@
 				}
 			],
 			"effect": [
-				"Une fois activé, ce piège lance un sort {@spell sleep} centré sur la plaque de pression, en utilisant un emplacement de sort de niveau 9."
+				"Une fois activé, ce piège lance un sort {@spell Sommeil} centré sur la plaque de pression, en utilisant un emplacement de sort de niveau 9."
 			],
 			"trigger": [
 				"Marcher sur la plaque de pression déclenche ce piège."
 			],
 			"countermeasures": [
-				"Un test de Sagesse {@dc 20} réussi ({@skill Perception}) révèle la plaque de pression. Un test d'Intelligence {@dc 20} réussi ({@skill Arcanes}) effectué à 1,5 mètre ou moins de la plaque de pression désamorce le piège, et un test dont le total est de 10 ou moins le déclenche. Un {@spell dispel magic} réussi ({@dc 19}) lancé sur la plaque de pression détruit le piège."
+				"Un test de Sagesse {@dc 20} réussi ({@skill Perception}) révèle la plaque de pression. Un test d'Intelligence {@dc 20} réussi ({@skill Arcanes}) effectué à 1,5 mètre ou moins de la plaque de pression désamorce le piège, et un test dont le total est de 10 ou moins le déclenche. Un {@spell Dissipation de la magie} réussi ({@dc 19}) lancé sur la plaque de pression détruit le piège."
 			],
 			"entries": [
 				"Quand un piège du sommeil des âges s'active, une plaque de pression libère un sort qui menace d'envoyer les intrus dans un profond sommeil. Les gardiens du donjon peuvent alors se débarrasser plus facilement des dormeurs."
@@ -1283,8 +1283,8 @@
 			"trapHazType": "MAG",
 			"entries": [
 				"Des ténèbres magiques et impénétrables remplissent la bouche béante d'un visage de pierre sculpté dans un mur. La bouche mesure 60 centimètres de diamètre et est grossièrement circulaire. Aucun son n'en émane, aucune lumière ne peut en éclairer l'intérieur, et toute matière qui y entre est instantanément anéantie.",
-				"Un test d'Intelligence {@dc 20} réussi ({@skill Arcanes}) révèle que la bouche contient une sphère d'annihilation qui ne peut être ni contrôlée ni déplacée. À cela près, elle est identique à une {@item Sphère d'annihilation} normale, comme décrite au chapitre 7, « Trésors ». Certaines versions du piège incluent un enchantement placé sur le visage de pierre, de sorte que des créatures désignées ressentent une envie irrésistible de s'en approcher et de ramper dans sa bouche. Cet effet est par ailleurs semblable à l'aspect sympathie du sort {@spell antipathy/sympathy}.",
-				"Un {@spell dispel magic} réussi ({@dc 18}) supprime cet enchantement."
+				"Un test d'Intelligence {@dc 20} réussi ({@skill Arcanes}) révèle que la bouche contient une sphère d'annihilation qui ne peut être ni contrôlée ni déplacée. À cela près, elle est identique à une {@item Sphère d'annihilation} normale, comme décrite au chapitre 7, « Trésors ». Certaines versions du piège incluent un enchantement placé sur le visage de pierre, de sorte que des créatures désignées ressentent une envie irrésistible de s'en approcher et de ramper dans sa bouche. Cet effet est par ailleurs semblable à l'aspect sympathie du sort {@spell Antipathie/Sympathie}.",
+				"Un {@spell Dissipation de la magie} réussi ({@dc 18}) supprime cet enchantement."
 			]
 		},
 		{
@@ -1347,7 +1347,7 @@
 							"name": "Perturber les portails",
 							"entries": [
 								"Chacun des portails peut être neutralisé au moyen de trois tests d'Intelligence {@dc 20} réussis ({@skill Arcanes}), mais le processus d'analyse d'un portail pour le perturber prend du temps. De faibles runes dans le plafond et le sol aux deux extrémités du couloir interviennent dans le fonctionnement des portails. Une créature doit d'abord utiliser une action pour examiner un ensemble de runes, puis utiliser une action supplémentaire pour tenter de vandaliser les runes. Chaque test réussi réduit les dégâts de la sphère de 11 ({@damage 2d10}), la sphère perturbée perdant de la vitesse en traversant le portail défaillant.",
-								"Alternativement, un ensemble de runes peut être désamorcé au moyen de trois lancers réussis de {@spell dispel magic} ({@dc 19}) ciblant n'importe laquelle des runes de l'ensemble.",
+								"Alternativement, un ensemble de runes peut être désamorcé au moyen de trois lancers réussis de {@spell Dissipation de la magie} ({@dc 19}) ciblant n'importe laquelle des runes de l'ensemble.",
 								"Si le portail méridional est détruit, la sphère s'écrase contre le mur sud et s'immobilise. Elle bloque la porte du tombeau, mais les personnages peuvent s'échapper."
 							]
 						}
@@ -1385,14 +1385,14 @@
 					"type": "entries",
 					"name": "Détection et désamorçage",
 					"entries": [
-						"Par une action {@action Étudier|XPHB}, une créature peut examiner la section de sol qui forme le couvercle de la fosse et effectuer un test d'Intelligence {@dc 15} ({@skill Investigation|XPHB}), repérant la fosse en cas de réussite. Une fois la fosse dissimulée détectée, on peut coincer un pique en fer ou un objet similaire entre le couvercle de la fosse et le sol environnant pour empêcher le couvercle de s'ouvrir, rendant ainsi le passage sans danger. Le couvercle peut aussi être maintenu fermé au moyen d'un sort {@spell Arcane Lock|XPHB} ou d'une magie similaire."
+						"Par une action {@action Étudier|XPHB}, une créature peut examiner la section de sol qui forme le couvercle de la fosse et effectuer un test d'Intelligence {@dc 15} ({@skill Investigation|XPHB}), repérant la fosse en cas de réussite. Une fois la fosse dissimulée détectée, on peut coincer un pique en fer ou un objet similaire entre le couvercle de la fosse et le sol environnant pour empêcher le couvercle de s'ouvrir, rendant ainsi le passage sans danger. Le couvercle peut aussi être maintenu fermé au moyen d'un sort {@spell Serrure magique|XPHB} ou d'une magie similaire."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "S'échapper",
 					"entries": [
-						"Une créature a besoin d'une vitesse d'escalade, d'un équipement d'escalade ou d'une magie telle qu'un sort {@spell Spider Climb|XPHB} pour gravir les parois lisses de la fosse. Vous pouvez rendre la fosse plus facile à quitter en ajoutant des fissures dans les parois, assez grandes pour servir de prises aux mains et aux pieds."
+						"Une créature a besoin d'une vitesse d'escalade, d'un équipement d'escalade ou d'une magie telle qu'un sort {@spell Marche arachnéenne|XPHB} pour gravir les parois lisses de la fosse. Vous pouvez rendre la fosse plus facile à quitter en ajoutant des fissures dans les parois, assez grandes pour servir de prises aux mains et aux pieds."
 					]
 				},
 				{
@@ -1475,7 +1475,7 @@
 					"type": "entries",
 					"name": "Clé surdimensionnée",
 					"entries": [
-						"Cette clé dorée mesure 1,2 mètre de long et pèse 50 kilos. Un round après avoir été retirée de son râtelier, elle prend vie, se révélant être un objet vivant (utilisez le profil {@creature flying sword}). La clé fait tout son possible pour regagner son râtelier, attaquant quiconque tente de l'en empêcher. Si la clé est détruite en étant réduite à 0 point de vie, elle doit être réparée (par exemple avec le sort {@spell Mending}) avant de pouvoir être utilisée dans la porte-crâne."
+						"Cette clé dorée mesure 1,2 mètre de long et pèse 50 kilos. Un round après avoir été retirée de son râtelier, elle prend vie, se révélant être un objet vivant (utilisez le profil {@creature flying sword}). La clé fait tout son possible pour regagner son râtelier, attaquant quiconque tente de l'en empêcher. Si la clé est détruite en étant réduite à 0 point de vie, elle doit être réparée (par exemple avec le sort {@spell Réparation}) avant de pouvoir être utilisée dans la porte-crâne."
 					]
 				},
 				{
@@ -1526,13 +1526,13 @@
 					"type": "entries",
 					"name": "Balance à poids et glyphe de lune",
 					"entries": [
-						"Dissimulée sous le bol se trouve une {@item Baguette immuable} qui sépare le bol d'une grande balance à poids juste en dessous. On peut détecter la tige au moyen du sort {@spell Detect Magic}. Désactiver la tige (voir « Levier » ci-dessous) la fait tomber, déposant le bol sur la balance. On ne peut pas récupérer la tige depuis cette salle.",
+						"Dissimulée sous le bol se trouve une {@item Baguette immuable} qui sépare le bol d'une grande balance à poids juste en dessous. On peut détecter la tige au moyen du sort {@spell Détection de la magie}. Désactiver la tige (voir « Levier » ci-dessous) la fait tomber, déposant le bol sur la balance. On ne peut pas récupérer la tige depuis cette salle.",
 						"Une magie de transmutation relie la balance au glyphe de lune au-dessus de la herse. À mesure que le poids placé sur la balance augmente, le glyphe de lune au-dessus de la herse se remplit et brille davantage. Quand une pression totale de 2 000 kilos est exercée sur la balance, le glyphe est totalement illuminé, comme une pleine lune, et la herse s'ouvre. La herse reste ouverte tant que le glyphe de lune demeure plein.",
 						{
 							"type": "inset",
 							"entries": [
 								"Sous pression",
-								"Des personnages avisés pourraient réaliser que pousser des ennemis dans le bol est un moyen rapide de résoudre le piège. Des sorts tels que {@spell Telekinesis} ou {@spell Levitate} pourraient aussi, le cas échéant, ajouter de la pression sur la balance sous le bol."
+								"Des personnages avisés pourraient réaliser que pousser des ennemis dans le bol est un moyen rapide de résoudre le piège. Des sorts tels que {@spell Télékinésie} ou {@spell Lévitation} pourraient aussi, le cas échéant, ajouter de la pression sur la balance sous le bol."
 							]
 						}
 					]
@@ -1568,7 +1568,7 @@
 			"entries": [
 				"Des potions avariées, des objets magiques brisés ou des eaux usées d'ateliers magiques peuvent polluer les cours d'eau, créant une vase appelée effluve arcanique. Alors que beaucoup de Néthérilains des basses terres reconnaissent l'éclat violet singulier de l'effluve, les mages négligents des cités volantes ignorent généralement jusqu'à l'existence d'une telle pollution.",
 				"Une plaque d'effluve arcanique couvre un carré de 1,5 mètre de côté, et les créatures à 9 mètres ou moins d'elle peuvent sentir son odeur âcre et contre-nature. Une créature qui entre en contact avec de l'effluve arcanique subit 3 ({@dice 1d6}) dégâts d'acide. La créature subit de nouveau ces dégâts au début de chacun de ses tours tant que l'effluve n'a pas été raclé (ce qui exige une action) ou détruit.",
-				"Le sort {@spell Dispel Magic|XPHB} ou un effet similaire détruit l'effluve arcanique."
+				"Le sort {@spell Dissipation de la magie|XPHB} ou un effet similaire détruit l'effluve arcanique."
 			]
 		},
 		{
@@ -1688,7 +1688,7 @@
 			"page": 68,
 			"trapHazType": "ENV",
 			"entries": [
-				"Une zone de magie morte est une zone où le tissu de la magie est déchiré. L'effet est identique à celui du sort {@spell Antimagic Field|XPHB}, si ce n'est qu'il est permanent et couvre typiquement une zone d'au plus 90 mètres de diamètre."
+				"Une zone de magie morte est une zone où le tissu de la magie est déchiré. L'effet est identique à celui du sort {@spell Antichamp magique|XPHB}, si ce n'est qu'il est permanent et couvre typiquement une zone d'au plus 90 mètres de diamètre."
 			]
 		},
 		{
@@ -1863,9 +1863,9 @@
 			"page": 110,
 			"trapHazType": "WLD",
 			"entries": [
-				"Certains cimetières et catacombes sont imprégnés des traces invisibles d'un mal ancien. Une zone de terrain profané peut être de toute taille, et un sort {@spell detect evil and good} lancé à portée révèle sa présence.",
+				"Certains cimetières et catacombes sont imprégnés des traces invisibles d'un mal ancien. Une zone de terrain profané peut être de toute taille, et un sort {@spell Détection du mal et du bien} lancé à portée révèle sa présence.",
 				"Les morts-vivants debout sur un terrain profané ont un avantage à tous les jets de sauvegarde.",
-				"Un flacon d'{@item Eau bénite (fiole)|phb|eau bénite} purifie une zone de terrain profané de 3 mètres sur 3 lorsqu'il est aspergé dessus, et un sort {@spell hallow} purifie le terrain profané dans sa zone."
+				"Un flacon d'{@item Eau bénite (fiole)|phb|eau bénite} purifie une zone de terrain profané de 3 mètres sur 3 lorsqu'il est aspergé dessus, et un sort {@spell Consécration} purifie le terrain profané dans sa zone."
 			]
 		},
 		{
@@ -1950,7 +1950,7 @@
 			],
 			"entries": [
 				"Un champignon-boule de feu est un champignon inanimé de taille P qui peut pousser partout où les champignons abondent. Son chapeau orange et luminescent émet une {@variantrule Bright Light|XPHB} dans un rayon de 4,5 mètres et une {@variantrule Dim Light|XPHB} sur 4,5 mètres supplémentaires.",
-				"Un champignon-boule de feu a une CA de 10, 6 pv et une {@variantrule Immunity|XPHB} aux dégâts psychiques. Quand il tombe à 0 point de vie, le champignon explose comme si un sort {@spell Fireball|XPHB} (jet de sauvegarde {@dc 15}) avait été centré sur lui.",
+				"Un champignon-boule de feu a une CA de 10, 6 pv et une {@variantrule Immunity|XPHB} aux dégâts psychiques. Quand il tombe à 0 point de vie, le champignon explose comme si un sort {@spell Boule de feu|XPHB} (jet de sauvegarde {@dc 15}) avait été centré sur lui.",
 				{
 					"type": "entries",
 					"name": "À plus haut niveau",
@@ -2450,7 +2450,7 @@
 					"type": "entries",
 					"name": "Bienveillance bénie",
 					"entries": [
-						"Sur le plan du {@book Mount Celestia|XDMG|5|Mont Célestia} et dans les régions où son influence se fait sentir, les créatures sont bénies par la bienveillance envahissante du plan. Les créatures autres que les fiélons et les morts-vivants tirent le bénéfice du sort {@spell Bless|XPHB} tant qu'elles demeurent dans une zone de bienveillance bénie. De plus, une telle créature qui termine un Repos Long dans la zone obtient le bénéfice d'un sort {@spell Lesser Restoration|XPHB}."
+						"Sur le plan du {@book Mount Celestia|XDMG|5|Mont Célestia} et dans les régions où son influence se fait sentir, les créatures sont bénies par la bienveillance envahissante du plan. Les créatures autres que les fiélons et les morts-vivants tirent le bénéfice du sort {@spell Bénédiction|XPHB} tant qu'elles demeurent dans une zone de bienveillance bénie. De plus, une telle créature qui termine un Repos Long dans la zone obtient le bénéfice d'un sort {@spell Restauration partielle|XPHB}."
 					]
 				},
 				{
@@ -2637,7 +2637,7 @@
 			"entries": [
 				"Le {@book River Styx|XDMG|5|fleuve Styx} traverse les Plans Inférieurs. Goûter ou toucher ses eaux peut briser l'intellect et la personnalité d'une créature, ainsi qu'effacer ses souvenirs. Certains fiélons sont immunisés aux effets du fleuve.",
 				"À moins d'être immunisée aux effets du fleuve, une créature qui boit dans le Styx, entre dans le fleuve ou y commence son tour effectue un jet de sauvegarde d'Intelligence {@dc 20}. En cas d'échec, la créature subit 19 ({@damage 3d12}) dégâts psychiques et ne peut pas lancer de sorts ni utiliser l'action {@action Magie|XPHB} pendant 30 jours. Une créature affectée peut boire dans le Styx et nager dans ses eaux sans subir d'effets supplémentaires.",
-				"Cet effet ne peut être levé que par un sort {@spell Greater Restoration|XPHB}, {@spell Heal|XPHB} ou {@spell Wish|XPHB}. Si l'effet n'est pas levé après 30 jours, il devient permanent et la créature perd tous ses souvenirs. À ce stade, seul un sort {@spell Wish|XPHB} ou une intervention divine peut annuler l'effet.",
+				"Cet effet ne peut être levé que par un sort {@spell Restauration supérieure|XPHB}, {@spell Guérison|XPHB} ou {@spell Souhait|XPHB}. Si l'effet n'est pas levé après 30 jours, il devient permanent et la créature perd tous ses souvenirs. À ce stade, seul un sort {@spell Souhait|XPHB} ou une intervention divine peut annuler l'effet.",
 				"L'eau prélevée dans le fleuve Styx perd sa puissance après 24 heures, devenant un liquide inoffensif au goût infect. Les arcanaloths, les night hags et autres créatures malfaisantes pourraient connaître des rituels capables de prolonger la puissance de l'eau, à votre discrétion."
 			]
 		},
@@ -2914,7 +2914,7 @@
 			"entries": [
 				"Les vignes malfaisantes sont animées par la magie. Elles s'accrochent souvent aux portes, aux arches, aux murs et aux statues. Tant qu'une vigne malfaisante ne bouge pas, rien ne permet de la distinguer d'une liane inerte.",
 				"Chaque vigne malfaisante a une CA de 11 ; 16 pv ; et une Immunité aux dégâts contondants, perforants et psychiques. Quand une créature entre dans un espace situé à 1,5 mètre ou moins de la vigne pour la première fois d'un tour ou y commence son tour, la vigne tente de s'enrouler autour de cette créature. La cible doit réussir un jet de sauvegarde de Dextérité {@dc 12} ou subir l'état {@condition Agrippé|XPHB} (évasion {@dc 12}). Tant qu'elle est Agrippée de cette manière, la cible subit 5 ({@damage 1d10}) dégâts nécrotiques infligés par les épines draineuses de vie de la vigne au début de chacun de ses tours. La vigne ne peut agripper qu'une seule créature à la fois.",
-				"Par une action {@action Influence|XPHB}, un personnage sous l'effet d'un sort {@spell Speak with Plants|XPHB} ou d'une magie similaire peut tenter de persuader la vigne de relâcher sa victime, y parvenant grâce à un test de Charisme {@dc 10} réussi ({@skill Persuasion|XPHB}). Une créature relâchée par la vigne de cette manière ne sera plus attaquée par cette vigne pendant les 24 heures suivantes.",
+				"Par une action {@action Influence|XPHB}, un personnage sous l'effet d'un sort {@spell Parler aux plantes|XPHB} ou d'une magie similaire peut tenter de persuader la vigne de relâcher sa victime, y parvenant grâce à un test de Charisme {@dc 10} réussi ({@skill Persuasion|XPHB}). Une créature relâchée par la vigne de cette manière ne sera plus attaquée par cette vigne pendant les 24 heures suivantes.",
 				{
 					"type": "entries",
 					"name": "À plus haut niveau",

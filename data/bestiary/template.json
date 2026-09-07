@@ -32,7 +32,7 @@
 			"name": "Awakened",
 			"source": "PHB",
 			"page": 216,
-			"ref": "{@spell Awaken}",
+			"ref": "{@spell Éveil}",
 			"prerequisite": {
 				"size": {
 					"max": "H"
@@ -159,13 +159,13 @@
 									"<$title_short_name$>'s innate spellcasting ability is Intelligence (spell save {@dc <$spell_dc__int$>}). <$title_short_name$> can innately cast the following spells, requiring no material components:"
 								],
 								"will": [
-									"{@spell nondetection} (self only)"
+									"{@spell Occultation} (self only)"
 								],
 								"daily": {
 									"1e": [
-										"{@spell blindness/deafness}",
-										"{@spell blur}",
-										"{@spell disguise self}"
+										"{@spell Cécité/Surdité}",
+										"{@spell Distorsion}",
+										"{@spell Déguisement}"
 									]
 								},
 								"ability": "int"
@@ -358,12 +358,12 @@
 									"<$title_short_name$>'s innate spellcasting ability is Charisma (spell save {@dc <$spell_dc__cha$>}). <$title_short_name$> can innately cast the following spells, requiring no material components:"
 								],
 								"will": [
-									"{@spell dancing lights}"
+									"{@spell Lumières dansantes}"
 								],
 								"daily": {
 									"1e": [
-										"{@spell darkness}",
-										"{@spell faerie fire}"
+										"{@spell Ténèbres}",
+										"{@spell Lueur féérique}"
 									]
 								},
 								"ability": "cha"
@@ -443,13 +443,13 @@
 									"<$title_short_name$>'s innate spellcasting ability is Charisma (spell save {@dc <$spell_dc__cha$>}). <$title_short_name$> can innately cast the following spells, requiring no material components:"
 								],
 								"will": [
-									"{@spell dancing lights}"
+									"{@spell Lumières dansantes}"
 								],
 								"daily": {
 									"1e": [
-										"{@spell darkness}",
-										"{@spell faerie fire}",
-										"{@spell levitate} (self only)"
+										"{@spell Ténèbres}",
+										"{@spell Lueur féérique}",
+										"{@spell Lévitation} (self only)"
 									]
 								},
 								"ability": "cha"
@@ -3117,13 +3117,13 @@
 											"The target is {@condition Aveuglé}, {@condition Assourdi}, or both. When this curse ends, the Vistana takes {@damage 5d6} psychic damage."
 										]
 									},
-									"The curse lasts until ended with a {@spell greater restoration} spell, a {@spell remove curse} spell, or similar magic. It doesn't end when the target dies. If a cursed target is returned to life, the curse remains in effect."
+									"The curse lasts until ended with a {@spell Restauration supérieure} spell, a {@spell Délivrance de la malédiction} spell, or similar magic. It doesn't end when the target dies. If a cursed target is returned to life, the curse remains in effect."
 								]
 							},
 							{
 								"name": "Evil Eye (Recharges after a Short or Long Rest)",
 								"entries": [
-									"As an action, a Vistana can target a creature within 10 feet that the Vistana can see. This magical ability, which the Vistani call the Evil Eye, duplicates the duration and effect of the {@spell animal friendship}, {@spell charm person}, or {@spell hold person} spell (Vistana's choice; spell {@dc <$spell_dc__cha$>}), but requires neither somatic nor material components. If the target succeeds on the save, the Vistana is {@condition Aveuglé} until the end of the Vistana's next turn.",
+									"As an action, a Vistana can target a creature within 10 feet that the Vistana can see. This magical ability, which the Vistani call the Evil Eye, duplicates the duration and effect of the {@spell Amitié animale}, {@spell Charmement}, or {@spell Immobiliser un personnage} spell (Vistana's choice; spell {@dc <$spell_dc__cha$>}), but requires neither somatic nor material components. If the target succeeds on the save, the Vistana is {@condition Aveuglé} until the end of the Vistana's next turn.",
 									"A Vistana who uses Evil Eye can't use it again before finishing a short or long rest. Once a target succeeds on a saving throw against a Vistana's Evil Eye, it is immune to the Evil Eye of all Vistani for 24 hours."
 								]
 							}
@@ -3299,8 +3299,8 @@
 									"<$title_short_name$>'s innate spellcasting ability is Charisma (spell save {@dc <$spell_dc__cha$>}). <$title_short_name$> can innately cast the following spells, requiring no material components:"
 								],
 								"will": [
-									"{@spell animal friendship} (snakes only)",
-									"{@spell poison spray}"
+									"{@spell Amitié animale} (snakes only)",
+									"{@spell Jet de poison}"
 								],
 								"daily": {
 									"3e": [

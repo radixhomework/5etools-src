@@ -274,20 +274,20 @@
 						"Quill casts one of the following spells using Charisma as the spellcasting ability (save {@dc 17}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand}",
+						"{@spell Lumière}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell detect magic}",
-							"{@spell dispel magic}",
-							"{@spell faerie fire}",
-							"{@spell hold monster}"
+							"{@spell Détection de la magie}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Lueur féérique}",
+							"{@spell Immobilisation de monstre}"
 						],
 						"1e": [
-							"{@spell mind blank}",
-							"{@spell teleport}"
+							"{@spell Vide mental}",
+							"{@spell Téléportation}"
 						]
 					},
 					"ability": "cha",
@@ -736,14 +736,14 @@
 						"The ghost casts one of the following spells, using Charisma as the spellcasting ability and requiring no material components:"
 					],
 					"will": [
-						"{@spell fog cloud}"
+						"{@spell Nuage de brouillard}"
 					],
 					"daily": {
 						"1": [
-							"{@spell control weather}"
+							"{@spell Contrôle du climat}"
 						],
 						"3": [
-							"{@spell telekinesis}"
+							"{@spell Télékinésie}"
 						]
 					},
 					"ability": "cha",
@@ -1233,51 +1233,51 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell Flamme sacrée}",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell command}",
-								"{@spell guiding bolt}",
-								"{@spell shield of faith}"
+								"{@spell Ordre}",
+								"{@spell Trait de lumière}",
+								"{@spell Bouclier de la foi}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
+								"{@spell Immobiliser un personnage}",
 								"{@spell silence}",
-								"{@spell spiritual weapon}"
+								"{@spell Arme spirituelle}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell animate dead}",
-								"{@spell dispel magic}"
+								"{@spell Animation des morts}",
+								"{@spell Dissipation de la magie}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell divination}",
-								"{@spell guardian of faith}"
+								"{@spell Gardien de la foi}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell contagion}",
-								"{@spell insect plague}"
+								"{@spell Nuée d'insectes}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell harm}"
+								"{@spell Infection}"
 							]
 						}
 					},
@@ -1308,7 +1308,7 @@
 				{
 					"name": "Rotting Fist",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) bludgeoning damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to spores. The curse lasts until removed by the {@spell remove curse} spell or other magic."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) bludgeoning damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to spores. The curse lasts until removed by the {@spell Délivrance de la malédiction} spell or other magic."
 					]
 				},
 				{
@@ -1636,43 +1636,43 @@
 								"1": {
 									"slots": 4,
 									"spells": [
-										"{@spell charm person}",
-										"{@spell witch bolt}"
+										"{@spell Charmement}",
+										"{@spell Décharge occulte}"
 									]
 								},
 								"2": {
 									"slots": 3,
 									"spells": [
-										"{@spell alter self}",
+										"{@spell Changement d'apparence}",
 										"{@spell suggestion}"
 									]
 								},
 								"3": {
 									"slots": 3,
 									"spells": [
-										"{@spell dispel magic}",
-										"{@spell glyph of warding}",
-										"{@spell slow}"
+										"{@spell Dissipation de la magie}",
+										"{@spell Glyphe de garde}",
+										"{@spell Lenteur}"
 									]
 								},
 								"4": {
 									"slots": 3,
 									"spells": [
-										"{@spell blight}",
-										"{@spell polymorph}"
+										"{@spell Ravage}",
+										"{@spell Polymorphie}"
 									]
 								},
 								"5": {
 									"slots": 2,
 									"spells": [
-										"{@spell dominate person}",
-										"{@spell seeming}"
+										"{@spell Soumission d'humanoïde}",
+										"{@spell Apparence}"
 									]
 								},
 								"6": {
 									"slots": 1,
 									"spells": [
-										"{@spell Otto's irresistible dance}"
+										"{@spell Danse irrésistible d'Otto}"
 									]
 								}
 							},
@@ -1995,25 +1995,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
-								"{@spell produce flame}",
+								"{@spell Druidisme}",
+								"{@spell Production de flamme}",
 								"{@spell shillelagh}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell entangle}",
-								"{@spell longstrider}",
-								"{@spell speak with animals}",
-								"{@spell thunderwave}"
+								"{@spell Enchevêtrement}",
+								"{@spell Longue foulée}",
+								"{@spell Parler aux animaux}",
+								"{@spell Onde de tonnerre}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell animal messenger}",
-								"{@spell barkskin}"
+								"{@spell Messager animal}",
+								"{@spell Écorce}"
 							]
 						}
 					},
@@ -2298,21 +2298,21 @@
 						"The lich casts one of the following spells using Wisdom as the spellcasting ability (save {@dc 19}):"
 					],
 					"will": [
-						"{@spell druidcraft}"
+						"{@spell Druidisme}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell detect magic}",
-							"{@spell fog cloud}",
-							"{@spell pass without trace}"
+							"{@spell Détection de la magie}",
+							"{@spell Nuage de brouillard}",
+							"{@spell Passage sans trace}"
 						],
 						"1e": [
-							"{@spell antilife shell}",
-							"{@spell dispel magic}",
-							"{@spell speak with plants}",
-							"{@spell transport via plants}",
+							"{@spell Coque antivie}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Parler aux plantes}",
+							"{@spell Voyage par les plantes}",
 							{
-								"entry": "{@spell fire storm}",
+								"entry": "{@spell Tempête de feu}",
 								"hidden": true
 							}
 						]
@@ -2614,42 +2614,42 @@
 						"The sage casts one of the following spells, using Intelligence as the spellcasting ability (save {@dc 16}, {@hit 8} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand}",
-						"{@spell mending}",
+						"{@spell Lumière}",
+						"{@spell Main du mage}",
+						"{@spell Réparation}",
 						"{@spell prestidigitation}",
 						{
-							"entry": "{@spell Shocking Grasp}",
+							"entry": "{@spell Poing électrique}",
 							"hidden": true
 						}
 					],
 					"daily": {
 						"3e": [
-							"{@spell comprehend languages}",
-							"{@spell detect magic}",
-							"{@spell dispel magic}",
-							"{@spell identify}",
-							"{@spell levitate}",
-							"{@spell locate object}",
+							"{@spell Compréhension des langues}",
+							"{@spell Détection de la magie}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Identification}",
+							"{@spell Lévitation}",
+							"{@spell Localisation d'objet}",
 							{
-								"entry": "{@spell Shield}",
+								"entry": "{@spell Bouclier}",
 								"hidden": true
 							},
-							"{@spell Tenser's Floating Disk}",
-							"{@spell unseen servant}"
+							"{@spell Disque flottant de Tenser}",
+							"{@spell Servant invisible}"
 						],
 						"1e": [
-							"{@spell banishment}",
-							"{@spell contact other plane}",
-							"{@spell Drawmij's instant summons}",
-							"{@spell legend lore}",
-							"{@spell locate creature}",
-							"{@spell planar binding}",
-							"{@spell polymorph}",
-							"{@spell protection from evil and good}",
-							"{@spell scrying}",
-							"{@spell sending}",
-							"{@spell true seeing}"
+							"{@spell Bannissement}",
+							"{@spell Contact avec les autres plans}",
+							"{@spell Convocation instantanée de Drawmij}",
+							"{@spell Connaissance des légendes}",
+							"{@spell Localisation de créature}",
+							"{@spell Lien planaire}",
+							"{@spell Polymorphie}",
+							"{@spell Protection contre le mal et le bien}",
+							"{@spell Scrutation}",
+							"{@spell Envoi de message}",
+							"{@spell Vision véritable}"
 						]
 					},
 					"ability": "int",
@@ -2674,7 +2674,7 @@
 				{
 					"name": "Shield (1st-Level Spell; 3/Day)",
 					"entries": [
-						"When the sage is hit by an attack or targeted by a {@spell magic missile} spell, it calls forth an {@condition invisible} barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
+						"When the sage is hit by an attack or targeted by a {@spell Projectile magique} spell, it calls forth an {@condition invisible} barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
 					]
 				}
 			],
@@ -2795,19 +2795,19 @@
 						"Miirym casts one of the following spells, using Charisma as the spellcasting ability (save {@dc 21}) and requiring no material components:"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}"
+						"{@spell Lumières dansantes}",
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell detect magic}",
-							"{@spell detect thoughts}",
-							"{@spell dispel magic}",
-							"{@spell locate creature}"
+							"{@spell Détection de la magie}",
+							"{@spell Détection de pensées}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Localisation de créature}"
 						],
 						"1e": [
-							"{@spell dispel evil and good}",
-							"{@spell wall of force}"
+							"{@spell Dissipation du mal et du bien}",
+							"{@spell Mur de force}"
 						]
 					},
 					"ability": "cha",
@@ -3135,9 +3135,9 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell faerie fire}",
-							"{@spell mirror image}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Lueur féérique}",
+							"{@spell Image dédoublée}"
 						]
 					},
 					"ability": "cha",
@@ -3454,24 +3454,24 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}",
-								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell Lumière}",
+								"{@spell Flamme sacrée}",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell command}",
-								"{@spell inflict wounds}",
-								"{@spell shield of faith}"
+								"{@spell Ordre}",
+								"{@spell Blessures infligées}",
+								"{@spell Bouclier de la foi}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell spiritual weapon}"
+								"{@spell Immobiliser un personnage}",
+								"{@spell Arme spirituelle}"
 							]
 						}
 					},
@@ -3600,32 +3600,32 @@
 						"The sage casts one of the following spells, using Intelligence as the spellcasting ability (save {@dc 14}, {@hit 6} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand}",
-						"{@spell mending}",
+						"{@spell Lumière}",
+						"{@spell Main du mage}",
+						"{@spell Réparation}",
 						{
-							"entry": "{@spell shocking grasp}",
+							"entry": "{@spell Poing électrique}",
 							"hidden": true
 						}
 					],
 					"daily": {
 						"3e": [
-							"{@spell comprehend languages}",
-							"{@spell detect magic}",
-							"{@spell identify}",
+							"{@spell Compréhension des langues}",
+							"{@spell Détection de la magie}",
+							"{@spell Identification}",
 							{
-								"entry": "{@spell shield}",
+								"entry": "{@spell Bouclier}",
 								"hidden": true
 							}
 						],
 						"1e": [
-							"{@spell dispel magic}",
-							"{@spell levitate}",
-							"{@spell locate object}",
-							"{@spell see invisibility}",
-							"{@spell sending}",
-							"{@spell tongues}",
-							"{@spell unseen servant}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Lévitation}",
+							"{@spell Localisation d'objet}",
+							"{@spell Voir l'invisible}",
+							"{@spell Envoi de message}",
+							"{@spell Don des langues}",
+							"{@spell Servant invisible}"
 						]
 					},
 					"ability": "int",
@@ -3644,7 +3644,7 @@
 				{
 					"name": "Shield (1st-Level Spell; 3/Day)",
 					"entries": [
-						"When the sage is hit by an attack or targeted by a {@spell magic missile} spell, it calls forth an {@condition invisible} barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
+						"When the sage is hit by an attack or targeted by a {@spell Projectile magique} spell, it calls forth an {@condition invisible} barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
 					]
 				}
 			],
@@ -3772,7 +3772,7 @@
 				{
 					"name": "Sapphire",
 					"entries": [
-						"The sapphire has 3 charges. As an action, the golem can expend 1 charge to cast {@spell dispel magic} (as a 9th-level spell) from the sapphire using Constitution as its spellcasting ability. The sapphire ceases to glow if all its charges are expended, but it regains {@dice 1d3} expended charges daily at dawn and glows again once it has 1 or more charges."
+						"The sapphire has 3 charges. As an action, the golem can expend 1 charge to cast {@spell Dissipation de la magie} (as a 9th-level spell) from the sapphire using Constitution as its spellcasting ability. The sapphire ceases to glow if all its charges are expended, but it regains {@dice 1d3} expended charges daily at dawn and glows again once it has 1 or more charges."
 					]
 				}
 			],
@@ -4476,51 +4476,51 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell Flamme sacrée}",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell command}",
-								"{@spell guiding bolt}",
-								"{@spell shield of faith}"
+								"{@spell Ordre}",
+								"{@spell Trait de lumière}",
+								"{@spell Bouclier de la foi}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
+								"{@spell Immobiliser un personnage}",
 								"{@spell silence}",
-								"{@spell spiritual weapon}"
+								"{@spell Arme spirituelle}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell clairvoyance}",
-								"{@spell dispel magic}"
+								"{@spell Dissipation de la magie}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell divination}",
-								"{@spell dimension door}"
+								"{@spell Porte dimensionnelle}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell contagion}",
-								"{@spell scrying}"
+								"{@spell Scrutation}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell harm}"
+								"{@spell Infection}"
 							]
 						}
 					},
@@ -4551,7 +4551,7 @@
 				{
 					"name": "Rotting Fist",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) bludgeoning damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the {@spell remove curse} spell or other magic."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) bludgeoning damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the {@spell Délivrance de la malédiction} spell or other magic."
 					]
 				},
 				{
@@ -4818,7 +4818,7 @@
 						"spells": {
 							"5": {
 								"spells": [
-									"{@spell conjure elemental}"
+									"{@spell Invocation d'élémentaire}"
 								]
 							}
 						}

@@ -142,7 +142,7 @@
 			],
 			"entries": [
 				"Je suis un métamorphe. Je ne possède aucun des traits de la race que j'imite, mais je conserve mes capacités de classe, mon historique et mon alignement. J'ai la {@sense Vision dans le noir} sur une portée de 18 mètres. Je peux utiliser une action pour faire, à volonté, l'une des choses suivantes :",
-				"Je peux lancer innément {@spell detect thoughts}, sans composantes. Ma caractéristique d'incantation est l'Intelligence. Le DD de sauvegarde de Sagesse du sort est 8 + mon bonus de maîtrise + mon modificateur d'Intelligence. Je peux me métamorphoser en n'importe quel humanoïde que j'ai déjà vu ou retrouver ma forme véritable. Mes statistiques, à part ma taille, ne changent pas. L'équipement que je porte ou transporte n'est pas transformé. Je reprends ma forme véritable quand je meurs."
+				"Je peux lancer innément {@spell Détection de pensées}, sans composantes. Ma caractéristique d'incantation est l'Intelligence. Le DD de sauvegarde de Sagesse du sort est 8 + mon bonus de maîtrise + mon modificateur d'Intelligence. Je peux me métamorphoser en n'importe quel humanoïde que j'ai déjà vu ou retrouver ma forme véritable. Mes statistiques, à part ma taille, ne changent pas. L'équipement que je porte ou transporte n'est pas transformé. Je reprends ma forme véritable quand je meurs."
 			]
 		},
 		{
@@ -405,7 +405,7 @@
 										],
 										[
 											"4",
-											"Au cours des 10 prochaines minutes, vous pouvez demander à vos esprits le résultat d'une ligne d'action précise que vous comptez suivre dans les 30 prochaines minutes. Vous pouvez recevoir un présage comme si vous aviez lancé le sort {@spell augury}. Le présage se manifeste sous la forme de murmures de vos esprits, perceptibles de vous seul."
+											"Au cours des 10 prochaines minutes, vous pouvez demander à vos esprits le résultat d'une ligne d'action précise que vous comptez suivre dans les 30 prochaines minutes. Vous pouvez recevoir un présage comme si vous aviez lancé le sort {@spell Augure}. Le présage se manifeste sous la forme de murmures de vos esprits, perceptibles de vous seul."
 										]
 									]
 								}
@@ -547,7 +547,7 @@
 							"name": "Protection éclairée",
 							"page": 12,
 							"entries": [
-								"Vous pouvez lancer {@spell protection from evil and good} grâce à ce trait, en ne ciblant que vous-même et sans composantes matérielles. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long. La Sagesse est votre caractéristique d'incantation pour ce trait."
+								"Vous pouvez lancer {@spell Protection contre le mal et le bien} grâce à ce trait, en ne ciblant que vous-même et sans composantes matérielles. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long. La Sagesse est votre caractéristique d'incantation pour ce trait."
 							]
 						},
 						{
@@ -565,7 +565,7 @@
 					"page": 12,
 					"entries": [
 						"{@i Trait d'Iconoclaste de niveau 5}",
-						"Vous pouvez lancer {@spell dispel magic} grâce à ce trait. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long."
+						"Vous pouvez lancer {@spell Dissipation de la magie} grâce à ce trait. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long."
 					]
 				},
 				{
@@ -574,8 +574,8 @@
 					"page": 13,
 					"entries": [
 						"{@i Trait d'Iconoclaste de niveau 11}",
-						"Vous pouvez lancer {@spell dispel evil and good} grâce à ce trait, sans composantes matérielles. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long.",
-						"En outre, quand vous lancez {@spell dispel magic} grâce à votre trait de Héros iconoclaste, vous le lancez comme un sort de niveau 4."
+						"Vous pouvez lancer {@spell Dissipation du mal et du bien} grâce à ce trait, sans composantes matérielles. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long.",
+						"En outre, quand vous lancez {@spell Dissipation de la magie} grâce à votre trait de Héros iconoclaste, vous le lancez comme un sort de niveau 4."
 					]
 				},
 				{
@@ -584,8 +584,8 @@
 					"page": 13,
 					"entries": [
 						"{@i Trait d'Iconoclaste de niveau 17}",
-						"Vous pouvez lancer {@spell antimagic field} grâce à ce trait, sans composantes matérielles. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long.",
-						"En outre, quand vous lancez {@spell dispel magic} grâce à votre trait de Héros iconoclaste, vous le lancez comme un sort de niveau 5.",
+						"Vous pouvez lancer {@spell Antichamp magique} grâce à ce trait, sans composantes matérielles. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long.",
+						"En outre, quand vous lancez {@spell Dissipation de la magie} grâce à votre trait de Héros iconoclaste, vous le lancez comme un sort de niveau 5.",
 						{
 							"type": "table",
 							"caption": "Caractéristiques d'un Iconoclaste",
@@ -845,7 +845,7 @@
 							"type": "entries",
 							"name": "Ombre saisissante",
 							"entries": [
-								"Vous apprenez le tour de magie {@spell mage hand} si vous ne le connaissez pas déjà, et vous n'avez besoin d'aucune composante pour le lancer. La main créée par le sort est ombreuse, mais elle n'est pas liée à votre véritable ombre. Votre caractéristique d'incantation pour ce sort est l'Intelligence, la Sagesse ou le Charisme (à votre choix lorsque vous gagnez ce Don funeste)."
+								"Vous apprenez le tour de magie {@spell Main du mage} si vous ne le connaissez pas déjà, et vous n'avez besoin d'aucune composante pour le lancer. La main créée par le sort est ombreuse, mais elle n'est pas liée à votre véritable ombre. Votre caractéristique d'incantation pour ce sort est l'Intelligence, la Sagesse ou le Charisme (à votre choix lorsque vous gagnez ce Don funeste)."
 							]
 						},
 						{
@@ -924,7 +924,7 @@
 							"type": "entries",
 							"name": "Pas brumeux",
 							"entries": [
-								"Vous pouvez lancer le sort {@spell misty step}, sans emplacement de sort, et vous devez terminer un repos long avant de pouvoir le lancer à nouveau de cette façon. Votre caractéristique d'incantation pour ce sort est l'Intelligence, la Sagesse ou le Charisme (à votre choix lorsque vous gagnez ce Don funeste). Si vous possédez des emplacements de sorts de niveau 2 ou supérieur, vous pouvez lancer ce sort avec eux."
+								"Vous pouvez lancer le sort {@spell Pas brumeux}, sans emplacement de sort, et vous devez terminer un repos long avant de pouvoir le lancer à nouveau de cette façon. Votre caractéristique d'incantation pour ce sort est l'Intelligence, la Sagesse ou le Charisme (à votre choix lorsque vous gagnez ce Don funeste). Si vous possédez des emplacements de sorts de niveau 2 ou supérieur, vous pouvez lancer ce sort avec eux."
 							]
 						},
 						{
@@ -1127,7 +1127,7 @@
 					"page": 16,
 					"entries": [
 						"{@i Trait d'Oracle de piété 3 ou plus}",
-						"Vous pouvez lancer {@spell augury} comme un rituel grâce à ce trait. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long."
+						"Vous pouvez lancer {@spell Augure} comme un rituel grâce à ce trait. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long."
 					]
 				},
 				{
@@ -1145,7 +1145,7 @@
 					"page": 16,
 					"entries": [
 						"{@i Trait d'Oracle de piété 25 ou plus}",
-						"Vous pouvez lancer {@spell commune} comme un rituel grâce à ce trait. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long.",
+						"Vous pouvez lancer {@spell Communion} comme un rituel grâce à ce trait. Une fois que vous l'avez fait, vous ne pouvez plus le lancer de cette façon avant d'avoir terminé un repos long.",
 						"Vous ne pouvez pas non plus être {@status Surpris}, tant que vous n'êtes pas {@condition Incapable}."
 					]
 				},
@@ -1354,7 +1354,7 @@
 				"CS"
 			],
 			"entries": [
-				"Je suis mort et j'ai été ramené à la vie par un gentil druide humain grâce au sort {@spell reincarnate}. J'ignore totalement ce qu'est devenu ce druide, dont je ne connais pas le nom. J'ai conservé les souvenirs de ma vie précédente, dont une partie ou la totalité s'est déroulée dans Icewind Dale. (Lancez les dés sur la table de la description du sort pour déterminer la race précédente de votre personnage, ou choisissez dans la table la race qui vous plaît, puis étoffez l'histoire de votre vie précédente.)"
+				"Je suis mort et j'ai été ramené à la vie par un gentil druide humain grâce au sort {@spell Réincarnation}. J'ignore totalement ce qu'est devenu ce druide, dont je ne connais pas le nom. J'ai conservé les souvenirs de ma vie précédente, dont une partie ou la totalité s'est déroulée dans Icewind Dale. (Lancez les dés sur la table de la description du sort pour déterminer la race précédente de votre personnage, ou choisissez dans la table la race qui vous plaît, puis étoffez l'histoire de votre vie précédente.)"
 			]
 		},
 		{
@@ -1434,15 +1434,15 @@
 							"type": "entries",
 							"name": "Métamorphose",
 							"entries": [
-								"Vous pouvez lancer le sort {@spell alter self} pour apparaître sous votre seconde forme. Ce faisant, vous gagnez les effets de l'option Changer d'apparence de ce sort et ne pouvez pas y mettre fin pour profiter des avantages d'une autre option. Lancer {@spell alter self} de cette façon ne nécessite aucun emplacement de sort, et vous devez terminer un repos long avant de pouvoir le lancer à nouveau ainsi. Votre caractéristique d'incantation pour ce sort est l'Intelligence, la Sagesse ou le Charisme (à votre choix lorsque vous gagnez ce Don funeste). Si vous possédez des emplacements de sorts de niveau 2 ou supérieur, vous pouvez lancer ce sort avec eux.",
-								"Quand vous lancez {@spell alter self} grâce à cette capacité, un aspect esthétique de votre seconde forme subsiste après la fin du sort. Cela vous marque visiblement, sauf si vous le cachez ou le déguisez activement. La marque est un changement perceptible, comme une peau écailleuse, des ailes atrophiées, des yeux sans pupilles ou des cornes. La marque s'estompe après que vous avez terminé un repos long."
+								"Vous pouvez lancer le sort {@spell Changement d'apparence} pour apparaître sous votre seconde forme. Ce faisant, vous gagnez les effets de l'option Changer d'apparence de ce sort et ne pouvez pas y mettre fin pour profiter des avantages d'une autre option. Lancer {@spell Changement d'apparence} de cette façon ne nécessite aucun emplacement de sort, et vous devez terminer un repos long avant de pouvoir le lancer à nouveau ainsi. Votre caractéristique d'incantation pour ce sort est l'Intelligence, la Sagesse ou le Charisme (à votre choix lorsque vous gagnez ce Don funeste). Si vous possédez des emplacements de sorts de niveau 2 ou supérieur, vous pouvez lancer ce sort avec eux.",
+								"Quand vous lancez {@spell Changement d'apparence} grâce à cette capacité, un aspect esthétique de votre seconde forme subsiste après la fin du sort. Cela vous marque visiblement, sauf si vous le cachez ou le déguisez activement. La marque est un changement perceptible, comme une peau écailleuse, des ailes atrophiées, des yeux sans pupilles ou des cornes. La marque s'estompe après que vous avez terminé un repos long."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Métamorphose involontaire",
 							"entries": [
-								"Certaines circonstances peuvent activer votre Don funeste. Après avoir vécu ce catalyseur, au début de votre prochain tour, vous devez réussir un jet de sauvegarde de Charisme {@dc 15} ou utiliser votre action pour lancer {@spell alter self} comme décrit dans le trait de Métamorphose, même si vous l'avez déjà utilisé.",
+								"Certaines circonstances peuvent activer votre Don funeste. Après avoir vécu ce catalyseur, au début de votre prochain tour, vous devez réussir un jet de sauvegarde de Charisme {@dc 15} ou utiliser votre action pour lancer {@spell Changement d'apparence} comme décrit dans le trait de Métamorphose, même si vous l'avez déjà utilisé.",
 								"Lancez les dés sur la table des Catalyseurs de la métamorphose (ou choisissez-y une option) pour déterminer ce qui déclenche votre métamorphose involontaire.",
 								{
 									"type": "table",
@@ -1886,7 +1886,7 @@
 							"type": "entries",
 							"name": "Présence terrifiante",
 							"entries": [
-								"Vous avez un désavantage aux tests de Charisme ({@skill Tromperie}), de Charisme ({@skill Représentation}) et de Charisme ({@skill Persuasion}) effectués contre des créatures capables de voir les observateurs, et vous avez un désavantage aux jets de sauvegarde effectués contre le sort {@spell scrying}.",
+								"Vous avez un désavantage aux tests de Charisme ({@skill Tromperie}), de Charisme ({@skill Représentation}) et de Charisme ({@skill Persuasion}) effectués contre des créatures capables de voir les observateurs, et vous avez un désavantage aux jets de sauvegarde effectués contre le sort {@spell Scrutation}.",
 								"Vous pouvez disperser ou dissimuler temporairement les observateurs avec quelques efforts. Avec 1 minute de travail et un test de Charisme ({@skill Dressage}) {@dc 15} réussi, vous pouvez supprimer vos Yeux empruntés et votre Présence terrifiante pendant 1 heure. Une fois que vous avez supprimé ces capacités avec succès, vous ne pouvez plus le faire avant d'avoir terminé un repos long."
 							]
 						}

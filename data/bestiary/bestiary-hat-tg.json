@@ -71,16 +71,16 @@
 						"Doric casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell animal messenger}",
-						"{@spell beast sense}",
-						"{@spell speak with animals}"
+						"{@spell Messager animal}",
+						"{@spell Sens animal}",
+						"{@spell Parler aux animaux}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell cure wounds}",
-							"{@spell entangle}",
-							"{@spell faerie fire}",
-							"{@spell thunderwave}"
+							"{@spell Soins}",
+							"{@spell Enchevêtrement}",
+							"{@spell Lueur féérique}",
+							"{@spell Onde de tonnerre}"
 						]
 					},
 					"ability": "wis",
@@ -233,7 +233,7 @@
 						"Edgin casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell friends}",
+						"{@spell Ami}",
 						"{@spell message}"
 					],
 					"daily": {
@@ -241,8 +241,8 @@
 							"{@spell suggestion}"
 						],
 						"3e": [
-							"{@spell charm person}",
-							"{@spell disguise self}"
+							"{@spell Charmement}",
+							"{@spell Déguisement}"
 						]
 					},
 					"ability": "cha",
@@ -647,21 +647,21 @@
 						"Roll a {@dice d6}. On a roll of 1, Simon must roll on the Wild Magic Surge table in the Player's Handbook. On a roll of 2 or higher, Simon casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}",
 						"{@spell prestidigitation}",
-						"{@spell speak with dead} (Simon must be holding his deathly token to cast this spell)"
+						"{@spell Parler aux morts} (Simon must be holding his deathly token to cast this spell)"
 					],
 					"daily": {
 						"2e": [
-							"{@spell fog cloud}",
-							"{@spell mage armor}",
-							"{@spell magic missile}",
-							"{@spell spider climb}"
+							"{@spell Nuage de brouillard}",
+							"{@spell Armure du mage}",
+							"{@spell Projectile magique}",
+							"{@spell Marche arachnéenne}"
 						],
 						"1e": [
-							"{@spell Bigby's hand}",
-							"{@spell major image}"
+							"{@spell Main de Bigby}",
+							"{@spell Image majeure}"
 						]
 					},
 					"ability": "cha",
@@ -815,23 +815,23 @@
 						"Sofina casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell mage hand}",
+						"{@spell Main du mage}",
 						"{@spell message}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell bestow curse}",
-							"{@spell Bigby's hand}",
-							"{@spell dimension door}",
-							"{@spell mage armor}",
-							"{@spell Otiluke's resilient sphere}",
-							"{@spell thunderwave}"
+							"{@spell Malédiction}",
+							"{@spell Main de Bigby}",
+							"{@spell Porte dimensionnelle}",
+							"{@spell Armure du mage}",
+							"{@spell Sphère résiliente d'Otiluke}",
+							"{@spell Onde de tonnerre}"
 						],
 						"1e": [
-							"{@spell Evard's black tentacles}",
-							"{@spell finger of death}",
-							"{@spell time stop}"
+							"{@spell Tentacules noirs d'Evard}",
+							"{@spell Doigt de mort}",
+							"{@spell Arrêt du temps}"
 						]
 					},
 					"ability": "int",
@@ -1033,7 +1033,7 @@
 				{
 					"name": "Cleansing Touch (1/Day)",
 					"entries": [
-						"Xenk touches a creature within 5 feet of himself. The target magically regains 27 ({@dice 6d8}) hit points and gains the benefit of a {@spell lesser restoration} spell."
+						"Xenk touches a creature within 5 feet of himself. The target magically regains 27 ({@dice 6d8}) hit points and gains the benefit of a {@spell Restauration partielle} spell."
 					]
 				}
 			],

@@ -581,7 +581,7 @@
 					"type": "entries",
 					"name": "Funeral Rite",
 					"entries": [
-						"You touch one corpse, and for the next 7 days, the target can't become undead by any means short of a {@spell wish} spell."
+						"You touch one corpse, and for the next 7 days, the target can't become undead by any means short of a {@spell Souhait} spell."
 					]
 				},
 				{
@@ -1347,7 +1347,7 @@
 			"entries": [
 				"You invoke the spirits of nature to protect an area outdoors or underground. The area can be as small as a 30-foot cube or as large as a 90-foot cube. Buildings and other structures are excluded from the affected area. If you cast this spell in the same area every day for a year, the spell lasts until dispelled.",
 				"The spell creates the following effects within the area. When you cast this spell, you can specify creatures as friends who are immune to the effects. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.",
-				"The entire warded area radiates magic. A {@spell dispel magic} cast on the area, if successful, removes only one of the following effects, not the entire area. That spell's caster chooses which effect to end. Only when all its effects are gone is this spell dispelled.",
+				"The entire warded area radiates magic. A {@spell Dissipation de la magie} cast on the area, if successful, removes only one of the following effects, not the entire area. That spell's caster chooses which effect to end. Only when all its effects are gone is this spell dispelled.",
 				{
 					"type": "entries",
 					"name": "Solid Fog",
@@ -1359,7 +1359,7 @@
 					"type": "entries",
 					"name": "Grasping Undergrowth",
 					"entries": [
-						"You can fill any number of 5-foot squares on the ground that aren't filled with fog with grasping weeds and vines, as if they were affected by an {@spell entangle} spell. To a creature immune to this effect, the weeds and vines feel soft and reshape themselves to serve as temporary seats or beds."
+						"You can fill any number of 5-foot squares on the ground that aren't filled with fog with grasping weeds and vines, as if they were affected by an {@spell Enchevêtrement} spell. To a creature immune to this effect, the weeds and vines feel soft and reshape themselves to serve as temporary seats or beds."
 					]
 				},
 				{
@@ -1379,12 +1379,12 @@
 				{
 					"type": "list",
 					"items": [
-						"A constant {@spell gust of wind} in two locations of your choice",
-						"{@spell Spike growth} in one location of your choice",
-						"{@spell Wind wall} in two locations of your choice"
+						"A constant {@spell Rafale} in two locations of your choice",
+						"{@spell Croissance d'épines} in one location of your choice",
+						"{@spell Mur de vent} in two locations of your choice"
 					]
 				},
-				"To a creature immune to this effect, the winds are a fragrant, gentle breeze, and the area of {@spell spike growth} is harmless."
+				"To a creature immune to this effect, the winds are a fragrant, gentle breeze, and the area of {@spell Croissance d'épines} is harmless."
 			],
 			"miscTags": [
 				"OBS",
@@ -1909,7 +1909,7 @@
 				"You summon a spirit that assumes the form of a loyal, majestic mount. Appearing in an unoccupied space within range, the spirit takes on a form you choose: a {@creature griffon}, a {@creature pegasus}, a {@creature peryton}, a {@creature dire wolf}, a {@creature rhinoceros}, or a {@creature saber-toothed tiger}. The creature has the statistics provided in the Monster Manual for the chosen form, though it is a celestial, a fey, or a fiend (your choice) instead of its normal creature type. Additionally, if it has an Intelligence score of 5 or lower, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.",
 				"You control the mount in combat. While the mount is within 1 mile of you, you can communicate with it telepathically. While mounted on it, you can make any spell you cast that targets only you also target the mount.",
 				"The mount disappears temporarily when it drops to 0 hit points or when you dismiss it as an action. Casting this spell again re-summons the bonded mount, with all its hit points restored and any conditions removed.",
-				"You can't have more than one mount bonded by this spell or {@spell find steed} at the same time. As an action, you can release a mount from its bond, causing it to disappear permanently.",
+				"You can't have more than one mount bonded by this spell or {@spell Trouver une monture} at the same time. As an action, you can release a mount from its bond, causing it to disappear permanently.",
 				"Whenever the mount disappears, it leaves behind any objects it was wearing or carrying.",
 				{
 					"type": "inset",
@@ -3457,7 +3457,7 @@
 				"A fortress of stone erupts from a square area of ground of your choice that you can see within range. The area is 120 feet on each side, and it must not have any buildings or other structures on it. Any creatures in the area are harmlessly lifted up as the fortress rises.",
 				"The fortress has four turrets with square bases, each one 20 feet on a side and 30 feet tall, with one turret on each corner. The turrets are connected to each other by stone walls that are each 80 feet long, creating an enclosed area. Each wall is 1 foot thick and is composed of panels that are 10 feet wide and 20 feet tall. Each panel is contiguous with two other panels or one other panel and a turret. You can place up to four stone doors in the fortress's outer wall.",
 				"A small keep stands inside the enclosed area. The keep has a square base that is 50 feet on each side, and it has three floors with 10-foot-high ceilings. Each of the floors can be divided into as many rooms as you like, provided each room is at least 5 feet on each side. The floors of the keep are connected by stone staircases, its walls are 6 inches thick, and interior rooms can have stone doors or open archways as you choose. The keep is furnished and decorated however you like, and it contains sufficient food to serve a nine-course banquet for up to 100 people each day. Furnishings, food, and other objects created by this spell crumble to dust if removed from the fortress.",
-				"A staff of one hundred invisible servants obeys any command given to them by creatures you designate when you cast the spell. Each servant functions as if created by the {@spell unseen servant} spell.",
+				"A staff of one hundred invisible servants obeys any command given to them by creatures you designate when you cast the spell. Each servant functions as if created by the {@spell Servant invisible} spell.",
 				"The walls, turrets, and keep are all made of stone that can be damaged. Each 10-foot-by-10-foot section of stone has AC 15 and 30 hit points per inch of thickness. It is immune to poison and psychic damage. Reducing a section of stone to 0 hit points destroys it and might cause connected sections to buckle and collapse at the DM's discretion.",
 				"After 7 days or when you cast this spell somewhere else, the fortress harmlessly crumbles and sinks back into the ground, leaving any creatures that were inside it safely on the ground.",
 				"Casting this spell on the same spot once every 7 days for a year makes the fortress permanent."
@@ -4449,7 +4449,7 @@
 						"You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were {@status concentration||concentrating} on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses."
 					]
 				},
-				"A creature that can see the sensor (such as one using {@spell see invisibility} or {@sense Vision véritable}) sees a translucent image of the tormented humanoid whose soul you caged."
+				"A creature that can see the sensor (such as one using {@spell Voir l'invisible} or {@sense Vision véritable}) sees a translucent image of the tormented humanoid whose soul you caged."
 			],
 			"affectsCreatureType": [
 				"humanoid"
@@ -4844,7 +4844,7 @@
 				"The temple opposes types of creatures you choose when you cast this spell. Choose one or more of the following: celestials, elementals, fey, fiends, or undead. If a creature of the chosen type attempts to enter the temple, that creature must make a Charisma saving throw. On a failed save, it can't enter the temple for 24 hours. Even if the creature can enter the temple, the magic there hinders it; whenever it makes an attack roll, an ability check, or a saving throw inside the temple, it must roll a {@dice d4} and subtract the number rolled from the {@dice d20} roll.",
 				"In addition, the sensors created by divination spells can't appear inside the temple, and creatures within can't be targeted by divination spells.",
 				"Finally, whenever any creature in the temple regains hit points from a spell of 1st level or higher, the creature regains additional hit points equal to your Wisdom modifier (minimum 1 hit point).",
-				"The temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temple's interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by {@spell dispel magic}, and {@spell antimagic field} has no effect on it. A {@spell disintegrate} spell destroys the temple instantly.",
+				"The temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temple's interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by {@spell Dissipation de la magie}, and {@spell Antichamp magique} has no effect on it. A {@spell Désintégration} spell destroys the temple instantly.",
 				"Casting this spell on the same spot every day for a year makes this effect permanent."
 			],
 			"savingThrow": [

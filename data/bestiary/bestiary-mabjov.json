@@ -192,14 +192,14 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell dispel magic}"
+							"{@spell Dissipation de la magie}"
 						],
 						"2e": [
-							"{@spell aid}",
-							"{@spell command}",
-							"{@spell magic weapon}",
-							"{@spell searing smite}",
-							"{@spell shield of faith}"
+							"{@spell Aide}",
+							"{@spell Ordre}",
+							"{@spell Arme magique}",
+							"{@spell Frappe ardente}",
+							"{@spell Bouclier de la foi}"
 						]
 					},
 					"ability": "cha",
@@ -254,7 +254,7 @@
 				{
 					"name": "Void",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands, plus 7 ({@damage 2d6}) necrotic damage. A creature reduced to 0 hit points from damage dealt by the sword Void dies and can't be revived by any means short of a {@spell wish} spell."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands, plus 7 ({@damage 2d6}) necrotic damage. A creature reduced to 0 hit points from damage dealt by the sword Void dies and can't be revived by any means short of a {@spell Souhait} spell."
 					]
 				},
 				{
@@ -408,21 +408,21 @@
 						"Baalzebul casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 24}):"
 					],
 					"will": [
-						"{@spell animate dead}",
-						"{@spell darkness}",
-						"{@spell detect evil and good}",
-						"{@spell detect magic}",
-						"{@spell dispel evil and good}",
-						"{@spell hallow}",
-						"{@spell hold monster}",
+						"{@spell Animation des morts}",
+						"{@spell Ténèbres}",
+						"{@spell Détection du mal et du bien}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation du mal et du bien}",
+						"{@spell Consécration}",
+						"{@spell Immobilisation de monstre}",
 						"{@spell suggestion}",
-						"{@spell teleport}",
-						"{@spell true seeing}"
+						"{@spell Téléportation}",
+						"{@spell Vision véritable}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell symbol} (pain or insanity)",
-							"{@spell wish}"
+							"{@spell Symbole} (pain or insanity)",
+							"{@spell Souhait}"
 						]
 					},
 					"ability": "cha",
@@ -489,7 +489,7 @@
 				{
 					"name": "Heart of Pestilence {@recharge 5}",
 					"entries": [
-						"Baalzebul channels pestilence into his body, sickening creatures within 50 feet that can see him. Sickened creatures must make a {@dc 21} Charisma saving throw, followed by a {@dc 21} Constitution saving throw. Failing the Charisma save makes a creature have the {@condition Effrayé} condition, while failing the Constitution save makes a creature weak. While weakened, a creature deals half damage on melee attacks. Both effects last for 1 minute or until a {@spell greater restoration} spell or similar is cast."
+						"Baalzebul channels pestilence into his body, sickening creatures within 50 feet that can see him. Sickened creatures must make a {@dc 21} Charisma saving throw, followed by a {@dc 21} Constitution saving throw. Failing the Charisma save makes a creature have the {@condition Effrayé} condition, while failing the Constitution save makes a creature weak. While weakened, a creature deals half damage on melee attacks. Both effects last for 1 minute or until a {@spell Restauration supérieure} spell or similar is cast."
 					]
 				}
 			],
@@ -701,7 +701,7 @@
 				{
 					"name": "Stalker's Darkness (3/Day)",
 					"entries": [
-						"The bebilith casts {@spell darkness}."
+						"The bebilith casts {@spell Ténèbres}."
 					]
 				}
 			],
@@ -883,13 +883,13 @@
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}22 ({@damage 3d8 + 9}) slashing damage plus 7 ({@damage 2d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 21} Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the {@spell greater restoration} spell or other magic."
+						"{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}22 ({@damage 3d8 + 9}) slashing damage plus 7 ({@damage 2d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 21} Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the {@spell Restauration supérieure} spell or other magic."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}25 ({@damage 3d10 + 9}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 21} Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the {@spell greater restoration} spell or other magic. Large or smaller creatures damaged by this attack are {@condition Agrippé} (escape {@dc 20}) and the ravager can't make another Bite attack until this grapple ends."
+						"{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}25 ({@damage 3d10 + 9}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 21} Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the {@spell Restauration supérieure} spell or other magic. Large or smaller creatures damaged by this attack are {@condition Agrippé} (escape {@dc 20}) and the ravager can't make another Bite attack until this grapple ends."
 					]
 				},
 				{
@@ -1080,7 +1080,7 @@
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 7}) slashing damage plus 3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 19} Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the {@spell greater restoration} spell or other magic."
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 7}) slashing damage plus 3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 19} Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the {@spell Restauration supérieure} spell or other magic."
 					]
 				}
 			],
@@ -1428,15 +1428,15 @@
 						"Borivik casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell ensnaring strike}",
-						"{@spell speak with animals}"
+						"{@spell Attaque entravante}",
+						"{@spell Parler aux animaux}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell cordon of arrows}",
-							"{@spell daylight}",
-							"{@spell lesser restoration}",
-							"{@spell nondetection}"
+							"{@spell Cordon de flèches}",
+							"{@spell Lumière du jour}",
+							"{@spell Restauration partielle}",
+							"{@spell Occultation}"
 						]
 					},
 					"ability": "wis",
@@ -1555,7 +1555,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -1605,20 +1605,20 @@
 						"Doc Watson casts one of the following spells using Intelligence as his spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell identify}",
-						"{@spell mage armor}",
-						"{@spell Rary's telepathic bond}"
+						"{@spell Détection de la magie}",
+						"{@spell Identification}",
+						"{@spell Armure du mage}",
+						"{@spell Lien télépathique de Rary}"
 					],
 					"daily": {
 						"2e": [
 							"{@spell clairvoyance}",
-							"{@spell locate object}",
-							"{@spell scrying}"
+							"{@spell Localisation d'objet}",
+							"{@spell Scrutation}"
 						],
 						"1e": [
-							"{@spell foresight}",
-							"{@spell true seeing}"
+							"{@spell Prescience}",
+							"{@spell Vision véritable}"
 						]
 					},
 					"ability": "int",
@@ -1764,14 +1764,14 @@
 						"Cryonax casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}, {@hit 13} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell ice storm}",
-						"{@spell sleet storm}",
-						"{@spell wall of ice}"
+						"{@spell Tempête de glace}",
+						"{@spell Vendaval de glace}",
+						"{@spell Mur de glace}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell cone of cold}",
-							"{@spell otiluke's freezing sphere} (45 ({@damage 13d6}) damage)"
+							"{@spell Cône de froid}",
+							"{@spell Sphère de congélation d'Otiluke} (45 ({@damage 13d6}) damage)"
 						]
 					},
 					"ability": "cha",
@@ -1976,22 +1976,22 @@
 						"Dagryn casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell alter self}",
-						"{@spell disguise self}",
-						"{@spell levitate}",
-						"{@spell major image}",
-						"{@spell vicious mockery}"
+						"{@spell Changement d'apparence}",
+						"{@spell Déguisement}",
+						"{@spell Lévitation}",
+						"{@spell Image majeure}",
+						"{@spell Moquerie féroce}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell bane}",
-							"{@spell fear}",
-							"{@spell hold monster}",
-							"{@spell misty step}"
+							"{@spell Fléau}",
+							"{@spell Peur}",
+							"{@spell Immobilisation de monstre}",
+							"{@spell Pas brumeux}"
 						],
 						"1e": [
-							"{@spell dimension door}",
-							"{@spell seeming}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Apparence}"
 						]
 					},
 					"ability": "cha",
@@ -2102,7 +2102,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -2155,34 +2155,34 @@
 						"Darien casts one of the following spells, requiring no material component and using Charisma as the spellcasting ability (spell save {@dc 16}, {@hit 8} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell alter self}",
-						"{@spell blade ward}",
-						"{@spell chill touch}",
-						"{@spell disguise self}",
-						"{@spell false life}",
-						"{@spell invisibility}",
-						"{@spell mage armor} (self only)",
-						"{@spell silent image}"
+						"{@spell Changement d'apparence}",
+						"{@spell Garde de lame}",
+						"{@spell Main glaciale}",
+						"{@spell Déguisement}",
+						"{@spell Fausse vie}",
+						"{@spell Invisibilité}",
+						"{@spell Armure du mage} (self only)",
+						"{@spell Image silencieuse}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell armor of Agathys}",
-							"{@spell cone of cold}",
-							"{@spell darkness}",
-							"{@spell fear}",
-							"{@spell hallucinatory terrain}",
-							"{@spell hold person}",
-							"{@spell hypnotic pattern}",
-							"{@spell major image}",
-							"{@spell mirror image}",
-							"{@spell mislead}",
-							"{@spell sleet storm}"
+							"{@spell Armure d'Agathys}",
+							"{@spell Cône de froid}",
+							"{@spell Ténèbres}",
+							"{@spell Peur}",
+							"{@spell Terrain illusoire}",
+							"{@spell Immobiliser un personnage}",
+							"{@spell Motif hypnotique}",
+							"{@spell Image majeure}",
+							"{@spell Image dédoublée}",
+							"{@spell Fourberie}",
+							"{@spell Vendaval de glace}"
 						],
 						"1e": [
-							"{@spell dream}",
-							"{@spell feeblemind}",
-							"{@spell mass suggestion}",
-							"{@spell project image}"
+							"{@spell Songe}",
+							"{@spell Dégénrescence}",
+							"{@spell Suggestion de groupe}",
+							"{@spell Projection d'image}"
 						]
 					},
 					"ability": "cha",
@@ -2225,7 +2225,7 @@
 				{
 					"name": "Create Thrall",
 					"entries": [
-						"Darien touches an {@condition Incapable} Humanoid. That creature is then {@condition Charmé} by her until a {@spell remove curse} spell is cast on it, the {@condition Charmé} condition is removed from it, or she uses this feature again. Darien can communicate telepathically with the {@condition Charmé} creature as long as the two of them are on the same plane of existence."
+						"Darien touches an {@condition Incapable} Humanoid. That creature is then {@condition Charmé} by her until a {@spell Délivrance de la malédiction} spell is cast on it, the {@condition Charmé} condition is removed from it, or she uses this feature again. Darien can communicate telepathically with the {@condition Charmé} creature as long as the two of them are on the same plane of existence."
 					]
 				},
 				{
@@ -2473,11 +2473,11 @@
 					],
 					"daily": {
 						"2": [
-							"{@spell phantasmal killer}"
+							"{@spell Tueur phantasmal}"
 						],
 						"1e": [
-							"{@spell mirror image}",
-							"{@spell mislead}"
+							"{@spell Image dédoublée}",
+							"{@spell Fourberie}"
 						]
 					},
 					"ability": "int",
@@ -2581,7 +2581,7 @@
 				13,
 				{
 					"ac": 18,
-					"condition": "with {@item Bâton de pouvoir} and {@spell mage armor}",
+					"condition": "with {@item Bâton de pouvoir} and {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -2626,25 +2626,25 @@
 						"Edwin casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell mage armor}",
-						"{@spell mirror image}",
-						"{@spell shield}",
-						"{@spell unseen servant}"
+						"{@spell Armure du mage}",
+						"{@spell Image dédoublée}",
+						"{@spell Bouclier}",
+						"{@spell Servant invisible}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell contingency}",
-							"{@spell counterspell}",
-							"{@spell dispel magic}",
-							"{@spell fireball}",
-							"{@spell simulacrum}",
-							"{@spell scrying}"
+							"{@spell Déclencheur}",
+							"{@spell Contresort}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Boule de feu}",
+							"{@spell Simulacre}",
+							"{@spell Scrutation}"
 						],
 						"1e": [
-							"{@spell clone}",
-							"{@spell maze}",
-							"{@spell meteor swarm}",
-							"{@spell teleport}"
+							"{@spell Clonage}",
+							"{@spell Labyrinthe}",
+							"{@spell Pluie de météores}",
+							"{@spell Téléportation}"
 						]
 					},
 					"ability": "int",
@@ -2663,7 +2663,7 @@
 				{
 					"name": "Contingency",
 					"entries": [
-						"If Edwin has the {@condition Incapable}, {@condition Paralysé}, or {@condition Étourdi} condition, a {@spell contingency} spell triggers, casting {@spell dispel magic} at 6th level, targeting Edwin. He also has a body created by the {@spell clone} spell stored in a cavern one mile beneath the city of Baldur's Gate."
+						"If Edwin has the {@condition Incapable}, {@condition Paralysé}, or {@condition Étourdi} condition, a {@spell Déclencheur} spell triggers, casting {@spell Dissipation de la magie} at 6th level, targeting Edwin. He also has a body created by the {@spell Clonage} spell stored in a cavern one mile beneath the city of Baldur's Gate."
 					]
 				},
 				{
@@ -2831,31 +2831,31 @@
 						"Eo casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 17}, {@hit 9} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell light}",
-						"{@spell mage hand}",
-						"{@spell magic missile}",
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}",
+						"{@spell Lumière}",
+						"{@spell Main du mage}",
+						"{@spell Projectile magique}",
 						"{@spell prestidigitation}",
-						"{@spell shield}",
-						"{@spell shocking grasp}"
+						"{@spell Bouclier}",
+						"{@spell Poing électrique}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell banishment}",
-							"{@spell counterspell}",
-							"{@spell dominate person}",
-							"{@spell fireball}",
-							"{@spell lightning bolt}",
-							"{@spell mirror image}",
-							"{@spell misty step}"
+							"{@spell Bannissement}",
+							"{@spell Contresort}",
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Boule de feu}",
+							"{@spell Éclair}",
+							"{@spell Image dédoublée}",
+							"{@spell Pas brumeux}"
 						],
 						"1e": [
-							"{@spell chain lightning}",
-							"{@spell finger of death}",
-							"{@spell power word stun}",
-							"{@spell teleport}",
-							"{@spell wish}*"
+							"{@spell Chaîne d'éclairs}",
+							"{@spell Doigt de mort}",
+							"{@spell Mot de pouvoir d'étourdissement}",
+							"{@spell Téléportation}",
+							"{@spell Souhait}*"
 						]
 					},
 					"footerEntries": [
@@ -2883,13 +2883,13 @@
 				{
 					"name": "Twinned Spell",
 					"entries": [
-						"Eo uses Spellcasting to cast {@spell banishment}, dominate person, finger of death, or power word stun. This spell targets a second creature in range."
+						"Eo uses Spellcasting to cast {@spell Bannissement}, dominate person, finger of death, or power word stun. This spell targets a second creature in range."
 					]
 				},
 				{
 					"name": "Discharge (1/Day)",
 					"entries": [
-						"Eo emits a thin green ray at a creature within 60 feet. The target must make a {@dc 17} Dexterity saving throw. On a failed save the target takes 89 ({@damage 14d6 + 40}) force damage. If this damage reduces the target to 0 hit points, it is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a true resurrection or a {@spell wish} spell."
+						"Eo emits a thin green ray at a creature within 60 feet. The target must make a {@dc 17} Dexterity saving throw. On a failed save the target takes 89 ({@damage 14d6 + 40}) force damage. If this damage reduces the target to 0 hit points, it is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a true resurrection or a {@spell Souhait} spell."
 					]
 				}
 			],
@@ -2962,7 +2962,7 @@
 				11,
 				{
 					"ac": 16,
-					"condition": "with {@spell barkskin}",
+					"condition": "with {@spell Écorce}",
 					"braces": true
 				}
 			],
@@ -3005,22 +3005,22 @@
 						"Faldorn casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell druidcraft}",
-						"{@spell poison spray}",
+						"{@spell Druidisme}",
+						"{@spell Jet de poison}",
 						"{@spell shillelagh}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell entangle}",
-							"{@spell locate creature}",
-							"{@spell speak with animals}",
-							"{@spell stoneskin}",
-							"{@spell tree stride}",
-							"{@spell water breathing}"
+							"{@spell Enchevêtrement}",
+							"{@spell Localisation de créature}",
+							"{@spell Parler aux animaux}",
+							"{@spell Peau de pierre}",
+							"{@spell Foulée sylvestre}",
+							"{@spell Respiration aquatique}"
 						],
 						"1e": [
-							"{@spell foresight}",
-							"{@spell heal}"
+							"{@spell Prescience}",
+							"{@spell Guérison}"
 						]
 					},
 					"ability": "wis",
@@ -3036,12 +3036,12 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
-								"0 charges: {@spell pass without trace}",
-								"1 charge each: {@spell animal friendship}, {@spell speak with animals}",
-								"2 charges each: {@spell barkskin}, {@spell locate animals or plants}",
-								"3 charges: {@spell speak with plants}",
-								"5 charges: {@spell awaken}",
-								"6 charges: {@spell wall of thorns}"
+								"0 charges: {@spell Passage sans trace}",
+								"1 charge each: {@spell Amitié animale}, {@spell Parler aux animaux}",
+								"2 charges each: {@spell Écorce}, {@spell Localisation d'animaux ou de plantes}",
+								"3 charges: {@spell Parler aux plantes}",
+								"5 charges: {@spell Éveil}",
+								"6 charges: {@spell Mur de ronces}"
 							]
 						}
 					]
@@ -3352,19 +3352,19 @@
 					],
 					"will": [
 						"{@spell guidance}",
-						"{@spell light}"
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell aid}",
-							"{@spell blur}",
-							"{@spell cure wounds}",
-							"{@spell shield}"
+							"{@spell Aide}",
+							"{@spell Distorsion}",
+							"{@spell Soins}",
+							"{@spell Bouclier}"
 						],
 						"1e": [
-							"{@spell blink}",
-							"{@spell elemental weapon}",
-							"{@spell fire shield}"
+							"{@spell Fugue}",
+							"{@spell Arme élémentaire}",
+							"{@spell Bouclier de feu}"
 						]
 					},
 					"ability": "int",
@@ -3578,7 +3578,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell barkskin}",
+					"condition": "with {@spell Écorce}",
 					"braces": true
 				}
 			],
@@ -3616,12 +3616,12 @@
 					],
 					"daily": {
 						"2": [
-							"{@spell entangle}"
+							"{@spell Enchevêtrement}"
 						],
 						"1e": [
-							"{@spell barkskin}",
-							"{@spell grasping vine}",
-							"{@spell pass without trace}"
+							"{@spell Écorce}",
+							"{@spell Liane saisissante}",
+							"{@spell Passage sans trace}"
 						]
 					},
 					"ability": "cha",
@@ -3866,7 +3866,7 @@
 				11,
 				{
 					"ac": 16,
-					"condition": "with {@spell barkskin}",
+					"condition": "with {@spell Écorce}",
 					"braces": true
 				}
 			],
@@ -3911,23 +3911,23 @@
 						"Jaheira casts ones of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell barkskin}",
-						"{@spell druidcraft}",
-						"{@spell poison spray}",
-						"{@spell produce flame}",
+						"{@spell Écorce}",
+						"{@spell Druidisme}",
+						"{@spell Jet de poison}",
+						"{@spell Production de flamme}",
 						"{@spell shillelagh}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell animal messenger}",
-							"{@spell commune with nature} (as an action)",
-							"{@spell entangle}",
-							"{@spell speak with animals}"
+							"{@spell Messager animal}",
+							"{@spell Communion avec la nature} (as an action)",
+							"{@spell Enchevêtrement}",
+							"{@spell Parler aux animaux}"
 						],
 						"1e": [
-							"{@spell heal}",
-							"{@spell heroes' feast}",
-							"{@spell stoneskin}"
+							"{@spell Guérison}",
+							"{@spell Festin des héros}",
+							"{@spell Peau de pierre}"
 						]
 					},
 					"ability": "wis",
@@ -4108,32 +4108,32 @@
 						"Jon Irenicus casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 21}, {@hit 13} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell Melf's acid arrow}",
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell invisibility}",
-						"{@spell magic missile}",
-						"{@spell mage hand}",
-						"{@spell mirror image}",
+						"{@spell Flèche acide de Melf}",
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}",
+						"{@spell Invisibilité}",
+						"{@spell Projectile magique}",
+						"{@spell Main du mage}",
+						"{@spell Image dédoublée}",
 						"{@spell prestidigitation}",
-						"{@spell ray of frost}",
-						"{@spell shield}"
+						"{@spell Rayon de gel}",
+						"{@spell Bouclier}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell animate dead}",
-							"{@spell dimension door}",
-							"{@spell dispel magic}",
-							"{@spell fireball}",
-							"{@spell scrying}"
+							"{@spell Animation des morts}",
+							"{@spell Porte dimensionnelle}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Boule de feu}",
+							"{@spell Scrutation}"
 						],
 						"1e": [
-							"{@spell disintegrate}",
-							"{@spell dominate monster}",
-							"{@spell finger of death}",
-							"{@spell power word kill}",
-							"{@spell power word stun}",
-							"{@spell time stop}"
+							"{@spell Désintégration}",
+							"{@spell Soumission de monstre}",
+							"{@spell Doigt de mort}",
+							"{@spell Mot de pouvoir de mort}",
+							"{@spell Mot de pouvoir d'étourdissement}",
+							"{@spell Arrêt du temps}"
 						]
 					},
 					"ability": "int",
@@ -4505,16 +4505,16 @@
 					],
 					"will": [
 						"{@spell clairvoyance}",
-						"{@spell detect magic}",
-						"{@spell fear}",
-						"{@spell invisibility} (self only)",
-						"{@spell spider climb}",
-						"{@spell tongues}"
+						"{@spell Détection de la magie}",
+						"{@spell Peur}",
+						"{@spell Invisibilité} (self only)",
+						"{@spell Marche arachnéenne}",
+						"{@spell Don des langues}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell dispel magic}",
-							"{@spell fog cloud}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Nuage de brouillard}"
 						]
 					},
 					"ability": "cha",
@@ -4855,19 +4855,19 @@
 						"Lothar casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}, {@hit 4} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell blade ward}",
-						"{@spell eldritch blast}",
+						"{@spell Garde de lame}",
+						"{@spell Trait occulte}",
 						"{@spell message}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell bane}",
-							"{@spell charm person}",
-							"{@spell daylight}",
-							"{@spell faerie fire}",
-							"{@spell fear}",
-							"{@spell misty step}",
-							"{@spell plane shift}"
+							"{@spell Fléau}",
+							"{@spell Charmement}",
+							"{@spell Lumière du jour}",
+							"{@spell Lueur féérique}",
+							"{@spell Peur}",
+							"{@spell Pas brumeux}",
+							"{@spell Déplacement planaire}"
 						]
 					},
 					"ability": "cha",
@@ -5054,27 +5054,27 @@
 						"Mephistopheles casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 26}):"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell detect evil and good}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
+						"{@spell Ténèbres}",
+						"{@spell Détection du mal et du bien}",
+						"{@spell Détection de la magie}",
+						"{@spell Dissipation de la magie}",
 						"{@spell geas} (duration 1 year)",
-						"{@spell greater restoration}",
-						"{@spell hallow}",
-						"{@spell hold monster}",
-						"{@spell locate creature}",
-						"{@spell locate object}",
-						"{@spell major image}",
-						"{@spell resurrection}",
-						"{@spell scrying}",
+						"{@spell Restauration supérieure}",
+						"{@spell Consécration}",
+						"{@spell Immobilisation de monstre}",
+						"{@spell Localisation de créature}",
+						"{@spell Localisation d'objet}",
+						"{@spell Image majeure}",
+						"{@spell Résurrection}",
+						"{@spell Scrutation}",
 						"{@spell suggestion}",
-						"{@spell wall of fire}"
+						"{@spell Mur de feu}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell meteor swarm}",
-							"{@spell symbol}",
-							"{@spell wish}"
+							"{@spell Pluie de météores}",
+							"{@spell Symbole}",
+							"{@spell Souhait}"
 						]
 					},
 					"ability": "int",
@@ -5592,18 +5592,18 @@
 						"Naes casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell lesser restoration}",
-						"{@spell light}",
-						"{@spell sanctuary}"
+						"{@spell Restauration partielle}",
+						"{@spell Lumière}",
+						"{@spell Sanctuaire}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell antilife shell}",
-							"{@spell blade barrier}"
+							"{@spell Coque antivie}",
+							"{@spell Mur de lames}"
 						],
 						"1e": [
-							"{@spell divine word}",
-							"{@spell mass heal}"
+							"{@spell Verbe divin}",
+							"{@spell Guérison de masse}"
 						]
 					},
 					"ability": "wis",
@@ -5793,7 +5793,7 @@
 						{
 							"type": "list",
 							"items": [
-								"Potion of heroism: Nauk gains 10 temporary hit points for 1 hour. For the same duration, Nauk is under the effect of the {@spell bless} spell (no {@status concentration} required).",
+								"Potion of heroism: Nauk gains 10 temporary hit points for 1 hour. For the same duration, Nauk is under the effect of the {@spell Bénédiction} spell (no {@status concentration} required).",
 								"Potion of resistance: Nauk gains resistance from one damage type for 1 hour. Nauk chooses from one of these damage types: cold, fire, lightning.",
 								"Potion of superior healing: Nauk regains 28 hit points."
 							]
@@ -5926,25 +5926,25 @@
 						"Pazuzu casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 24}):"
 					],
 					"will": [
-						"{@spell astral projection}",
-						"{@spell blight}",
-						"{@spell charm person}",
-						"{@spell detect evil and good}",
-						"{@spell dispel magic}",
-						"{@spell hallow}",
-						"{@spell insect plague}",
-						"{@spell telekinesis}",
-						"{@spell teleport}",
-						"{@spell wind walk}"
+						"{@spell Projection astrale}",
+						"{@spell Ravage}",
+						"{@spell Charmement}",
+						"{@spell Détection du mal et du bien}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Consécration}",
+						"{@spell Nuée d'insectes}",
+						"{@spell Télékinésie}",
+						"{@spell Téléportation}",
+						"{@spell Marche aérienne}"
 					],
 					"daily": {
 						"1": [
-							"{@spell wish}"
+							"{@spell Souhait}"
 						],
 						"2e": [
-							"{@spell dominate person}",
-							"{@spell hypnotic pattern}",
-							"{@spell plane shift} (only itself and willing creatures)"
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Motif hypnotique}",
+							"{@spell Déplacement planaire} (only itself and willing creatures)"
 						]
 					},
 					"ability": "cha",
@@ -6007,7 +6007,7 @@
 				{
 					"name": "Dispel",
 					"entries": [
-						"Pazuzu casts {@spell dispel magic}, automatically dispelling any spell of 6th level or lower on the target."
+						"Pazuzu casts {@spell Dissipation de la magie}, automatically dispelling any spell of 6th level or lower on the target."
 					]
 				},
 				{
@@ -6110,7 +6110,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -6169,23 +6169,23 @@
 						"Pelyious casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}, {@hit 7} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell fire bolt}",
-						"{@spell light}",
-						"{@spell mage hand}",
+						"{@spell Trait de feu}",
+						"{@spell Lumière}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell detect magic}",
-							"{@spell mage armor}",
-							"{@spell shield}",
+							"{@spell Détection de la magie}",
+							"{@spell Armure du mage}",
+							"{@spell Bouclier}",
 							"{@spell suggestion}"
 						],
 						"1e": [
-							"{@spell cone of cold}",
-							"{@spell counterspell}",
-							"{@spell fly}",
-							"{@spell greater invisibility}"
+							"{@spell Cône de froid}",
+							"{@spell Contresort}",
+							"{@spell Vol}",
+							"{@spell Invisibilité supérieure}"
 						]
 					},
 					"ability": "int",
@@ -6370,30 +6370,30 @@
 						"The phaerimm casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 19}):"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
-						"{@spell telekinesis}"
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}",
+						"{@spell Télékinésie}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell crown of madness}",
-							"{@spell detect thoughts}",
-							"{@spell dominate person}",
-							"{@spell fear}",
-							"{@spell fireball}",
-							"{@spell phantasmal force}",
-							"{@spell magic missile}",
-							"{@spell shield}"
+							"{@spell Couronne de folie}",
+							"{@spell Détection de pensées}",
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Peur}",
+							"{@spell Boule de feu}",
+							"{@spell Force phantasmale}",
+							"{@spell Projectile magique}",
+							"{@spell Bouclier}"
 						],
 						"1e": [
-							"{@spell chain lightning}",
+							"{@spell Chaîne d'éclairs}",
 							"{@spell confusion}",
-							"{@spell dominate monster}",
-							"{@spell greater invisibility}",
-							"{@spell hold monster}",
-							"{@spell mass suggestion}",
-							"{@spell prismatic spray}",
-							"{@spell reverse gravity}"
+							"{@spell Soumission de monstre}",
+							"{@spell Invisibilité supérieure}",
+							"{@spell Immobilisation de monstre}",
+							"{@spell Suggestion de groupe}",
+							"{@spell Jet prismatique}",
+							"{@spell Inversion de la gravité}"
 						]
 					},
 					"ability": "cha",
@@ -6538,7 +6538,7 @@
 				14,
 				{
 					"ac": 17,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -6580,24 +6580,24 @@
 						"Saemon casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell fire bolt}",
-						"{@spell light}",
-						"{@spell mage hand}",
+						"{@spell Trait de feu}",
+						"{@spell Lumière}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell counterspell}",
-							"{@spell detect magic}",
-							"{@spell mage armor}",
-							"{@spell magic missile}",
-							"{@spell misty step}",
+							"{@spell Contresort}",
+							"{@spell Détection de la magie}",
+							"{@spell Armure du mage}",
+							"{@spell Projectile magique}",
+							"{@spell Pas brumeux}",
 							"{@spell suggestion}"
 						],
 						"1e": [
-							"{@spell fly}",
-							"{@spell greater invisibility}",
-							"{@spell ice storm}"
+							"{@spell Vol}",
+							"{@spell Invisibilité supérieure}",
+							"{@spell Tempête de glace}"
 						]
 					},
 					"ability": "int",
@@ -6650,7 +6650,7 @@
 				{
 					"name": "Animate Objects (Costs 3 Actions)",
 					"entries": [
-						"Saemon casts {@spell animate objects}, targeting up to 10 handaxes he has thrown at enemies. If there are not 10 handaxes available, then he provides the remaining handaxes from his {@item Carquois d'Ehlonna}. Handaxes are Tiny objects."
+						"Saemon casts {@spell Animation d'objets}, targeting up to 10 handaxes he has thrown at enemies. If there are not 10 handaxes available, then he provides the remaining handaxes from his {@item Carquois d'Ehlonna}. Handaxes are Tiny objects."
 					]
 				}
 			],
@@ -6771,19 +6771,19 @@
 						"Sarevok casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 16}):"
 					],
 					"will": [
-						"{@spell resistance}",
-						"{@spell sacred flame}",
-						"{@spell thaumaturgy}"
+						"{@spell Résistance}",
+						"{@spell Flamme sacrée}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell animate dead}",
-							"{@spell command}",
+							"{@spell Animation des morts}",
+							"{@spell Ordre}",
 							"{@spell contagion}",
-							"{@spell dispel magic}",
+							"{@spell Dissipation de la magie}",
 							"{@spell divination}",
-							"{@spell harm}",
-							"{@spell hold person}",
+							"{@spell Infection}",
+							"{@spell Immobiliser un personnage}",
 							"{@spell silence}"
 						]
 					},
@@ -6801,7 +6801,7 @@
 				{
 					"name": "Rejuvenation",
 					"entries": [
-						"If Sarevok is killed he gains a new body in 24 hours, regaining all his hit points and becoming active again. The new body appears on the altar of the temple of Bhaal beneath Baldur's Gate. This ability ceases to function if a cleric of good alignment casts {@spell Hallow} on the altar in the temple of Bhaal."
+						"If Sarevok is killed he gains a new body in 24 hours, regaining all his hit points and becoming active again. The new body appears on the altar of the temple of Bhaal beneath Baldur's Gate. This ability ceases to function if a cleric of good alignment casts {@spell Consécration} on the altar in the temple of Bhaal."
 					]
 				}
 			],
@@ -6815,7 +6815,7 @@
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage or 10 ({@damage 1d10 + 5}) if wielded in two hands. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or be cursed by Bhaal. The cursed target can't regain hit points. The curse lasts until removed by the {@spell remove curse} spell or other magic."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage or 10 ({@damage 1d10 + 5}) if wielded in two hands. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or be cursed by Bhaal. The cursed target can't regain hit points. The curse lasts until removed by the {@spell Délivrance de la malédiction} spell or other magic."
 					]
 				},
 				{
@@ -6835,7 +6835,7 @@
 				{
 					"name": "Unholy Flame",
 					"entries": [
-						"Sarevok casts {@spell sacred flame}."
+						"Sarevok casts {@spell Flamme sacrée}."
 					]
 				},
 				{
@@ -6984,18 +6984,18 @@
 					],
 					"will": [
 						"{@spell clairvoyance}",
-						"{@spell detect magic}",
-						"{@spell fear}",
-						"{@spell invisibility} (self only)",
-						"{@spell spider climb}",
-						"{@spell tongues}"
+						"{@spell Détection de la magie}",
+						"{@spell Peur}",
+						"{@spell Invisibilité} (self only)",
+						"{@spell Marche arachnéenne}",
+						"{@spell Don des langues}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell cloudkill}",
-							"{@spell dispel magic}",
-							"{@spell plane shift}",
-							"{@spell Tasha's hideous laughter}"
+							"{@spell Nuée mortelle}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Déplacement planaire}",
+							"{@spell Rire hideux de Tasha}"
 						]
 					},
 					"ability": "cha",
@@ -7172,9 +7172,9 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell crown of madness}",
-							"{@spell fog cloud}",
-							"{@spell invisibility}"
+							"{@spell Couronne de folie}",
+							"{@spell Nuage de brouillard}",
+							"{@spell Invisibilité}"
 						]
 					},
 					"ability": "cha",
@@ -7621,23 +7621,23 @@
 						"Ssendam casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
 					],
 					"will": [
-						"{@spell detect evil and good}",
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell dispel magic}",
-						"{@spell fear}",
-						"{@spell fly}",
-						"{@spell mass suggestion}",
-						"{@spell plane shift}"
+						"{@spell Détection du mal et du bien}",
+						"{@spell Détection de la magie}",
+						"{@spell Détection de pensées}",
+						"{@spell Dissipation de la magie}",
+						"{@spell Peur}",
+						"{@spell Vol}",
+						"{@spell Suggestion de groupe}",
+						"{@spell Déplacement planaire}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell finger of death}",
-							"{@spell flame strike}"
+							"{@spell Doigt de mort}",
+							"{@spell Colère sacrée}"
 						],
 						"1e": [
-							"{@spell power word kill}",
-							"{@spell power word stun}"
+							"{@spell Mot de pouvoir de mort}",
+							"{@spell Mot de pouvoir d'étourdissement}"
 						]
 					},
 					"ability": "cha",
@@ -7823,7 +7823,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -7868,17 +7868,17 @@
 						"Suldil casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell light}",
-						"{@spell mage hand}"
+						"{@spell Détection de la magie}",
+						"{@spell Lumière}",
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"1": [
-							"{@spell disintegrate}"
+							"{@spell Désintégration}"
 						],
 						"2e": [
-							"{@spell counterspell}",
-							"{@spell shield}"
+							"{@spell Contresort}",
+							"{@spell Bouclier}"
 						]
 					},
 					"ability": "cha",
@@ -8734,22 +8734,22 @@
 						"Viconia casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell light}",
-						"{@spell sanctuary}",
-						"{@spell thaumaturgy}"
+						"{@spell Lumières dansantes}",
+						"{@spell Lumière}",
+						"{@spell Sanctuaire}",
+						"{@spell Thaumaturgie}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell cure wounds}",
-							"{@spell death ward}",
-							"{@spell lesser restoration}"
+							"{@spell Soins}",
+							"{@spell Protection contre la mort}",
+							"{@spell Restauration partielle}"
 						],
 						"1e": [
-							"{@spell darkness}",
-							"{@spell divine word}",
-							"{@spell faerie fire}",
-							"{@spell holy aura}"
+							"{@spell Ténèbres}",
+							"{@spell Verbe divin}",
+							"{@spell Lueur féérique}",
+							"{@spell Aura sacrée}"
 						]
 					},
 					"ability": "wis",
@@ -8910,21 +8910,21 @@
 						"Viktor casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell bless}",
-						"{@spell shield of faith}",
-						"{@spell thunderous smite}"
+						"{@spell Bénédiction}",
+						"{@spell Bouclier de la foi}",
+						"{@spell Frappe du tonnerre}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell aid}",
-							"{@spell branding smite}",
-							"{@spell lesser restoration}"
+							"{@spell Aide}",
+							"{@spell Châtiment marquant}",
+							"{@spell Restauration partielle}"
 						],
 						"1e": [
-							"{@spell banishment}",
-							"{@spell blinding smite}",
-							"{@spell death ward}",
-							"{@spell revivify}"
+							"{@spell Bannissement}",
+							"{@spell Châtiment aveuglant}",
+							"{@spell Protection contre la mort}",
+							"{@spell Retour à la vie}"
 						]
 					},
 					"ability": "cha",
@@ -9107,7 +9107,7 @@
 				{
 					"name": "Lethargic Song (Humanoid form only)",
 					"entries": [
-						"The wolfwere plays a magical melody on an instrument. Every Humanoid within 200 feet of the wolfwere that hears the melody must succeed on a {@dc 13} Wisdom saving throw or be slowed for 10 minutes, as if the {@spell slow} spell has been cast on them. A creature can repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it. A target that successfully saves is immune to this wolfwere's melody for the next 24 hours."
+						"The wolfwere plays a magical melody on an instrument. Every Humanoid within 200 feet of the wolfwere that hears the melody must succeed on a {@dc 13} Wisdom saving throw or be slowed for 10 minutes, as if the {@spell Lenteur} spell has been cast on them. A creature can repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it. A target that successfully saves is immune to this wolfwere's melody for the next 24 hours."
 					]
 				},
 				{
@@ -9250,7 +9250,7 @@
 				{
 					"name": "Lethargic Song (Humanoid form only)",
 					"entries": [
-						"The wolfwere plays a magical melody on an instrument. Every Humanoid within 200 feet of the wolfwere that hears the melody must succeed on a {@dc 16} Wisdom saving throw or be slowed for 10 minutes, as if the {@spell slow} spell has been cast on them. A creature can repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it. A target that successfully saves is immune to this wolfwere's melody for the next 24 hours."
+						"The wolfwere plays a magical melody on an instrument. Every Humanoid within 200 feet of the wolfwere that hears the melody must succeed on a {@dc 16} Wisdom saving throw or be slowed for 10 minutes, as if the {@spell Lenteur} spell has been cast on them. A creature can repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it. A target that successfully saves is immune to this wolfwere's melody for the next 24 hours."
 					]
 				},
 				{
@@ -9316,7 +9316,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -9357,25 +9357,25 @@
 						"Xan casts one of the following spells using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell acid splash}",
-						"{@spell light}",
-						"{@spell mage armor}",
-						"{@spell mage hand}",
+						"{@spell Aspersion d'acide}",
+						"{@spell Lumière}",
+						"{@spell Armure du mage}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell detect magic}",
-							"{@spell Tasha's hideous laughter}",
-							"{@spell misty step}",
-							"{@spell shield}",
+							"{@spell Détection de la magie}",
+							"{@spell Rire hideux de Tasha}",
+							"{@spell Pas brumeux}",
+							"{@spell Bouclier}",
 							"{@spell suggestion}"
 						],
 						"1e": [
-							"{@spell counterspell}",
-							"{@spell fly}",
-							"{@spell greater invisibility}",
-							"{@spell hold person}"
+							"{@spell Contresort}",
+							"{@spell Vol}",
+							"{@spell Invisibilité supérieure}",
+							"{@spell Immobiliser un personnage}"
 						]
 					},
 					"ability": "int",
@@ -9487,7 +9487,7 @@
 				15,
 				{
 					"ac": 18,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -9540,24 +9540,24 @@
 						"Xzar casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 17}, {@hit 9} to hit with spell attacks):"
 					],
 					"will": [
-						"{@spell acid splash}",
-						"{@spell fire bolt}",
-						"{@spell mage hand}"
+						"{@spell Aspersion d'acide}",
+						"{@spell Trait de feu}",
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell animate dead}*",
-							"{@spell blight}*",
-							"{@spell false life}*",
-							"{@spell mage armor}",
-							"{@spell ray of enfeeblement}*",
-							"{@spell ray of sickness}*",
-							"{@spell scrying}",
-							"{@spell vampiric touch}*"
+							"{@spell Animation des morts}*",
+							"{@spell Ravage}*",
+							"{@spell Fausse vie}*",
+							"{@spell Armure du mage}",
+							"{@spell Rayon affaiblissant}*",
+							"{@spell Rayon nauséeux}*",
+							"{@spell Scrutation}",
+							"{@spell Toucher vampirique}*"
 						],
 						"1e": [
 							"{@spell abi-dalzim's horrid wilting|XGE}*",
-							"{@spell finger of death}*"
+							"{@spell Doigt de mort}*"
 						]
 					},
 					"footerEntries": [
@@ -9592,7 +9592,7 @@
 				{
 					"name": "No Soul",
 					"entries": [
-						"Since Xzar doesn't have a soul, resurrection magic is able to work upon him no matter how much time has passed. For example, the {@spell revivify} spell would work on Xzar even a week after he died. However, spells like true resurrection and wish are unable to bring Xzar back to life if no body exists."
+						"Since Xzar doesn't have a soul, resurrection magic is able to work upon him no matter how much time has passed. For example, the {@spell Retour à la vie} spell would work on Xzar even a week after he died. However, spells like true resurrection and wish are unable to bring Xzar back to life if no body exists."
 					]
 				}
 			],

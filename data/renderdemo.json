@@ -36,7 +36,7 @@
 						{
 							"type": "list",
 							"items": [
-								"Spells: {@spell acid splash} assumes PHB by default, {@spell tiny servant|xge} can have sources added with a pipe, {@spell tiny servant|xge|and optional link text added with another pipe}.",
+								"Spells: {@spell Aspersion d'acide} assumes PHB by default, {@spell tiny servant|xge} can have sources added with a pipe, {@spell tiny servant|xge|and optional link text added with another pipe}.",
 								"Items: {@item Cruche alchimique} assumes DMG by default, {@item Épée longue|phb} can have sources added with a pipe, {@item Épée longue|phb|and optional link text added with another pipe}.",
 								"Creatures: {@creature goblin} assumes MM by default, {@creature cow|vgm} can have sources added with a pipe, {@creature cow|vgm|and optional link text added with another pipe}.",
 								"Creature legendary groups: {@legroup unicorn} assumes MM by default, {@legroup balhannoth|MPMM} can have sources added with a pipe, {@legroup balhannoth|MPMM|and optional link text added with another pipe}.",
@@ -155,7 +155,7 @@
 						}
 					]
 				},
-				"These tags may be {@b {@i {@spell fireball|phb|nested}}}, although there are often better ways to get the combination of bold and italic that you're probably going to use this for; consider using one of the properly typed objects below (such as level 2 headers).",
+				"These tags may be {@b {@i {@spell Boule de feu|phb|nested}}}, although there are often better ways to get the combination of bold and italic that you're probably going to use this for; consider using one of the properly typed objects below (such as level 2 headers).",
 				{
 					"type": "entries",
 					"name": "A Subclass Name, For Example",
@@ -277,7 +277,7 @@
 									"Although layout may start to deteriorate with more exotic nesting."
 								]
 							},
-							"{@spell bless||Spells, on the other hand, make sense.}",
+							"{@spell Bénédiction||Spells, on the other hand, make sense.}",
 							""
 						],
 						{
@@ -447,7 +447,7 @@
 							"entries": [
 								"This was, again, required specifically for XGE's complex traps, which can have multiple lines of text, often long enough to wrap into multiple rows in the same column. For example:",
 								"Either portal can be neutralized with three successful {@dc 20} Intelligence ({@skill Arcanes}) checks, but the process of analyzing a portal to disrupt it takes time. Faint runes in the ceiling and floor at both ends of the hallway are involved in the functioning of the portals. A creature must first use an action to examine a set of runes, then use a subsequent action to attempt to vandalize the runes. Each successful check reduces the sphere's damage by 11 ({@dice 2d10}), as the disrupted sphere loses speed moving through the failing portal.",
-								"Alternatively, a set of runes can be disabled with three successful castings of {@spell dispel magic} ({@dc 19}) targeting any of the runes in the set.",
+								"Alternatively, a set of runes can be disabled with three successful castings of {@spell Dissipation de la magie} ({@dc 19}) targeting any of the runes in the set.",
 								"If the southern portal is destroyed, the sphere slams into the south wall and comes to a halt. It blocks the door to the tomb, but the characters can escape."
 							]
 						}
@@ -738,15 +738,15 @@
 											"The unicorn's innate spellcasting ability is Charisma (spell save {@dc 14}). The unicorn can innately cast the following spells, requiring no components:"
 										],
 										"will": [
-											"{@spell detect evil and good}",
-											"{@spell druidcraft}",
-											"{@spell pass without trace}"
+											"{@spell Détection du mal et du bien}",
+											"{@spell Druidisme}",
+											"{@spell Passage sans trace}"
 										],
 										"daily": {
 											"1e": [
-												"{@spell calm emotions}",
-												"{@spell dispel evil and good}",
-												"{@spell entangle}"
+												"{@spell Apaisement}",
+												"{@spell Dissipation du mal et du bien}",
+												"{@spell Enchevêtrement}"
 											]
 										},
 										"ability": "cha"

@@ -172,9 +172,9 @@
 						"The archon's innate spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The archon can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell calm emotions}",
-						"{@spell command}",
-						"{@spell compelled duel}"
+						"{@spell Apaisement}",
+						"{@spell Ordre}",
+						"{@spell Duel forcé}"
 					],
 					"ability": "wis"
 				}
@@ -769,72 +769,72 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell acid splash}",
-								"{@spell light}",
-								"{@spell mending}",
-								"{@spell poison spray}",
-								"{@spell shocking grasp}"
+								"{@spell Aspersion d'acide}",
+								"{@spell Lumière}",
+								"{@spell Réparation}",
+								"{@spell Jet de poison}",
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell grease}",
-								"{@spell shield}"
+								"{@spell Détection de la magie}",
+								"{@spell Graisse}",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell alter self}",
-								"{@spell darkvision}",
-								"{@spell enlarge/reduce}",
-								"{@spell hold person}"
+								"{@spell Changement d'apparence}",
+								"{@spell Vision dans le noir}",
+								"{@spell Agrandissement/Réduction}",
+								"{@spell Immobiliser un personnage}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell dispel magic}",
-								"{@spell haste}",
-								"{@spell protection from energy}"
+								"{@spell Contresort}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Célérité}",
+								"{@spell Protection contre l'énergie}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell confusion}",
-								"{@spell conjure minor elementals}",
-								"{@spell polymorph}"
+								"{@spell Invocation d'élémentaires mineurs}",
+								"{@spell Polymorphie}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell cone of cold}",
-								"{@spell creation}",
-								"{@spell hold monster}"
+								"{@spell Cône de froid}",
+								"{@spell Création}",
+								"{@spell Immobilisation de monstre}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell move earth}",
-								"{@spell wall of ice}"
+								"{@spell Déplacement de terre}",
+								"{@spell Mur de glace}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell prismatic spray}"
+								"{@spell Jet prismatique}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell control weather}"
+								"{@spell Contrôle du climat}"
 							]
 						}
 					},
@@ -1179,7 +1179,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -1225,23 +1225,23 @@
 						"The witch's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The witch can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell alter self}",
-						"{@spell detect magic}",
-						"{@spell eldritch blast} (at 11th level)",
-						"{@spell false life}",
-						"{@spell levitate} (self only)",
-						"{@spell mage armor} (self only)"
+						"{@spell Changement d'apparence}",
+						"{@spell Détection de la magie}",
+						"{@spell Trait occulte} (at 11th level)",
+						"{@spell Fausse vie}",
+						"{@spell Lévitation} (self only)",
+						"{@spell Armure du mage} (self only)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell circle of death}",
-							"{@spell enthrall}",
+							"{@spell Cercle de mort}",
+							"{@spell Fascination}",
 							"{@spell suggestion}"
 						],
 						"3e": [
-							"{@spell hellish rebuke}",
-							"{@spell hex}",
-							"{@spell scorching ray} (at 3rd level)"
+							"{@spell Réprobation infernale}",
+							"{@spell Fléau}",
+							"{@spell Rayons brûlants} (at 3rd level)"
 						]
 					},
 					"ability": "cha"
@@ -1251,7 +1251,7 @@
 				{
 					"name": "Blood Witch Dance",
 					"entries": [
-						"The witch can use a bonus action to control the movement of one creature cursed by its {@spell hex} spell that it can see within 30 feet of it. The creature must succeed on a {@dc 15} Charisma saving throw or use its reaction to move up to 30 feet in a direction of the witch's choice."
+						"The witch can use a bonus action to control the movement of one creature cursed by its {@spell Fléau} spell that it can see within 30 feet of it. The creature must succeed on a {@dc 15} Charisma saving throw or use its reaction to move up to 30 feet in a direction of the witch's choice."
 					]
 				},
 				{
@@ -1673,11 +1673,11 @@
 						"The cackler's innate spellcasting ability is Charisma (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The cackler can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell fire bolt}"
+						"{@spell Trait de feu}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Tasha's hideous laughter}"
+							"{@spell Rire hideux de Tasha}"
 						]
 					},
 					"ability": "cha"
@@ -2059,19 +2059,19 @@
 						"The dryad's innate spellcasting ability is Charisma (spell save {@dc 17}). The dryad can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell druidcraft}"
+						"{@spell Druidisme}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell entangle}",
-							"{@spell plant growth}",
-							"{@spell spike growth}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Enchevêtrement}",
+							"{@spell Croissance végétale}",
+							"{@spell Croissance d'épines}"
 						],
 						"1e": [
-							"{@spell moonbeam}",
-							"{@spell grasping vine}",
-							"{@spell wall of thorns}"
+							"{@spell Rayon de lune}",
+							"{@spell Liane saisissante}",
+							"{@spell Mur de ronces}"
 						]
 					},
 					"ability": "cha"
@@ -2237,12 +2237,12 @@
 					],
 					"daily": {
 						"2": [
-							"{@spell fireball}"
+							"{@spell Boule de feu}"
 						],
 						"3e": [
-							"{@spell scorching ray}",
-							"{@spell shield}",
-							"{@spell thunderwave}"
+							"{@spell Rayons brûlants}",
+							"{@spell Bouclier}",
+							"{@spell Onde de tonnerre}"
 						]
 					},
 					"ability": "int"
@@ -2319,7 +2319,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -2358,14 +2358,14 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell enlarge/reduce}",
-							"{@spell mage armor} (self only)",
-							"{@spell scorching ray}"
+							"{@spell Agrandissement/Réduction}",
+							"{@spell Armure du mage} (self only)",
+							"{@spell Rayons brûlants}"
 						],
 						"1e": [
-							"{@spell counterspell}",
-							"{@spell dispel magic}",
-							"{@spell protection from energy}"
+							"{@spell Contresort}",
+							"{@spell Dissipation de la magie}",
+							"{@spell Protection contre l'énergie}"
 						]
 					},
 					"ability": "int"
@@ -2510,16 +2510,16 @@
 						"The angel's innate spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks). The angel can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell command} (as a 2nd-level spell)",
-						"{@spell detect evil and good}"
+						"{@spell Ordre} (as a 2nd-level spell)",
+						"{@spell Détection du mal et du bien}"
 					],
 					"daily": {
 						"1": [
-							"{@spell raise dead}"
+							"{@spell Relèvement}"
 						],
 						"3e": [
-							"{@spell charm person} (as a 5th-level spell)",
-							"{@spell darkness}",
+							"{@spell Charmement} (as a 5th-level spell)",
+							"{@spell Ténèbres}",
 							"{@spell suggestion}"
 						]
 					},
@@ -2692,64 +2692,64 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell acid splash}",
-								"{@spell chill touch}",
-								"{@spell mage hand}",
-								"{@spell poison spray}",
+								"{@spell Aspersion d'acide}",
+								"{@spell Main glaciale}",
+								"{@spell Main du mage}",
+								"{@spell Jet de poison}",
 								"{@spell prestidigitation}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell chromatic orb}",
-								"{@spell magic missile}",
-								"{@spell ray of sickness}"
+								"{@spell Orbe chromatique}",
+								"{@spell Projectile magique}",
+								"{@spell Rayon nauséeux}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell Melf's acid arrow}",
-								"{@spell ray of enfeeblement}",
-								"{@spell spider climb}",
-								"{@spell web}"
+								"{@spell Flèche acide de Melf}",
+								"{@spell Rayon affaiblissant}",
+								"{@spell Marche arachnéenne}",
+								"{@spell Toile}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell animate dead}",
-								"{@spell bestow curse}",
-								"{@spell fear}",
-								"{@spell vampiric touch}"
+								"{@spell Animation des morts}",
+								"{@spell Malédiction}",
+								"{@spell Peur}",
+								"{@spell Toucher vampirique}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell blight}",
-								"{@spell Evard's black tentacles}"
+								"{@spell Ravage}",
+								"{@spell Tentacules noirs d'Evard}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell cloudkill}",
-								"{@spell insect plague}"
+								"{@spell Nuée mortelle}",
+								"{@spell Nuée d'insectes}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell circle of death}",
-								"{@spell create undead}"
+								"{@spell Cercle de mort}",
+								"{@spell Création de morts-vivants}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}"
+								"{@spell Doigt de mort}"
 							]
 						}
 					},
@@ -2929,57 +2929,57 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
-								"{@spell produce flame}",
-								"{@spell resistance}",
-								"{@spell thorn whip}"
+								"{@spell Druidisme}",
+								"{@spell Production de flamme}",
+								"{@spell Résistance}",
+								"{@spell Fouet de ronces}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell cure wounds}",
-								"{@spell faerie fire}",
-								"{@spell thunderwave}"
+								"{@spell Soins}",
+								"{@spell Lueur féérique}",
+								"{@spell Onde de tonnerre}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell beast sense}",
-								"{@spell flame blade}",
-								"{@spell pass without trace}"
+								"{@spell Sens animal}",
+								"{@spell Lame de flamme}",
+								"{@spell Passage sans trace}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell conjure animals}",
-								"{@spell dispel magic}",
-								"{@spell plant growth}"
+								"{@spell Invocation d'animaux}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Croissance végétale}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell dominate beast}",
-								"{@spell freedom of movement}",
-								"{@spell wall of fire}"
+								"{@spell Soumission de bête}",
+								"{@spell Liberté de mouvement}",
+								"{@spell Mur de feu}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell commune with nature}",
-								"{@spell conjure elemental}",
-								"{@spell scrying}"
+								"{@spell Communion avec la nature}",
+								"{@spell Invocation d'élémentaire}",
+								"{@spell Scrutation}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell transport via plants}",
-								"{@spell wall of thorns}"
+								"{@spell Voyage par les plantes}",
+								"{@spell Mur de ronces}"
 							]
 						}
 					},
@@ -3246,47 +3246,47 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell sacred flame}",
-								"{@spell spare the dying}"
+								"{@spell Trait de feu}",
+								"{@spell Lumière}",
+								"{@spell Flamme sacrée}",
+								"{@spell Aide aux mourants}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell guiding bolt}",
-								"{@spell healing word}",
-								"{@spell heroism}",
-								"{@spell shield of faith}"
+								"{@spell Trait de lumière}",
+								"{@spell Mot de guérison}",
+								"{@spell Héroïsme}",
+								"{@spell Bouclier de la foi}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell lesser restoration}",
-								"{@spell scorching ray}"
+								"{@spell Restauration partielle}",
+								"{@spell Rayons brûlants}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell blinding smite}",
-								"{@spell crusader's mantle}",
-								"{@spell revivify}"
+								"{@spell Châtiment aveuglant}",
+								"{@spell Cape du croisé}",
+								"{@spell Retour à la vie}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell banishment}",
-								"{@spell wall of fire}"
+								"{@spell Bannissement}",
+								"{@spell Mur de feu}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell flame strike}"
+								"{@spell Colère sacrée}"
 							]
 						}
 					},
@@ -3426,12 +3426,12 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell compelled duel}",
-							"{@spell guiding bolt} (as a 5th-level spell)"
+							"{@spell Duel forcé}",
+							"{@spell Trait de lumière} (as a 5th-level spell)"
 						],
 						"1e": [
-							"{@spell daylight}",
-							"{@spell fireball} (as a 6th-level spell)"
+							"{@spell Lumière du jour}",
+							"{@spell Boule de feu} (as a 6th-level spell)"
 						]
 					},
 					"ability": "cha"
@@ -3532,7 +3532,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -3571,15 +3571,15 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell mage armor} (self only)",
-							"{@spell scorching ray}"
+							"{@spell Armure du mage} (self only)",
+							"{@spell Rayons brûlants}"
 						],
 						"1e": [
-							"{@spell banishment}",
-							"{@spell cone of cold}",
-							"{@spell dimension door}",
-							"{@spell fireball}",
-							"{@spell ice storm}"
+							"{@spell Bannissement}",
+							"{@spell Cône de froid}",
+							"{@spell Porte dimensionnelle}",
+							"{@spell Boule de feu}",
+							"{@spell Tempête de glace}"
 						]
 					},
 					"ability": "int"
@@ -3921,23 +3921,23 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mending}",
-								"{@spell resistance}",
-								"{@spell spare the dying}"
+								"{@spell Réparation}",
+								"{@spell Résistance}",
+								"{@spell Aide aux mourants}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell cure wounds}",
-								"{@spell sanctuary}"
+								"{@spell Soins}",
+								"{@spell Sanctuaire}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
-								"{@spell aid}",
-								"{@spell lesser restoration}"
+								"{@spell Aide}",
+								"{@spell Restauration partielle}"
 							]
 						}
 					},
@@ -4037,12 +4037,12 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell stoneskin}"
+							"{@spell Peau de pierre}"
 						],
 						"3e": [
-							"{@spell levitate}",
-							"{@spell lightning bolt}",
-							"{@spell thunderwave}"
+							"{@spell Lévitation}",
+							"{@spell Éclair}",
+							"{@spell Onde de tonnerre}"
 						]
 					},
 					"ability": "int"
@@ -4052,13 +4052,13 @@
 				{
 					"name": "Galvanic Overcast {@recharge 5}",
 					"entries": [
-						"When the blastseeker casts {@spell lightning bolt} or thunderwave, it can roll a die. On an odd number, the blastseeker takes 9 ({@damage 2d8}) force damage. On an even number, the spell also deals 9 ({@damage 2d8}) lightning damage to each target that fails its saving throw."
+						"When the blastseeker casts {@spell Éclair} or thunderwave, it can roll a die. On an odd number, the blastseeker takes 9 ({@damage 2d8}) force damage. On an even number, the spell also deals 9 ({@damage 2d8}) lightning damage to each target that fails its saving throw."
 					]
 				},
 				{
 					"name": "Heart of the Storm",
 					"entries": [
-						"When the blastseeker casts {@spell lightning bolt} or thunderwave, all other creatures within 10 feet of the blastseeker each take 3 lightning damage."
+						"When the blastseeker casts {@spell Éclair} or thunderwave, all other creatures within 10 feet of the blastseeker each take 3 lightning damage."
 					]
 				},
 				{
@@ -4414,40 +4414,40 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell poison spray}",
+								"{@spell Jet de poison}",
 								"{@spell shillelagh}",
-								"{@spell thorn whip}"
+								"{@spell Fouet de ronces}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell cure wounds}",
-								"{@spell entangle}",
-								"{@spell ray of sickness}"
+								"{@spell Soins}",
+								"{@spell Enchevêtrement}",
+								"{@spell Rayon nauséeux}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell pass without trace}",
-								"{@spell ray of enfeeblement}",
-								"{@spell spike growth}"
+								"{@spell Passage sans trace}",
+								"{@spell Rayon affaiblissant}",
+								"{@spell Croissance d'épines}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell animate dead}",
-								"{@spell dispel magic}",
-								"{@spell plant growth}"
+								"{@spell Animation des morts}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Croissance végétale}"
 							]
 						},
 						"4": {
 							"slots": 2,
 							"spells": [
-								"{@spell blight}",
-								"{@spell giant insect}"
+								"{@spell Ravage}",
+								"{@spell Insecte géant}"
 							]
 						}
 					},
@@ -4690,8 +4690,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell bless}",
-							"{@spell conjure animals}"
+							"{@spell Bénédiction}",
+							"{@spell Invocation d'animaux}"
 						]
 					},
 					"ability": "wis"
@@ -5396,11 +5396,11 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Isperia's innate spellcasting ability is Wisdom (spell save {@dc 23}). Isperia can innately cast {@spell imprisonment} twice per day, requiring no material components."
+						"Isperia's innate spellcasting ability is Wisdom (spell save {@dc 23}). Isperia can innately cast {@spell Emprisonnement} twice per day, requiring no material components."
 					],
 					"daily": {
 						"2": [
-							"{@spell imprisonment}"
+							"{@spell Emprisonnement}"
 						]
 					},
 					"ability": "wis",
@@ -5418,73 +5418,73 @@
 						"0": {
 							"spells": [
 								"{@spell guidance}",
-								"{@spell light}",
-								"{@spell resistance}",
-								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell Lumière}",
+								"{@spell Résistance}",
+								"{@spell Flamme sacrée}",
+								"{@spell Thaumaturgie}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell command}",
-								"{@spell detect evil and good}",
-								"{@spell ensnaring strike}",
-								"{@spell sanctuary}",
-								"{@spell shield of faith}"
+								"{@spell Ordre}",
+								"{@spell Détection du mal et du bien}",
+								"{@spell Attaque entravante}",
+								"{@spell Sanctuaire}",
+								"{@spell Bouclier de la foi}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell arcane lock}",
-								"{@spell augury}",
-								"{@spell calm emotions}",
-								"{@spell hold person}",
+								"{@spell Serrure magique}",
+								"{@spell Augure}",
+								"{@spell Apaisement}",
+								"{@spell Immobiliser un personnage}",
 								"{@spell silence}",
-								"{@spell zone of truth}"
+								"{@spell Zone de vérité}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell bestow curse}",
+								"{@spell Malédiction}",
 								"{@spell clairvoyance}",
-								"{@spell counterspell}",
-								"{@spell dispel magic}",
-								"{@spell tongues}"
+								"{@spell Contresort}",
+								"{@spell Dissipation de la magie}",
+								"{@spell Don des langues}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell divination}",
-								"{@spell locate creature}"
+								"{@spell Localisation de créature}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell dispel evil and good}",
-								"{@spell scrying}"
+								"{@spell Dissipation du mal et du bien}",
+								"{@spell Scrutation}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell word of recall}"
+								"{@spell Mot de rappel}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell divine word}"
+								"{@spell Verbe divin}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell antimagic field}"
+								"{@spell Antichamp magique}"
 							]
 						}
 					},
@@ -5681,65 +5681,65 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell acid splash}",
-								"{@spell chill touch}",
-								"{@spell mage hand}",
-								"{@spell poison spray}",
+								"{@spell Aspersion d'acide}",
+								"{@spell Main glaciale}",
+								"{@spell Main du mage}",
+								"{@spell Jet de poison}",
 								"{@spell prestidigitation}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell entangle}",
-								"{@spell ray of sickness}",
-								"{@spell sleep}"
+								"{@spell Enchevêtrement}",
+								"{@spell Rayon nauséeux}",
+								"{@spell Sommeil}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell Melf's acid arrow}",
-								"{@spell ray of enfeeblement}",
-								"{@spell spider climb}",
-								"{@spell web}"
+								"{@spell Flèche acide de Melf}",
+								"{@spell Rayon affaiblissant}",
+								"{@spell Marche arachnéenne}",
+								"{@spell Toile}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell animate dead}",
-								"{@spell plant growth}",
-								"{@spell vampiric touch}"
+								"{@spell Animation des morts}",
+								"{@spell Croissance végétale}",
+								"{@spell Toucher vampirique}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell blight}",
-								"{@spell giant insect}",
-								"{@spell grasping vine}"
+								"{@spell Ravage}",
+								"{@spell Insecte géant}",
+								"{@spell Liane saisissante}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell cloudkill}",
-								"{@spell insect plague}"
+								"{@spell Nuée mortelle}",
+								"{@spell Nuée d'insectes}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell circle of death}",
-								"{@spell create undead}"
+								"{@spell Cercle de mort}",
+								"{@spell Création de morts-vivants}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}",
-								"{@spell forcecage}"
+								"{@spell Doigt de mort}",
+								"{@spell Cage de force}"
 							]
 						}
 					},
@@ -5947,18 +5947,18 @@
 						"The kraul's innate spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). The kraul can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell chill touch}",
-						"{@spell poison spray}"
+						"{@spell Main glaciale}",
+						"{@spell Jet de poison}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell ray of enfeeblement}",
-							"{@spell ray of sickness}"
+							"{@spell Rayon affaiblissant}",
+							"{@spell Rayon nauséeux}"
 						],
 						"1e": [
-							"{@spell animate dead}",
-							"{@spell blight}",
-							"{@spell vampiric touch}"
+							"{@spell Animation des morts}",
+							"{@spell Ravage}",
+							"{@spell Toucher vampirique}"
 						]
 					},
 					"ability": "wis"
@@ -6234,41 +6234,41 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell friends}",
-								"{@spell light}",
+								"{@spell Trait de feu}",
+								"{@spell Ami}",
+								"{@spell Lumière}",
 								"{@spell message}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell alarm}",
-								"{@spell expeditious retreat}",
-								"{@spell shield}"
+								"{@spell Alarme}",
+								"{@spell Retrait expéditif}",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell arcane lock}",
-								"{@spell detect thoughts}",
-								"{@spell hold person}"
+								"{@spell Serrure magique}",
+								"{@spell Détection de pensées}",
+								"{@spell Immobiliser un personnage}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell clairvoyance}",
-								"{@spell dispel magic}",
-								"{@spell slow}"
+								"{@spell Dissipation de la magie}",
+								"{@spell Lenteur}"
 							]
 						},
 						"4": {
 							"slots": 2,
 							"spells": [
-								"{@spell locate creature}",
-								"{@spell stoneskin}"
+								"{@spell Localisation de créature}",
+								"{@spell Peau de pierre}"
 							]
 						}
 					},
@@ -6390,20 +6390,20 @@
 						"Lazav's innate spellcasting ability is Intelligence (spell save {@dc 20}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell detect thoughts}",
+						"{@spell Détection de pensées}",
 						"{@spell encode thoughts|GGR} (see chapter 2)",
-						"{@spell freedom of movement}",
-						"{@spell vicious mockery} ({@damage 4d4} psychic damage)"
+						"{@spell Liberté de mouvement}",
+						"{@spell Moquerie féroce} ({@damage 4d4} psychic damage)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell blur}",
+							"{@spell Distorsion}",
 							"{@spell confusion}",
-							"{@spell mirror image}"
+							"{@spell Image dédoublée}"
 						],
 						"1e": [
-							"{@spell modify memory}",
-							"{@spell Rary's telepathic bond}"
+							"{@spell Modification de mémoire}",
+							"{@spell Lien télépathique de Rary}"
 						]
 					},
 					"ability": "int"
@@ -6602,12 +6602,12 @@
 						"The master's innate spellcasting ability is Charisma (spell save {@dc 17}). The master can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell charm person} (as a 3rd-level spell)",
-						"{@spell crown of madness}"
+						"{@spell Charmement} (as a 3rd-level spell)",
+						"{@spell Couronne de folie}"
 					],
 					"daily": {
 						"1": [
-							"{@spell dominate person}"
+							"{@spell Soumission d'humanoïde}"
 						]
 					},
 					"ability": "cha"
@@ -6767,14 +6767,14 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell charm person}",
-							"{@spell hold person}",
-							"{@spell mirror image}",
-							"{@spell sleep}"
+							"{@spell Charmement}",
+							"{@spell Immobiliser un personnage}",
+							"{@spell Image dédoublée}",
+							"{@spell Sommeil}"
 						],
 						"1e": [
-							"{@spell gaseous form}",
-							"{@spell major image}"
+							"{@spell Forme gazeuse}",
+							"{@spell Image majeure}"
 						]
 					},
 					"ability": "int"
@@ -6882,7 +6882,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -6923,20 +6923,20 @@
 					],
 					"will": [
 						"{@spell encode thoughts|GGR} (see chapter 2)",
-						"{@spell friends}"
+						"{@spell Ami}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell charm person}",
-							"{@spell detect thoughts}",
-							"{@spell mage armor}",
-							"{@spell sleep}",
+							"{@spell Charmement}",
+							"{@spell Détection de pensées}",
+							"{@spell Armure du mage}",
+							"{@spell Sommeil}",
 							"{@spell suggestion}"
 						],
 						"1e": [
-							"{@spell dominate person}",
-							"{@spell mass suggestion}",
-							"{@spell modify memory}"
+							"{@spell Soumission d'humanoïde}",
+							"{@spell Suggestion de groupe}",
+							"{@spell Modification de mémoire}"
 						]
 					},
 					"ability": "int"
@@ -7197,87 +7197,87 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
+								"{@spell Trait de feu}",
+								"{@spell Lumière}",
 								"{@spell prestidigitation}",
-								"{@spell ray of frost}",
-								"{@spell shocking grasp}"
+								"{@spell Rayon de gel}",
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell thunderwave}",
-								"{@spell unseen servant}"
+								"{@spell Détection de la magie}",
+								"{@spell Projectile magique}",
+								"{@spell Bouclier}",
+								"{@spell Onde de tonnerre}",
+								"{@spell Servant invisible}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell blur}",
-								"{@spell enlarge/reduce}",
-								"{@spell flaming sphere}",
-								"{@spell hold person}",
-								"{@spell scorching ray}"
+								"{@spell Distorsion}",
+								"{@spell Agrandissement/Réduction}",
+								"{@spell Sphère enflammée}",
+								"{@spell Immobiliser un personnage}",
+								"{@spell Rayons brûlants}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell fireball}",
-								"{@spell lightning bolt}",
-								"{@spell slow}"
+								"{@spell Contresort}",
+								"{@spell Boule de feu}",
+								"{@spell Éclair}",
+								"{@spell Lenteur}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell confusion}",
-								"{@spell dimension door}",
-								"{@spell fabricate}"
+								"{@spell Porte dimensionnelle}",
+								"{@spell Fabrication}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell conjure elemental}",
-								"{@spell polymorph}",
-								"{@spell wall of fire}",
-								"{@spell wall of force}"
+								"{@spell Invocation d'élémentaire}",
+								"{@spell Polymorphie}",
+								"{@spell Mur de feu}",
+								"{@spell Mur de force}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell chain lightning}",
-								"{@spell disintegrate}",
-								"{@spell true seeing}"
+								"{@spell Chaîne d'éclairs}",
+								"{@spell Désintégration}",
+								"{@spell Vision véritable}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell project image}",
-								"{@spell reverse gravity}",
-								"{@spell teleport}"
+								"{@spell Projection d'image}",
+								"{@spell Inversion de la gravité}",
+								"{@spell Téléportation}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell control weather}",
-								"{@spell maze}",
-								"{@spell power word stun}"
+								"{@spell Contrôle du climat}",
+								"{@spell Labyrinthe}",
+								"{@spell Mot de pouvoir d'étourdissement}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell prismatic wall}"
+								"{@spell Mur prismatique}"
 							]
 						}
 					},
@@ -7634,12 +7634,12 @@
 						"The ghost's innate spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell chill touch} (at 5th level, and the ghost regains hit points equal to half the amount of damage the target takes)"
+						"{@spell Main glaciale} (at 5th level, and the ghost regains hit points equal to half the amount of damage the target takes)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell sanctuary}",
-							"{@spell spirit guardians} (at 4th level)"
+							"{@spell Sanctuaire}",
+							"{@spell Esprits gardiens} (at 4th level)"
 						]
 					},
 					"ability": "wis"
@@ -7657,7 +7657,7 @@
 								{
 									"type": "item",
 									"name": "Enezesku: Enfeebling Ray",
-									"entry": "Enezesku's Innate Spellcasting trait includes {@spell ray of enfeeblement}, which he can cast at will."
+									"entry": "Enezesku's Innate Spellcasting trait includes {@spell Rayon affaiblissant}, which he can cast at will."
 								},
 								{
 									"type": "item",
@@ -7672,7 +7672,7 @@
 								{
 									"type": "item",
 									"name": "Vuliev: Teleportation",
-									"entry": "Vuliev's Innate Spellcasting trait includes {@spell misty step}, which he can cast at will."
+									"entry": "Vuliev's Innate Spellcasting trait includes {@spell Pas brumeux}, which he can cast at will."
 								},
 								{
 									"type": "item",
@@ -7894,7 +7894,7 @@
 				11,
 				{
 					"ac": 14,
-					"condition": "with {@spell mage armor}",
+					"condition": "with {@spell Armure du mage}",
 					"braces": true
 				}
 			],
@@ -7935,12 +7935,12 @@
 					],
 					"daily": {
 						"3": [
-							"{@spell detect thoughts}",
-							"{@spell mage armor}"
+							"{@spell Détection de pensées}",
+							"{@spell Armure du mage}"
 						],
 						"1e": [
 							"{@spell clairvoyance}",
-							"{@spell locate object}"
+							"{@spell Localisation d'objet}"
 						]
 					},
 					"ability": "int"
@@ -8089,10 +8089,10 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Rakdos's spellcasting ability is Charisma (spell save {@dc 25}). He can innately cast {@spell hellish rebuke} (at 5th level) at will, requiring no material components."
+						"Rakdos's spellcasting ability is Charisma (spell save {@dc 25}). He can innately cast {@spell Réprobation infernale} (at 5th level) at will, requiring no material components."
 					],
 					"will": [
-						"{@spell hellish rebuke}"
+						"{@spell Réprobation infernale}"
 					],
 					"ability": "cha",
 					"hidden": [
@@ -8274,26 +8274,26 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell dancing lights}",
-								"{@spell minor illusion}",
-								"{@spell vicious mockery}"
+								"{@spell Lumières dansantes}",
+								"{@spell Illusion mineure}",
+								"{@spell Moquerie féroce}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell bane}",
-								"{@spell dissonant whispers}",
-								"{@spell silent image}",
-								"{@spell Tasha's hideous laughter}",
-								"{@spell thunderwave}"
+								"{@spell Fléau}",
+								"{@spell Murmures discordants}",
+								"{@spell Image silencieuse}",
+								"{@spell Rire hideux de Tasha}",
+								"{@spell Onde de tonnerre}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell crown of madness}",
-								"{@spell enthrall}",
+								"{@spell Couronne de folie}",
+								"{@spell Fascination}",
 								"{@spell suggestion}"
 							]
 						}
@@ -8676,32 +8676,32 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell blade ward}",
-								"{@spell light}",
+								"{@spell Garde de lame}",
+								"{@spell Lumière}",
 								"{@spell message}",
-								"{@spell shocking grasp}"
+								"{@spell Poing électrique}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell guiding bolt}",
-								"{@spell shield}",
-								"{@spell thunderwave}",
-								"{@spell witch bolt}"
+								"{@spell Trait de lumière}",
+								"{@spell Bouclier}",
+								"{@spell Onde de tonnerre}",
+								"{@spell Décharge occulte}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell blur}",
-								"{@spell levitate}"
+								"{@spell Distorsion}",
+								"{@spell Lévitation}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell lightning bolt}"
+								"{@spell Éclair}"
 							]
 						}
 					},
@@ -9278,14 +9278,14 @@
 					],
 					"will": [
 						"{@spell clairvoyance}",
-						"{@spell crown of madness}",
-						"{@spell major image}",
+						"{@spell Couronne de folie}",
+						"{@spell Image majeure}",
 						"{@spell suggestion}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell confusion}",
-							"{@spell mass suggestion}"
+							"{@spell Suggestion de groupe}"
 						]
 					},
 					"ability": "cha"
@@ -9772,24 +9772,24 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell friends}",
-								"{@spell mage hand}",
+								"{@spell Ami}",
+								"{@spell Main du mage}",
 								"{@spell message}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell command}",
-								"{@spell ensnaring strike}",
-								"{@spell shield}"
+								"{@spell Ordre}",
+								"{@spell Attaque entravante}",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell calm emotions}",
-								"{@spell hold person}",
+								"{@spell Apaisement}",
+								"{@spell Immobiliser un personnage}",
 								"{@spell suggestion}"
 							]
 						},
@@ -9797,21 +9797,21 @@
 							"slots": 3,
 							"spells": [
 								"{@spell clairvoyance}",
-								"{@spell counterspell}",
-								"{@spell dispel magic}"
+								"{@spell Contresort}",
+								"{@spell Dissipation de la magie}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell banishment}",
+								"{@spell Bannissement}",
 								"{@spell divination}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell dominate person}"
+								"{@spell Soumission d'humanoïde}"
 							]
 						}
 					},
@@ -10016,15 +10016,15 @@
 						"The thought spy's innate spellcasting ability is Intelligence (spell save {@dc 13}). The thought spy can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell charm person}",
-						"{@spell disguise self}",
+						"{@spell Charmement}",
+						"{@spell Déguisement}",
 						"{@spell encode thoughts|GGR} (see chapter 2)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell blur}",
-							"{@spell detect thoughts}",
-							"{@spell gaseous form}"
+							"{@spell Distorsion}",
+							"{@spell Détection de pensées}",
+							"{@spell Forme gazeuse}"
 						]
 					},
 					"ability": "int"
@@ -10160,22 +10160,22 @@
 						"Trostani's innate spellcasting ability is Wisdom (spell save {@dc 24}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell dispel magic}",
-						"{@spell druidcraft}"
+						"{@spell Dissipation de la magie}",
+						"{@spell Druidisme}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell bless}",
-							"{@spell conjure animals}",
-							"{@spell giant insect}",
-							"{@spell moonbeam}",
-							"{@spell plant growth}",
-							"{@spell spike growth}",
+							"{@spell Bénédiction}",
+							"{@spell Invocation d'animaux}",
+							"{@spell Insecte géant}",
+							"{@spell Rayon de lune}",
+							"{@spell Croissance végétale}",
+							"{@spell Croissance d'épines}",
 							"{@spell suggestion}"
 						],
 						"1e": [
-							"{@spell conjure fey}",
-							"{@spell mass cure wounds}"
+							"{@spell Invocation de féerique}",
+							"{@spell Guérison de groupe}"
 						]
 					},
 					"ability": "wis"
@@ -10255,7 +10255,7 @@
 				{
 					"name": "Voice of Order",
 					"entries": [
-						"Trostani casts {@spell dispel magic}."
+						"Trostani casts {@spell Dissipation de la magie}."
 					]
 				},
 				{
@@ -10377,9 +10377,9 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell expeditious retreat}",
-							"{@spell fog cloud}",
-							"{@spell misty step}"
+							"{@spell Retrait expéditif}",
+							"{@spell Nuage de brouillard}",
+							"{@spell Pas brumeux}"
 						]
 					},
 					"ability": "int"
@@ -10415,7 +10415,7 @@
 				{
 					"name": "Petrifying Gaze",
 					"entries": [
-						"The medusa fixes its gaze on one creature within 60 feet of it that it can see and that can see its eyes. The target must make a {@dc 14} Constitution saving throw. If the saving throw fails by 5 or more, the creature is instantly {@condition Pétrifié}. Otherwise, a creature that fails the save begins to turn to stone and is {@condition Entravé}. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn, becoming {@condition Pétrifié} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by a {@spell greater restoration} spell or similar magic."
+						"The medusa fixes its gaze on one creature within 60 feet of it that it can see and that can see its eyes. The target must make a {@dc 14} Constitution saving throw. If the saving throw fails by 5 or more, the creature is instantly {@condition Pétrifié}. Otherwise, a creature that fails the save begins to turn to stone and is {@condition Entravé}. The {@condition Entravé} creature must repeat the saving throw at the end of its next turn, becoming {@condition Pétrifié} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by a {@spell Restauration supérieure} spell or similar magic."
 					]
 				}
 			],
@@ -10715,70 +10715,70 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell acid splash}",
-								"{@spell druidcraft}",
-								"{@spell ray of frost}",
+								"{@spell Aspersion d'acide}",
+								"{@spell Druidisme}",
+								"{@spell Rayon de gel}",
 								"{@spell shape water|XGE}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell color spray}",
-								"{@spell expeditious retreat}",
-								"{@spell fog cloud}",
-								"{@spell shield}"
+								"{@spell Gerbe colorée}",
+								"{@spell Retrait expéditif}",
+								"{@spell Nuage de brouillard}",
+								"{@spell Bouclier}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell enlarge/reduce}",
-								"{@spell gust of wind}"
+								"{@spell Agrandissement/Réduction}",
+								"{@spell Rafale}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell counterspell}",
-								"{@spell fly}",
-								"{@spell slow}"
+								"{@spell Contresort}",
+								"{@spell Vol}",
+								"{@spell Lenteur}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell control water}",
-								"{@spell ice storm}",
-								"{@spell polymorph}"
+								"{@spell Contrôle de l'eau}",
+								"{@spell Tempête de glace}",
+								"{@spell Polymorphie}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell conjure elemental}",
-								"{@spell creation}"
+								"{@spell Invocation d'élémentaire}",
+								"{@spell Création}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell move earth}",
-								"{@spell wall of ice}"
+								"{@spell Déplacement de terre}",
+								"{@spell Mur de glace}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell prismatic spray}",
-								"{@spell teleport}"
+								"{@spell Jet prismatique}",
+								"{@spell Téléportation}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell control weather}",
-								"{@spell dominate monster}"
+								"{@spell Contrôle du climat}",
+								"{@spell Soumission de monstre}"
 							]
 						}
 					},
@@ -10835,7 +10835,7 @@
 				{
 					"name": "Enlarge (Costs 2 Actions)",
 					"entries": [
-						"Zegana casts {@spell enlarge/reduce} on herself, using the enlarge option, without expending a spell slot."
+						"Zegana casts {@spell Agrandissement/Réduction} on herself, using the enlarge option, without expending a spell slot."
 					]
 				},
 				{

@@ -77,14 +77,14 @@
 						"The archaic casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 22}):"
 					],
 					"will": [
-						"{@spell detect magic}",
+						"{@spell Détection de la magie}",
 						"{@spell divination}",
-						"{@spell sending}"
+						"{@spell Envoi de message}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell banishment}",
-							"{@spell forcecage}"
+							"{@spell Bannissement}",
+							"{@spell Cage de force}"
 						]
 					},
 					"ability": "int",
@@ -388,11 +388,11 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell greater restoration}",
-							"{@spell mass cure wounds}",
-							"{@spell plant growth}",
-							"{@spell revivify}",
-							"{@spell speak with dead}"
+							"{@spell Restauration supérieure}",
+							"{@spell Guérison de groupe}",
+							"{@spell Croissance végétale}",
+							"{@spell Retour à la vie}",
+							"{@spell Parler aux morts}"
 						]
 					},
 					"ability": "wis",
@@ -663,7 +663,7 @@
 						"The archivist casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell dancing lights}",
+						"{@spell Lumières dansantes}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
@@ -924,7 +924,7 @@
 				{
 					"name": "Pact of Suffering",
 					"entries": [
-						"Using a 10-minute long ritual, the titan can forge a magical bond with a willing creature it touches throughout the ritual. The creature becomes bound by the pact until it dies, the titan dies, or the pact is broken by a {@spell wish} spell.",
+						"Using a 10-minute long ritual, the titan can forge a magical bond with a willing creature it touches throughout the ritual. The creature becomes bound by the pact until it dies, the titan dies, or the pact is broken by a {@spell Souhait} spell.",
 						"The titan chooses one spell from the {@filter necromancy or enchantment school that is 8th level or lower|spells|level=0;1;2;3;4;5;6;7;8|school=N;E}. The bound creature can cast that spell using this pact, requiring no material components and using Intelligence as the spellcasting ability. When it casts the spell, the creature takes 21 ({@damage 6d6}) psychic damage, which can't break the creature's {@status concentration} on a spell. Once the bound creature casts the spell in this way, it can't do so again until it finishes a long rest."
 					]
 				}
@@ -1055,12 +1055,12 @@
 						"The student casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 11}):"
 					],
 					"will": [
-						"{@spell mage hand}",
+						"{@spell Main du mage}",
 						"{@spell prestidigitation}"
 					],
 					"daily": {
 						"1": [
-							"{@spell detect magic}"
+							"{@spell Détection de la magie}"
 						]
 					},
 					"ability": "int",
@@ -1268,9 +1268,9 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell control water}",
-							"{@spell gust of wind}",
-							"{@spell wall of stone}"
+							"{@spell Contrôle de l'eau}",
+							"{@spell Rafale}",
+							"{@spell Mur de pierre}"
 						]
 					},
 					"ability": "cha",
@@ -1654,13 +1654,13 @@
 					],
 					"will": [
 						"{@spell guidance}",
-						"{@spell light}"
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell comprehend languages}",
-							"{@spell locate object}",
-							"{@spell mage armor}"
+							"{@spell Compréhension des langues}",
+							"{@spell Localisation d'objet}",
+							"{@spell Armure du mage}"
 						]
 					},
 					"ability": "int",
@@ -1773,17 +1773,17 @@
 					],
 					"will": [
 						"{@spell guidance}",
-						"{@spell light}"
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell comprehend languages}",
-							"{@spell locate object}"
+							"{@spell Compréhension des langues}",
+							"{@spell Localisation d'objet}"
 						],
 						"1e": [
-							"{@spell mage armor}",
-							"{@spell speak with dead}",
-							"{@spell stone shape}"
+							"{@spell Armure du mage}",
+							"{@spell Parler aux morts}",
+							"{@spell Forme de pierre}"
 						]
 					},
 					"ability": "int",
@@ -1917,15 +1917,15 @@
 						"The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell comprehend languages}",
-						"{@spell dancing lights}",
+						"{@spell Compréhension des langues}",
+						"{@spell Lumières dansantes}",
 						"{@spell guidance}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell locate object}",
-							"{@spell mage armor}",
-							"{@spell passwall}"
+							"{@spell Localisation d'objet}",
+							"{@spell Armure du mage}",
+							"{@spell Passage en creux}"
 						]
 					},
 					"ability": "int",
@@ -1936,7 +1936,7 @@
 				{
 					"name": "Voice from the Past (1/Day)",
 					"entries": [
-						"The professor can cast the {@spell contact other plane} spell to contact a long-dead spirit, using Intelligence as the spellcasting ability."
+						"The professor can cast the {@spell Contact avec les autres plans} spell to contact a long-dead spirit, using Intelligence as the spellcasting ability."
 					]
 				}
 			],
@@ -2050,16 +2050,16 @@
 						"The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell comprehend languages}",
+						"{@spell Compréhension des langues}",
 						"{@spell guidance}",
-						"{@spell light}"
+						"{@spell Lumière}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell dimension door}",
-							"{@spell locate object}",
-							"{@spell mage armor}",
-							"{@spell stone shape}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Localisation d'objet}",
+							"{@spell Armure du mage}",
+							"{@spell Forme de pierre}"
 						]
 					},
 					"ability": "int",
@@ -2070,7 +2070,7 @@
 				{
 					"name": "Voice from the Past (1/Day)",
 					"entries": [
-						"The professor can cast the {@spell contact other plane} spell to contact a long-dead spirit, using Intelligence as the spellcasting ability."
+						"The professor can cast the {@spell Contact avec les autres plans} spell to contact a long-dead spirit, using Intelligence as the spellcasting ability."
 					]
 				}
 			],
@@ -2509,19 +2509,19 @@
 						"The Oracle casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
-						"{@spell detect magic}"
+						"{@spell Détection de la magie}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell dispel magic}",
-							"{@spell mage armor}",
-							"{@spell remove curse}",
-							"{@spell sending}"
+							"{@spell Dissipation de la magie}",
+							"{@spell Armure du mage}",
+							"{@spell Délivrance de la malédiction}",
+							"{@spell Envoi de message}"
 						],
 						"1e": [
-							"{@spell power word stun}",
-							"{@spell scrying} (as an action)",
-							"{@spell wall of force}"
+							"{@spell Mot de pouvoir d'étourdissement}",
+							"{@spell Scrutation} (as an action)",
+							"{@spell Mur de force}"
 						]
 					},
 					"ability": "int",
@@ -2815,15 +2815,15 @@
 						"The recruiter casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
-						"{@spell disguise self}",
-						"{@spell silent image}"
+						"{@spell Déguisement}",
+						"{@spell Image silencieuse}"
 					],
 					"daily": {
 						"1": [
 							"{@spell suggestion}"
 						],
 						"2": [
-							"{@spell charm person}"
+							"{@spell Charmement}"
 						]
 					},
 					"ability": "cha",
@@ -3020,13 +3020,13 @@
 						"The apprentice casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell minor illusion}"
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell gust of wind}",
-							"{@spell mage armor}",
-							"{@spell silent image}"
+							"{@spell Rafale}",
+							"{@spell Armure du mage}",
+							"{@spell Image silencieuse}"
 						]
 					},
 					"ability": "cha",
@@ -3133,16 +3133,16 @@
 						"The pledgemage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell minor illusion}"
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell gust of wind}",
-							"{@spell silent image}"
+							"{@spell Rafale}",
+							"{@spell Image silencieuse}"
 						],
 						"1e": [
-							"{@spell mage armor}",
-							"{@spell water walk}"
+							"{@spell Armure du mage}",
+							"{@spell Marche sur les eaux}"
 						]
 					},
 					"ability": "cha",
@@ -3280,13 +3280,13 @@
 						"The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell minor illusion}"
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell fog cloud}",
-							"{@spell gust of wind}",
-							"{@spell mage armor}"
+							"{@spell Nuage de brouillard}",
+							"{@spell Rafale}",
+							"{@spell Armure du mage}"
 						]
 					},
 					"ability": "cha",
@@ -3410,17 +3410,17 @@
 						"The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell minor illusion}"
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1": [
-							"{@spell wall of ice}"
+							"{@spell Mur de glace}"
 						],
 						"2e": [
-							"{@spell control water}",
-							"{@spell create or destroy water}",
-							"{@spell mage armor}",
-							"{@spell stone shape}"
+							"{@spell Contrôle de l'eau}",
+							"{@spell Création ou destruction d'eau}",
+							"{@spell Armure du mage}",
+							"{@spell Forme de pierre}"
 						]
 					},
 					"ability": "cha",
@@ -3544,12 +3544,12 @@
 					],
 					"will": [
 						"{@spell guidance}",
-						"{@spell mage hand}"
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell enlarge/reduce}",
-							"{@spell mage armor}"
+							"{@spell Agrandissement/Réduction}",
+							"{@spell Armure du mage}"
 						]
 					},
 					"ability": "int",
@@ -3649,14 +3649,14 @@
 					],
 					"will": [
 						"{@spell guidance}",
-						"{@spell mage hand}"
+						"{@spell Main du mage}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dimension door}",
-							"{@spell enlarge/reduce}",
-							"{@spell mage armor}",
-							"{@spell plant growth}"
+							"{@spell Porte dimensionnelle}",
+							"{@spell Agrandissement/Réduction}",
+							"{@spell Armure du mage}",
+							"{@spell Croissance végétale}"
 						]
 					},
 					"ability": "int",
@@ -3778,16 +3778,16 @@
 					],
 					"will": [
 						"{@spell guidance}",
-						"{@spell mage hand}",
-						"{@spell mending} (as an action)"
+						"{@spell Main du mage}",
+						"{@spell Réparation} (as an action)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell creation} (as an action)",
-							"{@spell dimension door}",
-							"{@spell mage armor}",
-							"{@spell plant growth}",
-							"{@spell polymorph}"
+							"{@spell Création} (as an action)",
+							"{@spell Porte dimensionnelle}",
+							"{@spell Armure du mage}",
+							"{@spell Croissance végétale}",
+							"{@spell Polymorphie}"
 						]
 					},
 					"ability": "int",
@@ -3924,15 +3924,15 @@
 					],
 					"will": [
 						"{@spell guidance}",
-						"{@spell mage hand}",
-						"{@spell minor illusion}"
+						"{@spell Main du mage}",
+						"{@spell Illusion mineure}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell mage armor}",
-							"{@spell major image}",
-							"{@spell mirage arcane} (as an action)",
-							"{@spell Rary's telepathic bond}"
+							"{@spell Armure du mage}",
+							"{@spell Image majeure}",
+							"{@spell Mirage arcanique} (as an action)",
+							"{@spell Lien télépathique de Rary}"
 						]
 					},
 					"ability": "int",
@@ -4313,10 +4313,10 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell daylight}",
-							"{@spell hypnotic pattern}",
-							"{@spell sending}",
+							"{@spell Ténèbres}",
+							"{@spell Lumière du jour}",
+							"{@spell Motif hypnotique}",
+							"{@spell Envoi de message}",
 							"{@spell suggestion}"
 						]
 					},
@@ -4478,13 +4478,13 @@
 						"The apprentice casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell friends}"
+						"{@spell Lumières dansantes}",
+						"{@spell Ami}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell command}",
-							"{@spell mage armor}"
+							"{@spell Ordre}",
+							"{@spell Armure du mage}"
 						]
 					},
 					"ability": "cha",
@@ -4587,15 +4587,15 @@
 						"The pledgemage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell friends}"
+						"{@spell Lumières dansantes}",
+						"{@spell Ami}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell command}",
+							"{@spell Ordre}",
 							"{@spell confusion}",
-							"{@spell mage armor}",
-							"{@spell tongues}"
+							"{@spell Armure du mage}",
+							"{@spell Don des langues}"
 						]
 					},
 					"ability": "cha",
@@ -4718,20 +4718,20 @@
 						"The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell friends}"
+						"{@spell Lumières dansantes}",
+						"{@spell Ami}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell bless}",
-							"{@spell command}",
-							"{@spell cure wounds}",
-							"{@spell daylight}",
-							"{@spell mage armor}"
+							"{@spell Bénédiction}",
+							"{@spell Ordre}",
+							"{@spell Soins}",
+							"{@spell Lumière du jour}",
+							"{@spell Armure du mage}"
 						],
 						"1e": [
-							"{@spell hypnotic pattern}",
-							"{@spell tongues}"
+							"{@spell Motif hypnotique}",
+							"{@spell Don des langues}"
 						]
 					},
 					"ability": "cha",
@@ -4850,18 +4850,18 @@
 						"The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell friends}"
+						"{@spell Lumières dansantes}",
+						"{@spell Ami}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell bane}",
-							"{@spell command}",
-							"{@spell darkness}",
-							"{@spell mage armor}"
+							"{@spell Fléau}",
+							"{@spell Ordre}",
+							"{@spell Ténèbres}",
+							"{@spell Armure du mage}"
 						],
 						"1e": [
-							"{@spell tongues}"
+							"{@spell Don des langues}"
 						]
 					},
 					"ability": "cha",
@@ -5237,11 +5237,11 @@
 					"daily": {
 						"1e": [
 							"{@spell divination}",
-							"{@spell enlarge/reduce}",
-							"{@spell mirage arcane} (as an action)",
-							"{@spell polymorph}",
-							"{@spell scrying} (as an action)",
-							"{@spell seeming}"
+							"{@spell Agrandissement/Réduction}",
+							"{@spell Mirage arcanique} (as an action)",
+							"{@spell Polymorphie}",
+							"{@spell Scrutation} (as an action)",
+							"{@spell Apparence}"
 						]
 					},
 					"ability": "int",
@@ -5424,10 +5424,10 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell contact other plane} (as an action, contacting a long-dead spirit)",
+							"{@spell Contact avec les autres plans} (as an action, contacting a long-dead spirit)",
 							"{@spell divination}",
-							"{@spell move earth}",
-							"{@spell wall of force}"
+							"{@spell Déplacement de terre}",
+							"{@spell Mur de force}"
 						]
 					},
 					"ability": "int",
@@ -5595,12 +5595,12 @@
 						"The apprentice casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell druidcraft}",
-						"{@spell spare the dying}"
+						"{@spell Druidisme}",
+						"{@spell Aide aux mourants}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell pass without trace}"
+							"{@spell Passage sans trace}"
 						]
 					},
 					"ability": "wis",
@@ -5734,14 +5734,14 @@
 						"The apprentice casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell druidcraft}",
-						"{@spell spare the dying}"
+						"{@spell Druidisme}",
+						"{@spell Aide aux mourants}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell death ward}",
-							"{@spell pass without trace}",
-							"{@spell speak with plants}"
+							"{@spell Protection contre la mort}",
+							"{@spell Passage sans trace}",
+							"{@spell Parler aux plantes}"
 						]
 					},
 					"ability": "wis",
@@ -5879,15 +5879,15 @@
 						"The professor casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
-						"{@spell druidcraft}",
-						"{@spell spare the dying}"
+						"{@spell Druidisme}",
+						"{@spell Aide aux mourants}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell antilife shell}",
-							"{@spell bane}",
-							"{@spell feign death}",
-							"{@spell speak with dead}"
+							"{@spell Coque antivie}",
+							"{@spell Fléau}",
+							"{@spell Simulacre de mort}",
+							"{@spell Parler aux morts}"
 						]
 					},
 					"ability": "wis",
@@ -5898,7 +5898,7 @@
 				{
 					"name": "Essence Transfer (1/Day)",
 					"entries": [
-						"The professor can cast the {@spell animate dead} spell, using Wisdom as the spellcasting ability."
+						"The professor can cast the {@spell Animation des morts} spell, using Wisdom as the spellcasting ability."
 					]
 				}
 			],
@@ -6021,17 +6021,17 @@
 						"The professor casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell druidcraft}",
-						"{@spell spare the dying}"
+						"{@spell Druidisme}",
+						"{@spell Aide aux mourants}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell greater restoration}",
-							"{@spell lesser restoration}",
-							"{@spell mass cure wounds}",
-							"{@spell pass without trace}",
-							"{@spell plant growth}",
-							"{@spell revivify}"
+							"{@spell Restauration supérieure}",
+							"{@spell Restauration partielle}",
+							"{@spell Guérison de groupe}",
+							"{@spell Passage sans trace}",
+							"{@spell Croissance végétale}",
+							"{@spell Retour à la vie}"
 						]
 					},
 					"ability": "wis",

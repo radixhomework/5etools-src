@@ -57,7 +57,7 @@
 			"source": "IDRotF",
 			"page": 105,
 			"_copy": {
-				"name": "Ancient White Dragon",
+				"name": "Dragon blanc antique",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -421,7 +421,7 @@
 				{
 					"name": "Create Ice Mephit (3/Day)",
 					"entries": [
-						"Auril breaks off an icicle from her body and hurls it into an unoccupied space she can see within 20 feet of her, where it magically transforms into an {@creature ice mephit} (see its entry in the Monster Manual). The mephit acts immediately after Auril in the initiative order and obeys her commands."
+						"Auril breaks off an icicle from her body and hurls it into an unoccupied space she can see within 20 feet of her, where it magically transforms into an {@creature Méphrite de glace} (see its entry in the Monster Manual). The mephit acts immediately after Auril in the initiative order and obeys her commands."
 					]
 				},
 				{
@@ -972,7 +972,7 @@
 			"source": "IDRotF",
 			"page": 107,
 			"_copy": {
-				"name": "Scout",
+				"name": "Éclaireur",
 				"source": "MM",
 				"_templates": [
 					{
@@ -989,7 +989,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Longbow",
+							"replace": "Arc long",
 							"items": {
 								"name": "Light Crossbow",
 								"entries": [
@@ -999,7 +999,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Shortsword",
+							"replace": "Épée courte",
 							"items": {
 								"name": "Handaxe",
 								"entries": [
@@ -1414,12 +1414,12 @@
 			"source": "IDRotF",
 			"page": 246,
 			"_copy": {
-				"name": "Baboon",
+				"name": "Babouin",
 				"source": "MM",
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Bite",
+						"replace": "Morsure",
 						"items": {
 							"name": "Bite",
 							"entries": [
@@ -1437,7 +1437,7 @@
 			"source": "IDRotF",
 			"page": 246,
 			"_copy": {
-				"name": "Cat",
+				"name": "Chat",
 				"source": "MM"
 			},
 			"senses": [
@@ -1519,7 +1519,7 @@
 			"source": "IDRotF",
 			"page": 246,
 			"_copy": {
-				"name": "Weasel",
+				"name": "Belette",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -1533,7 +1533,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Bite",
+						"replace": "Morsure",
 						"items": {
 							"name": "Bite",
 							"entries": [
@@ -2051,7 +2051,7 @@
 			"source": "IDRotF",
 			"page": 183,
 			"_copy": {
-				"name": "Mind Flayer",
+				"name": "Flagelleur mental",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2301,7 +2301,7 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"The druid magically polymorphs into a beast form\u2014fox, mountain goat, owl, or wolf\u2014or back into its humanoid form. Any equipment it is wearing or carrying is absorbed or borne by the beast form (the druid's choice). It reverts to its humanoid form when it dies. The druid's statistics are the same in each form, except where noted in this stat block."
+						"The druid magically polymorphs into a beast form—fox, mountain goat, owl, or wolf—or back into its humanoid form. Any equipment it is wearing or carrying is absorbed or borne by the beast form (the druid's choice). It reverts to its humanoid form when it dies. The druid's statistics are the same in each form, except where noted in this stat block."
 					]
 				}
 			],
@@ -3562,13 +3562,13 @@
 			"source": "IDRotF",
 			"page": 140,
 			"_copy": {
-				"name": "Frost Giant",
+				"name": "Géant du givre",
 				"source": "MM",
 				"_mod": {
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -3578,7 +3578,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Greataxe",
+							"replace": "Hache à deux mains",
 							"items": {
 								"name": "Anvil Chain",
 								"entries": [
@@ -3768,7 +3768,7 @@
 			"source": "IDRotF",
 			"page": 244,
 			"_copy": {
-				"name": "Iron Golem",
+				"name": "Golem de fer",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -3776,13 +3776,13 @@
 						"items": {
 							"name": "Headless",
 							"entries": [
-								"The golem is {@condition Aveuglé} and {@condition Assourdi}, giving it disadvantage on all its attack rolls, and it can't use its Poison Breath."
+								"The golem is {@condition blinded} and {@condition deafened}, giving it disadvantage on all its attack rolls, and it can't use its Poison Breath."
 							]
 						}
 					},
 					"action": {
 						"mode": "removeArr",
-						"names": "Poison Breath {@recharge 5}"
+						"names": "Souffle de poison {@recharge 5}"
 					}
 				}
 			},
@@ -3804,7 +3804,7 @@
 			"source": "IDRotF",
 			"page": 215,
 			"_copy": {
-				"name": "Gladiator",
+				"name": "Gladiateur",
 				"source": "MM",
 				"_mod": {
 					"*": [
@@ -3945,7 +3945,7 @@
 			"source": "IDRotF",
 			"page": 226,
 			"_copy": {
-				"name": "Piercer",
+				"name": "Perceur",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3955,7 +3955,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Drop",
+						"replace": "Chute",
 						"items": {
 							"name": "Drop",
 							"entries": [
@@ -4544,7 +4544,7 @@
 			"source": "IDRotF",
 			"page": 42,
 			"_copy": {
-				"name": "Cult Fanatic",
+				"name": "Fanatique de culte",
 				"source": "MM",
 				"_templates": [
 					{
@@ -4665,7 +4665,7 @@
 			"source": "IDRotF",
 			"page": 259,
 			"_copy": {
-				"name": "Cult Fanatic",
+				"name": "Fanatique de culte",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -5247,7 +5247,7 @@
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Corrupting Touch",
+						"replace": "Toucher corrupteur",
 						"items": {
 							"name": "Spectral Longbow",
 							"entries": [
@@ -5268,7 +5268,7 @@
 			"source": "IDRotF",
 			"page": 215,
 			"_copy": {
-				"name": "Druid",
+				"name": "Druide",
 				"source": "MM",
 				"_mod": {
 					"*": [
@@ -5702,7 +5702,7 @@
 			"source": "IDRotF",
 			"page": 152,
 			"_copy": {
-				"name": "Gladiator",
+				"name": "Gladiateur",
 				"source": "MM",
 				"_mod": {
 					"*": [
@@ -5743,7 +5743,7 @@
 			"source": "IDRotF",
 			"page": 152,
 			"_copy": {
-				"name": "Gladiator",
+				"name": "Gladiateur",
 				"source": "MM",
 				"_mod": {
 					"*": [
@@ -5784,7 +5784,7 @@
 			"source": "IDRotF",
 			"page": 152,
 			"_copy": {
-				"name": "Druid",
+				"name": "Druide",
 				"source": "MM",
 				"_mod": {
 					"*": [
@@ -5824,7 +5824,7 @@
 			"source": "IDRotF",
 			"page": 152,
 			"_copy": {
-				"name": "Tribal Warrior",
+				"name": "Guerrier tribal",
 				"source": "MM",
 				"_mod": {
 					"*": [
@@ -5861,7 +5861,7 @@
 			"source": "IDRotF",
 			"page": 107,
 			"_copy": {
-				"name": "Elk",
+				"name": "Élan",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -6195,7 +6195,7 @@
 			"source": "IDRotF",
 			"page": 309,
 			"_copy": {
-				"name": "Owlbear",
+				"name": "Ours-hibou",
 				"source": "MM"
 			},
 			"speed": {
@@ -6596,7 +6596,7 @@
 			"source": "IDRotF",
 			"page": 244,
 			"_copy": {
-				"name": "Hydra",
+				"name": "Hydre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -6758,7 +6758,7 @@
 			"source": "IDRotF",
 			"page": 52,
 			"_copy": {
-				"name": "Tribal Warrior",
+				"name": "Guerrier tribal",
 				"source": "MM",
 				"_mod": {
 					"*": [
@@ -7536,7 +7536,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Beak",
+							"replace": "Bec",
 							"items": {
 								"name": "Beak",
 								"entries": [
@@ -7546,7 +7546,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Claws",
+							"replace": "Griffes",
 							"items": {
 								"name": "Claws",
 								"entries": [
@@ -7583,7 +7583,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Beak",
+							"replace": "Bec",
 							"items": {
 								"name": "Beak",
 								"entries": [
@@ -7593,7 +7593,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Claws",
+							"replace": "Griffes",
 							"items": {
 								"name": "Claws",
 								"entries": [
@@ -7628,7 +7628,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Beak",
+							"replace": "Bec",
 							"items": {
 								"name": "Beak",
 								"entries": [
@@ -7638,7 +7638,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Claws",
+							"replace": "Griffes",
 							"items": {
 								"name": "Claws",
 								"entries": [

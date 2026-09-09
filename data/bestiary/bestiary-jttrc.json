@@ -22,7 +22,7 @@
 			"source": "JttRC",
 			"page": 162,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_templates": [
 					{
@@ -57,7 +57,7 @@
 			"source": "JttRC",
 			"page": 127,
 			"_copy": {
-				"name": "Spy",
+				"name": "Espion",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -88,7 +88,7 @@
 			"source": "JttRC",
 			"page": 108,
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -117,7 +117,7 @@
 			"source": "JttRC",
 			"page": 150,
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -156,7 +156,7 @@
 			"source": "JttRC",
 			"page": 158,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Vétéran",
 				"source": "MM"
 			},
 			"hasToken": true
@@ -193,7 +193,7 @@
 			"source": "JttRC",
 			"page": 171,
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -224,7 +224,7 @@
 			"source": "JttRC",
 			"page": 36,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -468,7 +468,7 @@
 			"source": "JttRC",
 			"page": 95,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -665,9 +665,18 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "Nightsea Chil-liren",
-						"with": "Brother Broumane",
-						"flags": "i"
+						"replace": "merfolk",
+						"with": "Nightsea Chil-liren"
+					},
+					"trait": {
+						"mode": "replaceArr",
+						"replace": "Amphibious",
+						"items": {
+							"name": "Water Breathing",
+							"entries": [
+								"Nightsea Chil-liren can breathe only underwater."
+							]
+						}
 					}
 				}
 			},
@@ -683,7 +692,7 @@
 			"source": "JttRC",
 			"page": 57,
 			"_copy": {
-				"name": "Allosaurus",
+				"name": "Allosaure",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -716,7 +725,7 @@
 			"source": "JttRC",
 			"page": 72,
 			"_copy": {
-				"name": "Scout",
+				"name": "Éclaireur",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -814,7 +823,7 @@
 			"source": "JttRC",
 			"page": 138,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Vétéran",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -824,7 +833,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Heavy Crossbow",
+						"replace": "Arbalète lourde",
 						"items": {
 							"name": "Longbow",
 							"entries": [
@@ -854,7 +863,7 @@
 			"source": "JttRC",
 			"page": 124,
 			"_copy": {
-				"name": "Weretiger",
+				"name": "Tigre-garou",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -877,7 +886,7 @@
 			"source": "JttRC",
 			"page": 36,
 			"_copy": {
-				"name": "Cultist",
+				"name": "Cultiste",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -897,7 +906,7 @@
 			"source": "JttRC",
 			"page": 20,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1078,7 +1087,7 @@
 			"source": "JttRC",
 			"page": 195,
 			"_copy": {
-				"name": "Stone Golem",
+				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1111,12 +1120,12 @@
 						"mode": "removeSpells",
 						"daily": {
 							"3e": [
-								"{@spell Porte dimensionnelle}",
-								"{@spell Peur}"
+								"{@spell dimension door}",
+								"{@spell fear}"
 							],
 							"1e": [
-								"{@spell Tempête de feu}",
-								"{@spell Suggestion de groupe}"
+								"{@spell fire storm}",
+								"{@spell mass suggestion}"
 							]
 						}
 					}
@@ -1132,7 +1141,7 @@
 			"source": "JttRC",
 			"page": 70,
 			"_copy": {
-				"name": "Druid",
+				"name": "Druide",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1194,7 +1203,7 @@
 			"source": "JttRC",
 			"page": 96,
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1225,7 +1234,7 @@
 			"source": "JttRC",
 			"page": 42,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1254,7 +1263,7 @@
 			"source": "JttRC",
 			"page": 26,
 			"_copy": {
-				"name": "Giant Sea Horse",
+				"name": "Hippocampe géant",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1340,7 +1349,7 @@
 			"source": "JttRC",
 			"page": 37,
 			"_copy": {
-				"name": "Scout",
+				"name": "Éclaireur",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1371,7 +1380,7 @@
 			"source": "JttRC",
 			"page": 156,
 			"_copy": {
-				"name": "Scout",
+				"name": "Éclaireur",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1406,7 +1415,7 @@
 			"source": "JttRC",
 			"page": 20,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1437,7 +1446,7 @@
 			"source": "JttRC",
 			"page": 189,
 			"_copy": {
-				"name": "Spy",
+				"name": "Espion",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1468,7 +1477,7 @@
 			"source": "JttRC",
 			"page": 136,
 			"_copy": {
-				"name": "Dryad",
+				"name": "Dryade",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1557,7 +1566,7 @@
 			"source": "JttRC",
 			"page": 159,
 			"_copy": {
-				"name": "Efreeti",
+				"name": "Éfrit",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1584,7 +1593,7 @@
 			"source": "JttRC",
 			"page": 205,
 			"_copy": {
-				"name": "Hawk",
+				"name": "Faucon",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1608,7 +1617,7 @@
 			"source": "JttRC",
 			"page": 177,
 			"_copy": {
-				"name": "Merfolk",
+				"name": "Ondin",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1618,7 +1627,7 @@
 					},
 					"trait": {
 						"mode": "replaceArr",
-						"replace": "Amphibious",
+						"replace": "Amphibie",
 						"items": {
 							"name": "Water Breathing",
 							"entries": [
@@ -1676,7 +1685,7 @@
 			"source": "JttRC",
 			"page": 109,
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1756,9 +1765,18 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dragon hunter",
-						"with": "Paolo",
-						"flags": "i"
+						"replace": "veteran",
+						"with": "dragon hunter"
+					},
+					"action": {
+						"mode": "replaceArr",
+						"replace": "Heavy Crossbow",
+						"items": {
+							"name": "Longbow",
+							"entries": [
+								"{@atk rw} {@hit 3} to hit, ranged 150/600 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+							]
+						}
 					}
 				}
 			},
@@ -1940,7 +1958,7 @@
 			"source": "JttRC",
 			"page": 94,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Vétéran",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1954,15 +1972,15 @@
 						"items": {
 							"name": "Royal Blood",
 							"entries": [
-								"If Kirina is reduced to half of his hit points or fewer, he uses the {@action Esquive} action to avoid taking further damage."
+								"If Kirina is reduced to half of his hit points or fewer, he uses the {@action Dodge} action to avoid taking further damage."
 							]
 						}
 					},
 					"action": {
 						"mode": "removeArr",
 						"names": [
-							"Shortsword",
-							"Heavy Crossbow"
+							"Épée courte",
+							"Arbalète lourde"
 						]
 					}
 				}
@@ -1980,7 +1998,7 @@
 			"source": "JttRC",
 			"page": 94,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Vétéran",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1994,15 +2012,15 @@
 						"items": {
 							"name": "Royal Blood",
 							"entries": [
-								"If Simbon is reduced to half of his hit points or fewer, he uses the {@action Esquive} action to avoid taking further damage."
+								"If Simbon is reduced to half of his hit points or fewer, he uses the {@action Dodge} action to avoid taking further damage."
 							]
 						}
 					},
 					"action": {
 						"mode": "removeArr",
 						"names": [
-							"Shortsword",
-							"Heavy Crossbow"
+							"Épée courte",
+							"Arbalète lourde"
 						]
 					}
 				}
@@ -2187,7 +2205,7 @@
 			"source": "JttRC",
 			"page": 206,
 			"_copy": {
-				"name": "Hawk",
+				"name": "Faucon",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2209,7 +2227,7 @@
 			"source": "JttRC",
 			"page": 68,
 			"_copy": {
-				"name": "Spy",
+				"name": "Espion",
 				"source": "MM",
 				"_templates": [
 					{
@@ -2264,7 +2282,7 @@
 			"source": "JttRC",
 			"page": 14,
 			"_copy": {
-				"name": "Ancient Brass Dragon",
+				"name": "Dragon d'airain antique",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2674,7 +2692,7 @@
 			"source": "JttRC",
 			"page": 110,
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_templates": [
 					{
@@ -2736,7 +2754,7 @@
 			"source": "JttRC",
 			"page": 94,
 			"_copy": {
-				"name": "Guard",
+				"name": "Garde",
 				"source": "MM",
 				"_templates": [
 					{
@@ -2798,7 +2816,7 @@
 			"source": "JttRC",
 			"page": 188,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3071,7 +3089,7 @@
 			"source": "JttRC",
 			"page": 112,
 			"_copy": {
-				"name": "Fire Giant",
+				"name": "Géant du feu",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3083,7 +3101,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -3093,7 +3111,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Greatsword",
+							"replace": "Espadon",
 							"items": {
 								"name": "Greathammer",
 								"entries": [
@@ -3117,7 +3135,7 @@
 			"source": "JttRC",
 			"page": 204,
 			"_copy": {
-				"name": "Scout",
+				"name": "Éclaireur",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3183,9 +3201,18 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "Nightsea Chil-liren",
-						"with": "Zisatta",
-						"flags": "i"
+						"replace": "merfolk",
+						"with": "Nightsea Chil-liren"
+					},
+					"trait": {
+						"mode": "replaceArr",
+						"replace": "Amphibious",
+						"items": {
+							"name": "Water Breathing",
+							"entries": [
+								"Nightsea Chil-liren can breathe only underwater."
+							]
+						}
 					}
 				}
 			},

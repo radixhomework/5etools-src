@@ -24,7 +24,7 @@
 			"source": "OotA",
 			"page": 149,
 			"_copy": {
-				"name": "Knight",
+				"name": "Chevalier",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -54,7 +54,7 @@
 			"source": "OotA",
 			"page": 142,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Vétéran",
 				"source": "MM",
 				"_templates": [
 					{
@@ -71,7 +71,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Longsword",
+						"replace": "Épée longue",
 						"items": {
 							"name": "Warhammer",
 							"entries": [
@@ -97,7 +97,7 @@
 			"source": "OotA",
 			"page": 96,
 			"_copy": {
-				"name": "Animated Armor",
+				"name": "Armure animée",
 				"source": "MM",
 				"_mod": {
 					"*": [
@@ -124,7 +124,7 @@
 			"source": "OotA",
 			"page": 9,
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_templates": [
 					{
@@ -269,11 +269,11 @@
 							{
 								"name": "Innate Spellcasting",
 								"headerEntries": [
-									"Blurg can innately cast can cast the {@spell Téléportation} spell once per day, but the intended destination must be within 30 feet of another {@adventure society member|OotA|1|Society of Brilliance}. This teleport effect can be disrupted (see \"{@adventure Faerzress|OotA|1|Faerzress}\"), which is how society members sometimes end up in far corners of the Underdark, separated from their fellows."
+									"Blurg can innately cast can cast the {@spell teleport} spell once per day, but the intended destination must be within 30 feet of another {@adventure society member|OotA|1|Society of Brilliance}. This teleport effect can be disrupted (see \"{@adventure Faerzress|OotA|1|Faerzress}\"), which is how society members sometimes end up in far corners of the Underdark, separated from their fellows."
 								],
 								"daily": {
 									"1e": [
-										"{@spell Téléportation}"
+										"{@spell teleport}"
 									]
 								},
 								"hidden": [
@@ -400,7 +400,7 @@
 			"source": "OotA",
 			"page": 96,
 			"_copy": {
-				"name": "Giant Badger",
+				"name": "Blaireau géant",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -1239,7 +1239,7 @@
 			"source": "OotA",
 			"page": 194,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1266,7 +1266,7 @@
 			"source": "OotA",
 			"page": 196,
 			"_copy": {
-				"name": "Cultist",
+				"name": "Cultiste",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1293,7 +1293,7 @@
 			"source": "OotA",
 			"page": 195,
 			"_copy": {
-				"name": "Guard",
+				"name": "Garde",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1347,7 +1347,7 @@
 			"source": "OotA",
 			"page": 191,
 			"_copy": {
-				"name": "Scout",
+				"name": "Éclaireur",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1441,7 +1441,7 @@
 			"source": "OotA",
 			"page": 195,
 			"_copy": {
-				"name": "Spy",
+				"name": "Espion",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1474,7 +1474,7 @@
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Javelin",
+						"replace": "Javelot",
 						"items": [
 							{
 								"name": "Acid Vial",
@@ -1912,7 +1912,7 @@
 			"source": "OotA",
 			"page": 6,
 			"_copy": {
-				"name": "Scout",
+				"name": "Éclaireur",
 				"source": "MM",
 				"_templates": [
 					{
@@ -2157,7 +2157,7 @@
 			"source": "OotA",
 			"page": 97,
 			"_copy": {
-				"name": "Giant Wolf Spider",
+				"name": "Araignée-loup géante",
 				"source": "MM"
 			},
 			"resist": [
@@ -2179,7 +2179,7 @@
 			"source": "OotA",
 			"page": 206,
 			"_copy": {
-				"name": "Stone Golem",
+				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2190,7 +2190,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -2200,7 +2200,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Slam",
+							"replace": "Coup",
 							"items": {
 								"name": "Sword",
 								"entries": [
@@ -2361,25 +2361,25 @@
 			"source": "OotA",
 			"page": 28,
 			"_copy": {
-				"name": "Giant Octopus",
+				"name": "Pieuvre géante",
 				"source": "MM",
 				"_mod": {
 					"trait": [
 						{
 							"mode": "replaceArr",
-							"replace": "Underwater Camouflage",
+							"replace": "Camouflage sous-marin",
 							"items": {
 								"name": "Camouflage",
 								"entries": [
-									"The octopus has advantage on Dexterity ({@skill Discrétion}) checks."
+									"The octopus has advantage on Dexterity ({@skill Stealth}) checks."
 								]
 							}
 						},
 						{
 							"mode": "removeArr",
 							"names": [
-								"Hold Breath",
-								"Water Breathing"
+								"Apnée",
+								"Respiration aquatique"
 							]
 						}
 					]
@@ -2399,7 +2399,7 @@
 			"source": "OotA",
 			"page": 35,
 			"_copy": {
-				"name": "Gelatinous Cube",
+				"name": "Gluant géant",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2457,7 +2457,7 @@
 			"source": "OotA",
 			"page": 29,
 			"_copy": {
-				"name": "Mind Flayer",
+				"name": "Flagelleur mental",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2482,11 +2482,11 @@
 							{
 								"name": "Innate Spellcasting",
 								"headerEntries": [
-									"Grazilaxx can innately cast can cast the {@spell Téléportation} spell once per day, but the intended destination must be within 30 feet of another {@adventure society member|OotA|1|Society of Brilliance}. This teleport effect can be disrupted (see \"{@adventure Faerzress|OotA|1|Faerzress}\"), which is how society members sometimes end up in far corners of the Underdark, separated from their fellows."
+									"Grazilaxx can innately cast can cast the {@spell teleport} spell once per day, but the intended destination must be within 30 feet of another {@adventure society member|OotA|1|Society of Brilliance}. This teleport effect can be disrupted (see \"{@adventure Faerzress|OotA|1|Faerzress}\"), which is how society members sometimes end up in far corners of the Underdark, separated from their fellows."
 								],
 								"daily": {
 									"1e": [
-										"{@spell Téléportation}"
+										"{@spell teleport}"
 									]
 								},
 								"hidden": [
@@ -2806,7 +2806,7 @@
 			"source": "OotA",
 			"page": 9,
 			"_copy": {
-				"name": "Drow Priestess of Lolth",
+				"name": "Drow prêtresse de Lolth",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2820,7 +2820,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Ilvara wields a {@item Sceptre à tentacules} in addition to her scourge."
+								"Ilvara wields a {@item tentacle rod} in addition to her scourge."
 							]
 						}
 					}
@@ -2834,7 +2834,7 @@
 			"source": "OotA",
 			"page": 100,
 			"_copy": {
-				"name": "Basilisk",
+				"name": "Basilic",
 				"source": "MM"
 			},
 			"size": [
@@ -2874,7 +2874,7 @@
 			"source": "OotA",
 			"page": 34,
 			"_copy": {
-				"name": "Hook Horror",
+				"name": "Horreur à crochet",
 				"source": "MM"
 			},
 			"size": [
@@ -3106,7 +3106,7 @@
 			"source": "OotA",
 			"page": 201,
 			"_copy": {
-				"name": "Stone Golem",
+				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3137,7 +3137,7 @@
 			"source": "OotA",
 			"page": 6,
 			"_copy": {
-				"name": "Spy",
+				"name": "Espion",
 				"source": "MM",
 				"_templates": [
 					{
@@ -3171,12 +3171,12 @@
 			"source": "OotA",
 			"page": 34,
 			"_copy": {
-				"name": "Hook Horror",
+				"name": "Horreur à crochet",
 				"source": "MM",
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Hook",
+						"replace": "Crochet",
 						"items": {
 							"name": "Hook",
 							"entries": [
@@ -3216,7 +3216,7 @@
 			"source": "OotA",
 			"page": 149,
 			"_copy": {
-				"name": "Spy",
+				"name": "Espion",
 				"source": "MM",
 				"_templates": [
 					{
@@ -3240,7 +3240,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Khalessa owns a {@item Chapeau de déguisement}, which she uses to appear as a female drow while in the company of drow, and she wears a {@item Piwafwi (Cape de l'espionnage elfique)|OotA|piwafwi}."
+								"Khalessa owns a {@item hat of disguise}, which she uses to appear as a female drow while in the company of drow, and she wears a {@item Piwafwi (Cloak of Elvenkind)|OotA|piwafwi}."
 							]
 						}
 					}
@@ -3313,7 +3313,7 @@
 			"source": "OotA",
 			"page": 179,
 			"_copy": {
-				"name": "Gnoll Fang of Yeenoghu",
+				"name": "Croc de gnoll de Yeenoghu",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3535,7 +3535,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Eye Rays",
+						"replace": "Rayons oculaires",
 						"items": {
 							"name": "Eye Rays",
 							"entries": [
@@ -3547,17 +3547,17 @@
 										{
 											"type": "itemSub",
 											"name": "1. Charm Ray",
-											"entry": "The targeted creature must succeed on a {@dc 16} Wisdom saving throw or be {@condition Charmé} by the beholder for 1 hour, or until the beholder harms the creature."
+											"entry": "The targeted creature must succeed on a {@dc 16} Wisdom saving throw or be {@condition charmed} by the beholder for 1 hour, or until the beholder harms the creature."
 										},
 										{
 											"type": "itemSub",
 											"name": "2. Paralyzing Ray",
-											"entry": "The targeted creature must succeed on a {@dc 16} Constitution saving throw or be {@condition Paralysé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The targeted creature must succeed on a {@dc 16} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										},
 										{
 											"type": "itemSub",
 											"name": "3. Fear Ray",
-											"entry": "The targeted creature must succeed on a {@dc 16} Wisdom saving throw or be {@condition Effrayé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The targeted creature must succeed on a {@dc 16} Wisdom saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										},
 										{
 											"type": "itemSub",
@@ -3573,7 +3573,7 @@
 											"type": "itemSub",
 											"name": "6. Telekinetic Ray",
 											"entries": [
-												"If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or the beholder moves it up to 30 feet in any direction. It is {@condition Entravé} by the ray's telekinetic grip until the start of the beholder's next turn or until the beholder is {@condition Incapable}.",
+												"If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or the beholder moves it up to 30 feet in any direction. It is {@condition restrained} by the ray's telekinetic grip until the start of the beholder's next turn or until the beholder is {@condition incapacitated}.",
 												"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The beholder can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
 											]
 										}
@@ -3692,7 +3692,7 @@
 			"source": "OotA",
 			"page": 103,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Vétéran",
 				"source": "MM",
 				"_templates": [
 					{
@@ -3908,7 +3908,7 @@
 			"source": "OotA",
 			"page": 134,
 			"_copy": {
-				"name": "Spy",
+				"name": "Espion",
 				"source": "MM",
 				"_templates": [
 					{
@@ -3967,7 +3967,7 @@
 			"source": "OotA",
 			"page": 111,
 			"_copy": {
-				"name": "Black Pudding",
+				"name": "Pouding noir",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3983,7 +3983,7 @@
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or 30 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 18 ({@damage 4d8}) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative \u22121 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or 30 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 18 ({@damage 4d8}) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
 					]
 				}
 			],
@@ -3996,7 +3996,7 @@
 			"source": "OotA",
 			"page": 204,
 			"_copy": {
-				"name": "Drow Priestess of Lolth",
+				"name": "Drow prêtresse de Lolth",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4010,14 +4010,14 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Quenthel wields a {@item Sceptre à tentacules}."
+								"Quenthel wields a {@item tentacle rod}."
 							]
 						}
 					},
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -4037,7 +4037,7 @@
 								{
 									"name": "Throne Activation",
 									"entries": [
-										"While seated on her throne, Quenthel can use an action on her turn to cast {@spell Désintégration} (save {@dc 19}). A target that fails its saving throw takes {@damage 10d6 + 40} force damage. If this damage reduces the target to 0 hit points, it is disintegrated."
+										"While seated on her throne, Quenthel can use an action on her turn to cast {@spell disintegrate} (save {@dc 19}). A target that fails its saving throw takes {@damage 10d6 + 40} force damage. If this damage reduces the target to 0 hit points, it is disintegrated."
 									]
 								}
 							]
@@ -4258,7 +4258,7 @@
 			"source": "OotA",
 			"page": 211,
 			"_copy": {
-				"name": "Black Pudding",
+				"name": "Pouding noir",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -4288,7 +4288,7 @@
 			"source": "OotA",
 			"page": 59,
 			"_copy": {
-				"name": "Stone Giant",
+				"name": "Géant de pierre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4302,14 +4302,14 @@
 						"items": {
 							"name": "Two Heads",
 							"entries": [
-								"Rihuud has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition Aveuglé}, {@condition Charmé}, {@condition Assourdi}, {@condition Effrayé}, {@condition Étourdi}, or knocked {@condition Inconscient}."
+								"Rihuud has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}."
 							]
 						}
 					},
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -4319,7 +4319,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Greatclub",
+							"replace": "Gourdin",
 							"items": {
 								"name": "Unarmed Strike",
 								"entries": [
@@ -4360,7 +4360,7 @@
 			"source": "OotA",
 			"page": 72,
 			"_copy": {
-				"name": "Myconid Sprout",
+				"name": "Myconïde pousse",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4381,7 +4381,7 @@
 			"source": "OotA",
 			"page": 135,
 			"_copy": {
-				"name": "Spy",
+				"name": "Espion",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4518,11 +4518,11 @@
 							{
 								"name": "Innate Spellcasting",
 								"headerEntries": [
-									"Skriss can innately cast can cast the {@spell Téléportation} spell once per day, but the intended destination must be within 30 feet of another {@adventure society member|OotA|1|Society of Brilliance}. This teleport effect can be disrupted (see \"{@adventure Faerzress|OotA|1|Faerzress}\"), which is how society members sometimes end up in far corners of the Underdark, separated from their fellows."
+									"Skriss can innately cast can cast the {@spell teleport} spell once per day, but the intended destination must be within 30 feet of another {@adventure society member|OotA|1|Society of Brilliance}. This teleport effect can be disrupted (see \"{@adventure Faerzress|OotA|1|Faerzress}\"), which is how society members sometimes end up in far corners of the Underdark, separated from their fellows."
 								],
 								"daily": {
 									"1e": [
-										"{@spell Téléportation}"
+										"{@spell teleport}"
 									]
 								},
 								"hidden": [
@@ -4547,7 +4547,7 @@
 			"source": "OotA",
 			"page": 135,
 			"_copy": {
-				"name": "Druid",
+				"name": "Druide",
 				"source": "MM",
 				"_templates": [
 					{
@@ -4585,7 +4585,7 @@
 			"source": "OotA",
 			"page": 29,
 			"_copy": {
-				"name": "Kuo-toa Archpriest",
+				"name": "Archiprêtre kuo-toa",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4610,11 +4610,11 @@
 							{
 								"name": "Innate Spellcasting",
 								"headerEntries": [
-									"Sloopidoop can innately cast can cast the {@spell Téléportation} spell once per day, but the intended destination must be within 30 feet of another {@adventure society member|OotA|1|Society of Brilliance}. This teleport effect can be disrupted (see \"{@adventure Faerzress|OotA|1|Faerzress}\"), which is how society members sometimes end up in far corners of the Underdark, separated from their fellows."
+									"Sloopidoop can innately cast can cast the {@spell teleport} spell once per day, but the intended destination must be within 30 feet of another {@adventure society member|OotA|1|Society of Brilliance}. This teleport effect can be disrupted (see \"{@adventure Faerzress|OotA|1|Faerzress}\"), which is how society members sometimes end up in far corners of the Underdark, separated from their fellows."
 								],
 								"daily": {
 									"1e": [
-										"{@spell Téléportation}"
+										"{@spell teleport}"
 									]
 								},
 								"hidden": [
@@ -4639,7 +4639,7 @@
 			"source": "OotA",
 			"page": 88,
 			"_copy": {
-				"name": "Myconid Sovereign",
+				"name": "Myconïde souverain",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4669,7 +4669,7 @@
 			"source": "OotA",
 			"page": 74,
 			"_copy": {
-				"name": "Giant Spider",
+				"name": "Araignée géante",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -4677,7 +4677,7 @@
 						"items": {
 							"name": "Two Heads",
 							"entries": [
-								"Because of its two heads, the Spider King has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition Aveuglé}, {@condition Charmé}, {@condition Assourdi}, {@condition Effrayé}, {@condition Étourdi}, and knocked {@condition Inconscient}."
+								"Because of its two heads, the Spider King has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
 							]
 						}
 					}
@@ -4714,7 +4714,7 @@
 			"source": "OotA",
 			"page": 31,
 			"_copy": {
-				"name": "Goblin",
+				"name": "Gobelin",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4752,7 +4752,7 @@
 			"source": "OotA",
 			"page": 7,
 			"_copy": {
-				"name": "Myconid Sprout",
+				"name": "Myconïde pousse",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4771,7 +4771,7 @@
 			"source": "OotA",
 			"page": 97,
 			"_copy": {
-				"name": "Wererat",
+				"name": "Rat-garou",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5028,7 +5028,7 @@
 			"source": "OotA",
 			"page": 53,
 			"_copy": {
-				"name": "Adult Red Dragon",
+				"name": "Dragon rouge adulte",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -5050,7 +5050,7 @@
 			"source": "OotA",
 			"page": 8,
 			"_copy": {
-				"name": "Wererat",
+				"name": "Rat-garou",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5224,7 +5224,7 @@
 			"source": "OotA",
 			"page": 8,
 			"_copy": {
-				"name": "Wererat",
+				"name": "Rat-garou",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5484,7 +5484,7 @@
 			"source": "OotA",
 			"page": 151,
 			"_copy": {
-				"name": "Basilisk",
+				"name": "Basilic",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -5627,7 +5627,7 @@
 			"source": "OotA",
 			"page": 202,
 			"_copy": {
-				"name": "Bandit Captain",
+				"name": "Chef bandit",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5653,7 +5653,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Scimitar",
+						"replace": "Cimeterre",
 						"items": {
 							"name": "Scimitar",
 							"entries": [
@@ -5685,7 +5685,7 @@
 			"source": "OotA",
 			"page": 155,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5771,11 +5771,11 @@
 							{
 								"name": "Innate Spellcasting",
 								"headerEntries": [
-									"Y can innately cast can cast the {@spell Téléportation} spell once per day, but the intended destination must be within 30 feet of another {@adventure society member|OotA|1|Society of Brilliance}. This teleport effect can be disrupted (see \"{@adventure Faerzress|OotA|1|Faerzress}\"), which is how society members sometimes end up in far corners of the Underdark, separated from their fellows."
+									"Y can innately cast can cast the {@spell teleport} spell once per day, but the intended destination must be within 30 feet of another {@adventure society member|OotA|1|Society of Brilliance}. This teleport effect can be disrupted (see \"{@adventure Faerzress|OotA|1|Faerzress}\"), which is how society members sometimes end up in far corners of the Underdark, separated from their fellows."
 								],
 								"daily": {
 									"1e": [
-										"{@spell Téléportation}"
+										"{@spell teleport}"
 									]
 								},
 								"hidden": [
@@ -5800,7 +5800,7 @@
 			"source": "OotA",
 			"page": 138,
 			"_copy": {
-				"name": "Deep Gnome (Svirfneblin)",
+				"name": "Gnome des profondeurs (Svirfneblin)",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -5984,7 +5984,7 @@
 			"source": "OotA",
 			"page": 100,
 			"_copy": {
-				"name": "Basilisk",
+				"name": "Basilic",
 				"source": "MM"
 			},
 			"size": [
@@ -6039,12 +6039,12 @@
 			"source": "OotA",
 			"page": 34,
 			"_copy": {
-				"name": "Hook Horror",
+				"name": "Horreur à crochet",
 				"source": "MM",
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Hook",
+						"replace": "Crochet",
 						"items": {
 							"name": "Hook",
 							"entries": [
@@ -6084,7 +6084,7 @@
 			"source": "OotA",
 			"page": 31,
 			"_copy": {
-				"name": "Goblin",
+				"name": "Gobelin",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -6220,7 +6220,7 @@
 			"source": "OotA",
 			"page": 137,
 			"_copy": {
-				"name": "Drow Mage",
+				"name": "Drow mage",
 				"source": "MM",
 				"_mod": {
 					"*": {

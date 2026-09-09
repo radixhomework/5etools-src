@@ -323,18 +323,18 @@
 							"columns": 3,
 							"items": [
 								"{@creature Giant Axe Beak|XMM|Axe Beak, Giant}",
-								"{@creature Commoner|XMM}",
-								"{@creature Adult Copper Dragon|XMM|Copper Dragon, Adult}",
-								"{@creature Djinni|XMM}",
-								"{@creature Druid|XMM}",
+								"{@creature Roturier|XMM}",
+								"{@creature Dragon de cuivre adulte|XMM|Copper Dragon, Adult}",
+								"{@creature Djinn|XMM}",
+								"{@creature Druide|XMM}",
 								"{@creature Galeb Duhr|XMM}",
-								"{@creature Green Dragon Wyrmling|XMM}",
-								"{@creature Hill Giant|XMM}",
-								"{@creature Winged Kobold|XMM|Kobold, Winged}",
+								"{@creature Dragon vert (jeune)|XMM}",
+								"{@creature Géant des collines|XMM}",
+								"{@creature Kobold ailé|XMM|Kobold, Winged}",
 								"{@creature Performer|XMM}",
 								"{@creature Performer Maestro|XMM}",
 								"{@creature Priest Acolyte|XMM}",
-								"{@creature Purple Worm|XMM}",
+								"{@creature Ver pourpre|XMM}",
 								"{@creature Warrior Veteran|XMM}"
 							]
 						},
@@ -610,7 +610,7 @@
 								[
 									"{@area Aunt Dellie|359|x}",
 									"Human boat pilot",
-									"{@creature Commoner|XMM} (Medium, Chaotic Good)",
+									"{@creature Roturier|XMM} (Medium, Chaotic Good)",
 									"\"{@area Listening Post|353|x}\""
 								],
 								[
@@ -628,25 +628,25 @@
 								[
 									"{@area Kelra Ironweaver|35b|x}",
 									"Dwarf blacksmith",
-									"{@creature Commoner|XMM} (Medium, Chaotic Neutral)",
+									"{@creature Roturier|XMM} (Medium, Chaotic Neutral)",
 									"\"{@area Listening Post|353|x}\""
 								],
 								[
 									"Lashlo",
 									"Impatient guest of Nakari",
-									"{@creature Djinni|XMM}",
+									"{@creature Djinn|XMM}",
 									"{@area N10|388|x}"
 								],
 								[
 									"Nakari",
 									"Keeper of the lost verses",
-									"{@creature Adult Copper Dragon|XMM}",
+									"{@creature Dragon de cuivre adulte|XMM}",
 									"{@area N17|3a0|x}"
 								],
 								[
 									"Retta and Rynn",
 									"Wyrmlings adopted by Nakari",
-									"{@creature Green Dragon Wyrmling|XMM} (Neutral)",
+									"{@creature Dragon vert (jeune)|XMM} (Neutral)",
 									"{@area N17|3a0|x}"
 								],
 								[
@@ -670,7 +670,7 @@
 								[
 									"{@area Zakia|35d|x}",
 									"Human herbalist",
-									"{@creature Druid|XMM} (Medium, Chaotic Good)",
+									"{@creature Druide|XMM} (Medium, Chaotic Good)",
 									"\"{@area Listening Post|353|x}\""
 								]
 							]
@@ -805,7 +805,7 @@
 									"page": 166,
 									"id": "359",
 									"entries": [
-										"{@b Aunt Dellie} (Medium, Chaotic Good {@creature Commoner|XMM}) is a human skimmer boat pilot with a skeptical mind, a soft heart, a loud laugh, and a talent for learning a bit about everyone's business. She wears a simple yellow dress and keeps her hair short.",
+										"{@b Aunt Dellie} (Medium, Chaotic Good {@creature Roturier|XMM}) is a human skimmer boat pilot with a skeptical mind, a soft heart, a loud laugh, and a talent for learning a bit about everyone's business. She wears a simple yellow dress and keeps her hair short.",
 										"When Friendly, Aunt Dellie shares the following: \"Past the farms of the Ribbon is a wild, unsettled land called the Rattle. We sometimes call its bald hills 'hills of gold' because of their color. The phrase 'beyond the settled land' must refer to the Rattle\u2014a land of monsters.\""
 									]
 								},
@@ -825,7 +825,7 @@
 									"page": 166,
 									"id": "35b",
 									"entries": [
-										"{@b Kelra Ironweaver} (Medium, Chaotic Neutral {@creature Commoner|XMM}) is a local dwarf blacksmith who has outlived five husbands and knows a lot about history because she was there when it happened. Her hair cascades in thick ringlets over her broad shoulders.",
+										"{@b Kelra Ironweaver} (Medium, Chaotic Neutral {@creature Roturier|XMM}) is a local dwarf blacksmith who has outlived five husbands and knows a lot about history because she was there when it happened. Her hair cascades in thick ringlets over her broad shoulders.",
 										"When Friendly, Kelra shares the following: \"My first husband, Irvin, was a copper miner in the Rattle. He claimed a dragon lived under a hill not far from the mine. Poor Irvin\u2014flattened by a hill giant!\""
 									]
 								},
@@ -845,7 +845,7 @@
 									"page": 166,
 									"id": "35d",
 									"entries": [
-										"{@b Zakia} (Medium, Chaotic Good {@creature Druid|XMM}) is a local human herbalist who uses one of the storytelling booths to spook young children with tales about dragons and child-eating monsters. Her blue dress is stained with dirt from her gardens, and a bag she wears slung over her shoulder is overflowing with aromatic plants.",
+										"{@b Zakia} (Medium, Chaotic Good {@creature Druide|XMM}) is a local human herbalist who uses one of the storytelling booths to spook young children with tales about dragons and child-eating monsters. Her blue dress is stained with dirt from her gardens, and a bag she wears slung over her shoulder is overflowing with aromatic plants.",
 										"When Friendly, Zakia shares the following: \"If a copper dragon is what you seek, that's mostly good news. Copper dragons are even-tempered but also miserly. They're as fond of music, jokes, and riddles as they are of treasure. Their burrows are often sinuous, winding, and riddled with secret doors.\"",
 										{
 											"type": "image",
@@ -970,7 +970,7 @@
 											"page": 168,
 											"id": "364",
 											"entries": [
-												"The six {@creature Hill Giant|XMM|Hill Giants} are Hostile and unaware that they're camping above the subterranean lair of a copper dragon. Their two {@creature Giant Axe Beak|XMM|Giant Axe Beaks} serve as beasts of burden and hunting companions, and they fight at the giants' command.",
+												"The six {@creature Géant des collines|XMM|Hill Giants} are Hostile and unaware that they're camping above the subterranean lair of a copper dragon. Their two {@creature Giant Axe Beak|XMM|Giant Axe Beaks} serve as beasts of burden and hunting companions, and they fight at the giants' command.",
 												"As an Influence action, a character can attempt one of the following:",
 												{
 													"type": "list",
@@ -3792,7 +3792,7 @@
 											"page": 170,
 											"id": "377",
 											"entries": [
-												"The {@creature Hill Giant|XMM|Hill Giants} outside the dragon's lair notice the sounds of rock tossing or combat in this cave. If the giants aren't aware of the characters' presence, one giant investigates, situating itself outside the tunnel to area {@area N1|370|x} for 10 minutes to find out if anything emerges."
+												"The {@creature Géant des collines|XMM|Hill Giants} outside the dragon's lair notice the sounds of rock tossing or combat in this cave. If the giants aren't aware of the characters' presence, one giant investigates, situating itself outside the tunnel to area {@area N1|370|x} for 10 minutes to find out if anything emerges."
 											]
 										}
 									]
@@ -3822,7 +3822,7 @@
 												"Seven kobolds with leathery wings are making a statue out of clay in the middle of this cave, which has exits to the northwest, south, and east. The statue, about five feet tall and eight feet long, bears a passing resemblance to a dragon."
 											]
 										},
-										"The seven {@creature Winged Kobold|XMM|Winged Kobolds} want to impress Nakari with their artistic skills and thus win her favor. The kobolds' names are Drix, Grox, Kex, Mox, Nix, Prax, and Zox.",
+										"The seven {@creature Kobold ailé|XMM|Winged Kobolds} want to impress Nakari with their artistic skills and thus win her favor. The kobolds' names are Drix, Grox, Kex, Mox, Nix, Prax, and Zox.",
 										{
 											"type": "entries",
 											"name": "Roleplaying the Kobolds",
@@ -3977,7 +3977,7 @@
 											"page": 173,
 											"id": "383",
 											"entries": [
-												"The {@creature Hill Giant|XMM|Hill Giants} outside the dragon's lair notice the galeb duhr's loud singing. If the giants aren't aware of the characters' presence, one giant investigates, situating itself outside the tunnel to area N2 for 10 minutes to find out if anything emerges."
+												"The {@creature Géant des collines|XMM|Hill Giants} outside the dragon's lair notice the galeb duhr's loud singing. If the giants aren't aware of the characters' presence, one giant investigates, situating itself outside the tunnel to area N2 for 10 minutes to find out if anything emerges."
 											]
 										}
 									]
@@ -4030,7 +4030,7 @@
 												"This oddly shaped cave smells like candy and has exits to the west and southeast. An alcove in the northeast corner is arrayed with colorful cushions, and a towering, purple-skinned woman in luxurious silk clothing lounges there, holding a golden chalice."
 											]
 										},
-										"A peevish {@creature Djinni|XMM} named Lashlo rests in the alcove. A guest that Nakari has left waiting far too long, Lashlo hoped to trade stories and songs with Nakari, but her patience is nearly at an end. She is Hostile to the characters, whom she considers rivals for Nakari's attention, and she fights them if they aren't effusively polite. If any character succumbs to the laughing gas for 2 consecutive rounds, Lashlo assumes they're laughing at her and fights them. The genie is unaffected by the laughing gas.",
+										"A peevish {@creature Djinn|XMM} named Lashlo rests in the alcove. A guest that Nakari has left waiting far too long, Lashlo hoped to trade stories and songs with Nakari, but her patience is nearly at an end. She is Hostile to the characters, whom she considers rivals for Nakari's attention, and she fights them if they aren't effusively polite. If any character succumbs to the laughing gas for 2 consecutive rounds, Lashlo assumes they're laughing at her and fights them. The genie is unaffected by the laughing gas.",
 										{
 											"type": "entries",
 											"name": "Laughing Gas",
@@ -4149,7 +4149,7 @@
 												"A pillar of rock braces the roof of this dry cave, and the ground rumbles under your feet."
 											]
 										},
-										"A {@creature Purple Worm|XMM} has been drawn to Nakari's lair by the dragon's frequent excavation work. The worm bursts up through the floor of the cave when the characters arrive and attacks them. It retreats when it becomes Bloodied.",
+										"A {@creature Ver pourpre|XMM} has been drawn to Nakari's lair by the dragon's frequent excavation work. The worm bursts up through the floor of the cave when the characters arrive and attacks them. It retreats when it becomes Bloodied.",
 										{
 											"type": "entries",
 											"name": "Breakaway Roof",
@@ -4291,7 +4291,7 @@
 												"This cave has exits to the west and east, and its walls are patterned to look like dragon scales. In the middle of the cave sits a great copper dragon. Two green dragon wyrmlings crawl over and around her, occasionally exhaling puffs of gas from their nostrils.At the sight of you, the wyrmlings hiss and bare their fangs. The copper dragon smiles and says, \"Pay them no mind. It's me you must answer to.\""
 											]
 										},
-										"The {@creature Adult Copper Dragon|XMM} is Nakari. The two {@creature Green Dragon Wyrmling|XMM|Green Dragon Wyrmlings} are Retta and Rynn. A little over a month ago, Nakari found the wyrmlings in the Rattle and thought it best to adopt them before they harmed themselves or someone else. The orphans are Neutral; they have bonded with their adoptive mother and don't know what happened to their biological parents.",
+										"The {@creature Dragon de cuivre adulte|XMM} is Nakari. The two {@creature Dragon vert (jeune)|XMM|Green Dragon Wyrmlings} are Retta and Rynn. A little over a month ago, Nakari found the wyrmlings in the Rattle and thought it best to adopt them before they harmed themselves or someone else. The orphans are Neutral; they have bonded with their adoptive mother and don't know what happened to their biological parents.",
 										{
 											"type": "entries",
 											"name": "Roleplaying Nakari",
@@ -4346,7 +4346,7 @@
 												"A short, downward-sloping tunnel leads to a dead-end cave. Its floor is littered with copper dragon scales, torn bales of hay, and broken toys."
 											]
 										},
-										"If present, the two {@creature Green Dragon Wyrmling|XMM|Green Dragon Wyrmlings} Retta and Rynn are quick to lash out at intruders in this cave. The wyrmlings surrender or flee if either of them becomes Bloodied."
+										"If present, the two {@creature Dragon vert (jeune)|XMM|Green Dragon Wyrmlings} Retta and Rynn are quick to lash out at intruders in this cave. The wyrmlings surrender or flee if either of them becomes Bloodied."
 									]
 								}
 							]

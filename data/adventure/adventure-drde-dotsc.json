@@ -316,16 +316,16 @@
 							"type": "list",
 							"columns": 3,
 							"items": [
-								"{@creature Adult Blue Dragon|XMM|Blue Dragon, Adult}",
-								"{@creature Ancient Blue Dragon|XMM|Blue Dragon, Ancient}",
+								"{@creature Dragon bleu adulte|XMM|Blue Dragon, Adult}",
+								"{@creature Dragon bleu antique|XMM|Blue Dragon, Ancient}",
 								"{@creature Bandit|XMM}",
-								"{@creature Basilisk|XMM}",
+								"{@creature Basilic|XMM}",
 								"{@creature Dao|XMM}",
-								"{@creature Flameskull|XMM}",
-								"{@creature Gargoyle|XMM}",
+								"{@creature Crâne flamboyant|XMM}",
+								"{@creature Gargouille|XMM}",
 								"{@creature Mage|XMM}",
-								"{@creature Mummy|XMM}",
-								"{@creature Mummy Lord|XMM}",
+								"{@creature Momie|XMM}",
+								"{@creature Seigneur momie|XMM}",
 								"{@creature Sphinx of Lore|XMM}"
 							]
 						},
@@ -547,7 +547,7 @@
 								[
 									"Anthradusk",
 									"Primary antagonist",
-									"{@creature Ancient Blue Dragon|XMM}",
+									"{@creature Dragon bleu antique|XMM}",
 									"\"{@area Anthradusk's Return|402|x}\""
 								],
 								[
@@ -571,7 +571,7 @@
 								[
 									"Yaarnak",
 									"Asks characters to retrieve his lost staff",
-									"{@creature Mummy Lord|XMM} (Small)",
+									"{@creature Seigneur momie|XMM} (Small)",
 									"{@area H8|3d9|x}"
 								]
 							]
@@ -4405,7 +4405,7 @@
 											]
 										},
 										"The six mostly broken statues are the remains of a band of adventurers who sought shade in this cave and ran afoul of the basilisks in the promenade (area {@area H3|3cc|x}). All six were transformed into lightning crystal (see \"{@area Haskasori features|3c0|x}\") and then killed as the basilisks ate parts of their {@condition Pétrifié|XPHB} prey.",
-										"Loud noise here alerts the {@creature Basilisk|XMM|Basilisks} in area {@area H3|3cc|x}, which come to investigate."
+										"Loud noise here alerts the {@creature Basilic|XMM|Basilisks} in area {@area H3|3cc|x}, which come to investigate."
 									]
 								},
 								{
@@ -4448,7 +4448,7 @@
 												"Wide openings in this promenade's north wall overlook Haskasori's stone bridge, the main gate, and a rocky outcropping that slopes into the chasm beneath the bridge."
 											]
 										},
-										"Five {@creature Basilisk|XMM|Basilisks} lounge in the tunnels between this promenade and the sinkhole to the east (area {@area H5|3d0|x}). If they notice anything in the promenade or the entry (area {@area H1|3c7|x}), the monsters scuttle out to ambush the characters. A creature that is given the {@condition Pétrifié|XPHB} condition by one of these basilisks turns into lightning crystal (see \"{@area Haskasori Features|3c0|x}\") instead of stone but can be restored as normal."
+										"Five {@creature Basilic|XMM|Basilisks} lounge in the tunnels between this promenade and the sinkhole to the east (area {@area H5|3d0|x}). If they notice anything in the promenade or the entry (area {@area H1|3c7|x}), the monsters scuttle out to ambush the characters. A creature that is given the {@condition Pétrifié|XPHB} condition by one of these basilisks turns into lightning crystal (see \"{@area Haskasori Features|3c0|x}\") instead of stone but can be restored as normal."
 									]
 								},
 								{
@@ -4511,7 +4511,7 @@
 												"Two rows of pillars line the walkway toward a large subterranean temple at the north end of this spacious cavern. Imposing statues of winged figures that combine human and draconic features stand in front of the four southernmost pillars. Massive crystal formations dot the walls. To the west, tunnels lead to other parts of the sandstone city."
 											]
 										},
-										"The crystal formations are lightning crystals (see \"{@area Haskasori Features|3c0|x}\"). The four statues are {@creature Gargoyle|XMM|Gargoyles}, which serve the genie in the tower (area {@area H9|3df|x}). They fight to the death if provoked to combat; if left undisturbed, they instead slip away to warn their boss of the intruders."
+										"The crystal formations are lightning crystals (see \"{@area Haskasori Features|3c0|x}\"). The four statues are {@creature Gargouille|XMM|Gargoyles}, which serve the genie in the tower (area {@area H9|3df|x}). They fight to the death if provoked to combat; if left undisturbed, they instead slip away to warn their boss of the intruders."
 									]
 								},
 								{
@@ -4590,7 +4590,7 @@
 														"\"Return my scepter to its rightful place,\" an imperious voice demands, \"or face my wrath!\" The black dust coalesces into the lanky shape of an emaciated halfling, rotting bandages and brass chains covering his decaying flesh. A proud, sinister grin stretches across his withered face."
 													]
 												},
-												"The dust forms into Yaarnak, a Small {@creature Mummy Lord|XMM}. Yaarnak wants his staff recovered from the dragon's den (area {@area H10|3e7|x}) and returned to his tomb (area {@area H13|3f4|x}). If the characters do so, Yaarnak is appeased and vanishes; award the characters Experience Points for having defeated the mummy. If they try to leave Haskasori without returning the staff, the mummy pursues them and fights until destroyed."
+												"The dust forms into Yaarnak, a Small {@creature Seigneur momie|XMM}. Yaarnak wants his staff recovered from the dragon's den (area {@area H10|3e7|x}) and returned to his tomb (area {@area H13|3f4|x}). If the characters do so, Yaarnak is appeased and vanishes; award the characters Experience Points for having defeated the mummy. If they try to leave Haskasori without returning the staff, the mummy pursues them and fights until destroyed."
 											]
 										},
 										{
@@ -4644,7 +4644,7 @@
 											"page": 189,
 											"id": "3e2",
 											"entries": [
-												"If the gargoyles in area {@area H6|3d2|x} alert Rummox to the party's presence, the genie and all four {@creature Gargoyle|XMM|Gargoyles} keep watch from the rooftop (area {@area H9c|3e5|x}). If they notice the party's approach, they descend to intercept the characters before the characters enter the tower. Rummox makes a half-hearted attempt to drive the characters off, but she surrenders if she becomes {@status Meurtri|XPHB}. A character can also take an Influence action and make a {@dc 15} Charisma ({@skill Intimidation|XPHB} or {@skill Persuasion|XPHB}) check to urge Rummox to surrender and cooperate with them. See \"Traitorous Adviser\" if she surrenders."
+												"If the gargoyles in area {@area H6|3d2|x} alert Rummox to the party's presence, the genie and all four {@creature Gargouille|XMM|Gargoyles} keep watch from the rooftop (area {@area H9c|3e5|x}). If they notice the party's approach, they descend to intercept the characters before the characters enter the tower. Rummox makes a half-hearted attempt to drive the characters off, but she surrenders if she becomes {@status Meurtri|XPHB}. A character can also take an Influence action and make a {@dc 15} Charisma ({@skill Intimidation|XPHB} or {@skill Persuasion|XPHB}) check to urge Rummox to surrender and cooperate with them. See \"Traitorous Adviser\" if she surrenders."
 											]
 										},
 										{
@@ -4758,7 +4758,7 @@
 												"Alcoves of all shapes and sizes line these musty halls. Some nooks are wide shelves holding scraps of linen and broken bones, while other recesses bear shards of pottery and scattered ashes. Shuffling footsteps echo in the tunnels."
 											]
 										},
-										"Eight {@creature Mummy|XMM|Mummies} are scattered throughout these catacombs. These guardians are Hostile toward all non-Undead. Once they were loyal guards of King Yaarnak. When Anthradusk took the scepter from the king's tomb, the guards roused from their slumber to search for the villain who defiled their master's grave. When the characters enter combat with one mummy, roll {@dice 1d6} to determine how many more mummies arrive on the scene at the start of the second round of combat. The rest arrive at the start of round 3.",
+										"Eight {@creature Momie|XMM|Mummies} are scattered throughout these catacombs. These guardians are Hostile toward all non-Undead. Once they were loyal guards of King Yaarnak. When Anthradusk took the scepter from the king's tomb, the guards roused from their slumber to search for the villain who defiled their master's grave. When the characters enter combat with one mummy, roll {@dice 1d6} to determine how many more mummies arrive on the scene at the start of the second round of combat. The rest arrive at the start of round 3.",
 										{
 											"type": "entries",
 											"name": "Dead-End Stairs",
@@ -4846,7 +4846,7 @@
 												"Stone statues of monstrous bipeds stand in the far corners of this tomb, backlit by eerie firelight. The ornate sarcophagus at the raised head of the chamber lies in disarray, its lid removed and carelessly tipped to the side."
 											]
 										},
-										"Six {@creature Flameskull|XMM|Flameskulls} lurk behind the stone statues in the far corners of this tomb. They are Friendly toward a creature holding Yaarnak's scepter (and that creature's allies); they fight all other creatures.",
+										"Six {@creature Crâne flamboyant|XMM|Flameskulls} lurk behind the stone statues in the far corners of this tomb. They are Friendly toward a creature holding Yaarnak's scepter (and that creature's allies); they fight all other creatures.",
 										{
 											"type": "entries",
 											"name": "Returning the Scepter",
@@ -4985,7 +4985,7 @@
 							]
 						},
 						"Anthradusk has returned with the final items necessary to complete his ritual. The dragon enters the city via the sinkhole in the catacombs (area {@area H11|3ea|x}) and heads to his ritual chamber (area {@area H15|3fa|x}). Characters in area {@area H15|3fa|x} or {@area H16|3fe|x} have 1 minute to prepare before the dragon appears.",
-						"Anthradusk grows enraged at the sight of intruders and fights to the death. Unless weakened (see \"Using the Brazen Egg\" below), he uses the {@creature Ancient Blue Dragon|XMM} stat block. The dragon is too preoccupied with his ritual to pursue characters who flee.",
+						"Anthradusk grows enraged at the sight of intruders and fights to the death. Unless weakened (see \"Using the Brazen Egg\" below), he uses the {@creature Dragon bleu antique|XMM} stat block. The dragon is too preoccupied with his ritual to pursue characters who flee.",
 						{
 							"type": "entries",
 							"name": "Using the Brazen Egg",
@@ -5014,7 +5014,7 @@
 										{
 											"type": "item",
 											"name": "Weakened Dragon",
-											"entry": "Anthradusk's Hit Points are reduced by 200. For the next 24 hours, replace Anthradusk's game statistics other than his Hit Points, Initiative bonus, and Initiative score with those of an {@creature Adult Blue Dragon|XMM}."
+											"entry": "Anthradusk's Hit Points are reduced by 200. For the next 24 hours, replace Anthradusk's game statistics other than his Hit Points, Initiative bonus, and Initiative score with those of an {@creature Dragon bleu adulte|XMM}."
 										}
 									]
 								},
@@ -5044,7 +5044,7 @@
 							"page": 192,
 							"id": "408",
 							"entries": [
-								"If the characters fail to defeat Anthradusk, the blue dragon completes his ritual, and several {@creature Ancient Blue Dragon|XMM|Ancient Blue Dragons} appear at Anthradusk's side. Under their resurrector's command, the dragons terrorize and subjugate the region. The exact details of what happens are up to you, but your players should understand that the cost of failure is high indeed!",
+								"If the characters fail to defeat Anthradusk, the blue dragon completes his ritual, and several {@creature Dragon bleu antique|XMM|Ancient Blue Dragons} appear at Anthradusk's side. Under their resurrector's command, the dragons terrorize and subjugate the region. The exact details of what happens are up to you, but your players should understand that the cost of failure is high indeed!",
 								{
 									"type": "image",
 									"href": {

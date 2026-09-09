@@ -17,7 +17,7 @@
 			"source": "KftGV",
 			"page": 22,
 			"_copy": {
-				"name": "Allosaurus",
+				"name": "Allosaure",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -49,7 +49,7 @@
 			"source": "KftGV",
 			"page": 8,
 			"_copy": {
-				"name": "Bandit Captain",
+				"name": "Chef bandit",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -79,7 +79,7 @@
 			"source": "KftGV",
 			"page": 8,
 			"_copy": {
-				"name": "Knight",
+				"name": "Chevalier",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -137,7 +137,7 @@
 			"source": "KftGV",
 			"page": 157,
 			"_copy": {
-				"name": "Animated Armor",
+				"name": "Armure animée",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -170,7 +170,7 @@
 			"source": "KftGV",
 			"page": 157,
 			"_copy": {
-				"name": "Flying Sword",
+				"name": "Épée volante",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -203,7 +203,7 @@
 			"source": "KftGV",
 			"page": 158,
 			"_copy": {
-				"name": "Knight",
+				"name": "Chevalier",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -278,7 +278,7 @@
 			"source": "KftGV",
 			"page": 154,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Vétéran",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -309,7 +309,7 @@
 			"source": "KftGV",
 			"page": 158,
 			"_copy": {
-				"name": "Warhorse",
+				"name": "Cheval de guerre",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -708,7 +708,7 @@
 				"_mod": {
 					"action": {
 						"mode": "removeArr",
-						"names": "Rapier"
+						"names": "Rapière"
 					}
 				}
 			},
@@ -728,17 +728,17 @@
 			"source": "KftGV",
 			"page": 152,
 			"_copy": {
-				"name": "Helmed Horror",
+				"name": "Horreur blindée",
 				"source": "MM",
 				"_mod": {
 					"trait": [
 						{
 							"mode": "replaceArr",
-							"replace": "Spell Immunity",
+							"replace": "Immunité aux sorts",
 							"items": {
 								"name": "Spell Immunity",
 								"entries": [
-									"The helmed horror is immune to {@spell Mains brûlantes}, {@spell Boule de feu}, and {@spell Rayons brûlants}."
+									"The helmed horror is immune to {@spell burning hands}, {@spell fireball}, and {@spell scorching ray}."
 								]
 							}
 						}
@@ -746,7 +746,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Longsword",
+							"replace": "Épée longue",
 							"items": {
 								"name": "Flaming Longsword",
 								"entries": [
@@ -776,7 +776,7 @@
 			"source": "KftGV",
 			"page": 12,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM"
 			},
 			"int": 10,
@@ -794,21 +794,21 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Bite",
+							"replace": "Morsure",
 							"items": {
 								"name": "Bite",
 								"entries": [
-									"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage plus 3 ({@damage 1d6}) poison damage. If the target is a Large or smaller creature, it is {@condition Agrippé} (escape {@dc 13}). Until this grapple ends, the eldritch horror hatchling can bite only the {@condition Agrippé} creature and has advantage on attack rolls to do so."
+									"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage plus 3 ({@damage 1d6}) poison damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the eldritch horror hatchling can bite only the {@condition grappled} creature and has advantage on attack rolls to do so."
 								]
 							}
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Acid Spray {@recharge}",
+							"replace": "Crachat d'acide {@recharge}",
 							"items": {
 								"name": "Acid Spray {@recharge}",
 								"entries": [
-									"The eldritch horror hatchling spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature {@condition Agrippé}. Each creature in that line must make a {@dc 13} Dexterity saving throw, taking 10 ({@damage 3d6}) acid damage on a failed save, or half as much damage on a successful one."
+									"The eldritch horror hatchling spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature {@condition grappled}. Each creature in that line must make a {@dc 13} Dexterity saving throw, taking 10 ({@damage 3d6}) acid damage on a failed save, or half as much damage on a successful one."
 								]
 							}
 						}
@@ -825,7 +825,7 @@
 			"source": "KftGV",
 			"page": 188,
 			"_copy": {
-				"name": "Werebear",
+				"name": "Ours-garou",
 				"source": "MM",
 				"_mod": {
 					"*": [
@@ -911,7 +911,7 @@
 			"source": "KftGV",
 			"page": 8,
 			"_copy": {
-				"name": "Spy",
+				"name": "Espion",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1109,7 +1109,7 @@
 			"source": "KftGV",
 			"page": 8,
 			"_copy": {
-				"name": "Thug",
+				"name": "Malfrat",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1140,7 +1140,7 @@
 			"source": "KftGV",
 			"page": 8,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Vétéran",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1171,7 +1171,7 @@
 			"source": "KftGV",
 			"page": 51,
 			"_copy": {
-				"name": "Knight",
+				"name": "Chevalier",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1193,7 +1193,7 @@
 			"source": "KftGV",
 			"page": 169,
 			"_copy": {
-				"name": "Mind Flayer",
+				"name": "Flagelleur mental",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1218,7 +1218,7 @@
 			"source": "KftGV",
 			"page": 155,
 			"_copy": {
-				"name": "Smoke Mephit",
+				"name": "Méphrite de fumée",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1243,7 +1243,7 @@
 			"source": "KftGV",
 			"page": 200,
 			"_copy": {
-				"name": "Efreeti",
+				"name": "Éfrit",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1264,7 +1264,7 @@
 			"source": "KftGV",
 			"page": 107,
 			"_copy": {
-				"name": "Incubus",
+				"name": "Incube",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1283,7 +1283,7 @@
 			"source": "KftGV",
 			"page": 24,
 			"_copy": {
-				"name": "Behir",
+				"name": "Béhir",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1328,7 +1328,7 @@
 			"source": "KftGV",
 			"page": 78,
 			"_copy": {
-				"name": "Deep Gnome (Svirfneblin)",
+				"name": "Gnome des profondeurs (Svirfneblin)",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1342,7 +1342,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Kavoda carries a {@item Parchemin de sort (niveau 2)||spell scroll} of {@spell Arme magique} and a {@item Potion de force de géant des collines||potion of giant strength (hill)}."
+								"Kavoda carries a {@item Spell Scroll (2nd Level)||spell scroll} of {@spell magic weapon} and a {@item Potion of Hill Giant Strength||potion of giant strength (hill)}."
 							]
 						}
 					}
@@ -1376,7 +1376,7 @@
 			"source": "KftGV",
 			"page": 158,
 			"_copy": {
-				"name": "Clay Golem",
+				"name": "Golem d'argile",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1397,7 +1397,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Acid Absorption",
+							"replace": "Absorption d'acide",
 							"items": {
 								"name": "Fire Absorption",
 								"entries": [
@@ -1587,7 +1587,7 @@
 			"source": "KftGV",
 			"page": 7,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM"
 			},
 			"type": {
@@ -1610,7 +1610,7 @@
 			"source": "KftGV",
 			"page": 150,
 			"_copy": {
-				"name": "Knight",
+				"name": "Chevalier",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1621,7 +1621,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Greatsword",
+						"replace": "Espadon",
 						"items": {
 							"name": "Flame Tongue Longsword",
 							"entries": [
@@ -1851,7 +1851,7 @@
 			"source": "KftGV",
 			"page": 147,
 			"_copy": {
-				"name": "Ghost",
+				"name": "Spectre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1903,7 +1903,7 @@
 			"source": "KftGV",
 			"page": 8,
 			"_copy": {
-				"name": "Thug",
+				"name": "Malfrat",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1934,7 +1934,7 @@
 			"source": "KftGV",
 			"page": 8,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Vétéran",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2141,7 +2141,7 @@
 			"source": "KftGV",
 			"page": 173,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2174,7 +2174,7 @@
 			"source": "KftGV",
 			"page": 37,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM"
 			},
 			"skill": {
@@ -2356,12 +2356,12 @@
 			"source": "KftGV",
 			"page": 80,
 			"_copy": {
-				"name": "Shield Guardian",
+				"name": "Gardien bouclier",
 				"source": "MM",
 				"_mod": {
 					"trait": {
 						"mode": "removeArr",
-						"names": "Spell Storing"
+						"names": "Stockage de sort"
 					}
 				}
 			},
@@ -2406,7 +2406,7 @@
 			"source": "KftGV",
 			"page": 8,
 			"_copy": {
-				"name": "Thug",
+				"name": "Malfrat",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2437,7 +2437,7 @@
 			"source": "KftGV",
 			"page": 8,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Vétéran",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2468,7 +2468,7 @@
 			"source": "KftGV",
 			"page": 8,
 			"_copy": {
-				"name": "Scout",
+				"name": "Éclaireur",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2498,7 +2498,7 @@
 			"source": "KftGV",
 			"page": 8,
 			"_copy": {
-				"name": "Spy",
+				"name": "Espion",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2528,7 +2528,7 @@
 			"source": "KftGV",
 			"page": 8,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Vétéran",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2584,7 +2584,7 @@
 			"source": "KftGV",
 			"page": 184,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2612,7 +2612,7 @@
 			"source": "KftGV",
 			"page": 184,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_mod": {
 					"*": {

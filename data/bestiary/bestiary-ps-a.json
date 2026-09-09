@@ -12,7 +12,7 @@
 			"source": "PSA",
 			"page": 33,
 			"_copy": {
-				"name": "Adult Red Dragon",
+				"name": "Dragon rouge adulte",
 				"source": "MM"
 			},
 			"int": 8,
@@ -26,7 +26,7 @@
 			"source": "PSA",
 			"page": 30,
 			"_copy": {
-				"name": "Giant Crocodile",
+				"name": "Crocodile géant",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -45,7 +45,7 @@
 			"source": "PSA",
 			"page": 33,
 			"_copy": {
-				"name": "Red Dragon Wyrmling",
+				"name": "Dragonnet rouge",
 				"source": "MM"
 			},
 			"int": 5,
@@ -58,12 +58,12 @@
 			"source": "PSA",
 			"page": 35,
 			"_copy": {
-				"name": "Hydra",
+				"name": "Hydre",
 				"source": "MM",
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Bite",
+						"replace": "Morsure",
 						"items": {
 							"name": "Bite",
 							"entries": [
@@ -86,7 +86,7 @@
 			"source": "PSA",
 			"page": 34,
 			"_copy": {
-				"name": "Mummy",
+				"name": "Momie",
 				"source": "MM"
 			},
 			"hasToken": true,
@@ -98,7 +98,7 @@
 			"source": "PSA",
 			"page": 34,
 			"_copy": {
-				"name": "Mummy Lord",
+				"name": "Seigneur momie",
 				"source": "MM"
 			},
 			"hasToken": true,
@@ -123,7 +123,7 @@
 			"source": "PSA",
 			"page": 33,
 			"_copy": {
-				"name": "Ancient Red Dragon",
+				"name": "Dragon rouge antique",
 				"source": "MM"
 			},
 			"int": 10,
@@ -137,7 +137,7 @@
 			"source": "PSA",
 			"page": 30,
 			"_copy": {
-				"name": "Deva",
+				"name": "Déva",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -147,11 +147,11 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Mace",
+						"replace": "Masse d'armes",
 						"items": {
 							"name": "Staff",
 							"entries": [
-								"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 4}) bludgeoning damage plus 18 ({@damage 4d8}) radiant damage, and the target is {@condition Agrippé} (escape {@dc 17}). Until this grapple ends, the target is {@condition Entravé}, and the angel can't attack another target with its staff."
+								"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 4}) bludgeoning damage plus 18 ({@damage 4d8}) radiant damage, and the target is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained}, and the angel can't attack another target with its staff."
 							]
 						}
 					}
@@ -205,7 +205,7 @@
 			"source": "PSA",
 			"page": 37,
 			"_copy": {
-				"name": "Mammoth",
+				"name": "Mammouth",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -393,7 +393,7 @@
 			"source": "PSA",
 			"page": 38,
 			"_copy": {
-				"name": "Behir",
+				"name": "Béhir",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -403,7 +403,7 @@
 					},
 					"action": {
 						"mode": "removeArr",
-						"names": "Lightning Breath {@recharge 5}"
+						"names": "Souffle de foudre {@recharge 5}"
 					}
 				}
 			},
@@ -427,7 +427,7 @@
 			"source": "PSA",
 			"page": 38,
 			"_copy": {
-				"name": "Elephant",
+				"name": "Éléphant",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -447,18 +447,18 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Trampling Charge",
+							"replace": "Charge piétinante",
 							"items": {
 								"name": "Trampling Charge",
 								"entries": [
-									"If the hippopotamus moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition À terre}. If the target is {@condition À terre}, the hippopotamus can make one stomp attack against it as a bonus action."
+									"If the hippopotamus moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the hippopotamus can make one stomp attack against it as a bonus action."
 								]
 							}
 						}
 					],
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Gore",
+						"replace": "Encornage",
 						"items": {
 							"name": "Bite",
 							"entries": [
@@ -482,7 +482,7 @@
 			"source": "PSA",
 			"page": 33,
 			"_copy": {
-				"name": "Giant Eagle",
+				"name": "Aigle géant",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -590,7 +590,7 @@
 			"source": "PSA",
 			"page": 38,
 			"_copy": {
-				"name": "Giant Constrictor Snake",
+				"name": "Serpent constricteur géant",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -609,7 +609,7 @@
 			"source": "PSA",
 			"page": 35,
 			"_copy": {
-				"name": "Purple Worm",
+				"name": "Ver pourpre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -705,7 +705,7 @@
 			"source": "PSA",
 			"page": 33,
 			"_copy": {
-				"name": "Pteranodon",
+				"name": "Ptéranodon",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -724,7 +724,7 @@
 			"source": "PSA",
 			"page": 30,
 			"_copy": {
-				"name": "Bone Devil",
+				"name": "Diable osseux",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -750,7 +750,7 @@
 			"source": "PSA",
 			"page": 33,
 			"_copy": {
-				"name": "Young Red Dragon",
+				"name": "Dragon rouge (jeune)",
 				"source": "MM"
 			},
 			"int": 6,

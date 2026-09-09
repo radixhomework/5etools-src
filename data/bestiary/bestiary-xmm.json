@@ -10832,7 +10832,7 @@
 				{
 					"name": "Mutating Claw",
 					"entries": [
-						"{@atkr m} {@hit 8}, reach 10 ft. {@h}12 ({@damage 2d6 + 5}) Slashing damage plus 3 ({@damage 1d6}) Poison damage. If the target is a Humanoid not cursed by a slaad, it is subjected to the following effect. {@actSave con} {@dc 15}. {@actSaveFail} The target is cursed. The cursed target can't regain {@variantrule Hit Points|XPHB}, and its {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by 10 ({@dice 3d6}) after every 24 hours and doesn't return to normal after finishing a {@variantrule Long Rest|XPHB}. If the curse reduces the target's {@variantrule Hit Points|XPHB|Hit Point} maximum to 0, the curse ends, and instead of dying, the target instantly transforms into a {@creature Red Slaad|XMM} or, if it can cast spells of level 3 or higher, a {@creature Green Slaad|XMM}. Only a {@spell Souhait|XPHB} spell can reverse this transformation."
+						"{@atkr m} {@hit 8}, reach 10 ft. {@h}12 ({@damage 2d6 + 5}) Slashing damage plus 3 ({@damage 1d6}) Poison damage. If the target is a Humanoid not cursed by a slaad, it is subjected to the following effect. {@actSave con} {@dc 15}. {@actSaveFail} The target is cursed. The cursed target can't regain {@variantrule Hit Points|XPHB}, and its {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by 10 ({@dice 3d6}) after every 24 hours and doesn't return to normal after finishing a {@variantrule Long Rest|XPHB}. If the curse reduces the target's {@variantrule Hit Points|XPHB|Hit Point} maximum to 0, the curse ends, and instead of dying, the target instantly transforms into a {@creature Slaad rouge|XMM} or, if it can cast spells of level 3 or higher, a {@creature Slaad vert|XMM}. Only a {@spell Souhait|XPHB} spell can reverse this transformation."
 					]
 				}
 			],
@@ -30703,7 +30703,7 @@
 				{
 					"name": "Blight Seeds",
 					"entries": [
-						"When it finishes a {@variantrule Long Rest|XPHB}, the blight expels {@dice 1d6} seeds into unoccupied spaces on the ground within 30 feet of itself. After 24 hours, the seeds become creatures under the blight's control. Roll {@dice 1d8} for each seed to determine the creature it becomes: on 1-4, {@creature Twig Blight|XMM}; on 5-6, {@creature Needle Blight|XMM}; on 7-8, {@creature Vine Blight|XMM}."
+						"When it finishes a {@variantrule Long Rest|XPHB}, the blight expels {@dice 1d6} seeds into unoccupied spaces on the ground within 30 feet of itself. After 24 hours, the seeds become creatures under the blight's control. Roll {@dice 1d8} for each seed to determine the creature it becomes: on 1-4, {@creature Fléau des brindilles|XMM}; on 5-6, {@creature Fléau d'aiguilles|XMM}; on 7-8, {@creature Fléau de la vigne|XMM}."
 					]
 				}
 			],
@@ -33410,7 +33410,7 @@
 				{
 					"name": "Succubus Form",
 					"entries": [
-						"When the incubus finishes a {@variantrule Long Rest|XPHB}, it can shape-shift into a {@creature Succubus|XMM}, using that stat block instead of this one. Any equipment it's wearing or carrying isn't transformed."
+						"When the incubus finishes a {@variantrule Long Rest|XPHB}, it can shape-shift into a {@creature Succube|XMM}, using that stat block instead of this one. Any equipment it's wearing or carrying isn't transformed."
 					]
 				}
 			],
@@ -34184,7 +34184,7 @@
 				{
 					"name": "Shadow Breath {@recharge 5}",
 					"entries": [
-						"{@actSave dex} {@dc 13}, each creature in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 17 ({@damage 5d6}) Necrotic damage. {@actSaveSuccess} Half damage. {@actSaveSuccessOrFail} A Humanoid reduced to 0 {@variantrule Hit Points|XPHB} by this damage dies, and a {@creature Shadow|XMM} rises from its corpse. The shadow is under the dragon's control and shares the dragon's {@variantrule Initiative|XPHB} count but acts immediately after the dragon."
+						"{@actSave dex} {@dc 13}, each creature in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 17 ({@damage 5d6}) Necrotic damage. {@actSaveSuccess} Half damage. {@actSaveSuccessOrFail} A Humanoid reduced to 0 {@variantrule Hit Points|XPHB} by this damage dies, and a {@creature Ombre|XMM} rises from its corpse. The shadow is under the dragon's control and shares the dragon's {@variantrule Initiative|XPHB} count but acts immediately after the dragon."
 					]
 				}
 			],
@@ -49913,7 +49913,7 @@
 				{
 					"name": "Shadow Breath {@recharge 5}",
 					"entries": [
-						"{@actSave dex} {@dc 17}, each creature in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 35 ({@damage 10d6}) Necrotic damage. {@actSaveSuccess} Half damage. {@actSaveSuccessOrFail} A Humanoid reduced to 0 {@variantrule Hit Points|XPHB} by this damage dies, and a {@creature Shadow|XMM} rises from the corpse. The shadow is under the dragon's control and shares the dragon's {@variantrule Initiative|XPHB} count but acts immediately after the dragon."
+						"{@actSave dex} {@dc 17}, each creature in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 35 ({@damage 10d6}) Necrotic damage. {@actSaveSuccess} Half damage. {@actSaveSuccessOrFail} A Humanoid reduced to 0 {@variantrule Hit Points|XPHB} by this damage dies, and a {@creature Ombre|XMM} rises from the corpse. The shadow is under the dragon's control and shares the dragon's {@variantrule Initiative|XPHB} count but acts immediately after the dragon."
 					]
 				}
 			],
@@ -53404,7 +53404,7 @@
 				{
 					"name": "Incubus Form",
 					"entries": [
-						"When the succubus finishes a {@variantrule Long Rest|XPHB}, it can shape-shift into an {@creature Incubus|XMM}, using that stat block instead of this one."
+						"When the succubus finishes a {@variantrule Long Rest|XPHB}, it can shape-shift into an {@creature Incube|XMM}, using that stat block instead of this one."
 					]
 				}
 			],
@@ -56864,7 +56864,7 @@
 				{
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries": [
-						"{@actSave con} {@dc 17}, one creature within 5 feet that is willing or that has the {@condition Agrippé|XPHB}, {@condition Incapable|XPHB}, or {@condition Entravé|XPHB} condition. {@actSaveFail} 6 ({@damage 1d4 + 4}) Piercing damage plus 13 ({@damage 3d8}) Necrotic damage. The target's {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains {@variantrule Hit Points|XPHB} equal to that amount. A Humanoid reduced to 0 {@variantrule Hit Points|XPHB} by this damage and then buried rises the following sunset as a {@creature Vampire Spawn|XMM} under the vampire's control."
+						"{@actSave con} {@dc 17}, one creature within 5 feet that is willing or that has the {@condition Agrippé|XPHB}, {@condition Incapable|XPHB}, or {@condition Entravé|XPHB} condition. {@actSaveFail} 6 ({@damage 1d4 + 4}) Piercing damage plus 13 ({@damage 3d8}) Necrotic damage. The target's {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains {@variantrule Hit Points|XPHB} equal to that amount. A Humanoid reduced to 0 {@variantrule Hit Points|XPHB} by this damage and then buried rises the following sunset as a {@creature Vampire serviteur|XMM} under the vampire's control."
 					]
 				}
 			],
@@ -60695,7 +60695,7 @@
 				{
 					"name": "Create Specter",
 					"entries": [
-						"The wraith targets a Humanoid corpse within 10 feet of itself that has been dead for no longer than 1 minute. The target's spirit rises as a {@creature Specter|XMM} in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at a time."
+						"The wraith targets a Humanoid corpse within 10 feet of itself that has been dead for no longer than 1 minute. The target's spirit rises as a {@creature Spectre|XMM} in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at a time."
 					]
 				}
 			],

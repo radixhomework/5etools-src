@@ -205,7 +205,7 @@
 						"items": {
 							"name": "Mind Blast {@recharge 5}",
 							"entries": [
-								"The zealot magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 22 ({@damage 4d8 + 4}) psychic damage and have the {@condition Étourdi} condition for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the {@condition Étourdi} condition on itself on a success."
+								"The zealot magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 22 ({@damage 4d8 + 4}) psychic damage and have the {@condition stunned} condition for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the {@condition stunned} condition on itself on a success."
 							]
 						}
 					}
@@ -1097,12 +1097,12 @@
 			"source": "PaBTSO",
 			"page": 60,
 			"_copy": {
-				"name": "Goblin Boss",
+				"name": "Chef gobelin",
 				"source": "MM",
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Javelin",
+						"replace": "Javelot",
 						"items": {
 							"name": "Shortbow",
 							"entries": [
@@ -1422,7 +1422,7 @@
 			"source": "PaBTSO",
 			"page": 121,
 			"_copy": {
-				"name": "Hydra",
+				"name": "Hydre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1579,7 +1579,7 @@
 			"source": "PaBTSO",
 			"page": 10,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1679,7 +1679,7 @@
 			"source": "PaBTSO",
 			"page": 110,
 			"_copy": {
-				"name": "Medusa",
+				"name": "Méduse",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2107,7 +2107,7 @@
 			"source": "PaBTSO",
 			"page": 139,
 			"_copy": {
-				"name": "Berserker",
+				"name": "Berseker",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2117,7 +2117,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Greataxe",
+						"replace": "Hache à deux mains",
 						"items": {
 							"name": "Psychic Slam",
 							"entries": [
@@ -2260,7 +2260,7 @@
 			"source": "PaBTSO",
 			"page": 121,
 			"_copy": {
-				"name": "Water Weird",
+				"name": "Weird d'eau",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2665,11 +2665,11 @@
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Rotting Gaze",
+						"replace": "Regard rongeur",
 						"items": {
 							"name": "Mind Blast {@recharge 5}",
 							"entries": [
-								"The nothic magically emits psychic energy in a 30-foot cone. Each creature in that area must succeed on a {@dc 12} Intelligence saving throw or take 10 ({@damage 2d8 + 1}) psychic damage and have the {@condition Étourdi} condition until the end of its next turn."
+								"The nothic magically emits psychic energy in a 30-foot cone. Each creature in that area must succeed on a {@dc 12} Intelligence saving throw or take 10 ({@damage 2d8 + 1}) psychic damage and have the {@condition stunned} condition until the end of its next turn."
 							]
 						}
 					}
@@ -2844,7 +2844,7 @@
 			"source": "PaBTSO",
 			"page": 70,
 			"_copy": {
-				"name": "Wraith",
+				"name": "Spectre décharné",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2876,7 +2876,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Greataxe",
+						"replace": "Hache à deux mains",
 						"items": {
 							"name": "Greataxe",
 							"entries": [
@@ -3054,7 +3054,7 @@
 			"source": "PaBTSO",
 			"page": 73,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -3073,7 +3073,7 @@
 			"source": "PaBTSO",
 			"page": 114,
 			"_copy": {
-				"name": "Drow Elite Warrior",
+				"name": "Drow guerrier d'élite",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4232,7 +4232,7 @@
 			"source": "PaBTSO",
 			"page": 122,
 			"_copy": {
-				"name": "Deep Gnome (Svirfneblin)",
+				"name": "Gnome des profondeurs (Svirfneblin)",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4522,7 +4522,7 @@
 			"source": "PaBTSO",
 			"page": 174,
 			"_copy": {
-				"name": "Githyanki Knight",
+				"name": "Chevalier githyanki",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4578,7 +4578,7 @@
 			"source": "PaBTSO",
 			"page": 114,
 			"_copy": {
-				"name": "Drow Elite Warrior",
+				"name": "Drow guerrier d'élite",
 				"source": "MM",
 				"_mod": {
 					"*": {

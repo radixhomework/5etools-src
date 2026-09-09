@@ -523,7 +523,7 @@
 				}
 			],
 			"entries": [
-				"Ce sort crée un serviteur mort-vivant. Choisissez un tas d'os ou un cadavre d'humanoïde de taille M ou P à portée. Votre sort insuffle à la cible une imitation infâme de la vie, la soulevant comme une créature mort-vivante. La cible devient un {@creature skeleton} si vous avez choisi des os ou un {@creature zombie} si vous avez choisi un cadavre (le MD possède les statistiques de la créature).",
+				"Ce sort crée un serviteur mort-vivant. Choisissez un tas d'os ou un cadavre d'humanoïde de taille M ou P à portée. Votre sort insuffle à la cible une imitation infâme de la vie, la soulevant comme une créature mort-vivante. La cible devient un {@creature Squelette} si vous avez choisi des os ou un {@creature zombie} si vous avez choisi un cadavre (le MD possède les statistiques de la créature).",
 				"À chacun de vos tours, vous pouvez utiliser une action bonus pour commander mentalement toute créature que vous avez créée avec ce sort si elle se trouve à 60 pieds de vous ou moins (si vous contrôlez plusieurs créatures, vous pouvez en commander une partie ou la totalité en même temps, en leur donnant le même ordre). Vous décidez de l'action que la créature entreprendra et de son déplacement lors de son prochain tour, ou vous pouvez donner un ordre général, comme garder une salle ou un couloir en particulier. Si vous ne donnez aucun ordre, la créature se contente de se défendre contre les créatures hostiles. Une fois qu'un ordre est donné, la créature continue de l'exécuter jusqu'à ce que sa tâche soit achevée.",
 				"La créature est sous votre contrôle pendant 24 heures, après quoi elle cesse d'obéir à tout ordre que vous lui avez donné. Pour garder le contrôle de la créature 24 heures de plus, vous devez lancer de nouveau ce sort sur la créature avant la fin de la période de 24 heures en cours. Cette utilisation du sort réaffirme votre contrôle sur jusqu'à quatre créatures que vous avez animées avec ce sort, plutôt que d'en animer une nouvelle."
 			],
@@ -1571,7 +1571,7 @@
 				}
 			],
 			"entries": [
-				"Après avoir passé le temps d'incantation à tracer des chemins magiques dans une pierre précieuse, vous touchez une bête ou une plante de taille TG ou plus petite. La cible ne doit avoir aucun score d'Intelligence ou une Intelligence de 3 ou moins. La cible obtient une Intelligence de 10. Elle gagne également la capacité de parler une langue que vous connaissez. Si la cible est une plante, elle acquiert la capacité de mouvoir ses membres, racines, lianes, pousses, etc., et des sens similaires à ceux d'un humain. Votre MD choisit des statistiques appropriées pour la plante éveillée, comme celles de l'{@creature awakened shrub} ou de l'{@creature awakened tree}.",
+				"Après avoir passé le temps d'incantation à tracer des chemins magiques dans une pierre précieuse, vous touchez une bête ou une plante de taille TG ou plus petite. La cible ne doit avoir aucun score d'Intelligence ou une Intelligence de 3 ou moins. La cible obtient une Intelligence de 10. Elle gagne également la capacité de parler une langue que vous connaissez. Si la cible est une plante, elle acquiert la capacité de mouvoir ses membres, racines, lianes, pousses, etc., et des sens similaires à ceux d'un humain. Votre MD choisit des statistiques appropriées pour la plante éveillée, comme celles de l'{@creature Arbuste éveillé} ou de l'{@creature Arbre éveillé}.",
 				"La bête ou la plante éveillée est {@condition Charmé} par vous pendant 30 jours ou jusqu'à ce que vous ou vos compagnons lui fassiez du mal. Quand la condition {@condition Charmé} prend fin, la créature éveillée choisit de rester ou non amicale à votre égard, selon la façon dont vous l'avez traitée pendant qu'elle était {@condition Charmé}."
 			],
 			"conditionInflict": [
@@ -4474,7 +4474,7 @@
 				}
 			],
 			"entries": [
-				"Vous appelez un serviteur élémentaire. Choisissez une zone d'air, de terre, de feu ou d'eau remplissant un cube de 10 pieds à portée. Un {@filter élémentaire de facteur de puissance 5 ou moins|bestiary|challenge rating=[&0;&5]|type=elemental|miscellaneous=!swarm} approprié à la zone choisie apparaît dans un espace inoccupé à 10 pieds de celle-ci ou moins. Par exemple, un {@creature fire elemental} émerge d'un feu de camp et un {@creature earth elemental} s'élève du sol. L'élémentaire disparaît lorsqu'il tombe à 0 point de vie ou à la fin du sort.",
+				"Vous appelez un serviteur élémentaire. Choisissez une zone d'air, de terre, de feu ou d'eau remplissant un cube de 10 pieds à portée. Un {@filter élémentaire de facteur de puissance 5 ou moins|bestiary|challenge rating=[&0;&5]|type=elemental|miscellaneous=!swarm} approprié à la zone choisie apparaît dans un espace inoccupé à 10 pieds de celle-ci ou moins. Par exemple, un {@creature Élémentaire du Feu} émerge d'un feu de camp et un {@creature Élémentaire de la Terre} s'élève du sol. L'élémentaire disparaît lorsqu'il tombe à 0 point de vie ou à la fin du sort.",
 				"L'élémentaire vous est amical, à vous et à vos compagnons, pendant la durée. Lancez l'initiative pour l'élémentaire, qui possède ses propres tours. Il obéit aux ordres verbaux que vous lui donnez (aucune action n'est requise de votre part). Si vous ne donnez aucun ordre à l'élémentaire, il se défend contre les créatures hostiles mais n'entreprend sinon aucune action.",
 				"Si votre {@status concentration} est brisée, l'élémentaire ne disparaît pas. À la place, vous perdez le contrôle de l'élémentaire, il devient hostile envers vous et vos compagnons et pourrait attaquer. Un élémentaire hors de contrôle ne peut pas être renvoyé par vous et disparaît 1 heure après son invocation.",
 				"Le MD possède les statistiques de l'élémentaire."
@@ -5553,7 +5553,7 @@
 				}
 			],
 			"entries": [
-				"Vous ne pouvez lancer ce sort que la nuit. Choisissez jusqu'à trois cadavres d'humanoïdes de taille M ou P à portée. Chaque cadavre devient un {@creature ghoul} sous votre contrôle. (Le MD possède les statistiques de ces créatures.)",
+				"Vous ne pouvez lancer ce sort que la nuit. Choisissez jusqu'à trois cadavres d'humanoïdes de taille M ou P à portée. Chaque cadavre devient un {@creature Goule} sous votre contrôle. (Le MD possède les statistiques de ces créatures.)",
 				"Par une action bonus à chacun de vos tours, vous pouvez commander mentalement toute créature que vous avez animée avec ce sort si elle se trouve à 120 pieds de vous ou moins (si vous contrôlez plusieurs créatures, vous pouvez en commander une partie ou la totalité en même temps, en leur donnant le même ordre). Vous décidez de l'action que la créature entreprendra et de son déplacement lors de son prochain tour, ou vous pouvez donner un ordre général, comme garder une salle ou un couloir en particulier. Si vous ne donnez aucun ordre, la créature se contente de se défendre contre les créatures hostiles. Une fois qu'un ordre est donné, la créature continue de l'exécuter jusqu'à ce que sa tâche soit achevée.",
 				"La créature est sous votre contrôle pendant 24 heures, après quoi elle cesse d'obéir à tout ordre que vous lui avez donné. Pour garder le contrôle de la créature 24 heures de plus, vous devez lancer ce sort sur la créature avant la fin de la période de 24 heures en cours. Cette utilisation du sort réaffirme votre contrôle sur jusqu'à trois créatures que vous avez animées avec ce sort, plutôt que d'en animer de nouvelles."
 			],
@@ -5562,7 +5562,7 @@
 					"type": "entries",
 					"name": "À haut niveau",
 					"entries": [
-						"Quand vous lancez ce sort en utilisant un emplacement de sort de niveau 7, vous pouvez animer ou réaffirmer le contrôle sur quatre {@creature ghoul||goules}. Quand vous lancez ce sort en utilisant un emplacement de sort de niveau 8, vous pouvez animer ou réaffirmer le contrôle sur cinq {@creature ghoul||goules}, deux {@creature ghast||ghasts} ou deux {@creature wight||wights}. Quand vous lancez ce sort en utilisant un emplacement de sort de niveau 9, vous pouvez animer ou réaffirmer le contrôle sur six {@creature ghoul||goules}, trois {@creature ghast||ghasts} ou {@creature wight||wights}, ou deux {@creature mummy||momies}."
+						"Quand vous lancez ce sort en utilisant un emplacement de sort de niveau 7, vous pouvez animer ou réaffirmer le contrôle sur quatre {@creature Goule||goules}. Quand vous lancez ce sort en utilisant un emplacement de sort de niveau 8, vous pouvez animer ou réaffirmer le contrôle sur cinq {@creature Goule||goules}, deux {@creature ghast||ghasts} ou deux {@creature wight||wights}. Quand vous lancez ce sort en utilisant un emplacement de sort de niveau 9, vous pouvez animer ou réaffirmer le contrôle sur six {@creature Goule||goules}, trois {@creature ghast||ghasts} ou {@creature wight||wights}, ou deux {@creature Momie||momies}."
 					]
 				}
 			],
@@ -8941,7 +8941,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"Vous obtenez les services d'un familier, un esprit qui prend la forme animale de votre choix : {@creature bat}, {@creature cat}, {@creature crab}, {@creature frog} (crapaud), {@creature hawk}, {@creature lizard}, {@creature octopus}, {@creature owl}, {@creature poisonous snake}, poisson ({@creature quipper}), {@creature rat}, {@creature raven}, {@creature sea horse}, {@creature spider} ou {@creature weasel}. Apparaissant dans un espace inoccupé à portée, le familier possède les statistiques de la forme choisie, mais c'est un céleste, une fée ou un fiendon (à votre choix) au lieu d'une bête.",
+				"Vous obtenez les services d'un familier, un esprit qui prend la forme animale de votre choix : {@creature Chauve-souris}, {@creature Chat}, {@creature Crabe}, {@creature Grenouille} (crapaud), {@creature Faucon}, {@creature Lézard}, {@creature Pieuvre}, {@creature Chouette}, {@creature Serpent venimeux}, poisson ({@creature Piranha}), {@creature rat}, {@creature Corbeau}, {@creature Hippocampe}, {@creature Araignée} ou {@creature Belette}. Apparaissant dans un espace inoccupé à portée, le familier possède les statistiques de la forme choisie, mais c'est un céleste, une fée ou un fiendon (à votre choix) au lieu d'une bête.",
 				"{@note Des {@filter formes animales supplémentaires|bestiary|Miscellaneous=Familiar} peuvent être disponibles à la discrétion du DM.}",
 				"Votre familier agit indépendamment de vous, mais obéit toujours à vos ordres. En combat, il tire sa propre initiative et agit lors de son propre tour. Un familier ne peut pas attaquer, mais il peut entreprendre d'autres actions normalement.",
 				"Quand le familier tombe à 0 point de vie, il disparaît sans laisser de forme physique. Il réapparaît après que vous avez de nouveau lancé ce sort. Sous forme d'action, vous pouvez temporairement renvoyer le familier dans une dimension de poche. Vous pouvez aussi le renvoyer pour toujours. Sous forme d'action pendant qu'il est temporairement renvoyé, vous pouvez le faire réapparaître dans n'importe quel espace inoccupé à 9 mètres de vous ou moins. Chaque fois que le familier tombe à 0 point de vie ou disparaît dans la dimension de poche, il laisse derrière lui, dans son espace, tout ce qu'il portait ou transportait.",
@@ -8992,7 +8992,7 @@
 				}
 			],
 			"entries": [
-				"Vous invoquez un esprit qui prend la forme d'une monture inhabituellement intelligente, forte et loyale, créant avec elle un lien durable. Apparaissant dans un espace inoccupé à portée, la monture prend la forme de votre choix : un {@creature warhorse}, un {@creature pony}, un {@creature camel}, un {@creature elk} ou un {@creature mastiff}. (Votre DM pourrait permettre l'invocation d'autres animaux comme montures.) La monture possède les statistiques de la forme choisie, mais c'est un céleste, une fée ou un fiendon (à votre choix) au lieu de son type normal. De plus, si votre monture a une Intelligence de 5 ou moins, son Intelligence devient 6 et elle acquiert la capacité de comprendre une langue de votre choix que vous parlez.",
+				"Vous invoquez un esprit qui prend la forme d'une monture inhabituellement intelligente, forte et loyale, créant avec elle un lien durable. Apparaissant dans un espace inoccupé à portée, la monture prend la forme de votre choix : un {@creature Cheval de guerre}, un {@creature Poney}, un {@creature Chameau}, un {@creature Élan} ou un {@creature Molosse}. (Votre DM pourrait permettre l'invocation d'autres animaux comme montures.) La monture possède les statistiques de la forme choisie, mais c'est un céleste, une fée ou un fiendon (à votre choix) au lieu de son type normal. De plus, si votre monture a une Intelligence de 5 ou moins, son Intelligence devient 6 et elle acquiert la capacité de comprendre une langue de votre choix que vous parlez.",
 				"Votre monture vous sert de monture, en combat comme ailleurs, et vous partagez avec elle un lien instinctif qui vous permet de combattre comme un ensemble parfaitement coordonné. Tant que vous êtes monté sur votre monture, tout sort que vous lancez et qui ne cible que vous peut également cibler votre monture.",
 				"Quand la monture tombe à 0 point de vie, elle disparaît sans laisser de forme physique. Vous pouvez aussi renvoyer votre monture à tout moment sous forme d'action, la faisant disparaître. Dans les deux cas, lancer de nouveau ce sort invoque la même monture, restaurée à son maximum de points de vie.",
 				"Tant que votre monture se trouve à 1,5 kilomètre de vous ou moins, vous pouvez communiquer ensemble par télépathie.",
@@ -10447,10 +10447,10 @@
 				}
 			],
 			"entries": [
-				"Vous transformez, pendant la durée du sort, jusqu'à dix mille-pattes, trois araignées, cinq guêpes ou un scorpion se trouvant à portée en versions géantes de leurs formes naturelles. Un mille-pattes devient un {@creature giant centipede}, une araignée devient une {@creature giant spider}, une guêpe devient une {@creature giant wasp} et un scorpion devient un {@creature giant scorpion}.",
+				"Vous transformez, pendant la durée du sort, jusqu'à dix mille-pattes, trois araignées, cinq guêpes ou un scorpion se trouvant à portée en versions géantes de leurs formes naturelles. Un mille-pattes devient un {@creature Scutigère géante}, une araignée devient une {@creature Araignée géante}, une guêpe devient une {@creature Guêpe géante} et un scorpion devient un {@creature Scorpion géant}.",
 				"Chaque créature obéit à vos ordres verbaux et, en combat, elles agissent lors de votre tour à chaque round. Le DM possède les statistiques de ces créatures et résout leurs actions et leurs déplacements.",
 				"Une créature demeure à sa taille géante pendant la durée du sort, jusqu'à ce qu'elle tombe à 0 point de vie, ou jusqu'à ce que vous utilisiez une action pour dissiper l'effet qui l'affecte.",
-				"Le DM pourrait vous autoriser à choisir des cibles différentes. Par exemple, si vous transformez une abeille, sa version géante pourrait avoir les mêmes statistiques qu'une {@creature giant wasp}."
+				"Le DM pourrait vous autoriser à choisir des cibles différentes. Par exemple, si vous transformez une abeille, sa version géante pourrait avoir les mêmes statistiques qu'une {@creature Guêpe géante}."
 			],
 			"miscTags": [
 				"SMN"
@@ -13976,7 +13976,7 @@
 			],
 			"entries": [
 				"Décrivez ou nommez une créature qui vous est familière. Vous percevez la direction dans laquelle elle se trouve, tant qu'elle est à 300 mètres (1 000 pieds) ou moins de vous. Si la créature se déplace, vous connaissez la direction de son déplacement.",
-				"Le sort peut localiser une créature précise que vous connaissez, ou la créature la plus proche d'une espèce donnée (comme un humain ou un {@creature unicorn}), à condition d'avoir déjà vu une telle créature de près — à 9 mètres (30 pieds) ou moins — au moins une fois. Si la créature que vous avez décrite ou nommée a une autre forme, par exemple sous l'effet d'un sort de {@spell Polymorphie}, ce sort ne la localise pas.",
+				"Le sort peut localiser une créature précise que vous connaissez, ou la créature la plus proche d'une espèce donnée (comme un humain ou un {@creature Licorne}), à condition d'avoir déjà vu une telle créature de près — à 9 mètres (30 pieds) ou moins — au moins une fois. Si la créature que vous avez décrite ou nommée a une autre forme, par exemple sous l'effet d'un sort de {@spell Polymorphie}, ce sort ne la localise pas.",
 				"Ce sort ne peut pas localiser une créature si une étendue d'eau courante large d'au moins 3 mètres (10 pieds) bloque le chemin direct entre vous et elle."
 			]
 		},
@@ -15000,7 +15000,7 @@
 			],
 			"entries": [
 				"Vous bannissez une créature que vous pouvez voir à portée dans un demi-plan labyrinthique. La cible y demeure pendant toute la durée du sort ou jusqu'à ce qu'elle s'échappe du labyrinthe.",
-				"La cible peut utiliser son action pour tenter de s'évader. Ce faisant, elle effectue un test d'Intelligence contre un {@dc 20}. Si elle réussit, elle s'échappe et le sort prend fin (un {@creature minotaur} ou le démon {@creature goristro} réussit automatiquement).",
+				"La cible peut utiliser son action pour tenter de s'évader. Ce faisant, elle effectue un test d'Intelligence contre un {@dc 20}. Si elle réussit, elle s'échappe et le sort prend fin (un {@creature Minotaure} ou le démon {@creature goristro} réussit automatiquement).",
 				"Quand le sort prend fin, la cible réapparaît dans l'espace qu'elle a quitté ou, si cet espace est occupé, dans l'espace inoccupé le plus proche."
 			],
 			"abilityCheck": [
@@ -16735,7 +16735,7 @@
 			},
 			"entries": [
 				"Une créature quasi réelle ressemblant à un cheval, de taille G, apparaît au sol dans un espace inoccupé de votre choix à portée. Vous décidez de l'apparence de la créature, mais elle est équipée d'une selle, d'un mors et d'une bride. Tout cet équipement créé par le sort s'évanouit dans un panache de fumée s'il est emporté à plus de 3 mètres (10 pieds) du destrier.",
-				"Pendant toute la durée du sort, vous ou une créature de votre choix pouvez monter le destrier. La créature utilise les statistiques d'un {@creature riding horse||cheval de selle}, sauf qu'elle a une vitesse de 30 mètres (100 pieds) et peut parcourir 16 kilomètres (10 miles) en une heure, ou 21 kilomètres (13 miles) à une allure rapide. Quand le sort prend fin, le destrier s'estompe progressivement, laissant 1 minute au cavalier pour descendre. Le sort prend fin si vous utilisez une action pour le dissiper ou si le destrier subit des dégâts."
+				"Pendant toute la durée du sort, vous ou une créature de votre choix pouvez monter le destrier. La créature utilise les statistiques d'un {@creature Cheval de selle||cheval de selle}, sauf qu'elle a une vitesse de 30 mètres (100 pieds) et peut parcourir 16 kilomètres (10 miles) en une heure, ou 21 kilomètres (13 miles) à une allure rapide. Quand le sort prend fin, le destrier s'estompe progressivement, laissant 1 minute au cavalier pour descendre. Le sort prend fin si vous utilisez une action pour le dissiper ou si le destrier subit des dégâts."
 			],
 			"miscTags": [
 				"SMN"
@@ -24044,7 +24044,7 @@
 						"Vous créez un objet d'une valeur allant jusqu'à 25 000 po qui n'est pas un objet magique. L'objet ne peut mesurer plus de 90 mètres (300 pieds) dans sa plus grande dimension, et il apparaît dans un espace inoccupé que vous pouvez voir, au sol.",
 						"Vous permettez à vingt créatures au plus que vous pouvez voir de regagner tous leurs points de vie, et vous mettez fin à tous les effets qui les affectent et qui sont décrits dans le sort {@spell Restauration supérieure}.",
 						"Vous accordez à dix créatures au plus que vous pouvez voir une résistance à un type de dégâts de votre choix.",
-						"Vous accordez à dix créatures au plus que vous pouvez voir l'immunité à un sort unique ou à un autre effet magique pendant 8 heures. Par exemple, vous pourriez rendre vous-même et tous vos compagnons immunisés contre l'attaque de drain de vie d'un {@creature lich}.",
+						"Vous accordez à dix créatures au plus que vous pouvez voir l'immunité à un sort unique ou à un autre effet magique pendant 8 heures. Par exemple, vous pourriez rendre vous-même et tous vos compagnons immunisés contre l'attaque de drain de vie d'un {@creature Liche}.",
 						"Vous annulez un unique événement récent en forçant une relance de tout jet effectué au cours du dernier round (y compris votre dernier tour). La réalité se recompose pour s'adapter au nouveau résultat. Par exemple, un sort de {@spell Souhait} pourrait annuler la réussite d'un jet de sauvegarde d'un adversaire, un coup critique d'un ennemi ou l'échec d'un jet de sauvegarde d'un ami. Vous pouvez forcer la relance à se faire avec un avantage ou un désavantage, et vous pouvez choisir d'utiliser le jet relancé ou le jet original."
 					]
 				},

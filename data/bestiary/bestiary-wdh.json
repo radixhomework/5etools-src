@@ -315,7 +315,7 @@
 			"source": "WDH",
 			"page": 194,
 			"_copy": {
-				"name": "Adult Gold Dragon",
+				"name": "Dragon d'or adulte",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -336,7 +336,7 @@
 			"source": "WDH",
 			"page": 32,
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -625,7 +625,7 @@
 			"source": "WDH",
 			"page": 112,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -809,7 +809,7 @@
 						"items": {
 							"name": "Blinded",
 							"entries": [
-								"The troll is wearing an eyeless helm, and is {@condition Aveuglé}."
+								"The troll is wearing an eyeless helm, and is {@condition blinded}."
 							]
 						}
 					}
@@ -1034,7 +1034,7 @@
 			"source": "WDH",
 			"page": 191,
 			"_copy": {
-				"name": "Axe Beak",
+				"name": "Dinornis",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1471,7 +1471,7 @@
 			"source": "WDH",
 			"page": 32,
 			"_copy": {
-				"name": "Bandit Captain",
+				"name": "Chef bandit",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1538,7 +1538,7 @@
 			"source": "WDH",
 			"page": 42,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM"
 			},
 			"type": {
@@ -1604,7 +1604,7 @@
 			"source": "WDH",
 			"page": 32,
 			"_copy": {
-				"name": "Druid",
+				"name": "Druide",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1652,7 +1652,7 @@
 			"source": "WDH",
 			"page": 53,
 			"_copy": {
-				"name": "Hawk",
+				"name": "Faucon",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1696,7 +1696,7 @@
 			"source": "WDH",
 			"page": 202,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM"
 			},
 			"type": {
@@ -4003,14 +4003,14 @@
 						"spells": {
 							"3": [
 								{
-									"replace": "{@spell Contresort}",
-									"with": "{@spell Animation des morts}"
+									"replace": "{@spell counterspell}",
+									"with": "{@spell animate dead}"
 								}
 							],
 							"4": [
 								{
-									"replace": "{@spell Invisibilité supérieure}",
-									"with": "{@spell Ravage}"
+									"replace": "{@spell greater invisibility}",
+									"with": "{@spell blight}"
 								}
 							]
 						}
@@ -4158,7 +4158,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Manafret wears a {@item Anneau téléporteur|WDH}."
+								"Manafret wears a {@item teleporter ring|WDH}."
 							]
 						}
 					}
@@ -5124,7 +5124,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Nar'l carries a vial containing three doses of {@item Gratt'œil|WDH}, a contact poison. A creature that comes into contact with the poison must succeed on a {@dc 14} Constitution saving throw or be {@condition Empoisonné} for 1 hour and {@condition Aveuglé} while {@condition Empoisonné} in this way. A {@spell Restauration partielle} spell or similar magic ends the effect."
+								"Nar'l carries a vial containing three doses of {@item eyescratch|WDH}, a contact poison. A creature that comes into contact with the poison must succeed on a {@dc 14} Constitution saving throw or be {@condition poisoned} for 1 hour and {@condition blinded} while {@condition poisoned} in this way. A {@spell lesser restoration} spell or similar magic ends the effect."
 							]
 						}
 					}
@@ -5159,7 +5159,7 @@
 			"source": "WDH",
 			"page": 212,
 			"_copy": {
-				"name": "Mind Flayer",
+				"name": "Flagelleur mental",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -5455,7 +5455,7 @@
 			"source": "WDH",
 			"page": 20,
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -5617,7 +5617,7 @@
 			"source": "WDH",
 			"page": 124,
 			"_copy": {
-				"name": "Chain Devil",
+				"name": "Diable aux chaînes",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -6276,7 +6276,7 @@
 			"source": "WDH",
 			"page": 216,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Vétéran",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -6327,7 +6327,7 @@
 			"source": "WDH",
 			"page": 104,
 			"_copy": {
-				"name": "Spy",
+				"name": "Espion",
 				"source": "MM",
 				"_templates": [
 					{
@@ -6356,7 +6356,7 @@
 			"source": "WDH",
 			"page": 197,
 			"_copy": {
-				"name": "Guard",
+				"name": "Garde",
 				"source": "MM"
 			},
 			"hasToken": true
@@ -8313,7 +8313,7 @@
 				{
 					"name": "Summon Devil (Recharges after 9 Days)",
 					"entries": [
-						"Victoro summons a {@creature barbed devil}. The devil appears in an unoccupied space within 30 feet of Victoro, acts as Victoro's ally, and can't summon other devils. It remains for 1 minute, until it or Victoro dies, or until Victoro dismisses it as an action."
+						"Victoro summons a {@creature Diable à pointes}. The devil appears in an unoccupied space within 30 feet of Victoro, acts as Victoro's ally, and can't summon other devils. It remains for 1 minute, until it or Victoro dies, or until Victoro dismisses it as an action."
 					]
 				}
 			],
@@ -8582,7 +8582,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Xanathar wears a {@item Anneau d'invisibilité}, a {@item Anneau de protection mentale}, and a {@item Anneau de résistance à la force||ring of resistance (force)}."
+								"Xanathar wears a {@item ring of invisibility}, a {@item ring of mind shielding}, and a {@item ring of force resistance||ring of resistance (force)}."
 							]
 						}
 					}
@@ -8902,7 +8902,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"The adept wears a {@item Anneau téléporteur|WDH}."
+								"The adept wears a {@item teleporter ring|WDH}."
 							]
 						}
 					}

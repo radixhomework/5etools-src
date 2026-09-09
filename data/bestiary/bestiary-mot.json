@@ -811,7 +811,7 @@
 				{
 					"name": "Swarm (Costs 2 Actions)",
 					"entries": [
-						"Arasta causes two {@creature swarm of spiders||swarms of spiders} to appear in unoccupied spaces within 5 feet of her."
+						"Arasta causes two {@creature Nuée d'araignées||swarms of spiders} to appear in unoccupied spaces within 5 feet of her."
 					]
 				},
 				{
@@ -3440,17 +3440,17 @@
 			"source": "MOT",
 			"page": 206,
 			"_copy": {
-				"name": "Medusa",
+				"name": "Méduse",
 				"source": "MM",
 				"_mod": {
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
-									"The medusa makes either three melee attacks\u2014one with its snake hair, one to constrict, and one with its shortsword\u2014or two ranged attacks with its longbow."
+									"The medusa makes either three melee attacks—one with its snake hair, one to constrict, and one with its shortsword—or two ranged attacks with its longbow."
 								]
 							}
 						},
@@ -3459,7 +3459,7 @@
 							"items": {
 								"name": "Constrict",
 								"entries": [
-									"{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}7 ({@damage 2d6}) bludgeoning damage, and the target is {@condition Agrippé} (escape {@dc 11}). Until this grapple ends, the target is {@condition Entravé}, and the medusa can't constrict another target."
+									"{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}7 ({@damage 2d6}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 11}). Until this grapple ends, the target is {@condition restrained}, and the medusa can't constrict another target."
 								]
 							}
 						}
@@ -3894,7 +3894,7 @@
 				{
 					"name": "Herd the Underworld (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The shepherd pulls twisted souls from the Underworld; {@dice 1d6} {@creature shadow||shadows} (without Sunlight Weakness) arise in unoccupied spaces within 20 feet of the shepherd. The shadows act right after the shepherd on the same initiative count and fight until they're destroyed. They disappear when the shepherd dies."
+						"The shepherd pulls twisted souls from the Underworld; {@dice 1d6} {@creature Ombre||shadows} (without Sunlight Weakness) arise in unoccupied spaces within 20 feet of the shepherd. The shadows act right after the shepherd on the same initiative count and fight until they're destroyed. They disappear when the shepherd dies."
 					]
 				}
 			],
@@ -5555,7 +5555,7 @@
 				{
 					"name": "Summon Water Weird (Recharges after a Short or Long Rest)",
 					"entries": [
-						"As a bonus action, the triton magically summons {@dice 1d4} {@creature water weird||water weirds}. The summoned weirds appear in unoccupied spaces in water within 60 feet of the triton. The water weirds act immediately after the triton on the same initiative count and fight until they're destroyed. They disappear if the triton dies."
+						"As a bonus action, the triton magically summons {@dice 1d4} {@creature Weird d'eau||water weirds}. The summoned weirds appear in unoccupied spaces in water within 60 feet of the triton. The water weirds act immediately after the triton on the same initiative count and fight until they're destroyed. They disappear if the triton dies."
 					]
 				}
 			],

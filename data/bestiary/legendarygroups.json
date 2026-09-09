@@ -10,27 +10,27 @@
 			"source": "MM",
 			"page": 13,
 			"lairActions": [
-				"When fighting inside its lair, an aboleth can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the aboleth takes a lair action to cause one of the following effects:",
+				"Lorsqu'il combat dans son repaire, un aboleth peut invoquer la magie ambiante pour utiliser des actions de repaire. À l'initiative 20 (en perdant les égalités d'initiative), l'aboleth utilise une action de repaire pour produire l'un des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"The aboleth casts {@spell Force phantasmale} (no components required) on any number of creatures it can see within 60 feet of it. While maintaining {@status concentration} on this effect, the aboleth can't take other lair actions. If a target succeeds on the saving throw or if the effect ends for it, the target is immune to the aboleth's phantasmal force lair action for the next 24 hours, although such a creature can choose to be affected.",
-						"Pools of water within 90 feet of the aboleth surge outward in a grasping tide. Any creature on the ground within 20 feet of such a pool must succeed on a {@dc 14} Strength saving throw or be pulled up to 20 feet into the water and knocked {@condition À terre}. The aboleth can't use this lair action again until it has used a different one.",
-						"Water in the aboleth's lair magically becomes a conduit for the creature's rage. The aboleth can target any number of creatures it can see in such water within 90 feet of it. A target must succeed on a {@dc 14} Wisdom saving throw or take 7 ({@damage 2d6}) psychic damage. The aboleth can't use this lair action again until it has used a different one."
+						"L'aboleth lance {@spell Force phantasmale} (aucune composante requise) sur autant de créatures qu'il le veut, qu'il peut voir dans un rayon de 18 mètres autour de lui. Tant qu'il maintient sa {@status concentration} sur cet effet, l'aboleth ne peut pas utiliser d'autres actions de repaire. Si une cible réussit son jet de sauvegarde ou si l'effet prend fin pour elle, elle est immunisée contre l'action de repaire « force phantasmale » de l'aboleth pendant les 24 prochaines heures, bien qu'une telle créature puisse choisir d'en subir les effets.",
+						"Les bassins d'eau situés dans un rayon de 27 mètres autour de l'aboleth déferlent en une marée agrippante. Toute créature au sol dans un rayon de 6 mètres autour d'un tel bassin doit réussir un jet de sauvegarde de Force {@dc 14} ou être happée sur 6 mètres maximum dans l'eau et jetée {@condition À terre}. L'aboleth ne peut pas réutiliser cette action de repaire avant d'en avoir utilisé une autre.",
+						"L'eau du repaire de l'aboleth devient magiquement le conduit de sa rage. L'aboleth peut cibler autant de créatures qu'il le veut, qu'il peut voir dans une telle eau dans un rayon de 27 mètres autour de lui. Une cible doit réussir un jet de sauvegarde de Sagesse {@dc 14} ou subir 7 ({@damage 2d6}) dégâts psychiques. L'aboleth ne peut pas réutiliser cette action de repaire avant d'en avoir utilisé une autre."
 					]
 				}
 			],
 			"regionalEffects": [
-				"The region containing an aboleth's lair is warped by the creature's presence, which creates one or more of the following effects:",
+				"La région abritant le repaire d'un aboleth est déformée par la présence de la créature, ce qui produit un ou plusieurs des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"Underground surfaces within 1 mile of the aboleth's lair are slimy and wet and are {@quickref difficult terrain||3}.",
-						"Water sources within 1 mile of the lair are supernaturally fouled. Enemies of the aboleth that drink such water vomit it within minutes.",
-						"As an action, the aboleth can create an illusory image of itself within 1 mile of the lair. The copy can appear at any location the aboleth has seen before or in any location a creature {@condition Charmé} by the aboleth can currently see. Once created, the image lasts for as long as the aboleth maintains {@status concentration}, as if {@status concentration||concentrating} on a spell. Although the image is intangible, it looks, sounds, and can move like the aboleth. The aboleth can sense, speak, and use telepathy from the image's position as if present at that position. If the image takes any damage, it disappears."
+						"Les surfaces souterraines situées dans un rayon de 1,5 kilomètre autour du repaire de l'aboleth sont visqueuses et humides, et constituent un {@quickref difficult terrain||3}.",
+						"Les points d'eau dans un rayon de 1,5 kilomètre autour du repaire sont surnaturellement souillés. Les ennemis de l'aboleth qui boivent une telle eau la vomissent dans les minutes qui suivent.",
+						"Par une action, l'aboleth peut créer une image illusoire de lui-même dans un rayon de 1,5 kilomètre autour du repaire. La copie peut apparaître à n'importe quel emplacement que l'aboleth a déjà vu, ou à n'importe quel emplacement qu'une créature {@condition Charmé} par l'aboleth peut voir à ce moment. Une fois créée, l'image persiste aussi longtemps que l'aboleth maintient sa {@status concentration}, comme s'il se {@status concentration||concentrait} sur un sort. Bien que l'image soit intangible, elle ressemble à l'aboleth, émet les mêmes sons et peut se déplacer comme lui. L'aboleth peut percevoir, parler et utiliser la télépathie depuis la position de l'image, comme s'il s'y trouvait. Si l'image subit le moindre dégât, elle disparaît."
 					]
 				},
-				"If the aboleth dies, the first two effects fade over the course of {@dice 3d10} days."
+				"Si l'aboleth meurt, les deux premiers effets s'estompent en l'espace de {@dice 3d10} jours."
 			]
 		},
 		{
@@ -1016,23 +1016,23 @@
 							],
 							"rows": [
 								[
-									"01\u201320",
+									"01–20",
 									"\"My anger consumes me. I can't be reasoned with when my rage has been stoked.\""
 								],
 								[
-									"21\u201340",
+									"21–40",
 									"\"I degenerate into beastly behavior, seeming more like a wild animal than a thinking being.\""
 								],
 								[
-									"41\u201360",
+									"41–60",
 									"\"The world is my hunting ground. Others are my prey.\""
 								],
 								[
-									"61\u201380",
+									"61–80",
 									"\"Hate comes easily to me and explodes into rage.\""
 								],
 								[
-									"81\u201300",
+									"81–00",
 									"\"I see those who oppose me not as people, but as beasts meant to be preyed upon.\""
 								]
 							]
@@ -1046,27 +1046,27 @@
 			"source": "MM",
 			"page": 28,
 			"lairActions": [
-				"When fighting inside its lair, a beholder can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the beholder can take one lair action to cause one of the following effects:",
+				"Lorsqu'il combat dans son repaire, un beholder peut invoquer la magie ambiante pour utiliser des actions de repaire. À l'initiative 20 (en perdant les égalités d'initiative), le beholder peut utiliser une action de repaire pour produire l'un des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"A 50-foot-square area of ground within 120 feet of the beholder becomes slimy; that area is {@quickref difficult terrain||3} until initiative count 20 on the next round.",
-						"Walls within 120 feet of the beholder sprout grasping appendages until initiative count 20 on the round after next. Each creature of the beholder's choice that starts its turn within 10 feet of such a wall must succeed on a {@dc 15} Dexterity saving throw or be {@condition Agrippé}. Escaping requires a successful {@dc 15} Strength ({@skill Athlétisme}) or Dexterity ({@skill Acrobaties}) check.",
-						"An eye opens on a solid surface within 60 feet of the beholder. One random eye ray of the beholder shoots from that eye at a target of the beholder's choice that it can see. The eye then closes and disappears."
+						"Une zone de sol carrée de 15 mètres de côté, située dans un rayon de 36 mètres autour du beholder, devient visqueuse ; cette zone est un {@quickref difficult terrain||3} jusqu'à l'initiative 20 du round suivant.",
+						"Les murs situés dans un rayon de 36 mètres autour du beholder font pousser des appendices agrippants jusqu'à l'initiative 20 du round suivant le suivant. Chaque créature, au choix du beholder, qui commence son tour à 3 mètres maximum d'un tel mur doit réussir un jet de sauvegarde de Dextérité {@dc 15} ou être {@condition Agrippé}. Pour s'échapper, il faut réussir un jet de Force ({@skill Athlétisme}) ou de Dextérité ({@skill Acrobaties}) {@dc 15}.",
+						"Un œil s'ouvre sur une surface solide dans un rayon de 18 mètres autour du beholder. Un rayon oculaire aléatoire du beholder jaillit de cet œil vers une cible que le beholder peut voir et au choix de celui-ci. L'œil se referme ensuite et disparaît."
 					]
 				},
-				"The beholder can't repeat an effect until they have all been used, and it can't use the same effect two rounds in a row."
+				"Le beholder ne peut pas répéter un effet avant que tous aient été utilisés, et il ne peut pas utiliser le même effet deux rounds de suite."
 			],
 			"regionalEffects": [
-				"A region containing a beholder's lair is warped by the creature's unnatural presence, which creates one or more of the following effects:",
+				"Une région abritant le repaire d'un beholder est déformée par la présence surnaturelle de la créature, ce qui produit un ou plusieurs des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"Creatures within 1 mile of the beholder's lair sometimes feel as if they're being watched when they aren't.",
-						"When the beholder sleeps, minor warps in reality occur within 1 mile of its lair and then vanish 24 hours later. Marks on cave walls might change subtly, an eerie trinket might appear where none existed before, harmless slime might coat a statue, and so on. These effects apply only to natural surfaces and to nonmagical objects that aren't on anyone's person."
+						"Les créatures dans un rayon de 1,5 kilomètre autour du repaire du beholder ont parfois l'impression d'être observées alors que ce n'est pas le cas.",
+						"Quand le beholder dort, de légères déformations de la réalité se produisent dans un rayon de 1,5 kilomètre autour de son repaire, puis disparaissent 24 heures plus tard. Des marques sur les parois d'une grotte peuvent changer subtilement, un étrange bibelot peut apparaître là où il n'y en avait pas, une bave inoffensive peut recouvrir une statue, et ainsi de suite. Ces effets ne s'appliquent qu'aux surfaces naturelles et aux objets non magiques que personne ne porte sur soi."
 					]
 				},
-				"If the beholder dies, these effects fade over the course of {@dice 1d10} days."
+				"Si le beholder meurt, ces effets s'estompent en l'espace de {@dice 1d10} jours."
 			]
 		},
 		{
@@ -1268,38 +1268,38 @@
 				}
 			],
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le dragon utilise une action de repaire pour produire l'un des effets suivants ; le dragon ne peut pas utiliser le même effet deux rounds de suite :",
 				{
 					"type": "list",
 					"items": [
-						"Pools of water that the dragon can see within 120 feet of it surge outward in a grasping tide. Any creature on the ground within 20 feet of such a pool must succeed on a {@dc 15} Strength saving throw or be pulled up to 20 feet into the water and knocked {@condition À terre}.",
-						"A cloud of swarming insects fills a 20-foot-radius sphere centered on a point the dragon chooses within 120 feet of it. The cloud spreads around corners and remains until the dragon dismisses it as an action, uses this lair action again, or dies. The cloud is lightly obscured. Any creature in the cloud when it appears must make on a {@dc 15} Constitution saving throw, taking 10 ({@damage 3d6}) piercing damage on a failed save, or half as much damage on a successful one. A creature that ends its turn in the cloud takes 10 ({@damage 3d6}) piercing damage.",
-						"Magical darkness spreads from a point the dragon chooses within 60 feet of it, filling a 15-foot-radius sphere until the dragon dismisses it as an action, uses this lair action again, or dies. The darkness spreads around corners. A creature with {@sense Vision dans le noir} can't see through this darkness, and nonmagical light can't illuminate it. If any of the effect's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled."
+						"Les bassins d'eau que le dragon peut voir dans un rayon de 36 mètres autour de lui déferlent en une marée agrippante. Toute créature au sol dans un rayon de 6 mètres autour d'un tel bassin doit réussir un jet de sauvegarde de Force {@dc 15} ou être happée sur 6 mètres maximum dans l'eau et jetée {@condition À terre}.",
+						"Un nuage d'insectes en essaim remplit une sphère de 6 mètres de rayon centrée sur un point au choix du dragon dans un rayon de 36 mètres autour de lui. Le nuage se propage autour des angles et persiste jusqu'à ce que le dragon le dissipe par une action, réutilise cette action de repaire ou meure. Le nuage est légèrement obscurci. Toute créature présente dans le nuage quand il apparaît doit faire un jet de sauvegarde de Constitution {@dc 15}, subissant 10 ({@damage 3d6}) dégâts perforants en cas d'échec, ou la moitié de ces dégâts seulement en cas de réussite. Une créature qui termine son tour dans le nuage subit 10 ({@damage 3d6}) dégâts perforants.",
+						"Des ténèbres magiques se propagent depuis un point au choix du dragon dans un rayon de 18 mètres autour de lui, remplissant une sphère de 4,50 mètres de rayon jusqu'à ce que le dragon les dissipe par une action, réutilise cette action de repaire ou meure. Les ténèbres se propagent autour des angles. Une créature dotée de {@sense Vision dans le noir} ne peut pas voir à travers ces ténèbres, et la lumière non magique ne peut pas les éclairer. Si l'une des zones de l'effet chevauche une zone de lumière créée par un sort de niveau 2 ou inférieur, le sort qui a créé la lumière est dissipé."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Additional Lair Actions",
+					"name": "Actions de repaire supplémentaires",
 					"entries": [
-						"At your discretion, a legendary ({@creature Adult Black Dragon||adult} or {@creature Ancient Black Dragon||ancient}) black dragon can use one or more of the following additional lair actions while in its lair:",
+						"À votre discrétion, un dragon noir légendaire ({@creature Dragon noir adulte||adulte} ou {@creature Dragon noir antique||ancien}) peut utiliser une ou plusieurs des actions de repaire supplémentaires suivantes tant qu'il se trouve dans son repaire :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Filth Burst",
-									"entry": "The dragon chooses a point on the ground it can see within 120 feet of it. A 20-foot-radius, 20-foot-high cylinder of watery filth centered on that point erupts from the ground until initiative count 20 on the next round. Each creature in the cylinder when it appears or that ends its turn there must make a {@dc 15} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. The cylinder is {@book difficult terrain|PHB|8|Difficult Terrain}."
+									"name": "Explosion d'immondices",
+									"entry": "Le dragon choisit un point du sol qu'il peut voir dans un rayon de 36 mètres autour de lui. Un cylindre d'immondices aqueuses, de 6 mètres de rayon et 6 mètres de haut, centré sur ce point, jaillit du sol jusqu'à l'initiative 20 du round suivant. Chaque créature présente dans le cylindre quand il apparaît, ou qui y termine son tour, doit faire un jet de sauvegarde de Constitution {@dc 15}, subissant 10 ({@damage 3d6}) dégâts de poison en cas d'échec, ou la moitié de ces dégâts seulement en cas de réussite. Le cylindre est un {@book difficult terrain|PHB|8|terrain difficile}."
 								},
 								{
 									"type": "item",
-									"name": "Grasping Muck",
-									"entry": "Tendrils of roiling muck extend from the dragon's lair to grasp up to three creatures of the dragon's choice that it can see within the lair. A targeted creature must succeed on a {@dc 15} Strength saving throw or be {@condition Entravé} until initiative count 20 on the next round."
+									"name": "Vase agrippante",
+									"entry": "Des tentacules de vase bouillonnante s'étendent depuis le repaire du dragon pour agripper jusqu'à trois créatures de son choix, qu'il peut voir dans le repaire. Une créature ciblée doit réussir un jet de sauvegarde de Force {@dc 15} ou être {@condition Entravé} jusqu'à l'initiative 20 du round suivant."
 								},
 								{
 									"type": "item",
-									"name": "Noxious Gas",
-									"entry": "A bubble of swamp gas erupts in a 20-foot-radius sphere centered on a point the dragon can see within its lair. Each creature in the area must succeed on a {@dc 15} Constitution saving throw or be {@condition Empoisonné} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"name": "Gaz nocif",
+									"entry": "Une bulle de gaz des marécages éclate dans une sphère de 6 mètres de rayon centrée sur un point que le dragon peut voir dans son repaire. Chaque créature dans la zone doit réussir un jet de sauvegarde de Constitution {@dc 15} ou être {@condition Empoisonné} pendant 1 minute. La cible peut retenter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet qui l'affecte en cas de réussite."
 								}
 							]
 						}
@@ -1308,21 +1308,21 @@
 				}
 			],
 			"regionalEffects": [
-				"The region containing a legendary black dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+				"La région abritant le repaire d'un dragon noir légendaire est déformée par la magie du dragon, ce qui produit un ou plusieurs des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"The land within 6 miles of the lair takes twice as long as normal to traverse, since the plants grow thick and twisted, and the swamps are thick with reeking mud.",
-						"Water sources within 1 mile of the lair are supernaturally fouled. Enemies of the dragon that drink such water regurgitate it within minutes.",
-						"Fog lightly obscures the land within 6 miles of the lair."
+						"Il faut deux fois plus de temps que la normale pour traverser le terrain dans un rayon de 10 kilomètres autour du repaire, car les plantes y poussent denses et tortueuses, et les marécages sont remplis d'une boue fétide.",
+						"Les points d'eau dans un rayon de 1,5 kilomètre autour du repaire sont surnaturellement souillés. Les ennemis du dragon qui boivent une telle eau la régurgitent dans les minutes qui suivent.",
+						"Du brouillard obscurcit légèrement le terrain dans un rayon de 10 kilomètres autour du repaire."
 					]
 				},
-				"If the dragon dies, vegetation remains as it has grown, but other effects fade over {@dice 1d10} days.",
+				"Si le dragon meurt, la végétation demeure telle qu'elle a poussé, mais les autres effets s'estompent en {@dice 1d10} jours.",
 				{
 					"type": "entries",
-					"name": "Additional Regional Effects",
+					"name": "Effets régionaux supplémentaires",
 					"entries": [
-						"Any of these effects might appear in the area around a black dragon's lair, in addition to or instead of the effects described in the {@i Monster Manual}:",
+						"N'importe lequel de ces effets peut apparaître dans la zone entourant le repaire d'un dragon noir, en plus ou à la place des effets décrits dans le {@i Manuel des Monstres} :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -1330,17 +1330,17 @@
 								{
 									"type": "item",
 									"name": "Ennui",
-									"entry": "Creatures that spend a year within 10 miles of the dragon's lair are filled with listless despair."
+									"entry": "Les créatures qui passent un an dans un rayon de 15 kilomètres autour du repaire du dragon sont envahies d'un désespoir apathique."
 								},
 								{
 									"type": "item",
-									"name": "Grating Spies",
-									"entry": "Trilling, obnoxious birds, bugs, and reptiles follow any Humanoid creatures unknown to the dragon within 6 miles of the lair, imposing disadvantage on Dexterity ({@skill Discrétion}) checks. The dragon can suppress this effect at will."
+									"name": "Espions criards",
+									"entry": "Des oiseaux, des insectes et des reptiles stridents et agaçants suivent toutes les créatures humanoïdes inconnues du dragon dans un rayon de 10 kilomètres autour du repaire, leur infligeant un désavantage aux jets de Dextérité ({@skill Discrétion}). Le dragon peut supprimer cet effet à volonté."
 								},
 								{
 									"type": "item",
-									"name": "Rotting Domain",
-									"entry": "Stinging bugs are aggressive and the air is heavy with the odor of rot within 6 miles of the lair."
+									"name": "Domaine putride",
+									"entry": "Dans un rayon de 10 kilomètres autour du repaire, les insectes piqueurs sont agressifs et l'air est lourd d'une odeur de pourriture."
 								}
 							]
 						}
@@ -1400,33 +1400,33 @@
 				}
 			],
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le dragon utilise une action de repaire pour produire l'un des effets suivants ; le dragon ne peut pas utiliser le même effet deux rounds de suite :",
 				{
 					"type": "list",
 					"items": [
-						"Part of the ceiling collapses above one creature that the dragon can see within 120 feet of it. The creature must succeed on a {@dc 15} Dexterity saving throw or take 10 ({@damage 3d6}) bludgeoning damage and be knocked {@condition À terre} and buried. The buried target is {@condition Entravé} and unable to breathe or stand up. A creature can take an action to make a {@dc 10} Strength check, ending the buried state on a success.",
-						"A cloud of sand swirls about in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in the cloud must succeed on a {@dc 15} Constitution saving throw or be {@condition Aveuglé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-						"Lightning arcs, forming a 5-foot-wide line between two of the lair's solid surfaces that the dragon can see. They must be within 120 feet of the dragon and 120 feet of each other. Each creature in that line must succeed on a {@dc 15} Dexterity saving throw or take 10 ({@damage 3d6}) lightning damage."
+						"Une partie du plafond s'effondre au-dessus d'une créature que le dragon peut voir dans un rayon de 36 mètres autour de lui. La créature doit réussir un jet de sauvegarde de Dextérité {@dc 15} ou subir 10 ({@damage 3d6}) dégâts contondants, être jetée {@condition À terre} et ensevelie. La cible ensevelie est {@condition Entravé} et incapable de respirer ou de se relever. Une créature peut utiliser une action pour tenter un jet de Force {@dc 10}, mettant fin à l'état enseveli en cas de réussite.",
+						"Un nuage de sable tourbillonne dans une sphère de 6 mètres de rayon centrée sur un point que le dragon peut voir dans un rayon de 36 mètres autour de lui. Le nuage se propage autour des angles. Chaque créature dans le nuage doit réussir un jet de sauvegarde de Constitution {@dc 15} ou être {@condition Aveuglé} pendant 1 minute. Une créature peut retenter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet qui l'affecte en cas de réussite.",
+						"Des éclats dessinent un arc formant une ligne large de 1,50 mètre entre deux surfaces solides du repaire que le dragon peut voir. Ces surfaces doivent se trouver dans un rayon de 36 mètres autour du dragon et à 36 mètres maximum l'une de l'autre. Chaque créature sur cette ligne doit réussir un jet de sauvegarde de Dextérité {@dc 15} ou subir 10 ({@damage 3d6}) dégâts de foudre."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Additional Lair Actions",
+					"name": "Actions de repaire supplémentaires",
 					"entries": [
-						"At your discretion, a legendary ({@creature Adult Blue Dragon||adult} or {@creature Ancient Blue Dragon||ancient}) blue dragon can use one or both of the following additional lair actions while in its lair:",
+						"À votre discrétion, un dragon bleu légendaire ({@creature Dragon bleu adulte||adulte} ou {@creature Dragon bleu antique||ancien}) peut utiliser l'une ou les deux actions de repaire supplémentaires suivantes tant qu'il se trouve dans son repaire :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Misleading Mirage",
-									"entry": "Until initiative count 20 on the next round, at each intersection or branching passage in the lair, a creature other than the dragon has a {@chance 50} chance of going in a different direction from the direction it intends."
+									"name": "Mirage trompeur",
+									"entry": "Jusqu'à l'initiative 20 du round suivant, à chaque intersection ou embranchement de passage dans le repaire, une créature autre que le dragon a {@chance 50} de chances de partir dans une direction différente de celle qu'elle comptait prendre."
 								},
 								{
 									"type": "item",
-									"name": "Sudden Sinkhole",
-									"entry": "The dragon chooses a point on the ground that it can see within 120 feet of it. A 5-foot-radius, 20-foot-deep pit forms centered on that point. A creature on the ground above where the pit formed must make a {@dc 15} Dexterity saving throw. On a failed save, a creature falls to the bottom of the pit, taking 7 ({@damage 2d6}) bludgeoning damage and landing {@condition À terre}. On a successful save, a creature moves to the nearest unoccupied space instead of falling in the pit."
+									"name": "Gouffre soudain",
+									"entry": "Le dragon choisit un point du sol qu'il peut voir dans un rayon de 36 mètres autour de lui. Un gouffre de 1,50 mètre de rayon et 6 mètres de profondeur se forme, centré sur ce point. Une créature au sol au-dessus de l'endroit où le gouffre s'est formé doit faire un jet de sauvegarde de Dextérité {@dc 15}. En cas d'échec, la créature tombe au fond du gouffre, subissant 7 ({@damage 2d6}) dégâts contondants et atterrissant {@condition À terre}. En cas de réussite, la créature se déplace sur l'espace inoccupé le plus proche au lieu de tomber dans le gouffre."
 								}
 							]
 						}
@@ -1435,39 +1435,39 @@
 				}
 			],
 			"regionalEffects": [
-				"The region containing a legendary blue dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+				"La région abritant le repaire d'un dragon bleu légendaire est déformée par la magie du dragon, ce qui produit un ou plusieurs des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"Thunderstorms rage within 6 miles of the lair.",
-						"Dust devils scour the land within 6 miles of the lair. A dust devil has the statistics of an air elemental, but it can't fly, has a speed of 50 feet, and has an Intelligence and Charisma of 1 (-5).",
-						"Hidden sinkholes form in and around the dragon's lair. A sinkhole can be spotted from a safe distance with a successful {@dc 20} Wisdom ({@skill Perception}) check. Otherwise, the first creature to step on the thin crust covering the sinkhole must succeed on a {@dc 15} Dexterity saving throw or fall {@dice 1d6 × 10} feet into the sinkhole."
+						"Des orages font rage dans un rayon de 10 kilomètres autour du repaire.",
+						"Des diables de poussière ravagent le terrain dans un rayon de 10 kilomètres autour du repaire. Un diable de poussière possède les statistiques d'un élémentaire de l'air, mais il ne peut pas voler, a une vitesse de 15 mètres et une Intelligence et un Charisme de 1 (-5).",
+						"Des gouffres cachés se forment dans le repaire du dragon et aux alentours. On peut repérer un gouffre à une distance de sécurité en réussissant un jet de Sagesse ({@skill Perception}) {@dc 20}. Sinon, la première créature qui marche sur la fine croûte recouvrant le gouffre doit réussir un jet de sauvegarde de Dextérité {@dc 15} ou tomber de {@dice 1d6 × 10} pieds dans le gouffre."
 					]
 				},
-				"If the dragon dies, the dust devils disappear immediately, and the thunderstorms abate within {@dice 1d10} days. Any sinkholes remain where they are.",
+				"Si le dragon meurt, les diables de poussière disparaissent immédiatement et les orages retombent en l'espace de {@dice 1d10} jours. Les gouffres, eux, demeurent où ils sont.",
 				{
 					"type": "entries",
-					"name": "Additional Regional Effects",
+					"name": "Effets régionaux supplémentaires",
 					"entries": [
-						"Any of these effects might appear in the area around a blue dragon's lair, in addition to or instead of the effects described in the {@i Monster Manual}:",
+						"N'importe lequel de ces effets peut apparaître dans la zone entourant le repaire d'un dragon bleu, en plus ou à la place des effets décrits dans le {@i Manuel des Monstres} :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Blue Luster",
-									"entry": "Creatures that spend a year within 1 mile of the dragon's lair find blue objects fascinating and feel compelled to acquire them at every opportunity."
+									"name": "Éclat bleu",
+									"entry": "Les créatures qui passent un an dans un rayon de 1,5 kilomètre autour du repaire du dragon trouvent les objets bleus fascinants et éprouvent le besoin de les acquérir à la moindre occasion."
 								},
 								{
 									"type": "item",
-									"name": "Mirage Terrain",
-									"entry": "The area immediately surrounding the lair appears to be a lush oasis. A creature carefully examining the illusion can attempt a {@dc 15} Intelligence ({@skill Investigation}) check to disbelieve it. A creature who disbelieves the illusion sees it as a vague image superimposed on the underlying terrain."
+									"name": "Terrain de mirages",
+									"entry": "La zone entourant immédiatement le repaire semble être une oasis luxuriante. Une créature qui examine l'illusion avec attention peut tenter un jet d'Intelligence ({@skill Investigation}) {@dc 15} pour la démasquer. Une créature qui démasque l'illusion la voit comme une image vague superposée au terrain réel."
 								},
 								{
 									"type": "item",
-									"name": "Sandstorm",
-									"entry": "A sandstorm blows constantly within 1 mile of the dragon's lair."
+									"name": "Tempête de sable",
+									"entry": "Une tempête de sable souffle en permanence dans un rayon de 1,5 kilomètre autour du repaire du dragon."
 								}
 							]
 						}
@@ -1527,37 +1527,37 @@
 				}
 			],
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le dragon utilise une action de repaire pour produire l'un des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"A strong wind blows around the dragon. Each creature within 60 feet of the dragon must succeed on a {@dc 15} Strength saving throw or be pushed 15 feet away from the dragon and knocked {@condition À terre}. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames; such as lanterns, have a {@chance 50} chance of being extinguished.",
-						"A cloud of sand swirls about in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in it must succeed on a {@dc 15} Constitution saving throw or be {@condition Aveuglé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Un vent violent souffle autour du dragon. Chaque créature dans un rayon de 18 mètres autour du dragon doit réussir un jet de sauvegarde de Force {@dc 15} ou être repoussée de 4,50 mètres à l'écart du dragon et jetée {@condition À terre}. Les gaz et les vapeurs sont dispersés par le vent, et les flammes non protégées sont éteintes. Les flammes protégées, telles que les lanternes, ont {@chance 50} de chances de s'éteindre.",
+						"Un nuage de sable tourbillonne dans une sphère de 6 mètres de rayon centrée sur un point que le dragon peut voir dans un rayon de 36 mètres autour de lui. Le nuage se propage autour des angles. Chaque créature dedans doit réussir un jet de sauvegarde de Constitution {@dc 15} ou être {@condition Aveuglé} pendant 1 minute. Une créature peut retenter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet qui l'affecte en cas de réussite."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Additional Lair Actions",
+					"name": "Actions de repaire supplémentaires",
 					"entries": [
-						"At your discretion, a legendary ({@creature Adult Brass Dragon||adult} or {@creature Ancient Brass Dragon||ancient}) brass dragon can use one or more of the following additional lair actions while in its lair:",
+						"À votre discrétion, un dragon d'airain légendaire ({@creature Dragon d'airain adulte||adulte} ou {@creature Dragon d'airain antique||ancien}) peut utiliser une ou plusieurs des actions de repaire supplémentaires suivantes tant qu'il se trouve dans son repaire :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Animate Statues",
-									"entry": "The dragon chooses up to three statues in the lair that it can see. Each of these statues briefly animates and attacks one creature within 5 feet of it, with a {@hit 7} bonus to hit and dealing 10 ({@damage 3d6}) bludgeoning damage on a hit."
+									"name": "Statues animées",
+									"entry": "Le dragon choisit jusqu'à trois statues du repaire qu'il peut voir. Chacune de ces statues s'anime brièvement et attaque une créature dans un rayon de 1,50 mètre autour d'elle, avec un bonus de {@hit 7} à l'attaque, infligeant 10 ({@damage 3d6}) dégâts contondants en cas de coup."
 								},
 								{
 									"type": "item",
-									"name": "Blast of Wind",
-									"entry": "A mighty wind sweeps through the lair in a direction of the dragon's choice, blowing along a line 40 feet wide and 100 feet long. Each creature in that area except the dragon must succeed on a {@dc 15} Strength saving throw or be pushed 15 feet in the wind's direction and be knocked {@condition À terre}. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a {@chance 50} chance of being extinguished. If the dragon is within the area of the wind, it can choose to be pushed 15 feet in the wind's direction, and the wind can't knock the dragon {@condition À terre}."
+									"name": "Rafale de vent",
+									"entry": "Un vent puissant balaye le repaire dans la direction choisie par le dragon, soufflant le long d'une ligne large de 12 mètres et longue de 30 mètres. Chaque créature dans cette zone, à l'exception du dragon, doit réussir un jet de sauvegarde de Force {@dc 15} ou être repoussée de 4,50 mètres dans la direction du vent et jetée {@condition À terre}. Les gaz et les vapeurs sont dispersés par le vent, et les flammes non protégées sont éteintes. Les flammes protégées, telles que les lanternes, ont {@chance 50} de chances de s'éteindre. Si le dragon se trouve dans la zone du vent, il peut choisir d'être repoussé de 4,50 mètres dans la direction du vent, et le vent ne peut pas le jeter {@condition À terre}."
 								},
 								{
 									"type": "item",
-									"name": "Obscuring Sand",
-									"entry": "Dust and sand fill the air within 120 feet of the dragon, making the area {@quickref Vision and Light|PHB|2||lightly obscured} until initiative count 20 on the next round."
+									"name": "Sable obscurcissant",
+									"entry": "La poussière et le sable remplissent l'air dans un rayon de 36 mètres autour du dragon, rendant la zone {@quickref Vision and Light|PHB|2||légèrement obscurcie} jusqu'à l'initiative 20 du round suivant."
 								}
 							]
 						}
@@ -1566,34 +1566,34 @@
 				}
 			],
 			"regionalEffects": [
-				"The region containing a legendary brass dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+				"La région abritant le repaire d'un dragon d'airain légendaire est déformée par la magie du dragon, ce qui produit un ou plusieurs des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"Tracks appear in the sand within 6 miles of the dragon's lair. The tracks lead to safe shelters and hidden water sources, while also leading away from areas that the dragon prefers to remain undisturbed.",
-						"Images of Large or smaller monsters haunt the desert sands within 1 mile of the dragon's lair. These illusions move and appear real, although they can do no harm. A creature that examines an image from a distance can tell it's an illusion with a successful {@dc 20} Intelligence ({@skill Investigation}) check. Any physical interaction with an image reveals it to be an illusion, because objects pass through it.",
-						"Whenever a creature with an Intelligence of 3 or higher comes within 30 feet of a water source within 1 mile of the dragon's lair, the dragon becomes aware of the creature's presence and location."
+						"Des empreintes apparaissent dans le sable dans un rayon de 10 kilomètres autour du repaire du dragon. Ces empreintes mènent aux abris sûrs et aux points d'eau cachés, tout en s'écartant des zones que le dragon préfère laisser tranquilles.",
+						"Des images de monstres de taille Grande ou inférieure hantent les sables du désert dans un rayon de 1,5 kilomètre autour du repaire du dragon. Ces illusions bougent et semblent réelles, même si elles ne peuvent faire aucun mal. Une créature qui examine une image à distance peut reconnaître une illusion en réussissant un jet d'Intelligence ({@skill Investigation}) {@dc 20}. Toute interaction physique avec une image révèle qu'il s'agit d'une illusion, car les objets la traversent.",
+						"Dès qu'une créature d'Intelligence 3 ou supérieure s'approche à 9 mètres maximum d'un point d'eau situé dans un rayon de 1,5 kilomètre autour du repaire du dragon, celui-ci prend conscience de la présence de la créature et de sa localisation."
 					]
 				},
-				"If the dragon dies, the tracks fade in {@dice 1d10} days, but the other effects fade immediately.",
+				"Si le dragon meurt, les empreintes s'effacent en {@dice 1d10} jours, mais les autres effets disparaissent immédiatement.",
 				{
 					"type": "entries",
-					"name": "Additional Regional Effects",
+					"name": "Effets régionaux supplémentaires",
 					"entries": [
-						"Any of these effects might appear in the area around a brass dragon's lair, in addition to or instead of the effects described in the {@i Monster Manual}:",
+						"N'importe lequel de ces effets peut apparaître dans la zone entourant le repaire d'un dragon d'airain, en plus ou à la place des effets décrits dans le {@i Manuel des Monstres} :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Cloud Companion",
-									"entry": "A small, wispy cloud follows non-evil creatures as they journey within 6 miles of the dragon's lair. It changes direction as the creatures do, remaining interposed between them and the direct glare of the sun, and grants them advantage on saving throws to resist the effects of {@book extreme heat|DMG|5|Extreme Heat} (see the {@book Dungeon Master's Guide|DMG})."
+									"name": "Nuage de compagnie",
+									"entry": "Un petit nuage vaporeux accompagne les créatures non mauvaises dans leurs voyages dans un rayon de 10 kilomètres autour du repaire du dragon. Il change de direction comme elles, restant interposé entre elles et l'éclat direct du soleil, et leur accorde l'avantage aux jets de sauvegarde destinés à résister aux effets de la {@book extreme heat|DMG|5|chaleur extrême} (voir le {@book Dungeon Master's Guide|DMG})."
 								},
 								{
 									"type": "item",
-									"name": "Talkative Denizens",
-									"entry": "Creatures within 1 mile of the dragon's lair find pleasure in hearing the sound of their own voices. The air is filled with a deafening chorus of birds and small animals, and sapient creatures talk extensively."
+									"name": "Habitants bavards",
+									"entry": "Les créatures dans un rayon de 1,5 kilomètre autour du repaire du dragon éprouvent du plaisir à entendre le son de leur propre voix. L'air est rempli d'un chœur assourdissant d'oiseaux et de petits animaux, et les créatures douées de raison parlent abondamment."
 								}
 							]
 						}
@@ -1653,37 +1653,37 @@
 				}
 			],
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le dragon utilise une action de repaire pour produire l'un des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"The dragon creates fog as though it had cast the {@spell Nuage de brouillard} spell. The fog lasts until initiative count 20 on the next round.",
-						"A thunderclap originates at a point the dragon can see within 120 feet of it. Each creature within a 20-foot radius centered on that point must make a {@dc 15} Constitution saving throw or take 5 ({@damage 1d10}) thunder damage and be {@condition Assourdi} until the end of its next turn."
+						"Le dragon crée du brouillard comme s'il avait lancé le sort {@spell Nuage de brouillard}. Le brouillard persiste jusqu'à l'initiative 20 du round suivant.",
+						"Un coup de tonnerre provient d'un point que le dragon peut voir dans un rayon de 36 mètres autour de lui. Chaque créature dans un rayon de 6 mètres centré sur ce point doit faire un jet de sauvegarde de Constitution {@dc 15} ou subir 5 ({@damage 1d10}) dégâts tonitruants et être {@condition Assourdi} jusqu'à la fin de son tour suivant."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Additional Lair Actions",
+					"name": "Actions de repaire supplémentaires",
 					"entries": [
-						"At your discretion, a legendary ({@creature Adult Bronze Dragon||adult} or {@creature Ancient Bronze Dragon||ancient}) bronze dragon can use one or more of the following additional lair actions while in its lair:",
+						"À votre discrétion, un dragon de bronze légendaire ({@creature Dragon de bronze adulte||adulte} ou {@creature Dragon de bronze antique||ancien}) peut utiliser une ou plusieurs des actions de repaire supplémentaires suivantes tant qu'il se trouve dans son repaire :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Ocean's Call",
-									"entry": "The dragon conjures a swarm of spectral dolphins. Each creature in the water within 120 feet of the dragon must succeed on a {@dc 15} Dexterity saving throw or take 5 ({@damage 1d10}) slashing damage; then the swarm vanishes."
+									"name": "Appel de l'océan",
+									"entry": "Le dragon invoque un banc de dauphins spectraux. Chaque créature dans l'eau dans un rayon de 36 mètres autour du dragon doit réussir un jet de sauvegarde de Dextérité {@dc 15} ou subir 5 ({@damage 1d10}) dégâts tranchants ; puis le banc disparaît."
 								},
 								{
 									"type": "item",
-									"name": "Salt Burst",
-									"entry": "The dragon chooses a point it can see in the lair. The air in a 20-foot-radius sphere centered on that point bursts with abrasive salt crystals. Each creature in that area must succeed on a {@dc 15} Dexterity saving throw or take 10 ({@damage 3d6}) slashing damage."
+									"name": "Explosion de sel",
+									"entry": "Le dragon choisit un point qu'il peut voir dans le repaire. L'air dans une sphère de 6 mètres de rayon centrée sur ce point explose en cristaux de sel abrasifs. Chaque créature dans cette zone doit réussir un jet de sauvegarde de Dextérité {@dc 15} ou subir 10 ({@damage 3d6}) dégâts tranchants."
 								},
 								{
 									"type": "item",
-									"name": "Whelming Water",
-									"entry": "The dragon causes a strong current to course through the water in its lair. The dragon chooses any number of creatures it can see that are standing or swimming in water within 120 feet of it. Each chosen creature must succeed on a {@dc 15} Strength saving throw or be knocked {@condition À terre}."
+									"name": "Eaux submergeantes",
+									"entry": "Le dragon provoque un fort courant dans l'eau de son repaire. Le dragon choisit autant de créatures qu'il le veut, qu'il peut voir et qui se tiennent ou nagent dans l'eau dans un rayon de 36 mètres autour de lui. Chaque créature choisie doit réussir un jet de sauvegarde de Force {@dc 15} ou être jetée {@condition À terre}."
 								}
 							]
 						}
@@ -1692,39 +1692,39 @@
 				}
 			],
 			"regionalEffects": [
-				"The region containing a legendary bronze dragon's lair is warped by the dragon's magic.",
+				"La région abritant le repaire d'un dragon de bronze légendaire est déformée par la magie du dragon.",
 				{
 					"type": "list",
 					"items": [
-						"Once per day, the dragon can alter the weather in a 6-mile radius centered on its lair. The dragon doesn't need to be outdoors; otherwise the effect is identical to the {@spell Contrôle du climat} spell.",
-						"Underwater plants within 6 miles of the dragon's lair take on dazzlingly brilliant hues.",
-						"Within its lair, the dragon can set illusory sounds, such as soft music and strange echoes, so that they can be heard in various parts of the lair."
+						"Une fois par jour, le dragon peut modifier la météo dans un rayon de 10 kilomètres centré sur son repaire. Le dragon n'a pas besoin d'être à l'extérieur ; sinon, l'effet est identique au sort {@spell Contrôle du climat}.",
+						"Les plantes sous-marines dans un rayon de 10 kilomètres autour du repaire du dragon prennent des teintes d'un éclat éblouissant.",
+						"Dans son repaire, le dragon peut placer des sons illusoires, tels qu'une musique douce et d'étranges échos, de manière à ce qu'ils puissent être entendus dans divers endroits du repaire."
 					]
 				},
-				"If the dragon dies, changed weather reverts to normal, as described in the spell, and the other effects fade in {@dice 1d10} days.",
+				"Si le dragon meurt, la météo modifiée redevient normale, comme décrit dans le sort, et les autres effets s'estompent en {@dice 1d10} jours.",
 				{
 					"type": "entries",
-					"name": "Additional Regional Effects",
+					"name": "Effets régionaux supplémentaires",
 					"entries": [
-						"Any of these effects might appear in the area around a bronze dragon's lair, in addition to or instead of the effects described in the {@i Monster Manual}:",
+						"N'importe lequel de ces effets peut apparaître dans la zone entourant le repaire d'un dragon de bronze, en plus ou à la place des effets décrits dans le {@i Manuel des Monstres} :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Phantom Escort",
-									"entry": "Ghostly naval ships from an ancient armada appear, escorting well-meaning creatures in need of the dragon's help toward the dragon's lair."
+									"name": "Escorte fantôme",
+									"entry": "Des navires fantomatiques d'une armada ancestrale apparaissent, escortant vers le repaire du dragon les créatures bien intentionnées qui ont besoin de son aide."
 								},
 								{
 									"type": "item",
-									"name": "Underwater Pursuit",
-									"entry": "Sailors glimpse the shadowy, illusory form of a dragon in the depths below them, keeping pace with their vessel."
+									"name": "Poursuite sous-marine",
+									"entry": "Les marins entrevoient la forme spectrale et illusoire d'un dragon dans les profondeurs sous leur navire, gardant le même rythme que leur vaisseau."
 								},
 								{
 									"type": "item",
-									"name": "Unfailing Faithfulness",
-									"entry": "Sapient creatures that spend a year within 10 miles of the dragon's lair find it nearly impossible to break a promise."
+									"name": "Fidélité indéfectible",
+									"entry": "Les créatures douées de raison qui passent un an dans un rayon de 15 kilomètres autour du repaire du dragon trouvent presque impossible de rompre une promesse."
 								}
 							]
 						}
@@ -1828,32 +1828,32 @@
 				}
 			],
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le dragon utilise une action de repaire pour produire l'un des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"The dragon chooses a point on the ground that it can see within 120 feet of it. Stone spikes sprout from the ground in a 20-foot radius centered on that point. The effect is otherwise identical to the {@spell Croissance d'épines} spell and lasts until the dragon uses this lair action again or until the dragon dies.",
-						"The dragon chooses a 10-foot-square area on the ground that it can see within 120 feet of it. The ground in that area turns into 3-foot-deep mud. Each creature on the ground in that area when the mud appears must succeed on a {@dc 15} Dexterity saving throw or sink into the mud and become {@condition Entravé}. A creature can take an action to attempt a {@dc 15} Strength check, freeing itself or another creature within its reach and ending the {@condition Entravé} condition on a success. Moving 1 foot in the mud costs 2 feet of movement. On initiative count 20 on the next round, the mud hardens, and the Strength DC to work free increases to 20."
+						"Le dragon choisit un point du sol qu'il peut voir dans un rayon de 36 mètres autour de lui. Des pointes de pierre jaillissent du sol dans un rayon de 6 mètres centré sur ce point. Sinon, l'effet est identique au sort {@spell Croissance d'épines} et dure jusqu'à ce que le dragon réutilise cette action de repaire ou jusqu'à sa mort.",
+						"Le dragon choisit une zone carrée de 3 mètres de côté, au sol, qu'il peut voir dans un rayon de 36 mètres autour de lui. Le sol de cette zone se change en boue profonde de 90 centimètres. Chaque créature au sol dans cette zone au moment où la boue apparaît doit réussir un jet de sauvegarde de Dextérité {@dc 15} ou s'enfoncer dans la boue et être {@condition Entravé}. Une créature peut utiliser une action pour tenter un jet de Force {@dc 15}, se libérant elle-même ou libérant une autre créature à sa portée, et mettant fin à l'état {@condition Entravé} en cas de réussite. Se déplacer de 30 centimètres dans la boue coûte 60 centimètres de mouvement. À l'initiative 20 du round suivant, la boue durcit et le DD de Force pour se libérer passe à 20."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Additional Lair Actions",
+					"name": "Actions de repaire supplémentaires",
 					"entries": [
-						"At your discretion, a legendary ({@creature Adult Copper Dragon||adult} or {@creature Ancient Copper Dragon||ancient}) copper dragon can use one or both of the following additional lair actions while in its lair:",
+						"À votre discrétion, un dragon de cuivre légendaire ({@creature Dragon de cuivre adulte||adulte} ou {@creature Dragon de cuivre antique||ancien}) peut utiliser l'une ou les deux actions de repaire supplémentaires suivantes tant qu'il se trouve dans son repaire :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Laughing Gas",
-									"entry": "The dragon chooses a point on the ground that it can see within 120 feet of it. A cloud of pink gas fills a 20-foot-radius sphere centered on that point. Each creature in that area that fails a {@dc 15} Wisdom saving throw is {@condition Incapable} with laughter until the end of its next turn."
+									"name": "Gaz hilarant",
+									"entry": "Le dragon choisit un point du sol qu'il peut voir dans un rayon de 36 mètres autour de lui. Un nuage de gaz rose remplit une sphère de 6 mètres de rayon centrée sur ce point. Chaque créature dans cette zone qui échoue à un jet de sauvegarde de Sagesse {@dc 15} est {@condition Incapable}, morte de rire, jusqu'à la fin de son tour suivant."
 								},
 								{
 									"type": "item",
-									"name": "Torpid Energy",
-									"entry": "The dragon chooses a creature it can see within 120 feet of it. If the target fails a {@dc 15} Constitution saving throw, its speed is halved, and it can't use reactions or bonus actions until the end of its next turn."
+									"name": "Énergie torpide",
+									"entry": "Le dragon choisit une créature qu'il peut voir dans un rayon de 36 mètres autour de lui. Si la cible échoue à un jet de sauvegarde de Constitution {@dc 15}, sa vitesse est réduite de moitié et elle ne peut pas utiliser de réactions ni d'actions bonus jusqu'à la fin de son tour suivant."
 								}
 							]
 						}
@@ -1862,34 +1862,34 @@
 				}
 			],
 			"regionalEffects": [
-				"The region containing a legendary copper dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+				"La région abritant le repaire d'un dragon de cuivre légendaire est déformée par la magie du dragon, ce qui produit un ou plusieurs des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"Magic carvings of the dragon's smiling visage can be seen worked into stone terrain and objects within 6 miles of the dragon's lair.",
-						"Tiny beasts such as rodents and birds that are normally unable to speak gain the magical ability to speak and understand Draconic while within 1 mile of the dragon's lair. These creatures speak well of the dragon, but can't divulge its whereabouts.",
-						"Intelligent creatures within 1 mile of the dragon's lair are prone to fits of giggling. Even serious matters suddenly seem amusing."
+						"Des gravures magiques à l'effigie souriante du dragon ornent les terrains rocheux et les objets situés dans un rayon de 10 kilomètres autour du repaire du dragon.",
+						"Les petites bêtes telles que les rongeurs et les oiseaux, normalement incapables de parler, gagnent la capacité magique de parler et de comprendre le draconique tant qu'elles se trouvent dans un rayon de 1,5 kilomètre autour du repaire du dragon. Ces créatures parlent en bien du dragon, mais ne peuvent pas révéler où il se trouve.",
+						"Les créatures intelligentes dans un rayon de 1,5 kilomètre autour du repaire du dragon sont sujettes à des accès de fou rire. Même les sujets les plus sérieux paraissent soudain amusants."
 					]
 				},
-				"If the dragon dies, the magic carvings fade over the course of {@dice 1d10} days. The other effects end immediately.",
+				"Si le dragon meurt, les gravures magiques s'estompent en l'espace de {@dice 1d10} jours. Les autres effets prennent fin immédiatement.",
 				{
 					"type": "entries",
-					"name": "Additional Regional Effects",
+					"name": "Effets régionaux supplémentaires",
 					"entries": [
-						"Either of these effects might appear in the area around a copper dragon's lair, in addition to or instead of the effects described in the {@i Monster Manual}:",
+						"L'un ou l'autre de ces effets peut apparaître dans la zone entourant le repaire d'un dragon de cuivre, en plus ou à la place des effets décrits dans le {@i Manuel des Monstres} :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Distant Melodies",
-									"entry": "The ethereal music of woodwinds and bells can be heard carried on the wind within 1 mile of the dragon's lair."
+									"name": "Mélodies lointaines",
+									"entry": "Une musique éthérée d'instruments à vent et de cloches, portée par le vent, peut être entendue dans un rayon de 1,5 kilomètre autour du repaire du dragon."
 								},
 								{
 									"type": "item",
-									"name": "Starlit Stones",
-									"entry": "Standing stones are common on hilltops within 1 mile of the dragon's lair. The stones shed dim light in a 10-foot radius at night. (If the dragon dies, the stones remain, but they no longer shed light.)"
+									"name": "Pierres étoilées",
+									"entry": "Les menhirs sont fréquents au sommet des collines dans un rayon de 1,5 kilomètre autour du repaire du dragon. La nuit, les pierres émettent une faible lumière dans un rayon de 3 mètres. (Si le dragon meurt, les pierres demeurent, mais elles n'émettent plus de lumière.)"
 								}
 							]
 						}
@@ -2105,27 +2105,27 @@
 			"source": "MM",
 			"page": 29,
 			"lairActions": [
-				"When fighting inside its lair, a death tyrant can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the death tyrant can take one lair action to cause one of the following effects:",
+				"Lorsqu'il combat dans son repaire, un tyran mort peut invoquer la magie ambiante pour utiliser des actions de repaire. À l'initiative 20 (en perdant les égalités d'initiative), le tyran mort peut utiliser une action de repaire pour produire l'un des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"An area that is a 50-foot cube within 120 feet of the tyrant is filled with spectral eyes and tentacles. To creatures other than the death tyrant, that area is lightly obscured and {@quickref difficult terrain||3} until initiative count 20 on the next round.",
-						"Walls sprout spectral appendages until initiative count 20 on the round after next. Any creature, including one on the Ethereal Plane, that is hostile to the tyrant and starts its turn within 10 feet of a wall must succeed on a {@dc 17} Dexterity saving throw or be {@condition Agrippé}. Escaping requires a successful {@dc 17} Strength ({@skill Athlétisme}) or Dexterity ({@skill Acrobaties}) check.",
-						"A spectral eye opens in the air at a point within 50 feet of the tyrant. One random eye ray of the tyrant shoots from that eye, which is considered to be an ethereal source, at a target of the tyrant's choice. The eye then closes and disappears."
+						"Une zone cubique de 15 mètres de côté, située dans un rayon de 36 mètres autour du tyran, se remplit d'yeux et de tentacules spectraux. Pour les créatures autres que le tyran mort, cette zone est légèrement obscurcie et constitue un {@quickref difficult terrain||3} jusqu'à l'initiative 20 du round suivant.",
+						"Des murs font pousser des appendices spectraux jusqu'à l'initiative 20 du round suivant le suivant. Toute créature, y compris une créature se trouvant sur le Plan Éthéré, qui est hostile au tyran et commence son tour à 3 mètres maximum d'un mur doit réussir un jet de sauvegarde de Dextérité {@dc 17} ou être {@condition Agrippé}. Pour s'échapper, il faut réussir un jet de Force ({@skill Athlétisme}) ou de Dextérité ({@skill Acrobaties}) {@dc 17}.",
+						"Un œil spectral s'ouvre en l'air, en un point situé dans un rayon de 15 mètres autour du tyran. Un rayon oculaire aléatoire du tyran jaillit de cet œil — qui est considéré comme une source éthérée — vers une cible au choix du tyran. L'œil se referme ensuite et disparaît."
 					]
 				},
-				"The death tyrant can't repeat an effect until all three have been used, and it can't use the same effect on consecutive rounds."
+				"Le tyran mort ne peut pas répéter un effet avant que les trois aient été utilisés, et il ne peut pas utiliser le même effet deux rounds de suite."
 			],
 			"regionalEffects": [
-				"A region containing a death tyrant's lair is warped by the creature's unnatural presence, which creates one or more of the following effects:",
+				"Une région abritant le repaire d'un tyran mort est déformée par la présence surnaturelle de la créature, ce qui produit un ou plusieurs des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"Creatures within 1 mile of the tyrant's lair sometimes feel as if they're being watched even when they aren't.",
-						"When a creature hostile to the tyrant and aware of its existence finishes a long rest within 1 mile of the tyrant's lair, roll a {@dice d20} for that creature. On a roll of 10 or lower, the creature is subjected to one random eye ray of the tyrant."
+						"Les créatures dans un rayon de 1,5 kilomètre autour du repaire du tyran ont parfois l'impression d'être observées même quand ce n'est pas le cas.",
+						"Quand une créature hostile au tyran et consciente de son existence termine un repos long dans un rayon de 1,5 kilomètre autour du repaire du tyran, lancez un {@dice d20} pour cette créature. Sur un résultat de 10 ou moins, la créature est soumise à un rayon oculaire aléatoire du tyran."
 					]
 				},
-				"If the death tyrant dies, these effects fade over the course of {@dice 1d10} days."
+				"Si le tyran mort meurt, ces effets s'estompent en l'espace de {@dice 1d10} jours."
 			]
 		},
 		{
@@ -2263,27 +2263,27 @@
 			"source": "MM",
 			"page": 48,
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the demilich rolls a {@dice d20}. On a result of 11 or higher, the demilich takes a lair action to cause one of the following effects. It can't use the same effect two rounds in a row.",
+				"À l'initiative 20 (en perdant les égalités d'initiative), la demi-liche lance un {@dice d20}. Sur un résultat de 11 ou plus, la demi-liche utilise une action de repaire pour produire l'un des effets suivants. Elle ne peut pas utiliser le même effet deux rounds de suite.",
 				{
 					"type": "list",
 					"items": [
-						"The tomb trembles violently for a moment. Each creature on the floor of the tomb must succeed on a {@dc 19} Dexterity saving throw or be knocked {@condition À terre}.",
-						"The demilich targets one creature it can see within 60 feet of it. An {@spell Antichamp magique} fills the space of the target, moving with it until initiative count 20 on the next round.",
-						"The demilich targets any number of creatures it can see within 30 feet of it. No target can regain hit points until initiative count 20 on the next round."
+						"Le tombeau tremble violemment pendant un instant. Chaque créature au sol du tombeau doit réussir un jet de sauvegarde de Dextérité {@dc 19} ou être jetée {@condition À terre}.",
+						"La demi-liche cible une créature qu'elle peut voir dans un rayon de 18 mètres autour d'elle. Un {@spell Antichamp magique} remplit l'espace de la cible, se déplaçant avec elle jusqu'à l'initiative 20 du round suivant.",
+						"La demi-liche cible autant de créatures qu'elle le veut, qu'elle peut voir dans un rayon de 9 mètres autour d'elle. Aucune cible ne peut récupérer de points de vie jusqu'à l'initiative 20 du round suivant."
 					]
 				}
 			],
 			"regionalEffects": [
-				"A demilich's tomb might have any or all of the following effects in place:",
+				"Le tombeau d'une demi-liche peut être le siège de n'importe lesquels des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"The first time a non-evil creature enters the tomb's area, the creature takes 16 ({@damage 3d10}) necrotic damage.",
-						"Monsters in the tomb have advantage on saving throws against being {@condition Charmé} or {@condition Effrayé}, and against features that turn undead.",
-						"The tomb is warded against the magical travel of creatures the demilich hasn't authorized. Such creatures can't teleport into or out of the tomb's area or use planar travel to enter or leave it. Effects that allow teleportation or planar travel work within the tomb as long as they aren't used to leave or enter the tomb's area."
+						"La première fois qu'une créature non mauvaise pénètre dans la zone du tombeau, elle subit 16 ({@damage 3d10}) dégâts nécrotiques.",
+						"Les monstres du tombeau ont l'avantage aux jets de sauvegarde contre l'état {@condition Charmé} ou {@condition Effrayé}, ainsi que contre les capacités qui reculent les non-vivants.",
+						"Le tombeau est protégé contre le déplacement magique des créatures que la demi-liche n'a pas autorisées. Ces créatures ne peuvent pas se téléporter à l'intérieur ou à l'extérieur de la zone du tombeau, ni utiliser les voyages planaires pour y entrer ou en sortir. Les effets permettant la téléportation ou le voyage planaire fonctionnent à l'intérieur du tombeau tant qu'ils ne servent pas à quitter la zone du tombeau ou à y pénétrer."
 					]
 				},
-				"If the demilich is destroyed, these effects fade over the course of 10 days."
+				"Si la demi-liche est détruite, ces effets s'estompent en l'espace de 10 jours."
 			]
 		},
 		{
@@ -2359,14 +2359,14 @@
 							"type": "item",
 							"name": "Frenzied Animals",
 							"entries": [
-								"Beasts within 1 mile of the lair become frenzied and violent\u2014even creatures that are normally docile. Within that area, any ability check involving Animal Handling has disadvantage."
+								"Beasts within 1 mile of the lair become frenzied and violent—even creatures that are normally docile. Within that area, any ability check involving Animal Handling has disadvantage."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Venomous Beasts",
 							"entries": [
-								"The area within 6 miles of the lair becomes overpopulated with {@creature poisonous snake|MM|poisonous snakes} and other venomous Beasts."
+								"The area within 6 miles of the lair becomes overpopulated with {@creature Serpent venimeux|MM|poisonous snakes} and other venomous Beasts."
 							]
 						}
 					]
@@ -2417,23 +2417,23 @@
 							],
 							"rows": [
 								[
-									"01\u201320",
+									"01–20",
 									"\"Someone is plotting to kill me. I need to strike first to stop them!\""
 								],
 								[
-									"21\u201340",
+									"21–40",
 									"\"There is only one solution to my problems: kill them all!\""
 								],
 								[
-									"41\u201360",
+									"41–60",
 									"\"There is more than one mind inside my head.\""
 								],
 								[
-									"61\u201380",
+									"61–80",
 									"\"If you don't agree with me, I'll beat you into submission to get my way.\""
 								],
 								[
-									"81\u201300",
+									"81–00",
 									"\"I can't allow anyone to touch anything that belongs to me. They might try to take it away from me!\""
 								]
 							]
@@ -2801,7 +2801,7 @@
 						{
 							"type": "item",
 							"name": "Thriving Wildlife",
-							"entry": "{@creature Giant lizard||Giant lizards} are attracted to the area within 6 miles of the lair and settle there in large numbers."
+							"entry": "{@creature Lézard géant||Giant lizards} are attracted to the area within 6 miles of the lair and settle there in large numbers."
 						}
 					]
 				},
@@ -2825,7 +2825,7 @@
 			"source": "FTD",
 			"page": 118,
 			"lairActions": [
-				"As they are presented in the {@book Monster Manual|MM}, faerie dragons don't have access to lair actions while in their lairs. At your discretion, a {@creature Faerie Dragon (Green)||green} or {@creature Faerie Dragon (Violet)||older faerie dragon} can take one of the following lair actions on initiative count 20 (losing initiative ties):",
+				"As they are presented in the {@book Monster Manual|MM}, faerie dragons don't have access to lair actions while in their lairs. At your discretion, a {@creature Dragon féerique (vert)||green} or {@creature Dragon féerique (violet)||older faerie dragon} can take one of the following lair actions on initiative count 20 (losing initiative ties):",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -2889,7 +2889,7 @@
 				{
 					"type": "list",
 					"items": [
-						"A faint breeze bears the scent of roses mixed with sulfur. Characters who try to track the breeze to its source are led toward {@creature Fazrian|WDMM} in {@adventure area 23b|WDMM|21|23b. Hall of Final Judgment}. Warm blood oozes from the walls and drips from the ceiling, starting and stopping for no apparent reason. (The blood might attract ravenous, blood-drinking creatures such as {@creature Stirge||stirges} or {@creature vampire spawn}.)",
+						"A faint breeze bears the scent of roses mixed with sulfur. Characters who try to track the breeze to its source are led toward {@creature Fazrian|WDMM} in {@adventure area 23b|WDMM|21|23b. Hall of Final Judgment}. Warm blood oozes from the walls and drips from the ceiling, starting and stopping for no apparent reason. (The blood might attract ravenous, blood-drinking creatures such as {@creature Stirge||stirges} or {@creature Vampire serviteur}.)",
 						"The song of an unholy choir echoes through an area whenever a fight breaks out, then fades away when combat ends."
 					]
 				}
@@ -3052,23 +3052,23 @@
 							],
 							"rows": [
 								[
-									"01\u201320",
+									"01–20",
 									"\"I never let anyone know the truth about my actions or intentions, even if doing so would be beneficial to me.\""
 								],
 								[
-									"21\u201340",
+									"21–40",
 									"\"I have intermittent hallucinations and fits of catatonia.\""
 								],
 								[
-									"41\u201360",
+									"41–60",
 									"\"My mind wanders as I have elaborate fantasies that have no bearing on reality. When I return my focus to the world, I have a hard time remembering that it was just a daydream.\""
 								],
 								[
-									"61\u201380",
+									"61–80",
 									"\"I convince myself that things are true, even in the face of overwhelming evidence to the contrary.\""
 								],
 								[
-									"81\u201300",
+									"81–00",
 									"\"My perception of reality doesn't match anyone else's. It makes me prone to violent delusions that make no sense to anyone else.\""
 								]
 							]
@@ -3383,27 +3383,27 @@
 				}
 			],
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le dragon utilise une action de repaire pour produire l'un des effets suivants ; le dragon ne peut pas utiliser le même effet deux rounds de suite :",
 				{
 					"type": "list",
 					"items": [
-						"The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
-						"One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
+						"Le dragon entrevoit l'avenir : il a donc l'avantage aux jets d'attaque, aux tests de caractéristique et aux jets de sauvegarde jusqu'à l'initiative 20 du round suivant.",
+						"Une créature que le dragon peut voir dans un rayon de 36 mètres autour de lui doit réussir un jet de sauvegarde de Charisme {@dc 15} ou être bannie sur un plan onirique, un autre plan d'existence que le dragon a imaginé. Pour s'échapper, la créature doit utiliser son action pour faire un jet de Charisme opposé à celui du dragon. Si la créature l'emporte, elle s'échappe du plan onirique. Sinon, l'effet prend fin à l'initiative 20 du round suivant. Quand l'effet prend fin, la créature réapparaît dans l'espace qu'elle a quitté, ou dans l'espace inoccupé le plus proche si celui-ci est occupé."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Additional Lair Action",
+					"name": "Action de repaire supplémentaire",
 					"entries": [
-						"At your discretion, a legendary ({@creature Adult Gold Dragon||adult} or {@creature Ancient Gold Dragon||ancient}) gold dragon can use the following additional lair action while in its lair:",
+						"À votre discrétion, un dragon d'or légendaire ({@creature Dragon d'or adulte||adulte} ou {@creature Dragon d'or antique||ancien}) peut utiliser l'action de repaire supplémentaire suivante tant qu'il se trouve dans son repaire :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Beguiling Glow",
-									"entry": "Warm light fills a 30-foot-radius sphere centered on the dragon; each creature in that area must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by the dragon until initiative count 20 on the next round."
+									"name": "Lueur séduisante",
+									"entry": "Une lumière chaude remplit une sphère de 9 mètres de rayon centrée sur le dragon ; chaque créature dans cette zone doit réussir un jet de sauvegarde de Sagesse {@dc 15} ou être {@condition Charmé} par le dragon jusqu'à l'initiative 20 du round suivant."
 								}
 							]
 						}
@@ -3412,39 +3412,39 @@
 				}
 			],
 			"regionalEffects": [
-				"The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+				"La région abritant le repaire d'un dragon d'or légendaire est déformée par la magie du dragon, ce qui produit un ou plusieurs des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature remembers its conversation with the dragon upon waking.",
-						"Banks of beautiful, opalescent mist manifest within 6 miles of the dragon's lair. The mist doesn't obscure anything. It assumes haunting forms when evil creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
-						"Gems and pearls within 1 mile of the dragon's lair sparkle and gleam, shedding dim light in a 5-foot radius."
+						"Chaque fois qu'une créature capable de comprendre un langage s'endort ou entre dans un état de transe ou de rêverie dans un rayon de 10 kilomètres autour du repaire du dragon, celui-ci peut établir un contact télépathique avec cette créature et converser avec elle dans ses rêves. À son réveil, la créature se souvient de sa conversation avec le dragon.",
+						"Des bancs de brume magnifique et opalescente se manifestent dans un rayon de 10 kilomètres autour du repaire du dragon. La brume n'obscurcit rien. Elle adopte des formes inquiétantes quand des créatures mauvaises s'approchent du dragon ou d'autres créatures non mauvaises se trouvant dans la brume, avertissant ainsi ces créatures du danger.",
+						"Les gemmes et les perles dans un rayon de 1,5 kilomètre autour du repaire du dragon scintillent et reluisent, émettant une faible lumière dans un rayon de 1,50 mètre."
 					]
 				},
-				"If the dragon dies, these effects end immediately.",
+				"Si le dragon meurt, ces effets prennent fin immédiatement.",
 				{
 					"type": "entries",
-					"name": "Additional Regional Effects",
+					"name": "Effets régionaux supplémentaires",
 					"entries": [
-						"Any of these effects might appear in the area around a gold dragon's lair, in addition to or instead of the effects described in the {@i Monster Manual}:",
+						"N'importe lequel de ces effets peut apparaître dans la zone entourant le repaire d'un dragon d'or, en plus ou à la place des effets décrits dans le {@i Manuel des Monstres} :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Beneficent Trail",
-									"entry": "Within 10 miles of the dragon's lair, small runes in the shape of a gold dragon appear to creatures in great need, marking a subtle trail leading to the dragon's lair."
+									"name": "Sentier bienfaisant",
+									"entry": "Dans un rayon de 15 kilomètres autour du repaire du dragon, de petites runes en forme de dragon d'or apparaissent aux créatures dans le plus grand besoin, marquant un sentier discret menant au repaire du dragon."
 								},
 								{
 									"type": "item",
-									"name": "Emanation of Justice",
-									"entry": "Creatures that spend a year within 6 miles of the dragon's lair value fairness and justice over their personal feelings."
+									"name": "Émanation de justice",
+									"entry": "Les créatures qui passent un an dans un rayon de 10 kilomètres autour du repaire du dragon privilégient l'équité et la justice sur leurs sentiments personnels."
 								},
 								{
 									"type": "item",
-									"name": "Liar's Revelation",
-									"entry": "Within 6 miles of the dragon's lair, any creature attempting to tell a deliberate lie must succeed on a {@dc 15} Charisma saving throw or find itself accidentally revealing the truth it was attempting to conceal. The first time a creature fails this saving throw, it is immune to this effect for 24 hours."
+									"name": "Révélation du menteur",
+									"entry": "Dans un rayon de 10 kilomètres autour du repaire du dragon, toute créature qui tente de proférer un mensonge délibéré doit réussir un jet de sauvegarde de Charisme {@dc 15} ou se surprendre à révéler accidentellement la vérité qu'elle cherchait à dissimuler. La première fois qu'une créature échoue à ce jet de sauvegarde, elle est immunisée contre cet effet pendant 24 heures."
 								}
 							]
 						}
@@ -3596,27 +3596,27 @@
 							],
 							"rows": [
 								[
-									"01\u201320",
+									"01–20",
 									"\"There is nothing in the world more important than me and my desires.\""
 								],
 								[
-									"21\u201340",
+									"21–40",
 									"\"Anyone who doesn't do exactly what I say doesn't deserve to live.\""
 								],
 								[
-									"41\u201360",
+									"41–60",
 									"\"Mine is the path of redemption. Anyone who says otherwise is intentionally misleading you.\""
 								],
 								[
-									"61\u201380",
-									"\"I will not rest until I have made someone else mine, and doing so is more important to me than my own life\u2014or the lives of others.\""
+									"61–80",
+									"\"I will not rest until I have made someone else mine, and doing so is more important to me than my own life—or the lives of others.\""
 								],
 								[
-									"81\u201390",
+									"81–90",
 									"\"My own pleasure is of paramount importance. Everything else, including social graces, is a triviality.\""
 								],
 								[
-									"91\u201300",
+									"91–00",
 									"\"Anything that can bring me happiness should be enjoyed immediately. There is no point to saving anything pleasurable for later.\""
 								]
 							]
@@ -3663,33 +3663,33 @@
 				}
 			],
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le dragon utilise une action de repaire pour produire l'un des effets suivants ; le dragon ne peut pas utiliser le même effet deux rounds de suite :",
 				{
 					"type": "list",
 					"items": [
-						"Grasping roots and vines erupt in a 20-foot radius centered on a point on the ground that the dragon can see within 120 feet of it. That area becomes {@quickref difficult terrain||3}, and each creature there must succeed on a {@dc 15} Strength saving throw or be {@condition Entravé} by the roots and vines. A creature can be freed if it or another creature takes an action to make a {@dc 15} Strength check and succeeds. The roots and vines wilt away when the dragon uses this lair action again or when the dragon dies.",
-						"A wall of tangled brush bristling with thorns springs into existence on a solid surface within 120 feet of the dragon. The wall is up to 60 feet long, 10 feet high, and 5 feet thick, and it blocks line of sight. When the wall appears, each creature in its area must make a {@dc 15} Dexterity saving throw. A creature that fails the save takes 18 ({@damage 4d8}) piercing damage and is pushed 5 feet out of the wall's space, appearing on whichever side of the wall it wants. A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, a creature in the wall's space must make a {@dc 15} Dexterity saving throw once each round it's in contact with the wall, taking 18 ({@damage 4d8}) piercing damage on a failed save, or half as much damage on a successful one. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to fire damage, resistance to bludgeoning and piercing damage, and immunity to psychic damage. The wall sinks back into the ground when the dragon uses this lair action again or when the dragon dies.",
-						"Magical fog billows around one creature the dragon can see within 120 feet of it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition Charmé} by the dragon until initiative count 20 on the next round."
+						"Des racines et des lianes agrippantes jaillissent dans un rayon de 6 mètres centré sur un point du sol que le dragon peut voir dans un rayon de 36 mètres autour de lui. Cette zone devient un {@quickref difficult terrain||3} et chaque créature qui s'y trouve doit réussir un jet de sauvegarde de Force {@dc 15} ou être {@condition Entravé} par les racines et les lianes. Une créature peut être libérée si elle-même ou une autre créature utilise une action et réussit un jet de Force {@dc 15}. Les racines et les lianes se fanent quand le dragon réutilise cette action de repaire ou quand il meurt.",
+						"Un mur de fourrés enchevêtrés hérissés d'épines apparaît sur une surface solide dans un rayon de 36 mètres autour du dragon. Le mur mesure jusqu'à 18 mètres de long, 3 mètres de haut et 1,50 mètre d'épaisseur, et il bloque la ligne de vue. Quand le mur apparaît, chaque créature dans sa zone doit faire un jet de sauvegarde de Dextérité {@dc 15}. Une créature qui échoue au jet subit 18 ({@damage 4d8}) dégâts perforants et est repoussée de 1,50 mètre hors de l'espace du mur, apparaissant du côté du mur de son choix. Une créature peut traverser le mur, quoique lentement et douloureusement. Pour chaque 30 centimètres qu'une créature parcourt dans le mur, elle doit dépenser 1,20 mètre de mouvement. De plus, une créature dans l'espace du mur doit faire un jet de sauvegarde de Dextérité {@dc 15} une fois par round tant qu'elle est en contact avec le mur, subissant 18 ({@damage 4d8}) dégâts perforants en cas d'échec, ou la moitié de ces dégâts seulement en cas de réussite. Chaque section de mur de 3 mètres a une CA de 5, 15 points de vie, une vulnérabilité aux dégâts de feu, une résistance aux dégâts contondants et perforants, et une immunité aux dégâts psychiques. Le mur s'enfonce dans le sol quand le dragon réutilise cette action de repaire ou quand il meurt.",
+						"Un brouillard magique s'épanouit autour d'une créature que le dragon peut voir dans un rayon de 36 mètres autour de lui. La créature doit réussir un jet de sauvegarde de Sagesse {@dc 15} ou être {@condition Charmé} par le dragon jusqu'à l'initiative 20 du round suivant."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Additional Lair Actions",
+					"name": "Actions de repaire supplémentaires",
 					"entries": [
-						"At your discretion, a legendary ({@creature Adult Green Dragon||adult} or {@creature Ancient Green Dragon||ancient}) green dragon can use one or both of the following additional lair actions while in its lair:",
+						"À votre discrétion, un dragon vert légendaire ({@creature Dragon vert adulte||adulte} ou {@creature Dragon vert antique||ancien}) peut utiliser l'une ou les deux actions de repaire supplémentaires suivantes tant qu'il se trouve dans son repaire :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Creeper Vines",
-									"entry": "The dragon can use the vines and roots within its lair to animate up to three Humanoid corpses, which become {@creature Zombie||zombies}. The zombies take their turn immediately after this lair action. Each one reverts to an inanimate corpse after 1 minute, when the dragon uses this lair action again, or when the zombie is destroyed."
+									"name": "Lianes rampantes",
+									"entry": "Le dragon peut utiliser les lianes et les racines de son repaire pour animer jusqu'à trois cadavres humanoïdes, qui deviennent des {@creature Zombie||zombies}. Les zombies effectuent leur tour immédiatement après cette action de repaire. Chacun redevient un cadavre inanimé après 1 minute, quand le dragon réutilise cette action de repaire ou quand le zombie est détruit."
 								},
 								{
 									"type": "item",
-									"name": "Lashing Root",
-									"entry": "One large root or branch that is part of the lair makes a melee attack roll against a creature within 10 feet of it. It has a {@hit 7} bonus to hit and deals 10 ({@damage 3d6}) bludgeoning damage on a hit. If the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition À terre}."
+									"name": "Racine fouettante",
+									"entry": "Une grande racine ou branche faisant partie du repaire effectue un jet d'attaque au corps à corps contre une créature dans un rayon de 3 mètres autour d'elle. Elle a un bonus de {@hit 7} à l'attaque et inflige 10 ({@damage 3d6}) dégâts contondants en cas de coup. Si la cible est une créature de taille Moyenne ou inférieure, elle doit réussir un jet de sauvegarde de Force {@dc 15} ou être jetée {@condition À terre}."
 								}
 							]
 						}
@@ -3698,40 +3698,40 @@
 				}
 			],
 			"regionalEffects": [
-				"The region containing a legendary green dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+				"La région abritant le repaire d'un dragon vert légendaire est déformée par la magie du dragon, ce qui produit un ou plusieurs des effets suivants :",
 				{
 					"type": "list",
 					"items": [
 						{
 							"type": "item",
 							"entries": [
-								"Thickets form labyrinthine passages within 1 mile of the dragon's lair. The thickets act as 10-foot-high, 10-foot-thick walls that block line of sight. Creatures can move through the thickets, with every 1 foot a creature moves costing it 4 feet of movement. A creature in the thickets must make a {@dc 15} Dexterity saving throw once each round it's in contact with the thickets or take 3 ({@damage 1d6}) piercing damage from thorns.",
-								"Each 10-foot-cube of thickets has AC 5, 30 hit points, resistance to bludgeoning and piercing damage, vulnerability to fire damage, and immunity to psychic and thunder damage."
+								"Des fourrés forment des passages labyrinthiques dans un rayon de 1,5 kilomètre autour du repaire du dragon. Les fourrés agissent comme des murs de 3 mètres de haut et 3 mètres d'épaisseur qui bloquent la ligne de vue. Les créatures peuvent traverser les fourrés, chaque 30 centimètres parcourus leur coûtant 1,20 mètre de mouvement. Une créature dans les fourrés doit faire un jet de sauvegarde de Dextérité {@dc 15} une fois par round tant qu'elle est en contact avec eux, sous peine de subir 3 ({@damage 1d6}) dégâts perforants causés par les épines.",
+								"Chaque cube de 3 mètres de côté de fourrés a une CA de 5, 30 points de vie, une résistance aux dégâts contondants et perforants, une vulnérabilité aux dégâts de feu, et une immunité aux dégâts psychiques et tonitruants."
 							]
 						},
-						"Within 1 mile of its lair, the dragon leaves no physical evidence of its passage unless it wishes to. Tracking it there is impossible except by magical means. In addition, it ignores movement impediments and damage from plants in this area that are neither magical nor creatures, including the thickets described above. The plants remove themselves from the dragon's path.",
-						"Rodents and birds within 1 mile of the dragon's lair serve as the dragon's eyes and ears. Deer and other large game are strangely absent, hinting at the presence of an unnaturally hungry predator."
+						"Dans un rayon de 1,5 kilomètre autour de son repaire, le dragon ne laisse aucune trace physique de son passage, sauf s'il le souhaite. Le suivre à la trace y est impossible, sauf par des moyens magiques. De plus, il ignore les entraves au déplacement et les dégâts causés par les plantes de cette zone qui ne sont ni magiques ni des créatures, y compris les fourrés décrits ci-dessus. Les plantes s'écartent du chemin du dragon.",
+						"Les rongeurs et les oiseaux dans un rayon de 1,5 kilomètre autour du repaire du dragon lui servent d'yeux et d'oreilles. Les cerfs et autres grands gibiers sont étrangement absents, signe de la présence d'un prédateur anormalement affamé."
 					]
 				},
-				"If the dragon dies, the rodents and birds lose their supernatural link to it. The thickets remain, but within {@dice 1d10} days, they become mundane plants and normal {@quickref difficult terrain||3}, losing their thorns.",
+				"Si le dragon meurt, les rongeurs et les oiseaux perdent leur lien surnaturel avec lui. Les fourrés demeurent, mais en l'espace de {@dice 1d10} jours, ils deviennent des plantes ordinaires et un {@quickref difficult terrain||3} banal, perdant leurs épines.",
 				{
 					"type": "entries",
-					"name": "Additional Regional Effects",
+					"name": "Effets régionaux supplémentaires",
 					"entries": [
-						"Either or both of these effects might appear in the area around a green dragon's lair, in addition to or instead of those described in the {@i Monster Manual}:",
+						"L'un ou les deux effets suivants peuvent apparaître dans la zone entourant le repaire d'un dragon vert, en plus ou à la place de ceux décrits dans le {@i Manuel des Monstres} :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Inviting Whispers",
-									"entry": "Whispers rustle in the foliage within 1 mile of the dragon's lair. The words are indistinct, but a creature with an Intelligence score of 5 or higher interprets them as an invitation to move deeper into the greenery."
+									"name": "Murmures engageants",
+									"entry": "Des murmures bruissent dans le feuillage dans un rayon de 1,5 kilomètre autour du repaire du dragon. Les mots sont indistincts, mais une créature d'Intelligence 5 ou supérieure les interprète comme une invitation à s'enfoncer dans la verdure."
 								},
 								{
 									"type": "item",
-									"name": "Twisted Messengers",
-									"entry": "The dragon can cause any Tiny Beast within 1 mile of its lair to act as its mouthpiece. The effect is horrendous, as the creature's throat and mouth temporarily warp into a twisted version of the dragon's own in order to allow the dragon's voice to issue forth."
+									"name": "Messagers tordus",
+									"entry": "Le dragon peut faire de n'importe quelle Bête Minuscule dans un rayon de 1,5 kilomètre autour de son repaire son porte-parole. L'effet est hideux : la gorge et la bouche de la créature se déforment temporairement en une version tordue de celles du dragon afin de laisser passer sa voix."
 								}
 							]
 						}
@@ -3792,11 +3792,11 @@
 					"lairActions": {
 						"mode": "appendArr",
 						"items": [
-							"A powerful green hag might have the following additional lair action:",
+							"Une goule verte puissante peut disposer de l'action de repaire supplémentaire suivante :",
 							{
 								"type": "list",
 								"items": [
-									"The hag creates an illusory duplicate of herself, which appears in its own space. As long as she can see her duplicate, the hag can move it a distance equal to her walking speed as well as make the illusion speak on her turn (no action required). The illusion has the same statistics as the hag but can't take actions or reactions. It can interact with its environment and even pick up and hold real objects. The illusion seems real in every way but disappears if it takes any amount of damage. Otherwise, it lasts until the hag dismisses it (no action required) or can no longer see it. If the hag uses this lair action to create a new duplicate, the previous one vanishes, dropping any real objects in its possession."
+									"La goule crée un double illusoire d'elle-même, qui apparaît dans son propre espace. Tant qu'elle peut voir son double, la goule peut le déplacer d'une distance égale à sa vitesse de déplacement et faire parler l'illusion lors de son tour (aucune action requise). L'illusion possède les mêmes statistiques que la goule, mais elle ne peut entreprendre ni actions ni réactions. Elle peut interagir avec son environnement et même saisir et tenir de vrais objets. L'illusion semble réelle en tous points, mais elle disparaît si elle subit le moindre dégât. Sinon, elle persiste jusqu'à ce que la goule la dissipe (aucune action requise) ou ne puisse plus la voir. Si la goule utilise cette action de repaire pour créer un nouveau double, le précédent disparaît, lâchant les vrais objets qu'il portait."
 								]
 							}
 						]
@@ -3804,13 +3804,13 @@
 					"regionalEffects": {
 						"mode": "appendArr",
 						"items": [
-							"A powerful green hag creates one or more of the following additional regional effects within 1 mile of her lair:",
+							"Une goule verte puissante crée un ou plusieurs des effets régionaux supplémentaires suivants dans un rayon de 1,5 kilomètre autour de son repaire :",
 							{
 								"type": "list",
 								"items": [
-									"Illusory duplicates of the hag appear in random places at random times (but never more than one in any given location). An illusory duplicate has no substance, but it looks, sounds, and moves like the hag. The hag can sense when one or more creatures are within 60 feet of her duplicate and can interact with them as if she were present and standing in the duplicate's space. If the illusory duplicate takes any damage, it disappears.",
-									"The region takes twice as long as normal to traverse, since the plants grow thick and twisted, and the swamps are thick with reeking mud.",
-									"Trees transform into {@creature awakened tree||awakened trees} and attack when hostile intruders are near."
+									"Des doubles illusoires de la goule apparaissent à des endroits et à des moments aléatoires (mais jamais plus d'un à un emplacement donné). Un double illusoire n'a aucune substance, mais il ressemble à la goule, émet les mêmes sons et se déplace comme elle. La goule sent lorsqu'une ou plusieurs créatures se trouvent dans un rayon de 18 mètres autour de son double, et elle peut interagir avec elles comme si elle était présente et se tenait dans l'espace du double. Si le double illusoire subit le moindre dégât, il disparaît.",
+									"Il faut deux fois plus de temps que la normale pour traverser la région, car les plantes y poussent denses et tortueuses, et les marécages sont remplis d'une boue fétide.",
+									"Les arbres se transforment en {@creature Arbre éveillé||arbres éveillés} et attaquent quand des intrus hostiles approchent."
 								]
 							}
 						]
@@ -4010,7 +4010,7 @@
 				{
 					"type": "insetReadaloud",
 					"entries": [
-						"The medusa's skin cracks, turns a lifeless gray, and shatters! The monster crumbles to dust\u2014but what clatters to the ground isn't scale and bone, but hollow stone. The sound of rippling coils precedes the medusa rising up anew, the last of her shed skin dropping away, revealing glistening, unscarred scales."
+						"The medusa's skin cracks, turns a lifeless gray, and shatters! The monster crumbles to dust—but what clatters to the ground isn't scale and bone, but hollow stone. The sound of rippling coils precedes the medusa rising up anew, the last of her shed skin dropping away, revealing glistening, unscarred scales."
 					]
 				},
 				"Fighting Hythonia as a mythic encounter is equivalent to taking on two challenge rating 17 creatures in one encounter. Award a party 36,000 XP for defeating Hythonia after she uses Shed Skin."
@@ -4206,23 +4206,23 @@
 							],
 							"rows": [
 								[
-									"01\u201320",
+									"01–20",
 									"\"I must consume everything I can!\""
 								],
 								[
-									"21\u201340",
+									"21–40",
 									"\"I refuse to part with any of my possessions.\""
 								],
 								[
-									"41\u201360",
+									"41–60",
 									"\"I'll do everything I can to get others to eat and drink beyond their normal limits.\""
 								],
 								[
-									"61\u201380",
+									"61–80",
 									"\"I must possess as many material goods as I can.\""
 								],
 								[
-									"81\u201300",
+									"81–00",
 									"\"My personality is irrelevant. I am defined by what I consume.\""
 								]
 							]
@@ -4289,7 +4289,7 @@
 							"type": "item",
 							"name": "Create Comforts",
 							"entries": [
-								"The ki-rin conjures up one or more permanent objects made of soft, plant-based material\u2014including manufactured objects like pillows, rope, blankets, and clothing\u2014that can collectively fill no more than a 20-foot cube. The objects materialize 1 minute later in unoccupied spaces of the ki-rin's choice on the floor of the lair."
+								"The ki-rin conjures up one or more permanent objects made of soft, plant-based material—including manufactured objects like pillows, rope, blankets, and clothing—that can collectively fill no more than a 20-foot cube. The objects materialize 1 minute later in unoccupied spaces of the ki-rin's choice on the floor of the lair."
 							]
 						},
 						{
@@ -4382,27 +4382,27 @@
 			"source": "MM",
 			"page": 197,
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the kraken takes a lair action to cause one of the following magical effects:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le kraken utilise une action de repaire pour produire l'un des effets magiques suivants :",
 				{
 					"type": "list",
 					"items": [
-						"A strong current moves through the kraken's lair. Each creature within 60 feet of the kraken must succeed on a {@dc 23} Strength saving throw or be pushed up to 60 feet away from the kraken. On a success, the creature is pushed 10 feet away from the kraken.",
-						"Creatures in the water within 60 feet of the kraken have vulnerability to lightning damage until initiative count 20 on the next round.",
-						"The water in the kraken's lair becomes electrically charged. All creatures within 120 feet of the kraken must succeed on a {@dc 23} Constitution saving throw, taking 10 ({@damage 3d6}) lightning damage on a failed save, or half as much damage on a successful one."
+						"Un courant puissant traverse le repaire du kraken. Chaque créature dans un rayon de 18 mètres autour du kraken doit réussir un jet de sauvegarde de Force {@dc 23} ou être repoussée sur 18 mètres maximum à l'écart du kraken. En cas de réussite, la créature est repoussée de 3 mètres à l'écart du kraken.",
+						"Les créatures dans l'eau dans un rayon de 18 mètres autour du kraken ont une vulnérabilité aux dégâts de foudre jusqu'à l'initiative 20 du round suivant.",
+						"L'eau du repaire du kraken se charge d'électricité. Toutes les créatures dans un rayon de 36 mètres autour du kraken doivent réussir un jet de sauvegarde de Constitution {@dc 23}, subissant 10 ({@damage 3d6}) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts seulement en cas de réussite."
 					]
 				}
 			],
 			"regionalEffects": [
-				"The region containing a kraken's lair is warped by the creature's blasphemous presence, creating the following magical effects:",
+				"La région abritant le repaire d'un kraken est déformée par la présence blasphématoire de la créature, ce qui produit les effets magiques suivants :",
 				{
 					"type": "list",
 					"items": [
-						"The kraken can alter the weather at will in a 6-mile radius centered on its lair. The effect is identical to the {@spell Contrôle du climat} spell.",
-						"Water elementals coalesce within 6 miles of the lair. These elementals can't leave the water and have Intelligence and Charisma scores of 1 (-5).",
-						"Aquatic creatures within 6 miles of the lair that have an Intelligence score of 2 or lower are {@condition Charmé} by the kraken and aggressive toward intruders in the area."
+						"Le kraken peut modifier la météo à volonté dans un rayon de 10 kilomètres centré sur son repaire. L'effet est identique au sort {@spell Contrôle du climat}.",
+						"Des élémentaires de l'eau se forment dans un rayon de 10 kilomètres autour du repaire. Ces élémentaires ne peuvent pas quitter l'eau et ont un score d'Intelligence et de Charisme de 1 (-5).",
+						"Les créatures aquatiques dans un rayon de 10 kilomètres autour du repaire qui ont un score d'Intelligence de 2 ou inférieur sont {@condition Charmé} par le kraken et se montrent agressives envers les intrus dans la zone."
 					]
 				},
-				"When the kraken dies, all of these regional effects fade immediately."
+				"Quand le kraken meurt, tous ces effets régionaux s'estompent immédiatement."
 			]
 		},
 		{
@@ -4513,13 +4513,13 @@
 			"source": "MM",
 			"page": 202,
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the lich can take a lair action to cause one of the following magical effects; the lich can't use the same effect two rounds in a row:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), la liche peut utiliser une action de repaire pour produire l'un des effets magiques suivants ; la liche ne peut pas utiliser le même effet deux rounds de suite :",
 				{
 					"type": "list",
 					"items": [
-						"The lich rolls a {@dice d8} and regains a spell slot of that level or lower. If it has no spent spell slots of that level or lower, nothing happens.",
-						"The lich targets one creature it can see within 30 feet of it. A crackling cord of negative energy tethers the lich to the target. Whenever the lich takes damage, the target must make a {@dc 18} Constitution saving throw. On a failed save, the lich takes half the damage (rounded down), and the target takes the remaining damage. This tether lasts until initiative count 20 on the next round or until the lich or the target is no longer in the lich's lair.",
-						"The lich calls forth the spirits of creatures that died in its lair. These apparitions materialize and attack one creature that the lich can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) necrotic damage on a failed save, or half as much damage on a success. The apparitions then disappear."
+						"La liche lance un {@dice d8} et récupère un emplacement de sort de ce niveau ou inférieur. Si elle n'a aucun emplacement de sort dépensé de ce niveau ou inférieur, il ne se passe rien.",
+						"La liche cible une créature qu'elle peut voir dans un rayon de 9 mètres autour d'elle. Un cordon crépitant d'énergie négative relie la liche à la cible. Chaque fois que la liche subit des dégâts, la cible doit faire un jet de sauvegarde de Constitution {@dc 18}. En cas d'échec, la liche subit la moitié des dégâts (arrondis à l'inférieur), et la cible subit les dégâts restants. Ce lien persiste jusqu'à l'initiative 20 du round suivant, ou jusqu'à ce que la liche ou la cible ne se trouve plus dans le repaire de la liche.",
+						"La liche appelle les esprits des créatures mortes dans son repaire. Ces apparitions se matérialisent et attaquent une créature que la liche peut voir dans un rayon de 18 mètres autour d'elle. La cible doit réussir un jet de sauvegarde de Constitution {@dc 18}, subissant 52 ({@damage 15d6}) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts seulement en cas de réussite. Les apparitions disparaissent ensuite."
 					]
 				}
 			]
@@ -5103,27 +5103,27 @@
 			"source": "MM",
 			"page": 229,
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the mummy lord takes a lair action to cause one of the following effects; the mummy lord can't use the same effect two rounds in a row:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le seigneur momie utilise une action de repaire pour produire l'un des effets suivants ; le seigneur momie ne peut pas utiliser le même effet deux rounds de suite :",
 				{
 					"type": "list",
 					"items": [
-						"Each undead creature in the lair can pinpoint the location of each living creature within 120 feet of it until initiative count 20 on the next round.",
-						"Each undead in the lair has advantage on saving throws against effects that turn undead until initiative count 20 on the next round.",
-						"Until initiative count 20 on the next round, any non-undead creature that tries to cast a spell of 4th level or lower in the mummy lord's lair is wracked with pain. The creature can choose another action, but if it tries to cast the spell, it must make a {@dc 16} Constitution saving throw. On a failed save, it takes {@damage 1d6} necrotic damage per level of the spell, and the spell has no effect and is wasted."
+						"Chaque créature non-vivante du repaire peut déterminer avec précision la position de chaque créature vivante se trouvant dans un rayon de 36 mètres autour d'elle, jusqu'à l'initiative 20 du round suivant.",
+						"Chaque non-vivant du repaire a l'avantage aux jets de sauvegarde contre les effets qui reculent les non-vivants, jusqu'à l'initiative 20 du round suivant.",
+						"Jusqu'à l'initiative 20 du round suivant, toute créature qui n'est pas un non-vivant et qui tente de lancer un sort de niveau 4 ou inférieur dans le repaire du seigneur momie est secouée par la douleur. La créature peut choisir une autre action, mais si elle tente de lancer le sort, elle doit faire un jet de sauvegarde de Constitution {@dc 16}. En cas d'échec, elle subit {@damage 1d6} dégâts nécrotiques par niveau du sort, le sort n'a aucun effet et est perdu."
 					]
 				}
 			],
 			"regionalEffects": [
-				"A mummy lord's temple or tomb is warped in any of the following ways by the creature's dark presence:",
+				"La présence ténébreuse de la créature déforme le temple ou le tombeau d'un seigneur momie de l'une des manières suivantes :",
 				{
 					"type": "list",
 					"items": [
-						"Food instantly molders and water instantly evaporates when brought into the lair. Other non magical drinks are spoiled - wine turning to vinegar, for instance.",
-						"{@spell Divination} spells cast within the lair by creatures other than the mummy lord have a {@chance 25} chance to provide misleading results, as determined by the DM. If a {@spell divination} spell already has a chance to fail or become unreliable when cast multiple times, that chance increases by 25 percent.",
-						"A creature that takes treasure from the lair is cursed until the treasure is returned. The cursed target has disadvantage on all saving throws. The curse lasts until removed by a {@spell Délivrance de la malédiction} spell or other magic."
+						"La nourriture moisit instantanément et l'eau s'évapore sur-le-champ quand on les introduit dans le repaire. Les autres boissons non magiques sont gâtées — le vin se transformant en vinaigre, par exemple.",
+						"Les sorts de {@spell Divination} lancés dans le repaire par des créatures autres que le seigneur momie ont {@chance 25} de chances de donner des résultats trompeurs, à la discrétion du MD. Si un sort de {@spell divination} comporte déjà un risque d'échec ou de résultats peu fiables quand il est lancé plusieurs fois, ce risque augmente de 25 pour cent.",
+						"Une créature qui prend un trésor dans le repaire est maudite tant que le trésor n'est pas restitué. La cible maudite a un désavantage à tous ses jets de sauvegarde. La malédiction persiste jusqu'à ce qu'elle soit levée par un sort de {@spell Délivrance de la malédiction} ou par une autre magie."
 					]
 				},
-				"If the mummy lord is destroyed, these regional effects end immediately."
+				"Si le seigneur momie est détruit, ces effets régionaux prennent fin immédiatement."
 			]
 		},
 		{
@@ -5168,7 +5168,7 @@
 						{
 							"type": "item",
 							"name": "Clay Behemoth",
-							"entry": "A {@creature clay golem} erupts from the floor in an unoccupied space within 15 feet of the ritual circle. The golem obeys Murgaxor's commands, takes its turns on initiative count 10 (losing initiative ties), fights until destroyed, and reverts to a mound of inanimate clay after 1 hour."
+							"entry": "A {@creature Golem d'argile} erupts from the floor in an unoccupied space within 15 feet of the ritual circle. The golem obeys Murgaxor's commands, takes its turns on initiative count 10 (losing initiative ties), fights until destroyed, and reverts to a mound of inanimate clay after 1 hour."
 						},
 						{
 							"type": "item",
@@ -5183,7 +5183,7 @@
 						{
 							"type": "item",
 							"name": "Summon Mephits",
-							"entry": "Murgaxor summons four {@creature mud mephit||mud mephits} that appear in unoccupied spaces within 15 feet of the ritual circle. The mephits obey Murgaxor's commands, take their turns on initiative count 15 (losing initiative ties), and fight until destroyed."
+							"entry": "Murgaxor summons four {@creature Méphite de boue||mud mephits} that appear in unoccupied spaces within 15 feet of the ritual circle. The mephits obey Murgaxor's commands, take their turns on initiative count 15 (losing initiative ties), and fight until destroyed."
 						}
 					]
 				}
@@ -5253,12 +5253,12 @@
 					"lairActions": {
 						"mode": "appendArr",
 						"items": [
-							"A powerful night hag might have the following additional lair actions:",
+							"Une goule de nuit puissante peut disposer des actions de repaire supplémentaires suivantes :",
 							{
 								"type": "list",
 								"items": [
-									"One creature the hag can see within 120 feet of her must succeed on a {@dc 15} Charisma saving throw or be banished to a prison demiplane. To escape, the creature must use its action to make a Charisma check contested by the hag's. If the creature wins, it escapes the demiplane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied.",
-									"The hag targets up to three creatures that she can see within 60 feet of her. Each target must succeed on a {@dc 15} Constitution saving throw or be flung up to 30 feet through the air. A creature that strikes a solid object or is released in midair takes {@damage 1d6} bludgeoning damage for every 10 feet moved or fallen."
+									"Une créature que la goule peut voir dans un rayon de 36 mètres autour d'elle doit réussir un jet de sauvegarde de Charisme {@dc 15} ou être bannie sur un demi-plan prison. Pour s'échapper, la créature doit utiliser son action pour faire un jet de Charisme opposé à celui de la goule. Si la créature l'emporte, elle s'échappe du demi-plan. Sinon, l'effet prend fin à l'initiative 20 du round suivant. Quand l'effet prend fin, la créature réapparaît dans l'espace qu'elle a quitté, ou dans l'espace inoccupé le plus proche si celui-ci est occupé.",
+									"La goule cible jusqu'à trois créatures qu'elle peut voir dans un rayon de 18 mètres autour d'elle. Chaque cible doit réussir un jet de sauvegarde de Constitution {@dc 15} ou être projetée en l'air sur 9 mètres maximum. Une créature qui percute un objet solide ou qui est lâchée en plein vol subit {@damage 1d6} dégâts contondants par tranche de 3 mètres parcourus ou tombés."
 								]
 							}
 						]
@@ -5266,13 +5266,13 @@
 					"regionalEffects": {
 						"mode": "appendArr",
 						"items": [
-							"A powerful night hag creates one or more of the following additional regional effects within 1 mile of her lair:",
+							"Une goule de nuit puissante crée un ou plusieurs des effets régionaux supplémentaires suivants dans un rayon de 1,5 kilomètre autour de son repaire :",
 							{
 								"type": "list",
 								"items": [
-									"Shadows seem abnormally gaunt and sometimes move on their own as though alive.",
-									"Creatures are transported to a harmless but eerie demiplane filled with shadowy forms, waxy corpses, and cackling. The creatures are trapped there for a minute or two, and then returned to the place where they vanished from.",
-									"Intelligent creatures see hallucinations of dead friends, family members, and even themselves littering the hag's realm. Any attempt to interact with a hallucinatory image causes it to disappear."
+									"Les ombres semblent anormalement décharnées et se déplacent parfois d'elles-mêmes, comme si elles étaient vivantes.",
+									"Des créatures sont transportées sur un demi-plan inoffensif mais inquiétant, peuplé de formes ombragées, de cadavres cirés et de rires sardaniques. Les créatures y sont piégées une à deux minutes, puis sont ramenées à l'endroit d'où elles ont disparu.",
+									"Les créatures intelligentes voient des hallucinations d'amis et de membres de leur famille décédés, et même d'elles-mêmes, joncher le royaume de la goule. Toute tentative d'interaction avec une image hallucinatoire la fait disparaître."
 								]
 							}
 						]
@@ -5315,7 +5315,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Earth tremors strike the region within 10 miles of Ogrémoch's location every {@dice 2d12} hours, each lasting {@dice 1d10} rounds. At first, damage is minor\u2014broken windows, cracked plaster, items toppled off shelves. The longer Ogrémoch remains, the stronger the tremors become. After 5 days, the tremors are strong enough to destroy flimsy structures. After 10 days, they are strong enough to destroy ordinary wooden buildings. After 20 days, they can seriously damage or destroy reinforced or fortified structures.",
+						"Earth tremors strike the region within 10 miles of Ogrémoch's location every {@dice 2d12} hours, each lasting {@dice 1d10} rounds. At first, damage is minor—broken windows, cracked plaster, items toppled off shelves. The longer Ogrémoch remains, the stronger the tremors become. After 5 days, the tremors are strong enough to destroy flimsy structures. After 10 days, they are strong enough to destroy ordinary wooden buildings. After 20 days, they can seriously damage or destroy reinforced or fortified structures.",
 						"Magnetic disturbances within 10 miles of Ogrémoch prevent compasses from functioning there.",
 						"Hidden sinkholes and fissures form within 1 mile of Ogrémoch's location. A hidden sinkhole can be spotted from a safe distance by any creature with a passive Wisdom ({@skill Perception}) score of 15 or higher or spotted with a successful {@dc 15} Wisdom ({@skill Survie}) check. Otherwise, the first creature to step on the thin crust covering the sinkhole must succeed on a {@dc 15} Dexterity saving throw or fall {@dice 1d6 × 10} feet into the sinkhole or fissure.",
 						"Natural caves and tunnels within 1 mile of Ogrémoch's lair form intermittent portals to the Elemental Plane of Earth, allowing elemental creatures into the mortal world to dwell near those points."
@@ -5340,7 +5340,7 @@
 				}
 			],
 			"regionalEffects": [
-				"Olhydra's presence in an elemental node creates a number of widespread effects\u2014bad weather, strong tides, and increasing aggression from dangerous sea life.",
+				"Olhydra's presence in an elemental node creates a number of widespread effects—bad weather, strong tides, and increasing aggression from dangerous sea life.",
 				{
 					"type": "list",
 					"items": [
@@ -5381,7 +5381,7 @@
 							"type": "item",
 							"name": "Undead Servants",
 							"entries": [
-								"Orcus causes up to six corpses within the lair to rise as {@creature skeleton||skeletons}, {@creature zombie||zombies}, or {@creature ghoul||ghouls}. These undead obey his telepathic commands, which can reach anywhere in the lair."
+								"Orcus causes up to six corpses within the lair to rise as {@creature Squelette||skeletons}, {@creature zombie||zombies}, or {@creature Goule||ghouls}. These undead obey his telepathic commands, which can reach anywhere in the lair."
 							]
 						}
 					]
@@ -5422,7 +5422,7 @@
 					"type": "list",
 					"items": [
 						"Orcus's voice booms throughout the lair. His utterance causes one creature of his choice to be subjected to {@spell Mot de pouvoir de mort}. Orcus needn't see the creature, but he must be aware that the individual is in the lair.",
-						"Orcus causes up to six corpses within the lair to rise as {@creature skeleton||skeletons}, {@creature zombie||zombies}, or {@creature ghoul||ghouls}. These undead obey his telepathic commands, which can reach anywhere in the lair.",
+						"Orcus causes up to six corpses within the lair to rise as {@creature Squelette||skeletons}, {@creature zombie||zombies}, or {@creature Goule||ghouls}. These undead obey his telepathic commands, which can reach anywhere in the lair.",
 						"Orcus causes skeletal arms to rise from an area on the ground in a 20-foot square that he can see. They last until the next initiative count 20. Each creature in that area when the arms appear must succeed on a {@dc 23} Strength saving throw or be {@condition Entravé} until the arms disappear or until Orcus releases their grasp (no action required)."
 					]
 				}
@@ -5456,23 +5456,23 @@
 							],
 							"rows": [
 								[
-									"01\u201320",
+									"01–20",
 									"\"I often become withdrawn and moody, dwelling on the insufferable state of life.\""
 								],
 								[
-									"21\u201340",
+									"21–40",
 									"\"I am compelled to make the weak suffer.\""
 								],
 								[
-									"41\u201360",
+									"41–60",
 									"\"I have no compunction against tampering with the dead in my search to better understand death.\""
 								],
 								[
-									"61\u201380",
+									"61–80",
 									"\"I want to achieve the everlasting existence of undeath.\""
 								],
 								[
-									"81\u201300",
+									"81–00",
 									"\"I am awash in the awareness of life's futility.\""
 								]
 							]
@@ -5519,7 +5519,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Pazuzu opens a portal and summons forth {@dice 1d4} {@creature peryton||perytons} or {@creature gargoyle||gargoyles}.",
+						"Pazuzu opens a portal and summons forth {@dice 1d4} {@creature Péryton||perytons} or {@creature Gargouille||gargoyles}.",
 						"Pazuzu casts {@spell Nuée d'insectes} but does not need to concentrate to maintain it. The insects inflict 33 ({@damage 6d10}) piercing damage.",
 						"Pazuzu telepathically speaks to all creatures within 120 ft. of him and offers each what they most desire. Each target must succeed on a {@dc 21} Charisma saving throw or forfeit their next action as they contemplate the decision. A good-aligned target may voluntarily fail the saving throw and forfeit their action to agree to Pazuzu's terms. If so, and if he has the {@spell Souhait} spell available, he will cast it as long as he sees no immediate negative consequence to his doing so. Pazuzu does not suffer any of the negative effects of casting the {@spell Souhait} spell."
 					]
@@ -5547,33 +5547,33 @@
 				}
 			],
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le dragon utilise une action de repaire pour produire l'un des effets suivants ; le dragon ne peut pas utiliser le même effet deux rounds de suite :",
 				{
 					"type": "list",
 					"items": [
-						"Magma erupts from a point on the ground the dragon can see within 120 feet of it, creating a 20-foot-high, 5-foot-radius geyser. Each creature in the geyser's area must make a {@dc 15} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one.",
-						"A tremor shakes the lair in a 60-foot radius around the dragon. Each creature other than the dragon on the ground in that area must succeed on a {@dc 15} Dexterity saving throw or be knocked {@condition À terre}.",
-						"Volcanic gases form a cloud in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The sphere spreads around corners, and its area is lightly obscured. It lasts until initiative count 20 on the next round. Each creature that starts its turn in the cloud must succeed on a {@dc 13} Constitution saving throw or be {@condition Empoisonné} until the end of its turn. While {@condition Empoisonné} in this way, a creature is {@condition Incapable}."
+						"Du magma jaillit d'un point du sol que le dragon peut voir dans un rayon de 36 mètres autour de lui, créant un geyser haut de 6 mètres et d'un rayon de 1,50 mètre. Chaque créature dans la zone du geyser doit faire un jet de sauvegarde de Dextérité {@dc 15}, subissant 21 ({@damage 6d6}) dégâts de feu en cas d'échec, ou la moitié de ces dégâts seulement en cas de réussite.",
+						"Une secousse ébranle le repaire dans un rayon de 18 mètres autour du dragon. Chaque créature autre que le dragon qui se trouve au sol dans cette zone doit réussir un jet de sauvegarde de Dextérité {@dc 15} ou être jetée {@condition À terre}.",
+						"Des gaz volcaniques forment un nuage dans une sphère de 6 mètres de rayon centrée sur un point que le dragon peut voir dans un rayon de 36 mètres autour de lui. La sphère se propage autour des angles, et sa zone est légèrement obscurcie. Elle persiste jusqu'à l'initiative 20 du round suivant. Chaque créature qui commence son tour dans le nuage doit réussir un jet de sauvegarde de Constitution {@dc 13} ou être {@condition Empoisonné} jusqu'à la fin de son tour. Tant qu'elle est ainsi {@condition Empoisonné}, une créature est {@condition Incapable}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Additional Lair Actions",
+					"name": "Actions de repaire supplémentaires",
 					"entries": [
-						"At your discretion, a legendary ({@creature Adult Red Dragon||adult} or {@creature Ancient Red Dragon||ancient}) red dragon can use one or both of the following additional lair actions while in its lair:",
+						"À votre discrétion, un dragon rouge légendaire ({@creature Dragon rouge adulte||adulte} ou {@creature Dragon rouge antique||ancien}) peut utiliser l'une ou les deux actions de repaire supplémentaires suivantes tant qu'il se trouve dans son repaire :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Noxious Smoke",
-									"entry": "A cloud of thick, dark smoke fills a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The sphere spreads around corners, and its area is {@quickref Vision and Light|PHB|2||heavily obscured}. A creature other than the dragon that starts its turn in the cloud or enters it for the first time on its turn must succeed on a {@dc 15} Constitution saving throw or be {@condition Empoisonné} until the end of its turn. The cloud lasts until initiative count 20 on the next round."
+									"name": "Fumée nocive",
+									"entry": "Un nuage de fumée épaisse et sombre remplit une sphère de 6 mètres de rayon centrée sur un point que le dragon peut voir dans un rayon de 36 mètres autour de lui. La sphère se propage autour des angles, et sa zone est {@quickref Vision and Light|PHB|2||lourdement obscurcie}. Une créature autre que le dragon qui commence son tour dans le nuage ou qui y pénètre pour la première fois lors de son tour doit réussir un jet de sauvegarde de Constitution {@dc 15} ou être {@condition Empoisonné} jusqu'à la fin de son tour. Le nuage persiste jusqu'à l'initiative 20 du round suivant."
 								},
 								{
 									"type": "item",
-									"name": "Searing Heat",
-									"entry": "Searing heat spreads out in a 15-foot-radius sphere centered on a point the dragon can see within 120 feet of it. Any creature that enters the affected area or starts its turn there must make a {@dc 15} Constitution saving throw, taking 10 ({@damage 3d6}) fire damage on a failed save, or half as much damage on a successful one. The heat lasts until initiative count 20 on the next round."
+									"name": "Chaleur ardente",
+									"entry": "Une chaleur ardente se répand dans une sphère de 4,50 mètres de rayon centrée sur un point que le dragon peut voir dans un rayon de 36 mètres autour de lui. Toute créature qui entre dans la zone affectée ou qui y commence son tour doit faire un jet de sauvegarde de Constitution {@dc 15}, subissant 10 ({@damage 3d6}) dégâts de feu en cas d'échec, ou la moitié de ces dégâts seulement en cas de réussite. La chaleur persiste jusqu'à l'initiative 20 du round suivant."
 								}
 							]
 						}
@@ -5582,39 +5582,39 @@
 				}
 			],
 			"regionalEffects": [
-				"The region containing a legendary red dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+				"La région abritant le repaire d'un dragon rouge légendaire est déformée par la magie du dragon, ce qui produit un ou plusieurs des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"Small earthquakes are common within 6 miles of the dragon's lair.",
-						"Water sources within 1 mile of the lair are supernaturally warm and tainted by sulfur.",
-						"Rocky fissures within 1 mile of the dragon's lair form portals to the Elemental Plane of Fire, allowing creatures of elemental fire into the world to dwell nearby."
+						"De petits tremblements de terre sont fréquents dans un rayon de 10 kilomètres autour du repaire du dragon.",
+						"Les points d'eau dans un rayon de 1,5 kilomètre autour du repaire sont surnaturellement chauds et souillés par le soufre.",
+						"Les fissures rocheuses dans un rayon de 1,5 kilomètre autour du repaire du dragon forment des portails vers le Plan Élémentaire du Feu, laissant des créatures de feu élémentaire pénétrer dans le monde et s'installer aux alentours."
 					]
 				},
-				"If the dragon dies, these effects fade over the course of {@dice 1d10} days.",
+				"Si le dragon meurt, ces effets s'estompent en l'espace de {@dice 1d10} jours.",
 				{
 					"type": "entries",
-					"name": "Additional Regional Effects",
+					"name": "Effets régionaux supplémentaires",
 					"entries": [
-						"Any of these effects might appear in the area around a red dragon's lair, in addition to or instead of the effects described in the {@i Monster Manual}:",
+						"N'importe lequel de ces effets peut apparaître dans la zone entourant le repaire d'un dragon rouge, en plus ou à la place des effets décrits dans le {@i Manuel des Monstres} :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Desertification",
-									"entry": "Precipitation is almost nonexistent within 6 miles of the dragon's lair, making the land parched and arid and most plant life withered and brown."
+									"name": "Désertification",
+									"entry": "Les précipitations sont presque inexistantes dans un rayon de 10 kilomètres autour du repaire du dragon, rendant la terre parcheminée et aride, et la plupart des plantes flétries et brunes."
 								},
 								{
 									"type": "item",
-									"name": "Fiery Senses",
-									"entry": "The dragon can hear up to 30 feet through any open flame within 1 mile of the dragon's lair."
+									"name": "Sens du feu",
+									"entry": "Le dragon peut entendre jusqu'à 9 mètres à travers toute flamme nue dans un rayon de 1,5 kilomètre autour de son repaire."
 								},
 								{
 									"type": "item",
-									"name": "Ominous Flames",
-									"entry": "Open flames within 6 miles of the dragon's lair are tinged dark red, hiss and crackle constantly, and throw off embers and showers of sparks."
+									"name": "Flammes inquiétantes",
+									"entry": "Les flammes nues dans un rayon de 10 kilomètres autour du repaire du dragon sont teintées de rouge sombre, sifflent et crépitent sans cesse, et projettent des braises et des gerbes d'étincelles."
 								}
 							]
 						}
@@ -5803,7 +5803,7 @@
 						{
 							"type": "item",
 							"name": "Thriving Wildlife",
-							"entry": "{@creature Giant spider||Giant spiders} (a sapphire dragon's favorite prey) are attracted to the area within 6 miles of the lair and settle there in large numbers."
+							"entry": "{@creature Araignée géante||Giant spiders} (a sapphire dragon's favorite prey) are attracted to the area within 6 miles of the lair and settle there in large numbers."
 						}
 					]
 				},
@@ -5842,7 +5842,7 @@
 				{
 					"type": "list",
 					"items": [
-						"{@creature Giant spider||Giant spiders} are attracted to the area within 6 miles of the lair and settle there in large numbers.",
+						"{@creature Araignée géante||Giant spiders} are attracted to the area within 6 miles of the lair and settle there in large numbers.",
 						"Natural stone within 6 miles of the lair grows plentiful crystal formations and sapphire gemstone veins, particularly underground.",
 						"Natural stone within 6 miles of the lair becomes a conduit for the dragon's psionic presence. As an action, the dragon can cast the {@spell clairvoyance} spell, requiring no components, targeting any natural stone formation in that region."
 					]
@@ -6024,7 +6024,7 @@
 						{
 							"type": "item",
 							"name": "Biting Chill",
-							"entry": "Extreme cold envelops the land within 6 miles of the scion (see the {@book Dungeon Master's Guide|DMG} for rules on {@hazard Froid rigoureux}). If the climate in the area already features extreme cold, the cold is numbing\u2014creatures in the area without immunity or resistance to cold damage have disadvantage on Strength and Dexterity checks."
+							"entry": "Extreme cold envelops the land within 6 miles of the scion (see the {@book Dungeon Master's Guide|DMG} for rules on {@hazard Froid rigoureux}). If the climate in the area already features extreme cold, the cold is numbing—creatures in the area without immunity or resistance to cold damage have disadvantage on Strength and Dexterity checks."
 						},
 						{
 							"type": "item",
@@ -6053,7 +6053,7 @@
 					"items": [
 						"Caverns, tunnels, and pools of water within 120 feet of the sea fury become foggy or murky, to the extent that the area becomes heavily obscured.",
 						"The sea fury conjures a 15-foot cube of water that fills an unoccupied space it can see within 30 feet of it, then moves the water in a straight line up to 60 feet, after which the water disperses. Any creature that comes into contact with the rushing {@item Vague} must succeed on a {@dc 16} Strength saving throw or be knocked {@condition À terre} by it and pushed 15 feet along its course.",
-						"The sea fury calls forth the spirit of a dead sailor or sea hag that met its end in the lair. This spirit has the statistics of a {@creature specter} and lasts until the sea fury uses another lair action. The specter appears in an unoccupied space within 30 feet of the sea fury and obeys the sea fury's commands."
+						"The sea fury calls forth the spirit of a dead sailor or sea hag that met its end in the lair. This spirit has the statistics of a {@creature Spectre} and lasts until the sea fury uses another lair action. The specter appears in an unoccupied space within 30 feet of the sea fury and obeys the sea fury's commands."
 					]
 				}
 			],
@@ -6064,7 +6064,7 @@
 					"items": [
 						"Sea water within 5 miles of the lair becomes coarse and choppy, as if whipped by an unseen wind.",
 						"Sea grass within 1 mile of the lair is imbued with a foul mockery of life, grasping ineffectually at any creature that passes within 5 feet of it.",
-						"Ordinary {@creature crab||crabs} and {@creature octopus||octopi} within 1 mile of the lair grow in size to become {@creature giant crab||giant crabs} and {@creature giant octopus||giant octopi}, respectively. These creatures serve the sea fury as spies and guards."
+						"Ordinary {@creature Crabe||crabs} and {@creature Pieuvre||octopi} within 1 mile of the lair grow in size to become {@creature Crabe géant||giant crabs} and {@creature Pieuvre géante||giant octopi}, respectively. These creatures serve the sea fury as spies and guards."
 					]
 				}
 			]
@@ -6080,12 +6080,12 @@
 					"lairActions": {
 						"mode": "appendArr",
 						"items": [
-							"A powerful sea hag might have the following additional lair actions:",
+							"Une goule des mers puissante peut disposer des actions de repaire supplémentaires suivantes :",
 							{
 								"type": "list",
 								"items": [
-									"The hag fills up to four 10-foot cubes of water with ink. The inky areas are heavily obscured for 1 minute, although a steady, strong underwater current disperses the ink on initiative count 10. The hag ignores the obscuring effect of the ink.",
-									"The hag chooses one humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the {@spell Simulacre} spell). This hideous simulacrum is formed out of seaweed, slime, half-eaten fish, and other garbage, but still generally resembles the creature it is imitating. This simulacrum obeys the hag's commands and is destroyed on initiative count 20 on the next round."
+									"La goule remplit d'encre jusqu'à quatre cubes d'eau de 3 mètres de côté. Ces zones d'encre sont lourdement obscurcies pendant 1 minute, bien qu'un courant sous-marin puissant et régulier disperse l'encre à l'initiative 10. La goule ignore l'effet d'obscurcissement de l'encre.",
+									"La goule choisit un humanoïde dans le repaire et crée instantanément un simulacre de cette créature (comme si elle avait lancé le sort {@spell Simulacre}). Cet affreux simulacre est formé d'algues, de vase, de poissons à demi dévorés et d'autres déchets, mais il ressemble encore globalement à la créature qu'il imite. Ce simulacre obéit aux ordres de la goule et est détruit à l'initiative 20 du round suivant."
 								]
 							}
 						]
@@ -6093,13 +6093,13 @@
 					"regionalEffects": {
 						"mode": "appendArr",
 						"items": [
-							"A powerful sea hag creates one or more of the following additional regional effects within 1 mile of her lair:",
+							"Une goule des mers puissante crée un ou plusieurs des effets régionaux supplémentaires suivants dans un rayon de 1,5 kilomètre autour de son repaire :",
 							{
 								"type": "list",
 								"items": [
-									"Most surfaces are covered by a thin film of slime, which is slick and sticks to anything that touches it.",
-									"Currents and tides are exceptionally strong and treacherous. Any ability check made to safely navigate or control a vessel moving through these waters has disadvantage.",
-									"Shores are littered with dead, rotting fish. The hag can sense when one of the fish is handled and cause it to speak with her voice."
+									"La plupart des surfaces sont recouvertes d'une fine pellicule de bave, glissante et qui colle à tout ce qui la touche.",
+									"Les courants et les marées sont exceptionnellement forts et traîtres. Tout test de caractéristique effectué pour naviguer en toute sécurité ou contrôler un vaisseau traversant ces eaux se fait avec un désavantage.",
+									"Les rivages sont jonchés de poissons morts et en putréfaction. La goule sent quand on manipule l'un de ces poissons et peut le faire parler de sa voix."
 								]
 							}
 						]
@@ -6195,27 +6195,27 @@
 				}
 			],
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le dragon utilise une action de repaire pour produire l'un des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"The dragon creates fog as if it had cast the {@spell Nuage de brouillard} spell. The fog lasts until initiative count 20 on the next round.",
-						"A blisteringly cold wind blows through the lair near the dragon. Each creature within 120 feet of the dragon must succeed on a {@dc 15} Constitution saving throw or take 5 ({@damage 1d10}) cold damage. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a {@chance 50} chance of being extinguished."
+						"Le dragon crée du brouillard comme s'il avait lancé le sort {@spell Nuage de brouillard}. Le brouillard persiste jusqu'à l'initiative 20 du round suivant.",
+						"Un vent d'un froid mordant souffle dans le repaire, près du dragon. Chaque créature dans un rayon de 36 mètres autour du dragon doit réussir un jet de sauvegarde de Constitution {@dc 15} ou subir 5 ({@damage 1d10}) dégâts de froid. Les gaz et les vapeurs sont dispersés par le vent, et les flammes non protégées sont éteintes. Les flammes protégées, telles que les lanternes, ont {@chance 50} de chances de s'éteindre."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Additional Lair Action",
+					"name": "Action de repaire supplémentaire",
 					"entries": [
-						"At your discretion, a legendary ({@creature Adult Silver Dragon||adult} or {@creature Ancient Silver Dragon||ancient}) silver dragon can use the following additional lair action while in its lair:",
+						"À votre discrétion, un dragon d'argent légendaire ({@creature Dragon d'argent adulte||adulte} ou {@creature Dragon d'argent antique||ancien}) peut utiliser l'action de repaire supplémentaire suivante tant qu'il se trouve dans son repaire :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Icy Grip",
-									"entry": "A sudden, supernatural chill fills the lair near the dragon. Each creature of the dragon's choice that it can see within 120 feet of it must succeed on a {@dc 15} Constitution saving throw or be {@condition Entravé} until initiative count 20 on the next round. Creatures that have resistance to cold damage have advantage on the saving throw; creatures that have immunity to cold damage succeed automatically."
+									"name": "Poigne glaciale",
+									"entry": "Un froid surnaturel et soudain emplit le repaire, près du dragon. Chaque créature, au choix du dragon, qu'il peut voir dans un rayon de 36 mètres autour de lui doit réussir un jet de sauvegarde de Constitution {@dc 15} ou être {@condition Entravé} jusqu'à l'initiative 20 du round suivant. Les créatures qui ont une résistance aux dégâts de froid ont l'avantage au jet de sauvegarde ; les créatures qui ont une immunité aux dégâts de froid le réussissent automatiquement."
 								}
 							]
 						}
@@ -6224,16 +6224,16 @@
 				}
 			],
 			"regionalEffects": [
-				"The region containing a legendary silver dragon's lair is warped by the dragon's magic, which creates one or more of the following effects.",
+				"La région abritant le repaire d'un dragon d'argent légendaire est déformée par la magie du dragon, ce qui produit un ou plusieurs des effets suivants.",
 				{
 					"type": "list",
 					"items": [
-						"Once per day, the dragon can alter the weather in a 6-mile radius centered on its lair. The dragon doesn't need to be outdoors; otherwise the effect is identical to the {@spell Contrôle du climat} spell.",
-						"Within 1 mile of the lair, winds buoy non-evil creatures that fall due to no act of the dragon's or its allies. Such creatures descend at a rate of 60 feet per round and take no falling damage.",
-						"Given days or longer to work, the dragon can make clouds and fog within its lair as solid as stone, forming structures and other objects as it wishes."
+						"Une fois par jour, le dragon peut modifier la météo dans un rayon de 10 kilomètres centré sur son repaire. Le dragon n'a pas besoin d'être à l'extérieur ; sinon, l'effet est identique au sort {@spell Contrôle du climat}.",
+						"Dans un rayon de 1,5 kilomètre autour du repaire, les vents portent les créatures non mauvaises qui tombent sans que ce soit le fait du dragon ou de ses alliés. Ces créatures descendent au rythme de 18 mètres par round et ne subissent aucun dégât de chute.",
+						"En y consacrant plusieurs jours ou plus, le dragon peut rendre aussi solides que la pierre les nuages et le brouillard de son repaire, formant des structures et d'autres objets à sa guise."
 					]
 				},
-				"If the dragon dies, changed weather reverts to normal, as described in the spell, and the other effects fade in {@dice 1d10} days."
+				"Si le dragon meurt, la météo modifiée redevient normale, comme décrit dans le sort, et les autres effets s'estompent en {@dice 1d10} jours."
 			],
 			"_versions": [
 				{
@@ -6318,14 +6318,14 @@
 			"source": "MM",
 			"page": 281,
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the sphinx can take a lair action to cause one of the following magical effects; the sphinx can't use an effect again until it finishes a short or long rest:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le sphinx peut utiliser une action de repaire pour produire l'un des effets magiques suivants ; le sphinx ne peut pas réutiliser un effet avant d'avoir terminé un repos court ou long :",
 				{
 					"type": "list",
 					"items": [
-						"The flow of time is altered such that every creature in the lair must reroll initiative. The sphinx can choose not to reroll.",
-						"The effects of time are altered such that every creature in the lair must succeed on a {@dc 15} Constitution saving throw or become {@dice 1d20} years older or younger (the sphinx's choice), but never any younger than 1 year old. A {@spell Restauration supérieure} spell can restore a creature's age to normal.",
-						"The flow of time within the lair is altered such that everything within moves up to 10 years forward or backward (sphinx's choice). Only the sphinx is immediately aware of the time change. A {@spell Souhait} spell can return the caster and up to seven other creatures designated by the caster to their normal time.",
-						"The sphinx shifts itself and up to seven other creatures it can see within in its lair to another plane of existence. Once outside its lair, the sphinx can't use lair actions, but it can return to its lair as a bonus action on its turn, taking up to seven creatures with it."
+						"L'écoulement du temps est altéré de telle sorte que chaque créature du repaire doit relancer son initiative. Le sphinx peut choisir de ne pas relancer la sienne.",
+						"Les effets du temps sont altérés de telle sorte que chaque créature du repaire doit réussir un jet de sauvegarde de Constitution {@dc 15} ou vieillir ou rajeunir de {@dice 1d20} années (au choix du sphinx), sans jamais pouvoir avoir moins de 1 an. Un sort de {@spell Restauration supérieure} peut redonner à une créature son âge normal.",
+						"L'écoulement du temps dans le repaire est altéré de telle sorte que tout ce qui s'y trouve avance ou recule de 10 ans au maximum (au choix du sphinx). Seul le sphinx prend immédiatement conscience de ce changement temporel. Un sort de {@spell Souhait} peut ramener le lanceur de sorts et jusqu'à sept autres créatures désignées par lui à leur époque normale.",
+						"Le sphinx se transporte lui-même, ainsi que jusqu'à sept autres créatures qu'il peut voir dans son repaire, vers un autre plan d'existence. Une fois hors de son repaire, le sphinx ne peut plus utiliser d'actions de repaire, mais il peut regagner son repaire par une action bonus lors de son tour, en emmenant jusqu'à sept créatures avec lui."
 					]
 				}
 			]
@@ -6547,8 +6547,8 @@
 					"items": [
 						"Until initiative count 20 of the next round, Strahd can pass through solid walls, doors, ceilings, and floors as if they weren't there.",
 						"Strahd targets any number of doors and windows that he can see, causing each one to either open or close as he wishes. Closed doors can be magically locked (needing a successful {@dc 20} Strength check to force open) until Strahd chooses to end the effect, or until Strahd uses this lair action again.",
-						"Strahd summons the angry spirit of one who has died in the castle. The apparition appears next to a hostile creature that Strahd can see, makes an attack against that creature, and then disappears. The apparition has the statistics of a {@creature specter}.",
-						"Strahd targets one Medium or smaller creature that casts a shadow. The target's shadow must be visible to Strahd and within 30 feet of him. If the target fails a {@dc 17} Charisma saving throw, its shadow detaches from it and becomes a {@creature shadow} that obeys Strahd's commands, acting on initiative count 20. A {@spell Restauration supérieure} spell or a {@spell Délivrance de la malédiction} spell cast on the target restores its natural shadow, but only if its undead shadow has been destroyed."
+						"Strahd summons the angry spirit of one who has died in the castle. The apparition appears next to a hostile creature that Strahd can see, makes an attack against that creature, and then disappears. The apparition has the statistics of a {@creature Spectre}.",
+						"Strahd targets one Medium or smaller creature that casts a shadow. The target's shadow must be visible to Strahd and within 30 feet of him. If the target fails a {@dc 17} Charisma saving throw, its shadow detaches from it and becomes a {@creature Ombre} that obeys Strahd's commands, acting on initiative count 20. A {@spell Restauration supérieure} spell or a {@spell Délivrance de la malédiction} spell cast on the target restores its natural shadow, but only if its undead shadow has been destroyed."
 					]
 				}
 			]
@@ -6812,17 +6812,17 @@
 			"source": "MM",
 			"page": 294,
 			"regionalEffects": [
-				"Transformed by the creature's celestial presence, the domain of a unicorn might include any of the following magical effects:",
+				"Transformé par la présence céleste de la créature, le domaine d'une licorne peut présenter n'importe lesquels des effets magiques suivants :",
 				{
 					"type": "list",
 					"items": [
-						"Open flames of a non magical nature are extinguished within the unicorn's domain. Torches and campfires refuse to burn, but closed lanterns are unaffected.",
-						"Creatures native to the unicorn's domain have an easier time hiding; they have advantage on all Dexterity ({@skill Discrétion}) checks made to hide.",
-						"When a good-aligned creature casts a spell or uses a magical effect that causes another good-aligned creature to regain hit points, the target regains the maximum number of hit points possible for the spell or effect.",
-						"Curses affecting any good-aligned creature are suppressed."
+						"Les flammes nues de nature non magique s'éteignent dans le domaine de la licorne. Les torches et les feux de camp refusent de brûler, mais les lanternes fermées ne sont pas affectées.",
+						"Les créatures originaires du domaine de la licorne se cachent plus facilement ; elles ont l'avantage à tous les jets de Dextérité ({@skill Discrétion}) effectués pour se cacher.",
+						"Quand une créature d'alignement bon lance un sort ou utilise un effet magique qui permet à une autre créature d'alignement bon de récupérer des points de vie, la cible récupère le nombre maximum de points de vie possible pour le sort ou l'effet.",
+						"Les malédictions qui affectent une créature d'alignement bon, quelle qu'elle soit, sont supprimées."
 					]
 				},
-				"If the unicorn dies, these effects end immediately."
+				"Si la licorne meurt, ces effets prennent fin immédiatement."
 			]
 		},
 		{
@@ -6874,7 +6874,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Food instantly molders and water instantly evaporates when brought into the lair. Other nonmagical drinks are spoiled\u2014wine turning to vinegar, for instance.",
+						"Food instantly molders and water instantly evaporates when brought into the lair. Other nonmagical drinks are spoiled—wine turning to vinegar, for instance.",
 						"{@spell Divination} spells cast within the lair by creatures other than Valin have a {@chance 25} chance to provide misleading results, as determined by the DM. If a {@spell divination} spell already has a chance to fail or become unreliable when cast multiple times, that chance increases by 25 percent.",
 						"A creature that takes treasure from the lair is cursed until the treasure is returned. The cursed target has disadvantage on all saving throws. The curse lasts until removed by a {@spell Délivrance de la malédiction} spell or other magic."
 					]
@@ -6887,17 +6887,17 @@
 			"source": "MM",
 			"page": 297,
 			"regionalEffects": [
-				"The region surrounding a vampire's lair is warped by the creature's unnatural presence, creating any of the following effects:",
+				"La région entourant le repaire d'un vampire est déformée par la présence surnaturelle de la créature, ce qui produit n'importe lesquels des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"There's a noticeable increase in the populations of bats, rats, and wolves in the region.",
-						"Plants within 500 feet of the lair wither, and their stems and branches become twisted and thorny.",
-						"Shadows cast within 500 feet of the lair seem abnormally gaunt and sometimes move as though alive.",
-						"A creeping fog clings to the ground within 500 feet of the vampire's lair. The fog occasionally takes eerie forms, such as grasping claws and writhing serpents."
+						"On observe une augmentation notable des populations de chauves-souris, de rats et de loups dans la région.",
+						"Les plantes dans un rayon de 150 mètres autour du repaire se flétrissent, et leurs tiges et leurs branches deviennent tordues et épineuses.",
+						"Les ombres portées dans un rayon de 150 mètres autour du repaire semblent anormalement décharnées et bougent parfois comme si elles étaient vivantes.",
+						"Un brouillard rampant s'accroche au sol dans un rayon de 150 mètres autour du repaire du vampire. Le brouillard prend parfois des formes inquiétantes, telles que des griffes agrippantes et des serpents qui se tordent."
 					]
 				},
-				"If the vampire is destroyed, these effects end after {@dice 2d6} days."
+				"Si le vampire est détruit, ces effets prennent fin après {@dice 2d6} jours."
 			]
 		},
 		{
@@ -7091,33 +7091,33 @@
 				}
 			],
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+				"À l'initiative 20 (en perdant les égalités d'initiative), le dragon utilise une action de repaire pour produire l'un des effets suivants ; le dragon ne peut pas utiliser le même effet deux rounds de suite :",
 				{
 					"type": "list",
 					"items": [
-						"Freezing fog fills a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The fog spreads around corners, and its area is heavily obscured. Each creature in the fog when it appears must make a {@dc 10} Constitution saving throw, taking 10 ({@damage 3d6}) cold damage on a failed save, or half as much damage on a successful one. A creature that ends its turn in the fog takes 10 ({@damage 3d6}) cold damage. A wind of at least 20 miles per hour disperses the fog. The fog otherwise lasts until the dragon uses this lair action again or until the dragon dies.",
-						"Jagged ice shards fall from the ceiling, striking up to three creatures underneath that the dragon can see within 120 feet of it. The dragon makes one ranged attack roll ({@hit 7} to hit) against each target. On a hit, the target takes 10 ({@damage 3d6}) piercing damage.",
-						"The dragon creates an opaque wall of ice on a solid surface it can see within 120 feet of it. The wall can be up to 30 feet long, 30 feet high, and 1 foot thick. When the wall appears, each creature within its area is pushed 5 feet out of the wall's space; appearing on whichever side of the wall it wants. Each 10-foot section of the wall has AC 5, 30 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage. The wall disappears when the dragon uses this lair action again or when the dragon dies."
+						"Un brouillard glacé remplit une sphère de 6 mètres de rayon centrée sur un point que le dragon peut voir dans un rayon de 36 mètres autour de lui. Le brouillard se propage autour des angles, et sa zone est lourdement obscurcie. Chaque créature dans le brouillard quand il apparaît doit faire un jet de sauvegarde de Constitution {@dc 10}, subissant 10 ({@damage 3d6}) dégâts de froid en cas d'échec, ou la moitié de ces dégâts seulement en cas de réussite. Une créature qui termine son tour dans le brouillard subit 10 ({@damage 3d6}) dégâts de froid. Un vent d'au moins 32 kilomètres par heure disperse le brouillard. Sinon, le brouillard persiste jusqu'à ce que le dragon réutilise cette action de repaire ou jusqu'à sa mort.",
+						"Des éclats de glace déchiquetés tombent du plafond, frappant jusqu'à trois créatures se trouvant en dessous, parmi celles que le dragon peut voir dans un rayon de 36 mètres autour de lui. Le dragon effectue un jet d'attaque à distance ({@hit 7} pour toucher) contre chaque cible. En cas de coup, la cible subit 10 ({@damage 3d6}) dégâts perforants.",
+						"Le dragon crée un mur de glace opaque sur une surface solide qu'il peut voir dans un rayon de 36 mètres autour de lui. Le mur peut mesurer jusqu'à 9 mètres de long, 9 mètres de haut et 30 centimètres d'épaisseur. Quand le mur apparaît, chaque créature dans sa zone est repoussée de 1,50 mètre hors de l'espace du mur, apparaissant du côté du mur de son choix. Chaque section de mur de 3 mètres a une CA de 5, 30 points de vie, une vulnérabilité aux dégâts de feu, et une immunité aux dégâts d'acide, de froid, nécrotiques, de poison et psychiques. Le mur disparaît quand le dragon réutilise cette action de repaire ou quand il meurt."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Additional Lair Actions",
+					"name": "Actions de repaire supplémentaires",
 					"entries": [
-						"At your discretion, a legendary ({@creature Adult White Dragon||adult} or {@creature Ancient White Dragon||ancient}) white dragon can use one or both of the following additional lair actions while in its lair:",
+						"À votre discrétion, un dragon blanc légendaire ({@creature Dragon blanc adulte||adulte} ou {@creature Dragon blanc antique||ancien}) peut utiliser l'une ou les deux actions de repaire supplémentaires suivantes tant qu'il se trouve dans son repaire :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Blinding Sleet",
-									"entry": "Driving sleet falls in a 40-foot-high, 20-foot-radius cylinder centered on a point the dragon can see within 120 feet of it. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or be {@condition Aveuglé} until initiative count 20 on the next round."
+									"name": "Grésil aveuglant",
+									"entry": "Un grésil battant tombe dans un cylindre haut de 12 mètres et d'un rayon de 6 mètres, centré sur un point que le dragon peut voir dans un rayon de 36 mètres autour de lui. Chaque créature dans cette zone doit réussir un jet de sauvegarde de Constitution {@dc 15} ou être {@condition Aveuglé} jusqu'à l'initiative 20 du round suivant."
 								},
 								{
 									"type": "item",
-									"name": "Whirling Wind",
-									"entry": "A strong wind blows in a 30-foot-radius sphere centered on the dragon (see the {@book Dungeon Master's Guide|DMG} for rules on {@book strong wind|DMG|5|Strong Wind}). The dragon's flying is not affected by this wind, which lasts until the next time the dragon uses a lair action or until the dragon dies."
+									"name": "Vent tourbillonnant",
+									"entry": "Un vent puissant souffle dans une sphère de 9 mètres de rayon centrée sur le dragon (voir le {@book Dungeon Master's Guide|DMG} pour les règles sur le {@book strong wind|DMG|5|vent fort}). Le vol du dragon n'est pas affecté par ce vent, qui persiste jusqu'à la prochaine fois que le dragon utilise une action de repaire ou jusqu'à sa mort."
 								}
 							]
 						}
@@ -7126,35 +7126,35 @@
 				}
 			],
 			"regionalEffects": [
-				"The region containing a legendary white dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+				"La région abritant le repaire d'un dragon blanc légendaire est déformée par la magie du dragon, ce qui produit un ou plusieurs des effets suivants :",
 				{
 					"type": "list",
 					"items": [
-						"Chilly fog lightly obscures the land within 6 miles of the dragon's lair.",
-						"Freezing precipitation falls within 6 miles of the dragon's lair, sometimes forming blizzard conditions when the dragon is at rest.",
-						"Icy walls block off areas in the dragon's lair. Each wall is 6 inches thick, and a 10-foot section has AC 5, 15 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage.",
-						"If the dragon wishes to move through a wall, it can do so without slowing down. The portion of the wall the dragon moves through is destroyed, however."
+						"Un brouillard glacial obscurcit légèrement le terrain dans un rayon de 10 kilomètres autour du repaire du dragon.",
+						"Des précipitations glaciales tombent dans un rayon de 10 kilomètres autour du repaire du dragon, formant parfois une véritable tempête de neige quand le dragon se repose.",
+						"Des murs de glace isolent certaines zones du repaire du dragon. Chaque mur est épais de 15 centimètres, et une section de 3 mètres a une CA de 5, 15 points de vie, une vulnérabilité aux dégâts de feu, et une immunité aux dégâts d'acide, de froid, nécrotiques, de poison et psychiques.",
+						"Si le dragon souhaite traverser un mur, il peut le faire sans ralentir. Cependant, la portion du mur traversée par le dragon est détruite."
 					]
 				},
-				"If the dragon dies, the fog and precipitation fade within 1 day. The ice walls melt over the course of {@dice 1d10} days.",
+				"Si le dragon meurt, le brouillard et les précipitations disparaissent en l'espace d'1 jour. Les murs de glace fondent en l'espace de {@dice 1d10} jours.",
 				{
 					"type": "entries",
-					"name": "Additional Regional Effects",
+					"name": "Effets régionaux supplémentaires",
 					"entries": [
-						"Any of these effects might appear in the area around a white dragon's lair, in addition to or instead of the effects described in the {@i Monster Manual}:",
+						"N'importe lequel de ces effets peut apparaître dans la zone entourant le repaire d'un dragon blanc, en plus ou à la place des effets décrits dans le {@i Manuel des Monstres} :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Biting Chill",
-									"entry": "Extreme cold envelops the land within 6 miles of the dragon's lair (see the {@book Dungeon Master's Guide|DMG} for rules on {@book extreme cold|DMG|5|Extreme Cold}). If the climate in the area already features extreme cold, the cold is numbing, giving creatures in the area without immunity or resistance to cold damage disadvantage on Strength and Dexterity checks."
+									"name": "Froid mordant",
+									"entry": "Un froid extrême enveloppe le terrain dans un rayon de 10 kilomètres autour du repaire du dragon (voir le {@book Dungeon Master's Guide|DMG} pour les règles sur le {@book extreme cold|DMG|5|froid extrême}). Si le climat de la zone comporte déjà un froid extrême, celui-ci devient engourdissant, donnant aux créatures de la zone dépourvues d'immunité ou de résistance aux dégâts de froid un désavantage aux tests de Force et de Dextérité."
 								},
 								{
 									"type": "item",
-									"name": "Mirror Ice",
-									"entry": "The icy surfaces in the dragon's lair reflect light like mirrors, giving creatures in the lair other than the dragon disadvantage on Dexterity ({@skill Discrétion}) checks made to hide. In addition, at each intersection or branching passage, any creature other than the dragon has a {@chance 50} chance of going in a different direction from the direction it intends."
+									"name": "Glace miroir",
+									"entry": "Les surfaces glacées du repaire du dragon reflètent la lumière comme des miroirs, donnant aux créatures du repaire autres que le dragon un désavantage aux jets de Dextérité ({@skill Discrétion}) effectués pour se cacher. De plus, à chaque intersection ou embranchement de passage, toute créature autre que le dragon a {@chance 50} de chances de partir dans une direction différente de celle qu'elle comptait prendre."
 								}
 							]
 						}
@@ -7226,7 +7226,7 @@
 						{
 							"type": "item",
 							"name": "Spectral Serfs",
-							"entry": "A Humanoid that dies in Mordent rises 7 days later as a {@creature Specter|XMM} under Lord Godefroy's control, unless the Humanoid is restored to life."
+							"entry": "A Humanoid that dies in Mordent rises 7 days later as a {@creature Spectre|XMM} under Lord Godefroy's control, unless the Humanoid is restored to life."
 						}
 					]
 				},
@@ -7283,7 +7283,7 @@
 							"type": "item",
 							"name": "Iron Spike",
 							"entries": [
-								"Yeenoghu causes an iron spike\u20145 feet tall and 1 inch in diameter\u2014to burst from the ground at a point he can see within 100 feet of him. Any creature in the space where the spike emerges must make a {@dc 24} Dexterity saving throw. On a failed save, the creature takes 27 ({@damage 6d8}) piercing damage and is {@condition Entravé} by being impaled on the spike. A creature can use an action to remove itself (or a creature it can reach) from the spike, ending the restrained condition."
+								"Yeenoghu causes an iron spike—5 feet tall and 1 inch in diameter—to burst from the ground at a point he can see within 100 feet of him. Any creature in the space where the spike emerges must make a {@dc 24} Dexterity saving throw. On a failed save, the creature takes 27 ({@damage 6d8}) piercing damage and is {@condition Entravé} by being impaled on the spike. A creature can use an action to remove itself (or a creature it can reach) from the spike, ending the restrained condition."
 							]
 						},
 						{
@@ -7365,23 +7365,23 @@
 							],
 							"rows": [
 								[
-									"01\u201320",
+									"01–20",
 									"\"I get caught up in the flow of anger, and try to stoke others around me into forming an angry mob.\""
 								],
 								[
-									"21\u201340",
+									"21–40",
 									"\"The flesh of other intelligent creatures is delicious!\""
 								],
 								[
-									"41\u201360",
+									"41–60",
 									"\"I rail against the laws and customs of civilization, attempting to return to a more primitive time.\""
 								],
 								[
-									"61\u201380",
+									"61–80",
 									"\"I hunger for the deaths of others, and am constantly starting fights in the hope of seeing bloodshed.\""
 								],
 								[
-									"81\u201300",
+									"81–00",
 									"\"I keep trophies from the bodies I have slain, turning them into adornments.\""
 								]
 							]
@@ -7613,7 +7613,7 @@
 							"type": "item",
 							"name": "Summon Fungi",
 							"entries": [
-								"Zuggtmoy causes four {@creature gas spore||gas spores} or {@creature violet fungus||violet fungi} to appear in unoccupied spaces that she chooses within the lair. They vanish after 1 hour."
+								"Zuggtmoy causes four {@creature Sporule gazeuse||gas spores} or {@creature Fungus violet||violet fungi} to appear in unoccupied spaces that she chooses within the lair. They vanish after 1 hour."
 							]
 						},
 						{
@@ -7667,7 +7667,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Zuggtmoy causes four {@creature gas spore||gas spores} or {@creature violet fungus||violet fungi} to appear in unoccupied spaces that she chooses within the lair. They vanish after 1 hour.",
+						"Zuggtmoy causes four {@creature Sporule gazeuse||gas spores} or {@creature Fungus violet||violet fungi} to appear in unoccupied spaces that she chooses within the lair. They vanish after 1 hour.",
 						"Up to four plant creatures that are friendly to Zuggtmoy and that Zuggtmoy can see can use their reactions to move up to their speed and make one weapon attack.",
 						"Zuggtmoy uses either her Infestation Spores or her Mind Control Spores, centered on a mushroom or other fungus within her lair, instead of on herself."
 					]
@@ -7702,23 +7702,23 @@
 							],
 							"rows": [
 								[
-									"01\u201320",
+									"01–20",
 									"\"I see visions in the world around me that others do not.\""
 								],
 								[
-									"21\u201340",
+									"21–40",
 									"\"I periodically slip into a catatonic state, staring off into the distance for long stretches at a time.\""
 								],
 								[
-									"41\u201360",
+									"41–60",
 									"\"I see an altered version of reality, with my mind convincing itself that things are true even in the face of overwhelming evidence to the contrary.\""
 								],
 								[
-									"61\u201380",
+									"61–80",
 									"\"My mind is slipping away, and my intelligence seems to wax and wane.\""
 								],
 								[
-									"81\u201300",
+									"81–00",
 									"\"I am constantly scratching at unseen fungal infections.\""
 								]
 							]

@@ -1839,10 +1839,7 @@
 						"with": "Fazrian",
 						"flags": "i"
 					},
-					"action": {
-						"mode": "removeArr",
-						"names": "Toucher bénéfique (4/jour)"
-					}
+					"action": []
 				}
 			},
 			"alignment": [
@@ -5303,28 +5300,7 @@
 						"with": "Thwad",
 						"flags": "i"
 					},
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Attaques multiples",
-							"items": {
-								"name": "Multiattack",
-								"entries": [
-									"Thwad makes three attacks with his maul or his shortbow."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Épée à deux mains",
-							"items": {
-								"name": "Maul",
-								"entries": [
-									"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage, plus 7 ({@damage 2d6}) bludgeoning damage if Thwad has more than half of his total hit points remaining."
-								]
-							}
-						}
-					]
+					"action": []
 				}
 			},
 			"alignment": [

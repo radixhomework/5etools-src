@@ -343,16 +343,7 @@
 				"name": "Bugbear",
 				"source": "MM",
 				"_mod": {
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Morgenstern",
-						"items": {
-							"name": "Glaive",
-							"entries": [
-								"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d10 + 2}) slashing damage."
-							]
-						}
-					}
+					"action": []
 				}
 			},
 			"damageTags": [
@@ -375,16 +366,7 @@
 				"name": "Bugbear",
 				"source": "MM",
 				"_mod": {
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Morgenstern",
-						"items": {
-							"name": "Longsword",
-							"entries": [
-								"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d8 + 2}) slashing damage, or 13 ({@damage 2d10 + 2}) slashing damage if used with both hands."
-							]
-						}
-					}
+					"action": []
 				}
 			},
 			"damageTags": [
@@ -971,16 +953,6 @@
 									"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 10 ({@damage 3d6}) poison damage."
 								]
 							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Arbalète de poing",
-							"items": {
-								"name": "Hand Crossbow +1",
-								"entries": [
-									"{@atk rw} {@hit 8} to hit, range 30/120 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition unconscious} while {@condition poisoned} in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
-								]
-							}
 						}
 					]
 				}
@@ -1478,18 +1450,7 @@
 						"with": "Estia",
 						"flags": "i"
 					},
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Morgenstern",
-							"items": {
-								"name": "Morningstar +2",
-								"entries": [
-									"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}23 ({@damage 3d8 + 10}) piercing damage."
-								]
-							}
-						}
-					]
+					"action": []
 				}
 			},
 			"immune": [
@@ -1517,16 +1478,6 @@
 								"name": "Multiattack",
 								"entries": [
 									"The giant makes two greataxe attacks."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Espadon",
-							"items": {
-								"name": "Greataxe +2",
-								"entries": [
-									"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}28 ({@damage 3d12 + 9}) slashing damage."
 								]
 							}
 						}
@@ -1557,16 +1508,6 @@
 								"name": "Multiattack",
 								"entries": [
 									"The giant makes two longsword attacks."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Gourdin",
-							"items": {
-								"name": "Longsword",
-								"entries": [
-									"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d8 + 5}) slashing damage, or 21 ({@damage 3d10 + 5}) slashing damage if used with both hands."
 								]
 							}
 						}
@@ -2371,16 +2312,7 @@
 						"with": "Ulfe",
 						"flags": "i"
 					},
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Gourdin",
-						"items": {
-							"name": "Greataxe",
-							"entries": [
-								"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d12 + 4}) slashing damage."
-							]
-						}
-					}
+					"action": []
 				}
 			},
 			"damageTags": [
@@ -3001,16 +2933,6 @@
 									"Grugnur makes two longsword attacks."
 								]
 							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Morgenstern",
-							"items": {
-								"name": "Longsword +2",
-								"entries": [
-									"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}23 ({@damage 3d8 + 10}) slashing damage, or 26 ({@damage 3d10 + 10}) slashing damage if used with both hands."
-								]
-							}
 						}
 					]
 				}
@@ -3573,16 +3495,7 @@
 						"with": "Snurre",
 						"flags": "i"
 					},
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Espadon",
-						"items": {
-							"name": "Greatsword",
-							"entries": [
-								"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}28 ({@damage 6d6 + 7}) slashing damage plus 7 ({@damage 2d6}) fire damage."
-							]
-						}
-					}
+					"action": []
 				}
 			},
 			"hp": {
@@ -4789,8 +4702,7 @@
 					"action": {
 						"mode": "removeArr",
 						"names": [
-							"Constriction",
-							"Avalez"
+							"Constriction"
 						]
 					}
 				}

@@ -26910,7 +26910,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Spectre",
+			"name": "Fantôme",
 			"source": "MM",
 			"page": 147,
 			"srd": true,
@@ -27023,47 +27023,47 @@
 				"restrained"
 			],
 			"languages": [
-				"any languages it knew in life"
+				"toutes les langues qu'il connaissait de son vivant"
 			],
 			"cr": "4",
 			"trait": [
 				{
 					"name": "Vision éthérée",
 					"entries": [
-						"Le spectre peut voir à 60 pieds dans le Plan Éthéré lorsqu'il se trouve sur le Plan Matériel, et inversement."
+						"Le fantôme peut voir à 18 mètres dans le Plan Éthéré lorsqu'il se trouve sur le Plan Matériel, et inversement."
 					]
 				},
 				{
 					"name": "Déplacement incorporel",
 					"entries": [
-						"Le spectre peut se déplacer à travers les autres créatures et les objets comme s'il s'agissait d'un {@quickref difficult terrain||3}. Il subit 5 ({@damage 1d10}) dégâts de force s'il termine son tour à l'intérieur d'un objet."
+						"Le fantôme peut se déplacer à travers les créatures et les objets comme s'il s'agissait de {@quickref difficult terrain||3}. Il subit 5 ({@damage 1d10}) dégâts de force s'il termine son tour à l'intérieur d'un objet."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Contact flétrissant",
+					"name": "Toucher flétrissant",
 					"entries": [
-						"{@atk mw} {@hit 5} pour frapper, portée 5 ft., une cible. {@h}17 ({@damage 4d6 + 3}) dégâts nécrotiques."
+						"{@atk mw} {@hit 5} pour toucher, allonge 1,50 m, une cible. {@h}17 ({@damage 4d6 + 3}) dégâts nécrotiques."
 					]
 				},
 				{
-					"name": "Éthéré",
+					"name": "Éthéréité",
 					"entries": [
-						"Le spectre passe du Plan Matériel au Plan Éthéré, ou inversement. Il est visible sur le Plan Matériel lorsqu'il se trouve dans l'Éthéré frontalier, et inversement, mais il ne peut rien affecter ni être affecté par quoi que ce soit sur l'autre plan."
+						"Le fantôme passe du Plan Matériel au Plan Éthéré, ou inversement. Il est visible sur le Plan Matériel tant qu'il se trouve dans l'Éthéré frontalier, et inversement, mais il ne peut rien affecter sur l'autre plan ni être affecté par quoi que ce soit qui s'y trouve."
 					]
 				},
 				{
 					"name": "Visage horrifique",
 					"entries": [
-						"Chaque créature qui n'est pas un mort-vivant, se trouve à 60 pieds du spectre ou moins et peut le voir doit réussir un jet de sauvegarde de Sagesse {@dc 13} ou être {@condition Effrayé} pendant 1 minute. Si le jet échoue de 5 ou plus, la cible vieillit en outre de {@dice 1d4 × 10} ans. Une cible {@condition Effrayé} peut retenter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à son état {@condition Effrayé} en cas de réussite. Si le jet de sauvegarde d'une cible réussit ou si l'effet prend fin pour elle, la cible est immunisée contre le Visage horrifique de ce spectre pendant les 24 heures suivantes. L'effet de vieillissement peut être annulé par un sort de {@spell Restauration supérieure}, mais seulement dans les 24 heures qui suivent sa survenue."
+						"Chaque créature qui n'est pas une mort-vivante et qui se trouve dans un rayon de 18 mètres du fantôme doit réussir un jet de sauvegarde de Sagesse {@dc 13} pour ne pas être {@condition frightened} pendant 1 minute. Si le jet de sauvegarde échoue de 5 ou plus, la cible vieillit en outre de {@dice 1d4 × 10} années. Une cible {@condition frightened} peut retenter son jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'état {@condition frightened} qui l'affecte en cas de réussite. Si le jet de sauvegarde d'une cible est réussi ou si l'effet prend fin pour elle, la cible est immunisée contre le Visage horrifique de ce fantôme pendant les 24 heures suivantes. L'effet de vieillissement peut être annulé par le sort {@spell Restauration supérieure}, mais seulement dans les 24 heures suivant sa survenue."
 					]
 				},
 				{
 					"name": "Possession {@recharge}",
 					"entries": [
-						"Un humanoïde que le spectre peut voir à 5 pieds de lui ou moins doit réussir un jet de sauvegarde de Charisme {@dc 13} ou être possédé par le spectre ; celui-ci disparaît alors, et la cible est {@condition Incapable} et perd le contrôle de son corps. Le spectre contrôle désormais le corps, mais ne prive pas la cible de sa conscience. Le spectre ne peut être ciblé par aucune attaque, sort ou autre effet, excepté ceux qui repoussent les morts-vivants, et il conserve son alignement, son Intelligence, sa Sagesse, son Charisme et son immunité contre les états {@condition Charmé} et {@condition Effrayé}. Sinon, il utilise les statistiques de la cible possédée, mais n'accède pas aux connaissances, aux aptitudes de classe ni aux maîtrises de celle-ci.",
-						"La possession dure jusqu'à ce que le corps tombe à 0 point de vie, que le spectre y mette fin par une action bonus, ou que le spectre soit repoussé ou chassé par un effet tel que le sort {@spell Dissipation du mal et du bien}. Quand la possession prend fin, le spectre réapparaît dans un espace inoccupé à 5 pieds du corps ou moins. La cible est immunisée contre la Possession de ce spectre pendant 24 heures après avoir réussi le jet de sauvegarde ou après la fin de la possession."
+						"Un humanoïde que le fantôme peut voir et qui se trouve à 1,50 m ou moins de lui doit réussir un jet de sauvegarde de Charisme {@dc 13} pour ne pas être possédé par le fantôme ; le fantôme disparaît alors, et la cible est {@condition incapacitated} et perd le contrôle de son corps. Le fantôme contrôle désormais le corps, mais sans priver la cible de sa conscience. Le fantôme ne peut être ciblé par aucune attaque, sort ou autre effet, excepté ceux qui repoussent les morts-vivants, et il conserve son alignement, son Intelligence, sa Sagesse, son Charisme et son immunité aux états {@condition charmed} et {@condition frightened}. À part cela, il utilise les statistiques de la cible possédée, mais n'accède pas aux connaissances, aptitudes de classe ou maîtrises de la cible.",
+						"La possession dure jusqu'à ce que le corps tombe à 0 point de vie, que le fantôme y mette fin par une action bonus, ou que le fantôme soit repoussé ou chassé par un effet tel que le sort {@spell Dissipation du mal et du bien}. Lorsque la possession prend fin, le fantôme réapparaît dans un espace inoccupé à 1,50 mètre ou moins du corps. La cible est immunisée contre la Possession de ce fantôme pendant 24 heures après avoir réussi son jet de sauvegarde ou après la fin de la possession."
 					]
 				}
 			],
@@ -31981,238 +31981,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Dragon d'or (jeune)",
-			"group": [
-				"Metallic Dragon"
-			],
-			"source": "MM",
-			"page": 115,
-			"srd": true,
-			"referenceSources": [
-				"BMT"
-			],
-			"reprintedAs": [
-				"Gold Dragon Wyrmling|XMM"
-			],
-			"size": [
-				"M"
-			],
-			"type": "dragon",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 60,
-				"formula": "8d8 + 24"
-			},
-			"speed": {
-				"walk": 30,
-				"fly": 60,
-				"swim": 30
-			},
-			"str": 19,
-			"dex": 14,
-			"con": 17,
-			"int": 14,
-			"wis": 11,
-			"cha": 16,
-			"save": {
-				"dex": "+4",
-				"con": "+5",
-				"wis": "+2",
-				"cha": "+5"
-			},
-			"skill": {
-				"perception": "+4",
-				"stealth": "+4"
-			},
-			"senses": [
-				"blindsight 10 ft.",
-				"darkvision 60 ft."
-			],
-			"passive": 14,
-			"immune": [
-				"fire"
-			],
-			"languages": [
-				"Draconic"
-			],
-			"cr": "3",
-			"trait": [
-				{
-					"name": "Amphibie",
-					"entries": [
-						"Le dragon peut respirer dans l'air et dans l'eau."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Morsure",
-					"entries": [
-						"{@atk mw} {@hit 6} pour toucher, portée 5 ft., une cible. {@h}9 ({@damage 1d10 + 4}) dégâts perforants."
-					]
-				},
-				{
-					"name": "Armes de souffle {@recharge 5}",
-					"entries": [
-						"Le dragon utilise l'une des armes de souffle suivantes.",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Souffle de feu",
-									"entry": "Le dragon crache du feu dans un cône de 15 ft. Chaque créature dans cette zone doit réussir un jet de sauvegarde de Dextérité {@dc 13}, subissant 22 ({@damage 4d10}) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
-								},
-								{
-									"type": "item",
-									"name": "Souffle affaiblissant",
-									"entry": "Le dragon crache un gaz dans un cône de 15 ft. Chaque créature dans cette zone doit réussir un jet de sauvegarde de Force {@dc 13} ou avoir un désavantage aux jets d'attaque basés sur la Force, aux jets de Force et aux jets de sauvegarde de Force pendant 1 minute. Une créature peut relancer le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet qui l'affecte en cas de réussite."
-								}
-							]
-						}
-					]
-				}
-			],
-			"variant": [
-				{
-					"type": "inset",
-					"name": "Personnaliser les dragons",
-					"source": "FTD",
-					"page": 33,
-					"entries": [
-						"Vous pouvez personnaliser le bloc de statistiques de n'importe quel dragon pour refléter le caractère unique de celui-ci. Les changements mineurs tels que ceux décrits ci-dessous sont faciles à faire et n'ont aucune incidence sur le facteur de puissance d'un dragon.",
-						{
-							"type": "entries",
-							"name": "Langues",
-							"entries": [
-								"La plupart des dragons préfèrent parler le draconique mais apprennent le commun pour traiter avec leurs alliés et leurs sbires. Mais vu leur Intelligence élevée et leur longue durée de vie, les dragons peuvent facilement apprendre des langues supplémentaires. Vous pouvez ajouter des langues au bloc de statistiques d'un dragon."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Compétences",
-							"entries": [
-								"La plupart des dragons maîtrisent les compétences {@skill Perception} et {@skill Discrétion}, et nombre d'entre eux possèdent des maîtrises de compétences supplémentaires. Comme pour les langues, vous pouvez personnaliser la liste de compétences d'un dragon (en doublant même son bonus de maîtrise pour certaines compétences) pour refléter des intérêts et des activités particuliers. Vous pouvez également doter un dragon de maîtrises d'outils, en particulier s'il passe du temps sous forme humanoïde."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Sorts",
-							"entries": [
-								"{@note Voir l'encadré « Variante : les dragons comme lanceurs de sorts innés », ci-dessous.}"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Autres traits et actions",
-							"entries": [
-								"Vous pouvez emprunter des traits et des actions à d'autres monstres pour donner une saveur unique à un dragon. Voici quelques exemples :",
-								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										{
-											"type": "item",
-											"name": "Changement de forme",
-											"entries": [
-												"Vous pouvez décider qu'un dragon acquiert cette action à un âge plus jeune que d'habitude, en particulier si vous souhaitez mettre en scène un dragon sous forme humanoïde dans votre campagne :",
-												"Le dragon se polymorphise magiquement en un humanoïde ou une bête dont le facteur de puissance n'est pas supérieur au sien, ou reprend sa forme véritable. Il reprend sa forme véritable s'il meurt. Tout équipement qu'il porte ou transporte est absorbé ou porté par la nouvelle forme (au choix du dragon).",
-												"Sous sa nouvelle forme, le dragon conserve son alignement, ses points de vie, ses dés de vie, sa capacité à parler, ses maîtrises, sa Résistance légendaire, ses actions de repaire et ses scores d'Intelligence, de Sagesse et de Charisme, ainsi que cette action. Ses statistiques et capacités sont par ailleurs remplacées par celles de la nouvelle forme, à l'exception des capacités de classe ou des actions légendaires de cette forme."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Absorption des dégâts",
-											"entries": [
-												"Vous pouvez décider que ce dragon n'est pas seulement indemne face aux dégâts de feu, mais qu'il est en réalité soigné par ceux-ci.",
-												"Chaque fois que le dragon subit des dégâts de feu, il ne subit aucun dégât et regagne à la place un nombre de points de vie égal aux dégâts de feu infligés."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Passage éclair",
-											"entries": [
-												"Le dragon est un volant agile, prompt à s'envoler hors de portée de ses ennemis.",
-												"Le dragon ne provoque pas d'attaque d'opportunité lorsqu'il s'envole hors de portée d'un ennemi."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Mimétisme",
-											"entries": [
-												"Imiter des personnages ou leurs alliés pourrait être un tour amusant pour un dragon rusé.",
-												"Le dragon peut imiter tous les sons qu'il a entendus, y compris des voix. Une créature qui entend ces sons peut savoir qu'il s'agit d'imitations en réussissant un jet de Sagesse ({@skill Perspicacité}) {@dc 11}."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Rajeunissement",
-											"entries": [
-												"Vous pouvez décider que les dragons de votre campagne, en tant que partie essentielle du Plan Matériel, sont presque impossibles à détruire. L'essence vitale d'un dragon peut être préservée dans l'œuf d'où il a émergé pour la première fois, dans son trésor ou dans une salle caverneuse au centre du monde, tout comme l'essence d'une liche est cachée dans un phylactère.",
-												"S'il possède un objet préservant son essence, un dragon détruit se dote d'un nouveau corps en {@dice 1d10} jours, regagnant tous ses points de vie et redevenant actif. Le nouveau corps apparaît à 5 ft. de l'objet ou moins."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Sens particuliers",
-											"entries": [
-												"La plupart des dragons possèdent la {@sense Perception aveugle} et la {@sense Vision dans le noir}. Vous pouvez améliorer la {@sense Perception aveugle} en {@sense Vision véritable}, ou doter un dragon pourvu d'une vitesse de creusement de la {@sense Perception des vibrations|MM}."
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"dragonAge": "wyrmling",
-			"soundClip": {
-				"type": "internal",
-				"path": "bestiary/gold-dragon-wyrmlin.opus"
-			},
-			"traitTags": [
-				"Amphibious"
-			],
-			"senseTags": [
-				"B",
-				"D"
-			],
-			"actionTags": [
-				"Breath Weapon"
-			],
-			"languageTags": [
-				"DR"
-			],
-			"damageTags": [
-				"F",
-				"P"
-			],
-			"miscTags": [
-				"AOE",
-				"MW"
-			],
-			"savingThrowForced": [
-				"dexterity",
-				"strength"
-			],
-			"hasToken": true,
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
 			"name": "Gorgone",
 			"source": "MM",
 			"page": 171,
@@ -32895,207 +32663,6 @@
 				"charisma",
 				"dexterity",
 				"wisdom"
-			],
-			"hasToken": true,
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Dragon vert (jeune)",
-			"group": [
-				"Chromatic Dragon"
-			],
-			"source": "MM",
-			"page": 95,
-			"srd": true,
-			"referenceSources": [
-				"WBtW"
-			],
-			"reprintedAs": [
-				"Green Dragon Wyrmling|XMM"
-			],
-			"size": [
-				"M"
-			],
-			"type": "dragon",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 38,
-				"formula": "7d8 + 7"
-			},
-			"speed": {
-				"walk": 30,
-				"fly": 60,
-				"swim": 30
-			},
-			"str": 15,
-			"dex": 12,
-			"con": 13,
-			"int": 14,
-			"wis": 11,
-			"cha": 13,
-			"save": {
-				"dex": "+3",
-				"con": "+3",
-				"wis": "+2",
-				"cha": "+3"
-			},
-			"skill": {
-				"perception": "+4",
-				"stealth": "+3"
-			},
-			"senses": [
-				"blindsight 10 ft.",
-				"darkvision 60 ft."
-			],
-			"passive": 14,
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"poisoned"
-			],
-			"languages": [
-				"Draconic"
-			],
-			"cr": "2",
-			"trait": [
-				{
-					"name": "Amphibie",
-					"entries": [
-						"Le dragon peut respirer dans l'air et dans l'eau."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Morsure",
-					"entries": [
-						"{@atk mw} {@hit 4} pour toucher, portée 5 ft., une cible. {@h}7 ({@damage 1d10 + 2}) dégâts perforants plus 3 ({@damage 1d6}) dégâts de poison."
-					]
-				},
-				{
-					"name": "Souffle de poison {@recharge 5}",
-					"entries": [
-						"Le dragon crache un gaz vénéneux dans un cône de 15 ft. Chaque créature dans cette zone doit réussir un jet de sauvegarde de Constitution {@dc 11}, subissant 21 ({@damage 6d6}) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
-					]
-				}
-			],
-			"variant": [
-				{
-					"type": "inset",
-					"name": "Personnaliser les dragons",
-					"source": "FTD",
-					"page": 33,
-					"entries": [
-						"Vous pouvez personnaliser le bloc de statistiques de n'importe quel dragon pour refléter le caractère unique de celui-ci. Les changements mineurs tels que ceux décrits ci-dessous sont faciles à faire et n'ont aucune incidence sur le facteur de puissance d'un dragon.",
-						{
-							"type": "entries",
-							"name": "Langues",
-							"entries": [
-								"La plupart des dragons préfèrent parler le draconique mais apprennent le commun pour traiter avec leurs alliés et leurs sbires. Mais vu leur Intelligence élevée et leur longue durée de vie, les dragons peuvent facilement apprendre des langues supplémentaires. Vous pouvez ajouter des langues au bloc de statistiques d'un dragon."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Compétences",
-							"entries": [
-								"La plupart des dragons maîtrisent les compétences {@skill Perception} et {@skill Discrétion}, et nombre d'entre eux possèdent des maîtrises de compétences supplémentaires. Comme pour les langues, vous pouvez personnaliser la liste de compétences d'un dragon (en doublant même son bonus de maîtrise pour certaines compétences) pour refléter des intérêts et des activités particuliers. Vous pouvez également doter un dragon de maîtrises d'outils, en particulier s'il passe du temps sous forme humanoïde."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Sorts",
-							"entries": [
-								"{@note Voir l'encadré « Variante : les dragons comme lanceurs de sorts innés », ci-dessous.}"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Autres traits et actions",
-							"entries": [
-								"Vous pouvez emprunter des traits et des actions à d'autres monstres pour donner une saveur unique à un dragon. Voici quelques exemples :",
-								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										{
-											"type": "item",
-											"name": "Passage éclair",
-											"entries": [
-												"Le dragon est un volant agile, prompt à s'envoler hors de portée de ses ennemis.",
-												"Le dragon ne provoque pas d'attaque d'opportunité lorsqu'il s'envole hors de portée d'un ennemi."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Mimétisme",
-											"entries": [
-												"Imiter des personnages ou leurs alliés pourrait être un tour amusant pour un dragon rusé.",
-												"Le dragon peut imiter tous les sons qu'il a entendus, y compris des voix. Une créature qui entend ces sons peut savoir qu'il s'agit d'imitations en réussissant un jet de Sagesse ({@skill Perspicacité}) {@dc 9}."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Rajeunissement",
-											"entries": [
-												"Vous pouvez décider que les dragons de votre campagne, en tant que partie essentielle du Plan Matériel, sont presque impossibles à détruire. L'essence vitale d'un dragon peut être préservée dans l'œuf d'où il a émergé pour la première fois, dans son trésor ou dans une salle caverneuse au centre du monde, tout comme l'essence d'une liche est cachée dans un phylactère.",
-												"S'il possède un objet préservant son essence, un dragon détruit se dote d'un nouveau corps en {@dice 1d10} jours, regagnant tous ses points de vie et redevenant actif. Le nouveau corps apparaît à 5 ft. de l'objet ou moins."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Sens particuliers",
-											"entries": [
-												"La plupart des dragons possèdent la {@sense Perception aveugle} et la {@sense Vision dans le noir}. Vous pouvez améliorer la {@sense Perception aveugle} en {@sense Vision véritable}, ou doter un dragon pourvu d'une vitesse de creusement de la {@sense Perception des vibrations|MM}."
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"dragonAge": "wyrmling",
-			"soundClip": {
-				"type": "internal",
-				"path": "bestiary/green-dragon-wyrmling.opus"
-			},
-			"traitTags": [
-				"Amphibious"
-			],
-			"senseTags": [
-				"B",
-				"D"
-			],
-			"actionTags": [
-				"Breath Weapon"
-			],
-			"languageTags": [
-				"DR"
-			],
-			"damageTags": [
-				"I",
-				"P"
-			],
-			"miscTags": [
-				"AOE",
-				"MW"
-			],
-			"savingThrowForced": [
-				"constitution"
 			],
 			"hasToken": true,
 			"hasFluff": true,
@@ -51688,6 +51255,456 @@
 				"MW"
 			],
 			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Dragonnet d'or",
+			"group": [
+				"Metallic Dragon"
+			],
+			"source": "MM",
+			"page": 115,
+			"srd": true,
+			"referenceSources": [
+				"BMT"
+			],
+			"reprintedAs": [
+				"Gold Dragon Wyrmling|XMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "dragon",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"armure naturelle"
+					]
+				}
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d8 + 24"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60,
+				"swim": 30
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 17,
+			"int": 14,
+			"wis": 11,
+			"cha": 16,
+			"save": {
+				"dex": "+4",
+				"con": "+5",
+				"wis": "+2",
+				"cha": "+5"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"draconique"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Amphibie",
+					"entries": [
+						"Le dragon peut respirer dans l'air et dans l'eau."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Morsure",
+					"entries": [
+						"{@atk mw} {@hit 6} pour toucher, allonge 1,50 m, une cible. {@h}9 ({@damage 1d10 + 4}) dégâts perforants."
+					]
+				},
+				{
+					"name": "Souffles {@recharge 5}",
+					"entries": [
+						"Le dragon utilise l'un des souffles suivants.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Souffle de feu",
+									"entry": "Le dragon souffle du feu dans un cône de 4,50 mètres. Chaque créature dans la zone doit effectuer un jet de sauvegarde de Dextérité {@dc 13}, subissant 22 ({@damage 4d10}) dégâts de feu en cas d'échec, ou la moitié seulement en cas de réussite."
+								},
+								{
+									"type": "item",
+									"name": "Souffle affaiblissant",
+									"entry": "Le dragon souffle un gaz dans un cône de 4,50 mètres. Chaque créature dans la zone doit réussir un jet de sauvegarde de Force {@dc 13} pour ne pas avoir un désavantage aux jets d'attaque basés sur la Force, aux tests de Force et aux jets de sauvegarde de Force pendant 1 minute. Une créature peut retenter son jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet qui l'affecte en cas de réussite."
+								}
+							]
+						}
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Personnaliser les dragons",
+					"source": "FTD",
+					"page": 33,
+					"entries": [
+						"Vous pouvez personnaliser le bloc de statistiques de n'importe quel dragon pour refléter son caractère unique. Les changements mineurs tels que ceux décrits ci-dessous sont faciles à mettre en œuvre et n'ont aucune incidence sur la puissance d'un dragon.",
+						{
+							"type": "entries",
+							"name": "Langues",
+							"entries": [
+								"La plupart des dragons préfèrent parler le draconic, mais ils apprennent le commun pour traiter avec leurs alliés et leurs sbires. Mais compte tenu de leur Intelligence élevée et de leur longue durée de vie, les dragons peuvent facilement apprendre des langues supplémentaires. Vous pouvez ajouter des langues au bloc de statistiques d'un dragon."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Compétences",
+							"entries": [
+								"La plupart des dragons maîtrisent les compétences {@skill Perception} et {@skill Discrétion}, et nombre d'entre eux possèdent des maîtrises supplémentaires. Comme pour les langues, vous pouvez personnaliser la liste des compétences d'un dragon (en doublant même son bonus de maîtrise pour certaines compétences) pour refléter des intérêts et des activités particuliers. Vous pouvez aussi accorder à un dragon des maîtrises d'outils, en particulier s'il passe du temps sous forme humanoïde."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sorts",
+							"entries": [
+								"{@note Voir l'encadré « Variante : des dragons lanceurs de sorts innés », ci-dessous.}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Autres traits et actions",
+							"entries": [
+								"Vous pouvez emprunter des traits et des actions à d'autres monstres pour donner une saveur unique à un dragon. Considérez ces exemples :",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Changement de forme",
+											"entries": [
+												"Vous pouvez décider qu'un dragon acquiert cette action à un âge plus jeune que d'habitude, en particulier si vous voulez faire apparaître un dragon sous forme humanoïde dans votre campagne :",
+												"Le dragon se métamorphose magiquement en un humanoïde ou en une bête dont la puissance n'est pas supérieure à la sienne, ou reprend sa forme véritable. Il reprend sa forme véritable s'il meurt. Tout équipement qu'il porte ou transporte est absorbé ou porté par la nouvelle forme (au choix du dragon).",
+												"Sous sa nouvelle forme, le dragon conserve son alignement, ses points de vie, ses dés de vie, sa faculté de parler, ses maîtrises, sa Résistance légendaire, ses actions de repaire et ses scores d'Intelligence, de Sagesse et de Charisme, ainsi que cette action. Ses statistiques et ses capacités sont autrement remplacées par celles de la nouvelle forme, excepté les éventuelles aptitudes de classe ou actions légendaires de cette forme."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Absorption de dégâts",
+											"entries": [
+												"Vous pourriez décider que ce dragon n'est pas seulement insensible aux dégâts de feu, mais qu'il est en fait soigné par ceux-ci.",
+												"Chaque fois que le dragon subit des dégâts de feu, il ne subit aucun dégât et récupère à la place un nombre de points de vie égal aux dégâts de feu infligés."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Survol",
+											"entries": [
+												"Le dragon est un volant agile, prompt à s'envoler hors de portée de ses ennemis.",
+												"Le dragon ne provoque pas d'attaque d'opportunité lorsqu'il s'envole hors de portée d'un ennemi."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Imitation",
+											"entries": [
+												"Imiter des personnages ou leurs alliés pourrait être un tour amusant pour un dragon rusé.",
+												"Le dragon peut imiter tous les sons qu'il a entendus, y compris des voix. Une créature qui entend ces sons peut se rendre compte qu'il s'agit d'imitations si elle réussit un test de Sagesse ({@skill Perspicacité}) {@dc 15}."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Rajeunissement",
+											"entries": [
+												"Vous pourriez décider que les dragons de votre campagne, étant une part essentielle du Plan Matériel, sont presque impossibles à détruire. L'essence vitale d'un dragon pourrait être préservée dans l'œuf duquel il est sorti à l'origine, dans son trésor ou dans une salle caverneuse au centre du monde, tout comme l'essence d'une liche est cachée dans un phylactère.",
+												"S'il possède un objet qui préserve son essence, un dragon détruit acquiert un nouveau corps en {@dice 1d10} jours, récupérant tous ses points de vie et redevient actif. Le nouveau corps apparaît à 1,50 mètre ou moins de l'objet."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Sens spéciaux",
+											"entries": [
+												"La plupart des dragons possèdent la {@sense Perception aveugle} et la {@sense Vision dans le noir}. Vous pouvez améliorer la {@sense Perception aveugle} en {@sense Vision véritable}, ou bien donner à un dragon doté d'une vitesse de creusement la {@sense Perception des vibrations|MM}."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"dragonAge": "wyrmling",
+			"soundClip": {
+				"type": "internal",
+				"path": "bestiary/gold-dragon-wyrmlin.opus"
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Dragonnet vert",
+			"group": [
+				"Chromatic Dragon"
+			],
+			"source": "MM",
+			"page": 95,
+			"srd": true,
+			"referenceSources": [
+				"WBtW"
+			],
+			"reprintedAs": [
+				"Green Dragon Wyrmling|XMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "dragon",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"armure naturelle"
+					]
+				}
+			],
+			"hp": {
+				"average": 38,
+				"formula": "7d8 + 7"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60,
+				"swim": 30
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 13,
+			"int": 14,
+			"wis": 11,
+			"cha": 13,
+			"save": {
+				"dex": "+3",
+				"con": "+3",
+				"wis": "+2",
+				"cha": "+3"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+3"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"draconique"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Amphibie",
+					"entries": [
+						"Le dragon peut respirer dans l'air et dans l'eau."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Morsure",
+					"entries": [
+						"{@atk mw} {@hit 4} pour toucher, allonge 1,50 m, une cible. {@h}7 ({@damage 1d10 + 2}) dégâts perforants plus 3 ({@damage 1d6}) dégâts de poison."
+					]
+				},
+				{
+					"name": "Souffle de poison {@recharge 5}",
+					"entries": [
+						"Le dragon souffle un gaz vénéneux dans un cône de 4,50 mètres. Chaque créature dans la zone doit effectuer un jet de sauvegarde de Constitution {@dc 11}, subissant 21 ({@damage 6d6}) dégâts de poison en cas d'échec, ou la moitié seulement en cas de réussite."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Personnaliser les dragons",
+					"source": "FTD",
+					"page": 33,
+					"entries": [
+						"Vous pouvez personnaliser le bloc de statistiques de n'importe quel dragon pour refléter son caractère unique. Les changements mineurs tels que ceux décrits ci-dessous sont faciles à mettre en œuvre et n'ont aucune incidence sur la puissance d'un dragon.",
+						{
+							"type": "entries",
+							"name": "Langues",
+							"entries": [
+								"La plupart des dragons préfèrent parler le draconic, mais ils apprennent le commun pour traiter avec leurs alliés et leurs sbires. Mais compte tenu de leur Intelligence élevée et de leur longue durée de vie, les dragons peuvent facilement apprendre des langues supplémentaires. Vous pouvez ajouter des langues au bloc de statistiques d'un dragon."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Compétences",
+							"entries": [
+								"La plupart des dragons maîtrisent les compétences {@skill Perception} et {@skill Discrétion}, et nombre d'entre eux possèdent des maîtrises supplémentaires. Comme pour les langues, vous pouvez personnaliser la liste des compétences d'un dragon (en doublant même son bonus de maîtrise pour certaines compétences) pour refléter des intérêts et des activités particuliers. Vous pouvez aussi accorder à un dragon des maîtrises d'outils, en particulier s'il passe du temps sous forme humanoïde."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sorts",
+							"entries": [
+								"{@note Voir l'encadré « Variante : des dragons lanceurs de sorts innés », ci-dessous.}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Autres traits et actions",
+							"entries": [
+								"Vous pouvez emprunter des traits et des actions à d'autres monstres pour donner une saveur unique à un dragon. Considérez ces exemples :",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Changement de forme",
+											"entries": [
+												"Vous pouvez décider qu'un dragon acquiert cette action à un âge plus jeune que d'habitude, en particulier si vous voulez faire apparaître un dragon sous forme humanoïde dans votre campagne :",
+												"Le dragon se métamorphose magiquement en un humanoïde ou en une bête dont la puissance n'est pas supérieure à la sienne, ou reprend sa forme véritable. Il reprend sa forme véritable s'il meurt. Tout équipement qu'il porte ou transporte est absorbé ou porté par la nouvelle forme (au choix du dragon).",
+												"Sous sa nouvelle forme, le dragon conserve son alignement, ses points de vie, ses dés de vie, sa faculté de parler, ses maîtrises, sa Résistance légendaire, ses actions de repaire et ses scores d'Intelligence, de Sagesse et de Charisme, ainsi que cette action. Ses statistiques et ses capacités sont autrement remplacées par celles de la nouvelle forme, excepté les éventuelles aptitudes de classe ou actions légendaires de cette forme."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Absorption de dégâts",
+											"entries": [
+												"Vous pourriez décider que ce dragon n'est pas seulement insensible aux dégâts de feu, mais qu'il est en fait soigné par ceux-ci.",
+												"Chaque fois que le dragon subit des dégâts de feu, il ne subit aucun dégât et récupère à la place un nombre de points de vie égal aux dégâts de feu infligés."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Survol",
+											"entries": [
+												"Le dragon est un volant agile, prompt à s'envoler hors de portée de ses ennemis.",
+												"Le dragon ne provoque pas d'attaque d'opportunité lorsqu'il s'envole hors de portée d'un ennemi."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Imitation",
+											"entries": [
+												"Imiter des personnages ou leurs alliés pourrait être un tour amusant pour un dragon rusé.",
+												"Le dragon peut imiter tous les sons qu'il a entendus, y compris des voix. Une créature qui entend ces sons peut se rendre compte qu'il s'agit d'imitations si elle réussit un test de Sagesse ({@skill Perspicacité}) {@dc 15}."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Rajeunissement",
+											"entries": [
+												"Vous pourriez décider que les dragons de votre campagne, étant une part essentielle du Plan Matériel, sont presque impossibles à détruire. L'essence vitale d'un dragon pourrait être préservée dans l'œuf duquel il est sorti à l'origine, dans son trésor ou dans une salle caverneuse au centre du monde, tout comme l'essence d'une liche est cachée dans un phylactère.",
+												"S'il possède un objet qui préserve son essence, un dragon détruit acquiert un nouveau corps en {@dice 1d10} jours, récupérant tous ses points de vie et redevient actif. Le nouveau corps apparaît à 1,50 mètre ou moins de l'objet."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Sens spéciaux",
+											"entries": [
+												"La plupart des dragons possèdent la {@sense Perception aveugle} et la {@sense Vision dans le noir}. Vous pouvez améliorer la {@sense Perception aveugle} en {@sense Vision véritable}, ou bien donner à un dragon doté d'une vitesse de creusement la {@sense Perception des vibrations|MM}."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"dragonAge": "wyrmling",
+			"soundClip": {
+				"type": "internal",
+				"path": "bestiary/green-dragon-wyrmling.opus"
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"hasToken": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{

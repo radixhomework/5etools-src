@@ -3009,6 +3009,16 @@
 									]
 								}
 							]
+						},
+						{
+							"mode": "replaceArr",
+							"replace": "Multiattack",
+							"items": {
+								"name": "Multiattack",
+								"entries": [
+									"The phantom warrior makes two attacks with its spectral longsword or spectral longbow."
+								]
+							}
 						}
 					]
 				}
@@ -3474,7 +3484,7 @@
 			"source": "CoS",
 			"page": 217,
 			"_copy": {
-				"name": "Spectre",
+				"name": "Fantôme",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3483,7 +3493,10 @@
 						"with": "Rose",
 						"flags": "i"
 					},
-					"action": []
+					"action": {
+						"mode": "removeArr",
+						"names": "Visage horrifique"
+					}
 				}
 			},
 			"size": [
@@ -3589,31 +3602,10 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "revenant",
-						"with": "knight"
-					},
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Attaques multiples",
-							"items": {
-								"name": "Multiattack",
-								"entries": [
-									"The knight makes two longsword attacks or two fist attacks."
-								]
-							}
-						},
-						{
-							"mode": "insertArr",
-							"index": 1,
-							"items": {
-								"name": "Longsword",
-								"entries": [
-									"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) slashing damage. If the target is a creature against which the knight has sworn vengeance, the target takes an extra 14 ({@damage 4d6}) slashing damage."
-								]
-							}
-						}
-					]
+						"replace": "the revenant",
+						"with": "Sir Godfrey",
+						"flags": "i"
+					}
 				}
 			},
 			"cr": "6",
@@ -4583,7 +4575,7 @@
 			"source": "CoS",
 			"page": 217,
 			"_copy": {
-				"name": "Spectre",
+				"name": "Fantôme",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4592,7 +4584,10 @@
 						"with": "Thorn",
 						"flags": "i"
 					},
-					"action": []
+					"action": {
+						"mode": "removeArr",
+						"names": "Visage horrifique"
+					}
 				}
 			},
 			"size": [

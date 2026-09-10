@@ -5545,6 +5545,16 @@
 									"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing or radiant damage."
 								]
 							}
+						},
+						{
+							"mode": "replaceArr",
+							"replace": "Attaque à mains nues",
+							"items": {
+								"name": "Unarmed Strike",
+								"entries": [
+									"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning or radiant damage plus 3 ({@damage 1d6}) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn."
+								]
+							}
 						}
 					]
 				}

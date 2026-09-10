@@ -238,14 +238,18 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell banishment}",
-									"with": "{@spell ice storm}"
+									"replace": "{@spell Bannissement}",
+									"with": [
+										"{@spell Tempête de glace}"
+									]
 								}
 							],
 							"7": [
 								{
-									"replace": "{@spell teleport}",
-									"with": "{@spell finger of death}"
+									"replace": "{@spell Téléportation}",
+									"with": [
+										"{@spell Doigt de mort}"
+									]
 								}
 							]
 						}
@@ -1839,7 +1843,10 @@
 						"with": "Fazrian",
 						"flags": "i"
 					},
-					"action": []
+					"action": {
+						"mode": "removeArr",
+						"names": "Toucher guérisseur (4/jour)"
+					}
 				}
 			},
 			"alignment": [
@@ -1868,7 +1875,7 @@
 			"source": "WDMM",
 			"page": 197,
 			"_copy": {
-				"name": "Spectre",
+				"name": "Fantôme",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3310,7 +3317,9 @@
 							"4": [
 								{
 									"replace": "{@spell Bannissement}",
-									"with": "{@spell Ravage}"
+									"with": [
+										"{@spell Ravage}"
+									]
 								}
 							]
 						}
@@ -3617,7 +3626,9 @@
 							"4": [
 								{
 									"replace": "{@spell Bannissement}",
-									"with": "{@spell Porte dimensionnelle}"
+									"with": [
+										"{@spell Porte dimensionnelle}"
+									]
 								}
 							]
 						}
@@ -4122,20 +4133,26 @@
 						"spells": {
 							"3": [
 								{
-									"replace": "{@spell fly}",
-									"with": "{@spell animate dead}"
+									"replace": "{@spell Vol}",
+									"with": [
+										"{@spell Animation des morts}"
+									]
 								}
 							],
 							"4": [
 								{
-									"replace": "{@spell banishment}",
-									"with": "{@spell blight}"
+									"replace": "{@spell Bannissement}",
+									"with": [
+										"{@spell Ravage}"
+									]
 								}
 							],
 							"5": [
 								{
-									"replace": "{@spell scrying}",
-									"with": "{@spell Rary's telepathic bond}"
+									"replace": "{@spell Scrutation}",
+									"with": [
+										"{@spell Lien télépathique de Rary}"
+									]
 								}
 							]
 						}
@@ -5300,7 +5317,28 @@
 						"with": "Thwad",
 						"flags": "i"
 					},
-					"action": []
+					"action": [
+						{
+							"mode": "replaceArr",
+							"replace": "Multiattack",
+							"items": {
+								"name": "Multiattack",
+								"entries": [
+									"Thwad makes three attacks with his maul or his shortbow."
+								]
+							}
+						},
+						{
+							"mode": "replaceArr",
+							"replace": "Greatsword",
+							"items": {
+								"name": "Maul",
+								"entries": [
+									"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage, plus 7 ({@damage 2d6}) bludgeoning damage if Thwad has more than half of his total hit points remaining."
+								]
+							}
+						}
+					]
 				}
 			},
 			"alignment": [
@@ -5721,8 +5759,10 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell banishment}",
-									"with": "{@spell Otiluke's Resilient Sphere}"
+									"replace": "{@spell Bannissement}",
+									"with": [
+										"{@spell Sphère résiliente d'Otiluke}"
+									]
 								}
 							]
 						}
@@ -5778,7 +5818,9 @@
 							"4": [
 								{
 									"replace": "{@spell Bannissement}",
-									"with": "{@spell confusion}"
+									"with": [
+										"{@spell confusion}"
+									]
 								}
 							]
 						}
@@ -6200,8 +6242,10 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell banishment}",
-									"with": "{@spell locate creature}"
+									"replace": "{@spell Bannissement}",
+									"with": [
+										"{@spell Localisation de créature}"
+									]
 								}
 							]
 						}
@@ -6520,7 +6564,9 @@
 							"4": [
 								{
 									"replace": "{@spell Bannissement}",
-									"with": "{@spell confusion}"
+									"with": [
+										"{@spell confusion}"
+									]
 								}
 							]
 						}

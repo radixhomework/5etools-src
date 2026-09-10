@@ -3179,7 +3179,9 @@
 							"3": [
 								{
 									"replace": "{@spell Vol}",
-									"with": "{@spell Envoi de message}"
+									"with": [
+										"{@spell Envoi de message}"
+									]
 								}
 							]
 						}
@@ -4003,14 +4005,18 @@
 						"spells": {
 							"3": [
 								{
-									"replace": "{@spell counterspell}",
-									"with": "{@spell animate dead}"
+									"replace": "{@spell Contresort}",
+									"with": [
+										"{@spell Animation des morts}"
+									]
 								}
 							],
 							"4": [
 								{
-									"replace": "{@spell greater invisibility}",
-									"with": "{@spell blight}"
+									"replace": "{@spell Invisibilité supérieure}",
+									"with": [
+										"{@spell Ravage}"
+									]
 								}
 							]
 						}

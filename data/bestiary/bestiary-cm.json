@@ -3262,22 +3262,9 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "turtle",
-						"with": "tortoise"
-					},
-					"trait": {
-						"mode": "removeArr",
-						"names": "Amphibie"
-					},
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Souffle de vapeur {@recharge 5}",
-						"items": {
-							"name": "Sand Breath {@recharge 5}",
-							"entries": [
-								"The dragon tortoise exhales abrasive sand in a 60-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) slashing damage on a failed save, or half as much damage on a successful one."
-							]
-						}
+						"replace": "the dragon tortoise",
+						"with": "Ogruhl",
+						"flags": "i"
 					}
 				}
 			},

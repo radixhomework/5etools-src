@@ -466,7 +466,7 @@
 				}
 			],
 			"entries": [
-				"Choisissez un tas d'os ou le cadavre d'un Humanoïde de taille M ou PT à portée. La cible devient une créature mort-vivante : un {@creature Skeleton|XMM|Squelette} si vous avez choisi des os ou un {@creature Zombie|XMM|Zombie} si vous avez choisi un cadavre.",
+				"Choisissez un tas d'os ou le cadavre d'un Humanoïde de taille M ou PT à portée. La cible devient une créature mort-vivante : un {@creature Squelette|XMM|Squelette} si vous avez choisi des os ou un {@creature Zombie|XMM|Zombie} si vous avez choisi un cadavre.",
 				"À chacun de vos tours, vous pouvez utiliser une {@variantrule Bonus Action|XPHB|action bonus} pour commander mentalement n'importe quelle créature que vous avez créée avec ce sort si celle-ci se trouve à 18 mètres ou moins de vous (si vous contrôlez plusieurs créatures, vous pouvez en commander plusieurs en même temps en leur donnant le même ordre). Vous décidez de l'action que la créature entreprendra et de l'endroit où elle se déplacera à son prochain tour, ou vous pouvez donner un ordre général, comme monter la garde dans une salle ou un couloir. Si vous ne donnez aucun ordre, la créature utilise l'action {@action Esquive|XPHB} et ne se déplace que pour éviter le danger. Une fois qu'elle a reçu un ordre, la créature continue de le suivre jusqu'à ce que sa tâche soit accomplie.",
 				"La créature est sous votre contrôle pendant 24 heures, après quoi elle cesse d'obéir aux ordres que vous lui avez donnés. Pour garder le contrôle de la créature pendant 24 heures supplémentaires, vous devez relancer ce sort sur la créature avant la fin de la période de 24 heures en cours. Cette utilisation du sort réaffirme votre contrôle sur jusqu'à quatre créatures que vous avez animées avec ce sort plutôt que d'en animer une nouvelle."
 			],
@@ -1324,7 +1324,7 @@
 				}
 			],
 			"entries": [
-				"Vous passez le temps d'incantation à tracer des voies magiques au sein d'une précieuse pierre gemme, puis vous touchez la cible. La cible doit être soit une créature {@filter Beast|bestiary|type=beast|intelligence=[0;3]|miscellaneous=!swarm} ou {@filter Plant|bestiary|type=plant|intelligence=[0;3]|miscellaneous=!swarm} avec une Intelligence de 3 ou moins, soit une plante naturelle qui n'est pas une créature. La cible obtient une Intelligence de 10 et la capacité de parler une langue que vous connaissez. Si la cible est une plante naturelle, elle devient une créature végétale et gagne la capacité de mouvoir ses membres, racines, lianes, vrilles, etc., et elle gagne des sens similaires à ceux d'un humain. Le MD choisit des statistiques appropriées pour la Plante éveillée, comme celles de l'{@creature Awakened Shrub|XMM|Arbuste éveillé} ou de l'{@creature Awakened Tree|XMM|Arbre éveillé} du {@book Monster Manual|XMM|Manuel des monstres}.",
+				"Vous passez le temps d'incantation à tracer des voies magiques au sein d'une précieuse pierre gemme, puis vous touchez la cible. La cible doit être soit une créature {@filter Beast|bestiary|type=beast|intelligence=[0;3]|miscellaneous=!swarm} ou {@filter Plant|bestiary|type=plant|intelligence=[0;3]|miscellaneous=!swarm} avec une Intelligence de 3 ou moins, soit une plante naturelle qui n'est pas une créature. La cible obtient une Intelligence de 10 et la capacité de parler une langue que vous connaissez. Si la cible est une plante naturelle, elle devient une créature végétale et gagne la capacité de mouvoir ses membres, racines, lianes, vrilles, etc., et elle gagne des sens similaires à ceux d'un humain. Le MD choisit des statistiques appropriées pour la Plante éveillée, comme celles de l'{@creature Arbuste éveillé|XMM|Arbuste éveillé} ou de l'{@creature Arbre éveillé|XMM|Arbre éveillé} du {@book Monster Manual|XMM|Manuel des monstres}.",
 				"La cible éveillée subit l'état {@condition Charmé|XPHB} pendant 30 jours ou jusqu'à ce que vous ou vos alliés lui infligiez des dégâts. Quand cet état prend fin, la créature éveillée choisit son attitude envers vous."
 			],
 			"conditionInflict": [
@@ -4758,7 +4758,7 @@
 				}
 			],
 			"entries": [
-				"Vous ne pouvez lancer ce sort que la nuit. Choisissez jusqu'à trois cadavres d'Humanoïdes de taille M ou PT à portée. Chacun devient une {@creature Ghoul|XMM|Goule} sous votre contrôle (voir le {@book Monster Manual|XMM|Manuel des monstres} pour son profil).",
+				"Vous ne pouvez lancer ce sort que la nuit. Choisissez jusqu'à trois cadavres d'Humanoïdes de taille M ou PT à portée. Chacun devient une {@creature Goule|XMM|Goule} sous votre contrôle (voir le {@book Monster Manual|XMM|Manuel des monstres} pour son profil).",
 				"Par une {@variantrule Bonus Action|XPHB|action bonus} à chacun de vos tours, vous pouvez commander mentalement toute créature que vous avez animée avec ce sort si celle-ci se trouve à 36 mètres ou moins de vous (si vous contrôlez plusieurs créatures, vous pouvez en commander plusieurs en même temps en leur donnant le même ordre). Vous décidez de l'action que la créature entreprendra et de l'endroit où elle se déplacera à son prochain tour, ou vous pouvez donner un ordre général, comme monter la garde d'un endroit particulier. Si vous ne donnez aucun ordre, la créature utilise l'action {@action Esquive|XPHB} et ne se déplace que pour éviter le danger. Une fois qu'elle a reçu un ordre, la créature continue de le suivre jusqu'à ce que sa tâche soit accomplie.",
 				"La créature est sous votre contrôle pendant 24 heures, après quoi elle cesse d'obéir aux ordres que vous lui avez donnés. Pour garder le contrôle de la créature pendant 24 heures supplémentaires, vous devez relancer ce sort sur la créature avant la fin de la période de 24 heures en cours. Cette utilisation du sort réaffirme votre contrôle sur jusqu'à trois créatures que vous avez animées avec ce sort plutôt que d'en animer de nouvelles."
 			],
@@ -4767,7 +4767,7 @@
 					"type": "entries",
 					"name": "Utilisation d'un emplacement de sort de niveau supérieur",
 					"entries": [
-						"Si vous utilisez un emplacement de sort de niveau 7, vous pouvez animer ou réaffirmer votre contrôle sur quatre {@creature Ghoul|XMM|Goules}. Si vous utilisez un emplacement de sort de niveau 8, vous pouvez animer ou réaffirmer votre contrôle sur cinq {@creature Ghoul|XMM|Goules} ou deux {@creature Ghast|XMM|Ghasts} ou {@creature Wight|XMM|Wights}. Si vous utilisez un emplacement de sort de niveau 9, vous pouvez animer ou réaffirmer votre contrôle sur six {@creature Ghoul|XMM|Goules}, trois {@creature Ghast|XMM|Ghasts} ou {@creature Wight|XMM|Wights}, ou deux {@creature Mummy|XMM|Momies}. Consultez le {@book Monster Manual|XMM|Manuel des monstres} pour ces profils."
+						"Si vous utilisez un emplacement de sort de niveau 7, vous pouvez animer ou réaffirmer votre contrôle sur quatre {@creature Goule|XMM|Goules}. Si vous utilisez un emplacement de sort de niveau 8, vous pouvez animer ou réaffirmer votre contrôle sur cinq {@creature Goule|XMM|Goules} ou deux {@creature Ghast|XMM|Ghasts} ou {@creature Wight|XMM|Wights}. Si vous utilisez un emplacement de sort de niveau 9, vous pouvez animer ou réaffirmer votre contrôle sur six {@creature Goule|XMM|Goules}, trois {@creature Ghast|XMM|Ghasts} ou {@creature Wight|XMM|Wights}, ou deux {@creature Momie|XMM|Momies}. Consultez le {@book Monster Manual|XMM|Manuel des monstres} pour ces profils."
 					]
 				}
 			],
@@ -7684,7 +7684,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"Vous obtenez les services d'un familier, un esprit qui prend la forme animale de votre choix : {@creature Bat|XMM}, {@creature Cat|XMM}, {@creature Frog|XMM}, {@creature Hawk|XMM}, {@creature Lizard|XMM}, {@creature Octopus|XMM}, {@creature Owl|XMM}, {@creature Rat|XMM}, {@creature Raven|XMM}, {@creature Spider|XMM}, {@creature Weasel|XMM}, ou une autre Bête ayant un {@filter Challenge Rating of 0|bestiary|challenge rating=[&0]|type=beast|miscellaneous=!swarm}. Apparaissant dans un espace inoccupé à portée, le familier possède les statistiques de la forme choisie, mais c'est un Céleste, un Féerique ou un Fiendon (à votre choix) au lieu d'une Bête. Votre familier agit indépendamment de vous, mais il obéit à vos ordres.",
+				"Vous obtenez les services d'un familier, un esprit qui prend la forme animale de votre choix : {@creature Chauve-souris|XMM}, {@creature Chat|XMM}, {@creature Grenouille|XMM}, {@creature Faucon|XMM}, {@creature Lézard|XMM}, {@creature Pieuvre|XMM}, {@creature Chouette|XMM}, {@creature Rat|XMM}, {@creature Corbeau|XMM}, {@creature Araignée|XMM}, {@creature Belette|XMM}, ou une autre Bête ayant un {@filter Challenge Rating of 0|bestiary|challenge rating=[&0]|type=beast|miscellaneous=!swarm}. Apparaissant dans un espace inoccupé à portée, le familier possède les statistiques de la forme choisie, mais c'est un Céleste, un Féerique ou un Fiendon (à votre choix) au lieu d'une Bête. Votre familier agit indépendamment de vous, mais il obéit à vos ordres.",
 				{
 					"type": "entries",
 					"name": "Lien télépathique",
@@ -14528,7 +14528,7 @@
 			},
 			"entries": [
 				"Une créature quasi réelle semblable à un cheval, de taille G, apparaît au sol dans un espace inoccupé de votre choix à portée. Vous décidez de l'apparence de la créature, qui est équipée d'une selle, d'un mors et d'une bride. Tout cet équipement créé par le sort disparaît dans un nuage de fumée s'il est emporté à plus de 10 pieds du destrier.",
-				"Pendant la durée du sort, vous ou une créature de votre choix pouvez monter le destrier. Le destrier utilise le bloc de statistiques du {@creature Riding Horse|XMM}, excepté qu'il a une {@variantrule Speed|XPHB|Vitesse} de 100 pieds et peut parcourir 13 milles en une heure. Quand le sort prend fin, le destrier s'estompe progressivement, laissant au cavalier 1 minute pour descendre. Le sort prend fin prématurément si le destrier subit des dégâts."
+				"Pendant la durée du sort, vous ou une créature de votre choix pouvez monter le destrier. Le destrier utilise le bloc de statistiques du {@creature Cheval de selle|XMM}, excepté qu'il a une {@variantrule Speed|XPHB|Vitesse} de 100 pieds et peut parcourir 13 milles en une heure. Quand le sort prend fin, le destrier s'estompe progressivement, laissant au cavalier 1 minute pour descendre. Le sort prend fin prématurément si le destrier subit des dégâts."
 			],
 			"miscTags": [
 				"SMN"

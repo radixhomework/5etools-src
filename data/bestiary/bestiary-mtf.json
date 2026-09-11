@@ -3328,7 +3328,7 @@
 				{
 					"name": "Summon Specters (Recharges after a Short or Long Rest)",
 					"entries": [
-						"As a bonus action, the cadaver collector calls up the enslaved spirits of those it has slain; {@dice 1d6} {@creature specter||specters} (without Sunlight Sensitivity) arise in unoccupied spaces within 15 feet of the cadaver collector. The specters act right after the cadaver collector on the same initiative count and fight until they're destroyed. They disappear when the cadaver collector is destroyed."
+						"As a bonus action, the cadaver collector calls up the enslaved spirits of those it has slain; {@dice 1d6} {@creature Spectre||specters} (without Sunlight Sensitivity) arise in unoccupied spaces within 15 feet of the cadaver collector. The specters act right after the cadaver collector on the same initiative count and fight until they're destroyed. They disappear when the cadaver collector is destroyed."
 					]
 				}
 			],
@@ -4023,7 +4023,7 @@
 					"_mod": {
 						"spellcasting": {
 							"mode": "replaceArr",
-							"replace": "Spellcasting",
+							"replace": "Lancer des sorts",
 							"items": {
 								"name": "Spellcasting",
 								"headerEntries": [
@@ -4062,7 +4062,7 @@
 					"_mod": {
 						"spellcasting": {
 							"mode": "replaceArr",
-							"replace": "Spellcasting",
+							"replace": "Lancer des sorts",
 							"items": {
 								"name": "Spellcasting",
 								"headerEntries": [
@@ -4101,7 +4101,7 @@
 					"_mod": {
 						"spellcasting": {
 							"mode": "replaceArr",
-							"replace": "Spellcasting",
+							"replace": "Lancer des sorts",
 							"items": {
 								"name": "Spellcasting",
 								"headerEntries": [
@@ -4357,7 +4357,7 @@
 					"_mod": {
 						"spellcasting": {
 							"mode": "replaceArr",
-							"replace": "Spellcasting",
+							"replace": "Lancer des sorts",
 							"items": {
 								"name": "Spellcasting",
 								"headerEntries": [
@@ -4401,7 +4401,7 @@
 					"_mod": {
 						"spellcasting": {
 							"mode": "replaceArr",
-							"replace": "Spellcasting",
+							"replace": "Lancer des sorts",
 							"items": {
 								"name": "Spellcasting",
 								"headerEntries": [
@@ -4445,7 +4445,7 @@
 					"_mod": {
 						"spellcasting": {
 							"mode": "replaceArr",
-							"replace": "Spellcasting",
+							"replace": "Lancer des sorts",
 							"items": {
 								"name": "Spellcasting",
 								"headerEntries": [
@@ -5654,7 +5654,7 @@
 				{
 					"name": "Change Shape (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The drow can use a bonus action to magically polymorph into a {@creature giant spider}, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics, other than its size, are the same in each form. It can speak and cast spells while in giant spider form. Any equipment it is wearing or carrying in humanoid form melds into the giant spider form. It can't activate, use, wield, or otherwise benefit from any of its equipment. It reverts to its humanoid form if it dies."
+						"The drow can use a bonus action to magically polymorph into a {@creature Araignée géante}, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics, other than its size, are the same in each form. It can speak and cast spells while in giant spider form. Any equipment it is wearing or carrying in humanoid form melds into the giant spider form. It can't activate, use, wield, or otherwise benefit from any of its equipment. It reverts to its humanoid form if it dies."
 					]
 				},
 				{
@@ -5702,7 +5702,7 @@
 					]
 				},
 				{
-					"name": "Web (Giant Spider Form Only Recharge 5\u20136)",
+					"name": "Web (Giant Spider Form Only Recharge 5–6)",
 					"entries": [
 						"{@atk rw} {@hit 8} to hit, range 30/60 ft., one target. {@h}The target is {@condition Entravé} by webbing. As an action, the {@condition Entravé} target can make a {@dc 15} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
 					]
@@ -6755,7 +6755,7 @@
 					]
 				},
 				{
-					"name": "Cast a Spell (Costs 1\u20133 Actions)",
+					"name": "Cast a Spell (Costs 1–3 Actions)",
 					"entries": [
 						"The drow expends a spell slot to cast a 1st-, 2nd-, or 3rd-level spell that she has prepared. Doing so costs 1 legendary action per level of the spell."
 					]
@@ -12948,7 +12948,7 @@
 				{
 					"name": "Eject Slime {@recharge 5}",
 					"entries": [
-						"Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must make a {@dc 21} Dexterity saving throw. On a failure, the target takes 55 ({@damage 10d10}) acid damage. Unless the target avoids taking any of this damage, any metal armor worn by the target takes a permanent \u22121 penalty to the AC it offers, and any metal weapon it is carrying or wearing takes a permanent \u22121 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to \u22125, the object is destroyed."
+						"Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must make a {@dc 21} Dexterity saving throw. On a failure, the target takes 55 ({@damage 10d10}) acid damage. Unless the target avoids taking any of this damage, any metal armor worn by the target takes a permanent −1 penalty to the AC it offers, and any metal weapon it is carrying or wearing takes a permanent −1 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to −5, the object is destroyed."
 					]
 				}
 			],
@@ -14684,7 +14684,7 @@
 				{
 					"name": "Snakebite",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 15 ft., one creature. {@h}12 ({@damage 1d6 + 9}) piercing damage, and the target must succeed on a {@dc 22} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target transforms into a {@creature manes} if this reduces its hit point maximum to 0. This transformation can be ended only by a {@spell Souhait} spell."
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one creature. {@h}12 ({@damage 1d6 + 9}) piercing damage, and the target must succeed on a {@dc 22} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target transforms into a {@creature Mânes} if this reduces its hit point maximum to 0. This transformation can be ended only by a {@spell Souhait} spell."
 					]
 				}
 			],
@@ -14898,7 +14898,7 @@
 				{
 					"name": "Soul-Stealing Gaze",
 					"entries": [
-						"The nabassu targets one creature it can see within 30 feet of it. If the target can see the nabassu and isn't a construct or an undead, it must succeed on a {@dc 16} Charisma saving throw or reduce its hit point maximum by 13 ({@damage 2d12}) damage and give the nabassu an equal number of temporary hit points. This reduction lasts until the target finishes a short or long rest. The target dies if its hit point maximum is reduced to 0, and if the target is a humanoid, it immediately rises as a {@creature ghoul} under the nabassu's control."
+						"The nabassu targets one creature it can see within 30 feet of it. If the target can see the nabassu and isn't a construct or an undead, it must succeed on a {@dc 16} Charisma saving throw or reduce its hit point maximum by 13 ({@damage 2d12}) damage and give the nabassu an equal number of temporary hit points. This reduction lasts until the target finishes a short or long rest. The target dies if its hit point maximum is reduced to 0, and if the target is a humanoid, it immediately rises as a {@creature Goule} under the nabassu's control."
 					]
 				}
 			],
@@ -15265,7 +15265,7 @@
 				{
 					"name": "Infernal Tack",
 					"entries": [
-						"The narzugon wears spurs that are part of infernal tack, which allow it to summon its {@creature nightmare} companion."
+						"The narzugon wears spurs that are part of infernal tack, which allow it to summon its {@creature Cauchemar} companion."
 					]
 				},
 				{
@@ -18625,7 +18625,7 @@
 				{
 					"name": "Summon Undead (Costs 3 Actions)",
 					"entries": [
-						"Up to five {@creature skeleton||skeletons} or {@creature zombie||zombies} appear in unoccupied spaces within 30 feet of the skull lord and remain until destroyed. Undead summoned in this way roll initiative and act in the next available turn. The skull lord can have up to five undead summoned by this ability at a time."
+						"Up to five {@creature Squelette||skeletons} or {@creature zombie||zombies} appear in unoccupied spaces within 30 feet of the skull lord and remain until destroyed. Undead summoned in this way roll initiative and act in the next available turn. The skull lord can have up to five undead summoned by this ability at a time."
 					]
 				}
 			],
@@ -19537,7 +19537,7 @@
 				{
 					"name": "Return to Worms",
 					"entries": [
-						"When the larva mage is reduced to 0 hit points, it breaks apart into a {@creature swarm of insects} in the same space. Unless the swarm is destroyed, the larva mage reforms from it 24 hours later."
+						"When the larva mage is reduced to 0 hit points, it breaks apart into a {@creature Nuée d'insectes} in the same space. Unless the swarm is destroyed, the larva mage reforms from it 24 hours later."
 					]
 				}
 			],

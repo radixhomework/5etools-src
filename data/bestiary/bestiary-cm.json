@@ -1013,7 +1013,7 @@
 			"source": "CM",
 			"page": 205,
 			"_copy": {
-				"name": "Dragon Turtle",
+				"name": "Tortue dragonnaire",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1023,11 +1023,11 @@
 					},
 					"trait": {
 						"mode": "removeArr",
-						"names": "Amphibious"
+						"names": "Amphibie"
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Steam Breath {@recharge 5}",
+						"replace": "Souffle de vapeur {@recharge 5}",
 						"items": {
 							"name": "Sand Breath {@recharge 5}",
 							"entries": [
@@ -1473,7 +1473,7 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"The gingwatzim changes from its true form\u2014a 3-foot-diameter sphere of luminous ectoplasm\u2014into one of its two alternate forms, or from one of those forms back into its true form. In object form, it can't move or make attacks but otherwise retains its statistics, and it is indistinguishable from the thing it is imitating. In beast form, it retains its hit points but otherwise uses the stat block of the beast it is imitating. When it dies, the gingwatzim reverts to its true form and then vanishes."
+						"The gingwatzim changes from its true form—a 3-foot-diameter sphere of luminous ectoplasm—into one of its two alternate forms, or from one of those forms back into its true form. In object form, it can't move or make attacks but otherwise retains its statistics, and it is indistinguishable from the thing it is imitating. In beast form, it retains its hit points but otherwise uses the stat block of the beast it is imitating. When it dies, the gingwatzim reverts to its true form and then vanishes."
 					]
 				}
 			],
@@ -1622,7 +1622,7 @@
 			"source": "CM",
 			"page": 76,
 			"_copy": {
-				"name": "Green Hag",
+				"name": "Mégère verte",
 				"source": "MM",
 				"_mod": {
 					"spellcasting": {
@@ -1636,43 +1636,43 @@
 								"1": {
 									"slots": 4,
 									"spells": [
-										"{@spell Charmement}",
-										"{@spell Décharge occulte}"
+										"{@spell charm person}",
+										"{@spell witch bolt}"
 									]
 								},
 								"2": {
 									"slots": 3,
 									"spells": [
-										"{@spell Changement d'apparence}",
+										"{@spell alter self}",
 										"{@spell suggestion}"
 									]
 								},
 								"3": {
 									"slots": 3,
 									"spells": [
-										"{@spell Dissipation de la magie}",
-										"{@spell Glyphe de garde}",
-										"{@spell Lenteur}"
+										"{@spell dispel magic}",
+										"{@spell glyph of warding}",
+										"{@spell slow}"
 									]
 								},
 								"4": {
 									"slots": 3,
 									"spells": [
-										"{@spell Ravage}",
-										"{@spell Polymorphie}"
+										"{@spell blight}",
+										"{@spell polymorph}"
 									]
 								},
 								"5": {
 									"slots": 2,
 									"spells": [
-										"{@spell Soumission d'humanoïde}",
-										"{@spell Apparence}"
+										"{@spell dominate person}",
+										"{@spell seeming}"
 									]
 								},
 								"6": {
 									"slots": 1,
 									"spells": [
-										"{@spell Danse irrésistible d'Otto}"
+										"{@spell Otto's irresistible dance}"
 									]
 								}
 							},
@@ -2084,7 +2084,7 @@
 			"source": "CM",
 			"page": 167,
 			"_copy": {
-				"name": "Scout",
+				"name": "Éclaireur",
 				"source": "MM",
 				"_templates": [
 					{
@@ -2104,7 +2104,7 @@
 						"items": {
 							"name": "Exhaustion",
 							"entries": [
-								"Kharbek has 5 levels of {@condition Épuisement}."
+								"Kharbek has 5 levels of {@condition exhaustion}."
 							]
 						}
 					}
@@ -4781,7 +4781,7 @@
 					},
 					"trait": {
 						"mode": "removeArr",
-						"names": "Sunlight Sensitivity"
+						"names": "Sensibilité à la lumière du soleil"
 					}
 				}
 			},
@@ -4798,7 +4798,7 @@
 			"source": "CM",
 			"page": 145,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_templates": [
 					{
@@ -4818,7 +4818,7 @@
 						"spells": {
 							"5": {
 								"spells": [
-									"{@spell Invocation d'élémentaire}"
+									"{@spell conjure elemental}"
 								]
 							}
 						}

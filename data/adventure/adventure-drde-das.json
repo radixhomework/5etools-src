@@ -322,27 +322,27 @@
 							"type": "list",
 							"columns": 2,
 							"items": [
-								"{@creature Twig Blight|XMM|Blight, Twig}",
-								"{@creature Vine Blight|XMM|Blight, Vine}",
-								"{@creature Commoner|XMM}",
-								"{@creature Dryad|XMM}",
-								"{@creature Green Dragon Wyrmling|XMM}",
-								"{@creature Guard|XMM}",
-								"{@creature Mud Mephit|XMM|Mud Mephits}",
+								"{@creature Fléau des brindilles|XMM|Blight, Twig}",
+								"{@creature Fléau de la vigne|XMM|Blight, Vine}",
+								"{@creature Roturier|XMM}",
+								"{@creature Dryade|XMM}",
+								"{@creature Dragon vert (jeune)|XMM}",
+								"{@creature Garde|XMM}",
+								"{@creature Méphite de boue|XMM|Mud Mephits}",
 								"{@creature Noble|XMM}",
 								"{@creature Priest Acolyte|XMM}",
-								"{@creature Scout|XMM}",
-								"{@creature Yuan-ti Malison (Type 1)|XMM}",
+								"{@creature Éclaireur|XMM}",
+								"{@creature Yuan-ti malisson (type 1)|XMM}",
 								"{@creature Zombie|XMM}",
 								"{@b Animals}:",
 								{
 									"type": "list",
 									"items": [
-										"{@creature Constrictor Snake|XMM}",
-										"{@creature Giant Centipede|XMM}",
+										"{@creature Serpent constricteur|XMM}",
+										"{@creature Scutigère géante|XMM}",
 										"{@creature Giant Venomous Snake|XMM}",
-										"{@creature Mastiff|XMM}",
-										"{@creature Swarm of Insects|XMM}",
+										"{@creature Molosse|XMM}",
+										"{@creature Nuée d'insectes|XMM}",
 										"{@creature Venomous Snake|XMM}"
 									],
 									"style": "list-no-bullets"
@@ -477,19 +477,19 @@
 								[
 									"{@area Armin Whisperwind|016|x}",
 									"Lost elf council member",
-									"{@creature Scout|XMM} (Medium)",
+									"{@creature Éclaireur|XMM} (Medium)",
 									"{@area R4|031|x}"
 								],
 								[
 									"Darrin, Jherris, Lyrienne, and Rayna",
 									"Elves forced into the dragon's service",
-									"{@creature Guard|XMM} (Medium)",
+									"{@creature Garde|XMM} (Medium)",
 									"{@area L1|047|x}"
 								],
 								[
 									"Fergus Deerborn",
 									"Elf village cook",
-									"{@creature Commoner|XMM} (Medium)",
+									"{@creature Roturier|XMM} (Medium)",
 									"\"{@area Village Green|01e|x}\""
 								],
 								[
@@ -501,13 +501,13 @@
 								[
 									"Kaynen",
 									"Guardian of the redwood grove",
-									"{@creature Dryad|XMM}",
+									"{@creature Dryade|XMM}",
 									"{@area R3|02e|x}"
 								],
 								[
 									"Marilissa",
 									"Sunset-Is-Nigh's devoted servant",
-									"{@creature Yuan-ti Malison (Type 1)|XMM}",
+									"{@creature Yuan-ti malisson (type 1)|XMM}",
 									"{@area L3|050|x}"
 								],
 								[
@@ -519,13 +519,13 @@
 								[
 									"Sunny Lightpurse",
 									"Halfling traveling merchant",
-									"{@creature Commoner|XMM} (Small)",
+									"{@creature Roturier|XMM} (Small)",
 									"\"{@area Village Green|01e|x}\""
 								],
 								[
 									"Sunset-Is-Nigh",
 									"Child of Death-at-Sunset",
-									"{@creature Green Dragon Wyrmling|XMM}",
+									"{@creature Dragon vert (jeune)|XMM}",
 									"{@area L6|057|x}"
 								]
 							]
@@ -580,7 +580,7 @@
 											"page": 15,
 											"id": "016",
 											"entries": [
-												"Armin (Medium {@creature Scout|XMM}) left Redwood Watch to investigate reports of the grove's corruption a month ago. He never returned. The villagers worry something terrible befell him, saying the skilled elf tracker would never have abandoned Redwood Watch permanently. (The wyrmling is now forcing Armin to defend area {@area R4|031|x}.)"
+												"Armin (Medium {@creature Éclaireur|XMM}) left Redwood Watch to investigate reports of the grove's corruption a month ago. He never returned. The villagers worry something terrible befell him, saying the skilled elf tracker would never have abandoned Redwood Watch permanently. (The wyrmling is now forcing Armin to defend area {@area R4|031|x}.)"
 											]
 										},
 										{
@@ -1658,7 +1658,7 @@
 									"page": 15,
 									"id": "01f",
 									"entries": [
-										"The elf cook Fergus Deerborn (Medium {@creature Commoner|XMM}), an elegant man in constant motion, runs a small eatery out of the village green. Fergus creates simple yet tasty dishes from donated mushrooms, berries, lichens, herbs, rabbit, venison, and other forest bounties. Fergus's food is available to visitors for a small donation, as is the fine elven wine produced by the council-owned winery."
+										"The elf cook Fergus Deerborn (Medium {@creature Roturier|XMM}), an elegant man in constant motion, runs a small eatery out of the village green. Fergus creates simple yet tasty dishes from donated mushrooms, berries, lichens, herbs, rabbit, venison, and other forest bounties. Fergus's food is available to visitors for a small donation, as is the fine elven wine produced by the council-owned winery."
 									]
 								},
 								{
@@ -1691,7 +1691,7 @@
 												],
 												[
 													"3",
-													"\"Don't wander the forest alone! Evil trees grow there now.\" [Partially true; the dragon's influence has encouraged the growth of many forest blights, including the {@creature Vine Blight|XMM} and {@creature Twig Blight|XMM} in area {@area L4|053|x}.]"
+													"\"Don't wander the forest alone! Evil trees grow there now.\" [Partially true; the dragon's influence has encouraged the growth of many forest blights, including the {@creature Fléau de la vigne|XMM} and {@creature Fléau des brindilles|XMM} in area {@area L4|053|x}.]"
 												],
 												[
 													"4",
@@ -1699,7 +1699,7 @@
 												],
 												[
 													"5",
-													"\"There's a strange man in the forest with green skin and hair made of leaves. I think he's a forest spirit!\" [Partially true; a {@creature Dryad|XMM} has moved into area {@area R3|02e|x}. He might help the characters.]"
+													"\"There's a strange man in the forest with green skin and hair made of leaves. I think he's a forest spirit!\" [Partially true; a {@creature Dryade|XMM} has moved into area {@area R3|02e|x}. He might help the characters.]"
 												],
 												[
 													"6",
@@ -1715,7 +1715,7 @@
 									"page": 16,
 									"id": "021",
 									"entries": [
-										"A traveling merchant named Sunny Lightpurse (Small {@creature Commoner|XMM}) recently set up shop in Redwood Watch. Sunny is a golden-haired halfling with a perpetual smile that's true to her name. Each day in the village green, Sunny unpacks her wares from a heavily laden wagon. When not doing business, Sunny cheerily praises her two horses, Buttercup and Daisy, and chats with passersby.",
+										"A traveling merchant named Sunny Lightpurse (Small {@creature Roturier|XMM}) recently set up shop in Redwood Watch. Sunny is a golden-haired halfling with a perpetual smile that's true to her name. Each day in the village green, Sunny unpacks her wares from a heavily laden wagon. When not doing business, Sunny cheerily praises her two horses, Buttercup and Daisy, and chats with passersby.",
 										{
 											"type": "entries",
 											"name": "Sunny's Wares",
@@ -1856,7 +1856,7 @@
 											"width": 850,
 											"height": 2285
 										},
-										"This is Kaynen, a {@creature Dryad|XMM} who made this tree his home just before Sunset-Is-Nigh hatched. Kaynen is initially Hostile toward the characters, assuming they are bandits and commanding the characters not to touch his tree. If the characters respect Kaynen's request, his attitude becomes Indifferent.",
+										"This is Kaynen, a {@creature Dryade|XMM} who made this tree his home just before Sunset-Is-Nigh hatched. Kaynen is initially Hostile toward the characters, assuming they are bandits and commanding the characters not to touch his tree. If the characters respect Kaynen's request, his attitude becomes Indifferent.",
 										"As an {@action Influence|XPHB} action, a character can ask for Kaynen's help to heal the forest. The character makes a {@dc 12} Charisma ({@skill Persuasion|XPHB}) check. On a successful check, Kaynen becomes Friendly. He answers questions to the best of his ability and gladly allows the characters to harvest a tree bark sample.",
 										"The dryad has heard rumors that a dragon wyrmling lurks down in Death-at-Sunset's old lair (see \"{@area Death-at-Sunset's Lair|040|x}\"), and he suspects the wyrmling is to blame for the forest's corruption. If the characters haven't already expressed their intent to kill the wyrmling, Kaynen asks them to do so. Kaynen also warns the characters about a strange, angry elf who lurks around the lair's entrance (area {@area R4|031|x}).",
 										{
@@ -1876,7 +1876,7 @@
 									"page": 18,
 									"id": "031",
 									"entries": [
-										"This is the entrance to Death-at-Sunset's lair (see \"{@area Death-at-Sunset's Lair|040|x}\"). The missing elf council member, {@area Armin Whisperwind|016|x} (Medium {@creature Scout|XMM}), and his {@creature Mastiff|XMM}, Fletcher, hide here behind roots near the opening's northeast corner and watch the characters.",
+										"This is the entrance to Death-at-Sunset's lair (see \"{@area Death-at-Sunset's Lair|040|x}\"). The missing elf council member, {@area Armin Whisperwind|016|x} (Medium {@creature Éclaireur|XMM}), and his {@creature Molosse|XMM}, Fletcher, hide here behind roots near the opening's northeast corner and watch the characters.",
 										"As a {@action Chercher|XPHB} action, a character can examine the ground around the lair entrance and make a {@dc 14} Wisdom ({@skill Perception|XPHB}) check. On a successful check, the character finds Armin's boot prints and Fletcher's paw prints. If Armin perceives the characters discovering his trail, or if the characters try to enter the lair, he fights them.",
 										{
 											"type": "entries",
@@ -1915,7 +1915,7 @@
 											]
 										},
 										"The stream running through the grove has made this area thick with stinking, poisonous mud. The mud is {@variantrule Difficult Terrain|XPHB}. A creature that ends its turn in the mud must succeed on a {@dc 10} Constitution saving throw or have the {@condition Empoisonné|XPHB} condition until the start of its next turn.",
-										"Three {@creature Mud Mephit|XMM|Mud Mephits} hide in the mud, drawn here by the dragon's latent evil magic. The mephits stay hidden until at least one character enters the mud, then they ambush the characters. If two mephits are destroyed, the third tries to escape."
+										"Three {@creature Méphite de boue|XMM|Mud Mephits} hide in the mud, drawn here by the dragon's latent evil magic. The mephits stay hidden until at least one character enters the mud, then they ambush the characters. If two mephits are destroyed, the third tries to escape."
 									]
 								},
 								{
@@ -1932,7 +1932,7 @@
 												"A sickly redwood stands here, its trunk surrounded by fetid undergrowth."
 											]
 										},
-										"The forest's corruption has attracted a nest of deadly centipedes that hide in the tree's bark. When a character moves next to the tree, a {@creature Swarm of Insects|XMM} (centipedes) and a {@creature Giant Centipede|XMM} skitter from behind the bark and roots to fight the characters."
+										"The forest's corruption has attracted a nest of deadly centipedes that hide in the tree's bark. When a character moves next to the tree, a {@creature Nuée d'insectes|XMM} (centipedes) and a {@creature Scutigère géante|XMM} skitter from behind the bark and roots to fight the characters."
 									]
 								},
 								{
@@ -3182,7 +3182,7 @@
 												"The tunnel from above leads into a dank, sprawling cavern walled with dirt and twisting roots. Enormous claw marks mar the walls."
 											]
 										},
-										"Hiding in an alcove along the northwest wall are four elves (Medium {@creature Guard|XMM|Guards}) from Redwood Watch: Darrin, Jherris, Lyrienne, and Rayna. The elves are Hostile toward the characters. As soon as the characters venture more than 10 feet into this area, the elves begin combat, screaming at the characters to leave and never return.",
+										"Hiding in an alcove along the northwest wall are four elves (Medium {@creature Garde|XMM|Guards}) from Redwood Watch: Darrin, Jherris, Lyrienne, and Rayna. The elves are Hostile toward the characters. As soon as the characters venture more than 10 feet into this area, the elves begin combat, screaming at the characters to leave and never return.",
 										{
 											"type": "entries",
 											"name": "Helping the Elves",
@@ -3236,7 +3236,7 @@
 												"Roots and earth form the ceiling of this large chamber. A wide, shallow pit filled with slithering snakes takes up much of the room."
 											]
 										},
-										"This pit is home to the snake pets of Marilissa, the yuan-ti in area L3. The pit contains two {@creature Giant Venomous Snake|XMM|Giant Venomous Snakes}, one {@creature Constrictor Snake|XMM}, and six {@creature Venomous Snake|XMM|Venomous Snakes}. The snakes don't leave the pit on their own and fight any character who enters it.",
+										"This pit is home to the snake pets of Marilissa, the yuan-ti in area L3. The pit contains two {@creature Giant Venomous Snake|XMM|Giant Venomous Snakes}, one {@creature Serpent constricteur|XMM}, and six {@creature Venomous Snake|XMM|Venomous Snakes}. The snakes don't leave the pit on their own and fight any character who enters it.",
 										{
 											"type": "entries",
 											"name": "Pit Edges",
@@ -3262,7 +3262,7 @@
 												"These strangely furnished living quarters include a bed, a chair, and a table. Sitting on the chair is a woman with a snake's head and a human's body. She strokes a snake coiled on her lap and grins at you wickedly."
 											]
 										},
-										"This is Marilissa, a {@creature Yuan-ti Malison (Type 1)|XMM}, and a {@creature Venomous Snake|XMM} pet she named Robby.",
+										"This is Marilissa, a {@creature Yuan-ti malisson (type 1)|XMM}, and a {@creature Venomous Snake|XMM} pet she named Robby.",
 										"Marilissa was passing through the grove when Sunset-Is-Nigh hatched five years ago. Feeling draconic magic seep into the forest, Marilissa believed she was destined to serve the wyrmling and the terrible beast he will inevitably become. She is the wyrmling's most dedicated servant.",
 										{
 											"type": "entries",
@@ -3301,7 +3301,7 @@
 												"Thick roots and dry, brittle twigs jut from the earthen walls of this cavern."
 											]
 										},
-										"A {@creature Vine Blight|XMM} and a {@creature Twig Blight|XMM} remain motionless here until a character ventures more than 10 feet into this area. The blights then advance toward the characters and fight to the death."
+										"A {@creature Fléau de la vigne|XMM} and a {@creature Fléau des brindilles|XMM} remain motionless here until a character ventures more than 10 feet into this area. The blights then advance toward the characters and fight to the death."
 									]
 								},
 								{
@@ -3318,7 +3318,7 @@
 												"Many-legged bugs swarm over the north and south walls of this long cavern."
 											]
 										},
-										"Two {@creature Swarm of Insects|XMM|Swarms of Insects} (centipedes) and two {@creature Giant Centipede|XMM|Giant Centipedes} crawl across these walls. The insects fight any creature that moves within 5 feet of the north or south wall in this area."
+										"Two {@creature Nuée d'insectes|XMM|Swarms of Insects} (centipedes) and two {@creature Scutigère géante|XMM|Giant Centipedes} crawl across these walls. The insects fight any creature that moves within 5 feet of the north or south wall in this area."
 									]
 								},
 								{
@@ -3335,7 +3335,7 @@
 												"A thin, pale-green fog hangs in the center of this vast chamber above the skeleton of an enormous dragon. Through its gaping eye sockets, you spot flitting movement within the dead dragon's skull. \"It is I, Sunset-Is-Nigh!\" croaks a high-pitched voice from inside the skull. \"Enter my lair and find your doom!\""
 											]
 										},
-										"Sunset-Is-Nigh, the {@creature Green Dragon Wyrmling|XMM} who hatched from Death-at-Sunset's egg, lives in this chamber. The wyrmling skitters through his mother's skeleton, trying to lure the characters into the poisonous miasma that hangs in the air. As soon as a character enters the miasma, the wyrmling starts combat. If Marilissa, the yuan-ti in area L3, notices battle here, she comes to help Sunset-Is-Nigh, arriving at the end of the third round of combat.",
+										"Sunset-Is-Nigh, the {@creature Dragon vert (jeune)|XMM} who hatched from Death-at-Sunset's egg, lives in this chamber. The wyrmling skitters through his mother's skeleton, trying to lure the characters into the poisonous miasma that hangs in the air. As soon as a character enters the miasma, the wyrmling starts combat. If Marilissa, the yuan-ti in area L3, notices battle here, she comes to help Sunset-Is-Nigh, arriving at the end of the third round of combat.",
 										{
 											"type": "entries",
 											"name": "Roleplaying Sunset-Is-Nigh",

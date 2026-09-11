@@ -24,7 +24,7 @@
 			"source": "TftYP",
 			"page": 84,
 			"_copy": {
-				"name": "Giant Constrictor Snake",
+				"name": "Serpent constricteur géant",
 				"source": "MM",
 				"_mod": {
 					"action": {
@@ -166,7 +166,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -663,7 +663,7 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Frost Giant",
+				"name": "Géant du givre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -691,7 +691,7 @@
 			"source": "TftYP",
 			"page": 206,
 			"_copy": {
-				"name": "Cloud Giant",
+				"name": "Géant des nuages",
 				"source": "MM"
 			},
 			"ac": [
@@ -714,7 +714,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -751,7 +751,7 @@
 					},
 					"trait": {
 						"mode": "replaceArr",
-						"replace": "Regeneration",
+						"replace": "Régénération",
 						"items": {
 							"name": "Regeneration",
 							"entries": [
@@ -761,7 +761,7 @@
 					},
 					"action": {
 						"mode": "removeArr",
-						"names": "Multiattack"
+						"names": "Attaques multiples"
 					}
 				}
 			},
@@ -912,7 +912,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Spy",
+				"name": "Espion",
 				"source": "MM",
 				"_templates": [
 					{
@@ -940,7 +940,7 @@
 			"source": "TftYP",
 			"page": 209,
 			"_copy": {
-				"name": "Drow Elite Warrior",
+				"name": "Drow guerrier d'élite",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -952,9 +952,9 @@
 								{
 									"type": "list",
 									"items": [
-										"A {@i bolt of holding}, which casts {@spell Immobiliser un personnage} on a target hit with the bolt, as well as up to two other targets within 30 feet of that target",
-										"A {@i bolt of blinding}, which casts {@spell Cécité/Surdité} to blind on a target hit with the bolt, as well as up to two other targets within 30 feet of that target",
-										"A {@i bolt of vapors}, which casts {@spell Nuée nauséabonde} centered on the point it hits"
+										"A {@i bolt of holding}, which casts {@spell hold person} on a target hit with the bolt, as well as up to two other targets within 30 feet of that target",
+										"A {@i bolt of blinding}, which casts {@spell blindness/deafness} to blind on a target hit with the bolt, as well as up to two other targets within 30 feet of that target",
+										"A {@i bolt of vapors}, which casts {@spell stinking cloud} centered on the point it hits"
 									]
 								},
 								"Each of these effects has a spell save DC of 15 and a duration of 1 minute."
@@ -964,7 +964,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Shortsword",
+							"replace": "Épée courte",
 							"items": {
 								"name": "Shortsword +2",
 								"entries": [
@@ -974,11 +974,11 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Hand Crossbow",
+							"replace": "Arbalète de poche",
 							"items": {
 								"name": "Hand Crossbow +1",
 								"entries": [
-									"{@atk rw} {@hit 8} to hit, range 30/120 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition Empoisonné} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition Inconscient} while {@condition Empoisonné} in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
+									"{@atk rw} {@hit 8} to hit, range 30/120 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition unconscious} while {@condition poisoned} in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
 								]
 							}
 						}
@@ -1259,7 +1259,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Druid",
+				"name": "Druide",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1289,7 +1289,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Black Pudding",
+				"name": "Pouding noir",
 				"source": "MM"
 			},
 			"size": [
@@ -1306,7 +1306,7 @@
 			"source": "TftYP",
 			"page": 176,
 			"_copy": {
-				"name": "Giant Crocodile",
+				"name": "Crocodile géant",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1469,7 +1469,7 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Cloud Giant",
+				"name": "Géant des nuages",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1506,13 +1506,13 @@
 			"source": "TftYP",
 			"page": 201,
 			"_copy": {
-				"name": "Fire Giant",
+				"name": "Géant du feu",
 				"source": "MM",
 				"_mod": {
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -1522,7 +1522,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Greatsword",
+							"replace": "Épée à deux mains",
 							"items": {
 								"name": "Greataxe +2",
 								"entries": [
@@ -1546,13 +1546,13 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Hill Giant",
+				"name": "Géant des collines",
 				"source": "MM",
 				"_mod": {
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -1562,7 +1562,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Greatclub",
+							"replace": "Grand gourdin",
 							"items": {
 								"name": "Longsword",
 								"entries": [
@@ -1587,12 +1587,12 @@
 			"source": "TftYP",
 			"page": 224,
 			"_copy": {
-				"name": "Flying Sword",
+				"name": "Épée volante",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "sword",
+						"replace": "Épée",
 						"with": "shield",
 						"flags": "i"
 					}
@@ -1724,7 +1724,7 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Hill Giant",
+				"name": "Géant des collines",
 				"source": "MM"
 			},
 			"immune": [
@@ -1737,7 +1737,7 @@
 			"source": "TftYP",
 			"page": 56,
 			"_copy": {
-				"name": "Rug of Smothering",
+				"name": "Tapis étouffeur",
 				"source": "MM"
 			},
 			"size": [
@@ -2285,7 +2285,7 @@
 				"TftYP-TSC"
 			],
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -2333,7 +2333,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_templates": [
 					{
@@ -2373,7 +2373,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Greatclub",
+						"replace": "Grand gourdin",
 						"items": {
 							"name": "Greataxe",
 							"entries": [
@@ -2659,7 +2659,7 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Hill Giant",
+				"name": "Géant des collines",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2765,7 +2765,7 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Hill Giant",
+				"name": "Géant des collines",
 				"source": "MM"
 			},
 			"ac": [
@@ -2807,7 +2807,7 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Stone Giant",
+				"name": "Géant de pierre",
 				"source": "MM"
 			},
 			"trait": null,
@@ -2908,7 +2908,7 @@
 			"source": "TftYP",
 			"page": 225,
 			"_copy": {
-				"name": "Ochre Jelly",
+				"name": "Gluant ocre",
 				"source": "MM"
 			},
 			"size": [
@@ -2928,7 +2928,7 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Polar Bear",
+				"name": "Ours polaire",
 				"source": "MM"
 			},
 			"size": [
@@ -2950,7 +2950,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -2982,7 +2982,7 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Cloud Giant",
+				"name": "Géant des nuages",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2994,7 +2994,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -3510,7 +3510,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -3543,7 +3543,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM"
 			},
 			"type": {
@@ -3564,7 +3564,7 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Fire Giant",
+				"name": "Géant du feu",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3575,7 +3575,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Greatsword",
+						"replace": "Épée à deux mains",
 						"items": {
 							"name": "Greatsword",
 							"entries": [
@@ -3617,7 +3617,7 @@
 				"TftYP-TSC"
 			],
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -3682,7 +3682,7 @@
 				"US"
 			],
 			"_copy": {
-				"name": "Ghoul",
+				"name": "Goule",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3758,7 +3758,7 @@
 			"source": "TftYP",
 			"page": 224,
 			"_copy": {
-				"name": "Mummy Lord",
+				"name": "Seigneur momie",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -3766,7 +3766,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"The mummy wears a {@item Anneau de résistance au feu}."
+								"The mummy wears a {@item ring of fire resistance}."
 							]
 						}
 					}
@@ -3796,7 +3796,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Deva",
+				"name": "Déva",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4123,7 +4123,7 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Drow Priestess of Lolth",
+				"name": "Drow prêtresse de Lolth",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4137,13 +4137,13 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Nedylene carries a {@item Bâton des insectes grouillants}."
+								"Nedylene carries a {@item staff of swarming insects}."
 							]
 						}
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Scourge",
+						"replace": "Fléau",
 						"items": {
 							"name": "Scourge +2",
 							"entries": [
@@ -4382,7 +4382,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Multiattack",
+						"replace": "Attaques multiples",
 						"items": {
 							"name": "Multiattack",
 							"entries": [
@@ -4573,7 +4573,7 @@
 				{
 					"name": "Corrosive Form",
 					"entries": [
-						"A creature that touches the Ooze Master or hits it with a melee attack while within 5 feet of it takes 9 ({@damage 2d8}) acid damage. Any nonmagical weapon that hits the Ooze Master corrodes. After dealing damage, the weapon takes a permanent and cumulative \u22121 penalty to damage rolls. If its penalty drops to \u22125, the weapon is destroyed. Nonmagical ammunition that hits the Ooze Master is destroyed after dealing damage.",
+						"A creature that touches the Ooze Master or hits it with a melee attack while within 5 feet of it takes 9 ({@damage 2d8}) acid damage. Any nonmagical weapon that hits the Ooze Master corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition that hits the Ooze Master is destroyed after dealing damage.",
 						"The Ooze Master can eat through 2-inch-thick, nonmagical wood or metal in 1 round."
 					]
 				},
@@ -4655,7 +4655,7 @@
 			"source": "TftYP",
 			"page": 167,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -4687,7 +4687,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Yuan-ti Malison (Type 3)",
+				"name": "Yuan-ti malisson (type 3)",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4758,7 +4758,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Basilisk",
+				"name": "Basilic",
 				"source": "MM",
 				"_templates": [
 					{
@@ -4777,7 +4777,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Behir",
+				"name": "Béhir",
 				"source": "MM",
 				"_templates": [
 					{
@@ -4789,8 +4789,7 @@
 					"action": {
 						"mode": "removeArr",
 						"names": [
-							"Constrict",
-							"Swallow"
+							"Constriction"
 						]
 					}
 				}
@@ -4832,7 +4831,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Black Pudding",
+				"name": "Pouding noir",
 				"source": "MM",
 				"_templates": [
 					{
@@ -4851,7 +4850,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Carrion Crawler",
+				"name": "Charognard rampant",
 				"source": "MM",
 				"_templates": [
 					{
@@ -4870,7 +4869,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Clay Golem",
+				"name": "Golem d'argile",
 				"source": "MM",
 				"_templates": [
 					{
@@ -4908,7 +4907,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Displacer Beast",
+				"name": "Bête displacée",
 				"source": "MM",
 				"_templates": [
 					{
@@ -4927,7 +4926,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Dragon Turtle",
+				"name": "Tortue dragonnaire",
 				"source": "MM",
 				"_templates": [
 					{
@@ -4940,12 +4939,12 @@
 						{
 							"mode": "removeArr",
 							"names": [
-								"Tail"
+								"Queue"
 							]
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -4995,7 +4994,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Flesh Golem",
+				"name": "Golem de chair",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5033,7 +5032,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Gray Ooze",
+				"name": "Gluant gris",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5056,7 +5055,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Helmed Horror",
+				"name": "Horreur blindée",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5094,7 +5093,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Hook Horror",
+				"name": "Horreur à crochet",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5113,7 +5112,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Ochre Jelly",
+				"name": "Gluant ocre",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5145,12 +5144,12 @@
 						{
 							"mode": "removeArr",
 							"names": [
-								"Tentacle Slam"
+								"Frappe de tentacules"
 							]
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Tentacle",
+							"replace": "Tentacule",
 							"items": {
 								"name": "Tentacle",
 								"entries": [
@@ -5174,7 +5173,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Owlbear",
+				"name": "Ours-hibou",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5193,7 +5192,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Peryton",
+				"name": "Péryton",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5231,7 +5230,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Stone Golem",
+				"name": "Golem de pierre",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5288,7 +5287,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Wyvern",
+				"name": "Wyverne",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5451,7 +5450,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Gray Ooze",
+				"name": "Gluant gris",
 				"source": "MM",
 				"_mod": {
 					"conditionImmune": {
@@ -5481,7 +5480,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Ochre Jelly",
+				"name": "Gluant ocre",
 				"source": "MM",
 				"_mod": {
 					"conditionImmune": {
@@ -5509,7 +5508,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Knight",
+				"name": "Chevalier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -6131,7 +6130,7 @@
 			"source": "TftYP",
 			"page": 183,
 			"_copy": {
-				"name": "Tiger",
+				"name": "Tigre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -6325,7 +6324,7 @@
 			"source": "TftYP",
 			"page": 85,
 			"_copy": {
-				"name": "Stone Golem",
+				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -7039,7 +7038,7 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Stone Giant",
+				"name": "Géant de pierre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -7051,7 +7050,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -7061,7 +7060,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Greatclub",
+							"replace": "Gourdin",
 							"items": {
 								"name": "Battleaxe +1",
 								"entries": [
@@ -7098,7 +7097,7 @@
 				"TftYP-DiT"
 			],
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -7436,7 +7435,7 @@
 				"TftYP-THSoT"
 			],
 			"_copy": {
-				"name": "Weretiger",
+				"name": "Tigre-garou",
 				"source": "MM",
 				"_mod": {
 					"*": [
@@ -7542,7 +7541,7 @@
 				{
 					"name": "Corrode Metal",
 					"entries": [
-						"Any nonmagical weapon made of metal that hits White Maw corrodes. After dealing damage, the weapon takes a permanent and cumulative \u22121 penalty to damage rolls. if its penalty drops to \u22125, the weapon is destroyed. Nonmagical ammunition made of metal that hits White Maw is destroyed after dealing damage.",
+						"Any nonmagical weapon made of metal that hits White Maw corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. if its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of metal that hits White Maw is destroyed after dealing damage.",
 						"White Maw can eat through 2-inch-thick, nonmagical metal in 1 round."
 					]
 				},
@@ -7563,7 +7562,7 @@
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning damage plus 9 ({@damage 2d8}) acid damage. If the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative \u22121 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning damage plus 9 ({@damage 2d8}) acid damage. If the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
 					]
 				}
 			],
@@ -7620,13 +7619,13 @@
 				"TftYP-AtG"
 			],
 			"_copy": {
-				"name": "Yeti",
+				"name": "Yéti",
 				"source": "MM",
 				"_mod": {
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -7636,7 +7635,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Claw",
+							"replace": "Griffe",
 							"items": {
 								"name": "Frost Brand Greatsword",
 								"entries": [
@@ -7758,7 +7757,7 @@
 			"source": "TftYP",
 			"page": 181,
 			"_copy": {
-				"name": "Dire Wolf",
+				"name": "Loup féroce",
 				"source": "MM"
 			},
 			"hasToken": true

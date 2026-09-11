@@ -325,13 +325,13 @@
 								"{@creature Bandit|XMM}",
 								"{@creature Bugbear Warrior|XMM}",
 								"{@creature Cockatrice|XMM}",
-								"{@creature Commoner|XMM}",
-								"{@creature Dryad|XMM}",
+								"{@creature Roturier|XMM}",
+								"{@creature Dryade|XMM}",
 								"{@creature Goblin Warrior|XMM}",
-								"{@creature Gold Dragon Wyrmling|XMM}",
-								"{@creature Green Hag|XMM}",
-								"{@creature Ice Mephit|XMM|Mephit, Ice}",
-								"{@creature Mummy|XMM}",
+								"{@creature Dragon d'or (jeune)|XMM}",
+								"{@creature Mégère verte|XMM}",
+								"{@creature Méphrite de glace|XMM|Mephit, Ice}",
+								"{@creature Momie|XMM}",
 								"{@creature Ogre|XMM}",
 								"{@creature Tough|XMM}"
 							]
@@ -614,13 +614,13 @@
 								[
 									"Asger Applegarth",
 									"Lost halfling wanderer",
-									"{@creature Commoner|XMM} (Small)",
+									"{@creature Roturier|XMM} (Small)",
 									"{@area C15|0be|x}"
 								],
 								[
 									"Briochebane",
 									"Dragon {@condition Charmé|XPHB} by {@area Uncle Nibblecheek|06a|x}",
-									"{@creature Gold Dragon Wyrmling|XMM}",
+									"{@creature Dragon d'or (jeune)|XMM}",
 									"{@area C10|0a7|x}"
 								],
 								[
@@ -632,7 +632,7 @@
 								[
 									"{@area Edith Applegarth|068|x}",
 									"Secretly wicked halfling confectioner",
-									"{@creature Commoner|XMM} (Small, Neutral Evil)",
+									"{@creature Roturier|XMM} (Small, Neutral Evil)",
 									"\"{@area Rescuing Edith|06f|x}\""
 								],
 								[
@@ -644,7 +644,7 @@
 								[
 									"{@area Uncle Nibblecheek|06a|x}",
 									"Sinister hag with a sweet tooth",
-									"{@creature Green Hag|XMM}",
+									"{@creature Mégère verte|XMM}",
 									"{@area C10|0a7|x}"
 								]
 							]
@@ -809,7 +809,7 @@
 							"entries": [
 								"Once the characters have dealt with the fire, they can safely rescue Edith from the confectionery. A character who attempts to save Edith without first extinguishing the fire makes a {@dc 15} Dexterity saving throw, taking 7 ({@dice 2d6}) Fire damage on a failed save or half as much damage on a successful one.",
 								"Once inside, a character searching for Edith finds the halfling woman cowering under a counter of once-smiling lollipops that have melted into grotesque, elongated faces. The character then can escort Edith from the confectionery (no ability check required).",
-								"Edith (Small, Neutral Evil {@creature Commoner|XMM}) is in her golden years. She wears spectacles and frumpy clothing and sports braided pigtails that suggest her youthful personality. Edith is Friendly toward her rescuers.",
+								"Edith (Small, Neutral Evil {@creature Roturier|XMM}) is in her golden years. She wears spectacles and frumpy clothing and sports braided pigtails that suggest her youthful personality. Edith is Friendly toward her rescuers.",
 								"If the characters don't move to rescue Edith, two heroic townsfolk brave the fire and retrieve the confectioner from the burning building. Regardless of whether townsfolk or the characters save Edith, her rescuers emerge to cheers from an audience of emotionally invested onlookers."
 							]
 						},
@@ -1842,7 +1842,7 @@
 											]
 										},
 										"Natural light fills this courtyard. Scaling the low wall is easy but costs an extra 5 feet of movement.",
-										"Three candy {@creature Dryad|XMM|Dryads} (see \"{@area Candy Creatures|085|x}\") hide within the trees, watching for interlopers. A character who surveys the trees and succeeds on a {@dc 16} Wisdom ({@skill Perception|XPHB}) check notices a dryad.",
+										"Three candy {@creature Dryade|XMM|Dryads} (see \"{@area Candy Creatures|085|x}\") hide within the trees, watching for interlopers. A character who surveys the trees and succeeds on a {@dc 16} Wisdom ({@skill Perception|XPHB}) check notices a dryad.",
 										{
 											"type": "entries",
 											"name": "Candied Apples",
@@ -1994,7 +1994,7 @@
 												"Curled atop the oven lies a gold dragon the size of a large dog. The dragon's eyes look cloudy and white.The hag senses your intrusion, whips around, and says, \"Hey! Who let you in here?\""
 											]
 										},
-										"Uncle Nibblecheek, an irritable {@creature Green Hag|XMM}, works in this busy kitchen. The hag is initially Indifferent toward the characters but can't abide guests in his kitchen; the longer they linger here, the more irritable he becomes until his attitude shifts to Hostile.",
+										"Uncle Nibblecheek, an irritable {@creature Mégère verte|XMM}, works in this busy kitchen. The hag is initially Indifferent toward the characters but can't abide guests in his kitchen; the longer they linger here, the more irritable he becomes until his attitude shifts to Hostile.",
 										"If the characters fight Uncle Nibblecheek, he claps his hands and commands the dragon wyrmling to defend him (see \"Briochebane\" below). The hag then fights until {@status Meurtri|XPHB}, at which point he bargains for his life (see \"{@area Parleying with the Hag|0ac|x}\"). If Uncle Nibblecheek is slain, all creatures candied by his magic (see \"{@area Candied Creatures|085|x}\") revert to their former forms.",
 										"Fighting both the dragon and the hag might not end in the characters' favor. If the characters are defeated, they wake up imprisoned in the dungeon (area {@area C15|0be|x}), each with 1 {@variantrule Hit Points|XPHB|Hit Point}.",
 										{
@@ -2003,7 +2003,7 @@
 											"page": 39,
 											"id": "0aa",
 											"entries": [
-												"Briochebane, Fill's trusted ward and baking companion, is a {@creature Gold Dragon Wyrmling|XMM} that knows Common and Dwarvish. When she came upon the cottage, Uncle Nibblecheek tricked her into eating a magic pastry that makes her obedient; Briochebane has the {@condition Charmé|XPHB} condition. Until this condition ends, the wyrmling regards the hag as her ally and obeys Uncle Nibble cheek. A character who takes the {@action Chercher|XPHB} action to observe the wyrmling and succeeds on a {@dc 13} Wisdom ({@skill Perspicacité|XPHB}) check recognizes she has been Charmed.",
+												"Briochebane, Fill's trusted ward and baking companion, is a {@creature Dragon d'or (jeune)|XMM} that knows Common and Dwarvish. When she came upon the cottage, Uncle Nibblecheek tricked her into eating a magic pastry that makes her obedient; Briochebane has the {@condition Charmé|XPHB} condition. Until this condition ends, the wyrmling regards the hag as her ally and obeys Uncle Nibble cheek. A character who takes the {@action Chercher|XPHB} action to observe the wyrmling and succeeds on a {@dc 13} Wisdom ({@skill Perspicacité|XPHB}) check recognizes she has been Charmed.",
 												"The party can end the Charmed condition on the wyrmling in the following ways:",
 												{
 													"type": "list",
@@ -2170,7 +2170,7 @@
 												"This tomb contains a sarcophagus made of hard candy. Two statues formed of crystalline sugar and coconut stand on either side of the sarcophagus amid a trove of gold coins and other precious objects. An inscription on the wall above the sarcophagus reads, \"May death curse all who interrupt my rest.\""
 											]
 										},
-										"This tomb honors a selfish prince cursed by Uncle Nibblecheek. Now a gummy {@creature Mummy|XMM}, the prince lies within the sarcophagus, guarded by two coconut {@creature Ice Mephit|XMM|Ice Mephits}. A character can lift or push aside the sarcophagus lid with a successful {@dc 15} Strength ({@skill Athlétisme|XPHB}) check.",
+										"This tomb honors a selfish prince cursed by Uncle Nibblecheek. Now a gummy {@creature Momie|XMM}, the prince lies within the sarcophagus, guarded by two coconut {@creature Méphrite de glace|XMM|Ice Mephits}. A character can lift or push aside the sarcophagus lid with a successful {@dc 15} Strength ({@skill Athlétisme|XPHB}) check.",
 										"If the characters disturb the sarcophagus or the treasure, the gummy prince emerges from his sarcophagus and engages the characters in combat. The mephits join the fray.",
 										{
 											"type": "entries",
@@ -2253,7 +2253,7 @@
 											"id": "0c2",
 											"entries": [
 												"Two cages are occupied, though one of the prisoners is skeletal and clearly dead.",
-												"Asger Applegarth is an exuberant halfling (Small {@creature Commoner|XMM}) who is candied (see \"{@area Candy Creatures|085|x}\") and sits in one of the cages, appearing like soft pink bubble gum. Asger was candied by the hag decades ago and hasn't aged a day since. Asger is Friendly toward the characters. When he notices them, he politely asks them to set him free.",
+												"Asger Applegarth is an exuberant halfling (Small {@creature Roturier|XMM}) who is candied (see \"{@area Candy Creatures|085|x}\") and sits in one of the cages, appearing like soft pink bubble gum. Asger was candied by the hag decades ago and hasn't aged a day since. Asger is Friendly toward the characters. When he notices them, he politely asks them to set him free.",
 												"If the characters are kind to Asger, he imparts the following information:",
 												{
 													"type": "list",

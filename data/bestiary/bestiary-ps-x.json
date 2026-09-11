@@ -16,7 +16,7 @@
 			"source": "PSX",
 			"page": 28,
 			"_copy": {
-				"name": "Ankylosaurus",
+				"name": "Ankylosaure",
 				"source": "MM"
 			},
 			"hasToken": true,
@@ -47,7 +47,7 @@
 			"source": "PSX",
 			"page": 29,
 			"_copy": {
-				"name": "Pteranodon",
+				"name": "Ptéranodon",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -66,7 +66,7 @@
 			"source": "PSX",
 			"page": 38,
 			"_copy": {
-				"name": "Air Elemental",
+				"name": "Élémentaire de l'Air",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -109,7 +109,7 @@
 			"source": "PSX",
 			"page": 38,
 			"_copy": {
-				"name": "Awakened Shrub",
+				"name": "Arbuste éveillé",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -128,7 +128,7 @@
 			"source": "PSX",
 			"page": 38,
 			"_copy": {
-				"name": "Vine Blight",
+				"name": "Fléau de la vigne",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -159,7 +159,7 @@
 			"source": "PSX",
 			"page": 28,
 			"_copy": {
-				"name": "Triceratops",
+				"name": "Tricératops",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -330,7 +330,7 @@
 			"source": "PSX",
 			"page": 38,
 			"_copy": {
-				"name": "Dryad",
+				"name": "Dryade",
 				"source": "MM"
 			},
 			"hasToken": true,
@@ -342,7 +342,7 @@
 			"source": "PSX",
 			"page": 38,
 			"_copy": {
-				"name": "Earth Elemental",
+				"name": "Élémentaire de la Terre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -526,7 +526,7 @@
 						"items": {
 							"name": "Lightning Storm",
 							"entries": [
-								"The elder dinosaur is always accompanied by a raging thunderstorm similar to the effect of a {@spell Foudre multiple} spell. A storm cloud in the shape of a cylinder that is 10 feet tall with a 60-foot radius instantly forms 100 feet in the air over the elder dinosaur when it is angered or becomes violent, as long as it is outdoors. On each of its turns, as an action, the elder dinosaur can choose a point it can see within 120 feet of it. A bolt of lightning flashes down from the cloud to that point. Each creature within 10 feet of that point must make a {@dc 20} Dexterity saving throw, taking 21 ({@damage 6d6}) lightning damage on a failed save, or half as much damage on a successful one."
+								"The elder dinosaur is always accompanied by a raging thunderstorm similar to the effect of a {@spell call lightning} spell. A storm cloud in the shape of a cylinder that is 10 feet tall with a 60-foot radius instantly forms 100 feet in the air over the elder dinosaur when it is angered or becomes violent, as long as it is outdoors. On each of its turns, as an action, the elder dinosaur can choose a point it can see within 120 feet of it. A bolt of lightning flashes down from the cloud to that point. Each creature within 10 feet of that point must make a {@dc 20} Dexterity saving throw, taking 21 ({@damage 6d6}) lightning damage on a failed save, or half as much damage on a successful one."
 							]
 						}
 					},
@@ -543,7 +543,7 @@
 								{
 									"name": "Bite",
 									"entries": [
-										"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition Agrippé} (escape {@dc 20}). Until this grapple ends, the target is {@condition Entravé}, and the elder dinosaur can't bite another target."
+										"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained}, and the elder dinosaur can't bite another target."
 									]
 								},
 								{
@@ -609,7 +609,7 @@
 								{
 									"name": "Bite",
 									"entries": [
-										"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}62 ({@damage 8d12 + 10}) piercing damage. If the target is a creature, it is {@condition Agrippé} (escape {@dc 20}). Until this grapple ends, the target is {@condition Entravé}, and the elder dinosaur can't bite another target."
+										"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}62 ({@damage 8d12 + 10}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained}, and the elder dinosaur can't bite another target."
 									]
 								},
 								{
@@ -621,7 +621,7 @@
 								{
 									"name": "Tail",
 									"entries": [
-										"{@atk mw} {@hit 19} to hit, reach 20 ft., one target. {@h}38 ({@damage 8d6 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be knocked {@condition À terre}."
+										"{@atk mw} {@hit 19} to hit, reach 20 ft., one target. {@h}38 ({@damage 8d6 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}."
 									]
 								}
 							]
@@ -689,7 +689,7 @@
 								{
 									"name": "Bite",
 									"entries": [
-										"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition Agrippé} (escape {@dc 20}). Until this grapple ends, the target is {@condition Entravé}, and the elder dinosaur can't bite another target."
+										"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained}, and the elder dinosaur can't bite another target."
 									]
 								},
 								{
@@ -775,7 +775,7 @@
 								{
 									"name": "Bite",
 									"entries": [
-										"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition Agrippé} (escape {@dc 20}). Until this grapple ends, the target is {@condition Entravé}, and the elder dinosaur can't bite another target."
+										"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained}, and the elder dinosaur can't bite another target."
 									]
 								},
 								{
@@ -793,7 +793,7 @@
 								{
 									"name": "Tail",
 									"entries": [
-										"{@atk mw} {@hit 19} to hit, reach 20 ft., one target. {@h}24 ({@damage 4d6 + 10}) piercing damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be knocked {@condition À terre}."
+										"{@atk mw} {@hit 19} to hit, reach 20 ft., one target. {@h}24 ({@damage 4d6 + 10}) piercing damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}."
 									]
 								},
 								{
@@ -859,7 +859,7 @@
 								{
 									"name": "Bite",
 									"entries": [
-										"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition Agrippé} (escape {@dc 20}). Until this grapple ends, the target is {@condition Entravé}. If the elder dinosaur has three targets {@condition Entravé} in this way, it can't bite another target."
+										"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained}. If the elder dinosaur has three targets {@condition restrained} in this way, it can't bite another target."
 									]
 								}
 							]
@@ -917,7 +917,7 @@
 								{
 									"name": "Bite",
 									"entries": [
-										"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition Agrippé} (escape {@dc 20}). Until this grapple ends, the target is {@condition Entravé}, and the elder dinosaur can't bite another target."
+										"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained}, and the elder dinosaur can't bite another target."
 									]
 								},
 								{
@@ -974,7 +974,7 @@
 			"source": "PSX",
 			"page": 30,
 			"_copy": {
-				"name": "Allosaurus",
+				"name": "Allosaure",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -993,7 +993,7 @@
 			"source": "PSX",
 			"page": 38,
 			"_copy": {
-				"name": "Fire Elemental",
+				"name": "Élémentaire du Feu",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1272,7 +1272,7 @@
 			"source": "PSX",
 			"page": 29,
 			"_copy": {
-				"name": "Giant Goat",
+				"name": "Chèvre géante",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1291,13 +1291,13 @@
 			"source": "PSX",
 			"page": 36,
 			"_copy": {
-				"name": "Harpy",
+				"name": "Harpyie",
 				"source": "MM",
 				"_mod": {
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Club",
+							"replace": "Gourdin",
 							"items": {
 								"name": "Bite",
 								"entries": [
@@ -1307,7 +1307,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -1332,7 +1332,7 @@
 			"source": "PSX",
 			"page": 39,
 			"_copy": {
-				"name": "Giant Frog",
+				"name": "Grenouille géante",
 				"source": "MM"
 			},
 			"tokenCustom": true,
@@ -1344,7 +1344,7 @@
 			"source": "PSX",
 			"page": 39,
 			"_copy": {
-				"name": "Raven",
+				"name": "Corbeau",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1363,7 +1363,7 @@
 			"source": "PSX",
 			"page": 39,
 			"_copy": {
-				"name": "Raven",
+				"name": "Corbeau",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1382,7 +1382,7 @@
 			"source": "PSX",
 			"page": 40,
 			"_copy": {
-				"name": "Quipper",
+				"name": "Piranha",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1404,7 +1404,7 @@
 			"source": "PSX",
 			"page": 30,
 			"_copy": {
-				"name": "Giant Crocodile",
+				"name": "Crocodile géant",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1442,7 +1442,7 @@
 			"source": "PSX",
 			"page": 40,
 			"_copy": {
-				"name": "Animated Armor",
+				"name": "Armure animée",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1461,7 +1461,7 @@
 			"source": "PSX",
 			"page": 40,
 			"_copy": {
-				"name": "Helmed Horror",
+				"name": "Horreur blindée",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1480,7 +1480,7 @@
 			"source": "PSX",
 			"page": 40,
 			"_copy": {
-				"name": "Shield Guardian",
+				"name": "Gardien bouclier",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1499,7 +1499,7 @@
 			"source": "PSX",
 			"page": 40,
 			"_copy": {
-				"name": "Stone Golem",
+				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1659,7 +1659,7 @@
 			"source": "PSX",
 			"page": 40,
 			"_copy": {
-				"name": "Swarm of Quippers",
+				"name": "Nuée de piranhas",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1697,7 +1697,7 @@
 			"source": "PSX",
 			"page": 40,
 			"_copy": {
-				"name": "Crab",
+				"name": "Crabe",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1716,7 +1716,7 @@
 			"source": "PSX",
 			"page": 40,
 			"_copy": {
-				"name": "Giant Crab",
+				"name": "Crabe géant",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1741,7 +1741,7 @@
 			"source": "PSX",
 			"page": 31,
 			"_copy": {
-				"name": "Tyrannosaurus Rex",
+				"name": "T-Rex",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1760,7 +1760,7 @@
 			"source": "PSX",
 			"page": 38,
 			"_copy": {
-				"name": "Water Elemental",
+				"name": "Élémentaire de l'Eau",
 				"source": "MM",
 				"_mod": {
 					"*": {

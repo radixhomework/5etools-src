@@ -27,7 +27,7 @@
 			"source": "WDMM",
 			"page": 218,
 			"_copy": {
-				"name": "Githyanki Knight",
+				"name": "Chevalier githyanki",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -113,7 +113,7 @@
 			"source": "WDMM",
 			"page": 92,
 			"_copy": {
-				"name": "Giant Poisonous Snake",
+				"name": "Serpent venimeux géant",
 				"source": "MM"
 			},
 			"type": "construct",
@@ -224,7 +224,7 @@
 			"source": "WDMM",
 			"page": 125,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -239,13 +239,17 @@
 							"4": [
 								{
 									"replace": "{@spell Bannissement}",
-									"with": "{@spell Tempête de glace}"
+									"with": [
+										"{@spell Tempête de glace}"
+									]
 								}
 							],
 							"7": [
 								{
 									"replace": "{@spell Téléportation}",
-									"with": "{@spell Doigt de mort}"
+									"with": [
+										"{@spell Doigt de mort}"
+									]
 								}
 							]
 						}
@@ -265,7 +269,7 @@
 			"source": "WDMM",
 			"page": 142,
 			"_copy": {
-				"name": "Stone Golem",
+				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -405,7 +409,7 @@
 			"source": "WDMM",
 			"page": 296,
 			"_copy": {
-				"name": "Lich",
+				"name": "Liche",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -551,7 +555,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -561,7 +565,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Claw",
+							"replace": "Griffe",
 							"items": {
 								"name": "Longsword",
 								"entries": [
@@ -596,7 +600,7 @@
 			"source": "WDMM",
 			"page": 210,
 			"_copy": {
-				"name": "Adult Red Dragon",
+				"name": "Dragon rouge adulte",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -638,7 +642,7 @@
 			"source": "WDMM",
 			"page": 72,
 			"_copy": {
-				"name": "Brown Bear",
+				"name": "Ours brun",
 				"source": "MM",
 				"_templates": [
 					{
@@ -654,7 +658,7 @@
 			"source": "WDMM",
 			"page": 72,
 			"_copy": {
-				"name": "Elk",
+				"name": "Élan",
 				"source": "MM",
 				"_templates": [
 					{
@@ -670,7 +674,7 @@
 			"source": "WDMM",
 			"page": 72,
 			"_copy": {
-				"name": "Giant Wasp",
+				"name": "Guêpe géante",
 				"source": "MM",
 				"_templates": [
 					{
@@ -688,7 +692,7 @@
 			"source": "WDMM",
 			"page": 202,
 			"_copy": {
-				"name": "Githzerai Zerth",
+				"name": "Zerth githzerai",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -709,7 +713,7 @@
 			"source": "WDMM",
 			"page": 283,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -892,17 +896,17 @@
 			"source": "WDMM",
 			"page": 110,
 			"_copy": {
-				"name": "Bullywug",
+				"name": "Brutacien",
 				"source": "MM",
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Spear",
+						"replace": "Lance",
 						"items": [
 							{
 								"name": "Spear",
 								"entries": [
-									"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack. A creature hit by a bullywug's Spear attack must succeed on a {@dc 13} Constitution saving throw or be {@condition Empoisonné} for 1 minute. A creature {@condition Empoisonné} in this way is also {@condition Paralysé}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack. A creature hit by a bullywug's Spear attack must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 minute. A creature {@condition poisoned} in this way is also {@condition paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 								]
 							}
 						]
@@ -1046,7 +1050,7 @@
 			"source": "WDMM",
 			"page": 250,
 			"_copy": {
-				"name": "Mind Flayer Arcanist",
+				"name": "Flagelleur mental arcaniste",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1133,7 +1137,7 @@
 			"source": "WDMM",
 			"page": 287,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1300,7 +1304,7 @@
 			"source": "WDMM",
 			"page": 30,
 			"_copy": {
-				"name": "Scout",
+				"name": "Éclaireur",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1338,7 +1342,7 @@
 			"source": "WDMM",
 			"page": 302,
 			"_copy": {
-				"name": "Raven",
+				"name": "Corbeau",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1356,12 +1360,12 @@
 			"source": "WDMM",
 			"page": 89,
 			"_copy": {
-				"name": "Flying Sword",
+				"name": "Épée volante",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "sword",
+						"replace": "Épée",
 						"with": "battleaxe",
 						"flags": "i"
 					}
@@ -1388,7 +1392,7 @@
 			"source": "WDMM",
 			"page": 210,
 			"_copy": {
-				"name": "Stone Golem",
+				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -1403,7 +1407,7 @@
 							{
 								"name": "Light Intensity",
 								"entries": [
-									"Any creature that starts its turn within 10 feet of the illuminated golem and can see the golem must succeed on a {@dc 17} Wisdom saving throw or be {@condition Aveuglé} until the start of the creature's next turn.",
+									"Any creature that starts its turn within 10 feet of the illuminated golem and can see the golem must succeed on a {@dc 17} Wisdom saving throw or be {@condition blinded} until the start of the creature's next turn.",
 									"A creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the golem until the start of its next turn, when it can avert its eyes again. If the creature looks at the golem in the meantime, it must immediately make the save."
 								]
 							}
@@ -1458,7 +1462,7 @@
 							{
 								"name": "Two Heads",
 								"entries": [
-									"The duergar has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition Charmé}, {@condition Effrayé}, {@condition Étourdi}, and knocked {@condition Inconscient}."
+									"The duergar has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition charmed}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
 								]
 							}
 						]
@@ -1485,7 +1489,7 @@
 			"source": "WDMM",
 			"page": 287,
 			"_copy": {
-				"name": "Death Knight",
+				"name": "Chevalier de la mort",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1578,7 +1582,7 @@
 			"source": "WDMM",
 			"page": 169,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1646,7 +1650,7 @@
 			"source": "WDMM",
 			"page": 185,
 			"_copy": {
-				"name": "Fire Giant",
+				"name": "Géant du feu",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1657,7 +1661,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Rock",
+						"replace": "Rocher",
 						"items": {
 							"name": "Hurl Fire",
 							"entries": [
@@ -1687,7 +1691,7 @@
 			"source": "WDMM",
 			"page": 262,
 			"_copy": {
-				"name": "Lich",
+				"name": "Liche",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1701,7 +1705,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Ezzat wears an {@item Amulette d'antidétection}."
+								"Ezzat wears an {@item amulet of proof against detection and location}."
 							]
 						}
 					}
@@ -1830,7 +1834,7 @@
 			"source": "WDMM",
 			"page": 275,
 			"_copy": {
-				"name": "Planetar",
+				"name": "Planétaire",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1841,7 +1845,7 @@
 					},
 					"action": {
 						"mode": "removeArr",
-						"names": "Healing Touch (4/Day)"
+						"names": "Toucher guérisseur (4/jour)"
 					}
 				}
 			},
@@ -1871,7 +1875,7 @@
 			"source": "WDMM",
 			"page": 197,
 			"_copy": {
-				"name": "Ghost",
+				"name": "Fantôme",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1906,7 +1910,7 @@
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Multiattack",
+						"replace": "Attaques multiples",
 						"items": {
 							"name": "Multiattack",
 							"entries": [
@@ -1924,18 +1928,18 @@
 			"source": "WDMM",
 			"page": 106,
 			"_copy": {
-				"name": "Flying Sword",
+				"name": "Épée volante",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "sword",
+						"replace": "Épée",
 						"with": "trident",
 						"flags": "i"
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Longsword",
+						"replace": "Épée longue",
 						"items": {
 							"name": "Trident",
 							"entries": [
@@ -1958,7 +1962,7 @@
 			"source": "WDMM",
 			"page": 105,
 			"_copy": {
-				"name": "Flying Sword",
+				"name": "Épée volante",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1988,7 +1992,7 @@
 			"source": "WDMM",
 			"page": 150,
 			"_copy": {
-				"name": "Giant Spider",
+				"name": "Araignée géante",
 				"source": "MM"
 			},
 			"speed": {
@@ -2003,13 +2007,13 @@
 			"source": "WDMM",
 			"page": 241,
 			"_copy": {
-				"name": "Gelatinous Cube",
+				"name": "Gluant géant",
 				"source": "MM",
 				"_mod": {
 					"trait": [
 						{
 							"mode": "replaceArr",
-							"replace": "Ooze Cube",
+							"replace": "Cube de gluant",
 							"items": {
 								"name": "Ooze Cube",
 								"entries": [
@@ -2052,7 +2056,7 @@
 			"source": "WDMM",
 			"page": 241,
 			"_copy": {
-				"name": "Adult Bronze Dragon",
+				"name": "Dragon de bronze adulte",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2077,7 +2081,7 @@
 			"source": "WDMM",
 			"page": 257,
 			"_copy": {
-				"name": "Mummy Lord",
+				"name": "Seigneur momie",
 				"source": "MM",
 				"_mod": {
 					"action": {
@@ -2476,7 +2480,7 @@
 			"source": "WDMM",
 			"page": 129,
 			"_copy": {
-				"name": "Helmed Horror",
+				"name": "Horreur blindée",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2486,11 +2490,11 @@
 					},
 					"trait": {
 						"mode": "replaceArr",
-						"replace": "Spell Immunity",
+						"replace": "Immunité aux sorts",
 						"items": {
 							"name": "Spell Immunity",
 							"entries": [
-								"The Halaster horror is immune to the {@spell Cône de froid}, {@spell Désintégration}, and {@spell Boule de feu} spells."
+								"The Halaster horror is immune to the {@spell cone of cold}, {@spell disintegrate}, and {@spell fireball} spells."
 							]
 						}
 					}
@@ -2576,13 +2580,13 @@
 			"source": "WDMM",
 			"page": 259,
 			"_copy": {
-				"name": "Stone Golem",
+				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": [
 								{
 									"name": "Multiattack",
@@ -2594,12 +2598,12 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Slam",
+							"replace": "Coup",
 							"items": [
 								{
 									"name": "Mallet",
 									"entries": [
-										"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage, and the target must succeed on a {@dc 17} Constitution saving throw or be {@condition Étourdi} until the end of its next turn."
+										"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage, and the target must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} until the end of its next turn."
 									]
 								}
 							]
@@ -2725,7 +2729,7 @@
 			"source": "WDMM",
 			"page": 183,
 			"_copy": {
-				"name": "Fire Giant",
+				"name": "Géant du feu",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2744,7 +2748,7 @@
 			"source": "WDMM",
 			"page": 243,
 			"_copy": {
-				"name": "Gray Ooze",
+				"name": "Gluant gris",
 				"source": "MM"
 			},
 			"size": [
@@ -2766,7 +2770,7 @@
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}21 ({@damage 6d6}) acid damage, or 42 ({@damage 12d6}) acid damage while the ooze is enlarged. If the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative \u22121 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}21 ({@damage 6d6}) acid damage, or 42 ({@damage 12d6}) acid damage while the ooze is enlarged. If the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
 					]
 				},
 				{
@@ -2800,7 +2804,7 @@
 			"source": "WDMM",
 			"page": 244,
 			"_copy": {
-				"name": "Black Pudding",
+				"name": "Pouding noir",
 				"source": "MM"
 			},
 			"int": 14,
@@ -2922,7 +2926,7 @@
 			"source": "WDMM",
 			"page": 149,
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_templates": [
 					{
@@ -3023,7 +3027,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Children of the Night (1/Day)",
+						"replace": "Enfants de la nuit (1/jour)",
 						"items": {
 							"name": "Children of the Night (1/Day)",
 							"entries": [
@@ -3136,7 +3140,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -3172,7 +3176,7 @@
 			"source": "WDMM",
 			"page": 26,
 			"_copy": {
-				"name": "Mimic",
+				"name": "Mimique",
 				"source": "MM"
 			},
 			"size": [
@@ -3298,7 +3302,7 @@
 			"source": "WDMM",
 			"page": 119,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3313,7 +3317,9 @@
 							"4": [
 								{
 									"replace": "{@spell Bannissement}",
-									"with": "{@spell Ravage}"
+									"with": [
+										"{@spell Ravage}"
+									]
 								}
 							]
 						}
@@ -3440,12 +3446,12 @@
 			"source": "WDMM",
 			"page": 254,
 			"_copy": {
-				"name": "Stone Golem",
+				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Slam",
+						"replace": "Coup",
 						"items": {
 							"name": "Slam",
 							"entries": [
@@ -3497,16 +3503,16 @@
 			"source": "WDMM",
 			"page": 96,
 			"_copy": {
-				"name": "Homunculus",
+				"name": "Homuncule",
 				"source": "MM",
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Bite",
+						"replace": "Morsure",
 						"items": {
 							"name": "Bite",
 							"entries": [
-								"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}{@damage 2d6 + 2} piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition Empoisonné} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition Empoisonné} for 5 ({@dice 1d10}) minutes and {@condition Inconscient} while {@condition Empoisonné} in this way."
+								"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}{@damage 2d6 + 2} piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition poisoned} for 5 ({@dice 1d10}) minutes and {@condition unconscious} while {@condition poisoned} in this way."
 							]
 						}
 					}
@@ -3605,7 +3611,7 @@
 			"source": "WDMM",
 			"page": 281,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -3620,7 +3626,9 @@
 							"4": [
 								{
 									"replace": "{@spell Bannissement}",
-									"with": "{@spell Porte dimensionnelle}"
+									"with": [
+										"{@spell Porte dimensionnelle}"
+									]
 								}
 							]
 						}
@@ -3656,7 +3664,7 @@
 			"source": "WDMM",
 			"page": 174,
 			"_copy": {
-				"name": "Giant Wasp",
+				"name": "Guêpe géante",
 				"source": "MM"
 			},
 			"type": "construct",
@@ -3963,7 +3971,7 @@
 			"source": "WDMM",
 			"page": 143,
 			"_copy": {
-				"name": "Cloud Giant",
+				"name": "Géant des nuages",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4048,7 +4056,7 @@
 			"source": "WDMM",
 			"page": 52,
 			"_copy": {
-				"name": "Beholder Zombie",
+				"name": "Zombie beholder",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4059,7 +4067,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Eye Ray",
+						"replace": "Rayon oculaire",
 						"items": {
 							"name": "Eye Ray",
 							"entries": [
@@ -4071,12 +4079,12 @@
 										{
 											"type": "itemSub",
 											"name": "1. Paralyzing Ray",
-											"entry": "The targeted creature must succeed on a {@dc 14} Constitution saving throw or be {@condition Paralysé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The targeted creature must succeed on a {@dc 14} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										},
 										{
 											"type": "itemSub",
 											"name": "2. Fear Ray",
-											"entry": "The targeted creature must succeed on a {@dc 14} Wisdom saving throw or be {@condition Effrayé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The targeted creature must succeed on a {@dc 14} Wisdom saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										},
 										{
 											"type": "itemSub",
@@ -4111,7 +4119,7 @@
 			"source": "WDMM",
 			"page": 131,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4126,19 +4134,25 @@
 							"3": [
 								{
 									"replace": "{@spell Vol}",
-									"with": "{@spell Animation des morts}"
+									"with": [
+										"{@spell Animation des morts}"
+									]
 								}
 							],
 							"4": [
 								{
 									"replace": "{@spell Bannissement}",
-									"with": "{@spell Ravage}"
+									"with": [
+										"{@spell Ravage}"
+									]
 								}
 							],
 							"5": [
 								{
 									"replace": "{@spell Scrutation}",
-									"with": "{@spell Lien télépathique de Rary}"
+									"with": [
+										"{@spell Lien télépathique de Rary}"
+									]
 								}
 							]
 						}
@@ -4196,7 +4210,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -4206,7 +4220,7 @@
 						},
 						{
 							"mode": "removeArr",
-							"names": "Bite"
+							"names": "Morsure"
 						}
 					]
 				}
@@ -4224,12 +4238,12 @@
 			"source": "WDMM",
 			"page": 96,
 			"_copy": {
-				"name": "Faerie Dragon (Violet)",
+				"name": "Dragon féerique (violet)",
 				"source": "MM",
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Bite",
+						"replace": "Morsure",
 						"items": {
 							"name": "Bite",
 							"entries": [
@@ -4274,7 +4288,7 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Multiattack",
+							"replace": "Attaques multiples",
 							"items": {
 								"name": "Multiattack",
 								"entries": [
@@ -4284,7 +4298,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Shortbow",
+							"replace": "Arc court",
 							"items": {
 								"name": "Magic Dart",
 								"entries": [
@@ -4320,7 +4334,7 @@
 			"source": "WDMM",
 			"page": 127,
 			"_copy": {
-				"name": "Water Weird",
+				"name": "Weird d'eau",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4497,7 +4511,7 @@
 			"source": "WDMM",
 			"page": 295,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM"
 			},
 			"type": {
@@ -4523,7 +4537,7 @@
 			"source": "WDMM",
 			"page": 202,
 			"_copy": {
-				"name": "Githzerai Zerth",
+				"name": "Zerth githzerai",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4542,7 +4556,7 @@
 			"source": "WDMM",
 			"page": 76,
 			"_copy": {
-				"name": "Mimic",
+				"name": "Mimique",
 				"source": "MM"
 			},
 			"size": [
@@ -4559,7 +4573,7 @@
 			"source": "WDMM",
 			"page": 158,
 			"_copy": {
-				"name": "Behir",
+				"name": "Béhir",
 				"source": "MM"
 			},
 			"spellcasting": [
@@ -4828,7 +4842,7 @@
 				{
 					"name": "Shadow Blade",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. Unless the target is immune to necrotic damage, the target's Strength score is reduced by {@dice 1d4} each time it is hit by this attack. The target dies if its Strength is reduced to 0. The reduction lasts until the target finishes a short or long rest. If a non-evil humanoid dies from this attack, a {@creature shadow} (see the Monster Manual) rises from the corpse {@dice 1d4} hours later."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. Unless the target is immune to necrotic damage, the target's Strength score is reduced by {@dice 1d4} each time it is hit by this attack. The target dies if its Strength is reduced to 0. The reduction lasts until the target finishes a short or long rest. If a non-evil humanoid dies from this attack, a {@creature Ombre} (see the Monster Manual) rises from the corpse {@dice 1d4} hours later."
 					]
 				}
 			],
@@ -5010,7 +5024,7 @@
 			"source": "WDMM",
 			"page": 33,
 			"_copy": {
-				"name": "Drow Elite Warrior",
+				"name": "Drow guerrier d'élite",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -5045,7 +5059,7 @@
 			"source": "WDMM",
 			"page": 148,
 			"_copy": {
-				"name": "Commoner",
+				"name": "Roturier",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5105,7 +5119,7 @@
 			"source": "WDMM",
 			"page": 273,
 			"_copy": {
-				"name": "Adult Silver Dragon",
+				"name": "Dragon d'argent adulte",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -5116,7 +5130,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Breath Weapons {@recharge 5}",
+						"replace": "Armes de souffle {@recharge 5}",
 						"items": {
 							"name": "Breath Weapons {@recharge 5}",
 							"entries": [
@@ -5133,7 +5147,7 @@
 										{
 											"type": "item",
 											"name": "Paralyzing Breath",
-											"entry": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a {@dc 20} Constitution saving throw or be {@condition Paralysé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a {@dc 20} Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										}
 									]
 								}
@@ -5171,7 +5185,7 @@
 			"source": "WDMM",
 			"page": 202,
 			"_copy": {
-				"name": "Stone Golem",
+				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -5199,7 +5213,7 @@
 			"source": "WDMM",
 			"page": 253,
 			"_copy": {
-				"name": "Stone Golem",
+				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -5398,7 +5412,7 @@
 			"source": "WDMM",
 			"page": 32,
 			"_copy": {
-				"name": "Flameskull",
+				"name": "Crâne flamboyant",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -5491,7 +5505,7 @@
 			"source": "WDMM",
 			"page": 294,
 			"_copy": {
-				"name": "Iron Golem",
+				"name": "Golem de fer",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -5620,7 +5634,7 @@
 			"source": "WDMM",
 			"page": 241,
 			"_copy": {
-				"name": "Adult Bronze Dragon",
+				"name": "Dragon de bronze adulte",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5725,7 +5739,7 @@
 			"source": "WDMM",
 			"page": 271,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_templates": [
 					{
@@ -5746,7 +5760,9 @@
 							"4": [
 								{
 									"replace": "{@spell Bannissement}",
-									"with": "{@spell Sphère résiliente d'Otiluke}"
+									"with": [
+										"{@spell Sphère résiliente d'Otiluke}"
+									]
 								}
 							]
 						}
@@ -5787,7 +5803,7 @@
 			"source": "WDMM",
 			"page": 282,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -5802,7 +5818,9 @@
 							"4": [
 								{
 									"replace": "{@spell Bannissement}",
-									"with": "{@spell confusion}"
+									"with": [
+										"{@spell confusion}"
+									]
 								}
 							]
 						}
@@ -5847,7 +5865,7 @@
 			"source": "WDMM",
 			"page": 202,
 			"_copy": {
-				"name": "Githzerai Zerth",
+				"name": "Zerth githzerai",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -6159,7 +6177,7 @@
 			"source": "WDMM",
 			"page": 98,
 			"_copy": {
-				"name": "Stone Giant",
+				"name": "Géant de pierre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -6180,7 +6198,7 @@
 			"source": "WDMM",
 			"page": 202,
 			"_copy": {
-				"name": "Githzerai Zerth",
+				"name": "Zerth githzerai",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -6194,7 +6212,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Yrlakka carries a {@item Potion de résistance au feu||potion of resistance (fire)} in a tiny crystal vial fastened to a cord around his right ankle, and he has a {@item Baguette de détection de la magie} hanging from his belt."
+								"Yrlakka carries a {@item Potion of Fire Resistance||potion of resistance (fire)} in a tiny crystal vial fastened to a cord around his right ankle, and he has a {@item wand of magic detection} hanging from his belt."
 							]
 						}
 					}
@@ -6210,7 +6228,7 @@
 			"source": "WDMM",
 			"page": 286,
 			"_copy": {
-				"name": "Death Knight",
+				"name": "Chevalier de la mort",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -6225,7 +6243,9 @@
 							"4": [
 								{
 									"replace": "{@spell Bannissement}",
-									"with": "{@spell Localisation de créature}"
+									"with": [
+										"{@spell Localisation de créature}"
+									]
 								}
 							]
 						}
@@ -6241,7 +6261,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Longsword",
+						"replace": "Épée longue",
 						"items": {
 							"name": "Nine Lives Stealer Longsword",
 							"entries": [
@@ -6436,7 +6456,7 @@
 				{
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition Agrippé} by Zorak, {@condition Incapable}, or {@condition Entravé}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Zorak regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces his hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under Zorak's control."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition Agrippé} by Zorak, {@condition Incapable}, or {@condition Entravé}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Zorak regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces his hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature Vampire serviteur} under Zorak's control."
 					]
 				},
 				{
@@ -6449,7 +6469,7 @@
 				{
 					"name": "Children of the Night (1/Day)",
 					"entries": [
-						"Zorak magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, Zorak can call {@dice 3d6} {@creature wolf||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of Zorak and obeying his spoken commands. The beasts remain for 1 hour, until Zorak dies, or until Zorak dismisses them as a bonus action."
+						"Zorak magically calls {@dice 2d4} swarms of {@creature Nuée de chauves-souris||bats} or {@creature Nuée de rats||rats}, provided that the sun isn't up. While outdoors, Zorak can call {@dice 3d6} {@creature Loup||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of Zorak and obeying his spoken commands. The beasts remain for 1 hour, until Zorak dies, or until Zorak dismisses them as a bonus action."
 					]
 				}
 			],
@@ -6523,7 +6543,7 @@
 			"source": "WDMM",
 			"page": 176,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimage",
 				"source": "MM",
 				"_templates": [
 					{
@@ -6544,7 +6564,9 @@
 							"4": [
 								{
 									"replace": "{@spell Bannissement}",
-									"with": "{@spell confusion}"
+									"with": [
+										"{@spell confusion}"
+									]
 								}
 							]
 						}

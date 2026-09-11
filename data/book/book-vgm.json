@@ -1324,15 +1324,15 @@
 											"rows": [
 												[
 													"1-4",
-													"{@dice 10d10 + 50} {@creature bandit||bandits} and {@dice 3d6} {@creature bandit captain||bandit captains}"
+													"{@dice 10d10 + 50} {@creature bandit||bandits} and {@dice 3d6} {@creature Chef bandit||bandit captains}"
 												],
 												[
 													"5-8",
-													"{@dice 10d6} {@creature bugbear||bugbears} and {@dice 1d3} {@creature bugbear chief||bugbear chiefs}"
+													"{@dice 10d6} {@creature bugbear||bugbears} and {@dice 1d3} {@creature Chef bugbear||bugbear chiefs}"
 												],
 												[
 													"9-12",
-													"{@dice 1d10} {@creature cultist||cultists} and {@dice 4d6} {@creature cult fanatic||cult fanatics}"
+													"{@dice 1d10} {@creature Cultiste||cultists} and {@dice 4d6} {@creature Fanatique de culte||cult fanatics}"
 												],
 												[
 													"13-14",
@@ -1340,7 +1340,7 @@
 												],
 												[
 													"15-22",
-													"{@dice 10d10 + 50} {@creature goblin||goblins} and {@dice 3d4} {@creature goblin boss||goblin bosses}"
+													"{@dice 10d10 + 50} {@creature Gobelin||goblins} and {@dice 3d4} {@creature Chef gobelin||goblin bosses}"
 												],
 												[
 													"23-25",
@@ -1348,7 +1348,7 @@
 												],
 												[
 													"26-35",
-													"{@dice 10d10 } {@creature hobgoblin||hobgoblins} and {@dice 2d4} {@creature hobgoblin captain||hobgoblin captains}"
+													"{@dice 10d10 } {@creature hobgoblin||hobgoblins} and {@dice 2d4} {@creature Capitaine hobgoblin||hobgoblin captains}"
 												],
 												[
 													"36-43",
@@ -1356,11 +1356,11 @@
 												],
 												[
 													"44-48",
-													"{@dice 10d10 + 50} {@creature lizardfolk}"
+													"{@dice 10d10 + 50} {@creature Homme-lézard}"
 												],
 												[
 													"49-56",
-													"{@dice 10d10} {@creature orc||orcs} and {@dice 1d6} {@creature orc war chief||orc war chiefs}"
+													"{@dice 10d10} {@creature orc||orcs} and {@dice 1d6} {@creature Orc, chef de guerre||orc war chiefs}"
 												],
 												[
 													"57-59",
@@ -1401,11 +1401,11 @@
 												],
 												[
 													"11-20",
-													"{@dice 1d2} {@creature fire giant||fire giants}, {@dice 1d3} {@creature frost giant||frost giants}, {@dice 2d4} {@creature hill giant||hill giants} or {@dice 1d6} {@creature stone giant||stone giants} (as appropriate to the terrain)"
+													"{@dice 1d2} {@creature Géant du feu||fire giants}, {@dice 1d3} {@creature Géant du givre||frost giants}, {@dice 2d4} {@creature Géant des collines||hill giants} or {@dice 1d6} {@creature Géant de pierre||stone giants} (as appropriate to the terrain)"
 												],
 												[
 													"21-25",
-													"{@dice 3d6} {@creature hook horror||hook horrors}"
+													"{@dice 3d6} {@creature Horreur à crochet||hook horrors}"
 												],
 												[
 													"26-32",
@@ -1413,7 +1413,7 @@
 												],
 												[
 													"33-40",
-													"{@dice 3d6} {@creature minotaur||minotaurs}"
+													"{@dice 3d6} {@creature Minotaure||minotaurs}"
 												],
 												[
 													"41-55",
@@ -1450,19 +1450,19 @@
 											"rows": [
 												[
 													"1-10",
-													"{@dice 1d3} {@creature basilisk||basilisks}"
+													"{@dice 1d3} {@creature Basilic||basilisks}"
 												],
 												[
 													"11-13",
-													"{@dice 1d3} {@creature beholder zombie||beholder zombies}"
+													"{@dice 1d3} {@creature Zombie beholder||beholder zombies}"
 												],
 												[
 													"14-22",
-													"{@dice 1d4} {@creature chimera||chimeras}"
+													"{@dice 1d4} {@creature Chimère||chimeras}"
 												],
 												[
 													"23-26",
-													"{@dice 1d4} {@creature flesh golem||flesh golems}"
+													"{@dice 1d4} {@creature Golem de chair||flesh golems}"
 												],
 												[
 													"27-29",
@@ -1470,7 +1470,7 @@
 												],
 												[
 													"30-37",
-													"{@dice 3d6} {@creature hell hound||hell hounds}"
+													"{@dice 3d6} {@creature Chien de l'enfer||hell hounds}"
 												],
 												[
 													"38-41",
@@ -1486,7 +1486,7 @@
 												],
 												[
 													"67-75",
-													"{@dice 1d6} {@creature wyvern||wyverns}"
+													"{@dice 1d6} {@creature Wyverne||wyverns}"
 												],
 												[
 													"76-100",
@@ -3249,7 +3249,7 @@
 										],
 										[
 											"6-8",
-											"{@dice 2d6} {@creature Ghoul||Ghouls}"
+											"{@dice 2d6} {@creature Goule||Ghouls}"
 										],
 										[
 											"9-10",
@@ -3265,7 +3265,7 @@
 										],
 										[
 											"14-16",
-											"{@dice 2d6} {@creature Manes}"
+											"{@dice 2d6} {@creature Mânes}"
 										],
 										[
 											"17-18",
@@ -5131,23 +5131,23 @@
 											"rows": [
 												[
 													"1",
-													"{@creature Flameskull||Flameskulls}"
+													"{@creature Crâne flamboyant||Flameskulls}"
 												],
 												[
 													"2",
-													"{@creature Flesh Golem||Flesh Golems}"
+													"{@creature Golem de chair||Flesh Golems}"
 												],
 												[
 													"3",
-													"{@creature Helmed Horror||Helmed Horrors}"
+													"{@creature Horreur blindée||Helmed Horrors}"
 												],
 												[
 													"4",
-													"{@creature Rug of Smothering}"
+													"{@creature Tapis étouffeur}"
 												],
 												[
 													"5",
-													"{@creature Scarecrow||Scarecrows}"
+													"{@creature Épouvantail||Scarecrows}"
 												],
 												[
 													"6",
@@ -5155,7 +5155,7 @@
 												],
 												[
 													"7",
-													"{@dice 2d4} {@creature swarm of insects||swarms of insects} or {@creature swarm of rats||swarms of rats}"
+													"{@dice 2d4} {@creature Nuée d'insectes||swarms of insects} or {@creature Nuée de rats||swarms of rats}"
 												],
 												[
 													"8",
@@ -5189,7 +5189,7 @@
 												],
 												[
 													"4",
-													"{@creature Gargoyle||Gargoyles}"
+													"{@creature Gargouille||Gargoyles}"
 												],
 												[
 													"5",
@@ -5217,11 +5217,11 @@
 												],
 												[
 													"11",
-													"{@creature Wererat||Wererats}"
+													"{@creature Rat-garou||Wererats}"
 												],
 												[
 													"12",
-													"{@creature Werewolf||Werewolves}"
+													"{@creature Loup-garou||Werewolves}"
 												]
 											]
 										}
@@ -8396,7 +8396,7 @@
 											"name": "Sticks to Snakes (Abomination or Malison Only;",
 											"page": 98,
 											"entries": [
-												"Recharge 6). The yuan-ti transforms a pile of sticks, arrows, or similar-sized pieces of wood into a {@creature swarm of poisonous snakes}. The swarm acts as an ally of the yuan-ti and obeys its spoken commands. The swarm remains for 1 minute, after which it turns back into the original materials."
+												"Recharge 6). The yuan-ti transforms a pile of sticks, arrows, or similar-sized pieces of wood into a {@creature Nuée de serpents venimeux}. The swarm acts as an ally of the yuan-ti and obeys its spoken commands. The swarm remains for 1 minute, after which it turns back into the original materials."
 											],
 											"id": "195"
 										}
@@ -8882,11 +8882,11 @@
 											"rows": [
 												[
 													"1-20",
-													"{@creature Cultist||Cultists}"
+													"{@creature Cultiste||Cultists}"
 												],
 												[
 													"21-30",
-													"{@creature Cult Fanatic||Cult Fanatics}"
+													"{@creature Fanatique de culte||Cult Fanatics}"
 												],
 												[
 													"31-34",
@@ -8894,7 +8894,7 @@
 												],
 												[
 													"35-50",
-													"{@creature Guard||Guards}"
+													"{@creature Garde||Guards}"
 												],
 												[
 													"51-60",
@@ -8902,15 +8902,15 @@
 												],
 												[
 													"61-72",
-													"{@creature Priest||Priests}"
+													"{@creature Prêtre||Priests}"
 												],
 												[
 													"73-86",
-													"{@creature Scout||Scouts}"
+													"{@creature Éclaireur||Scouts}"
 												],
 												[
 													"87-100",
-													"{@creature Spy||Spies}"
+													"{@creature Espion||Spies}"
 												]
 											]
 										},
@@ -8928,79 +8928,79 @@
 											"rows": [
 												[
 													"1-10",
-													"{@creature Bandit Captain||Bandit Captains} and {@creature Bandit||Bandits}"
+													"{@creature Chef bandit||Bandit Captains} and {@creature Bandit||Bandits}"
 												],
 												[
 													"11-12",
-													"{@creature Basilisk||Basilisks}"
+													"{@creature Basilic||Basilisks}"
 												],
 												[
 													"13-18",
-													"{@creature Constrictor Snake||Constrictor Snakes}"
+													"{@creature Serpent constricteur||Constrictor Snakes}"
 												],
 												[
 													"19-26",
-													"{@creature Cult Fanatic||Cult Fanatics} and {@creature Cultist||Cultists}"
+													"{@creature Fanatique de culte||Cult Fanatics} and {@creature Cultiste||Cultists}"
 												],
 												[
 													"27-28",
-													"{@creature Flying Snake||Flying Snakes}"
+													"{@creature Serpent volant||Flying Snakes}"
 												],
 												[
 													"29-35",
-													"{@creature Giant Constrictor Snake||Giant Constrictor Snakes}"
+													"{@creature Serpent constricteur géant||Giant Constrictor Snakes}"
 												],
 												[
 													"36-45",
-													"{@creature Giant Poisonous Snake||Giant Poisonous Snakes}"
+													"{@creature Serpent venimeux géant||Giant Poisonous Snakes}"
 												],
 												[
 													"46-50",
-													"{@creature Gladiator||Gladiators}"
+													"{@creature Gladiateur||Gladiators}"
 												],
 												[
 													"51-55",
-													"{@creature Guard||Guards}"
+													"{@creature Garde||Guards}"
 												],
 												[
 													"56-58",
-													"{@creature Hydra||Hydras}"
+													"{@creature Hydre||Hydras}"
 												],
 												[
 													"59-60",
-													"{@creature Medusa||Medusas}"
+													"{@creature Méduse||Medusas}"
 												],
 												[
 													"61",
-													"{@creature Mummy||Mummies}*"
+													"{@creature Momie||Mummies}*"
 												],
 												[
 													"62-63",
-													"{@creature Poisonous Snake||Poisonous Snakes}"
+													"{@creature Serpent venimeux||Poisonous Snakes}"
 												],
 												[
 													"64-68",
-													"{@creature Priest||Priests}"
+													"{@creature Prêtre||Priests}"
 												],
 												[
 													"69-70",
-													"{@creature Skeleton||Skeletons}"
+													"{@creature Squelette||Skeletons}"
 												],
 												[
 													"71",
-													"{@creature Stone Golem||Stone Golems}"
+													"{@creature Golem de pierre||Stone Golems}"
 												],
 												[
 													"72-81",
-													"{@creature Swarm of Poisonous Snakes||Swarms of Poisonous Snakes}"
+													"{@creature Nuée de serpents venimeux||Swarms of Poisonous Snakes}"
 												],
 												[
 													"82-91",
-													"{@creature Tribal Warrior||Tribal Warriors}"
+													"{@creature Guerrier tribal||Tribal Warriors}"
 												],
 												[
 													"92-97",
-													"{@creature Veteran||Veterans}"
+													"{@creature Vétéran||Veterans}"
 												],
 												[
 													"98-100",

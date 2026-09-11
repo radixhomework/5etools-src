@@ -112,7 +112,7 @@
 			"source": "GoS",
 			"page": 220,
 			"_copy": {
-				"name": "Giant Crab",
+				"name": "Crabe géant",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -425,7 +425,7 @@
 			"source": "GoS",
 			"page": 14,
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_templates": [
 					{
@@ -979,7 +979,7 @@
 			"source": "GoS",
 			"page": 224,
 			"_copy": {
-				"name": "Quipper",
+				"name": "Piranha",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -990,7 +990,7 @@
 					},
 					"trait": {
 						"mode": "removeArr",
-						"names": "Blood Frenzy"
+						"names": "Frénésie de sang"
 					}
 				}
 			},
@@ -1142,7 +1142,7 @@
 			"source": "GoS",
 			"page": 216,
 			"_copy": {
-				"name": "Giant Constrictor Snake",
+				"name": "Serpent constricteur géant",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1162,7 +1162,7 @@
 					},
 					"action": {
 						"mode": "removeArr",
-						"names": "Constrict"
+						"names": "Constriction"
 					}
 				}
 			},
@@ -1736,7 +1736,7 @@
 			"source": "GoS",
 			"page": 92,
 			"_copy": {
-				"name": "Druid",
+				"name": "Druide",
 				"source": "MM",
 				"_templates": [
 					{
@@ -1757,7 +1757,9 @@
 							"2": [
 								{
 									"replace": "{@spell Messager animal}",
-									"with": "{@spell Sphère enflammée}"
+									"with": [
+										"{@spell Sphère enflammée}"
+									]
 								}
 							]
 						}
@@ -2732,7 +2734,7 @@
 			"source": "GoS",
 			"page": 165,
 			"_copy": {
-				"name": "Priest",
+				"name": "Prêtre",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2996,7 +2998,7 @@
 			"source": "GoS",
 			"page": 216,
 			"_copy": {
-				"name": "Scout",
+				"name": "Éclaireur",
 				"source": "MM",
 				"_templates": [
 					{
@@ -3007,7 +3009,7 @@
 				"_mod": {
 					"action": {
 						"mode": "removeArr",
-						"names": "Longbow"
+						"names": "Arc long"
 					}
 				}
 			},
@@ -3586,7 +3588,7 @@
 			"source": "GoS",
 			"page": 81,
 			"_copy": {
-				"name": "Lizard Queen",
+				"name": "Reine lézard",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -6111,7 +6113,7 @@
 			"source": "GoS",
 			"page": 226,
 			"_copy": {
-				"name": "Drow Priestess of Lolth",
+				"name": "Drow prêtresse de Lolth",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -6122,11 +6124,11 @@
 					},
 					"trait": {
 						"mode": "removeArr",
-						"names": "Fey Ancestry"
+						"names": "Ascendance féerique"
 					},
 					"action": {
 						"mode": "removeArr",
-						"names": "Summon Demon (1/Day)"
+						"names": "Invocation d'un démon (1/jour)"
 					}
 				}
 			},

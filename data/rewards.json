@@ -57,7 +57,7 @@
 				}
 			],
 			"entries": [
-				"Après avoir passé un {@variantrule Long Rest|XPHB|repos long} dans votre {@book Bastion|XDMG|7}, vous gagnez un charme magique (voir « {@book Dons surnaturels|XDMG|2|Supernatural Gifts} » dans le {@book chapitre 3|XDMG|2}) qui dure 7 jours ou jusqu'à ce que vous l'utilisiez. Ce charme vous permet de lancer {@spell Identification|XPHB|identification} sans dépenser d'emplacement de sort ni utiliser de composantes matérielles. Vous ne pouvez pas gagner ce charme à nouveau tant que vous l'avez encore."
+				"Après avoir passé un {@variantrule Repos long|XPHB|repos long} dans votre {@book Bastion|XDMG|7}, vous gagnez un charme magique (voir « {@book Dons surnaturels|XDMG|2|Supernatural Gifts} » dans le {@book chapitre 3|XDMG|2}) qui dure 7 jours ou jusqu'à ce que vous l'utilisiez. Ce charme vous permet de lancer {@spell Identification|XPHB|identification} sans dépenser d'emplacement de sort ni utiliser de composantes matérielles. Vous ne pouvez pas gagner ce charme à nouveau tant que vous l'avez encore."
 			]
 		},
 		{
@@ -189,7 +189,7 @@
 					"name": "Conséquence",
 					"id": "304",
 					"entries": [
-						"Le personnage est maudit par la {@variantrule Player Characters as Lycanthropes|MM|lycanthropie} de loup-garou (voir le {@book Manuel des monstres|MM}) jusqu'à ce que la bénédiction prenne fin pour lui. Les nuits de pleine lune, le personnage maudit entre dans une rage qui dure jusqu'à l'aube ; dans cet état, le personnage devient un PNJ sous le contrôle du MD."
+						"Le personnage est maudit par la {@variantrule Personnages joueurs lycanthropes|MM|lycanthropie} de loup-garou (voir le {@book Manuel des monstres|MM}) jusqu'à ce que la bénédiction prenne fin pour lui. Les nuits de pleine lune, le personnage maudit entre dans une rage qui dure jusqu'à l'aube ; dans cet état, le personnage devient un PNJ sous le contrôle du MD."
 					]
 				}
 			]
@@ -259,7 +259,7 @@
 			"page": 98,
 			"type": "Bénédiction",
 			"entries": [
-				"Vous avez {@variantrule Advantage|XPHB|l'avantage} sur les jets de sauvegarde contre les sorts et les autres effets magiques."
+				"Vous avez {@variantrule Avantage|XPHB|l'avantage} sur les jets de sauvegarde contre les sorts et les autres effets magiques."
 			]
 		},
 		{
@@ -319,12 +319,12 @@
 						{
 							"type": "item",
 							"name": "Inspiration héroïque",
-							"entry": "Vous gagnez {@variantrule Heroic Inspiration|XPHB|inspiration héroïque} lorsque vous terminez un {@variantrule Short Rest|XPHB|repos court} ou un {@variantrule Long Rest|XPHB|repos long}, et chaque fois que le MD vous fait lancer l'initiative."
+							"entry": "Vous gagnez {@variantrule Inspiration héroïque|XPHB|inspiration héroïque} lorsque vous terminez un {@variantrule Repos court|XPHB|repos court} ou un {@variantrule Repos long|XPHB|repos long}, et chaque fois que le MD vous fait lancer l'initiative."
 						},
 						{
 							"type": "item",
 							"name": "Points de vie temporaires",
-							"entry": "Vous gagnez un nombre de {@variantrule Temporary Hit Points|XPHB|points de vie temporaires} égal à 10 fois votre niveau lorsque vous gagnez cette bénédiction et lorsque vous gagnez un niveau."
+							"entry": "Vous gagnez un nombre de {@variantrule Points de vie temporaires|XPHB|points de vie temporaires} égal à 10 fois votre niveau lorsque vous gagnez cette bénédiction et lorsque vous gagnez un niveau."
 						}
 					]
 				}
@@ -1131,7 +1131,7 @@
 			"type": "Charme",
 			"entries": [
 				"{@note Ce charme peut être conféré par un {@creature chwinga|ToA} vivant dans le Vallon des Glaces ou dans d'autres régions froides, en utilisant son action Don magique.}",
-				"Ce charme possède 3 charges. Par une action bonus, vous pouvez dépenser 1 des charges du charme pour envelopper vos attaques avec votre arme d'un froid mordant pendant 1 minute. Jusqu'à la fin de cet effet, vous infligez {@damage 1d6} dégâts de froid supplémentaires lorsque vous touchez avec une attaque au moyen d'une arme de mêlée ou à distance. Une fois que toutes ses charges ont été dépensées, ce charme disparaît."
+				"Ce charme possède 3 charges. Par une action bonus, vous pouvez dépenser 1 des charges du charme pour envelopper vos attaques d'arme d'un froid mordant pendant 1 minute. Jusqu'à la fin de cet effet, vous infligez {@damage 1d6} dégâts de froid supplémentaires lorsque vous touchez avec une attaque au moyen d'une arme de mêlée ou à distance. Une fois que toutes ses charges ont été dépensées, ce charme disparaît."
 			]
 		},
 		{
@@ -1736,7 +1736,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Vous avez {@variantrule Advantage|XPHB|l'avantage} sur les tests de caractéristique effectués pour influencer l'attitude de {@creature Lord Soth of Sithicus|RHW|Lord Soth de Sithicus} pendant 24 heures.",
+						"Vous avez {@variantrule Avantage|XPHB|l'avantage} sur les tests de caractéristique effectués pour influencer l'attitude de {@creature Lord Soth of Sithicus|RHW|Lord Soth de Sithicus} pendant 24 heures.",
 						"Vous lancez {@spell Murmures discordants|XPHB|murmures dissonants} (version de niveau 5, JS du sort {@dc 17})."
 					]
 				},
@@ -2615,7 +2615,7 @@
 			],
 			"entries": [
 				"Vous obtenez l'aide d'un familier draconique, qui pourrait être un fragment de la conscience d'un dragon vous ayant investi de son pouvoir.",
-				"Vous pouvez lancer le sort {@spell Familier||trouver un familier} sous forme de rituel sans dépenser de composantes matérielles. Lorsque vous lancez le sort de cette manière, votre familier prend toujours la forme d'un {@creature pseudodragon||pseudodragon}.",
+				"Vous pouvez lancer le sort {@spell Familier||trouver un familier} sous forme de rituel sans dépenser de composantes matérielles. Lorsque vous lancez le sort de cette manière, votre familier prend toujours la forme d'un {@creature Ver pourpre||pseudodragon}.",
 				"En outre, lorsque vous effectuez l'action {@action Attaque|Attaque} à votre tour, vous pouvez renoncer à l'une de vos propres attaques pour permettre à votre familier pseudodragon d'effectuer une attaque avec sa réaction."
 			]
 		},
@@ -3235,7 +3235,7 @@
 							"name": "Fardeau",
 							"page": 194,
 							"entries": [
-								"Le personnage est maudit par la {@variantrule Player Characters as Lycanthropes|MM|lycanthropie} de {@creature loup garou|VRGR} (voir le {@book chapitre 5|VRGR|5})."
+								"Le personnage est maudit par la {@variantrule Personnages joueurs lycanthropes|MM|lycanthropie} de {@creature loup garou|VRGR} (voir le {@book chapitre 5|VRGR|5})."
 							]
 						},
 						{
@@ -4243,7 +4243,7 @@
 				}
 			],
 			"entries": [
-				"Après avoir passé un {@variantrule Long Rest|XPHB|repos long} dans votre {@book Bastion|XDMG|7}, vous gagnez un charme magique (voir « {@book Dons surnaturels|XDMG|2|Supernatural Gifts} » dans le {@book chapitre 3|XDMG|2}) qui dure 7 jours ou jusqu'à ce que vous l'utilisiez. Ce charme vous permet de lancer {@spell Restauration supérieure|XPHB|restauration supérieure} une fois sans dépenser d'emplacement de sort ni utiliser de composantes matérielles. Vous ne pouvez pas gagner ce charme à nouveau tant que vous l'avez encore."
+				"Après avoir passé un {@variantrule Repos long|XPHB|repos long} dans votre {@book Bastion|XDMG|7}, vous gagnez un charme magique (voir « {@book Dons surnaturels|XDMG|2|Supernatural Gifts} » dans le {@book chapitre 3|XDMG|2}) qui dure 7 jours ou jusqu'à ce que vous l'utilisiez. Ce charme vous permet de lancer {@spell Restauration supérieure|XPHB|restauration supérieure} une fois sans dépenser d'emplacement de sort ni utiliser de composantes matérielles. Vous ne pouvez pas gagner ce charme à nouveau tant que vous l'avez encore."
 			]
 		},
 		{
@@ -4265,7 +4265,7 @@
 				}
 			],
 			"entries": [
-				"Après avoir passé un {@variantrule Long Rest|XPHB|repos long} dans votre {@book Bastion|XDMG|7}, vous gagnez un charme magique (voir « {@book Dons surnaturels|XDMG|2|Supernatural Gifts} » dans le {@book chapitre 3|XDMG|2}) qui dure 7 jours ou jusqu'à ce que vous l'utilisiez. Ce charme vous permet de lancer {@spell Mot de guérison|XPHB|mot de guérison} une fois sans dépenser d'emplacement de sort. Vous ne pouvez pas gagner ce charme à nouveau tant que vous l'avez encore."
+				"Après avoir passé un {@variantrule Repos long|XPHB|repos long} dans votre {@book Bastion|XDMG|7}, vous gagnez un charme magique (voir « {@book Dons surnaturels|XDMG|2|Supernatural Gifts} » dans le {@book chapitre 3|XDMG|2}) qui dure 7 jours ou jusqu'à ce que vous l'utilisiez. Ce charme vous permet de lancer {@spell Mot de guérison|XPHB|mot de guérison} une fois sans dépenser d'emplacement de sort. Vous ne pouvez pas gagner ce charme à nouveau tant que vous l'avez encore."
 			]
 		},
 		{
@@ -4287,7 +4287,7 @@
 				}
 			],
 			"entries": [
-				"Après avoir passé un {@variantrule Long Rest|XPHB|repos long} dans votre {@book Bastion|XDMG|7}, vous gagnez un charme magique (voir « {@book Dons surnaturels|XDMG|2|Supernatural Gifts} » dans le {@book chapitre 3|XDMG|2}) qui dure 7 jours ou jusqu'à ce que vous l'utilisiez. Ce charme vous permet de lancer {@spell Guérison|XPHB|soins} une fois sans dépenser d'emplacement de sort. Vous ne pouvez pas gagner ce charme à nouveau tant que vous l'avez encore."
+				"Après avoir passé un {@variantrule Repos long|XPHB|repos long} dans votre {@book Bastion|XDMG|7}, vous gagnez un charme magique (voir « {@book Dons surnaturels|XDMG|2|Supernatural Gifts} » dans le {@book chapitre 3|XDMG|2}) qui dure 7 jours ou jusqu'à ce que vous l'utilisiez. Ce charme vous permet de lancer {@spell Guérison|XPHB|soins} une fois sans dépenser d'emplacement de sort. Vous ne pouvez pas gagner ce charme à nouveau tant que vous l'avez encore."
 			]
 		},
 		{

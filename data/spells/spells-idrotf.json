@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Create Magen",
+			"name": "Création de magen",
 			"source": "IDRotF",
 			"page": 318,
 			"level": 7,
@@ -22,7 +22,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a vial of quicksilver worth 500 gp and a life-sized human doll, both of which the spell consumes, and an intricate crystal rod worth at least 1,500 gp that is not consumed",
+					"text": "une fiole de vif-argent d'une valeur de 500 po et une poupée humaine grandeur nature, tous deux consommés par le sort, ainsi qu'une baguette de cristal ouvragée valant au moins 1 500 po qui n'est pas consommée",
 					"cost": 50000,
 					"consume": true
 				}
@@ -33,9 +33,9 @@
 				}
 			],
 			"entries": [
-				"While casting the spell, you place a vial of quicksilver in the chest of a life-sized human doll stuffed with ash or dust. You then stitch up the doll and drip your blood on it. At the end of the casting, you tap the doll with a crystal rod, transforming it into a {@filter magen|bestiary|search=magen|source=IDRotF} clothed in whatever the doll was wearing. The type of magen is chosen by you during the casting of the spell. See {@adventure appendix C|IDRotF|21} for different kinds of magen and their statistics.",
-				"When the magen appears, your hit point maximum decreases by an amount equal to the magen's challenge rating (minimum reduction of 1). Only a {@spell Souhait} spell can undo this reduction to your hit point maximum.",
-				"Any magen you create with this spell obeys your commands without question."
+				"Pendant l'incantation, vous placez une fiole de vif-argent dans la poitrine d'une poupée humaine grandeur nature bourrée de cendre ou de poussière. Vous recousez ensuite la poupée et y faites couler quelques gouttes de votre sang. À la fin de l'incantation, vous touchez la poupée avec la baguette de cristal, la transformant en un {@filter magen|bestiary|search=magen|source=IDRotF} vêtu de ce que portait la poupée. Vous choisissez le type de magen pendant l'incantation du sort. Consultez {@adventure appendix C|IDRotF|21|l'annexe C} pour connaître les différents types de magen et leurs statistiques.",
+				"Lorsque le magen apparaît, votre maximum de points de vie diminue d'une quantité égale au rang de danger du magen (réduction minimum de 1). Seul un sort de {@spell Souhait} peut annuler cette réduction de votre maximum de points de vie.",
+				"Tout magen que vous créez avec ce sort obéit à vos ordres sans discuter."
 			],
 			"miscTags": [
 				"PRM"
@@ -45,7 +45,7 @@
 			]
 		},
 		{
-			"name": "Frost Fingers",
+			"name": "Doigts de givre",
 			"source": "IDRotF",
 			"page": 318,
 			"level": 1,
@@ -73,15 +73,15 @@
 				}
 			],
 			"entries": [
-				"Freezing cold blasts from your fingertips in a 15-foot cone. Each creature in that area must make a Constitution saving throw, taking {@damage 2d8} cold damage on a failed save, or half as much damage on a successful one.",
-				"The cold freezes nonmagical liquids in the area that aren't being worn or carried."
+				"Un froid glacial jaillit de vos doigts dans un cône de 4,50 mètres. Chaque créature dans la zone doit effectuer un jet de sauvegarde de Constitution, subissant {@damage 2d8} dégâts de froid en cas d'échec, ou la moitié seulement en cas de réussite.",
+				"Le froid gèle les liquides non magiques de la zone qui ne sont ni portés ni transportés."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@damage 1d8} for each slot level above 1st."
+						"Lorsque vous lancez ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, les dégâts augmentent de {@damage 1d8} par niveau d'emplacement au-delà du niveau 1."
 					]
 				}
 			],

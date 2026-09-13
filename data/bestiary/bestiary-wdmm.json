@@ -906,7 +906,7 @@
 							{
 								"name": "Spear",
 								"entries": [
-									"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack. A creature hit by a bullywug's Spear attack must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 minute. A creature {@condition poisoned} in this way is also {@condition paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack. A creature hit by a bullywug's Spear attack must succeed on a {@dc 13} Constitution saving throw or be {@condition Empoisonné} for 1 minute. A creature {@condition Empoisonné} in this way is also {@condition Paralysé}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 								]
 							}
 						]
@@ -1407,7 +1407,7 @@
 							{
 								"name": "Light Intensity",
 								"entries": [
-									"Any creature that starts its turn within 10 feet of the illuminated golem and can see the golem must succeed on a {@dc 17} Wisdom saving throw or be {@condition blinded} until the start of the creature's next turn.",
+									"Any creature that starts its turn within 10 feet of the illuminated golem and can see the golem must succeed on a {@dc 17} Wisdom saving throw or be {@condition Aveuglé} until the start of the creature's next turn.",
 									"A creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the golem until the start of its next turn, when it can avert its eyes again. If the creature looks at the golem in the meantime, it must immediately make the save."
 								]
 							}
@@ -1462,7 +1462,7 @@
 							{
 								"name": "Two Heads",
 								"entries": [
-									"The duergar has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition charmed}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+									"The duergar has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition Charmé}, {@condition Effrayé}, {@condition Étourdi}, and knocked {@condition Inconscient}."
 								]
 							}
 						]
@@ -2603,7 +2603,7 @@
 								{
 									"name": "Mallet",
 									"entries": [
-										"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage, and the target must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} until the end of its next turn."
+										"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage, and the target must succeed on a {@dc 17} Constitution saving throw or be {@condition Étourdi} until the end of its next turn."
 									]
 								}
 							]
@@ -3512,7 +3512,7 @@
 						"items": {
 							"name": "Bite",
 							"entries": [
-								"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}{@damage 2d6 + 2} piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition poisoned} for 5 ({@dice 1d10}) minutes and {@condition unconscious} while {@condition poisoned} in this way."
+								"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}{@damage 2d6 + 2} piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition Empoisonné} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition Empoisonné} for 5 ({@dice 1d10}) minutes and {@condition Inconscient} while {@condition Empoisonné} in this way."
 							]
 						}
 					}
@@ -4079,12 +4079,12 @@
 										{
 											"type": "itemSub",
 											"name": "1. Paralyzing Ray",
-											"entry": "The targeted creature must succeed on a {@dc 14} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The targeted creature must succeed on a {@dc 14} Constitution saving throw or be {@condition Paralysé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										},
 										{
 											"type": "itemSub",
 											"name": "2. Fear Ray",
-											"entry": "The targeted creature must succeed on a {@dc 14} Wisdom saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The targeted creature must succeed on a {@dc 14} Wisdom saving throw or be {@condition Effrayé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										},
 										{
 											"type": "itemSub",
@@ -5147,7 +5147,7 @@
 										{
 											"type": "item",
 											"name": "Paralyzing Breath",
-											"entry": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a {@dc 20} Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a {@dc 20} Constitution saving throw or be {@condition Paralysé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										}
 									]
 								}

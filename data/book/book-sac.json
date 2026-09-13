@@ -272,7 +272,7 @@
 											"name": "What is the timing of Flash of Genius?",
 											"page": 3,
 											"entries": [
-												"You use {@classFeature Flash of Genius|Artificer|TCE|7|TCE} immediately after the triggering {@dice d20} is rolled and before any of the effects of the roll are applied. Unless a rule tells you otherwise, a reaction occurs immediately after its trigger."
+												"You use {@classFeature Éclair de génie|Artificier|TCE|7|TCE} immediately after the triggering {@dice d20} is rolled and before any of the effects of the roll are applied. Unless a rule tells you otherwise, a reaction occurs immediately after its trigger."
 											],
 											"id": "13c"
 										},
@@ -281,7 +281,7 @@
 											"name": "Which action is used to activate a Spell-Storing Item?",
 											"page": 3,
 											"entries": [
-												"Activating a {@classFeature Spell-Storing Item|Artificer|TCE|11|TCE} uses the {@action Utiliser un objet|PHB} action."
+												"Activating a {@classFeature Objet à sort stocké|Artificier|TCE|11|TCE} uses the {@action Utiliser un objet|PHB} action."
 											],
 											"id": "13d"
 										},
@@ -290,7 +290,7 @@
 											"name": "Can an artificer dismiss one of their infusions on an object early?",
 											"page": 3,
 											"entries": [
-												"No. An infusion lasts until one of the circumstances described in the \"Infusing an Item\" section of the {@classFeature Infuse Item|Artificer|TCE|2|TCE} feature."
+												"No. An infusion lasts until one of the circumstances described in the \"Infusing an Item\" section of the {@classFeature Infusion d'objets|Artificier|TCE|2|TCE} feature."
 											],
 											"id": "13e"
 										}
@@ -1896,7 +1896,7 @@
 												},
 												"For example, if you make a melee weapon attack with a longsword, you add your Strength modifier to the attack and damage rolls of the attack. In contrast, if you make the spell attack of the {@spell Trait de feu} cantrip, you add your spellcasting ability modifier to the attack roll. If you're a wizard, Intelligence is your spellcasting ability, so add your Intelligence modifier. {@spell Trait de feu} doesn't tell you to add your modifier to its damage roll, though, so you don't.",
 												"Various features in the game make explicit exceptions to the rule. For example, a weapon that has the {@itemProperty F|PHB|finesse} property lets you choose whether to use your Strength or Dexterity modifier with it. Another example: when you use the {@action Combat à deux armes|PHB} option in the {@book Player's Handbook|PHB} ({@i PHB} \"{@action Combat à deux armes|PHB}\"), you don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative. You do, however, still add your ability modifier to the attack roll, since the option doesn't tell you not to. In other words, you follow the general rule until an exception in the game tells you not to.",
-												"What about unusual cases like the {@spell green-flame blade|TCE} spell? The spell, which appears in the {@book Sword Coast Adventurer's Guide|SCAG}, tells you to make a melee attack with a weapon. Look at the table above, and you see that, under normal circumstances, you use your Strength modifier when you make a melee weapon attack. It doesn't matter that a spell told you to attack. If a spell expects you to make a spell attack, the spell's description says so. For examples, take a look at {@spell Trait de feu} and {@spell Rayon de gel}. Both say it\u2014\"spell attack.\""
+												"What about unusual cases like the {@spell Lame aux flammes vertes|TCE} spell? The spell, which appears in the {@book Sword Coast Adventurer's Guide|SCAG}, tells you to make a melee attack with a weapon. Look at the table above, and you see that, under normal circumstances, you use your Strength modifier when you make a melee weapon attack. It doesn't matter that a spell told you to attack. If a spell expects you to make a spell attack, the spell's description says so. For examples, take a look at {@spell Trait de feu} and {@spell Rayon de gel}. Both say it\u2014\"spell attack.\""
 											]
 										},
 										{
@@ -2621,10 +2621,10 @@
 											"page": 18,
 											"id": "0fd",
 											"entries": [
-												"Introduced in the {@book Sword Coast Adventurer's Guide|SCAG}, the {@spell green-flame blade|TCE} and {@spell booming blade|TCE} spells pose a number of questions, because they each do something unusual: require you to make a melee attack with a weapon as part of the spell's casting.",
-												"First, each of these spells involves a normal melee weapon attack, not a spell attack, so you use whatever ability modifier you normally use with the weapon. (A spell tells you if it includes a spell attack, and neither of these spells do.) For example, if you use a {@item Épée longue|PHB} with {@spell green-flame blade|TCE}, you use your Strength modifier for the weapon's attack and damage rolls.",
-												"Second, neither {@spell green-flame blade|TCE} nor {@spell booming blade|TCE} works with Extra Attack or any other feature that requires the {@action Attaque} action. Like other spells, these cantrips require the {@action Lancer un sort} action, not the {@action Attaque} action, and they can't be used to make an {@action Attaque d'opportunité}, unless a special feature allows you to do so.",
-												"Third, these weapon attacks work with {@classFeature Sneak Attack|Rogue|PHB|1|PHB} if they fulfill the normal requirements for that feature. For example, if you have the {@classFeature Sneak Attack|Rogue|PHB|1|PHB} feature and cast {@spell green-flame blade|TCE} with a {@itemProperty F|PHB|finesse} weapon, you can deal {@classFeature Sneak Attack|Rogue|PHB|1|PHB} damage to the target of the weapon attack if you have advantage on the attack roll and hit."
+												"Introduced in the {@book Sword Coast Adventurer's Guide|SCAG}, the {@spell Lame aux flammes vertes|TCE} and {@spell Lame tonnante|TCE} spells pose a number of questions, because they each do something unusual: require you to make a melee attack with a weapon as part of the spell's casting.",
+												"First, each of these spells involves a normal melee weapon attack, not a spell attack, so you use whatever ability modifier you normally use with the weapon. (A spell tells you if it includes a spell attack, and neither of these spells do.) For example, if you use a {@item Épée longue|PHB} with {@spell Lame aux flammes vertes|TCE}, you use your Strength modifier for the weapon's attack and damage rolls.",
+												"Second, neither {@spell Lame aux flammes vertes|TCE} nor {@spell Lame tonnante|TCE} works with Extra Attack or any other feature that requires the {@action Attaque} action. Like other spells, these cantrips require the {@action Lancer un sort} action, not the {@action Attaque} action, and they can't be used to make an {@action Attaque d'opportunité}, unless a special feature allows you to do so.",
+												"Third, these weapon attacks work with {@classFeature Sneak Attack|Rogue|PHB|1|PHB} if they fulfill the normal requirements for that feature. For example, if you have the {@classFeature Sneak Attack|Rogue|PHB|1|PHB} feature and cast {@spell Lame aux flammes vertes|TCE} with a {@itemProperty F|PHB|finesse} weapon, you can deal {@classFeature Sneak Attack|Rogue|PHB|1|PHB} damage to the target of the weapon attack if you have advantage on the attack roll and hit."
 											]
 										},
 										{

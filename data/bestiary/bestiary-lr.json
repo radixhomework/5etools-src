@@ -245,12 +245,12 @@
 			"source": "LR",
 			"page": 20,
 			"_copy": {
-				"name": "Kraken Priest",
+				"name": "Prêtre du kraken",
 				"source": "VGM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the priest",
+						"replace": "(le |la |l\\b)?prêtre",
 						"with": "Fhenimore",
 						"flags": "i"
 					},
@@ -270,26 +270,26 @@
 					"trait": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Blood Frenzy",
+							"name": "Frénésie de sang",
 							"entries": [
-								"Fhenimore has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+								"Fhenimore a un avantage aux jets d'attaque au corps à corps contre toute créature n'ayant pas tous ses points de vie."
 							]
 						}
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Voice of the Kraken (Recharges after a Short or Long Rest)",
+						"replace": "Voix du kraken (se recharge après un repos court ou long)",
 						"items": [
 							{
-								"name": "Multiattack",
+								"name": "Attaques multiples",
 								"entries": [
-									"Fhenimore can attack once with her bite attack and once with Thunderous Touch."
+									"Fhenimore peut attaquer une fois avec son attaque de morsure et une fois avec son Toucher tonitruant."
 								]
 							},
 							{
-								"name": "Bite",
+								"name": "Morsure",
 								"entries": [
-									"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+									"{@atk mw} {@hit 7} pour toucher, allonge 1,50 m, une cible. {@h}8 ({@damage 1d10 + 3}) dégâts perforants."
 								]
 							}
 						]
@@ -793,12 +793,12 @@
 			"source": "LR",
 			"page": 20,
 			"_copy": {
-				"name": "Kraken Priest",
+				"name": "Prêtre du kraken",
 				"source": "VGM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the priest",
+						"replace": "(le |la |l\\b)?prêtre",
 						"with": "Whymsee",
 						"flags": "i"
 					},
@@ -817,7 +817,7 @@
 					},
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Voice of the Kraken (Recharges after a Short or Long Rest)",
+						"replace": "Voix du kraken (se recharge après un repos court ou long)",
 						"items": [
 							{
 								"name": "Ink Cloud",

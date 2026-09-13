@@ -8,45 +8,45 @@
 	},
 	"monster": [
 		{
-			"name": "Hound of Ill Omen",
+			"name": "Chien de mauvais augure",
 			"source": "XGE",
 			"page": 50,
-			"summonedByClass": "Sorcerer|PHB",
+			"summonedByClass": "Sorcier|PHB",
 			"_copy": {
 				"name": "Loup féroce",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "\\bwolf\\b",
-						"with": "hound"
+						"replace": "\bloup\b",
+						"with": "chien"
 					},
 					"trait": [
 						{
 							"mode": "appendArr",
 							"items": [
 								{
-									"name": "Cloak of Shadows",
+									"name": "Manteau d'ombres",
 									"entries": [
-										"The hound appears with a number of temporary hit points equal to half your sorcerer level."
+										"Le chien apparaît avec un nombre de points de vie temporaires égal à la moitié de votre niveau de sorcier."
 									]
 								},
 								{
-									"name": "Incorporeal Movement",
+									"name": "Déplacement incorporel",
 									"entries": [
-										"The hound can move through other creatures and objects as if they were {@quickref difficult terrain||3}. The hound takes 5 force damage if it ends its turn inside an object."
+										"Le chien peut se déplacer à travers les créatures et les objets comme s'il s'agissait de {@quickref difficult terrain||3}. Il subit 5 dégâts de force s'il termine son tour à l'intérieur d'un objet."
 									]
 								},
 								{
-									"name": "Omen Sight",
+									"name": "Vue de mauvais augure",
 									"entries": [
-										"At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound."
+										"Au début de son tour, le chien connaît automatiquement l'emplacement de sa cible. Si la cible était cachée, elle ne l'est plus par rapport au chien."
 									]
 								},
 								{
-									"name": "Ever at Your Heels",
+									"name": "Toujours à vos trousses",
 									"entries": [
-										"On its turn, it can move only toward its target by the most direct route, and it can use its action only to attack its target. The hound can make opportunity attacks, but only against its target. Additionally, while the hound is within 5 feet of the target, the target has disadvantage on saving throws against any spell you cast. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes."
+										"Lors de son tour, il ne peut se déplacer que vers sa cible par le chemin le plus direct, et il ne peut utiliser son action que pour attaquer sa cible. Le chien peut effectuer des attaques d'opportunité, mais uniquement contre sa cible. De plus, tant que le chien se trouve à 1,50 mètre ou moins de la cible, celle-ci a un désavantage aux jets de sauvegarde contre tout sort que vous lancez. Le chien disparaît s'il est réduit à 0 point de vie, si sa cible est réduite à 0 point de vie, ou après 5 minutes."
 									]
 								}
 							]
@@ -66,7 +66,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Tiny Servant",
+			"name": "Serviteur miniature",
 			"source": "XGE",
 			"page": 169,
 			"size": [
@@ -118,9 +118,9 @@
 			],
 			"action": [
 				{
-					"name": "Slam",
+					"name": "Coup",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+						"{@atk mw} {@hit 5} pour toucher, allonge 1,50 m, une cible. {@h}5 ({@damage 1d4 + 3}) dégâts contondants."
 					]
 				}
 			],

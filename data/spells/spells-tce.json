@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Blade of Disaster",
+			"name": "Lame du désastre",
 			"source": "TCE",
 			"page": 106,
 			"otherSources": [
@@ -46,9 +46,9 @@
 				}
 			],
 			"entries": [
-				"You create a blade-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration. When you cast this spell, you can make up to two melee spell attacks with the blade, each one against a creature, loose object, or structure within 5 feet of the blade. On a hit, the target takes {@damage 4d12} force damage. This attack scores a critical hit if the number on the {@dice d20} is 18 or higher. On a critical hit, the blade deals an extra {@damage 8d12} force damage (for a total of {@damage 12d12} force damage).",
-				"As a bonus action on your turn, you can move the blade up to 30 feet to an unoccupied space you can see and then make up to two melee spell attacks with it again.",
-				"The blade can harmlessly pass through any barrier, including a {@spell Mur de force}."
+				"Vous créez une faille planaire en forme de lame, longue d'environ 90 centimètres, dans un espace libre que vous pouvez voir à portée. La lame dure pendant la durée. Lorsque vous lancez ce sort, vous pouvez effectuer jusqu'à deux attaques de sort au corps à corps avec la lame, chacune contre une créature, un objet non fixé ou une structure située à 1,50 mètre ou moins de la lame. En cas de touche, la cible subit {@damage 4d12} dégâts de force. Cette attaque inflige un coup critique si le chiffre indiqué par le {@dice d20} est 18 ou plus. Sur un coup critique, la lame inflige {@damage 8d12} dégâts de force supplémentaires (soit un total de {@damage 12d12} dégâts de force).",
+				"Par une action bonus à votre tour, vous pouvez déplacer la lame sur une distance allant jusqu'à 9 mètres vers un espace libre que vous pouvez voir, puis effectuer à nouveau jusqu'à deux attaques de sort au corps à corps avec elle.",
+				"La lame peut traverser sans danger n'importe quelle barrière, y compris un {@spell Mur de force}."
 			],
 			"damageInflict": [
 				"force"
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"name": "Booming Blade",
+			"name": "Lame tonnante",
 			"source": "TCE",
 			"page": 106,
 			"otherSources": [
@@ -92,7 +92,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon worth at least 1 sp",
+					"text": "une arme de corps à corps valant au moins 1 pc",
 					"cost": 10
 				}
 			},
@@ -106,12 +106,12 @@
 				}
 			],
 			"entries": [
-				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes {@damage 1d8} thunder damage, and the spell ends.",
-				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} thunder damage to the target on a hit, and the damage the target takes for moving increases to {@damage 2d8}. Both damage rolls increase by 1d8 at 11th level ({@damage 2d8} and {@damage 3d8}) and again at 17th level ({@damage 3d8} and {@damage 4d8})."
+				"Vous brandissez l'arme utilisée pour lancer le sort et effectuez une attaque au corps à corps avec elle contre une créature à 1,50 mètre ou moins de vous. En cas de touche, la cible subit les effets normaux de l'attaque à l'arme, puis se retrouve enveloppée d'une énergie bourdonnante jusqu'au début de votre prochain tour. Si la cible se déplace de son plein gré de 1,50 mètre ou plus d'ici là, elle subit {@damage 1d8} dégâts de tonnerre, et le sort prend fin.",
+				"Les dégâts de ce sort augmentent lorsque vous atteignez certains niveaux. Au niveau 5, l'attaque au corps à corps inflige {@damage 1d8} dégâts de tonnerre supplémentaires à la cible en cas de touche, et les dégâts que la cible subit pour s'être déplacée passent à {@damage 2d8}. Ces deux jets de dégâts augmentent de 1d8 au niveau 11 ({@damage 2d8} et {@damage 3d8}), puis à nouveau au niveau 17 ({@damage 3d8} et {@damage 4d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "thunder damage on moving",
+					"label": "Dégâts de tonnerre lors d'un déplacement",
 					"scaling": {
 						"1": "1d8",
 						"5": "2d8",
@@ -120,7 +120,7 @@
 					}
 				},
 				{
-					"label": "thunder damage on hit",
+					"label": "Dégâts de tonnerre en cas de touche",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -143,7 +143,7 @@
 			]
 		},
 		{
-			"name": "Dream of the Blue Veil",
+			"name": "Songe du voile bleu",
 			"source": "TCE",
 			"page": 106,
 			"level": 7,
@@ -164,7 +164,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a magic item or a willing creature from the destination world"
+				"m": "un objet magique ou une créature consentante provenant du monde de destination"
 			},
 			"duration": [
 				{
@@ -176,9 +176,9 @@
 				}
 			],
 			"entries": [
-				"You and up to eight willing creatures within range fall {@condition Inconscient} for the spell's duration and experience visions of another world on the Material Plane, such as Oerth, Toril, Krynn, or Eberron. If the spell reaches its full duration, the visions conclude with each of you encountering and pulling back a mysterious blue curtain. The spell then ends with you mentally and physically transported to the world that was in the visions.",
-				"To cast this spell, you must have a magic item that originated on the world you wish to reach, and you must be aware of the world's existence, even if you don't know the world's name. Your destination in the other world is a safe location within 1 mile of where the magic item was created. Alternatively, you can cast the spell if one of the affected creatures was born on the other world, which causes your destination to be a safe location within 1 mile of where that creature was born.",
-				"The spell ends early on a creature if that creature takes any damage, and the creature isn't transported. If you take any damage, the spell ends for you and all the other creatures, with none of you being transported."
+				"Vous et jusqu'à huit créatures consentantes à portée sombrez dans l'état {@condition Inconscient} pendant la durée du sort et faites des visions d'un autre monde du Plan Matériel, comme Oerth, Toril, Krynn ou Eberron. Si le sort atteint sa pleine durée, les visions s'achèvent quand chacun de vous découvre et écarte un mystérieux rideau bleu. Le sort prend alors fin et vous êtes transporté, physiquement et mentalement, dans le monde qui apparaissait dans les visions.",
+				"Pour lancer ce sort, vous devez posséder un objet magique originaire du monde que vous souhaitez rejoindre et vous devez savoir que ce monde existe, même sans en connaître le nom. Votre destination dans l'autre monde est un lieu sûr situé à 1,5 km ou moins de l'endroit où l'objet magique a été créé. Alternativement, vous pouvez lancer le sort si l'une des créatures affectées est née dans l'autre monde ; votre destination est alors un lieu sûr situé à 1,5 km ou moins du lieu de naissance de cette créature.",
+				"Le sort prend fin prématurément pour une créature si celle-ci subit des dégâts, et elle n'est pas transportée. Si vous subissez des dégâts, le sort prend fin pour vous et toutes les autres créatures, et personne n'est transporté."
 			],
 			"conditionInflict": [
 				"unconscious"
@@ -190,7 +190,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Green-Flame Blade",
+			"name": "Lame aux flammes vertes",
 			"source": "TCE",
 			"page": 107,
 			"otherSources": [
@@ -217,7 +217,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon worth at least 1 sp",
+					"text": "une arme de corps à corps valant au moins 1 pc",
 					"cost": 10
 				}
 			},
@@ -227,12 +227,12 @@
 				}
 			],
 			"entries": [
-				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.",
-				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} fire damage to the target on a hit, and the fire damage to the second creature increases to {@damage 1d8} + your spellcasting ability modifier. Both damage rolls increase by {@damage 1d8} at 11th level ({@damage 2d8} and {@damage 2d8}) and 17th level ({@damage 3d8} and {@damage 3d8})."
+				"Vous brandissez l'arme utilisée pour lancer le sort et effectuez une attaque au corps à corps avec elle contre une créature à 1,50 mètre ou moins de vous. En cas de touche, la cible subit les effets normaux de l'attaque à l'arme et vous pouvez faire jaillir des flammes vertes de la cible vers une autre créature de votre choix que vous pouvez voir à 1,50 mètre ou moins d'elle. La seconde créature subit des dégâts de feu égaux à votre modificateur de caractéristique d'incantation.",
+				"Les dégâts de ce sort augmentent lorsque vous atteignez certains niveaux. Au niveau 5, l'attaque au corps à corps inflige {@damage 1d8} dégâts de feu supplémentaires à la cible en cas de touche, et les dégâts de feu subis par la seconde créature passent à {@damage 1d8} + votre modificateur de caractéristique d'incantation. Ces deux jets de dégâts augmentent de {@damage 1d8} au niveau 11 ({@damage 2d8} et {@damage 2d8}) et au niveau 17 ({@damage 3d8} et {@damage 3d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "fire damage to secondary creature",
+					"label": "Dégâts de feu à la créature secondaire",
 					"scaling": {
 						"1": "{{spellcasting_mod}}",
 						"5": "1d8 + {{spellcasting_mod}}",
@@ -241,7 +241,7 @@
 					}
 				},
 				{
-					"label": "fire damage on hit",
+					"label": "Dégâts de feu en cas de touche",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -266,7 +266,7 @@
 			]
 		},
 		{
-			"name": "Intellect Fortress",
+			"name": "Forteresse d'intellect",
 			"source": "TCE",
 			"page": 107,
 			"level": 3,
@@ -298,14 +298,14 @@
 				}
 			],
 			"entries": [
-				"For the duration, you or one willing creature you can see within range has resistance to psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws."
+				"Pendant la durée, vous ou une créature consentante que vous pouvez voir à portée bénéficiez d'une résistance aux dégâts psychiques, ainsi que d'un avantage aux jets de sauvegarde d'Intelligence, de Sagesse et de Charisme."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. The creatures must be within 30 feet of each other when you target them."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 4 ou supérieur, vous pouvez cibler une créature supplémentaire pour chaque niveau d'emplacement au-delà du niveau 3. Les créatures doivent se trouver à 9 mètres ou moins les unes des autres au moment où vous les ciblez."
 					]
 				}
 			],
@@ -320,7 +320,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Lightning Lure",
+			"name": "Poigne électrique",
 			"source": "TCE",
 			"page": 107,
 			"otherSources": [
@@ -353,11 +353,11 @@
 				}
 			],
 			"entries": [
-				"You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take {@damage 1d8} lightning damage if it is within 5 feet of you.",
-				"This spell's damage increases by {@damage 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+				"Vous créez un fouet d'énergie électrique qui frappe une créature de votre choix que vous pouvez voir à 4,50 mètres ou moins de vous. La cible doit réussir un jet de sauvegarde de Force, sans quoi elle est tirée sur une distance pouvant aller jusqu'à 3 mètres en ligne droite vers vous, puis elle subit {@damage 1d8} dégâts de foudre si elle se trouve à 1,50 mètre ou moins de vous.",
+				"Les dégâts de ce sort augmentent de {@damage 1d8} lorsque vous atteignez le niveau 5 ({@damage 2d8}), le niveau 11 ({@damage 3d8}) et le niveau 17 ({@damage 4d8})."
 			],
 			"scalingLevelDice": {
-				"label": "lightning damage",
+				"label": "Dégâts de foudre",
 				"scaling": {
 					"1": "1d8",
 					"5": "2d8",
@@ -381,7 +381,7 @@
 			]
 		},
 		{
-			"name": "Mind Sliver",
+			"name": "Éclat mental",
 			"source": "TCE",
 			"page": 108,
 			"reprintedAs": [
@@ -415,11 +415,11 @@
 				}
 			],
 			"entries": [
-				"You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take {@damage 1d6} psychic damage and subtract {@dice 1d4} from the next saving throw it makes before the end of your next turn.",
-				"This spell's damage increases by {@damage 1d6} when you reach certain levels: 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Vous enfoncez une pointe d'énergie psychique désorientante dans l'esprit d'une créature que vous pouvez voir à portée. La cible doit réussir un jet de sauvegarde d'Intelligence, sans quoi elle subit {@damage 1d6} dégâts psychiques et doit soustraire {@dice 1d4} du prochain jet de sauvegarde qu'elle effectue avant la fin de votre prochain tour.",
+				"Les dégâts de ce sort augmentent de {@damage 1d6} lorsque vous atteignez certains niveaux : niveau 5 ({@damage 2d6}), niveau 11 ({@damage 3d6}) et niveau 17 ({@damage 4d6})."
 			],
 			"scalingLevelDice": {
-				"label": "psychic damage",
+				"label": "Dégâts psychiques",
 				"scaling": {
 					"1": "1d6",
 					"5": "2d6",
@@ -443,7 +443,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Spirit Shroud",
+			"name": "Linceul spectral",
 			"source": "TCE",
 			"page": 108,
 			"level": 3,
@@ -475,16 +475,16 @@
 				}
 			],
 			"entries": [
-				"You call forth spirits of the dead, which flit around you for the spell's duration. The spirits are intangible and invulnerable.",
-				"Until the spell ends, any attack you make deals {@damage 1d8} extra damage when you hit a creature within 10 feet of you. This damage is radiant, necrotic, or cold (your choice when you cast the spell). Any creature that takes this damage can't regain hit points until the start of your next turn.",
-				"In addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn."
+				"Vous invoquez des esprits des morts qui voltigent autour de vous pendant la durée du sort. Ces esprits sont intangibles et invulnérables.",
+				"Jusqu'à la fin du sort, chacune de vos attaques inflige {@damage 1d8} dégâts supplémentaires lorsque vous touchez une créature à 3 mètres ou moins de vous. Ces dégâts sont radiants, nécrotiques ou de froid (à vous de choisir au moment où vous lancez le sort). Toute créature qui subit ces dégâts ne peut pas regagner de points de vie avant le début de votre prochain tour.",
+				"De plus, toute créature de votre choix que vous pouvez voir et qui commence son tour à 3 mètres ou moins de vous voit sa vitesse réduite de 3 mètres jusqu'au début de votre prochain tour."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 1d8|3,5,7,9|1d8} for every two slot levels above 3rd."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 4 ou supérieur, les dégâts augmentent de {@scaledamage 1d8|3,5,7,9|1d8} pour tous les deux niveaux d'emplacement au-delà du niveau 3."
 					]
 				}
 			],
@@ -499,7 +499,7 @@
 			]
 		},
 		{
-			"name": "Summon Aberration",
+			"name": "Invocation d'aberration",
 			"source": "TCE",
 			"page": 109,
 			"reprintedAs": [
@@ -524,7 +524,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a pickled tentacle and an eyeball in a platinum-inlaid vial worth at least 400 gp",
+					"text": "un tentacule mariné et un globe oculaire dans un flacon incrusté de platine valant au moins 400 po",
 					"cost": 40000
 				}
 			},
@@ -539,15 +539,15 @@
 				}
 			],
 			"entries": [
-				"You call forth an aberrant spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Aberrant Spirit|TCE} stat block. When you cast the spell, choose Beholderkin, Slaad, or Star Spawn. The creature resembles an aberration of that kind, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Esquive} action and uses its move to avoid danger."
+				"Vous invoquez un esprit aberrant. Il se manifeste dans un espace libre que vous pouvez voir à portée. Cette forme corporelle utilise le bloc de statistiques de l'{@creature Esprit aberrant|TCE|Esprit aberrant}. Lorsque vous lancez le sort, choisissez Beholderkin, Slaad ou Enfant des étoiles. La créature ressemble à une aberration de ce type, ce qui détermine certains traits de son bloc de statistiques. La créature disparaît lorsqu'elle tombe à 0 point de vie ou lorsque le sort prend fin.",
+				"La créature est votre alliée, ainsi que celle de vos compagnons. En combat, elle partage votre compte d'initiative, mais elle joue son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux (sans qu'aucune action de votre part ne soit nécessaire). Si vous n'en donnez pas, elle utilise l'action {@action Esquive} et son déplacement pour éviter le danger."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 5 ou supérieur, utilisez le niveau supérieur partout où apparaît le niveau du sort dans le bloc de statistiques."
 					]
 				}
 			],
@@ -557,7 +557,7 @@
 			]
 		},
 		{
-			"name": "Summon Beast",
+			"name": "Invocation de bête",
 			"source": "TCE",
 			"page": 109,
 			"reprintedAs": [
@@ -582,7 +582,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 gp",
+					"text": "une plume, une touffe de fourrure et une queue de poisson à l'intérieur d'un gland doré valant au moins 200 po",
 					"cost": 20000
 				}
 			},
@@ -597,15 +597,15 @@
 				}
 			],
 			"entries": [
-				"You call forth a bestial spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Bestial Spirit|TCE} stat block. When you cast the spell, choose an environment: Air, Land, or Water. The creature resembles an animal of your choice that is native to the chosen environment, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Esquive} action and uses its move to avoid danger."
+				"Vous invoquez un esprit bestial. Il se manifeste dans un espace libre que vous pouvez voir à portée. Cette forme corporelle utilise le bloc de statistiques de l'{@creature Esprit bestial|TCE|Esprit bestial}. Lorsque vous lancez le sort, choisissez un environnement : air, terre ou eau. La créature ressemble à un animal de votre choix originaire de l'environnement choisi, ce qui détermine certains traits de son bloc de statistiques. La créature disparaît lorsqu'elle tombe à 0 point de vie ou lorsque le sort prend fin.",
+				"La créature est votre alliée, ainsi que celle de vos compagnons. En combat, elle partage votre compte d'initiative, mais elle joue son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux (sans qu'aucune action de votre part ne soit nécessaire). Si vous n'en donnez pas, elle utilise l'action {@action Esquive} et son déplacement pour éviter le danger."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 3 ou supérieur, utilisez le niveau supérieur partout où apparaît le niveau du sort dans le bloc de statistiques."
 					]
 				}
 			],
@@ -615,7 +615,7 @@
 			]
 		},
 		{
-			"name": "Summon Celestial",
+			"name": "Invocation céleste",
 			"source": "TCE",
 			"page": 110,
 			"reprintedAs": [
@@ -640,7 +640,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a golden reliquary worth at least 500 gp",
+					"text": "un reliquaire doré valant au moins 500 po",
 					"cost": 50000
 				}
 			},
@@ -655,15 +655,15 @@
 				}
 			],
 			"entries": [
-				"You call forth a celestial spirit. It manifests in an angelic form in an unoccupied space that you can see within range. This corporeal form uses the {@creature Celestial Spirit|TCE} stat block. When you cast the spell, choose Avenger or Defender. Your choice determines the creature's attack in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Esquive} action and uses its move to avoid danger."
+				"Vous invoquez un esprit céleste. Il se manifeste sous une forme angélique dans un espace libre que vous pouvez voir à portée. Cette forme corporelle utilise le bloc de statistiques de l'{@creature Esprit céleste|TCE|Esprit céleste}. Lorsque vous lancez le sort, choisissez Vengeur ou Défenseur. Votre choix détermine l'attaque de la créature dans son bloc de statistiques. La créature disparaît lorsqu'elle tombe à 0 point de vie ou lorsque le sort prend fin.",
+				"La créature est votre alliée, ainsi que celle de vos compagnons. En combat, elle partage votre compte d'initiative, mais elle joue son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux (sans qu'aucune action de votre part ne soit nécessaire). Si vous n'en donnez pas, elle utilise l'action {@action Esquive} et son déplacement pour éviter le danger."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 6 ou supérieur, utilisez le niveau supérieur partout où apparaît le niveau du sort dans le bloc de statistiques."
 					]
 				}
 			],
@@ -674,7 +674,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Summon Construct",
+			"name": "Invocation de construction",
 			"source": "TCE",
 			"page": 111,
 			"reprintedAs": [
@@ -699,7 +699,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an ornate stone and metal lockbox worth at least 400 gp",
+					"text": "un coffret ouvragé de pierre et de métal valant au moins 400 po",
 					"cost": 40000
 				}
 			},
@@ -714,15 +714,15 @@
 				}
 			],
 			"entries": [
-				"You call forth the spirit of a construct. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Construct Spirit|TCE} stat block. When you cast the spell, choose a material: Clay, Metal, or Stone. The creature resembles a golem or a modron (your choice) made of the chosen material, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Esquive} action and uses its move to avoid danger."
+				"Vous invoquez l'esprit d'une construction. Il se manifeste dans un espace libre que vous pouvez voir à portée. Cette forme corporelle utilise le bloc de statistiques de l'{@creature Esprit de construction|TCE|Esprit de construction}. Lorsque vous lancez le sort, choisissez un matériau : argile, métal ou pierre. La créature ressemble à un golem ou à un modron (à vous de choisir) fait du matériau choisi, ce qui détermine certains traits de son bloc de statistiques. La créature disparaît lorsqu'elle tombe à 0 point de vie ou lorsque le sort prend fin.",
+				"La créature est votre alliée, ainsi que celle de vos compagnons. En combat, elle partage votre compte d'initiative, mais elle joue son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux (sans qu'aucune action de votre part ne soit nécessaire). Si vous n'en donnez pas, elle utilise l'action {@action Esquive} et son déplacement pour éviter le danger."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 4 ou supérieur, utilisez le niveau supérieur partout où apparaît le niveau du sort dans le bloc de statistiques."
 					]
 				}
 			],
@@ -732,7 +732,7 @@
 			]
 		},
 		{
-			"name": "Summon Elemental",
+			"name": "Invocation d'élémentaire",
 			"source": "TCE",
 			"page": 111,
 			"reprintedAs": [
@@ -757,7 +757,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "air, a pebble, ash, and water inside a gold-inlaid vial worth at least 400 gp",
+					"text": "de l'air, un caillou, de la cendre et de l'eau dans un flacon incrusté d'or valant au moins 400 po",
 					"cost": 40000
 				}
 			},
@@ -772,15 +772,15 @@
 				}
 			],
 			"entries": [
-				"You call forth an elemental spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Elemental Spirit|TCE} stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature resembles a bipedal form wreathed in the chosen element, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Esquive} action and uses its move to avoid danger."
+				"Vous invoquez un esprit élémentaire. Il se manifeste dans un espace libre que vous pouvez voir à portée. Cette forme corporelle utilise le bloc de statistiques de l'{@creature Esprit élémentaire|TCE|Esprit élémentaire}. Lorsque vous lancez le sort, choisissez un élément : air, terre, feu ou eau. La créature ressemble à une forme bipède drapée dans l'élément choisi, ce qui détermine certains traits de son bloc de statistiques. La créature disparaît lorsqu'elle tombe à 0 point de vie ou lorsque le sort prend fin.",
+				"La créature est votre alliée, ainsi que celle de vos compagnons. En combat, elle partage votre compte d'initiative, mais elle joue son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux (sans qu'aucune action de votre part ne soit nécessaire). Si vous n'en donnez pas, elle utilise l'action {@action Esquive} et son déplacement pour éviter le danger."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 5 ou supérieur, utilisez le niveau supérieur partout où apparaît le niveau du sort dans le bloc de statistiques."
 					]
 				}
 			],
@@ -790,7 +790,7 @@
 			]
 		},
 		{
-			"name": "Summon Fey",
+			"name": "Invocation de féerique",
 			"source": "TCE",
 			"page": 112,
 			"reprintedAs": [
@@ -815,7 +815,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gilded flower worth at least 300 gp",
+					"text": "une fleur dorée valant au moins 300 po",
 					"cost": 30000
 				}
 			},
@@ -830,15 +830,15 @@
 				}
 			],
 			"entries": [
-				"You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Fey Spirit|TCE} stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Esquive} action and uses its move to avoid danger."
+				"Vous invoquez un esprit féerique. Il se manifeste dans un espace libre que vous pouvez voir à portée. Cette forme corporelle utilise le bloc de statistiques de l'{@creature Esprit féerique|TCE|Esprit féerique}. Lorsque vous lancez le sort, choisissez une humeur : furieux, enjoué ou espiègle. La créature ressemble à une créature féerique de votre choix marquée par l'humeur choisie, ce qui détermine l'un des traits de son bloc de statistiques. La créature disparaît lorsqu'elle tombe à 0 point de vie ou lorsque le sort prend fin.",
+				"La créature est votre alliée, ainsi que celle de vos compagnons. En combat, elle partage votre compte d'initiative, mais elle joue son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux (sans qu'aucune action de votre part ne soit nécessaire). Si vous n'en donnez pas, elle utilise l'action {@action Esquive} et son déplacement pour éviter le danger."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 4 ou supérieur, utilisez le niveau supérieur partout où apparaît le niveau du sort dans le bloc de statistiques."
 					]
 				}
 			],
@@ -848,7 +848,7 @@
 			]
 		},
 		{
-			"name": "Summon Fiend",
+			"name": "Invocation de fiélon",
 			"source": "TCE",
 			"page": 112,
 			"reprintedAs": [
@@ -873,7 +873,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "humanoid blood inside a ruby vial worth at least 600 gp",
+					"text": "du sang humanoïde dans un flacon de rubis valant au moins 600 po",
 					"cost": 60000
 				}
 			},
@@ -888,15 +888,15 @@
 				}
 			],
 			"entries": [
-				"You call forth a fiendish spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Fiendish Spirit|TCE} stat block. When you cast the spell, choose Demon, Devil, or Yugoloth. The creature resembles a fiend of the chosen type, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Esquive} action and uses its move to avoid danger."
+				"Vous invoquez un esprit fiélon. Il se manifeste dans un espace libre que vous pouvez voir à portée. Cette forme corporelle utilise le bloc de statistiques de l'{@creature Esprit fiélon|TCE|Esprit fiélon}. Lorsque vous lancez le sort, choisissez démon, diable ou yugoloth. La créature ressemble à un fiélon du type choisi, ce qui détermine certains traits de son bloc de statistiques. La créature disparaît lorsqu'elle tombe à 0 point de vie ou lorsque le sort prend fin.",
+				"La créature est votre alliée, ainsi que celle de vos compagnons. En combat, elle partage votre compte d'initiative, mais elle joue son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux (sans qu'aucune action de votre part ne soit nécessaire). Si vous n'en donnez pas, elle utilise l'action {@action Esquive} et son déplacement pour éviter le danger."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 7 ou supérieur, utilisez le niveau supérieur partout où apparaît le niveau du sort dans le bloc de statistiques."
 					]
 				}
 			],
@@ -906,7 +906,7 @@
 			]
 		},
 		{
-			"name": "Summon Shadowspawn",
+			"name": "Invocation de rejeton d'ombre",
 			"source": "TCE",
 			"page": 113,
 			"level": 3,
@@ -928,7 +928,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "tears inside a gem worth at least 300 gp",
+					"text": "des larmes dans une gemme valant au moins 300 po",
 					"cost": 30000
 				}
 			},
@@ -943,15 +943,15 @@
 				}
 			],
 			"entries": [
-				"You call forth a shadowy spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Shadow Spirit|TCE} stat block. When you cast the spell, choose an emotion: Fury, Despair, or Fear. The creature resembles a misshapen biped marked by the chosen emotion, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Esquive} action and uses its move to avoid danger."
+				"Vous invoquez un esprit des ombres. Il se manifeste dans un espace libre que vous pouvez voir à portée. Cette forme corporelle utilise le bloc de statistiques de l'{@creature Esprit d'ombre|TCE|Esprit des ombres}. Lorsque vous lancez le sort, choisissez une émotion : fureur, désespoir ou peur. La créature ressemble à un bipède difforme marqué par l'émotion choisie, ce qui détermine certains traits de son bloc de statistiques. La créature disparaît lorsqu'elle tombe à 0 point de vie ou lorsque le sort prend fin.",
+				"La créature est votre alliée, ainsi que celle de vos compagnons. En combat, elle partage votre compte d'initiative, mais elle joue son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux (sans qu'aucune action de votre part ne soit nécessaire). Si vous n'en donnez pas, elle utilise l'action {@action Esquive} et son déplacement pour éviter le danger."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 4 ou supérieur, utilisez le niveau supérieur partout où apparaît le niveau du sort dans le bloc de statistiques."
 					]
 				}
 			],
@@ -962,7 +962,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Summon Undead",
+			"name": "Invocation de mort-vivant",
 			"source": "TCE",
 			"page": 114,
 			"reprintedAs": [
@@ -987,7 +987,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gilded skull worth at least 300 gp",
+					"text": "un crâne doré valant au moins 300 po",
 					"cost": 30000
 				}
 			},
@@ -1002,15 +1002,15 @@
 				}
 			],
 			"entries": [
-				"You call forth an undead spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Undead Spirit|TCE} stat block. When you cast the spell, choose the creature's form: Ghostly, Putrid, or Skeletal. The spirit resembles an undead creature with the chosen form, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Esquive} action and uses its move to avoid danger."
+				"Vous invoquez un esprit de mort-vivant. Il se manifeste dans un espace libre que vous pouvez voir à portée. Cette forme corporelle utilise le bloc de statistiques de l'{@creature Esprit mort-vivant|TCE|Esprit de mort-vivant}. Lorsque vous lancez le sort, choisissez la forme de la créature : spectrale, putride ou osseuse. L'esprit ressemble à un mort-vivant doté de la forme choisie, ce qui détermine certains traits de son bloc de statistiques. La créature disparaît lorsqu'elle tombe à 0 point de vie ou lorsque le sort prend fin.",
+				"La créature est votre alliée, ainsi que celle de vos compagnons. En combat, elle partage votre compte d'initiative, mais elle joue son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux (sans qu'aucune action de votre part ne soit nécessaire). Si vous n'en donnez pas, elle utilise l'action {@action Esquive} et son déplacement pour éviter le danger."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 4 ou supérieur, utilisez le niveau supérieur partout où apparaît le niveau du sort dans le bloc de statistiques."
 					]
 				}
 			],
@@ -1020,7 +1020,7 @@
 			]
 		},
 		{
-			"name": "Sword Burst",
+			"name": "Éruption de lames",
 			"source": "TCE",
 			"page": 115,
 			"otherSources": [
@@ -1053,11 +1053,11 @@
 				}
 			],
 			"entries": [
-				"You create a momentary circle of spectral blades that sweep around you. All other creatures within 5 feet of you must succeed on a Dexterity saving throw or take {@damage 1d6} force damage.",
-				"This spell's damage increases by {@damage 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Vous créez un cercle éphémère de lames spectrales qui tournoient autour de vous. Toutes les autres créatures à 1,50 mètre ou moins de vous doivent réussir un jet de sauvegarde de Dextérité, sans quoi elles subissent {@damage 1d6} dégâts de force.",
+				"Les dégâts de ce sort augmentent de {@damage 1d6} lorsque vous atteignez le niveau 5 ({@damage 2d6}), le niveau 11 ({@damage 3d6}) et le niveau 17 ({@damage 4d6})."
 			],
 			"scalingLevelDice": {
-				"label": "force damage",
+				"label": "Dégâts de force",
 				"scaling": {
 					"1": "1d6",
 					"5": "2d6",
@@ -1079,7 +1079,7 @@
 			]
 		},
 		{
-			"name": "Tasha's Caustic Brew",
+			"name": "Mixture caustique de Tasha",
 			"source": "TCE",
 			"page": 115,
 			"level": 1,
@@ -1100,7 +1100,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a bit of rotten food"
+				"m": "un morceau de nourriture pourrie"
 			},
 			"duration": [
 				{
@@ -1113,14 +1113,14 @@
 				}
 			],
 			"entries": [
-				"A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes {@damage 2d4} acid damage at start of each of its turns."
+				"Un jet d'acide émane de vous sous la forme d'une ligne de 9 mètres de long et 1,50 mètre de large, dans la direction de votre choix. Chaque créature dans la ligne doit réussir un jet de sauvegarde de Dextérité, sans quoi elle est couverte d'acide pendant la durée du sort ou jusqu'à ce qu'une créature utilise son action pour gratter ou rincer l'acide sur elle-même ou sur une autre créature. Une créature couverte d'acide subit {@damage 2d4} dégâts d'acide au début de chacun de ses tours."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 2d4|1-9|2d4} for each slot level above 1st."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, les dégâts augmentent de {@scaledamage 2d4|1-9|2d4} pour chaque niveau d'emplacement au-delà du niveau 1."
 					]
 				}
 			],
@@ -1132,7 +1132,7 @@
 			]
 		},
 		{
-			"name": "Tasha's Mind Whip",
+			"name": "Fouet mental de Tasha",
 			"source": "TCE",
 			"page": 115,
 			"level": 2,
@@ -1163,14 +1163,14 @@
 				}
 			],
 			"entries": [
-				"You psychically lash out at one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 3d6} psychic damage, and it can't take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell's other effects."
+				"Vous fouettez psychiquement une créature que vous pouvez voir à portée. La cible doit effectuer un jet de sauvegarde d'Intelligence. En cas d'échec, la cible subit {@damage 3d6} dégâts psychiques et ne peut pas utiliser de réaction avant la fin de son prochain tour. De plus, à son prochain tour, elle doit choisir entre un déplacement, une action ou une action bonus ; elle n'obtient qu'une seule de ces trois options. En cas de réussite, la cible ne subit que la moitié de ces dégâts et ne subit aucun des autres effets du sort."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 3 ou supérieur, vous pouvez cibler une créature supplémentaire pour chaque niveau d'emplacement au-delà du niveau 2. Les créatures doivent se trouver à 9 mètres ou moins les unes des autres au moment où vous les ciblez."
 					]
 				}
 			],
@@ -1190,7 +1190,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Tasha's Otherworldly Guise",
+			"name": "Costume d'Outremonde de Tasha",
 			"source": "TCE",
 			"page": 116,
 			"level": 6,
@@ -1211,7 +1211,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an object engraved with a symbol of the Outer Planes, worth at least 500 gp",
+					"text": "un objet gravé du symbole des Plans Extérieurs, valant au moins 500 po",
 					"cost": 50000
 				}
 			},
@@ -1226,16 +1226,16 @@
 				}
 			],
 			"entries": [
-				"Uttering an incantation, you draw on the magic of the Lower Planes or Upper Planes (your choice) to transform yourself. You gain the following benefits until the spell ends:",
+				"En proférant une incantation, vous puisez dans la magie des Plans Inférieurs ou des Plans Supérieurs (à vous de choisir) pour vous transformer. Vous bénéficiez des avantages suivants jusqu'à la fin du sort :",
 				{
 					"type": "list",
 					"items": [
-						"You are immune to fire and poison damage (Lower Planes) or radiant and necrotic damage (Upper Planes).",
-						"You are immune to the {@condition Empoisonné} condition (Lower Planes) or the {@condition Charmé} condition (Upper Planes).",
-						"Spectral wings appear on your back, giving you a flying speed of 40 feet.",
-						"You have a +2 bonus to AC.",
-						"All your weapon attacks are magical, and when you make a weapon attack, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls.",
-						"You can attack twice, instead of once, when you take the {@action Attaque} action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that lets you attack more than once when you take the Attack action on your turn."
+						"Vous êtes immunisé contre les dégâts de feu et de poison (Plans Inférieurs) ou contre les dégâts radiants et nécrotiques (Plans Supérieurs).",
+						"Vous êtes immunisé contre l'état {@condition Empoisonné} (Plans Inférieurs) ou contre l'état {@condition Charmé} (Plans Supérieurs).",
+						"Des ailes spectrales apparaissent dans votre dos, vous conférant une vitesse de vol de 12 mètres.",
+						"Vous bénéficiez d'un bonus de +2 à la CA.",
+						"Toutes vos attaques à l'arme sont magiques et, lorsque vous effectuez une attaque à l'arme, vous pouvez utiliser votre modificateur de caractéristique d'incantation, au lieu de votre Force ou de votre Dextérité, pour les jets d'attaque et de dégâts.",
+						"Vous pouvez attaquer deux fois, au lieu d'une, lorsque vous utilisez l'action {@action Attaque} à votre tour. Vous ignorez cet avantage si vous possédez déjà une capacité, comme Attaque supplémentaire, qui vous permet d'attaquer plus d'une fois lorsque vous utilisez l'action Attaque à votre tour."
 					]
 				}
 			],

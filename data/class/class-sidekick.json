@@ -1,36 +1,36 @@
 {
 	"class": [
 		{
-			"name": "Expert Sidekick",
+			"name": "Compagnon expert",
 			"source": "TCE",
 			"page": 142,
 			"edition": "classic",
 			"isSidekick": true,
 			"classFeatures": [
-				"Sidekick Class|Expert Sidekick|TCE|1",
-				"Bonus Proficiencies|Expert Sidekick|TCE|1",
-				"Helpful|Expert Sidekick|TCE|1",
-				"Cunning Action|Expert Sidekick|TCE|2",
-				"Expertise|Expert Sidekick|TCE|3",
-				"Ability Score Improvement|Expert Sidekick|TCE|4",
-				"Coordinated Strike|Expert Sidekick|TCE|6",
-				"Evasion|Expert Sidekick|TCE|7",
-				"Ability Score Improvement|Expert Sidekick|TCE|8",
-				"Ability Score Improvement|Expert Sidekick|TCE|10",
-				"Inspiring Help|Expert Sidekick|TCE|11",
-				"Ability Score Improvement|Expert Sidekick|TCE|12",
-				"Reliable Talent|Expert Sidekick|TCE|14",
-				"Expertise|Expert Sidekick|TCE|15",
-				"Ability Score Improvement|Expert Sidekick|TCE|16",
-				"Sharp Mind|Expert Sidekick|TCE|18",
-				"Ability Score Improvement|Expert Sidekick|TCE|19",
-				"Inspiring Help Improvement|Expert Sidekick|TCE|20"
+				"Classe de compagnon|Compagnon expert|TCE|1",
+				"Maîtrises du compagnon|Compagnon expert|TCE|1",
+				"Serviable|Compagnon expert|TCE|1",
+				"Action astucieuse|Compagnon expert|TCE|2",
+				"Expertise|Compagnon expert|TCE|3",
+				"Amélioration de caractéristique|Compagnon expert|TCE|4",
+				"Frappe coordonnée|Compagnon expert|TCE|6",
+				"Esquive|Compagnon expert|TCE|7",
+				"Amélioration de caractéristique|Compagnon expert|TCE|8",
+				"Amélioration de caractéristique|Compagnon expert|TCE|10",
+				"Aide inspirante|Compagnon expert|TCE|11",
+				"Amélioration de caractéristique|Compagnon expert|TCE|12",
+				"Talent fiable|Compagnon expert|TCE|14",
+				"Expertise|Compagnon expert|TCE|15",
+				"Amélioration de caractéristique|Compagnon expert|TCE|16",
+				"Esprit affûté|Compagnon expert|TCE|18",
+				"Amélioration de caractéristique|Compagnon expert|TCE|19",
+				"Aide inspirante améliorée|Compagnon expert|TCE|20"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Spellcaster Sidekick",
+			"name": "Compagnon lanceur de sorts",
 			"source": "TCE",
 			"page": 144,
 			"edition": "classic",
@@ -83,7 +83,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0}"
+						"{@filter Tours de magie connus|spells|level=0}"
 					],
 					"rows": [
 						[
@@ -150,7 +150,7 @@
 				},
 				{
 					"colLabels": [
-						"{@filter Spells Known|spells|level=!0}"
+						"{@filter Sorts connus|spells|level=!0}"
 					],
 					"rows": [
 						[
@@ -216,13 +216,13 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Emplacements de sorts par niveau de sort",
 					"colLabels": [
-						"{@filter 1st|spells|level=1}",
-						"{@filter 2nd|spells|level=2}",
-						"{@filter 3rd|spells|level=3}",
-						"{@filter 4th|spells|level=4}",
-						"{@filter 5th|spells|level=5}"
+						"{@filter 1er|spells|level=1}",
+						"{@filter 2e|spells|level=2}",
+						"{@filter 3e|spells|level=3}",
+						"{@filter 4e|spells|level=4}",
+						"{@filter 5e|spells|level=5}"
 					],
 					"rows": [
 						[
@@ -369,46 +369,46 @@
 				}
 			],
 			"classFeatures": [
-				"Sidekick Class|Spellcaster Sidekick|TCE|1",
-				"Bonus Proficiencies|Spellcaster Sidekick|TCE|1",
-				"Spellcasting|Spellcaster Sidekick|TCE|1",
-				"Ability Score Improvement|Spellcaster Sidekick|TCE|4",
-				"Potent Cantrips|Spellcaster Sidekick|TCE|6",
-				"Ability Score Improvement|Spellcaster Sidekick|TCE|8",
-				"Ability Score Improvement|Spellcaster Sidekick|TCE|12",
-				"Empowered Spells|Spellcaster Sidekick|TCE|14",
-				"Ability Score Improvement|Spellcaster Sidekick|TCE|16",
-				"Ability Score Improvement|Spellcaster Sidekick|TCE|18",
-				"Focused Casting|Spellcaster Sidekick|TCE|20"
+				"Classe de compagnon|Compagnon lanceur de sorts|TCE|1",
+				"Maîtrises du compagnon|Compagnon lanceur de sorts|TCE|1",
+				"Lancement de sorts|Compagnon lanceur de sorts|TCE|1",
+				"Amélioration de caractéristique|Compagnon lanceur de sorts|TCE|4",
+				"Tours de magie puissants|Compagnon lanceur de sorts|TCE|6",
+				"Amélioration de caractéristique|Compagnon lanceur de sorts|TCE|8",
+				"Amélioration de caractéristique|Compagnon lanceur de sorts|TCE|12",
+				"Sorts intensifiés|Compagnon lanceur de sorts|TCE|14",
+				"Amélioration de caractéristique|Compagnon lanceur de sorts|TCE|16",
+				"Amélioration de caractéristique|Compagnon lanceur de sorts|TCE|18",
+				"Lancement de sorts concentré|Compagnon lanceur de sorts|TCE|20"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Warrior Sidekick",
+			"name": "Compagnon guerrier",
 			"source": "TCE",
 			"page": 146,
 			"edition": "classic",
 			"isSidekick": true,
 			"classFeatures": [
-				"Sidekick Class|Warrior Sidekick|TCE|1",
-				"Bonus Proficiencies|Warrior Sidekick|TCE|1",
-				"Martial Role|Warrior Sidekick|TCE|1",
-				"Second Wind|Warrior Sidekick|TCE|2",
-				"Improved Critical|Warrior Sidekick|TCE|3",
-				"Ability Score Improvement|Warrior Sidekick|TCE|4",
-				"Extra Attack|Warrior Sidekick|TCE|6",
-				"Battle Readiness|Warrior Sidekick|TCE|7",
-				"Ability Score Improvement|Warrior Sidekick|TCE|8",
-				"Improved Defense|Warrior Sidekick|TCE|10",
-				"Indomitable|Warrior Sidekick|TCE|11",
-				"Ability Score Improvement|Warrior Sidekick|TCE|12",
-				"Ability Score Improvement|Warrior Sidekick|TCE|14",
-				"Extra Attack Improvement|Warrior Sidekick|TCE|15",
-				"Ability Score Improvement|Warrior Sidekick|TCE|16",
-				"Indomitable Improvement|Warrior Sidekick|TCE|18",
-				"Ability Score Improvement|Warrior Sidekick|TCE|19",
-				"Second Wind Improvement|Warrior Sidekick|TCE|20"
+				"Classe de compagnon|Compagnon guerrier|TCE|1",
+				"Maîtrises du compagnon|Compagnon guerrier|TCE|1",
+				"Rôle martial|Compagnon guerrier|TCE|1",
+				"Second souffle|Compagnon guerrier|TCE|2",
+				"Critique amélioré|Compagnon guerrier|TCE|3",
+				"Amélioration de caractéristique|Compagnon guerrier|TCE|4",
+				"Attaque supplémentaire|Compagnon guerrier|TCE|6",
+				"Préparation au combat|Compagnon guerrier|TCE|7",
+				"Amélioration de caractéristique|Compagnon guerrier|TCE|8",
+				"Défense améliorée|Compagnon guerrier|TCE|10",
+				"Indomptable|Compagnon guerrier|TCE|11",
+				"Amélioration de caractéristique|Compagnon guerrier|TCE|12",
+				"Amélioration de caractéristique|Compagnon guerrier|TCE|14",
+				"Attaque supplémentaire améliorée|Compagnon guerrier|TCE|15",
+				"Amélioration de caractéristique|Compagnon guerrier|TCE|16",
+				"Indomptable amélioré|Compagnon guerrier|TCE|18",
+				"Amélioration de caractéristique|Compagnon guerrier|TCE|19",
+				"Second souffle amélioré|Compagnon guerrier|TCE|20"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -416,275 +416,275 @@
 	],
 	"classFeature": [
 		{
-			"name": "Bonus Proficiencies",
+			"name": "Maîtrises du compagnon",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"{@i 1st-level Expert feature}",
-				"The sidekick gains proficiency in one saving throw of your choice: Dexterity, Intelligence, or Charisma.",
-				"In addition, the sidekick gains proficiency in five skills of your choice, and it gains proficiency with light armor. If it is a humanoid or has a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} in its stat block, it also gains proficiency with all simple weapons and with two tools of your choice."
+				"{@i Capacité d'expert de niveau 1}",
+				"Le compagnon obtient la maîtrise d'un jet de sauvegarde de votre choix parmi les suivants : Dextérité, Intelligence ou Charisme.",
+				"De plus, le compagnon obtient la maîtrise de cinq compétences de votre choix, ainsi que la maîtrise des armures légères. S'il s'agit d'un humanoïde ou s'il possède une {@filter arme courante ou de guerre|items|source=phb|category=basic|type=martial weapon;simple weapon} dans son bloc de statistiques, il obtient également la maîtrise de toutes les armes courantes et de deux outils de votre choix."
 			]
 		},
 		{
-			"name": "Helpful",
+			"name": "Serviable",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"{@i 1st-level Expert feature}",
-				"The sidekick is adept at giving well-timed assistance; the sidekick can take the {@action Aider} action as a bonus action."
+				"{@i Capacité d'expert de niveau 1}",
+				"Le compagnon est passé maître dans l'art de fournir une aide opportune ; il peut utiliser l'action {@action Aider} comme action bonus."
 			]
 		},
 		{
-			"name": "Sidekick Class",
+			"name": "Classe de compagnon",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 1,
 			"type": "inset",
 			"entries": [
-				"To gain the Expert class, a creature must have at least one language in its stat block that it can speak.",
-				"{@note Note: this class is intended for NPC {@variantrule sidekicks|tce}.}"
+				"Pour appartenir à la classe d'Expert, une créature doit posséder dans son bloc de statistiques au moins un langage qu'elle est capable de parler.",
+				"{@note Note : cette classe est destinée aux PNJ {@variantrule Compagnons|tce}.}"
 			]
 		},
 		{
-			"name": "Cunning Action",
+			"name": "Action astucieuse",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Expert feature}",
-				"The sidekick's agility or quick thinking allows it to act speedily. On its turn in combat, it can take the {@action Course}, {@action Désengagement}, or {@action Se cacher} action as a bonus action."
+				"{@i Capacité d'expert de niveau 2}",
+				"L'agilité ou le sang-froid du compagnon lui permettent d'agir rapidement. Pendant son tour en combat, il peut utiliser l'action {@action Course}, l'action {@action Désengagement} ou l'action {@action Se cacher} comme action bonus."
 			]
 		},
 		{
 			"name": "Expertise",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 3,
 			"entries": [
-				"{@i 3rd-level Expert feature}",
-				"Choose two of the sidekick's skill proficiencies. The sidekick's proficiency bonus is doubled for any ability check it makes that uses any of the chosen proficiencies.",
-				"At 15th level, choose two more of the sidekick's skill proficiencies to gain this benefit."
+				"{@i Capacité d'expert de niveau 3}",
+				"Choisissez deux maîtrises de compétences du compagnon. Le bonus de maîtrise du compagnon est doublé pour tout test de caractéristique qu'il effectue et qui fait appel à l'une des maîtrises choisies.",
+				"Au niveau 15, choisissez deux maîtrises de compétences supplémentaires du compagnon pour leur faire bénéficier de cet avantage."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 4,
 			"entries": [
-				"{@i 4th-level Expert feature}",
-				"At 4th level and again at 8th, 10th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité d'expert de niveau 4}",
+				"Au niveau 4, puis aux niveaux 8, 10, 12, 16 et 19, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Coordinated Strike",
+			"name": "Frappe coordonnée",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 6,
 			"entries": [
-				"{@i 6th-level Expert feature}",
-				"The sidekick is adept at fighting in concert with a companion. When the sidekick uses its Helpful feature to aid an ally in attacking a creature, that target can be up to 30 feet away from the sidekick, and the sidekick can deal an extra {@damage 2d6} damage to it the next time the sidekick hits it with an attack roll before the end of the current turn. The extra damage is the same type of damage dealt by the attack."
+				"{@i Capacité d'expert de niveau 6}",
+				"Le compagnon est passé maître dans l'art de se battre aux côtés d'un allié. Lorsque le compagnon utilise sa capacité Serviable pour aider un allié à attaquer une créature, la cible peut se trouver à 9 mètres maximum du compagnon, et le compagnon peut lui infliger {@damage 2d6} dégâts supplémentaires la prochaine fois qu'il la touche avec un jet d'attaque avant la fin du tour en cours. Ces dégâts supplémentaires sont du même type que ceux infligés par l'attaque."
 			]
 		},
 		{
-			"name": "Evasion",
+			"name": "Esquive",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 7,
 			"entries": [
-				"{@i 7th-level Expert feature}",
-				"Because of extraordinary good luck, the sidekick is skilled at avoiding danger. When the sidekick is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed. The sidekick doesn't benefit from this feature while {@condition Incapable}."
+				"{@i Capacité d'expert de niveau 7}",
+				"Grâce à une chance extraordinaire, le compagnon est passé maître dans l'art d'éviter le danger. Lorsque le compagnon est soumis à un effet qui lui permet de réaliser un jet de sauvegarde de Dextérité pour ne subir que la moitié des dégâts, il ne subit aucun dégât s'il réussit ce jet, et seulement la moitié des dégâts s'il l'échoue. Le compagnon ne bénéficie pas de cette capacité lorsqu'il est {@condition Incapable}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 8,
 			"entries": [
-				"{@i 8th-level Expert feature}",
-				"At 4th level and again at 8th, 10th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité d'expert de niveau 8}",
+				"Au niveau 4, puis aux niveaux 8, 10, 12, 16 et 19, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 10,
 			"entries": [
-				"{@i 10th-level Expert feature}",
-				"At 4th level and again at 8th, 10th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité d'expert de niveau 10}",
+				"Au niveau 4, puis aux niveaux 8, 10, 12, 16 et 19, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Inspiring Help",
+			"name": "Aide inspirante",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 11,
 			"entries": [
-				"{@i 11th-level Expert feature}",
-				"When the sidekick takes the {@action Aider} action, the creature who receives the help also gains a {@dice 1d6} bonus to the {@dice d20} roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack's damage roll against one target.",
-				"At 20th level, the bonus increases to {@dice 2d6}."
+				"{@i Capacité d'expert de niveau 11}",
+				"Lorsque le compagnon utilise l'action {@action Aider}, la créature qui bénéficie de l'aide gagne également un bonus de {@dice 1d6} au jet de {@dice d20}. Si ce jet est un jet d'attaque, la créature peut renoncer à y ajouter ce bonus ; dans ce cas, si l'attaque touche, la créature peut ajouter ce bonus aux dégâts infligés à une cible.",
+				"Au niveau 20, ce bonus passe à {@dice 2d6}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 12,
 			"entries": [
-				"{@i 12th-level Expert feature}",
-				"At 4th level and again at 8th, 10th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité d'expert de niveau 12}",
+				"Au niveau 4, puis aux niveaux 8, 10, 12, 16 et 19, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Reliable Talent",
+			"name": "Talent fiable",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 14,
 			"entries": [
-				"{@i 14th-level Expert feature}",
-				"The sidekick has refined its skills to an exceptional degree. Whenever the sidekick makes an ability check that includes its whole proficiency bonus, it can treat a {@dice d20} roll of 9 or lower as a 10."
+				"{@i Capacité d'expert de niveau 14}",
+				"Le compagnon a affiné ses compétences à un degré exceptionnel. Chaque fois que le compagnon effectue un test de caractéristique qui utilise son bonus de maîtrise, il peut considérer un résultat de 9 ou moins sur le {@dice d20} comme un 10."
 			]
 		},
 		{
 			"name": "Expertise",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 15,
 			"entries": [
-				"{@i 15th-level Expert feature}",
-				"Choose two of the sidekick's skill proficiencies. The sidekick's proficiency bonus is doubled for any ability check it makes that uses any of the chosen proficiencies."
+				"{@i Capacité d'expert de niveau 15}",
+				"Choisissez deux maîtrises de compétences du compagnon. Le bonus de maîtrise du compagnon est doublé pour tout test de caractéristique qu'il effectue et qui fait appel à l'une des maîtrises choisies."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 16,
 			"entries": [
-				"{@i 16th-level Expert feature}",
-				"At 4th level and again at 8th, 10th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité d'expert de niveau 16}",
+				"Au niveau 4, puis aux niveaux 8, 10, 12, 16 et 19, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Sharp Mind",
+			"name": "Esprit affûté",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 18,
 			"entries": [
-				"{@i 18th-level Expert feature}",
-				"The sidekick gains proficiency in one of the following saving throws of your choice: Intelligence, Wisdom, or Charisma."
+				"{@i Capacité d'expert de niveau 18}",
+				"Le compagnon obtient la maîtrise d'un jet de sauvegarde de votre choix parmi les suivants : Intelligence, Sagesse ou Charisme."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 19,
 			"entries": [
-				"{@i 19th-level Expert feature}",
-				"At 4th level and again at 8th, 10th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité d'expert de niveau 19}",
+				"Au niveau 4, puis aux niveaux 8, 10, 12, 16 et 19, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Inspiring Help Improvement",
+			"name": "Aide inspirante améliorée",
 			"source": "TCE",
 			"page": 142,
-			"className": "Expert Sidekick",
+			"className": "Compagnon expert",
 			"classSource": "TCE",
 			"level": 20,
 			"entries": [
-				"{@i 20th-level Expert feature}",
-				"At 20th level, the bonus dice granted by the sidekick's Inspiring Help increases to {@dice 2d6}."
+				"{@i Capacité d'expert de niveau 20}",
+				"Au niveau 20, le dé de bonus accordé par la capacité Aide inspirante du compagnon passe à {@dice 2d6}."
 			]
 		},
 		{
-			"name": "Bonus Proficiencies",
+			"name": "Maîtrises du compagnon",
 			"source": "TCE",
 			"page": 144,
-			"className": "Spellcaster Sidekick",
+			"className": "Compagnon lanceur de sorts",
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"{@i 1st-level Spellcaster feature}",
-				"The sidekick gains proficiency in one saving throw of your choice: Wisdom, Intelligence, or Charisma.",
-				"In addition, the sidekick gains proficiency in two skills of your choice from the following list: {@skill Arcanes}, {@skill Histoire}, {@skill Perspicacité}, {@skill Investigation}, {@skill Médecine}, {@skill Représentation}, {@skill Persuasion}, and {@skill Religion}.",
-				"The sidekick gains proficiency with light armor, and if it is a humanoid or has a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} in its stat block, it also gains proficiency with all simple weapons."
+				"{@i Capacité de lanceur de sorts de niveau 1}",
+				"Le compagnon obtient la maîtrise d'un jet de sauvegarde de votre choix parmi les suivants : Sagesse, Intelligence ou Charisme.",
+				"De plus, le compagnon obtient la maîtrise de deux compétences de votre choix parmi les suivantes : {@skill Arcanes}, {@skill Histoire}, {@skill Perspicacité}, {@skill Investigation}, {@skill Médecine}, {@skill Représentation}, {@skill Persuasion} et {@skill Religion}.",
+				"Le compagnon obtient la maîtrise des armures légères et, s'il s'agit d'un humanoïde ou s'il possède une {@filter arme courante ou de guerre|items|source=phb|category=basic|type=martial weapon;simple weapon} dans son bloc de statistiques, il obtient également la maîtrise de toutes les armes courantes."
 			]
 		},
 		{
-			"name": "Sidekick Class",
+			"name": "Classe de compagnon",
 			"source": "TCE",
 			"page": 144,
-			"className": "Spellcaster Sidekick",
+			"className": "Compagnon lanceur de sorts",
 			"classSource": "TCE",
 			"level": 1,
 			"type": "inset",
 			"entries": [
-				"To gain the Spellcaster class, a creature must have at least one language in its stat block that it can speak.",
-				"{@note Note: this class is intended for NPC {@variantrule sidekicks|tce}.}"
+				"Pour appartenir à la classe de Lanceur de sorts, une créature doit posséder dans son bloc de statistiques au moins un langage qu'elle est capable de parler.",
+				"{@note Note : cette classe est destinée aux PNJ {@variantrule Compagnons|tce}.}"
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Lancement de sorts",
 			"source": "TCE",
 			"page": 144,
-			"className": "Spellcaster Sidekick",
+			"className": "Compagnon lanceur de sorts",
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"{@i 1st-level Spellcaster feature}",
-				"The sidekick gains the ability to cast spells. (If the creature already has the Spellcasting trait, this feature replaces that trait.) Choose the Spellcaster's role: Mage, Healer, or Prodigy. This choice determines the spell list and spellcasting ability used by the sidekick, as shown on the Spellcasting table.",
+				"{@i Capacité de lanceur de sorts de niveau 1}",
+				"Le compagnon obtient la capacité de lancer des sorts. (Si la créature possède déjà le trait Lancement de sorts, cette capacité remplace ce trait.) Choisissez le rôle du lanceur de sorts : Mage, Soigneur ou Prodige. Ce choix détermine la liste de sorts et la caractéristique d'incantation utilisées par le compagnon, comme indiqué dans la table Lancement de sorts.",
 				{
 					"type": "table",
-					"caption": "Spellcasting",
+					"caption": "Lancement de sorts",
 					"colLabels": [
-						"Role",
-						"Spell List",
-						"Ability"
+						"Rôle",
+						"Liste de sorts",
+						"Caractéristique"
 					],
 					"colStyles": [
 						"col-4 text-center",
@@ -694,18 +694,18 @@
 					"rows": [
 						[
 							"Mage",
-							"{@filter Wizard|spells|class=Wizard}",
+							"{@filter Magicien|spells|class=Wizard}",
 							"Intelligence"
 						],
 						[
-							"Healer",
-							"{@filter Cleric and Druid|spells|class=Cleric;Druid}",
-							"Wisdom"
+							"Soigneur",
+							"{@filter Clerc et druide|spells|class=Cleric;Druid}",
+							"Sagesse"
 						],
 						[
-							"Prodigy",
-							"{@filter Bard and Warlock|spells|class=Bard;Warlock}",
-							"Charisma"
+							"Prodige",
+							"{@filter Barde et sorcier|spells|class=Bard;Warlock}",
+							"Charisme"
 						]
 					]
 				},
@@ -714,57 +714,57 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Spell Slots",
+							"name": "Emplacements de sorts",
 							"entries": [
-								"The Spellcaster table shows how many spell slots the sidekick has to cast its Spellcaster spells of 1st level and higher. To cast one of these spells, the sidekick must expend a slot of the spell's level or higher. The sidekick regains all expended spell slots when it finishes a long rest."
+								"La table du lanceur de sorts indique combien d'emplacements de sorts le compagnon dispose pour lancer ses sorts de lanceur de sorts de niveau 1 et supérieur. Pour lancer l'un de ces sorts, le compagnon doit dépenser un emplacement du niveau du sort ou supérieur. Le compagnon récupère tous ses emplacements de sorts dépensés lorsqu'il termine un repos long."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Spells Known",
+							"name": "Sorts connus",
 							"entries": [
-								"The sidekick knows two cantrips and one 1st-level spell of your choice from its spell list. Here are recommendations for a 1st-level spellcaster of each role:",
+								"Le compagnon connaît deux tours de magie et un sort de niveau 1 de votre choix sur sa liste de sorts. Voici des recommandations de sorts de niveau 1 pour chaque rôle :",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "Mage:",
+											"name": "Mage :",
 											"entry": "{@spell Main du mage}, {@spell Rayon de gel}, {@spell Onde de tonnerre}"
 										},
 										{
 											"type": "item",
-											"name": "Healer:",
+											"name": "Soigneur :",
 											"entry": "{@spell Soins}, {@spell guidance}, {@spell Flamme sacrée}"
 										},
 										{
 											"type": "item",
-											"name": "Prodigy:",
+											"name": "Prodige :",
 											"entry": "{@spell Trait occulte}, {@spell Mot de guérison}, {@spell Lumière}"
 										},
-										"The Cantrips Known and Spells Known columns of the Spellcaster table show when the sidekick learns more spells of your choice. Each of the spells in the Spells Known column must be of a level for which the sidekick has spell slots, as shown on the table. For instance, when the sidekick reaches 5th level in this class, it can learn one new spell of 1st or 2nd level.",
-										"Additionally, when the sidekick gains a level in this class, you can choose one of the spells it knows from this class and replace it with another spell from its spell list. The new spell must be a cantrip or of a level for which the sidekick has spell slots."
+										"Les colonnes Tours de magie connus et Sorts connus de la table du lanceur de sorts indiquent quand le compagnon apprend de nouveaux sorts de votre choix. Chacun des sorts de la colonne Sorts connus doit être d'un niveau pour lequel le compagnon dispose d'emplacements de sorts, comme indiqué dans la table. Par exemple, lorsque le compagnon atteint le niveau 5 dans cette classe, il peut apprendre un nouveau sort de niveau 1 ou 2.",
+										"De plus, lorsque le compagnon gagne un niveau dans cette classe, vous pouvez choisir l'un des sorts qu'il connaît dans cette classe et le remplacer par un autre sort de sa liste de sorts. Le nouveau sort doit être un tour de magie ou être d'un niveau pour lequel le compagnon dispose d'emplacements de sorts."
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Spellcasting Ability",
+							"name": "Caractéristique d'incantation",
 							"entries": [
-								"The sidekick's spellcasting ability for these spells depends on the choice you made on the Spellcasting table.",
-								"The sidekick uses its spellcasting ability whenever a spell refers to that ability. In addition, it uses its spellcasting ability modifier when setting the saving throw DC for a spell it casts and when making an attack roll with one.",
+								"La caractéristique d'incantation du compagnon pour ces sorts dépend du choix que vous avez fait dans la table Lancement de sorts.",
+								"Le compagnon utilise sa caractéristique d'incantation chaque fois qu'un sort fait référence à cette caractéristique. De plus, il utilise le modificateur de sa caractéristique d'incantation pour définir le DD du jet de sauvegarde d'un sort qu'il lance et pour effectuer un jet d'attaque avec un tel sort.",
 								{
 									"type": "abilityDc",
-									"name": "Spell",
+									"name": "Sort",
 									"attributes": [
 										"spellcasting"
 									]
 								},
 								{
 									"type": "abilityAttackMod",
-									"name": "Spell",
+									"name": "Sort",
 									"attributes": [
 										"spellcasting"
 									]
@@ -773,9 +773,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Spellcasting Focus",
+							"name": "Focaliseur de lancement de sorts",
 							"entries": [
-								"The sidekick can use a focus for its spells depending on the choice you made on the Spellcasting table. A Mage can use an arcane focus, a Healer can use a holy symbol, and a Prodigy can use an arcane focus or a {@item musical instrument|PHB}."
+								"Le compagnon peut utiliser un focaliseur pour ses sorts selon le choix que vous avez fait dans la table Lancement de sorts. Un Mage peut utiliser un focaliseur arcanique, un Soigneur peut utiliser un symbole sacré, et un Prodige peut utiliser un focaliseur arcanique ou un {@item musical instrument|PHB|instrument de musique}."
 							]
 						}
 					]
@@ -783,351 +783,352 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 144,
-			"className": "Spellcaster Sidekick",
+			"className": "Compagnon lanceur de sorts",
 			"classSource": "TCE",
 			"level": 4,
 			"entries": [
-				"{@i 4th-level Spellcaster feature}",
-				"At 4th level and again at 8th, 12th, 16th, and 18th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité de lanceur de sorts de niveau 4}",
+				"Au niveau 4, puis aux niveaux 8, 12, 16 et 18, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Potent Cantrips",
+			"name": "Tours de magie puissants",
 			"source": "TCE",
 			"page": 144,
-			"className": "Spellcaster Sidekick",
+			"className": "Compagnon lanceur de sorts",
 			"classSource": "TCE",
 			"level": 6,
 			"entries": [
-				"{@i 6th-level Spellcaster feature}",
-				"The sidekick can add its spellcasting ability modifier to the damage it deals with any cantrip."
+				"{@i Capacité de lanceur de sorts de niveau 6}",
+				"Le compagnon peut ajouter le modificateur de sa caractéristique d'incantation aux dégâts qu'il inflige avec n'importe quel tour de magie."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 144,
-			"className": "Spellcaster Sidekick",
+			"className": "Compagnon lanceur de sorts",
 			"classSource": "TCE",
 			"level": 8,
 			"entries": [
-				"{@i 8th-level Spellcaster feature}",
-				"At 4th level and again at 8th, 12th, 16th, and 18th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité de lanceur de sorts de niveau 8}",
+				"Au niveau 4, puis aux niveaux 8, 12, 16 et 18, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 144,
-			"className": "Spellcaster Sidekick",
+			"className": "Compagnon lanceur de sorts",
 			"classSource": "TCE",
 			"level": 12,
 			"entries": [
-				"{@i 12th-level Spellcaster feature}",
-				"At 4th level and again at 8th, 12th, 16th, and 18th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité de lanceur de sorts de niveau 12}",
+				"Au niveau 4, puis aux niveaux 8, 12, 16 et 18, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Empowered Spells",
+			"name": "Sorts intensifiés",
 			"source": "TCE",
 			"page": 144,
-			"className": "Spellcaster Sidekick",
+			"className": "Compagnon lanceur de sorts",
 			"classSource": "TCE",
 			"level": 14,
 			"entries": [
-				"{@i 14th-level Spellcaster feature}",
-				"Choose one school of magic. Whenever the sidekick casts a spell of that school by expending a spell slot, the sidekick can add its spellcasting ability modifier to the spell's damage roll or healing roll, if any."
+				"{@i Capacité de lanceur de sorts de niveau 14}",
+				"Choisissez une école de magie. Chaque fois que le compagnon lance un sort de cette école en dépensant un emplacement de sort, il peut ajouter le modificateur de sa caractéristique d'incantation au jet de dégâts ou au jet de soins du sort, le cas échéant."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 144,
-			"className": "Spellcaster Sidekick",
+			"className": "Compagnon lanceur de sorts",
 			"classSource": "TCE",
 			"level": 16,
 			"entries": [
-				"{@i 16th-level Spellcaster feature}",
-				"At 4th level and again at 8th, 12th, 16th, and 18th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité de lanceur de sorts de niveau 16}",
+				"Au niveau 4, puis aux niveaux 8, 12, 16 et 18, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 144,
-			"className": "Spellcaster Sidekick",
+			"className": "Compagnon lanceur de sorts",
 			"classSource": "TCE",
 			"level": 18,
 			"entries": [
-				"{@i 18th-level Spellcaster feature}",
-				"At 4th level and again at 8th, 12th, 16th, and 18th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité de lanceur de sorts de niveau 18}",
+				"Au niveau 4, puis aux niveaux 8, 12, 16 et 18, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Focused Casting",
+			"name": "Lancement de sorts concentré",
 			"source": "TCE",
 			"page": 144,
-			"className": "Spellcaster Sidekick",
+			"className": "Compagnon lanceur de sorts",
 			"classSource": "TCE",
 			"level": 20,
 			"entries": [
-				"{@i 20th-level Spellcaster feature}",
-				"Taking damage can't break the sidekick's {@status concentration} on a spell."
+				"{@i Capacité de lanceur de sorts de niveau 20}",
+				"Subir des dégâts ne peut pas interrompre la {@status concentration} du compagnon sur un sort."
 			]
 		},
 		{
-			"name": "Bonus Proficiencies",
+			"name": "Maîtrises du compagnon",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"{@i 1st-level Warrior feature}",
-				"The sidekick gains proficiency in one saving throw of your choice: Strength, Dexterity, or Constitution.",
-				"In addition, the sidekick gains proficiency in two skills of your choice from the following list: {@skill Acrobaties}, {@skill Dressage}, {@skill Athlétisme}, {@skill Intimidation}, {@skill Nature}, {@skill Perception}, and {@skill Survie}.",
-				"The sidekick gains proficiency with all armor, and if it is a humanoid or has a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} in its stat block, it gains proficiency with shields and all simple and martial weapons."
+				"{@i Capacité de guerrier de niveau 1}",
+				"Le compagnon obtient la maîtrise d'un jet de sauvegarde de votre choix parmi les suivants : Force, Dextérité ou Constitution.",
+				"De plus, le compagnon obtient la maîtrise de deux compétences de votre choix parmi les suivantes : {@skill Acrobaties}, {@skill Dressage}, {@skill Athlétisme}, {@skill Intimidation}, {@skill Nature}, {@skill Perception} et {@skill Survie}.",
+				"Le compagnon obtient la maîtrise de toutes les armures et, s'il s'agit d'un humanoïde ou s'il possède une {@filter arme courante ou de guerre|items|source=phb|category=basic|type=martial weapon;simple weapon} dans son bloc de statistiques, il obtient la maîtrise des boucliers et de toutes les armes courantes et de guerre."
 			]
 		},
 		{
-			"name": "Martial Role",
+			"name": "Rôle martial",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"{@i 1st-level Warrior feature}",
-				"Each warrior focuses on offense or defense in their training. Choose one of the following options:",
+				"{@i Capacité de guerrier de niveau 1}",
+				"Chaque guerrier met l'accent, dans son entraînement, sur l'offensive ou la défensive. Choisissez l'une des options suivantes :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Attacker",
-							"entry": "The sidekick gains a +2 bonus to all attack rolls."
+							"name": "Attaquant",
+							"entry": "Le compagnon obtient un bonus de +2 à tous ses jets d'attaque."
 						},
 						{
 							"type": "item",
-							"name": "Defender",
-							"entry": "The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker."
+							"name": "Défenseur",
+							"entry": "Le compagnon peut utiliser sa réaction pour imposer un désavantage au jet d'attaque d'une créature se trouvant à 1,50 mètre de lui et dont la cible n'est pas le compagnon, à condition que le compagnon puisse voir l'attaquant."
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Sidekick Class",
+			"name": "Second souffle",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
-			"classSource": "TCE",
-			"level": 1,
-			"type": "inset",
-			"entries": [
-				"{@note Note: this class is intended for NPC {@variantrule sidekicks|tce}.}"
-			]
-		},
-		{
-			"name": "Second Wind",
-			"source": "TCE",
-			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 2,
+			"type": "inset",
 			"entries": [
-				"{@i 2nd-level Warrior feature}",
-				"The sidekick can use a bonus action on its turn to regain hit points equal to {@dice 1d10} + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.",
-				"The sidekick can use this feature twice between rests starting at 20th level."
+				"{@i Capacité de guerrier de niveau 2}",
+				"Le compagnon peut utiliser une action bonus pendant son tour pour récupérer des points de vie égaux à {@dice 1d10} + son niveau dans cette classe. Une fois qu'il a utilisé cette capacité, il doit terminer un repos court ou long avant de pouvoir l'utiliser à nouveau.",
+				"À partir du niveau 20, le compagnon peut utiliser cette capacité deux fois entre deux repos."
 			]
 		},
 		{
-			"name": "Improved Critical",
+			"name": "Critique amélioré",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 3,
 			"entries": [
-				"{@i 3rd-level Warrior feature}",
-				"The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the {@dice d20}."
+				"{@i Capacité de guerrier de niveau 3}",
+				"Les jets d'attaque du compagnon sont un coup critique sur un résultat de 19 ou 20 au {@dice d20}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 4,
 			"entries": [
-				"{@i 4th-level Warrior feature}",
-				"At 4th level and again at 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité de guerrier de niveau 4}",
+				"Au niveau 4, puis aux niveaux 8, 12, 14, 16 et 19, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Extra Attack",
+			"name": "Attaque supplémentaire",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 6,
 			"entries": [
-				"{@i 6th-level Warrior feature}",
-				"The sidekick can attack twice, instead of once, whenever it takes the {@action Attaque} action on its turn.",
-				"The number of attacks increases to three when the sidekick reaches 15th level.",
-				"If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both."
+				"{@i Capacité de guerrier de niveau 6}",
+				"Le compagnon peut attaquer deux fois, au lieu d'une, chaque fois qu'il utilise l'action {@action Attaque} pendant son tour.",
+				"Le nombre d'attaques passe à trois lorsque le compagnon atteint le niveau 15 dans cette classe.",
+				"Si le compagnon possède l'action Attaques multiples, il peut utiliser Attaque supplémentaire ou Attaques multiples pendant un tour, mais pas les deux."
 			]
 		},
 		{
-			"name": "Battle Readiness",
+			"name": "Préparation au combat",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 7,
 			"entries": [
-				"{@i 7th-level Warrior feature}",
-				"The sidekick has advantage on initiative rolls."
+				"{@i Capacité de guerrier de niveau 7}",
+				"Le compagnon obtient l'avantage sur ses jets d'initiative."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 8,
 			"entries": [
-				"{@i 8th-level Warrior feature}",
-				"At 4th level and again at 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité de guerrier de niveau 8}",
+				"Au niveau 4, puis aux niveaux 8, 12, 14, 16 et 19, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Improved Defense",
+			"name": "Défense améliorée",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 10,
 			"entries": [
-				"{@i 10th-level Warrior feature}",
-				"The sidekick's Armor Class increases by 1."
+				"{@i Capacité de guerrier de niveau 10}",
+				"La classe d'armure du compagnon augmente de 1."
 			]
 		},
 		{
-			"name": "Indomitable",
+			"name": "Indomptable",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 11,
 			"entries": [
-				"{@i 11th-level Warrior feature}",
-				"The sidekick can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again until it finishes a long rest.",
-				"The sidekick can use this feature twice between long rests starting at 18th level."
+				"{@i Capacité de guerrier de niveau 11}",
+				"Le compagnon peut relancer un jet de sauvegarde qu'il a raté, mais il doit utiliser le nouveau résultat. Une fois qu'il a utilisé cette capacité, il ne peut plus l'utiliser avant d'avoir terminé un repos long.",
+				"À partir du niveau 18, le compagnon peut utiliser cette capacité deux fois entre deux repos longs."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 12,
 			"entries": [
-				"{@i 12th-level Warrior feature}",
-				"At 4th level and again at 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité de guerrier de niveau 12}",
+				"Au niveau 4, puis aux niveaux 8, 12, 14, 16 et 19, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 14,
 			"entries": [
-				"{@i 14th-level Warrior feature}",
-				"At 4th level and again at 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité de guerrier de niveau 14}",
+				"Au niveau 4, puis aux niveaux 8, 12, 14, 16 et 19, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Extra Attack Improvement",
+			"name": "Attaque supplémentaire améliorée",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 15,
 			"entries": [
-				"{@i 15th-level Warrior feature}",
-				"The sidekick can attack twice, instead of once, whenever it takes the {@action Attaque} action on its turn.",
-				"The number of attacks increases to three when the sidekick reaches 15th level.",
-				"If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both."
+				"{@i Capacité de guerrier de niveau 15}",
+				"Le compagnon peut attaquer deux fois, au lieu d'une, chaque fois qu'il utilise l'action {@action Attaque} pendant son tour.",
+				"Le nombre d'attaques passe à trois lorsque le compagnon atteint le niveau 15 dans cette classe.",
+				"Si le compagnon possède l'action Attaques multiples, il peut utiliser Attaque supplémentaire ou Attaques multiples pendant un tour, mais pas les deux."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 16,
 			"entries": [
-				"{@i 16th-level Warrior feature}",
-				"At 4th level and again at 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité de guerrier de niveau 16}",
+				"Au niveau 4, puis aux niveaux 8, 12, 14, 16 et 19, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Indomitable Improvement",
+			"name": "Indomptable amélioré",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 18,
 			"entries": [
-				"{@i 18th-level Warrior feature}",
-				"The sidekick can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again until it finishes a long rest.",
-				"The sidekick can use this feature twice between long rests starting at 18th level."
+				"{@i Capacité de guerrier de niveau 18}",
+				"Le compagnon peut relancer un jet de sauvegarde qu'il a raté, mais il doit utiliser le nouveau résultat. Une fois qu'il a utilisé cette capacité, il ne peut plus l'utiliser avant d'avoir terminé un repos long.",
+				"À partir du niveau 18, le compagnon peut utiliser cette capacité deux fois entre deux repos longs."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Amélioration de caractéristique",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 19,
 			"entries": [
-				"{@i 19th-level Warrior feature}",
-				"At 4th level and again at 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, the sidekick may instead take a {@5etools feat|feats.html}."
+				"{@i Capacité de guerrier de niveau 19}",
+				"Au niveau 4, puis aux niveaux 8, 12, 14, 16 et 19, le compagnon augmente de 2 la valeur d'une caractéristique de votre choix, ou augmente de 1 la valeur de deux caractéristiques de votre choix. Le compagnon ne peut pas augmenter une valeur de caractéristique au-delà de 20 grâce à cette capacité.",
+				"Si votre MJ autorise l'utilisation des dons, le compagnon peut plutôt prendre un {@5etools don|feats.html}."
 			]
 		},
 		{
-			"name": "Second Wind Improvement",
+			"name": "Second souffle amélioré",
 			"source": "TCE",
 			"page": 146,
-			"className": "Warrior Sidekick",
+			"className": "Compagnon guerrier",
 			"classSource": "TCE",
 			"level": 20,
 			"entries": [
-				"{@i 20th-level Warrior feature}",
-				"The sidekick can use its Second Wind feature twice between rests."
+				"{@i Capacité de guerrier de niveau 20}",
+				"Le compagnon peut utiliser sa capacité Second souffle deux fois entre deux repos."
+			]
+		},
+		{
+			"name": "Second souffle amélioré",
+			"source": "TCE",
+			"page": 146,
+			"className": "Compagnon guerrier",
+			"classSource": "TCE",
+			"level": 20,
+			"entries": [
+				"{@i Capacité de guerrier de niveau 20}",
+				"Le compagnon peut utiliser sa capacité Second souffle deux fois entre les repos."
 			]
 		}
 	]

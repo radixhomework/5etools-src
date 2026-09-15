@@ -2118,13 +2118,13 @@
 						]
 					]
 				},
-				"Vous pouvez rester sous forme de bête pendant un nombre d'heures égal à la moitié de votre niveau de druide (arrondi vers le bas). Vous reprenez ensuite votre forme normale, sauf si vous dépensez une autre utilisation de cette capacité. Vous pouvez reprendre votre forme normale plus tôt en utilisant une action bonus à votre tour. Vous reprenez automatiquement votre forme normale si vous tombez {@condition Unconscious|phb|Inconscient}, si vos points de vie tombent à 0 ou si vous mourez.",
+				"Vous pouvez rester sous forme de bête pendant un nombre d'heures égal à la moitié de votre niveau de druide (arrondi vers le bas). Vous reprenez ensuite votre forme normale, sauf si vous dépensez une autre utilisation de cette capacité. Vous pouvez reprendre votre forme normale plus tôt en utilisant une action bonus à votre tour. Vous reprenez automatiquement votre forme normale si vous tombez {@condition Inconscient|phb|Inconscient}, si vos points de vie tombent à 0 ou si vous mourez.",
 				"Lorsque vous êtes métamorphosé, les règles suivantes s'appliquent :",
 				{
 					"type": "list",
 					"items": [
 						"Vos statistiques de jeu sont remplacées par celles de la bête, mais vous conservez votre alignement, votre personnalité, ainsi que vos scores d'Intelligence, de Sagesse et de Charisme. Vous conservez également toutes vos maîtrises de compétences et de jets de sauvegarde, en plus de gagner celles de la créature. Si la créature possède la même maîtrise que vous et que son bonus dans son bloc de statistiques est supérieur au vôtre, utilisez le bonus de la créature au lieu du vôtre. Si la créature possède des actions légendaires ou des actions de repaire, vous ne pouvez pas les utiliser.",
-						"Quand vous vous métamorphosez, vous adoptez les points de vie et les dés de vie de la bête. Quand vous reprenez votre forme normale, vous retrouvez le nombre de points de vie que vous aviez avant votre métamorphose. Cependant, si vous reprenez votre forme parce que vos points de vie sont tombés à 0, les dégâts excédentaires s'appliquent à votre forme normale. Par exemple, si vous subissez 10 dégâts sous forme animale alors qu'il ne vous reste qu'1 point de vie, vous reprenez votre forme normale et subissez 9 dégâts. Tant que les dégâts excédentaires ne réduisent pas les points de vie de votre forme normale à 0, vous n'êtes pas {@condition Unconscious|phb|Inconscient}.",
+						"Quand vous vous métamorphosez, vous adoptez les points de vie et les dés de vie de la bête. Quand vous reprenez votre forme normale, vous retrouvez le nombre de points de vie que vous aviez avant votre métamorphose. Cependant, si vous reprenez votre forme parce que vos points de vie sont tombés à 0, les dégâts excédentaires s'appliquent à votre forme normale. Par exemple, si vous subissez 10 dégâts sous forme animale alors qu'il ne vous reste qu'1 point de vie, vous reprenez votre forme normale et subissez 9 dégâts. Tant que les dégâts excédentaires ne réduisent pas les points de vie de votre forme normale à 0, vous n'êtes pas {@condition Inconscient|phb|Inconscient}.",
 						"Vous ne pouvez pas lancer de sorts, et votre capacité à parler ou à entreprendre une action nécessitant des mains se limite aux possibilités de votre forme de bête. Se métamorphoser n'interrompt toutefois pas votre {@status concentration} sur un sort déjà lancé, ni ne vous empêche d'entreprendre les actions qui font partie d'un sort, tel que {@spell Foudre multiple}, que vous avez déjà lancé.",
 						"Vous conservez le bénéfice des capacités provenant de votre classe, de votre race ou de toute autre source et vous pouvez les utiliser si votre nouvelle forme en est physiquement capable. Cependant, vous ne pouvez utiliser aucun de vos sens spéciaux, comme la {@sense Darkvision|Vision dans le noir}, à moins que votre nouvelle forme ne possède également ce sens.",
 						"Vous choisissez si votre équipement tombe au sol dans votre espace, fusionne avec votre nouvelle forme ou est porté par celle-ci. L'équipement porté fonctionne normalement, mais le MJ décide, en fonction de la forme et de la taille de la créature, s'il est pratique pour la nouvelle forme de porter une pièce d'équipement. Votre équipement ne change ni de taille ni de forme pour s'adapter à la nouvelle forme, et tout équipement que la nouvelle forme ne peut pas porter doit soit tomber au sol, soit fusionner avec elle. L'équipement qui fusionne avec la forme est inutilisable tant que vous n'avez pas quitté cette forme."
@@ -2467,7 +2467,7 @@
 			"classSource": "XPHB",
 			"level": 2,
 			"entries": [
-				"Le pouvoir de la nature vous permet d'adopter la forme d'un animal. Par une {@variantrule Bonus Action|XPHB|action bonus}, vous vous métamorphosez en une forme de Bête que vous avez apprise pour cette capacité (voir « Formes connues » ci-dessous). Vous restez sous cette forme pendant un nombre d'heures égal à la moitié de votre niveau de druide, ou jusqu'à ce que vous utilisiez à nouveau Forme sauvage, que vous subissiez la {@condition Incapacitated|XPHB|Incapable} ou que vous mouriez. Vous pouvez également quitter la forme plus tôt par une {@variantrule Bonus Action|XPHB|action bonus}.",
+				"Le pouvoir de la nature vous permet d'adopter la forme d'un animal. Par une {@variantrule Bonus Action|XPHB|action bonus}, vous vous métamorphosez en une forme de Bête que vous avez apprise pour cette capacité (voir « Formes connues » ci-dessous). Vous restez sous cette forme pendant un nombre d'heures égal à la moitié de votre niveau de druide, ou jusqu'à ce que vous utilisiez à nouveau Forme sauvage, que vous subissiez la {@condition Incapable|XPHB|Incapable} ou que vous mouriez. Vous pouvez également quitter la forme plus tôt par une {@variantrule Bonus Action|XPHB|action bonus}.",
 				{
 					"type": "entries",
 					"entries": [
@@ -3186,7 +3186,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Lorsque vous atteignez le niveau 10, vous ne pouvez pas être {@condition Charmed|phb|Charmé} ou {@condition Frightened|phb|Effrayé} par des élémentaux ou des fées, et vous êtes immunisé contre le poison et les maladies."
+				"Lorsque vous atteignez le niveau 10, vous ne pouvez pas être {@condition Charmé|phb|Charmé} ou {@condition Effrayé|phb|Effrayé} par des élémentaux ou des fées, et vous êtes immunisé contre le poison et les maladies."
 			]
 		},
 		{
@@ -3555,7 +3555,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Au niveau 14, les spores fongiques de votre corps vous transforment : vous ne pouvez pas être {@condition Blinded|phb|Aveuglé}, {@condition Deafened|phb|Assourdi}, {@condition Frightened|phb|Effrayé} ni {@condition Poisoned|phb|Empoisonné}, et tout coup critique porté contre vous est compté comme un coup normal, sauf si vous êtes {@condition Incapacitated|phb|Incapable}."
+				"Au niveau 14, les spores fongiques de votre corps vous transforment : vous ne pouvez pas être {@condition Aveuglé|phb|Aveuglé}, {@condition Assourdi|phb|Assourdi}, {@condition Effrayé|phb|Effrayé} ni {@condition Empoisonné|phb|Empoisonné}, et tout coup critique porté contre vous est compté comme un coup normal, sauf si vous êtes {@condition Incapable|phb|Incapable}."
 			]
 		},
 		{
@@ -3659,7 +3659,7 @@
 			"entries": [
 				"{@i Capacité de Cercle des Étoiles de niveau 2}",
 				"Par une action bonus, vous pouvez dépenser une utilisation de votre capacité Forme sauvage pour adopter une forme stellaire, plutôt que de vous transformer en bête.",
-				"Sous votre forme stellaire, vous conservez vos statistiques de jeu, mais votre corps devient lumineux ; vos articulations scintillent comme des étoiles, et des lignes lumineuses les relient comme sur une carte du ciel. Cette forme émet une lumière vive dans un rayon de 3 mètres (10 pieds) et une lumière faible sur 3 mètres (10 pieds) supplémentaires. La forme dure 10 minutes. Elle se termine prématurément si vous la dissipez (aucune action requise), si vous êtes {@condition Incapacitated|phb|Incapable}, si vous mourez ou si vous utilisez à nouveau cette capacité.",
+				"Sous votre forme stellaire, vous conservez vos statistiques de jeu, mais votre corps devient lumineux ; vos articulations scintillent comme des étoiles, et des lignes lumineuses les relient comme sur une carte du ciel. Cette forme émet une lumière vive dans un rayon de 3 mètres (10 pieds) et une lumière faible sur 3 mètres (10 pieds) supplémentaires. La forme dure 10 minutes. Elle se termine prématurément si vous la dissipez (aucune action requise), si vous êtes {@condition Incapable|phb|Incapable}, si vous mourez ou si vous utilisez à nouveau cette capacité.",
 				"Chaque fois que vous adoptez votre forme stellaire, choisissez laquelle des constellations suivantes scintille sur votre corps ; votre choix vous confère certains avantages sous cette forme :",
 				{
 					"type": "refSubclassFeature",
@@ -3869,7 +3869,7 @@
 				"Vous pouvez invoquer l'esprit primale lié à votre âme. Par une action, vous pouvez dépenser une utilisation de votre capacité Forme sauvage pour invoquer votre esprit du feu sauvage, plutôt que d'adopter une forme de bête.",
 				"L'esprit apparaît dans un espace inoccupé de votre choix que vous pouvez voir à 9 mètres (30 pieds) de vous ou moins. Chaque créature à 3 mètres (10 pieds) de l'esprit ou moins (autre que vous) lors de son apparition doit réussir un jet de sauvegarde de Dextérité contre le DD de sauvegarde de vos sorts, ou subir {@damage 2d6} dégâts de feu.",
 				"L'esprit vous est ami, ainsi qu'à vos compagnons, et il obéit à vos ordres. Consultez les statistiques de jeu de cette créature dans le bloc de statistiques {@creature Esprit des fournaises|TCE|Esprit du feu sauvage}, qui utilise votre bonus de maîtrise (BM) à plusieurs endroits. Vous déterminez l'apparence de l'esprit. Certains esprits prennent la forme d'une silhouette humanoïde faite de branches noueuses couvertes de flammes, tandis que d'autres ressemblent à des bêtes vêtues de feu.",
-				"Au combat, l'esprit partage votre compte d'initiative, mais il agit immédiatement après vous. La seule action qu'il entreprend à son tour est l'{@action Esquive} action, à moins que vous ne preniez une action bonus à votre tour pour lui ordonner d'entreprendre une autre action. Cette action peut être l'une de celles de son bloc de statistiques ou une autre action. Si vous êtes {@condition Incapacitated|phb|Incapable}, l'esprit peut entreprendre n'importe quelle action de son choix, pas seulement {@action Esquive}.",
+				"Au combat, l'esprit partage votre compte d'initiative, mais il agit immédiatement après vous. La seule action qu'il entreprend à son tour est l'{@action Esquive} action, à moins que vous ne preniez une action bonus à votre tour pour lui ordonner d'entreprendre une autre action. Cette action peut être l'une de celles de son bloc de statistiques ou une autre action. Si vous êtes {@condition Incapable|phb|Incapable}, l'esprit peut entreprendre n'importe quelle action de son choix, pas seulement {@action Esquive}.",
 				"L'esprit se manifeste pendant 1 heure, jusqu'à ce qu'il soit réduit à 0 point de vie, jusqu'à ce que vous utilisiez à nouveau cette capacité pour invoquer l'esprit, ou jusqu'à ce que vous mouriez."
 			]
 		},
@@ -3917,7 +3917,7 @@
 			"header": 2,
 			"entries": [
 				"{@i Capacité de Cercle du Feu sauvage de niveau 14}",
-				"Le lien avec votre esprit du feu sauvage peut vous sauver de la mort. Si l'esprit se trouve à 36 mètres (120 pieds) de vous ou moins au moment où vos points de vie tombent à 0 et que vous tombez ainsi {@condition Unconscious|phb|Inconscient}, vous pouvez faire chuter les points de vie de l'esprit à 0. Vous récupérez ensuite la moitié de vos points de vie et vous relevez immédiatement.",
+				"Le lien avec votre esprit du feu sauvage peut vous sauver de la mort. Si l'esprit se trouve à 36 mètres (120 pieds) de vous ou moins au moment où vos points de vie tombent à 0 et que vous tombez ainsi {@condition Inconscient|phb|Inconscient}, vous pouvez faire chuter les points de vie de l'esprit à 0. Vous récupérez ensuite la moitié de vos points de vie et vous relevez immédiatement.",
 				"Une fois que vous avez utilisé cette capacité, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos long."
 			]
 		},
@@ -4052,7 +4052,7 @@
 			"entries": [
 				"À partir du niveau 2, vous pouvez appeler des esprits de la nature pour influencer le monde autour de vous. Par une action bonus, vous pouvez invoquer par magie un esprit incorporel en un point que vous pouvez voir à 18 mètres (60 pieds) de vous ou moins. L'esprit crée une aura d'un rayon de 9 mètres (30 pieds) autour de ce point. Il ne compte ni comme une créature ni comme un objet, bien qu'il ait l'apparence spectrale de la créature qu'il représente.",
 				"Par une action bonus, vous pouvez déplacer l'esprit jusqu'à 18 mètres (60 pieds) vers un point que vous pouvez voir.",
-				"L'esprit persiste pendant 1 minute ou jusqu'à ce que vous soyez {@condition Incapacitated|phb|Incapable}. Une fois que vous avez utilisé cette capacité, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos court ou long.",
+				"L'esprit persiste pendant 1 minute ou jusqu'à ce que vous soyez {@condition Incapable|phb|Incapable}. Une fois que vous avez utilisé cette capacité, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos court ou long.",
 				"L'effet de l'aura de l'esprit dépend du type d'esprit que vous invoquez parmi les options ci-dessous.",
 				{
 					"type": "entries",
@@ -4123,7 +4123,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"À partir du niveau 14, les esprits de la nature avec lesquels vous communiquez vous protègent lorsque vous êtes le plus démuni. Si vos points de vie tombent à 0 ou si vous êtes {@condition Incapacitated|phb|Incapable} contre votre gré, vous pouvez immédiatement bénéficier des effets de {@spell Invocation d'animaux} comme si le sort était lancé avec un emplacement de sort de niveau 9. Il invoque quatre bêtes de votre choix dont le facteur de puissance est de 2 ou moins. Les bêtes conjurées apparaissent à 6 mètres (20 pieds) de vous ou moins. Si elles ne reçoivent aucun ordre de votre part, elles vous protègent du danger et attaquent vos ennemis. Le sort dure 1 heure, sans exiger de {@status concentration}, ou jusqu'à ce que vous le dissipiez (aucune action requise).",
+				"À partir du niveau 14, les esprits de la nature avec lesquels vous communiquez vous protègent lorsque vous êtes le plus démuni. Si vos points de vie tombent à 0 ou si vous êtes {@condition Incapable|phb|Incapable} contre votre gré, vous pouvez immédiatement bénéficier des effets de {@spell Invocation d'animaux} comme si le sort était lancé avec un emplacement de sort de niveau 9. Il invoque quatre bêtes de votre choix dont le facteur de puissance est de 2 ou moins. Les bêtes conjurées apparaissent à 6 mètres (20 pieds) de vous ou moins. Si elles ne reçoivent aucun ordre de votre part, elles vous protègent du danger et attaquent vos ennemis. Le sort dure 1 heure, sans exiger de {@status concentration}, ou jusqu'à ce que vous le dissipiez (aucune action requise).",
 				"Une fois que vous avez utilisé cette capacité, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos long."
 			]
 		},
@@ -4480,7 +4480,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Vous êtes immunisé contre l'état {@condition Poisoned|XPHB|Empoisonné}, et vous avez une {@variantrule Resistance|XPHB|Résistance} à un type de dégâts associé à votre choix de terre actuel dans la capacité Sorts du cercle, comme indiqué dans la table Protection de la nature.",
+				"Vous êtes immunisé contre l'état {@condition Empoisonné|XPHB|Empoisonné}, et vous avez une {@variantrule Resistance|XPHB|Résistance} à un type de dégâts associé à votre choix de terre actuel dans la capacité Sorts du cercle, comme indiqué dans la table Protection de la nature.",
 				{
 					"type": "entries",
 					"entries": [
@@ -4531,7 +4531,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Par une {@action Magie|XPHB} action, vous pouvez dépenser une utilisation de votre Forme sauvage et faire apparaître des arbres et des lianes spectraux dans un {@variantrule Cube [Area of Effect]|XPHB|Cube} de 4,5 mètres (15 pieds) au sol à 36 mètres (120 pieds) de vous ou moins. Ils persistent là pendant 1 minute ou jusqu'à ce que vous subissiez la {@condition Incapacitated|XPHB|Incapable} ou que vous mouriez. Vous et vos alliés bénéficiez d'un {@variantrule Cover|XPHB|demi-couvert} dans cette zone, et vos alliés gagnent la {@variantrule Resistance|XPHB|Résistance} actuelle de votre Protection de la nature tant qu'ils s'y trouvent.",
+				"Par une {@action Magie|XPHB} action, vous pouvez dépenser une utilisation de votre Forme sauvage et faire apparaître des arbres et des lianes spectraux dans un {@variantrule Cube [Area of Effect]|XPHB|Cube} de 4,5 mètres (15 pieds) au sol à 36 mètres (120 pieds) de vous ou moins. Ils persistent là pendant 1 minute ou jusqu'à ce que vous subissiez la {@condition Incapable|XPHB|Incapable} ou que vous mouriez. Vous et vos alliés bénéficiez d'un {@variantrule Cover|XPHB|demi-couvert} dans cette zone, et vos alliés gagnent la {@variantrule Resistance|XPHB|Résistance} actuelle de votre Protection de la nature tant qu'ils s'y trouvent.",
 				"Par une {@variantrule Bonus Action|XPHB|action bonus}, vous pouvez déplacer le {@variantrule Cube [Area of Effect]|XPHB|Cube} jusqu'à 18 mètres (60 pieds) vers un sol à 36 mètres (120 pieds) de vous ou moins."
 			]
 		},
@@ -4797,7 +4797,7 @@
 			"subclassSource": "XPHB",
 			"level": 3,
 			"entries": [
-				"Par une {@variantrule Bonus Action|XPHB|action bonus}, vous pouvez dépenser une utilisation de votre Forme sauvage pour manifester une {@variantrule Emanation [Area of Effect]|XPHB|Émanation} de 1,5 mètre (5 pieds) prenant la forme d'une embrun océanique qui vous entoure pendant 10 minutes. Elle se termine prématurément si vous la dissipez (aucune action requise), si vous la manifestez à nouveau ou si vous subissez la {@condition Incapacitated|XPHB|Incapable}.",
+				"Par une {@variantrule Bonus Action|XPHB|action bonus}, vous pouvez dépenser une utilisation de votre Forme sauvage pour manifester une {@variantrule Emanation [Area of Effect]|XPHB|Émanation} de 1,5 mètre (5 pieds) prenant la forme d'une embrun océanique qui vous entoure pendant 10 minutes. Elle se termine prématurément si vous la dissipez (aucune action requise), si vous la manifestez à nouveau ou si vous subissez la {@condition Incapable|XPHB|Incapable}.",
 				"Lorsque vous manifestez la {@variantrule Emanation [Area of Effect]|XPHB|Émanation} et par une {@variantrule Bonus Action|XPHB|action bonus} à vos tours suivants, vous pouvez choisir une autre créature que vous pouvez voir dans la {@variantrule Emanation [Area of Effect]|XPHB|Émanation}. La cible doit réussir un jet de sauvegarde de Constitution contre le DD de sauvegarde de vos sorts, ou subir des dégâts de Froid et, si la créature est de taille G ou inférieure, être repoussée jusqu'à 4,5 mètres (15 pieds) loin de vous. Pour déterminer ces dégâts, lancez un nombre de d6 égal à votre modificateur de Sagesse (minimum un dé)."
 			]
 		},
@@ -4950,7 +4950,7 @@
 			},
 			"entries": [
 				"Par une {@variantrule Bonus Action|XPHB|action bonus}, vous pouvez dépenser une utilisation de votre capacité Forme sauvage pour adopter une forme stellaire plutôt que de vous métamorphoser.",
-				"Sous votre forme stellaire, vous conservez vos statistiques de jeu, mais votre corps devient lumineux, vos articulations scintillent comme des étoiles, et des lignes lumineuses les relient comme sur une carte du ciel. Cette forme émet une {@variantrule Bright Light|XPHB|lumière vive} dans un rayon de 3 mètres (10 pieds) et une {@variantrule Dim Light|XPHB|lumière faible} sur 3 mètres (10 pieds) supplémentaires. La forme dure 10 minutes. Elle se termine prématurément si vous la dissipez (aucune action requise), si vous subissez la {@condition Incapacitated|XPHB|Incapable}, ou si vous utilisez à nouveau cette capacité.",
+				"Sous votre forme stellaire, vous conservez vos statistiques de jeu, mais votre corps devient lumineux, vos articulations scintillent comme des étoiles, et des lignes lumineuses les relient comme sur une carte du ciel. Cette forme émet une {@variantrule Bright Light|XPHB|lumière vive} dans un rayon de 3 mètres (10 pieds) et une {@variantrule Dim Light|XPHB|lumière faible} sur 3 mètres (10 pieds) supplémentaires. La forme dure 10 minutes. Elle se termine prématurément si vous la dissipez (aucune action requise), si vous subissez la {@condition Incapable|XPHB|Incapable}, ou si vous utilisez à nouveau cette capacité.",
 				"Chaque fois que vous adoptez votre forme stellaire, choisissez laquelle des constellations suivantes scintille sur votre corps ; votre choix vous confère certains avantages sous cette forme.",
 				{
 					"type": "refSubclassFeature",

@@ -435,7 +435,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Celestial Revelation",
+							"replace": "Révélation céleste",
 							"items": {
 								"name": "Révélation céleste (Voile nécrotique)",
 								"type": "entries",
@@ -453,7 +453,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Celestial Revelation",
+							"replace": "Révélation céleste",
 							"items": {
 								"name": "Révélation céleste (Consommation radieuse)",
 								"type": "entries",
@@ -471,7 +471,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Celestial Revelation",
+							"replace": "Révélation céleste",
 							"items": {
 								"name": "Révélation céleste (Âme radieuse)",
 								"type": "entries",
@@ -1729,7 +1729,7 @@
 							"mode": "replaceArr",
 							"replace": "Taille",
 							"items": {
-								"name": "Size",
+								"name": "Taille",
 								"type": "entries",
 								"entries": [
 									"Centaurs stand between 6 and 7 feet tall, with their equine bodies reaching about 4 feet at the withers. Pheres centaurs tend to be slightly larger than Lagonna centaurs. Your size is Medium."
@@ -1740,7 +1740,7 @@
 							"mode": "replaceArr",
 							"replace": "Langues",
 							"items": {
-								"name": "Languages",
+								"name": "Langues",
 								"type": "entries",
 								"entries": [
 									"You can speak, read, and write Common and Sylvan."
@@ -2140,7 +2140,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variable Trait",
+							"replace": "Trait variable",
 							"items": {
 								"name": "Trait variable ; Vision dans le noir",
 								"type": "entries",
@@ -2158,7 +2158,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variable Trait",
+							"replace": "Trait variable",
 							"items": {
 								"name": "Trait variable ; Maîtrise de compétence",
 								"type": "entries",
@@ -2736,14 +2736,14 @@
 							"entries": [
 								{
 									"mode": "removeArr",
-									"names": "Draconic Ancestry"
+									"names": "Ascendance draconique"
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Breath Weapon",
+									"replace": "Arme de souffle",
 									"items": {
 										"type": "entries",
-										"name": "Breath Weapon",
+										"name": "Arme de souffle",
 										"entries": [
 											"When you take the {@action Attaque|XPHB} action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} or a 30-foot {@variantrule Line [Area of Effect]|XPHB|Line} that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw ({@dc 8} plus your Constitution modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a creature takes {@damage 1d10} {{damageType}} damage. On a successful save, a creature takes half as much damage. This damage increases by {@damage 1d10} when you reach character levels 5 ({@damage 2d10}), 11 ({@damage 3d10}), and 17 ({@damage 4d10}).",
 											"You can use this Breath Weapon a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
@@ -2752,10 +2752,10 @@
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Damage Resistance",
+									"replace": "Résistance aux dégâts",
 									"items": {
 										"type": "entries",
-										"name": "Damage Resistance",
+										"name": "Résistance aux dégâts",
 										"entries": [
 											"You have {@variantrule Resistance|XPHB} to {{damageType}} damage."
 										]
@@ -2964,14 +2964,14 @@
 							"entries": [
 								{
 									"mode": "removeArr",
-									"names": "Chromatic Ancestry"
+									"names": "Ascendance chromatique"
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Breath Weapon",
+									"replace": "Arme de souffle",
 									"items": {
 										"type": "entries",
-										"name": "Breath Weapon",
+										"name": "Arme de souffle",
 										"entries": [
 											"When you take the {@action Attaque} action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes {@damage 1d10} {{damageType}} damage. On a successful save, it takes half as much damage. This damage increases by {@damage 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10}).",
 											"You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
@@ -2980,10 +2980,10 @@
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Draconic Resistance",
+									"replace": "Résistance draconique",
 									"items": {
 										"type": "entries",
-										"name": "Draconic Resistance",
+										"name": "Résistance draconique",
 										"entries": [
 											"You have resistance to {{damageType}} damage."
 										]
@@ -3151,14 +3151,14 @@
 							"entries": [
 								{
 									"mode": "removeArr",
-									"names": "Gem Ancestry"
+									"names": "Ascendance des gemmes"
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Breath Weapon",
+									"replace": "Arme de souffle",
 									"items": {
 										"type": "entries",
-										"name": "Breath Weapon",
+										"name": "Arme de souffle",
 										"entries": [
 											"When you take the {@action Attaque} action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes {@damage 1d10} {{damageType}} damage. On a successful save, it takes half as much damage. This damage increases by {@damage 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10}).",
 											"You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
@@ -3167,10 +3167,10 @@
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Draconic Resistance",
+									"replace": "Résistance draconique",
 									"items": {
 										"type": "entries",
-										"name": "Draconic Resistance",
+										"name": "Résistance draconique",
 										"entries": [
 											"You have resistance to {{damageType}} damage."
 										]
@@ -3354,14 +3354,14 @@
 							"entries": [
 								{
 									"mode": "removeArr",
-									"names": "Metallic Ancestry"
+									"names": "Ascendance métallique"
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Breath Weapon",
+									"replace": "Arme de souffle",
 									"items": {
 										"type": "entries",
-										"name": "Breath Weapon",
+										"name": "Arme de souffle",
 										"entries": [
 											"When you take the {@action Attaque} action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes {@damage 1d10} {{damageType}} damage. On a successful save, it takes half as much damage. This damage increases by {@damage 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10}).",
 											"You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
@@ -3370,10 +3370,10 @@
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Draconic Resistance",
+									"replace": "Résistance draconique",
 									"items": {
 										"type": "entries",
-										"name": "Draconic Resistance",
+										"name": "Résistance draconique",
 										"entries": [
 											"You have resistance to {{damageType}} damage."
 										]
@@ -3934,19 +3934,19 @@
 						"replace": "Lignée elfique",
 						"items": {
 							"type": "entries",
-							"name": "Elven Lineage",
+							"name": "Lignée elfique",
 							"entries": [
-								"You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.",
-								"When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
-								"Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
+								"Vous faites partie d'une lignée qui vous accorde des capacités surnaturelles. Choisissez une lignée dans la table des Lignées elfiques. Vous gagnez l'avantage de niveau 1 de cette lignée.",
+								"Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué dans la table. Vous avez toujours ce sort préparé. Vous pouvez le lancer une fois sans utiliser un emplacement de sort, et vous récupérez cette capacité lorsque vous terminez un {@variantrule Long Rest|XPHB}. Vous pouvez également le lancer en utilisant n'importe quel emplacement de sort du niveau approprié.",
+								"L'Intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (choisissez la caractéristique au moment de sélectionner la lignée).",
 								{
 									"type": "table",
-									"caption": "Elven Lineages",
+									"caption": "Lignées elfiques",
 									"colLabels": [
-										"Lineage",
-										"Level 1",
-										"Level 3",
-										"Level 5"
+										"Lignée",
+										"Niveau 1",
+										"Niveau 3",
+										"Niveau 5"
 									],
 									"colStyles": [
 										"col-2",
@@ -3957,13 +3957,13 @@
 									"rows": [
 										[
 											"Lorwyn",
-											"You know the {@spell Fouet de ronces|XPHB} cantrip. Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace that cantrip with a different cantrip from the {@filter Druid spell list|spells|class=druid}.",
+											"Vous connaissez le tour de magie {@spell Fouet de ronces|XPHB}. Chaque fois que vous terminez un {@variantrule Long Rest|XPHB}, vous pouvez remplacer ce tour de magie par un autre tour de magie de la {@filter liste de sorts de druide|spells|class=druid}.",
 											"{@spell Ordre|XPHB}",
 											"{@spell Silence|XPHB}"
 										],
 										[
 											"Shadowmoor",
-											"The range of your {@sense Vision dans le noir|XPHB} increases to 120 feet. You also know the {@spell Lueur stellaire|XPHB} cantrip.",
+											"La portée de votre {@sense Vision dans le noir|XPHB} augmente jusqu'à 36 mètres. Vous connaissez également le tour de magie {@spell Lueur stellaire|XPHB}.",
 											"{@spell Héroïsme|XPHB}",
 											"{@spell Conservation des corps|XPHB}"
 										]
@@ -4051,7 +4051,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Elven Lineage",
+							"replace": "Lignée elfique",
 							"items": {
 								"name": "Lignée elfique (Lorwyn)",
 								"type": "entries",
@@ -4106,7 +4106,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Elven Lineage",
+							"replace": "Lignée elfique",
 							"items": {
 								"name": "Lignée elfique (Shadowmoor)",
 								"type": "entries",
@@ -4474,7 +4474,7 @@
 						"entries": [
 							{
 								"mode": "replaceArr",
-								"replace": "Elven Lineage",
+								"replace": "Lignée elfique",
 								"items": {
 									"name": "Elven Lineage (Drow)",
 									"type": "entries",
@@ -4487,9 +4487,9 @@
 							},
 							{
 								"mode": "replaceArr",
-								"replace": "Darkvision",
+								"replace": "Vision dans le noir",
 								"items": {
-									"name": "Darkvision",
+									"name": "Vision dans le noir",
 									"type": "entries",
 									"entries": [
 										"You have {@sense Vision dans le noir|XPHB} with a range of 120 feet."
@@ -4538,7 +4538,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Elven Lineage",
+							"replace": "Lignée elfique",
 							"items": {
 								"name": "Lignée elfique (Haut elfe)",
 								"type": "entries",
@@ -4593,7 +4593,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Elven Lineage",
+							"replace": "Lignée elfique",
 							"items": {
 								"name": "Lignée elfique (Elfe des bois)",
 								"type": "entries",
@@ -4860,7 +4860,7 @@
 						"mode": "appendArr",
 						"items": {
 							"type": "entries",
-							"name": "Faerie Lineage",
+							"name": "Lignée féerique",
 							"entries": [
 								"As a native of either Lorwyn and Shadowmoor, you may gain additional traits.",
 								{
@@ -4899,7 +4899,7 @@
 						"entries": [
 							{
 								"mode": "removeArr",
-								"names": "Faerie Lineage"
+								"names": "Lignée féerique"
 							}
 						]
 					}
@@ -4913,7 +4913,7 @@
 								"mode": "prependArr",
 								"items": {
 									"type": "entries",
-									"name": "Darkvision",
+									"name": "Vision dans le noir",
 									"entries": [
 										"You have {@sense Vision dans le noir|XPHB} with a range of 120 feet."
 									]
@@ -4921,7 +4921,7 @@
 							},
 							{
 								"mode": "removeArr",
-								"names": "Faerie Lineage"
+								"names": "Lignée féerique"
 							}
 						]
 					},
@@ -5918,7 +5918,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Gnomish Lineage",
+							"replace": "Lignée gnomique",
 							"items": {
 								"name": "Lignée gnomique (Gnome des forêts)",
 								"type": "entries",
@@ -5960,7 +5960,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Gnomish Lineage",
+							"replace": "Lignée gnomique",
 							"items": {
 								"name": "Lignée gnomique (Gnome des rochers)",
 								"type": "entries",
@@ -6077,7 +6077,7 @@
 						"Ayant grandi sous terre, vous avez une vision supérieure dans le noir et la pénombre. Vous pouvez voir dans une lumière faible dans un rayon de 36 mètres comme si c'était une lumière vive, et dans le noir comme si c'était une lumière faible. Vous ne pouvez pas distinguer les couleurs dans le noir, seulement des nuances de gris."
 					],
 					"data": {
-						"overwrite": "Darkvision"
+						"overwrite": "Vision dans le noir"
 					},
 					"type": "entries"
 				},
@@ -6165,7 +6165,7 @@
 							"mode": "replaceArr",
 							"replace": "Taille",
 							"items": {
-								"name": "Size",
+								"name": "Taille",
 								"type": "entries",
 								"entries": [
 									"Your size is Small."
@@ -6211,7 +6211,7 @@
 							"mode": "replaceArr",
 							"replace": "Âge",
 							"items": {
-								"name": "Age",
+								"name": "Âge",
 								"type": "entries",
 								"entries": [
 									"Goblins reach adulthood around age 8. They age noticeably faster than humans, and though few goblins live to old age, the most cautious rarely live longer than 60 years."
@@ -6222,7 +6222,7 @@
 							"mode": "replaceArr",
 							"replace": "Langues",
 							"items": {
-								"name": "Languages",
+								"name": "Langues",
 								"type": "entries",
 								"entries": [
 									"You can speak, read, and write Common and Goblin. In Ravnica, Goblin is a simplistic language with a limited vocabulary and fluid rules of grammar, unsuited for any sophisticated conversation."
@@ -6812,7 +6812,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Giant Ancestry",
+							"replace": "Ascendance géante",
 							"items": {
 								"name": "Ascendance (Nuage)",
 								"type": "entries",
@@ -6842,7 +6842,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Giant Ancestry",
+							"replace": "Ascendance géante",
 							"items": {
 								"name": "Ascendance (Feu)",
 								"type": "entries",
@@ -6872,7 +6872,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Giant Ancestry",
+							"replace": "Ascendance géante",
 							"items": {
 								"name": "Ascendance (Gel)",
 								"type": "entries",
@@ -6902,7 +6902,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Giant Ancestry",
+							"replace": "Ascendance géante",
 							"items": {
 								"name": "Ascendance (Colline)",
 								"type": "entries",
@@ -6932,7 +6932,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Giant Ancestry",
+							"replace": "Ascendance géante",
 							"items": {
 								"name": "Ascendance (Pierre)",
 								"type": "entries",
@@ -6962,7 +6962,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Giant Ancestry",
+							"replace": "Ascendance géante",
 							"items": {
 								"name": "Ascendance (Orage)",
 								"type": "entries",
@@ -7938,7 +7938,7 @@
 							"mode": "replaceArr",
 							"replace": "Taille",
 							"items": {
-								"name": "Size",
+								"name": "Taille",
 								"entries": [
 									"Your size is Medium."
 								],
@@ -8360,7 +8360,7 @@
 							"mode": "replaceArr",
 							"replace": "Langues",
 							"items": {
-								"name": "Languages",
+								"name": "Langues",
 								"type": "entries",
 								"entries": [
 									"You can speak, read, and write {@language Commun} and one extra language of your choice. Or, if your campaign uses the optional rules for languages found in the previous section, your national origin determines your native language: {@language Itzocan|PSX} for the Sun Empire, {@language Pidgin de la Coalition d'airain|PSX} for the Brazen Coalition, or {@language Vampire|PSX} for the Legion of Dusk. You still speak one additional language of your choice, and {@language Pidgin commercial commun|PSX|Common} if it exists in your campaign."
@@ -8431,7 +8431,7 @@
 							"mode": "replaceArr",
 							"replace": "Langues",
 							"items": {
-								"name": "Languages",
+								"name": "Langues",
 								"type": "entries",
 								"entries": [
 									"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Dwarvish curses, Elvish musical expressions, {@race Vedalken|PSK} scholarly jargon, and so on."
@@ -8470,7 +8470,7 @@
 						"mode": "replaceArr",
 						"replace": "Langues",
 						"items": {
-							"name": "Languages",
+							"name": "Langues",
 							"entries": [
 								"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: vampire curses, Elvish musical expressions, merfolk scholarly jargon, and so on."
 							],
@@ -9086,7 +9086,7 @@
 						"mode": "appendArr",
 						"items": {
 							"type": "entries",
-							"name": "Kithkin Lineage",
+							"name": "Lignée kithkin",
 							"entries": [
 								"As a native of either Lorwyn and Shadowmoor, you may gain additional traits.",
 								{
@@ -9125,7 +9125,7 @@
 						"entries": [
 							{
 								"mode": "removeArr",
-								"names": "Kithkin Lineage"
+								"names": "Lignée kithkin"
 							}
 						]
 					}
@@ -9139,7 +9139,7 @@
 								"mode": "prependArr",
 								"items": {
 									"type": "entries",
-									"name": "Darkvision",
+									"name": "Vision dans le noir",
 									"entries": [
 										"You have {@sense Vision dans le noir|XPHB} with a range of 120 feet."
 									]
@@ -9147,7 +9147,7 @@
 							},
 							{
 								"mode": "removeArr",
-								"names": "Kithkin Lineage"
+								"names": "Lignée kithkin"
 							}
 						]
 					},
@@ -9314,7 +9314,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Kobold Legacy",
+							"replace": "Héritage kobold",
 							"items": {
 								"name": "Héritage kobold (Ruse)",
 								"type": "entries",
@@ -9332,7 +9332,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Kobold Legacy",
+							"replace": "Héritage kobold",
 							"items": {
 								"name": "Héritage kobold (Défiance)",
 								"type": "entries",
@@ -9351,7 +9351,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Kobold Legacy",
+							"replace": "Héritage kobold",
 							"items": {
 								"name": "Héritage kobold (Sorcellerie draconique)",
 								"type": "entries",
@@ -10600,7 +10600,7 @@
 							"mode": "replaceArr",
 							"replace": "Âge",
 							"items": {
-								"name": "Age",
+								"name": "Âge",
 								"type": "entries",
 								"entries": [
 									"Minotaurs mature and age at about the same rate as humans."
@@ -10946,7 +10946,7 @@
 							"mode": "replaceArr",
 							"replace": "Âge",
 							"items": {
-								"name": "Age",
+								"name": "Âge",
 								"type": "entries",
 								"entries": [
 									"Orcs reach adulthood at age 16, and live up to 80 years."
@@ -10968,7 +10968,7 @@
 							"mode": "replaceArr",
 							"replace": "Taille",
 							"items": {
-								"name": "Size",
+								"name": "Taille",
 								"type": "entries",
 								"entries": [
 									"Orcs stand easily 8 feet tall and corded with powerful muscles, weighing up to 280 pounds. Your size is Medium."
@@ -12263,7 +12263,7 @@
 						"entries": [
 							{
 								"mode": "replaceArr",
-								"replace": "Shifting",
+								"replace": "Mutation",
 								"items": {
 									"name": "Shifting (Beasthide)",
 									"type": "entries",
@@ -12283,7 +12283,7 @@
 						"entries": [
 							{
 								"mode": "replaceArr",
-								"replace": "Shifting",
+								"replace": "Mutation",
 								"items": {
 									"name": "Shifting (Longtooth)",
 									"type": "entries",
@@ -12303,7 +12303,7 @@
 						"entries": [
 							{
 								"mode": "replaceArr",
-								"replace": "Shifting",
+								"replace": "Mutation",
 								"items": {
 									"name": "Shifting (Swiftstride)",
 									"type": "entries",
@@ -12323,7 +12323,7 @@
 						"entries": [
 							{
 								"mode": "replaceArr",
-								"replace": "Shifting",
+								"replace": "Mutation",
 								"items": {
 									"name": "Shifting (Wildhunt)",
 									"type": "entries",
@@ -12505,7 +12505,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Shifting",
+							"replace": "Mutation",
 							"items": {
 								"name": "Mutation (Peau-bête)",
 								"type": "entries",
@@ -12523,7 +12523,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Shifting",
+							"replace": "Mutation",
 							"items": {
 								"name": "Mutation (Longue-croc)",
 								"type": "entries",
@@ -12541,7 +12541,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Shifting",
+							"replace": "Mutation",
 							"items": {
 								"name": "Mutation (Vif-allure)",
 								"type": "entries",
@@ -12559,7 +12559,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Shifting",
+							"replace": "Mutation",
 							"items": {
 								"name": "Mutation (Chasse-sauvage)",
 								"type": "entries",
@@ -13437,7 +13437,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Fiendish Legacy",
+							"replace": "Héritage diabolique",
 							"items": {
 								"name": "Héritage diabolique (Abyssal)",
 								"type": "entries",
@@ -13493,7 +13493,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Fiendish Legacy",
+							"replace": "Héritage diabolique",
 							"items": {
 								"name": "Héritage diabolique (Chthonique)",
 								"type": "entries",
@@ -13548,7 +13548,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Fiendish Legacy",
+							"replace": "Héritage diabolique",
 							"items": {
 								"name": "Héritage diabolique (Infernal)",
 								"type": "entries",
@@ -15031,23 +15031,23 @@
 							"mode": "appendArr",
 							"items": [
 								{
-									"name": "Age",
+									"name": "Âge",
 									"type": "entries",
 									"entries": [
 										"Humans reach adulthood in their late teens. Most human initiates have completed the trials and found a glorious or inglorious death before they turn 30. Viziers can enjoy longer service to their gods, in theory living up to a century."
 									],
 									"data": {
-										"overwrite": "Age"
+										"overwrite": "Âge"
 									}
 								},
 								{
-									"name": "Languages",
+									"name": "Langues",
 									"entries": [
 										"You can speak, read, and write Common and one extra language of your choice."
 									],
 									"type": "entries",
 									"data": {
-										"overwrite": "Languages"
+										"overwrite": "Langues"
 									}
 								},
 								{
@@ -15223,14 +15223,14 @@
 							"entries": [
 								{
 									"mode": "removeArr",
-									"names": "Draconic Ancestry"
+									"names": "Ascendance draconique"
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Breath Weapon",
+									"replace": "Arme de souffle",
 									"items": {
 										"type": "entries",
-										"name": "Breath Weapon",
+										"name": "Arme de souffle",
 										"entries": [
 											"You can use your action to exhale destructive energy in a {{area}}.",
 											"When you use your breath weapon, each creature in the area of the exhalation must make a {{savingThrow}} saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes {@damage 2d6} {{damageType}} damage on a failed save, and half as much damage on a successful one. The damage increases to {@damage 3d6} at 6th level, {@damage 4d6} at 11th level, and {@damage 5d6} at 16th level.",
@@ -15240,10 +15240,10 @@
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Damage Resistance",
+									"replace": "Résistance aux dégâts",
 									"items": {
 										"type": "entries",
-										"name": "Damage Resistance",
+										"name": "Résistance aux dégâts",
 										"entries": [
 											"You have resistance to {{damageType}} damage."
 										]
@@ -15396,7 +15396,7 @@
 						"Vous pouvez utiliser votre compréhension de la diplomatie créative ou de l'intimidation pour orienter une conversation en votre faveur. Lorsque vous effectuez un test de Charisme ({@skill Intimidation|Intimidation} ou {@skill Persuasion|Persuasion}), vous pouvez le faire avec avantage. Une fois que vous avez utilisé ce trait, vous ne pouvez plus le faire avant d'avoir terminé un repos court ou long."
 					],
 					"data": {
-						"overwrite": "Damage Resistance"
+						"overwrite": "Résistance aux dégâts"
 					}
 				},
 				{
@@ -15472,7 +15472,7 @@
 					],
 					"type": "entries",
 					"data": {
-						"overwrite": "Draconic Ancestry"
+						"overwrite": "Ascendance draconique"
 					}
 				}
 			],
@@ -15491,14 +15491,14 @@
 							"entries": [
 								{
 									"mode": "removeArr",
-									"names": "Draconic Ancestry"
+									"names": "Ascendance draconique"
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Breath Weapon",
+									"replace": "Arme de souffle",
 									"items": {
 										"type": "entries",
-										"name": "Breath Weapon",
+										"name": "Arme de souffle",
 										"entries": [
 											"You can use your action to exhale destructive energy in a {{area}}.",
 											"When you use your breath weapon, each creature in the area of the exhalation must make a {{savingThrow}} saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes {@damage 2d6} {{damageType}} damage on a failed save, and half as much damage on a successful one. The damage increases to {@damage 3d6} at 6th level, {@damage 4d6} at 11th level, and {@damage 5d6} at 16th level.",
@@ -15623,7 +15623,7 @@
 						"Lorsque vous subissez des dégâts d'une créature à portée de l'arme que vous maniez, vous pouvez utiliser votre réaction pour effectuer une attaque avec cette arme contre cette créature. Une fois que vous avez utilisé ce trait, vous ne pouvez plus le faire avant d'avoir terminé un repos court ou long."
 					],
 					"data": {
-						"overwrite": "Damage Resistance"
+						"overwrite": "Résistance aux dégâts"
 					}
 				},
 				{
@@ -15699,7 +15699,7 @@
 					],
 					"type": "entries",
 					"data": {
-						"overwrite": "Draconic Ancestry"
+						"overwrite": "Ascendance draconique"
 					}
 				}
 			],
@@ -15718,14 +15718,14 @@
 							"entries": [
 								{
 									"mode": "removeArr",
-									"names": "Draconic Ancestry"
+									"names": "Ascendance draconique"
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Breath Weapon",
+									"replace": "Arme de souffle",
 									"items": {
 										"type": "entries",
-										"name": "Breath Weapon",
+										"name": "Arme de souffle",
 										"entries": [
 											"You can use your action to exhale destructive energy in a {{area}}.",
 											"When you use your breath weapon, each creature in the area of the exhalation must make a {{savingThrow}} saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes {@damage 2d6} {{damageType}} damage on a failed save, and half as much damage on a successful one. The damage increases to {@damage 3d6} at 6th level, {@damage 4d6} at 11th level, and {@damage 5d6} at 16th level.",
@@ -15880,7 +15880,7 @@
 						"Ayant grandi sous terre, vous avez une vision supérieure dans le noir et la pénombre. Vous pouvez voir dans une lumière faible dans un rayon de 36 mètres comme si c'était une lumière vive, et dans le noir comme si c'était une lumière faible. Vous ne pouvez pas distinguer les couleurs dans le noir, seulement des nuances de gris."
 					],
 					"data": {
-						"overwrite": "Darkvision"
+						"overwrite": "Vision dans le noir"
 					},
 					"type": "entries"
 				},
@@ -15900,7 +15900,7 @@
 						"Vous pouvez parler, lire et écrire le commun, le nain et le bas commun."
 					],
 					"data": {
-						"overwrite": "Languages"
+						"overwrite": "Langues"
 					},
 					"type": "entries"
 				},
@@ -16177,7 +16177,7 @@
 						"Habitué aux profondeurs de l'Outreterre, vous avez une vision supérieure dans le noir et la pénombre. Vous pouvez voir dans une lumière faible dans un rayon de 36 mètres comme si c'était une lumière vive, et dans le noir comme si c'était une lumière faible. Vous ne pouvez pas distinguer les couleurs dans le noir, seulement des nuances de gris."
 					],
 					"data": {
-						"overwrite": "Darkvision"
+						"overwrite": "Vision dans le noir"
 					},
 					"type": "entries"
 				},
@@ -16935,7 +16935,7 @@
 						"Votre Vision dans le noir a une portée de 36 mètres."
 					],
 					"data": {
-						"overwrite": "Darkvision"
+						"overwrite": "Vision dans le noir"
 					},
 					"type": "entries"
 				},
@@ -17699,7 +17699,7 @@
 						"Les gnomes des profondeurs vivent moins longtemps que les autres gnomes. Ils mûrissent au même rythme que les humains et sont considérés comme des adultes à part entière à 25 ans. Ils vivent de 200 à 250 ans, bien que le dur labeur et les dangers de l'Outreterre les emportent souvent avant leur heure."
 					],
 					"data": {
-						"overwrite": "Age"
+						"overwrite": "Âge"
 					}
 				},
 				{
@@ -17709,7 +17709,7 @@
 						"Contrairement aux autres gnomes, les svirfneblins tendent à peser de 36 à 55 kg. Votre taille est P."
 					],
 					"data": {
-						"overwrite": "Size"
+						"overwrite": "Taille"
 					}
 				},
 				{
@@ -17728,7 +17728,7 @@
 						"Ayant grandi sous terre, vous avez une vision supérieure dans le noir et la pénombre. Vous pouvez voir dans une lumière faible dans un rayon de 36 mètres comme si c'était une lumière vive, et dans le noir comme si c'était une lumière faible. Vous ne pouvez pas distinguer les couleurs dans le noir, seulement des nuances de gris."
 					],
 					"data": {
-						"overwrite": "Darkvision"
+						"overwrite": "Vision dans le noir"
 					},
 					"type": "entries"
 				},
@@ -17745,7 +17745,7 @@
 						"Vous pouvez parler, lire et écrire le commun, le gnome et le bas commun."
 					],
 					"data": {
-						"overwrite": "Languages"
+						"overwrite": "Langues"
 					},
 					"type": "entries"
 				}
@@ -17794,7 +17794,7 @@
 						"Les gnomes des profondeurs vivent moins longtemps que les autres gnomes. Ils mûrissent au même rythme que les humains et sont considérés comme des adultes à part entière à 25 ans. Ils vivent de 200 à 250 ans, bien que le dur labeur et les dangers de l'Outreterre les emportent souvent avant leur heure."
 					],
 					"data": {
-						"overwrite": "Age"
+						"overwrite": "Âge"
 					}
 				},
 				{
@@ -17814,7 +17814,7 @@
 						"Un svirfneblin typique mesure environ 90 centimètres à 1,05 mètre et pèse de 36 à 55 kg. Votre taille est P."
 					],
 					"data": {
-						"overwrite": "Size"
+						"overwrite": "Taille"
 					}
 				},
 				{
@@ -17823,7 +17823,7 @@
 						"Ayant grandi sous terre, vous avez une vision supérieure dans le noir et la pénombre. Vous pouvez voir dans une lumière faible dans un rayon de 36 mètres comme si c'était une lumière vive, et dans le noir comme si c'était une lumière faible. Vous ne pouvez pas distinguer les couleurs dans le noir, seulement des nuances de gris."
 					],
 					"data": {
-						"overwrite": "Darkvision"
+						"overwrite": "Vision dans le noir"
 					},
 					"type": "entries"
 				},
@@ -17840,7 +17840,7 @@
 						"Vous pouvez parler, lire et écrire le commun, le gnome et le bas commun. Le dialecte svirfneblin est plus guttural que le gnome de la surface, et la plupart des svirfneblins ne connaissent que quelques mots de commun, mais ceux qui traitent avec des étrangers (et cela vous inclut en tant qu'aventurier) apprennent suffisamment de commun pour se débrouiller dans les autres terres."
 					],
 					"data": {
-						"overwrite": "Languages"
+						"overwrite": "Langues"
 					},
 					"type": "entries"
 				}
@@ -18119,7 +18119,7 @@
 					],
 					"type": "entries",
 					"data": {
-						"overwrite": "Languages"
+						"overwrite": "Langues"
 					}
 				}
 			],
@@ -18248,7 +18248,7 @@
 						}
 					],
 					"data": {
-						"overwrite": "Skill Versatility"
+						"overwrite": "Polyvalence"
 					}
 				}
 			],
@@ -18259,7 +18259,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Trait de variante (au choix, 1)",
 							"items": {
 								"name": "Trait de variante ; Polyvalence",
 								"type": "entries",
@@ -18281,7 +18281,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Trait de variante (au choix, 1)",
 							"items": {
 								"name": "Trait de variante ; Vitesse de nage",
 								"type": "entries",
@@ -18360,7 +18360,7 @@
 						}
 					],
 					"data": {
-						"overwrite": "Skill Versatility"
+						"overwrite": "Polyvalence"
 					}
 				}
 			],
@@ -18374,7 +18374,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Trait de variante (au choix, 1)",
 							"items": {
 								"name": "Trait de variante ; Magie drow",
 								"type": "entries",
@@ -18392,7 +18392,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Trait de variante (au choix, 1)",
 							"items": {
 								"name": "Trait de variante ; Polyvalence",
 								"type": "entries",
@@ -18485,7 +18485,7 @@
 						"Lorsque vous effectuez un test d'Intelligence ({@skill Investigation|Investigation}) ou de Sagesse ({@skill Perspicacité|Intuition}), vous pouvez lancer un {@dice d4} et ajouter le résultat obtenu au test de caractéristique."
 					],
 					"data": {
-						"overwrite": "Skill Versatility"
+						"overwrite": "Polyvalence"
 					}
 				},
 				{
@@ -18607,7 +18607,7 @@
 						"Lorsque vous effectuez un test de Dextérité ({@skill Acrobaties|Acrobaties}) ou tout test de caractéristique impliquant {@item Outils de navigateur|PHB|outils de navigateur}, vous pouvez lancer un {@dice d4} et ajouter le résultat obtenu au test de caractéristique."
 					],
 					"data": {
-						"overwrite": "Skill Versatility"
+						"overwrite": "Polyvalence"
 					}
 				},
 				{
@@ -18731,7 +18731,7 @@
 						}
 					],
 					"data": {
-						"overwrite": "Skill Versatility"
+						"overwrite": "Polyvalence"
 					}
 				}
 			],
@@ -18745,7 +18745,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Trait de variante (au choix, 1)",
 							"items": {
 								"name": "Trait de variante ; Tour de magie",
 								"type": "entries",
@@ -18764,7 +18764,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Trait de variante (au choix, 1)",
 							"items": {
 								"name": "Trait de variante ; Entraînement aux armes des elfes",
 								"type": "entries",
@@ -18783,7 +18783,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Trait de variante (au choix, 1)",
 							"items": {
 								"name": "Trait de variante ; Polyvalence",
 								"type": "entries",
@@ -18852,7 +18852,7 @@
 						}
 					],
 					"data": {
-						"overwrite": "Skill Versatility"
+						"overwrite": "Polyvalence"
 					}
 				}
 			],
@@ -18866,7 +18866,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Trait de variante (au choix, 1)",
 							"items": {
 								"name": "Trait de variante ; Entraînement aux armes des elfes",
 								"type": "entries",
@@ -18884,7 +18884,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Trait de variante (au choix, 1)",
 							"items": {
 								"name": "Trait de variante ; Foulée rapide",
 								"type": "entries",
@@ -18904,7 +18904,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Trait de variante (au choix, 1)",
 							"items": {
 								"name": "Trait de variante ; Masque du sauvage",
 								"type": "entries",
@@ -18923,7 +18923,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Trait de variante (au choix, 1)",
 							"items": {
 								"name": "Trait de variante ; Polyvalence",
 								"type": "entries",
@@ -19019,7 +19019,7 @@
 						"Vous pouvez voir dans une lumière faible dans un rayon de 18 mètres comme si c'était une lumière vive, et dans le noir comme si c'était une lumière faible. Vous ne pouvez pas distinguer les couleurs dans le noir, seulement des nuances de gris."
 					],
 					"data": {
-						"overwrite": "Darkvision"
+						"overwrite": "Vision dans le noir"
 					}
 				},
 				{
@@ -19049,7 +19049,7 @@
 						"Vous pouvez parler, lire et écrire le commun et le gobelin."
 					],
 					"data": {
-						"overwrite": "Languages"
+						"overwrite": "Langues"
 					}
 				},
 				{
@@ -19524,7 +19524,7 @@
 						"Les keldons atteignent l'âge adulte à la fin de l'adolescence et vivent moins d'un siècle."
 					],
 					"data": {
-						"overwrite": "Age"
+						"overwrite": "Âge"
 					}
 				},
 				{
@@ -19544,7 +19544,7 @@
 						"Les keldons sont plus grands et plus lourds que les normes humaines des autres cultures, se tenant presque universellement au-dessus d'1,80 m et atteignant des hauteurs supérieures à 2,10 m. Votre taille est M."
 					],
 					"data": {
-						"overwrite": "Size"
+						"overwrite": "Taille"
 					}
 				},
 				{
@@ -19554,7 +19554,7 @@
 					],
 					"type": "entries",
 					"data": {
-						"overwrite": "Languages"
+						"overwrite": "Langues"
 					}
 				},
 				{
@@ -20244,7 +20244,7 @@
 						"Vous pouvez parler, lire et écrire le commun et le gobelin."
 					],
 					"data": {
-						"overwrite": "Languages"
+						"overwrite": "Langues"
 					}
 				},
 				{
@@ -20502,7 +20502,7 @@
 					],
 					"type": "entries",
 					"data": {
-						"overwrite": "Languages"
+						"overwrite": "Langues"
 					}
 				}
 			],
@@ -20564,7 +20564,7 @@
 					],
 					"type": "entries",
 					"data": {
-						"overwrite": "Languages"
+						"overwrite": "Langues"
 					}
 				}
 			],
@@ -21610,7 +21610,7 @@
 						"Les vampires ne mûrissent ni ne vieillissent de la même manière que les autres races."
 					],
 					"data": {
-						"overwrite": "Age"
+						"overwrite": "Âge"
 					}
 				},
 				{
@@ -21630,7 +21630,7 @@
 						"Les vampires ont la même taille et la même carrure que les humains. Votre taille est M."
 					],
 					"data": {
-						"overwrite": "Size"
+						"overwrite": "Taille"
 					}
 				},
 				{
@@ -21647,7 +21647,7 @@
 					],
 					"type": "entries",
 					"data": {
-						"overwrite": "Languages"
+						"overwrite": "Langues"
 					}
 				}
 			],

@@ -155,3 +155,166 @@ actually-translated names.
 - Content copied from untranslated books (PHB, MM) renders in English until those
   books are translated (e.g. ideals/bonds/flaws tables of PHB backgrounds)
 - `spellcheck` and some `npm test` suites expect English
+
+---
+
+## 8. Error Prevention Checklist
+
+Run through this checklist **after every translation campaign** before committing.
+Each item corresponds to a real error encountered during the IDRotF, TCE/XGE and
+VGM/MTF campaigns.
+
+### 8.1 — `_copy._mod` match keys vs renamed base entities
+
+When a base entity (monster, race, item…) is renamed to French, any dependent
+entity that copies it and has a `_mod` with `replaceArr`/`removeArr`/`renameArr`
+must have its match keys updated to the **French** names.
+
+**Detection**: for each entity with `_copy._mod`, resolve the base, collect its
+current entry names (headers, traits, actions…), and flag any `replaceArr.replace`,
+`removeArr.names` or `renameArr.rename` that doesn't match.
+
+**Prevention**: after renaming base entities, scan all files that `_copy` from
+them and translate the match keys via a positional EN→FR name map built from
+upstream vs the translated file.
+
+```
+# Pseudo-code: detect stale match keys
+for each entity with _copy._mod:
+    base = resolve(_copy.name, _copy.source)
+    for each op in _mod.*:
+        if op.replace/names not in base's current (French) names:
+            FLAG: stale match key
+```
+
+### 8.2 — Fluff file names vs bestiary names
+
+Monster fluff entries resolve by name against their bestiary. If bestiary
+monster names are renamed, the fluff file names must be renamed identically.
+
+**Detection**: build a set of bestiary names, then check every fluff entry name
+against it. Flag mismatches and orphans.
+
+```
+bestiary_names = set of all monster.name (lowercased)
+for each fluff entry:
+    if fluff.name not in bestiary_names: FLAG
+```
+
+Also check the reverse: monsters with `hasFluff: true` must have a matching
+fluff entry. Group lore pages (e.g. "Hags", "Mind Flayers") are legitimate
+orphans — they're linked from book chapters, not from individual monsters.
+
+### 8.3 — Statblock embeds in books
+
+Books and adventures embed statblocks via
+`{"type": "statblock", "tag": "creature|item|race|spell|...", "name": "...", "source": "..."}`.
+These resolve by name against the data pools at render time.
+
+**Detection**: walk the JSON tree, collect every `type === "statblock"` node,
+and check that `name + "|" + source` exists in the corresponding data pool.
+
+**Key trap**: the `tag` field may be **empty** (`""`) if a translation agent
+strips it. Always verify it's set to the correct type (`creature`, `item`,
+`race`…). Also check `_versions` and `_abstract` sub-objects for the same issue.
+
+### 8.4 — `_versions` / `_abstract` match keys
+
+Race subraces with `_versions` containing `_abstract: true` blocks use
+`_mod.entries` with `replaceArr`/`removeArr` targeting the **parent race's**
+entry names. These must be updated when the parent race headers are translated.
+
+**Detection**: for each nameless subrace with `raceName`, collect the parent
+race's entry names and flag any version `_mod` key that doesn't match.
+
+```
+for each nameless subrace with _versions:
+    parent_headers = collect entry names from parent race
+    for each version._mod.entries op:
+        if op.replace/names not in parent_headers: FLAG
+```
+
+### 8.5 — Inline `{@tag}` identifiers
+
+All `{@creature}`, `{@item}`, `{@spell}`, `{@condition}`, `{@skill}`, `{@sense}`,
+`{@feat}`, `{@background}`, `{@optfeature}`, `{@class}`, `{@subclass}`,
+`{@table}`, `{@deity}`… tags resolve against the data pools. When the target
+entity is renamed, **every** inline tag referencing it must be repointed.
+
+**Detection**: extract all tags, build a resolution pool per tag type, and flag
+any identifier that doesn't resolve.
+
+**Key trap**: the 5etools renderer resolves tags **case-insensitively** but the
+data files are case-sensitive. Always compare lowercased.
+
+### 8.6 — `_copy.name` cross-file references
+
+Entities can `_copy` from entities in **other files** (e.g. a bestiary monster
+copying from MM). When the source entity is renamed, the `_copy.name` must be
+repointed — even though the files are different.
+
+**Detection**: collect all `_copy.name + '|' + _copy.source` pairs across all
+files and check them against the combined entity pool.
+
+### 8.7 — `replaceSpells` match keys
+
+`_mod._.replaceSpells.spells[N]` blocks contain `replace` strings that must
+match the **French** spell names in the base creature's spellcasting lists.
+
+### 8.8 — Deities and shared files: avoid positional merge
+
+When merging translated entries back into shared files (`deities.json`,
+`items.json`, `races.json`…), **never** use positional zip without verifying
+that the chunk and the data file have the **same count and same order**.
+A count mismatch will silently insert nulls or misplace entries.
+
+**Prevention**: always merge by (name + source) identity, never by array index.
+
+### 8.9 — books.json TOC headers
+
+The left sidebar navigation in books matches content **by text**. After
+translating a book, regenerate the `contents` array in `books.json` from the
+actually-translated chapter/section names. A mismatch means the sidebar links
+won't navigate.
+
+### 8.10 — items.json `itemGroup` entries
+
+`itemGroup` entries (parent items grouping variants) are easy to miss because
+they're in a separate top-level array. Remember to translate them alongside the
+`item` entries.
+
+### 8.11 — Character encoding: straight apostrophes
+
+Always use `'` (U+0027) never `'` (U+2019) in JSON output. The 5etools renderer
+handles both but the data files conventionally use straight apostrophes.
+
+### 8.12 — Service worker cache
+
+After every deploy, the browser may serve stale data from the workbox precache.
+Hard-refresh (Ctrl+Shift+R) or unregister the service worker + clear Cache
+Storage to see the new data.
+
+---
+
+## 9. Automated validation
+
+The following checks should be run before committing:
+
+```js
+// 1. JSON.parse on every modified file
+// 2. _copy/_mod resolution: every _copy.name+source resolves to an existing entity
+// 3. _mod match keys: every replaceArr.replace and removeArr.names resolves
+//    against the base entity's current (French) entry names
+// 4. Inline tag resolution: every {@creature X|SRC} resolves against the
+//    combined bestiary pool, every {@spell X|SRC} against the spells pool, etc.
+// 5. Statblock embeds: every {type:"statblock"} has a non-empty tag and
+//    resolves against the data pool
+// 6. Fluff linkage: every monster with hasFluff has a fluff entry with the
+//    same name+source, and vice versa
+// 7. books.json contents: every header matches a translated entry name
+// 8. No null entries in any data array
+```
+
+The browser console is the final arbiter: load every page of the translated
+source and check for zero uncaught errors and zero "Failed to load" inline
+messages.

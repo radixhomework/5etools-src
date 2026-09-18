@@ -30,12 +30,26 @@
 				"name": "Chevalier githyanki",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the githyanki",
-						"with": "Al'chaia",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "du githyanki",
+							"with": "d'Al'chaia",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)e githyanki",
+							"with": "Al'chaia",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "Il peut lancer",
+							"with": "Elle peut lancer",
+							"flags": "i"
+						}
+					]
 				}
 			},
 			"hp": {
@@ -45,7 +59,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Animated Ballista",
+			"name": "Baliste animée",
 			"source": "WDMM",
 			"page": 39,
 			"size": [
@@ -90,9 +104,9 @@
 			"cr": "2",
 			"action": [
 				{
-					"name": "Magic Bolt",
+					"name": "Trait magique",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 120 ft., one target. {@h}16 ({@damage 3d10}) fire damage."
+						"{@atk rw} {@hit 6} pour toucher, portée 36 m, une cible. {@h}16 ({@damage 3d10}) dégâts de feu."
 					]
 				}
 			],
@@ -109,7 +123,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Animated Jade Serpent",
+			"name": "Serpent de jade animé",
 			"source": "WDMM",
 			"page": 92,
 			"_copy": {
@@ -126,7 +140,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Animated Staff",
+			"name": "Bâton animé",
 			"source": "WDMM",
 			"page": 262,
 			"size": [
@@ -173,28 +187,28 @@
 				"poison"
 			],
 			"languages": [
-				"Common"
+				"commun"
 			],
 			"trait": [
 				{
-					"name": "Charm",
+					"name": "Charme",
 					"entries": [
-						"A creature can grab the staff out of the air with a successful grapple check against the staff, and grappling the staff does not reduce the creature's speed. Any creature that successfully grapples the staff must succeed on a {@dc 12} Charisma saving throw or be {@condition Charmé} by the staff until the staff is no longer in its grasp. While the creature is {@condition Charmé}, the staff can issue commands to it, which the creature does its best to obey. The creature can repeat the saving throw each time it takes damage, ending the effect on itself on a success. A creature that successfully resists the staff's control can't be {@condition Charmé} by it for 24 hours.",
-						"A creature holding the staff that isn't {@condition Charmé} by it can use an action to attempt to break the staff over a knee or against a solid surface, doing so with a successful {@dc 17} Strength ({@skill Athlétisme}) check. Breaking the staff in this manner destroys it."
+						"Une créature peut arracher le bâton des airs en réussissant un test d'agrippement opposé au bâton, et agripper le bâton ne réduit pas la vitesse de la créature. Toute créature qui agrippe le bâton avec succès doit réussir un jet de sauvegarde de Charisme {@dc 12} ou être {@condition Charmé} par le bâton tant que celui-ci reste entre ses mains. Tant que la créature est {@condition Charmé}, le bâton peut lui donner des ordres, et la créature fait de son mieux pour les exécuter. La créature peut répéter le jet de sauvegarde chaque fois qu'elle subit des dégâts, mettant fin à l'effet qui l'affecte en cas de réussite. Une créature qui résiste avec succès au contrôle du bâton ne peut plus être {@condition Charmé} par lui pendant 24 heures.",
+						"Une créature qui tient le bâton sans être {@condition Charmé} par lui peut utiliser une action pour tenter de le briser sur son genou ou contre une surface solide, en réussissant un test de Force ({@skill Athlétisme}) {@dc 17}. Briser le bâton de cette manière le détruit."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Staff of Frost",
+					"name": "Bâton de givre",
 					"entries": [
-						"The staff has 10 charges. It can expend 1 or more of its charges to cast one of the following spells (save {@dc 12}): {@spell Cône de froid} (5 charges), {@spell Nuage de brouillard} (1 charge), {@spell Tempête de glace} (4 charges), or {@spell Mur de glace} (4 charges). It regains {@dice 1d6 + 4} expended charges daily at dawn. If the staff expends its last charge, roll a {@dice d20}. On a 1, the staff turns to water and is destroyed."
+						"Le bâton possède 10 charges. Il peut dépenser 1 ou plusieurs de ses charges pour lancer l'un des sorts suivants (jet de sauvegarde {@dc 12}) : {@spell Cône de froid} (5 charges), {@spell Nuage de brouillard} (1 charge), {@spell Tempête de glace} (4 charges) ou {@spell Mur de glace} (4 charges). Il regagne chaque jour à l'aube {@dice 1d6 + 4} charges dépensées. Si le bâton dépense sa dernière charge, lancez un {@dice d20}. Sur un 1, le bâton se transforme en eau et est détruit."
 					]
 				},
 				{
-					"name": "Melee Attack",
+					"name": "Attaque au corps à corps",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) bludgeoning damage plus 1 cold damage."
+						"{@atk mw} {@hit 5} pour toucher, allonge 1,50 m, une cible. {@h}7 ({@damage 2d6}) dégâts contondants plus 1 dégât de froid."
 					]
 				}
 			],
@@ -220,7 +234,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Animated Statue",
+			"name": "Statue animée",
 			"source": "WDMM",
 			"page": 125,
 			"_copy": {
@@ -229,8 +243,8 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "archmage",
-						"with": "statue",
+						"replace": "(l|L)'archimage",
+						"with": "$1a statue",
 						"flags": "i"
 					},
 					"_": {
@@ -265,7 +279,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Animated Statue of Lolth",
+			"name": "Statue animée de Lolth",
 			"source": "WDMM",
 			"page": 142,
 			"_copy": {
@@ -280,9 +294,9 @@
 					"trait": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Spider Climb",
+							"name": "Marche arachnéenne",
 							"entries": [
-								"The statue can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+								"La statue peut escalader des surfaces difficiles, y compris se déplacer sous les plafonds la tête en bas, sans avoir besoin d'effectuer un test de caractéristique."
 							]
 						}
 					}
@@ -296,7 +310,7 @@
 				"formula": "20d12 + 100"
 			},
 			"languages": [
-				"understands Abyssal but can't speak"
+				"comprend l'abyssal mais ne peut pas parler"
 			],
 			"cr": "11",
 			"tokenCustom": true,
@@ -313,7 +327,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Animated Stove",
+			"name": "Poêle animé",
 			"source": "WDMM",
 			"page": 186,
 			"size": [
@@ -346,15 +360,15 @@
 			"cr": "3",
 			"action": [
 				{
-					"name": "Slam",
+					"name": "Coup",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) bludgeoning damage."
+						"{@atk mw} {@hit 6} pour toucher, allonge 1,50 m, une cible. {@h}11 ({@damage 2d8 + 2}) dégâts contondants."
 					]
 				},
 				{
-					"name": "Belch Fire {@recharge 4}",
+					"name": "Crache du feu {@recharge 4}",
 					"entries": [
-						"The stove belches fire in a 15-foot cone. Each creature in the area must make a {@dc 10} Dexterity saving throw, taking 22 ({@damage 4d10}) fire damage on a failed save, or half as much damage on a successful one."
+						"Le poêle crache du feu dans un cône de 4,50 m. Chaque créature dans la zone doit effectuer un jet de sauvegarde de Dextérité {@dc 10}, subissant 22 ({@damage 4d10}) dégâts de feu en cas d'échec, ou la moitié seulement de ces dégâts en cas de réussite."
 					]
 				}
 			],
@@ -376,7 +390,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Animated Wand",
+			"name": "Baguette animée",
 			"source": "WDMM",
 			"page": 299,
 			"_copy": {
@@ -386,15 +400,15 @@
 					"*": {
 						"mode": "replaceTxt",
 						"replace": "object",
-						"with": "wand",
+						"with": "baguette",
 						"flags": "i"
 					},
 					"action": {
 						"mode": "prependArr",
 						"items": {
-							"name": "Wand of Wonder",
+							"name": "Baguette des merveilles",
 							"entries": [
-								"The animated wand can expend 1 of its charges and target a random creature with one of its {@item Baguette des merveilles||randomly determined effects}. Any such effect that would target the wand's user targets the wand instead. If reduced to 0 hit points, the wand crumbles into dust and is destroyed."
+								"La baguette animée peut dépenser 1 de ses charges et cibler une créature au hasard avec l'un des {@item Baguette des merveilles||effets déterminés aléatoirement} de la baguette. Tout effet de ce type qui ciblerait l'utilisateur de la baguette cible la baguette à la place. Si elle est réduite à 0 point de vie, la baguette tombe en poussière et est détruite."
 							]
 						}
 					}
@@ -412,12 +426,26 @@
 				"name": "Liche",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the lich",
-						"with": "Arcturia",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "une liche détruite",
+							"with": "Arcturia détruite",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "de la liche",
+							"with": "d'Arcturia",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)a liche",
+							"with": "Arcturia",
+							"flags": "i"
+						}
+					]
 				}
 			},
 			"speed": {
@@ -430,10 +458,10 @@
 			},
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Lancer des sorts",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Arcturia is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Arcturia can cast {@spell Changement d'apparence} at will and has the following wizard spells prepared:"
+						"Arcturia est une lanceuse de sorts de niveau 18. Sa caractéristique de lancer de sorts est l'Intelligence (jet de sauvegarde contre les sorts {@dc 20}, {@hit 12} pour toucher lors des attaques de sorts). Arcturia peut lancer {@spell Changement d'apparence} à volonté et a préparé les sorts de magicien suivants :"
 					],
 					"will": [
 						"{@spell Changement d'apparence}"
@@ -545,7 +573,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Armored Troglodyte",
+			"name": "Troglodyte blindé",
 			"source": "WDMM",
 			"page": 150,
 			"_copy": {
@@ -557,9 +585,9 @@
 							"mode": "replaceArr",
 							"replace": "Attaques multiples",
 							"items": {
-								"name": "Multiattack",
+								"name": "Attaques multiples",
 								"entries": [
-									"The troglodyte either makes two attacks with its longsword, or it makes three attacks: one with its bite and two with its claws."
+									"Le troglodyte effectue soit deux attaques avec son épée longue, soit trois attaques : une avec sa morsure et deux avec ses griffes."
 								]
 							}
 						},
@@ -567,9 +595,9 @@
 							"mode": "replaceArr",
 							"replace": "Griffe",
 							"items": {
-								"name": "Longsword",
+								"name": "Épée longue",
 								"entries": [
-									"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with two hands."
+									"{@atk mw} {@hit 4} pour toucher, allonge 1,50 m, une cible. {@h}6 ({@damage 1d8 + 2}) dégâts tranchants, ou 7 ({@damage 1d10 + 2}) dégâts tranchants si utilisée à deux mains."
 								]
 							}
 						}
@@ -585,7 +613,7 @@
 				}
 			],
 			"languages": [
-				"understands Undercommon but can't speak"
+				"comprend le bas commun mais ne peut pas parler"
 			],
 			"languageTags": [
 				"CS",
@@ -603,20 +631,28 @@
 				"name": "Dragon rouge adulte",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the dragon",
-						"with": "Ashtyrranthor",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "du dragon",
+							"with": "d'Ashtyrranthor",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)e dragon",
+							"with": "Ashtyrranthor",
+							"flags": "i"
+						}
+					]
 				}
 			},
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Lancer de sorts inné",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Ashtyrranthor's spellcasting ability is Charisma. She can innately cast the following spells, requiring no material components:"
+						"La caractéristique de lancer de sorts inné d'Ashtyrranthor est le Charisme. Elle peut lancer de manière innée les sorts suivants, sans avoir besoin de composantes matérielles :"
 					],
 					"daily": {
 						"1e": [
@@ -638,7 +674,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Awakened Brown Bear",
+			"name": "Ours brun éveillé",
 			"source": "WDMM",
 			"page": 72,
 			"_copy": {
@@ -654,7 +690,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Awakened Elk",
+			"name": "Élan éveillé",
 			"source": "WDMM",
 			"page": 72,
 			"_copy": {
@@ -670,7 +706,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Awakened Giant Wasp",
+			"name": "Guêpe géante éveillée",
 			"source": "WDMM",
 			"page": 72,
 			"_copy": {
@@ -695,12 +731,20 @@
 				"name": "Zerth githzerai",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the githzerai",
-						"with": "Azal",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "du githzerai",
+							"with": "d'Azal",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)e githzerai",
+							"with": "Azal",
+							"flags": "i"
+						}
+					]
 				}
 			},
 			"hasToken": true,
@@ -718,16 +762,16 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "(l|L)'archimage",
 						"with": "Berlain",
 						"flags": "i"
 					},
 					"bonus": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Fused Form",
+							"name": "Forme fusionnée",
 							"entries": [
-								"As a bonus action, Berlain can use her extra mouth and arms to cast any cantrip she has prepared."
+								"Par une action bonus, Berlain peut utiliser sa bouche et ses bras supplémentaires pour lancer n'importe quel tour de magie qu'elle a préparé."
 							]
 						}
 					}
@@ -739,17 +783,17 @@
 				"E"
 			],
 			"languages": [
-				"Common",
-				"Deep Speech",
-				"Grell",
-				"Undercommon"
+				"commun",
+				"profond",
+				"grell",
+				"bas commun"
 			],
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Lancer des sorts",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Berlain is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Berlain can cast {@spell Déguisement} and invisibility at will and has the following wizard spells prepared:"
+						"Berlain est une lanceuse de sorts de niveau 18. Sa caractéristique de lancer de sorts est l'Intelligence (jet de sauvegarde contre les sorts {@dc 17}, {@hit 9} pour toucher lors des attaques de sorts). Berlain peut lancer {@spell Déguisement} et l'invisibilité à volonté et a préparé les sorts de magicien suivants :"
 					],
 					"spells": {
 						"0": {
@@ -828,7 +872,7 @@
 						}
 					},
 					"footerEntries": [
-						"*Berlain casts these spells on herself before combat."
+						"* Berlain lance ces sorts sur elle-même avant le combat."
 					],
 					"ability": "int"
 				}
@@ -849,7 +893,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Big Xorn",
+			"name": "Grand Xorn",
 			"source": "WDMM",
 			"page": 51,
 			"_copy": {
@@ -867,21 +911,21 @@
 			"cr": "8",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Attaques multiples",
 					"entries": [
-						"The xorn makes three claw attacks and one bite attack."
+						"Le xorn fait trois attaques de griffe et une attaque de morsure."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Morsure",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}22 ({@damage 5d6 + 5}) piercing damage."
+						"{@atk mw} {@hit 8} pour toucher, allonge 1,50 m, une cible. {@h}22 ({@damage 5d6 + 5}) dégâts perforants."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Griffe",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage."
+						"{@atk mw} {@hit 8} pour toucher, allonge 3 m, une cible. {@h}9 ({@damage 1d8 + 5}) dégâts tranchants."
 					]
 				}
 			],
@@ -892,7 +936,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Blacktongue Bullywug",
+			"name": "Brutacien Langue-Noire",
 			"source": "WDMM",
 			"page": 110,
 			"_copy": {
@@ -904,9 +948,9 @@
 						"replace": "Lance",
 						"items": [
 							{
-								"name": "Spear",
+								"name": "Lance",
 								"entries": [
-									"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack. A creature hit by a bullywug's Spear attack must succeed on a {@dc 13} Constitution saving throw or be {@condition Empoisonné} for 1 minute. A creature {@condition Empoisonné} in this way is also {@condition Paralysé}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"{@atk mw,rw} {@hit 3} pour toucher, allonge 1,50 m ou portée 6/18 m, une cible. {@h}4 ({@damage 1d6 + 1}) dégâts perforants, ou 5 ({@damage 1d8 + 1}) dégâts perforants si elle est utilisée à deux mains pour une attaque au corps à corps. Une créature touchée par l'attaque de Lance d'un brutacien doit réussir un jet de sauvegarde de Constitution {@dc 13} ou être {@condition Empoisonné} pendant 1 minute. Une créature {@condition Empoisonné} de cette manière est également {@condition Paralysé}. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet qui l'affecte en cas de réussite."
 								]
 							}
 						]
@@ -916,7 +960,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Bore Worm",
+			"name": "Ver foreur",
 			"source": "WDMM",
 			"page": 171,
 			"size": [
@@ -966,7 +1010,7 @@
 						"piercing",
 						"slashing"
 					],
-					"note": "from nonmagical attacks that aren't adamantine",
+					"note": "d'attaques non magiques qui ne sont pas en adamantine",
 					"cond": true
 				}
 			],
@@ -984,35 +1028,35 @@
 			"cr": "16",
 			"trait": [
 				{
-					"name": "Tunneler",
+					"name": "Tunnelier",
 					"entries": [
-						"The worm can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake."
+						"Le ver peut creuser la roche solide à la moitié de sa vitesse de creusement et laisse dans son sillage un tunnel de 3 mètres de diamètre."
 					]
 				},
 				{
-					"name": "Regeneration",
+					"name": "Régénération",
 					"entries": [
-						"The worm regains 10 hit points at the start of each of its turns if it has at least 1 hit point."
+						"Le ver regagne 10 points de vie au début de chacun de ses tours s'il a au moins 1 point de vie."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Attaques multiples",
 					"entries": [
-						"The worm makes two attacks: one with its grinding jaws and one with its stinger."
+						"Le ver fait deux attaques : une avec ses mâchoires broyeuses et une avec son dard."
 					]
 				},
 				{
-					"name": "Grinding Jaws",
+					"name": "Mâchoires broyeuses",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d8 + 9}) slashing damage."
+						"{@atk mw} {@hit 9} pour toucher, allonge 3 m, une cible. {@h}22 ({@damage 3d8 + 9}) dégâts tranchants."
 					]
 				},
 				{
-					"name": "Tail Stinger",
+					"name": "Dard caudal",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 10 ft., one creature. {@h}19 ({@damage 3d6 + 9}) piercing damage, and the target must make a {@dc 19} Constitution saving throw, taking 42 ({@damage 12d6}) poison damage on a failed save, or half as much damage on a successful one."
+						"{@atk mw} {@hit 14} pour toucher, allonge 3 m, une créature. {@h}19 ({@damage 3d6 + 9}) dégâts perforants, et la cible doit effectuer un jet de sauvegarde de Constitution {@dc 19}, subissant 42 ({@damage 12d6}) dégâts de poison en cas d'échec, ou la moitié seulement en cas de réussite."
 					]
 				}
 			],
@@ -1044,7 +1088,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Captain N'ghathrod",
+			"name": "Capitaine N'ghathrod",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WDMM",
@@ -1053,12 +1097,20 @@
 				"name": "Flagelleur mental arcaniste",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mind flayer",
-						"with": "Captain N'ghathrod",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "du flagelleur mental",
+							"with": "du Capitaine N'ghathrod",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)e flagelleur mental",
+							"with": "Capitaine N'ghathrod",
+							"flags": "i"
+						}
+					]
 				}
 			},
 			"hp": {
@@ -1077,7 +1129,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Carrion Ogre",
+			"name": "Ogre charognard",
 			"source": "WDMM",
 			"page": 189,
 			"_copy": {
@@ -1088,21 +1140,21 @@
 			"languages": null,
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Attaques multiples",
 					"entries": [
-						"The creature makes two attacks: one with its tentacles and one with its bite."
+						"La créature fait deux attaques : une avec ses tentacules et une avec sa morsure."
 					]
 				},
 				{
-					"name": "Tentacles",
+					"name": "Tentacules",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}4 ({@damage 1d4 + 2}) poison damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition Empoisonné} for 1 minute. Until this poison ends, the target is {@condition Paralysé}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success."
+						"{@atk mw} {@hit 8} pour toucher, allonge 3 m, une créature. {@h}4 ({@damage 1d4 + 2}) dégâts de poison, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 13} ou être {@condition Empoisonné} pendant 1 minute. Tant que ce poison fait effet, la cible est {@condition Paralysé}. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin au poison qui l'affecte en cas de réussite."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Morsure",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} pour toucher, allonge 1,50 m, une cible. {@h}7 ({@damage 2d4 + 2}) dégâts perforants."
 					]
 				}
 			],
@@ -1142,16 +1194,16 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "(l|L)'archimage",
 						"with": "Cassiok",
 						"flags": "i"
 					},
 					"trait": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Special Equipment",
+							"name": "Équipement spécial",
 							"entries": [
-								"Cassiok carries a {@item Bâton de pouvoir} that grants him a +2 bonus to Armor Class, spell attack rolls, and saving throws. His insectoid physiology prevents him from making melee attacks with the staff. If reduced to 20 hit points or fewer, Cassiok uses his next action to break his staff in a retributive strike."
+								"Cassiok porte un {@item Bâton de pouvoir} qui lui confère un bonus de +2 à la CA, aux roulements d'attaque de sort et aux jets de sauvegarde. Sa physiologie insectoïde l'empêche d'effectuer des attaques au corps à corps avec le bâton. S'il est réduit à 20 points de vie ou moins, Cassiok utilise sa prochaine action pour briser son bâton dans une frappe punitive."
 							]
 						}
 					},
@@ -1180,17 +1232,17 @@
 				"cha": "+5"
 			},
 			"languages": [
-				"Common",
-				"Deep Speech",
-				"Infernal",
-				"Undercommon"
+				"commun",
+				"profond",
+				"infernal",
+				"bas commun"
 			],
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Lancer des sorts",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Cassiok is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). Cassiok can cast {@spell Déguisement} and invisibility at will and has the following wizard spells prepared:"
+						"Cassiok est un lanceur de sorts de niveau 18. Sa caractéristique de lancer de sorts est l'Intelligence (jet de sauvegarde contre les sorts {@dc 19}, {@hit 11} pour toucher lors des attaques de sorts). Cassiok peut lancer {@spell Déguisement} et l'invisibilité à volonté et a préparé les sorts de magicien suivants :"
 					],
 					"spells": {
 						"0": {
@@ -1269,7 +1321,7 @@
 						}
 					},
 					"footerEntries": [
-						"*Cassiok casts these spells on himself before combat."
+						"* Cassiok lance ces sorts sur lui-même avant le combat."
 					],
 					"ability": "int"
 				}
@@ -1315,7 +1367,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the scout",
+						"replace": "(l|L)'éclaireur",
 						"with": "Copper",
 						"flags": "i"
 					}
@@ -1338,7 +1390,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Crow",
+			"name": "Corneille",
 			"source": "WDMM",
 			"page": 302,
 			"_copy": {
@@ -1347,8 +1399,8 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "raven",
-						"with": "crow",
+						"replace": "(l|L)e corbeau",
+						"with": "$1a corneille",
 						"flags": "i"
 					}
 				}
@@ -1356,26 +1408,34 @@
 			"hasToken": true
 		},
 		{
-			"name": "Crystal Battleaxe",
+			"name": "Hache de guerre de cristal",
 			"source": "WDMM",
 			"page": 89,
 			"_copy": {
 				"name": "Épée volante",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "Épée",
-						"with": "battleaxe",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)'épée",
+							"with": "$1a hache de guerre",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "épée",
+							"with": "hache de guerre",
+							"flags": "i"
+						}
+					]
 				}
 			},
 			"action": [
 				{
-					"name": "Battleaxe",
+					"name": "Hache de guerre",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) slashing damage."
+						"{@atk mw} {@hit 3} pour toucher, allonge 1,50 m, une cible. {@h}5 ({@damage 1d8 + 1}) dégâts tranchants."
 					]
 				}
 			],
@@ -1388,7 +1448,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Crystal Golem",
+			"name": "Golem de cristal",
 			"source": "WDMM",
 			"page": 210,
 			"_copy": {
@@ -1401,14 +1461,14 @@
 							{
 								"name": "Illumination",
 								"entries": [
-									"The golem magically sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light goes out when the golem is destroyed."
+									"Le golem émet par magie une lumière vive dans un rayon de 9 mètres et une lumière faible sur 9 mètres supplémentaires. Cette lumière s'éteint lorsque le golem est détruit."
 								]
 							},
 							{
-								"name": "Light Intensity",
+								"name": "Intensité de la lumière",
 								"entries": [
-									"Any creature that starts its turn within 10 feet of the illuminated golem and can see the golem must succeed on a {@dc 17} Wisdom saving throw or be {@condition Aveuglé} until the start of the creature's next turn.",
-									"A creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the golem until the start of its next turn, when it can avert its eyes again. If the creature looks at the golem in the meantime, it must immediately make the save."
+									"Toute créature qui commence son tour à 3 mètres du golem illuminé ou moins et qui peut le voir doit réussir un jet de sauvegarde de Sagesse {@dc 17} ou être {@condition Aveuglé} jusqu'au début de son prochain tour.",
+									"Une créature peut détourner le regard au début de son tour pour éviter le jet de sauvegarde. Si elle le fait, elle ne peut pas voir le golem jusqu'au début de son prochain tour, moment où elle peut à nouveau détourner le regard. Si la créature regarde le golem entre-temps, elle doit immédiatement effectuer le jet de sauvegarde."
 								]
 							}
 						]
@@ -1429,7 +1489,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Crystal Helm Nothic",
+			"name": "Nothic du casque de cristal",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WDMM",
@@ -1442,7 +1502,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Deformed Duergar",
+			"name": "Duergar déformé",
 			"isNpc": true,
 			"source": "WDMM",
 			"page": 180,
@@ -1454,15 +1514,15 @@
 						"mode": "prependArr",
 						"items": [
 							{
-								"name": "Third Arm",
+								"name": "Troisième bras",
 								"entries": [
-									"The duergar can make an attack with its javelin as a bonus action."
+									"Le duergar peut effectuer une attaque avec son javelot par une action bonus."
 								]
 							},
 							{
-								"name": "Two Heads",
+								"name": "Deux têtes",
 								"entries": [
-									"The duergar has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition Charmé}, {@condition Effrayé}, {@condition Étourdi}, and knocked {@condition Inconscient}."
+									"Le duergar a un avantage aux tests de Sagesse ({@skill Perception}) et aux jets de sauvegarde visant à résister aux états {@condition Charmé}, {@condition Effrayé} et {@condition Étourdi}, ainsi qu'au fait d'être mis {@condition Inconscient}."
 								]
 							}
 						]
@@ -1492,19 +1552,21 @@
 				"name": "Chevalier de la mort",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the death knight",
-						"with": "Dezmyr",
-						"flags": "i"
-					},
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)e chevalier de la mort",
+							"with": "Dezmyr",
+							"flags": "i"
+						}
+					],
 					"bonus": {
 						"mode": "appendArr",
 						"items": [
 							{
-								"name": "Warp Reality",
+								"name": "Déformer la réalité",
 								"entries": [
-									"As a bonus action on her turn, Dezmyr can warp reality, undoing damage dealt to herself or another creature that she can see within 20 feet of her. The beneficiary of this warped reality instantly regains 10 hit points."
+									"Par une action bonus à son tour, Dezmyr peut déformer la réalité, annulant les dégâts infligés à elle-même ou à une autre créature qu'elle peut voir et qui se trouve à 6 m d'elle ou moins. Le bénéficiaire de cette réalité déformée récupère immédiatement 10 points de vie."
 								]
 							}
 						]
@@ -1512,16 +1574,16 @@
 				}
 			},
 			"languages": [
-				"Abyssal",
-				"Common",
-				"Deep Speech"
+				"abyssal",
+				"commun",
+				"profond"
 			],
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Lancer des sorts",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Dezmyr is a 19th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). She has the following paladin spells prepared:"
+						"Dezmyr est une lanceuse de sorts de niveau 19. Sa caractéristique de lancer de sorts est le Charisme (jet de sauvegarde contre les sorts {@dc 18}, {@hit 10} pour toucher lors des attaques de sorts). Elle a préparé les sorts de paladin suivants :"
 					],
 					"spells": {
 						"1": {
@@ -1556,7 +1618,7 @@
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell Onde destructrice} (necrotic)"
+								"{@spell Onde destructrice} (nécrotique)"
 							]
 						}
 					},
@@ -1593,16 +1655,16 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "(l|L)'archimage",
 						"with": "Drivvin",
 						"flags": "i"
 					},
 					"action": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Summon Demon (1/Day)",
+							"name": "Invocation de démon (1/jour)",
 							"entries": [
-								"Drivvin magically summons a {@filter demon of challenge rating 6 or lower|bestiary|challenge rating=[&0;&6]|tag=demon|miscellaneous=!swarm}. The summoned demon appears in an unoccupied space within 60 feet of him, acts as his ally, and can't summon other demons. The summoned demon remains until Drivvin dismisses it as an action or until the demon is reduced to 0 hit points."
+								"Drivvin invoque magiquement un {@filter démon de catégorie de danger 6 ou inférieure|bestiary|challenge rating=[&0;&6]|tag=demon|miscellaneous=!swarm}. Le démon invoqué apparaît dans un espace inoccupé à 18 mètres de lui ou moins, agit comme son allié et ne peut pas invoquer d'autres démons. Le démon invoqué reste jusqu'à ce que Drivvin le renvoie par une action ou jusqu'à ce qu'il soit réduit à 0 point de vie."
 							]
 						}
 					}
@@ -1613,12 +1675,12 @@
 				"E"
 			],
 			"languages": [
-				"Abyssal",
-				"Common",
-				"Dwarvish",
-				"Elvish",
-				"Goblin",
-				"Undercommon"
+				"abyssal",
+				"commun",
+				"nain",
+				"elfe",
+				"gobelin",
+				"bas commun"
 			],
 			"tokenCustom": true,
 			"traitTags": [
@@ -1655,7 +1717,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the giant",
+						"replace": "(l|L)e géant",
 						"with": "Emberosa",
 						"flags": "i"
 					},
@@ -1663,9 +1725,9 @@
 						"mode": "replaceArr",
 						"replace": "Rocher",
 						"items": {
-							"name": "Hurl Fire",
+							"name": "Jet de feu",
 							"entries": [
-								"{@atk rw} {@hit 11} to hit, range 60/240 ft., one target. {@h}29 ({@damage 4d10 + 7}) fire damage."
+								"{@atk rw} {@hit 11} pour toucher, portée 18/72 m, une cible. {@h}29 ({@damage 4d10 + 7}) dégâts de feu."
 							]
 						}
 					}
@@ -1694,18 +1756,32 @@
 				"name": "Liche",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the lich",
-						"with": "Ezzat",
-						"flags": "i"
-					},
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "une liche détruite",
+							"with": "Ezzat détruit",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "de la liche",
+							"with": "d'Ezzat",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)a liche",
+							"with": "Ezzat",
+							"flags": "i"
+						}
+					],
 					"trait": {
 						"mode": "prependArr",
 						"items": {
-							"name": "Special Equipment",
+							"name": "Équipement spécial",
 							"entries": [
-								"Ezzat wears an {@item amulet of proof against detection and location}."
+								"Ezzat porte une {@item Amulette d'antidétection|dmg|amulette de preuve contre la détection et la localisation}."
 							]
 						}
 					}
@@ -1715,19 +1791,19 @@
 				}
 			},
 			"languages": [
-				"Common",
-				"Dwarvish",
-				"Draconic",
-				"Elvish",
-				"Sylvan",
-				"Undercommon"
+				"commun",
+				"nain",
+				"draconique",
+				"elfe",
+				"sylvain",
+				"bas commun"
 			],
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Lancer des sorts",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Ezzat is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). He has the following wizard spells prepared:"
+						"Ezzat est un lanceur de sorts de niveau 18. Sa caractéristique de lancer de sorts est l'Intelligence (jet de sauvegarde contre les sorts {@dc 20}, {@hit 12} pour toucher lors des attaques de sorts). Il a préparé les sorts de magicien suivants :"
 					],
 					"spells": {
 						"0": {
@@ -1837,12 +1913,20 @@
 				"name": "Planétaire",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the planetar",
-						"with": "Fazrian",
-						"flags": "i"
-					},
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "du planétaire",
+							"with": "de Fazrian",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)e planétaire",
+							"with": "Fazrian",
+							"flags": "i"
+						}
+					],
 					"action": {
 						"mode": "removeArr",
 						"names": "Toucher guérisseur (4/jour)"
@@ -1878,12 +1962,26 @@
 				"name": "Fantôme",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the ghost",
-						"with": "Fidelio",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "de ce fantôme",
+							"with": "de Fidelio",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "du fantôme",
+							"with": "de Fidelio",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)e fantôme",
+							"with": "Fidelio",
+							"flags": "i"
+						}
+					]
 				}
 			},
 			"alignment": [
@@ -1895,13 +1993,13 @@
 				"formula": "10d8"
 			},
 			"languages": [
-				"Common"
+				"commun"
 			],
 			"tokenCustom": true,
 			"hasToken": true
 		},
 		{
-			"name": "Five-Armed Troll",
+			"name": "Troll à cinq bras",
 			"source": "WDMM",
 			"page": 154,
 			"_copy": {
@@ -1912,9 +2010,9 @@
 						"mode": "replaceArr",
 						"replace": "Attaques multiples",
 						"items": {
-							"name": "Multiattack",
+							"name": "Attaques multiples",
 							"entries": [
-								"The troll makes six attacks: one with its bite and five with its claws."
+								"Le troll fait six attaques : une avec sa morsure et cinq avec ses griffes."
 							]
 						}
 					}
@@ -1924,26 +2022,34 @@
 			"hasToken": true
 		},
 		{
-			"name": "Flying Trident",
+			"name": "Trident volant",
 			"source": "WDMM",
 			"page": 106,
 			"_copy": {
 				"name": "Épée volante",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "Épée",
-						"with": "trident",
-						"flags": "i"
-					},
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)'épée",
+							"with": "$1e trident",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "épée",
+							"with": "trident",
+							"flags": "i"
+						}
+					],
 					"action": {
 						"mode": "replaceArr",
 						"replace": "Épée longue",
 						"items": {
 							"name": "Trident",
 							"entries": [
-								"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+								"{@atk mw} {@hit 3} pour toucher, allonge 1,50 m, une cible. {@h}5 ({@damage 1d8 + 1}) dégâts perforants."
 							]
 						}
 					}
@@ -1958,25 +2064,34 @@
 			"hasToken": true
 		},
 		{
-			"name": "Flying Wand",
+			"name": "Baguette volante",
 			"source": "WDMM",
 			"page": 105,
 			"_copy": {
 				"name": "Épée volante",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "\\bsword\\b",
-						"with": "wand"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)'épée",
+							"with": "$1a baguette",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "épée",
+							"with": "baguette",
+							"flags": "i"
+						}
+					]
 				}
 			},
 			"action": [
 				{
-					"name": "Magic Missile",
+					"name": "Projectile magique",
 					"entries": [
-						"The wand shoots a dart of magical force at one creature that it can detect within 60 feet of it. The target takes 3 ({@damage 1d4 + 1}) force damage as the dart hits it unerringly."
+						"La baguette tire un trait de force magique sur une créature qu'elle peut détecter à 18 mètres d'elle ou moins. La cible subit 3 ({@damage 1d4 + 1}) dégâts de force lorsque le trait la frappe infailliblement."
 					]
 				}
 			],
@@ -1988,7 +2103,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Giant Flying Spider",
+			"name": "Araignée géante volante",
 			"source": "WDMM",
 			"page": 150,
 			"_copy": {
@@ -2003,7 +2118,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Giant Gelatinous Cube",
+			"name": "Gluant colossal",
 			"source": "WDMM",
 			"page": 241,
 			"_copy": {
@@ -2015,12 +2130,12 @@
 							"mode": "replaceArr",
 							"replace": "Cube de gluant",
 							"items": {
-								"name": "Ooze Cube",
+								"name": "Cube de gluant",
 								"entries": [
-									"The cube takes up its entire space. Other creatures can enter the space, but a creature that does so is subjected to the cube's Engulf and has disadvantage on the saving throw.",
-									"Creatures inside the cube can be seen but have {@quickref Cover||3||total cover}.",
-									"A creature within 5 feet of the cube can take an action to pull a creature or object out of the cube. Doing so requires a successful {@dc 12} Strength check, and the creature making the attempt takes 10 ({@damage 3d6}) acid damage.",
-									"The cube can hold up to nine Large creatures or up to thirty-six Medium or smaller creatures inside it at a time."
+									"Le cube occupe la totalité de son espace. Les autres créatures peuvent pénétrer dans cet espace, mais une créature qui le fait est soumise à l'Enveloppement du cube et a un désavantage au jet de sauvegarde.",
+									"Les créatures à l'intérieur du cube peuvent être vues, mais elles bénéficient d'un {@quickref Cover||3||couvert total}.",
+									"Une créature se trouvant à 1,50 m du cube ou moins peut utiliser une action pour tirer une créature ou un objet hors du cube. Pour ce faire, elle doit réussir un test de Force {@dc 12}, et la créature qui tente l'opération subit 10 ({@damage 3d6}) dégâts d'acide.",
+									"Le cube peut contenir à la fois jusqu'à neuf créatures de taille G ou jusqu'à trente-six créatures de taille M ou inférieure."
 								]
 							}
 						},
@@ -2028,9 +2143,9 @@
 							"mode": "appendArr",
 							"items": [
 								{
-									"name": "Enlarged",
+									"name": "Agrandi",
 									"entries": [
-										"The cube makes Strength checks and Strength saving throws with advantage. When the cube shrinks back to normal size, any creatures that it can no longer contain are expelled into unoccupied spaces around it."
+										"Le cube effectue ses tests et jets de sauvegarde de Force avec avantage. Lorsque le cube reprend sa taille normale, les créatures qu'il ne peut plus contenir sont expulsées dans des espaces inoccupés autour de lui."
 									]
 								}
 							]
@@ -2039,9 +2154,9 @@
 					"action": {
 						"mode": "prependArr",
 						"items": {
-							"name": "Multiattack",
+							"name": "Attaques multiples",
 							"entries": [
-								"The cube makes four pseudopod attacks."
+								"Le cube fait quatre attaques de pseudopode."
 							]
 						}
 					}
@@ -2059,12 +2174,20 @@
 				"name": "Dragon de bronze adulte",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the dragon",
-						"with": "Glyster",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "du dragon",
+							"with": "du Glyster",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)e dragon",
+							"with": "Glyster",
+							"flags": "i"
+						}
+					]
 				}
 			},
 			"alignment": [
@@ -2088,17 +2211,17 @@
 						"mode": "appendArr",
 						"items": [
 							{
-								"name": "Enlarge (Recharges after a Short or Long Rest)",
+								"name": "Agrandissement (se recharge après un repos court ou long)",
 								"entries": [
-									"For 1 minute, the mummy lord magically increases in size, along with anything it is wearing or carrying. While enlarged, the mummy lord is Large, doubles its damage dice with its Rotting Fist attack, and makes Strength checks and Strength saving throws with advantage. If the mummy lord lacks the room to become Large, it attains the maximum size possible in the space available."
+									"Pendant 1 minute, le seigneur momie augmente magiquement de taille, tout comme ce qu'il porte ou transporte. En taille agrandie, le seigneur momie est de taille G, double ses dés de dégâts lors de son attaque de Poing rongeur et effectue ses tests et jets de sauvegarde de Force avec avantage. Si le seigneur momie manque d'espace pour devenir de taille G, il atteint la taille maximale possible dans l'espace disponible."
 								]
 							},
 							{
-								"name": "Invisibility (Recharges after a Short or Long Rest)",
+								"name": "Invisibilité (se recharge après un repos court ou long)",
 								"entries": [
-									"The mummy lord magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its {@status concentration} is broken (as if {@status concentration||concentrating} on a spell). Any equipment the mummy lord wears or carries is {@condition invisible} with it.",
-									"The stalagmite in the northwest alcove is hollow and serves as Gorka Tharn's sarcophagus. The mummy lord is lodged inside the stalagmite's funnel-shaped interior. When it awakens, the mummy lord uses a {@spell Forme de pierre} spell to create an opening large enough for it to emerge. It destroys any intruders in its lair, then returns to its sarcophagus and its slumber.",
-									"At the bottom of the stalagmite's hollow cavity, four 1-foot-tall clay urns contain Gorka Tharn's preserved internal organs, including the mummy lord's shriveled heart. Only by destroying the heart can the characters prevent the mummy lord from rejuvenating. The heart is a Tiny object with AC 5, 25 hit points, and immunity to all damage except fire."
+									"Le seigneur momie devient magiquement {@condition invisible} pendant 1 heure maximum ou jusqu'à ce qu'il attaque, lance un sort, utilise son Agrandissement ou que sa {@status concentration} soit brisée (comme s'il était {@status concentration||en train de se concentrer} sur un sort). Tout l'équipement que le seigneur momie porte ou transporte devient {@condition invisible} avec lui.",
+									"Le stalagmite de l'alcôve nord-ouest est creux et sert de sarcophage à Gorka Tharn. Le seigneur momie est logé à l'intérieur de la cavité en entonnoir du stalagmite. Lorsqu'il s'éveille, le seigneur momie lance un sort de {@spell Forme de pierre} pour créer une ouverture assez grande pour en sortir. Il détruit tous les intrus présents dans son repaire, puis retourne à son sarcophage et à son sommeil.",
+									"Au fond de la cavité creuse du stalagmite, quatre urnes d'argile hautes de 30 centimètres contiennent les organes internes préservés de Gorka Tharn, y compris le cœur ratatiné du seigneur momie. Seule la destruction de ce cœur peut empêcher le seigneur momie de rajeunir. Le cœur est un objet de taille TP doté d'une CA de 5, de 25 points de vie et d'une immunité à tous les dégâts sauf ceux de feu."
 								]
 							}
 						]
@@ -2109,15 +2232,15 @@
 				}
 			},
 			"languages": [
-				"Dwarvish",
-				"Undercommon"
+				"nain",
+				"bas commun"
 			],
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Lancer des sorts",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mummy lord is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The mummy lord has the following cleric spells prepared:"
+						"Le seigneur momie est un lanceur de sorts de niveau 10. Sa caractéristique de lancer de sorts est la Sagesse (DD de sauvegarde {@dc 17}, {@hit 9} pour toucher avec les attaques de sort). Le seigneur momie a les sorts de clerc suivants préparés :"
 					],
 					"spells": {
 						"0": {
@@ -2243,26 +2366,26 @@
 					"resist": [
 						"lightning"
 					],
-					"note": "(granted by the blast scepter, see \"Special Equipment\" below)"
+					"note": "(accordée par le sceptre d'explosion, voir « Équipement spécial » ci-dessous)"
 				}
 			],
 			"languages": [
-				"Abyssal",
-				"Celestial",
-				"Common",
-				"Draconic",
-				"Dwarvish",
-				"Elvish",
-				"Infernal",
-				"Undercommon"
+				"abyssal",
+				"céleste",
+				"commun",
+				"draconique",
+				"nain",
+				"elfe",
+				"infernal",
+				"bas commun"
 			],
 			"cr": "23",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Lancer des sorts",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Halaster is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 22}, {@hit 14} to hit with spell attacks). He can cast {@spell Déguisement} and {@spell Invisibilité} at will. He can cast {@spell Vol} and {@spell Éclair} once each without expending a spell slot, but can't do so again until he finishes a short or long rest. Halaster has the following wizard spells prepared:"
+						"Halaster est un lanceur de sorts de niveau 20. Sa caractéristique de lancer de sorts est l'Intelligence (jet de sauvegarde contre les sorts {@dc 22}, {@hit 14} pour toucher lors des attaques de sorts). Il peut lancer {@spell Déguisement} et {@spell Invisibilité} à volonté. Il peut lancer {@spell Vol} et {@spell Éclair} une fois chacun sans dépenser d'emplacement de sort, mais ne peut le faire à nouveau qu'après avoir terminé un repos court ou long. Halaster a préparé les sorts de magicien suivants :"
 					],
 					"will": [
 						"{@spell Déguisement}",
@@ -2366,51 +2489,51 @@
 			],
 			"trait": [
 				{
-					"name": "Special Equipment",
+					"name": "Équipement spécial",
 					"entries": [
-						"Halaster wears a {@item Robe aux yeux} that lets him see in all directions, gives him darkvision out to a range of 120 feet, grants advantage on Wisdom ({@skill Perception}) checks that rely on sight, and allows him to see {@condition invisible} creatures and objects, as well as into the Ethereal Plane, out to a range of 120 feet.",
-						"Halaster wields a {@item Sceptre d'explosion|WDMM} (a very rare magic item that requires attunement). It can be used as an arcane focus. Whoever is attuned to the blast scepter gains resistance to fire and lightning damage and can, as an action, use it to cast {@spell Onde de tonnerre} as a 4th-level spell (save {@dc 16}) without expending a spell slot.",
-						"Halaster also wears a horned ring (a very rare magic item that requires attunement), which allows an attuned wearer to ignore Undermountain's magical restrictions (see \"Alterations to Magic\")."
+						"Halaster porte une {@item Robe aux yeux} qui lui permet de voir dans toutes les directions, lui donne une vision dans le noir sur une portée de 36 mètres, lui confère l'avantage aux tests de Sagesse ({@skill Perception}) qui reposent sur la vue et lui permet de voir les créatures et objets {@condition invisible}, ainsi que dans le Plan Éthéré, sur une portée de 36 mètres.",
+						"Halaster manie un {@item Sceptre d'explosion|WDMM} (un objet magique très rare nécessitant une harmonisation). Il peut être utilisé comme focaliseur arcanique. Quiconque est harmonisé au sceptre d'explosion obtient une résistance aux dégâts de feu et de foudre et peut, par une action, l'utiliser pour lancer {@spell Onde de tonnerre} comme un sort de niveau 4 (jet de sauvegarde {@dc 16}) sans dépenser d'emplacement de sort.",
+						"Halaster porte également un anneau cornu (un objet magique très rare nécessitant une harmonisation), qui permet au porteur harmonisé d'ignorer les restrictions magiques du Souterrain (voir « Altérations de la magie »)."
 					]
 				},
 				{
-					"name": "Arcane Recovery (1/Day)",
+					"name": "Récupération arcanique (1/jour)",
 					"entries": [
-						"When he finishes a short rest, Halaster recovers all his spell slots of 5th level and lower."
+						"Lorsqu'il termine un repos court, Halaster récupère tous ses emplacements de sorts de niveau 5 ou inférieurs."
 					]
 				},
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Résistance légendaire (3/jour)",
 					"entries": [
-						"If Halaster fails a saving throw, he can choose to succeed instead."
+						"Si Halaster échoue à un jet de sauvegarde, il peut décider de le réussir à la place."
 					]
 				},
 				{
-					"name": "Rejuvenation",
+					"name": "Rajeunissement",
 					"entries": [
-						"If Halaster dies in Undermountain, he revives after {@dice 1d10} days, with all his hit points and any missing body parts restored. His new body appears in a random safe location in Undermountain."
+						"Si Halaster meurt dans le Souterrain, il revient à la vie après {@dice 1d10} jours, avec tous ses points de vie et toutes ses parties du corps manquantes restaurés. Son nouveau corps apparaît à un endroit sûr et aléatoire du Souterrain."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Blast Scepter",
+					"name": "Sceptre d'explosion",
 					"entries": [
-						"Halaster uses his blast scepter to cast {@spell Onde de tonnerre} as a 4th-level spell. Each creature in a 15-foot cube originating from him must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes {@damage 5d8} thunder damage and is pushed 10 feet away. On a successful save, the creature takes half as much damage and isn't pushed"
+						"Halaster utilise son sceptre d'explosion pour lancer {@spell Onde de tonnerre} comme un sort de niveau 4. Chaque créature dans un cube de 4,50 m partant de lui doit réussir un jet de sauvegarde de Constitution {@dc 16}. En cas d'échec, une créature subit {@damage 5d8} dégâts tonitruants et est repoussée de 3 m. En cas de réussite, une créature subit seulement la moitié de ces dégâts et n'est pas repoussée"
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Cast Spell",
+					"name": "Lancer un sort",
 					"entries": [
-						"Halaster casts a spell of 3rd level or lower."
+						"Halaster lance un sort de niveau 3 ou inférieur."
 					]
 				},
 				{
-					"name": "Spell Ward (Costs 2 Actions)",
+					"name": "Garde de sorts (coûte 2 actions)",
 					"entries": [
-						"Halaster expends a spell slot of 4th level or lower and gains 5 temporary hit points per level of the slot."
+						"Halaster dépense un emplacement de sort de niveau 4 ou inférieur et gagne 5 points de vie temporaires par niveau de l'emplacement."
 					]
 				}
 			],
@@ -2476,7 +2599,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Halaster Horror",
+			"name": "Horreur Halaster",
 			"source": "WDMM",
 			"page": 129,
 			"_copy": {
@@ -2485,16 +2608,16 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "helmed",
+						"replace": "blindée",
 						"with": "Halaster"
 					},
 					"trait": {
 						"mode": "replaceArr",
 						"replace": "Immunité aux sorts",
 						"items": {
-							"name": "Spell Immunity",
+							"name": "Immunité aux sorts",
 							"entries": [
-								"The Halaster horror is immune to the {@spell cone of cold}, {@spell disintegrate}, and {@spell fireball} spells."
+								"La horreur Halaster est immunisée contre les sorts {@spell Cône de froid||cône de froid}, {@spell disintegrate||désintégration} et {@spell fireball||boule de feu}."
 							]
 						}
 					}
@@ -2502,15 +2625,15 @@
 			},
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Attaques multiples",
 					"entries": [
-						"The Halaster horror makes two staff attacks."
+						"La horreur Halaster fait deux attaques avec son bâton."
 					]
 				},
 				{
-					"name": "Staff",
+					"name": "Bâton",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit 6} pour toucher, allonge 1,50 m, une cible. {@h}8 ({@damage 1d8 + 4}) dégâts contondants."
 					]
 				}
 			],
@@ -2521,7 +2644,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Halaster Puppet",
+			"name": "Marionnette de Halaster",
 			"isNpc": true,
 			"source": "WDMM",
 			"page": 31,
@@ -2557,13 +2680,13 @@
 				"exhaustion"
 			],
 			"languages": [
-				"Common"
+				"commun"
 			],
 			"trait": [
 				{
-					"name": "Antimagic Susceptibility",
+					"name": "Sensibilité à l'antimagie",
 					"entries": [
-						"The puppet is destroyed if a successful {@spell Dissipation de la magie} spell ({@dc 15}) is cast on it"
+						"La marionnette est détruite si le sort {@spell Dissipation de la magie} ({@dc 15}) est lancé avec succès sur elle"
 					]
 				}
 			],
@@ -2576,7 +2699,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Hammer-Handed Golem",
+			"name": "Golem aux mains de marteau",
 			"source": "WDMM",
 			"page": 259,
 			"_copy": {
@@ -2601,9 +2724,9 @@
 							"replace": "Coup",
 							"items": [
 								{
-									"name": "Mallet",
+									"name": "Maillet",
 									"entries": [
-										"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage, and the target must succeed on a {@dc 17} Constitution saving throw or be {@condition Étourdi} until the end of its next turn."
+										"{@atk mw} {@hit 10} pour toucher, allonge 1,50 m, une cible. {@h}19 ({@damage 3d8 + 6}) dégâts contondants, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 17} ou être {@condition Étourdi} jusqu'à la fin de son prochain tour."
 									]
 								}
 							]
@@ -2647,21 +2770,21 @@
 			"cr": "0",
 			"trait": [
 				{
-					"name": "Salt Sensitivity",
+					"name": "Sensibilité au sel",
 					"entries": [
-						"A pound of salt thrown onto the snail's skin deals {@damage 1d6} acid damage to the creature."
+						"Un kilogramme de sel jeté sur la peau de l'escargot inflige {@damage 1d6} dégâts d'acide à la créature."
 					]
 				},
 				{
-					"name": "Magical Properties",
+					"name": "Propriétés magiques",
 					"entries": [
-						"A creature that uses an action to touch the living snail gains 6 temporary hit points that last for 24 hours. Any creature or object that touches the living snail also gains the benefit of a {@spell Délivrance de la malédiction} spell. The snail loses these magical properties if it dies."
+						"Une créature qui utilise une action pour toucher l'escargot vivant gagne 6 points de vie temporaires qui durent 24 heures. Toute créature ou tout objet qui touche l'escargot vivant bénéficie également des effets d'un sort de {@spell Délivrance de la malédiction}. L'escargot perd ces propriétés magiques s'il meurt."
 					]
 				},
 				{
-					"name": "Spider Climb",
+					"name": "Marche arachnéenne",
 					"entries": [
-						"The snail can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"L'escargot peut escalader des surfaces difficiles, y compris se déplacer sous les plafonds la tête en bas, sans avoir besoin d'effectuer un test de caractéristique."
 					]
 				}
 			],
@@ -2674,8 +2797,8 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Horned Sister",
-			"shortName": "the horned sister",
+			"name": "Sœur cornue",
+			"shortName": "la sœur cornue",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WDMM",
@@ -2690,11 +2813,26 @@
 					}
 				],
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "(^| )mage",
-						"with": "$1horned sister"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "un lanceur de sorts",
+							"with": "une lanceuse de sorts",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "un mage",
+							"with": "une sœur cornue",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)e mage",
+							"with": "$1a sœur cornue",
+							"flags": "i"
+						}
+					]
 				}
 			},
 			"alignment": [
@@ -2734,7 +2872,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the giant",
+						"replace": "(l|L)e géant",
 						"with": "Hrossk",
 						"flags": "i"
 					}
@@ -2744,7 +2882,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Huge Gray Ooze",
+			"name": "Gluant gris énorme",
 			"source": "WDMM",
 			"page": 243,
 			"_copy": {
@@ -2762,27 +2900,27 @@
 			"cr": "8",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Attaques multiples",
 					"entries": [
-						"As an action, it can make two attacks with its pseudopods."
+						"Par une action, il peut faire deux attaques avec ses pseudopodes."
 					]
 				},
 				{
-					"name": "Pseudopod",
+					"name": "Pseudopode",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}21 ({@damage 6d6}) acid damage, or 42 ({@damage 12d6}) acid damage while the ooze is enlarged. If the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+						"{@atk mw} {@hit 7} pour toucher, allonge 1,50 m, une cible. {@h}21 ({@damage 6d6}) dégâts d'acide, ou 42 ({@damage 12d6}) dégâts d'acide tant que le gluant est agrandi. Si la cible porte une armure de métal non magique, celle-ci est partiellement corrodée et subit un mal permanent et cumulatif de −1 à la CA qu'elle offre. L'armure est détruite si le mal réduit sa CA à 10."
 					]
 				},
 				{
-					"name": "Enlarge (Recharges after a Short or Long Rest)",
+					"name": "Agrandissement (se recharge après un repos court ou long)",
 					"entries": [
-						"For 1 minute, the ooze magically increases in size. While enlarged, the ooze is Gargantuan, doubles its damage dice with its pseudopod attack, and makes Strength checks and Strength saving throws with advantage."
+						"Pendant 1 minute, le gluant augmente magiquement de taille. En taille agrandie, le gluant est de taille Gargantuesque, double ses dés de dégâts lors de son attaque de pseudopode et effectue ses tests et jets de sauvegarde de Force avec avantage."
 					]
 				},
 				{
-					"name": "Invisibility (Recharges after a Short or Long Rest)",
+					"name": "Invisibilité (se recharge après un repos court ou long)",
 					"entries": [
-						"The ooze magically turns {@condition invisible} for up to 1 hour until it attacks, it uses its Enlarge, or its {@status concentration} is broken (as if {@status concentration||concentrating} on a spell)."
+						"Le gluant devient magiquement {@condition invisible} pendant 1 heure maximum ou jusqu'à ce qu'il attaque, utilise son Agrandissement ou que sa {@status concentration} soit brisée (comme s'il était {@status concentration||en train de se concentrer} sur un sort)."
 					]
 				}
 			],
@@ -2800,7 +2938,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Intelligent Black Pudding",
+			"name": "Pouding noir intelligent",
 			"source": "WDMM",
 			"page": 244,
 			"_copy": {
@@ -2809,14 +2947,14 @@
 			},
 			"int": 14,
 			"languages": [
-				"Elvish and Undercommon but can't speak"
+				"comprend l'elfe et le bas commun mais ne peut pas parler"
 			],
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Lancer de sorts inné",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The pudding's spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can cast the following spells, requiring no components:"
+						"La caractéristique de lancer de sorts du pouding est l'Intelligence (jet de sauvegarde contre les sorts {@dc 12}, {@hit 4} pour toucher lors des attaques de sorts). Il peut lancer les sorts suivants, sans composantes :"
 					],
 					"will": [
 						"{@spell Lumières dansantes}",
@@ -2852,7 +2990,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Iron Spider",
+			"name": "Araignée de fer",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WDMM",
@@ -2890,23 +3028,23 @@
 			],
 			"trait": [
 				{
-					"name": "Spider Climb",
+					"name": "Marche arachnéenne",
 					"entries": [
-						"The iron spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"L'araignée de fer peut escalader des surfaces difficiles, y compris se déplacer sous les plafonds la tête en bas, sans avoir besoin d'effectuer un test de caractéristique."
 					]
 				},
 				{
-					"name": "Antimagic Susceptibility",
+					"name": "Sensibilité à l'antimagie",
 					"entries": [
-						"The iron spider is {@condition Incapable} while in the area of an {@spell Antichamp magique}. If targeted by {@spell Dissipation de la magie}, the iron spider must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition Inconscient} for 1 minute."
+						"L'araignée de fer est {@condition Incapable} tant qu'elle se trouve dans la zone d'un {@spell Antichamp magique}. Si elle est ciblée par {@spell Dissipation de la magie}, l'araignée de fer doit réussir un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts du lanceur ou tomber {@condition Inconscient} pendant 1 minute."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Web Cable",
+					"name": "Câble de toile",
 					"entries": [
-						"The iron spider shoots out a 6-inch-thick web cable up to 50 feet long, attaching the far end of the cable to a solid surface up to 50 feet away from it. As a bonus action, it can detach the other end of the cable from itself and attach it to a solid surface within 10 feet of it. Once it creates 200 feet of web cable, the spider can't produce any more cable until the next dawn."
+						"L'araignée de fer tire un câble de toile épais de 15 centimètres et long de 15 mètres au maximum, en fixant l'extrémité distante du câble à une surface solide se trouvant à 15 mètres d'elle ou moins. Par une action bonus, elle peut détacher l'autre extrémité du câble et la fixer à une surface solide à 3 mètres d'elle ou moins. Une fois qu'elle a produit 60 mètres de câble de toile, l'araignée ne peut plus en produire avant l'aube suivante."
 					]
 				}
 			],
@@ -2922,7 +3060,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Junior Drow Priestess of Lolth",
+			"name": "Jeune prêtresse drow de Lolth",
 			"source": "WDMM",
 			"page": 149,
 			"_copy": {
@@ -2935,11 +3073,20 @@
 					}
 				],
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "priest",
-						"with": "priestess"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "un lanceur de sorts",
+							"with": "une lanceuse de sorts",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)e prêtre",
+							"with": "$1a prêtresse",
+							"flags": "i"
+						}
+					]
 				}
 			},
 			"alignment": [
@@ -2947,8 +3094,8 @@
 				"E"
 			],
 			"languages": [
-				"Elvish",
-				"Undercommon"
+				"elfe",
+				"bas commun"
 			],
 			"traitTags": [
 				"Fey Ancestry",
@@ -2979,7 +3126,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mage",
+						"replace": "(l|L)e mage",
 						"with": "Kavil",
 						"flags": "i"
 					}
@@ -2996,10 +3143,10 @@
 				"E"
 			],
 			"languages": [
-				"Dwarvish",
-				"Common",
-				"Giant",
-				"Undercommon"
+				"nain",
+				"commun",
+				"géant",
+				"bas commun"
 			],
 			"languageTags": [
 				"C",
@@ -3019,19 +3166,27 @@
 				"name": "Vampire",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the vampire",
-						"with": "Keresta",
-						"flags": "i"
-					},
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "du vampire",
+							"with": "de Keresta",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)e vampire",
+							"with": "Keresta",
+							"flags": "i"
+						}
+					],
 					"action": {
 						"mode": "replaceArr",
 						"replace": "Enfants de la nuit (1/jour)",
 						"items": {
-							"name": "Children of the Night (1/Day)",
+							"name": "Enfants de la nuit (1/jour)",
 							"entries": [
-								"The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, the vampire can call {@dice 3d6} {@creature giant centipede||giant centipedes} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+								"Keresta appelle magiquement {@dice 2d4} nuées de {@creature Nuée de chauves-souris||chauves-souris} ou de {@creature Nuée de rats||rats}, pourvu que le soleil ne soit pas levé. En extérieur, Keresta peut plutôt appeler {@dice 3d6} {@creature Scutigère géante||mille-pattes géants}. Les créatures appelées arrivent en {@dice 1d4} rounds, se comportent comme des alliées de Keresta et obéissent à ses commandes vocales. Les bêtes restent pendant 1 heure, jusqu'à ce que Keresta meure, ou jusqu'à ce qu'elle les renvoie par une action bonus."
 							]
 						}
 					}
@@ -3039,10 +3194,10 @@
 			},
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Lancer des sorts",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Keresta is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). She has the following cleric spells prepared:"
+						"Keresta est une lanceuse de sorts de niveau 9. Sa caractéristique de lancer de sorts est la Sagesse (jet de sauvegarde contre les sorts {@dc 15}, {@hit 7} pour toucher lors des attaques de sorts). Elle a préparé les sorts de clerc suivants :"
 					],
 					"spells": {
 						"0": {
@@ -3131,29 +3286,37 @@
 				"name": "Troglodyte",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the troglodyte",
-						"with": "Kol'daan",
-						"flags": "i"
-					},
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "du troglodyte",
+							"with": "de Kol'daan",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(l|L)e troglodyte",
+							"with": "Kol'daan",
+							"flags": "i"
+						}
+					],
 					"action": [
 						{
 							"mode": "replaceArr",
 							"replace": "Attaques multiples",
 							"items": {
-								"name": "Multiattack",
+								"name": "Attaques multiples",
 								"entries": [
-									"Kol'daan makes three attacks: one with its bite and two with its claws or sparring sword."
+									"Kol'daan fait trois attaques : une avec sa morsure et deux avec ses griffes ou son épée d'entraînement."
 								]
 							}
 						},
 						{
 							"mode": "appendArr",
 							"items": {
-								"name": "Sparring Sword",
+								"name": "Épée d'entraînement",
 								"entries": [
-									"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 2}) bludgeoning damage."
+									"{@atk mw} {@hit 4} pour toucher, allonge 1,50 m, une cible. {@h}6 ({@damage 1d4 + 2}) dégâts contondants."
 								]
 							}
 						}
@@ -3172,7 +3335,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Large Mimic",
+			"name": "Grande mimique",
 			"source": "WDMM",
 			"page": 26,
 			"_copy": {
@@ -3189,7 +3352,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Lava Child",
+			"name": "Enfant de la lave",
 			"source": "WDMM",
 			"page": 313,
 			"size": [
@@ -3237,40 +3400,40 @@
 						"piercing",
 						"slashing"
 					],
-					"note": "from metal weapons",
+					"note": "d'armes de métal",
 					"cond": true
 				}
 			],
 			"languages": [
-				"Common",
-				"Ignan"
+				"commun",
+				"igné"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Metal Immunity",
+					"name": "Immunité au métal",
 					"entries": [
-						"The lava child can move through metal without hindrance, and it has advantage on attack rolls against any creature wearing metal armor or using a metal shield."
+						"L'enfant de la lave peut se déplacer à travers le métal sans entrave, et il a un avantage aux jets d'attaque contre toute créature portant une armure de métal ou utilisant un bouclier de métal."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Attaques multiples",
 					"entries": [
-						"The lava child makes two attacks: one with its bite and one with its claws."
+						"L'enfant de la lave effectue deux attaques : une avec sa morsure et une avec ses griffes."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Morsure",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+						"{@atk mw} {@hit 6} pour toucher, allonge 1,50 m, une cible. {@h}11 ({@damage 2d6 + 4}) dégâts perforants."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Griffes",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+						"{@atk mw} {@hit 7} pour toucher, allonge 1,50 m, une cible. {@h}7 ({@damage 1d6 + 4}) dégâts tranchants."
 					]
 				}
 			],
@@ -3296,7 +3459,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Left Hand of Manshoon",
+			"name": "Main gauche de Manshoon",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WDMM",
@@ -3305,12 +3468,19 @@
 				"name": "Archimage",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "archmage",
-						"with": "hand",
-						"flags": "i"
-					},
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "L'archimage",
+							"with": "La main"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "archimage",
+							"with": "main",
+							"flags": "i"
+						}
+					],
 					"_": {
 						"mode": "replaceSpells",
 						"spells": {
@@ -3358,7 +3528,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Living Unseen Servant",
+			"name": "Serviteur invisible vivant",
 			"source": "WDMM",
 			"page": 313,
 			"size": [
@@ -3403,22 +3573,22 @@
 				"unconscious"
 			],
 			"languages": [
-				"understands one language (usually Common) but can't speak"
+				"comprend une langue (généralement le commun) mais ne peut pas parler"
 			],
 			"cr": "0",
 			"trait": [
 				{
-					"name": "Invisibility",
+					"name": "Invisibilité",
 					"entries": [
-						"The unseen servant is {@condition invisible}."
+						"Le serviteur invisible est {@condition invisible}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Slam",
+					"name": "Coup",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 bludgeoning damage."
+						"{@atk mw} {@hit 2} pour toucher, allonge 1,50 m, une cible. {@h}1 dégât contondant."
 					]
 				}
 			],
@@ -3442,7 +3612,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Mad Golem",
+			"name": "Golem fou",
 			"source": "WDMM",
 			"page": 254,
 			"_copy": {
@@ -3453,9 +3623,9 @@
 						"mode": "replaceArr",
 						"replace": "Coup",
 						"items": {
-							"name": "Slam",
+							"name": "Coup",
 							"entries": [
-								"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}24 ({@damage 4d8 + 6}) bludgeoning damage."
+								"{@atk mw} {@hit 10} pour toucher, allonge 1,50 m, une cible. {@h}24 ({@damage 4d8 + 6}) dégâts contondants."
 							]
 						}
 					}
@@ -3471,14 +3641,14 @@
 			"int": 9,
 			"cha": 9,
 			"languages": [
-				"understands Abyssal",
-				"Celestial",
-				"Common",
-				"Draconic",
-				"Dwarvish",
-				"Elvish",
-				"Infernal",
-				"and Undercommon but can't speak"
+				"comprend l'abyssal",
+				"le céleste",
+				"le commun",
+				"le draconique",
+				"le nain",
+				"l'elfe",
+				"l'infernal",
+				"et l'undercommun mais ne peut pas parler"
 			],
 			"cr": "12",
 			"tokenCustom": true,
@@ -3497,7 +3667,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Maddgoth's Homunculus",
+			"name": "Homuncule de Maddgoth",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WDMM",
@@ -3510,9 +3680,9 @@
 						"mode": "replaceArr",
 						"replace": "Morsure",
 						"items": {
-							"name": "Bite",
+							"name": "Morsure",
 							"entries": [
-								"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}{@damage 2d6 + 2} piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition Empoisonné} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition Empoisonné} for 5 ({@dice 1d10}) minutes and {@condition Inconscient} while {@condition Empoisonné} in this way."
+								"{@atk mw} {@hit 4} pour toucher, allonge 1,50 m, une créature. {@h}{@damage 2d6 + 2} dégâts perforants, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 10} ou être {@condition Empoisonné} pendant 1 minute. Si le jet de sauvegarde échoue de 5 ou plus, la cible est plutôt {@condition Empoisonné} pendant 5 ({@dice 1d10}) minutes et {@condition Inconscient} tant qu'elle est {@condition Empoisonné} de cette manière."
 							]
 						}
 					}
@@ -3527,10 +3697,10 @@
 			},
 			"str": 15,
 			"languages": [
-				"Abyssal",
-				"Common",
-				"Draconic",
-				"Gnomish but can't speak"
+				"abyssal",
+				"commun",
+				"draconique",
+				"gnome mais ne peut pas parler"
 			],
 			"cr": "2",
 			"languageTags": [
@@ -3563,7 +3733,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mage",
+						"replace": "le mage",
 						"with": "Marta",
 						"flags": "i"
 					},
@@ -3584,11 +3754,11 @@
 				"E"
 			],
 			"languages": [
-				"Common",
-				"Draconic",
-				"Dwarvish",
-				"Elvish",
-				"Undercommon"
+				"commun",
+				"draconique",
+				"nain",
+				"elfe",
+				"undercommun"
 			],
 			"tokenCustom": true,
 			"traitTags": [
@@ -3616,7 +3786,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "l'archimage",
 						"with": "Melissara",
 						"flags": "i"
 					},
@@ -3645,10 +3815,10 @@
 				"N"
 			],
 			"languages": [
-				"Common",
-				"Deep Speech",
-				"Draconic",
-				"Dwarvish"
+				"commun",
+				"langue profonde",
+				"draconique",
+				"nain"
 			],
 			"tokenCustom": true,
 			"languageTags": [
@@ -3660,7 +3830,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Metal Wasp",
+			"name": "Guêpe de métal",
 			"source": "WDMM",
 			"page": 174,
 			"_copy": {
@@ -3672,7 +3842,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"natural armor"
+						"armure naturelle"
 					]
 				}
 			],
@@ -3707,21 +3877,21 @@
 			"source": "WDMM",
 			"page": 77,
 			"_copy": {
-				"name": "Werebat",
+				"name": "Chauve-souris-garou",
 				"source": "WDMM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the werebat",
+						"replace": "la chauve-souris-garou",
 						"with": "Mobar",
 						"flags": "i"
 					},
 					"trait": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Blind Eye",
+							"name": "Œil aveugle",
 							"entries": [
-								"Due to poor depth perception, Mobar has disadvantage on any attack roll against a target more than 30 feet away."
+								"En raison d'une mauvaise perception de la profondeur, Mobar a un désavantage aux jets d'attaque contre une cible se trouvant à plus de 9 m de lui."
 							]
 						}
 					}
@@ -3752,7 +3922,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"natural armor"
+						"armure naturelle"
 					]
 				}
 			],
@@ -3784,19 +3954,19 @@
 			],
 			"passive": 16,
 			"languages": [
-				"Common",
-				"Dwarvish",
-				"Elvish",
-				"Goblin",
-				"Undercommon"
+				"commun",
+				"nain",
+				"elfe",
+				"gobelin",
+				"undercommun"
 			],
 			"cr": "13",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Lancer des sorts",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Muiral is a 13th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). He has the following wizard spells prepared:"
+						"Muiral est un lanceur de sorts de niveau 13. Sa caractéristique d'incantation est l'Intelligence (jet de sauvegarde de sort {@dc 17}, {@hit 9} pour toucher avec les attaques de sort). Il a préparé les sorts de magicien suivants :"
 					],
 					"spells": {
 						"0": {
@@ -3867,49 +4037,49 @@
 			],
 			"trait": [
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Résistance légendaire (3/jour)",
 					"entries": [
-						"If Muiral fails a saving throw, he can choose to succeed instead."
+						"Si Muiral échoue à un jet de sauvegarde, il peut choisir de le réussir à la place."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Attaques multiples",
 					"entries": [
-						"Muiral makes three attacks: two with his longsword and one with his sting."
+						"Muiral effectue trois attaques : deux avec son épée longue et une avec son dard."
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Épée longue",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage, or 15 ({@damage 2d10 + 4}) slashing damage if used with two hands."
+						"{@atk mw} {@hit 9} pour toucher, allonge 1,50 m, une cible. {@h}13 ({@damage 2d8 + 4}) dégâts tranchants, ou 15 ({@damage 2d10 + 4}) dégâts tranchants s'il est utilisé à deux mains."
 					]
 				},
 				{
-					"name": "Sting",
+					"name": "Dard",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one creature. {@h}9 ({@damage 1d10 + 4}) piercing damage. The target must make a {@dc 16} Constitution saving throw, taking 27 ({@damage 6d8}) poison damage on a failed save, or half as much damage on a successful one."
+						"{@atk mw} {@hit 9} pour toucher, allonge 3 m, une créature. {@h}9 ({@damage 1d10 + 4}) dégâts perforants. La cible doit effectuer un jet de sauvegarde de Constitution {@dc 16}, subissant 27 ({@damage 6d8}) dégâts de poison en cas d'échec, ou la moitié seulement de ces dégâts en cas de réussite."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Cast Cantrip",
+					"name": "Lancer un tour de magie",
 					"entries": [
-						"Muiral casts a cantrip."
+						"Muiral lance un tour de magie."
 					]
 				},
 				{
-					"name": "Lunging Attack (Costs 2 Actions)",
+					"name": "Attaque en fente (coûte 2 actions)",
 					"entries": [
-						"Muiral makes one longsword attack that has a reach of 10 feet."
+						"Muiral effectue une attaque d'épée longue avec une allonge de 3 m."
 					]
 				},
 				{
-					"name": "Retreating Strike (Costs 3 Actions)",
+					"name": "Frappe en repli (coûte 3 actions)",
 					"entries": [
-						"Muiral moves up to his speed without provoking opportunity attacks. Before the move, he can make one longsword attack."
+						"Muiral se déplace d'une distance allant jusqu'à sa vitesse sans provoquer d'attaques d'opportunité. Avant ce déplacement, il peut effectuer une attaque d'épée longue."
 					]
 				}
 			],
@@ -3967,7 +4137,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Mutated Drow",
+			"name": "Drow muté",
 			"source": "WDMM",
 			"page": 143,
 			"_copy": {
@@ -3976,7 +4146,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "giant",
+						"replace": "géant",
 						"with": "drow",
 						"flags": "i"
 					},
@@ -3984,15 +4154,15 @@
 						"mode": "appendArr",
 						"items": [
 							{
-								"name": "Fey Ancestry",
+								"name": "Ascendance féerique",
 								"entries": [
-									"The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
+									"Le drow a un avantage aux jets de sauvegarde contre l'état {@condition Charmé}, et la magie ne peut pas endormir le drow."
 								]
 							},
 							{
-								"name": "Sunlight Sensitivity",
+								"name": "Sensibilité à la lumière du soleil",
 								"entries": [
-									"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+									"En pleine lumière du soleil, le drow a un désavantage aux jets d'attaque, ainsi qu'aux tests de Sagesse ({@skill Perception}) qui reposent sur la vue."
 								]
 							}
 						]
@@ -4008,15 +4178,15 @@
 				"darkvision 120 ft."
 			],
 			"languages": [
-				"Elvish",
-				"Undercommon"
+				"elfe",
+				"undercommun"
 			],
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Lancer de sorts inné",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The drow's innate spellcasting ability is Charisma (spell save {@dc 15}). The drow can innately cast the following spells, requiring no material components:"
+						"La caractéristique de lancer de sorts inné du drow est le Charisme (DD de sauvegarde des sorts {@dc 15}). Il peut lancer de manière innée les sorts suivants, sans composantes matérielles :"
 					],
 					"will": [
 						"{@spell Lumières dansantes}"
@@ -4050,7 +4220,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Nerozar the Defeated",
+			"name": "Nerozar le Vaincu",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WDMM",
@@ -4061,7 +4231,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the zombie",
+						"replace": "le zombie",
 						"with": "Nerozar",
 						"flags": "i"
 					},
@@ -4069,32 +4239,32 @@
 						"mode": "replaceArr",
 						"replace": "Rayon oculaire",
 						"items": {
-							"name": "Eye Ray",
+							"name": "Rayon oculaire",
 							"entries": [
-								"The zombie uses a random magical eye ray, choosing a target that it can see within 60 feet of it.",
+								"Le zombie utilise un rayon oculaire magique aléatoire, en choisissant une cible qu'il peut voir à 18 m de lui ou moins.",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "itemSub",
-											"name": "1. Paralyzing Ray",
-											"entry": "The targeted creature must succeed on a {@dc 14} Constitution saving throw or be {@condition Paralysé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"name": "1. Rayon paralysant",
+											"entry": "La créature visée doit réussir une sauvegarde de Constitution {@dc 14} ou être {@condition Paralysé} pendant 1 minute. La cible peut retenter la sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet qui l'affecte en cas de réussite."
 										},
 										{
 											"type": "itemSub",
-											"name": "2. Fear Ray",
-											"entry": "The targeted creature must succeed on a {@dc 14} Wisdom saving throw or be {@condition Effrayé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"name": "2. Rayon de peur",
+											"entry": "La créature visée doit réussir une sauvegarde de Sagesse {@dc 14} ou être {@condition Effrayé} pendant 1 minute. La cible peut retenter la sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet qui l'affecte en cas de réussite."
 										},
 										{
 											"type": "itemSub",
-											"name": "3. Enervation Ray",
-											"entry": "The targeted creature must make a {@dc 14} Constitution saving throw, taking 36 ({@damage 8d8}) necrotic damage on a failed save, or half as much damage on a successful one."
+											"name": "3. Rayon d'énervation",
+											"entry": "La créature visée doit effectuer une sauvegarde de Constitution {@dc 14}, subissant 36 ({@damage 8d8}) dégâts nécrotiques en cas d'échec, ou la moitié seulement de ces dégâts en cas de réussite."
 										},
 										{
 											"type": "itemSub",
-											"name": "4. Telekinetic Ray",
-											"entry": "If the target is a creature, it must succeed on a {@dc 14} Strength saving throw, or the zombie moves it up to 30 feet in any direction. It is restrained by the ray's telekinetic grip until the start of the zombie's next turn or until the zombie is incapacitated. If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The zombie can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or container."
+											"name": "4. Rayon de télékinésie",
+											"entry": "Si la cible est une créature, elle doit réussir une sauvegarde de Force {@dc 14} ; sinon, le zombie la déplace sur une distance allant jusqu'à 9 m dans n'importe quelle direction. Elle est {@condition Entravé} par l'étreinte télékinésique du rayon jusqu'au début du prochain tour du zombie ou jusqu'à ce que le zombie soit {@condition Incapable}. Si la cible est un objet pesant 140 kg ou moins qui n'est ni porté ni transporté, il est déplacé sur une distance allant jusqu'à 9 m dans n'importe quelle direction. Le zombie peut également exercer un contrôle fin sur les objets avec ce rayon, comme manipuler un outil simple ou ouvrir une porte ou un conteneur."
 										}
 									]
 								}
@@ -4124,7 +4294,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "l'archimage",
 						"with": "Nester",
 						"flags": "i"
 					},
@@ -4168,13 +4338,13 @@
 				"darkvision 60 ft."
 			],
 			"languages": [
-				"Auran",
-				"Common",
-				"Draconic",
-				"Dwarvish",
-				"Giant",
-				"Terran",
-				"but can't speak (he uses {@spell Lien télépathique de Rary} to communicate)"
+				"aérien",
+				"commun",
+				"draconique",
+				"nain",
+				"géant",
+				"terrestre",
+				"mais ne peut pas parler (il communique via {@spell Lien télépathique de Rary})"
 			],
 			"tokenCustom": true,
 			"senseTags": [
@@ -4200,7 +4370,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Old Troglodyte",
+			"name": "Vieux troglodyte",
 			"source": "WDMM",
 			"page": 155,
 			"_copy": {
@@ -4212,9 +4382,9 @@
 							"mode": "replaceArr",
 							"replace": "Attaques multiples",
 							"items": {
-								"name": "Multiattack",
+								"name": "Attaques multiples",
 								"entries": [
-									"The troglodyte makes two claw attacks."
+									"Le troglodyte effectue deux attaques de griffe."
 								]
 							}
 						},
@@ -4245,9 +4415,9 @@
 						"mode": "replaceArr",
 						"replace": "Morsure",
 						"items": {
-							"name": "Bite",
+							"name": "Morsure",
 							"entries": [
-								"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}{@damage 2d6 + 4} piercing damage."
+								"{@atk mw} {@hit 7} pour toucher, allonge 1,50 m, une créature. {@h}{@damage 2d6 + 4} dégâts perforants."
 							]
 						}
 					}
@@ -4271,7 +4441,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Play-by-Play Generator",
+			"name": "Générateur de commentaires",
 			"isNpc": true,
 			"source": "WDMM",
 			"page": 205,
@@ -4281,8 +4451,8 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the quadrone",
-						"with": "the generator",
+						"replace": "le quadrone",
+						"with": "le générateur",
 						"flags": "i"
 					},
 					"action": [
@@ -4290,9 +4460,9 @@
 							"mode": "replaceArr",
 							"replace": "Attaques multiples",
 							"items": {
-								"name": "Multiattack",
+								"name": "Attaques multiples",
 								"entries": [
-									"The generator makes two fist attacks or four dart attacks."
+									"Le générateur fait deux attaques de poing ou quatre attaques de trait."
 								]
 							}
 						},
@@ -4300,9 +4470,9 @@
 							"mode": "replaceArr",
 							"replace": "Arc court",
 							"items": {
-								"name": "Magic Dart",
+								"name": "Trait magique",
 								"entries": [
-									"The generator hurls a magic dart at a target it can see up to 60 feet away from it. The dart hits its target automatically (no attack roll required) for 5 ({@damage 2d4}) force damage."
+									"Le générateur projette un trait magique sur une cible qu'il peut voir à 18 m de lui ou moins. Le trait touche automatiquement sa cible (aucun jet d'attaque n'est nécessaire) et inflige 5 ({@damage 2d4}) dégâts de force."
 								]
 							}
 						}
@@ -4314,7 +4484,7 @@
 				"E"
 			],
 			"languages": [
-				"Common"
+				"commun"
 			],
 			"tokenCustom": true,
 			"languageTags": [
@@ -4330,7 +4500,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Poison Weird",
+			"name": "Weird de poison",
 			"source": "WDMM",
 			"page": 127,
 			"_copy": {
@@ -4339,29 +4509,29 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "water weird",
-						"with": "poison weird"
+						"replace": "weird d'eau",
+						"with": "weird de poison"
 					}
 				}
 			},
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Invisible in Water",
+					"name": "Invisible dans la mixture",
 					"entries": [
-						"The weird is {@condition invisible} while fully immersed in toxic brew."
+						"Le weird est {@condition invisible} tant qu'il est totalement immergé dans la mixture toxique."
 					]
 				},
 				{
-					"name": "Brew Bound",
+					"name": "Lié à la mixture",
 					"entries": [
-						"The weird dies if forced to leave the basin of toxic brew it inhabits, or if a {@spell Purification de la nourriture et de la boisson} spell is cast on the brew."
+						"Le weird meurt si on le force à quitter le bassin de mixture toxique qu'il habite, ou si un sort d'{@spell Purification de la nourriture et de la boisson} est lancé sur la mixture."
 					]
 				},
 				{
-					"name": "Poisonous Body",
+					"name": "Corps venimeux",
 					"entries": [
-						"A creature takes 10 ({@damage 3d6}) poison damage at the start of each of its turns while {@condition Agrippé} by a poison weird."
+						"Une créature subit 10 ({@damage 3d6}) dégâts de poison au début de chacun de ses tours tant qu'elle est {@condition Agrippé} par un weird de poison."
 					]
 				}
 			],
@@ -4386,7 +4556,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the champion",
+						"replace": "le champion",
 						"with": "Portia",
 						"flags": "i"
 					},
@@ -4394,9 +4564,9 @@
 						{
 							"mode": "appendArr",
 							"items": {
-								"name": "Shadowfell Despair",
+								"name": "Désespoir de la Féeronde",
 								"entries": [
-									"Portia suffers from Shadowfell despair manifesting as unshakable dread. Until the despair ends, she has disadvantage on all saving throws and gains the following flaw: \"I'm convinced that I'm going to die in Vanrakdoom.\" Portia can attempt to end her despair each time she finishes a long rest, doing so with a successful {@dc 15} Wisdom saving throw. A {@spell Apaisement} spell also ends her despair, as does any spell or other magical effect that removes a curse."
+									"Portia souffre du désespoir de la Féeronde, qui se manifeste par une frayeur inébranlable. Tant que ce désespoir persiste, elle a un désavantage à tous les jets de sauvegarde et gagne le défaut suivant : « Je suis convaincue que je vais mourir à Vanrakdoom. » Portia peut tenter de mettre fin à son désespoir chaque fois qu'elle termine un repos long, en réussissant un jet de sauvegarde de Sagesse {@dc 15}. Un sort d'{@spell Apaisement} met également fin à son désespoir, tout comme tout sort ou autre effet magique qui supprime une malédiction."
 								]
 							}
 						}
@@ -4414,7 +4584,7 @@
 				"N"
 			],
 			"languages": [
-				"Common"
+				"commun"
 			],
 			"tokenCustom": true,
 			"languageTags": [
@@ -4434,7 +4604,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mage",
+						"replace": "le mage",
 						"with": "Preeta",
 						"flags": "i"
 					}
@@ -4454,29 +4624,29 @@
 				"darkvision 120 ft."
 			],
 			"languages": [
-				"Common",
-				"Dwarvish",
-				"Goblin",
-				"Undercommon"
+				"commun",
+				"nain",
+				"gobelin",
+				"undercommun"
 			],
 			"reaction": [
 				{
-					"name": "Eye Rays",
+					"name": "Rayons oculaires",
 					"entries": [
-						"As a bonus action or a reaction, Preeta can shoot one of the following eye rays at one target she can see within 120 feet of her:",
+						"Par une action bonus ou une réaction, Preeta peut lancer l'un des rayons oculaires suivants sur une cible qu'elle peut voir à 36 m d'elle ou moins :",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Fear Ray",
-									"entry": "The target must succeed on a {@dc 15} Wisdom saving throw or be {@condition Effrayé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"name": "Rayon de peur",
+									"entry": "La cible doit réussir un jet de sauvegarde de Sagesse {@dc 15} ou être {@condition Effrayé} pendant 1 minute. La cible peut retenter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet qui l'affecte en cas de réussite."
 								},
 								{
 									"type": "item",
-									"name": "Paralyzing Ray",
-									"entry": "The target must succeed on a {@dc 15} Constitution saving throw or be {@condition Paralysé} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"name": "Rayon paralysant",
+									"entry": "La cible doit réussir un jet de sauvegarde de Constitution {@dc 15} ou être {@condition Paralysé} pendant 1 minute. La cible peut retenter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet qui l'affecte en cas de réussite."
 								}
 							]
 						}
@@ -4505,7 +4675,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Rabbithead",
+			"name": "Tête-de-lapin",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WDMM",
@@ -4542,7 +4712,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the githzerai",
+						"replace": "le githzerai",
 						"with": "Rishindar",
 						"flags": "i"
 					}
@@ -4552,7 +4722,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Rowboat Mimic",
+			"name": "Mimique-canot",
 			"source": "WDMM",
 			"page": 76,
 			"_copy": {
@@ -4569,7 +4739,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Runed Behir",
+			"name": "Béhir runique",
 			"source": "WDMM",
 			"page": 158,
 			"_copy": {
@@ -4578,10 +4748,10 @@
 			},
 			"spellcasting": [
 				{
-					"name": "Lesser Magic",
+					"name": "Magie mineure",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The behir casts {@spell Gerbe colorée} or {@spell Sommeil}, requiring no components. Its spellcasting ability is Charisma (spell save {@dc 13})."
+						"Le béhir lance {@spell Gerbe colorée} ou {@spell Sommeil}, sans avoir besoin de composantes. Sa caractéristique de lancer de sorts est le Charisme (jet de sauvegarde contre les sorts {@dc 13})."
 					],
 					"legendary": {
 						"1e": [
@@ -4596,10 +4766,10 @@
 					]
 				},
 				{
-					"name": "Greater Magic (Costs 2 Actions)",
+					"name": "Magie majeure (coûte 2 actions)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The behir casts {@spell Invisibilité} or {@spell Pas brumeux}, requiring no components."
+						"Le béhir lance {@spell Invisibilité} ou {@spell Pas brumeux}, sans avoir besoin de composantes."
 					],
 					"legendary": {
 						"2e": [
@@ -4631,7 +4801,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"natural armor"
+						"armure naturelle"
 					]
 				}
 			],
@@ -4661,7 +4831,7 @@
 						"piercing",
 						"slashing"
 					],
-					"note": "from nonmagical attacks",
+					"note": "d'attaques non magiques",
 					"cond": true
 				}
 			],
@@ -4678,35 +4848,35 @@
 			"cr": "8",
 			"trait": [
 				{
-					"name": "Lightning Absorption",
+					"name": "Absorption de la foudre",
 					"entries": [
-						"Whenever the scaladar is subjected to lightning damage, it takes no damage, and its sting deals an extra 11 ({@damage 2d10}) lightning damage until the end of its next turn."
+						"Chaque fois que le scaladar subit des dégâts de foudre, il ne subit aucun dégât, et son dard inflige 11 ({@damage 2d10}) dégâts de foudre supplémentaires jusqu'à la fin de son prochain tour."
 					]
 				},
 				{
-					"name": "Scaladar Link",
+					"name": "Lien scaladar",
 					"entries": [
-						"The scaladar knows the location of other scaladar within 100 feet of it, and it can sense when any of them take damage."
+						"Le scaladar connaît la position des autres scaladar se trouvant dans un rayon de 30 m autour de lui, et il perçoit lorsque l'un d'eux subit des dégâts."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Attaques multiples",
 					"entries": [
-						"The scaladar makes three attacks: two with its claws and one with its sting."
+						"Le scaladar effectue trois attaques : deux avec ses griffes et une avec son dard."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Griffe",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d12 + 4}) bludgeoning damage, and the target is {@condition Agrippé} (escape {@dc 15}). The scaladar has two claws, each of which can grapple one target."
+						"{@atk mw} {@hit 7} pour toucher, allonge 3 m, une cible. {@h}10 ({@damage 1d12 + 4}) dégâts contondants, et la cible est {@condition Agrippé} (évasion {@dc 15}). Le scaladar possède deux griffes, chacune pouvant agripper une cible."
 					]
 				},
 				{
-					"name": "Sting",
+					"name": "Dard",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage plus 11 ({@damage 2d10}) lightning damage."
+						"{@atk mw} {@hit 7} pour toucher, allonge 3 m, une cible. {@h}9 ({@damage 1d10 + 4}) dégâts perforants plus 11 ({@damage 2d10}) dégâts de foudre."
 					]
 				}
 			],
@@ -4736,7 +4906,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Shadow Assassin",
+			"name": "Assassin des ombres",
 			"source": "WDMM",
 			"page": 316,
 			"size": [
@@ -4809,40 +4979,40 @@
 				"restrained"
 			],
 			"languages": [
-				"understands the languages it knew in life but can't speak"
+				"comprend les langues qu'il connaissait de son vivant mais ne peut pas parler"
 			],
 			"cr": "9",
 			"trait": [
 				{
-					"name": "Amorphous",
+					"name": "Amorphe",
 					"entries": [
-						"The assassin can move through a space as narrow as 1 inch wide without squeezing."
+						"L'assassin peut se déplacer dans un espace large de 2,50 cm au minimum sans se faufiler."
 					]
 				},
 				{
-					"name": "Shadow Stealth",
+					"name": "Discrétion dans l'ombre",
 					"entries": [
-						"While in dim light or darkness, the assassin can take the {@action Se cacher} action as a bonus action."
+						"Dans une zone de lumière faible ou d'obscurité, l'assassin peut utiliser l'action {@action Se cacher} par une action bonus."
 					]
 				},
 				{
-					"name": "Sunlight Weakness",
+					"name": "Faiblesse à la lumière du soleil",
 					"entries": [
-						"While in sunlight, the assassin has disadvantage on attack rolls, ability checks, and saving throws."
+						"En pleine lumière du soleil, l'assassin a un désavantage aux jets d'attaque, aux tests de caractéristique et aux jets de sauvegarde."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Attaques multiples",
 					"entries": [
-						"The assassin makes two Shadow Blade attacks."
+						"L'assassin effectue deux attaques de Lame d'ombre."
 					]
 				},
 				{
-					"name": "Shadow Blade",
+					"name": "Lame d'ombre",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. Unless the target is immune to necrotic damage, the target's Strength score is reduced by {@dice 1d4} each time it is hit by this attack. The target dies if its Strength is reduced to 0. The reduction lasts until the target finishes a short or long rest. If a non-evil humanoid dies from this attack, a {@creature Ombre} (see the Monster Manual) rises from the corpse {@dice 1d4} hours later."
+						"{@atk mw} {@hit 8} pour toucher, allonge 1,50 m, une cible. {@h}7 ({@damage 1d6 + 4}) dégâts perforants plus 10 ({@damage 3d6}) dégâts nécrotiques. À moins que la cible ne soit immunisée aux dégâts nécrotiques, le score de Force de la cible est réduit de {@dice 1d4} chaque fois qu'elle est touchée par cette attaque. La cible meurt si sa Force est réduite à 0. Cette réduction dure jusqu'à ce que la cible termine un repos court ou long. Si un humanoïde non mauvais meurt de cette attaque, une {@creature Ombre} (voir le Manuel des monstres) s'élève du cadavre {@dice 1d4} heures plus tard."
 					]
 				}
 			],
@@ -4870,7 +5040,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Shapechanged Roper",
+			"name": "Roper métamorphosé",
 			"source": "WDMM",
 			"page": 106,
 			"_copy": {
@@ -4880,9 +5050,9 @@
 					"trait": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Shapechanger",
+							"name": "Métamorphe",
 							"entries": [
-								"The roper can use its action to polymorph into a stone object or back to its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+								"Le roper peut utiliser son action pour se polymorphiser en un objet de pierre ou reprendre sa forme véritable. Ses statistiques sont les mêmes sous chaque forme. Tout équipement qu'il porte ou transporte n'est pas transformé. Il reprend sa forme véritable s'il meurt."
 							]
 						}
 					}
@@ -4896,7 +5066,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Shockerstomper",
+			"name": "Piétine-éclair",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WDMM",
@@ -4943,53 +5113,53 @@
 			"cr": "14",
 			"trait": [
 				{
-					"name": "Disable",
+					"name": "Neutralisation",
 					"entries": [
-						"When a leg drops to 0 hit points, it is disabled, and Shockerstomper can use a reaction to detach it from its main body. Whenever one of its legs is disabled, Shockerstomper's walking speed is reduced by 10 feet. The whole contraption topples over and shuts down if four of its seven legs are disabled."
+						"Lorsqu'une patte tombe à 0 point de vie, elle est neutralisée, et Piétine-éclair peut utiliser une réaction pour la détacher de son corps principal. Chaque fois que l'une de ses pattes est neutralisée, la vitesse de déplacement de Piétine-éclair est réduite de 3 m. L'ensemble de l'engin bascule et s'arrête si quatre de ses sept pattes sont neutralisées."
 					]
 				},
 				{
-					"name": "Electrified Surface",
+					"name": "Surface électrisée",
 					"entries": [
-						"A creature that ends its turn in contact with Shockerstomper's body (saucer or turrets) must make a {@dc 15} Constitution saving throw, taking 22 ({@damage 4d10}) lightning damage on a failed save, or half as much damage on a successful one."
+						"Une créature qui termine son tour au contact du corps de Piétine-éclair (soucoupe ou tourelles) doit effectuer un jet de sauvegarde de Constitution {@dc 15}, subissant 22 ({@damage 4d10}) dégâts de foudre en cas d'échec, ou la moitié seulement de ces dégâts en cas de réussite."
 					]
 				},
 				{
-					"name": "Immutable Form",
+					"name": "Forme immuable",
 					"entries": [
-						"Shockerstomper is immune to any spell or effect that would alter its form."
+						"Piétine-éclair est immunisé contre tout sort ou effet qui altérerait sa forme."
 					]
 				},
 				{
-					"name": "Control Module",
+					"name": "Module de contrôle",
 					"entries": [
-						"A creature atop or above Shockerstomper's platform can locate its control module with a successful {@dc 15} Intelligence ({@skill Investigation}) check or Wisdom ({@skill Perception}) check. As an action, a character can try to open the control module's access panel, either by tearing it off with a successful {@dc 25} Strength ({@skill Athlétisme}) check or by dislodging it with thieves' tools and a successful {@dc 25} Dexterity check. Behind the panel, embedded in the floor of the control module, is a 5-foot-diameter pulsating crystal hemisphere with AC 10, 25 hit points, and immunity to poison and psychic damage. Destroying the crystal hemisphere shuts down Shockerstomper."
+						"Une créature située sur ou au-dessus de la plateforme de Piétine-éclair peut localiser son module de contrôle en réussissant un test d'Intelligence ({@skill Investigation}) ou de Sagesse ({@skill Perception}) {@dc 15}. Par une action, un personnage peut tenter d'ouvrir le panneau d'accès du module de contrôle, soit en l'arrachant en réussissant un test de Force ({@skill Athlétisme}) {@dc 25}, soit en le décrochant à l'aide d'outils de crochetage et en réussissant un test de Dextérité {@dc 25}. Derrière le panneau, incrustée dans le sol du module de contrôle, se trouve un hémisphère de cristal pulsant de 1,50 m de diamètre, avec une CA de 10, 25 points de vie et une immunité aux dégâts de poison et psychiques. Détruire l'hémisphère de cristal arrête Piétine-éclair."
 					]
 				},
 				{
-					"name": "Lightning Turret",
+					"name": "Tourelle à foudre",
 					"entries": [
-						"A character can try to plug the nozzle of a lightning turret with a 10-pound rock or similar object, doing so with a successful {@dc 15} Strength ({@skill Athlétisme}) check. A plugged turret can't shoot lightning until a creature uses an action to try to clear the obstruction, which requires another successful {@dc 15} Strength ({@skill Athlétisme}) check. Shockerstomper has no ability to clear an obstruction itself."
+						"Un personnage peut tenter de boucher la gueule d'une tourelle à foudre avec un rocher de 5 kg ou un objet similaire, en réussissant un test de Force ({@skill Athlétisme}) {@dc 15}. Une tourelle bouchée ne peut plus tirer de foudre tant qu'une créature n'a pas utilisé une action pour tenter de dégager l'obstruction, ce qui nécessite un autre test de Force ({@skill Athlétisme}) {@dc 15} réussi. Piétine-éclair n'est pas capable de dégager une obstruction lui-même."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Attaques multiples",
 					"entries": [
-						"Shockerstomper makes three Lightning Turret attacks and two Stomp attacks."
+						"Piétine-éclair effectue trois attaques de tourelle à foudre et deux attaques de piétinement."
 					]
 				},
 				{
-					"name": "Lightning Turret",
+					"name": "Tourelle à foudre",
 					"entries": [
-						"The turret shoots a magical lightning bolt at one creature within 60 feet of Shockerstomper. The target must make a {@dc 15} Dexterity saving throw, taking 44 ({@damage 8d10}) lightning damage on a failed save, or half as much damage on a successful one."
+						"La tourelle tire un éclair de foudre magique sur une créature se trouvant à 18 m de Piétine-éclair ou moins. La cible doit effectuer un jet de sauvegarde de Dextérité {@dc 15}, subissant 44 ({@damage 8d10}) dégâts de foudre en cas d'échec, ou la moitié seulement de ces dégâts en cas de réussite."
 					]
 				},
 				{
-					"name": "Stomp",
+					"name": "Piétinement",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage."
+						"{@atk mw} {@hit 8} pour toucher, allonge 3 m, une créature. {@h}22 ({@damage 3d10 + 6}) dégâts contondants."
 					]
 				}
 			],
@@ -5029,16 +5199,16 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the drow",
+						"replace": "le drow",
 						"with": "Shunn",
 						"flags": "i"
 					},
 					"trait": {
 						"mode": "prependArr",
 						"items": {
-							"name": "Spider Features",
+							"name": "Traits d'araignée",
 							"entries": [
-								"While cursed with spider features, Shunn can climb difficult surfaces, even across ceilings, without needing to make an ability check."
+								"Tant qu'il est maudit par les traits d'araignée, Shunn peut escalader des surfaces difficiles, y compris le long des plafonds, sans avoir besoin de faire un test de caractéristique."
 							]
 						}
 					}
@@ -5053,7 +5223,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Sing-Along",
+			"name": "Tous en chœur",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WDMM",
@@ -5077,8 +5247,8 @@
 				"performance": "+4"
 			},
 			"languages": [
-				"Common",
-				"Halfling"
+				"commun",
+				"halfelin"
 			],
 			"tokenCustom": true,
 			"languageTags": [
@@ -5088,19 +5258,20 @@
 			"hasToken": true
 		},
 		{
-			"name": "Space Hamster",
+			"name": "Hamster spatial",
 			"source": "WDMM",
 			"page": 251,
 			"_copy": {
 				"name": "Rat",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the rat",
-						"with": "the hamster",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "Le rat",
+							"with": "Le hamster"
+						}
+					]
 				}
 			},
 			"cr": {
@@ -5124,7 +5295,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dragon",
+						"replace": "le dragon",
 						"with": "Stalagma",
 						"flags": "i"
 					},
@@ -5132,22 +5303,22 @@
 						"mode": "replaceArr",
 						"replace": "Armes de souffle {@recharge 5}",
 						"items": {
-							"name": "Breath Weapons {@recharge 5}",
+							"name": "Armes de souffle {@recharge 5}",
 							"entries": [
-								"The dragon uses one of the following breath weapons.",
+								"Le dragon utilise l'une des armes de souffle suivantes.",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "Acid Breath",
-											"entry": "The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 18} Dexterity saving throw, taking 58 ({@damage 13d8}) acid damage on a failed save, or half as much damage on a successful one."
+											"name": "Souffle d'acide",
+											"entry": "Le dragon exhale de l'acide dans une ligne de 18 mètres et large de 1,50 mètre. Chaque créature dans cette ligne doit effectuer un jet de sauvegarde de Dextérité {@dc 18}, subissant 58 ({@damage 13d8}) dégâts d'acide en cas d'échec, ou la moitié seulement de ces dégâts en cas de réussite."
 										},
 										{
 											"type": "item",
-											"name": "Paralyzing Breath",
-											"entry": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a {@dc 20} Constitution saving throw or be {@condition Paralysé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"name": "Souffle paralysant",
+											"entry": "Le dragon exhale un gaz paralysant dans un cône de 18 mètres. Chaque créature dans cette zone doit réussir un jet de sauvegarde de Constitution {@dc 20} ou être {@condition Paralysé} pendant 1 minute. Une créature peut refaire le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet qui l'affecte en cas de réussite."
 										}
 									]
 								}
@@ -5161,9 +5332,9 @@
 				"E"
 			],
 			"languages": [
-				"Draconic",
-				"Dwarvish",
-				"Terran"
+				"draconique",
+				"nain",
+				"terrestre"
 			],
 			"tokenCustom": true,
 			"languageTags": [
@@ -5181,25 +5352,42 @@
 			"hasToken": true
 		},
 		{
-			"name": "Statue of Vergadain",
+			"name": "Statue de Vergadain",
 			"source": "WDMM",
 			"page": 202,
 			"_copy": {
 				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "golem",
-						"with": "statue",
-						"flags": "i"
-					},
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "du golem",
+							"with": "de la statue"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "Le golem",
+							"with": "La statue"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "golem",
+							"with": "statue",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "est immunisé contre tout sort",
+							"with": "est immunisée contre tout sort"
+						}
+					],
 					"bonus": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Magic Theft",
+							"name": "Vol de magie",
 							"entries": [
-								"The golem targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 17} Charisma saving throw, or all magic items in its possession are teleported to the bottom of the pit in {@adventure area 31|WDMM|15|31. Hall of Embers}."
+								"La statue cible une créature qu'elle peut voir à 9 m d'elle ou moins. La cible doit réussir un jet de sauvegarde de Charisme {@dc 17}, sinon tous les objets magiques en sa possession sont téléportés au fond de la fosse, dans la {@adventure area 31|WDMM|15|31. Hall des Braises}."
 							]
 						}
 					}
@@ -5209,32 +5397,49 @@
 			"hasToken": true
 		},
 		{
-			"name": "Stonecloak",
+			"name": "Cape de pierre",
 			"source": "WDMM",
 			"page": 253,
 			"_copy": {
 				"name": "Golem de pierre",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "golem",
-						"with": "stonecloak",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "du golem",
+							"with": "de la cape de pierre"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "Le golem",
+							"with": "La cape de pierre"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "golem",
+							"with": "cape de pierre",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "est immunisé contre tout sort",
+							"with": "est immunisée contre tout sort"
+						}
+					]
 				}
 			},
 			"int": 9,
 			"cha": 9,
 			"languages": [
-				"understands Abyssal",
-				"Celestial",
-				"Common",
-				"Draconic",
-				"Dwarvish",
-				"Elvish",
-				"Infernal",
-				"and Undercommon but can't speak"
+				"comprend l'abyssal",
+				"le céleste",
+				"le commun",
+				"le draconique",
+				"le nain",
+				"l'elfe",
+				"l'infernal",
+				"et l'undercommun mais ne peut pas parler"
 			],
 			"tokenCustom": true,
 			"languageTags": [
@@ -5263,7 +5468,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the champion",
+						"replace": "le champion",
 						"with": "Sundeth",
 						"flags": "i"
 					}
@@ -5281,8 +5486,8 @@
 				"darkvision 60 ft."
 			],
 			"languages": [
-				"Common",
-				"Giant"
+				"commun",
+				"géant"
 			],
 			"tokenCustom": true,
 			"senseTags": [
@@ -5324,7 +5529,7 @@
 							"items": {
 								"name": "Attaques multiples",
 								"entries": [
-									"Thwad makes three attacks with his maul or his shortbow."
+									"Thwad effectue trois attaques avec son marteau ou son arc court."
 								]
 							}
 						},
@@ -5332,9 +5537,9 @@
 							"mode": "replaceArr",
 							"replace": "Espadon",
 							"items": {
-								"name": "Maul",
+								"name": "Marteau",
 								"entries": [
-									"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage, plus 7 ({@damage 2d6}) bludgeoning damage if Thwad has more than half of his total hit points remaining."
+									"{@atk mw} {@hit 9} pour toucher, allonge 1,50 m, une cible. {@h}12 ({@damage 2d6 + 5}) dégâts contondants, plus 7 ({@damage 2d6}) dégâts contondants si Thwad a encore plus de la moitié de ses points de vie totaux."
 								]
 							}
 						}
@@ -5346,8 +5551,8 @@
 				"E"
 			],
 			"languages": [
-				"Common",
-				"Dwarvish"
+				"commun",
+				"nain"
 			],
 			"tokenCustom": true,
 			"senseTags": [
@@ -5382,7 +5587,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the assassin",
+						"replace": "l'assassin",
 						"with": "Torbit",
 						"flags": "i"
 					}
@@ -5415,12 +5620,29 @@
 				"name": "Crâne flamboyant",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the flameskull",
-						"with": "Trenzia",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "le crâne flamboyant",
+							"with": "Trenzia",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "Il peut passer d'une option à l'autre",
+							"with": "Elle peut passer d'une option à l'autre"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "il récupère tous ses points de vie",
+							"with": "elle récupère tous ses points de vie"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "Trenzia est détruit",
+							"with": "Trenzia est détruite"
+						}
+					]
 				}
 			},
 			"resist": [
@@ -5435,10 +5657,10 @@
 			],
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Lancer des sorts",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Trenzia is a 5th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). She requires no somatic or material components to cast its spells. Trenzia has the following wizard spells prepared:"
+						"Trenzia est une lanceuse de sorts de niveau 5. Sa caractéristique d'incantation est l'Intelligence (jet de sauvegarde de sort {@dc 13}, {@hit 5} pour toucher avec les attaques de sort). Elle n'a besoin d'aucune composante gestuelle ni matérielle pour lancer ses sorts. Trenzia a préparé les sorts de magicien suivants :"
 					],
 					"spells": {
 						"0": {
@@ -5472,15 +5694,15 @@
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Attaques multiples",
 					"entries": [
-						"Trenzia uses Lightning Ray twice."
+						"Trenzia utilise deux fois Rayon de foudre."
 					]
 				},
 				{
-					"name": "Fire Ray",
+					"name": "Rayon de feu",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 30 ft., one target. {@h}10 ({@damage 3d6}) lightning damage."
+						"{@atk rs} {@hit 5} pour toucher, portée 9 m, une cible. {@h}10 ({@damage 3d6}) dégâts de foudre."
 					]
 				}
 			],
@@ -5510,7 +5732,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the golem",
+						"replace": "le golem",
 						"with": "Trobriand",
 						"flags": "i"
 					}
@@ -5520,10 +5742,10 @@
 			"cr": "22",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Lancer des sorts",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Trobriand is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). He has the following wizard spells prepared:"
+						"Trobriand est un lanceur de sorts de niveau 18. Sa caractéristique d'incantation est l'Intelligence (jet de sauvegarde de sort {@dc 20}, {@hit 12} pour toucher avec les attaques de sort). Il a préparé les sorts de magicien suivants :"
 					],
 					"spells": {
 						"0": {
@@ -5645,7 +5867,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dragon",
+						"replace": "le dragon",
 						"with": "Umbraxakar",
 						"flags": "i"
 					}
@@ -5675,7 +5897,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Undead Bulette",
+			"name": "Bulette morte-vivante",
 			"source": "WDMM",
 			"page": 90,
 			"_copy": {
@@ -5702,7 +5924,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Undead Shambling Mound",
+			"name": "Tertre vagabond mort-vivant",
 			"source": "WDMM",
 			"page": 142,
 			"_copy": {
@@ -5722,9 +5944,9 @@
 			],
 			"trait": [
 				{
-					"name": "Necrotic Absorption",
+					"name": "Absorption de la nécrose",
 					"entries": [
-						"Whenever the shambling mound is subjected to necrotic damage, it takes no damage and regains a number of hit points equal to the necrotic damage dealt."
+						"Chaque fois que le tertre vagabond subit des dégâts nécrotiques, il ne subit aucun dégât et regagne un nombre de points de vie égal aux dégâts nécrotiques infligés."
 					]
 				}
 			],
@@ -5750,7 +5972,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "l'archimage",
 						"with": "Valtagar",
 						"flags": "i"
 					},
@@ -5774,12 +5996,12 @@
 				"E"
 			],
 			"languages": [
-				"Common",
-				"Dwarvish",
-				"Infernal",
-				"Terran",
-				"Troglodyte",
-				"Undercommon"
+				"commun",
+				"nain",
+				"infernal",
+				"terrestre",
+				"troglodyte",
+				"undercommun"
 			],
 			"tokenCustom": true,
 			"senseTags": [
@@ -5808,7 +6030,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "l'archimage",
 						"with": "Vertrand",
 						"flags": "i"
 					},
@@ -5819,7 +6041,7 @@
 								{
 									"replace": "{@spell Bannissement}",
 									"with": [
-										"{@spell confusion}"
+										"{@spell Confusion}"
 									]
 								}
 							]
@@ -5841,10 +6063,10 @@
 				"blindsight 60 ft. (blind beyond this radius)"
 			],
 			"languages": [
-				"Abyssal",
-				"Common",
-				"Deep Speech",
-				"Undercommon"
+				"abyssal",
+				"commun",
+				"langue profonde",
+				"undercommun"
 			],
 			"tokenCustom": true,
 			"senseTags": [
@@ -5870,7 +6092,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the githzerai",
+						"replace": "le githzerai",
 						"with": "Vond",
 						"flags": "i"
 					}
@@ -5880,7 +6102,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Werebat",
+			"name": "Chauve-souris-garou",
 			"group": [
 				"Lycanthropes"
 			],
@@ -5939,64 +6161,64 @@
 				}
 			],
 			"languages": [
-				"Goblin (can't speak in bat form)"
+				"gobelin (ne peut pas parler sous forme de chauve-souris)"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Shapechanger",
+					"name": "Métamorphe",
 					"entries": [
-						"The werebat can use its action to polymorph into a Medium bat-humanoid hybrid, or into a Large giant bat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+						"La chauve-souris-garou peut utiliser son action pour se polymorphiser en un hybride de chauve-souris et d'humanoïde de taille M, en une chauve-souris géante de taille G, ou pour reprendre sa forme véritable, qui est humanoïde. Ses statistiques, hormis sa taille, sont les mêmes sous chaque forme. Son équipement porté ou transporté n'est pas transformé. La chauve-souris-garou reprend sa forme véritable en cas de mort."
 					]
 				},
 				{
-					"name": "Echolocation (Bat or Hybrid Form Only)",
+					"name": "Écholocation (formes de chauve-souris ou hybride uniquement)",
 					"entries": [
-						"The werebat has blindsight out to a range of 60 feet as long as it's not {@condition Assourdi}."
+						"La chauve-souris-garou possède une vision aveugle d'une portée de 18 m, à moins d'être {@condition Assourdi}."
 					]
 				},
 				{
-					"name": "Keen Hearing",
+					"name": "Ouïe aiguë",
 					"entries": [
-						"The werebat has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+						"La chauve-souris-garou a un avantage aux tests de Sagesse ({@skill Perception}) qui reposent sur l'ouïe."
 					]
 				},
 				{
-					"name": "Nimble Escape (Humanoid Form Only)",
+					"name": "Évasion agile (forme humanoïde uniquement)",
 					"entries": [
-						"The werebat can take the {@action Désengagement} or {@action Se cacher} action as a bonus action on each of its turns."
+						"La chauve-souris-garou peut utiliser l'action {@action Désengagement} ou {@action Se cacher} par une action bonus à chacun de ses tours."
 					]
 				},
 				{
-					"name": "Sunlight Sensitivity",
+					"name": "Sensibilité à la lumière du soleil",
 					"entries": [
-						"While in sunlight, the werebat has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"En pleine lumière du soleil, la chauve-souris-garou a un désavantage aux jets d'attaque, ainsi qu'aux tests de Sagesse ({@skill Perception}) qui reposent sur la vue."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (Humanoid or Hybrid Form Only)",
+					"name": "Attaques multiples (formes humanoïde ou hybride uniquement)",
 					"entries": [
-						"In humanoid form, the werebat makes two scimitar attacks or two shortbow attacks. In hybrid form, it can make one bite attack and one scimitar attack."
+						"Sous forme humanoïde, la chauve-souris-garou effectue deux attaques de cimeterre ou deux attaques d'arc court. Sous forme hybride, la chauve-souris-garou peut effectuer une attaque de morsure et une attaque de cimeterre."
 					]
 				},
 				{
-					"name": "Bite (Bat or Hybrid Form Only)",
+					"name": "Morsure (formes de chauve-souris ou hybride uniquement)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the werebat gains temporary hit points equal to the damage dealt. If the target is a humanoid, it must succeed on a {@dc 10} Constitution saving throw or be cursed with werebat {@variantrule Player Characters as Lycanthropes|MM|lycanthropy}."
+						"{@atk mw} {@hit 5} pour toucher, allonge 1,50 m, une créature. {@h}6 ({@damage 1d6 + 3}) dégâts perforants, et la chauve-souris-garou gagne un nombre de points de vie temporaires égal aux dégâts infligés. Si la cible est un humanoïde, elle doit réussir un jet de sauvegarde de Constitution {@dc 10} ou être maudite par la lycanthropie de chauve-souris-garou ({@variantrule Personnages joueurs lycanthropes|MM|lycanthropie})."
 					]
 				},
 				{
-					"name": "Scimitar (Humanoid or Hybrid Form Only)",
+					"name": "Cimeterre (formes humanoïde ou hybride uniquement)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+						"{@atk mw} {@hit 5} pour toucher, allonge 1,50 m, une cible. {@h}6 ({@damage 1d6 + 3}) dégâts tranchants."
 					]
 				},
 				{
-					"name": "Shortbow (Humanoid or Hybrid Form Only)",
+					"name": "Arc court (formes humanoïde ou hybride uniquement)",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk rw} {@hit 5} pour toucher, portée 24/96 m, une cible. {@h}6 ({@damage 1d6 + 3}) dégâts perforants."
 					]
 				}
 			],
@@ -6038,19 +6260,30 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Wooden Donkey",
+			"name": "Âne de bois",
 			"source": "WDMM",
 			"page": 84,
 			"_copy": {
 				"name": "Mule",
 				"source": "MM",
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "mule",
-						"with": "donkey",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "la mule est considérée",
+							"with": "l'âne est considéré"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "qui la feraient tomber",
+							"with": "qui le feraient tomber"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "La mule",
+							"with": "L'âne"
+						}
+					]
 				}
 			},
 			"type": "construct",
@@ -6090,12 +6323,34 @@
 					}
 				],
 				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the archdruid",
-						"with": "Wyllow",
-						"flags": "i"
-					}
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "l'archidruide",
+							"with": "Wyllow",
+							"flags": "i"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "s'il meurt ou est {@condition Inconscient}",
+							"with": "si elle meurt ou est {@condition Inconsciente}"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "mais que lui-même n'a pas",
+							"with": "mais qu'elle-même n'a pas"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "et il gagne les sens spéciaux",
+							"with": "et elle gagne les sens spéciaux"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "Il a préparé les sorts de druide suivants",
+							"with": "Elle a préparé les sorts de druide suivants"
+						}
+					]
 				}
 			},
 			"alignment": [
@@ -6103,9 +6358,9 @@
 				"N"
 			],
 			"languages": [
-				"Common",
-				"Druidic",
-				"Elvish"
+				"commun",
+				"druidique",
+				"elfe"
 			],
 			"traitTags": [
 				"Fey Ancestry"
@@ -6140,16 +6395,16 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the assassin",
+						"replace": "l'assassin",
 						"with": "Xarann",
 						"flags": "i"
 					},
 					"trait": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Special Equipment",
+							"name": "Équipement spécial",
 							"entries": [
-								"Xarann wears a {@item Piwafwi (Cape de l'espionnage elfique)|OotA|piwafwi}, a drow-made {@item Cape elvique}. It loses its magic if exposed to sunlight for 1 hour without interruption."
+								"Xarann porte un {@item Piwafwi (Cape de l'espionnage elfique)|OotA|piwafwi}, une {@item Cape elvique} fabriquée par les drows. Cette cape perd sa magie si elle est exposée à la lumière du soleil pendant 1 heure sans interruption."
 							]
 						}
 					}
@@ -6160,8 +6415,8 @@
 				"E"
 			],
 			"languages": [
-				"Elvish",
-				"Undercommon"
+				"elfe",
+				"undercommun"
 			],
 			"languageTags": [
 				"E",
@@ -6182,7 +6437,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the giant",
+						"replace": "le géant",
 						"with": "Xorta",
 						"flags": "i"
 					}
@@ -6203,16 +6458,16 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the githzerai",
+						"replace": "le githzerai",
 						"with": "Yrlakka",
 						"flags": "i"
 					},
 					"trait": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Special Equipment",
+							"name": "Équipement spécial",
 							"entries": [
-								"Yrlakka carries a {@item Potion of Fire Resistance||potion of resistance (fire)} in a tiny crystal vial fastened to a cord around his right ankle, and he has a {@item wand of magic detection} hanging from his belt."
+								"Yrlakka porte une {@item Potion de résistance au feu||potion de résistance (feu)} dans un minuscule flacon de cristal attaché à une corde autour de sa cheville droite, et une {@item Baguette de détection de la magie} pend à sa ceinture."
 							]
 						}
 					}
@@ -6233,7 +6488,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the death knight",
+						"replace": "le chevalier de la mort",
 						"with": "Zalthar",
 						"flags": "i"
 					},
@@ -6253,9 +6508,9 @@
 					"trait": {
 						"mode": "prependArr",
 						"items": {
-							"name": "Special Equipment",
+							"name": "Équipement spécial",
 							"entries": [
-								"Zalthar wields a {@item nine lives stealer} longsword with 5 charges remaining."
+								"Zalthar manie une épée longue {@item nine lives stealer} qui dispose encore de 5 charges."
 							]
 						}
 					},
@@ -6263,18 +6518,18 @@
 						"mode": "replaceArr",
 						"replace": "Épée longue",
 						"items": {
-							"name": "Nine Lives Stealer Longsword",
+							"name": "Épée longue voleuse de neuf vies",
 							"entries": [
-								"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) slashing damage, or 12 ({@damage 1d10 + 7}) slashing damage if used with two hands, plus 18 ({@damage 4d8}) necrotic damage."
+								"{@atk mw} {@hit 13} pour toucher, allonge 1,50 m, une cible. {@h}11 ({@damage 1d8 + 7}) dégâts tranchants, ou 12 ({@damage 1d10 + 7}) dégâts tranchants si elle est utilisée à deux mains, plus 18 ({@damage 4d8}) dégâts nécrotiques."
 							]
 						}
 					}
 				}
 			},
 			"languages": [
-				"Abyssal",
-				"Common",
-				"Deep Speech"
+				"abyssal",
+				"commun",
+				"langue profonde"
 			],
 			"tokenCustom": true,
 			"languageTags": [
@@ -6285,7 +6540,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Zorak Lightdrinker",
+			"name": "Zorak le Buveur de lumière",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WDMM",
@@ -6307,7 +6562,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"plate armor"
+						"armure de plaques"
 					]
 				}
 			],
@@ -6351,77 +6606,77 @@
 				}
 			],
 			"languages": [
-				"Common",
-				"Dwarvish"
+				"commun",
+				"nain"
 			],
 			"cr": "14",
 			"trait": [
 				{
-					"name": "Dwarven Resilience",
+					"name": "Résilience naine",
 					"entries": [
-						"Zorak has advantage on saving throws against poison, and has resistance against poison damage."
+						"Zorak a un avantage aux jets de sauvegarde contre le poison et une résistance aux dégâts de poison."
 					]
 				},
 				{
-					"name": "Shapechanger",
+					"name": "Métamorphe",
 					"entries": [
-						"If Zorak isn't in sunlight or running water, he can use his action to polymorph into a Tiny bat or a Medium cloud of mist, or back into his true form.",
-						"While in bat form, Zorak can't speak, his walking speed is 5 feet, and he has a flying speed of 30 feet. His statistics, other than his size and speed, are unchanged. Anything he is wearing transforms with it, but nothing he is carrying does. He reverts to his true form if he dies.",
-						"While in mist form, Zorak can't take any actions, speak, or manipulate objects. He is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and he can't pass through water. He has advantage on Strength, Dexterity, and Constitution saving throws, and he is immune to all nonmagical damage, except the damage he takes from sunlight."
+						"Si Zorak n'est pas exposé à la lumière du soleil ou à de l'eau vive, il peut utiliser son action pour se polymorphiser en une chauve-souris de taille T ou en un nuage de brume de taille M, ou pour reprendre sa forme véritable.",
+						"Sous forme de chauve-souris, Zorak ne peut pas parler, sa vitesse de déplacement est de 1,50 m et il possède une vitesse de vol de 9 m. Ses statistiques, hormis sa taille et sa vitesse, restent inchangées. Tout ce qu'il porte se transforme avec lui, mais pas ce qu'il transporte. Il reprend sa forme véritable s'il meurt.",
+						"Sous forme de brume, Zorak ne peut entreprendre aucune action, parler ni manipuler des objets. Il est sans poids, possède une vitesse de vol de 6 m, peut rester en vol stationnaire et peut pénétrer l'espace d'une créature hostile et s'y arrêter. De plus, si l'air peut passer par un espace, la brume peut le faire sans se faufiler, mais Zorak ne peut pas passer à travers l'eau. Il a un avantage aux jets de sauvegarde de Force, de Dextérité et de Constitution, et il est immunisé à tous les dégâts non magiques, sauf ceux qu'il subit de la lumière du soleil."
 					]
 				},
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Résistance légendaire (3/jour)",
 					"entries": [
-						"If Zorak fails a saving throw, he can choose to succeed instead."
+						"Si Zorak échoue à un jet de sauvegarde, il peut choisir de le réussir à la place."
 					]
 				},
 				{
-					"name": "Misty Escape",
+					"name": "Évasion brumeuse",
 					"entries": [
-						"When he drops to 0 hit points outside his resting place, Zorak transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition Inconscient}, provided that he isn't in sunlight or running water. If he can't transform, he is destroyed.",
-						"While he has 0 hit points in mist form, he can't revert to his vampire form, and he must reach his resting place within 2 hours or be destroyed. Once in his resting place, he reverts to his vampire form. He is then {@condition Paralysé} until he regains at least 1 hit point. After spending 1 hour in his resting place with 0 hit points, he regains 1 hit point."
+						"Lorsque Zorak tombe à 0 point de vie en dehors de son lieu de repos, il se transforme en un nuage de brume (comme avec le trait Métamorphe) au lieu de tomber {@condition Inconscient}, tant qu'il n'est pas exposé à la lumière du soleil ou à de l'eau vive. S'il ne peut pas se transformer, il est détruit.",
+						"Tant qu'il a 0 point de vie sous forme de brume, il ne peut pas reprendre sa forme de vampire et il doit rejoindre son lieu de repos en 2 heures, sinon il est détruit. Une fois dans son lieu de repos, il reprend sa forme de vampire. Il est alors {@condition Paralysé} jusqu'à ce qu'il regagne au moins 1 point de vie. Après avoir passé 1 heure dans son lieu de repos avec 0 point de vie, il regagne 1 point de vie."
 					]
 				},
 				{
-					"name": "Regeneration",
+					"name": "Régénération",
 					"entries": [
-						"Zorak regains 20 hit points at the start of his turn if he has at least 1 hit point and isn't in sunlight or running water. If Zorak takes radiant damage or damage from {@item Eau bénite (fiole)|PHB|holy water}, this trait doesn't function at the start of Zorak's next turn."
+						"Zorak regagne 20 points de vie au début de son tour s'il a au moins 1 point de vie et s'il n'est pas exposé à la lumière du soleil ou à de l'eau vive. Si Zorak subit des dégâts radiants ou des dégâts d'{@item Eau bénite (fiole)|PHB|eau bénite}, ce trait ne fonctionne pas au début du prochain tour de Zorak."
 					]
 				},
 				{
-					"name": "Spider Climb",
+					"name": "Marche arachnéenne",
 					"entries": [
-						"Zorak can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"Zorak peut escalader des surfaces difficiles, y compris se déplacer le long des plafonds la tête en bas, sans avoir besoin de faire un test de caractéristique."
 					]
 				},
 				{
-					"name": "Vampire Weaknesses",
+					"name": "Faiblesses de vampire",
 					"entries": [
-						"Zorak has the following flaws:",
+						"Zorak possède les défauts suivants :",
 						{
 							"type": "list",
 							"style": "list-hang-subtrait",
 							"items": [
 								{
 									"type": "itemSub",
-									"name": "Forbiddance",
-									"entry": "Zorak can't enter a residence without an invitation from one of the occupants."
+									"name": "Interdiction",
+									"entry": "Zorak ne peut pas pénétrer dans une résidence sans y être invité par l'un des occupants."
 								},
 								{
 									"type": "itemSub",
-									"name": "Harmed by Running Water",
-									"entry": "Zorak takes 20 acid damage if he ends his turn in running water."
+									"name": "Blessé par l'eau vive",
+									"entry": "Zorak subit 20 dégâts acides s'il termine son tour dans de l'eau vive."
 								},
 								{
 									"type": "itemSub",
-									"name": "Stake to the Heart",
-									"entry": "If a piercing weapon made of wood is driven into Zorak's heart while Zorak is {@condition Incapable} in his resting place, Zorak is {@condition Paralysé} until the stake is removed."
+									"name": "Pieu dans le cœur",
+									"entry": "Si une arme perforante en bois est enfoncée dans le cœur de Zorak alors qu'il est {@condition Incapable} dans son lieu de repos, Zorak est {@condition Paralysé} tant que le pieu n'est pas retiré."
 								},
 								{
 									"type": "itemSub",
-									"name": "Sunlight Hypersensitivity",
-									"entry": "Zorak takes 20 radiant damage when he starts his turn in sunlight. While in sunlight, he has disadvantage on attack rolls and ability checks"
+									"name": "Hypersensibilité à la lumière du soleil",
+									"entry": "Zorak subit 20 dégâts radiants lorsqu'il commence son tour en pleine lumière du soleil. Tant qu'il est exposé à la lumière du soleil, il a un désavantage aux jets d'attaque et aux tests de caractéristique."
 								}
 							]
 						}
@@ -6430,66 +6685,66 @@
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Attaques multiples",
 					"entries": [
-						"Zorak makes two attacks with his {@item Lanceur nain}, only one of which can be a ranged attack."
+						"Zorak effectue deux attaques avec son {@item Lanceur nain}, dont une seule peut être une attaque à distance."
 					]
 				},
 				{
-					"name": "Dwarven Thrower",
+					"name": "Lanceur nain",
 					"entries": [
-						"{@atk mw,rw} {@hit 12} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}11 ({@damage 1d8 + 7}) bludgeoning damage, or 12 ({@damage 1d10 + 7}) bludgeoning damage when used with two hands to make a melee attack. On a ranged attack that hits, the hammer deals an extra {@damage 1d8} bludgeoning damage ({@damage 2d8} if the target is a giant). {@hom}If thrown, the weapon flies back to Zorak's hand after the attack."
+						"{@atk mw,rw} {@hit 12} pour toucher, allonge 1,50 m ou portée 6/18 m, une cible. {@h}11 ({@damage 1d8 + 7}) dégâts contondants, ou 12 ({@damage 1d10 + 7}) dégâts contondants lorsqu'il est utilisé à deux mains pour effectuer une attaque au corps à corps. Lors d'une attaque à distance qui touche, le marteau inflige {@damage 1d8} dégâts contondants supplémentaires ({@damage 2d8} si la cible est un géant). {@hom}S'il est lancé, l'arme revient dans la main de Zorak après l'attaque."
 					]
 				},
 				{
-					"name": "Multiattack (Vampire Form Only)",
+					"name": "Attaques multiples (forme de vampire uniquement)",
 					"entries": [
-						"Zorak makes two attacks, only one of which can be a bite attack."
+						"Zorak effectue deux attaques, dont une seule peut être une attaque de morsure."
 					]
 				},
 				{
-					"name": "Unarmed Strike (Vampire Form Only)",
+					"name": "Frappe à mains nues (forme de vampire uniquement)",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, Zorak can grapple the target (escape {@dc 18})."
+						"{@atk mw} {@hit 9} pour toucher, allonge 1,50 m, une créature. {@h}8 ({@damage 1d8 + 4}) dégâts contondants. Au lieu d'infliger des dégâts, Zorak peut agripper la cible (évasion {@dc 18})."
 					]
 				},
 				{
-					"name": "Bite (Bat or Vampire Form Only)",
+					"name": "Morsure (formes de chauve-souris ou vampire uniquement)",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition Agrippé} by Zorak, {@condition Incapable}, or {@condition Entravé}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Zorak regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces his hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature Vampire serviteur} under Zorak's control."
+						"{@atk mw} {@hit 9} pour toucher, allonge 1,50 m, une créature consentante, ou une créature {@condition Agrippé} par Zorak, {@condition Incapable} ou {@condition Entravé}. {@h}7 ({@damage 1d6 + 4}) dégâts perforants plus 10 ({@damage 3d6}) dégâts nécrotiques. Le maximum de points de vie de la cible est réduit d'un montant égal aux dégâts nécrotiques subis, et Zorak regagne un nombre de points de vie égal à ce montant. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0. Un humanoïde tué de cette manière puis enterré en terre se relève la nuit suivante en tant que {@creature Vampire serviteur} sous le contrôle de Zorak."
 					]
 				},
 				{
-					"name": "Charm",
+					"name": "Charmement",
 					"entries": [
-						"Zorak targets one humanoid he can see within 30 feet of it. If the target can see Zorak, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition Charmé} by Zorak. The {@condition Charmé} target regards Zorak as a trusted friend to be heeded and protected. Although the target isn't under Zorak's control, it takes Zorak's requests or actions in the most favorable way it can, and it is a willing target for Zorak's bite attack.",
-						"Each time Zorak or Zorak's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Zorak is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+						"Zorak cible un humanoïde qu'il peut voir à 9 m de lui ou moins. Si la cible peut voir Zorak, elle doit réussir un jet de sauvegarde de Sagesse {@dc 17} contre cette magie, sinon elle est {@condition Charmé} par Zorak. La cible {@condition Charmé} considère Zorak comme un ami de confiance qu'il faut écouter et protéger. Bien que la cible ne soit pas sous le contrôle de Zorak, elle interprète les demandes ou les actions de Zorak de la manière la plus favorable possible, et elle est une cible consentante pour l'attaque de morsure de Zorak.",
+						"Chaque fois que Zorak ou ses compagnons font quelque chose de nuisible à la cible, celle-ci peut retenter le jet de sauvegarde, mettant fin à l'effet qui l'affecte en cas de réussite. Sinon, l'effet dure 24 heures ou jusqu'à ce que Zorak soit détruit, se trouve sur un plan d'existence différent de celui de la cible, ou utilise une action bonus pour mettre fin à l'effet."
 					]
 				},
 				{
-					"name": "Children of the Night (1/Day)",
+					"name": "Enfants de la nuit (1/jour)",
 					"entries": [
-						"Zorak magically calls {@dice 2d4} swarms of {@creature Nuée de chauves-souris||bats} or {@creature Nuée de rats||rats}, provided that the sun isn't up. While outdoors, Zorak can call {@dice 3d6} {@creature Loup||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of Zorak and obeying his spoken commands. The beasts remain for 1 hour, until Zorak dies, or until Zorak dismisses them as a bonus action."
+						"Zorak appelle par magie {@dice 2d4} nuées de {@creature Nuée de chauves-souris||chauves-souris} ou de {@creature Nuée de rats||rats}, à condition que le soleil ne soit pas levé. En extérieur, Zorak peut plutôt appeler {@dice 3d6} {@creature Loup||loups}. Les créatures appelées arrivent en {@dice 1d4} tours, agissent comme ses alliées et obéissent à ses ordres verbaux. Les bêtes restent pendant 1 heure, jusqu'à la mort de Zorak, ou jusqu'à ce que Zorak les renvoie par une action bonus."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Move",
+					"name": "Déplacement",
 					"entries": [
-						"Zorak moves up to his speed without provoking opportunity attacks."
+						"Zorak se déplace d'une distance allant jusqu'à sa vitesse sans provoquer d'attaques d'opportunité."
 					]
 				},
 				{
-					"name": "Unarmed Strike",
+					"name": "Frappe à mains nues",
 					"entries": [
-						"Zorak makes one unarmed strike."
+						"Zorak effectue une frappe à mains nues."
 					]
 				},
 				{
-					"name": "Bite (Costs 2 Actions)",
+					"name": "Morsure (coûte 2 actions)",
 					"entries": [
-						"Zorak makes one bite attack."
+						"Zorak effectue une attaque de morsure."
 					]
 				}
 			],
@@ -6554,7 +6809,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "l'archimage",
 						"with": "Zox",
 						"flags": "i"
 					},
@@ -6565,7 +6820,7 @@
 								{
 									"replace": "{@spell Bannissement}",
 									"with": [
-										"{@spell confusion}"
+										"{@spell Confusion}"
 									]
 								}
 							]
@@ -6578,12 +6833,12 @@
 				"G"
 			],
 			"languages": [
-				"Aquan",
-				"Auran",
-				"Common",
-				"Gnomish",
-				"Ignan",
-				"Terran"
+				"aquatique",
+				"aérien",
+				"commun",
+				"gnome",
+				"igné",
+				"terrestre"
 			],
 			"tokenCustom": true,
 			"senseTags": [
@@ -6612,14 +6867,34 @@
 					"*": [
 						{
 							"mode": "replaceTxt",
-							"replace": "the drow",
+							"replace": "le drow",
 							"with": "Zress",
 							"flags": "i"
 						},
 						{
 							"mode": "replaceTxt",
-							"replace": "\\bhis\\b",
-							"with": "her"
+							"replace": "Tant qu'il est exposé à la lumière du soleil",
+							"with": "Tant qu'elle est exposée à la lumière du soleil"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "Il peut lancer de manière innée",
+							"with": "Elle peut lancer de manière innée"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "qu'il peut voir à 9 m de lui ou moins",
+							"with": "qu'elle peut voir à 9 m d'elle ou moins"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "qui devrait le toucher",
+							"with": "qui devrait la toucher"
+						},
+						{
+							"mode": "replaceTxt",
+							"replace": "(sur lui-même)",
+							"with": "(sur elle-même)"
 						}
 					]
 				}

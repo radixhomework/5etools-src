@@ -1,7 +1,5 @@
 services:
   5e-tools:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: .
     ports:
       - "${PORT}:80"

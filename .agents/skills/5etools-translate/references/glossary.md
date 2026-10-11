@@ -46,6 +46,25 @@ Settled translations. Do not re-coin these; append new coinages at the end of ea
 
 ## Monsters & creatures
 
+### Reference: aidedd.org
+
+Before coining a monster name, check aidedd.org (the reference French 5e site):
+EN detail pages at `aidedd.org/dnd/monstres.php?vo=<english-slug>` carry an
+`hreflang='fr'` alternate (`?vf=<french-slug>`) whose page title gives the
+established French name. Adopt it unless it contradicts a repo-anchored base
+name (our bestiary-mm.json wins for base species: « Géant de la pierre »,
+« Géant de la tempête », even though aidedd says « Géant des pierres » /
+« Géant des tempêtes »).
+
+Settled via aidedd during the BGG campaign: Cinder Hulk « Mastodonte de
+cendre », hulks = « Mastodonte de … », Scion of X = « Héritier de X »,
+Barrowghast « Goulu », Bag Jelly « Musetard », Cairnwight « Spectrifié »,
+Firegaunt « Calcinant », Fire Hellion « Diablion de feu », Frostmourn
+« Deuilgivre », Titanothere « Titanothère », Troll Amalgam « Amalgame
+trollesque », Troll Mutate « Mutation trollesque », Gigant « Gigantoptère »,
+Goliath Giant-Kin « Goliath géantisé », Giant Ox « Buffle géant », "of Evil X"
+= « du Mal aérien/igné/hydrique/terreux ».
+
 | EN | FR |
 |---|---|
 | swarm (creature name) | Nuée de… (matches MM FR) |

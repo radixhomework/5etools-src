@@ -323,14 +323,14 @@
 							"items": [
 								"{@creature Animated Rug of Smothering|XMM}",
 								"{@creature Bandit|XMM}",
-								"{@creature Bugbear Warrior|XMM}",
+								"{@creature Gobelours Warrior|XMM}",
 								"{@creature Cockatrice|XMM}",
 								"{@creature Roturier|XMM}",
 								"{@creature Dryade|XMM}",
 								"{@creature Goblin Warrior|XMM}",
 								"{@creature Dragon d'or (jeune)|XMM}",
-								"{@creature Mégère verte|XMM}",
-								"{@creature Méphrite de glace|XMM|Mephit, Ice}",
+								"{@creature Guenaude verte|XMM}",
+								"{@creature Méphite gelé|XMM|Mephit, Ice}",
 								"{@creature Momie|XMM}",
 								"{@creature Ogre|XMM}",
 								"{@creature Tough|XMM}"
@@ -374,7 +374,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Bugbear Warrior",
+							"name": "Gobelours Warrior",
 							"prop": "monsterFluff",
 							"source": "XMM",
 							"data": {
@@ -385,7 +385,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Bugbear Warrior",
+							"name": "Gobelours Warrior",
 							"tag": "creature",
 							"source": "XMM",
 							"style": "narrow"
@@ -644,7 +644,7 @@
 								[
 									"{@area Uncle Nibblecheek|06a|x}",
 									"Sinister hag with a sweet tooth",
-									"{@creature Mégère verte|XMM}",
+									"{@creature Guenaude verte|XMM}",
 									"{@area C10|0a7|x}"
 								]
 							]
@@ -1785,8 +1785,8 @@
 												"Rhythmic, rubbery slapping sounds fill this noisy room. Two burly, fur-covered humanoids wearing gloves and hairnets heap globs of a gum-like substance into a contraption at the back of the room. The machine's frenzied mechanical arms stretch and twist the brightly colored substance into ropes of taffy. Meanwhile, a third worker snips the taffy, wraps it, and sorts it by flavor into one of three buckets."
 											]
 										},
-										"Three {@creature Bugbear Warrior|XMM|Bugbear Warriors} make taffy in this room. The bugbears work for Uncle Nibblecheek and are Hostile toward intruders. In combat, they attempt to shove characters into the taffy puller (described below).",
-										"A character can take the {@action Influence|XPHB} action and make a {@dc 12} Charisma ({@skill Tromperie|XPHB}) check to try to fool the bugbears into thinking the character is a guest of Uncle Nibblecheek. Bugbears fooled into believing this lie become Indifferent toward that character.",
+										"Three {@creature Gobelours Warrior|XMM|Gobelours Warriors} make taffy in this room. The gobelourss work for Uncle Nibblecheek and are Hostile toward intruders. In combat, they attempt to shove characters into the taffy puller (described below).",
+										"A character can take the {@action Influence|XPHB} action and make a {@dc 12} Charisma ({@skill Tromperie|XPHB}) check to try to fool the gobelourss into thinking the character is a guest of Uncle Nibblecheek. Gobelourss fooled into believing this lie become Indifferent toward that character.",
 										{
 											"type": "entries",
 											"name": "Taffy",
@@ -1983,7 +1983,7 @@
 											"page": 38,
 											"id": "0a8",
 											"entries": [
-												"A toothless hag resembling a ghastly, green-skinned old man in a stained baking apron dashes between pots of boiling sugar and cluttered countertops. Chocolate toads, glittery jars of still-fluttering gossamer wings, and other bizarre-looking ingredients crowd the work surfaces. In the southwest corner, a staircase made of chocolate planks leads downward.The kitchen's main feature is a massive, wood-fired, metal oven festooned with rubies. Its hinged door is open, revealing roaring flames."
+												"A toothless hag resembling a blêmely, green-skinned old man in a stained baking apron dashes between pots of boiling sugar and cluttered countertops. Chocolate toads, glittery jars of still-fluttering gossamer wings, and other bizarre-looking ingredients crowd the work surfaces. In the southwest corner, a staircase made of chocolate planks leads downward.The kitchen's main feature is a massive, wood-fired, metal oven festooned with rubies. Its hinged door is open, revealing roaring flames."
 											]
 										},
 										{
@@ -1994,7 +1994,7 @@
 												"Curled atop the oven lies a gold dragon the size of a large dog. The dragon's eyes look cloudy and white.The hag senses your intrusion, whips around, and says, \"Hey! Who let you in here?\""
 											]
 										},
-										"Uncle Nibblecheek, an irritable {@creature Mégère verte|XMM}, works in this busy kitchen. The hag is initially Indifferent toward the characters but can't abide guests in his kitchen; the longer they linger here, the more irritable he becomes until his attitude shifts to Hostile.",
+										"Uncle Nibblecheek, an irritable {@creature Guenaude verte|XMM}, works in this busy kitchen. The hag is initially Indifferent toward the characters but can't abide guests in his kitchen; the longer they linger here, the more irritable he becomes until his attitude shifts to Hostile.",
 										"If the characters fight Uncle Nibblecheek, he claps his hands and commands the dragon wyrmling to defend him (see \"Briochebane\" below). The hag then fights until {@status Meurtri|XPHB}, at which point he bargains for his life (see \"{@area Parleying with the Hag|0ac|x}\"). If Uncle Nibblecheek is slain, all creatures candied by his magic (see \"{@area Candied Creatures|085|x}\") revert to their former forms.",
 										"Fighting both the dragon and the hag might not end in the characters' favor. If the characters are defeated, they wake up imprisoned in the dungeon (area {@area C15|0be|x}), each with 1 {@variantrule Hit Points|XPHB|Hit Point}.",
 										{
@@ -2170,7 +2170,7 @@
 												"This tomb contains a sarcophagus made of hard candy. Two statues formed of crystalline sugar and coconut stand on either side of the sarcophagus amid a trove of gold coins and other precious objects. An inscription on the wall above the sarcophagus reads, \"May death curse all who interrupt my rest.\""
 											]
 										},
-										"This tomb honors a selfish prince cursed by Uncle Nibblecheek. Now a gummy {@creature Momie|XMM}, the prince lies within the sarcophagus, guarded by two coconut {@creature Méphrite de glace|XMM|Ice Mephits}. A character can lift or push aside the sarcophagus lid with a successful {@dc 15} Strength ({@skill Athlétisme|XPHB}) check.",
+										"This tomb honors a selfish prince cursed by Uncle Nibblecheek. Now a gummy {@creature Momie|XMM}, the prince lies within the sarcophagus, guarded by two coconut {@creature Méphite gelé|XMM|Ice Mephits}. A character can lift or push aside the sarcophagus lid with a successful {@dc 15} Strength ({@skill Athlétisme|XPHB}) check.",
 										"If the characters disturb the sarcophagus or the treasure, the gummy prince emerges from his sarcophagus and engages the characters in combat. The mephits join the fray.",
 										{
 											"type": "entries",

@@ -322,24 +322,24 @@
 							"type": "list",
 							"columns": 2,
 							"items": [
-								"{@creature Fléau des brindilles|XMM|Blight, Twig}",
-								"{@creature Fléau de la vigne|XMM|Blight, Vine}",
+								"{@creature Nielleux|XMM|Blight, Twig}",
+								"{@creature Lierreux|XMM|Blight, Vine}",
 								"{@creature Roturier|XMM}",
 								"{@creature Dryade|XMM}",
 								"{@creature Dragon vert (jeune)|XMM}",
 								"{@creature Garde|XMM}",
-								"{@creature Méphite de boue|XMM|Mud Mephits}",
+								"{@creature Méphite boueux|XMM|Mud Mephits}",
 								"{@creature Noble|XMM}",
 								"{@creature Priest Acolyte|XMM}",
 								"{@creature Éclaireur|XMM}",
 								"{@creature Yuan-ti malisson (type 1)|XMM}",
-								"{@creature Zombie|XMM}",
+								"{@creature Zombi|XMM}",
 								"{@b Animals}:",
 								{
 									"type": "list",
 									"items": [
 										"{@creature Serpent constricteur|XMM}",
-										"{@creature Scutigère géante|XMM}",
+										"{@creature Mille-pattes géant|XMM}",
 										"{@creature Giant Venomous Snake|XMM}",
 										"{@creature Molosse|XMM}",
 										"{@creature Nuée d'insectes|XMM}",
@@ -1691,7 +1691,7 @@
 												],
 												[
 													"3",
-													"\"Don't wander the forest alone! Evil trees grow there now.\" [Partially true; the dragon's influence has encouraged the growth of many forest blights, including the {@creature Fléau de la vigne|XMM} and {@creature Fléau des brindilles|XMM} in area {@area L4|053|x}.]"
+													"\"Don't wander the forest alone! Evil trees grow there now.\" [Partially true; the dragon's influence has encouraged the growth of many forest blights, including the {@creature Lierreux|XMM} and {@creature Nielleux|XMM} in area {@area L4|053|x}.]"
 												],
 												[
 													"4",
@@ -1915,7 +1915,7 @@
 											]
 										},
 										"The stream running through the grove has made this area thick with stinking, poisonous mud. The mud is {@variantrule Difficult Terrain|XPHB}. A creature that ends its turn in the mud must succeed on a {@dc 10} Constitution saving throw or have the {@condition Empoisonné|XPHB} condition until the start of its next turn.",
-										"Three {@creature Méphite de boue|XMM|Mud Mephits} hide in the mud, drawn here by the dragon's latent evil magic. The mephits stay hidden until at least one character enters the mud, then they ambush the characters. If two mephits are destroyed, the third tries to escape."
+										"Three {@creature Méphite boueux|XMM|Mud Mephits} hide in the mud, drawn here by the dragon's latent evil magic. The mephits stay hidden until at least one character enters the mud, then they ambush the characters. If two mephits are destroyed, the third tries to escape."
 									]
 								},
 								{
@@ -1932,7 +1932,7 @@
 												"A sickly redwood stands here, its trunk surrounded by fetid undergrowth."
 											]
 										},
-										"The forest's corruption has attracted a nest of deadly centipedes that hide in the tree's bark. When a character moves next to the tree, a {@creature Nuée d'insectes|XMM} (centipedes) and a {@creature Scutigère géante|XMM} skitter from behind the bark and roots to fight the characters."
+										"The forest's corruption has attracted a nest of deadly centipedes that hide in the tree's bark. When a character moves next to the tree, a {@creature Nuée d'insectes|XMM} (centipedes) and a {@creature Mille-pattes géant|XMM} skitter from behind the bark and roots to fight the characters."
 									]
 								},
 								{
@@ -1949,9 +1949,9 @@
 												"To the northeast of this redwood is a burned-out campfire, around which are three humanoid corpses. They are beginning to decay, and black streaks mar their rotting flesh. One corpse leans against the tree, insects crawling around its open, blackened mouth. Another lies on its side under a blanket, and a third is curled inside a stinking bedroll."
 											]
 										},
-										"The three corpses here are actually {@creature Zombie|XMM|Zombies} animated by the corrupted forest's foul energies. The zombies attack when a character moves within 5 feet of one of the zombies or when a character tries to take a tree bark sample from the redwood.",
-										"As a {@action Chercher|XPHB} action, a character within 10 feet of a zombie can assess the body and make a {@dc 14} Wisdom ({@skill Médecine|XPHB}) check. On a success, the character determines that the zombies originally died from drinking the poisoned water in the nearby stream.",
-										"If the characters were told the first rumor on the {@adventure Village Green Rumors|DrDe-DaS|1|Village Green Rumors} table, they can surmise that these zombies were formerly the bandits who were robbing folks on the forest's edge.",
+										"The three corpses here are actually {@creature Zombi|XMM|Zombis} animated by the corrupted forest's foul energies. The zombis attack when a character moves within 5 feet of one of the zombis or when a character tries to take a tree bark sample from the redwood.",
+										"As a {@action Chercher|XPHB} action, a character within 10 feet of a zombi can assess the body and make a {@dc 14} Wisdom ({@skill Médecine|XPHB}) check. On a success, the character determines that the zombis originally died from drinking the poisoned water in the nearby stream.",
+										"If the characters were told the first rumor on the {@adventure Village Green Rumors|DrDe-DaS|1|Village Green Rumors} table, they can surmise that these zombis were formerly the bandits who were robbing folks on the forest's edge.",
 										{
 											"type": "entries",
 											"name": "Mysterious Footprints",
@@ -3301,7 +3301,7 @@
 												"Thick roots and dry, brittle twigs jut from the earthen walls of this cavern."
 											]
 										},
-										"A {@creature Fléau de la vigne|XMM} and a {@creature Fléau des brindilles|XMM} remain motionless here until a character ventures more than 10 feet into this area. The blights then advance toward the characters and fight to the death."
+										"A {@creature Lierreux|XMM} and a {@creature Nielleux|XMM} remain motionless here until a character ventures more than 10 feet into this area. The blights then advance toward the characters and fight to the death."
 									]
 								},
 								{
@@ -3318,7 +3318,7 @@
 												"Many-legged bugs swarm over the north and south walls of this long cavern."
 											]
 										},
-										"Two {@creature Nuée d'insectes|XMM|Swarms of Insects} (centipedes) and two {@creature Scutigère géante|XMM|Giant Centipedes} crawl across these walls. The insects fight any creature that moves within 5 feet of the north or south wall in this area."
+										"Two {@creature Nuée d'insectes|XMM|Swarms of Insects} (centipedes) and two {@creature Mille-pattes géant|XMM|Giant Centipedes} crawl across these walls. The insects fight any creature that moves within 5 feet of the north or south wall in this area."
 									]
 								},
 								{

@@ -1910,19 +1910,19 @@
 			"source": "WDMM",
 			"page": 275,
 			"_copy": {
-				"name": "Planétaire",
+				"name": "Planétar",
 				"source": "MM",
 				"_mod": {
 					"*": [
 						{
 							"mode": "replaceTxt",
-							"replace": "du planétaire",
+							"replace": "du planétar",
 							"with": "de Fazrian",
 							"flags": "i"
 						},
 						{
 							"mode": "replaceTxt",
-							"replace": "(l|L)e planétaire",
+							"replace": "(l|L)e planétar",
 							"with": "Fazrian",
 							"flags": "i"
 						}
@@ -2122,7 +2122,7 @@
 			"source": "WDMM",
 			"page": 241,
 			"_copy": {
-				"name": "Gluant géant",
+				"name": "Cube gélatineux",
 				"source": "MM",
 				"_mod": {
 					"trait": [
@@ -2603,12 +2603,12 @@
 			"source": "WDMM",
 			"page": 129,
 			"_copy": {
-				"name": "Horreur blindée",
+				"name": "Horreur casquée",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "blindée",
+						"replace": "casquée",
 						"with": "Halaster"
 					},
 					"trait": {
@@ -2882,11 +2882,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Gluant gris énorme",
+			"name": "Vase grise énorme",
 			"source": "WDMM",
 			"page": 243,
 			"_copy": {
-				"name": "Gluant gris",
+				"name": "Vase grise",
 				"source": "MM"
 			},
 			"size": [
@@ -3186,7 +3186,7 @@
 						"items": {
 							"name": "Enfants de la nuit (1/jour)",
 							"entries": [
-								"Keresta appelle magiquement {@dice 2d4} nuées de {@creature Nuée de chauves-souris||chauves-souris} ou de {@creature Nuée de rats||rats}, pourvu que le soleil ne soit pas levé. En extérieur, Keresta peut plutôt appeler {@dice 3d6} {@creature Scutigère géante||mille-pattes géants}. Les créatures appelées arrivent en {@dice 1d4} rounds, se comportent comme des alliées de Keresta et obéissent à ses commandes vocales. Les bêtes restent pendant 1 heure, jusqu'à ce que Keresta meure, ou jusqu'à ce qu'elle les renvoie par une action bonus."
+								"Keresta appelle magiquement {@dice 2d4} nuées de {@creature Nuée de chauves-souris||chauves-souris} ou de {@creature Nuée de rats||rats}, pourvu que le soleil ne soit pas levé. En extérieur, Keresta peut plutôt appeler {@dice 3d6} {@creature Mille-pattes géant||mille-pattes géants}. Les créatures appelées arrivent en {@dice 1d4} rounds, se comportent comme des alliées de Keresta et obéissent à ses commandes vocales. Les bêtes restent pendant 1 heure, jusqu'à ce que Keresta meure, ou jusqu'à ce qu'elle les renvoie par une action bonus."
 							]
 						}
 					}
@@ -3667,13 +3667,13 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Homuncule de Maddgoth",
+			"name": "Homoncule de Maddgoth",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WDMM",
 			"page": 96,
 			"_copy": {
-				"name": "Homuncule",
+				"name": "Homoncule",
 				"source": "MM",
 				"_mod": {
 					"action": {
@@ -4226,12 +4226,12 @@
 			"source": "WDMM",
 			"page": 52,
 			"_copy": {
-				"name": "Zombie beholder",
+				"name": "Zombi tyrannoeil",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "le zombie",
+						"replace": "le zombi",
 						"with": "Nerozar",
 						"flags": "i"
 					},
@@ -4241,7 +4241,7 @@
 						"items": {
 							"name": "Rayon oculaire",
 							"entries": [
-								"Le zombie utilise un rayon oculaire magique aléatoire, en choisissant une cible qu'il peut voir à 18 m de lui ou moins.",
+								"Le zombi utilise un rayon oculaire magique aléatoire, en choisissant une cible qu'il peut voir à 18 m de lui ou moins.",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
@@ -4264,7 +4264,7 @@
 										{
 											"type": "itemSub",
 											"name": "4. Rayon de télékinésie",
-											"entry": "Si la cible est une créature, elle doit réussir une sauvegarde de Force {@dc 14} ; sinon, le zombie la déplace sur une distance allant jusqu'à 9 m dans n'importe quelle direction. Elle est {@condition Entravé} par l'étreinte télékinésique du rayon jusqu'au début du prochain tour du zombie ou jusqu'à ce que le zombie soit {@condition Incapable}. Si la cible est un objet pesant 140 kg ou moins qui n'est ni porté ni transporté, il est déplacé sur une distance allant jusqu'à 9 m dans n'importe quelle direction. Le zombie peut également exercer un contrôle fin sur les objets avec ce rayon, comme manipuler un outil simple ou ouvrir une porte ou un conteneur."
+											"entry": "Si la cible est une créature, elle doit réussir une sauvegarde de Force {@dc 14} ; sinon, le zombi la déplace sur une distance allant jusqu'à 9 m dans n'importe quelle direction. Elle est {@condition Entravé} par l'étreinte télékinésique du rayon jusqu'au début du prochain tour du zombi ou jusqu'à ce que le zombi soit {@condition Incapable}. Si la cible est un objet pesant 140 kg ou moins qui n'est ni porté ni transporté, il est déplacé sur une distance allant jusqu'à 9 m dans n'importe quelle direction. Le zombi peut également exercer un contrôle fin sur les objets avec ce rayon, comme manipuler un outil simple ou ouvrir une porte ou un conteneur."
 										}
 									]
 								}
@@ -4504,12 +4504,12 @@
 			"source": "WDMM",
 			"page": 127,
 			"_copy": {
-				"name": "Weird d'eau",
+				"name": "Sentinelle d'eau",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "weird d'eau",
+						"replace": "sentinelle d'eau",
 						"with": "weird de poison"
 					}
 				}
@@ -5928,7 +5928,7 @@
 			"source": "WDMM",
 			"page": 142,
 			"_copy": {
-				"name": "Shambling Mound",
+				"name": "Tertre errant",
 				"source": "MM"
 			},
 			"type": "undead",
@@ -6432,7 +6432,7 @@
 			"source": "WDMM",
 			"page": 98,
 			"_copy": {
-				"name": "Géant de pierre",
+				"name": "Géant des pierres",
 				"source": "MM",
 				"_mod": {
 					"*": {

@@ -313,7 +313,7 @@
 							"items": [
 								"{@creature Archpriest|XMM}",
 								"{@creature Béhir|XMM}",
-								"{@creature Berseker|XMM}",
+								"{@creature Berserker|XMM}",
 								"{@creature Bulette|XMM}",
 								"{@creature Chimère|XMM}",
 								"{@creature Cyclops Sentry|XMM}",
@@ -321,14 +321,14 @@
 								"{@creature Élémentaire du Feu|XMM}",
 								"{@creature Crâne flamboyant|XMM}",
 								"{@creature Chevalier githyanki|XMM}",
-								"{@creature Mégère verte|XMM}",
+								"{@creature Guenaude verte|XMM}",
 								"{@creature Grick Ancient|XMM}",
 								"{@creature Garde|XMM}",
 								"{@creature Géant des collines|XMM}",
 								"{@creature Hydre|XMM}",
 								"{@creature Manticore|XMM}",
-								"{@creature Marid|XMM}",
-								"{@creature Méphrite de fumée|XMM|Mephit, Smoke}",
+								"{@creature Maride|XMM}",
+								"{@creature Méphite fumant|XMM|Mephit, Smoke}",
 								"{@creature Flagelleur mental|XMM}",
 								"{@creature Noble|XMM}",
 								"{@creature Noble Prodigy|XMM}",
@@ -336,9 +336,9 @@
 								"{@creature Dragon rouge (jeune)|XMM|Red Dragon, Young}",
 								"{@creature Roc|XMM}",
 								"{@creature Flaming Skeleton|XMM|Skeleton, Flaming}",
-								"{@creature Naga esprit|XMM}",
+								"{@creature Naga corrupteur|XMM}",
 								"{@creature Tough Boss|XMM}",
-								"{@creature Treant|XMM}",
+								"{@creature Sylvanien|XMM}",
 								"{@creature Troll|XMM}",
 								"{@creature Yuan-ti malisson (type 3)|XMM}"
 							]
@@ -633,7 +633,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Marid",
+							"name": "Maride",
 							"prop": "monsterFluff",
 							"source": "XMM",
 							"data": {
@@ -644,7 +644,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Marid",
+							"name": "Maride",
 							"tag": "creature",
 							"source": "XMM",
 							"style": "narrow"
@@ -831,7 +831,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Treant",
+							"name": "Sylvanien",
 							"prop": "monsterFluff",
 							"source": "XMM",
 							"data": {
@@ -842,7 +842,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Treant",
+							"name": "Sylvanien",
 							"tag": "creature",
 							"source": "XMM",
 							"style": "narrow"
@@ -915,13 +915,13 @@
 								[
 									"Deathkiss, Demondream, and Murderbliss",
 									"Allies of Xabazhut",
-									"{@creature Mégère verte|XMM}",
+									"{@creature Guenaude verte|XMM}",
 									"{@area G15|275|x}"
 								],
 								[
 									"Duban",
 									"Ozzadraz's unwilling servant",
-									"{@creature Marid|XMM}",
+									"{@creature Maride|XMM}",
 									"{@area G25|296|x}"
 								],
 								[
@@ -933,13 +933,13 @@
 								[
 									"Gree",
 									"Javek Horn's human ancestor, long missing",
-									"{@creature Berseker|XMM} (Small)",
+									"{@creature Berserker|XMM} (Small)",
 									"{@area G21|289|x}"
 								],
 								[
 									"Hate's Embrace",
 									"Garden guardian",
-									"{@creature Naga esprit|XMM}",
+									"{@creature Naga corrupteur|XMM}",
 									"{@area G6|252|x}"
 								],
 								[
@@ -968,8 +968,8 @@
 								],
 								[
 									"Zumzn",
-									"Githyanki transformed into a treant",
-									"{@creature Treant|XMM} (Neutral)",
+									"Githyanki transformed into a sylvanien",
+									"{@creature Sylvanien|XMM} (Neutral)",
 									"{@area G24|291|x}"
 								]
 							]
@@ -995,7 +995,7 @@
 								"{@b Kh'krai}, a mage, was responsible for much of the magic in the gardens. He attempted to overthrow Ozzadraz and was killed.",
 								"{@b Ozzadraz} was the military commander of the githyanki exiles and ruler of their kingdom. After the realm fell, he entered a state of suspended animation and lies in state within the first tier of the gardens (area {@area G12|264|x}).",
 								"{@b Suthket} designed the gardens. She sided with Kh'krai in his revolt and also was killed.",
-								"{@b Zumzn} was responsible for cultivating the gardens. Ultimately, she became one with the plants she tended, transforming into a treant who now guards the top tier of the gardens (area {@area G24|291|x})."
+								"{@b Zumzn} was responsible for cultivating the gardens. Ultimately, she became one with the plants she tended, transforming into a sylvanien who now guards the top tier of the gardens (area {@area G24|291|x})."
 							]
 						}
 					]
@@ -1509,7 +1509,7 @@
 									"page": 111,
 									"id": "22b",
 									"entries": [
-										"Skirting the wildfire by land involves moving into mountainous terrain and adding several extra miles to the characters' trip. About one hour into the journey, the characters encounter a group of fiery monsters\u2014three {@creature Élémentaire du Feu|XMM|Fire Elementals} and five {@creature Méphrite de fumée|XMM|Smoke Mephits}\u2014that emerge from the flames to fight them.",
+										"Skirting the wildfire by land involves moving into mountainous terrain and adding several extra miles to the characters' trip. About one hour into the journey, the characters encounter a group of fiery monsters\u2014three {@creature Élémentaire du Feu|XMM|Fire Elementals} and five {@creature Méphite fumant|XMM|Smoke Mephits}\u2014that emerge from the flames to fight them.",
 										"If the characters are able to keep the entire party aloft for 2 miles of travel, they could travel over the fire instead. For every hour a creature spends in the air above the wildfire, it makes a {@dc 10} Constitution saving throw. On a failed save, the creature gains 1 {@condition Épuisement|XPHB} level from exposure to the heat and smoke."
 									]
 								},
@@ -2681,7 +2681,7 @@
 												"An enormous serpentine horror slithers between the north and south walls of this room, which are lined with massive trees carved from green marble. In the alcoves between them, a variety of objects\u2014weapons, a shield, an urn, and the like\u2014rest on pedestals. Green and blue tiles on the floor suggest a river flowing through a fertile delta."
 											]
 										},
-										"A {@creature Naga esprit|XMM} called Hate's Embrace dwells in this grand hall, placed here by Ozzadraz long ago to guard the githyanki exiles' most sacred objects. The naga resents and fears Xabazhut and Ozzadraz, but with the dragon in its lair (or out spreading wildfires around the countryside) and the githyanki leader in suspended animation, the naga enjoys unimpeded access to the first tier of the gardens.",
+										"A {@creature Naga corrupteur|XMM} called Hate's Embrace dwells in this grand hall, placed here by Ozzadraz long ago to guard the githyanki exiles' most sacred objects. The naga resents and fears Xabazhut and Ozzadraz, but with the dragon in its lair (or out spreading wildfires around the countryside) and the githyanki leader in suspended animation, the naga enjoys unimpeded access to the first tier of the gardens.",
 										"The naga captured the last party of adventurers who came here\u2014a group hired by Ginder Nanik in Arborean Springs to scout the gardens for exploitable resources\u2014and slowly and torturously transformed them into yuan-ti. These creatures live in the servants' quarters (area {@area G7|255|x}) and come to the naga's aid when called.",
 										{
 											"type": "entries",
@@ -4117,7 +4117,7 @@
 										}
 									]
 								},
-								"The second tier of the gardens, shown on Map: Garden of Unearthly Delights, is called the Garden of Unearthly Delights. It is the most verdant of the garden tiers, especially since a coven of {@creature Mégère verte|XMM|Green Hags} from the Feywild took up residence here to serve Xabazhut and revel in the dragon's reign of terror. The hags lair in a bog that has formed in one of the ziggurat's rooms (true), but the characters might encounter them anywhere on this tier.",
+								"The second tier of the gardens, shown on Map: Garden of Unearthly Delights, is called the Garden of Unearthly Delights. It is the most verdant of the garden tiers, especially since a coven of {@creature Guenaude verte|XMM|Green Hags} from the Feywild took up residence here to serve Xabazhut and revel in the dragon's reign of terror. The hags lair in a bog that has formed in one of the ziggurat's rooms (true), but the characters might encounter them anywhere on this tier.",
 								"The coven consists of the following hags:",
 								"{@b Deathkiss}, a male Green Hag with a tawny mane like a lion's",
 								"{@b Demondream}, a female Green Hag with the hooves and horns of a goat",
@@ -4141,7 +4141,7 @@
 												"A murky grove grows through a shattered chamber open to the outside. A waterfall pours through the collapsed ceiling and into the misty bog. Butterflies flit through the branches of trees draped in moss and vines, and frogs croak and chirp among the snaking roots."
 											]
 										},
-										"Natural deterioration has transformed this former Feywild garden into a bog, and three {@creature Mégère verte|XMM|Green Hags} (see above) now lair here. When alerted to the approach of intruders, the hags use magic to disguise themselves as dryads and pretend to be bound to the trees in this chamber.",
+										"Natural deterioration has transformed this former Feywild garden into a bog, and three {@creature Guenaude verte|XMM|Green Hags} (see above) now lair here. When alerted to the approach of intruders, the hags use magic to disguise themselves as dryads and pretend to be bound to the trees in this chamber.",
 										"If combat begins in this room, the {@creature Chimère|XMM} in area {@area G16|279|x} comes to the hags' aid immediately.",
 										{
 											"type": "entries",
@@ -4388,7 +4388,7 @@
 											"id": "28c",
 											"entries": [
 												"Nine of the mirror's extradimensional cells are occupied by monsters and people who foolishly ventured into the gardens in recent years, summarized on the Captives of the Mirror table.",
-												"If one of the {@creature Mégère verte|XMM|Green Hags} from {@area G15|275|x} confronts adventurers here, the hag activates the mirror and frees the {@creature Hydre|XMM} to create as much chaos as possible. Given the chance, the hag next frees the {@creature Géant des collines|XMM}, promising that if the giant helps kill the adventurers, the hags will let the giant go free.",
+												"If one of the {@creature Guenaude verte|XMM|Green Hags} from {@area G15|275|x} confronts adventurers here, the hag activates the mirror and frees the {@creature Hydre|XMM} to create as much chaos as possible. Given the chance, the hag next frees the {@creature Géant des collines|XMM}, promising that if the giant helps kill the adventurers, the hags will let the giant go free.",
 												{
 													"type": "table",
 													"caption": "Captives of the Mirror",
@@ -4424,7 +4424,7 @@
 														],
 														[
 															"6",
-															"Gree (Small {@creature Berseker|XMM}), a human who is Javek Horn's great-grandmother"
+															"Gree (Small {@creature Berserker|XMM}), a human who is Javek Horn's great-grandmother"
 														],
 														[
 															"7",
@@ -4709,14 +4709,14 @@
 												"The cherry trees here are in various states of bloom, with some covered in white blossoms and others boasting succulent fruit. The trees shed a sweet, otherworldly fragrance. Wandering around the terrace's edge is an enormous tree with a humanlike face and a fanged, humanoid skull embedded in its trunk."
 											]
 										},
-										"The Neutral {@creature Treant|XMM} is a reincarnation of Zumzn, the githyanki gardener who cultivated this place. The creature uses Zumzn's name but remembers nothing of its previous existence except that Zumzn tended these gardens. Zumzn's only goal is to protect the gardens. As long as it regards the adventurers as intruders and thus a potential threat, it is Hostile to them. But if convinced they don't pose a threat to the gardens, it becomes Indifferent.",
+										"The Neutral {@creature Sylvanien|XMM} is a reincarnation of Zumzn, the githyanki gardener who cultivated this place. The creature uses Zumzn's name but remembers nothing of its previous existence except that Zumzn tended these gardens. Zumzn's only goal is to protect the gardens. As long as it regards the adventurers as intruders and thus a potential threat, it is Hostile to them. But if convinced they don't pose a threat to the gardens, it becomes Indifferent.",
 										{
 											"type": "entries",
 											"name": "Fruit of Life",
 											"page": 122,
 											"id": "293",
 											"entries": [
-												"Zumzn's trunk forks around a githyanki skull, and a heart-shaped fruit\u2014the fruit of life\u2014grows inside the skull. Zumzn can remove the fruit from the skull without harming itself, or someone can free the fruit after the treant's death. The first time a character takes a bite of the fruit, the character's physical age is reduced by {@dice 1d6 + 6} years, to a minimum of 13 years."
+												"Zumzn's trunk forks around a githyanki skull, and a heart-shaped fruit\u2014the fruit of life\u2014grows inside the skull. Zumzn can remove the fruit from the skull without harming itself, or someone can free the fruit after the sylvanien's death. The first time a character takes a bite of the fruit, the character's physical age is reduced by {@dice 1d6 + 6} years, to a minimum of 13 years."
 											]
 										},
 										{
@@ -4753,7 +4753,7 @@
 												"A palatial apartment crowns the gardens. Wide arches leave it open to the air, and tattered silks of many colors swoop from the vaulted ceiling, which is painted with images of clouds and air spirits. Four whispering streams flow continually from four pools, spilling into the canals that irrigate the gardens. A column of shimmering air descends from the ceiling through a large shaft in the floor."
 											]
 										},
-										"This is the lair of Duban the Magnificent, a haughty {@creature Marid|XMM} bound to serve Ozzadraz. When the characters arrive in his lair, Duban is Indifferent and has cast {@spell Invisibilité|XPHB} to observe them unseen and gauge their intent.",
+										"This is the lair of Duban the Magnificent, a haughty {@creature Maride|XMM} bound to serve Ozzadraz. When the characters arrive in his lair, Duban is Indifferent and has cast {@spell Invisibilité|XPHB} to observe them unseen and gauge their intent.",
 										"Duban oversees the irrigation of the gardens and defends them from invaders. He opposes the characters unless he thinks them capable of defeating Xabazhut and Ozzadraz. If the characters convince Duban of their strength, whether through combat or conversation, Duban enchants one of their weapons with a {@reward Charme du tueur|XDMG} (see \"{@book Supernatural Gifts|XDMG|2|Supernatural Gifts}\" in the {@book Dungeon Master's Guide|XDMG}) against the dragon.",
 										{
 											"type": "entries",

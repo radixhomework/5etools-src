@@ -76,10 +76,10 @@
 													"type": "list",
 													"items": [
 														"{@creature Animated Flying Sword|XMM}",
-														"{@creature Bugbear Warrior|XMM}",
+														"{@creature Gobelours Warrior|XMM}",
 														"{@creature Roturier|XMM}",
 														"{@creature Cultiste|XMM}",
-														"{@creature Zombie|XMM}"
+														"{@creature Zombi|XMM}"
 													],
 													"style": "list-no-bullets"
 												}
@@ -902,7 +902,7 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Searching the Area}. No D20 Test is needed to learn that this entrance has not been traveled much recently. If a character takes the {@action Chercher|XPHB} action and succeeds on a {@dc 15} Wisdom ({@skill Perception|XPHB} or {@skill Survie|XPHB}) check, they notice several human-sized boot tracks leading away from the cave, along with clawed tracks. A successful {@dc 10} Intelligence ({@skill Nature|XPHB}) check can identify these tracks as those of a small dragon. One pair of human-sized tracks and one pair of slightly larger unbooted tracks lead into the cave, although steps were taken to hide them. These fainter tracks indicate that two creatures walked into the cave: the human-sized creature about four days ago, and the bugbear just hours ago.",
+										"{@b Searching the Area}. No D20 Test is needed to learn that this entrance has not been traveled much recently. If a character takes the {@action Chercher|XPHB} action and succeeds on a {@dc 15} Wisdom ({@skill Perception|XPHB} or {@skill Survie|XPHB}) check, they notice several human-sized boot tracks leading away from the cave, along with clawed tracks. A successful {@dc 10} Intelligence ({@skill Nature|XPHB}) check can identify these tracks as those of a small dragon. One pair of human-sized tracks and one pair of slightly larger unbooted tracks lead into the cave, although steps were taken to hide them. These fainter tracks indicate that two creatures walked into the cave: the human-sized creature about four days ago, and the gobelours just hours ago.",
 										"{@b Studying the Cave Entrance}. By shining a light or peering into the cave entrance, the characters can get a better look at the damp area. A character taking the {@action Étudier|XPHB} action and succeeding on a {@dc 15} Intelligence ({@skill Investigation|XPHB}) check realizes the moisture isn't water: it's a greasy substance that might cause a person jumping into that area to slip when they land."
 									],
 									"style": "list-hang-notitle"
@@ -945,14 +945,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "A2: Hidden Bugbear",
+							"name": "A2: Hidden Gobelours",
 							"id": "036",
 							"entries": [
 								{
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/BQDD/003-00-002.bugbear-warrior.webp"
+										"path": "adventure/BQDD/003-00-002.gobelours-warrior.webp"
 									},
 									"credit": "Brian Valeza",
 									"width": 1700,
@@ -973,16 +973,16 @@
 									"entries": [
 										{
 											"type": "entries",
-											"name": "Hidden Bugbear",
+											"name": "Hidden Gobelours",
 											"id": "039",
 											"entries": [
-												"Lugga, a {@creature Bugbear Warrior|XMM}, hides in the shadows of the nook. She moves into the hallway and attacks when the first character enters the greasy area. If the character(s) who crossed the pit first have a {@variantrule Passive Perception|XPHB} of 16 or higher, they are not {@status Surpris|XPHB}. Otherwise, they are Surprised. Roll initiative!",
+												"Lugga, a {@creature Gobelours Warrior|XMM}, hides in the shadows of the nook. She moves into the hallway and attacks when the first character enters the greasy area. If the character(s) who crossed the pit first have a {@variantrule Passive Perception|XPHB} of 16 or higher, they are not {@status Surpris|XPHB}. Otherwise, they are Surprised. Roll initiative!",
 												{
 													"type": "inset",
 													"name": "Surprise",
 													"id": "03a",
 													"entries": [
-														"If the character(s) crossing the pit don't notice the hiding bugbear, they're caught unawares by the start of combat and are Surprised. This means they have {@variantrule Disadvantage|XPHB} on their {@variantrule Initiative|XPHB} roll: they roll the {@dice d20} twice and must use the lower roll."
+														"If the character(s) crossing the pit don't notice the hiding gobelours, they're caught unawares by the start of combat and are Surprised. This means they have {@variantrule Disadvantage|XPHB} on their {@variantrule Initiative|XPHB} roll: they roll the {@dice d20} twice and must use the lower roll."
 													]
 												},
 												{
@@ -990,7 +990,7 @@
 													"name": "Preparing for a Fight",
 													"id": "03b",
 													"entries": [
-														"In this scene, the characters encounter a creature (Lugga the bugbear) who engages the characters in combat. Although the fight might end early, you still need to be prepared to run the fight! Here's how that plays out:",
+														"In this scene, the characters encounter a creature (Lugga the gobelours) who engages the characters in combat. Although the fight might end early, you still need to be prepared to run the fight! Here's how that plays out:",
 														{
 															"type": "list",
 															"style": "list-hang-notitle",
@@ -1003,7 +1003,7 @@
 																{
 																	"type": "item",
 																	"name": "Roll Initiative",
-																	"entry": "The players each roll a {@dice d20} and add their Initiative modifier. The character with the highest result goes first, and the characters act in descending order. Lugga the bugbear acts on her Initiative roll within the Initiative order."
+																	"entry": "The players each roll a {@dice d20} and add their Initiative modifier. The character with the highest result goes first, and the characters act in descending order. Lugga the gobelours acts on her Initiative roll within the Initiative order."
 																},
 																{
 																	"type": "item",
@@ -1023,7 +1023,7 @@
 									"name": "Dealing with Lugga",
 									"id": "03c",
 									"entries": [
-										"Although Lugga attacks initially, she is not unreasonable and can be reasoned with, as outlined below. She was kicked out of her clan for arguing with the leader, and she came here searching for other bugbears.",
+										"Although Lugga attacks initially, she is not unreasonable and can be reasoned with, as outlined below. She was kicked out of her clan for arguing with the leader, and she came here searching for other gobelourss.",
 										{
 											"type": "list",
 											"items": [
@@ -1058,7 +1058,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "A3: Kobold Zombies",
+							"name": "A3: Kobold Zombis",
 							"id": "03e",
 							"entries": [
 								"When the characters push past the beaded curtain into the room west of the passageway, read or paraphrase the following:",
@@ -1069,7 +1069,7 @@
 										"This cave contains heaps of waste. Two giant centipede corpses and four kobold bodies are strewn around the room. The kobold bodies, obviously dead, start to get to their feet, moaning something in their language."
 									]
 								},
-								"These four kobold {@creature Zombie|XMM|Zombies} were magically animated and then discarded here by Groth the Wicked, a necromancer and alchemist. The zombies sense the characters when they enter the room, and they say \"Brains\" in the Draconic language. They fight until the characters defeat them, after which they're dead for good.",
+								"These four kobold {@creature Zombi|XMM|Zombis} were magically animated and then discarded here by Groth the Wicked, a necromancer and alchemist. The zombis sense the characters when they enter the room, and they say \"Brains\" in the Draconic language. They fight until the characters defeat them, after which they're dead for good.",
 								{
 									"type": "entries",
 									"id": "040",
@@ -1086,8 +1086,8 @@
 													"id": "042",
 													"entries": [
 														"This adventure accommodates four or five players, each playing a character included with the adventure. If you have fewer than four or more than five players, this fight might be too difficult or too easy. For this encounter, make the following changes:",
-														"If there are fewer than four characters, remove one {@creature Zombie|XMM}.",
-														"If there are more than five characters, add one {@b Zombie}."
+														"If there are fewer than four characters, remove one {@creature Zombi|XMM}.",
+														"If there are more than five characters, add one {@b Zombi}."
 													]
 												}
 											]
@@ -1159,8 +1159,8 @@
 													"name": "What if the Characters Go East First?",
 													"id": "04a",
 													"entries": [
-														"If the characters go east before checking out the chamber ({@area area A3|03e|x}), the zombies do not emerge from there until the characters try to leave the dungeon.",
-														"Alternatively, if the characters are badly hurt, the zombies stay in area A3 and don't emerge. The next explorers find them instead!"
+														"If the characters go east before checking out the chamber ({@area area A3|03e|x}), the zombis do not emerge from there until the characters try to leave the dungeon.",
+														"Alternatively, if the characters are badly hurt, the zombis stay in area A3 and don't emerge. The next explorers find them instead!"
 													]
 												},
 												{

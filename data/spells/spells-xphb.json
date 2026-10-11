@@ -466,7 +466,7 @@
 				}
 			],
 			"entries": [
-				"Choisissez un tas d'os ou le cadavre d'un Humanoïde de taille M ou PT à portée. La cible devient une créature mort-vivante : un {@creature Squelette|XMM|Squelette} si vous avez choisi des os ou un {@creature Zombie|XMM|Zombie} si vous avez choisi un cadavre.",
+				"Choisissez un tas d'os ou le cadavre d'un Humanoïde de taille M ou PT à portée. La cible devient une créature mort-vivante : un {@creature Squelette|XMM|Squelette} si vous avez choisi des os ou un {@creature Zombi|XMM|Zombi} si vous avez choisi un cadavre.",
 				"À chacun de vos tours, vous pouvez utiliser une {@variantrule Bonus Action|XPHB|action bonus} pour commander mentalement n'importe quelle créature que vous avez créée avec ce sort si celle-ci se trouve à 18 mètres ou moins de vous (si vous contrôlez plusieurs créatures, vous pouvez en commander plusieurs en même temps en leur donnant le même ordre). Vous décidez de l'action que la créature entreprendra et de l'endroit où elle se déplacera à son prochain tour, ou vous pouvez donner un ordre général, comme monter la garde dans une salle ou un couloir. Si vous ne donnez aucun ordre, la créature utilise l'action {@action Esquive|XPHB} et ne se déplace que pour éviter le danger. Une fois qu'elle a reçu un ordre, la créature continue de le suivre jusqu'à ce que sa tâche soit accomplie.",
 				"La créature est sous votre contrôle pendant 24 heures, après quoi elle cesse d'obéir aux ordres que vous lui avez donnés. Pour garder le contrôle de la créature pendant 24 heures supplémentaires, vous devez relancer ce sort sur la créature avant la fin de la période de 24 heures en cours. Cette utilisation du sort réaffirme votre contrôle sur jusqu'à quatre créatures que vous avez animées avec ce sort plutôt que d'en animer une nouvelle."
 			],
@@ -4767,7 +4767,7 @@
 					"type": "entries",
 					"name": "Utilisation d'un emplacement de sort de niveau supérieur",
 					"entries": [
-						"Si vous utilisez un emplacement de sort de niveau 7, vous pouvez animer ou réaffirmer votre contrôle sur quatre {@creature Goule|XMM|Goules}. Si vous utilisez un emplacement de sort de niveau 8, vous pouvez animer ou réaffirmer votre contrôle sur cinq {@creature Goule|XMM|Goules} ou deux {@creature Ghast|XMM|Ghasts} ou {@creature Wight|XMM|Wights}. Si vous utilisez un emplacement de sort de niveau 9, vous pouvez animer ou réaffirmer votre contrôle sur six {@creature Goule|XMM|Goules}, trois {@creature Ghast|XMM|Ghasts} ou {@creature Wight|XMM|Wights}, ou deux {@creature Momie|XMM|Momies}. Consultez le {@book Monster Manual|XMM|Manuel des monstres} pour ces profils."
+						"Si vous utilisez un emplacement de sort de niveau 7, vous pouvez animer ou réaffirmer votre contrôle sur quatre {@creature Goule|XMM|Goules}. Si vous utilisez un emplacement de sort de niveau 8, vous pouvez animer ou réaffirmer votre contrôle sur cinq {@creature Goule|XMM|Goules} ou deux {@creature Blême|XMM|Blêmes} ou {@creature Nécrophage|XMM|Nécrophages}. Si vous utilisez un emplacement de sort de niveau 9, vous pouvez animer ou réaffirmer votre contrôle sur six {@creature Goule|XMM|Goules}, trois {@creature Blême|XMM|Blêmes} ou {@creature Nécrophage|XMM|Nécrophages}, ou deux {@creature Momie|XMM|Momies}. Consultez le {@book Monster Manual|XMM|Manuel des monstres} pour ces profils."
 					]
 				}
 			],
@@ -7897,7 +7897,7 @@
 			],
 			"entries": [
 				"Vous déchaînez une énergie négative vers une créature à portée et dans votre ligne de vue. La cible effectue un jet de sauvegarde de Constitution, subissant {@damage 7d8 + 30} dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
-				"Un Humanoïde tué par ce sort se relève au début de votre prochain tour sous la forme d'un {@creature Zombie|XMM|Zombie} qui suit vos ordres verbaux."
+				"Un Humanoïde tué par ce sort se relève au début de votre prochain tour sous la forme d'un {@creature Zombi|XMM|Zombi} qui suit vos ordres verbaux."
 			],
 			"damageInflict": [
 				"necrotic"
@@ -16935,7 +16935,7 @@
 			"entries": [
 				"D'un simple toucher, vous mettez magiquement en réclusion un objet ou une créature consentante. Pendant la durée, la cible a la condition {@condition Invisible|XPHB} et ne peut ni être ciblée par des sorts de Divination, ni être détectée par la magie, ni être observée à distance par des moyens magiques.",
 				"Si la cible est une créature, elle entre dans un état d'animation suspendue ; elle a la condition {@condition Inconscient|XPHB}, ne vieillit pas et n'a pas besoin de nourriture, d'eau ni d'air.",
-				"Vous pouvez définir une condition de fin anticipée du sort. Cette condition peut être ce que vous voulez, mais elle doit se produire ou être visible à moins de 1 mille de la cible. Par exemple : « dans 1 000 ans » ou « quand le tarrasque se réveillera ». Ce sort prend également fin si la cible subit des dégâts."
+				"Vous pouvez définir une condition de fin anticipée du sort. Cette condition peut être ce que vous voulez, mais elle doit se produire ou être visible à moins de 1 mille de la cible. Par exemple : « dans 1 000 ans » ou « quand le tarasque se réveillera ». Ce sort prend également fin si la cible subit des dégâts."
 			],
 			"conditionInflict": [
 				"invisible",

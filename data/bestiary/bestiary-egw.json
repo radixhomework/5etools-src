@@ -538,12 +538,12 @@
 				"MOT"
 			],
 			"_copy": {
-				"name": "Treant",
+				"name": "Sylvanien",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "treant",
+						"replace": "sylvanien",
 						"with": "tree"
 					},
 					"resist": {
@@ -1537,12 +1537,12 @@
 				"FS"
 			],
 			"_copy": {
-				"name": "Wight",
+				"name": "Nécrophage",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the wight",
+						"replace": "the nécrophage",
 						"with": "Ferol",
 						"flags": "i"
 					}
@@ -1552,7 +1552,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Frost Giant Zombie",
+			"name": "Frost Giant Zombi",
 			"source": "EGW",
 			"page": 288,
 			"size": [
@@ -1606,13 +1606,13 @@
 				{
 					"name": "Numbing Aura",
 					"entries": [
-						"Any creature that starts its turn within 10 feet of the zombie must make a {@dc 17} Constitution saving throw. Unless the save succeeds, the creature can't make more than one attack, or take a bonus action on that turn."
+						"Any creature that starts its turn within 10 feet of the zombi must make a {@dc 17} Constitution saving throw. Unless the save succeeds, the creature can't make more than one attack, or take a bonus action on that turn."
 					]
 				},
 				{
 					"name": "Undead Fortitude",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is fire, radiant, or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"If damage reduces the zombi to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is fire, radiant, or from a critical hit. On a success, the zombi drops to 1 hit point instead."
 					]
 				}
 			],
@@ -1620,7 +1620,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The zombie makes two weapon attacks."
+						"The zombi makes two weapon attacks."
 					]
 				},
 				{
@@ -1638,7 +1638,7 @@
 				{
 					"name": "Freezing Stare",
 					"entries": [
-						"The zombie targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 17} Constitution saving throw or take 35 ({@damage 10d6}) cold damage and be {@condition Paralysé} until the end of its next turn."
+						"The zombi targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 17} Constitution saving throw or take 35 ({@damage 10d6}) cold damage and be {@condition Paralysé} until the end of its next turn."
 					]
 				}
 			],
@@ -2349,7 +2349,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Husk Zombie",
+			"name": "Husk Zombi",
 			"source": "EGW",
 			"page": 293,
 			"size": [
@@ -2398,13 +2398,13 @@
 				{
 					"name": "Curse of the Husk",
 					"entries": [
-						"A humanoid slain by a melee attack from the zombie revives as a husk zombie on its next turn."
+						"A humanoid slain by a melee attack from the zombi revives as a husk zombi on its next turn."
 					]
 				},
 				{
 					"name": "Undead Fortitude",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"If damage reduces the zombi to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombi drops to 1 hit point instead."
 					]
 				}
 			],
@@ -2412,7 +2412,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The zombie makes two claw attacks. For each of these attacks that reduces a creature to 0 hit points, the zombie can make an additional claw attack."
+						"The zombi makes two claw attacks. For each of these attacks that reduces a creature to 0 hit points, the zombi can make an additional claw attack."
 					]
 				},
 				{
@@ -2425,19 +2425,19 @@
 			"variant": [
 				{
 					"type": "variant",
-					"name": "Husk Zombie Bursters",
+					"name": "Husk Zombi Bursters",
 					"entries": [
-						"Some husk zombies become bloated with disease and bile, their frenzied state pushing them to rush other living creatures, explode, and spread their horrid infection. A husk zombie burster has the following additional action option:",
+						"Some husk zombis become bloated with disease and bile, their frenzied state pushing them to rush other living creatures, explode, and spread their horrid infection. A husk zombi burster has the following additional action option:",
 						{
 							"type": "entries",
 							"name": "Burst",
 							"entries": [
-								"The zombie explodes and is destroyed. Each creature within 5 feet of it must make a {@dc 12} Constitution saving throw, taking 14 ({@damage 4d6}) poison damage on a failed save, or half as much damage on a successful one. A humanoid creature killed by this damage rises as a {@creature husk zombie|EGW} after 1 minute."
+								"The zombi explodes and is destroyed. Each creature within 5 feet of it must make a {@dc 12} Constitution saving throw, taking 14 ({@damage 4d6}) poison damage on a failed save, or half as much damage on a successful one. A humanoid creature killed by this damage rises as a {@creature husk zombi|EGW} after 1 minute."
 							]
 						}
 					],
 					"_version": {
-						"name": "Husk Zombie Burster",
+						"name": "Husk Zombi Burster",
 						"addHeadersAs": "action"
 					}
 				}
@@ -3029,7 +3029,7 @@
 				{
 					"name": "Siphon Life {@recharge 4}",
 					"entries": [
-						"The nergaliid magically draws the life from a humanoid it can see within 40 feet of it. The target must make a {@dc 15} Wisdom saving throw. An {@condition Incapable} target fails the save automatically. On a failed save, the creature takes 10 ({@damage 3d6}) psychic damage, and the nergaliid gains temporary hit points equal to the damage taken. On a successful save, the target takes half as much damage, and the nergaliid doesn't gain temporary hit points. If this damage kills the target, its body rises at the end of the nergaliid's current turn as a {@creature husk zombie|EGW} (see earlier in this chapter)."
+						"The nergaliid magically draws the life from a humanoid it can see within 40 feet of it. The target must make a {@dc 15} Wisdom saving throw. An {@condition Incapable} target fails the save automatically. On a failed save, the creature takes 10 ({@damage 3d6}) psychic damage, and the nergaliid gains temporary hit points equal to the damage taken. On a successful save, the target takes half as much damage, and the nergaliid doesn't gain temporary hit points. If this damage kills the target, its body rises at the end of the nergaliid's current turn as a {@creature husk zombi|EGW} (see earlier in this chapter)."
 					]
 				}
 			],
@@ -3687,7 +3687,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Shadowghast",
+			"name": "Shadowblême",
 			"source": "EGW",
 			"page": 299,
 			"size": [
@@ -3738,13 +3738,13 @@
 				{
 					"name": "Stench",
 					"entries": [
-						"Any creature that starts its turn within 5 feet of the shadowghast must succeed on a {@dc 12} Constitution saving throw or be {@condition Empoisonné} until the start of its next turn. On a successful saving throw, the creature is immune to this Stench for 24 hours."
+						"Any creature that starts its turn within 5 feet of the shadowblême must succeed on a {@dc 12} Constitution saving throw or be {@condition Empoisonné} until the start of its next turn. On a successful saving throw, the creature is immune to this Stench for 24 hours."
 					]
 				},
 				{
 					"name": "Shadow Stealth",
 					"entries": [
-						"While in dim light or darkness, the shadowghast can take the {@action Se cacher} action as a bonus action."
+						"While in dim light or darkness, the shadowblême can take the {@action Se cacher} action as a bonus action."
 					]
 				}
 			],
@@ -3752,7 +3752,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The shadowghast makes two attacks: one with its bite and one with its claws."
+						"The shadowblême makes two attacks: one with its bite and one with its claws."
 					]
 				},
 				{
@@ -3800,7 +3800,7 @@
 				"ToR"
 			],
 			"_copy": {
-				"name": "Requin tueur",
+				"name": "Requin-chasseur",
 				"source": "MM",
 				"_mod": {
 					"*": {

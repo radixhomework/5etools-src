@@ -1320,7 +1320,7 @@
 				"sea"
 			],
 			"capCrew": 5,
-			"capCrewNote": "(plus le {@creature treant})",
+			"capCrewNote": "(plus le {@creature sylvanien})",
 			"capCargo": 10,
 			"cost": 2500000,
 			"pace": {
@@ -1715,7 +1715,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Beholder mécanique",
+			"name": "Tyrannoeil mécanique",
 			"source": "AI",
 			"page": 219,
 			"vehicleType": "SHIP",
@@ -1768,7 +1768,7 @@
 					"ac": 16,
 					"hp": 25,
 					"entries": [
-						"Se déplace jusqu'à la vitesse de l'unité de propulsion magique du navire, avec un virage à 90 degrés. Le gouvernail ne peut être attaqué que si la coque a subi 100 dégâts ou plus. Si le gouvernail est détruit, le beholder mécanique ne peut pas se déplacer."
+						"Se déplace jusqu'à la vitesse de l'unité de propulsion magique du navire, avec un virage à 90 degrés. Le gouvernail ne peut être attaqué que si la coque a subi 100 dégâts ou plus. Si le gouvernail est détruit, le tyrannoeil mécanique ne peut pas se déplacer."
 					]
 				}
 			],
@@ -1795,7 +1795,7 @@
 					"ac": 14,
 					"hp": 50,
 					"entries": [
-						"{@atk g} Le beholder mécanique tire les rayons oculaires magiques suivants sur un maximum de trois cibles qui seraient visibles pour l'équipage et qui se trouvent à 36 m ou moins de lui.",
+						"{@atk g} Le tyrannoeil mécanique tire les rayons oculaires magiques suivants sur un maximum de trois cibles qui seraient visibles pour l'équipage et qui se trouvent à 36 m ou moins de lui.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -1825,7 +1825,7 @@
 				"1": 1
 			},
 			"action": [
-				"À son tour, le beholder mécanique peut effectuer 1 action. Il ne peut effectuer aucune action s'il n'a aucun membre d'équipage.",
+				"À son tour, le tyrannoeil mécanique peut effectuer 1 action. Il ne peut effectuer aucune action s'il n'a aucun membre d'équipage.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1833,12 +1833,12 @@
 						{
 							"type": "item",
 							"name": "Rayons oculaires",
-							"entry": "Le beholder mécanique peut utiliser ses tentacules à rayons oculaires."
+							"entry": "Le tyrannoeil mécanique peut utiliser ses tentacules à rayons oculaires."
 						},
 						{
 							"type": "item",
 							"name": "Déplacement",
-							"entry": "Le beholder mécanique peut utiliser son gouvernail pour se déplacer grâce à son unité de propulsion magique."
+							"entry": "Le tyrannoeil mécanique peut utiliser son gouvernail pour se déplacer grâce à son unité de propulsion magique."
 						}
 					]
 				}
@@ -3266,7 +3266,7 @@
 				"space"
 			],
 			"capCrew": 10,
-			"capCrewNote": "({@creature Beholder||beholders})",
+			"capCrewNote": "({@creature Tyrannoeil||tyrannoeils})",
 			"capCargo": 20,
 			"pace": {
 				"fly": "4½"
@@ -3293,7 +3293,7 @@
 						}
 					],
 					"entries": [
-						"Cette arme ressemble à un œil monté sur un pédoncule oculaire. Un beholder posté dans l'un des pods de méditation du navire tyran peut voir à travers cet œil en maintenant sa {@status concentration||concentration} sur lui (comme pour maintenir sa {@status concentration||concentration} sur un sort) et utiliser une action pour effectuer l'attaque suivante."
+						"Cette arme ressemble à un œil monté sur un pédoncule oculaire. Un tyrannoeil posté dans l'un des pods de méditation du navire tyran peut voir à travers cet œil en maintenant sa {@status concentration||concentration} sur lui (comme pour maintenir sa {@status concentration||concentration} sur un sort) et utiliser une action pour effectuer l'attaque suivante."
 					],
 					"action": [
 						{
@@ -3623,7 +3623,7 @@
 				"SHP:O"
 			],
 			"entries": [
-				"Les ossements de créatures anciennes et mystérieuses ornent le navire. Des runes puissantes rampent sur ces restes en émettant une lueur verte maladive. Lorsqu'un humanoïde meurt à bord du navire, cette créature doit faire un {@dc 12} Jet de sauvegarde de Sagesse. En cas de réussite, elle meurt normalement. En cas d'échec, elle se relève immédiatement sous la forme d'un {@creature zombie} obéissant au capitaine du navire. Le zombie acquiert une connaissance fonctionnelle du navire, ce qui lui permet de servir comme membre de l'équipage. Un nombre de créatures égal à la capacité de créature du navire peut être animé de cette manière à tout moment."
+				"Les ossements de créatures anciennes et mystérieuses ornent le navire. Des runes puissantes rampent sur ces restes en émettant une lueur verte maladive. Lorsqu'un humanoïde meurt à bord du navire, cette créature doit faire un {@dc 12} Jet de sauvegarde de Sagesse. En cas de réussite, elle meurt normalement. En cas d'échec, elle se relève immédiatement sous la forme d'un {@creature zombi} obéissant au capitaine du navire. Le zombi acquiert une connaissance fonctionnelle du navire, ce qui lui permet de servir comme membre de l'équipage. Un nombre de créatures égal à la capacité de créature du navire peut être animé de cette manière à tout moment."
 			]
 		},
 		{
@@ -3912,7 +3912,7 @@
 				"SHP:M"
 			],
 			"entries": [
-				"Tissées à partir de l'énergie de spectres capturés et liées à l'esprit d'une banshee, ces voiles gémissent tristement quand elles prennent le vent. Par une action, tant qu'il se trouve à 1,50 m ou moins des voiles, le capitaine du navire peut faire rugir les voiles d'un hurlement. Toute créature hostile au navire qui se trouve à bord ou à 90 m ou moins de celui-ci doit réussir un {@dc 14} Jet de sauvegarde de Sagesse, sinon elle subit {@damage 4d6} dégâts psychiques et est ensuite {@condition Effrayé} pendant 1 minute. Une fois cette capacité utilisée, elle ne peut plus l'être avant que {@dice 2d6} heures se soient écoulées."
+				"Tissées à partir de l'énergie de spectres capturés et liées à l'esprit d'une banshie, ces voiles gémissent tristement quand elles prennent le vent. Par une action, tant qu'il se trouve à 1,50 m ou moins des voiles, le capitaine du navire peut faire rugir les voiles d'un hurlement. Toute créature hostile au navire qui se trouve à bord ou à 90 m ou moins de celui-ci doit réussir un {@dc 14} Jet de sauvegarde de Sagesse, sinon elle subit {@damage 4d6} dégâts psychiques et est ensuite {@condition Effrayé} pendant 1 minute. Une fois cette capacité utilisée, elle ne peut plus l'être avant que {@dice 2d6} heures se soient écoulées."
 			]
 		},
 		{
@@ -4009,7 +4009,7 @@
 				"SHP:H"
 			],
 			"entries": [
-				"Une rangée d'orbes de cristal, chacune remplie d'un liquide visqueux et d'un globe oculaire de beholder, est fixée le long de la coque de ce navire. Les créatures {@condition Invisible} sont visibles tant qu'elles se trouvent sur le navire ou à 36 m ou moins de lui."
+				"Une rangée d'orbes de cristal, chacune remplie d'un liquide visqueux et d'un globe oculaire de tyrannoeil, est fixée le long de la coque de ce navire. Les créatures {@condition Invisible} sont visibles tant qu'elles se trouvent sur le navire ou à 36 m ou moins de lui."
 			]
 		}
 	]

@@ -41,7 +41,7 @@
 				"walk": 30,
 				"fly": {
 					"number": 30,
-					"condition": "(beholderkin only; hover)"
+					"condition": "(tyrannoeilkin only; hover)"
 				},
 				"canHover": true
 			},
@@ -84,7 +84,7 @@
 					]
 				},
 				{
-					"name": "Rayon oculaire (beholderkin uniquement)",
+					"name": "Rayon oculaire (tyrannoeilkin uniquement)",
 					"entries": [
 						"{@atk rs} {@hitYourSpellAttack} pour toucher, portée 45 m, une créature. {@h}{@damage 1d8 + 3 + summonSpellLevel} dégâts psychiques."
 					]
@@ -126,7 +126,7 @@
 			"hasToken": true,
 			"_versions": [
 				{
-					"name": "Esprit aberrant (beholderkin)",
+					"name": "Esprit aberrant (tyrannoeilkin)",
 					"source": "TCE",
 					"_mod": {
 						"action": [
@@ -140,7 +140,7 @@
 							{
 								"mode": "renameArr",
 								"renames": {
-									"rename": "Eye Ray (Beholderkin Only)",
+									"rename": "Eye Ray (Tyrannoeilkin Only)",
 									"with": "Rayon oculaire"
 								}
 							}
@@ -184,7 +184,7 @@
 							{
 								"mode": "removeArr",
 								"names": [
-									"Eye Ray (Beholderkin Only)",
+									"Eye Ray (Tyrannoeilkin Only)",
 									"Psychic Slam (Star Spawn Only)"
 								]
 							},
@@ -233,7 +233,7 @@
 							{
 								"mode": "removeArr",
 								"names": [
-									"Eye Ray (Beholderkin Only)",
+									"Eye Ray (Tyrannoeilkin Only)",
 									"Claws (Slaad Only)"
 								]
 							},

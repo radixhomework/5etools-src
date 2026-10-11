@@ -282,8 +282,8 @@
 									"2+"
 								],
 								[
-									"{@area F: Hobgoblin Lair|097|x}",
-									"Militant hobgoblins have fortified this cave.",
+									"{@area F: Hobgobelin Lair|097|x}",
+									"Militant hobgobelins have fortified this cave.",
 									"2+"
 								],
 								[
@@ -292,8 +292,8 @@
 									"3"
 								],
 								[
-									"{@area H: Bugbear Lair|0bf|x}",
-									"Bugbear raiders plan an assault.",
+									"{@area H: Gobelours Lair|0bf|x}",
+									"Gobelours raiders plan an assault.",
 									"2+"
 								],
 								[
@@ -686,19 +686,19 @@
 									"type": "list",
 									"items": [
 										"{@creature Animated Flying Sword|XMM}",
-										"{@creature Bugbear Warrior|XMM}",
+										"{@creature Gobelours Warrior|XMM}",
 										"{@creature Charognard rampant|XMM}",
 										"{@creature Dragonnet de cuivre|XMM}",
 										"{@creature Cultiste|XMM}",
-										"{@creature Gluant géant|XMM}",
-										"{@creature Scutigère géante|XMM}",
+										"{@creature Cube gélatineux|XMM}",
+										"{@creature Mille-pattes géant|XMM}",
 										"{@creature Scarabée de feu géant|XMM}",
 										"{@creature Araignée géante|XMM}",
 										"{@creature Gnoll Warrior|XMM}",
 										"{@creature Chef gobelin|XMM}",
 										"{@creature Goblin Warrior|XMM}",
 										"{@creature Gray Ooze Glob|HotB}",
-										"{@creature Hobgoblin Warrior|XMM}",
+										"{@creature Hobgobelin Warrior|XMM}",
 										"{@creature Ivlis|HotB}",
 										"{@creature Kobold Warrior|XMM}",
 										"{@creature Kuo-Toa Marauder|HotB}",
@@ -707,15 +707,15 @@
 										"{@creature Narthus|HotB}",
 										"{@creature Nothic|XMM}",
 										"{@creature Ogre|XMM}",
-										"{@creature Zombie d'ogre|XMM}",
+										"{@creature Zombi d'ogre|XMM}",
 										"{@creature Ours-hibou|XMM}",
 										"{@creature Dragonnet rouge|XMM}",
 										"{@creature Squelette|XMM}",
-										"{@creature Méphrite de vapeur|XMM}",
-										"{@creature Stirge|XMM}",
+										"{@creature Méphite vaporeux|XMM}",
+										"{@creature Strige|XMM}",
 										"{@creature Vinx|HotB}",
-										"{@creature Wight Lifedrinker|HotB}",
-										"{@creature Zombie|XMM}"
+										"{@creature Nécrophage Lifedrinker|HotB}",
+										"{@creature Zombi|XMM}"
 									],
 									"columns": 3
 								}
@@ -1266,7 +1266,7 @@
 												"This cave contains heaps of waste. Two giant centipedes skitter about, picking at the refuse."
 											]
 										},
-										"Two {@creature Scutigère géante|XMM|Giant Centipedes} scavenge this cave. The centipedes are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures and fight anyone who enters their den.",
+										"Two {@creature Mille-pattes géant|XMM|Giant Centipedes} scavenge this cave. The centipedes are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures and fight anyone who enters their den.",
 										"The kobolds are afraid of the centipedes\u2014a fact they report to any who mention the beasts. If the characters slay the centipedes and show proof to a kobold, this deed earns the kobold's respect, improving its attitude toward them to {@variantrule Friendly [Attitude]|XPHB|Friendly}.",
 										{
 											"type": "image",
@@ -1476,7 +1476,7 @@
 					"id": "046",
 					"entries": [
 						"Sturdy fortifications and clean water make this abandoned subterranean outpost an appealing den for thieves and monsters. Before the prior inhabitants left, they stored some enticing treasure here, guarded by a monstrous shape-shifter called a mimic. Since then, a trio of impish elementals and kuo-toa fanatics have made the cave their home.",
-						"You can add monsters, such as {@creature Scutigère géante|XMM|Giant Centipedes}, to the cave to make this scenario longer and more difficult, or you can remove the {@creature Kuo-Toa Marauder|HotB|Kuo-Toa Marauders} or one of the {@creature Méphrite de vapeur|XMM|Steam Mephits} to make it easier and shorter.",
+						"You can add monsters, such as {@creature Mille-pattes géant|XMM|Giant Centipedes}, to the cave to make this scenario longer and more difficult, or you can remove the {@creature Kuo-Toa Marauder|HotB|Kuo-Toa Marauders} or one of the {@creature Méphite vaporeux|XMM|Steam Mephits} to make it easier and shorter.",
 						{
 							"type": "entries",
 							"name": "Getting Started",
@@ -1903,7 +1903,7 @@
 												"An arrow slit interrupts the wall at this junction."
 											]
 										},
-										"The arrow slit is linked to area B2. If the characters enter the cave carrying a source of {@variantrule Bright Light|XPHB} or talking loudly, the slit begins to vent harmless steam as the {@creature Méphrite de vapeur|XMM} in that area approaches the opening and observes them. The slit provides the mephit with {@table Cover|XPHB|Three-Quarters Cover}."
+										"The arrow slit is linked to area B2. If the characters enter the cave carrying a source of {@variantrule Bright Light|XPHB} or talking loudly, the slit begins to vent harmless steam as the {@creature Méphite vaporeux|XMM} in that area approaches the opening and observes them. The slit provides the mephit with {@table Cover|XPHB|Three-Quarters Cover}."
 									]
 								},
 								{
@@ -1920,7 +1920,7 @@
 												"Steam fills this stone alcove, which looks out to the cave's entrance through a thin vertical slit."
 											]
 										},
-										"Defenders can watch the cave entrance from this alcove. A {@creature Méphrite de vapeur|XMM} flits about the area. It ostensibly watches for intruders coming from area B1, but it is bored and barely fulfilling its duties. The mephit is {@variantrule Indifferent [Attitude]|XPHB|Indifferent} but defends itself in combat.",
+										"Defenders can watch the cave entrance from this alcove. A {@creature Méphite vaporeux|XMM} flits about the area. It ostensibly watches for intruders coming from area B1, but it is bored and barely fulfilling its duties. The mephit is {@variantrule Indifferent [Attitude]|XPHB|Indifferent} but defends itself in combat.",
 										"If the mephit sees the characters enter the cave, it peers at them through the arrow slit and whistles like a teakettle to entice them to approach. If a character comes within 5 feet of the slit, the mephit exhales a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} of harmless steam and snickers at the character's reaction.",
 										"If the characters approach from the other side of the alcove, the mephit feigns innocence. It then tries to lure them to the old barrack ({@area area B6|053|x}) to be ambushed by the kuo-toa that lurk there.",
 										{
@@ -1968,7 +1968,7 @@
 											]
 										},
 										"Warm spring water streams into this room from {@area area B7|055|x}, forming a 1-foot-deep pool here. The pool is {@variantrule Difficult Terrain|XPHB}.",
-										"A {@creature Méphrite de vapeur|XMM} toys with a panicked frog in the water. The mephit is initially {@variantrule Indifferent [Attitude]|XPHB|Indifferent} toward the characters and remains that way unless they try to spoil its fun, which provokes the hot-tempered elemental to start combat. If a fight breaks out, the mephits in {@area areas B2|04d|x} and B7 quickly join the fray."
+										"A {@creature Méphite vaporeux|XMM} toys with a panicked frog in the water. The mephit is initially {@variantrule Indifferent [Attitude]|XPHB|Indifferent} toward the characters and remains that way unless they try to spoil its fun, which provokes the hot-tempered elemental to start combat. If a fight breaks out, the mephits in {@area areas B2|04d|x} and B7 quickly join the fray."
 									]
 								},
 								{
@@ -2013,7 +2013,7 @@
 											]
 										},
 										"Warm water bubbles from an underground spring into this ruined fountain. It flows south and pools in {@area area B5|051|x}.",
-										"Unless it was drawn elsewhere, a {@creature Méphrite de vapeur|XMM} lurks near the fountain, quietly mesmerized by the fountain's burbling. The mephit behaves similarly to the one in area B5, starting combat with the characters if disturbed. If a fight breaks out, the mephits in {@area areas B2|04d|x} and B5 join the fray."
+										"Unless it was drawn elsewhere, a {@creature Méphite vaporeux|XMM} lurks near the fountain, quietly mesmerized by the fountain's burbling. The mephit behaves similarly to the one in area B5, starting combat with the characters if disturbed. If a fight breaks out, the mephits in {@area areas B2|04d|x} and B5 join the fray."
 									]
 								},
 								{
@@ -2064,7 +2064,7 @@
 					"entries": [
 						"An evil wizard used these caverns to conduct foul experiments. The last of these destroyed the wizard's memory and transformed her into a cyclopic monster called a nothic. By studying arcane secrets, the nothic hopes to regain its memories and attain enough power to rule the Caves of Chaos.",
 						"Recently, a carrion crawler slithered into the cave and interrupted the nothic's research. Unwilling to confront the creature directly, the nothic is now trapped in its laboratory as it concocts a solution.",
-						"You can add monsters, such as {@creature Stirge|XMM|Stirges}, to the cave to make this scenario longer and more difficult, or you can remove the {@creature Animated Flying Sword|XMM} to make it easier and shorter.",
+						"You can add monsters, such as {@creature Strige|XMM|Striges}, to the cave to make this scenario longer and more difficult, or you can remove the {@creature Animated Flying Sword|XMM} to make it easier and shorter.",
 						{
 							"type": "image",
 							"href": {
@@ -2684,7 +2684,7 @@
 					"id": "073",
 					"entries": [
 						"A violent band of goblin warriors lives in this cave. It's the goblin boss's birthday, and she demands a celebration! Engrossed in the revelry, the goblins ignore their recent captive: a dwarf named Vinx.",
-						"You can add monsters to the cave to make this scenario longer and more difficult. The goblins might have invited {@creature Hobgoblin Warrior|XMM|Hobgoblin Warriors} from the adjacent cave ({@area cave F|097|x}) as party guests or bodyguards. To make the scenario easier and shorter, reduce the number of {@creature Goblin Warrior|XMM|Goblin Warriors}.",
+						"You can add monsters to the cave to make this scenario longer and more difficult. The goblins might have invited {@creature Hobgobelin Warrior|XMM|Hobgobelin Warriors} from the adjacent cave ({@area cave F|097|x}) as party guests or bodyguards. To make the scenario easier and shorter, reduce the number of {@creature Goblin Warrior|XMM|Goblin Warriors}.",
 						{
 							"type": "entries",
 							"name": "Getting Started",
@@ -3769,19 +3769,19 @@
 				},
 				{
 					"type": "section",
-					"name": "F: Hobgoblin Lair",
+					"name": "F: Hobgobelin Lair",
 					"page": 16,
 					"id": "097",
 					"entries": [
-						"Hobgoblins quartered in this cave recently suffered heavy losses, including their former captain. Only four hobgoblins remain. They've fortified their outpost and drafted a voracious ooze to guard it.",
-						"You can add monsters, such as allied {@creature Goblin Warrior|XMM|Goblin Warriors}, to the cave to make this scenario longer and more difficult, or you can remove some monsters to make it easier and shorter. One or two {@creature Hobgoblin Warrior|XMM|Hobgoblin Warriors} might be out on a patrol elsewhere.",
+						"Hobgobelins quartered in this cave recently suffered heavy losses, including their former captain. Only four hobgobelins remain. They've fortified their outpost and drafted a voracious ooze to guard it.",
+						"You can add monsters, such as allied {@creature Goblin Warrior|XMM|Goblin Warriors}, to the cave to make this scenario longer and more difficult, or you can remove some monsters to make it easier and shorter. One or two {@creature Hobgobelin Warrior|XMM|Hobgobelin Warriors} might be out on a patrol elsewhere.",
 						{
 							"type": "entries",
 							"name": "Getting Started",
 							"page": 16,
 							"id": "098",
 							"entries": [
-								"This cave is connected to {@area cave D|073|x} via the hall east of {@area area F2|0a3|x} (see {@adventure map F|HotB|1|Map F: Hobgoblin Lair (DM's Version)}). If the characters approach from outside the cave, read the following boxed text aloud to begin:",
+								"This cave is connected to {@area cave D|073|x} via the hall east of {@area area F2|0a3|x} (see {@adventure map F|HotB|1|Map F: Hobgobelin Lair (DM's Version)}). If the characters approach from outside the cave, read the following boxed text aloud to begin:",
 								{
 									"type": "insetReadaloud",
 									"page": 16,
@@ -3790,12 +3790,12 @@
 										"A stout, ironbound door seals this cave mouth. Bleached skulls line niches outside the entrance. A bloodstained sign on the door reads, \"Come in! We'd like to have you for dinner!\""
 									]
 								},
-								"The hobgoblins don't eat people, but they use the sign's gruesome implication to scare intruders."
+								"The hobgobelins don't eat people, but they use the sign's gruesome implication to scare intruders."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Hobgoblin Lair Features",
+							"name": "Hobgobelin Lair Features",
 							"page": 16,
 							"id": "09a",
 							"entries": [
@@ -3817,7 +3817,7 @@
 										{
 											"type": "item",
 											"name": "Environment",
-											"entry": "The cave is carved from stone. It is scrupulously clean. The hobgoblins keep their areas tidy, and the gelatinous cube in {@area area F2|0a3|x} sweeps up anything in its path."
+											"entry": "The cave is carved from stone. It is scrupulously clean. The hobgobelins keep their areas tidy, and the gelatinous cube in {@area area F2|0a3|x} sweeps up anything in its path."
 										},
 										{
 											"type": "item",
@@ -3830,7 +3830,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Hobgoblin Lair Locations",
+							"name": "Hobgobelin Lair Locations",
 							"page": 16,
 							"id": "09b",
 							"entries": [
@@ -3842,10 +3842,10 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/032-map-1.07-f-hobgoblin-lair.webp"
+												"path": "adventure/HotB/032-map-1.07-f-hobgobelin-lair.webp"
 											},
 											"imageType": "map",
-											"title": "Map F: Hobgoblin Lair (DM's Version)",
+											"title": "Map F: Hobgobelin Lair (DM's Version)",
 											"credit": "Marc Moureau",
 											"width": 1700,
 											"height": 1254,
@@ -4043,14 +4043,14 @@
 											],
 											"hrefThumbnail": {
 												"type": "internal",
-												"path": "adventure/HotB/thumbnail/032-map-1.07-f-hobgoblin-lair.webp"
+												"path": "adventure/HotB/thumbnail/032-map-1.07-f-hobgobelin-lair.webp"
 											}
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/033-map-1.07-f-hobgoblin-lair-no-tokens.webp"
+												"path": "adventure/HotB/033-map-1.07-f-hobgobelin-lair-no-tokens.webp"
 											},
 											"imageType": "map",
 											"title": "Without Tokens",
@@ -4073,7 +4073,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/034-map-1.07-f-hobgoblin-lair-player.webp"
+												"path": "adventure/HotB/034-map-1.07-f-hobgobelin-lair-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"title": "Player Version",
@@ -4104,24 +4104,24 @@
 											"page": 16,
 											"id": "09d",
 											"entries": [
-												"An armored goblinoid warrior with red-orange skin and a bow stands behind a rickety barricade of interlocking spears. \"Halt!\" she commands. \"State your business or face the wrath of our battalion\u2014thirty hobgoblins strong.\""
+												"An armored goblinoid warrior with red-orange skin and a bow stands behind a rickety barricade of interlocking spears. \"Halt!\" she commands. \"State your business or face the wrath of our battalion\u2014thirty hobgobelins strong.\""
 											]
 										},
-										"A {@creature Hobgoblin Warrior|XMM} stands guard behind a pair of spear barricades (see the \"{@area Spear Barricade|09f|x}\" sidebar). The sentry is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward intruders and tries to delay them through interrogation until the gelatinous cube in {@area area F2|0a3|x} arrives here to dispatch them.",
-										"The sentry is lying about how many hobgoblins remain. Weakened by their recent loss, the hobgoblins fear marauders and try to present a strong front. A character who doubts the sentry can take the {@action Chercher|XPHB} action and make a {@dc 13} Wisdom ({@skill Perspicacité|XPHB}) check; a successful check discerns the lie.",
+										"A {@creature Hobgobelin Warrior|XMM} stands guard behind a pair of spear barricades (see the \"{@area Spear Barricade|09f|x}\" sidebar). The sentry is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward intruders and tries to delay them through interrogation until the gelatinous cube in {@area area F2|0a3|x} arrives here to dispatch them.",
+										"The sentry is lying about how many hobgobelins remain. Weakened by their recent loss, the hobgobelins fear marauders and try to present a strong front. A character who doubts the sentry can take the {@action Chercher|XPHB} action and make a {@dc 13} Wisdom ({@skill Perspicacité|XPHB}) check; a successful check discerns the lie.",
 										"As an {@action Influence|XPHB} action, a character can try to pacify the sentry and make a {@dc 14} Charisma ({@skill Persuasion|XPHB}) check. A character who saw through her previous lie has Advantage on this check. On a successful check, the sentry's attitude improves to {@variantrule Indifferent [Attitude]|XPHB|Indifferent}, and she stands down; she warns the characters about the gelatinous cube's impending arrival but doesn't let them past the barricades. On a failed check, the sentry commands the characters to leave at once or be destroyed.",
 										{
 											"type": "entries",
-											"name": "Fighting the Hobgoblins",
+											"name": "Fighting the Hobgobelins",
 											"page": 16,
 											"id": "09e",
 											"entries": [
-												"In combat, the sentry remains behind the barricades. If the characters breach either barricade, the sentry uses her next action to blow a war horn, alerting the other hobgoblins in the cave. She then retreats to the barrack ({@area area F4|0a6|x}), where she and the rest of the hobgoblins make their last stand.",
+												"In combat, the sentry remains behind the barricades. If the characters breach either barricade, the sentry uses her next action to blow a war horn, alerting the other hobgobelins in the cave. She then retreats to the barrack ({@area area F4|0a6|x}), where she and the rest of the hobgobelins make their last stand.",
 												{
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/HotB/035-01-018.hobgoblin-warrior-c.webp"
+														"path": "adventure/HotB/035-01-018.hobgobelin-warrior-c.webp"
 													},
 													"credit": "Brian Valeza",
 													"width": 1700,
@@ -4188,7 +4188,7 @@
 												"This smooth tunnel forms a rectangular circuit."
 											]
 										},
-										"A hungry {@creature Gluant géant|XMM} slowly loops counterclockwise through this part of the cave. It takes about 1 minute for it to complete a lap. The cube occasionally meanders down the eastern tunnel toward {@area cave D|073|x} and back again, but it never crosses the spear barricades (see the \"{@area Spear Barricade|09f|x}\" sidebar).",
+										"A hungry {@creature Cube gélatineux|XMM} slowly loops counterclockwise through this part of the cave. It takes about 1 minute for it to complete a lap. The cube occasionally meanders down the eastern tunnel toward {@area cave D|073|x} and back again, but it never crosses the spear barricades (see the \"{@area Spear Barricade|09f|x}\" sidebar).",
 										"The cube is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures and fights them on detection. Clever characters might be able to lure the cube out of the cave through the entrance to area F1, shutting the door behind them."
 									]
 								},
@@ -4198,7 +4198,7 @@
 									"page": 17,
 									"id": "0a5",
 									"entries": [
-										"The hobgoblins dine in this mess hall. They erected a pair of spear barricades (see the \"{@area Spear Barricade|09f|x}\" sidebar) to keep the gelatinous cube in area F2 out. The room contains nothing of value to the characters."
+										"The hobgobelins dine in this mess hall. They erected a pair of spear barricades (see the \"{@area Spear Barricade|09f|x}\" sidebar) to keep the gelatinous cube in area F2 out. The room contains nothing of value to the characters."
 									]
 								},
 								{
@@ -4212,11 +4212,11 @@
 											"page": 17,
 											"id": "0a7",
 											"entries": [
-												"This chamber contains a dozen stiff-looking cots, but only four have seen recent use. A large iron strongbox sits against the east wall. A hobgoblin warrior, sword in hand, stands before it."
+												"This chamber contains a dozen stiff-looking cots, but only four have seen recent use. A large iron strongbox sits against the east wall. A hobgobelin warrior, sword in hand, stands before it."
 											]
 										},
-										"The surviving hobgoblins lodge in this once-full barrack. A lone {@creature Hobgoblin Warrior|XMM} fiercely defends what few valuables remain. He starts combat with the characters on sight and fights to the death.",
-										"If the hobgoblin sentry sounded the alarm in {@area area F1|09c|x}, the two {@creature Hobgoblin Warrior|XMM|Hobgoblin Warriors} from area F5 are also here, ready to intercept the characters.",
+										"The surviving hobgobelins lodge in this once-full barrack. A lone {@creature Hobgobelin Warrior|XMM} fiercely defends what few valuables remain. He starts combat with the characters on sight and fights to the death.",
+										"If the hobgobelin sentry sounded the alarm in {@area area F1|09c|x}, the two {@creature Hobgobelin Warrior|XMM|Hobgobelin Warriors} from area F5 are also here, ready to intercept the characters.",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -4240,10 +4240,10 @@
 											"id": "0aa",
 											"entries": [
 												"This training hall holds bare weapon racks and four straw-stuffed targets painted with bullseyes.",
-												"Two hobgoblin archers fire at the targets."
+												"Two hobgobelin archers fire at the targets."
 											]
 										},
-										"Unless they were called elsewhere, two {@creature Hobgoblin Warrior|XMM|Hobgoblin Warriors} train in this hall, which was stripped of its weapons during a raid. The hobgoblins are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward intruders and fight them on sight."
+										"Unless they were called elsewhere, two {@creature Hobgobelin Warrior|XMM|Hobgobelin Warriors} train in this hall, which was stripped of its weapons during a raid. The hobgobelins are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward intruders and fight them on sight."
 									]
 								}
 							]
@@ -4258,7 +4258,7 @@
 					"entries": [
 						"An owlbear\u2014a frightening cross between a bear and a giant owl\u2014lurks in this cave. Most other denizens of the valley give the cave a wide berth.",
 						"This cave is connected to {@area cave K|0f6|x}, a hotbed of activity for the Cult of Chaos, whose members venerate powers of disorder and destruction. The cult mainly operates in the adjacent cave, but as its ranks swell, cultists increasingly frequent this one. The owlbear is unaware of the cultists' presence.",
-						"You can add monsters, such as {@creature Zombie|XMM|Zombies}, to the cave to make this scenario longer and more difficult, or you can reduce the number of {@creature Cultiste|XMM|Cultists} or {@creature Gray Ooze Glob|HotB|Gray Ooze Globs} to make it easier and shorter.",
+						"You can add monsters, such as {@creature Zombi|XMM|Zombis}, to the cave to make this scenario longer and more difficult, or you can reduce the number of {@creature Cultiste|XMM|Cultists} or {@creature Gray Ooze Glob|HotB|Gray Ooze Globs} to make it easier and shorter.",
 						{
 							"type": "entries",
 							"name": "Getting Started",
@@ -4994,12 +4994,12 @@
 												"Damp stairs descend to this musty crypt. A closed stone sarcophagus sits at the north end."
 											]
 										},
-										"A {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Wight Lifedrinker|HotB} rests in the sarcophagus. The monster was once a cult leader who was so wicked in life that when he died, he rose as a cruel undead warrior. As an action, a character can pry open the lid of the sarcophagus, at which point the wight springs forth and fights.",
+										"A {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Nécrophage Lifedrinker|HotB} rests in the sarcophagus. The monster was once a cult leader who was so wicked in life that when he died, he rose as a cruel undead warrior. As an action, a character can pry open the lid of the sarcophagus, at which point the nécrophage springs forth and fights.",
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/042-01-023.wight-lifedrinker-c.webp"
+												"path": "adventure/HotB/042-01-023.nécrophage-lifedrinker-c.webp"
 											},
 											"credit": "Helge C. Balzer",
 											"width": 1700,
@@ -5022,19 +5022,19 @@
 				},
 				{
 					"type": "section",
-					"name": "H: Bugbear Lair",
+					"name": "H: Gobelours Lair",
 					"page": 20,
 					"id": "0bf",
 					"entries": [
-						"This cave recently came under the control of three belligerent bugbears and the goblin stooges they've cowed into their service. The bugbears are plotting an assault on the Keep on the Borderlands. They dream of destroying the keep and looting its riches.",
-						"You can add another {@creature Bugbear Warrior|XMM} to the cave to make this scenario longer and more difficult, or you can remove one or more of them to make it easier and shorter.",
+						"This cave recently came under the control of three belligerent gobelourss and the goblin stooges they've cowed into their service. The gobelourss are plotting an assault on the Keep on the Borderlands. They dream of destroying the keep and looting its riches.",
+						"You can add another {@creature Gobelours Warrior|XMM} to the cave to make this scenario longer and more difficult, or you can remove one or more of them to make it easier and shorter.",
 						{
 							"type": "entries",
 							"name": "Getting Started",
 							"page": 20,
 							"id": "0c0",
 							"entries": [
-								"This cave is connected to {@area cave I|0d3|x} via the the secret door in {@area area H5|0cd|x} (see {@adventure map H|HotB|1|Map H: Bugbear Lair (DM's Version)}). If the characters approach from outside the cave, read the following boxed text aloud to begin:",
+								"This cave is connected to {@area cave I|0d3|x} via the the secret door in {@area area H5|0cd|x} (see {@adventure map H|HotB|1|Map H: Gobelours Lair (DM's Version)}). If the characters approach from outside the cave, read the following boxed text aloud to begin:",
 								{
 									"type": "insetReadaloud",
 									"page": 20,
@@ -5043,12 +5043,12 @@
 										"A tunnel of rough stone is tucked behind several bushes. Within, you hear two deep voices in a heated argument. The conversation is unintelligible at this range."
 									]
 								},
-								"The voices belong to a pair of bugbears quarreling in the war room ({@area area H2|0c5|x})."
+								"The voices belong to a pair of gobelourss quarreling in the war room ({@area area H2|0c5|x})."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Bugbear Lair Features",
+							"name": "Gobelours Lair Features",
 							"page": 20,
 							"id": "0c2",
 							"entries": [
@@ -5083,7 +5083,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Bugbear Lair Locations",
+							"name": "Gobelours Lair Locations",
 							"page": 20,
 							"id": "0c3",
 							"entries": [
@@ -5095,10 +5095,10 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/043-map-1.09-h-bugbear-lair.webp"
+												"path": "adventure/HotB/043-map-1.09-h-gobelours-lair.webp"
 											},
 											"imageType": "map",
-											"title": "Map H: Bugbear Lair (DM's Version)",
+											"title": "Map H: Gobelours Lair (DM's Version)",
 											"credit": "Marc Moureau",
 											"width": 1700,
 											"height": 1254,
@@ -5256,14 +5256,14 @@
 											],
 											"hrefThumbnail": {
 												"type": "internal",
-												"path": "adventure/HotB/thumbnail/043-map-1.09-h-bugbear-lair.webp"
+												"path": "adventure/HotB/thumbnail/043-map-1.09-h-gobelours-lair.webp"
 											}
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/044-map-1.09-h-bugbear-lair-no-tokens.webp"
+												"path": "adventure/HotB/044-map-1.09-h-gobelours-lair-no-tokens.webp"
 											},
 											"imageType": "map",
 											"title": "Without Tokens",
@@ -5286,7 +5286,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/045-map-1.09-h-bugbear-lair-player.webp"
+												"path": "adventure/HotB/045-map-1.09-h-gobelours-lair-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"title": "Player Version",
@@ -5330,12 +5330,12 @@
 												"This room contains an old table and four upright logs. A poorly drawn map of the Borderlands covers the table. Two tall, furry goblinoids hunch over the map, arguing with each other."
 											]
 										},
-										"Two {@creature Bugbear Warrior|XMM|Bugbear Warriors} squabble about how best to infiltrate the keep. One asserts that a stealthy approach would be best, while the other insists on a direct assault aided by a {@area local ogre mercenary|08f|x} (see {@area cave E|087|x}). The {@variantrule Hostile [Attitude]|XPHB|Hostile} bugbears fight the characters on sight and can't be bargained with.",
+										"Two {@creature Gobelours Warrior|XMM|Gobelours Warriors} squabble about how best to infiltrate the keep. One asserts that a stealthy approach would be best, while the other insists on a direct assault aided by a {@area local ogre mercenary|08f|x} (see {@area cave E|087|x}). The {@variantrule Hostile [Attitude]|XPHB|Hostile} gobelourss fight the characters on sight and can't be bargained with.",
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/046-01-024.bugbear-warrior-c.webp"
+												"path": "adventure/HotB/046-01-024.gobelours-warrior-c.webp"
 											},
 											"credit": "Brian Valeza",
 											"width": 1700,
@@ -5382,7 +5382,7 @@
 											"page": 20,
 											"id": "0cb",
 											"entries": [
-												"The stuffed heads of deer, wolves, and other beasts are mounted on the walls of this room, as are a few humanoid heads with ghastly expressions. Skulls are piled in the northwest corner."
+												"The stuffed heads of deer, wolves, and other beasts are mounted on the walls of this room, as are a few humanoid heads with blêmely expressions. Skulls are piled in the northwest corner."
 											]
 										},
 										"Among the trophies are a number of empty mounts equal to the characters in the party\u2014a grim omen of what could happen if they're defeated in this cave.",
@@ -5411,7 +5411,7 @@
 												"Musty animal furs serve as beds in this stark hall, where a furry brute berates two smaller, squeaky-voiced goblin subordinates."
 											]
 										},
-										"A {@creature Bugbear Warrior|XMM}\u2014the self-proclaimed boss of the cave\u2014scolds two {@creature Goblin Warrior|XMM|Goblin Warriors} for sleeping on the job. When they notice the characters, the bugbear commands the goblins to fight and joins them in battle. The bugbear is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward the party, while the goblins are {@variantrule Indifferent [Attitude]|XPHB|Indifferent}.",
+										"A {@creature Gobelours Warrior|XMM}\u2014the self-proclaimed boss of the cave\u2014scolds two {@creature Goblin Warrior|XMM|Goblin Warriors} for sleeping on the job. When they notice the characters, the gobelours commands the goblins to fight and joins them in battle. The gobelours is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward the party, while the goblins are {@variantrule Indifferent [Attitude]|XPHB|Indifferent}.",
 										{
 											"type": "entries",
 											"name": "Swaying the Goblins",
@@ -5419,11 +5419,11 @@
 											"id": "0cf",
 											"entries": [
 												"These fickle goblins, Gargle and Yams, were recently recruited and don't like being yelled at.",
-												"As an {@action Influence|XPHB} action, a character can try to shake the goblins' loyalty and make one of the following checks (with {@variantrule Advantage|XPHB} if the party already defeated the bugbear). Consider these examples:",
+												"As an {@action Influence|XPHB} action, a character can try to shake the goblins' loyalty and make one of the following checks (with {@variantrule Advantage|XPHB} if the party already defeated the gobelours). Consider these examples:",
 												"{@b {@dc 10} Charisma ({@skill Tromperie|XPHB}).} The character tricks the goblins into believing the party now commands the cave.",
 												"{@b {@dc 11} Charisma ({@skill Intimidation|XPHB}).} The character scares the goblins into fearing for their lives.",
 												"{@b {@dc 10} Charisma ({@skill Persuasion|XPHB}).} The character convinces the goblins the party means them no harm.",
-												"On a successful check, the goblins' attitudes improve to {@variantrule Friendly [Attitude]|XPHB|Friendly}. In exchange for a bribe of at least 2 GP, the goblins also help the characters defeat any remaining bugbears in the cave and tell the characters about the secret door in this area, though the goblins don't know what lies on the other side."
+												"On a successful check, the goblins' attitudes improve to {@variantrule Friendly [Attitude]|XPHB|Friendly}. In exchange for a bribe of at least 2 GP, the goblins also help the characters defeat any remaining gobelourss in the cave and tell the characters about the secret door in this area, though the goblins don't know what lies on the other side."
 											]
 										},
 										{
@@ -5443,7 +5443,7 @@
 									"page": 21,
 									"id": "0d1",
 									"entries": [
-										"A heap of thick animal furs forms a soft bed in this room, where the bugbear boss in area H5 sleeps.",
+										"A heap of thick animal furs forms a soft bed in this room, where the gobelours boss in area H5 sleeps.",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -5467,7 +5467,7 @@
 					"entries": [
 						"A bloodthirsty minotaur rules this cave. A servant of {@book Baphomet|XDMG|5|Layer 600: The Endless Maze}\u2014a demon lord who endorses bloodshed and cruelty\u2014the minotaur feasts on adventurers and monsters alike. It stalks its lair, huffing in bestial rage.",
 						"The minotaur's only companions are the vermin that scavenge its grisly leftovers. Deprived of recent visitors to its cave, the minotaur hungers for new playthings to hunt.",
-						"You can add monsters to the cave to make this scenario longer and more difficult. One or more {@creature Bandit|XMM|Bandits} might be here searching for hidden treasure. Conversely, you can reduce the number of {@creature Stirge|XMM|Stirges} to make the scenario easier and shorter.",
+						"You can add monsters to the cave to make this scenario longer and more difficult. One or more {@creature Bandit|XMM|Bandits} might be here searching for hidden treasure. Conversely, you can reduce the number of {@creature Strige|XMM|Striges} to make the scenario easier and shorter.",
 						{
 							"type": "entries",
 							"name": "Getting Started",
@@ -6220,7 +6220,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "I2: Stirge Lair",
+									"name": "I2: Strige Lair",
 									"page": 22,
 									"id": "0db",
 									"entries": [
@@ -6232,8 +6232,8 @@
 												"The floor of this bloodstained cavern is strewn with small animal bones and the shriveled-up carcasses of cave-dwelling bats and rodents. A dim orange glow emanates from the north."
 											]
 										},
-										"Three {@creature Stirge|XMM|Stirges} hang asleep from the ceiling. These flying pests subsist on a diet of fresh blood. The stirges avoid the minotaur, but they are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures.",
-										"{@variantrule Bright Light|XPHB} or any noise louder than a whisper wakes the stirges, which then start combat. The light from the fire beetles in area I3 is visible from here but is too dim to awaken the stirges. In combat, the stirges gorge themselves until they've drunk the characters dry."
+										"Three {@creature Strige|XMM|Striges} hang asleep from the ceiling. These flying pests subsist on a diet of fresh blood. The striges avoid the minotaur, but they are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures.",
+										"{@variantrule Bright Light|XPHB} or any noise louder than a whisper wakes the striges, which then start combat. The light from the fire beetles in area I3 is visible from here but is too dim to awaken the striges. In combat, the striges gorge themselves until they've drunk the characters dry."
 									]
 								},
 								{
@@ -6346,7 +6346,7 @@
 					"id": "0e5",
 					"entries": [
 						"Evil gnolls\u2014tall, shaggy fiends with hyenoid heads\u2014have turned this abandoned shrine into their lair. The gnolls heard rumors that treasure is hidden somewhere in this cave, but they've been unable to find it due to an illusion placed by a long-dead mage. Vicious and hot-tempered, the gnolls have little patience for those who interrupt their search.",
-						"You can add monsters to the cave to make this scenario longer and more difficult. One or more {@creature Bugbear Warrior|XMM|Bugbear Warriors} might have formed a tenuous alliance with the gnolls. Conversely, you can reduce the number of {@creature Gnoll Warrior|XMM|Gnoll Warriors} to make the scenario easier and shorter.",
+						"You can add monsters to the cave to make this scenario longer and more difficult. One or more {@creature Gobelours Warrior|XMM|Gobelours Warriors} might have formed a tenuous alliance with the gnolls. Conversely, you can reduce the number of {@creature Gnoll Warrior|XMM|Gnoll Warriors} to make the scenario easier and shorter.",
 						{
 							"type": "entries",
 							"name": "Getting Started",
@@ -6756,7 +6756,7 @@
 												{
 													"type": "item",
 													"name": "DM Tip!",
-													"entry": "If you increased this cave's difficulty, one or more {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Bugbear Warrior|XMM|Bugbear Warriors} might be here rummaging through the junk."
+													"entry": "If you increased this cave's difficulty, one or more {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Gobelours Warrior|XMM|Gobelours Warriors} might be here rummaging through the junk."
 												}
 											]
 										}
@@ -6832,13 +6832,13 @@
 												"The devil's face ripples to reveal a dusty crypt. Ancient bones and rubble litter the tiled floor. An austere sarcophagus stands in each corner, and an ornate chest rests in the center of the room."
 											]
 										},
-										"Long ago, an evil mage reanimated the corpses of four explorers and commanded them to guard this crypt's treasure for all eternity. Entombed here are four {@creature Zombie|XMM|Zombies}, one in each sarcophagus.",
-										"If the characters touch any of the sarcophagi or the chest, the {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Zombie|XMM|zombies} push the lids off their containers and start combat, seeking to rend intruders limb from limb.",
+										"Long ago, an evil mage reanimated the corpses of four explorers and commanded them to guard this crypt's treasure for all eternity. Entombed here are four {@creature Zombi|XMM|Zombis}, one in each sarcophagus.",
+										"If the characters touch any of the sarcophagi or the chest, the {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Zombi|XMM|zombis} push the lids off their containers and start combat, seeking to rend intruders limb from limb.",
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/057-01-028.zombie-c.webp"
+												"path": "adventure/HotB/057-01-028.zombi-c.webp"
 											},
 											"credit": "Helge C. Balzer",
 											"width": 1700,
@@ -6867,7 +6867,7 @@
 					"id": "0f6",
 					"entries": [
 						"The Cult of Chaos performs evil rites in this cave, subtly drawing monsters to inhabit the Caves of Chaos and bring strife to the Borderlands. The current cult leader is Ivlis, the keep's former priest. Her cruel assistant, Narthus, is always here, and other cultists dwell close by (see {@area cave G|0ab|x}). Undead guardians defend the shrine and the Chaos Bell\u2014the source of the cult's foul magic\u2014at the shrine's heart.",
-						"You can add monsters, such as {@creature Cultiste|XMM|Cultists}, to the cave to make this scenario longer and more difficult, or you can reduce the number of {@creature Squelette|XMM|Skeletons} or {@creature Zombie|XMM|Zombies} to make the scenario easier and shorter.",
+						"You can add monsters, such as {@creature Cultiste|XMM|Cultists}, to the cave to make this scenario longer and more difficult, or you can reduce the number of {@creature Squelette|XMM|Skeletons} or {@creature Zombi|XMM|Zombis} to make the scenario easier and shorter.",
 						{
 							"type": "image",
 							"href": {
@@ -7269,7 +7269,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/062-01-029.ogre-zombie-c.webp"
+												"path": "adventure/HotB/062-01-029.ogre-zombi-c.webp"
 											},
 											"credit": "Helge C. Balzer",
 											"width": 1700,
@@ -7283,8 +7283,8 @@
 												"The stench of death fills this hallway. Flies buzz around a groaning, slack-jawed giant backlit by red-flamed wall sconces."
 											]
 										},
-										"An {@creature Zombie d'ogre|XMM} conscripted by the cultists to guard their nefarious acts stands watch here, but the undead brute is easily fooled.",
-										"The ogre zombie lets members of the Cult of Chaos pass unscathed, but it is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward entrants not garbed in the cult's attire and pummels them on sight. The creature is {@variantrule Indifferent [Attitude]|XPHB|Indifferent} toward anyone wearing a {@item Robe de cultiste|HotB}."
+										"An {@creature Zombi d'ogre|XMM} conscripted by the cultists to guard their nefarious acts stands watch here, but the undead brute is easily fooled.",
+										"The ogre zombi lets members of the Cult of Chaos pass unscathed, but it is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward entrants not garbed in the cult's attire and pummels them on sight. The creature is {@variantrule Indifferent [Attitude]|XPHB|Indifferent} toward anyone wearing a {@item Robe de cultiste|HotB}."
 									]
 								},
 								{
@@ -7313,7 +7313,7 @@
 									"page": 26,
 									"id": "0ff",
 									"entries": [
-										"Four {@creature Zombie|XMM|Zombies} shamble restlessly in this bare chamber. They fight any non-Undead not garbed in the cult's attire but are {@variantrule Indifferent [Attitude]|XPHB|Indifferent} toward anyone wearing a {@item Robe de cultiste|HotB}."
+										"Four {@creature Zombi|XMM|Zombis} shamble restlessly in this bare chamber. They fight any non-Undead not garbed in the cult's attire but are {@variantrule Indifferent [Attitude]|XPHB|Indifferent} toward anyone wearing a {@item Robe de cultiste|HotB}."
 									]
 								},
 								{
@@ -7350,7 +7350,7 @@
 											"id": "102",
 											"entries": [
 												"Hanging from the stand is the Chaos Bell, a profane relic whose toll can wake the dead.",
-												"As a Bonus Action, a creature within 5 feet of the Chaos Bell can ring it, causing the bone piles to knit together and arise as four Hostile {@creature Squelette|XMM|Skeletons}. The tolling bell also summons the {@creature Zombie|XMM|Zombies} in {@area area K4|0ff|x} to the fray. The skeletons and zombies obey Narthus's commands.",
+												"As a Bonus Action, a creature within 5 feet of the Chaos Bell can ring it, causing the bone piles to knit together and arise as four Hostile {@creature Squelette|XMM|Skeletons}. The tolling bell also summons the {@creature Zombi|XMM|Zombis} in {@area area K4|0ff|x} to the fray. The skeletons and zombis obey Narthus's commands.",
 												{
 													"type": "image",
 													"href": {
@@ -7386,7 +7386,7 @@
 											"page": 27,
 											"id": "105",
 											"entries": [
-												"This opulent chamber contains a large bed, desk, and wardrobe. A ghastly demon head is mounted on the wall. Kneeling before the demon is a human woman wearing bloodred robes and a spidery headdress."
+												"This opulent chamber contains a large bed, desk, and wardrobe. A blêmely demon head is mounted on the wall. Kneeling before the demon is a human woman wearing bloodred robes and a spidery headdress."
 											]
 										},
 										"{@creature Ivlis|HotB}, leader of the Cult of Chaos, lives here. Each day, she pays tribute to the severed demon head mounted on the wall, which she talks to when no one's around. Ivlis is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward the characters.",
@@ -9855,7 +9855,7 @@
 									"page": 9,
 									"id": "152",
 									"entries": [
-										"Characters can get at the truth by investigating the jumbled storeroom, where they discover a singed cloak stained with dried ale.",
+										"Characters can get at the truth by investigating the jumbled storeroom, where they discover a grand singed cloak stained with dried ale.",
 										{
 											"type": "entries",
 											"name": "Gathering Clues",
@@ -12443,7 +12443,7 @@
 									"type": "list",
 									"items": [
 										"{@creature Bandit|XMM}",
-										"{@creature Bugbear Warrior|XMM}",
+										"{@creature Gobelours Warrior|XMM}",
 										"{@creature Roturier|XMM}",
 										"{@creature Cultiste|XMM}",
 										"{@creature Curate|HotB}",
@@ -12452,7 +12452,7 @@
 										"{@creature Goblin Warrior|XMM}",
 										"{@creature Gray Ooze Glob|HotB}",
 										"{@creature Garde|XMM}",
-										"{@creature Hobgoblin Warrior|XMM}",
+										"{@creature Hobgobelin Warrior|XMM}",
 										"{@creature Jacko|HotB}",
 										"{@creature Chevalier|XMM}",
 										"{@creature Kuo-Toa Marauder|HotB}",
@@ -12460,15 +12460,15 @@
 										"{@creature Mimique|XMM}",
 										"{@creature Noble|XMM}",
 										"{@creature Ogre|XMM}",
-										"{@creature Zombie d'ogre|XMM}",
+										"{@creature Zombi d'ogre|XMM}",
 										"{@creature Ours-hibou|XMM}",
 										"{@creature Pral|HotB}",
 										"{@creature Dragonnet rouge|XMM}",
 										"{@creature Squelette|XMM}",
-										"{@creature Sprite Skirmisher|HotB}",
-										"{@creature Méphrite de vapeur|XMM}",
-										"{@creature Stirge|XMM}",
-										"{@creature Zombie|XMM}"
+										"{@creature Esprit follet Skirmisher|HotB}",
+										"{@creature Méphite vaporeux|XMM}",
+										"{@creature Strige|XMM}",
+										"{@creature Zombi|XMM}"
 									],
 									"columns": 3
 								}
@@ -13272,7 +13272,7 @@
 										],
 										[
 											"4",
-											"{@area Sparring Sprites|1ff|x}"
+											"{@area Sparring Esprit follets|1ff|x}"
 										]
 									]
 								},
@@ -13374,7 +13374,7 @@
 											"page": 9,
 											"id": "1f7",
 											"entries": [
-												"To make this encounter easier, reduce the number of {@creature Cultiste|XMM|Cultists}. Conversely, you can make this encounter more challenging by adding one or more {@creature Zombie|XMM|Zombies}, which aid the cultists as undead thralls."
+												"To make this encounter easier, reduce the number of {@creature Cultiste|XMM|Cultists}. Conversely, you can make this encounter more challenging by adding one or more {@creature Zombi|XMM|Zombis}, which aid the cultists as undead thralls."
 											]
 										},
 										{
@@ -13461,7 +13461,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Sparring Sprites",
+									"name": "Sparring Esprit follets",
 									"page": 9,
 									"id": "1ff",
 									"entries": [
@@ -13469,7 +13469,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/119-03-006.sprite-skirmisher-c.webp"
+												"path": "adventure/HotB/119-03-006.esprit follet-skirmisher-c.webp"
 											},
 											"credit": "Sam Keiser",
 											"width": 1700,
@@ -13484,16 +13484,16 @@
 												"\"Well met, giant travelers! We are training for battle,\" he reports. \"Care to spar with us?\""
 											]
 										},
-										"Four {@creature Sprite Skirmisher|HotB|Sprite Skirmishers} spar vigorously in this clearing. The sprites are {@variantrule Indifferent [Attitude]|XPHB|Indifferent} toward the characters but interested in testing their mettle against the party.",
+										"Four {@creature Esprit follet Skirmisher|HotB|Esprit follet Skirmishers} spar vigorously in this clearing. The esprit follets are {@variantrule Indifferent [Attitude]|XPHB|Indifferent} toward the characters but interested in testing their mettle against the party.",
 										{
 											"type": "entries",
-											"name": "Sparring with the Sprites",
+											"name": "Sparring with the Esprit follets",
 											"page": 9,
 											"id": "201",
 											"entries": [
-												"If the characters agree to spar with the pugnacious fey, the bout proceeds as a nonlethal combat encounter. The sprites bow gracefully, then ready their weapons. Roll Initiative.",
-												"The sprites fight valiantly but with restraint. A player character reduced to 0 Hit Points by a sprite has the {@condition Inconscient|XPHB} condition and is {@variantrule Stable|XPHB}. The sprites expect similar treatment by the characters.",
-												"If all the sprites are defeated, they quickly rouse themselves and commend the characters on their tactical prowess. If all the characters are defeated instead, the sprites wait for the characters to wake up\u20141 hour later and with 1 Hit Point each\u2014to thank them for helping the sprites train."
+												"If the characters agree to spar with the pugnacious fey, the bout proceeds as a nonlethal combat encounter. The esprit follets bow gracefully, then ready their weapons. Roll Initiative.",
+												"The esprit follets fight valiantly but with restraint. A player character reduced to 0 Hit Points by a esprit follet has the {@condition Inconscient|XPHB} condition and is {@variantrule Stable|XPHB}. The esprit follets expect similar treatment by the characters.",
+												"If all the esprit follets are defeated, they quickly rouse themselves and commend the characters on their tactical prowess. If all the characters are defeated instead, the esprit follets wait for the characters to wake up\u20141 hour later and with 1 Hit Point each\u2014to thank them for helping the esprit follets train."
 											]
 										},
 										{
@@ -13502,15 +13502,15 @@
 											"page": 9,
 											"id": "202",
 											"entries": [
-												"In exchange for the characters' spirited participation, the sprites reward the party with one magic item; roll once on the {@area Magic Items|22e|x} table in {@adventure appendix A|HotB|4} (rerolling duplicates) to determine the item.",
+												"In exchange for the characters' spirited participation, the esprit follets reward the party with one magic item; roll once on the {@area Magic Items|22e|x} table in {@adventure appendix A|HotB|4} (rerolling duplicates) to determine the item.",
 												{
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/HotB/120-map-3.06-sparring-sprites.webp"
+														"path": "adventure/HotB/120-map-3.06-sparring-esprit follets.webp"
 													},
 													"imageType": "map",
-													"title": "Map: Woods (Sparring Sprites)",
+													"title": "Map: Woods (Sparring Esprit follets)",
 													"credit": "Stacey Allan & William Doyle",
 													"width": 1700,
 													"height": 2498,
@@ -13624,7 +13624,7 @@
 									"rows": [
 										[
 											"1",
-											"{@area Flock of Stirges|208|x}"
+											"{@area Flock of Striges|208|x}"
 										],
 										[
 											"2",
@@ -13642,7 +13642,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Flock of Stirges",
+									"name": "Flock of Striges",
 									"page": 10,
 									"id": "208",
 									"entries": [
@@ -13659,21 +13659,21 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/122-03-007.stirge-c.webp"
+												"path": "adventure/HotB/122-03-007.strige-c.webp"
 											},
 											"credit": "Dario Jelusic",
 											"width": 1700,
 											"height": 1123
 										},
-										"Three {@creature Stirge|XMM|Stirges} descend on the characters. These bloodthirsty creatures can't be reasoned with; the {@variantrule Hostile [Attitude]|XPHB|Hostile} stirges fight to the death.",
+										"Three {@creature Strige|XMM|Striges} descend on the characters. These bloodthirsty creatures can't be reasoned with; the {@variantrule Hostile [Attitude]|XPHB|Hostile} striges fight to the death.",
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/HotB/123-map-3.08-flock-of-stirges.webp"
+												"path": "adventure/HotB/123-map-3.08-flock-of-striges.webp"
 											},
 											"imageType": "map",
-											"title": "Map: Fens (Flock of Stirges)",
+											"title": "Map: Fens (Flock of Striges)",
 											"credit": "Stacey Allan & William Doyle",
 											"width": 1700,
 											"height": 2501,
@@ -13691,7 +13691,7 @@
 											"page": 10,
 											"id": "20a",
 											"entries": [
-												"To make this encounter easier, you can reduce the number of {@creature Stirge|XMM|Stirges}, or you can increase the difficulty by adding one or more {@creature Gnoll Warrior|XMM|Gnoll Warriors} drawn here by the scent of blood."
+												"To make this encounter easier, you can reduce the number of {@creature Strige|XMM|Striges}, or you can increase the difficulty by adding one or more {@creature Gnoll Warrior|XMM|Gnoll Warriors} drawn here by the scent of blood."
 											]
 										}
 									]
@@ -13937,7 +13937,7 @@
 										],
 										[
 											"3",
-											"{@area Hobgoblin Patrol|221|x}"
+											"{@area Hobgobelin Patrol|221|x}"
 										],
 										[
 											"4",
@@ -14037,7 +14037,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Hobgoblin Patrol",
+									"name": "Hobgobelin Patrol",
 									"page": 13,
 									"id": "221",
 									"entries": [
@@ -14049,23 +14049,23 @@
 												"Ahead of you, three humanoid warriors in battered armor argue in harsh tones as they march through the forest. They haven't noticed you yet."
 											]
 										},
-										"Three {@creature Hobgoblin Warrior|XMM|Hobgoblin Warriors} were recently separated from their squadron after a bitter defeat. The {@variantrule Hostile [Attitude]|XPHB|Hostile} hobgoblins are ornery and assault the characters on sight.",
+										"Three {@creature Hobgobelin Warrior|XMM|Hobgobelin Warriors} were recently separated from their squadron after a bitter defeat. The {@variantrule Hostile [Attitude]|XPHB|Hostile} hobgobelins are ornery and assault the characters on sight.",
 										{
 											"type": "entries",
 											"name": "Adjusting the Difficulty",
 											"page": 13,
 											"id": "223",
 											"entries": [
-												"To make this encounter easier, you can reduce the number of {@creature Hobgoblin Warrior|XMM|Hobgoblin Warriors}. Conversely, add one more {@creature Hobgoblin Warrior|XMM} to increase the difficulty."
+												"To make this encounter easier, you can reduce the number of {@creature Hobgobelin Warrior|XMM|Hobgobelin Warriors}. Conversely, add one more {@creature Hobgobelin Warrior|XMM} to increase the difficulty."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Eavesdropping on the Hobgoblins",
+											"name": "Eavesdropping on the Hobgobelins",
 											"page": 13,
 											"id": "224",
 											"entries": [
-												"To listen in on the hobgoblins' argument, a character must come within 30 feet of the patrol and make a {@dc 15} Dexterity ({@skill Discrétion|XPHB}) check. On a successful check, the character hears the hobgoblins debating whether they should {@area ally with the bugbears|0bf|x} in the Caves of Chaos or hire the {@area ogre mercenary|08f|x} that dwells there (both are detailed in \"{@adventure Caves of Chaos|HotB|1}\"). On a failed check, the hobgoblins spot the eavesdropping character and start combat."
+												"To listen in on the hobgobelins' argument, a character must come within 30 feet of the patrol and make a {@dc 15} Dexterity ({@skill Discrétion|XPHB}) check. On a successful check, the character hears the hobgobelins debating whether they should {@area ally with the gobelourss|0bf|x} in the Caves of Chaos or hire the {@area ogre mercenary|08f|x} that dwells there (both are detailed in \"{@adventure Caves of Chaos|HotB|1}\"). On a failed check, the hobgobelins spot the eavesdropping character and start combat."
 											]
 										},
 										{
@@ -14074,15 +14074,15 @@
 											"page": 13,
 											"id": "225",
 											"entries": [
-												"Each hobgoblin carries a leather pouch that contains 4 GP.",
+												"Each hobgobelin carries a leather pouch that contains 4 GP.",
 												{
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/HotB/130-map-3.12-hobgoblin-patrol.webp"
+														"path": "adventure/HotB/130-map-3.12-hobgobelin-patrol.webp"
 													},
 													"imageType": "map",
-													"title": "Map: Tamarack Stand (Hobgoblin Patrol)",
+													"title": "Map: Tamarack Stand (Hobgobelin Patrol)",
 													"credit": "Stacey Allan & William Doyle",
 													"width": 1700,
 													"height": 2501,
@@ -14163,7 +14163,7 @@
 								],
 								[
 									"3",
-									"A nearby bog burps out two {@creature Méphrite de vapeur|XMM|Steam Mephits} that smell like rotten eggs. The {@variantrule Indifferent [Attitude]|XPHB|Indifferent} mephits try to amuse the characters with noisy emissions of stinky steam."
+									"A nearby bog burps out two {@creature Méphite vaporeux|XMM|Steam Mephits} that smell like rotten eggs. The {@variantrule Indifferent [Attitude]|XPHB|Indifferent} mephits try to amuse the characters with noisy emissions of stinky steam."
 								],
 								[
 									"4",
@@ -14175,7 +14175,7 @@
 								],
 								[
 									"6",
-									"Ahead, the corpse of a red-robed cultist lies face down in the mud. The corpse is a {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Zombie|XMM} that jolts up and ambushes any creature that comes within 5 feet of it."
+									"Ahead, the corpse of a red-robed cultist lies face down in the mud. The corpse is a {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Zombi|XMM} that jolts up and ambushes any creature that comes within 5 feet of it."
 								],
 								[
 									"7",
@@ -14217,7 +14217,7 @@
 								],
 								[
 									"2",
-									"A {@creature Stirge|XMM} feeds on an {@creature Zombie d'ogre|XMM}. Both creatures are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward the characters."
+									"A {@creature Strige|XMM} feeds on an {@creature Zombi d'ogre|XMM}. Both creatures are {@variantrule Hostile [Attitude]|XPHB|Hostile} toward the characters."
 								],
 								[
 									"3",
@@ -14260,7 +14260,7 @@
 							"rows": [
 								[
 									"1",
-									"Three {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Hobgoblin Warrior|XMM|Hobgoblin Warriors} accost the characters along the road."
+									"Three {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Hobgobelin Warrior|XMM|Hobgobelin Warriors} accost the characters along the road."
 								],
 								[
 									"2",
@@ -14319,7 +14319,7 @@
 								],
 								[
 									"4",
-									"Two {@creature Bugbear Warrior|XMM|Bugbear Warriors} use a rusty log saw to fell a mighty oak. The {@variantrule Hostile [Attitude]|XPHB|Hostile} lumberjacks fight any who disturb their work."
+									"Two {@creature Gobelours Warrior|XMM|Gobelours Warriors} use a rusty log saw to fell a mighty oak. The {@variantrule Hostile [Attitude]|XPHB|Hostile} lumberjacks fight any who disturb their work."
 								],
 								[
 									"5",
@@ -15783,14 +15783,14 @@
 					"items": [
 						"{@creature Animated Flying Sword|XMM}",
 						"{@creature Bandit|XMM}",
-						"{@creature Bugbear Warrior|XMM}",
+						"{@creature Gobelours Warrior|XMM}",
 						"{@creature Charognard rampant|XMM}",
 						"{@creature Roturier|XMM}",
 						"{@creature Dragonnet de cuivre|XMM}",
 						"{@creature Cultiste|XMM}",
 						"{@creature Curate|HotB}",
-						"{@creature Gluant géant|XMM}",
-						"{@creature Scutigère géante|XMM}",
+						"{@creature Cube gélatineux|XMM}",
+						"{@creature Mille-pattes géant|XMM}",
 						"{@creature Scarabée de feu géant|XMM}",
 						"{@creature Araignée géante|XMM}",
 						"{@creature Gnoll Warrior|XMM}",
@@ -15799,7 +15799,7 @@
 						"{@creature Gray Ooze Glob|HotB}",
 						"{@creature Garde|XMM}",
 						"{@creature Guard Captain|XMM}",
-						"{@creature Hobgoblin Warrior|XMM}",
+						"{@creature Hobgobelin Warrior|XMM}",
 						"{@creature Ivlis|HotB}",
 						"{@creature Jacko|HotB}",
 						"{@creature Chevalier|XMM}",
@@ -15812,17 +15812,17 @@
 						"{@creature Noble|XMM}",
 						"{@creature Nothic|XMM}",
 						"{@creature Ogre|XMM}",
-						"{@creature Zombie d'ogre|XMM}",
+						"{@creature Zombi d'ogre|XMM}",
 						"{@creature Ours-hibou|XMM}",
 						"{@creature Pral|HotB}",
 						"{@creature Dragonnet rouge|XMM}",
 						"{@creature Squelette|XMM}",
-						"{@creature Sprite Skirmisher|HotB}",
-						"{@creature Méphrite de vapeur|XMM}",
-						"{@creature Stirge|XMM}",
+						"{@creature Esprit follet Skirmisher|HotB}",
+						"{@creature Méphite vaporeux|XMM}",
+						"{@creature Strige|XMM}",
 						"{@creature Vinx|HotB}",
-						"{@creature Wight Lifedrinker|HotB}",
-						"{@creature Zombie|XMM}"
+						"{@creature Nécrophage Lifedrinker|HotB}",
+						"{@creature Zombi|XMM}"
 					]
 				},
 				{
@@ -15875,11 +15875,11 @@
 				},
 				{
 					"type": "section",
-					"name": "Bugbear Warrior",
+					"name": "Gobelours Warrior",
 					"entries": [
 						{
 							"type": "statblock",
-							"name": "Bugbear Warrior",
+							"name": "Gobelours Warrior",
 							"prop": "monsterFluff",
 							"source": "XMM",
 							"data": {
@@ -15890,7 +15890,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Bugbear Warrior",
+							"name": "Gobelours Warrior",
 							"tag": "creature",
 							"source": "XMM",
 							"style": "narrow"
@@ -16259,11 +16259,11 @@
 				},
 				{
 					"type": "section",
-					"name": "Hobgoblin Warrior",
+					"name": "Hobgobelin Warrior",
 					"entries": [
 						{
 							"type": "statblock",
-							"name": "Hobgoblin Warrior",
+							"name": "Hobgobelin Warrior",
 							"prop": "monsterFluff",
 							"source": "XMM",
 							"data": {
@@ -16274,7 +16274,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Hobgoblin Warrior",
+							"name": "Hobgobelin Warrior",
 							"tag": "creature",
 							"source": "XMM",
 							"style": "narrow"
@@ -16571,11 +16571,11 @@
 				},
 				{
 					"type": "section",
-					"name": "Ogre Zombie",
+					"name": "Ogre Zombi",
 					"entries": [
 						{
 							"type": "statblock",
-							"name": "Ogre Zombie",
+							"name": "Ogre Zombi",
 							"prop": "monsterFluff",
 							"source": "XMM",
 							"data": {
@@ -16586,7 +16586,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Ogre Zombie",
+							"name": "Ogre Zombi",
 							"tag": "creature",
 							"source": "XMM",
 							"style": "narrow"
@@ -16691,11 +16691,11 @@
 				},
 				{
 					"type": "section",
-					"name": "Sprite Skirmisher",
+					"name": "Esprit follet Skirmisher",
 					"entries": [
 						{
 							"type": "statblock",
-							"name": "Sprite Skirmisher",
+							"name": "Esprit follet Skirmisher",
 							"prop": "monsterFluff",
 							"source": "HotB",
 							"data": {
@@ -16706,7 +16706,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Sprite Skirmisher",
+							"name": "Esprit follet Skirmisher",
 							"tag": "creature",
 							"source": "HotB",
 							"style": "narrow"
@@ -16739,11 +16739,11 @@
 				},
 				{
 					"type": "section",
-					"name": "Stirge",
+					"name": "Strige",
 					"entries": [
 						{
 							"type": "statblock",
-							"name": "Stirge",
+							"name": "Strige",
 							"prop": "monsterFluff",
 							"source": "XMM",
 							"data": {
@@ -16754,7 +16754,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Stirge",
+							"name": "Strige",
 							"tag": "creature",
 							"source": "XMM",
 							"style": "narrow"
@@ -16787,11 +16787,11 @@
 				},
 				{
 					"type": "section",
-					"name": "Wight Lifedrinker",
+					"name": "Nécrophage Lifedrinker",
 					"entries": [
 						{
 							"type": "statblock",
-							"name": "Wight Lifedrinker",
+							"name": "Nécrophage Lifedrinker",
 							"prop": "monsterFluff",
 							"source": "HotB",
 							"data": {
@@ -16802,7 +16802,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Wight Lifedrinker",
+							"name": "Nécrophage Lifedrinker",
 							"tag": "creature",
 							"source": "HotB",
 							"style": "narrow"
@@ -16811,11 +16811,11 @@
 				},
 				{
 					"type": "section",
-					"name": "Zombie",
+					"name": "Zombi",
 					"entries": [
 						{
 							"type": "statblock",
-							"name": "Zombie",
+							"name": "Zombi",
 							"prop": "monsterFluff",
 							"source": "XMM",
 							"data": {
@@ -16826,7 +16826,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Zombie",
+							"name": "Zombi",
 							"tag": "creature",
 							"source": "XMM",
 							"style": "narrow"

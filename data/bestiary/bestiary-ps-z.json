@@ -308,7 +308,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the tarasque",
+						"replace": "(?:le |la |l’?|au |à la )Tarasque",
 						"with": "Emrakul",
 						"flags": "i"
 					}
@@ -685,7 +685,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "\\bthe solar\\b",
+						"replace": "(?:le |la |l’?|au |à la )Solar",
 						"with": "Iona",
 						"flags": "i"
 					}
@@ -713,7 +713,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the kraken",
+						"replace": "(?:le |la |l’?|au |à la )Kraken",
 						"with": "Kozilek",
 						"flags": "i"
 					}
@@ -879,7 +879,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "\\bthe planetar",
+						"replace": "(?:le |la |l’?|au |à la )Planétar",
 						"with": "Linvala",
 						"flags": "i"
 					}
@@ -958,8 +958,9 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "shade",
-						"with": "shadow"
+						"replace": "(l|L)(?:e |a |')Ombre",
+						"with": "shadow",
+						"flags": "i"
 					}
 				}
 			},
@@ -1172,7 +1173,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the empyrean",
+						"replace": "(l|L)(?:e |a |')Empyréen",
 						"with": "Ulamog",
 						"flags": "i"
 					}

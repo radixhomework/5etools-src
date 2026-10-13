@@ -5211,7 +5211,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the spy",
+						"replace": "(l|L)(?:e |a |')Espion",
 						"with": "Thinnings",
 						"flags": "i"
 					},
@@ -5578,7 +5578,8 @@
 					"*": {
 						"mode": "replaceTxt",
 						"replace": "will-o'-wisp",
-						"with": "will-o'-wells"
+						"with": "will-o'-wells",
+						"flags": "i"
 					},
 					"action": {
 						"mode": "appendArr",

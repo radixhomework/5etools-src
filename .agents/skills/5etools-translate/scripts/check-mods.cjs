@@ -60,8 +60,14 @@ for (const file of files) {
     let working = baseDump;
     const runChain = (node, label) => {
       const steps = Array.isArray(node) ? node : [node];
+      const seenFinds = new Set();
       for (const step of steps) {
         if (!step || step.mode !== 'replaceTxt' || typeof step.replace !== 'string') continue;
+        // duplicate find-strings in one chain are the upstream capital/lowercase
+        // pair convention: the first consumes the matches, the second no-ops
+        const dupKey = String(step.flags || '').includes('i') ? step.replace.toLowerCase() : step.replace;
+        if (seenFinds.has(dupKey)) continue;
+        seenFinds.add(dupKey);
         if (!flagsValid(step.flags)) {
           errors.push(`bad flags ${JSON.stringify(step.flags)} in ${label} (subset of "i" only — "gi" crashes the page)`);
           continue;

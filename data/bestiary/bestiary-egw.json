@@ -1542,7 +1542,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the nécrophage",
+						"replace": "(?:le |la |l’?|au |à la )Nécrophage",
 						"with": "Ferol",
 						"flags": "i"
 					}
@@ -2332,7 +2332,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the fanatic",
+						"replace": "Fanatique de culte",
 						"with": "Hulil",
 						"flags": "i"
 					}
@@ -2484,7 +2484,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the drow",
+						"replace": "(?:le |la |l’?|au |à la )Drow",
 						"with": "Ishel",
 						"flags": "i"
 					}
@@ -3075,7 +3075,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the ogre",
+						"replace": "Ogre",
 						"with": "Lord Buhfal",
 						"flags": "i"
 					}
@@ -3105,7 +3105,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the toad",
+						"replace": "Crapaud géant",
 						"with": "Old Croaker",
 						"flags": "i"
 					}
@@ -3134,7 +3134,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dracolich",
+						"replace": "Dragon noir antique",
 						"with": "Oracs",
 						"flags": "i"
 					}
@@ -3167,7 +3167,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the priest",
+						"replace": "(?:le |la |l’?|au |à la )Prêtre",
 						"with": "Pellinost",
 						"flags": "i"
 					}
@@ -3247,7 +3247,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the cultist",
+						"replace": "(?:le |la |l’?|au |à la )Cultiste",
 						"with": "Raegrin",
 						"flags": "i"
 					}
@@ -3940,8 +3940,9 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the lizardfolk",
-						"with": "Skr'a S'orsk"
+						"replace": "Chaman homme-lézard",
+						"with": "Skr'a S'orsk",
+						"flags": "i"
 					}
 				}
 			},
@@ -4147,8 +4148,9 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the captain",
-						"with": "Three Earrings"
+						"replace": "Chef bandit",
+						"with": "Three Earrings",
+						"flags": "i"
 					}
 				}
 			},

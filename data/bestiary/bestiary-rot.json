@@ -158,7 +158,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mummy lord",
+						"replace": "(?:le |la |l’?|au |à la )Seigneur momie",
 						"with": "Diderius",
 						"flags": "i"
 					}
@@ -1576,7 +1576,8 @@
 					"*": {
 						"mode": "replaceTxt",
 						"replace": "helmed horror",
-						"with": "snake horror"
+						"with": "snake horror",
+						"flags": "i"
 					},
 					"action": {
 						"mode": "replaceArr",

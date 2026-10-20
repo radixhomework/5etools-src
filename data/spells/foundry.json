@@ -695,8 +695,8 @@
 							"uuid": "@creature[skeleton|xmm]"
 						},
 						{
-							"name": "Zombie (corpse)",
-							"uuid": "@creature[zombie|xmm]"
+							"name": "Zombi (corpse)",
+							"uuid": "@creature[zombi|xmm]"
 						}
 					]
 				}
@@ -3806,7 +3806,7 @@
 				{
 					"name": "Animate Corpses",
 					"type": "summon",
-					"img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+					"img": "icons/magic/death/hand-dirt-undead-zombi.webp",
 					"activation": {
 						"type": "action"
 					},
@@ -3823,14 +3823,14 @@
 						},
 						{
 							"count": "@item.level - 6",
-							"uuid": "@creature[ghast|xmm]",
+							"uuid": "@creature[blême|xmm]",
 							"level": {
 								"min": 8
 							}
 						},
 						{
 							"count": "@item.level - 6",
-							"uuid": "@creature[wight|xmm]",
+							"uuid": "@creature[nécrophage|xmm]",
 							"level": {
 								"min": 8
 							}
@@ -6764,7 +6764,7 @@
 					}
 				},
 				{
-					"name": "Raise Zombie",
+					"name": "Raise Zombi",
 					"type": "summon",
 					"activation": {
 						"type": ""
@@ -6774,7 +6774,7 @@
 					},
 					"profiles": [
 						{
-							"uuid": "@creature[zombie|xmm]"
+							"uuid": "@creature[zombi|xmm]"
 						}
 					]
 				}
@@ -15544,8 +15544,8 @@
 					"type": "summon",
 					"profiles": [
 						{
-							"name": "Beholderkin",
-							"uuid": "@creature[aberrant spirit (beholderkin)|tce]"
+							"name": "Tyrannoeilkin",
+							"uuid": "@creature[aberrant spirit (tyrannoeilkin)|tce]"
 						},
 						{
 							"name": "Slaad",
@@ -15581,7 +15581,7 @@
 					},
 					"profiles": [
 						{
-							"uuid": "@creature[aberrant spirit (beholderkin)|xphb]"
+							"uuid": "@creature[aberrant spirit (tyrannoeilkin)|xphb]"
 						},
 						{
 							"uuid": "@creature[aberrant spirit (slaad)|xphb]"

@@ -7529,7 +7529,7 @@
 				{
 					"name": "Puanteur de mort",
 					"entries": [
-						"Chaque créature qui commence son tour à 3 m de la fleur putride ou de l'un de ses zombies doit effectuer un jet de sauvegarde de Constitution {@dc 14}, sauf si la créature est une construction ou un mort-vivant. En cas d'échec, la créature est {@condition Empoisonné} jusqu'au début de son prochain tour. En cas de réussite, la créature est immunisée contre la Puanteur de mort de toutes les fleurs putrides pendant 24 heures."
+						"Chaque créature qui commence son tour à 3 m de la fleur putride ou de l'un de ses zombis doit effectuer un jet de sauvegarde de Constitution {@dc 14}, sauf si la créature est une construction ou un mort-vivant. En cas d'échec, la créature est {@condition Empoisonné} jusqu'au début de son prochain tour. En cas de réussite, la créature est immunisée contre la Puanteur de mort de toutes les fleurs putrides pendant 24 heures."
 					]
 				}
 			],
@@ -7563,7 +7563,7 @@
 				{
 					"name": "Réanimation",
 					"entries": [
-						"La fleur putride anime un cadavre dans son corps, le transformant en {@creature zombie}. Le zombie apparaît dans un espace inoccupé à 1,50 m de la fleur putride ou moins et agit immédiatement après elle dans l'ordre d'initiative. Le zombie agit comme un allié de la fleur putride mais n'est pas sous son contrôle, et la puanteur de la fleur colle à lui (voir Puanteur de mort)."
+						"La fleur putride anime un cadavre dans son corps, le transformant en {@creature zombi}. Le zombi apparaît dans un espace inoccupé à 1,50 m de la fleur putride ou moins et agit immédiatement après elle dans l'ordre d'initiative. Le zombi agit comme un allié de la fleur putride mais n'est pas sous son contrôle, et la puanteur de la fleur colle à lui (voir Puanteur de mort)."
 					]
 				}
 			],
@@ -7974,7 +7974,7 @@
 			"type": {
 				"type": "aberration",
 				"tags": [
-					"beholder"
+					"tyrannoeil"
 				]
 			},
 			"alignment": [
@@ -8589,7 +8589,7 @@
 					"name": "Drain de vie",
 					"entries": [
 						"{@atk mw} {@hit 4} pour toucher, allonge 1,50 m, une créature. {@h}6 ({@damage 1d8 + 2}) dégâts nécrotiques. La cible doit réussir un jet de sauvegarde de Constitution {@dc 13}, sinon son maximum de points de vie est réduit d'un montant égal aux dégâts subis. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0.",
-						"Un humainoïde tué par cette attaque se relève 24 heures plus tard sous la forme d'un {@creature zombie} sous le contrôle du sorcemort, sauf si l'humainoïde est ramené à la vie ou si son corps est détruit. Le sorcemort ne peut contrôler au maximum que douze zombies à la fois."
+						"Un humainoïde tué par cette attaque se relève 24 heures plus tard sous la forme d'un {@creature zombi} sous le contrôle du sorcemort, sauf si l'humainoïde est ramené à la vie ou si son corps est détruit. Le sorcemort ne peut contrôler au maximum que douze zombis à la fois."
 					]
 				},
 				{
@@ -8601,7 +8601,7 @@
 			],
 			"soundClip": {
 				"type": "internal",
-				"path": "bestiary/deathlock-wight.opus"
+				"path": "bestiary/deathlock-nécrophage.opus"
 			},
 			"traitTags": [
 				"Sunlight Sensitivity",
@@ -9611,7 +9611,7 @@
 				{
 					"name": "Emprisonner une âme",
 					"entries": [
-						"Le dévoreur choisit un humainoïde vivant à 0 point de vie qu'il peut voir à 9 m de lui ou moins. Cette créature est téléportée à l'intérieur de la cage thoracique du dévoreur et y est emprisonnée. Tant qu'elle est emprisonnée de cette manière, la créature est {@condition Entravé} et a un désavantage lors des jets de sauvegarde contre la mort. Si la créature meurt alors qu'elle est emprisonnée, le dévoreur regagne 25 points de vie et recharge immédiatement Déchiqueter une âme. De plus, au début de son prochain tour, le dévoreur régurgite la créature tuée par une action bonus, et la créature devient un mort-vivant. Si la victime avait 2 dés de vie ou moins, elle devient un {@creature zombie}. Si elle avait 3 à 5 dés de vie, elle devient une {@creature Goule}. Sinon, elle devient un {@creature wight}. Un dévoreur ne peut emprisonner qu'une seule créature à la fois."
+						"Le dévoreur choisit un humainoïde vivant à 0 point de vie qu'il peut voir à 9 m de lui ou moins. Cette créature est téléportée à l'intérieur de la cage thoracique du dévoreur et y est emprisonnée. Tant qu'elle est emprisonnée de cette manière, la créature est {@condition Entravé} et a un désavantage lors des jets de sauvegarde contre la mort. Si la créature meurt alors qu'elle est emprisonnée, le dévoreur regagne 25 points de vie et recharge immédiatement Déchiqueter une âme. De plus, au début de son prochain tour, le dévoreur régurgite la créature tuée par une action bonus, et la créature devient un mort-vivant. Si la victime avait 2 dés de vie ou moins, elle devient un {@creature zombi}. Si elle avait 3 à 5 dés de vie, elle devient une {@creature Goule}. Sinon, elle devient un {@creature nécrophage}. Un dévoreur ne peut emprisonner qu'une seule créature à la fois."
 					]
 				},
 				{
@@ -16080,7 +16080,7 @@
 			"type": {
 				"type": "aberration",
 				"tags": [
-					"beholder"
+					"tyrannoeil"
 				]
 			},
 			"alignment": [
@@ -16272,7 +16272,7 @@
 			"type": {
 				"type": "aberration",
 				"tags": [
-					"beholder"
+					"tyrannoeil"
 				]
 			},
 			"alignment": [
@@ -20286,7 +20286,7 @@
 			],
 			"soundClip": {
 				"type": "internal",
-				"path": "bestiary/hobgoblin-devastator.opus"
+				"path": "bestiary/hobgobelin-devastator.opus"
 			},
 			"attachedItems": [
 				"quarterstaff|phb"
@@ -20450,7 +20450,7 @@
 			],
 			"soundClip": {
 				"type": "internal",
-				"path": "bestiary/hobgoblin-iron-shadow.opus"
+				"path": "bestiary/hobgobelin-iron-shadow.opus"
 			},
 			"attachedItems": [
 				"dart|phb"
@@ -24025,7 +24025,7 @@
 				{
 					"name": "Élévation de goule {@recharge 5}",
 					"entries": [
-						"Le maurezhi cible une goule ou un {@creature Goule|MM|ghast} mort qu'il peut voir à 9 m de lui ou moins. La cible est ramenée à la vie avec tous ses points de vie."
+						"Le maurezhi cible une goule ou un {@creature Goule|MM|blême} mort qu'il peut voir à 9 m de lui ou moins. La cible est ramenée à la vie avec tous ses points de vie."
 					]
 				}
 			],
@@ -25358,7 +25358,7 @@
 				{
 					"name": "Morsure de serpent",
 					"entries": [
-						"{@atk mw} {@hit 16} pour toucher, allonge 4,50 m, une créature. {@h}16 ({@damage 2d6 + 9}) dégâts de poison. La cible doit réussir un jet de sauvegarde de Constitution {@dc 22}, sinon son maximum de points de vie est réduit d'une valeur égale aux dégâts subis. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible se transforme en {@creature Mânes} si cela réduit son maximum de points de vie à 0. Seul un sort de {@spell Souhait} peut mettre fin à cette transformation."
+						"{@atk mw} {@hit 16} pour toucher, allonge 4,50 m, une créature. {@h}16 ({@damage 2d6 + 9}) dégâts de poison. La cible doit réussir un jet de sauvegarde de Constitution {@dc 22}, sinon son maximum de points de vie est réduit d'une valeur égale aux dégâts subis. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible se transforme en {@creature Mâne} si cela réduit son maximum de points de vie à 0. Seul un sort de {@spell Souhait} peut mettre fin à cette transformation."
 					]
 				},
 				{
@@ -26408,7 +26408,7 @@
 				{
 					"name": "Invocation de morts-vivants (1/jour)",
 					"entries": [
-						"Le nécromancien invoque par magie cinq {@creature Squelette||squelettes} ou {@creature zombie||zombies}. Les créatures invoquées apparaissent dans des espaces inoccupés situés à 18 m du nécromancien ou moins, et lui obéissent. Elles agissent immédiatement après le nécromancien. Chacune persiste pendant 1 heure, jusqu'à sa mort ou à celle du nécromancien, ou jusqu'à ce que le nécromancien la renvoie par une action bonus."
+						"Le nécromancien invoque par magie cinq {@creature Squelette||squelettes} ou {@creature zombi||zombis}. Les créatures invoquées apparaissent dans des espaces inoccupés situés à 18 m du nécromancien ou moins, et lui obéissent. Elles agissent immédiatement après le nécromancien. Chacune persiste pendant 1 heure, jusqu'à sa mort ou à celle du nécromancien, ou jusqu'à ce que le nécromancien la renvoie par une action bonus."
 					]
 				}
 			],
@@ -29823,7 +29823,7 @@
 				{
 					"name": "Morsure",
 					"entries": [
-						"{@atk mw} {@hit 4} pour toucher, allonge 1,50 m, une cible. {@h}12 ({@damage 3d6 + 2}) dégâts perforants. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Constitution {@dc 13} contre la maladie ou être {@condition Empoisonné}. À la fin de chaque repos long, la cible {@condition Empoisonné} peut refaire le jet de sauvegarde, mettant fin à l'effet qui l'affecte en cas de réussite. Si la cible est réduite à 0 point de vie alors qu'elle est {@condition Empoisonné} de cette manière, elle meurt et se transforme instantanément en un {@creature Mânes} vivant. Cette transformation ne peut être annulée que par un sort de {@spell Souhait}."
+						"{@atk mw} {@hit 4} pour toucher, allonge 1,50 m, une cible. {@h}12 ({@damage 3d6 + 2}) dégâts perforants. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Constitution {@dc 13} contre la maladie ou être {@condition Empoisonné}. À la fin de chaque repos long, la cible {@condition Empoisonné} peut refaire le jet de sauvegarde, mettant fin à l'effet qui l'affecte en cas de réussite. Si la cible est réduite à 0 point de vie alors qu'elle est {@condition Empoisonné} de cette manière, elle meurt et se transforme instantanément en un {@creature Mâne} vivant. Cette transformation ne peut être annulée que par un sort de {@spell Souhait}."
 					]
 				}
 			],
@@ -31207,7 +31207,7 @@
 				{
 					"name": "Déformation de créature",
 					"entries": [
-						"Le sibriex cible jusqu'à trois créatures qu'il peut voir à 36 m ou moins de lui. Chaque cible doit effectuer un jet de sauvegarde de Constitution {@dc 20}. En cas de réussite, une créature devient immunisée contre la Déformation de créature de ce sibriex. En cas d'échec, la cible est {@condition Empoisonné}, ce qui lui fait également gagner 1 niveau d'{@condition Épuisement}. Tant qu'elle est {@condition Empoisonné} de cette manière, la cible doit refaire le jet de sauvegarde au début de chacun de ses tours. Trois jets de sauvegarde réussis contre le poison y mettent fin, et mettre fin au poison supprime les niveaux d'{@condition Épuisement} qu'il a causés. Chaque jet de sauvegarde raté fait gagner à la cible un niveau d'{@condition Épuisement} supplémentaire. Une fois que la cible atteint 6 niveaux d'{@condition Épuisement}, elle meurt et se transforme instantanément en un {@creature Mânes} vivant sous le contrôle du sibriex. Seul un sort de {@spell Souhait} peut annuler la transformation du corps."
+						"Le sibriex cible jusqu'à trois créatures qu'il peut voir à 36 m ou moins de lui. Chaque cible doit effectuer un jet de sauvegarde de Constitution {@dc 20}. En cas de réussite, une créature devient immunisée contre la Déformation de créature de ce sibriex. En cas d'échec, la cible est {@condition Empoisonné}, ce qui lui fait également gagner 1 niveau d'{@condition Épuisement}. Tant qu'elle est {@condition Empoisonné} de cette manière, la cible doit refaire le jet de sauvegarde au début de chacun de ses tours. Trois jets de sauvegarde réussis contre le poison y mettent fin, et mettre fin au poison supprime les niveaux d'{@condition Épuisement} qu'il a causés. Chaque jet de sauvegarde raté fait gagner à la cible un niveau d'{@condition Épuisement} supplémentaire. Une fois que la cible atteint 6 niveaux d'{@condition Épuisement}, elle meurt et se transforme instantanément en un {@creature Mâne} vivant sous le contrôle du sibriex. Seul un sort de {@spell Souhait} peut annuler la transformation du corps."
 					]
 				}
 			],
@@ -31703,7 +31703,7 @@
 				{
 					"name": "Invocation de morts-vivants (coûte 2 actions)",
 					"entries": [
-						"Le seigneur des crânes invoque jusqu'à cinq {@creature Squelette||squelettes} ou {@creature zombie||zombies} dans des espaces inoccupés situés à 9 m ou moins de lui. Ils restent jusqu'à ce qu'ils soient détruits. Les morts-vivants invoqués de cette manière déterminent leur initiative, agissent au prochain tour disponible et obéissent au seigneur des crânes. Le seigneur des crânes ne peut pas avoir plus de cinq morts-vivants invoqués par cette capacité à la fois."
+						"Le seigneur des crânes invoque jusqu'à cinq {@creature Squelette||squelettes} ou {@creature zombi||zombis} dans des espaces inoccupés situés à 9 m ou moins de lui. Ils restent jusqu'à ce qu'ils soient détruits. Les morts-vivants invoqués de cette manière déterminent leur initiative, agissent au prochain tour disponible et obéissent au seigneur des crânes. Le seigneur des crânes ne peut pas avoir plus de cinq morts-vivants invoqués par cette capacité à la fois."
 					]
 				}
 			],
@@ -33588,7 +33588,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Géant de pierre marcheur des rêves",
+			"name": "Géant des pierres marcheur des rêves",
 			"source": "MPMM",
 			"page": 234,
 			"otherSources": [
@@ -33729,7 +33729,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Géant de la tempête quintessencé",
+			"name": "Géant des tempêtes quintessencé",
 			"source": "MPMM",
 			"page": 235,
 			"otherSources": [
@@ -41114,7 +41114,7 @@
 				{
 					"name": "Spores d'infestation (3/jour)",
 					"entries": [
-						"Zuggtmoy libère des spores qui éclatent en un nuage remplissant une sphère d'un rayon de 6 mètres centrée sur elle, et il persiste pendant 1 minute. Toute créature dans le nuage au moment de son apparition, ou qui y entre par la suite, doit effectuer un jet de sauvegarde de Constitution {@dc 19}. En cas de réussite, la créature ne peut pas être infectée par ces spores pendant 24 heures. En cas d'échec, la créature est infectée par une maladie appelée spores de Zuggtmoy, qui dure jusqu'à ce que la créature soit guérie de la maladie ou qu'elle meure. Tant qu'elle est infectée de cette manière, la créature ne peut pas être réinfectée, et elle doit répéter le jet de sauvegarde à la fin de chaque période de 24 heures, mettant fin à l'infection en cas de réussite. En cas d'échec, le corps de la créature infectée est lentement envahi par une pousse fongique, et après trois échecs de ce type, la créature meurt et est réanimée sous forme de {@creature quaggoth spore servant||serviteur des spores} s'il s'agit d'un type de créature qui peut l'être."
+						"Zuggtmoy libère des spores qui éclatent en un nuage remplissant une sphère d'un rayon de 6 mètres centrée sur elle, et il persiste pendant 1 minute. Toute créature dans le nuage au moment de son apparition, ou qui y entre par la suite, doit effectuer un jet de sauvegarde de Constitution {@dc 19}. En cas de réussite, la créature ne peut pas être infectée par ces spores pendant 24 heures. En cas d'échec, la créature est infectée par une maladie appelée spores de Zuggtmoy, qui dure jusqu'à ce que la créature soit guérie de la maladie ou qu'elle meure. Tant qu'elle est infectée de cette manière, la créature ne peut pas être réinfectée, et elle doit répéter le jet de sauvegarde à la fin de chaque période de 24 heures, mettant fin à l'infection en cas de réussite. En cas d'échec, le corps de la créature infectée est lentement envahi par une pousse fongique, et après trois échecs de ce type, la créature meurt et est réanimée sous forme de {@creature quaggoth, serviteur des spores||serviteur des spores} s'il s'agit d'un type de créature qui peut l'être."
 					]
 				},
 				{

@@ -6,7 +6,7 @@
 			"page": 4,
 			"entries": [
 				"This bestiary is for storytellers and worldbuilders. If you have ever thought about running a Dungeons & Dragons game for your friends, either a single night's adventure or a long-running campaign, this tome contains page after page of inspiration. It's your one-stop shop for creatures both malevolent and benign.",
-				"Some of the creatures that inhabit the worlds of D&D have origins rooted in real-world mythology and fantasy literature. Other creatures are D&D originals. The monsters in this book have been culled from all previous editions of the game. Herein you'll discover classic critters such as the beholder and the displacer beast next to more recent creations such as the chuul and the twig blight. Common beasts mingle with the weird, the terrifying, and the ridiculous. In collecting monsters from the past, we've endeavored to reflect the multifaceted nature of the game, warts and all. D&D monsters come in all shapes and sizes, with stories that not only thrill us but also make us smile.",
+				"Some of the creatures that inhabit the worlds of D&D have origins rooted in real-world mythology and fantasy literature. Other creatures are D&D originals. The monsters in this book have been culled from all previous editions of the game. Herein you'll discover classic critters such as the tyrannoeil and the displacer beast next to more recent creations such as the chuul and the twig blight. Common beasts mingle with the weird, the terrifying, and the ridiculous. In collecting monsters from the past, we've endeavored to reflect the multifaceted nature of the game, warts and all. D&D monsters come in all shapes and sizes, with stories that not only thrill us but also make us smile.",
 				"If you're an experienced Dungeon Master (DM), a few of the monster write-ups might surprise you, for we've gone into the {@i Monster Manuals} of yore and discovered some long-lost factoids. We've also added a few new twists. Naturally, you can do with these monsters what you will. Nothing we say here is intended to curtail your creativity. If the minotaurs in your world are shipbuilders and pirates, who are we to argue with you? It's your world, after all.",
 				{
 					"type": "section",
@@ -65,7 +65,7 @@
 												"A mind flayer prison or asylum, filled with mindless thralls and raving lunatics",
 												"A lost dwarven necropolis containing row after row of dusty tombs waiting to be plundered",
 												"A fortified outpost bristling with armaments, guarding the way to a magnificent drow city",
-												"A subterranean rift filled with giant fungi and ruled by a megalomaniacal beholder or mad fomorian king",
+												"A subterranean rift filled with giant fungi and ruled by a megalomaniacal tyrannoeil or mad fomorien king",
 												"A chain of rocky islands on a vast, sunless sea that's home to aboleths and insane kuo-toa"
 											]
 										}
@@ -83,7 +83,7 @@
 											"items": [
 												"A roc's nest made of shattered ship hulls, built atop a lonely mountain or rocky hill",
 												"A vast arctic tundra that serves as a hunting ground for berserkers and yeti",
-												"A primeval forest protected by treants or corrupted by demon-worshiping gnolls",
+												"A primeval forest protected by sylvaniens or corrupted by demon-worshiping gnolls",
 												"A fog-shrouded swamp haunted by lizardfolk that worship a vile black dragon",
 												"A jungle island inhabited by dinosaurs and human tribal warriors"
 											]
@@ -138,7 +138,7 @@
 										{
 											"type": "list",
 											"items": [
-												"A pit fiend's stronghold on Avernus, the first layer of the Nine Hells",
+												"A diantrefosse's stronghold on Avernus, the first layer of the Nine Hells",
 												"A haunted castle in the Shadowfell that serves as a shadow dragon's lair",
 												"An elf queen's tomb in the Feywild",
 												"A djinni's palace on the Elemental Plane of Air, filled with marvelous stolen treasures",
@@ -203,7 +203,7 @@
 										[
 											"Tiny",
 											"2½ by 2½ ft.",
-											"{@creature Diablotin}, {@creature sprite}"
+											"{@creature Diablotin}, {@creature esprit follet}"
 										],
 										[
 											"Small",
@@ -223,7 +223,7 @@
 										[
 											"Huge",
 											"15 by 15 ft.",
-											"{@creature Géant du feu}, {@creature treant}"
+											"{@creature Géant du feu}, {@creature sylvanien}"
 										],
 										[
 											"Gargantuan",
@@ -242,7 +242,7 @@
 							"entries": [
 								"A monster's type speaks to its fundamental nature. Certain spells, magic items, class features, and other effects in the game interact in special ways with creatures of a particular type. For example, an arrow of dragon slaying deals extra damage not only to dragons but also other creatures of the dragon type, such as dragon turtles and wyverns.",
 								"The game includes the following monster types, which have no rules of their own.",
-								"{@b Aberrations} are utterly alien beings. Many of them have innate magical abilities drawn from the creature's alien mind rather than the mystical forces of the world. The quintessential aberrations are aboleths, beholders, mind flayers, and slaadi.",
+								"{@b Aberrations} are utterly alien beings. Many of them have innate magical abilities drawn from the creature's alien mind rather than the mystical forces of the world. The quintessential aberrations are aboleths, tyrannoeils, mind flayers, and slaadi.",
 								"{@b Beasts} are nonhumanoid creatures that are a natural part of the fantasy ecology. Some of them have magical powers, but most are unintelligent and lack any society or language. Beasts include all varieties of ordinary animals, dinosaurs, and giant versions of animals.",
 								"{@b Celestials} are creatures native to the Upper Planes. Many of them are the servants of deities, employed as messengers or agents in the mortal realm and throughout the planes. Celestials are good by nature, so the exceptional celestial who strays from a good alignment is a horrifying rarity. Celestials include angels, couatls, and pegasi.",
 								"{@b Constructs} are made, not born. Some are programmed by their creators to follow a simple set of instructions, while others are imbued with sentience and capable of independent thought. Golems are the iconic constructs. Many creatures native to the outer plane of Mechanus, such as modrons, are constructs shaped from the raw material of the plane by the will of more powerful creatures.",
@@ -250,13 +250,13 @@
 								"{@b Elementals} are creatures native to the elemental planes. Some creatures of this type are little more than animate masses of their respective elements, including the creatures simply called elementals. Others have biological forms infused with elemental energy. The races of genies, including djinn and efreet, form the most important civilizations on the elemental planes. Other elemental creatures include azers, invisible stalkers, and water weirds.",
 								"{@b Fey} are magical creatures closely tied to the forces of nature. They dwell in twilight groves and misty forests. In some worlds, they are closely tied to the Feywild, also called the Plane of Faerie. Some are also found in the Outer Planes, particularly the planes of Arborea and the Beastlands. Fey include dryads, pixies, and satyrs.",
 								"{@b Fiends} are creatures of wickedness that are native to the Lower Planes. A few are the servants of deities, but many more labor under the leadership of archdevils and demon princes. Evil priests and mages sometimes summon fiends to the material world to do their bidding. If an evil celestial is a rarity, a good fiend is almost inconceivable. Fiends include demons, devils, hell hounds, rakshasas, and yugoloths.",
-								"{@b Giants} tower over humans and their kind. They are humanlike in shape, though some have multiple heads (ettins) or deformities (fomorians). The six varieties of true giant are hill giants, stone giants, frost giants, fire giants, cloud giants, and storm giants. Besides these, creatures such as ogres and trolls are giants.",
-								"{@b Humanoids} are the main peoples of the D&D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds.",
+								"{@b Giants} tower over humans and their kind. They are humanlike in shape, though some have multiple heads (ettins) or deformities (fomoriens). The six varieties of true giant are hill giants, stone giants, frost giants, fire giants, cloud giants, and storm giants. Besides these, creatures such as ogres and trolls are giants.",
+								"{@b Humanoids} are the main peoples of the D&D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (goblins, hobgobelins, and gobelourss), orcs, gnolls, lizardfolk, and kobolds.",
 								"A variety of humanoids appear throughout this book, but the races detailed in the {@i Player's Handbook}-with the exception of drow-are dealt with in appendix B. That appendix gives you a number of stat blocks that you can use to make various members of those races.",
 								"{@b Monstrosities} are monsters in the strictest sense-frightening creatures that are not ordinary, not truly natural, and almost never benign. Some are the results of magical experimentation gone awry (such as owlbears), and others are the product of terrible curses (including minotaurs and yuan-ti). They defy categorization, and in some sense serve as a catch-all category for creatures that don't fit into any other type.",
 								"{@b Oozes} are gelatinous creatures that rarely have a fixed shape. They are mostly subterranean, dwelling in caves and dungeons and feeding on refuse, carrion, or creatures unlucky enough to get in their way. Black puddings and gelatinous cubes are among the most recognizable oozes.",
-								"{@b Plants} in this context are vegetable creatures, not ordinary flora. Most of them are ambulatory, and some are carnivorous. The quintessential plants are the shambling mound and the treant. Fungal creatures such as the gas spore and the myconid also fall into this category.",
-								"{@b Undead} are once-living creatures brought to a horrifying state of undeath through the practice of necromantic magic or some unholy curse. Undead include walking corpses, such as vampires and zombies, as well as bodiless spirits, such as ghosts and specters.",
+								"{@b Plants} in this context are vegetable creatures, not ordinary flora. Most of them are ambulatory, and some are carnivorous. The quintessential plants are the tertre errant and the sylvanien. Fungal creatures such as the gas spore and the myconid also fall into this category.",
+								"{@b Undead} are once-living creatures brought to a horrifying state of undeath through the practice of necromantic magic or some unholy curse. Undead include walking corpses, such as vampires and zombis, as well as bodiless spirits, such as ghosts and specters.",
 								{
 									"type": "entries",
 									"name": "Tags",
@@ -406,7 +406,7 @@
 							"name": "Ability Scores",
 							"page": 8,
 							"entries": [
-								"Every monster has six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma) and corresponding modifiers. For more information on ability scores and how they're used in play, see the {@i Player's Handbook.}"
+								"Every monster has six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma) and corresphomme-poissong modifiers. For more information on ability scores and how they're used in play, see the {@i Player's Handbook.}"
 							],
 							"id": "018"
 						},
@@ -589,7 +589,7 @@
 									"name": "Tremorsense",
 									"page": 9,
 									"entries": [
-										"A monster with {@sense Perception des vibrations|MM} can detect and pinpoint the origin of vibrations within a specific radius, provided that the monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs and umber hulks, have this special sense."
+										"A monster with {@sense Perception des vibrations|MM} can detect and pinpoint the origin of vibrations within a specific radius, provided that the monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs and mastodonte des ombress, have this special sense."
 									],
 									"id": "01f"
 								},
@@ -1051,14 +1051,14 @@
 								"{@creature Arcanaloth}",
 								"{@creature Azer}",
 								"{@creature Balor}",
-								"{@creature Banshee}",
-								"{@creature Diable à pointes}",
+								"{@creature Banshie}",
+								"{@creature Diable barbelé}",
 								"{@creature Barlgura}",
 								"{@creature Basilic}",
 								"{@creature Diable barbu}",
 								"{@creature Béhir}",
-								"{@creature Beholder}",
-								"{@creature Zombie beholder}",
+								"{@creature Tyrannoeil}",
+								"{@creature Zombi tyrannoeil}",
 								"{@creature Dragonnet noir}",
 								"{@creature Pouding noir}",
 								"{@creature Dragonnet bleu}",
@@ -1068,38 +1068,38 @@
 								"{@creature Naga osseux (esprit)}",
 								"{@creature Dragonnet d'airain}",
 								"{@creature Dragonnet de bronze}",
-								"{@creature Bugbear}",
-								"{@creature Chef bugbear}",
+								"{@creature Gobelours}",
+								"{@creature Chef gobelours}",
 								"{@creature Bulette}",
 								"{@creature Brutacien}",
 								"{@creature Cambion}",
 								"{@creature Charognard rampant}",
 								"{@creature Ours des cavernes}",
 								"{@creature Centaure}",
-								"{@creature Diable aux chaînes}",
+								"{@creature Diable à chaînes}",
 								"{@creature Chasme}",
 								"{@creature Chimère}",
 								"{@creature Chuul}",
 								"{@creature Golem d'argile}",
-								"{@creature Cloaker}",
+								"{@creature Manteleur}",
 								"{@creature Géant des nuages}",
 								"{@creature Cockatrice}",
 								"{@creature Dragonnet de cuivre}",
 								"{@creature Couatl}",
-								"{@creature Main rampante}",
+								"{@creature Griffe rampante}",
 								"{@creature Cyclope}",
 								"{@creature Dao}",
-								"{@creature Darkmantle}",
+								"{@creature Mante obscure}",
 								"{@creature Chevalier de la mort}",
-								"{@creature Slaad de mort}",
-								"{@creature Death Tyrant}",
+								"{@creature Slaad funeste}",
+								"{@creature Tyramort}",
 								"{@creature Gnome des profondeurs (Svirfneblin)}",
 								"{@creature Demi-liche}",
 								"{@creature Déva}",
-								"{@creature Bête displacée}",
+								"{@creature Bête éclipsante}",
 								"{@creature Djinn}",
 								"{@creature Doppelganger}",
-								"{@creature Tortue dragonnaire}",
+								"{@creature Dragon-tortue}",
 								"{@creature Dretch}",
 								"{@creature Drider}",
 								"{@creature Drow}",
@@ -1109,7 +1109,7 @@
 								"{@creature Dryade}",
 								"{@creature Duergar}",
 								"{@creature Duodrone}",
-								"{@creature Méphrite de poussière}",
+								"{@creature Méphite poussiéreux}",
 								"{@creature Élémentaire de la Terre}",
 								"{@creature Éfrit}",
 								"{@creature Empyréen}",
@@ -1130,13 +1130,13 @@
 								"{@creature Golem de chair}",
 								"{@creature Flumph}",
 								"{@creature Épée volante}",
-								"{@creature Fomorian}",
+								"{@creature Fomorien}",
 								"{@creature Géant du givre}",
 								"{@creature Galeb Duhr}",
 								"{@creature Gargouille}",
-								"{@creature Sporule gazeuse}",
-								"{@creature Gluant géant}",
-								"{@creature Ghast}",
+								"{@creature Spore gazeuse}",
+								"{@creature Cube gélatineux}",
+								"{@creature Blême}",
 								"{@creature Spectre}",
 								"{@creature Goule}",
 								"{@creature Gueule marmonneuse}",
@@ -1153,10 +1153,10 @@
 								"{@creature Dragon d'or (jeune)}",
 								"{@creature Gorgone}",
 								"{@creature Goristro}",
-								"{@creature Gluant gris}",
+								"{@creature Vase grise}",
 								"{@creature Slaad gris}",
 								"{@creature Dragon vert (jeune)}",
-								"{@creature Mégère verte}",
+								"{@creature Guenaude verte}",
 								"{@creature Slaad vert}",
 								"{@creature Grell}",
 								"{@creature Grick}",
@@ -1167,27 +1167,27 @@
 								"{@creature Gynosphinx}",
 								"{@creature Demi-ogre (ogrillon)}",
 								"{@creature Vétéran demi-dragon rouge}",
-								"{@creature Harpyie}",
-								"{@creature Chien de l'enfer}",
-								"{@creature Horreur blindée}",
+								"{@creature Harpie}",
+								"{@creature Chien de chasse infernal}",
+								"{@creature Horreur casquée}",
 								"{@creature Hezrou}",
 								"{@creature Géant des collines}",
 								"{@creature Hippogriffe}",
-								"{@creature Hobgoblin}",
-								"{@creature Capitaine hobgoblin}",
-								"{@creature Chef de guerre hobgoblin}",
-								"{@creature Homuncule}",
-								"{@creature Horreur à crochet}",
+								"{@creature Hobgobelin}",
+								"{@creature Capitaine hobgobelin}",
+								"{@creature Chef de guerre hobgobelin}",
+								"{@creature Homoncule}",
+								"{@creature Horreur crochue}",
 								"{@creature Diable cornu}",
 								"{@creature Hydre}",
 								"{@creature Diable des glaces}",
-								"{@creature Méphrite de glace}",
+								"{@creature Méphite gelé}",
 								"{@creature Diablotin}",
 								"{@creature Incube}",
 								"{@creature Dévoreur d'intellect}",
 								"{@creature Traqueur invisible}",
 								"{@creature Golem de fer}",
-								"{@creature Jackalwere}",
+								"{@creature Garou-chacal}",
 								"{@creature Kenku}",
 								"{@creature Kobold}",
 								"{@creature Kraken}",
@@ -1195,21 +1195,21 @@
 								"{@creature Archiprêtre kuo-toa}",
 								"{@creature Surveillant kuo-toa}",
 								"{@creature Fouetteur kuo-toa}",
-								"{@creature Lamia}",
+								"{@creature Lamie}",
 								"{@creature Lémure}",
 								"{@creature Liche}",
 								"{@creature Roi lézard}",
 								"{@creature Reine lézard}",
 								"{@creature Homme-lézard}",
 								"{@creature Chaman homme-lézard}",
-								"{@creature Méphrite de magma}",
+								"{@creature Méphite magmatique}",
 								"{@creature Magmin}",
-								"{@creature Mânes}",
+								"{@creature Mâne}",
 								"{@creature Manticore}",
-								"{@creature Marid}",
+								"{@creature Maride}",
 								"{@creature Marilith}",
 								"{@creature Méduse}",
-								"{@creature Ondin}",
+								"{@creature Homme-poisson}",
 								"{@creature Merrow}",
 								"{@creature Mezzoloth}",
 								"{@creature Mimique}",
@@ -1218,21 +1218,21 @@
 								"{@creature Minotaure}",
 								"{@creature Squelette de minotaure}",
 								"{@creature Monodrone}",
-								"{@creature Méphite de boue}",
+								"{@creature Méphite boueux}",
 								"{@creature Momie}",
 								"{@creature Seigneur momie}",
 								"{@creature Myconïde adulte}",
 								"{@creature Myconïde souverain}",
 								"{@creature Myconïde pousse}",
-								"{@creature Nalfeshnee}",
+								"{@creature Nalfeshnie}",
 								"{@creature Fléau d'aiguilles}",
-								"{@creature Mégère nocturne}",
+								"{@creature Guenaude nocturne}",
 								"{@creature Cauchemar}",
 								"{@creature Nothic}",
 								"{@creature Nycaloth}",
-								"{@creature Gluant ocre}",
+								"{@creature Gelée ocre}",
 								"{@creature Ogre}",
-								"{@creature Zombie d'ogre}",
+								"{@creature Zombi d'ogre}",
 								"{@creature Oni}",
 								"{@creature Orc}",
 								"{@creature Orc, œil de Gruumsh}",
@@ -1244,9 +1244,9 @@
 								"{@creature Pentadrone}",
 								"{@creature Péryton}",
 								"{@creature Perceur}",
-								"{@creature Pit fiend}",
+								"{@creature Diantrefosse}",
 								"{@creature Pixie}",
-								"{@creature Planétaire}",
+								"{@creature Planétar}",
 								"{@creature Plésiosaure}",
 								"{@creature Poltergeist}",
 								"{@creature Pseudodragon}",
@@ -1254,7 +1254,7 @@
 								"{@creature Ver pourpre}",
 								"{@creature Quadrone}",
 								"{@creature Quaggoth}",
-								"{@creature Quaggoth Spore Servant}",
+								"{@creature Quaggoth, serviteur des spores}",
 								"{@creature Quaggoth Thonot}",
 								"{@creature Quasit}",
 								"{@creature Rakshasa}",
@@ -1265,72 +1265,72 @@
 								"{@creature Roc}",
 								"{@creature Roper}",
 								"{@creature Tapis étouffeur}",
-								"{@creature Rôdeur des rouilles}",
+								"{@creature Oxydeur}",
 								"{@creature Sahuagin}",
 								"{@creature Baron sahuagin}",
 								"{@creature Prêtresse sahuagin}",
 								"{@creature Salamandre}",
 								"{@creature Satyre}",
 								"{@creature Épouvantail}",
-								"{@creature Mégère des mers}",
+								"{@creature Guenaude marine}",
 								"{@creature Ombre}",
 								"{@creature Démon des ombres}",
-								"{@creature Shambling Mound}",
-								"{@creature Gardien bouclier}",
-								"{@creature Crieur}",
+								"{@creature Tertre errant}",
+								"{@creature Gardien animé}",
+								"{@creature Criard}",
 								"{@creature Dragonnet d'argent}",
 								"{@creature Squelette}",
-								"{@creature Têtard slaad}",
-								"{@creature Méphrite de fumée}",
+								"{@creature Slaad, têtard}",
+								"{@creature Méphite fumant}",
 								"{@creature Solar}",
 								"{@creature Spectateur}",
 								"{@creature Spectre}",
-								"{@creature Diable à épines}",
-								"{@creature Naga esprit}",
-								"{@creature Sprite}",
-								"{@creature Méphrite de vapeur}",
-								"{@creature Stirge}",
-								"{@creature Géant de pierre}",
+								"{@creature Diable épineux}",
+								"{@creature Naga corrupteur}",
+								"{@creature Esprit follet}",
+								"{@creature Méphite vaporeux}",
+								"{@creature Strige}",
+								"{@creature Géant des pierres}",
 								"{@creature Golem de pierre}",
-								"{@creature Géant de la tempête}",
+								"{@creature Géant des tempêtes}",
 								"{@creature Succube}",
 								"{@creature Nuée de scarabées}",
 								"{@creature Nuée de mille-pattes}",
 								"{@creature Nuée d'araignées}",
 								"{@creature Nuée de guêpes}",
-								"{@creature Tarrasque}",
+								"{@creature Tarasque}",
 								"{@creature Thri-kreen}",
-								"{@creature Treant}",
+								"{@creature Sylvanien}",
 								"{@creature Tricératops}",
 								"{@creature Tridrone}",
 								"{@creature Troglodyte}",
 								"{@creature Troll}",
-								"{@creature Fléau des brindilles}",
-								"{@creature T-Rex}",
+								"{@creature Nielleux}",
+								"{@creature Tyrannosaure}",
 								"{@creature Ultroloth}",
-								"{@creature Umber hulk}",
+								"{@creature Mastodonte des ombres}",
 								"{@creature Licorne}",
 								"{@creature Vampire}",
 								"{@creature Vampire serviteur}",
 								"{@creature Vampire lanceur de sorts}",
 								"{@creature Vampire guerrier}",
-								"{@creature Fléau de la vigne}",
-								"{@creature Fungus violet}",
+								"{@creature Lierreux}",
+								"{@creature Moisissure violette}",
 								"{@creature Vrock}",
 								"{@creature Squelette de cheval de guerre}",
 								"{@creature Élémentaire de l'Eau}",
-								"{@creature Weird d'eau}",
+								"{@creature Sentinelle d'eau}",
 								"{@creature Ours-garou}",
 								"{@creature Sanglier-garou}",
 								"{@creature Rat-garou}",
 								"{@creature Tigre-garou}",
 								"{@creature Loup-garou}",
 								"{@creature Dragonnet blanc}",
-								"{@creature Wight}",
+								"{@creature Nécrophage}",
 								"{@creature Feu follet}",
 								"{@creature Kobold ailé}",
-								"{@creature Spectre décharné}",
-								"{@creature Wyverne}",
+								"{@creature Âme en peine}",
+								"{@creature Wiverne}",
 								"{@creature Xorn}",
 								"{@creature Yéti}",
 								"{@creature Yochlol}",
@@ -1351,7 +1351,7 @@
 								"{@creature Yuan-ti malisson (type 2)}",
 								"{@creature Yuan-ti malisson (type 3)}",
 								"{@creature Yuan-ti de sang pur}",
-								"{@creature Zombie}"
+								"{@creature Zombi}"
 							]
 						},
 						{
@@ -1522,11 +1522,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Banshee",
+							"name": "Banshie",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Banshee",
+									"name": "Banshie",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"tag": "creature",
@@ -1538,7 +1538,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Banshee",
+									"name": "Banshie",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -1594,11 +1594,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Beholders",
+							"name": "Tyrannoeils",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Beholder",
+									"name": "Tyrannoeil",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"data": {
@@ -1609,13 +1609,13 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Beholder",
+									"name": "Tyrannoeil",
 									"tag": "creature",
 									"style": "narrow"
 								},
 								{
 									"type": "statblock",
-									"name": "Death Tyrant",
+									"name": "Tyramort",
 									"tag": "creature",
 									"style": "narrow"
 								},
@@ -1664,11 +1664,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Bugbears",
+							"name": "Gobelourss",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Bugbear",
+									"name": "Gobelours",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"data": {
@@ -1679,13 +1679,13 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Bugbear",
+									"name": "Gobelours",
 									"tag": "creature",
 									"style": "narrow"
 								},
 								{
 									"type": "statblock",
-									"name": "Bugbear Chief",
+									"name": "Gobelours Chief",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -1873,11 +1873,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Cloaker",
+							"name": "Manteleur",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Cloaker",
+									"name": "Manteleur",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"tag": "creature",
@@ -1889,7 +1889,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Cloaker",
+									"name": "Manteleur",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -1993,11 +1993,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Darkmantle",
+							"name": "Mante obscure",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Darkmantle",
+									"name": "Mante obscure",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"tag": "creature",
@@ -2009,7 +2009,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Darkmantle",
+									"name": "Mante obscure",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -2158,7 +2158,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Nalfeshnee",
+									"name": "Nalfeshnie",
 									"tag": "creature",
 									"style": "narrow"
 								},
@@ -3113,11 +3113,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Fomorian",
+							"name": "Fomorien",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Fomorian",
+									"name": "Fomorien",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"tag": "creature",
@@ -3129,7 +3129,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Fomorian",
+									"name": "Fomorien",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -3253,7 +3253,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Marid",
+									"name": "Maride",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -3306,7 +3306,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Ghast",
+									"name": "Blême",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -3939,11 +3939,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Hobgoblins",
+							"name": "Hobgobelins",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Hobgoblin",
+									"name": "Hobgobelin",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"data": {
@@ -3954,19 +3954,19 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Hobgoblin",
+									"name": "Hobgobelin",
 									"tag": "creature",
 									"style": "narrow"
 								},
 								{
 									"type": "statblock",
-									"name": "Hobgoblin Captain",
+									"name": "Hobgobelin Captain",
 									"tag": "creature",
 									"style": "narrow"
 								},
 								{
 									"type": "statblock",
-									"name": "Hobgoblin Warlord",
+									"name": "Hobgobelin Warlord",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -4094,11 +4094,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Jackalwere",
+							"name": "Garou-chacal",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Jackalwere",
+									"name": "Garou-chacal",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"tag": "creature",
@@ -4110,7 +4110,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Jackalwere",
+									"name": "Garou-chacal",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -4236,11 +4236,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Lamia",
+							"name": "Lamie",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Lamia",
+									"name": "Lamie",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"tag": "creature",
@@ -4252,7 +4252,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Lamia",
+									"name": "Lamie",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -4731,7 +4731,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Quaggoth Spore Servant",
+									"name": "Quaggoth, serviteur des spores",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -5574,11 +5574,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Shambling Mound",
+							"name": "Tertre errant",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Shambling Mound",
+									"name": "Tertre errant",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"tag": "creature",
@@ -5590,7 +5590,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Shambling Mound",
+									"name": "Tertre errant",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -5768,11 +5768,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Sprite",
+							"name": "Esprit follet",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Sprite",
+									"name": "Esprit follet",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"tag": "creature",
@@ -5784,7 +5784,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Sprite",
+									"name": "Esprit follet",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -5792,11 +5792,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Stirge",
+							"name": "Strige",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Stirge",
+									"name": "Strige",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"tag": "creature",
@@ -5808,7 +5808,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Stirge",
+									"name": "Strige",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -5886,11 +5886,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Tarrasque",
+							"name": "Tarasque",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Tarrasque",
+									"name": "Tarasque",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"tag": "creature",
@@ -5902,7 +5902,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Tarrasque",
+									"name": "Tarasque",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -5934,11 +5934,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Treant",
+							"name": "Sylvanien",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Treant",
+									"name": "Sylvanien",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"tag": "creature",
@@ -5950,7 +5950,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Treant",
+									"name": "Sylvanien",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -6119,11 +6119,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Wight",
+							"name": "Nécrophage",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Wight",
+									"name": "Nécrophage",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"tag": "creature",
@@ -6135,7 +6135,7 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Wight",
+									"name": "Nécrophage",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -6356,11 +6356,11 @@
 						},
 						{
 							"type": "section",
-							"name": "Zombies",
+							"name": "Zombis",
 							"entries": [
 								{
 									"type": "statblock",
-									"name": "Zombie",
+									"name": "Zombi",
 									"prop": "monsterFluff",
 									"source": "MM",
 									"data": {
@@ -6371,19 +6371,19 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Zombie",
+									"name": "Zombi",
 									"tag": "creature",
 									"style": "narrow"
 								},
 								{
 									"type": "statblock",
-									"name": "Ogre Zombie",
+									"name": "Ogre Zombi",
 									"tag": "creature",
 									"style": "narrow"
 								},
 								{
 									"type": "statblock",
-									"name": "Beholder Zombie",
+									"name": "Tyrannoeil Zombi",
 									"tag": "creature",
 									"style": "narrow"
 								}
@@ -6426,7 +6426,7 @@
 							"type": "list",
 							"columns": 4,
 							"items": [
-								"{@creature Singe}",
+								"{@creature Grand singe}",
 								"{@creature Arbuste éveillé}",
 								"{@creature Arbre éveillé}",
 								"{@creature Dinornis}",
@@ -6434,7 +6434,7 @@
 								"{@creature Blaireau}",
 								"{@creature Chauve-souris}",
 								"{@creature Ours noir}",
-								"{@creature Chien cregling}",
+								"{@creature Chien esquiveur}",
 								"{@creature Faucon de sang}",
 								"{@creature Sanglier}",
 								"{@creature Ours brun}",
@@ -6443,9 +6443,9 @@
 								"{@creature Serpent constricteur}",
 								"{@creature Crabe}",
 								"{@creature Crocodile}",
-								"{@creature Chien de mort}",
+								"{@creature Chien du trépas}",
 								"{@creature Cerf}",
-								"{@creature Loup féroce}",
+								"{@creature Loup sanguinaire}",
 								"{@creature Cheval de trait}",
 								"{@creature Aigle}",
 								"{@creature Éléphant}",
@@ -6456,7 +6456,7 @@
 								"{@creature Blaireau géant}",
 								"{@creature Chauve-souris géante}",
 								"{@creature Sanglier géant}",
-								"{@creature Scutigère géante}",
+								"{@creature Mille-pattes géant}",
 								"{@creature Serpent constricteur géant}",
 								"{@creature Crabe géant}",
 								"{@creature Crocodile géant}",
@@ -6482,10 +6482,10 @@
 								"{@creature Araignée-loup géante}",
 								"{@creature Chèvre}",
 								"{@creature Faucon}",
-								"{@creature Requin tueur}",
+								"{@creature Requin-chasseur}",
 								"{@creature Hyène}",
 								"{@creature Chacal}",
-								"{@creature Orque}",
+								"{@creature Épaulard}",
 								"{@creature Lion}",
 								"{@creature Lézard}",
 								"{@creature Mammouth}",
@@ -6518,7 +6518,7 @@
 								"{@creature Vautour}",
 								"{@creature Cheval de guerre}",
 								"{@creature Belette}",
-								"{@creature Loup hivernal}",
+								"{@creature Loup arctique}",
 								"{@creature Loup}",
 								"{@creature Worg}"
 							]
@@ -7168,7 +7168,7 @@
 								"{@creature Assassin}",
 								"{@creature Bandit}",
 								"{@creature Chef bandit}",
-								"{@creature Berseker}",
+								"{@creature Berserker}",
 								"{@creature Roturier}",
 								"{@creature Cultiste}",
 								"{@creature Fanatique de culte}",
@@ -7834,7 +7834,7 @@
 						"type": "internal",
 						"path": "book/MM/mmcover.webp"
 					},
-					"title": "On the Cover: Raymond Swanland illustrates the Xanathar ambushing explorers in the darkest depths of Undermountain, proving that the beholder crime lord's interests run deep beneath the city of Waterdeep.",
+					"title": "On the Cover: Raymond Swanland illustrates the Xanathar ambushing explorers in the darkest depths of Undermountain, proving that the tyrannoeil crime lord's interests run deep beneath the city of Waterdeep.",
 					"maxWidth": 600,
 					"width": 1500,
 					"height": 972

@@ -91,7 +91,7 @@
 									"type": "inset",
 									"name": "Règles sur les véhicules",
 									"entries": [
-										"Les ballons de combat et les beholders mécaniques sont des véhicules et, à ce titre, possèdent des règles spéciales qui leur sont associées. Plus particulièrement, un véhicule possède les six caractéristiques (Force, Dextérité, Constitution, Intelligence, Sagesse et Charisme) et les modificateurs correspondants. La Force d'un véhicule exprime sa taille et son poids. La Dextérité représente sa facilité de manœuvre. La Constitution d'un véhicule couvre sa durabilité et la qualité de sa construction. Les véhicules ont généralement un score de 0 en Intelligence, en Sagesse et en Charisme. Si un véhicule a un score de 0 dans une caractéristique, il échoue automatiquement à tout test de caractéristique ou jet de sauvegarde qui utilise cette caractéristique. La manière dont un véhicule est doté en personnel et les actions qu'il peut effectuer à son tour sont décrites dans le bloc de statistiques du véhicule."
+										"Les ballons de combat et les tyrannoeils mécaniques sont des véhicules et, à ce titre, possèdent des règles spéciales qui leur sont associées. Plus particulièrement, un véhicule possède les six caractéristiques (Force, Dextérité, Constitution, Intelligence, Sagesse et Charisme) et les modificateurs correspondants. La Force d'un véhicule exprime sa taille et son poids. La Dextérité représente sa facilité de manœuvre. La Constitution d'un véhicule couvre sa durabilité et la qualité de sa construction. Les véhicules ont généralement un score de 0 en Intelligence, en Sagesse et en Charisme. Si un véhicule a un score de 0 dans une caractéristique, il échoue automatiquement à tout test de caractéristique ou jet de sauvegarde qui utilise cette caractéristique. La manière dont un véhicule est doté en personnel et les actions qu'il peut effectuer à son tour sont décrites dans le bloc de statistiques du véhicule."
 									]
 								},
 								{
@@ -755,8 +755,8 @@
 			"source": "AAG",
 			"entries": [
 				"On trouve souvent à bord des navires vivants des druides, des rôdeurs et des prêtres dévoués aux dieux de la nature, tout comme des explorateurs de l'Espace sauvage qui ne veulent pas avoir à s'inquiéter de voir l'enveloppe d'air de leur navire se contaminer au cours d'un long voyage.",
-				"La caractéristique principale distinctive de ce navire est le {@creature treant} entièrement développé qui se dresse sur le pont arrière. Le treant a une vitesse de 0 car ses racines sont tissées dans le pont ; lui et le navire sont inséparables. Si le navire est réduit à 0 point de vie, le treant meurt sous le choc. Le navire peut fonctionner si son treant meurt, mais le treant ne pourra jamais être remplacé par un autre.",
-				"Lorsque le treant termine un repos long, il répare la coque du navire, permettant au vaisseau de regagner {@dice 4d12} points de vie, et rafraîchit l'enveloppe d'air du navire (transformant l'air mortel en air vicié, ou l'air vicié en air pur).",
+				"La caractéristique principale distinctive de ce navire est le {@creature sylvanien} entièrement développé qui se dresse sur le pont arrière. Le sylvanien a une vitesse de 0 car ses racines sont tissées dans le pont ; lui et le navire sont inséparables. Si le navire est réduit à 0 point de vie, le sylvanien meurt sous le choc. Le navire peut fonctionner si son sylvanien meurt, mais le sylvanien ne pourra jamais être remplacé par un autre.",
+				"Lorsque le sylvanien termine un repos long, il répare la coque du navire, permettant au vaisseau de regagner {@dice 4d12} points de vie, et rafraîchit l'enveloppe d'air du navire (transformant l'air mortel en air vicié, ou l'air vicié en air pur).",
 				"Un navire vivant peut flotter sur l'eau et y naviguer à la voile, mais il ne peut pas atterrir en sécurité sur le sol (sa quille le ferait basculer sur le côté). Son armement standard est un balister monté à l'arrière."
 			],
 			"images": [
@@ -855,8 +855,8 @@
 								{
 									"type": "list",
 									"items": [
-										"Un capitaine ({@creature Berseker||berserker})",
-										"Cinq autres officiers : un premier lieutenant, un maître d'équipage, un quartier-maître, un chirurgien et un cuisinier ({@creature Berseker||berserkers})",
+										"Un capitaine ({@creature Berserker||berserker})",
+										"Cinq autres officiers : un premier lieutenant, un maître d'équipage, un quartier-maître, un chirurgien et un cuisinier ({@creature Berserker||berserkers})",
 										"Trente-quatre marins ({@creature Roturier||roturiers})"
 									]
 								}
@@ -933,11 +933,11 @@
 			"name": "Canot des cieux de Lyrandar",
 			"source": "EFA",
 			"entries": [
-				"Innovation récente, le canot des cieux de Lyrandar est un navire aérien agile et compact utilisé pour les déplacements de courte distance et les missions de sauvetage. Lorsque des navires aériens plus grands se retrouvent bloqués dans le ciel à cause d'une panne de leur moteur élémentaire ou d'autres dysfonctionnements, les équipages mobilisent souvent une flotte de canots des cieux pour remorquer les navires immobilisés vers une tour d'amarrage aux fins d'entretien."
+				"Innovation récente, le canot des cieux de Lyrandar est un navire aérien agile et compact utilisé pour les déplacements de courte distance et les missions de sauvetage. Lorsque des navires aériens plus grands se retrouvent bloqués dans le ciel à cause d'une panne de leur moteur élémentaire ou d'autres dysfonctionnements, les équipages mobilisent souvent une flotte de canots des cieux pour remépaulardr les navires immobilisés vers une tour d'amarrage aux fins d'entretien."
 			]
 		},
 		{
-			"name": "Beholder mécanique",
+			"name": "Tyrannoeil mécanique",
 			"source": "AI",
 			"entries": [
 				{
@@ -946,13 +946,13 @@
 						{
 							"type": "entries",
 							"entries": [
-								"{@i Lorsque vous entendez le beholder mécanique s'éveiller avec un claquement, on dirait la Mort elle-même qui claque des doigts.}",
-								"Un beholder mécanique prend la forme d'un tyran œil surdimensionné dont l'œil central est un hublot. À la fois moyen de transport, laboratoire et machine de siège, le véhicule peut transporter jusqu'à six humanoïdes à travers tous les terrains et milieux, y compris sous l'eau et à travers la pierre solide. Une manipulation complexe et souvent dangereuse d'engrenages, de leviers et de boutons commandait les beholders mécaniques d'origine, mais les modèles plus récents sont dotés de commandes magiques qui répondent aux commandes vocales—bien que pas toujours avec précision.",
+								"{@i Lorsque vous entendez le tyrannoeil mécanique s'éveiller avec un claquement, on dirait la Mort elle-même qui claque des doigts.}",
+								"Un tyrannoeil mécanique prend la forme d'un tyran œil surdimensionné dont l'œil central est un hublot. À la fois moyen de transport, laboratoire et machine de siège, le véhicule peut transporter jusqu'à six humanoïdes à travers tous les terrains et milieux, y compris sous l'eau et à travers la pierre solide. Une manipulation complexe et souvent dangereuse d'engrenages, de leviers et de boutons commandait les tyrannoeils mécaniques d'origine, mais les modèles plus récents sont dotés de commandes magiques qui répondent aux commandes vocales—bien que pas toujours avec précision.",
 								{
 									"type": "entries",
 									"name": "Équipement et options",
 									"entries": [
-										"Le beholder mécanique peut être équipé d'une variété de capteurs, de sondes et de jauges, permettant des fonctions aussi variées que déterminer une composition alchimique, détecter des auras magiques ou préparer des dry martinis de maître. Son éventail d'armements comprend un rayon de désintégration calqué sur celui de son homonyme monstrueux (qui, pour des raisons de responsabilité, est présenté comme étant conçu exclusivement pour le traitement des déchets). Les hublots et les écoutilles permettent aux personnages à l'intérieur du beholder d'effectuer des attaques à distance et magiques depuis l'intérieur."
+										"Le tyrannoeil mécanique peut être équipé d'une variété de capteurs, de sondes et de jauges, permettant des fonctions aussi variées que déterminer une composition alchimique, détecter des auras magiques ou préparer des dry martinis de maître. Son éventail d'armements comprend un rayon de désintégration calqué sur celui de son homonyme monstrueux (qui, pour des raisons de responsabilité, est présenté comme étant conçu exclusivement pour le traitement des déchets). Les hublots et les écoutilles permettent aux personnages à l'intérieur du tyrannoeil d'effectuer des attaques à distance et magiques depuis l'intérieur."
 									]
 								}
 							]
@@ -965,7 +965,7 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "vehicles/AI/mechanical-beholder.webp"
+						"path": "vehicles/AI/mechanical-tyrannoeil.webp"
 					},
 					"credit": "Chris Walton",
 					"width": 841,
@@ -1038,7 +1038,7 @@
 			"source": "AAG",
 			"entries": [
 				"Les neogi terrorisent l'Espace sauvage à bord de navires de leur propre fabrication, que les autres appellent des araignées nocturnes. Ces vaisseaux attendent souvent en embuscade d'autres navires. Une fois un navire cible identifié, les neogi tentent de voler sa {@item Barre de commandement spelljammer|AAG|barre de spelljamming} et de capturer son équipage.",
-				"L'équipage d'une araignée nocturne se compose généralement de dix-neuf neogi et d'une demi-douzaine de {@creature Umber hulk||ertzkhouls} au plus, que les neogi utilisent comme troupes de choc.",
+				"L'équipage d'une araignée nocturne se compose généralement de dix-neuf neogi et d'une demi-douzaine de {@creature Mastodonte des ombres||ertzkhouls} au plus, que les neogi utilisent comme troupes de choc.",
 				"Les araignées nocturnes sont conçues uniquement pour les voyages spatiaux et ne peuvent ni flotter sur l'eau ni atterrir en sécurité sur le sol (le poids du navire briserait ses pattes fragiles, détruisant au passage son gréement en forme de toile). L'armement standard d'une araignée nocturne comprend quatre balisters (deux orientés vers l'avant et deux vers l'arrière) et un mangonneau orienté vers l'avant."
 			],
 			"images": [
@@ -1829,8 +1829,8 @@
 			"name": "Navire tyran",
 			"source": "AAG",
 			"entries": [
-				"Les {@creature Beholder||beholders} sculptent des navires tyrans dans la pierre à l'aide de leurs rayons de désintégration et utilisent ces vaisseaux pour errer dans le Plan astral, à la recherche de mondes à conquérir et de beholders rivaux à détruire. Aucun navire tyran ne ressemble à un autre, mais tous présentent une ou plusieurs caractéristiques rappelant leurs créateurs, comme une forme renflée et des pédoncules oculaires.",
-				"Une chambre sphérique sur le pont de commandement du navire fonctionne comme une {@item Barre de commandement spelljammer|AAG|barre de spelljamming} à laquelle seuls les beholders peuvent se lier. Tout beholder qui occupe cette chambre peut s'y lier. Réduire un navire tyran à 0 point de vie ne le détruit pas seulement : cela détruit également la {@item Barre de commandement spelljammer|AAG|barre de spelljamming} et les canons de pédoncules oculaires du navire.",
+				"Les {@creature Tyrannoeil||tyrannoeils} sculptent des navires tyrans dans la pierre à l'aide de leurs rayons de désintégration et utilisent ces vaisseaux pour errer dans le Plan astral, à la recherche de mondes à conquérir et de tyrannoeils rivaux à détruire. Aucun navire tyran ne ressemble à un autre, mais tous présentent une ou plusieurs caractéristiques rappelant leurs créateurs, comme une forme renflée et des pédoncules oculaires.",
+				"Une chambre sphérique sur le pont de commandement du navire fonctionne comme une {@item Barre de commandement spelljammer|AAG|barre de spelljamming} à laquelle seuls les tyrannoeils peuvent se lier. Tout tyrannoeil qui occupe cette chambre peut s'y lier. Réduire un navire tyran à 0 point de vie ne le détruit pas seulement : cela détruit également la {@item Barre de commandement spelljammer|AAG|barre de spelljamming} et les canons de pédoncules oculaires du navire.",
 				"Un navire tyran ne peut pas flotter sur l'eau, mais il peut atterrir en sécurité sur le sol."
 			],
 			"images": [

@@ -29,7 +29,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the ghost",
+						"replace": "(?:le |la |l’?|au |à la )Fantôme",
 						"with": "Amun",
 						"flags": "i"
 					}
@@ -1775,7 +1775,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dragon",
+						"replace": "Dragon rouge \\(jeune\\)",
 						"with": "Grisdelfawr",
 						"flags": "i"
 					}
@@ -2080,7 +2080,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the acolyte",
+						"replace": "(l|L)(?:e |a |')Acolyte",
 						"with": "Iaseda",
 						"flags": "i"
 					}
@@ -2110,7 +2110,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the captain",
+						"replace": "Chef bandit",
 						"with": "Isabela",
 						"flags": "i"
 					}
@@ -2140,7 +2140,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Juliana",
 						"flags": "i"
 					}
@@ -3077,7 +3077,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Orlando",
 						"flags": "i"
 					}
@@ -3320,12 +3320,12 @@
 			"source": "QftIS",
 			"page": 34,
 			"_copy": {
-				"name": "Wight",
+				"name": "Nécrophage",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the wight",
+						"replace": "(?:le |la |l’?|au |à la )Nécrophage",
 						"with": "Queen Zanobis",
 						"flags": "i"
 					},
@@ -3336,7 +3336,7 @@
 							"items": {
 								"name": "Multiattack",
 								"entries": [
-									"The wight makes two scepter attacks or two longbow attacks. It can use its Life Drain in place of one scepter attack."
+									"The nécrophage makes two scepter attacks or two longbow attacks. It can use its Life Drain in place of one scepter attack."
 								]
 							}
 						},
@@ -3397,7 +3397,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the unicorn",
+						"replace": "(?:le |la |l’?|au |à la )Licorne",
 						"with": "Silverlily",
 						"flags": "i"
 					}
@@ -3575,12 +3575,12 @@
 			"source": "QftIS",
 			"page": 144,
 			"_copy": {
-				"name": "Spectre décharné",
+				"name": "Âme en peine",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the wraith",
+						"replace": "(?:le |la |l’?|au |à la )Âme en peine",
 						"with": "Spirit of Hunger",
 						"flags": "i"
 					}
@@ -3600,7 +3600,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the unicorn",
+						"replace": "(?:le |la |l’?|au |à la )Licorne",
 						"with": "Stargleam",
 						"flags": "i"
 					}
@@ -4155,7 +4155,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the knight",
+						"replace": "(?:le |la |l’?|au |à la )Chevalier",
 						"with": "Uma",
 						"flags": "i"
 					}
@@ -4506,7 +4506,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dragon",
+						"replace": "Dragon de bronze \\(jeune\\)",
 						"with": "Vuuthramis",
 						"flags": "i"
 					}

@@ -54,7 +54,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the captain",
+						"replace": "Chef bandit",
 						"with": "Arlo Kettletoe",
 						"flags": "i"
 					}
@@ -84,7 +84,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the knight",
+						"replace": "(?:le |la |l’?|au |à la )Chevalier",
 						"with": "Arlo Kettletoe",
 						"flags": "i"
 					}
@@ -114,7 +114,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mage",
+						"replace": "(?:le |la |l’?|au |à la )Mage",
 						"with": "Arlo Kettletoe",
 						"flags": "i"
 					}
@@ -240,11 +240,11 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Ashen Shambling Mound",
+			"name": "Ashen Tertre errant",
 			"source": "KftGV",
 			"page": 158,
 			"_copy": {
-				"name": "Shambling Mound",
+				"name": "Tertre errant",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -252,7 +252,7 @@
 						"items": {
 							"name": "Ashen Creature",
 							"entries": [
-								"When the shambling mound drops to 0 hit points, it is reduced to a pile of ash, and any equipment it was wearing or carrying falls to the ground."
+								"When the tertre errant drops to 0 hit points, it is reduced to a pile of ash, and any equipment it was wearing or carrying falls to the ground."
 							]
 						}
 					}
@@ -728,7 +728,7 @@
 			"source": "KftGV",
 			"page": 152,
 			"_copy": {
-				"name": "Horreur blindée",
+				"name": "Horreur casquée",
 				"source": "MM",
 				"_mod": {
 					"trait": [
@@ -831,7 +831,7 @@
 					"*": [
 						{
 							"mode": "replaceTxt",
-							"replace": "the werebear",
+							"replace": "(l|L)(?:e |a |')Ours-garou",
 							"with": "Eliphas",
 							"flags": "i"
 						}
@@ -886,7 +886,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the bandit",
+						"replace": "Bandit",
 						"with": "Enna Galakiir",
 						"flags": "i"
 					}
@@ -916,7 +916,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the spy",
+						"replace": "(l|L)(?:e |a |')Espion",
 						"with": "Enna Galakiir",
 						"flags": "i"
 					}
@@ -946,7 +946,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the assassin",
+						"replace": "(l|L)(?:e |a |')Assassin",
 						"with": "Enna Galakiir",
 						"flags": "i"
 					}
@@ -1049,12 +1049,12 @@
 			"source": "KftGV",
 			"page": 105,
 			"_copy": {
-				"name": "Zombie",
+				"name": "Zombi",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the zombie",
+						"replace": "(?:le |la |l’?|au |à la )Zombi",
 						"with": "Frody",
 						"flags": "i"
 					}
@@ -1083,7 +1083,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the bandit",
+						"replace": "Bandit",
 						"with": "Gregir Fendelsohn",
 						"flags": "i"
 					}
@@ -1114,7 +1114,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the thug",
+						"replace": "(?:le |la |l’?|au |à la )Malfrat",
 						"with": "Gregir Fendelsohn",
 						"flags": "i"
 					}
@@ -1145,7 +1145,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the veteran",
+						"replace": "(?:le |la |l’?|au |à la )Vétéran",
 						"with": "Gregir Fendelsohn",
 						"flags": "i"
 					}
@@ -1198,7 +1198,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mind flayer",
+						"replace": "(?:le |la |l’?|au |à la )Flagelleur mental",
 						"with": "Ignatius Inkblot",
 						"flags": "i"
 					}
@@ -1218,12 +1218,12 @@
 			"source": "KftGV",
 			"page": 155,
 			"_copy": {
-				"name": "Méphrite de fumée",
+				"name": "Méphite fumant",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mephit",
+						"replace": "Méphite fumant",
 						"with": "Jalynvyr Nir'Thinn",
 						"flags": "i"
 					}
@@ -1248,7 +1248,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the efreeti",
+						"replace": "(l|L)(?:e |a |')Éfrit",
 						"with": "Jarazoun",
 						"flags": "i"
 					}
@@ -1269,7 +1269,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the fiend",
+						"replace": "Incube",
 						"with": "Joster Mareet",
 						"flags": "i"
 					}
@@ -1333,7 +1333,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the gnome",
+						"replace": "Gnome des profondeurs \\(Svirfneblin\\)",
 						"with": "Kavoda",
 						"flags": "i"
 					},
@@ -1381,7 +1381,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the golem",
+						"replace": "Golem d'argile",
 						"with": "Jhaeros",
 						"flags": "i"
 					},
@@ -1615,7 +1615,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the knight",
+						"replace": "(?:le |la |l’?|au |à la )Chevalier",
 						"with": "Naevys Tharesso",
 						"flags": "i"
 					},
@@ -1656,7 +1656,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the Assassin",
+						"replace": "(l|L)(?:e |a |')Assassin",
 						"with": "Nixylanna Vidorant",
 						"flags": "i"
 					}
@@ -1856,7 +1856,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the ghost",
+						"replace": "(?:le |la |l’?|au |à la )Fantôme",
 						"with": "Rilago",
 						"flags": "i"
 					}
@@ -1877,7 +1877,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the bandit",
+						"replace": "Bandit",
 						"with": "Sabrina Kilgore",
 						"flags": "i"
 					}
@@ -1908,7 +1908,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the thug",
+						"replace": "(?:le |la |l’?|au |à la )Malfrat",
 						"with": "Sabrina Kilgore",
 						"flags": "i"
 					}
@@ -1939,7 +1939,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the veteran",
+						"replace": "(?:le |la |l’?|au |à la )Vétéran",
 						"with": "Sabrina Kilgore",
 						"flags": "i"
 					}
@@ -2146,7 +2146,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "(l|L)(?:e |a |')Archimage",
 						"with": "The Stranger",
 						"flags": "i"
 					}
@@ -2356,7 +2356,7 @@
 			"source": "KftGV",
 			"page": 80,
 			"_copy": {
-				"name": "Gardien bouclier",
+				"name": "Gardien animé",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -2380,7 +2380,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the bandit",
+						"replace": "Bandit",
 						"with": "Torgja Stonecrusher",
 						"flags": "i"
 					}
@@ -2411,7 +2411,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the thug",
+						"replace": "(?:le |la |l’?|au |à la )Malfrat",
 						"with": "Torgja Stonecrusher",
 						"flags": "i"
 					}
@@ -2442,7 +2442,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the veteran",
+						"replace": "(?:le |la |l’?|au |à la )Vétéran",
 						"with": "Torgja Stonecrusher",
 						"flags": "i"
 					}
@@ -2473,7 +2473,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the scout",
+						"replace": "(l|L)(?:e |a |')Éclaireur",
 						"with": "Tosh Starling",
 						"flags": "i"
 					}
@@ -2503,7 +2503,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the spy",
+						"replace": "(l|L)(?:e |a |')Espion",
 						"with": "Tosh Starling",
 						"flags": "i"
 					}
@@ -2533,7 +2533,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the veteran",
+						"replace": "(?:le |la |l’?|au |à la )Vétéran",
 						"with": "Tosh Starling",
 						"flags": "i"
 					}
@@ -2563,7 +2563,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the nothic",
+						"replace": "(?:le |la |l’?|au |à la )Nothic",
 						"with": "Zala Morphus",
 						"flags": "i"
 					}
@@ -2589,7 +2589,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "(l|L)(?:e |a |')Archimage",
 						"with": "Zorhanna Adulare",
 						"flags": "i"
 					}

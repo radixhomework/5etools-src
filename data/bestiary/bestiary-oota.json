@@ -29,7 +29,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the knight",
+						"replace": "(?:le |la |l’?|au |à la )Chevalier",
 						"with": "Aljanor",
 						"flags": "i"
 					}
@@ -65,7 +65,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the veteran",
+						"replace": "(?:le |la |l’?|au |à la )Vétéran",
 						"with": "Amarith",
 						"flags": "i"
 					},
@@ -103,8 +103,9 @@
 					"*": [
 						{
 							"mode": "replaceTxt",
-							"replace": "suit of armor",
-							"with": "statue"
+							"replace": "Armure animée",
+							"with": "statue",
+							"flags": "i"
 						},
 						{
 							"mode": "replaceTxt",
@@ -135,7 +136,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the priest",
+						"replace": "(?:le |la |l’?|au |à la )Prêtre",
 						"with": "Asha",
 						"flags": "i"
 					}
@@ -249,7 +250,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the orog",
+						"replace": "(l|L)(?:e |a |')Orog",
 						"with": "Blurg",
 						"flags": "i"
 					},
@@ -1923,7 +1924,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the scout",
+						"replace": "(l|L)(?:e |a |')Éclaireur",
 						"with": "Eldeth",
 						"flags": "i"
 					}
@@ -2228,7 +2229,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the gnoll",
+						"replace": "(?:le |la |l’?|au |à la )Gnoll",
 						"with": "Gash",
 						"flags": "i"
 					},
@@ -2273,7 +2274,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Ghazrim",
 						"flags": "i"
 					}
@@ -2399,12 +2400,12 @@
 			"source": "OotA",
 			"page": 35,
 			"_copy": {
-				"name": "Gluant géant",
+				"name": "Cube gélatineux",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the cube",
+						"replace": "Cube gélatineux",
 						"with": "Glabbagool",
 						"flags": "i"
 					}
@@ -2436,7 +2437,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the veteran",
+						"replace": "(l|L)(?:e |a |')Acolyte",
 						"with": "Glyphic",
 						"flags": "i"
 					}
@@ -2462,7 +2463,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mind flayer",
+						"replace": "(?:le |la |l’?|au |à la )Flagelleur mental",
 						"with": "Grazilaxx",
 						"flags": "i"
 					},
@@ -2667,7 +2668,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the drow",
+						"replace": "(?:le |la |l’?|au |à la )Drow",
 						"with": "Hanne",
 						"flags": "i"
 					},
@@ -2811,7 +2812,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the drow",
+						"replace": "Drow prêtresse de Lolth",
 						"with": "Ilvara",
 						"flags": "i"
 					},
@@ -2874,7 +2875,7 @@
 			"source": "OotA",
 			"page": 34,
 			"_copy": {
-				"name": "Horreur à crochet",
+				"name": "Horreur crochue",
 				"source": "MM"
 			},
 			"size": [
@@ -3148,7 +3149,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the spy",
+						"replace": "(l|L)(?:e |a |')Espion",
 						"with": "Jimjar",
 						"flags": "i"
 					}
@@ -3171,7 +3172,7 @@
 			"source": "OotA",
 			"page": 34,
 			"_copy": {
-				"name": "Horreur à crochet",
+				"name": "Horreur crochue",
 				"source": "MM",
 				"_mod": {
 					"action": {
@@ -3227,7 +3228,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the spy",
+						"replace": "(l|L)(?:e |a |')Espion",
 						"with": "Khalessa",
 						"flags": "i"
 					},
@@ -3289,7 +3290,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the assassin",
+						"replace": "Drow Assassin",
 						"with": "Kinyel",
 						"flags": "i"
 					}
@@ -3318,7 +3319,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the gnoll",
+						"replace": "Croc de gnoll de Yeenoghu",
 						"with": "Kurr",
 						"flags": "i"
 					}
@@ -3524,12 +3525,12 @@
 			"source": "OotA",
 			"page": 141,
 			"_copy": {
-				"name": "Beholder",
+				"name": "Tyrannoeil",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the beholder",
+						"replace": "(?:le |la |l’?|au |à la )Tyrannoeil",
 						"with": "Lorthuun",
 						"flags": "i"
 					},
@@ -3539,7 +3540,7 @@
 						"items": {
 							"name": "Eye Rays",
 							"entries": [
-								"The beholder shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it:",
+								"The tyrannoeil shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it:",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
@@ -3547,7 +3548,7 @@
 										{
 											"type": "itemSub",
 											"name": "1. Charm Ray",
-											"entry": "The targeted creature must succeed on a {@dc 16} Wisdom saving throw or be {@condition Charmé} by the beholder for 1 hour, or until the beholder harms the creature."
+											"entry": "The targeted creature must succeed on a {@dc 16} Wisdom saving throw or be {@condition Charmé} by the tyrannoeil for 1 hour, or until the tyrannoeil harms the creature."
 										},
 										{
 											"type": "itemSub",
@@ -3573,8 +3574,8 @@
 											"type": "itemSub",
 											"name": "6. Telekinetic Ray",
 											"entries": [
-												"If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or the beholder moves it up to 30 feet in any direction. It is {@condition Entravé} by the ray's telekinetic grip until the start of the beholder's next turn or until the beholder is {@condition Incapable}.",
-												"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The beholder can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
+												"If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or the tyrannoeil moves it up to 30 feet in any direction. It is {@condition Entravé} by the ray's telekinetic grip until the start of the tyrannoeil's next turn or until the tyrannoeil is {@condition Incapable}.",
+												"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The tyrannoeil can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
 											]
 										}
 									]
@@ -3703,7 +3704,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the veteran",
+						"replace": "(?:le |la |l’?|au |à la )Vétéran",
 						"with": "Mev",
 						"flags": "i"
 					}
@@ -3887,12 +3888,12 @@
 			"source": "OotA",
 			"page": 142,
 			"_copy": {
-				"name": "Kuo-Toa",
+				"name": "Kuo-toa",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the kuo-toa",
+						"replace": "(?:le |la |l’?|au |à la )Kuo-toa",
 						"with": "Ougalop",
 						"flags": "i"
 					}
@@ -3919,7 +3920,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the spy",
+						"replace": "(l|L)(?:e |a |')Espion",
 						"with": "Peebles",
 						"flags": "i"
 					}
@@ -3947,7 +3948,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the quaggoth",
+						"replace": "(?:le |la |l’?|au |à la )Quaggoth",
 						"with": "Prince Derendil",
 						"flags": "i"
 					}
@@ -3972,7 +3973,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the pudding",
+						"replace": "Pouding noir",
 						"with": "Princess Ebonmire",
 						"flags": "i"
 					}
@@ -4001,7 +4002,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the drow",
+						"replace": "Drow prêtresse de Lolth",
 						"with": "Quenthel",
 						"flags": "i"
 					},
@@ -4288,12 +4289,12 @@
 			"source": "OotA",
 			"page": 59,
 			"_copy": {
-				"name": "Géant de pierre",
+				"name": "Géant des pierres",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the giant",
+						"replace": "Géant des pierres",
 						"with": "Rihuud",
 						"flags": "i"
 					},
@@ -4344,7 +4345,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the orc",
+						"replace": "(l|L)(?:e |a |')Orc",
 						"with": "Ront",
 						"flags": "i"
 					}
@@ -4365,7 +4366,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the myconid",
+						"replace": "Myconïde pousse",
 						"with": "Rumpadump",
 						"flags": "i"
 					}
@@ -4386,7 +4387,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the spy",
+						"replace": "(l|L)(?:e |a |')Espion",
 						"with": "Rystia",
 						"flags": "i"
 					}
@@ -4417,7 +4418,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the drow",
+						"replace": "(?:le |la |l’?|au |à la )Drow",
 						"with": "Sarith",
 						"flags": "i"
 					}
@@ -4438,7 +4439,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mage",
+						"replace": "(?:le |la |l’?|au |à la )Mage",
 						"with": "Shedrak",
 						"flags": "i"
 					}
@@ -4472,12 +4473,12 @@
 			"source": "OotA",
 			"page": 7,
 			"_copy": {
-				"name": "Kuo-Toa",
+				"name": "Kuo-toa",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the kuo-toa",
+						"replace": "(?:le |la |l’?|au |à la )Kuo-toa",
 						"with": "Shuushar",
 						"flags": "i"
 					}
@@ -4498,7 +4499,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the troglodyte",
+						"replace": "(?:le |la |l’?|au |à la )Troglodyte",
 						"with": "Skriss",
 						"flags": "i"
 					},
@@ -4558,7 +4559,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the druid",
+						"replace": "(?:le |la |l’?|au |à la )Druide",
 						"with": "Sladis",
 						"flags": "i"
 					},
@@ -4590,7 +4591,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the kuo-toa",
+						"replace": "Archiprêtre kuo-toa",
 						"with": "Sloopidoop",
 						"flags": "i"
 					},
@@ -4644,7 +4645,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the myconid",
+						"replace": "Myconïde souverain",
 						"with": "Basidia",
 						"flags": "i"
 					}
@@ -4719,7 +4720,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the goblin",
+						"replace": "(?:le |la |l’?|au |à la )Gobelin",
 						"with": "Spiderbait",
 						"flags": "i"
 					},
@@ -4757,7 +4758,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the myconid",
+						"replace": "Myconïde pousse",
 						"with": "Stool",
 						"flags": "i"
 					}
@@ -5033,7 +5034,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dragon",
+						"replace": "Dragon rouge adulte",
 						"with": "Themberchaud",
 						"flags": "i"
 					}
@@ -5061,7 +5062,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the wererat",
+						"replace": "(?:le |la |l’?|au |à la )Rat-garou",
 						"with": "Topsy",
 						"flags": "i"
 					}
@@ -5235,7 +5236,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the wererat",
+						"replace": "(?:le |la |l’?|au |à la )Rat-garou",
 						"with": "Turvy",
 						"flags": "i"
 					}
@@ -5489,7 +5490,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the basilisk",
+						"replace": "Basilic",
 						"with": "Veldyskar",
 						"flags": "i"
 					}
@@ -5638,7 +5639,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the captain",
+						"replace": "Chef bandit",
 						"with": "Viln",
 						"flags": "i"
 					},
@@ -5696,7 +5697,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "(l|L)(?:e |a |')Archimage",
 						"with": "Vizeran",
 						"flags": "i"
 					}
@@ -5725,12 +5726,12 @@
 			"source": "OotA",
 			"page": 142,
 			"_copy": {
-				"name": "Beholder",
+				"name": "Tyrannoeil",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the beholder",
+						"replace": "(?:le |la |l’?|au |à la )Tyrannoeil",
 						"with": "Xazax",
 						"flags": "i"
 					}
@@ -5805,7 +5806,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the gnome",
+						"replace": "Gnome des profondeurs \\(Svirfneblin\\)",
 						"with": "Yantha",
 						"flags": "i"
 					}
@@ -6039,7 +6040,7 @@
 			"source": "OotA",
 			"page": 34,
 			"_copy": {
-				"name": "Horreur à crochet",
+				"name": "Horreur crochue",
 				"source": "MM",
 				"_mod": {
 					"action": {
@@ -6089,7 +6090,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the goblin",
+						"replace": "(?:le |la |l’?|au |à la )Gobelin",
 						"with": "Yuk Yuk",
 						"flags": "i"
 					},
@@ -6225,7 +6226,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the drow",
+						"replace": "Drow mage",
 						"with": "Zilchyn",
 						"flags": "i"
 					}

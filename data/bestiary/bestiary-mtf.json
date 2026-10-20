@@ -3752,7 +3752,7 @@
 							"type": "list",
 							"items": [
 								"La fleur putride digère un cadavre d'humanoïde présent dans son corps et regagne instantanément 11 ({@dice 2d10}) points de vie. Il ne reste rien du corps digéré. Tout l'équipement porté par le cadavre est expulsé de la fleur putride dans son espace.",
-								"La fleur putride anime un humanoïde mort présent dans son corps, le transformant en zombie. Le zombie apparaît dans un espace inoccupé à 1,50 m de la fleur putride ou moins et agit immédiatement après elle dans l'ordre d'initiative. Le zombie agit comme un allié de la fleur putride mais n'est pas sous son contrôle, et l'odeur nauséabonde de la fleur le suit (voir la caractéristique Odeur de mort)."
+								"La fleur putride anime un humanoïde mort présent dans son corps, le transformant en zombi. Le zombi apparaît dans un espace inoccupé à 1,50 m de la fleur putride ou moins et agit immédiatement après elle dans l'ordre d'initiative. Le zombi agit comme un allié de la fleur putride mais n'est pas sous son contrôle, et l'odeur nauséabonde de la fleur le suit (voir la caractéristique Odeur de mort)."
 							]
 						}
 					]
@@ -3766,7 +3766,7 @@
 				{
 					"name": "Odeur de mort",
 					"entries": [
-						"Chaque créature qui commence son tour à 3 m de la fleur putride ou d'un de ses zombies ou moins doit réussir un jet de sauvegarde de Constitution {@dc 14}, à moins qu'elle ne soit une créature artificielle ou un mort-vivant. En cas d'échec, la créature est {@condition Incapable} jusqu'à la fin du tour. Les créatures immunisées contre les dégâts de poison ou l'état {@condition Empoisonné} réussissent automatiquement ce jet de sauvegarde. En cas de réussite, la créature est immunisée contre l'odeur de toutes les fleurs putrides pendant 24 heures."
+						"Chaque créature qui commence son tour à 3 m de la fleur putride ou d'un de ses zombis ou moins doit réussir un jet de sauvegarde de Constitution {@dc 14}, à moins qu'elle ne soit une créature artificielle ou un mort-vivant. En cas d'échec, la créature est {@condition Incapable} jusqu'à la fin du tour. Les créatures immunisées contre les dégâts de poison ou l'état {@condition Empoisonné} réussissent automatiquement ce jet de sauvegarde. En cas de réussite, la créature est immunisée contre l'odeur de toutes les fleurs putrides pendant 24 heures."
 					]
 				}
 			],
@@ -4505,7 +4505,7 @@
 				"TftYP-WPM"
 			],
 			"reprintedAs": [
-				"Deathlock Wight|MPMM"
+				"Deathlock Nécrophage|MPMM"
 			],
 			"size": [
 				"M"
@@ -4617,17 +4617,17 @@
 					"name": "Drain de vie",
 					"entries": [
 						"{@atk mw} {@hit 4} pour toucher, allonge 1,50 m, une créature. {@h}9 ({@damage 2d6 + 2}) dégâts nécrotiques. La cible doit réussir un jet de sauvegarde de Constitution {@dc 13} ou son maximum de points de vie est réduit d'une valeur égale aux dégâts subis. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0.",
-						"Un humanoïde tué par cette attaque se relève 24 heures plus tard en tant que {@creature zombie} sous le contrôle du nécrophage, à moins que l'humanoïde ne soit ramené à la vie ou que son corps ne soit détruit. Le nécrophage ne peut contrôler plus de douze {@creature zombie||zombies} à la fois."
+						"Un humanoïde tué par cette attaque se relève 24 heures plus tard en tant que {@creature zombi} sous le contrôle du nécrophage, à moins que l'humanoïde ne soit ramené à la vie ou que son corps ne soit détruit. Le nécrophage ne peut contrôler plus de douze {@creature zombi||zombis} à la fois."
 					]
 				}
 			],
 			"soundClip": {
 				"type": "internal",
-				"path": "bestiary/deathlock-wight.opus"
+				"path": "bestiary/deathlock-nécrophage.opus"
 			},
 			"altArt": [
 				{
-					"name": "Deathlock Wight (Alt)",
+					"name": "Deathlock Nécrophage (Alt)",
 					"source": "TftYP"
 				}
 			],
@@ -13745,7 +13745,7 @@
 				{
 					"name": "Résurrection de goule {@recharge 5}",
 					"entries": [
-						"Le maurezhi cible une goule ou un ghast mort qu'il peut voir à 9 m ou moins de lui. La cible revient à la vie avec tous ses points de vie."
+						"Le maurezhi cible une goule ou un blême mort qu'il peut voir à 9 m ou moins de lui. La cible revient à la vie avec tous ses points de vie."
 					]
 				}
 			],
@@ -14684,7 +14684,7 @@
 				{
 					"name": "Morsure de serpent",
 					"entries": [
-						"{@atk mw} {@hit 16} pour toucher, allonge 4,50 m, une créature. {@h}12 ({@damage 1d6 + 9}) dégâts perforants, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 22} ou voir son maximum de points de vie réduit d'un montant égal aux dégâts subis. Cette réduction dure jusqu'à ce que la cible acheve un repos long. La cible se transforme en {@creature Mânes} si son maximum de points de vie est ainsi réduit à 0. Seul un sort de {@spell Souhait} peut mettre fin à cette transformation."
+						"{@atk mw} {@hit 16} pour toucher, allonge 4,50 m, une créature. {@h}12 ({@damage 1d6 + 9}) dégâts perforants, et la cible doit réussir un jet de sauvegarde de Constitution {@dc 22} ou voir son maximum de points de vie réduit d'un montant égal aux dégâts subis. Cette réduction dure jusqu'à ce que la cible acheve un repos long. La cible se transforme en {@creature Mâne} si son maximum de points de vie est ainsi réduit à 0. Seul un sort de {@spell Souhait} peut mettre fin à cette transformation."
 					]
 				}
 			],
@@ -18625,7 +18625,7 @@
 				{
 					"name": "Invocation de morts-vivants (coûte 3 actions)",
 					"entries": [
-						"Jusqu'à cinq {@creature Squelette||squelettes} ou {@creature Zombie||zombies} apparaissent dans des espaces inoccupés situés à 9 m ou moins du seigneur des crânes et restent jusqu'à ce qu'ils soient détruits. Les morts-vivants invoqués de cette manière déterminent leur initiative et agissent au prochain tour disponible. Le seigneur des crânes peut avoir jusqu'à cinq morts-vivants invoqués par cette capacité à la fois."
+						"Jusqu'à cinq {@creature Squelette||squelettes} ou {@creature Zombi||zombis} apparaissent dans des espaces inoccupés situés à 9 m ou moins du seigneur des crânes et restent jusqu'à ce qu'ils soient détruits. Les morts-vivants invoqués de cette manière déterminent leur initiative et agissent au prochain tour disponible. Le seigneur des crânes peut avoir jusqu'à cinq morts-vivants invoqués par cette capacité à la fois."
 					]
 				}
 			],

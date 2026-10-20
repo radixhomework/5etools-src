@@ -27,7 +27,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the veteran",
+						"replace": "(?:le |la |l’?|au |à la )Vétéran",
 						"with": "Amelia",
 						"flags": "i"
 					}
@@ -2115,7 +2115,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Bakaris",
 						"flags": "i"
 					}
@@ -2146,7 +2146,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Bakaris",
 						"flags": "i"
 					}
@@ -2177,7 +2177,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the knight",
+						"replace": "(?:le |la |l’?|au |à la )Chevalier",
 						"with": "Becklin",
 						"flags": "i"
 					}
@@ -2208,7 +2208,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dragon",
+						"replace": "Dragon bleu \\(jeune\\)",
 						"with": "Belephaion",
 						"flags": "i"
 					},
@@ -2585,7 +2585,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the scout",
+						"replace": "(l|L)(?:e |a |')Éclaireur",
 						"with": "Clystran",
 						"flags": "i"
 					}
@@ -2622,7 +2622,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the veteran",
+						"replace": "(?:le |la |l’?|au |à la )Vétéran",
 						"with": "Cudgel",
 						"flags": "i"
 					}
@@ -2646,7 +2646,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mage",
+						"replace": "(?:le |la |l’?|au |à la )Mage",
 						"with": "Dalamar",
 						"flags": "i"
 					}
@@ -2676,7 +2676,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the knight",
+						"replace": "(?:le |la |l’?|au |à la )Chevalier",
 						"with": "Darrett",
 						"flags": "i"
 					}
@@ -2707,7 +2707,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "(l|L)(?:e |a |')Archimage",
 						"with": "Demelin",
 						"flags": "i"
 					}
@@ -3085,7 +3085,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the knight",
+						"replace": "(?:le |la |l’?|au |à la )Chevalier",
 						"with": "Durstan",
 						"flags": "i"
 					}
@@ -3110,12 +3110,12 @@
 			"source": "DSotDQ",
 			"page": 150,
 			"_copy": {
-				"name": "Treant",
+				"name": "Sylvanien",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the treant",
+						"replace": "(?:le |la |l’?|au |à la )Sylvanien",
 						"with": "Duskwalker",
 						"flags": "i"
 					}
@@ -3310,7 +3310,7 @@
 				{
 					"name": "Cataclysmic Breath {@recharge 5}",
 					"entries": [
-						"The dragon exhales a wave of ghostly purple flames in a 60-foot cone. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking 45 ({@damage 10d8}) necrotic damage on a failed save, or half as much damage on a successful one. A creature dies if the breath reduces it to 0 hit points. Additionally, any Medium or smaller Humanoid killed by the breath's damage, as well as every corpse of such a creature within the cone, becomes a zombie (see the Monster Manual) under the dragon's control. The zombie acts on the dragon's initiative but immediately after the dragon's turn. Absent any other command, the zombie tries to kill any non-Undead creature it encounters."
+						"The dragon exhales a wave of ghostly purple flames in a 60-foot cone. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking 45 ({@damage 10d8}) necrotic damage on a failed save, or half as much damage on a successful one. A creature dies if the breath reduces it to 0 hit points. Additionally, any Medium or smaller Humanoid killed by the breath's damage, as well as every corpse of such a creature within the cone, becomes a zombi (see the Monster Manual) under the dragon's control. The zombi acts on the dragon's initiative but immediately after the dragon's turn. Absent any other command, the zombi tries to kill any non-Undead creature it encounters."
 					]
 				}
 			],
@@ -4249,7 +4249,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dragon",
+						"replace": "Dragon rouge \\(jeune\\)",
 						"with": "Ignia",
 						"flags": "i"
 					}
@@ -5264,7 +5264,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the captain",
+						"replace": "Chef bandit",
 						"with": "Jeyev",
 						"flags": "i"
 					}
@@ -6021,7 +6021,7 @@
 				{
 					"name": "Cataclysmic Breath {@recharge 5}",
 					"entries": [
-						"The dragon exhales a wave of ghostly purple flames in a 30-foot cone. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking 36 ({@damage 8d8}) necrotic damage on a failed save, or half as much damage on a successful one. A creature dies if the breath reduces it to 0 hit points. Additionally, any Medium or smaller Humanoid killed by the breath's damage, as well as every corpse of such a creatures within the cone, becomes a zombie (see the Monster Manual) under the dragon's control. The zombie acts on the dragon's initiative but immediately after the dragon's turn. Absent any other command, the zombie tries to kill any non-Undead creature it encounters."
+						"The dragon exhales a wave of ghostly purple flames in a 30-foot cone. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking 36 ({@damage 8d8}) necrotic damage on a failed save, or half as much damage on a successful one. A creature dies if the breath reduces it to 0 hit points. Additionally, any Medium or smaller Humanoid killed by the breath's damage, as well as every corpse of such a creatures within the cone, becomes a zombi (see the Monster Manual) under the dragon's control. The zombi acts on the dragon's initiative but immediately after the dragon's turn. Absent any other command, the zombi tries to kill any non-Undead creature it encounters."
 					]
 				}
 			],
@@ -7184,7 +7184,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the vampire",
+						"replace": "(?:le |la |l’?|au |à la )Vampire",
 						"with": "Lorry",
 						"flags": "i"
 					},
@@ -7228,7 +7228,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the scout",
+						"replace": "(l|L)(?:e |a |')Éclaireur",
 						"with": "Raven",
 						"flags": "i"
 					}
@@ -7758,7 +7758,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the acolyte",
+						"replace": "(l|L)(?:e |a |')Acolyte",
 						"with": "Tatina",
 						"flags": "i"
 					}
@@ -8666,12 +8666,12 @@
 			"source": "DSotDQ",
 			"page": 96,
 			"_copy": {
-				"name": "Wight",
+				"name": "Nécrophage",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "wight",
+						"replace": "nécrophage",
 						"with": "soldier"
 					}
 				}
@@ -8700,7 +8700,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the slaad",
+						"replace": "Slaad vert",
 						"with": "Virruza",
 						"flags": "i"
 					},
@@ -8987,7 +8987,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mage",
+						"replace": "(?:le |la |l’?|au |à la )Mage",
 						"with": "Wyhan",
 						"flags": "i"
 					}

@@ -33,7 +33,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "(l|L)(?:e |a |')Archimage",
 						"with": "Afsoun",
 						"flags": "i"
 					}
@@ -62,7 +62,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the spy",
+						"replace": "(l|L)(?:e |a |')Espion",
 						"with": "Amanisha",
 						"flags": "i"
 					}
@@ -93,7 +93,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the priest",
+						"replace": "(?:le |la |l’?|au |à la )Prêtre",
 						"with": "Ameyali",
 						"flags": "i"
 					}
@@ -122,8 +122,9 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "spy",
-						"with": "anarchist"
+						"replace": "(?:le |la |l’?|au |à la )Prêtre",
+						"with": "anarchist",
+						"flags": "i"
 					}
 				}
 			},
@@ -173,7 +174,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the solar",
+						"replace": "(?:le |la |l’?|au |à la )Solar",
 						"with": "Atash",
 						"flags": "i"
 					}
@@ -198,7 +199,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the spy",
+						"replace": "(?:le |la |l’?|au |à la )Prêtre",
 						"with": "Atiba-Pa",
 						"flags": "i"
 					}
@@ -229,7 +230,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the commoner",
+						"replace": "Roturier",
 						"with": "Aunt Dellie",
 						"flags": "i"
 					}
@@ -473,7 +474,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the commoner",
+						"replace": "Roturier",
 						"with": "Awa",
 						"flags": "i"
 					}
@@ -494,7 +495,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the acolyte",
+						"replace": "(l|L)(?:e |a |')Acolyte",
 						"with": "Azra",
 						"flags": "i"
 					}
@@ -755,7 +756,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the assassin",
+						"replace": "(l|L)(?:e |a |')Assassin",
 						"with": "Diva Luma",
 						"flags": "i"
 					}
@@ -790,7 +791,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mage",
+						"replace": "(?:le |la |l’?|au |à la )Mage",
 						"with": "Djeneba",
 						"flags": "i"
 					}
@@ -859,7 +860,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the weretiger",
+						"replace": "(?:le |la |l’?|au |à la )Tigre-garou",
 						"with": "Dukha",
 						"flags": "i"
 					}
@@ -908,7 +909,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the commoner",
+						"replace": "Roturier",
 						"with": "Gammon",
 						"flags": "i"
 					}
@@ -1103,7 +1104,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the ultroloth",
+						"replace": "(l|L)(?:e |a |')Ultroloth",
 						"with": "Jijibisha",
 						"flags": "i"
 					},
@@ -1137,7 +1138,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the druid",
+						"replace": "(?:le |la |l’?|au |à la )Druide",
 						"with": "Kala",
 						"flags": "i"
 					}
@@ -1168,7 +1169,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Kasem",
 						"flags": "i"
 					}
@@ -1199,7 +1200,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the priest",
+						"replace": "(?:le |la |l’?|au |à la )Prêtre",
 						"with": "Kedjou",
 						"flags": "i"
 					}
@@ -1230,7 +1231,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the commoner",
+						"replace": "Roturier",
 						"with": "Kianna",
 						"flags": "i"
 					}
@@ -1259,8 +1260,9 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "sea horse",
-						"with": "prawn"
+						"replace": "Hippocampe géant",
+						"with": "prawn",
+						"flags": "i"
 					}
 				}
 			},
@@ -1279,7 +1281,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Kun Ahn-Jun",
 						"flags": "i"
 					}
@@ -1316,7 +1318,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Kusa",
 						"flags": "i"
 					}
@@ -1345,7 +1347,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the scout",
+						"replace": "(l|L)(?:e |a |')Éclaireur",
 						"with": "Lady Dre",
 						"flags": "i"
 					}
@@ -1382,7 +1384,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the scout",
+						"replace": "(l|L)(?:e |a |')Éclaireur",
 						"with": "Laleh",
 						"flags": "i"
 					}
@@ -1417,7 +1419,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the commoner",
+						"replace": "Roturier",
 						"with": "Lamai",
 						"flags": "i"
 					}
@@ -1442,7 +1444,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the spy",
+						"replace": "(l|L)(?:e |a |')Espion",
 						"with": "Lu Zhong",
 						"flags": "i"
 					}
@@ -1473,7 +1475,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dryad",
+						"replace": "(?:le |la |l’?|au |à la )Dryade",
 						"with": "Lungtian",
 						"flags": "i"
 					}
@@ -1504,7 +1506,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Madam Kulp",
 						"flags": "i"
 					}
@@ -1534,7 +1536,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Nargis",
 						"flags": "i"
 					}
@@ -1562,7 +1564,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the efreeti",
+						"replace": "(l|L)(?:e |a |')Éfrit",
 						"with": "Navid",
 						"flags": "i"
 					},
@@ -1589,7 +1591,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the hawk",
+						"replace": "(?:le |la |l’?|au |à la )Faucon",
 						"with": "Nene",
 						"flags": "i"
 					}
@@ -1608,7 +1610,7 @@
 			"source": "JttRC",
 			"page": 177,
 			"_copy": {
-				"name": "Ondin",
+				"name": "Homme-poisson",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -1650,7 +1652,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mage",
+						"replace": "(?:le |la |l’?|au |à la )Mage",
 						"with": "Nimuel",
 						"flags": "i"
 					}
@@ -1687,7 +1689,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the priest",
+						"replace": "(?:le |la |l’?|au |à la )Prêtre",
 						"with": "Ollin",
 						"flags": "i"
 					}
@@ -1731,7 +1733,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the assassin",
+						"replace": "(l|L)(?:e |a |')Assassin",
 						"with": "Paloma",
 						"flags": "i"
 					}
@@ -1756,7 +1758,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dragon hunter",
+						"replace": "Dragon Hunter",
 						"with": "Paolo",
 						"flags": "i"
 					}
@@ -1945,7 +1947,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the veteran",
+						"replace": "(?:le |la |l’?|au |à la )Vétéran",
 						"with": "Kirina",
 						"flags": "i"
 					},
@@ -1985,7 +1987,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the veteran",
+						"replace": "(?:le |la |l’?|au |à la )Vétéran",
 						"with": "Simbon",
 						"flags": "i"
 					},
@@ -2220,7 +2222,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the spy",
+						"replace": "(l|L)(?:e |a |')Espion",
 						"with": "Samira",
 						"flags": "i"
 					}
@@ -2269,7 +2271,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dragon",
+						"replace": "Dragon d'airain antique",
 						"with": "Sholeh",
 						"flags": "i"
 					}
@@ -2685,7 +2687,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the priest",
+						"replace": "(?:le |la |l’?|au |à la )Prêtre",
 						"with": "Tonalli",
 						"flags": "i"
 					}
@@ -2710,7 +2712,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the acolyte",
+						"replace": "(l|L)(?:e |a |')Acolyte",
 						"with": "Tungsten",
 						"flags": "i"
 					}
@@ -2747,7 +2749,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the guard",
+						"replace": "Garde",
 						"with": "Uzoma",
 						"flags": "i"
 					}
@@ -2772,7 +2774,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Vi",
 						"flags": "i"
 					}
@@ -2803,7 +2805,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"replace": "(l|L)(?:e |a |')Archimage",
 						"with": "Wei Feng",
 						"flags": "i"
 					}
@@ -3076,7 +3078,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the giant",
+						"replace": "Géant du feu",
 						"with": "Xocopol",
 						"flags": "i"
 					},
@@ -3122,7 +3124,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the scout",
+						"replace": "(l|L)(?:e |a |')Éclaireur",
 						"with": "Yarana",
 						"flags": "i"
 					}
@@ -3159,7 +3161,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Young-Gi",
 						"flags": "i"
 					}

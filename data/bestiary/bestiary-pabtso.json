@@ -215,11 +215,11 @@
 			"hasToken": true
 		},
 		{
-			"name": "Ash Zombie",
+			"name": "Ash Zombi",
 			"source": "PaBTSO",
 			"page": 52,
 			"_copy": {
-				"name": "Zombie",
+				"name": "Zombi",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -227,7 +227,7 @@
 						"items": {
 							"name": "Ash Cloud",
 							"entries": [
-								"When the zombie dies, it leaves a cloud of ash that lasts for 5 minutes but does not obscure vision."
+								"When the zombi dies, it leaves a cloud of ash that lasts for 5 minutes but does not obscure vision."
 							]
 						}
 					}
@@ -329,7 +329,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Cloaker Mutate",
+			"name": "Manteleur Mutate",
 			"source": "PaBTSO",
 			"page": 212,
 			"size": [
@@ -759,7 +759,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Feral Ashenwight",
+			"name": "Feral Ashennécrophage",
 			"source": "PaBTSO",
 			"page": 204,
 			"size": [
@@ -820,7 +820,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The ashenwight makes two Necrotic Shard attacks."
+						"The ashennécrophage makes two Necrotic Shard attacks."
 					]
 				},
 				{
@@ -1427,7 +1427,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the hydra",
+						"replace": "(l|L)(?:e |a |')Hydre",
 						"with": "Grandlejaw",
 						"flags": "i"
 					}
@@ -1609,7 +1609,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the acolyte",
+						"replace": "(l|L)(?:e |a |')Acolyte",
 						"with": "Gwyn",
 						"flags": "i"
 					}
@@ -1655,12 +1655,12 @@
 			"source": "PaBTSO",
 			"page": 93,
 			"_copy": {
-				"name": "Psionic Ashenwight",
+				"name": "Psionic Ashennécrophage",
 				"source": "PaBTSO",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the ashenwight",
+						"replace": "the ashennécrophage",
 						"with": "Hjoldak",
 						"flags": "i"
 					}
@@ -1684,7 +1684,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the medusa",
+						"replace": "(?:le |la |l’?|au |à la )Méduse",
 						"with": "Honna",
 						"flags": "i"
 					}
@@ -2107,7 +2107,7 @@
 			"source": "PaBTSO",
 			"page": 139,
 			"_copy": {
-				"name": "Berseker",
+				"name": "Berserker",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -2260,12 +2260,12 @@
 			"source": "PaBTSO",
 			"page": 121,
 			"_copy": {
-				"name": "Weird d'eau",
+				"name": "Sentinelle d'eau",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the water weird",
+						"replace": "(?:le |la |l’?|au |à la )Sentinelle d'eau",
 						"with": "Kellikilli",
 						"flags": "i"
 					}
@@ -2844,12 +2844,12 @@
 			"source": "PaBTSO",
 			"page": 70,
 			"_copy": {
-				"name": "Spectre décharné",
+				"name": "Âme en peine",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the wraith",
+						"replace": "(?:le |la |l’?|au |à la )Âme en peine",
 						"with": "Mormesk",
 						"flags": "i"
 					}
@@ -2870,7 +2870,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the nycaloth",
+						"replace": "(?:le |la |l’?|au |à la )Nycaloth",
 						"with": "Nellik",
 						"flags": "i"
 					},
@@ -3078,7 +3078,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the drow",
+						"replace": "Drow guerrier d'élite",
 						"with": "Nythalyn",
 						"flags": "i"
 					}
@@ -3587,7 +3587,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Psionic Ashenwight",
+			"name": "Psionic Ashennécrophage",
 			"source": "PaBTSO",
 			"page": 204,
 			"size": [
@@ -3649,7 +3649,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The ashenwight casts one of the following spells, requiring no spellcasting components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
+						"The ashennécrophage casts one of the following spells, requiring no spellcasting components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
 						"{@spell Main du mage} (the hand is invisible)"
@@ -3667,7 +3667,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The ashenwight makes two Necrotic Shard attacks. It also uses Psionic Crown if available."
+						"The ashennécrophage makes two Necrotic Shard attacks. It also uses Psionic Crown if available."
 					]
 				},
 				{
@@ -3679,7 +3679,7 @@
 				{
 					"name": "Psionic Crown {@recharge 5}",
 					"entries": [
-						"The ashenwight wreathes the head of a creature it can see within 60 feet of itself with a crown of jagged, spectral crystals. The target must succeed on a {@dc 14} Wisdom saving throw or have the {@condition Charmé} condition for 1 minute. While {@condition Charmé} in this way, the target's thoughts are sluggish; it can't take reactions, its speed is halved, and it takes 9 ({@damage 2d8}) psychic damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The ashennécrophage wreathes the head of a creature it can see within 60 feet of itself with a crown of jagged, spectral crystals. The target must succeed on a {@dc 14} Wisdom saving throw or have the {@condition Charmé} condition for 1 minute. While {@condition Charmé} in this way, the target's thoughts are sluggish; it can't take reactions, its speed is halved, and it takes 9 ({@damage 2d8}) psychic damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -3717,11 +3717,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Psionic Shambling Mound",
+			"name": "Psionic Tertre errant",
 			"source": "PaBTSO",
 			"page": 108,
 			"_copy": {
-				"name": "Shambling Mound",
+				"name": "Tertre errant",
 				"source": "MM"
 			},
 			"spellcasting": [
@@ -3729,7 +3729,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The shambling mound casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 8}):"
+						"The tertre errant casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 8}):"
 					],
 					"will": [
 						"{@spell Illusion mineure}"
@@ -4237,7 +4237,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the gnome",
+						"replace": "Gnome des profondeurs \\(Svirfneblin\\)",
 						"with": "Rivibiddel",
 						"flags": "i"
 					}
@@ -4527,7 +4527,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the githyanki",
+						"replace": "Chevalier githyanki",
 						"with": "Varakkta",
 						"flags": "i"
 					}
@@ -4583,7 +4583,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the drow",
+						"replace": "Drow guerrier d'élite",
 						"with": "Yanthdel",
 						"flags": "i"
 					}
@@ -4607,7 +4607,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the quasit",
+						"replace": "(?:le |la |l’?|au |à la )Quasit",
 						"with": "Zeond",
 						"flags": "i"
 					}

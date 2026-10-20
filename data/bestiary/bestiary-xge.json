@@ -13,13 +13,14 @@
 			"page": 50,
 			"summonedByClass": "Sorcier|PHB",
 			"_copy": {
-				"name": "Loup féroce",
+				"name": "Loup sanguinaire",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "\bloup\b",
-						"with": "chien"
+						"replace": "Loup sanguinaire",
+						"with": "chien",
+						"flags": "i"
 					},
 					"trait": [
 						{

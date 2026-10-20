@@ -22,14 +22,15 @@
 			"source": "BMT",
 			"page": 135,
 			"_copy": {
-				"name": "Gardien bouclier",
+				"name": "Gardien animé",
 				"source": "MM",
 				"_mod": {
 					"*": [
 						{
 							"mode": "replaceTxt",
 							"replace": "shield guardian",
-							"with": "drone"
+							"with": "drone",
+							"flags": "i"
 						},
 						{
 							"mode": "replaceTxt",
@@ -2993,13 +2994,14 @@
 			"source": "BMT",
 			"page": 135,
 			"_copy": {
-				"name": "Horreur blindée",
+				"name": "Horreur casquée",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
 						"replace": "helmed horror",
-						"with": "drone"
+						"with": "drone",
+						"flags": "i"
 					},
 					"action": [
 						{

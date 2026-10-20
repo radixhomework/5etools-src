@@ -25,7 +25,7 @@
 				"walk": 30,
 				"fly": {
 					"number": 30,
-					"condition": "(hover; Beholderkin only)"
+					"condition": "(hover; Tyrannoeilkin only)"
 				},
 				"canHover": true
 			},
@@ -75,7 +75,7 @@
 					]
 				},
 				{
-					"name": "Eye Ray (Beholderkin Only)",
+					"name": "Eye Ray (Tyrannoeilkin Only)",
 					"entries": [
 						"{@atkr r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, range 150 ft. {@h}{@damage 1d8 + 3 + summonSpellLevel} Psychic damage."
 					]
@@ -115,7 +115,7 @@
 			"hasFluffImages": true,
 			"_versions": [
 				{
-					"name": "Aberrant Spirit (Beholderkin)",
+					"name": "Aberrant Spirit (Tyrannoeilkin)",
 					"source": "XPHB",
 					"_mod": {
 						"action": [
@@ -129,7 +129,7 @@
 							{
 								"mode": "renameArr",
 								"renames": {
-									"rename": "Eye Ray (Beholderkin Only)",
+									"rename": "Eye Ray (Tyrannoeilkin Only)",
 									"with": "Eye Ray"
 								}
 							}
@@ -177,7 +177,7 @@
 							{
 								"mode": "removeArr",
 								"names": [
-									"Eye Ray (Beholderkin Only)",
+									"Eye Ray (Tyrannoeilkin Only)",
 									"Claw (Slaad Only)"
 								]
 							},
@@ -225,7 +225,7 @@
 							{
 								"mode": "removeArr",
 								"names": [
-									"Eye Ray (Beholderkin Only)",
+									"Eye Ray (Tyrannoeilkin Only)",
 									"Psychic Slam (Mind Flayer Only)"
 								]
 							},

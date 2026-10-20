@@ -214,7 +214,7 @@
 			]
 		},
 		{
-			"name": "Damage Transfer (Cloaker)",
+			"name": "Damage Transfer (Manteleur)",
 			"source": "MM",
 			"entries": [
 				"While attached to a creature, <$short_name$> takes only half the damage dealt to it (rounded down), and that creature takes the other half."
@@ -375,14 +375,14 @@
 			]
 		},
 		{
-			"name": "False Appearance (Cloaker)",
+			"name": "False Appearance (Manteleur)",
 			"source": "MM",
 			"entries": [
 				"While <$short_name$> remains motionless without its underside exposed, it is indistinguishable from a dark leather cloak."
 			]
 		},
 		{
-			"name": "False Appearance (Darkmantle)",
+			"name": "False Appearance (Mante obscure)",
 			"source": "MM",
 			"entries": [
 				"While <$short_name$> remains motionless, it is indistinguishable from a cave formation such as a stalactite or stalagmite."
@@ -452,7 +452,7 @@
 			]
 		},
 		{
-			"name": "False Appearance (Treant)",
+			"name": "False Appearance (Sylvanien)",
 			"source": "MM",
 			"entries": [
 				"While <$short_name$> remains motionless, it is indistinguishable from a normal tree."
@@ -873,7 +873,7 @@
 			]
 		},
 		{
-			"name": "Martial Advantage (Hobgoblin)",
+			"name": "Martial Advantage (Hobgobelin)",
 			"source": "MM",
 			"entries": [
 				"Once per turn, <$short_name$> can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of <$short_name$> that isn't {@condition Incapable}."
@@ -1035,7 +1035,7 @@
 			]
 		},
 		{
-			"name": "Reflective Carapace (Tarrasque)",
+			"name": "Reflective Carapace (Tarasque)",
 			"source": "MM",
 			"entries": [
 				"Any time <$short_name$> is targeted by a {@spell Projectile magique} spell, a line spell, or a spell that requires a ranged attack roll, roll a {@dice d6}. On a 1 to 5, <$short_name$> is unaffected. On a 6, <$short_name$> is unaffected, and the effect is reflected back at the caster as though it originated from <$short_name$>, turning the caster into the target."
@@ -1371,7 +1371,7 @@
 			]
 		},
 		{
-			"name": "Surprise Attack (Bugbear)",
+			"name": "Surprise Attack (Gobelours)",
 			"source": "MM",
 			"entries": [
 				"If <$short_name$> surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 ({@damage 2d6}) damage from the attack."
@@ -1539,7 +1539,7 @@
 			]
 		},
 		{
-			"name": "Turning Defiance (Ghast)",
+			"name": "Turning Defiance (Blême)",
 			"source": "MM",
 			"entries": [
 				"<$title_short_name$> and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead."
@@ -1658,7 +1658,7 @@
 			]
 		},
 		{
-			"name": "Bite (Cloaker)",
+			"name": "Bite (Manteleur)",
 			"source": "MM",
 			"entries": [
 				"{@atk mw} {@hit <$to_hit__str$>} to hit, reach 5 ft., one creature. {@h}<$damage_avg__6+str$> ({@damage  2d6<$damage_mod__str$>}) piercing damage, and if the target is Large or smaller, <$short_name$> attaches to it. If <$short_name$> has advantage against the target, <$short_name$> attaches to the target's head, and the target is {@condition Aveuglé} and unable to breathe while <$short_name$> is attached. While attached, <$short_name$> can make this attack only against the target and has advantage on the attack roll. <$title_short_name$> can detach itself by spending 5 feet of its movement. A creature, including the target, can take its action to detach <$short_name$> by succeeding on a DC <$dc__str$> check."
@@ -1759,7 +1759,7 @@
 			]
 		},
 		{
-			"name": "Crush (Darkmantle)",
+			"name": "Crush (Mante obscure)",
 			"source": "MM",
 			"entries": [
 				"{@atk mw} {@hit <$to_hit__str$>} to hit, reach 5 ft., one creature. {@h}<$damage_avg__3+str$> ({@damage 1d6<$damage_mod__str$>}) bludgeoning damage, and <$short_name$> attaches to the target. If the target is Medium or smaller and <$short_name$> has advantage on the attack roll, it attaches by engulfing the target's head, and the target is also {@condition Aveuglé} and unable to breathe while <$short_name$> is attached in this way.",
@@ -1768,7 +1768,7 @@
 			]
 		},
 		{
-			"name": "Darkness Aura (Darkmantle)",
+			"name": "Darkness Aura (Mante obscure)",
 			"source": "MM",
 			"entries": [
 				"A 15-foot radius of magical darkness extends out from <$short_name$>, moves with it, and spreads around corners. The darkness lasts as long as <$short_name$> maintains {@status concentration}, up to 10 minutes (as if {@status concentration||concentrating} on a spell). Darkvision can't penetrate this darkness, and no natural light can illuminate it. If any of the darkness overlaps with an area of light created by a spell of 2nd level or lower, the spell creating the light is dispelled."
@@ -1820,7 +1820,7 @@
 			]
 		},
 		{
-			"name": "Engulf (Shambling Mound)",
+			"name": "Engulf (Tertre errant)",
 			"source": "MM",
 			"entries": [
 				"<$title_short_name$> engulfs a Medium or smaller creature {@condition Agrippé} by it. The engulfed target is {@condition Aveuglé}, {@condition Entravé}, and unable to breathe, and it must succeed on a DC <$dc__con$> saving throw at the start of each of <$short_name$>'s turns or take 13 ({@damage 2d8<$damage_mod__str$>}) bludgeoning damage. If <$short_name$> moves, the engulfed target moves with it. <$title_short_name$> can have only one creature engulfed at a time."
@@ -1907,7 +1907,7 @@
 			]
 		},
 		{
-			"name": "Frightful Presence (Tarrasque)",
+			"name": "Frightful Presence (Tarasque)",
 			"source": "MM",
 			"entries": [
 				"Each creature of <$short_name$>'s choice within 120 feet of it and aware of it must succeed on a DC <$dc__wis$> Wisdom saving throw or become {@condition Effrayé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if <$short_name$> is within line of sight, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to <$short_name$>'s Frightful Presence for the next 24 hours."
@@ -1935,7 +1935,7 @@
 			]
 		},
 		{
-			"name": "Heart Sight (Sprite)",
+			"name": "Heart Sight (Esprit follet)",
 			"source": "MM",
 			"entries": [
 				"<$title_short_name$> touches a creature and magically knows the creature's current emotional state. If the target fails a DC <$dc__cha$> Charisma saving throw, <$short_name$> also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw."
@@ -1949,7 +1949,7 @@
 			]
 		},
 		{
-			"name": "Horror Nimbus (Nalfeshnee)",
+			"name": "Horror Nimbus (Nalfeshnie)",
 			"source": "MM",
 			"entries": [
 				"<$title_short_name$> magically emits scintillating, multicolored light. Each creature within 15 feet of <$short_name$> that can see the light must succeed on a DC <$dc__wis$> Wisdom saving throw or be {@condition Effrayé} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to <$short_name$>'s Horror Nimbus for the next 24 hours."
@@ -1971,7 +1971,7 @@
 			]
 		},
 		{
-			"name": "Intoxicating Touch (Lamia)",
+			"name": "Intoxicating Touch (Lamie)",
 			"source": "MM",
 			"entries": [
 				"{@atk ms} {@hit <$to_hit__str$>} to hit, reach 5 ft., one creature. {@h}The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks."
@@ -1992,7 +1992,7 @@
 			]
 		},
 		{
-			"name": "Invisibility (Sprite)",
+			"name": "Invisibility (Esprit follet)",
 			"source": "MM",
 			"entries": [
 				"<$title_short_name$> magically turns {@condition invisible} until it attacks or casts a spell, or until its {@status concentration} ends (as if {@status concentration||concentrating} on a spell). Any equipment <$short_name$> wears or carries is {@condition invisible} with it."
@@ -2006,11 +2006,11 @@
 			]
 		},
 		{
-			"name": "Life Drain (Wight)",
+			"name": "Life Drain (Nécrophage)",
 			"source": "MM",
 			"entries": [
 				"{@atk mw} {@hit <$to_hit__str$>} to hit, reach 5 ft., one creature. {@h}<$damage_avg__3+str$> ({@damage 1d6<$damage_mod__str$>}) necrotic damage. The target must succeed on a DC <$dc__con$> Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
-				"A humanoid slain by this attack rises 24 hours later as a {@creature zombie} under <$short_name$>'s control, unless the humanoid is restored to life or its body is destroyed. <$title_short_name$> can have no more than twelve zombies under its control at one time."
+				"A humanoid slain by this attack rises 24 hours later as a {@creature zombi} under <$short_name$>'s control, unless the humanoid is restored to life or its body is destroyed. <$title_short_name$> can have no more than twelve zombis under its control at one time."
 			]
 		},
 		{
@@ -2042,7 +2042,7 @@
 			]
 		},
 		{
-			"name": "Moan (Cloaker)",
+			"name": "Moan (Manteleur)",
 			"source": "MM",
 			"entries": [
 				"Each creature within 60 feet of <$short_name$> that can hear its moan and that isn't an aberration must succeed on a DC <$dc__wis$> Wisdom saving throw or become {@condition Effrayé} until the end of <$short_name$>'s next turn. If a creature's saving throw is successful, the creature is immune to <$short_name$>'s moan for the next 24 hours."
@@ -2063,7 +2063,7 @@
 			]
 		},
 		{
-			"name": "Phantasms (Cloaker)",
+			"name": "Phantasms (Manteleur)",
 			"source": "MM",
 			"entries": [
 				"<$title_short_name$> magically creates three illusory duplicates of itself if it isn't in bright light. The duplicates move with it and mimic its actions, shifting position so as to make it impossible to track which <$short_name$> is the real one. If <$short_name$> is ever in an area of bright light, the duplicates disappear.",

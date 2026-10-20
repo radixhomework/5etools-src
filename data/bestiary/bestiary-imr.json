@@ -194,7 +194,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the assassin",
+						"replace": "(l|L)(?:e |a |')Assassin",
 						"with": "Andras",
 						"flags": "i"
 					},
@@ -275,7 +275,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the unicorn",
+						"replace": "(?:le |la |l’?|au |à la )Licorne",
 						"with": "Banrion",
 						"flags": "i"
 					}
@@ -592,12 +592,12 @@
 			"source": "IMR",
 			"page": 5,
 			"_copy": {
-				"name": "Treant",
+				"name": "Sylvanien",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the treant",
+						"replace": "(?:le |la |l’?|au |à la )Sylvanien",
 						"with": "Grandfather Oak",
 						"flags": "i"
 					},
@@ -1127,7 +1127,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Seodra",
 						"flags": "i"
 					},
@@ -1417,7 +1417,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the warlock",
+						"replace": "Sorcier du Grand Ancien",
 						"with": "Stolos",
 						"flags": "i"
 					}
@@ -1461,7 +1461,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the balor",
+						"replace": "(?:le |la |l’?|au |à la )Balor",
 						"with": "Tarnhem",
 						"flags": "i"
 					},
@@ -1691,7 +1691,7 @@
 			"source": "IMR",
 			"page": 35,
 			"_copy": {
-				"name": "Homuncule",
+				"name": "Homoncule",
 				"source": "MM",
 				"_mod": {
 					"action": {

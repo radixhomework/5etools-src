@@ -683,7 +683,7 @@
 			"source": "PotA",
 			"page": 92,
 			"_copy": {
-				"name": "Tortue dragonnaire",
+				"name": "Dragon-tortue",
 				"source": "MM"
 			},
 			"hp": {
@@ -806,7 +806,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mage",
+						"replace": "(?:le |la |l’?|au |à la )Mage",
 						"with": "Cavil",
 						"flags": "i"
 					}
@@ -1046,7 +1046,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the knight",
+						"replace": "(?:le |la |l’?|au |à la )Chevalier",
 						"with": "Darathra",
 						"flags": "i"
 					}
@@ -1184,7 +1184,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the noble",
+						"replace": "(?:le |la |l’?|au |à la )Noble",
 						"with": "Deseyna",
 						"flags": "i"
 					}
@@ -1295,7 +1295,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Drannin wears a control amulet for his {@creature Gardien bouclier} (see the Monster Manual) and a {@item Anneau de résistance au froid}. He also carries a {@item Potion de force de géant du givre}."
+						"Drannin wears a control amulet for his {@creature Gardien animé} (see the Monster Manual) and a {@item Anneau de résistance au froid}. He also carries a {@item Potion de force de géant du givre}."
 					]
 				}
 			],
@@ -2054,12 +2054,12 @@
 			"source": "PotA",
 			"page": 170,
 			"_copy": {
-				"name": "Berseker",
+				"name": "Berserker",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the berserker",
+						"replace": "(?:le |la |l’?|au |à la )Berserker",
 						"with": "Fennor",
 						"flags": "i"
 					}
@@ -2625,7 +2625,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the assassin",
+						"replace": "(l|L)(?:e |a |')Assassin",
 						"with": "Grumink",
 						"flags": "i"
 					}
@@ -3413,7 +3413,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the mage",
+						"replace": "(?:le |la |l’?|au |à la )Mage",
 						"with": "Lyzandra",
 						"flags": "i"
 					}
@@ -3900,7 +3900,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the dragon",
+						"replace": "Dragon noir adulte",
 						"with": "Nurvureem",
 						"flags": "i"
 					}
@@ -4676,12 +4676,12 @@
 			"source": "PotA",
 			"page": 170,
 			"_copy": {
-				"name": "Berseker",
+				"name": "Berserker",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the berserker",
+						"replace": "(?:le |la |l’?|au |à la )Berserker",
 						"with": "Padraich",
 						"flags": "i"
 					}
@@ -4831,7 +4831,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the lich",
+						"replace": "(?:le |la |l’?|au |à la )Liche",
 						"with": "Renwick",
 						"flags": "i"
 					}
@@ -4946,7 +4946,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the guard",
+						"replace": "Garde",
 						"with": "Rhundorth",
 						"flags": "i"
 					}
@@ -5721,7 +5721,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "the lizardfolk",
+						"replace": "(l|L)(?:e |a |')Homme-lézard",
 						"with": "Tornscale",
 						"flags": "i"
 					}

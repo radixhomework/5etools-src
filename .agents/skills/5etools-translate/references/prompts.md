@@ -35,6 +35,12 @@ untouched. Damage-type words in prose are French.
 GLOSSARY (consistent with already-translated chapters): <campaign terms from
 references/glossary.md>
 
+TRANSLATION MEMORY: read `<chunk>-tm.json` next to the chunk first. Keys are
+English source strings from your chunk; for each: `exact` = the established
+French translation — REUSE VERBATIM (adjust only surrounding punctuation);
+`fuzzy` = near-match references for phrasing — NEVER copy numbers, dice or
+mechanical tags from them. Strings absent from the file have no TM history.
+
 UNITS: feet→meters (comma decimal), gp→po. French typography: « », accents,
 straight apostrophe (').
 
@@ -58,8 +64,9 @@ prevents partial agents from corrupting verified sections.
 ## Bestiary chunk variant
 
 Additions that proved necessary:
-- Names sidecar is the PRIMARY deliverable (it feeds repointing and fluff
-  alignment).
+- Names sidecar remains useful as a cross-check (it feeds repointing and fluff
+  alignment during the campaign), but the committed TM name maps in
+  `references/names/` are the post-merge source of truth.
 - Fingerprint caution: do NOT reorder entries; assembly merges positionally.
 - `_mod` blocks: `replaceTxt.replace` must match the FRENCH base text; `flags`
   must be `"i"` at most (never `"gi"` — the app prepends "g" and the page

@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Distort Value",
+			"name": "Distorsion de valeur",
 			"source": "AI",
 			"page": 75,
 			"referenceSources": [
@@ -34,21 +34,21 @@
 				}
 			],
 			"entries": [
-				"Do you need to squeeze a few more gold pieces out of a merchant as you try to sell that weird octopus statue you liberated from the chaos temple? Do you need to downplay the worth of some magical assets when the tax collector stops by? Distort value has you covered.",
-				"You cast this spell on an object no more than 1 foot on a side, doubling the object's perceived value by adding illusory flourishes or polish to it, or reducing its perceived value by half with the help of illusory scratches, dents, and other unsightly features. Anyone examining the object can ascertain its true value with a successful Intelligence ({@skill Investigation}) check against your spell save DC."
+				"Avez-vous besoin de soutirer quelques pièces d'or supplémentaires à un marchand en tentant de vendre cette étrange statuette de poulpe que vous avez « libérée » du temple du chaos ? Avez-vous besoin de minimiser la valeur de certains biens magiques lorsque le collecteur d'impôts passe vous voir ? La distorsion de valeur est là pour vous.",
+				"Vous lancez ce sort sur un objet d'au plus 30 centimètres de côté, ce qui double la valeur perçue de l'objet en y ajoutant des ornements ou un éclat illusoire, ou réduit de moitié sa valeur perçue à l'aide de rayures, de bosses et d'autres imperfections illusoires. Quiconque examine l'objet peut déterminer sa véritable valeur en réussissant un jet d'Intelligence ({@skill Investigation}) contre le DD de sauvegarde de votre sort."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the maximum size of the object increases by 1 foot for each slot level above 1st."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, la taille maximale de l'objet augmente de 30 centimètres pour chaque niveau d'emplacement au-delà du niveau 1."
 					]
 				}
 			]
 		},
 		{
-			"name": "Fast Friends",
+			"name": "Bons amis",
 			"source": "AI",
 			"page": 75,
 			"level": 3,
@@ -80,16 +80,16 @@
 				}
 			],
 			"entries": [
-				"When you need to make sure something gets done, you can't rely on vague promises, sworn oaths, or binding contracts of employment. When you cast this spell, choose one humanoid within range that can see and hear you, and that can understand you. The creature must succeed on a Wisdom saving throw or become {@condition Charmé} by you for the duration. While the creature is {@condition Charmé} in this way, it undertakes to perform any services or activities you ask of it in a friendly manner, to the best of its ability.",
-				"You can set the creature new tasks when a previous task is completed, or if you decide to end its current task. If the service or activity might cause harm to the creature, or if it conflicts with the creature's normal activities and desires, the creature can make another Wisdom saving throw to try to end the effect. This save is made with advantage if you or your companions are fighting the creature. If the activity would result in certain death for the creature, the spell ends.",
-				"When the spell ends, the creature knows it was {@condition Charmé} by you."
+				"Quand vous devez vous assurer qu'une tâche soit accomplie, vous ne pouvez pas compter sur de vagues promesses, des serments solennels ou des contrats de travail contraignants. Lorsque vous lancez ce sort, choisissez un humanoïde à portée qui peut vous voir et vous entendre, et qui peut vous comprendre. La créature doit réussir un jet de sauvegarde de Sagesse ou devenir {@condition Charmé} par vous pour la durée du sort. Tant que la créature est ainsi {@condition Charmé}, elle s'engage à accomplir, de manière amicale et au mieux de ses capacités, tous les services ou activités que vous lui demandez.",
+				"Vous pouvez assigner de nouvelles tâches à la créature lorsqu'une tâche précédente est accomplie, ou si vous décidez de mettre fin à sa tâche actuelle. Si le service ou l'activité risque de causer du tort à la créature, ou s'il va à l'encontre de ses activités et de ses désirs habituels, la créature peut effectuer un autre jet de sauvegarde de Sagesse pour tenter de mettre fin à l'effet. Ce jet s'effectue avec un avantage si vous ou vos compagnons combattez la créature. Si l'activité doit entraîner à coup sûr la mort de la créature, le sort prend fin.",
+				"Quand le sort prend fin, la créature sait qu'elle a été {@condition Charmé} par vous."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+						"Lorsque vous lancez ce sort avec un emplacement de sort de niveau 4 ou supérieur, vous pouvez cibler une créature supplémentaire pour chaque niveau d'emplacement au-delà du niveau 3."
 					]
 				}
 			],
@@ -112,7 +112,7 @@
 			]
 		},
 		{
-			"name": "Gift of Gab",
+			"name": "Don du bagou",
 			"source": "AI",
 			"page": 76,
 			"level": 2,
@@ -121,7 +121,7 @@
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": "which you take when you speak to another creature"
+					"condition": "que vous utilisez lorsque vous parlez à une autre créature"
 				}
 			],
 			"range": {
@@ -144,19 +144,19 @@
 				{
 					"type": "quote",
 					"entries": [
-						"When I met Jim Darkmagic, I wondered how he got anything done in that outfit. I have since learned that most of his talents involve standing and talking. His outfit is perfect for that."
+						"Quand j'ai rencontré Jim Darkmagic, je me demandais comment il parvenait à quoi que ce soit dans cette tenue. J'ai depuis appris que la plupart de ses talents consistent à rester debout et à parler. Sa tenue est parfaite pour ça."
 					],
 					"by": "Môrgæn"
 				},
-				"Jim Darkmagic is said to have invented this spell, originally calling it {@i I said what?!} Have you ever been talking to the local monarch and accidentally mentioned how their son looks like your favorite hog from when you were growing up on the family farm? We've all been there! But rather than being beheaded for an honest slip of the tongue, you can pretend it never happened\u2014by ensuring that no one knows it happened.",
-				"When you cast this spell, you skillfully reshape the memories of listeners in your immediate area, so that each creature of your choice within 5 feet of you forgets everything you said within the last 6 seconds. Those creatures then remember that you actually said the words you speak as the verbal component of the spell."
+				"C'est Jim Darkmagic qui aurait inventé ce sort, qu'il appelait à l'origine {@i J'ai dit quoi ?!}. Vous est-il déjà arrivé, en parlant au monarque local, de mentionner par inadvertance que son fils ressemble à votre cochon préféré du temps où vous grandissiez à la ferme familiale ? Ça nous est tous arrivé ! Mais plutôt que d'être décapité pour un lapsus honnête, vous pouvez faire comme si cela ne s'était jamais produit — en veillant à ce que personne ne sache que cela s'est produit.",
+				"Lorsque vous lancez ce sort, vous remodelez habilement les souvenirs des auditeurs dans votre zone immédiate, si bien que chaque créature de votre choix se trouvant à 1,50 mètre ou moins de vous oublie tout ce que vous avez dit au cours des 6 dernières secondes. Ces créatures se souviennent alors que vous avez réellement prononcé les mots que vous énoncez comme composante verbale du sort."
 			],
 			"areaTags": [
 				"MT"
 			]
 		},
 		{
-			"name": "Incite Greed",
+			"name": "Éveil de la cupidité",
 			"source": "AI",
 			"page": 76,
 			"level": 3,
@@ -178,7 +178,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gem worth at least 50 gp",
+					"text": "une gemme d'une valeur d'au moins 50 po",
 					"cost": 5000
 				}
 			},
@@ -193,8 +193,8 @@
 				}
 			],
 			"entries": [
-				"When you cast this spell, you present the gem used as the material component and choose any number of creatures within range that can see you. Each target must succeed on a Wisdom saving throw or be {@condition Charmé} by you until the spell ends, or until you or your companions do anything harmful to it. While {@condition Charmé} in this way, a creature can do nothing but use its movement to approach you in a safe manner. While an affected creature is within 5 feet of you, it cannot move, but simply stares greedily at the gem you present.",
-				"At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target."
+				"Lorsque vous lancez ce sort, vous présentez la gemme servant de composante matérielle et choisissez un nombre quelconque de créatures à portée qui peuvent vous voir. Chaque cible doit réussir un jet de sauvegarde de Sagesse ou être {@condition Charmé} par vous jusqu'à la fin du sort, ou jusqu'à ce que vous ou vos compagnons lui fassiez du tort. Tant qu'elle est ainsi {@condition Charmé}, une créature ne peut rien faire d'autre qu'utiliser son déplacement pour s'approcher de vous de manière sûre. Tant qu'une créature affectée se trouve à 1,50 mètre ou moins de vous, elle ne peut pas se déplacer et se contente de fixer avec cupidité la gemme que vous présentez.",
+				"À la fin de chacun de ses tours, une cible affectée peut effectuer un jet de sauvegarde de Sagesse. En cas de réussite, cet effet prend fin pour cette cible."
 			],
 			"conditionInflict": [
 				"charmed"
@@ -210,7 +210,7 @@
 			]
 		},
 		{
-			"name": "Jim's Glowing Coin",
+			"name": "Pièce brillante de Jim",
 			"source": "AI",
 			"page": 76,
 			"level": 2,
@@ -230,7 +230,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a coin",
+				"m": "une pièce",
 				"r": true
 			},
 			"duration": [
@@ -243,7 +243,7 @@
 				}
 			],
 			"entries": [
-				"Of the many tactics employed by master magician and renowned adventurer Jim Darkmagic, the old glowing coin trick is a time-honored classic. When you cast the spell, you hurl the coin that is the spell's material component to any spot within range. The coin lights up as if under the effect of a {@spell Lumière} spell. Each creature of your choice that you can see within 30 feet of the coin must succeed on a Wisdom saving throw or be distracted for the duration. While distracted, a creature has disadvantage on Wisdom ({@skill Perception}) checks and initiative rolls."
+				"Parmi les nombreuses tactiques employées par le magicien maître et aventurier renommé Jim Darkmagic, la vieille astuce de la pièce brillante est un classique éprouvé. Lorsque vous lancez le sort, vous projetez la pièce qui sert de composante matérielle vers n'importe quel point à portée. La pièce s'illumine comme sous l'effet d'un sort {@spell Lumière}. Chaque créature de votre choix que vous pouvez voir à 9 mètres ou moins de la pièce doit réussir un jet de sauvegarde de Sagesse ou être distraite pour la durée du sort. Tant qu'elle est distraite, une créature subit un désavantage aux jets de Sagesse ({@skill Perception}) et aux jets d'initiative."
 			],
 			"savingThrow": [
 				"wisdom"
@@ -256,7 +256,7 @@
 			]
 		},
 		{
-			"name": "Jim's Magic Missile",
+			"name": "Projectile magique de Jim",
 			"source": "AI",
 			"page": 76,
 			"referenceSources": [
@@ -291,20 +291,20 @@
 				{
 					"type": "quote",
 					"entries": [
-						"Jim's magic missile is an ancient and powerful spell, as well as being the name of my band in Wizard Academy."
+						"Le projectile magique de Jim est un sort ancien et puissant, et c'est aussi le nom de mon groupe à l'Académie des mages."
 					],
 					"by": "Jim Darkmagic"
 				},
-				"Any apprentice wizard can cast a boring old magic missile. Sure, it always strikes its target. Yawn. Do away with the drudgery of your grandfather's magic with this improved version of the spell, as used by Jim Darkmagic!",
-				"You create three twisting, whistling, hypoallergenic, gluten-free darts of magical force. Each dart targets a creature of your choice that you can see within range. Make a ranged spell attack for each missile. On a hit, a missile deals {@damage 2d4} force damage to its target.",
-				"If the attack roll scores a critical hit, the target of that missile takes {@damage 5d4} force damage instead of you rolling damage twice for a critical hit. If the attack roll for any missile is a 1, all missiles miss their targets and blow up in your face, dealing 1 force damage per missile to you."
+				"N'importe quel apprenti magicien peut lancer un ennuyeux vieux projectile magique. Certes, il frappe toujours sa cible. Quelle corvée. Débarrassez-vous de la routine de la magie de votre grand-père avec cette version améliorée du sort, telle qu'utilisée par Jim Darkmagic !",
+				"Vous créez trois dards de force magique torsadés, sifflants, hypoallergéniques et sans gluten. Chaque dard prend pour cible une créature de votre choix que vous pouvez voir à portée. Effectuez un jet d'attaque de sort à distance pour chaque projectile. En cas de coup au but, un projectile inflige {@damage 2d4} dégâts de force à sa cible.",
+				"Si le jet d'attaque obtient un coup critique, la cible de ce projectile subit {@damage 5d4} dégâts de force au lieu de lancer deux fois les dégâts pour un coup critique. Si le jet d'attaque d'un projectile donne un 1, tous les projectiles ratent leurs cibles et vous explosent au visage, vous infligeant 1 dégât de force par projectile."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart, and the royalty component increases by 1 gp, for each slot level above 1st."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, le sort crée un dard supplémentaire, et la composante de redevance augmente de 1 po, pour chaque niveau d'emplacement au-delà du niveau 1."
 					]
 				}
 			],
@@ -323,7 +323,7 @@
 			]
 		},
 		{
-			"name": "Motivational Speech",
+			"name": "Discours de motivation",
 			"source": "AI",
 			"page": 77,
 			"level": 3,
@@ -357,18 +357,18 @@
 				{
 					"type": "quote",
 					"entries": [
-						"I once heard a motivational speech by Jim and it was the worst ninety seconds of my life. What does Omin see in him, anyway?"
+						"J'ai une fois entendu un discours de motivation de Jim et c'étaient les pires quatre-vingt-dix secondes de ma vie. Que trouve donc Omin à lui, à la fin ?"
 					],
 					"by": "Walnut Dankgrass"
 				},
-				"You address allies, staff, or innocent bystanders to exhort and inspire them to greatness, whether they have anything to get excited about or not. Choose up to five creatures within range that can hear you. For the duration, each affected creature gains 5 temporary hit points and has advantage on Wisdom saving throws. If an affected creature is hit by an attack, it has advantage on the next attack roll it makes. Once an affected creature loses the temporary hit points granted by this spell, the spell ends for that creature."
+				"Vous vous adressez à des alliés, au personnel ou à des badauds innocents pour les exhorter et les inspirer vers la grandeur, qu'ils aient ou non une raison de s'enthousiasmer. Choisissez jusqu'à cinq créatures à portée qui peuvent vous entendre. Pour la durée du sort, chaque créature affectée gagne 5 points de vie temporaires et bénéficie d'un avantage aux jets de sauvegarde de Sagesse. Si une créature affectée est touchée par une attaque, elle bénéficie d'un avantage au prochain jet d'attaque qu'elle effectue. Dès qu'une créature affectée perd les points de vie temporaires accordés par ce sort, le sort prend fin pour cette créature."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the temporary hit points increase by 5 for each slot level above 3rd."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 4 ou supérieur, les points de vie temporaires augmentent de 5 pour chaque niveau d'emplacement au-delà du niveau 3."
 					]
 				}
 			],

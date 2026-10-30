@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Alustriel's Mooncloak",
+			"name": "Manteau lunaire d'Alustriel",
 			"source": "FRHoF",
 			"page": 142,
 			"level": 5,
@@ -23,7 +23,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a moonstone worth 50+ GP",
+					"text": "une pierre de lune d'une valeur de 50+ PO",
 					"cost": 5000
 				}
 			},
@@ -38,24 +38,24 @@
 				}
 			],
 			"entries": [
-				"For the duration, moonlight fills a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you with {@variantrule Dim Light|XPHB}. While in that area, you and your allies have {@variantrule Cover|XPHB|Half Cover} and {@variantrule Resistance|XPHB} to Cold, Lightning, and Radiant damage.",
-				"While the spell lasts, you can use one of the following options, ending the spell immediately:",
+				"Pendant la durée, un clair de lune remplit une {@variantrule Émanation [zone d'effet]|XPHB|Émanation} de 6 mètres dont vous êtes l'origine de {@variantrule Lumière tamisée|XPHB|lumière faible}. Tant que vous êtes dans cette zone, vous et vos alliés bénéficiez d'un {@variantrule Abri|XPHB|demi-abri} et d'une {@variantrule Résistance|XPHB|résistance} aux dégâts de froid, de foudre et radiants.",
+				"Tant que le sort perdure, vous pouvez utiliser l'une des options suivantes, ce qui met immédiatement fin au sort :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Liberation",
+							"name": "Libération",
 							"entries": [
-								"When you fail a saving throw to avoid or end the {@condition Effrayé|XPHB}, {@condition Agrippé|XPHB}, or {@condition Entravé|XPHB} condition, you can take a {@variantrule Reaction|XPHB} to succeed on the save instead."
+								"Lorsque vous ratez un jet de sauvegarde pour éviter ou mettre fin à l'état {@condition Effrayé|XPHB}, {@condition Agrippé|XPHB} ou {@condition Entravé|XPHB}, vous pouvez utiliser une {@variantrule Réaction|XPHB|réaction} pour réussir le jet à la place."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Respite",
+							"name": "Répit",
 							"entries": [
-								"As a {@action Magie|XPHB} action, you or an ally within the area regains {@variantrule Hit Points|XPHB} equal to {@dice 4d10} plus your spellcasting ability modifier."
+								"Par une action {@action Magie|XPHB}, vous faites regagner à vous ou à un allié situé dans la zone des {@variantrule Points de vie|XPHB|points de vie} égaux à {@dice 4d10} plus votre modificateur de caractéristique d'incantation."
 							]
 						}
 					]
@@ -77,7 +77,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Backlash",
+			"name": "Contrecoup",
 			"source": "FRHoF",
 			"page": 142,
 			"level": 4,
@@ -86,7 +86,7 @@
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": "which you take in response to taking damage"
+					"condition": "que vous utilisez en réponse à des dégâts subis"
 				}
 			],
 			"range": {
@@ -105,15 +105,15 @@
 				}
 			],
 			"entries": [
-				"You ward yourself against destructive energy, reducing the damage taken by {@dice 4d6} plus your spellcasting ability modifier.",
-				"If the triggering damage was from a creature within range, you can force the creature to make a Constitution saving throw. The creature takes {@damage 4d6} Force damage on a failed save or half as much damage on a successful one."
+				"Vous vous protégez contre l'énergie destructrice, en réduisant les dégâts subis de {@dice 4d6} plus votre modificateur de caractéristique d'incantation.",
+				"Si les dégâts déclencheurs ont été infligés par une créature à portée, vous pouvez forcer cette créature à effectuer un jet de sauvegarde de Constitution. La créature subit {@damage 4d6} dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
+					"name": "Utilisation d'un emplacement de sort de niveau supérieur",
 					"entries": [
-						"The damage reduction and Force damage from this spell both increase by {@scaledamage 4d6|4-9|1d6} for every spell slot level above 4."
+						"La réduction de dégâts et les dégâts de force de ce sort augmentent tous deux de {@scaledamage 4d6|4-9|1d6} pour chaque niveau d'emplacement de sort au-delà de 4."
 					]
 				}
 			],
@@ -128,7 +128,7 @@
 			]
 		},
 		{
-			"name": "Blade of Disaster",
+			"name": "Lame du désastre",
 			"source": "FRHoF",
 			"page": 143,
 			"level": 9,
@@ -161,9 +161,9 @@
 				}
 			],
 			"entries": [
-				"You create a 3-foot-long blade-shaped planar rift that lasts for the duration. The rift appears within range in a space of your choice, and you can immediately make up to two melee spell attacks, each one against a creature or object within 5 feet of the rift. On a hit, the target takes {@damage 10d6} Force damage. This attack scores a {@variantrule Critical Hit|XPHB} if the number on the {@dice d20} is 18 or higher.",
-				"As a {@variantrule Bonus Action|XPHB} on your later turns, you can move the rift up to 60 feet and repeat the two attacks against a creature or an object within 5 feet of it. You can direct the attacks at the same target or at different ones.",
-				"The blade can harmlessly pass through any barrier, including ones created by spells like {@spell Mur de force|XPHB}."
+				"Vous créez une faille planaire en forme de lame, longue de 90 centimètres, qui persiste pendant la durée. La faille apparaît à portée dans un espace de votre choix, et vous pouvez immédiatement effectuer jusqu'à deux attaques de sort au corps à corps, chacune contre une créature ou un objet situé à 1,50 mètre ou moins de la faille. En cas de touche, la cible subit {@damage 10d6} dégâts de force. Cette attaque inflige un {@variantrule Coup critique|XPHB|coup critique} si le chiffre indiqué par le {@dice d20} est 18 ou plus.",
+				"Par une {@variantrule Action bonus|XPHB|action bonus} lors de vos tours suivants, vous pouvez déplacer la faille sur une distance allant jusqu'à 18 mètres et renouveler les deux attaques contre une créature ou un objet situé à 1,50 mètre ou moins d'elle. Vous pouvez diriger les attaques contre la même cible ou contre des cibles différentes.",
+				"La lame peut traverser sans danger n'importe quelle barrière, y compris celles créées par des sorts comme {@spell Mur de force|XPHB}."
 			],
 			"damageInflict": [
 				"force"
@@ -181,7 +181,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Cacophonic Shield",
+			"name": "Bouclier cacophonique",
 			"source": "FRHoF",
 			"page": 143,
 			"level": 3,
@@ -214,15 +214,15 @@
 				}
 			],
 			"entries": [
-				"Thunderous reverberations fill a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you for the duration. Whenever the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} enters a creature's space and whenever a creature enters the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} or ends its turn there, the creature makes a Constitution saving throw. On a failed save, the creature takes {@damage 3d6} Thunder damage and has the {@condition Assourdi|XPHB} condition until the start of your next turn. On a successful save, the creature takes half as much damage only. A creature makes this save only once per turn. When you cast this spell, you can designate creatures to be unaffected by it.",
-				"In addition, you have {@variantrule Resistance|XPHB} to Thunder damage, and ranged attack rolls against you are made with {@variantrule Disadvantage|XPHB}."
+				"Des réverbérations tonitruantes remplissent une {@variantrule Émanation [zone d'effet]|XPHB|Émanation} de 3 mètres dont vous êtes l'origine pendant la durée. Chaque fois que l'{@variantrule Émanation [zone d'effet]|XPHB|Émanation} entre dans l'espace d'une créature et chaque fois qu'une créature entre dans l'{@variantrule Émanation [zone d'effet]|XPHB|Émanation} ou y termine son tour, la créature effectue un jet de sauvegarde de Constitution. En cas d'échec, la créature subit {@damage 3d6} dégâts de tonnerre et a l'état {@condition Assourdi|XPHB} jusqu'au début de votre prochain tour. En cas de réussite, la créature ne subit que la moitié de ces dégâts. Une créature n'effectue ce jet qu'une seule fois par tour. Quand vous lancez ce sort, vous pouvez désigner des créatures qui ne seront pas affectées par lui.",
+				"De plus, vous avez une {@variantrule Résistance|XPHB|résistance} aux dégâts de tonnerre, et les jets d'attaque à distance effectués contre vous sont réalisés avec un {@variantrule Désavantage|XPHB|désavantage}."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
+					"name": "Utilisation d'un emplacement de sort de niveau supérieur",
 					"entries": [
-						"The damage increases by {@scaledamage 3d6|3-9|1d6} for each spell slot level above 3."
+						"Les dégâts augmentent de {@scaledamage 3d6|3-9|1d6} pour chaque niveau d'emplacement de sort au-delà de 3."
 					]
 				}
 			],
@@ -243,7 +243,7 @@
 			]
 		},
 		{
-			"name": "Conjure Constructs",
+			"name": "Conjonction de constructions",
 			"source": "FRHoF",
 			"page": 143,
 			"level": 3,
@@ -264,7 +264,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a brass cog"
+				"m": "un engrenage en laiton"
 			},
 			"duration": [
 				{
@@ -277,35 +277,35 @@
 				}
 			],
 			"entries": [
-				"You conjure a group of intangible, orderly spirits that appear as a Medium group of modrons or other Constructs in an unoccupied space you can see within range. The spirits last for the duration. When you cast this spell and as a {@action Magie|XPHB} action on subsequent turns, you can command the spirits to target one creature or object you can see within 5 feet of the spirits and create one of the following effects:",
+				"Vous convoquez un groupe d'esprits intangibles et ordonnés qui apparaissent sous la forme d'un groupe de taille M de modrons ou d'autres constructions dans un espace libre que vous pouvez voir à portée. Les esprits persistent pendant la durée. Quand vous lancez ce sort, puis par une action {@action Magie|XPHB} lors de vos tours suivants, vous pouvez ordonner aux esprits de cibler une créature ou un objet que vous pouvez voir à 1,50 mètre ou moins d'eux et de créer l'un des effets suivants :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Clockwork Force",
+							"name": "Force d'horlogerie",
 							"entries": [
-								"The target makes a Dexterity saving throw, taking {@damage 3d6} Force damage on a failed save or half as much damage on a successful one."
+								"La cible effectue un jet de sauvegarde de Dextérité, subissant {@damage 3d6} dégâts de force en cas d'échec, ou la moitié de ces dégâts seulement en cas de réussite."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Orderly Ward",
+							"name": "Protection ordonnée",
 							"entries": [
-								"The target gains {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d6} plus your spellcasting ability modifier."
+								"La cible gagne des {@variantrule Points de vie temporaires|XPHB|points de vie temporaires} égaux à {@dice 1d6} plus votre modificateur de caractéristique d'incantation."
 							]
 						}
 					]
 				},
-				"When you move on your turn, you can also move the spirits up to 30 feet to an unoccupied space you can see."
+				"Quand vous vous déplacez à votre tour, vous pouvez également déplacer les esprits sur une distance allant jusqu'à 9 mètres vers un espace libre que vous pouvez voir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
+					"name": "Utilisation d'un emplacement de sort de niveau supérieur",
 					"entries": [
-						"The damage and {@variantrule Temporary Hit Points|XPHB} both increase by {@scaledamage 3d6|3-9|1d6} for each spell slot level above 3."
+						"Les dégâts et les {@variantrule Points de vie temporaires|XPHB|points de vie temporaires} augmentent tous deux de {@scaledamage 3d6|3-9|1d6} pour chaque niveau d'emplacement de sort au-delà de 3."
 					]
 				}
 			],
@@ -325,7 +325,7 @@
 			]
 		},
 		{
-			"name": "Death Armor",
+			"name": "Armure de mort",
 			"source": "FRHoF",
 			"page": 143,
 			"level": 2,
@@ -346,7 +346,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an onyx worth 50+ GP, which the spell consumes",
+					"text": "un onyx d'une valeur de 50+ PO, que le sort consomme",
 					"cost": 5000,
 					"consume": true
 				}
@@ -361,7 +361,7 @@
 				}
 			],
 			"entries": [
-				"For the duration, an inky aura surrounds one creature you touch. The target has {@variantrule Advantage|XPHB} on {@variantrule Death Saving Throw|XPHB|Death Saving Throws}, and once per turn, when a creature within 5 feet of the target hits it with a melee attack roll, the attacker takes {@damage 2d4} Necrotic damage."
+				"Pendant la durée, une aura d'un noir d'encre entoure une créature que vous touchez. La cible a un {@variantrule Avantage|XPHB|avantage} aux {@variantrule jet de sauvegarde contre la mort|XPHB|jets de sauvegarde contre la mort}, et une fois par tour, quand une créature située à 1,50 mètre ou moins de la cible la touche avec un jet d'attaque au corps à corps, l'attaquant subit {@damage 2d4} dégâts nécrotiques."
 			],
 			"damageInflict": [
 				"necrotic"
@@ -375,7 +375,7 @@
 			]
 		},
 		{
-			"name": "Deryan's Helpful Homunculi",
+			"name": "Homoncules serviables de Deryan",
 			"source": "FRHoF",
 			"page": 143,
 			"level": 2,
@@ -396,7 +396,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "powdered gemstones worth 100+ GP, which the spell consumes, and one set of Artisan's Tools with which you have proficiency",
+					"text": "des gemmes réduites en poudre d'une valeur de 100+ PO, que le sort consomme, ainsi qu'un ensemble d'outils d'artisan avec lesquels vous avez la maîtrise",
 					"cost": 10000,
 					"consume": true
 				}
@@ -414,15 +414,15 @@
 				"ritual": true
 			},
 			"entries": [
-				"You summon a group of helpful spirits, which lasts for the duration. The spirits appear as homunculi or as another Construct of your choice but are intangible and invulnerable, and they are considered to have proficiency in the {@skill Arcanes|XPHB} skill and with the set of {@item Artisan's Tools|XPHB} used in the spell's casting.",
-				"If you are crafting an item, the spirits function as a single assistant for your crafting, halving the crafting time."
+				"Vous invoquez un groupe d'esprits serviables, qui persiste pendant la durée. Les esprits apparaissent sous la forme d'homoncules ou d'une autre construction de votre choix, mais ils sont intangibles et invulnérables, et ils sont considérés comme ayant la maîtrise de la compétence {@skill Arcanes|XPHB} et de l'ensemble d'{@item Artisan's Tools|XPHB|outils d'artisan} utilisé pour l'incantation du sort.",
+				"Si vous fabriquez un objet, les esprits font office d'un assistant unique pour votre fabrication, ce qui divise par deux le temps de fabrication."
 			],
 			"miscTags": [
 				"SMN"
 			]
 		},
 		{
-			"name": "Dirge",
+			"name": "Chant funèbre",
 			"source": "FRHoF",
 			"page": 144,
 			"level": 6,
@@ -454,15 +454,15 @@
 				}
 			],
 			"entries": [
-				"Deathly power fills a 60-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you for the duration.",
-				"When you cast this spell, you can designate creatures to be unaffected by it. Any other creature can't regain {@variantrule Hit Points|XPHB} while in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. Whenever the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} enters a creature's space and whenever a creature enters the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} or ends its turn there, the creature makes a Constitution saving throw. On a failed save, the creature takes {@damage 3d10} Necrotic damage and has the {@condition À terre|XPHB} condition. On a successful save, the creature takes half as much damage and its {@variantrule Speed|XPHB} is halved. A creature makes this save only once per turn.",
+				"Pendant la durée, une puissance mortelle remplit une {@variantrule Émanation [zone d'effet]|XPHB|Émanation} de 18 mètres dont vous êtes l'origine.",
+				"Quand vous lancez ce sort, vous pouvez désigner des créatures qui ne seront pas affectées par lui. Toute autre créature ne peut pas regagner de {@variantrule Points de vie|XPHB|points de vie} tant qu'elle se trouve dans l'{@variantrule Émanation [zone d'effet]|XPHB|Émanation}. Chaque fois que l'{@variantrule Émanation [zone d'effet]|XPHB|Émanation} entre dans l'espace d'une créature et chaque fois qu'une créature entre dans l'{@variantrule Émanation [zone d'effet]|XPHB|Émanation} ou y termine son tour, la créature effectue un jet de sauvegarde de Constitution. En cas d'échec, la créature subit {@damage 3d10} dégâts nécrotiques et a l'état {@condition À terre|XPHB}. En cas de réussite, la créature ne subit que la moitié de ces dégâts et sa {@variantrule Vitesse|XPHB|vitesse} est réduite de moitié. Une créature n'effectue ce jet qu'une seule fois par tour.",
 				{
 					"type": "entries",
-					"name": "Casting as a Circle Spell",
+					"name": "Incantation en tant que sort de cercle",
 					"entries": [
-						"Casting this as a Circle spell requires a minimum of two secondary casters. If the spell is cast as a Circle spell, its duration becomes {@status Concentration|XPHB}, up to 10 minutes.",
-						"A creature that fails its save against the spell's effect also gains 1 {@condition Épuisement|XPHB} level. While the creature has {@condition Épuisement|XPHB} levels, finishing a {@variantrule Long Rest|XPHB} neither restores lost {@variantrule Hit Points|XPHB} nor reduces the creature's {@condition Épuisement|XPHB} level.",
-						"When the spell is cast, each secondary caster must expend a level 4+ spell slot; otherwise, the spell fails."
+						"L'incantation de ce sort en tant que sort de cercle exige un minimum de deux lanceurs secondaires. Si le sort est lancé en tant que sort de cercle, sa durée devient {@status Concentration|XPHB|Concentration}, jusqu'à 10 minutes.",
+						"Une créature qui échoue à son jet de sauvegarde contre l'effet du sort gagne également 1 niveau d'{@condition Épuisement|XPHB}. Tant que la créature a des niveaux d'{@condition Épuisement|XPHB}, terminer un {@variantrule Repos long|XPHB|repos long} ne restaure ni les {@variantrule Points de vie|XPHB|points de vie} perdus, ni ne réduit le niveau d'{@condition Épuisement|XPHB} de la créature.",
+						"Quand le sort est lancé, chaque lanceur secondaire doit dépenser un emplacement de sort de niveau 4 ou plus ; sinon, le sort échoue."
 					]
 				}
 			],
@@ -483,7 +483,7 @@
 			]
 		},
 		{
-			"name": "Doomtide",
+			"name": "Marée funeste",
 			"source": "FRHoF",
 			"page": 144,
 			"level": 4,
@@ -504,7 +504,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "soot and a dried eel"
+				"m": "de la suie et une anguille séchée"
 			},
 			"duration": [
 				{
@@ -517,15 +517,15 @@
 				}
 			],
 			"entries": [
-				"You create a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} of inky fog within range. The fog is magical {@variantrule Darkness|XPHB} and lasts for the duration or until a strong wind (such as the one created by the {@spell Rafale|XPHB} spell) disperses it, ending the spell.",
-				"Each creature in the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} when it appears makes a Wisdom saving throw. On a failed save, a creature takes {@damage 5d6} Psychic damage and subtracts {@dice 1d6} from its saving throws until the end of its next turn. On a successful save, a creature takes half as much damage only. A creature also makes this save when the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} moves into its space, when it enters the {@variantrule Sphere [Area of Effect]|XPHB|Sphere}, or when it ends its turn inside the {@variantrule Sphere [Area of Effect]|XPHB|Sphere}. A creature makes this save only once per turn.",
-				"The {@variantrule Sphere [Area of Effect]|XPHB|Sphere} moves 10 feet away from you at the start of each of your turns.",
+				"Vous créez une {@variantrule Sphère [zone d'effet]|XPHB|Sphère} de brouillard d'un noir d'encre de 6 mètres de rayon à portée. Le brouillard est constitué de {@variantrule Darkness|XPHB|Ténèbres} magiques et persiste pendant la durée ou jusqu'à ce qu'un vent fort (tel que celui créé par le sort {@spell Rafale|XPHB}) le disperse, mettant fin au sort.",
+				"Quand la {@variantrule Sphère [zone d'effet]|XPHB|Sphère} apparaît, chaque créature qui s'y trouve effectue un jet de sauvegarde de Sagesse. En cas d'échec, une créature subit {@damage 5d6} dégâts psychiques et soustrait {@dice 1d6} de ses jets de sauvegarde jusqu'à la fin de son prochain tour. En cas de réussite, une créature ne subit que la moitié de ces dégâts. Une créature effectue également ce jet quand la {@variantrule Sphère [zone d'effet]|XPHB|Sphère} se déplace dans son espace, quand elle entre dans la {@variantrule Sphère [zone d'effet]|XPHB|Sphère} ou quand elle termine son tour à l'intérieur de la {@variantrule Sphère [zone d'effet]|XPHB|Sphère}. Une créature n'effectue ce jet qu'une seule fois par tour.",
+				"La {@variantrule Sphère [zone d'effet]|XPHB|Sphère} s'éloigne de 3 mètres de vous au début de chacun de vos tours.",
 				{
 					"type": "entries",
-					"name": "Casting as a Circle Spell",
+					"name": "Incantation en tant que sort de cercle",
 					"entries": [
-						"Casting this as a Circle spell requires a minimum of five secondary casters. In addition to the spell's usual components, you must provide a special component (a string of three black pearls from Pandemonium), which the spell consumes. The spell's range increases to 1 mile, and its duration increases to until dispelled (no {@status Concentration|XPHB} required). The spell ends early if any caster who participated in this casting contributes to another casting of {@spell Doomtide|FRHoF} as a Circle spell.",
-						"When the spell is cast, each secondary caster must expend a level 3+ spell slot; otherwise, the spell fails."
+						"L'incantation de ce sort en tant que sort de cercle exige un minimum de cinq lanceurs secondaires. En plus des composantes habituelles du sort, vous devez fournir une composante spéciale (un collier de trois perles noires provenant de Pandemonium), que le sort consomme. La portée du sort passe à 1,5 kilomètre, et sa durée devient jusqu'à dissipation (sans {@status Concentration|XPHB|Concentration} requise). Le sort se termine par anticipation si un lanceur ayant participé à cette incantation contribue à une autre incantation de {@spell Marée funeste|FRHoF} en tant que sort de cercle.",
+						"Quand le sort est lancé, chaque lanceur secondaire doit dépenser un emplacement de sort de niveau 3 ou plus ; sinon, le sort échoue."
 					]
 				}
 			],
@@ -540,7 +540,7 @@
 			]
 		},
 		{
-			"name": "Elminster's Effulgent Spheres",
+			"name": "Sphères resplendissantes d'Elminster",
 			"source": "FRHoF",
 			"page": 144,
 			"level": 6,
@@ -561,7 +561,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an opal worth 1,000 GP+",
+					"text": "une opale d'une valeur de 1 000+ PO",
 					"cost": 100000
 				}
 			},
@@ -575,36 +575,36 @@
 				}
 			],
 			"entries": [
-				"Six chromatic spheres orbit you for the duration.",
-				"While the spheres are present, you can expend spheres to create the following effects:",
+				"Pendant la durée, six sphères chromatiques gravitent autour de vous.",
+				"Tant que les sphères sont présentes, vous pouvez dépenser des sphères pour créer les effets suivants :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Absorb Energy",
+							"name": "Absorption d'énergie",
 							"entries": [
-								"When you take Acid, Cold, Fire, Lightning, or Thunder damage, you can take a {@variantrule Reaction|XPHB} to expend one sphere and give yourself {@variantrule Resistance|XPHB} to the triggering damage type until the start of your next turn."
+								"Lorsque vous subissez des dégâts d'acide, de froid, de feu, de foudre ou de tonnerre, vous pouvez utiliser une {@variantrule Réaction|XPHB|réaction} pour dépenser une sphère et vous accorder une {@variantrule Résistance|XPHB|résistance} au type de dégâts déclencheur jusqu'au début de votre prochain tour."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Energy Blast",
+							"name": "Décharge d'énergie",
 							"entries": [
-								"As a {@variantrule Bonus Action|XPHB}, you send one sphere hurtling toward a target within 120 feet of yourself. Make a ranged spell attack. On a hit, the target takes {@damage 3d6} Acid, Cold, Fire, Lightning, or Thunder damage (your choice). Regardless of whether you hit, the sphere is expended."
+								"En une {@variantrule Action bonus|XPHB|action bonus}, vous propulsez une sphère vers une cible située à 36 mètres ou moins de vous. Effectuez une attaque de sort à distance. En cas de touche, la cible subit {@damage 3d6} dégâts d'acide, de froid, de feu, de foudre ou de tonnerre (à votre choix). Que vous touchiez ou non, la sphère est dépensée."
 							]
 						}
 					]
 				},
-				"The spell ends early if you have no more spheres remaining."
+				"Le sort se termine par anticipation s'il ne vous reste plus de sphères."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
+					"name": "Utilisation d'un emplacement de sort de niveau supérieur",
 					"entries": [
-						"The number of spheres increases by 1 for every spell slot level above 6."
+						"Le nombre de sphères augmente de 1 pour chaque niveau d'emplacement de sort au-delà de 6."
 					]
 				}
 			],
@@ -628,7 +628,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Elminster's Elusion",
+			"name": "Esquive d'Elminster",
 			"source": "FRHoF",
 			"page": 144,
 			"level": 2,
@@ -660,7 +660,7 @@
 				}
 			],
 			"entries": [
-				"Arcane wards protect you against magic for the duration. You have {@variantrule Advantage|XPHB} on saving throws against spells and magical effects. Additionally, if you succeed on a saving throw against a spell or magical effect and would normally take half as much damage, you instead take no damage."
+				"Pendant la durée, des protections arcaniques vous défendent contre la magie. Vous avez un {@variantrule Avantage|XPHB|avantage} aux jets de sauvegarde contre les sorts et les effets magiques. De plus, si vous réussissez un jet de sauvegarde contre un sort ou un effet magique alors que vous ne devriez normalement subir que la moitié des dégâts, vous ne subissez à la place aucun dégât."
 			],
 			"miscTags": [
 				"ADV"
@@ -670,7 +670,7 @@
 			]
 		},
 		{
-			"name": "Holy Star of Mystra",
+			"name": "Étoile sacrée de Mystra",
 			"source": "FRHoF",
 			"page": 145,
 			"level": 8,
@@ -702,9 +702,9 @@
 				}
 			],
 			"entries": [
-				"You create a glowing mote of energy that hovers above you for the duration. The mote sheds {@variantrule Bright Light|XPHB} in a 5-foot radius and {@variantrule Dim Light|XPHB} for an additional 5 feet.",
-				"When you cast this spell and as a {@variantrule Bonus Action|XPHB} on later turns, you can unleash a shining bolt from the mote, targeting one creature within 120 feet of yourself. Make a ranged spell attack. On a hit, the target takes Force or Radiant damage (your choice) equal to {@dice 4d10} plus your spellcasting ability modifier.",
-				"In addition, while the mote is present, you have {@variantrule Cover|XPHB|Three-Quarters Cover}, and if you succeed on a saving throw against a spell of level 7 or lower that targeted only you and didn't create an area of effect, you can take a {@variantrule Reaction|XPHB} to deflect that spell back at the spell's caster; the caster makes a saving throw against that spell using that caster's own spell save DC."
+				"Vous créez une particule d'énergie brillante qui plane au-dessus de vous pendant la durée. La particule émet une {@variantrule Vive lumière|XPHB|lumière vive} dans un rayon de 1,50 mètre et une {@variantrule Lumière tamisée|XPHB|lumière faible} sur 1,50 mètre supplémentaire.",
+				"Quand vous lancez ce sort, puis par une {@variantrule Action bonus|XPHB|action bonus} lors de vos tours suivants, vous pouvez libérer un trait éclatant depuis la particule, en ciblant une créature située à 36 mètres ou moins de vous. Effectuez une attaque de sort à distance. En cas de touche, la cible subit des dégâts de force ou radiants (à votre choix) égaux à {@dice 4d10} plus votre modificateur de caractéristique d'incantation.",
+				"De plus, tant que la particule est présente, vous bénéficiez d'un {@variantrule Abri|XPHB|abri aux trois quarts}, et si vous réussissez un jet de sauvegarde contre un sort de niveau 7 ou inférieur qui ne ciblait que vous et n'a pas créé de zone d'effet, vous pouvez utiliser une {@variantrule Réaction|XPHB|réaction} pour renvoyer ce sort vers son lanceur ; le lanceur effectue un jet de sauvegarde contre ce sort en utilisant son propre DD de sauvegarde de sort."
 			],
 			"spellAttack": [
 				"R"
@@ -718,7 +718,7 @@
 			]
 		},
 		{
-			"name": "Laeral's Silver Lance",
+			"name": "Lance d'argent de Laeral",
 			"source": "FRHoF",
 			"page": 145,
 			"level": 3,
@@ -740,7 +740,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a silver pin worth 250+ GP",
+					"text": "une épingle d'argent d'une valeur de 250+ PO",
 					"cost": 25000
 				}
 			},
@@ -750,14 +750,14 @@
 				}
 			],
 			"entries": [
-				"Silver energy bursts out from you in a 120-foot-long, 5-foot-wide {@variantrule Line [Area of Effect]|XPHB|Line}. Each creature of your choice in the {@variantrule Line [Area of Effect]|XPHB|Line} makes a Strength saving throw. On a failed save, a creature takes {@damage 3d10} Force damage and has the {@condition À terre|XPHB} condition. On a successful save, a creature takes half as much damage only."
+				"Une énergie argentée jaillit de vous en une {@variantrule Ligne [zone d'effet]|XPHB|Ligne} de 36 mètres de long sur 1,50 mètre de large. Chaque créature de votre choix dans la {@variantrule Ligne [zone d'effet]|XPHB|Ligne} effectue un jet de sauvegarde de Force. En cas d'échec, une créature subit {@damage 3d10} dégâts de force et a l'état {@condition À terre|XPHB}. En cas de réussite, une créature ne subit que la moitié de ces dégâts."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
+					"name": "Utilisation d'un emplacement de sort de niveau supérieur",
 					"entries": [
-						"The damage increases by {@scaledamage 3d10|3-9|1d10} for every spell slot level above 3."
+						"Les dégâts augmentent de {@scaledamage 3d10|3-9|1d10} pour chaque niveau d'emplacement de sort au-delà de 3."
 					]
 				}
 			],
@@ -775,7 +775,7 @@
 			]
 		},
 		{
-			"name": "Simbul's Synostodweomer",
+			"name": "Synostodweomer de la Simbul",
 			"source": "FRHoF",
 			"page": 145,
 			"level": 7,
@@ -806,7 +806,7 @@
 				}
 			],
 			"entries": [
-				"You imbue one creature you touch with magical healing energy for the duration. Whenever the target casts a spell using a spell slot, the target can immediately roll a number of unexpended {@variantrule Hit Point Dice|XPHB} equal to the spell slot's level and regain {@variantrule Hit Points|XPHB} equal to the roll's total plus your spellcasting ability modifier; those dice are then expended."
+				"Vous imprégnez une créature que vous touchez d'une énergie curative magique pendant la durée. Chaque fois que la cible lance un sort en utilisant un emplacement de sort, elle peut immédiatement lancer un nombre de {@variantrule Dés de vie|XPHB|dés de vie} non dépensés égal au niveau de l'emplacement de sort et regagner des {@variantrule Points de vie|XPHB|points de vie} égaux au total du lancer plus votre modificateur de caractéristique d'incantation ; ces dés sont alors dépensés."
 			],
 			"miscTags": [
 				"HL"
@@ -816,7 +816,7 @@
 			]
 		},
 		{
-			"name": "Songal's Elemental Suffusion",
+			"name": "Suffusion élémentaire de Songal",
 			"source": "FRHoF",
 			"page": 145,
 			"level": 5,
@@ -837,7 +837,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a pearl worth 100+ GP",
+					"text": "une perle d'une valeur de 100+ PO",
 					"cost": 10000
 				}
 			},
@@ -852,40 +852,40 @@
 				}
 			],
 			"entries": [
-				"You imbue yourself with the elemental power of genies. You gain the following benefits until the spell ends:",
+				"Vous vous imprégnez du pouvoir élémentaire des génies. Vous bénéficiez des avantages suivants jusqu'à la fin du sort :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Elemental Immunity",
+							"name": "Immunité élémentaire",
 							"entries": [
-								"When you cast this spell, choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. You have {@variantrule Resistance|XPHB} to the chosen damage type."
+								"Quand vous lancez ce sort, choisissez l'un des types de dégâts suivants : acide, froid, feu, foudre ou tonnerre. Vous avez une {@variantrule Résistance|XPHB|résistance} au type de dégâts choisi."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Elemental Pulse",
+							"name": "Pulsation élémentaire",
 							"entries": [
-								"When you cast this spell and at the start of each of your subsequent turns, you release a burst of elemental energy in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself. Each creature of your choice in that area makes a Dexterity saving throw. On a failed save, a creature takes {@damage 2d6} Acid, Cold, Fire, Lightning, or Thunder damage (your choice) and has the {@condition À terre|XPHB} condition. On a successful save, a creature takes half as much damage only."
+								"Quand vous lancez ce sort et au début de chacun de vos tours suivants, vous libérez une bouffée d'énergie élémentaire dans une {@variantrule Émanation [zone d'effet]|XPHB|Émanation} de 4,50 mètres dont vous êtes l'origine. Chaque créature de votre choix dans cette zone effectue un jet de sauvegarde de Dextérité. En cas d'échec, une créature subit {@damage 2d6} dégâts d'acide, de froid, de feu, de foudre ou de tonnerre (à votre choix) et a l'état {@condition À terre|XPHB}. En cas de réussite, une créature ne subit que la moitié de ces dégâts."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Flight",
+							"name": "Vol",
 							"entries": [
-								"You gain a {@variantrule Fly Speed|XPHB} of 30 feet and can hover."
+								"Vous gagnez une {@variantrule Vitesse de vol|XPHB|vitesse de vol} de 9 mètres et pouvez rester stationnaire."
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Casting as a Circle Spell",
+					"name": "Incantation en tant que sort de cercle",
 					"entries": [
-						"If the spell is cast as a Circle spell, its casting time increases to 1 minute, and its duration increases to {@status Concentration|XPHB}, up to 10 minutes. For each secondary caster who participates in the casting, you can choose one additional creature, to a maximum of nine additional creatures. The chosen creatures also gain the benefits of the spell for its duration.",
-						"When the spell is cast, each secondary caster must expend a level 2+ spell slot; otherwise, the spell fails."
+						"Si le sort est lancé en tant que sort de cercle, son temps d'incantation passe à 1 minute, et sa durée devient {@status Concentration|XPHB|Concentration}, jusqu'à 10 minutes. Pour chaque lanceur secondaire participant à l'incantation, vous pouvez choisir une créature supplémentaire, dans la limite de neuf créatures supplémentaires. Les créatures choisies bénéficient elles aussi des avantages du sort pendant sa durée.",
+						"Quand le sort est lancé, chaque lanceur secondaire doit dépenser un emplacement de sort de niveau 2 ou plus ; sinon, le sort échoue."
 					]
 				}
 			],
@@ -908,7 +908,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Spellfire Flare",
+			"name": "Éclat de feu sortilège",
 			"source": "FRHoF",
 			"page": 146,
 			"level": 1,
@@ -936,14 +936,14 @@
 				}
 			],
 			"entries": [
-				"You unleash a blast of brilliant fire. Make a ranged spell attack against a target within range; a target gains no benefit from {@variantrule Cover|XPHB|Half Cover} or {@variantrule Cover|XPHB|Three-Quarters Cover} for this attack roll. On a hit, the target takes {@damage 2d10} Radiant damage."
+				"Vous déchaînez une bouffée de feu éclatant. Effectuez une attaque de sort à distance contre une cible à portée ; la cible ne tire aucun bénéfice d'un {@variantrule Abri|XPHB|demi-abri} ou d'un {@variantrule Abri|XPHB|abri aux trois quarts} pour ce jet d'attaque. En cas de touche, la cible subit {@damage 2d10} dégâts radiants."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
+					"name": "Utilisation d'un emplacement de sort de niveau supérieur",
 					"entries": [
-						"You create an additional blast for each spell slot level above 1. You can direct the blasts at the same target or at different ones. Make a separate attack roll for each blast."
+						"Vous créez une bouffée supplémentaire pour chaque niveau d'emplacement de sort au-delà de 1. Vous pouvez diriger les bouffées contre la même cible ou contre des cibles différentes. Effectuez un jet d'attaque distinct pour chaque bouffée."
 					]
 				}
 			],
@@ -958,7 +958,7 @@
 			]
 		},
 		{
-			"name": "Spellfire Storm",
+			"name": "Tempête de feu sortilège",
 			"source": "FRHoF",
 			"page": 146,
 			"level": 4,
@@ -991,24 +991,24 @@
 				}
 			],
 			"entries": [
-				"You conjure a pillar of spellfire in a 20-foot-radius, 20-foot-high {@variantrule Cylinder [Area of Effect]|XPHB|Cylinder} centered on a point within range. The area of the {@variantrule Cylinder [Area of Effect]|XPHB|Cylinder} is {@variantrule Bright Light|XPHB}, and each creature in it when it appears makes a Constitution saving throw, taking {@damage 4d10} Radiant damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell's area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.",
-				"In addition, whenever a creature in the {@variantrule Cylinder [Area of Effect]|XPHB|Cylinder} casts a spell, that creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB} used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.",
-				"When you cast this spell, you can designate creatures to be unaffected by it.",
+				"Vous convoquez un pilier de feu sortilège sous la forme d'un {@variantrule Cylindre [zone d'effet]|XPHB|Cylindre} de 6 mètres de rayon et de 6 mètres de haut centré sur un point à portée. La zone du {@variantrule Cylindre [zone d'effet]|XPHB|Cylindre} est une {@variantrule Vive lumière|XPHB|lumière vive}, et chaque créature qui s'y trouve quand il apparaît effectue un jet de sauvegarde de Constitution, subissant {@damage 4d10} dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature effectue également ce jet quand elle entre dans la zone du sort pour la première fois lors d'un tour ou y termine son tour. Une créature n'effectue ce jet qu'une seule fois par tour.",
+				"De plus, chaque fois qu'une créature dans le {@variantrule Cylindre [zone d'effet]|XPHB|Cylindre} lance un sort, cette créature effectue un jet de sauvegarde de Constitution. En cas d'échec, le sort se dissipe sans effet, et l'action, la {@variantrule Action bonus|XPHB|action bonus} ou la {@variantrule Réaction|XPHB|réaction} utilisée pour le lancer est perdue. Si ce sort a été lancé avec un emplacement de sort, celui-ci n'est pas dépensé.",
+				"Quand vous lancez ce sort, vous pouvez désigner des créatures qui ne seront pas affectées par lui.",
 				{
 					"type": "entries",
-					"name": "Casting as a Circle Spell",
+					"name": "Incantation en tant que sort de cercle",
 					"entries": [
-						"In addition to the spell's usual components, you must provide a special component (a blue star sapphire worth 25,000+ GP), which the spell consumes. The spell's range increases to 1 mile, and it no longer requires {@status Concentration|XPHB}. When the spell is cast, each secondary caster must expend a level 3+ spell slot; otherwise, the spell fails."
+						"En plus des composantes habituelles du sort, vous devez fournir une composante spéciale (un saphir étoilé bleu d'une valeur de 25 000+ PO), que le sort consomme. La portée du sort passe à 1,5 kilomètre, et il ne nécessite plus de {@status Concentration|XPHB|Concentration}. Quand le sort est lancé, chaque lanceur secondaire doit dépenser un emplacement de sort de niveau 3 ou plus ; sinon, le sort échoue."
 					]
 				}
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
+					"name": "Utilisation d'un emplacement de sort de niveau supérieur",
 					"entries": [
-						"The damage increases by {@scaledamage 4d10|4-9|1d10} for every spell slot level above 4.",
-						"The number of secondary casters determines the spell's area of effect and duration, as shown in the table below. The spell ends early if any caster who participated in this casting contributes to another casting of Spellfire Storm as a Circle spell.",
+						"Les dégâts augmentent de {@scaledamage 4d10|4-9|1d10} pour chaque niveau d'emplacement de sort au-delà de 4.",
+						"Le nombre de lanceurs secondaires détermine la zone d'effet et la durée du sort, comme indiqué dans la table ci-dessous. Le sort se termine par anticipation si un lanceur ayant participé à cette incantation contribue à une autre incantation de Tempête de feu sortilège en tant que sort de cercle.",
 						{
 							"type": "table",
 							"colStyles": [
@@ -1017,25 +1017,25 @@
 								"col-2"
 							],
 							"colLabels": [
-								"Secondary Casters",
-								"Area of Effect",
-								"Duration"
+								"Lanceurs secondaires",
+								"Zone d'effet",
+								"Durée"
 							],
 							"rows": [
 								[
 									"1-3",
-									"40-foot-radius, 40-foot-high {@variantrule Cylinder [Area of Effect]|XPHB|Cylinder}",
-									"1 Hour"
+									"{@variantrule Cylindre [zone d'effet]|XPHB|Cylindre} de 12 mètres de rayon et de 12 mètres de haut",
+									"1 heure"
 								],
 								[
 									"4-6",
-									"60-foot-radius, 60-foot-high {@variantrule Cylinder [Area of Effect]|XPHB|Cylinder}",
-									"8 Hours"
+									"{@variantrule Cylindre [zone d'effet]|XPHB|Cylindre} de 18 mètres de rayon et de 18 mètres de haut",
+									"8 heures"
 								],
 								[
 									"7+",
-									"100-foot-radius, 100-foot-high {@variantrule Cylinder [Area of Effect]|XPHB|Cylinder}",
-									"24 Hours"
+									"{@variantrule Cylindre [zone d'effet]|XPHB|Cylindre} de 30 mètres de rayon et de 30 mètres de haut",
+									"24 heures"
 								]
 							]
 						}
@@ -1056,7 +1056,7 @@
 			]
 		},
 		{
-			"name": "Syluné's Viper",
+			"name": "Vipère de Syluné",
 			"source": "FRHoF",
 			"page": 147,
 			"level": 3,
@@ -1076,7 +1076,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a snake fang"
+				"m": "un croc de serpent"
 			},
 			"duration": [
 				{
@@ -1088,24 +1088,24 @@
 				}
 			],
 			"entries": [
-				"A shimmering, spectral snake encircles your body for the duration. You gain 15 {@variantrule Temporary Hit Points|XPHB}; the spell ends early if you have no {@variantrule Temporary Hit Points|XPHB} left.",
-				"While the spell is active, you gain the following benefits:",
+				"Un serpent spectral et scintillant encercle votre corps pendant la durée. Vous gagnez 15 {@variantrule Points de vie temporaires|XPHB|points de vie temporaires} ; le sort se termine par anticipation si vous n'avez plus de {@variantrule Points de vie temporaires|XPHB|points de vie temporaires}.",
+				"Tant que le sort est actif, vous gagnez les avantages suivants :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Climbing",
+							"name": "Escalade",
 							"entries": [
-								"You gain a {@variantrule Climb Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
+								"Vous gagnez une {@variantrule Vitesse d'escalade|XPHB} égale à votre {@variantrule Vitesse|XPHB}."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Venomous Bite",
+							"name": "Morsure venimeuse",
 							"entries": [
-								"As a {@action Magie|XPHB} action, you can make a ranged spell attack using the snake against one creature within 50 feet. On a hit, the target takes {@damage 1d6} Force damage and has the {@condition Empoisonné|XPHB} condition until the start of your next turn. While {@condition Empoisonné|XPHB}, the target has the {@condition Incapable|XPHB} condition."
+								"Par une action {@action Magie|XPHB}, vous pouvez effectuer une attaque de sort à distance à l'aide du serpent contre une créature située à 15 mètres ou moins. En cas de touche, la cible subit {@damage 1d6} dégâts de force et a l'état {@condition Empoisonné|XPHB} jusqu'au début de votre prochain tour. Tant qu'elle est {@condition Empoisonné|XPHB}, la cible a l'état {@condition Incapable|XPHB}."
 							]
 						}
 					]
@@ -1114,9 +1114,9 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
+					"name": "Utilisation d'un emplacement de sort de niveau supérieur",
 					"entries": [
-						"For each spell slot level above 3, the number of {@variantrule Temporary Hit Points|XPHB} you gain from this spell increases by 5, and the damage of Venomous Bite increases by {@scaledamage 1d6|3-9|1d6}."
+						"Pour chaque niveau d'emplacement de sort au-delà de 3, le nombre de {@variantrule Points de vie temporaires|XPHB|points de vie temporaires} que vous gagnez grâce à ce sort augmente de 5, et les dégâts de Morsure venimeuse augmentent de {@scaledamage 1d6|3-9|1d6}."
 					]
 				}
 			],
@@ -1139,7 +1139,7 @@
 			]
 		},
 		{
-			"name": "Wardaway",
+			"name": "Repoussoir",
 			"source": "FRHoF",
 			"page": 147,
 			"level": 1,
@@ -1160,7 +1160,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a miniature clay hand"
+				"m": "une main miniature en argile"
 			},
 			"duration": [
 				{
@@ -1168,15 +1168,15 @@
 				}
 			],
 			"entries": [
-				"You hurl a disorienting magical force toward one creature within range. The target makes a Constitution saving throw; Constructs and Undead automatically succeed on this save.",
-				"On a failed save, the target takes {@damage 2d4} Force damage, its {@variantrule Speed|XPHB} is halved until the start of your next turn, and on its next turn, it can take only an action or a {@variantrule Bonus Action|XPHB} (but not both). On a successful save, the target takes half as much damage only."
+				"Vous projetez une force magique désorientante sur une créature à portée. La cible effectue un jet de sauvegarde de Constitution ; les constructions et les morts-vivants réussissent automatiquement ce jet de sauvegarde.",
+				"En cas d'échec, la cible subit {@damage 2d4} dégâts de force, sa {@variantrule Vitesse|XPHB|vitesse} est réduite de moitié jusqu'au début de votre prochain tour et, lors de son prochain tour, elle ne peut effectuer qu'une action ou une {@variantrule Action bonus|XPHB|action bonus} (mais pas les deux). En cas de réussite, la cible ne subit que la moitié de ces dégâts."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
+					"name": "Utilisation d'un emplacement de sort de niveau supérieur",
 					"entries": [
-						"The damage increases by {@scaledamage 2d4|1-9|2d4} for every spell slot level above 1."
+						"Les dégâts augmentent de {@scaledamage 2d4|1-9|2d4} pour chaque niveau d'emplacement de sort au-delà de 1."
 					]
 				}
 			],

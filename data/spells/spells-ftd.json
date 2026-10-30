@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Ashardalon's Stride",
+			"name": "Foulée d'Ashardalon",
 			"source": "FTD",
 			"page": 19,
 			"level": 3,
@@ -33,15 +33,15 @@
 				}
 			],
 			"entries": [
-				"The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn't provoke opportunity attacks.",
-				"When you move within 5 feet of a creature or an object that isn't being worn or carried, it takes {@damage 1d6} fire damage from your trail of heat. A creature or object can take this damage only once during a turn."
+				"Des flammes de dragon ondoyantes jaillissent de vos pieds, vous conférant une vitesse explosive. Pour la durée du sort, votre vitesse augmente de 6 mètres et vos déplacements ne provoquent pas d'attaques d'opportunité.",
+				"Quand vous vous déplacez à 1,50 mètre ou moins d'une créature ou d'un objet qui n'est ni porté ni transporté, il subit {@damage 1d6} dégâts de feu de la part de votre traînée de chaleur. Une créature ou un objet ne peut subir ces dégâts qu'une seule fois pendant un tour."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, increase your speed by 5 feet for each spell slot level above 3rd. The spell deals an additional {@scaledamage 1d6|3-9|1d6} fire damage for each slot level above 3rd."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 4 ou supérieur, augmentez votre vitesse de 1,50 mètre pour chaque niveau d'emplacement au-delà du niveau 3. Le sort inflige {@scaledamage 1d6|3-9|1d6} dégâts de feu supplémentaires pour chaque niveau d'emplacement au-delà du niveau 3."
 					]
 				}
 			],
@@ -54,7 +54,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Draconic Transformation",
+			"name": "Transformation draconique",
 			"source": "FTD",
 			"page": 19,
 			"level": 7,
@@ -75,7 +75,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a statuette of a dragon, worth at least 500 gp",
+					"text": "une statuette de dragon d'une valeur d'au moins 500 po",
 					"cost": 50000
 				}
 			},
@@ -90,30 +90,30 @@
 				}
 			],
 			"entries": [
-				"With a roar, you draw on the magic of dragons to transform yourself, taking on draconic features. You gain the following benefits until the spell ends:",
+				"Poussant un rugissement, vous puisez dans la magie des dragons pour vous transformer et arborer des traits draconiques. Vous bénéficiez des avantages suivants jusqu'à la fin du sort :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Blindsight",
+							"name": "Perception aveugle",
 							"entries": [
-								"You have {@sense Perception aveugle} with a range of 30 feet. Within that range, you can effectively see anything that isn't behind {@quickref Cover||3||total cover}, even if you're {@condition Aveuglé} or in darkness. Moreover, you can see an {@condition invisible} creature, unless the creature successfully hides from you."
+								"Vous possédez la {@sense Perception aveugle} avec une portée de 9 mètres. Dans cette portée, vous pouvez effectivement voir tout ce qui ne se trouve pas derrière un {@quickref Cover||3||couvert total}, même si vous êtes {@condition Aveuglé} ou dans l'obscurité. De plus, vous pouvez voir une créature {@condition invisible}, à moins que la créature ne parvienne à se cacher de vous."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Breath Weapon",
+							"name": "Arme de souffle",
 							"entries": [
-								"When you cast this spell, and as a bonus action on subsequent turns for the duration, you can exhale shimmering energy in a 60-foot cone. Each creature in that area must make a Dexterity saving throw, taking {@damage 6d8} force damage on a failed save, or half as much damage on a successful one."
+								"Quand vous lancez ce sort, et par une action bonus lors de vos tours suivants pendant la durée du sort, vous pouvez exhaler une énergie chatoyante dans un cône de 18 mètres. Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Dextérité, en subissant {@damage 6d8} dégâts de force en cas d'échec, ou la moitié de ces dégâts seulement en cas de réussite."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Wings",
+							"name": "Ailes",
 							"entries": [
-								"Incorporeal wings sprout from your back, giving you a flying speed of 60 feet."
+								"Des ailes incorporelles vous poussent dans le dos, vous conférant une vitesse de vol de 18 mètres."
 							]
 						}
 					]
@@ -131,7 +131,7 @@
 			]
 		},
 		{
-			"name": "Fizban's Platinum Shield",
+			"name": "Bouclier de platine de Fizban",
 			"source": "FTD",
 			"page": 20,
 			"level": 6,
@@ -153,7 +153,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a platinum-plated dragon scale, worth at least 500 gp",
+					"text": "une écaille de dragon plaquée de platine, d'une valeur d'au moins 500 po",
 					"cost": 50000
 				}
 			},
@@ -168,42 +168,42 @@
 				}
 			],
 			"entries": [
-				"You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light out to 5 feet. While surrounded by the field, a creature gains the following benefits:",
+				"Vous créez un champ de lumière argentée qui entoure une créature de votre choix à portée (vous pouvez vous choisir). Le champ émet une lumière faible dans un rayon de 1,50 mètre. Tant qu'une créature est entourée par le champ, elle bénéficie des avantages suivants :",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Cover",
+							"name": "Couvert",
 							"entries": [
-								"The creature has {@quickref Cover||3||half cover}."
+								"La créature bénéficie d'un {@quickref Cover||3||demi-couvert}."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Damage Resistance",
+							"name": "Résistance aux dégâts",
 							"entries": [
-								"The creature has resistance to acid, cold, fire, lightning, and poison damage."
+								"La créature possède une résistance aux dégâts d'acide, de froid, de feu, de foudre et de poison."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Evasion",
+							"name": "Esquive",
 							"entries": [
-								"If the creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the creature instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+								"Si la créature est soumise à un effet qui lui permet d'effectuer un jet de sauvegarde de Dextérité pour ne subir que la moitié des dégâts, elle ne subit à la place aucun dégât si elle réussit son jet de sauvegarde, et seulement la moitié des dégâts si elle échoue."
 							]
 						}
 					]
 				},
-				"As a bonus action on subsequent turns, you can move the field to another creature within 60 feet of the field."
+				"Par une action bonus lors de vos tours suivants, vous pouvez déplacer le champ vers une autre créature se trouvant à 18 mètres ou moins du champ."
 			],
 			"miscTags": [
 				"UBA"
 			]
 		},
 		{
-			"name": "Nathair's Mischief",
+			"name": "Espièglerie de Nathair",
 			"source": "FTD",
 			"page": 20,
 			"level": 2,
@@ -223,7 +223,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a piece of crust from an apple pie"
+				"m": "un morceau de croûte de tarte aux pommes"
 			},
 			"duration": [
 				{
@@ -236,13 +236,13 @@
 				}
 			],
 			"entries": [
-				"You fill a 20-foot cube you can see within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced, and roll again at the start of each of your turns until the spell ends. You can move the cube up to 10 feet before you roll.",
+				"Vous remplissez de magie féerique et draconique un cube de 6 mètres d'arête que vous pouvez voir à portée. Lancez un jet sur la table Débordement d'espièglerie pour déterminer l'effet magique produit, puis relancez au début de chacun de vos tours jusqu'à la fin du sort. Vous pouvez déplacer le cube jusqu'à 3 mètres avant de lancer le dé.",
 				{
 					"type": "table",
-					"caption": "Mischievous Surge",
+					"caption": "Débordement d'espièglerie",
 					"colLabels": [
 						"d4",
-						"Effect"
+						"Effet"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -251,19 +251,19 @@
 					"rows": [
 						[
 							"1",
-							"The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or become {@condition Charmé} by you until the start of your next turn."
+							"Une odeur de tarte aux pommes emplit l'air, et chaque créature dans le cube doit réussir un jet de sauvegarde de Sagesse ou devenir {@condition Charmé} par vous jusqu'au début de votre prochain tour."
 						],
 						[
 							"2",
-							"Bouquets of flowers appear all around, and each creature in the cube must succeed on a Dexterity saving throw or be {@condition Aveuglé} until the start of your next turn as the flowers spray water in their faces."
+							"Des bouquets de fleurs apparaissent tout autour, et chaque créature dans le cube doit réussir un jet de sauvegarde de Dextérité ou être {@condition Aveuglé} jusqu'au début de votre prochain tour, les fleurs projetant de l'eau sur leur visage."
 						],
 						[
 							"3",
-							"Each creature in the cube must succeed on a Wisdom saving throw or begin giggling until the start of your next turn. A giggling creature is {@condition Incapable} and uses all its movement to move in a random direction."
+							"Chaque créature dans le cube doit réussir un jet de sauvegarde de Sagesse ou se mettre à glousser jusqu'au début de votre prochain tour. Une créature qui glousse est {@condition Incapable} et utilise tout son déplacement pour se déplacer dans une direction aléatoire."
 						],
 						[
 							"4",
-							"Drops of molasses hover in the cube, making it {@quickref difficult terrain||3} until the start of your next turn."
+							"Des gouttes de mélasse flottent dans le cube, en faisant un {@quickref difficult terrain||3||terrain difficile} jusqu'au début de votre prochain tour."
 						]
 					]
 				}
@@ -278,7 +278,7 @@
 			]
 		},
 		{
-			"name": "Raulothim's Psychic Lance",
+			"name": "Lance psychique de Raulothim",
 			"source": "FTD",
 			"page": 21,
 			"level": 4,
@@ -305,15 +305,15 @@
 				}
 			],
 			"entries": [
-				"You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.",
-				"The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 7d6} psychic damage and is {@condition Incapable} until the start of your next turn. On a successful save, the creature takes half as much damage and isn't {@condition Incapable}."
+				"Vous libérez depuis votre front une lance scintillante de puissance psychique contre une créature que vous pouvez voir à portée. Autrement, vous pouvez prononcer le nom d'une créature. Si la cible nommée est à portée, elle devient la cible du sort, même si vous ne pouvez pas la voir. Si la cible nommée n'est pas à portée, la lance se dissipe sans effet.",
+				"La cible doit effectuer un jet de sauvegarde d'Intelligence. En cas d'échec, la cible subit {@damage 7d6} dégâts psychiques et est {@condition Incapable} jusqu'au début de votre prochain tour. En cas de réussite, la créature ne subit que la moitié de ces dégâts et n'est pas {@condition Incapable}."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledamage 7d6|4-9|1d6} for each slot level above 4th."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 5 ou supérieur, les dégâts augmentent de {@scaledamage 7d6|4-9|1d6} pour chaque niveau d'emplacement au-delà du niveau 4."
 					]
 				}
 			],
@@ -334,7 +334,7 @@
 			]
 		},
 		{
-			"name": "Rime's Binding Ice",
+			"name": "Glace contraignante de Rime",
 			"source": "FTD",
 			"page": 21,
 			"level": 2,
@@ -354,7 +354,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a vial of meltwater"
+				"m": "un flacon d'eau de fonte"
 			},
 			"duration": [
 				{
@@ -362,14 +362,14 @@
 				}
 			],
 			"entries": [
-				"A burst of cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes {@damage 3d8} cold damage and is hindered by ice formations for 1 minute, or until it or another creature within reach of it uses an action to break away the ice. A creature hindered by ice has its speed reduced to 0. On a successful save, a creature takes half as much damage and isn't hindered by ice."
+				"Une bouffée d'énergie froide émane de vous dans un cône de 9 mètres. Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Constitution. En cas d'échec, une créature subit {@damage 3d8} dégâts de froid et est entravée par des formations de glace pendant 1 minute, ou jusqu'à ce qu'elle ou qu'une autre créature à son allonge utilise une action pour briser la glace. Une créature entravée par la glace voit sa vitesse réduite à 0. En cas de réussite, une créature ne subit que la moitié de ces dégâts et n'est pas entravée par la glace."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, increase the cold damage by {@scaledamage 3d8|2-9|1d8} for each slot level above 2nd."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 3 ou supérieur, augmentez les dégâts de froid de {@scaledamage 3d8|2-9|1d8} pour chaque niveau d'emplacement au-delà du niveau 2."
 					]
 				}
 			],
@@ -385,7 +385,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Summon Draconic Spirit",
+			"name": "Invocation d'esprit draconique",
 			"source": "FTD",
 			"page": 21,
 			"reprintedAs": [
@@ -410,7 +410,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an object with the image of a dragon engraved on it, worth at least 500 gp",
+					"text": "un objet gravé de l'image d'un dragon, d'une valeur d'au moins 500 po",
 					"cost": 50000
 				}
 			},
@@ -425,15 +425,15 @@
 				}
 			],
 			"entries": [
-				"You call forth a {@creature draconic spirit|FTD}. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Draconic Spirit stat block. When you cast this spell, choose a family of dragon: chromatic, gem, or metallic. The creature resembles a dragon of the chosen family, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Esquive} action and uses its move to avoid danger."
+				"Vous invoquez un {@creature draconic spirit|FTD|esprit draconique}. Il se manifeste dans un espace libre que vous pouvez voir à portée. Cette forme corporelle utilise le bloc de statistiques de l'esprit draconique. Lorsque vous lancez ce sort, choisissez une famille de dragon : chromatique, gemme ou métallique. La créature ressemble à un dragon de la famille choisie, ce qui détermine certains traits de son bloc de statistiques. La créature disparaît lorsqu'elle tombe à 0 point de vie ou lorsque le sort prend fin.",
+				"La créature est votre alliée, ainsi que celle de vos compagnons. En combat, elle partage votre compte d'initiative, mais elle joue son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux (sans qu'aucune action de votre part ne soit nécessaire). Si vous n'en donnez pas, elle utilise l'action {@action Esquive} et son déplacement pour éviter le danger."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 6 ou supérieur, utilisez le niveau supérieur partout où apparaît le niveau du sort dans le bloc de statistiques."
 					]
 				}
 			],

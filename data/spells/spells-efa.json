@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Homunculus Servant",
+			"name": "Serviteur homoncule",
 			"source": "EFA",
 			"page": 21,
 			"level": 2,
@@ -23,7 +23,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gem worth 100+ GP",
+					"text": "une gemme d'une valeur de 100 po ou plus",
 					"cost": 10000
 				}
 			},
@@ -36,21 +36,21 @@
 				"ritual": true
 			},
 			"entries": [
-				"You summon a special homunculus in an unoccupied space within range. This creature uses the {@creature Homunculus Servant|EFA} stat block. If you already have a homunculus from this spell, the homunculus is replaced by the new one. You determine the homunculus's appearance, such as a mechanical-looking bird, winged vial, or miniature animate cauldron.",
+				"Vous invoquez un homoncule particulier dans un espace inoccupé à portée. Cette créature utilise le bloc de statistiques {@creature Homunculus Servant|EFA}. Si vous avez déjà un homoncule issu de ce sort, celui-ci est remplacé par le nouveau. Vous déterminez l'apparence de l'homoncule, par exemple un oiseau d'aspect mécanique, une fiole ailée ou un petit chaudron animé.",
 				{
 					"type": "entries",
 					"name": "Combat",
 					"entries": [
-						"The homunculus is an ally to you and your allies. In combat, it shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your commands (no action required by you). If you don't issue any, it takes the {@action Esquive|XPHB} action and uses its movement to avoid danger."
+						"L'homoncule vous est allié, ainsi qu'à vos alliés. En combat, il partage votre décompte d'{@variantrule Initiative|XPHB}, mais il joue son tour immédiatement après le vôtre. Il obéit à vos ordres (aucune action requise de votre part). Si vous n'en donnez aucun, il prend l'action {@action Esquive|XPHB} et utilise son déplacement pour éviter le danger."
 					]
 				}
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
+					"name": "Utilisation d'un emplacement de sort de niveau supérieur",
 					"entries": [
-						"Use the spell slot's level for the spell's level in the stat block."
+						"Utilisez le niveau de l'emplacement de sort comme niveau du sort dans le bloc de statistiques."
 					]
 				}
 			],

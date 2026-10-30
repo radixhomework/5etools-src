@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Borrowed Knowledge",
+			"name": "Connaissances empruntées",
 			"source": "SCC",
 			"page": 37,
 			"level": 2,
@@ -22,7 +22,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a book worth at least 25 gp",
+					"text": "un livre d'une valeur d'au moins 25 po",
 					"cost": 2500
 				}
 			},
@@ -36,11 +36,11 @@
 				}
 			],
 			"entries": [
-				"You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again."
+				"Vous puisez dans les connaissances des esprits du passé. Choisissez une compétence dans laquelle vous n'avez pas de maîtrise. Pour la durée du sort, vous avez la maîtrise de la compétence choisie. Le sort prend fin avant terme si vous le lancez de nouveau."
 			]
 		},
 		{
-			"name": "Kinetic Jaunt",
+			"name": "Escapade cinétique",
 			"source": "SCC",
 			"page": 37,
 			"level": 2,
@@ -71,13 +71,13 @@
 				}
 			],
 			"entries": [
-				"You magically empower your movement with dance-like steps, giving yourself the following benefits for the duration.",
+				"Vous renforcez magiquement vos déplacements par des pas dignes d'une danse, vous accordant les avantages suivants pour la durée du sort.",
 				{
 					"type": "list",
 					"items": [
-						"Your walking speed increases by 10 feet.",
-						"You don't provoke opportunity attacks.",
-						"You can move through the space of another creature, and it doesn't count as {@quickref difficult terrain||3}. If you end your turn in another creature's space, you are shunted to the last unoccupied space you occupied, and you take {@damage 1d8} force damage."
+						"Votre vitesse de déplacement augmente de 3 mètres.",
+						"Vous ne provoquez pas d'attaques d'opportunité.",
+						"Vous pouvez traverser l'espace d'une autre créature, et cela ne compte pas comme un {@quickref difficult terrain||3||terrain difficile}. Si vous terminez votre tour dans l'espace d'une autre créature, vous êtes éjecté vers le dernier espace inoccupé que vous occupiez, et vous subissez {@damage 1d8} dégâts de force."
 					]
 				}
 			],
@@ -86,7 +86,7 @@
 			]
 		},
 		{
-			"name": "Silvery Barbs",
+			"name": "Barbes argentées",
 			"source": "SCC",
 			"page": 38,
 			"level": 1,
@@ -95,7 +95,7 @@
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": "which you take when a creature you can see within 60 feet of yourself succeeds on an attack roll, an ability check, or a saving throw"
+					"condition": "que vous utilisez lorsqu'une créature que vous pouvez voir à 18 mètres ou moins de vous réussit un jet d'attaque, un test de caractéristique ou un jet de sauvegarde"
 				}
 			],
 			"range": {
@@ -114,8 +114,8 @@
 				}
 			],
 			"entries": [
-				"You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the {@dice d20} and use the lower roll.",
-				"You can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time."
+				"Vous distrayez magiquement la créature déclencheuse et transformez son incertitude momentanée en encouragement pour une autre créature. La créature déclencheuse doit relancer le {@dice d20} et utiliser le résultat le plus bas.",
+				"Vous pouvez ensuite choisir une autre créature que vous pouvez voir à portée (vous pouvez vous choisir). La créature choisie bénéficie d'un avantage au prochain jet d'attaque, test de caractéristique ou jet de sauvegarde qu'elle effectue dans la minute. Une créature ne peut être enhardie que par une seule utilisation de ce sort à la fois."
 			],
 			"miscTags": [
 				"ADV",
@@ -126,7 +126,7 @@
 			]
 		},
 		{
-			"name": "Vortex Warp",
+			"name": "Distorsion de vortex",
 			"source": "SCC",
 			"page": 38,
 			"level": 2,
@@ -154,14 +154,14 @@
 				}
 			],
 			"entries": [
-				"You magically twist space around another creature you can see within range. The target must succeed on a Constitution saving throw (the target can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze."
+				"Vous tordez magiquement l'espace autour d'une autre créature que vous pouvez voir à portée. La cible doit réussir un jet de sauvegarde de Constitution (la cible peut choisir d'échouer), sinon elle est téléportée vers un espace inoccupé de votre choix que vous pouvez voir à portée. L'espace choisi doit se trouver sur une surface ou dans un liquide capable de supporter la cible sans que celle-ci ait à se faufiler."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the range of the spell increases by 30 feet for each slot level above 2nd."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 3 ou supérieur, la portée du sort augmente de 9 mètres pour chaque niveau d'emplacement au-delà du niveau 2."
 					]
 				}
 			],
@@ -174,7 +174,7 @@
 			]
 		},
 		{
-			"name": "Wither and Bloom",
+			"name": "Flétrissement et floraison",
 			"source": "SCC",
 			"page": 38,
 			"level": 2,
@@ -195,7 +195,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a withered vine twisted into a loop"
+				"m": "une liane flétrie tordue en boucle"
 			},
 			"duration": [
 				{
@@ -203,15 +203,15 @@
 				}
 			],
 			"entries": [
-				"You invoke both death and life upon a 10-foot-radius sphere centered on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking {@damage 2d6} necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.",
-				"In addition, one creature of your choice in that area can spend and roll one of its unspent Hit Dice and regain a number of hit points equal to the roll plus your spellcasting ability modifier."
+				"Vous invoquez à la fois la mort et la vie sur une sphère de 3 mètres de rayon centrée sur un point à portée. Chaque créature de votre choix dans cette zone doit effectuer un jet de sauvegarde de Constitution, subissant {@damage 2d6} dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. La végétation non magique de la zone se flétrit.",
+				"De plus, une créature de votre choix dans cette zone peut dépenser et lancer l'un de ses dés de vie non dépensés et récupérer un nombre de points de vie égal au résultat plus votre modificateur de caractéristique d'incantation."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 2d6|2-9|1d6} for each slot above the 2nd, and the number of Hit Dice that can be spent and added to the healing roll increases by one for each slot above 2nd."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 3 ou supérieur, les dégâts augmentent de {@scaledamage 2d6|2-9|1d6} pour chaque niveau d'emplacement au-delà du niveau 2, et le nombre de dés de vie pouvant être dépensés et ajoutés au jet de soins augmente de un pour chaque niveau d'emplacement au-delà du niveau 2."
 					]
 				}
 			],

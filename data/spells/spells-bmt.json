@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Antagonize",
+			"name": "Antagoniser",
 			"source": "BMT",
 			"page": 50,
 			"level": 3,
@@ -22,7 +22,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a playing card depicting a rogue"
+				"m": "une carte à jouer représentant un roublard"
 			},
 			"duration": [
 				{
@@ -30,14 +30,14 @@
 				}
 			],
 			"entries": [
-				"You whisper magical words that antagonize one creature of your choice within range. The target must make a Wisdom saving throw. On a failed save, the target takes {@damage 4d4} psychic damage and must immediately use its reaction to make a melee attack against another creature of your choice that you can see. If the target can't make this attack (for example, because there is no one within its reach or because its reaction is unavailable), the target instead has disadvantage on the next attack roll it makes before the start of your next turn. On a successful save, the target takes half as much damage only."
+				"Vous murmurez des mots magiques qui antagonisent une créature de votre choix à portée. La cible doit effectuer un jet de sauvegarde de Sagesse. En cas d'échec, elle subit {@damage 4d4} dégâts psychiques et doit immédiatement utiliser sa réaction pour effectuer une attaque au corps à corps contre une autre créature de votre choix que vous pouvez voir. Si la cible ne peut pas effectuer cette attaque (par exemple, parce que personne ne se trouve à sa portée ou parce que sa réaction n'est pas disponible), elle subit à la place un désavantage sur le prochain jet d'attaque qu'elle effectue avant le début de votre prochain tour. En cas de réussite, la cible ne subit que la moitié de ces dégâts."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 4d4|3-9|1d4} for each slot level above 3rd."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 4 ou supérieur, les dégâts augmentent de {@scaledamage 4d4|3-9|1d4} par niveau d'emplacement au-delà du niveau 3."
 					]
 				}
 			],
@@ -52,7 +52,7 @@
 			]
 		},
 		{
-			"name": "Spirit of Death",
+			"name": "Esprit de la mort",
 			"source": "BMT",
 			"page": 50,
 			"level": 4,
@@ -74,7 +74,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gilded playing card worth at least 400 gp and depicting an avatar of death",
+					"text": "une carte à jouer dorée d'une valeur d'au moins 400 po et représentant un avatar de la mort",
 					"cost": 40000
 				}
 			},
@@ -89,15 +89,15 @@
 				}
 			],
 			"entries": [
-				"You call forth a spirit that embodies death. The spirit manifests in an unoccupied space you can see within range and uses the {@creature reaper spirit|BMT} stat block. The spirit disappears when it is reduced to 0 hit points or when the spell ends.",
-				"The spirit is an ally to you and your companions. In combat, the spirit shares your initiative count and takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue the spirit any commands, it takes the {@action Esquive} action and uses its movement to avoid danger."
+				"Vous appelez un esprit qui incarne la mort. L'esprit se manifeste dans un espace inoccupé que vous pouvez voir à portée et utilise le bloc de statistiques {@creature reaper spirit|BMT}. L'esprit disparaît lorsqu'il tombe à 0 point de vie ou à la fin du sort.",
+				"L'esprit vous est allié, ainsi qu'à vos compagnons. En combat, l'esprit partage votre décompte d'initiative et joue son tour immédiatement après le vôtre. Il obéit à vos ordres verbaux (aucune action requise de votre part). Si vous ne donnez aucun ordre à l'esprit, il prend l'action {@action Esquive} et utilise son déplacement pour éviter le danger."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the reaper spirit stat block."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 5 ou supérieur, utilisez le niveau supérieur partout où apparaît le niveau du sort dans le bloc de statistiques de l'esprit faucheur."
 					]
 				}
 			],
@@ -107,7 +107,7 @@
 			]
 		},
 		{
-			"name": "Spray of Cards",
+			"name": "Éventail de cartes",
 			"source": "BMT",
 			"page": 50,
 			"level": 2,
@@ -128,7 +128,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a deck of cards"
+				"m": "un jeu de cartes"
 			},
 			"duration": [
 				{
@@ -136,14 +136,14 @@
 				}
 			],
 			"entries": [
-				"You spray a 15-foot cone of spectral cards. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 2d10} force damage and has the {@condition Aveuglé} condition until the end of its next turn. On a successful save, a creature takes half as much damage only."
+				"Vous projetez un cône de 4,50 mètres rempli de cartes spectrales. Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Dextérité. En cas d'échec, une créature subit {@damage 2d10} dégâts de force et acquiert l'état {@condition Aveuglé} jusqu'à la fin de son prochain tour. En cas de réussite, une créature ne subit que la moitié de ces dégâts."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 2d10|2-9|1d10} for each slot level above 2nd."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 3 ou supérieur, les dégâts augmentent de {@scaledamage 2d10|2-9|1d10} pour chaque niveau d'emplacement au-delà du niveau 2."
 					]
 				}
 			],

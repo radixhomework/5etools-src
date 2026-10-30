@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Gate Seal",
+			"name": "Sceau de portail",
 			"source": "SatO",
 			"page": 12,
 			"level": 4,
@@ -23,7 +23,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a broken portal key, which the spell consumes",
+					"text": "une clé de portail brisée, que le sort consomme",
 					"consume": true
 				}
 			},
@@ -37,14 +37,14 @@
 				}
 			],
 			"entries": [
-				"You fortify the fabric of the planes in a 30-foot cube you can see within range. Within that area, portals close and can't be opened for the duration. Spells and other effects that allow planar travel or open portals, such as {@spell Portail} or {@spell Déplacement planaire}, fail if used to enter or leave the area. The cube is stationary."
+				"Vous renforcez la trame des plans dans un cube de 9 mètres que vous pouvez voir à portée. Dans cette zone, les portails se ferment et ne peuvent pas être ouverts pendant la durée. Les sorts et autres effets permettant le voyage planaire ou l'ouverture de portails, comme {@spell Portail} ou {@spell Déplacement planaire}, échouent s'ils sont utilisés pour entrer dans la zone ou en sortir. Le cube est immobile."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "À plus haut niveau",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled."
+						"Si vous lancez ce sort en utilisant un emplacement de sort de niveau 6 ou supérieur, le sort persiste jusqu'à ce qu'il soit dissipé."
 					]
 				}
 			],
@@ -53,7 +53,7 @@
 			]
 		},
 		{
-			"name": "Warp Sense",
+			"name": "Perception de la distorsion",
 			"source": "SatO",
 			"page": 12,
 			"level": 2,
@@ -73,7 +73,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a razorvine leaf"
+				"m": "une feuille de ronce-vipère"
 			},
 			"duration": [
 				{
@@ -86,9 +86,9 @@
 				}
 			],
 			"entries": [
-				"For the duration, you sense the presence of portals, even inactive ones, within 30 feet of yourself.",
-				"If you detect a portal in this way, you can use your action to study it. Make a {@dc 15} ability check using your spellcasting ability. On a successful check, you learn the destination plane of the portal and what portal key it requires, then the spell ends. On a failed check, you learn nothing and can't study that portal again using this spell until you cast it again.",
-				"The spell can penetrate most barriers but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+				"Pendant la durée, vous percevez la présence de portails, même inactifs, à 9 mètres ou moins de vous.",
+				"Si vous détectez ainsi un portail, vous pouvez utiliser votre action pour l'étudier. Effectuez un test de caractéristique {@dc 15} en utilisant votre caractéristique d'incantation. En cas de réussite, vous apprenez le plan de destination du portail et la clé de portail qu'il requiert, puis le sort prend fin. En cas d'échec, vous n'apprenez rien et ne pouvez plus étudier ce portail à l'aide de ce sort avant de le lancer à nouveau.",
+				"Le sort peut traverser la plupart des obstacles, mais il est bloqué par 30 centimètres de pierre, 2 centimètres de métal ordinaire, une fine feuille de plomb ou 90 centimètres de bois ou de terre."
 			],
 			"miscTags": [
 				"UA"
